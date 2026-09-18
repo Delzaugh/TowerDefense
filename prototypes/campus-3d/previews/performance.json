@@ -1,0 +1,516 @@
+{
+  "capturedAt": "2026-09-17T23:23:28.441Z",
+  "headless": true,
+  "notes": [
+    "8-second warm samples, 4 camera scenarios, fixed 30 fps target.",
+    "Phone profile is viewport/DPR emulation on this desktop, not a mobile GPU.",
+    "Budget thresholds are provisional prototype regression targets, not universal hardware guarantees.",
+    "Pause should produce zero frames; preset switching should retain resource counts.",
+    "Run at least three times on an otherwise idle machine and compare medians; use Performance panel on physical target devices."
+  ],
+  "results": [
+    {
+      "profile": {
+        "name": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 960
+        },
+        "deviceScaleFactor": 1
+      },
+      "coldLoadMs": 1980.1000000089407,
+      "glbDecodedBytes": 3175460,
+      "uniqueGLBs": 28,
+      "cases": [
+        {
+          "case": "home-active",
+          "capturedAt": "2026-09-17T23:22:15.538Z",
+          "ready": true,
+          "loadMs": 1980.1000000089407,
+          "frames": 241,
+          "fps": 29.999999999999996,
+          "frameIntervalMs": {
+            "p50": 33.30000001192093,
+            "p95": 35.29999999701977
+          },
+          "cpuSubmissionMs": {
+            "p50": 2.9000000059604645,
+            "p95": 4.5
+          },
+          "framesOver50ms": 0,
+          "longTasks": 0,
+          "longTaskMs": 0,
+          "drawCalls": 363,
+          "triangles": 157044,
+          "geometries": 61,
+          "textures": 42,
+          "programs": 19,
+          "meshes": 177,
+          "skinnedMeshes": 20,
+          "glbRequests": 28,
+          "uniqueGLBs": 28,
+          "glbDecodedBytes": 3175460,
+          "viewport": {
+            "width": 1440,
+            "height": 960,
+            "dpr": 1,
+            "bufferWidth": 1420,
+            "bufferHeight": 726
+          },
+          "renderer": "WebKit WebGL",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+          "notes": [
+            "Target: 30 rendered frames/s during ambience. Paused frames are demand-driven.",
+            "CPU time includes animation, presentation and WebGL submission; it is not GPU time.",
+            "Renderer counters include the shadow pass. Texture/geometries are counts, not VRAM bytes.",
+            "Local load time includes parsing, assembly, validation and first render; production network latency is not represented.",
+            "Rolling window: up to 900 frames. Hidden-tab transitions and pause transitions reset frame intervals."
+          ],
+          "view": "home",
+          "zoom": 1,
+          "budget": {
+            "fps": true,
+            "p95Frame": true,
+            "cpu": true,
+            "drawCalls": true,
+            "triangles": true,
+            "textures": true
+          }
+        },
+        {
+          "case": "top-active",
+          "capturedAt": "2026-09-17T23:22:24.635Z",
+          "ready": true,
+          "loadMs": 1980.1000000089407,
+          "frames": 241,
+          "fps": 30.003000300018822,
+          "frameIntervalMs": {
+            "p50": 33.29999999701977,
+            "p95": 41.599999994039536
+          },
+          "cpuSubmissionMs": {
+            "p50": 2.7999999970197678,
+            "p95": 3.7999999970197678
+          },
+          "framesOver50ms": 0,
+          "longTasks": 0,
+          "longTaskMs": 0,
+          "drawCalls": 363,
+          "triangles": 157044,
+          "geometries": 61,
+          "textures": 42,
+          "programs": 19,
+          "meshes": 177,
+          "skinnedMeshes": 20,
+          "glbRequests": 28,
+          "uniqueGLBs": 28,
+          "glbDecodedBytes": 3175460,
+          "viewport": {
+            "width": 1440,
+            "height": 960,
+            "dpr": 1,
+            "bufferWidth": 1420,
+            "bufferHeight": 726
+          },
+          "renderer": "WebKit WebGL",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+          "notes": [
+            "Target: 30 rendered frames/s during ambience. Paused frames are demand-driven.",
+            "CPU time includes animation, presentation and WebGL submission; it is not GPU time.",
+            "Renderer counters include the shadow pass. Texture/geometries are counts, not VRAM bytes.",
+            "Local load time includes parsing, assembly, validation and first render; production network latency is not represented.",
+            "Rolling window: up to 900 frames. Hidden-tab transitions and pause transitions reset frame intervals."
+          ],
+          "view": "top",
+          "zoom": 1,
+          "budget": {
+            "fps": true,
+            "p95Frame": true,
+            "cpu": true,
+            "drawCalls": true,
+            "triangles": true,
+            "textures": true
+          }
+        },
+        {
+          "case": "front-close",
+          "capturedAt": "2026-09-17T23:22:34.013Z",
+          "ready": true,
+          "loadMs": 1980.1000000089407,
+          "frames": 240,
+          "fps": 29.999874477557533,
+          "frameIntervalMs": {
+            "p50": 33.29999999701977,
+            "p95": 41.79999999701977
+          },
+          "cpuSubmissionMs": {
+            "p50": 1.7999999970197678,
+            "p95": 2.7999999970197678
+          },
+          "framesOver50ms": 0,
+          "longTasks": 0,
+          "longTaskMs": 0,
+          "drawCalls": 235,
+          "triangles": 104774,
+          "geometries": 61,
+          "textures": 42,
+          "programs": 19,
+          "meshes": 177,
+          "skinnedMeshes": 20,
+          "glbRequests": 28,
+          "uniqueGLBs": 28,
+          "glbDecodedBytes": 3175460,
+          "viewport": {
+            "width": 1440,
+            "height": 960,
+            "dpr": 1,
+            "bufferWidth": 1420,
+            "bufferHeight": 726
+          },
+          "renderer": "WebKit WebGL",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+          "notes": [
+            "Target: 30 rendered frames/s during ambience. Paused frames are demand-driven.",
+            "CPU time includes animation, presentation and WebGL submission; it is not GPU time.",
+            "Renderer counters include the shadow pass. Texture/geometries are counts, not VRAM bytes.",
+            "Local load time includes parsing, assembly, validation and first render; production network latency is not represented.",
+            "Rolling window: up to 900 frames. Hidden-tab transitions and pause transitions reset frame intervals."
+          ],
+          "view": "front",
+          "zoom": 5,
+          "budget": {
+            "fps": true,
+            "p95Frame": true,
+            "cpu": true,
+            "drawCalls": true,
+            "triangles": true,
+            "textures": true
+          }
+        },
+        {
+          "case": "left-active",
+          "capturedAt": "2026-09-17T23:22:43.092Z",
+          "ready": true,
+          "loadMs": 1980.1000000089407,
+          "frames": 240,
+          "fps": 29.96940362136263,
+          "frameIntervalMs": {
+            "p50": 33.3999999910593,
+            "p95": 41.8999999910593
+          },
+          "cpuSubmissionMs": {
+            "p50": 2.2999999970197678,
+            "p95": 3.9000000059604645
+          },
+          "framesOver50ms": 0,
+          "longTasks": 0,
+          "longTaskMs": 0,
+          "drawCalls": 364,
+          "triangles": 157046,
+          "geometries": 61,
+          "textures": 43,
+          "programs": 19,
+          "meshes": 177,
+          "skinnedMeshes": 20,
+          "glbRequests": 28,
+          "uniqueGLBs": 28,
+          "glbDecodedBytes": 3175460,
+          "viewport": {
+            "width": 1440,
+            "height": 960,
+            "dpr": 1,
+            "bufferWidth": 1420,
+            "bufferHeight": 726
+          },
+          "renderer": "WebKit WebGL",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+          "notes": [
+            "Target: 30 rendered frames/s during ambience. Paused frames are demand-driven.",
+            "CPU time includes animation, presentation and WebGL submission; it is not GPU time.",
+            "Renderer counters include the shadow pass. Texture/geometries are counts, not VRAM bytes.",
+            "Local load time includes parsing, assembly, validation and first render; production network latency is not represented.",
+            "Rolling window: up to 900 frames. Hidden-tab transitions and pause transitions reset frame intervals."
+          ],
+          "view": "left",
+          "zoom": 1,
+          "budget": {
+            "fps": true,
+            "p95Frame": true,
+            "cpu": true,
+            "drawCalls": true,
+            "triangles": true,
+            "textures": true
+          }
+        }
+      ],
+      "pausedFrames": 0,
+      "resourceCountsStable": true,
+      "before": {
+        "geometries": 61,
+        "textures": 43
+      },
+      "after": {
+        "geometries": 61,
+        "textures": 43
+      }
+    },
+    {
+      "profile": {
+        "name": "phone-emulated",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "deviceScaleFactor": 2
+      },
+      "coldLoadMs": 1520.199999988079,
+      "glbDecodedBytes": 3175460,
+      "uniqueGLBs": 28,
+      "cases": [
+        {
+          "case": "home-active",
+          "capturedAt": "2026-09-17T23:22:58.995Z",
+          "ready": true,
+          "loadMs": 1520.199999988079,
+          "frames": 241,
+          "fps": 30.000375004721086,
+          "frameIntervalMs": {
+            "p50": 33.30000001192093,
+            "p95": 40.900000005960464
+          },
+          "cpuSubmissionMs": {
+            "p50": 2.3999999910593033,
+            "p95": 4.0999999940395355
+          },
+          "framesOver50ms": 0,
+          "longTasks": 0,
+          "longTaskMs": 0,
+          "drawCalls": 363,
+          "triangles": 157044,
+          "geometries": 61,
+          "textures": 42,
+          "programs": 19,
+          "meshes": 177,
+          "skinnedMeshes": 20,
+          "glbRequests": 28,
+          "uniqueGLBs": 28,
+          "glbDecodedBytes": 3175460,
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 2,
+            "bufferWidth": 780,
+            "bufferHeight": 928
+          },
+          "renderer": "WebKit WebGL",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+          "notes": [
+            "Target: 30 rendered frames/s during ambience. Paused frames are demand-driven.",
+            "CPU time includes animation, presentation and WebGL submission; it is not GPU time.",
+            "Renderer counters include the shadow pass. Texture/geometries are counts, not VRAM bytes.",
+            "Local load time includes parsing, assembly, validation and first render; production network latency is not represented.",
+            "Rolling window: up to 900 frames. Hidden-tab transitions and pause transitions reset frame intervals."
+          ],
+          "view": "home",
+          "zoom": 1,
+          "budget": {
+            "fps": true,
+            "p95Frame": true,
+            "cpu": true,
+            "drawCalls": true,
+            "triangles": true,
+            "textures": true
+          }
+        },
+        {
+          "case": "top-active",
+          "capturedAt": "2026-09-17T23:23:08.068Z",
+          "ready": true,
+          "loadMs": 1520.199999988079,
+          "frames": 240,
+          "fps": 29.97053106777854,
+          "frameIntervalMs": {
+            "p50": 33.400000005960464,
+            "p95": 42.3999999910593
+          },
+          "cpuSubmissionMs": {
+            "p50": 2.6000000089406967,
+            "p95": 4
+          },
+          "framesOver50ms": 0,
+          "longTasks": 0,
+          "longTaskMs": 0,
+          "drawCalls": 363,
+          "triangles": 157044,
+          "geometries": 61,
+          "textures": 42,
+          "programs": 19,
+          "meshes": 177,
+          "skinnedMeshes": 20,
+          "glbRequests": 28,
+          "uniqueGLBs": 28,
+          "glbDecodedBytes": 3175460,
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 2,
+            "bufferWidth": 780,
+            "bufferHeight": 928
+          },
+          "renderer": "WebKit WebGL",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+          "notes": [
+            "Target: 30 rendered frames/s during ambience. Paused frames are demand-driven.",
+            "CPU time includes animation, presentation and WebGL submission; it is not GPU time.",
+            "Renderer counters include the shadow pass. Texture/geometries are counts, not VRAM bytes.",
+            "Local load time includes parsing, assembly, validation and first render; production network latency is not represented.",
+            "Rolling window: up to 900 frames. Hidden-tab transitions and pause transitions reset frame intervals."
+          ],
+          "view": "top",
+          "zoom": 1,
+          "budget": {
+            "fps": true,
+            "p95Frame": true,
+            "cpu": true,
+            "drawCalls": true,
+            "triangles": true,
+            "textures": true
+          }
+        },
+        {
+          "case": "front-close",
+          "capturedAt": "2026-09-17T23:23:17.486Z",
+          "ready": true,
+          "loadMs": 1520.199999988079,
+          "frames": 240,
+          "fps": 29.967900491512527,
+          "frameIntervalMs": {
+            "p50": 33.3999999910593,
+            "p95": 41.900000005960464
+          },
+          "cpuSubmissionMs": {
+            "p50": 2.2000000029802322,
+            "p95": 3.5999999940395355
+          },
+          "framesOver50ms": 0,
+          "longTasks": 0,
+          "longTaskMs": 0,
+          "drawCalls": 268,
+          "triangles": 117460,
+          "geometries": 61,
+          "textures": 42,
+          "programs": 19,
+          "meshes": 177,
+          "skinnedMeshes": 20,
+          "glbRequests": 28,
+          "uniqueGLBs": 28,
+          "glbDecodedBytes": 3175460,
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 2,
+            "bufferWidth": 780,
+            "bufferHeight": 928
+          },
+          "renderer": "WebKit WebGL",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+          "notes": [
+            "Target: 30 rendered frames/s during ambience. Paused frames are demand-driven.",
+            "CPU time includes animation, presentation and WebGL submission; it is not GPU time.",
+            "Renderer counters include the shadow pass. Texture/geometries are counts, not VRAM bytes.",
+            "Local load time includes parsing, assembly, validation and first render; production network latency is not represented.",
+            "Rolling window: up to 900 frames. Hidden-tab transitions and pause transitions reset frame intervals."
+          ],
+          "view": "front",
+          "zoom": 5,
+          "budget": {
+            "fps": true,
+            "p95Frame": true,
+            "cpu": true,
+            "drawCalls": true,
+            "triangles": true,
+            "textures": true
+          }
+        },
+        {
+          "case": "left-active",
+          "capturedAt": "2026-09-17T23:23:26.569Z",
+          "ready": true,
+          "loadMs": 1520.199999988079,
+          "frames": 241,
+          "fps": 30.001875117194828,
+          "frameIntervalMs": {
+            "p50": 33.29999999701977,
+            "p95": 35
+          },
+          "cpuSubmissionMs": {
+            "p50": 2.5,
+            "p95": 4
+          },
+          "framesOver50ms": 0,
+          "longTasks": 0,
+          "longTaskMs": 0,
+          "drawCalls": 364,
+          "triangles": 157046,
+          "geometries": 61,
+          "textures": 43,
+          "programs": 19,
+          "meshes": 177,
+          "skinnedMeshes": 20,
+          "glbRequests": 28,
+          "uniqueGLBs": 28,
+          "glbDecodedBytes": 3175460,
+          "viewport": {
+            "width": 390,
+            "height": 844,
+            "dpr": 2,
+            "bufferWidth": 780,
+            "bufferHeight": 928
+          },
+          "renderer": "WebKit WebGL",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+          "notes": [
+            "Target: 30 rendered frames/s during ambience. Paused frames are demand-driven.",
+            "CPU time includes animation, presentation and WebGL submission; it is not GPU time.",
+            "Renderer counters include the shadow pass. Texture/geometries are counts, not VRAM bytes.",
+            "Local load time includes parsing, assembly, validation and first render; production network latency is not represented.",
+            "Rolling window: up to 900 frames. Hidden-tab transitions and pause transitions reset frame intervals."
+          ],
+          "view": "left",
+          "zoom": 1,
+          "budget": {
+            "fps": true,
+            "p95Frame": true,
+            "cpu": true,
+            "drawCalls": true,
+            "triangles": true,
+            "textures": true
+          }
+        }
+      ],
+      "pausedFrames": 0,
+      "resourceCountsStable": true,
+      "before": {
+        "geometries": 61,
+        "textures": 43
+      },
+      "after": {
+        "geometries": 61,
+        "textures": 43
+      }
+    }
+  ],
+  "errors": [],
+  "sourceHashes": {
+    "app.js": "8d023baa90b361e723b5319711e773899e524dc398916ff2552d2217611cde95",
+    "campus-layout.js": "8f28cb355598d58b2d6e0f9d67b8081c16069d48d9d2b7b422f121b757b8cf4e",
+    "ambient.js": "8295fddc745d2ad9aa57f289072d67dd5f2366808d90a643a51fbcadd42ac9a4",
+    "guests.js": "da4c98b10c658f9df2ad1eca58cf0ebdfd7340fbd1b497a5dce1ee55b37f7a13",
+    "performance.js": "2424c6a75407644eeade25be3f9c669dc3713f7bd8d9795a2d9fddc7e46a0d60",
+    "companion.js": "b639ad58bca931f6fb6de5d900b4eeede8ec62564a357d1e46feb092c3ba52fe",
+    "presentation.js": "8e5762b341eaf1ca257ce00f1cce6cf5804a0b8206feccbcb4da81d3f817d63d",
+    "light-lines.js": "d5ac8fbfb3df1dd99044263eee66e8eca5887a6bb0a91dc7a206e27d7248ba01",
+    "index.html": "39eb1fc3c4b00bc26c2a3ce470756512af159fc05d0fe0501c5747083c32775d",
+    "style.css": "f53c329f3f72c102d56b34a0b92ac2e926c3629da355c726119ff2abb2013f10"
+  }
+}

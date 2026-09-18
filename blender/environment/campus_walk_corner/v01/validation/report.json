@@ -1,0 +1,37 @@
+{
+  "asset": "campus_walk_corner",
+  "version": "v01",
+  "revision": 6,
+  "sha256": "e9862ad6f6232f8cc3536c728e0be41bef669268f900df8edafbbd7df3d6df48",
+  "checkedAt": "2026-09-17T21:35:28.850Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 188,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    5.600000023841858,
+    0.0860000029206276,
+    5.599999904632568
+  ],
+  "bounds": [
+    [
+      -1.600000023841858,
+      0,
+      0
+    ],
+    [
+      4,
+      0.0860000029206276,
+      5.599999904632568
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/campus_walk_corner/v01/campus_walk_corner_v01.blend",
+  "sourceHash": "d863e92fa0a625e8265d97ccd9671f32744cded6a7be7085533ea6849ed02a6a",
+  "runtime": "assets/runtime/environment/campus_walk_corner_v01.glb"
+}

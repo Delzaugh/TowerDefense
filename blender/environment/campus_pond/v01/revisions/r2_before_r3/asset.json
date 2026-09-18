@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_pond",
+  "displayName": "Campus garden pond",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/campus_pond/v01/campus_pond_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_pond/v01/build.py",
+    "authoritativeHash": "4fa0b4d04261333ccdadc4ce7ce102e8cd6b1a5eddcdc565ad4ac70db827f7a2"
+  },
+  "runtime": "assets/runtime/environment/campus_pond_v01.glb",
+  "budgets": {
+    "triangles": 1500,
+    "materials": 1,
+    "textures": 0,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "prototypes/hub/previews/before-3d-study.png",
+      "provenance": "Project-owned Glacier SVG campus, including floating panel, inset paths and faceted landscaping."
+    },
+    {
+      "path": "tools/asset-recipes/campus-kit.py",
+      "provenance": "Shared geometry helper used by the local versioned recipe."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/campus_pond/v01/decisions.md",
+  "delivery": {
+    "sha256": "be4c122a8a25b8077ce379f59215fba725669a3f4b91c320b45a268717af86b9",
+    "sourceHash": "4fa0b4d04261333ccdadc4ce7ce102e8cd6b1a5eddcdc565ad4ac70db827f7a2",
+    "report": "blender/environment/campus_pond/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T20:39:47.692Z"
+  }
+}

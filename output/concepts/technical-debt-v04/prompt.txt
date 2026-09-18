@@ -1,0 +1,39 @@
+Use case: precise-object-edit / stylized-concept. EDIT the supplied Technical Debt Ledger Variations sheet. Preserve the exact 1672x941 aspect ratio, navy background, 3x2 six-panel grid, borders, floor grids, number badges, margins, category General Asset, and all six ledger identities and front-view camera. User feedback: "it looks too clean, technical debt is considered smelly, dirty." Make a decisive visual transformation: these are NEGLECTED, GRIMY, SMELLY administrative technical-debt ledgers with stale unresolved software work. Current pristine blue books and ivory pages must become visibly dirty and unpleasant at a glance.
+
+Keep approachable stylized LOW-POLY game art, chunky forms and minimal large color patches. Broad low-frequency grime shapes, not photorealistic tiny texture noise. A few distinct thick olive-green curved stink wisps hover close ABOVE each book inside its panel, kept away from badges and header. These are presentation effects, not text or arrows. Reduce books slightly if needed to make room for visible wisps. Books remain dominant. Use muted dirty blue covers, yellowed beige pages, muddy brown stains, sickly olive mildew and dull amber unresolved task accents. Dirty grime must cover a meaningful portion of each book (about one third of visible surface), clearly visible at thumbnail scale. Tarnished binding, chipped cover corners, warped page blocks, a few torn broad tabs, clogged grime in page gutters. No clean white paper. No shiny gold. No horror, gore, teeth, eyes or monster faces. No fantasy spellbook styling. Still read as software administration records.
+
+Apply these differentiated dirt treatments to the existing six designs:
+01 Deferred Fixes — OPEN book with code brackets left, three unfinished task checkboxes right and overdue clock bookmark. Large brown spill ring on yellowed paper, greasy thumb stains at lower corners, olive mildew collecting visibly in the gutter and creeping over page edges. Preserve large readable software and unfinished-task symbols. Two chunky green stink curls above.
+02 Shortcut Register — CLOSED patched-code book. Cover scuffed and smeared with dark grease; temporary amber patch crooked, battered and stained. Swollen uneven yellow-brown page block, three bent dirty debt tabs. Olive residue leaks from lower binding as a SMALL connected smear beneath book. One bold green stink wisp above. Make neglect unmistakable.
+03 Dependency Record — OPEN dependency register. The linked node symbols stay clear, but the flagged node is surrounded by a spreading broad olive rot patch. Page corners crumbling and misshapen, old replacement tabs grimy and peeling. Two simple stink wisps above. No tiny insects or noise.
+04 Test Deficit — WIDE ring-bound testing register. Tarnished rusty-brown rings, yellowed sagging page surface, dirty handprint-like broad stains, two incomplete amber test boxes partly surrounded by stagnant green sludge; the code symbol and checks remain readable. A broad torn lower page corner, muted green odor curls.
+05 Rework Balance — OPEN overstuffed accounting ledger. Three growing amber rework bars and return arrow remain recognizable. Lower page block darkly water-stained with thick uneven swollen layers, a large dried spill across its pages, grimy folded top corners. Sickly vapor above emphasizes work festering over time.
+06 Legacy Volume — thick CLOSED maintenance archive. Blue cover badly worn with large brown grime and olive mold patches at corners. Curly braces around a wrench and amber clock remain bold. Thick stale yellow page layers, crooked torn top tabs, dirt packed around the spine hinges. Two chunky green odor curls above.
+
+Same consistent front orthographic view and lighting. Full assets visible above text areas, no overlap. Do not add environment props. These are six dirty variations of the selected ledger concept, not unrelated objects. Each should look feasible as a simple game prop below 2500 triangles; do not print stats.
+
+Keep title: Technical Debt Ledger Variations
+Replace subtitle with: Neglected code records with grime decay and unresolved work.
+Keep category: General Asset
+Keep names, replace descriptions with EXACT:
+01 Deferred Fixes
+Stained code entries with festering overdue tasks
+02 Shortcut Register
+Greasy patched cover with swollen debt tabs
+03 Dependency Record
+Mildewed dependency records with decaying replacement tabs
+04 Test Deficit
+Grimy test ledger with rusted binding rings
+05 Rework Balance
+Waterlogged records accumulate stale unresolved rework
+06 Legacy Volume
+Moldy maintenance archive with worn repair symbols
+
+Preserve clean professional sheet layout and typography; ONLY the model subjects are dirty. All text must remain clean and perfectly legible. No extra panels, footer, annotations, tiny prose on models, logos, watermarks, or unrelated decorations.
+
+REFINEMENT PASS
+Edit this six-panel dirty Technical Debt Ledger Variations sheet with ONE targeted correction: simplify the models into chunky LOW-POLY GAME ASSETS while KEEPING THEM VERY DIRTY AND SMELLY. Preserve exact layout, text, badges, all six book designs, icons, palette, stains and general mood. All typography must stay exact and perfectly legible.
+
+Current image has excessive realistic cracked leather, hundreds of tiny mottled stains, frayed paper fibres, detailed corrosion and noisy mold. Remove ALL that micro-detail. Use completely smooth matte low-poly cover and page surfaces interrupted by just 3-5 LARGE SOLID irregular polygonal brown grease stains and olive mildew patches per book. Each stain is a broad visible color region, not speckling, not textured noise. Yellow-beige paper, dull dirty blue covers, muted amber tabs. Retain the large coffee ring on option 01 as one SIMPLE broad polygonal ring stain. The mold in the page gutters is one broad olive strip. No realistic material texture at all. Keep a few oversized chips or torn page corners, modeled as simple cut shapes. Each page block consists of 3-5 thick slabs, no dozens of fine paper layers. Rusty binding rings are just solid warm brown with one ochre patch. Every cover bevel, ring and paper edge is simple faceted geometry. Keep the oily smear below option 02 as one small flat dark olive blob. Dirt must remain visually strong at thumbnail scale; do not return the books to pristine condition.
+
+Retain ONE or TWO thick simple green stink curls above each book, but fit them fully INSIDE their respective panels, below panel top borders. Reduce model height slightly if necessary. No odor overlaps header, margins or number badges. All front orthographic camera, consistent lighting and scale. Friendly chunky game-art rendering, strongly readable code symbols and unfinished tasks. Not photoreal, not antique realism, no dense textures. Preserve exact clean template background and all current text.

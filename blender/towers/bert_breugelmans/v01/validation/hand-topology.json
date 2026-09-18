@@ -1,0 +1,25 @@
+{
+  "revision": 8,
+  "sourceHash": "97d769752983c17733f75cb4caf62b1c856cc3cecdfae3f7b3f65376d79c73a1",
+  "hands": {
+    "l": {
+      "vertices": 132,
+      "faces": 127,
+      "components": 1,
+      "nonmanifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "volume": 0.0015189615032475455,
+      "passed": true
+    },
+    "r": {
+      "vertices": 132,
+      "faces": 127,
+      "components": 1,
+      "nonmanifoldEdges": 0,
+      "zeroAreaFaces": 0,
+      "volume": 0.001518795055913373,
+      "passed": true
+    }
+  },
+  "passed": true
+}

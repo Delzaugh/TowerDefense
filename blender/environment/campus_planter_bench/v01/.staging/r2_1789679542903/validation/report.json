@@ -1,0 +1,37 @@
+{
+  "asset": "campus_planter_bench",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "fa8fcc79bada2b80c10536a7d9187ec710e9bec89e4353bb93fa6148aa90f400",
+  "checkedAt": "2026-09-17T21:12:26.080Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 828,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    3.34499990940094,
+    1.3799999952316284,
+    1.25
+  ],
+  "bounds": [
+    [
+      -1.5999999046325684,
+      0,
+      -0.625
+    ],
+    [
+      1.7450000047683716,
+      1.3799999952316284,
+      0.625
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "100fd68973f24746774f7dc43022ad519d802778b8242c2f560ceeb2acbfef36",
+  "source": "blender/environment/campus_planter_bench/v01/campus_planter_bench_v01.blend",
+  "runtime": "assets/runtime/environment/campus_planter_bench_v01.glb"
+}

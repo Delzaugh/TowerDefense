@@ -1,0 +1,36 @@
+{
+  "asset": "campus_base_hex",
+  "version": "v01",
+  "revision": 8,
+  "sha256": "9a75349443297c186922c673266c3106cd0890634bd1166a81e75197d954fafd",
+  "sourceHash": "e745a313647b478ff6072c6f86612f1d1814b0de9560c5cafc342168754f0d12",
+  "reviewedAt": "2026-09-17T22:04:42.836Z",
+  "reviewer": "Codex visual inspection",
+  "status": "reviewed",
+  "artisticAcceptance": "Approved dusk palette retained; new surface texture awaits user feedback.",
+  "views": [
+    "blender/environment/campus_base_hex/v01/renders/inspector-iso.png",
+    "blender/environment/campus_base_hex/v01/renders/inspector-top.png",
+    "blender/environment/campus_base_hex/v01/renders/inspector-rear.png"
+  ],
+  "notes": [
+    "Matte mineral-composite top with fine aggregate and low-contrast mottling; no tile grid.",
+    "Quiet perimeter joins level across seven rotated tiles. Dimensions unchanged: radius 18 m, thickness 1.2 m.",
+    "108 triangles, one mesh, one material and one packed 512 atlas; source and delivered GLB hashes verified.",
+    "Eight-tile expansion fixture passes using metadata instead of a hardcoded model name."
+  ],
+  "compositionEvidence": [
+    "prototypes/campus-3d/previews/home-desktop.png",
+    "prototypes/campus-3d/previews/home-phone.png"
+  ],
+  "validationEvidence": [
+    "prototypes/campus-3d/previews/verification.json",
+    "prototypes/campus-3d/previews/tile-growth-audit.json",
+    "blender/environment/campus_base_hex/v01/validation/report.json"
+  ],
+  "limits": [
+    "Park and hill tile families are documented design directions, not delivered assets.",
+    "The spatial top region is edited through the packed image or surface.py; Inspector solid swatches affect only their assigned flat regions.",
+    "Phone checks use browser emulation, not physical-device performance profiling."
+  ]
+}

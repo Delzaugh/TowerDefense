@@ -1,0 +1,67 @@
+{
+  "errors": [],
+  "state": {
+    "loading": false,
+    "activePath": "towers/github_octocat_classic_lowpoly_v01.glb",
+    "view": "iso",
+    "projection": "OrthographicCamera",
+    "distance": 12.931985990969975,
+    "target": [
+      -0.00006687641143798828,
+      1.5382505655288696,
+      -0.05289021134376526
+    ],
+    "camera": [
+      6.70937972896456,
+      8.195880656567676,
+      8.77295532838481
+    ],
+    "effects": [
+      {
+        "path": "towers/github_octocat_classic_lowpoly_v01.glb",
+        "enabled": false,
+        "triangles": 0,
+        "meshes": 0,
+        "materials": 0
+      }
+    ],
+    "entries": [
+      {
+        "path": "towers/github_octocat_classic_lowpoly_v01.glb",
+        "revision": "06d4143d55ed4f1a120d61772ee103ccbc2e614741e3cb7b95babc10c9a735a6",
+        "triangles": 3490,
+        "meshes": 13,
+        "materials": 2,
+        "bounds": [
+          [
+            -1.5689857006072998,
+            0,
+            -0.8077588677406311
+          ],
+          [
+            1.5688519477844238,
+            3.0765011310577393,
+            0.7019784450531006
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [],
+        "clip": null,
+        "time": 0,
+        "playing": false,
+        "loop": true,
+        "speed": 1,
+        "pose": []
+      }
+    ]
+  }
+}

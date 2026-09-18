@@ -1,0 +1,17 @@
+{
+  "asset": "campus_wayfinding_sign",
+  "revision": 4,
+  "sha256": "80fe023bbf7ea450c6eec5b58559db280006f5eefdfe456203af8322a5a1a7be",
+  "sourceHash": "09d1e5d2044fd5f37eca111a5e04634ab572439cacc6fe3bf5bf81e714d03776",
+  "reviewedViews": [
+    "iso",
+    "front",
+    "side",
+    "rear",
+    "close_front",
+    "phone"
+  ],
+  "technicalValidationPassed": true,
+  "visualReview": "Personally inspected exported front, side, isometric, rear, close-front and phone views. Canonical stepped purple Copilot silhouette, blue goggles and green eyes are consistent across all six assets. Mounting and depth checked; small consumer badges are secondary details and do not retain eye detail at distant game scale.",
+  "artisticAcceptance": "pending_user_review"
+}

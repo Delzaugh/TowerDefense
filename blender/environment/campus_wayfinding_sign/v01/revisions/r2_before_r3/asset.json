@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_wayfinding_sign",
+  "displayName": "Campus wayfinding sign",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/campus_wayfinding_sign/v01/campus_wayfinding_sign_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_wayfinding_sign/v01/build.py",
+    "authoritativeHash": "6990b5b96d15055e250d6d9ee12da302ef4a64f150bd2c8257acba6e6edbc23c"
+  },
+  "runtime": "assets/runtime/environment/campus_wayfinding_sign_v01.glb",
+  "budgets": {
+    "triangles": 1600,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 64,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui"
+    ],
+    "dimensions": {
+      "min": [
+        0.5,
+        0.5,
+        0.3
+      ],
+      "max": [
+        2.7,
+        3.1,
+        1.2
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "provenance": "User-approved five campus decorative concepts in this task; sculpture explicitly uses </>."
+    },
+    {
+      "path": "blender/environment/campus_tree_round/v01/campus_tree_round_v01.blend",
+      "provenance": "Project-owned Glacier campus palette, faceted foliage and clipped planter base."
+    },
+    {
+      "path": "tools/asset-recipes/campus-decor.py",
+      "provenance": "Shared original procedural geometry for these five decorative assets."
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/copilot_base_v02.blend",
+      "provenance": "Existing Copilot goggles, dark faceplate and paired cyan eyes inform decorative badges and the miniature barista."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "budgets.triangles",
+      "reason": "Themed composite vignette includes readable Copilot/AI symbols and furniture; one mesh and material, tiny embedded palette."
+    }
+  ],
+  "milestones": [],
+  "decisions": "blender/environment/campus_wayfinding_sign/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "campus_decor_palette",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#E2EDF0",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "edge": {
+          "color": "#ADC5D2",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "glass": {
+          "color": "#305775",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "teal": {
+          "color": "#70B5B4",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "leaf_light": {
+          "color": "#86C2BD",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "leaf_dark": {
+          "color": "#609D9E",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "soil": {
+          "color": "#7B9E9F",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "wood": {
+          "color": "#B88964",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "wood_light": {
+          "color": "#D3AB7D",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "coral": {
+          "color": "#DC897C",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        },
+        "yellow": {
+          "color": "#E5C577",
+          "rect": [
+            40,
+            0,
+            4,
+            4
+          ]
+        },
+        "coffee": {
+          "color": "#644B40",
+          "rect": [
+            44,
+            0,
+            4,
+            4
+          ]
+        },
+        "violet": {
+          "color": "#9271CE",
+          "rect": [
+            48,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#5DD9E8",
+          "rect": [
+            52,
+            0,
+            4,
+            4
+          ]
+        },
+        "navy": {
+          "color": "#263751",
+          "rect": [
+            56,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "c713be5b7a7054c155205157284cc7b4ccd0c522816c5be3e437bb851f53fda3",
+    "sourceHash": "6990b5b96d15055e250d6d9ee12da302ef4a64f150bd2c8257acba6e6edbc23c",
+    "report": "blender/environment/campus_wayfinding_sign/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T21:12:32.646Z"
+  }
+}

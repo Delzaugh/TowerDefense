@@ -1,0 +1,46 @@
+{
+  "sourceHash": "888176f03eb21f610e89d111e41744154f6acbe569a056b6f065f2cca9512d29",
+  "hands": [
+    {
+      "side": "l",
+      "vertices": 162,
+      "polygons": 173,
+      "components": 1,
+      "nonmanifoldEdges": 0,
+      "minimumFaceArea": 6.214380118763074e-05,
+      "nonAdjacentSelfIntersections": []
+    },
+    {
+      "side": "r",
+      "vertices": 162,
+      "polygons": 173,
+      "components": 1,
+      "nonmanifoldEdges": 0,
+      "minimumFaceArea": 6.214380118763074e-05,
+      "nonAdjacentSelfIntersections": []
+    }
+  ],
+  "animated": [
+    {
+      "clip": "idle",
+      "frames": 61,
+      "selfIntersections": []
+    },
+    {
+      "clip": "work",
+      "frames": 121,
+      "selfIntersections": []
+    },
+    {
+      "clip": "move",
+      "frames": 37,
+      "selfIntersections": []
+    },
+    {
+      "clip": "celebrate_team",
+      "frames": 97,
+      "selfIntersections": []
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,10 @@
+# OS and editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Blender autosave files
+**/*.blend1
+**/*.blend2
+**/*.blend@*

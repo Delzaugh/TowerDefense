@@ -1,0 +1,25 @@
+{
+  "copilot_draft": {
+    "mesh_count": 5,
+    "vertices": 5892,
+    "triangles": 10058,
+    "material_slots": 5,
+    "dimensions": [
+      2.97,
+      2.54,
+      2.35
+    ]
+  },
+  "kaykit_basemodule_a": {
+    "mesh_count": 1,
+    "vertices": 1048,
+    "triangles": 586,
+    "material_slots": 1,
+    "dimensions": [
+      2.248,
+      2.176,
+      1
+    ]
+  },
+  "reference_file": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_A.gltf"
+}

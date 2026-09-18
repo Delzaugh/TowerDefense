@@ -1,0 +1,67 @@
+{
+  "asset": "problem_missing_details",
+  "revision": 10,
+  "sha256": "807ac0cdfddd3911515b10fcf413e9fdc5c1640bc3e0c53ed67518616077d808",
+  "paletteControls": 11,
+  "errors": [],
+  "diff": [
+    {
+      "view": "iso",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.012343981481481482
+    },
+    {
+      "view": "front",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.04269166666666667
+    },
+    {
+      "view": "rear",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.005341203703703704
+    },
+    {
+      "view": "side",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.001548611111111111
+    },
+    {
+      "view": "top",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.002896296296296296
+    },
+    {
+      "view": "idle",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.009306018518518519
+    },
+    {
+      "view": "move",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.009382407407407407
+    },
+    {
+      "view": "hit",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.006201388888888889
+    },
+    {
+      "view": "resolve",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0029875
+    },
+    {
+      "view": "sit_down",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.010857407407407408
+    },
+    {
+      "view": "seated",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.01668148148148148
+    }
+  ],
+  "visualReview": "Reviewed by Codex: before/after appearance, front and reverse views, clip poses where present, and phone-scale silhouette. No conversion-induced visual regression observed; artistic user acceptance remains separate.",
+  "reviewedAt": "2026-09-17T21:03:25.431Z",
+  "evidence": "blender/enemies/problem_missing_details/v01/validation/palette_migration_r10/palette_review.png"
+}

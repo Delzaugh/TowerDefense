@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_lights",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "9fe87ab36843de2643adc2a1508562af21fc75114c5327fb3a27a9eb7e281d74",
+  "checkedAt": "2026-09-17T21:34:30.510Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 356,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    0.6799910068511963,
+    0.9983780705478011,
+    0.6799799203872681
+  ],
+  "bounds": [
+    [
+      -0.33999553322792053,
+      -0.0000012838389693570207,
+      -0.33998996019363403
+    ],
+    [
+      0.33999547362327576,
+      0.9983767867088318,
+      0.33998996019363403
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_lights/v01/kaykit_lights_v01.blend",
+  "sourceHash": "0d6681f0240c82135259210fc088d5d03a355c1064b1746f742878160c7b371d",
+  "runtime": "assets/runtime/environment/kaykit_lights_v01.glb"
+}

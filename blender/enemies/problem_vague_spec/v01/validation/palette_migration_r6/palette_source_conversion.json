@@ -1,0 +1,15 @@
+{
+  "asset": "problem_vague_spec",
+  "geometryHash": "1089b4d4999fe5b4afaad7eae07fe398e664f8d6c45ed8677d886c20999c12a8",
+  "maxLinearColorError": 2.7672028779512914e-8,
+  "size": [
+    32,
+    8
+  ],
+  "materials": [
+    "parchment_palette"
+  ],
+  "usedRoles": 10,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\enemies\\problem_vague_spec\\v01\\problem_vague_spec_v01.blend"
+}

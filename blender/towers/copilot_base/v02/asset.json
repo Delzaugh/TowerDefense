@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "version": "v02",
+  "revision": 3,
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action"
+    ],
+    "dimensions": {
+      "min": [
+        2.2,
+        1.75,
+        1.9
+      ],
+      "max": [
+        2.35,
+        1.85,
+        2.05
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "blender/towers/copilot_base/v01/references/original_collection.blend",
+      "provenance": "Preserved original project draft collection; source-faithful low-poly adaptation."
+    },
+    {
+      "path": "blender/towers/copilot_base/v01/copilot_base_v01.blend",
+      "provenance": "Exact source copied for the user-requested animation improvement, 2026-09-12. Original meshes, UVs, palette and rest dimensions retained."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "contract.dimensions",
+      "reason": "Preserve existing reference dimensions (1.80 m high); registration does not resize the approved source."
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/copilot_base/v02/revisions/r2_before_r3/copilot_base_v02.glb",
+      "source": "blender/towers/copilot_base/v02/revisions/r2_before_r3/copilot_base_v02.blend",
+      "sha256": "c25f3d3623658a57925aaee65a5f688e6de4e19bdea444a665a2781f13d1588e",
+      "sourceHash": "faefde91c627055507c374a073d8133179bfc06f8fef59b9833022ed3167dd55"
+    }
+  ],
+  "id": "copilot_base",
+  "displayName": "Copilot animated",
+  "category": "towers",
+  "source": {
+    "path": "blender/towers/copilot_base/v02/copilot_base_v02.blend",
+    "mode": "manual",
+    "authoritativeHash": "faefde91c627055507c374a073d8133179bfc06f8fef59b9833022ed3167dd55"
+  },
+  "runtime": "assets/runtime/towers/copilot_base_v02.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 2,
+    "textures": 1,
+    "bones": 3,
+    "meshes": 2,
+    "textureSize": 512
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "playback": "loop",
+      "fps": 24,
+      "meaning": "2.5-second gentle hover and curious sway with one blink; 0.18 m nominal visual lift."
+    },
+    {
+      "name": "work",
+      "playback": "loop",
+      "fps": 24,
+      "meaning": "1.5-second focused forward nod and attentive eye narrowing while doing sustained work."
+    },
+    {
+      "name": "place",
+      "playback": "once",
+      "fps": 24,
+      "meaning": "1.25-second descending placement settle, ending at the ready hover height."
+    },
+    {
+      "name": "hit",
+      "playback": "once",
+      "fps": 24,
+      "meaning": "0.75-second non-terminal recoil and eye squeeze, recovering to the ready hover pose."
+    }
+  ],
+  "decisions": "blender/towers/copilot_base/v02/decisions.md",
+  "delivery": {
+    "sha256": "2fd051fc4a50e490154bc0ba52ecfcaafbb637bb323ef41d4754c45e540456e0",
+    "sourceHash": "faefde91c627055507c374a073d8133179bfc06f8fef59b9833022ed3167dd55",
+    "report": "blender/towers/copilot_base/v02/validation/report.json",
+    "deliveredAt": "2026-09-12T14:48:12.919Z"
+  }
+}

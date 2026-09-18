@@ -1,0 +1,37 @@
+{
+  "asset": "campus_pixel_rubber_duck",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "c51ea1add9a9fd897ef2b8ee4a340c9af22a90a0367d41f7345ccfa97bcade7c",
+  "checkedAt": "2026-09-17T22:07:59.428Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 330,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    0.550000011920929,
+    0.5,
+    0.09000000357627869
+  ],
+  "bounds": [
+    [
+      -0.2750000059604645,
+      0,
+      -0.04500000178813934
+    ],
+    [
+      0.2750000059604645,
+      0.5,
+      0.04500000178813934
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "0871bda20f69b0a3ad420a52872d50f39c546798c639b12d6395028e99bda152",
+  "source": "blender/environment/campus_pixel_rubber_duck/v01/campus_pixel_rubber_duck_v01.blend",
+  "runtime": "assets/runtime/environment/campus_pixel_rubber_duck_v01.glb"
+}

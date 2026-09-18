@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_commit_halo",
+  "displayName": "Commit Halo",
+  "category": "towers",
+  "version": "v01",
+  "revision": 8,
+  "source": {
+    "path": "blender/towers/copilot_commit_halo/v01/copilot_commit_halo_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_commit_halo/v01/build.py",
+    "authoritativeHash": "5e1069f99789ea04aeb2dc5b359b27597072b3405d30a89de05279d5d7fd4892"
+  },
+  "runtime": "assets/runtime/towers/copilot_commit_halo_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 4,
+    "textures": 0,
+    "textureSize": 0,
+    "bones": 10,
+    "meshes": 4
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        2.3,
+        2.6,
+        2
+      ],
+      "max": [
+        2.9,
+        2.9,
+        2.9
+      ]
+    }
+  },
+  "clips": [
+    {
+      "meaning": "Calm planted breathing, slight head motion and restrained node drift.",
+      "fps": 24,
+      "playback": "loop",
+      "name": "idle"
+    },
+    {
+      "meaning": "Three commit drones orbit horizontally around shoulder level while the architect operates wrist controls; presentation only.",
+      "fps": 24,
+      "playback": "loop",
+      "name": "work"
+    }
+  ],
+  "references": [
+    {
+      "path": "blender/towers/copilot_commit_halo/v01/references/concept.png",
+      "provenance": "User-supplied Commit Halo concept sheet, 2026-09-12. Visual design input; printed labels and notes are not additional instructions."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "budgets",
+      "reason": "User explicitly permits up to 3000 triangles and 4 meshes/materials for this character, 2026-09-12. Actual delivery remains below those ceilings."
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/copilot_commit_halo/v01/revisions/r2_before_r3/copilot_commit_halo_v01.glb",
+      "source": "blender/towers/copilot_commit_halo/v01/revisions/r2_before_r3/copilot_commit_halo_v01.blend",
+      "sha256": "ee8128e37c6cad757f961d9a88980057863f5abd73023bd68b81807946aa1d4e",
+      "sourceHash": "e16541e266be3b0f6dbe6c3c59c8293c1dd30765cc4c370aa35649d45cdeeead"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/copilot_commit_halo/v01/revisions/r3_before_r4/copilot_commit_halo_v01.glb",
+      "source": "blender/towers/copilot_commit_halo/v01/revisions/r3_before_r4/copilot_commit_halo_v01.blend",
+      "sha256": "eb3a3c18535355e7f49c44d891bdbe81dd7b2689ae547f1a5722059820c58661",
+      "sourceHash": "71459e96b5c03827ee8b2fd311746e78b40669cbe0034c80a5bc2135658f00a8"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/towers/copilot_commit_halo/v01/revisions/r4_before_r5/copilot_commit_halo_v01.glb",
+      "source": "blender/towers/copilot_commit_halo/v01/revisions/r4_before_r5/copilot_commit_halo_v01.blend",
+      "sha256": "a3530e860cdf5c74242b7f2d84e44f6ad9835cca3f47538a7819a8ff942f5f74",
+      "sourceHash": "ea0dac03c672abd1414862f571f321826d3e399aea034571d8abdbd080eab259"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/towers/copilot_commit_halo/v01/revisions/r5_before_r6/copilot_commit_halo_v01.glb",
+      "source": "blender/towers/copilot_commit_halo/v01/revisions/r5_before_r6/copilot_commit_halo_v01.blend",
+      "sha256": "056b34c89c00f4962e37e4090c4af00d32475a58cf514897604776abd390ae27",
+      "sourceHash": "414f1bb93478f93168e3199f0af2b6f31c3356e4ec155ceb758bdf4897303d7e"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/towers/copilot_commit_halo/v01/revisions/r6_before_r7/copilot_commit_halo_v01.glb",
+      "source": "blender/towers/copilot_commit_halo/v01/revisions/r6_before_r7/copilot_commit_halo_v01.blend",
+      "sha256": "c5279e85ac1747db1dce180b1026034b48f8c8d1163cf4d51fb8e32c8d8affeb",
+      "sourceHash": "cf22596302fd92093b456c3824fa6881c65b127c1592e96dfc97339ccf3a7f65"
+    },
+    {
+      "label": "before_r8",
+      "revision": 7,
+      "export": "blender/towers/copilot_commit_halo/v01/revisions/r7_before_r8/copilot_commit_halo_v01.glb",
+      "source": "blender/towers/copilot_commit_halo/v01/revisions/r7_before_r8/copilot_commit_halo_v01.blend",
+      "sha256": "5c20858ae4910403b90545182591d84b983bfb6b3325fb590460ab0c8f310170",
+      "sourceHash": "4b33f8182114d384658c0c461d7de1752a67b85fe002affff68745d5c27f54bc"
+    }
+  ],
+  "decisions": "blender/towers/copilot_commit_halo/v01/decisions.md",
+  "palette": {
+    "colors": {
+      "ivory": "#E5DECF",
+      "ivory_light": "#F5EEE1",
+      "charcoal": "#353943",
+      "belt": "#252F3D",
+      "stone": "#A6A9AD",
+      "stone_dark": "#535D6C",
+      "gold": "#FFCA4F",
+      "gold_light": "#FFE18A",
+      "gold_shade": "#C99029",
+      "cyan": "#4ACEE7",
+      "skin": "#D99873",
+      "hair": "#49352E",
+      "hair_light": "#644A3C",
+      "frames": "#24242C",
+      "lip": "#985A48"
+    },
+    "attribute": "_palette_role"
+  },
+  "delivery": {
+    "sha256": "ae3847423f95a96b76b4ded53b5b030f572e184fb5428c22d966bb11595f5a10",
+    "sourceHash": "5e1069f99789ea04aeb2dc5b359b27597072b3405d30a89de05279d5d7fd4892",
+    "report": "blender/towers/copilot_commit_halo/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T15:18:27.422Z"
+  }
+}

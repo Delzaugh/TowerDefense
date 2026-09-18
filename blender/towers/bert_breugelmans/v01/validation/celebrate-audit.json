@@ -1,0 +1,43 @@
+{
+  "revision": 36,
+  "sourceHash": "888176f03eb21f610e89d111e41744154f6acbe569a056b6f065f2cca9512d29",
+  "scope": "Celebration contacts and continuity; preservation is checked separately in work-walk-arms-audit.json.",
+  "samples": 193,
+  "contacts": [
+    {
+      "frame": 28.0,
+      "surfaceVertexDistance": 0.0013160526286810637,
+      "triangleIntersections": 0
+    },
+    {
+      "frame": 40.0,
+      "surfaceVertexDistance": 0.0013158932561054826,
+      "triangleIntersections": 0
+    },
+    {
+      "frame": 54.0,
+      "surfaceVertexDistance": 0.001315703266300261,
+      "triangleIntersections": 0
+    }
+  ],
+  "handIntersections": [],
+  "maxSoleDriftMetres": 5.500976127883519e-06,
+  "soleHeightRange": [
+    -5.494065590028185e-06,
+    1.946002186059559e-07
+  ],
+  "minimumElbowBelowShoulderMetres": 0.1640474796295166,
+  "maxHalfFrameBoneRotationDegrees": 7.248460563274223,
+  "maxHalfFrameWristTravelMetres": 0.03474622150473242,
+  "endpoints": [
+    {
+      "frame": 0.0,
+      "maxRestMatrixError": 2.980232594040899e-08
+    },
+    {
+      "frame": 96.0,
+      "maxRestMatrixError": 2.980232594040899e-08
+    }
+  ],
+  "passed": true
+}

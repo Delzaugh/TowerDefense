@@ -1,0 +1,37 @@
+{
+  "asset": "campus_base_hex",
+  "version": "v01",
+  "revision": 6,
+  "sha256": "3d063ffdfb02375b8bfde0bc3b495c2f8365f60c4b0d370771fe39cf02c16262",
+  "checkedAt": "2026-09-17T21:12:19.834Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 108,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    36,
+    1.2000000476837158,
+    31.17691421508789
+  ],
+  "bounds": [
+    [
+      -18,
+      0,
+      -15.588457107543945
+    ],
+    [
+      18,
+      1.2000000476837158,
+      15.588457107543945
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "a2887e22d37b7e54adadbe5368f017e2d4464acccf3cff1612b369c247ba41f9",
+  "source": "blender/environment/campus_base_hex/v01/campus_base_hex_v01.blend",
+  "runtime": "assets/runtime/environment/campus_base_hex_v01.glb"
+}

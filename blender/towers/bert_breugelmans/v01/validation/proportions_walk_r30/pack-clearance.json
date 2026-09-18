@@ -1,0 +1,36 @@
+{
+  "revision": 30,
+  "sourceHash": "12f246e1a4734ad12104b53c65a57da0fa09d1deaf172ec5235db6644778422e",
+  "runtimeHash": "3fc9bbe93c118cfc16caa212fa71586979aa155816a92d17853be5081fc15296",
+  "clips": [
+    {
+      "clip": "idle",
+      "frames": 61,
+      "triangleIntersections": 0,
+      "minimumSampledHeadVertexDistanceMetres": 0.05956529825925827,
+      "passed": true
+    },
+    {
+      "clip": "work",
+      "frames": 121,
+      "triangleIntersections": 0,
+      "minimumSampledHeadVertexDistanceMetres": 0.05584469437599182,
+      "passed": true
+    },
+    {
+      "clip": "celebrate_team",
+      "frames": 97,
+      "triangleIntersections": 0,
+      "minimumSampledHeadVertexDistanceMetres": 0.05044526606798172,
+      "passed": true
+    },
+    {
+      "clip": "move",
+      "frames": 37,
+      "triangleIntersections": 0,
+      "minimumSampledHeadVertexDistanceMetres": 0.054802507162094116,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_pixel_mona",
+  "displayName": "Campus pixel Mona",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/campus_pixel_mona/v01/campus_pixel_mona_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_pixel_mona/v01/build.py",
+    "authoritativeHash": "2eba9a8230146fe97174e3ba4f10412761c80750bb8b54c0fc97b08524daf009"
+  },
+  "runtime": "assets/runtime/environment/campus_pixel_mona_v01.glb",
+  "budgets": {
+    "triangles": 800,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 32,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui"
+    ],
+    "dimensions": {
+      "min": [
+        0.549,
+        0.499,
+        0.089
+      ],
+      "max": [
+        0.551,
+        0.501,
+        0.091
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/github_mona_head/v01/github_mona_head_v01.blend",
+      "provenance": "Existing authoritative character design, interpreted as a small pixel emblem."
+    },
+    {
+      "path": "blender/environment/campus_pixel_copilot/v01/campus_pixel_copilot_v01.blend",
+      "provenance": "User-approved chunky pixel family treatment and shallow 0.09 m extrusion."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/campus_pixel_mona/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "pixel_mona_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "mona_purple": {
+          "color": "#8432F2",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "mona_face": {
+          "color": "#CC8EF4",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "mona_eye_white": {
+          "color": "#F7F5FF",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "pixel_dark": {
+          "color": "#0D1117",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "mona_smile": {
+          "color": "#874AAD",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "158d4f849f5a10df3668ad0d023c8cb225f1dd3696eb4ab567d66b72f7083902",
+    "sourceHash": "2eba9a8230146fe97174e3ba4f10412761c80750bb8b54c0fc97b08524daf009",
+    "report": "blender/environment/campus_pixel_mona/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T22:08:01.239Z"
+  }
+}

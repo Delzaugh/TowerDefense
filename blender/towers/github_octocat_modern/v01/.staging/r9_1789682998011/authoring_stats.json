@@ -1,0 +1,30 @@
+{
+  "style": "modern",
+  "triangles": 73214,
+  "meshes": 17,
+  "height": 3.458314895629883,
+  "anatomy": {
+    "total_appendages": 5,
+    "supporting_legs": 2,
+    "arms": 2,
+    "tails": 1,
+    "ears": 2,
+    "eyes": 2,
+    "whiskers": 4
+  },
+  "appendages": [
+    "leg_left",
+    "leg_right",
+    "arm_left",
+    "arm_right",
+    "tail_rear"
+  ],
+  "sucker_counts": {
+    "leg_left": 8,
+    "leg_right": 8,
+    "arm_left": 10,
+    "arm_right": 11,
+    "tail_rear": 8
+  },
+  "source_guides": 5
+}

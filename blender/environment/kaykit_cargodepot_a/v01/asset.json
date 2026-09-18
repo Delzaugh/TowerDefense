@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "kaykit_cargodepot_a",
+  "displayName": "cargodepot A",
+  "category": "environment",
+  "version": "v01",
+  "revision": 1,
+  "source": {
+    "path": "blender/environment/kaykit_cargodepot_a/v01/kaykit_cargodepot_a_v01.blend",
+    "mode": "manual",
+    "importedFrom": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/gltf/cargodepot_A.gltf",
+    "authoritativeHash": "841db886ecd2e64d533c636b77bc258b713db7be8b80e18f7479b29d585713c9"
+  },
+  "runtime": "assets/runtime/environment/kaykit_cargodepot_a_v01.glb",
+  "budgets": {
+    "triangles": 1000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 1024,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": []
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/gltf/cargodepot_A.gltf",
+      "provenance": "KayKit / Kay Lousberg, Space Base Bits 1.0, CC0; unmodified upstream source."
+    },
+    {
+      "path": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/LICENSE.txt",
+      "provenance": "Upstream CC0 license retained byte-for-byte."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "budgets.textureSize",
+      "value": 1024,
+      "reason": "Retain the existing shared upstream 1024 px palette atlas during storage-only migration; no texture resampling or new unique texture introduced."
+    }
+  ],
+  "milestones": [],
+  "decisions": "blender/environment/kaykit_cargodepot_a/v01/decisions.md",
+  "delivery": {
+    "sha256": "154ef212bd58ed29e3217c3c990d6a8b9e51489b1469c5f790a4b1c9282dbc56",
+    "sourceHash": "841db886ecd2e64d533c636b77bc258b713db7be8b80e18f7479b29d585713c9",
+    "report": "blender/environment/kaykit_cargodepot_a/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T13:34:24.570Z"
+  }
+}

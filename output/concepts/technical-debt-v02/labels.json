@@ -1,0 +1,31 @@
+{
+  "title": "Technical Debt Concept Variations",
+  "subtitle": "Administrative burden through records obligations and overdue work.",
+  "category": "General Asset",
+  "options": [
+    {
+      "name": "Backlog Inbox",
+      "description": "Overflowing task folders with overdue tabs"
+    },
+    {
+      "name": "Debt Ledger",
+      "description": "Open liability register with oversized index tabs"
+    },
+    {
+      "name": "Deferred Stamp",
+      "description": "Chunky postponement stamp with clock emblem"
+    },
+    {
+      "name": "Exception Cabinet",
+      "description": "Bulging file drawer with warning tab"
+    },
+    {
+      "name": "Approval Queue",
+      "description": "Pending tokens blocked by approval gate"
+    },
+    {
+      "name": "Interest Counter",
+      "description": "Oversized counting beads show accumulating cost"
+    }
+  ]
+}

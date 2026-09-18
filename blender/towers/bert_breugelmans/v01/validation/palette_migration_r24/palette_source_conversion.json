@@ -1,0 +1,18 @@
+{
+  "asset": "bert_breugelmans",
+  "geometryHash": "52732648788ce7a2d78bd983aeaa73c4ccc032aec348e87ec33da63304fcf695",
+  "maxLinearColorError": 2.2238770713833844e-8,
+  "size": [
+    32,
+    16
+  ],
+  "materials": [
+    "bert_clothing",
+    "bert_hair",
+    "bert_skin",
+    "cohesion_pack"
+  ],
+  "usedRoles": 20,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\towers\\bert_breugelmans\\v01\\bert_breugelmans_v01.blend"
+}

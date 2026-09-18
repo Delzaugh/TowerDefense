@@ -1,0 +1,17 @@
+{
+  "asset": "copilot_commit_halo",
+  "geometryHash": "e2d177745d77e924de41d2eae812d5c4e97d7180612cb53be26553552c22e068",
+  "maxLinearColorError": 2.4765500650225647e-8,
+  "size": [
+    32,
+    8
+  ],
+  "materials": [
+    "architect_palette",
+    "commit_gold",
+    "interface_cyan"
+  ],
+  "usedRoles": 16,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\towers\\copilot_commit_halo\\v01\\copilot_commit_halo_v01.blend"
+}

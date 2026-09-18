@@ -1,0 +1,25 @@
+{
+  "status": "Assistant visual review complete; user artistic acceptance pending",
+  "revision": 4,
+  "evidence": [
+    "renders/inspector-iso.png",
+    "renders/inspector-front.png",
+    "renders/inspector-rear.png",
+    "renders/inspector-right.png",
+    "renders/inspector-phone.png",
+    "validation/iso.png",
+    "validation/rear.png",
+    "../../../../prototypes/campus-3d/previews/lab-close.png"
+  ],
+  "reviewedAt": "2026-09-17T20:25:34.6832010Z",
+  "findings": [
+    "Reviewed actual GLB in shared Inspector and campus presentation. Grounding, window spacing, seated slabs, code plaque, tree trunks and benches checked.",
+    "Moved roof equipment clear of the code plaque and corrected facing of chevrons.",
+    "Home composition and phone presentation remain readable; close view deliberately crops terrain.",
+    "Static study: rear facade intentionally plain, no animation, gameplay, save or progression integration. Browser viewport checks are not physical-device performance profiling."
+  ],
+  "version": "v01",
+  "sha256": "fc70e7a788611275e0db87b6b6d6ce9ac85cc7a1de572c0df3974238d903f002",
+  "asset": "campus_home_study",
+  "browserVerification": "prototypes/campus-3d/previews/verification.json"
+}

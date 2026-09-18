@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_walk_bend_45",
+  "displayName": "Campus walkway \u00b7 gentle bend",
+  "category": "environment",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/environment/campus_walk_bend_45/v01/campus_walk_bend_45_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_walk_bend_45/v01/build.py",
+    "authoritativeHash": "c9159b1f6edbaa771684d00cf00c7a4ea999551af4b55efa34970f1f0af75609"
+  },
+  "runtime": "assets/runtime/environment/campus_walk_bend_45_v01.glb",
+  "budgets": {
+    "triangles": 1200,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_start",
+      "anchor_end"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "prototypes/hub/previews/before-3d-study.png",
+      "provenance": "Project-owned Glacier SVG campus, including floating panel, inset paths and faceted landscaping."
+    },
+    {
+      "path": "tools/asset-recipes/campus-kit.py",
+      "provenance": "Shared geometry helper used by the local versioned recipe."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/campus_walk_bend_45/v01/decisions.md",
+  "delivery": {
+    "sha256": "03b55e1d0ef647bb78b9f84e318a6f2374bf374eab7970a2c5b3fae6a9a79c6a",
+    "sourceHash": "c9159b1f6edbaa771684d00cf00c7a4ea999551af4b55efa34970f1f0af75609",
+    "report": "blender/environment/campus_walk_bend_45/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T20:39:25.166Z"
+  },
+  "texturePalettes": [
+    {
+      "material": "glacier_palette.005",
+      "size": [
+        16,
+        4
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#E2EDF0",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "edge": {
+          "color": "#ADC5D2",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "path": {
+          "color": "#D2E1E5",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "edge": "#ADC5D2",
+      "chalk": "#E2EDF0",
+      "path": "#D2E1E5"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear",
+    "paletteTextureWorkflow": true
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "kaykit_basemodule_a",
+  "displayName": "basemodule A",
+  "category": "environment",
+  "version": "v01",
+  "revision": 1,
+  "source": {
+    "path": "blender/environment/kaykit_basemodule_a/v01/kaykit_basemodule_a_v01.blend",
+    "mode": "manual",
+    "importedFrom": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_A.gltf",
+    "authoritativeHash": "490c4ecf110b76a5dba07568834430c352a1e671734d08cc0e61a581b24f626d"
+  },
+  "runtime": "assets/runtime/environment/kaykit_basemodule_a_v01.glb",
+  "budgets": {
+    "triangles": 800,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 1024,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": []
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_A.gltf",
+      "provenance": "KayKit / Kay Lousberg, Space Base Bits 1.0, CC0; unmodified upstream source."
+    },
+    {
+      "path": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/LICENSE.txt",
+      "provenance": "Upstream CC0 license retained byte-for-byte."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "budgets.textureSize",
+      "value": 1024,
+      "reason": "Retain the existing shared upstream 1024 px palette atlas during storage-only migration; no texture resampling or new unique texture introduced."
+    }
+  ],
+  "milestones": [],
+  "decisions": "blender/environment/kaykit_basemodule_a/v01/decisions.md",
+  "delivery": {
+    "sha256": "cb25fd50f5ab8fc98040c87bc6538facc4f594f402c2c66d31946029d455f854",
+    "sourceHash": "490c4ecf110b76a5dba07568834430c352a1e671734d08cc0e61a581b24f626d",
+    "report": "blender/environment/kaykit_basemodule_a/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T13:34:24.558Z"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_windturbine_tall",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "c46a8558218494dfdbbdfebc5c9ac5f3c8db9ec2c2a752117ce74df46bd87f48",
+  "checkedAt": "2026-09-17T21:35:08.222Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 632,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    1.6652379631996155,
+    2.9999906467489836,
+    0.9998471140861511
+  ],
+  "bounds": [
+    [
+      -0.8326148986816406,
+      -0.0000025676779387140414,
+      -0.5546435713768005
+    ],
+    [
+      0.8326230645179749,
+      2.999988079071045,
+      0.4452035427093506
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_windturbine_tall/v01/kaykit_windturbine_tall_v01.blend",
+  "sourceHash": "4dfb2488d1f96780d35ea57de59aabaec2716ffb5f5159fd1a80b46c6a0dee0e",
+  "runtime": "assets/runtime/environment/kaykit_windturbine_tall_v01.glb"
+}

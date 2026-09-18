@@ -1,0 +1,32 @@
+Use case: stylized-concept. Edit the supplied concept-sheet template directly. It is the EDIT TARGET and exact composition base, not just inspiration. Preserve its 1672x941 wide canvas aspect ratio, dark navy gradient background, header placement, 3 columns x 2 rows, all six original panels, borders, subtle floor grids, badges 01-06, margins and spacing. Add exactly ONE low-poly 3D concept asset per panel.
+
+Subject: Technical Debt, category General Asset, in a friendly software-development tower defense game. General-purpose standalone objects. Chunky playful physical metaphors for accumulated maintenance burden, with softly beveled planar surfaces, soft gray and muted blue material blocks, limited amber warning accents. Matte materials, no detailed textures, no cyberpunk or military styling. Strong silhouettes recognizable at 64-96px game scale, plausible to model under 2500 triangles each (do not print stats).
+
+Camera: strictly straight-on FRONT orthographic for ALL SIX objects. No angled three-quarter, top-down, side view or tilted camera. Minimal depth from bevels only. Soft consistent studio lighting and ground shadow. Center and fully contain each object in its panel; shared baseline around y=400 for top row and y=795 for bottom row in original template coordinates. Keep all objects above label areas and below badge areas. Similar perceived scale. One dominant readable feature each.
+
+Six fundamentally different approved concepts, in numbered order:
+01 Dependency Knot: round compact silhouette, three thick low-segment interlocking cable loops wrapped around a trapped faceted core. Thick blue-gray cables and a small amber core. One bold knot, not fine wire spaghetti.
+02 Legacy Stack: tall narrow totemic silhouette. Three chunky obsolete server slabs leaning slightly against mismatched broad support blocks. Clear staggered stacking, few oversized status slots.
+03 Patchwork Shell: broad squat faceted casing with a bold jagged crack bridged by two oversized repair patches. Off-white shell, muted blue patches, tiny amber seam. Single cohesive broken shell shape, no screen.
+04 Backlog Anchor: unmistakable heavy angular anchor with a large eye hole and broad hooked lower arms, attached by two chunky links to two oversized task tiles resting at its foot. Tall, strong negative space, simple shapes; no tiny writing.
+05 Branch Snag: asymmetric forked Y structure with broad branching arms, visibly jammed at the junction by two incompatible chunky connectors. Open spaces between branches, offset heights, warning-colored obstruction; no screen.
+06 Pipeline Plug: wide low horizontal conduit, visibly blocked in its middle by a compact cluster of compressed code blocks. Two broad pipe ends either side of the jam, open central break exposes the blockage straight-on. Clear horizontal silhouette, no complex machinery.
+
+Keep all text zones unobstructed. Replace exact text as follows, restrained template typography:
+Title: Technical Debt Concept Variations
+Subtitle: Six general-purpose assets for accumulated maintenance burden.
+Category at upper right: General Asset
+01 name: Dependency Knot
+01 description: Thick interlocking cables around a trapped core
+02 name: Legacy Stack
+02 description: Leaning server slabs with mismatched support blocks
+03 name: Patchwork Shell
+03 description: Cracked casing held together by oversized patches
+04 name: Backlog Anchor
+04 description: Heavy angular anchor dragging chunky task tiles
+05 name: Branch Snag
+05 description: Forked structure jammed with incompatible connectors
+06 name: Pipeline Plug
+06 description: Wide conduit blocked by compressed code blocks
+
+No extra panels, footer, environments, people, faces, turnarounds, annotations, arrows, technical data, decorative UI, logos or watermarks. Do not overlap badges or labels. Preserve layout exactly.

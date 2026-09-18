@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "bert_breugelmans",
+  "displayName": "Bert Breugelmans",
+  "category": "towers",
+  "version": "v01",
+  "revision": 6,
+  "source": {
+    "path": "blender/towers/bert_breugelmans/v01/bert_breugelmans_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/bert_breugelmans/v01/build.py",
+    "authoritativeHash": "6433a46d4dc5c01f3eb01715b74b20b906d3c08c7867b9c112fce5b631706144"
+  },
+  "runtime": "assets/runtime/towers/bert_breugelmans_v01.glb",
+  "budgets": {
+    "meshes": 4,
+    "materials": 4,
+    "textureSize": 0,
+    "bones": 16,
+    "triangles": 3500,
+    "textures": 0
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        1.1,
+        3.1,
+        0.8
+      ],
+      "max": [
+        1.7,
+        3.5,
+        1.5
+      ]
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "meaning": "Relaxed open resting pose: lowered elbows, arms held slightly away from the body, softly open hands and restrained breathing.",
+      "playback": "loop",
+      "fps": 24
+    },
+    {
+      "name": "work",
+      "meaning": "Open-handed inclusive coaching gesture, inviting teammates to contribute.",
+      "playback": "loop",
+      "fps": 24
+    },
+    {
+      "name": "listen",
+      "meaning": "Bert brings one hand toward his chin, tilts his head, and gives a considered nod before returning to ready.",
+      "playback": "once",
+      "fps": 24
+    },
+    {
+      "name": "celebrate_team",
+      "meaning": "Bert releases his straps, gives three appreciative claps for the team, and returns to ready.",
+      "playback": "once",
+      "fps": 24
+    }
+  ],
+  "references": [
+    {
+      "path": "blender/towers/bert_breugelmans/v01/references/cohesion_pack.png",
+      "provenance": "User-attached Cohesion Pack turnaround, 2026-09-12. Visual reference only; printed triangle target is superseded by the explicit 3500-triangle request."
+    },
+    {
+      "path": "design/model_sheets/people_manager/v01/decisions.md",
+      "provenance": "Prior user selection and explicit removal of neck lanyard; functional backpack straps retained."
+    },
+    {
+      "path": "blender/towers/bert_breugelmans/v01/references/user_hands_r5.png",
+      "provenance": "User screenshot requesting a hand-specific quality pass; subsequent explicit request changes the resting arms to a relaxed open pose."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "budgets",
+      "reason": "User explicitly permits up to 3500 triangles and several meshes/materials for this higher quality character, 2026-09-12."
+    },
+    {
+      "field": "clips.duration",
+      "reason": "Listening and three-clap celebration are deliberate one-shot performances; a three-second work loop keeps the coaching gesture calm."
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/bert_breugelmans/v01/revisions/r2_before_r3/bert_breugelmans_v01.glb",
+      "source": "blender/towers/bert_breugelmans/v01/revisions/r2_before_r3/bert_breugelmans_v01.blend",
+      "sha256": "70e85d6fd27c1601194200e3210120e9ea7ec38fb0f29af4f63aa6b89e70bba9",
+      "sourceHash": "1408f38c33a847e18651d1bab06598836221300e5757a01dbc0fcba9c0c89566"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/bert_breugelmans/v01/revisions/r3_before_r4/bert_breugelmans_v01.glb",
+      "source": "blender/towers/bert_breugelmans/v01/revisions/r3_before_r4/bert_breugelmans_v01.blend",
+      "sha256": "24c5e6b3d7fe93894ec12a82bc6e860f4c36160a18d4808ffde0269fc84fb2c9",
+      "sourceHash": "05131be3ab524c61e80fff811e7ee29213451c256d543c3b5f8473e3063a0143"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/towers/bert_breugelmans/v01/revisions/r4_before_r5/bert_breugelmans_v01.glb",
+      "source": "blender/towers/bert_breugelmans/v01/revisions/r4_before_r5/bert_breugelmans_v01.blend",
+      "sha256": "335db3aec02185a53167af17741251069d4792ba4e81767fab362fae10e76c2f",
+      "sourceHash": "79326c5facdbb0e493495a46e3ae1651a04086b0bf37078231c1a2ba221b2c4c"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/towers/bert_breugelmans/v01/revisions/r5_before_r6/bert_breugelmans_v01.glb",
+      "source": "blender/towers/bert_breugelmans/v01/revisions/r5_before_r6/bert_breugelmans_v01.blend",
+      "sha256": "a3a53384e4e35d9b37cf37ef50fc34938097e391c91d918566e25f8230a6b740",
+      "sourceHash": "2b11642b001d59e6ef37c0b8217972a8fdf76c90cd213d4d97eb2e3345c62f1c"
+    }
+  ],
+  "decisions": "blender/towers/bert_breugelmans/v01/decisions.md",
+  "palette": {
+    "colors": {
+      "skin_light": "#F4C3A0",
+      "collar": "#3B5375",
+      "teal": "#25A5AC",
+      "purple": "#9660CC",
+      "eye": "#233338",
+      "coral": "#F47A7E",
+      "hair_dark": "#7D7C7D",
+      "skin_shadow": "#C77E61",
+      "sole": "#151B23",
+      "white": "#FFF1DF",
+      "amber": "#FFBF48",
+      "shoe": "#25282B",
+      "beard": "#4E3931",
+      "navy": "#283E63",
+      "blue": "#258FD0",
+      "hair_light": "#D0C9C0",
+      "beard_light": "#766157",
+      "hair": "#A9A6A3",
+      "skin": "#EAB08A",
+      "buckle": "#A6B1B8",
+      "pants": "#292D34"
+    },
+    "attribute": "_palette_role"
+  },
+  "delivery": {
+    "sha256": "d3501960c03dcd5690d88d77ed1dec03e3bd7b5999faa25f62bcefa866eb758b",
+    "sourceHash": "6433a46d4dc5c01f3eb01715b74b20b906d3c08c7867b9c112fce5b631706144",
+    "report": "blender/towers/bert_breugelmans/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T17:14:21.993Z"
+  }
+}

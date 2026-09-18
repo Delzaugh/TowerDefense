@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_pond",
+  "displayName": "Campus garden pond",
+  "category": "environment",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/environment/campus_pond/v01/campus_pond_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_pond/v01/build.py",
+    "authoritativeHash": "a5e43f56e231a427f32d5352d93eeb0b24d78564e812d245071e02eadfdfa1d6"
+  },
+  "runtime": "assets/runtime/environment/campus_pond_v01.glb",
+  "budgets": {
+    "triangles": 1500,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "prototypes/hub/previews/before-3d-study.png",
+      "provenance": "Project-owned Glacier SVG campus, including floating panel, inset paths and faceted landscaping."
+    },
+    {
+      "path": "tools/asset-recipes/campus-kit.py",
+      "provenance": "Shared geometry helper used by the local versioned recipe."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/campus_pond/v01/revisions/r2_before_r3/campus_pond_v01.glb",
+      "source": "blender/environment/campus_pond/v01/revisions/r2_before_r3/campus_pond_v01.blend",
+      "sha256": "be4c122a8a25b8077ce379f59215fba725669a3f4b91c320b45a268717af86b9",
+      "sourceHash": "4fa0b4d04261333ccdadc4ce7ce102e8cd6b1a5eddcdc565ad4ac70db827f7a2"
+    }
+  ],
+  "decisions": "blender/environment/campus_pond/v01/decisions.md",
+  "delivery": {
+    "sha256": "334156831676b67aef9371cd0d8dcfa9cd8ec59ba3ff513aaffed8547cbb6e3d",
+    "sourceHash": "a5e43f56e231a427f32d5352d93eeb0b24d78564e812d245071e02eadfdfa1d6",
+    "report": "blender/environment/campus_pond/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T20:57:44.551Z"
+  },
+  "texturePalettes": [
+    {
+      "material": "glacier_palette.010",
+      "size": [
+        16,
+        4
+      ],
+      "roles": {
+        "aqua": {
+          "color": "#B1DFE8",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "chalk": {
+          "color": "#E2EDF0",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "edge": {
+          "color": "#ADC5D2",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "water": {
+          "color": "#619FBE",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "edge": "#ADC5D2",
+      "aqua": "#B1DFE8",
+      "chalk": "#E2EDF0",
+      "water": "#619FBE"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear",
+    "paletteTextureWorkflow": true
+  }
+}

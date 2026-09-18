@@ -1,0 +1,37 @@
+{
+  "asset": "codicon_copilot",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "98155dd5e6962ecc56909d36719cc7d0dc0f02f0977c6bcca3b9aaf09ef49fd8",
+  "checkedAt": "2026-09-17T22:20:21.150Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 900,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    0.6000000238418579,
+    0.5271745920181274,
+    0.05999999865889549
+  ],
+  "bounds": [
+    [
+      -0.30000001192092896,
+      0,
+      -0.029999999329447746
+    ],
+    [
+      0.30000001192092896,
+      0.5271745920181274,
+      0.029999999329447746
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "e723809610e6fe95fe5dfcc64413b9132da085627955826b2187eabcd4eca994",
+  "source": "blender/environment/codicon_copilot/v01/codicon_copilot_v01.blend",
+  "runtime": "assets/runtime/environment/codicon_copilot_v01.glb"
+}

@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_landingpad_large",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "c379285c386987b53341cbcb3e2dd2bdc67a5b59c7c415e5cd6929c889ec20d4",
+  "checkedAt": "2026-09-17T21:34:27.813Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 478,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.500000238418579,
+    0.5000029504299164,
+    2.5000005960464478
+  ],
+  "bounds": [
+    [
+      -1.250000238418579,
+      -0.000003039836883544922,
+      -1.250000238418579
+    ],
+    [
+      1.25,
+      0.49999991059303284,
+      1.2500003576278687
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_landingpad_large/v01/kaykit_landingpad_large_v01.blend",
+  "sourceHash": "1788f878863be7e8528cb4337d256aed870cbcfb9f83573d27d4f0d99721f901",
+  "runtime": "assets/runtime/environment/kaykit_landingpad_large_v01.glb"
+}

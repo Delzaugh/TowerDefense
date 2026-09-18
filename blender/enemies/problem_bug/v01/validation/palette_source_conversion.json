@@ -1,0 +1,15 @@
+{
+  "asset": "problem_bug",
+  "geometryHash": "5a7ab4eea4b213d582a233f6a3c94a7eaa0e5720a2518fe6a7abcead4a477830",
+  "maxLinearColorError": 1.355422030169251e-08,
+  "size": [
+    32,
+    4
+  ],
+  "materials": [
+    "bug_palette"
+  ],
+  "usedRoles": 7,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\enemies\\problem_bug\\v01\\problem_bug_v01.blend"
+}

@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_tunnel_diagonal_long_a",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "c01d2e3fd3f7523bc73591401285428fb0d647cbc464f1a2a4fc1de51ba931e9",
+  "checkedAt": "2026-09-17T21:34:59.368Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 608,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.939037561416626,
+    0.5999999493360519,
+    2.9390376806259155
+  ],
+  "bounds": [
+    [
+      -1.469518780708313,
+      0.20000000298023224,
+      -1.4695188999176025
+    ],
+    [
+      1.469518780708313,
+      0.7999999523162842,
+      1.469518780708313
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_tunnel_diagonal_long_a/v01/kaykit_tunnel_diagonal_long_a_v01.blend",
+  "sourceHash": "1f7a3588e9a11d8a8c0626d0006075680ddc2d62b628078c4873f417f578f2c4",
+  "runtime": "assets/runtime/environment/kaykit_tunnel_diagonal_long_a_v01.glb"
+}

@@ -1,0 +1,37 @@
+{
+  "asset": "campus_walk_landing",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "badaae889f43b3eaf02fefdaf944e74a30abd012d1ab0d195270a7564ea7f02f",
+  "checkedAt": "2026-09-17T22:24:43.823Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 224,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    4.800000190734863,
+    0.0860000029206276,
+    3.5999999046325684
+  ],
+  "bounds": [
+    [
+      -2.4000000953674316,
+      0,
+      0
+    ],
+    [
+      2.4000000953674316,
+      0.0860000029206276,
+      3.5999999046325684
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "bc7d8f3f1c8a0cd6f9da258d19fca1e6f40206fb05d44856390ef6925e3a415e",
+  "source": "blender/environment/campus_walk_landing/v01/campus_walk_landing_v01.blend",
+  "runtime": "assets/runtime/environment/campus_walk_landing_v01.glb"
+}

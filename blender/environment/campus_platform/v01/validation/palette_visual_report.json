@@ -1,0 +1,37 @@
+{
+  "asset": "campus_platform",
+  "revision": 3,
+  "sha256": "9fb6ac1087ace6556eb576ac5bd7b176c96be3e1611316e41a17418acae067b5",
+  "paletteControls": 3,
+  "errors": [],
+  "diff": [
+    {
+      "view": "iso",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.03360138888888889
+    },
+    {
+      "view": "front",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.00005648148148148148
+    },
+    {
+      "view": "rear",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.00021851851851851852
+    },
+    {
+      "view": "side",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.00018842592592592592
+    },
+    {
+      "view": "top",
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0
+    }
+  ],
+  "visualReview": "Reviewed by Codex: before/after appearance, front and reverse views, clip poses where present, and phone-scale silhouette. No conversion-induced visual regression observed; artistic user acceptance remains separate.",
+  "reviewedAt": "2026-09-17T21:03:25.600Z",
+  "evidence": "blender/environment/campus_platform/v01/validation/palette_migration_r3/palette_review.png"
+}

@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_walk_bend",
+  "displayName": "Campus walkway \u00b7 rounded bend",
+  "category": "environment",
+  "version": "v01",
+  "revision": 4,
+  "source": {
+    "path": "blender/environment/campus_walk_bend/v01/campus_walk_bend_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_walk_bend/v01/build.py",
+    "authoritativeHash": "73bf26432482cc194843f5b9b60fb044fe107ca305ee8271de684be08e1f7fe5"
+  },
+  "runtime": "assets/runtime/environment/campus_walk_bend_v01.glb",
+  "budgets": {
+    "triangles": 1600,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_start",
+      "anchor_end"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "prototypes/hub/previews/before-3d-study.png",
+      "provenance": "Project-owned Glacier SVG campus, including floating panel, inset paths and faceted landscaping."
+    },
+    {
+      "path": "tools/asset-recipes/campus-kit.py",
+      "provenance": "Shared geometry helper used by the local versioned recipe."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/campus_walk_bend/v01/revisions/r2_before_r3/campus_walk_bend_v01.glb",
+      "source": "blender/environment/campus_walk_bend/v01/revisions/r2_before_r3/campus_walk_bend_v01.blend",
+      "sha256": "65d0b81f2ebfbc4c698cf9418662c3c62a230f729b60d4912b262930353db4f8",
+      "sourceHash": "61df14f3c48099b62be526359be1662ce18d90dc9d4d8f682c2c0024e87a2aef"
+    }
+  ],
+  "decisions": "blender/environment/campus_walk_bend/v01/decisions.md",
+  "delivery": {
+    "sha256": "f6c83cd51b6ab8530d4bc50a64fc4ebd0f62d778ebdb7dae0235bee626211a7f",
+    "sourceHash": "73bf26432482cc194843f5b9b60fb044fe107ca305ee8271de684be08e1f7fe5",
+    "report": "blender/environment/campus_walk_bend/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T20:52:27.292Z"
+  },
+  "texturePalettes": [
+    {
+      "material": "glacier_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#E2EDF0",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "edge": {
+          "color": "#ADC5D2",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "path": {
+          "color": "#D2E1E5",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "signal": {
+          "color": "#8CCBD8",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "tech": {
+          "color": "#7E9EB0",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "edge": "#ADC5D2",
+      "chalk": "#E2EDF0",
+      "path": "#D2E1E5",
+      "signal": "#8CCBD8",
+      "tech": "#7E9EB0"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear",
+    "paletteTextureWorkflow": true
+  }
+}

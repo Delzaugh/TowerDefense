@@ -1,0 +1,31 @@
+{
+  "title": "Corrupted Data Concept Variations",
+  "subtitle": "Six unstable data enemies for software-themed battles.",
+  "category": "Enemy",
+  "options": [
+    {
+      "name": "Fractured File",
+      "description": "Upright folded sheet with a jagged split"
+    },
+    {
+      "name": "Bit Crawler",
+      "description": "Broad memory chip on chunky bent pins"
+    },
+    {
+      "name": "Scrambled Stack",
+      "description": "Three offset database drums exposing broken sectors"
+    },
+    {
+      "name": "Checksum Ring",
+      "description": "Broken hexagonal loop surrounding a displaced core"
+    },
+    {
+      "name": "Dangling Pointer",
+      "description": "Branching nodes ending in one broken connection"
+    },
+    {
+      "name": "Burst Packet",
+      "description": "Lopsided container spilling three oversized data blocks"
+    }
+  ]
+}

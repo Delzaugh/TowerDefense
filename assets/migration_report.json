@@ -1,0 +1,601 @@
+{
+  "checkedAt": "2026-09-12T13:45:09.997Z",
+  "passed": true,
+  "models": 64,
+  "bespokeExportsPreserved": 7,
+  "importedModels": 57,
+  "unchangedImportedBinaryPayloads": 51,
+  "normalizedImports": [
+    {
+      "id": "kaykit_drill_structure",
+      "proof": "blender/environment/kaykit_drill_structure/v01/validation/normalization.json",
+      "geometry": {
+        "maximumWorldVertexDisplacement": 0,
+        "meshCount": 2
+      }
+    },
+    {
+      "id": "kaykit_spacetruck",
+      "proof": "blender/environment/kaykit_spacetruck/v01/validation/normalization.json",
+      "geometry": {
+        "maximumWorldVertexDisplacement": 0,
+        "meshCount": 5
+      }
+    },
+    {
+      "id": "kaykit_spacetruck_large",
+      "proof": "blender/environment/kaykit_spacetruck_large/v01/validation/normalization.json",
+      "geometry": {
+        "maximumWorldVertexDisplacement": 0,
+        "meshCount": 5
+      }
+    },
+    {
+      "id": "kaykit_spacetruck_trailer",
+      "proof": "blender/environment/kaykit_spacetruck_trailer/v01/validation/normalization.json",
+      "geometry": {
+        "maximumWorldVertexDisplacement": 0,
+        "meshCount": 5
+      }
+    },
+    {
+      "id": "kaykit_windturbine_low",
+      "proof": "blender/environment/kaykit_windturbine_low/v01/validation/normalization.json",
+      "geometry": {
+        "maximumWorldVertexDisplacement": 0,
+        "meshCount": 2
+      }
+    },
+    {
+      "id": "kaykit_windturbine_tall",
+      "proof": "blender/environment/kaykit_windturbine_tall/v01/validation/normalization.json",
+      "geometry": {
+        "maximumWorldVertexDisplacement": 0,
+        "meshCount": 2
+      }
+    }
+  ],
+  "preservedFilesChecked": 174,
+  "originalCollection": {
+    "path": "blender/towers/copilot_base/v01/references/original_collection.blend",
+    "sha256": "366e9eb2bb471101922ef42fe2b9f7cc7d579fa4b76de03d61eab12ba8fff3b2"
+  },
+  "upstreamPackage": "assets/third_party/kaykit/space_base_bits/1.0.0",
+  "canonicalValidation": "assets/validation_catalog.json",
+  "shieldSourceRoundTrip": "blender/towers/copilot_shield/v01/validation/source_roundtrip/report.json",
+  "checks": [
+    "All production source/export hashes match registered delivery records",
+    "All migration inputs unchanged before removal",
+    "Original reference collection, images, upstream files and retained snapshot hashes verified",
+    "Retired duplicate Bug matches retained revision snapshot",
+    "Unapplied transforms normalized without changing world-space geometry"
+  ],
+  "assets": [
+    {
+      "id": "copilot_base",
+      "version": "v01",
+      "source": "blender/towers/copilot_base/v01/copilot_base_v01.blend",
+      "runtime": "assets/runtime/towers/copilot_base_v01.glb",
+      "sha256": "6663079d8be7d4a9b65abd7bde85f518cdaa46ff85769680cdcd9f577c3f90b3",
+      "sourceHash": "3effbe93e2bab0359e6b786e51baf90f8afd9c1c180d401bb01f10cc225b58c8"
+    },
+    {
+      "id": "github_mona_head",
+      "version": "v01",
+      "source": "blender/towers/github_mona_head/v01/github_mona_head_v01.blend",
+      "runtime": "assets/runtime/towers/github_mona_head_v01.glb",
+      "sha256": "bccfb8d95d5e909681b07288884e6d7ff0671ba2673a51cd5f62668bafe954da",
+      "sourceHash": "fabae271770f41e34a83727d52c76690d25edbdba276a9e61d087e21f940b107"
+    },
+    {
+      "id": "copilot_rubber_duck",
+      "version": "v01",
+      "source": "blender/towers/copilot_rubber_duck/v01/copilot_rubber_duck_v01.blend",
+      "runtime": "assets/runtime/towers/copilot_rubber_duck_v01.glb",
+      "sha256": "891e9cd2c45ce4482b6febe369ade2bc5e11801e339730a92c98db9ccb3e18a0",
+      "sourceHash": "263a2c311f18b0e2f8cb535b2d951fd9a0d3dff25a94163e9c40af1207ac9bee"
+    },
+    {
+      "id": "copilot_shield",
+      "version": "v01",
+      "source": "blender/towers/copilot_shield/v01/copilot_shield_v01.blend",
+      "runtime": "assets/runtime/towers/copilot_shield_v01.glb",
+      "sha256": "9898e4d8fabaa5c9c4fc977b25bba91a93a27f204bdcb876a71c8b92b5f620ba",
+      "sourceHash": "dac6f564026ae2d46422479eb24763a049310f994fde46062ae120bddbd095f0"
+    },
+    {
+      "id": "prop_cegeka",
+      "version": "v01",
+      "source": "blender/environment/prop_cegeka/v01/prop_cegeka_v01.blend",
+      "runtime": "assets/runtime/environment/prop_cegeka_v01.glb",
+      "sha256": "6354ce8c83aca83b0077a4563fda5b49440c784b4a0d494989a29db7ac84bf5e",
+      "sourceHash": "c0979fc85cd6783a8505fe8a1df4f457ca409445ddce8bfd122216b8fc81fc05"
+    },
+    {
+      "id": "prop_cegeka_full",
+      "version": "v01",
+      "source": "blender/environment/prop_cegeka_full/v01/prop_cegeka_full_v01.blend",
+      "runtime": "assets/runtime/environment/prop_cegeka_full_v01.glb",
+      "sha256": "45236017f9f1d27b346fa1f9fe4b97f377977f9aa2a03af02cc0d23e26cc4cd6",
+      "sourceHash": "8569b5723262c9e9c72e4f8a37364acb6ba9d7a718d2406dff98bee57be4a6cc"
+    },
+    {
+      "id": "problem_bug",
+      "version": "v01",
+      "source": "blender/enemies/problem_bug/v01/problem_bug_v01.blend",
+      "runtime": "assets/runtime/enemies/problem_bug_v01.glb",
+      "sha256": "d4ce09cbe5a56ff12224c93e2f2d804481781b7efa4925195a4a6c5cbc540352",
+      "sourceHash": "d63303ffbb8b8343d8225ded2ebc610c7c344f123baa372b441f51014406e1b2"
+    },
+    {
+      "id": "kaykit_basemodule_a",
+      "version": "v01",
+      "source": "blender/environment/kaykit_basemodule_a/v01/kaykit_basemodule_a_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_basemodule_a_v01.glb",
+      "sha256": "cb25fd50f5ab8fc98040c87bc6538facc4f594f402c2c66d31946029d455f854",
+      "sourceHash": "490c4ecf110b76a5dba07568834430c352a1e671734d08cc0e61a581b24f626d"
+    },
+    {
+      "id": "kaykit_basemodule_b",
+      "version": "v01",
+      "source": "blender/environment/kaykit_basemodule_b/v01/kaykit_basemodule_b_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_basemodule_b_v01.glb",
+      "sha256": "b4cba6b9df0287c788d40eb69bf798689136c45ce7879f70f4c44ae27619a643",
+      "sourceHash": "a8fff5407bd22b964abcbe1a689eab4850aa64fc2306305f94422c83da4f0ec1"
+    },
+    {
+      "id": "kaykit_basemodule_c",
+      "version": "v01",
+      "source": "blender/environment/kaykit_basemodule_c/v01/kaykit_basemodule_c_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_basemodule_c_v01.glb",
+      "sha256": "8499a91283ae0b97a13a9f7bff93d76ad33c872667091158ca9059f2e1f2210b",
+      "sourceHash": "4d2b7615cedf98a0235e8264cd59b543710a04d24e265c454e9c688ffeff7885"
+    },
+    {
+      "id": "kaykit_basemodule_d",
+      "version": "v01",
+      "source": "blender/environment/kaykit_basemodule_d/v01/kaykit_basemodule_d_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_basemodule_d_v01.glb",
+      "sha256": "4eceb5cb67ab0256ef3f3b620675ce9255250d9f6bc0316cc4cd9a70410a7a18",
+      "sourceHash": "ae3f9323d5b1363708379c16ed50af80f8430416c5a61ea71a83a9b90be4d7de"
+    },
+    {
+      "id": "kaykit_basemodule_e",
+      "version": "v01",
+      "source": "blender/environment/kaykit_basemodule_e/v01/kaykit_basemodule_e_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_basemodule_e_v01.glb",
+      "sha256": "ec712d8e5fc9a9042399e65e72a5f981deae9b3f8ad75a1b7aaa41722e408167",
+      "sourceHash": "a1bee51de0098d3511e3cccccfcadc68901eb154f5fc21719e4cfe8d19f994d1"
+    },
+    {
+      "id": "kaykit_basemodule_garage",
+      "version": "v01",
+      "source": "blender/environment/kaykit_basemodule_garage/v01/kaykit_basemodule_garage_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_basemodule_garage_v01.glb",
+      "sha256": "7ed6e304462c668b342f9f211a4b26cbbdc3f03e364411ab3fbea22e55ffceed",
+      "sourceHash": "24a706c8142465ba5834e265cd0d1ebce33de6bfba56fa189fdb44fcad508d4b"
+    },
+    {
+      "id": "kaykit_cargo_a",
+      "version": "v01",
+      "source": "blender/environment/kaykit_cargo_a/v01/kaykit_cargo_a_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_cargo_a_v01.glb",
+      "sha256": "d014df746e37daa958f6012a0672daf48b85d167c83b1bb1248eba5798d3cc21",
+      "sourceHash": "1c45dea875c9d9147c5d8b2604f18e4e3af4c44ce6496a4afb45928bba64358d"
+    },
+    {
+      "id": "kaykit_cargo_a_packed",
+      "version": "v01",
+      "source": "blender/environment/kaykit_cargo_a_packed/v01/kaykit_cargo_a_packed_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_cargo_a_packed_v01.glb",
+      "sha256": "a19d28b7c6b1f6fd29c4363a027660633128ee32173b7c0b6984b6d784da2779",
+      "sourceHash": "f3f14f6369b9b59a7486fe9dff348895c76297464af3030dd66dc97d8641c2d1"
+    },
+    {
+      "id": "kaykit_cargo_a_stacked",
+      "version": "v01",
+      "source": "blender/environment/kaykit_cargo_a_stacked/v01/kaykit_cargo_a_stacked_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_cargo_a_stacked_v01.glb",
+      "sha256": "14b2bab3bb194099147893ed91684774cbabc71c7b4936b7460c8513ed9cffe3",
+      "sourceHash": "9a712076c4c8f18faa82d8991e99d6a31b5d3df60315a18c67e66164df8de215"
+    },
+    {
+      "id": "kaykit_cargo_b",
+      "version": "v01",
+      "source": "blender/environment/kaykit_cargo_b/v01/kaykit_cargo_b_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_cargo_b_v01.glb",
+      "sha256": "29ee8e545479c647edc79be56e368bed585b71449e17ff55168e50b32a01188f",
+      "sourceHash": "c3eb746ac4acbbaff370e81bfe780f04f0ae2ac9431e3d7457e465e321656c5e"
+    },
+    {
+      "id": "kaykit_cargo_b_packed",
+      "version": "v01",
+      "source": "blender/environment/kaykit_cargo_b_packed/v01/kaykit_cargo_b_packed_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_cargo_b_packed_v01.glb",
+      "sha256": "2f6f4b8850ae177fb5520f94725e727c4f3791e1e7f94cedb095d29edff155e8",
+      "sourceHash": "b2415a84c7534db76713c39b10620a2f41275cf47e44241f4a379189209d5dcd"
+    },
+    {
+      "id": "kaykit_cargo_b_stacked",
+      "version": "v01",
+      "source": "blender/environment/kaykit_cargo_b_stacked/v01/kaykit_cargo_b_stacked_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_cargo_b_stacked_v01.glb",
+      "sha256": "ee1ce817e2b6fbcbae93438346b3cb4634cd07ca2a9f2ec01bdbb68a1c29f213",
+      "sourceHash": "a1c99f9500a4c5e5f50a96aa65781d101e121df9a054165bdde11207569fcda5"
+    },
+    {
+      "id": "kaykit_cargodepot_a",
+      "version": "v01",
+      "source": "blender/environment/kaykit_cargodepot_a/v01/kaykit_cargodepot_a_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_cargodepot_a_v01.glb",
+      "sha256": "154ef212bd58ed29e3217c3c990d6a8b9e51489b1469c5f790a4b1c9282dbc56",
+      "sourceHash": "841db886ecd2e64d533c636b77bc258b713db7be8b80e18f7479b29d585713c9"
+    },
+    {
+      "id": "kaykit_cargodepot_b",
+      "version": "v01",
+      "source": "blender/environment/kaykit_cargodepot_b/v01/kaykit_cargodepot_b_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_cargodepot_b_v01.glb",
+      "sha256": "2d388911f5e3c3d27f1ce69924f1829c2285047ed49241a69159d3a3e7745e58",
+      "sourceHash": "b434dd6b1b6b049abd7d769ebf24e849cc0411ba60d07dc26ac86f906eea4f9e"
+    },
+    {
+      "id": "kaykit_cargodepot_c",
+      "version": "v01",
+      "source": "blender/environment/kaykit_cargodepot_c/v01/kaykit_cargodepot_c_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_cargodepot_c_v01.glb",
+      "sha256": "ebf3f4fbfbadc692eb8d90fae6100891bcaaa6b317787fe8434a422bcb7f6f6c",
+      "sourceHash": "9326a28c70306e5c3bcc19d3793215b93b63d5051aa6dc2d62c0172ac6e59f79"
+    },
+    {
+      "id": "kaykit_containers_a",
+      "version": "v01",
+      "source": "blender/environment/kaykit_containers_a/v01/kaykit_containers_a_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_containers_a_v01.glb",
+      "sha256": "2dcb0995e0612d42b5186cc60b01db12ddf09d14d47d11489f6d649316c2f832",
+      "sourceHash": "b00448e3a0fd28a13c3f78b0c10d12238ee8bd20aa2f01c1539c65caf089f4cd"
+    },
+    {
+      "id": "kaykit_containers_b",
+      "version": "v01",
+      "source": "blender/environment/kaykit_containers_b/v01/kaykit_containers_b_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_containers_b_v01.glb",
+      "sha256": "0928fe40549e5a00499339d3ae07bae843fd8aaf9ee8d486680748768b620bfd",
+      "sourceHash": "7979354981430f814cb269e918c984ef38e581980724a2085716fd75689fdec6"
+    },
+    {
+      "id": "kaykit_containers_c",
+      "version": "v01",
+      "source": "blender/environment/kaykit_containers_c/v01/kaykit_containers_c_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_containers_c_v01.glb",
+      "sha256": "a7b1f8b912f2506e2a607d74dbc45fad8839eaaa72f0e03e1b5067c9111ebaa3",
+      "sourceHash": "0f4beb7bc76e1a30a1313079b764f59a70be58fa09b5e860fc8ce8c222f7a1bf"
+    },
+    {
+      "id": "kaykit_containers_d",
+      "version": "v01",
+      "source": "blender/environment/kaykit_containers_d/v01/kaykit_containers_d_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_containers_d_v01.glb",
+      "sha256": "df23a47579b60a6a06511e347dcbcd41375c97dfc096486841935e6000b14214",
+      "sourceHash": "84948bccb22313522360058a5fbc346567a3c25d4177d33d936993a9a6cc8916"
+    },
+    {
+      "id": "kaykit_drill_structure",
+      "version": "v01",
+      "source": "blender/environment/kaykit_drill_structure/v01/kaykit_drill_structure_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_drill_structure_v01.glb",
+      "sha256": "a6408cdc16b749f4810a6a219e956c24e7ead790c006d2578ba9f4a8dcf389c1",
+      "sourceHash": "548daa438d6ac35e8b7cc3a61024f533dbf6452cc9f2958e8bf848a0e26ddb08"
+    },
+    {
+      "id": "kaykit_lander_a",
+      "version": "v01",
+      "source": "blender/environment/kaykit_lander_a/v01/kaykit_lander_a_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_lander_a_v01.glb",
+      "sha256": "0958aa6d02f48bce9ddce3cfc62eeb12f2c3b25ab6d63d44caa0cf1b25a2a63a",
+      "sourceHash": "825a1b91e95996db189c4f08e22a16d9736c3b5ffd4d221d897bf981194df04a"
+    },
+    {
+      "id": "kaykit_lander_b",
+      "version": "v01",
+      "source": "blender/environment/kaykit_lander_b/v01/kaykit_lander_b_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_lander_b_v01.glb",
+      "sha256": "ce8e8d7ddaaf01b77c5851d9986d7fae3f08b758e8b6bda0b374e3bc2d3eeca1",
+      "sourceHash": "b8f5b7bca8d2285a8fdd253e65d487b4693aca1cd6db914f96d808e0e2c52319"
+    },
+    {
+      "id": "kaykit_lander_base",
+      "version": "v01",
+      "source": "blender/environment/kaykit_lander_base/v01/kaykit_lander_base_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_lander_base_v01.glb",
+      "sha256": "01924ae7b319933f1fcf0edac69b903d1dcd6f606ebd8d5fb0763e0878bc4aee",
+      "sourceHash": "f4dcfa05ccd0c10b66f9a87aec03caceeea1b3f26a2087ca47ceea3120fe9fc7"
+    },
+    {
+      "id": "kaykit_landingpad_large",
+      "version": "v01",
+      "source": "blender/environment/kaykit_landingpad_large/v01/kaykit_landingpad_large_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_landingpad_large_v01.glb",
+      "sha256": "c379285c386987b53341cbcb3e2dd2bdc67a5b59c7c415e5cd6929c889ec20d4",
+      "sourceHash": "1788f878863be7e8528cb4337d256aed870cbcfb9f83573d27d4f0d99721f901"
+    },
+    {
+      "id": "kaykit_landingpad_small",
+      "version": "v01",
+      "source": "blender/environment/kaykit_landingpad_small/v01/kaykit_landingpad_small_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_landingpad_small_v01.glb",
+      "sha256": "13182795de2b4763b9494a41dfe5d9295374e43fe87c58106d251c79db118166",
+      "sourceHash": "2c085179ca21eb5dc3e6fae1bd19e0b9f6b6f490bc53e0cb3664fed087dd4384"
+    },
+    {
+      "id": "kaykit_lights",
+      "version": "v01",
+      "source": "blender/environment/kaykit_lights/v01/kaykit_lights_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_lights_v01.glb",
+      "sha256": "9fe87ab36843de2643adc2a1508562af21fc75114c5327fb3a27a9eb7e281d74",
+      "sourceHash": "0d6681f0240c82135259210fc088d5d03a355c1064b1746f742878160c7b371d"
+    },
+    {
+      "id": "kaykit_rock_a",
+      "version": "v01",
+      "source": "blender/environment/kaykit_rock_a/v01/kaykit_rock_a_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_rock_a_v01.glb",
+      "sha256": "bcce9e353686a446b4e25e8ef943d8a76c5f13979e258878deb731c6a2c6363c",
+      "sourceHash": "3a3ea3b931cf362636cb8edaf06c5aa77bca4b596da63004ab1de9aeb6aea932"
+    },
+    {
+      "id": "kaykit_rock_b",
+      "version": "v01",
+      "source": "blender/environment/kaykit_rock_b/v01/kaykit_rock_b_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_rock_b_v01.glb",
+      "sha256": "9fb4e810b7a2158936ebbc89025a0d5a65509840e57dce1a2dd5bdfe6062a746",
+      "sourceHash": "55fe9374e39f5c730f46a8e6108aeb485e77ee82415669f0a4fccdd2f5977884"
+    },
+    {
+      "id": "kaykit_rocks_a",
+      "version": "v01",
+      "source": "blender/environment/kaykit_rocks_a/v01/kaykit_rocks_a_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_rocks_a_v01.glb",
+      "sha256": "cb94880838718ca23af314bb36d8789aad1c6d7bc9904dff65e8e2b9776cd25c",
+      "sourceHash": "d773f2ac25e0632e4a46946efa07fbcb12a07bbb4448a8ac0b44986a0c500c51"
+    },
+    {
+      "id": "kaykit_rocks_b",
+      "version": "v01",
+      "source": "blender/environment/kaykit_rocks_b/v01/kaykit_rocks_b_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_rocks_b_v01.glb",
+      "sha256": "f50080f6706c4364b5754b8cfec8cf75eb8e0905203b858e90ecf6e6e25bf30d",
+      "sourceHash": "bb7b966855ab18aee3d08f26d46786656367a2ce78df09add071eac9090ed085"
+    },
+    {
+      "id": "kaykit_roofmodule_base",
+      "version": "v01",
+      "source": "blender/environment/kaykit_roofmodule_base/v01/kaykit_roofmodule_base_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_roofmodule_base_v01.glb",
+      "sha256": "808e4443eb3f17c2eab91c4928f6e7b69b13743053e06cdcbce396a957e376bc",
+      "sourceHash": "6b1e5356eb3fb6cb70c6bddc5439a2730b1a10a1a7686e59abc338971551d1bd"
+    },
+    {
+      "id": "kaykit_roofmodule_cargo_a",
+      "version": "v01",
+      "source": "blender/environment/kaykit_roofmodule_cargo_a/v01/kaykit_roofmodule_cargo_a_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_roofmodule_cargo_a_v01.glb",
+      "sha256": "335d7babf5d0fe93fc2f318f78db564ef22feda4df8712713734a5418c09c252",
+      "sourceHash": "117021cd8d1f06a13c63af14693d222f572016dda5c95e2f1bce0ddb85a48a1d"
+    },
+    {
+      "id": "kaykit_roofmodule_cargo_b",
+      "version": "v01",
+      "source": "blender/environment/kaykit_roofmodule_cargo_b/v01/kaykit_roofmodule_cargo_b_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_roofmodule_cargo_b_v01.glb",
+      "sha256": "ba1f362cccd6c90f61f8db07cdd6a204b03ab5861512120d89bce32efc9468d1",
+      "sourceHash": "fb1dfe6b9e167509e682b73df42a5f25fbf7ab2096e82208569a3f139f6d847a"
+    },
+    {
+      "id": "kaykit_roofmodule_cargo_c",
+      "version": "v01",
+      "source": "blender/environment/kaykit_roofmodule_cargo_c/v01/kaykit_roofmodule_cargo_c_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_roofmodule_cargo_c_v01.glb",
+      "sha256": "a793d29646e04676c9212d6371ee51617b5714ceed546f70c5883e6414024bf4",
+      "sourceHash": "138d89dc70607ba2724500e9966e90ecab08072869cf4486b9c2698da9466560"
+    },
+    {
+      "id": "kaykit_roofmodule_solarpanels",
+      "version": "v01",
+      "source": "blender/environment/kaykit_roofmodule_solarpanels/v01/kaykit_roofmodule_solarpanels_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_roofmodule_solarpanels_v01.glb",
+      "sha256": "4f25b0557d7cf5332b370a1d2645658c27f75a86a3e481cb9f7a74dd7d561fa5",
+      "sourceHash": "8650da0f52d400ff650dcf44db9e85f567de6901a851f0b9b2ebfc8de2615074"
+    },
+    {
+      "id": "kaykit_solarpanel",
+      "version": "v01",
+      "source": "blender/environment/kaykit_solarpanel/v01/kaykit_solarpanel_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_solarpanel_v01.glb",
+      "sha256": "2ba03c728e6e77a5c566a8fdb06f4926b653d1d3e948c200c79c1c0139374a13",
+      "sourceHash": "fd7647fa9187758d55070926d2e09bae16ffcdce37d384891abb64d45848c476"
+    },
+    {
+      "id": "kaykit_spacetruck",
+      "version": "v01",
+      "source": "blender/environment/kaykit_spacetruck/v01/kaykit_spacetruck_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_spacetruck_v01.glb",
+      "sha256": "07ebaac8f61842e366607d23e0ba254cb02956207b0d9c8dc97bad17c00337c5",
+      "sourceHash": "86ecfcbac1c943004dd6b1185f03aa3836a606ae02c1a98a905e7c3d34634d15"
+    },
+    {
+      "id": "kaykit_spacetruck_large",
+      "version": "v01",
+      "source": "blender/environment/kaykit_spacetruck_large/v01/kaykit_spacetruck_large_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_spacetruck_large_v01.glb",
+      "sha256": "082cfa300e61c325d485393e0a3ee241bb2edc89c644bf9edff53cc0472358ef",
+      "sourceHash": "c9090149cb676c9e7da8b57087201a487168ceec52eacc8f970b699946c9acd7"
+    },
+    {
+      "id": "kaykit_spacetruck_trailer",
+      "version": "v01",
+      "source": "blender/environment/kaykit_spacetruck_trailer/v01/kaykit_spacetruck_trailer_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_spacetruck_trailer_v01.glb",
+      "sha256": "dc8466b5a9db70cda28acf660efb7307627aed96e3af7bc3e4652a01a91d6156",
+      "sourceHash": "75cc59b26fa4c4ed8af88ef415119ba106f5b5fc02f2cc607e76ee827bc654c3"
+    },
+    {
+      "id": "kaykit_structure_low",
+      "version": "v01",
+      "source": "blender/environment/kaykit_structure_low/v01/kaykit_structure_low_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_structure_low_v01.glb",
+      "sha256": "2c1540f7324925320075c2b0aeb381ab6f32b26a091ba20450751a0ac9926091",
+      "sourceHash": "7a6f4757f831fb6cb4e07b5ff6e3c1932b9fab037c4fe096ec25e00c0e6d82f1"
+    },
+    {
+      "id": "kaykit_structure_tall",
+      "version": "v01",
+      "source": "blender/environment/kaykit_structure_tall/v01/kaykit_structure_tall_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_structure_tall_v01.glb",
+      "sha256": "21a78f030b1a0e3c2b9104c65a28c885126f6a84455f719a9141e20873b3f121",
+      "sourceHash": "c819693e642623ef77914178fe77fa954683a09bb1c6749b10f50965aca24939"
+    },
+    {
+      "id": "kaykit_terrain_low",
+      "version": "v01",
+      "source": "blender/environment/kaykit_terrain_low/v01/kaykit_terrain_low_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_terrain_low_v01.glb",
+      "sha256": "0661a234ec3b5d843a180a1f0cf9e7035be0b3c3f463032c3892b41f7a006b63",
+      "sourceHash": "3bad67f337657fe7bb455f9b630c2bacebb4598e973e48df9447576e960e3f04"
+    },
+    {
+      "id": "kaykit_terrain_low_curved",
+      "version": "v01",
+      "source": "blender/environment/kaykit_terrain_low_curved/v01/kaykit_terrain_low_curved_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_terrain_low_curved_v01.glb",
+      "sha256": "f91bf92013f2b7f1c8129734ba6f09155fedce7d27898efd0a02704d8ecac5be",
+      "sourceHash": "2873fbdcf3e816007d623396607f405d32e0cc1f9829c4ddfaf3aae0b7792fd9"
+    },
+    {
+      "id": "kaykit_terrain_mining",
+      "version": "v01",
+      "source": "blender/environment/kaykit_terrain_mining/v01/kaykit_terrain_mining_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_terrain_mining_v01.glb",
+      "sha256": "370d475ba285c5cc3a450229a2ba6a98d184f319f7e2dc7970dfebe4140f3e5e",
+      "sourceHash": "7ef0b1b377af3e9b89050f956fb7a0794707f585ffbedbb3e2257aa17fd1f088"
+    },
+    {
+      "id": "kaykit_terrain_slope",
+      "version": "v01",
+      "source": "blender/environment/kaykit_terrain_slope/v01/kaykit_terrain_slope_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_terrain_slope_v01.glb",
+      "sha256": "67a96e2775ccc33aff766147355ccda24078b2b6b782b5067d3c927915c9fd99",
+      "sourceHash": "05b890b6a5c6cbee4f997708cd5e4795c5c2a6efe82ac46fbcd932a365288d87"
+    },
+    {
+      "id": "kaykit_terrain_slope_inner_corner",
+      "version": "v01",
+      "source": "blender/environment/kaykit_terrain_slope_inner_corner/v01/kaykit_terrain_slope_inner_corner_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_terrain_slope_inner_corner_v01.glb",
+      "sha256": "0f4936cf614629d671c630bdfd80a8604fa80e32e433f24cdd4505ab217fecdc",
+      "sourceHash": "2c4c02132d32d714eae19183d7a89d137ec882ad5fbecf1252d816f88d492632"
+    },
+    {
+      "id": "kaykit_terrain_slope_outer_corner",
+      "version": "v01",
+      "source": "blender/environment/kaykit_terrain_slope_outer_corner/v01/kaykit_terrain_slope_outer_corner_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_terrain_slope_outer_corner_v01.glb",
+      "sha256": "d60dd4d7d4697f0c543e3d87ae6ccdef7ecf734ce732364e111740dc9a028550",
+      "sourceHash": "a8c3578b4beefb268e761b5cb7d7fc2c8bbbac9d6a5cba090093bdf162315385"
+    },
+    {
+      "id": "kaykit_terrain_tall",
+      "version": "v01",
+      "source": "blender/environment/kaykit_terrain_tall/v01/kaykit_terrain_tall_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_terrain_tall_v01.glb",
+      "sha256": "4f2f08f1aa4a89f484cf411edd625544ab43e4fd713dfee24ebb2a3135034605",
+      "sourceHash": "e0f86e41568c82de173da5cb3eb4a5f4e60a3e736e9d1031ece1a4e8064d5d69"
+    },
+    {
+      "id": "kaykit_terrain_tall_curved",
+      "version": "v01",
+      "source": "blender/environment/kaykit_terrain_tall_curved/v01/kaykit_terrain_tall_curved_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_terrain_tall_curved_v01.glb",
+      "sha256": "abc1daf5a6c5cc5593a26290435b43040560d5b05fec6ad1417f79dec0410986",
+      "sourceHash": "7ad45a308b8bc20e3447a3772ac815a28d6a1850c1b097e99cf951d5074d1766"
+    },
+    {
+      "id": "kaykit_tunnel_diagonal_long_a",
+      "version": "v01",
+      "source": "blender/environment/kaykit_tunnel_diagonal_long_a/v01/kaykit_tunnel_diagonal_long_a_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_tunnel_diagonal_long_a_v01.glb",
+      "sha256": "c01d2e3fd3f7523bc73591401285428fb0d647cbc464f1a2a4fc1de51ba931e9",
+      "sourceHash": "1f7a3588e9a11d8a8c0626d0006075680ddc2d62b628078c4873f417f578f2c4"
+    },
+    {
+      "id": "kaykit_tunnel_diagonal_long_b",
+      "version": "v01",
+      "source": "blender/environment/kaykit_tunnel_diagonal_long_b/v01/kaykit_tunnel_diagonal_long_b_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_tunnel_diagonal_long_b_v01.glb",
+      "sha256": "dc19fc051a687f3bcac60628bcd1e79238140a007add09e6cb3dea8627fa32bc",
+      "sourceHash": "8de33d24757091f7c14f8b5a563cc0249989bc2df38c38824dcb83e3f3940a38"
+    },
+    {
+      "id": "kaykit_tunnel_diagonal_short_a",
+      "version": "v01",
+      "source": "blender/environment/kaykit_tunnel_diagonal_short_a/v01/kaykit_tunnel_diagonal_short_a_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_tunnel_diagonal_short_a_v01.glb",
+      "sha256": "58d09178829a6bf382c4c2c0bf677cad6eb5ca2594c2f4639dc8d5b85dcdd160",
+      "sourceHash": "5150621923f61e02cbc85d5388fcc77e6ebdefdbc8b1d047bac5b26be018415b"
+    },
+    {
+      "id": "kaykit_tunnel_diagonal_short_b",
+      "version": "v01",
+      "source": "blender/environment/kaykit_tunnel_diagonal_short_b/v01/kaykit_tunnel_diagonal_short_b_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_tunnel_diagonal_short_b_v01.glb",
+      "sha256": "14c938ee7a6b664a79406ec398d5f732f24ccf255f9b615c839445ff9538e80d",
+      "sourceHash": "8c3b848a3de894ce441e3b26827d9b38a6c55d31f652b35cd2c0f4bbdcc9f462"
+    },
+    {
+      "id": "kaykit_tunnel_straight_a",
+      "version": "v01",
+      "source": "blender/environment/kaykit_tunnel_straight_a/v01/kaykit_tunnel_straight_a_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_tunnel_straight_a_v01.glb",
+      "sha256": "bb63739962b135a0b9f21388dbebc62ff3ca8d7120ba9e03c8361561bc24e06b",
+      "sourceHash": "ede14ae51b3020a4839c2d913dfbceca0bd369dac6bb1d48cea19d41351f218d"
+    },
+    {
+      "id": "kaykit_tunnel_straight_b",
+      "version": "v01",
+      "source": "blender/environment/kaykit_tunnel_straight_b/v01/kaykit_tunnel_straight_b_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_tunnel_straight_b_v01.glb",
+      "sha256": "370171af2b6c7c6753fb339112acec28465434978f2f03e74f5677235b9fc99a",
+      "sourceHash": "c593ea0e3800285fe7915ebb1a8ad1f062714e1e246cb2c0775379116e1ca751"
+    },
+    {
+      "id": "kaykit_windturbine_low",
+      "version": "v01",
+      "source": "blender/environment/kaykit_windturbine_low/v01/kaykit_windturbine_low_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_windturbine_low_v01.glb",
+      "sha256": "e83041f59b099cfd3530e1bfdbd6d837f0a8536a106d6864ed3c44dc148b144c",
+      "sourceHash": "85f77854832465a7a92196cea75a3d3fb0ee8a94c6917f17b6c4b050d769cff0"
+    },
+    {
+      "id": "kaykit_windturbine_tall",
+      "version": "v01",
+      "source": "blender/environment/kaykit_windturbine_tall/v01/kaykit_windturbine_tall_v01.blend",
+      "runtime": "assets/runtime/environment/kaykit_windturbine_tall_v01.glb",
+      "sha256": "c46a8558218494dfdbbdfebc5c9ac5f3c8db9ec2c2a752117ce74df46bd87f48",
+      "sourceHash": "4dfb2488d1f96780d35ea57de59aabaec2716ffb5f5159fd1a80b46c6a0dee0e"
+    }
+  ],
+  "completedAt": "2026-09-12T13:51:49.318Z",
+  "cleanupComplete": true,
+  "postCleanupChecks": {
+    "migratedModelsLoaded": 64,
+    "pendingDraftsAtCheck": 1,
+    "canonicalLayout": true,
+    "retiredRoutesRejected": true,
+    "unregisteredFilesRejected": true,
+    "inspectorControls": true,
+    "reviewControls": true,
+    "pipelineCreationAndRefinement": true,
+    "draftRegistrationBeforeExport": true,
+    "skillAndReviewerConfiguration": true
+  }
+}

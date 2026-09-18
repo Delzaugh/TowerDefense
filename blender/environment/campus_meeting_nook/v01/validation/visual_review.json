@@ -1,0 +1,17 @@
+{
+  "asset": "campus_meeting_nook",
+  "revision": 5,
+  "sha256": "b1985463d4318ba66e9f21ab924e8bbbf13ce5a11ea942a9ba115b598943f8c8",
+  "sourceHash": "4eee9ac7e01f3ea837f2ffde0070886a6b94c5242ff7147bb3b8ef23fc844167",
+  "reviewedViews": [
+    "iso",
+    "front",
+    "side",
+    "rear",
+    "close_front",
+    "phone"
+  ],
+  "technicalValidationPassed": true,
+  "visualReview": "Personally inspected exported front, side, isometric, rear, close-front and phone views. Canonical stepped purple Copilot silhouette, blue goggles and green eyes are consistent across all six assets. Mounting and depth checked; small consumer badges are secondary details and do not retain eye detail at distant game scale.",
+  "artisticAcceptance": "pending_user_review"
+}

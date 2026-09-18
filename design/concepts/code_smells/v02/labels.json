@@ -1,0 +1,31 @@
+{
+  "title": "Code Smells Concept Variations",
+  "subtitle": "Six simple enemies based on recognizable code smells.",
+  "category": "Enemy",
+  "options": [
+    {
+      "name": "Spaghetti Code",
+      "description": "Thick tangled tubes form one messy knot"
+    },
+    {
+      "name": "God Object",
+      "description": "Oversized block carries too many modules"
+    },
+    {
+      "name": "Duplicate Code",
+      "description": "Twin blocks repeat the same silhouette"
+    },
+    {
+      "name": "Long Method",
+      "description": "Tall folded strip extends past warning marks"
+    },
+    {
+      "name": "Data Clump",
+      "description": "Bundled data chunks crowd one binding ring"
+    },
+    {
+      "name": "Dead Code",
+      "description": "Cracked inactive block slumps beneath crossed badge"
+    }
+  ]
+}

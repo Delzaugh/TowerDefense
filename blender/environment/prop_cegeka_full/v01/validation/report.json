@@ -1,0 +1,37 @@
+{
+  "asset": "prop_cegeka_full",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "45236017f9f1d27b346fa1f9fe4b97f377977f9aa2a03af02cc0d23e26cc4cd6",
+  "checkedAt": "2026-09-17T21:33:56.346Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 2432,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.2799997329711914,
+    0.483382910490036,
+    0.03702511638402939
+  ],
+  "bounds": [
+    [
+      -1.1399998664855957,
+      0,
+      -0.018512558192014694
+    ],
+    [
+      1.1399998664855957,
+      0.483382910490036,
+      0.018512558192014694
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/prop_cegeka_full/v01/prop_cegeka_full_v01.blend",
+  "sourceHash": "8569b5723262c9e9c72e4f8a37364acb6ba9d7a718d2406dff98bee57be4a6cc",
+  "runtime": "assets/runtime/environment/prop_cegeka_full_v01.glb"
+}

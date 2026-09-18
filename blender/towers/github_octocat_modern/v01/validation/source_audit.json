@@ -1,0 +1,59 @@
+{
+  "style": "modern",
+  "parts": {
+    "head_and_ears": {
+      "connected_components": 1,
+      "nonmanifold_edges": 0,
+      "triangles": 28854,
+      "minimum_z": 1.5073695182800293
+    },
+    "body_five_tentacles": {
+      "connected_components": 1,
+      "nonmanifold_edges": 0,
+      "triangles": 27080,
+      "minimum_z": 0.0
+    }
+  },
+  "errors": [],
+  "appendages": [
+    "leg_left",
+    "leg_right",
+    "arm_left",
+    "arm_right",
+    "tail_rear"
+  ],
+  "guide_count": 5,
+  "contact_by_leg": {
+    "leg_left": 0.0,
+    "leg_right": 0.0
+  },
+  "sucker_rows": {
+    "leg_left": 8,
+    "leg_right": 8,
+    "arm_left": 10,
+    "arm_right": 11,
+    "tail_rear": 8
+  },
+  "whisker_meshes": 4,
+  "images": [
+    {
+      "name": "octocat_modern_face_1024",
+      "size": [
+        1024,
+        1024
+      ],
+      "packed": true
+    },
+    {
+      "name": "octocat_palette_32x4",
+      "size": [
+        32,
+        4
+      ],
+      "packed": true
+    }
+  ],
+  "passed": true,
+  "sourceHash": "5e3fc5f1fc8cb4fc540a6e0f07a547be2c5e1afcec6078a0c19ea3925c5aff2e",
+  "runtimeHash": "2917ce38babc993d7c492ea660837652ff0bcdc82d006d741cd85056661231c1"
+}

@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_roofmodule_base",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "808e4443eb3f17c2eab91c4928f6e7b69b13743053e06cdcbce396a957e376bc",
+  "checkedAt": "2026-09-17T21:34:36.368Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 48,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    1.3952346444129944,
+    0.19999998062849045,
+    1.3952369689941406
+  ],
+  "bounds": [
+    [
+      -0.6976174116134644,
+      -0.10000007599592209,
+      -0.6976184844970703
+    ],
+    [
+      0.69761723279953,
+      0.09999990463256836,
+      0.6976184844970703
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_roofmodule_base/v01/kaykit_roofmodule_base_v01.blend",
+  "sourceHash": "6b1e5356eb3fb6cb70c6bddc5439a2730b1a10a1a7686e59abc338971551d1bd",
+  "runtime": "assets/runtime/environment/kaykit_roofmodule_base_v01.glb"
+}

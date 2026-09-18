@@ -1,0 +1,193 @@
+{
+  "asset": "Shield",
+  "three_revision": "180",
+  "triangles": 1949,
+  "mesh_count": 1,
+  "material_count": 1,
+  "texture_sources": 1,
+  "dimensions_width_depth_height": [
+    2.2799999713897705,
+    0.33177831768989563,
+    2.5461740493774414
+  ],
+  "bounds_y_up": [
+    [
+      -1.1399999856948853,
+      0,
+      -0.16588915884494781
+    ],
+    [
+      1.1399999856948853,
+      2.5461740493774414,
+      0.16588915884494781
+    ]
+  ],
+  "root": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      "XYZ"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "Shield",
+      "type": "Group",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "root",
+      "type": "Object3D",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "anchor_action",
+      "type": "Object3D",
+      "position": [
+        0,
+        1.4003957509994507,
+        0.2858891487121582
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "anchor_ui",
+      "type": "Object3D",
+      "position": [
+        0,
+        2.8461740016937256,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Shield_body",
+      "type": "Mesh",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "animations": 0,
+  "has_normals": true,
+  "nonfinite_positions": 0,
+  "materials": [
+    {
+      "name": "Shield_PBR",
+      "roughness": 0.6499999761581421,
+      "metalness": 0,
+      "opaque": true,
+      "base_color_texture": true,
+      "emission_texture": true,
+      "emissive": [
+        0.4000000059604645,
+        0.4000000059604645,
+        0.4000000059604645
+      ],
+      "texture_dimensions": [
+        256,
+        8
+      ]
+    }
+  ],
+  "anchors": {
+    "anchor_action": [
+      0,
+      1.4003957509994507,
+      0.2858891487121582
+    ],
+    "anchor_ui": [
+      0,
+      2.8461740016937256,
+      0
+    ]
+  },
+  "glb": {
+    "byte_length": 49992,
+    "images": [
+      {
+        "mimeType": "image/png",
+        "bufferView": 4,
+        "external_uri": null
+      }
+    ],
+    "buffers": [
+      {
+        "byteLength": 47708
+      }
+    ],
+    "extensions": [
+      "KHR_materials_specular"
+    ],
+    "primitive_count": 1,
+    "self_contained": true,
+    "has_normal_accessors": true
+  },
+  "errors": [],
+  "warnings": [],
+  "checks": {
+    "load_clean": true,
+    "budget": true,
+    "hard_cap": true,
+    "counts_match": true,
+    "dimensions_match": true,
+    "proportions_preserved": true,
+    "ground_contact": true,
+    "centered": true,
+    "root_identity": true,
+    "anchors": true,
+    "static": true,
+    "opaque_pbr": true,
+    "embedded_palette": true,
+    "finite_geometry": true,
+    "exported_normals": true
+  },
+  "runtime_copy": {
+    "path": "assets/runtime/towers/copilot_shield_v01.glb",
+    "identical_to_validated_export": true
+  }
+}

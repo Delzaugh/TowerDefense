@@ -1,0 +1,37 @@
+{
+  "asset": "campus_walk_straight",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "75b6d7f031a2b04fa64fb3a5dd626bd45849fc51bd72582812a9d473c9407167",
+  "checkedAt": "2026-09-17T20:48:48.559Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 28,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    3.200000047683716,
+    0.07999999821186066,
+    4
+  ],
+  "bounds": [
+    [
+      -1.600000023841858,
+      0,
+      -2
+    ],
+    [
+      1.600000023841858,
+      0.07999999821186066,
+      2
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "e6b083d0050db166ddace0c4c90667e3240124c9d79a19f9d7ded2adeb22e225",
+  "source": "blender/environment/campus_walk_straight/v01/campus_walk_straight_v01.blend",
+  "runtime": "assets/runtime/environment/campus_walk_straight_v01.glb"
+}

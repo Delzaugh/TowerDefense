@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_terrain_mining",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "370d475ba285c5cc3a450229a2ba6a98d184f319f7e2dc7970dfebe4140f3e5e",
+  "checkedAt": "2026-09-17T21:34:52.108Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 76,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2,
+    2.07252836227417,
+    2
+  ],
+  "bounds": [
+    [
+      -1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      1.07252836227417,
+      1
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_terrain_mining/v01/kaykit_terrain_mining_v01.blend",
+  "sourceHash": "7ef0b1b377af3e9b89050f956fb7a0794707f585ffbedbb3e2257aa17fd1f088",
+  "runtime": "assets/runtime/environment/kaykit_terrain_mining_v01.glb"
+}

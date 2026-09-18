@@ -1,0 +1,15 @@
+{
+  "asset": "campus_walk_bend",
+  "geometryHash": "86d82ecddd04e0559669d2ef21988ea72802a529731712788af0af74b6560b08",
+  "maxLinearColorError": 1.2099344193217121e-08,
+  "size": [
+    32,
+    4
+  ],
+  "materials": [
+    "glacier_palette"
+  ],
+  "usedRoles": 5,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\environment\\campus_walk_bend\\v01\\.staging\\r6_1789679571693\\campus_walk_bend_v01.blend"
+}

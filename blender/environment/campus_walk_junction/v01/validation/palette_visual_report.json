@@ -1,0 +1,37 @@
+{
+  "asset": "campus_walk_junction",
+  "revision": 3,
+  "sha256": "8f0c565b5ef5c156ee73b9330aea54cb4f08f714b2fcb98d76be59c981ac61bd",
+  "paletteControls": 2,
+  "errors": [],
+  "diff": [
+    {
+      "view": "iso",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0010699074074074074
+    },
+    {
+      "view": "front",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.001958333333333333
+    },
+    {
+      "view": "rear",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0019671296296296294
+    },
+    {
+      "view": "side",
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0
+    },
+    {
+      "view": "top",
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0
+    }
+  ],
+  "visualReview": "Reviewed by Codex: before/after appearance, front and reverse views, clip poses where present, and phone-scale silhouette. No conversion-induced visual regression observed; artistic user acceptance remains separate.",
+  "reviewedAt": "2026-09-17T21:03:25.686Z",
+  "evidence": "blender/environment/campus_walk_junction/v01/validation/palette_migration_r3/palette_review.png"
+}

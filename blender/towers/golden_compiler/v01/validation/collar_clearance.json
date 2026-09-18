@@ -1,0 +1,12 @@
+{
+  "revision": 13,
+  "sourceHash": "af5bd84fb3aa0839d10f0c6873ec7d4970f60ab73d439d7f72638d09533666a0",
+  "clips": {
+    "idle": {
+      "minimumVerticalClearanceMetres": 0.037514686584472656
+    },
+    "work": {
+      "minimumVerticalClearanceMetres": 0.0296095609664917
+    }
+  }
+}

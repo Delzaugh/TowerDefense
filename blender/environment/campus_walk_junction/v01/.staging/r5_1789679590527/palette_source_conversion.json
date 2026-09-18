@@ -1,0 +1,15 @@
+{
+  "asset": "campus_walk_junction",
+  "geometryHash": "9f8e1c8498b67bb2ed9f715afe5b81ce34c3e64d6a7eb596a057cd941bd4d5e4",
+  "maxLinearColorError": 1.2099344193217121e-08,
+  "size": [
+    16,
+    4
+  ],
+  "materials": [
+    "glacier_palette"
+  ],
+  "usedRoles": 4,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\environment\\campus_walk_junction\\v01\\.staging\\r5_1789679590527\\campus_walk_junction_v01.blend"
+}

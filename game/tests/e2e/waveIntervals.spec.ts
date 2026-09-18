@@ -1,0 +1,30 @@
+import { expect, test } from '@playwright/test';
+import { closeQueue, openQueue } from './mapActions';
+
+test('millisecond intervals preview rounding, schedule correctly and persist through reload', async ({ page }) => {
+  await page.goto('/'); await openQueue(page);
+  await page.getByLabel('Queue preset').selectOption('work');
+  const interval = page.getByLabel('Row 1 interval', { exact: true });
+  await expect(page.getByText('Interval (ms)', { exact: true })).toBeVisible();
+  await expect(interval).toHaveValue('1000');
+  await page.getByLabel('Row 1 count').fill('3');
+  await interval.fill('125'); await expect(page.getByTestId('interval-effective-0')).toHaveText('Effective interval: 133.333 ms (8 ticks)');
+  await interval.fill('1'); await expect(page.getByTestId('interval-effective-0')).toContainText('simultaneous burst');
+  await interval.fill(''); await expect(page.getByRole('alert')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Apply queue & prepare', exact: true })).toBeDisabled();
+  await interval.fill('250'); await expect(page.getByTestId('interval-effective-0')).toHaveText('Effective interval: 250 ms (15 ticks)');
+  await page.getByText('Preview draft spawn order', { exact: true }).click();
+  await expect(page.locator('.queue-preview').first()).toContainText('#2 · tick 16');
+  await expect(page.locator('.queue-preview').first()).toContainText('#3 · tick 31');
+  await page.getByRole('button', { name: 'Apply queue & prepare', exact: true }).click();
+  await expect(interval).toHaveValue('250');
+  await page.getByText('Import / export recipe JSON', { exact: true }).click();
+  await page.getByRole('button', { name: 'Export recipe', exact: true }).click();
+  const recipe = JSON.parse(await page.getByLabel('Recipe JSON').inputValue());
+  expect(recipe.rows[0].intervalTicks).toBe(15);
+  await closeQueue(page); await page.getByRole('button', { name: 'Save locally', exact: true }).click();
+  await expect(page.getByRole('status')).toContainText('Saved locally');
+  await page.reload(); await page.getByRole('button', { name: 'Load save', exact: true }).click();
+  await openQueue(page); await expect(interval).toHaveValue('250');
+  await expect(page.getByTestId('queue-dirty')).toHaveText('Matches applied queue');
+});

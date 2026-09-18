@@ -1,0 +1,17 @@
+{
+  "asset": "golden_compiler",
+  "geometryHash": "1500ad6ab1e1d5047e0a3c9ddd56a4e7a565e4e2a959e5bdf3196874e3de527d",
+  "maxLinearColorError": 2.875151916548191e-8,
+  "size": [
+    32,
+    16
+  ],
+  "materials": [
+    "compiler_matte",
+    "compiler_golden_hair",
+    "compiler_energy"
+  ],
+  "usedRoles": 19,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\towers\\golden_compiler\\v01\\golden_compiler_v01.blend"
+}

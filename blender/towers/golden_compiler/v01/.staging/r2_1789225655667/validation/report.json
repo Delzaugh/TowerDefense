@@ -1,0 +1,15 @@
+{
+  "asset": "golden_compiler",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "3f104277c59b6cab11bac9b2cb4c03bf14df9f6ff89cff195d2d2887e6689580",
+  "checkedAt": "2026-09-12T15:07:38.669Z",
+  "errors": [
+    "Cannot find module 'playwright'\nRequire stack:\n- C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\tools\\asset-pipeline\\validate.mjs"
+  ],
+  "warnings": [],
+  "passed": false,
+  "sourceHash": "b15d21403bd4bd1a66a36894ed94ccdec7485f5feee0b862f2056632e6ce36d6",
+  "source": "blender/towers/golden_compiler/v01/golden_compiler_v01.blend",
+  "runtime": "assets/runtime/towers/golden_compiler_v01.glb"
+}

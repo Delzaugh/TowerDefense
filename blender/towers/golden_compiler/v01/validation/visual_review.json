@@ -1,0 +1,26 @@
+{
+  "asset": "golden_compiler",
+  "version": "v01",
+  "revision": 13,
+  "sha256": "d82029f26a3ea8f1adc97a8ed7ae42a21b5a487034516ecf743b12f30af5edf7",
+  "sourceHash": "af5bd84fb3aa0839d10f0c6873ec7d4970f60ab73d439d7f72638d09533666a0",
+  "rendererSha256": "5c219ad34be6e1daa63cdd19f1a338faf51a430a38fee723b49ada133961bed8",
+  "reviewedAt": "2026-09-12T15:54:18.760Z",
+  "reviewedViews": [
+    "head_front",
+    "head_profile",
+    "final_rear",
+    "work_extreme_front",
+    "work_oblique_detail",
+    "aura_phone"
+  ],
+  "findings": [
+    "Removed projecting beard and moustache; stubble follows the jaw surface without added beard volume.",
+    "Lowered collar rim, lapels and rear neckline. Front/profile/rear views show head clearance.",
+    "Every authored idle/work frame has at least 0.0296 m vertical clearance between head and neckline.",
+    "Grounding, hand pose, code symbol, swept hair and flat aura retained."
+  ],
+  "technicalValidation": "Passed guarded export, effect integration and per-frame source collar clearance checks.",
+  "artisticAcceptance": "Pending user judgment",
+  "limitation": "Aura remains a separate presentation shader driven by GLB metadata."
+}

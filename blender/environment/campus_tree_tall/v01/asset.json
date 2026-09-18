@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_tree_tall",
+  "displayName": "Campus tree · tall crown",
+  "category": "environment",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/environment/campus_tree_tall/v01/campus_tree_tall_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_tree_tall/v01/build.py",
+    "authoritativeHash": "79acd62e9012ca93720ed9864471d3ad5daf65e06cddd0e67c256dddaab5499b"
+  },
+  "runtime": "assets/runtime/environment/campus_tree_tall_v01.glb",
+  "budgets": {
+    "triangles": 800,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "prototypes/hub/previews/before-3d-study.png",
+      "provenance": "Project-owned Glacier SVG campus, including floating panel, inset paths and faceted landscaping."
+    },
+    {
+      "path": "tools/asset-recipes/campus-kit.py",
+      "provenance": "Shared geometry helper used by the local versioned recipe."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/campus_tree_tall/v01/revisions/r2_before_r3/campus_tree_tall_v01.glb",
+      "source": "blender/environment/campus_tree_tall/v01/revisions/r2_before_r3/campus_tree_tall_v01.blend",
+      "sha256": "ea21780036b950f0598f986982a1a49946c6ed27a930e011eaa7949ce584595d",
+      "sourceHash": "ae6d95cd5b14178ca166d932c62d7191b44270e8a614e7afbe9d0f7854cf3a07"
+    }
+  ],
+  "decisions": "blender/environment/campus_tree_tall/v01/decisions.md",
+  "delivery": {
+    "sha256": "92559e9d8ee4a8a801f000649aa248adb75b961795ce89f4b4cd8cbbce52b8b3",
+    "sourceHash": "79acd62e9012ca93720ed9864471d3ad5daf65e06cddd0e67c256dddaab5499b",
+    "report": "blender/environment/campus_tree_tall/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T20:55:47.674Z"
+  },
+  "texturePalettes": [
+    {
+      "material": "glacier_palette.008",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#E2EDF0",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "edge": {
+          "color": "#ADC5D2",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "leaf_light": {
+          "color": "#86C2BD",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "soil": {
+          "color": "#7B9E9F",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "trunk": {
+          "color": "#65918F",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "edge": "#ADC5D2",
+      "trunk": "#65918F",
+      "leaf_light": "#86C2BD",
+      "chalk": "#E2EDF0",
+      "soil": "#7B9E9F"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear",
+    "paletteTextureWorkflow": true
+  }
+}

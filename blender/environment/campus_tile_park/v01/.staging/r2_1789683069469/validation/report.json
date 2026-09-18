@@ -1,0 +1,37 @@
+{
+  "asset": "campus_tile_park",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "fd88cf4629d7f5b71c6831a823a6a047175ccb5ceae07bb88d4b34976ca7ffd8",
+  "checkedAt": "2026-09-17T22:11:12.551Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 920,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    36,
+    1.2000000476837158,
+    31.17691421508789
+  ],
+  "bounds": [
+    [
+      -18,
+      0,
+      -15.588457107543945
+    ],
+    [
+      18,
+      1.2000000476837158,
+      15.588457107543945
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "1c6efab502ce410511efdd9f76231b2edc3c04046b03110f0df4275cfbc299b7",
+  "source": "blender/environment/campus_tile_park/v01/campus_tile_park_v01.blend",
+  "runtime": "assets/runtime/environment/campus_tile_park_v01.glb"
+}

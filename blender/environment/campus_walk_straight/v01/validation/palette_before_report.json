@@ -1,0 +1,34 @@
+{
+  "asset": "campus_walk_straight",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "a02534df74454c88e3f04f910a22f1423e477995bf0372d22db6b013e2d01837",
+  "checkedAt": "2026-09-17T20:48:42.012Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 28,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "bones": 0,
+  "dimensions": [
+    3.200000047683716,
+    0.07999999821186066,
+    4
+  ],
+  "bounds": [
+    [
+      -1.600000023841858,
+      0,
+      -2
+    ],
+    [
+      1.600000023841858,
+      0.07999999821186066,
+      2
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true
+}

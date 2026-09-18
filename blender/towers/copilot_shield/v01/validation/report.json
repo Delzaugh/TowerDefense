@@ -1,0 +1,37 @@
+{
+  "asset": "copilot_shield",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "9898e4d8fabaa5c9c4fc977b25bba91a93a27f204bdcb876a71c8b92b5f620ba",
+  "checkedAt": "2026-09-17T21:33:53.973Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1949,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.2799999713897705,
+    2.5461740493774414,
+    0.33177831768989563
+  ],
+  "bounds": [
+    [
+      -1.1399999856948853,
+      0,
+      -0.16588915884494781
+    ],
+    [
+      1.1399999856948853,
+      2.5461740493774414,
+      0.16588915884494781
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/towers/copilot_shield/v01/copilot_shield_v01.blend",
+  "sourceHash": "dac6f564026ae2d46422479eb24763a049310f994fde46062ae120bddbd095f0",
+  "runtime": "assets/runtime/towers/copilot_shield_v01.glb"
+}

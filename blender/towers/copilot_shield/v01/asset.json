@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_shield",
+  "displayName": "Shield",
+  "category": "towers",
+  "version": "v01",
+  "revision": 1,
+  "source": {
+    "path": "blender/towers/copilot_shield/v01/copilot_shield_v01.blend",
+    "mode": "manual",
+    "authoritativeHash": "dac6f564026ae2d46422479eb24763a049310f994fde46062ae120bddbd095f0"
+  },
+  "runtime": "assets/runtime/towers/copilot_shield_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 1,
+    "textures": 2,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_action",
+      "anchor_ui"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/copilot_base/v01/references/original_collection.blend",
+      "provenance": "Preserved original project draft collection; source-faithful low-poly adaptation."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/towers/copilot_shield/v01/decisions.md",
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "9898e4d8fabaa5c9c4fc977b25bba91a93a27f204bdcb876a71c8b92b5f620ba",
+    "sourceHash": "dac6f564026ae2d46422479eb24763a049310f994fde46062ae120bddbd095f0",
+    "report": "blender/towers/copilot_shield/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T13:34:24.555Z"
+  }
+}

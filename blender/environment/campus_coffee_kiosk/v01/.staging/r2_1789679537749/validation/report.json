@@ -1,0 +1,37 @@
+{
+  "asset": "campus_coffee_kiosk",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "209708dbb283fa1d8019b1f138af2532c5eaa4d365451d2a25b8176b956b7646",
+  "checkedAt": "2026-09-17T21:12:21.050Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1908,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    4.199999809265137,
+    4.065199851989746,
+    3.5999999046325684
+  ],
+  "bounds": [
+    [
+      -2.0999999046325684,
+      0,
+      -1.7999999523162842
+    ],
+    [
+      2.0999999046325684,
+      4.065199851989746,
+      1.7999999523162842
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "9e10845461192a4d7a40020905f4d91d75c33bd880ca4ea3a3b5b77284681f40",
+  "source": "blender/environment/campus_coffee_kiosk/v01/campus_coffee_kiosk_v01.blend",
+  "runtime": "assets/runtime/environment/campus_coffee_kiosk_v01.glb"
+}

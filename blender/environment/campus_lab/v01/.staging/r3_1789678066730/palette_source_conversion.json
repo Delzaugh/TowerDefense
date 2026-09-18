@@ -1,0 +1,15 @@
+{
+  "asset": "campus_lab",
+  "geometryHash": "05743c312fe7ac5ad85019912b048aa8fb15b0477cd263dfcf814038eec4e998",
+  "maxLinearColorError": 2.2297857227293605e-08,
+  "size": [
+    32,
+    4
+  ],
+  "materials": [
+    "campus_palette"
+  ],
+  "usedRoles": 7,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\environment\\campus_lab\\v01\\campus_lab_v01.blend"
+}

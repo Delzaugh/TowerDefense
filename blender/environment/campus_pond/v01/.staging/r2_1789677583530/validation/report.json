@@ -1,0 +1,37 @@
+{
+  "asset": "campus_pond",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "be4c122a8a25b8077ce379f59215fba725669a3f4b91c320b45a268717af86b9",
+  "checkedAt": "2026-09-17T20:39:46.305Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 504,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "bones": 0,
+  "dimensions": [
+    6,
+    0.6859999895095825,
+    3.700000047683716
+  ],
+  "bounds": [
+    [
+      -3,
+      0,
+      -1.850000023841858
+    ],
+    [
+      3,
+      0.6859999895095825,
+      1.850000023841858
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "4fa0b4d04261333ccdadc4ce7ce102e8cd6b1a5eddcdc565ad4ac70db827f7a2",
+  "source": "blender/environment/campus_pond/v01/campus_pond_v01.blend",
+  "runtime": "assets/runtime/environment/campus_pond_v01.glb"
+}

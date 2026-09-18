@@ -1,0 +1,98 @@
+{
+  "loading": false,
+  "activePath": "towers/bert_breugelmans_v01.glb",
+  "view": "rear",
+  "projection": "OrthographicCamera",
+  "distance": 1.7174552161983365,
+  "target": [
+    0,
+    1.6699999008813913,
+    -0.14134800924148233
+  ],
+  "camera": [
+    2.1032760331962184e-16,
+    1.6699999008813913,
+    -1.8588032254398188
+  ],
+  "effects": [
+    {
+      "path": "towers/bert_breugelmans_v01.glb",
+      "enabled": false,
+      "triangles": 0,
+      "meshes": 0,
+      "materials": 0
+    }
+  ],
+  "entries": [
+    {
+      "path": "towers/bert_breugelmans_v01.glb",
+      "revision": "b62787063e30350bd59af14590357f2d13a59fd186ecdf67e9c2d4ee11d3e2be",
+      "triangles": 3529,
+      "meshes": 4,
+      "materials": 4,
+      "bounds": [
+        [
+          -0.7370913624763489,
+          -1.3006845712692541e-8,
+          -0.7199999469751577
+        ],
+        [
+          0.7370913624763489,
+          3.3399998147696284,
+          0.437303928492193
+        ]
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ],
+      "wrapper": [
+        0,
+        0,
+        0
+      ],
+      "clips": [
+        {
+          "name": "idle",
+          "duration": 2.5416667461395264
+        },
+        {
+          "name": "work",
+          "duration": 3.0416667461395264
+        },
+        {
+          "name": "listen",
+          "duration": 3.5416667461395264
+        },
+        {
+          "name": "celebrate_team",
+          "duration": 4.041666507720947
+        }
+      ],
+      "clip": "listen",
+      "time": 1.75,
+      "playing": false,
+      "loop": false,
+      "speed": 1,
+      "pose": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0.0006726129770693329,
+        -0.9999997395673157,
+        0,
+        0,
+        0.9999997395673157,
+        0.0006726129770693329,
+        0,
+        0,
+        1.3499999776333258,
+        4.6208532217320395e-8,
+        1
+      ]
+    }
+  ]
+}

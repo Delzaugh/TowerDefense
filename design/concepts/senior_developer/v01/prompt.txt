@@ -1,0 +1,18 @@
+Use case: stylized-concept
+Asset type: six-option game-asset concept sheet for a software-development-themed tower defense game
+Input image: the bundled concept-sheet template is the direct edit target and exact composition base.
+
+Create exactly six original Senior Developer tower-class concepts. Every option is an unmistakably human-like senior-developer hero with a visible mature face, torso, two arms, two legs, hands, and a grounded stance on a compact tower pedestal. The person is the dominant subject; software structures become wearable gear, back-mounted aura frames, shoulder modules, gauntlets, or compact bases. Preserve the template's 3 x 2 layout, dark navy presentation, number badges, panel borders, floor grids, margins, header, and label zones. Use strict front-facing orthographic or near-orthographic views with consistent camera height, floor contact, lighting, baseline, and perceived scale.
+
+Style: friendly chunky low-poly 3D, capable senior technical mentor, charcoal and off-white bodies, warm golden-white energy, restrained cyan circuitry. Keep every design feasible below 2,500 triangles with large planar forms, low-segment curves, simple bevels, broad color blocks, and minimal detail.
+
+Power-up language: original golden-white flame-shaped aura, rising energy fins, floating geometric code shards, sparking cyan circuitry, and confident charged silhouettes. Do not reproduce any existing character, costume, hairstyle, emblem, pose, or franchise-specific effect.
+
+01 — Golden Compiler: tall veteran coder in an angular coat, glowing chest compiler, enormous flame-like crown.
+02 — Merge Sage: broad mentor with wearable branching code gauntlets converging around a radiant merge core.
+03 — Commit Halo: calm human architect with a segmented commit-node halo and focused coding gesture.
+04 — Pipeline Ascendant: athletic engineer with asymmetric deployment modules climbing toward a raised release node.
+05 — Thread Titan: stocky developer with broad process-energy bands spiraling around a grounded body.
+06 — Review Gate: authoritative reviewer inside an open back frame, holding a blazing approval glyph.
+
+Avoid robots, android faces, blank helmets, masks, architecture-only concepts, shared base bodies, cosmetic-only changes, military weapons, dark cyberpunk, photorealism, dense greebles, tiny text, logos, watermarks, extra panels, annotations, technical statistics, turnarounds, and artwork overlapping labels or badges.

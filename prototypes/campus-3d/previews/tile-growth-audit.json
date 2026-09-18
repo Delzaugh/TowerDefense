@@ -1,0 +1,18 @@
+{
+  "note": "Test fixture adds one temporary eighth tile to the delivered mixed-terrain layout.",
+  "passed": true,
+  "tiles": 8,
+  "joinedEdges": 13,
+  "exposedEdges": 22,
+  "area": 6734.213539827795,
+  "width": 117,
+  "depth": 93.53074360871936,
+  "surfaceProfiles": [
+    "mineral_composite",
+    "plaza",
+    "hill",
+    "park",
+    "test_surface"
+  ],
+  "invalid": []
+}

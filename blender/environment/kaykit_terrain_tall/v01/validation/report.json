@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_terrain_tall",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "4f2f08f1aa4a89f484cf411edd625544ab43e4fd713dfee24ebb2a3135034605",
+  "checkedAt": "2026-09-17T21:34:56.912Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 12,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2,
+    2,
+    2
+  ],
+  "bounds": [
+    [
+      -1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_terrain_tall/v01/kaykit_terrain_tall_v01.blend",
+  "sourceHash": "e0f86e41568c82de173da5cb3eb4a5f4e60a3e736e9d1031ece1a4e8064d5d69",
+  "runtime": "assets/runtime/environment/kaykit_terrain_tall_v01.glb"
+}

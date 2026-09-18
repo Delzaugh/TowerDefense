@@ -1,0 +1,24 @@
+{
+  "triangles": 5819,
+  "meshes": 13,
+  "parts": {
+    "body_five_tentacles": 2200,
+    "eye_iris_-1": 80,
+    "eye_iris_1": 80,
+    "eye_white_-1": 79,
+    "eye_white_1": 80,
+    "head_and_ears": 1800,
+    "nose": 80,
+    "smile": 100,
+    "suction_cup_rows": 1080,
+    "whisker_-1_0": 60,
+    "whisker_-1_1": 60,
+    "whisker_1_0": 60,
+    "whisker_1_1": 60
+  },
+  "suction_cups": 45,
+  "total_appendages": 5,
+  "supporting_legs": 4,
+  "tails": 1,
+  "source_revision": 9
+}

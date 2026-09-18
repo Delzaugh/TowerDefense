@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_tree_cluster",
+  "displayName": "Campus tree \u00b7 paired crowns",
+  "category": "environment",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/environment/campus_tree_cluster/v01/campus_tree_cluster_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_tree_cluster/v01/build.py",
+    "authoritativeHash": "3d2af8b935b31765c9955491ca04dfc8ad3abbdbc5002235c0cebbbeac203826"
+  },
+  "runtime": "assets/runtime/environment/campus_tree_cluster_v01.glb",
+  "budgets": {
+    "triangles": 1000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "prototypes/hub/previews/before-3d-study.png",
+      "provenance": "Project-owned Glacier SVG campus, including floating panel, inset paths and faceted landscaping."
+    },
+    {
+      "path": "tools/asset-recipes/campus-kit.py",
+      "provenance": "Shared geometry helper used by the local versioned recipe."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/campus_tree_cluster/v01/decisions.md",
+  "delivery": {
+    "sha256": "f520b28f7f4b9125439dced51e5dbd4f1f502c84e11100c2f3772b31c18df34f",
+    "sourceHash": "3d2af8b935b31765c9955491ca04dfc8ad3abbdbc5002235c0cebbbeac203826",
+    "report": "blender/environment/campus_tree_cluster/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T20:39:43.406Z"
+  },
+  "texturePalettes": [
+    {
+      "material": "glacier_palette.009",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#E2EDF0",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "edge": {
+          "color": "#ADC5D2",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "leaf": {
+          "color": "#70B5B4",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "leaf_dark": {
+          "color": "#609D9E",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "soil": {
+          "color": "#7B9E9F",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "trunk": {
+          "color": "#65918F",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "edge": "#ADC5D2",
+      "trunk": "#65918F",
+      "leaf": "#70B5B4",
+      "leaf_dark": "#609D9E",
+      "chalk": "#E2EDF0",
+      "soil": "#7B9E9F"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear",
+    "paletteTextureWorkflow": true
+  }
+}

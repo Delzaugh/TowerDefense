@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_windturbine_low",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "e83041f59b099cfd3530e1bfdbd6d837f0a8536a106d6864ed3c44dc148b144c",
+  "checkedAt": "2026-09-17T21:35:06.917Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 826,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    1.1435028910636902,
+    1.4649765491485596,
+    1.2904070615768433
+  ],
+  "bounds": [
+    [
+      -0.5717513561248779,
+      0,
+      -0.6452035307884216
+    ],
+    [
+      0.5717515349388123,
+      1.4649765491485596,
+      0.6452035307884216
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_windturbine_low/v01/kaykit_windturbine_low_v01.blend",
+  "sourceHash": "85f77854832465a7a92196cea75a3d3fb0ee8a94c6917f17b6c4b050d769cff0",
+  "runtime": "assets/runtime/environment/kaykit_windturbine_low_v01.glb"
+}

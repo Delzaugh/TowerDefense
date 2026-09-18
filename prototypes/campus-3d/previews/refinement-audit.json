@@ -1,0 +1,37 @@
+{
+  "checkedAt": "2026-09-17T21:17:16.881Z",
+  "passed": true,
+  "sourceVerification": "prototypes/campus-3d/verify.cjs",
+  "base": {
+    "radius": 18,
+    "width": 90,
+    "depth": 93.53074360871938,
+    "area": 5892.4368473493205,
+    "linearIncrease": 1.5,
+    "areaIncrease": 2.25,
+    "thickness": 1.2,
+    "joinedEdges": 12
+  },
+  "effects": {
+    "count": 14,
+    "ownership": "Application 3D presentation layer",
+    "geometry": "Depth-tested continuous ribbons with chamfered turns",
+    "speedMetresPerSecond": [
+      2.8,
+      3.15
+    ],
+    "tailLengthMetres": 6,
+    "verified": [
+      "Light clock advances and head positions change",
+      "Light clock freezes on pause",
+      "Reduced-motion starts scene paused",
+      "Shader compilation and browser console are clean"
+    ],
+    "frameEvidence": [
+      "stroll-0.png",
+      "stroll-3-5.png",
+      "stroll-9-5.png",
+      "stroll-13.png"
+    ]
+  }
+}

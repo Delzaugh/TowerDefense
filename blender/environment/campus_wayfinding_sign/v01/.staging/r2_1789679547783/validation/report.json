@@ -1,0 +1,37 @@
+{
+  "asset": "campus_wayfinding_sign",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "c713be5b7a7054c155205157284cc7b4ccd0c522816c5be3e437bb851f53fda3",
+  "checkedAt": "2026-09-17T21:12:30.909Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 600,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.260145425796509,
+    2.7799999713897705,
+    0.75
+  ],
+  "bounds": [
+    [
+      -1.1300727128982544,
+      0,
+      -0.375
+    ],
+    [
+      1.1300727128982544,
+      2.7799999713897705,
+      0.375
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "6990b5b96d15055e250d6d9ee12da302ef4a64f150bd2c8257acba6e6edbc23c",
+  "source": "blender/environment/campus_wayfinding_sign/v01/campus_wayfinding_sign_v01.blend",
+  "runtime": "assets/runtime/environment/campus_wayfinding_sign_v01.glb"
+}

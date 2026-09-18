@@ -1,0 +1,103 @@
+{
+  "revision": 25,
+  "sha256": "a9d5296ba0920ea5adfd04fd4356534a2278184fe0f2ddaaa9d2a2f24bea1092",
+  "errors": [],
+  "state": {
+    "loading": false,
+    "activePath": "towers/bert_breugelmans_v01.glb",
+    "view": "iso",
+    "projection": "OrthographicCamera",
+    "distance": 17.130549366446747,
+    "target": [
+      0,
+      1.577930759885956,
+      -0.14098205996169288
+    ],
+    "camera": [
+      8.88776916207525,
+      10.39706039842087,
+      11.55030672000813
+    ],
+    "effects": [
+      {
+        "path": "towers/bert_breugelmans_v01.glb",
+        "enabled": false,
+        "triangles": 0,
+        "meshes": 0,
+        "materials": 0
+      }
+    ],
+    "entries": [
+      {
+        "path": "towers/bert_breugelmans_v01.glb",
+        "revision": "a9d5296ba0920ea5adfd04fd4356534a2278184fe0f2ddaaa9d2a2f24bea1092",
+        "triangles": 3993,
+        "meshes": 4,
+        "materials": 4,
+        "bounds": [
+          [
+            -0.7370913624763489,
+            -1.0165876598167269e-8,
+            -0.7192680484155788
+          ],
+          [
+            0.7370913624763489,
+            3.1558615299377886,
+            0.437303928492193
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": "idle",
+            "duration": 2.5416667461395264
+          },
+          {
+            "name": "move",
+            "duration": 1.3333333730697632
+          },
+          {
+            "name": "work",
+            "duration": 3.0416667461395264
+          },
+          {
+            "name": "celebrate_team",
+            "duration": 4
+          }
+        ],
+        "clip": "celebrate_team",
+        "time": 1.167,
+        "playing": false,
+        "loop": false,
+        "speed": 1,
+        "pose": [
+          0.9999554601385846,
+          0.008970210695326655,
+          -0.002934800936711478,
+          0,
+          -0.0031340509959688566,
+          0.02227966209809934,
+          -0.9997468309250916,
+          0,
+          -0.008902553954306829,
+          0.9997115001552264,
+          0.02230678286172819,
+          0,
+          0.019939147105206563,
+          1.3360426233778417,
+          0.005981789655372478,
+          1
+        ]
+      }
+    ]
+  }
+}

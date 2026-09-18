@@ -1,0 +1,625 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "id": "copilot_base",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_base/v01/asset.json"
+    },
+    {
+      "id": "copilot_base",
+      "version": "v02",
+      "manifest": "blender/towers/copilot_base/v02/asset.json"
+    },
+    {
+      "id": "github_mona_head",
+      "version": "v01",
+      "manifest": "blender/towers/github_mona_head/v01/asset.json"
+    },
+    {
+      "id": "copilot_rubber_duck",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_rubber_duck/v01/asset.json"
+    },
+    {
+      "id": "copilot_shield",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_shield/v01/asset.json"
+    },
+    {
+      "id": "prop_cegeka",
+      "version": "v01",
+      "manifest": "blender/environment/prop_cegeka/v01/asset.json"
+    },
+    {
+      "id": "prop_cegeka_full",
+      "version": "v01",
+      "manifest": "blender/environment/prop_cegeka_full/v01/asset.json"
+    },
+    {
+      "id": "problem_bug",
+      "version": "v01",
+      "manifest": "blender/enemies/problem_bug/v01/asset.json"
+    },
+    {
+      "id": "kaykit_basemodule_a",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_basemodule_a/v01/asset.json"
+    },
+    {
+      "id": "kaykit_basemodule_b",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_basemodule_b/v01/asset.json"
+    },
+    {
+      "id": "kaykit_basemodule_c",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_basemodule_c/v01/asset.json"
+    },
+    {
+      "id": "kaykit_basemodule_d",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_basemodule_d/v01/asset.json"
+    },
+    {
+      "id": "kaykit_basemodule_e",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_basemodule_e/v01/asset.json"
+    },
+    {
+      "id": "kaykit_basemodule_garage",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_basemodule_garage/v01/asset.json"
+    },
+    {
+      "id": "kaykit_cargo_a",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_cargo_a/v01/asset.json"
+    },
+    {
+      "id": "kaykit_cargo_a_packed",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_cargo_a_packed/v01/asset.json"
+    },
+    {
+      "id": "kaykit_cargo_a_stacked",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_cargo_a_stacked/v01/asset.json"
+    },
+    {
+      "id": "kaykit_cargo_b",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_cargo_b/v01/asset.json"
+    },
+    {
+      "id": "kaykit_cargo_b_packed",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_cargo_b_packed/v01/asset.json"
+    },
+    {
+      "id": "kaykit_cargo_b_stacked",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_cargo_b_stacked/v01/asset.json"
+    },
+    {
+      "id": "kaykit_cargodepot_a",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_cargodepot_a/v01/asset.json"
+    },
+    {
+      "id": "kaykit_cargodepot_b",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_cargodepot_b/v01/asset.json"
+    },
+    {
+      "id": "kaykit_cargodepot_c",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_cargodepot_c/v01/asset.json"
+    },
+    {
+      "id": "kaykit_containers_a",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_containers_a/v01/asset.json"
+    },
+    {
+      "id": "kaykit_containers_b",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_containers_b/v01/asset.json"
+    },
+    {
+      "id": "kaykit_containers_c",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_containers_c/v01/asset.json"
+    },
+    {
+      "id": "kaykit_containers_d",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_containers_d/v01/asset.json"
+    },
+    {
+      "id": "kaykit_drill_structure",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_drill_structure/v01/asset.json"
+    },
+    {
+      "id": "kaykit_lander_a",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_lander_a/v01/asset.json"
+    },
+    {
+      "id": "kaykit_lander_b",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_lander_b/v01/asset.json"
+    },
+    {
+      "id": "kaykit_lander_base",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_lander_base/v01/asset.json"
+    },
+    {
+      "id": "kaykit_landingpad_large",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_landingpad_large/v01/asset.json"
+    },
+    {
+      "id": "kaykit_landingpad_small",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_landingpad_small/v01/asset.json"
+    },
+    {
+      "id": "kaykit_lights",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_lights/v01/asset.json"
+    },
+    {
+      "id": "kaykit_rock_a",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_rock_a/v01/asset.json"
+    },
+    {
+      "id": "kaykit_rock_b",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_rock_b/v01/asset.json"
+    },
+    {
+      "id": "kaykit_rocks_a",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_rocks_a/v01/asset.json"
+    },
+    {
+      "id": "kaykit_rocks_b",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_rocks_b/v01/asset.json"
+    },
+    {
+      "id": "kaykit_roofmodule_base",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_roofmodule_base/v01/asset.json"
+    },
+    {
+      "id": "kaykit_roofmodule_cargo_a",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_roofmodule_cargo_a/v01/asset.json"
+    },
+    {
+      "id": "kaykit_roofmodule_cargo_b",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_roofmodule_cargo_b/v01/asset.json"
+    },
+    {
+      "id": "kaykit_roofmodule_cargo_c",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_roofmodule_cargo_c/v01/asset.json"
+    },
+    {
+      "id": "kaykit_roofmodule_solarpanels",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_roofmodule_solarpanels/v01/asset.json"
+    },
+    {
+      "id": "kaykit_solarpanel",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_solarpanel/v01/asset.json"
+    },
+    {
+      "id": "kaykit_spacetruck",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_spacetruck/v01/asset.json"
+    },
+    {
+      "id": "kaykit_spacetruck_large",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_spacetruck_large/v01/asset.json"
+    },
+    {
+      "id": "kaykit_spacetruck_trailer",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_spacetruck_trailer/v01/asset.json"
+    },
+    {
+      "id": "kaykit_structure_low",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_structure_low/v01/asset.json"
+    },
+    {
+      "id": "kaykit_structure_tall",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_structure_tall/v01/asset.json"
+    },
+    {
+      "id": "kaykit_terrain_low",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_terrain_low/v01/asset.json"
+    },
+    {
+      "id": "kaykit_terrain_low_curved",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_terrain_low_curved/v01/asset.json"
+    },
+    {
+      "id": "kaykit_terrain_mining",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_terrain_mining/v01/asset.json"
+    },
+    {
+      "id": "kaykit_terrain_slope",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_terrain_slope/v01/asset.json"
+    },
+    {
+      "id": "kaykit_terrain_slope_inner_corner",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_terrain_slope_inner_corner/v01/asset.json"
+    },
+    {
+      "id": "kaykit_terrain_slope_outer_corner",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_terrain_slope_outer_corner/v01/asset.json"
+    },
+    {
+      "id": "kaykit_terrain_tall",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_terrain_tall/v01/asset.json"
+    },
+    {
+      "id": "kaykit_terrain_tall_curved",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_terrain_tall_curved/v01/asset.json"
+    },
+    {
+      "id": "kaykit_tunnel_diagonal_long_a",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_tunnel_diagonal_long_a/v01/asset.json"
+    },
+    {
+      "id": "kaykit_tunnel_diagonal_long_b",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_tunnel_diagonal_long_b/v01/asset.json"
+    },
+    {
+      "id": "kaykit_tunnel_diagonal_short_a",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_tunnel_diagonal_short_a/v01/asset.json"
+    },
+    {
+      "id": "kaykit_tunnel_diagonal_short_b",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_tunnel_diagonal_short_b/v01/asset.json"
+    },
+    {
+      "id": "kaykit_tunnel_straight_a",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_tunnel_straight_a/v01/asset.json"
+    },
+    {
+      "id": "kaykit_tunnel_straight_b",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_tunnel_straight_b/v01/asset.json"
+    },
+    {
+      "id": "kaykit_windturbine_low",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_windturbine_low/v01/asset.json"
+    },
+    {
+      "id": "kaykit_windturbine_tall",
+      "version": "v01",
+      "manifest": "blender/environment/kaykit_windturbine_tall/v01/asset.json"
+    },
+    {
+      "id": "problem_lag_spike",
+      "version": "v01",
+      "manifest": "blender/enemies/problem_lag_spike/v01/asset.json"
+    },
+    {
+      "id": "problem_vague_spec",
+      "version": "v01",
+      "manifest": "blender/enemies/problem_vague_spec/v01/asset.json"
+    },
+    {
+      "id": "problem_missing_details",
+      "version": "v01",
+      "manifest": "blender/enemies/problem_missing_details/v01/asset.json"
+    },
+    {
+      "id": "work_coding_task",
+      "version": "v01",
+      "manifest": "blender/work/work_coding_task/v01/asset.json"
+    },
+    {
+      "id": "golden_compiler",
+      "version": "v01",
+      "manifest": "blender/towers/golden_compiler/v01/asset.json"
+    },
+    {
+      "id": "copilot_commit_halo",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_commit_halo/v01/asset.json"
+    },
+    {
+      "id": "problem_dead_code",
+      "version": "v01",
+      "manifest": "blender/enemies/problem_dead_code/v01/asset.json"
+    },
+    {
+      "id": "problem_spaghetti_code",
+      "version": "v01",
+      "manifest": "blender/enemies/problem_spaghetti_code/v01/asset.json"
+    },
+    {
+      "id": "bert_breugelmans",
+      "version": "v01",
+      "manifest": "blender/towers/bert_breugelmans/v01/asset.json"
+    },
+    {
+      "id": "problem_bug_palette_test",
+      "version": "v01",
+      "manifest": "blender/enemies/problem_bug_palette_test/v01/asset.json"
+    },
+    {
+      "id": "campus_home_study",
+      "version": "v01",
+      "manifest": "blender/environment/campus_home_study/v01/asset.json"
+    },
+    {
+      "id": "campus_platform",
+      "version": "v01",
+      "manifest": "blender/environment/campus_platform/v01/asset.json"
+    },
+    {
+      "id": "campus_lab",
+      "version": "v01",
+      "manifest": "blender/environment/campus_lab/v01/asset.json"
+    },
+    {
+      "id": "campus_walk_straight",
+      "version": "v01",
+      "manifest": "blender/environment/campus_walk_straight/v01/asset.json"
+    },
+    {
+      "id": "campus_walk_short",
+      "version": "v01",
+      "manifest": "blender/environment/campus_walk_short/v01/asset.json"
+    },
+    {
+      "id": "campus_walk_corner",
+      "version": "v01",
+      "manifest": "blender/environment/campus_walk_corner/v01/asset.json"
+    },
+    {
+      "id": "campus_walk_bend",
+      "version": "v01",
+      "manifest": "blender/environment/campus_walk_bend/v01/asset.json"
+    },
+    {
+      "id": "campus_walk_bend_45",
+      "version": "v01",
+      "manifest": "blender/environment/campus_walk_bend_45/v01/asset.json"
+    },
+    {
+      "id": "campus_walk_junction",
+      "version": "v01",
+      "manifest": "blender/environment/campus_walk_junction/v01/asset.json"
+    },
+    {
+      "id": "campus_tree_round",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tree_round/v01/asset.json"
+    },
+    {
+      "id": "campus_tree_tall",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tree_tall/v01/asset.json"
+    },
+    {
+      "id": "campus_tree_cluster",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tree_cluster/v01/asset.json"
+    },
+    {
+      "id": "campus_pond",
+      "version": "v01",
+      "manifest": "blender/environment/campus_pond/v01/asset.json"
+    },
+    {
+      "id": "campus_solar",
+      "version": "v01",
+      "manifest": "blender/environment/campus_solar/v01/asset.json"
+    },
+    {
+      "id": "campus_base_hex",
+      "version": "v01",
+      "manifest": "blender/environment/campus_base_hex/v01/asset.json"
+    },
+    {
+      "id": "campus_coffee_kiosk",
+      "version": "v01",
+      "manifest": "blender/environment/campus_coffee_kiosk/v01/asset.json"
+    },
+    {
+      "id": "campus_planter_bench",
+      "version": "v01",
+      "manifest": "blender/environment/campus_planter_bench/v01/asset.json"
+    },
+    {
+      "id": "campus_wayfinding_sign",
+      "version": "v01",
+      "manifest": "blender/environment/campus_wayfinding_sign/v01/asset.json"
+    },
+    {
+      "id": "campus_meeting_nook",
+      "version": "v01",
+      "manifest": "blender/environment/campus_meeting_nook/v01/asset.json"
+    },
+    {
+      "id": "campus_code_sculpture",
+      "version": "v01",
+      "manifest": "blender/environment/campus_code_sculpture/v01/asset.json"
+    },
+    {
+      "id": "github_octocat_classic",
+      "version": "v01",
+      "manifest": "blender/towers/github_octocat_classic/v01/asset.json"
+    },
+    {
+      "id": "github_octocat_modern",
+      "version": "v01",
+      "manifest": "blender/towers/github_octocat_modern/v01/asset.json"
+    },
+    {
+      "id": "campus_pixel_copilot",
+      "version": "v01",
+      "manifest": "blender/environment/campus_pixel_copilot/v01/asset.json"
+    },
+    {
+      "id": "campus_pixel_rubber_duck",
+      "version": "v01",
+      "manifest": "blender/environment/campus_pixel_rubber_duck/v01/asset.json"
+    },
+    {
+      "id": "campus_pixel_mona",
+      "version": "v01",
+      "manifest": "blender/environment/campus_pixel_mona/v01/asset.json"
+    },
+    {
+      "id": "campus_tile_park",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tile_park/v01/asset.json"
+    },
+    {
+      "id": "campus_tile_plaza",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tile_plaza/v01/asset.json"
+    },
+    {
+      "id": "campus_tile_hill",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tile_hill/v01/asset.json"
+    },
+    {
+      "id": "codicon_agent",
+      "version": "v01",
+      "manifest": "blender/environment/codicon_agent/v01/asset.json"
+    },
+    {
+      "id": "codicon_book",
+      "version": "v01",
+      "manifest": "blender/environment/codicon_book/v01/asset.json"
+    },
+    {
+      "id": "codicon_lightbulb",
+      "version": "v01",
+      "manifest": "blender/environment/codicon_lightbulb/v01/asset.json"
+    },
+    {
+      "id": "codicon_mcp",
+      "version": "v01",
+      "manifest": "blender/environment/codicon_mcp/v01/asset.json"
+    },
+    {
+      "id": "codicon_github",
+      "version": "v01",
+      "manifest": "blender/environment/codicon_github/v01/asset.json"
+    },
+    {
+      "id": "codicon_code",
+      "version": "v01",
+      "manifest": "blender/environment/codicon_code/v01/asset.json"
+    },
+    {
+      "id": "codicon_copilot",
+      "version": "v01",
+      "manifest": "blender/environment/codicon_copilot/v01/asset.json"
+    },
+    {
+      "id": "campus_walk_landing",
+      "version": "v01",
+      "manifest": "blender/environment/campus_walk_landing/v01/asset.json"
+    },
+    {
+      "id": "github_octocat_classic_lowpoly",
+      "version": "v01",
+      "manifest": "blender/towers/github_octocat_classic_lowpoly/v01/asset.json"
+    },
+    {
+      "id": "campus_flower_bed",
+      "version": "v01",
+      "manifest": "blender/environment/campus_flower_bed/v01/asset.json"
+    },
+    {
+      "id": "campus_bush_round",
+      "version": "v01",
+      "manifest": "blender/environment/campus_bush_round/v01/asset.json"
+    },
+    {
+      "id": "campus_hedge",
+      "version": "v01",
+      "manifest": "blender/environment/campus_hedge/v01/asset.json"
+    },
+    {
+      "id": "campus_path_bollard",
+      "version": "v01",
+      "manifest": "blender/environment/campus_path_bollard/v01/asset.json"
+    },
+    {
+      "id": "campus_cafe_table",
+      "version": "v01",
+      "manifest": "blender/environment/campus_cafe_table/v01/asset.json"
+    },
+    {
+      "id": "campus_noticeboard",
+      "version": "v01",
+      "manifest": "blender/environment/campus_noticeboard/v01/asset.json"
+    },
+    {
+      "id": "copilot_developer",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_developer/v01/asset.json"
+    },
+    {
+      "id": "copilot_tester",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_tester/v01/asset.json"
+    },
+    {
+      "id": "copilot_analyst",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_analyst/v01/asset.json"
+    },
+    {
+      "id": "copilot_security",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_security/v01/asset.json"
+    },
+    {
+      "id": "copilot_architect",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_architect/v01/asset.json"
+    },
+    {
+      "id": "linter_agent",
+      "version": "v01",
+      "manifest": "blender/towers/linter_agent/v01/asset.json"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "sourceHash": "db013687564dc6f5edd6e186a79c789e5dec2e79b7a559506b0595cf3d6d1ddf",
+  "runtimeHash": "f90170f0ad988f63dd86063826b9de96bfaa5ff7cf8a30c3529e78c7f3486ea5",
+  "source": {
+    "verticesAfterWeld": 126,
+    "triangles": 248,
+    "components": 1,
+    "nonManifoldEdges": 0,
+    "zeroAreaTriangles": 0,
+    "signedVolume": 1.5703978094475735,
+    "nonAdjacentSurfaceIntersections": [],
+    "redFloorTriangles": 10,
+    "minimumBackingDepthMetres": 0.4141803979873657
+  },
+  "runtime": {
+    "verticesAfterWeld": 126,
+    "triangles": 248,
+    "components": 1,
+    "nonManifoldEdges": 0,
+    "zeroAreaTriangles": 0,
+    "signedVolume": 1.5703978094475726,
+    "nonAdjacentSurfaceIntersections": []
+  },
+  "scope": "Torso including shell, groove walls/floor, rim and belly. Separate articulated head, antennae and legs are outside this watertightness assertion."
+}

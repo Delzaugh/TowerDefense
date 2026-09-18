@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "baselineHash": "d4ce09cbe5a56ff12224c93e2f2d804481781b7efa4925195a4a6c5cbc540352",
+  "candidateHash": "3210fff587383d6e9173bb89898abe00cc6d41de7ed02121a1b1b1fa5c3effaa",
+  "invariants": "Identical triangle indices, positions, normals, skin weights/indices, bone binds, anchors/transforms and all animation channel/time/value bytes.",
+  "maxLinearColorError": 1.355422030169251e-8,
+  "paletteImage": {
+    "width": 32,
+    "height": 4,
+    "encodedBytes": 124,
+    "rgba8BaseLevelBytes": 512
+  },
+  "baseline": {
+    "glbBytes": 336116,
+    "attributeBytes": {
+      "_PALETTE_ROLE": 18448,
+      "POSITION": 55344,
+      "NORMAL": 55344,
+      "COLOR_0": 55344,
+      "JOINTS_0": 18448,
+      "WEIGHTS_0": 73792
+    }
+  },
+  "candidate": {
+    "glbBytes": 318160,
+    "attributeBytes": {
+      "_PALETTE_ROLE": 18448,
+      "POSITION": 55344,
+      "NORMAL": 55344,
+      "TEXCOORD_0": 36896,
+      "JOINTS_0": 18448,
+      "WEIGHTS_0": 73792
+    }
+  },
+  "savedBytes": 17956,
+  "savedPercent": 5.342203286960454,
+  "matchedPipelineViews": [
+    {
+      "view": "iso",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.012251388888888888,
+      "changedPixelPercent": 3.6705555555555556
+    },
+    {
+      "view": "front",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.005102314814814815,
+      "changedPixelPercent": 1.4847222222222223
+    },
+    {
+      "view": "side",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.008109722222222223,
+      "changedPixelPercent": 2.432916666666667
+    },
+    {
+      "view": "rear",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.005738425925925926,
+      "changedPixelPercent": 1.7215277777777778
+    },
+    {
+      "view": "top",
+      "maxChannelDifference": 2,
+      "meanChannelDifference": 0.013271296296296297,
+      "changedPixelPercent": 3.4004166666666666
+    },
+    {
+      "view": "move",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.011506018518518518,
+      "changedPixelPercent": 3.256666666666667
+    },
+    {
+      "view": "hit",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0067083333333333335,
+      "changedPixelPercent": 2.0123611111111113
+    },
+    {
+      "view": "resolve",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0011097222222222222,
+      "changedPixelPercent": 0.3326388888888889
+    }
+  ]
+}

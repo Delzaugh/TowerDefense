@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "vertices": 408,
+  "meshes": 1,
+  "materials": 1,
+  "oldBytes": 22676,
+  "newBytes": 21508,
+  "checks": "Exact exported topology, positions, normals, skinning, old UV channels, morph targets, rig, anchors, clips, and material/emission parity; base-colour storage only."
+}

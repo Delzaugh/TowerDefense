@@ -1,0 +1,49 @@
+{
+  "asset": "problem_dead_code",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "c6a2e2f7e08f692137de59602db807c6f97dbd438ba4f2140b85e873a69232ae",
+  "sourceHash": "4d35b6b1bad33963aea8ef014c7e13d2c0a49a53fce631040b69a1c11a65a097",
+  "reviewedAt": "2026-09-12T16:04:27.1479862Z",
+  "technicalValidation": true,
+  "visualReview": "Completed by authoring agent; user artistic acceptance remains pending",
+  "views": [
+    "Three.js exported front, isometric, side and rear renders",
+    "Shared Inspector close isometric: continuous X, both brace corners, seated icons and front recess",
+    "Corrected rear panel: polygon color assignment contained within the recess",
+    "Move 0.417 and 1.167 s: both rocking-hop extremes",
+    "Hit 0.167 s right view: rigid recoil and ground support",
+    "Resolve 0.667 s midpoint and 1.291 s terminal pose",
+    "Idle 0.542 s at phone width",
+    "Small silhouette test at phone width"
+  ],
+  "findings": [
+    "Reference silhouette and raised code icon preserved",
+    "No visible cracks, disconnected symbols, overlapping X seam or recess color spill in reviewed revision",
+    "Ground support maintained in sampled poses; tiny submillimetre interpolation deviations are below visible/contract tolerance",
+    "Loop endpoints match numerically; root remains stationary",
+    "Braces and X remain distinguishable at small isometric size"
+  ],
+  "limitations": [
+    "Resolve ends at 3.5 percent scale; presentation owns actual removal",
+    "No gameplay integration performed"
+  ],
+  "clipDurations": [
+    {
+      "seconds": 2.0416667461395264,
+      "name": "idle"
+    },
+    {
+      "seconds": 1.5416666269302368,
+      "name": "move"
+    },
+    {
+      "seconds": 0.7916666865348816,
+      "name": "hit"
+    },
+    {
+      "seconds": 1.2916666269302368,
+      "name": "resolve"
+    }
+  ]
+}

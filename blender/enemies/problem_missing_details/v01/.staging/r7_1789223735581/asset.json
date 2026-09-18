@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "problem_missing_details",
+  "displayName": "Missing Details",
+  "category": "enemies",
+  "version": "v01",
+  "revision": 7,
+  "source": {
+    "path": "blender/enemies/problem_missing_details/v01/problem_missing_details_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/enemies/problem_missing_details/v01/build.py",
+    "authoritativeHash": "ecf18c979aed4e67bbc8ac6835974c3f54c4ef84978a70f2c44b2c05cfa84132"
+  },
+  "runtime": "assets/runtime/enemies/problem_missing_details_v01.glb",
+  "budgets": {
+    "triangles": 1500,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 32,
+    "bones": 12,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        1.1,
+        1.4,
+        0.25
+      ],
+      "max": [
+        1.4,
+        1.5,
+        0.45
+      ]
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "playback": "loop",
+      "meaning": "Small puzzled sway with planted feet.",
+      "fps": 24
+    },
+    {
+      "name": "move",
+      "playback": "loop",
+      "meaning": "Short in-place march with alternating foot contacts.",
+      "fps": 24
+    },
+    {
+      "name": "hit",
+      "playback": "once",
+      "meaning": "Brief folded-paper recoil, then rest.",
+      "fps": 24
+    },
+    {
+      "name": "resolve",
+      "playback": "once",
+      "meaning": "Paper tilts and shrinks toward the ground after resolution.",
+      "fps": 24
+    }
+  ],
+  "references": [
+    {
+      "path": "blender/enemies/problem_missing_details/v01/references/concept.png",
+      "provenance": "User-provided Missing Details concept sheet, 2026-09-12. Visual design input; printed notes and statistics are not user instructions."
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/references/user_joint_overlap_r2.png",
+      "provenance": "User screenshot accompanying the explicit request to review and correct overlapping arm and hip joins, 2026-09-12."
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/references/user_flat_eyes_side_r4.png",
+      "provenance": "User screenshot accompanying explicit request to give the flat eyes a little dimension, 2026-09-12."
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/references/user_flat_eyes_front_r4.png",
+      "provenance": "Front view supplied with the same eye-depth refinement request; visual evidence, not extra instructions."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/enemies/problem_missing_details/v01/revisions/r2_before_r3/problem_missing_details_v01.glb",
+      "source": "blender/enemies/problem_missing_details/v01/revisions/r2_before_r3/problem_missing_details_v01.blend",
+      "sha256": "98f2a807e53ee449e4d5310fa7443a38e5669daed637e3effef3bc678c776f36",
+      "sourceHash": "a998ec0544654e16d0464d1ad98b7fdc97c9baa494af9b5e1c3d6dd53155a592"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/enemies/problem_missing_details/v01/revisions/r3_before_r4/problem_missing_details_v01.glb",
+      "source": "blender/enemies/problem_missing_details/v01/revisions/r3_before_r4/problem_missing_details_v01.blend",
+      "sha256": "258ee0721801469f2cdee79eea93768c145ea915e6ba94dbb0f2e49c76d08e13",
+      "sourceHash": "a4be542baf9e63bd2c4f805b4634e21f3e0970e4b8bffef973e8dbd7c93c81e5"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/enemies/problem_missing_details/v01/revisions/r4_before_r5/problem_missing_details_v01.glb",
+      "source": "blender/enemies/problem_missing_details/v01/revisions/r4_before_r5/problem_missing_details_v01.blend",
+      "sha256": "75a6e29d0c203c043ec30cd0eb08fe2ab4b7babf05847bc5aa10400a8062b63b",
+      "sourceHash": "b8a017f8133285a46b48b906d26678437477ec24f7e137afe0af7cbb52c7fc65"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/enemies/problem_missing_details/v01/revisions/r5_before_r6/problem_missing_details_v01.glb",
+      "source": "blender/enemies/problem_missing_details/v01/revisions/r5_before_r6/problem_missing_details_v01.blend",
+      "sha256": "14074f468747a840513e4a12d70ca8ea4da37aa6baa1fe85ff6d2bd761552ab7",
+      "sourceHash": "e40d5829734c276f7f5a351c6c718657302cf3343b4e4cc386f9b2d70d680152"
+    }
+  ],
+  "decisions": "blender/enemies/problem_missing_details/v01/decisions.md",
+  "palette": {
+    "attribute": "_palette_role",
+    "colors": {
+      "paper": "#F7D96B",
+      "paper_shade": "#DDB84F",
+      "fold": "#FFF0A0",
+      "ink": "#795522",
+      "visor": "#1B1B1E",
+      "eye": "#FF3155",
+      "eye_core": "#FF8B9E",
+      "limb": "#DADADA",
+      "limb_shade": "#9EA3AB",
+      "joint": "#7D8490",
+      "eye_edge": "#A91936"
+    }
+  },
+  "delivery": {
+    "sha256": "a3448a33cfb6f765f81049f64e5e6e3cce804a36dd9df2eb3ce41e2ace5242d6",
+    "sourceHash": "ecf18c979aed4e67bbc8ac6835974c3f54c4ef84978a70f2c44b2c05cfa84132",
+    "report": "blender/enemies/problem_missing_details/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T14:27:14.233Z"
+  }
+}

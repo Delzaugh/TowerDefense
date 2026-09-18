@@ -1,0 +1,15 @@
+{
+  "asset": "problem_lag_spike",
+  "geometryHash": "8d6502d63dbcca8e3472fa19a03b19010c5353587fecf8b863021435ab3d66a1",
+  "maxLinearColorError": 1.9586365862522825e-08,
+  "size": [
+    32,
+    8
+  ],
+  "materials": [
+    "lag_spike_palette"
+  ],
+  "usedRoles": 9,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\enemies\\problem_lag_spike\\v01\\problem_lag_spike_v01.blend"
+}

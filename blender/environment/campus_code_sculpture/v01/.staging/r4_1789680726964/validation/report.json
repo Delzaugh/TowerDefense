@@ -1,0 +1,37 @@
+{
+  "asset": "campus_code_sculpture",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "08a0f0d32b25f5888997b560ff94c44e94f122643801d29be1f46ebd6a7abc02",
+  "checkedAt": "2026-09-17T21:32:12.904Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1360,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    4.300000190734863,
+    2.130000114440918,
+    1.899999976158142
+  ],
+  "bounds": [
+    [
+      -2.1500000953674316,
+      0,
+      -0.949999988079071
+    ],
+    [
+      2.1500000953674316,
+      2.130000114440918,
+      0.949999988079071
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "28396f28dbea7521c22a841409d3dfccdcbfe54dedc8247251bad16574b9f2c6",
+  "source": "blender/environment/campus_code_sculpture/v01/campus_code_sculpture_v01.blend",
+  "runtime": "assets/runtime/environment/campus_code_sculpture_v01.glb"
+}

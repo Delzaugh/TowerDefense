@@ -1,0 +1,43 @@
+{
+  "creator": "Microsoft and contributors",
+  "repository": "https://github.com/microsoft/vscode-codicons",
+  "commit": "6833ea2bc5fc49220e261a4a0fd1986ea02d1d0c",
+  "license": "CC-BY-4.0",
+  "files": [
+    {
+      "path": "assets/third_party/microsoft/vscode-codicons/6833ea2bc5fc49220e261a4a0fd1986ea02d1d0c/src/icons/agent.svg",
+      "sha256": "544cb5b1feac07c0439e1a7c3c901472264bbb714a954faa1f581f6a9197bdf4",
+      "derivative": "codicon_agent"
+    },
+    {
+      "path": "assets/third_party/microsoft/vscode-codicons/6833ea2bc5fc49220e261a4a0fd1986ea02d1d0c/src/icons/book.svg",
+      "sha256": "cb4431b90f05a017a86548652ab149c38371324b9b12d1d8cb6f197b65bb0e88",
+      "derivative": "codicon_book"
+    },
+    {
+      "path": "assets/third_party/microsoft/vscode-codicons/6833ea2bc5fc49220e261a4a0fd1986ea02d1d0c/src/icons/lightbulb.svg",
+      "sha256": "2c0072c35d0302dc3e9fb00b4382466a0dd3297a0562c33d187fa6e41dcccbe3",
+      "derivative": "codicon_lightbulb"
+    },
+    {
+      "path": "assets/third_party/microsoft/vscode-codicons/6833ea2bc5fc49220e261a4a0fd1986ea02d1d0c/src/icons/mcp.svg",
+      "sha256": "f52cc3560d73ac62c4226e28615b26f5d091a15e72a2104a9c46994a49f977a2",
+      "derivative": "codicon_mcp"
+    },
+    {
+      "path": "assets/third_party/microsoft/vscode-codicons/6833ea2bc5fc49220e261a4a0fd1986ea02d1d0c/src/icons/github.svg",
+      "sha256": "28188283380b364f1c42307ce92ff36e671975fff37969343643173a7189c870",
+      "derivative": "codicon_github"
+    },
+    {
+      "path": "assets/third_party/microsoft/vscode-codicons/6833ea2bc5fc49220e261a4a0fd1986ea02d1d0c/src/icons/code.svg",
+      "sha256": "14f4b4b93285aabf5df0c93f955d6b3c1d4060cf61a5f7adb1ddc1a1c3e54c0d",
+      "derivative": "codicon_code"
+    },
+    {
+      "path": "assets/third_party/microsoft/vscode-codicons/6833ea2bc5fc49220e261a4a0fd1986ea02d1d0c/src/icons/copilot.svg",
+      "sha256": "eaa50c4c8b11a72b29711bbd8d9d0a70fd2f6e68696096fbbb8a141c340e290e",
+      "derivative": "codicon_copilot"
+    }
+  ]
+}

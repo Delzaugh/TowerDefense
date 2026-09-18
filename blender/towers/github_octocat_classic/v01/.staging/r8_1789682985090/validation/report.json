@@ -1,0 +1,37 @@
+{
+  "asset": "github_octocat_classic",
+  "version": "v01",
+  "revision": 8,
+  "sha256": "82d8e4784f08f3fc5660fd71da039e9342ace863e406be661704d51b09eb2fc6",
+  "checkedAt": "2026-09-17T22:09:55.980Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 69848,
+  "meshes": 13,
+  "materials": 2,
+  "textures": 2,
+  "bones": 0,
+  "dimensions": [
+    3.1377737522125244,
+    3.0731053352355957,
+    1.5145061612129211
+  ],
+  "bounds": [
+    [
+      -1.5688868761062622,
+      0,
+      -0.8097399473190308
+    ],
+    [
+      1.5688868761062622,
+      3.0731053352355957,
+      0.7047662138938904
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "9bc7fe4f8fdb166aabb92a50bb6ae5aed14065e839e7a0966c6889fc026ee8e4",
+  "source": "blender/towers/github_octocat_classic/v01/github_octocat_classic_v01.blend",
+  "runtime": "assets/runtime/towers/github_octocat_classic_v01.glb"
+}

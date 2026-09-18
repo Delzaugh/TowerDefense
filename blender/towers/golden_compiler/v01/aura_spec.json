@@ -1,0 +1,25 @@
+{
+  "name": "golden_compiler_power_aura",
+  "ownership": "presentation",
+  "anchor": "anchor_aura",
+  "enabledBy": "presentation state / inspector Aura toggle",
+  "baseGlbContainsEffectGeometry": false,
+  "descriptor": "GLB root extras.presentation_effect; matching dimensions in asset.json presentation.capsules",
+  "renderer": "tools/asset-inspector/review.js#createPresentationEffect",
+  "shape": "Flat camera-facing golden shape following projected head, torso, arm, hand, leg and foot landmarks. Behind the character; no force-shield bubble or internal fire lines. Padded fully transparent border.",
+  "motion": "Quiet density pulse and subtle flow; no gameplay timing or outcomes.",
+  "budget": {
+    "triangles": 2,
+    "meshes": 1,
+    "materials": 1,
+    "textures": 0,
+    "dynamicLights": 0
+  },
+  "totalWithCharacter": {
+    "triangles": 2154,
+    "meshes": 4,
+    "materials": 4
+  },
+  "sourcePreviewCollection": "PRESENTATION_ONLY_AURA",
+  "status": "Implemented and reviewed in the shared inspector. Other runtimes call the separate effect renderer; GLB alone does not implement custom shaders."
+}

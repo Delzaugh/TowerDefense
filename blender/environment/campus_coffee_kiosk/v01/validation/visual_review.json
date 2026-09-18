@@ -1,0 +1,17 @@
+{
+  "asset": "campus_coffee_kiosk",
+  "revision": 5,
+  "sha256": "2390263498d8f5ed264967a4c9c16938ea83882c4e431feb0195de7b77e7d633",
+  "sourceHash": "575812458fb938626aa4c6c1562f2dcc5d486e38450bd0a92d14be0d753c8a5b",
+  "reviewedViews": [
+    "iso",
+    "front",
+    "side",
+    "rear",
+    "close_front",
+    "phone"
+  ],
+  "technicalValidationPassed": true,
+  "visualReview": "Personally inspected exported front, side, isometric, rear, close-front and phone views. Canonical stepped purple Copilot silhouette, blue goggles and green eyes are consistent across all six assets. Mounting and depth checked; small consumer badges are secondary details and do not retain eye detail at distant game scale.",
+  "artisticAcceptance": "pending_user_review"
+}

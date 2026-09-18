@@ -1,0 +1,37 @@
+{
+  "asset": "campus_walk_junction",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "8f0c565b5ef5c156ee73b9330aea54cb4f08f714b2fcb98d76be59c981ac61bd",
+  "checkedAt": "2026-09-17T20:53:55.762Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 88,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    4,
+    0.0820000022649765,
+    3.600000023841858
+  ],
+  "bounds": [
+    [
+      -2,
+      0,
+      -2
+    ],
+    [
+      2,
+      0.0820000022649765,
+      1.600000023841858
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "cde9a9d0f001cf3c75f9500ae6b85ff4462cf4fb94cc3644ce6ec3f425d42186",
+  "source": "blender/environment/campus_walk_junction/v01/campus_walk_junction_v01.blend",
+  "runtime": "assets/runtime/environment/campus_walk_junction_v01.glb"
+}

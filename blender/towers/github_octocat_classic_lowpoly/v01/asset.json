@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "id": "github_octocat_classic_lowpoly",
+  "displayName": "GitHub Octocat Classic Low Poly",
+  "category": "towers",
+  "version": "v01",
+  "revision": 7,
+  "source": {
+    "path": "blender/towers/github_octocat_classic_lowpoly/v01/github_octocat_classic_lowpoly_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/github_octocat_classic_lowpoly/v01/build.py",
+    "authoritativeHash": "e6ed8026d5871f0ac1493044a084ed276504b46f66d7c2e274f670ccf2360db0"
+  },
+  "runtime": "assets/runtime/towers/github_octocat_classic_lowpoly_v01.glb",
+  "budgets": {
+    "bones": 11,
+    "triangles": 3500,
+    "meshes": 13,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 512
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target",
+      "anchor_hat",
+      "anchor_face",
+      "anchor_chest",
+      "anchor_back",
+      "anchor_hand_left",
+      "anchor_hand_right"
+    ],
+    "dimensions": {
+      "min": [
+        1.82,
+        1.799,
+        0.87
+      ],
+      "max": [
+        1.85,
+        1.802,
+        0.9
+      ]
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "playback": "loop",
+      "fps": 24,
+      "meaning": "2.5-second planted breathing, subtle head and tail sway, and a blink."
+    },
+    {
+      "name": "wave",
+      "playback": "once",
+      "fps": 24,
+      "meaning": "2.5-second friendly raised-tail wave and head tilt, with planted feet; returns to rest."
+    },
+    {
+      "name": "celebrate",
+      "playback": "once",
+      "fps": 24,
+      "meaning": "2-second anticipation, small in-place hop, soft landing and return to rest. Visual celebration only."
+    },
+    {
+      "name": "move",
+      "playback": "loop",
+      "fps": 24,
+      "meaning": "1.333-second in-place gait with alternating diagonal leg pairs, lifted recovery and ground-level stance. Simulation owns path movement."
+    }
+  ],
+  "references": [
+    {
+      "path": "blender/towers/github_octocat_classic_lowpoly/v01/references/approved_classic_r9.blend",
+      "provenance": "Frozen copy of user-approved high-resolution Classic revision 9; source design input only."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/github_octocat_classic_lowpoly/v01/revisions/r2_before_r3/github_octocat_classic_lowpoly_v01.glb",
+      "source": "blender/towers/github_octocat_classic_lowpoly/v01/revisions/r2_before_r3/github_octocat_classic_lowpoly_v01.blend",
+      "sha256": "365082b826efb25e280b12548a9ca233110bef6e7f01c619022a6ae9a2d459db",
+      "sourceHash": "07f96e39f54b34dcb00660a46dc52796dd9e3c03dfc94fceecf61dca19f24a4f"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/github_octocat_classic_lowpoly/v01/revisions/r3_before_r4/github_octocat_classic_lowpoly_v01.glb",
+      "source": "blender/towers/github_octocat_classic_lowpoly/v01/revisions/r3_before_r4/github_octocat_classic_lowpoly_v01.blend",
+      "sha256": "8e64fc5fee7e58a8381d644193b0db0514f96a01fb32dafebdcc5137f113e452",
+      "sourceHash": "7e17d3c15369b818bfe6e129c15f3028b07929d62ed8ec54a9b1931626711ac4"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/towers/github_octocat_classic_lowpoly/v01/revisions/r4_before_r5/github_octocat_classic_lowpoly_v01.glb",
+      "source": "blender/towers/github_octocat_classic_lowpoly/v01/revisions/r4_before_r5/github_octocat_classic_lowpoly_v01.blend",
+      "sha256": "06d4143d55ed4f1a120d61772ee103ccbc2e614741e3cb7b95babc10c9a735a6",
+      "sourceHash": "4eb4ff9e18cc249fa02af545850d57738ebb63b9f0c3accb754ed373e98fff31"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/towers/github_octocat_classic_lowpoly/v01/revisions/r5_before_r6/github_octocat_classic_lowpoly_v01.glb",
+      "source": "blender/towers/github_octocat_classic_lowpoly/v01/revisions/r5_before_r6/github_octocat_classic_lowpoly_v01.blend",
+      "sha256": "40f7fb10d313b1e39492f6bc68450d08a82dffdc6370d353e817c1f4d4de234a",
+      "sourceHash": "da667323f7ddac78ec68a5a2b314b9a638f9cd839795085e24de49041b8a3835"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/towers/github_octocat_classic_lowpoly/v01/revisions/r6_before_r7/github_octocat_classic_lowpoly_v01.glb",
+      "source": "blender/towers/github_octocat_classic_lowpoly/v01/revisions/r6_before_r7/github_octocat_classic_lowpoly_v01.blend",
+      "sha256": "4f9efc69bd0ebc02322db1f1b29797bb65d79b1c555c053608cafcd2602f7240",
+      "sourceHash": "356de2f4a06600f20740e50cf806334cc7b7b53c630361a436e97c96644f4d16"
+    }
+  ],
+  "decisions": "blender/towers/github_octocat_classic_lowpoly/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "octocat_palette",
+      "roles": {
+        "highlight": {
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ],
+          "color": "#FFFFFF"
+        },
+        "eyes": {
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ],
+          "color": "#F3F9F6"
+        },
+        "fur": {
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "color": "#252A31"
+        },
+        "inner_ear": {
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ],
+          "color": "#343C45"
+        },
+        "face": {
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ],
+          "color": "#F6C3AA"
+        },
+        "smile": {
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ],
+          "color": "#8E4C40"
+        },
+        "iris": {
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ],
+          "color": "#A85444"
+        },
+        "suckers": {
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ],
+          "color": "#9FD5D1"
+        }
+      },
+      "size": [
+        32,
+        4
+      ]
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "bdf5125b1e9500bce923f71fae74e56748a91160d197ff0f604ff498b38c0382",
+    "sourceHash": "e6ed8026d5871f0ac1493044a084ed276504b46f66d7c2e274f670ccf2360db0",
+    "report": "blender/towers/github_octocat_classic_lowpoly/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T22:45:10.062Z"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "asset": "campus_walk_straight",
+  "version": "v01",
+  "revision": 6,
+  "sha256": "88d5472024dd15bc26d208213b1cfdf3c956ac488f69be80054fe5643c2c37ef",
+  "sourceHash": "08a25093c1ca82fa24eddb1a11cdfeef9e467b39c851874f05b55024bf19758d",
+  "reviewedAt": "2026-09-17T21:19:33.049Z",
+  "reviewer": "Codex visual inspection",
+  "status": "reviewed",
+  "artisticAcceptance": "Redesign awaits user artistic review.",
+  "views": [
+    "blender/environment/campus_walk_straight/v01/renders/inspector-iso.png",
+    "blender/environment/campus_walk_straight/v01/renders/inspector-rear.png",
+    "blender/environment/campus_walk_straight/v01/renders/inspector-top.png"
+  ],
+  "notes": [
+    "Redesigned source mesh: darker blue-gray deck, recessed dark shoulders, continuous 0.14 m cyan rail inlays, subtle hex wayfinding and panel seams.",
+    "Reviewed final rail alignment and continuous turns from top and oblique views; no visible construction gaps in the reviewed export. Existing 3.20 m width, 0.08 m surface elevation and connection anchors preserved."
+  ],
+  "compositionEvidence": [
+    "prototypes/campus-3d/previews/home-desktop.png",
+    "prototypes/campus-3d/previews/home-phone.png",
+    "prototypes/campus-3d/previews/modern-kit-review.jpg"
+  ],
+  "limits": [
+    "Presentation prototype; no gameplay or building-placement system.",
+    "Phone checks use browser emulation, not physical-device performance profiling."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_rock_b",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "9fb4e810b7a2158936ebbc89025a0d5a65509840e57dce1a2dd5bdfe6062a746",
+  "checkedAt": "2026-09-17T21:34:32.831Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 36,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    0.6952393651008606,
+    0.40139660239219666,
+    0.8027932047843933
+  ],
+  "bounds": [
+    [
+      -0.3476196825504303,
+      0,
+      -0.40139660239219666
+    ],
+    [
+      0.3476196825504303,
+      0.40139660239219666,
+      0.40139660239219666
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_rock_b/v01/kaykit_rock_b_v01.blend",
+  "sourceHash": "55fe9374e39f5c730f46a8e6108aeb485e77ee82415669f0a4fccdd2f5977884",
+  "runtime": "assets/runtime/environment/kaykit_rock_b_v01.glb"
+}

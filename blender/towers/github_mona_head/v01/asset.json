@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "github_mona_head",
+  "displayName": "GitHub Mona Head",
+  "category": "towers",
+  "version": "v01",
+  "revision": 1,
+  "source": {
+    "path": "blender/towers/github_mona_head/v01/github_mona_head_v01.blend",
+    "mode": "manual",
+    "authoritativeHash": "fabae271770f41e34a83727d52c76690d25edbdba276a9e61d087e21f940b107"
+  },
+  "runtime": "assets/runtime/towers/github_mona_head_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 2,
+    "textures": 4,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 2
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_action",
+      "anchor_ui"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/copilot_base/v01/references/original_collection.blend",
+      "provenance": "Preserved original project draft collection; source-faithful low-poly adaptation."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/towers/github_mona_head/v01/decisions.md",
+  "delivery": {
+    "sha256": "bccfb8d95d5e909681b07288884e6d7ff0671ba2673a51cd5f62668bafe954da",
+    "sourceHash": "fabae271770f41e34a83727d52c76690d25edbdba276a9e61d087e21f940b107",
+    "report": "blender/towers/github_mona_head/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T13:34:24.553Z"
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_security",
+  "displayName": "Security",
+  "category": "towers",
+  "version": "v01",
+  "revision": 5,
+  "source": {
+    "path": "blender/towers/copilot_security/v01/copilot_security_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_security/v01/build.py",
+    "authoritativeHash": "241b0ecedef04852a3196ec47d33a8340f46c0cfdcb4fe8d142c188dfe8553ea"
+  },
+  "runtime": "assets/runtime/towers/copilot_security_v01.glb",
+  "budgets": {
+    "triangles": 4000,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 32,
+    "bones": 0,
+    "meshes": 2
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        1.7,
+        1.7,
+        1.4
+      ],
+      "max": [
+        2.8,
+        2.4,
+        2.8
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/copilot_security/v01/references/persona_concepts.png",
+      "provenance": "User attached selected tower concept sheet on 2026-09-18. Visual design input only; the explicit request is to model the six new towers, excluding existing Base Copilot."
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/copilot_base_v02.blend",
+      "provenance": "Existing family scale and visual-language reference. Source and runtime are preserved."
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/references/persona_rear_concepts.png",
+      "provenance": "User-supplied rear three-quarter visual reference with explicit request to give every new tower another quality pass, 2026-09-18. Sheet captions are design context, not additional instructions."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "contract.dimensions",
+      "reason": "Use the existing 1.8 m Base Copilot family scale. Architect and Developer have taller silhouette details; Linter is intentionally squat."
+    },
+    {
+      "field": "budgets.triangles",
+      "reason": "Quality pass permits up to 4000 triangles for curved recessed face construction, rounded optical bezels, full rear hatches with modeled ventilation recesses and role-specific armor. Two materials and a tiny packed palette remain unchanged."
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/copilot_security/v01/revisions/r2_before_r3/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r2_before_r3/copilot_security_v01.blend",
+      "sha256": "e83979e3fde5dbafc671caf1a87f89381a5ba38453ab3d76d7601b3bcacc790c",
+      "sourceHash": "ea726e304e67adc160651c0a488fd792e5983e3dde240ce173fe001fc342b36f"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/copilot_security/v01/revisions/r3_before_r4/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r3_before_r4/copilot_security_v01.blend",
+      "sha256": "df2593d0abccebca03a51e37a53282e85ad06197171bd24d45393e920b6cd269",
+      "sourceHash": "4c2076a476be5bc8013ccb6cacf5063e3ad33a969a15bee652b1f19ce34907fd"
+    }
+  ],
+  "decisions": "blender/towers/copilot_security/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "security_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#257CEF",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#244987",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#F0F3E8",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#263D53",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#041E32",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#25A9ED",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E6FF",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#A4E6FF",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "material": "security_optics",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#257CEF",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#244987",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#F0F3E8",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#263D53",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#041E32",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#25A9ED",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E6FF",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#A4E6FF",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "shell": "#257CEF",
+      "shell_dark": "#244987",
+      "trim": "#F0F3E8",
+      "graphite": "#263D53",
+      "screen": "#041E32",
+      "lens": "#25A9ED",
+      "cyan": "#00E6FF",
+      "detail": "#A4E6FF"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "0d00456d17328c6c42592f1892f33e89c92511556608dea3a07aba19fd1308de",
+    "sourceHash": "241b0ecedef04852a3196ec47d33a8340f46c0cfdcb4fe8d142c188dfe8553ea",
+    "report": "blender/towers/copilot_security/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T22:58:14.340Z"
+  }
+}

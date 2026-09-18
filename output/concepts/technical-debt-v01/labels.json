@@ -1,0 +1,31 @@
+{
+  "title": "Technical Debt Concept Variations",
+  "subtitle": "Six general-purpose assets for accumulated maintenance burden.",
+  "category": "General Asset",
+  "options": [
+    {
+      "name": "Dependency Knot",
+      "description": "Thick interlocking cables around a trapped core"
+    },
+    {
+      "name": "Legacy Stack",
+      "description": "Leaning server slabs with mismatched support blocks"
+    },
+    {
+      "name": "Patchwork Shell",
+      "description": "Cracked casing held together by oversized patches"
+    },
+    {
+      "name": "Backlog Anchor",
+      "description": "Heavy angular anchor dragging chunky task tiles"
+    },
+    {
+      "name": "Branch Snag",
+      "description": "Forked structure jammed with incompatible connectors"
+    },
+    {
+      "name": "Pipeline Plug",
+      "description": "Wide conduit blocked by compressed code blocks"
+    }
+  ]
+}

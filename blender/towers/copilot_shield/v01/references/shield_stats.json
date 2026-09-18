@@ -1,0 +1,470 @@
+{
+  "asset": "Shield",
+  "source": "blender/towers/copilot_base/v01/references/original_collection.blend",
+  "source_sha256": "366e9eb2bb471101922ef42fe2b9f7cc7d579fa4b76de03d61eab12ba8fff3b2",
+  "source_frame": 1,
+  "source_inspection": {
+    "objects": [
+      {
+        "name": "Shield | Root",
+        "type": "EMPTY",
+        "parent": null,
+        "location": [
+          -1.5000001192092896,
+          7.450580596923828e-9,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "matrix_world": [
+          [
+            1,
+            0,
+            0,
+            -1.5000001192092896
+          ],
+          [
+            0,
+            1,
+            0,
+            7.450580596923828e-9
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "collections": [
+          "GLB - Shield"
+        ],
+        "animation": null,
+        "constraints": [],
+        "modifiers": []
+      },
+      {
+        "name": "shield",
+        "type": "MESH",
+        "parent": "Shield | Root",
+        "location": [
+          -0.005954742431640625,
+          -0.02102942392230034,
+          1.2484252452850342
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "matrix_world": [
+          [
+            1,
+            0,
+            0,
+            -1.5059548616409302
+          ],
+          [
+            0,
+            1,
+            0,
+            -0.021029416471719742
+          ],
+          [
+            0,
+            0,
+            1,
+            1.2484252452850342
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "collections": [
+          "GLB - Shield"
+        ],
+        "animation": null,
+        "constraints": [],
+        "modifiers": [],
+        "evaluated_triangles": 5260,
+        "vertices": 2818,
+        "custom_normals": true,
+        "mesh_data_bounds": [
+          [
+            -1.046212077140808,
+            -0.13207854330539703,
+            -1.2484252452850342
+          ],
+          [
+            1.0581215620040894,
+            0.17413738369941711,
+            1.1015746593475342
+          ]
+        ],
+        "materials": [
+          "GitHub / Shield / shield"
+        ]
+      }
+    ],
+    "materials": [
+      {
+        "name": "GitHub / Shield / shield",
+        "color": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "shader_node_count": 77,
+        "images": [
+          "shield_sss-b8d96cf3572b780d.jpg",
+          "mascot-7c495cf9822e0d5c.jpg",
+          "shield_diffuse-41b84e036ea43614.jpg"
+        ],
+        "normal_spaces": [
+          {
+            "source": "WORLD",
+            "target": "CAMERA"
+          }
+        ]
+      }
+    ],
+    "images": [
+      {
+        "name": "mascot-7c495cf9822e0d5c.jpg",
+        "size": [
+          1024,
+          1024
+        ],
+        "path": "//../web/mascot-materials/mascot-7c495cf9822e0d5c.jpg",
+        "packed": true
+      },
+      {
+        "name": "shield_diffuse-41b84e036ea43614.jpg",
+        "size": [
+          512,
+          512
+        ],
+        "path": "//../web/mascot-materials/shield_diffuse-41b84e036ea43614.jpg",
+        "packed": true
+      },
+      {
+        "name": "shield_sss-b8d96cf3572b780d.jpg",
+        "size": [
+          512,
+          512
+        ],
+        "path": "//../web/mascot-materials/shield_sss-b8d96cf3572b780d.jpg",
+        "packed": true
+      }
+    ]
+  },
+  "original": {
+    "triangles": 5260,
+    "mesh_count": 1,
+    "material_count": 1,
+    "dimensions_width_depth_height": [
+      2.1043336391448975,
+      0.30621594190597534,
+      2.3499999046325684
+    ],
+    "bounds": [
+      [
+        -2.5521669387817383,
+        -0.15310795605182648,
+        0
+      ],
+      [
+        -0.4478332996368408,
+        0.15310797095298767,
+        2.3499999046325684
+      ]
+    ]
+  },
+  "uniform_scale": 1.0834783788974094,
+  "lowpoly": {
+    "triangles": 1949,
+    "mesh_count": 1,
+    "material_count": 1,
+    "dimensions_width_depth_height": [
+      2.2799999713897705,
+      0.33177831768989563,
+      2.5461740493774414
+    ],
+    "bounds": [
+      [
+        -1.1399999856948853,
+        -0.16588915884494781,
+        0
+      ],
+      [
+        1.1399999856948853,
+        0.16588915884494781,
+        2.5461740493774414
+      ]
+    ]
+  },
+  "parts": [
+    {
+      "feature": "shield_shell",
+      "original": {
+        "triangles": 3029,
+        "mesh_count": 1,
+        "material_count": 1,
+        "dimensions_width_depth_height": [
+          2.2799999713897705,
+          0.28294187784194946,
+          2.5461740493774414
+        ],
+        "bounds": [
+          [
+            -1.1399998664855957,
+            -0.11705270409584045,
+            0
+          ],
+          [
+            1.1400001049041748,
+            0.16588915884494781,
+            2.5461740493774414
+          ]
+        ]
+      },
+      "lowpoly": {
+        "triangles": 1499,
+        "mesh_count": 1,
+        "material_count": 1,
+        "dimensions_width_depth_height": [
+          2.2799999713897705,
+          0.28294187784194946,
+          2.5461740493774414
+        ],
+        "bounds": [
+          [
+            -1.1399998664855957,
+            -0.11705270409584045,
+            0
+          ],
+          [
+            1.1400001049041748,
+            0.16588915884494781,
+            2.5461740493774414
+          ]
+        ]
+      },
+      "original_topology": {
+        "components": 1,
+        "component_vertex_counts": [
+          1600
+        ],
+        "boundary_edges": 187,
+        "nonmanifold_edges": 187
+      },
+      "final_topology": {
+        "components": 1,
+        "component_vertex_counts": [
+          823
+        ],
+        "boundary_edges": 163,
+        "nonmanifold_edges": 163
+      }
+    },
+    {
+      "feature": "raised_checkmark",
+      "original": {
+        "triangles": 2231,
+        "mesh_count": 1,
+        "material_count": 1,
+        "dimensions_width_depth_height": [
+          1.0213334560394287,
+          0.046663798391819,
+          0.7799196839332581
+        ],
+        "bounds": [
+          [
+            -0.4662873148918152,
+            -0.16588915884494781,
+            0.9469413161277771
+          ],
+          [
+            0.5550460815429688,
+            -0.11922536045312881,
+            1.7268610000610352
+          ]
+        ]
+      },
+      "lowpoly": {
+        "triangles": 450,
+        "mesh_count": 1,
+        "material_count": 1,
+        "dimensions_width_depth_height": [
+          1.0213334560394287,
+          0.046663798391819,
+          0.7799196839332581
+        ],
+        "bounds": [
+          [
+            -0.4662873148918152,
+            -0.16588915884494781,
+            0.9469413161277771
+          ],
+          [
+            0.5550460815429688,
+            -0.11922536045312881,
+            1.7268610000610352
+          ]
+        ]
+      },
+      "original_topology": {
+        "components": 1,
+        "component_vertex_counts": [
+          1218
+        ],
+        "boundary_edges": 217,
+        "nonmanifold_edges": 217
+      },
+      "final_topology": {
+        "components": 1,
+        "component_vertex_counts": [
+          289
+        ],
+        "boundary_edges": 140,
+        "nonmanifold_edges": 140
+      }
+    }
+  ],
+  "anchors_blender": {
+    "anchor_ui": [
+      0,
+      0,
+      2.8461740493774412
+    ],
+    "anchor_action": [
+      0,
+      -0.2858891588449478,
+      1.4003957271575929
+    ]
+  },
+  "checkmark_clearance": {
+    "minimum_sampled_checkmark_gap": 0.0021814480423927307,
+    "triangle_interior_divisions": 4,
+    "samples": 6750
+  },
+  "materials": {
+    "count": 1,
+    "embedded_textures": 1,
+    "palette_size": [
+      256,
+      8
+    ],
+    "opaque": true,
+    "roughness": 0.65,
+    "metallic": 0,
+    "emission": 0.4,
+    "baked_lighting": false
+  },
+  "topology": {
+    "components": 2,
+    "component_vertex_counts": [
+      823,
+      289
+    ],
+    "boundary_edges": 303,
+    "nonmanifold_edges": 303
+  },
+  "kaykit": {
+    "triangles": 586,
+    "mesh_count": 1,
+    "material_count": 1,
+    "dimensions_width_depth_height": [
+      2.248182773590088,
+      2.1759612560272217,
+      1.0000017881393433
+    ],
+    "bounds": [
+      [
+        -1.1759612560272217,
+        -1.1759612560272217,
+        -0.0000018477439880371094
+      ],
+      [
+        1.0722213983535767,
+        1,
+        0.9999999403953552
+      ]
+    ],
+    "path": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_A.gltf",
+    "import_scale": 1
+  },
+  "reloaded": {
+    "triangles": 1949,
+    "mesh_count": 1,
+    "material_count": 1,
+    "dimensions_width_depth_height": [
+      2.2799999713897705,
+      0.33177831768989563,
+      2.5461740493774414
+    ],
+    "bounds": [
+      [
+        -1.1399999856948853,
+        -0.16588915884494781,
+        0
+      ],
+      [
+        1.1399999856948853,
+        0.16588915884494781,
+        2.5461740493774414
+      ]
+    ]
+  },
+  "reload_frames_checked": [
+    1,
+    60,
+    120
+  ],
+  "source_unchanged": true,
+  "visual_review": {
+    "views": [
+      "front",
+      "side",
+      "back",
+      "top",
+      "underside",
+      "iso"
+    ],
+    "comparison": "Shield_comparison.png",
+    "runtime": "Shield_runtime.png",
+    "eyes": "Not applicable; these assets have no eyes.",
+    "features": [
+      "rounded shield perimeter",
+      "raised white checkmark and gap",
+      "complete back and underside"
+    ]
+  },
+  "deliverable_sha256": {
+    "source_before_migration": "8dc3cbb5ab9cc4a31b3c6bd9de16193328ef5118452db4698444b2670e67b804",
+    "export_before_migration": "9898e4d8fabaa5c9c4fc977b25bba91a93a27f204bdcb876a71c8b92b5f620ba"
+  }
+}

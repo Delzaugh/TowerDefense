@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_flower_bed",
+  "displayName": "campus flower bed",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/campus_flower_bed/v01/campus_flower_bed_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_flower_bed/v01/build.py",
+    "authoritativeHash": "7ad290dec711ba9d8624785b2d12ee0e45d8705a2884b5e45baa0a04044c37fb"
+  },
+  "runtime": "assets/runtime/environment/campus_flower_bed_v01.glb",
+  "budgets": {
+    "triangles": 2200,
+    "materials": 1,
+    "textures": 2,
+    "textureSize": 128,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui"
+    ]
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "playback": "loop",
+      "fps": 24,
+      "meaning": "Four-second restrained foliage breeze, in-place morph animation; roots and ground-contact geometry remain fixed."
+    }
+  ],
+  "references": [
+    {
+      "path": "tools/asset-recipes/campus-life-models.py",
+      "provenance": "Original models requested by the user on 2026-09-18; reuses existing campus construction helpers and palette."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "artDirection.animationDuration",
+      "reason": "Slow four-second breeze favors quiet ambient planting; no gameplay timing encoded."
+    }
+  ],
+  "milestones": [],
+  "decisions": "blender/environment/campus_flower_bed/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "campus_decor_palette",
+      "size": [
+        128,
+        4
+      ],
+      "roles": {
+        "pixel_purple": {
+          "color": "#8432F2",
+          "rect": [
+            60,
+            0,
+            4,
+            4
+          ]
+        },
+        "pixel_blue": {
+          "color": "#2F92FD",
+          "rect": [
+            64,
+            0,
+            4,
+            4
+          ]
+        },
+        "pixel_dark": {
+          "color": "#0D1117",
+          "rect": [
+            68,
+            0,
+            4,
+            4
+          ]
+        },
+        "pixel_green": {
+          "color": "#5CEC7F",
+          "rect": [
+            72,
+            0,
+            4,
+            4
+          ]
+        },
+        "chalk": {
+          "color": "#E2EDF0",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "edge": {
+          "color": "#ADC5D2",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "glass": {
+          "color": "#305775",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "teal": {
+          "color": "#70B5B4",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "leaf_light": {
+          "color": "#86C2BD",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "leaf_dark": {
+          "color": "#609D9E",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "soil": {
+          "color": "#7B9E9F",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "wood": {
+          "color": "#B88964",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "wood_light": {
+          "color": "#D3AB7D",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "coral": {
+          "color": "#DC897C",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        },
+        "yellow": {
+          "color": "#E5C577",
+          "rect": [
+            40,
+            0,
+            4,
+            4
+          ]
+        },
+        "coffee": {
+          "color": "#644B40",
+          "rect": [
+            44,
+            0,
+            4,
+            4
+          ]
+        },
+        "violet": {
+          "color": "#9271CE",
+          "rect": [
+            48,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#5DD9E8",
+          "rect": [
+            52,
+            0,
+            4,
+            4
+          ]
+        },
+        "navy": {
+          "color": "#263751",
+          "rect": [
+            56,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "12c669575fc2cf9120c30e21bc14cf88dbef775d595e0bed83ed1088083a1ae3",
+    "sourceHash": "7ad290dec711ba9d8624785b2d12ee0e45d8705a2884b5e45baa0a04044c37fb",
+    "report": "blender/environment/campus_flower_bed/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T22:34:17.576Z"
+  }
+}

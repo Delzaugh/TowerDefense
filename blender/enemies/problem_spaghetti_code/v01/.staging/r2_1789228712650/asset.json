@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "problem_spaghetti_code",
+  "displayName": "Spaghetti Code",
+  "category": "enemies",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/enemies/problem_spaghetti_code/v01/problem_spaghetti_code_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/enemies/problem_spaghetti_code/v01/build.py"
+  },
+  "runtime": "assets/runtime/enemies/problem_spaghetti_code_v01.glb",
+  "budgets": {
+    "triangles": 1500,
+    "materials": 1,
+    "textures": 0,
+    "textureSize": 512,
+    "bones": 1,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "max": [
+        1.5,
+        1.4,
+        1.5
+      ],
+      "min": [
+        1.1,
+        1,
+        1.1
+      ]
+    }
+  },
+  "clips": [
+    {
+      "playback": "loop",
+      "fps": 24,
+      "name": "idle",
+      "meaning": "Subtle grounded breathing of the tangled strands."
+    },
+    {
+      "playback": "loop",
+      "fps": 24,
+      "name": "move",
+      "meaning": "Grounded in-place squirm and compression; warning badge stays forward."
+    },
+    {
+      "playback": "once",
+      "fps": 24,
+      "name": "hit",
+      "meaning": "Brief knot compression and recoil, returning to rest."
+    },
+    {
+      "playback": "once",
+      "fps": 24,
+      "name": "resolve",
+      "meaning": "The knot twists and shrinks at ground level after simulation resolution."
+    }
+  ],
+  "references": [
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/references/concept.png",
+      "provenance": "User-provided Spaghetti Code concept sheet, 2026-09-12. Visual design input, not additional instructions; printed budget and claims are unverified concept annotations."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/enemies/problem_spaghetti_code/v01/decisions.md",
+  "palette": {
+    "colors": {
+      "lime": "#B2E936",
+      "teal": "#178575",
+      "orange": "#FFAA24",
+      "orange_edge": "#D98216",
+      "ink": "#223650"
+    },
+    "attribute": "_palette_role"
+  }
+}

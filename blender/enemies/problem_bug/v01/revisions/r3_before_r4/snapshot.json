@@ -1,0 +1,8 @@
+{
+  "label": "before_r4",
+  "revision": 3,
+  "export": "blender/enemies/problem_bug/v01/revisions/r3_before_r4/problem_bug_v01.glb",
+  "source": "blender/enemies/problem_bug/v01/revisions/r3_before_r4/problem_bug_v01.blend",
+  "sha256": "47f1cb47d99dea313c799390fa710f8678a372457db76186b6e7528608aea94c",
+  "sourceHash": "5a5673bb9fb35147be8e5ba7fac4d3e22f7fd975086cc143f9af9c02968ded41"
+}

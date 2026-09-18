@@ -1,0 +1,92 @@
+{
+  "passed": true,
+  "checks": {
+    "pixelIsolation": true,
+    "sharedSourceIsolation": true,
+    "emissionIsolation": true,
+    "samplingPreserved": true,
+    "resetDisposal": true,
+    "invalidExportRejection": true,
+    "topLeftOrientation": true
+  },
+  "output": "C:\\Users\\jonas\\AppData\\Local\\Temp\\tower-texture-palette-uq5zn4",
+  "note": {
+    "asset": "problem_bug_palette_test",
+    "version": "v01",
+    "revision": 2,
+    "sha256": "3210fff587383d6e9173bb89898abe00cc6d41de7ed02121a1b1b1fa5c3effaa",
+    "view": "iso",
+    "projection": "OrthographicCamera",
+    "camera": [
+      2.2912083165054558,
+      3.0085134488773955,
+      3.0505587695725125
+    ],
+    "target": [
+      0,
+      0.7349999491824009,
+      0.03662157173927011
+    ],
+    "distance": 4.416142730415543,
+    "clip": null,
+    "time": 0,
+    "loop": true,
+    "speed": 1,
+    "part": null,
+    "appearance": {
+      "background": "dark",
+      "lighting": "studio",
+      "ground": false,
+      "phoneWidth": false
+    },
+    "previewOnlyChanges": {
+      "texturePalettes": {
+        "bug_palette": {
+          "shell": "#33bb66",
+          "red": "#ff9900"
+        }
+      }
+    },
+    "texturePaletteEdits": [
+      {
+        "material": "bug_palette",
+        "slot": "baseColor",
+        "texture": "bug_palette",
+        "size": [
+          32,
+          4
+        ],
+        "origin": "top-left",
+        "role": "shell",
+        "rect": [
+          0,
+          0,
+          4,
+          4
+        ],
+        "from": "#3267AF",
+        "to": "#33bb66"
+      },
+      {
+        "material": "bug_palette",
+        "slot": "baseColor",
+        "texture": "bug_palette",
+        "size": [
+          32,
+          4
+        ],
+        "origin": "top-left",
+        "role": "red",
+        "rect": [
+          24,
+          0,
+          4,
+          4
+        ],
+        "from": "#E51C30",
+        "to": "#ff9900"
+      }
+    ],
+    "note": ""
+  }
+}

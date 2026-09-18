@@ -1,0 +1,15 @@
+{
+  "asset": "linter_agent",
+  "revision": 4,
+  "sha256": "099ddb4a02d7e39f62e30c3d8540578a99236ae2cf1ff542587d8199010b312b",
+  "checkedAt": "2026-09-17T22:58:40.603Z",
+  "passed": true,
+  "errors": [],
+  "checks": [
+    "registered GLB loads in shared Inspector",
+    "fixed underside capture",
+    "390px phone viewport",
+    "small silhouette capture"
+  ],
+  "visualReview": "Evidence captured; requires personal inspection."
+}

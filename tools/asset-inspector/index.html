@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tower · Asset Inspector</title><link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","../utils/BufferGeometryUtils.js":"./vendor/BufferGeometryUtils.js"}}</script>
+</head>
+<body>
+  <aside id="library" aria-label="Asset library">
+    <header><p class="eyebrow">Tower · creation tools</p><h1>Asset Inspector</h1><button id="close-library" class="mobile-only" aria-label="Close models">Close</button></header>
+    <div class="models-heading"><label for="search">Models</label><button id="refresh-models" title="Refresh the catalog and reload models currently in view">Refresh</button></div>
+    <input id="search" type="search" placeholder="Filter models…" autocomplete="off">
+    <div id="model-list" aria-label="GLB models"></div>
+    <p id="empty-list" class="muted" hidden>No registered models found.</p>
+    <p class="library-note">Select a model to inspect it.<br>Use + to compare at authored scale.</p>
+    <div id="library-resizer" role="separator" aria-label="Resize asset library" aria-orientation="vertical" aria-valuemin="220" tabindex="0" title="Drag to resize. Double-click to reset."></div>
+  </aside>
+  <main>
+    <section class="toolbar" aria-label="Scene tools">
+      <div class="tool-row">
+        <button id="open-library" class="mobile-only" aria-expanded="false" aria-controls="library">Models</button>
+        <div class="views" aria-label="View angles">
+          <button data-view="iso" aria-pressed="true">Isometric</button><button data-view="front" aria-pressed="false">Front</button><button data-view="rear" aria-pressed="false">Rear</button><button data-view="left" aria-pressed="false">Left</button><button data-view="right" aria-pressed="false">Right</button><button data-view="top" aria-pressed="false">Top</button><button data-view="bottom" aria-pressed="false">Underside</button>
+        </div>
+      </div>
+      <div class="tool-row">
+        <button id="frame-button">Frame view</button><button id="zoom-in-button" aria-label="Zoom in">Zoom +</button><button id="zoom-out-button" aria-label="Zoom out">Zoom −</button><button id="reset-view-button">Reset view</button>
+        <label class="inline-label">Projection <select id="projection"><option value="orthographic">Orthographic</option><option value="perspective">Perspective</option></select></label>
+        <button id="wireframe-button" aria-pressed="false">Wireframe</button><button id="grid-button" aria-pressed="true">Grid</button><label class="toggle"><input id="rotate-toggle" type="checkbox"> Auto-rotate</label>
+        <label class="toggle"><input id="effects-toggle" type="checkbox" checked disabled> Aura</label>
+        <button id="review-open" aria-expanded="false" aria-controls="review-panel">Review & colors</button>
+        <button id="bambu-open" disabled>Export for Bambu</button>
+      </div>
+    </section>
+    <section class="stage" aria-label="Model preview"><canvas id="viewport" tabindex="0" aria-label="3D model preview. Drag to rotate; use wheel or pinch to zoom; right-drag to pan."></canvas><p id="load-status" role="status" hidden></p><p class="stage-hint">Drag to rotate · Wheel / pinch to zoom · Right-drag to pan</p></section>
+    <section class="animation-panel" aria-label="Animation controls">
+      <div class="animation-heading"><strong>Animation</strong><label class="inline-label">Model <select id="active-model" aria-label="Animation model"></select></label><span id="animation-status" class="muted">Select a model</span></div>
+      <div class="animation-controls">
+        <label class="inline-label">Clip <select id="clip-select"><option value="">Rest pose</option></select></label>
+        <button id="play-button" disabled>Play</button><button id="restart-button" disabled>Restart</button><button id="rest-button" disabled>Rest pose</button><button id="step-button" disabled title="Advance 1/30 second">Step</button>
+        <label class="inline-label">Speed <select id="speed-select" disabled><option value="0.25">0.25×</option><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="1.5">1.5×</option><option value="2">2×</option></select></label>
+        <label class="toggle"><input id="loop-toggle" type="checkbox" checked disabled> Loop</label>
+      </div>
+      <div class="timeline"><input id="timeline" type="range" min="0" max="1" step="0.001" value="0" aria-label="Animation timeline" disabled><output id="time-display">0.00 / 0.00 s</output></div>
+    </section>
+    <section class="info-panel" aria-label="Model information">
+      <div class="asset-heading"><strong id="model-name">Select a model</strong><span id="comparison-count">0 models in view</span><button id="clear-comparison-button" disabled>Clear comparison</button></div>
+      <p id="revision-status" class="muted"></p><p id="effect-status" class="muted"></p>
+      <dl class="stats-grid"><div><dt>File size</dt><dd id="stat-size">—</dd></div><div><dt>Dimensions (W × H × D)</dt><dd id="stat-dimensions">—</dd></div><div><dt>Meshes</dt><dd id="stat-meshes">—</dd></div><div><dt>Materials</dt><dd id="stat-materials">—</dd></div><div><dt>Triangles</dt><dd id="stat-triangles">—</dd></div></dl>
+    </section>
+  </main>
+  <section id="review-panel" aria-label="Review and color tools" hidden>
+    <div class="asset-heading"><strong>Refine this model</strong><button id="review-close">Close</button></div>
+    <details open><summary>Appearance & scale</summary>
+      <label>Background <select id="background-select"><option value="dark">Dark studio</option><option value="light">Light studio</option></select></label>
+      <label>Lighting <select id="lighting-select"><option value="studio">Neutral studio</option><option value="gameplay">Gameplay-like</option></select></label>
+      <label class="toggle"><input id="ground-toggle" type="checkbox"> Ground & shadows</label>
+      <label class="toggle"><input id="phone-toggle" type="checkbox"> Phone-width viewport</label>
+      <button id="silhouette-button">Small silhouette test</button>
+      <label>Asset / version <select id="comparison-select"><option value="">Choose a registered asset</option></select></label><button id="compare-asset">Add to comparison</button>
+      <p class="muted">Compare registered runtime assets at authored scale. Source revision snapshots stay archived outside the viewer.</p>
+    </details>
+    <details><summary>Inspect structure</summary>
+      <label class="toggle"><input id="skeleton-toggle" type="checkbox"> Skeleton</label><label class="toggle"><input id="anchors-toggle" type="checkbox"> Anchors</label>
+      <label>Isolate mesh <select id="part-select"><option value="">All meshes</option></select></label><p id="structure-status" class="muted"></p>
+    </details>
+    <details><summary>Palette · preview only</summary>
+      <p class="muted">Temporary changes for discussion. Apply them to the Blender source and re-export to save an asset revision.</p>
+      <label>Color role <select id="palette-select"></select></label><input id="palette-color" type="color" aria-label="Preview color">
+      <p id="palette-status" class="muted"></p>
+      <label>Roughness <input id="roughness-range" type="range" min="0" max="1" step="0.01" value="0.72"></label>
+      <button id="palette-reset">Reset previews</button><button id="copy-changes">Copy changes</button>
+    </details>
+    <details open><summary>Refinement note</summary>
+      <label for="feedback-note">What should change?</label><textarea id="feedback-note" rows="3" placeholder="For example: align the front shoulder joint…"></textarea>
+      <button id="copy-feedback">Copy note</button><button id="capture-feedback">Save screenshot + note</button>
+      <p id="feedback-status" role="status" class="muted"></p><textarea id="feedback-copy" aria-label="Refinement note to copy" rows="7" hidden readonly></textarea>
+    </details>
+  </section>
+  <dialog id="bambu-dialog" aria-labelledby="bambu-title">
+    <form id="bambu-form">
+      <div class="asset-heading"><strong id="bambu-title">Export for Bambu</strong><button id="bambu-close" type="button" aria-label="Close export">Close</button></div>
+      <p id="bambu-model"></p>
+      <label for="bambu-pose">Pose</label>
+      <select id="bambu-pose"><option value="current">Current pose</option><option value="rest">Rest pose</option></select>
+      <label for="bambu-height">Model height (mm)</label>
+      <input id="bambu-height" type="number" min="1" max="2000" step="any" value="100" required>
+      <p class="muted">Downloads the whole selected model as a textured GLB, using saved asset colours. Current pose is captured when you press Download.</p>
+      <p class="muted">Open in Bambu Studio, map the colours to your filaments, then save as 3MF. Check size and slicing before printing; this export does not repair the mesh.</p>
+      <button id="bambu-download" type="submit">Download GLB</button>
+      <p id="bambu-status" role="status"></p>
+    </form>
+  </dialog>
+  <script type="module" src="./viewer.js"></script>
+</body>
+</html>

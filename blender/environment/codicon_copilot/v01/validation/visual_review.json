@@ -1,0 +1,20 @@
+{
+  "asset": "codicon_copilot",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "98155dd5e6962ecc56909d36719cc7d0dc0f02f0977c6bcca3b9aaf09ef49fd8",
+  "sourceHash": "e723809610e6fe95fe5dfcc64413b9132da085627955826b2187eabcd4eca994",
+  "sourceSvgSha256": "eaa50c4c8b11a72b29711bbd8d9d0a70fd2f6e68696096fbbb8a141c340e290e",
+  "technicalValidationPassed": true,
+  "reviewedViews": [
+    "front",
+    "side",
+    "isometric",
+    "rear",
+    "phone",
+    "close_front"
+  ],
+  "visualReview": "Personally compared the original SVG reference board with exported front/iso/side/rear and phone evidence. Original negative spaces, disconnected details and consistent extrusion are preserved. No visible construction defect found. Closed manifold components asserted in Blender; triangle area checked against source contour area.",
+  "limitations": "Static extruded symbol with flat front/back and lightly faceted curve edges. Disconnected features are intentional; mount to a host surface for physical use. Fine gaps compress at small scale.",
+  "artisticAcceptance": "pending_user_review"
+}

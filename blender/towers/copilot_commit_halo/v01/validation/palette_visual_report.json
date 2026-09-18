@@ -1,0 +1,47 @@
+{
+  "asset": "copilot_commit_halo",
+  "revision": 20,
+  "sha256": "58a9338892df9034089a5ece9389bc692d2ef5a47af3f38e87378630170f83cc",
+  "paletteControls": 16,
+  "errors": [],
+  "diff": [
+    {
+      "view": "iso",
+      "maxChannelDifference": 2,
+      "meanChannelDifference": 0.005274074074074074
+    },
+    {
+      "view": "front",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.005136111111111111
+    },
+    {
+      "view": "rear",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.005418055555555555
+    },
+    {
+      "view": "side",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.002423611111111111
+    },
+    {
+      "view": "top",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.001987037037037037
+    },
+    {
+      "view": "idle",
+      "maxChannelDifference": 2,
+      "meanChannelDifference": 0.0053458333333333335
+    },
+    {
+      "view": "work",
+      "maxChannelDifference": 2,
+      "meanChannelDifference": 0.005350925925925926
+    }
+  ],
+  "visualReview": "Reviewed by Codex: before/after appearance, front and reverse views, clip poses where present, and phone-scale silhouette. No conversion-induced visual regression observed; artistic user acceptance remains separate.",
+  "reviewedAt": "2026-09-17T21:03:25.499Z",
+  "evidence": "blender/towers/copilot_commit_halo/v01/validation/palette_migration_r20/palette_review.png"
+}

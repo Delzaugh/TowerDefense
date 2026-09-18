@@ -1,0 +1,35 @@
+{
+  "object_name": "pixel_rubber_duck",
+  "pixel_size": 0.025,
+  "depth": 0.09,
+  "letters": {
+    "Y": "duck_yellow",
+    "S": "duck_gold",
+    "O": "duck_bill",
+    "D": "pixel_dark",
+    "H": "duck_highlight",
+    "B": "duck_bill_shadow"
+  },
+  "rows": [
+    "........YYYYYY........",
+    "......YYYYYYYYYY......",
+    ".....YYHHHHHYYYYY.....",
+    "....YYHHHYYYYYYYYY....",
+    "...YYYYYYYYYYYYYYYY...",
+    "...YYHDDYYYYYYHDDYY...",
+    "...YYDDDYYYYYYDDDYY...",
+    "...YYDDDYYYYYYDDDYY...",
+    "...YYYYYOOOOOOYYYYY...",
+    "....YYYOOOOOOOOYYY....",
+    "...YYYYYYBBBBYYYYYY...",
+    ".YYYYYYYYYYYYYYYYYYYY.",
+    "YYSSSYYYYYYYYYYYYSSSYY",
+    "YYSSSYYYYYYYYYYYYSSSYY",
+    ".YSSSYYYYYYYYYYYYSSSY.",
+    "..YYSSSYYYYYYYYSSSYY..",
+    "..YYYYYYYYYYYYYYYYYY..",
+    "...YYYYYYYYYYYYYYYY...",
+    "....SSSSSSSSSSSSSS....",
+    "......SSSSSSSSSS......"
+  ]
+}

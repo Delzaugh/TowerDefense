@@ -1,0 +1,57 @@
+{
+  "asset": "problem_vague_spec",
+  "revision": 6,
+  "sha256": "7288ea169999b79754d4d3a32dd25a4aa09e4b5c0f46d316ff85a58d744b35b8",
+  "paletteControls": 10,
+  "errors": [],
+  "diff": [
+    {
+      "view": "iso",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.005922685185185185
+    },
+    {
+      "view": "front",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.006015277777777777
+    },
+    {
+      "view": "rear",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0034583333333333332
+    },
+    {
+      "view": "side",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0027814814814814816
+    },
+    {
+      "view": "top",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.00638425925925926
+    },
+    {
+      "view": "idle",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.026297685185185184
+    },
+    {
+      "view": "move",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.009933333333333334
+    },
+    {
+      "view": "hit",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0012185185185185185
+    },
+    {
+      "view": "resolve",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0017560185185185185
+    }
+  ],
+  "visualReview": "Reviewed by Codex: before/after appearance, front and reverse views, clip poses where present, and phone-scale silhouette. No conversion-induced visual regression observed; artistic user acceptance remains separate.",
+  "reviewedAt": "2026-09-17T21:03:25.411Z",
+  "evidence": "blender/enemies/problem_vague_spec/v01/validation/palette_migration_r6/palette_review.png"
+}

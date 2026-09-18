@@ -1,0 +1,37 @@
+{
+  "asset": "campus_noticeboard",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "eabf96f6ed62a822c4a0e7756a4585227b5d72dbb5fd7d2fbbdc5393f2b9719d",
+  "checkedAt": "2026-09-17T22:36:35.918Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 760,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    3.1700000762939453,
+    2.809999942779541,
+    0.7300000190734863
+  ],
+  "bounds": [
+    [
+      -1.5850000381469727,
+      0,
+      -0.36500000953674316
+    ],
+    [
+      1.5850000381469727,
+      2.809999942779541,
+      0.36500000953674316
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "427219ce37f609fdf2ae7e723153117436f42414e5066f7f31c48d92a3d0f16d",
+  "source": "blender/environment/campus_noticeboard/v01/campus_noticeboard_v01.blend",
+  "runtime": "assets/runtime/environment/campus_noticeboard_v01.glb"
+}

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_walk_corner",
+  "displayName": "Campus walkway · square corner",
+  "category": "environment",
+  "version": "v01",
+  "revision": 4,
+  "source": {
+    "path": "blender/environment/campus_walk_corner/v01/campus_walk_corner_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_walk_corner/v01/build.py",
+    "authoritativeHash": "bc434d7c78268915c6359d3e93f0ee77c4b1d80f8cc211d47717aacbec50a5d0"
+  },
+  "runtime": "assets/runtime/environment/campus_walk_corner_v01.glb",
+  "budgets": {
+    "triangles": 1200,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_start",
+      "anchor_end"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "prototypes/hub/previews/before-3d-study.png",
+      "provenance": "Project-owned Glacier SVG campus, including floating panel, inset paths and faceted landscaping."
+    },
+    {
+      "path": "tools/asset-recipes/campus-kit.py",
+      "provenance": "Shared geometry helper used by the local versioned recipe."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/campus_walk_corner/v01/revisions/r2_before_r3/campus_walk_corner_v01.glb",
+      "source": "blender/environment/campus_walk_corner/v01/revisions/r2_before_r3/campus_walk_corner_v01.blend",
+      "sha256": "af2493467d7a908ed9d24d88823abe451d46b57e274cfb98ab7ca65427ae9357",
+      "sourceHash": "2a872a198f3602146843106f2076fe754353a9e46d5069594cf458dea86cfcff"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/environment/campus_walk_corner/v01/revisions/r3_before_r4/campus_walk_corner_v01.glb",
+      "source": "blender/environment/campus_walk_corner/v01/revisions/r3_before_r4/campus_walk_corner_v01.blend",
+      "sha256": "36d1473de05b49cae808587c0b236a1241e2e16d230c2f465f06241a3342d825",
+      "sourceHash": "bd6016a072b2c55f0fa079e8db675faa15a764674ee28816e5e7765424428119"
+    }
+  ],
+  "decisions": "blender/environment/campus_walk_corner/v01/decisions.md",
+  "delivery": {
+    "sha256": "9c9b71050798a668273e1c72950b9f2a5cdf7f2c23f5df3894a14a0e2fba1810",
+    "sourceHash": "bc434d7c78268915c6359d3e93f0ee77c4b1d80f8cc211d47717aacbec50a5d0",
+    "report": "blender/environment/campus_walk_corner/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T20:52:56.198Z"
+  },
+  "texturePalettes": [
+    {
+      "material": "glacier_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#E2EDF0",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "edge": {
+          "color": "#ADC5D2",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "path": {
+          "color": "#D2E1E5",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "signal": {
+          "color": "#8CCBD8",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "tech": {
+          "color": "#7E9EB0",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "edge": "#ADC5D2",
+      "chalk": "#E2EDF0",
+      "path": "#D2E1E5",
+      "signal": "#8CCBD8",
+      "tech": "#7E9EB0"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear",
+    "paletteTextureWorkflow": true
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "generatedAt": "2026-09-17T23:30:07.816Z",
+  "sheetCount": 7,
+  "localLinks": "passed",
+  "images": [
+    {
+      "id": "base_copilot",
+      "image": "base_copilot_spec_v01.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1679879,
+      "sha256": "a48f6f068aacc4074d086e2b51d2739146d1c9c9596342919890b6c8e89b8d19"
+    },
+    {
+      "id": "developer",
+      "image": "developer_spec_v01.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1707666,
+      "sha256": "3d76fc4461ae0f698b6bf8692c7d1cd8e3cc5b88e65a3ff5eeb35b7f30629b3d"
+    },
+    {
+      "id": "tester",
+      "image": "tester_spec_v01.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1639692,
+      "sha256": "9e1bb179317ef8cf34fdc2e2ff9b110d924a70788c58b9da2e1e7822f04b6f6b"
+    },
+    {
+      "id": "analyst",
+      "image": "analyst_spec_v01.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1645672,
+      "sha256": "13d43d82f64c926ed8c2b73972cbb03f64d784c101e1696135eb3aafbbb32d2c"
+    },
+    {
+      "id": "security",
+      "image": "security_spec_v01.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1709400,
+      "sha256": "a173eb1ed7ff4ff2e491527dd8f43bbeab6ece095af62fd2cc4d41741271fa8b"
+    },
+    {
+      "id": "architect",
+      "image": "architect_spec_v01.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1719743,
+      "sha256": "a4b53f61b13437967389e975b4405b69b03fa7cd165308aa9f437fb9addcc6ba"
+    },
+    {
+      "id": "linter_agent",
+      "image": "linter_agent_spec_v01.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1700423,
+      "sha256": "6a019d80eedb10051126ce844cad070b45e0cf87106d23bd5c7ffc2b31c4f79d"
+    }
+  ]
+}

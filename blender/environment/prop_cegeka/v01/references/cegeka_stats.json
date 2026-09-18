@@ -1,0 +1,829 @@
+{
+  "asset": "Cegeka",
+  "source": "blender/towers/copilot_base/v01/references/original_collection.blend",
+  "source_sha256": "366e9eb2bb471101922ef42fe2b9f7cc7d579fa4b76de03d61eab12ba8fff3b2",
+  "source_frame": 1,
+  "source_inspection": {
+    "objects": [
+      {
+        "name": "Cegeka | Root",
+        "type": "EMPTY",
+        "parent": null,
+        "location": [
+          7.5,
+          0,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "matrix_world": [
+          [
+            1,
+            0,
+            0,
+            7.5
+          ],
+          [
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "collections": [
+          "Logo - Cegeka"
+        ],
+        "animation": null,
+        "constraints": [],
+        "modifiers": []
+      },
+      {
+        "name": "Cegeka | Coral ribbon",
+        "type": "CURVE",
+        "parent": "Cegeka | Root",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          1.5707963705062866,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "matrix_world": [
+          [
+            1,
+            0,
+            0,
+            7.5
+          ],
+          [
+            0,
+            -4.371138828673793e-8,
+            -1,
+            0
+          ],
+          [
+            0,
+            1,
+            -4.371138828673793e-8,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "collections": [
+          "Logo - Cegeka"
+        ],
+        "animation": null,
+        "constraints": [],
+        "modifiers": [],
+        "evaluated_triangles": 1084,
+        "vertices": 1088,
+        "custom_normals": false,
+        "mesh_data_bounds": [
+          [
+            -1.2915552854537964,
+            0.5247268080711365,
+            -0.09000000357627869
+          ],
+          [
+            -0.5525616407394409,
+            2.1023757457733154,
+            0.09000000357627869
+          ]
+        ],
+        "materials": [
+          "Cegeka / Coral ribbon"
+        ],
+        "curve": {
+          "extrude": 0.09000000357627869,
+          "bevel": 0,
+          "resolution": 16,
+          "splines": [
+            {
+              "type": "BEZIER",
+              "cyclic": true,
+              "bezier_points": 17
+            }
+          ]
+        }
+      },
+      {
+        "name": "Cegeka | Cyan ribbon",
+        "type": "CURVE",
+        "parent": "Cegeka | Root",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          1.5707963705062866,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "matrix_world": [
+          [
+            1,
+            0,
+            0,
+            7.5
+          ],
+          [
+            0,
+            -4.371138828673793e-8,
+            -1,
+            0
+          ],
+          [
+            0,
+            1,
+            -4.371138828673793e-8,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "collections": [
+          "Logo - Cegeka"
+        ],
+        "animation": null,
+        "constraints": [],
+        "modifiers": [],
+        "evaluated_triangles": 700,
+        "vertices": 704,
+        "custom_normals": false,
+        "mesh_data_bounds": [
+          [
+            -0.7656207084655762,
+            0.14323362708091736,
+            -0.09000000357627869
+          ],
+          [
+            1.2386070489883423,
+            1.7999557256698608,
+            0.09000000357627869
+          ]
+        ],
+        "materials": [
+          "Cegeka / Cyan ribbon"
+        ],
+        "curve": {
+          "extrude": 0.09000000357627869,
+          "bevel": 0,
+          "resolution": 16,
+          "splines": [
+            {
+              "type": "BEZIER",
+              "cyclic": true,
+              "bezier_points": 11
+            }
+          ]
+        }
+      },
+      {
+        "name": "Cegeka | Light cyan ribbon",
+        "type": "CURVE",
+        "parent": "Cegeka | Root",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          1.5707963705062866,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "matrix_world": [
+          [
+            1,
+            0,
+            0,
+            7.5
+          ],
+          [
+            0,
+            -4.371138828673793e-8,
+            -1,
+            0
+          ],
+          [
+            0,
+            1,
+            -4.371138828673793e-8,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "collections": [
+          "Logo - Cegeka"
+        ],
+        "animation": null,
+        "constraints": [],
+        "modifiers": [],
+        "evaluated_triangles": 2748,
+        "vertices": 2752,
+        "custom_normals": false,
+        "mesh_data_bounds": [
+          [
+            -0.44724759459495544,
+            1.1854045391082764,
+            -0.09000000357627869
+          ],
+          [
+            1.103350043296814,
+            2.3499999046325684,
+            0.09000000357627869
+          ]
+        ],
+        "materials": [
+          "Cegeka / Light cyan ribbon"
+        ],
+        "curve": {
+          "extrude": 0.09000000357627869,
+          "bevel": 0,
+          "resolution": 16,
+          "splines": [
+            {
+              "type": "BEZIER",
+              "cyclic": true,
+              "bezier_points": 43
+            }
+          ]
+        }
+      },
+      {
+        "name": "Cegeka | Purple ribbon",
+        "type": "CURVE",
+        "parent": "Cegeka | Root",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          1.5707963705062866,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "matrix_world": [
+          [
+            1,
+            0,
+            0,
+            7.5
+          ],
+          [
+            0,
+            -4.371138828673793e-8,
+            -1,
+            0
+          ],
+          [
+            0,
+            1,
+            -4.371138828673793e-8,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "collections": [
+          "Logo - Cegeka"
+        ],
+        "animation": null,
+        "constraints": [],
+        "modifiers": [],
+        "evaluated_triangles": 4220,
+        "vertices": 4224,
+        "custom_normals": false,
+        "mesh_data_bounds": [
+          [
+            -1.2906947135925293,
+            0,
+            -0.09000000357627869
+          ],
+          [
+            0.30741626024246216,
+            0.8212518095970154,
+            0.09000000357627869
+          ]
+        ],
+        "materials": [
+          "Cegeka / Purple ribbon"
+        ],
+        "curve": {
+          "extrude": 0.09000000357627869,
+          "bevel": 0,
+          "resolution": 16,
+          "splines": [
+            {
+              "type": "BEZIER",
+              "cyclic": true,
+              "bezier_points": 66
+            }
+          ]
+        }
+      },
+      {
+        "name": "Cegeka | Teal edge",
+        "type": "CURVE",
+        "parent": "Cegeka | Root",
+        "location": [
+          0,
+          0,
+          0
+        ],
+        "rotation": [
+          1.5707963705062866,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "matrix_world": [
+          [
+            1,
+            0,
+            0,
+            7.5
+          ],
+          [
+            0,
+            -4.371138828673793e-8,
+            -1,
+            0
+          ],
+          [
+            0,
+            1,
+            -4.371138828673793e-8,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "collections": [
+          "Logo - Cegeka"
+        ],
+        "animation": null,
+        "constraints": [],
+        "modifiers": [],
+        "evaluated_triangles": 4604,
+        "vertices": 4608,
+        "custom_normals": false,
+        "mesh_data_bounds": [
+          [
+            1.0658949613571167,
+            1.090377688407898,
+            -0.09000000357627869
+          ],
+          [
+            1.2920161485671997,
+            2.1575188636779785,
+            0.09000000357627869
+          ]
+        ],
+        "materials": [
+          "Cegeka / Teal edge"
+        ],
+        "curve": {
+          "extrude": 0.09000000357627869,
+          "bevel": 0,
+          "resolution": 16,
+          "splines": [
+            {
+              "type": "BEZIER",
+              "cyclic": true,
+              "bezier_points": 72
+            }
+          ]
+        }
+      }
+    ],
+    "materials": [
+      {
+        "name": "Cegeka / Teal edge",
+        "color": [
+          0,
+          0.30054378509521484,
+          0.4969329833984375,
+          1
+        ],
+        "shader_node_count": 7,
+        "images": [],
+        "normal_spaces": [
+          {
+            "source": "WORLD",
+            "target": "OBJECT"
+          }
+        ]
+      },
+      {
+        "name": "Cegeka / Coral ribbon",
+        "color": [
+          0.8713670969009399,
+          0.07036009430885315,
+          0.07227185368537903,
+          1
+        ],
+        "shader_node_count": 7,
+        "images": [],
+        "normal_spaces": [
+          {
+            "source": "WORLD",
+            "target": "OBJECT"
+          }
+        ]
+      },
+      {
+        "name": "Cegeka / Cyan ribbon",
+        "color": [
+          0,
+          0.5711248517036438,
+          0.9473065137863159,
+          1
+        ],
+        "shader_node_count": 7,
+        "images": [],
+        "normal_spaces": [
+          {
+            "source": "WORLD",
+            "target": "OBJECT"
+          }
+        ]
+      },
+      {
+        "name": "Cegeka / Light cyan ribbon",
+        "color": [
+          0.2158605009317398,
+          0.7681511640548706,
+          0.9734452962875366,
+          1
+        ],
+        "shader_node_count": 7,
+        "images": [],
+        "normal_spaces": [
+          {
+            "source": "WORLD",
+            "target": "OBJECT"
+          }
+        ]
+      },
+      {
+        "name": "Cegeka / Purple ribbon",
+        "color": [
+          0.12477181851863861,
+          0.014443843625485897,
+          0.12743768095970154,
+          1
+        ],
+        "shader_node_count": 7,
+        "images": [],
+        "normal_spaces": [
+          {
+            "source": "WORLD",
+            "target": "OBJECT"
+          }
+        ]
+      }
+    ],
+    "images": []
+  },
+  "original": {
+    "triangles": 13356,
+    "mesh_count": 5,
+    "material_count": 5,
+    "dimensions_width_depth_height": [
+      2.583571434020996,
+      0.1800001859664917,
+      2.3499999046325684
+    ],
+    "bounds": [
+      [
+        6.208444595336914,
+        -0.09000000357627869,
+        -6.794811380217425e-9
+      ],
+      [
+        8.79201602935791,
+        0.09000018239021301,
+        2.3499999046325684
+      ]
+    ]
+  },
+  "uniform_scale": 0.8824993069579941,
+  "lowpoly": {
+    "triangles": 2036,
+    "mesh_count": 1,
+    "material_count": 1,
+    "dimensions_width_depth_height": [
+      2.2803590297698975,
+      0.1588500440120697,
+      2.073873281478882
+    ],
+    "bounds": [
+      [
+        -1.1401795148849487,
+        -0.07942502200603485,
+        0
+      ],
+      [
+        1.1401795148849487,
+        0.07942502200603485,
+        2.073873281478882
+      ]
+    ]
+  },
+  "parts": [
+    {
+      "source": "Cegeka | Coral ribbon",
+      "adaptive_tolerance_world": 0.0009,
+      "contour_points": [
+        74
+      ],
+      "retained_closed_contours": 1,
+      "triangles": 292,
+      "source_triangles": 1084,
+      "topology": {
+        "components": 3,
+        "component_vertex_counts": [
+          148,
+          74,
+          74
+        ],
+        "boundary_edges": 296,
+        "nonmanifold_edges": 296
+      }
+    },
+    {
+      "source": "Cegeka | Cyan ribbon",
+      "adaptive_tolerance_world": 0.0009,
+      "contour_points": [
+        99
+      ],
+      "retained_closed_contours": 1,
+      "triangles": 392,
+      "source_triangles": 700,
+      "topology": {
+        "components": 3,
+        "component_vertex_counts": [
+          198,
+          99,
+          99
+        ],
+        "boundary_edges": 396,
+        "nonmanifold_edges": 396
+      }
+    },
+    {
+      "source": "Cegeka | Light cyan ribbon",
+      "adaptive_tolerance_world": 0.0009,
+      "contour_points": [
+        124
+      ],
+      "retained_closed_contours": 1,
+      "triangles": 492,
+      "source_triangles": 2748,
+      "topology": {
+        "components": 3,
+        "component_vertex_counts": [
+          248,
+          124,
+          124
+        ],
+        "boundary_edges": 496,
+        "nonmanifold_edges": 496
+      }
+    },
+    {
+      "source": "Cegeka | Purple ribbon",
+      "adaptive_tolerance_world": 0.0009,
+      "contour_points": [
+        115
+      ],
+      "retained_closed_contours": 1,
+      "triangles": 456,
+      "source_triangles": 4220,
+      "topology": {
+        "components": 3,
+        "component_vertex_counts": [
+          230,
+          115,
+          115
+        ],
+        "boundary_edges": 460,
+        "nonmanifold_edges": 460
+      }
+    },
+    {
+      "source": "Cegeka | Teal edge",
+      "adaptive_tolerance_world": 0.0009,
+      "contour_points": [
+        102
+      ],
+      "retained_closed_contours": 1,
+      "triangles": 404,
+      "source_triangles": 4604,
+      "topology": {
+        "components": 3,
+        "component_vertex_counts": [
+          204,
+          102,
+          102
+        ],
+        "boundary_edges": 408,
+        "nonmanifold_edges": 408
+      }
+    }
+  ],
+  "anchors_blender": {
+    "anchor_ui": [
+      0,
+      0,
+      2.3738732814788817
+    ],
+    "anchor_action": [
+      0,
+      -0.19942502200603485,
+      1.140630304813385
+    ]
+  },
+  "checkmark_clearance": null,
+  "materials": {
+    "count": 1,
+    "embedded_textures": 1,
+    "palette_size": [
+      256,
+      8
+    ],
+    "opaque": true,
+    "roughness": 0.9,
+    "metallic": 0,
+    "emission": 0.4,
+    "baked_lighting": false
+  },
+  "topology": {
+    "components": 15,
+    "component_vertex_counts": [
+      248,
+      230,
+      204,
+      198,
+      148,
+      124,
+      124,
+      115,
+      115,
+      102,
+      102,
+      99,
+      99,
+      74,
+      74
+    ],
+    "boundary_edges": 2056,
+    "nonmanifold_edges": 2056
+  },
+  "kaykit": {
+    "triangles": 586,
+    "mesh_count": 1,
+    "material_count": 1,
+    "dimensions_width_depth_height": [
+      2.248182773590088,
+      2.1759612560272217,
+      1.0000017881393433
+    ],
+    "bounds": [
+      [
+        -1.1759612560272217,
+        -1.1759612560272217,
+        -0.0000018477439880371094
+      ],
+      [
+        1.0722213983535767,
+        1,
+        0.9999999403953552
+      ]
+    ],
+    "path": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_A.gltf",
+    "import_scale": 1
+  },
+  "reloaded": {
+    "triangles": 2036,
+    "mesh_count": 1,
+    "material_count": 1,
+    "dimensions_width_depth_height": [
+      2.2803590297698975,
+      0.1588500440120697,
+      2.073873281478882
+    ],
+    "bounds": [
+      [
+        -1.1401795148849487,
+        -0.07942502200603485,
+        0
+      ],
+      [
+        1.1401795148849487,
+        0.07942502200603485,
+        2.073873281478882
+      ]
+    ]
+  },
+  "reload_frames_checked": [
+    1,
+    60,
+    120
+  ],
+  "source_unchanged": true,
+  "visual_review": {
+    "views": [
+      "front",
+      "side",
+      "back",
+      "top",
+      "underside",
+      "iso"
+    ],
+    "comparison": "Cegeka_comparison.png",
+    "runtime": "Cegeka_runtime.png",
+    "eyes": "Not applicable; these assets have no eyes.",
+    "features": [
+      "five colored ribbons",
+      "thin extrusion",
+      "closed back and underside"
+    ]
+  },
+  "deliverable_sha256": {
+    "source_before_migration": "7bd596eb0d57999c56287392e4ca10860914faa486a8904930fbf41905f541c7",
+    "export_before_migration": "6354ce8c83aca83b0077a4563fda5b49440c784b4a0d494989a29db7ac84bf5e"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "asset": "campus_pond",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "334156831676b67aef9371cd0d8dcfa9cd8ec59ba3ff513aaffed8547cbb6e3d",
+  "sourceHash": "a5e43f56e231a427f32d5352d93eeb0b24d78564e812d245071e02eadfdfa1d6",
+  "reviewedAt": "2026-09-17T21:10:09.134Z",
+  "reviewer": "Codex visual inspection",
+  "status": "reviewed",
+  "artisticAcceptance": "User review pending; not implied by technical validation.",
+  "views": [
+    "blender/environment/campus_pond/v01/renders/inspector-iso.png",
+    "blender/environment/campus_pond/v01/renders/inspector-rear.png"
+  ],
+  "notes": [
+    "Inspected actual registered GLB in the shared Asset Inspector from isometric and reverse views.",
+    "Silhouette, contact surfaces and palette remain coherent; no blocking construction defects observed in these views."
+  ],
+  "compositionEvidence": "prototypes/campus-3d/previews/home-desktop.png",
+  "limits": [
+    "Art prototype; no gameplay or progression implementation.",
+    "Phone and landscape layouts reviewed in browser emulation; physical-device performance not profiled."
+  ]
+}

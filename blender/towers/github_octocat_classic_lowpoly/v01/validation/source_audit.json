@@ -1,0 +1,59 @@
+{
+  "style": "classic_lowpoly",
+  "parts": {
+    "head_and_ears": {
+      "connected_components": 1,
+      "nonmanifold_edges": 0,
+      "triangles": 1000,
+      "minimum_z": 0.6829049587249756
+    },
+    "body_five_tentacles": {
+      "connected_components": 1,
+      "nonmanifold_edges": 0,
+      "triangles": 1200,
+      "minimum_z": 0.0
+    }
+  },
+  "errors": [],
+  "appendages": [
+    "leg_front_left",
+    "leg_rear_left",
+    "leg_front_right",
+    "leg_rear_right",
+    "tail_raised"
+  ],
+  "guide_count": 5,
+  "contact_by_leg": {
+    "foot_front_left": 0.0,
+    "foot_rear_left": 0.0,
+    "foot_front_right": 0.0,
+    "foot_rear_right": 0.0
+  },
+  "sucker_rows": {
+    "leg_front_left": 10,
+    "leg_rear_left": 7,
+    "leg_front_right": 10,
+    "leg_rear_right": 7,
+    "tail_raised": 11
+  },
+  "whisker_meshes": 4,
+  "images": [
+    {
+      "name": "octocat_classic_lowpoly_face_512",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "octocat_palette_32x4",
+      "size": [
+        32,
+        4
+      ],
+      "packed": true
+    }
+  ],
+  "passed": true
+}

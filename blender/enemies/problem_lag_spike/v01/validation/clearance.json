@@ -1,0 +1,11 @@
+{
+  "samples": 469,
+  "subframesPerFrame": 4,
+  "minimumSpikeRearPlaneGap": -0.3508566878736019,
+  "minimumActiveSpikeRearPlaneGap": -0.3508566878736019,
+  "unexpectedIntersections": {},
+  "scope": "All spike/character and spike/spike pairs; arm shells against torso, pelvis, head, neck and other arm shells. Axles intentionally seat inside neighboring shells; same-bone wrist/hand seating excluded. Convex SAT with 0.5 mm reporting tolerance.",
+  "revision": 8,
+  "sha256": "f598017d4684a5d018c7b90c30b4d6f1f5c4d03c8aca3c33c1bdcf260b6b1f7d",
+  "sourceHash": "3b71a61e70a20f36f408ff0de5ff4cd9f04f36dee61c764d962516187212d023"
+}

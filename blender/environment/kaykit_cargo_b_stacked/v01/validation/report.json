@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_cargo_b_stacked",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "ee1ce817e2b6fbcbae93438346b3cb4634cd07ca2a9f2ec01bdbb68a1c29f213",
+  "checkedAt": "2026-09-17T21:34:12.548Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 488,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    1.0204999446868896,
+    1.0205000871792436,
+    1.0204999446868896
+  ],
+  "bounds": [
+    [
+      -0.5102499723434448,
+      -0.01025011483579874,
+      -0.5102499723434448
+    ],
+    [
+      0.5102499723434448,
+      1.0102499723434448,
+      0.5102499723434448
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_cargo_b_stacked/v01/kaykit_cargo_b_stacked_v01.blend",
+  "sourceHash": "a1c99f9500a4c5e5f50a96aa65781d101e121df9a054165bdde11207569fcda5",
+  "runtime": "assets/runtime/environment/kaykit_cargo_b_stacked_v01.glb"
+}

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_pixel_copilot",
+  "displayName": "Campus pixel Copilot",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/campus_pixel_copilot/v01/campus_pixel_copilot_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_pixel_copilot/v01/build.py"
+  },
+  "runtime": "assets/runtime/environment/campus_pixel_copilot_v01.glb",
+  "budgets": {
+    "triangles": 600,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 16,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui"
+    ],
+    "dimensions": {
+      "min": [
+        0.599,
+        0.499,
+        0.089
+      ],
+      "max": [
+        0.601,
+        0.501,
+        0.091
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/environment/campus_pixel_copilot/v01/references/original_pixel_copilot.png",
+      "provenance": "Original pixel design attached by user: stepped silhouette, blue goggles, purple body, dark face, green eyes."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/campus_pixel_copilot/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "pixel_copilot_palette",
+      "size": [
+        16,
+        4
+      ],
+      "roles": {
+        "pixel_purple": {
+          "color": "#8432F2",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "pixel_blue": {
+          "color": "#2F92FD",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "pixel_dark": {
+          "color": "#0D1117",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "pixel_green": {
+          "color": "#5CEC7F",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  }
+}

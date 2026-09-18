@@ -1,0 +1,11 @@
+{
+  "sourceHash": "4ef21d7d75cae81c31b0c422fc4427a601e9247b07a5b21c99e306d271546f49",
+  "strandSurfaceIntersections": [],
+  "badgeWeaveIntersections": [],
+  "badgePlaneGap": 0.02000001072883606,
+  "mountStrandContacts": [
+    1,
+    2,
+    4
+  ]
+}

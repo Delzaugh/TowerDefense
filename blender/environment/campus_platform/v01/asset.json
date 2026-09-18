@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_platform",
+  "displayName": "Glacier floating campus",
+  "category": "environment",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/environment/campus_platform/v01/campus_platform_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_platform/v01/build.py",
+    "authoritativeHash": "9589da8a3687b36e82f10dbc710518a7ebc8fb83c2066d4ce4a76effd9c371eb"
+  },
+  "runtime": "assets/runtime/environment/campus_platform_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_surface"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "prototypes/hub/previews/before-3d-study.png",
+      "provenance": "Project-owned Glacier SVG campus, including floating panel, inset paths and faceted landscaping."
+    },
+    {
+      "path": "tools/asset-recipes/campus-kit.py",
+      "provenance": "Shared geometry helper used by the local versioned recipe."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/campus_platform/v01/revisions/r2_before_r3/campus_platform_v01.glb",
+      "source": "blender/environment/campus_platform/v01/revisions/r2_before_r3/campus_platform_v01.blend",
+      "sha256": "e00eb9d6aff9e2b37d05b845b19f96119dd3026bd1893565eed6742fe48483fd",
+      "sourceHash": "99d80ae41aa31f119302c6e650f5ea65acc03d5d28da474742b300ecfb4adc0b"
+    }
+  ],
+  "decisions": "blender/environment/campus_platform/v01/decisions.md",
+  "delivery": {
+    "sha256": "9fb6ac1087ace6556eb576ac5bd7b176c96be3e1611316e41a17418acae067b5",
+    "sourceHash": "9589da8a3687b36e82f10dbc710518a7ebc8fb83c2066d4ce4a76effd9c371eb",
+    "report": "blender/environment/campus_platform/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T20:47:08.774Z"
+  },
+  "texturePalettes": [
+    {
+      "material": "glacier_palette",
+      "size": [
+        16,
+        4
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#E2EDF0",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "ground": {
+          "color": "#A5BFCB",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell": {
+          "color": "#89A4B8",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "shell": "#89A4B8",
+      "chalk": "#E2EDF0",
+      "ground": "#A5BFCB"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear",
+    "paletteTextureWorkflow": true
+  }
+}

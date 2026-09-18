@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_terrain_slope_inner_corner",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "0f4936cf614629d671c630bdfd80a8604fa80e32e433f24cdd4505ab217fecdc",
+  "checkedAt": "2026-09-17T21:34:54.499Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 34,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2,
+    2,
+    2
+  ],
+  "bounds": [
+    [
+      -1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_terrain_slope_inner_corner/v01/kaykit_terrain_slope_inner_corner_v01.blend",
+  "sourceHash": "2c4c02132d32d714eae19183d7a89d137ec882ad5fbecf1252d816f88d492632",
+  "runtime": "assets/runtime/environment/kaykit_terrain_slope_inner_corner_v01.glb"
+}

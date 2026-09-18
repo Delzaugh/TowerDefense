@@ -1,0 +1,15 @@
+{
+  "asset": "problem_spaghetti_code",
+  "geometryHash": "ea47fbf65c55a7b4aa631129ac4ae750f036d8ad035f2fe1d4d9bfae7a9864f5",
+  "maxLinearColorError": 2.4765500650225647e-08,
+  "size": [
+    32,
+    4
+  ],
+  "materials": [
+    "spaghetti_matte_palette"
+  ],
+  "usedRoles": 5,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\enemies\\problem_spaghetti_code\\v01\\problem_spaghetti_code_v01.blend"
+}

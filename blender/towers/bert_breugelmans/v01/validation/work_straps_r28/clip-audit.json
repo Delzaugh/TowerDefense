@@ -1,0 +1,103 @@
+{
+  "sha256": "4cf7919d416f48da30399b1960292ea17c0a4a91bae15c2c500693b51b8141b7",
+  "revision": 28,
+  "passed": true,
+  "clips": [
+    {
+      "name": "idle",
+      "passed": true,
+      "requiresRestStart": true,
+      "maxEndpointDelta": 0,
+      "maxRestDelta": 0,
+      "maxMotion": 0.006999913603067398,
+      "baseMotion": 0,
+      "changing": [
+        "body/rotation",
+        "head/rotation"
+      ]
+    },
+    {
+      "name": "move",
+      "passed": true,
+      "requiresRestStart": false,
+      "maxEndpointDelta": 2.449293581093244e-18,
+      "maxRestDelta": 0.2452453225851059,
+      "maxMotion": 0.3421337604522705,
+      "baseMotion": 0,
+      "changing": [
+        "pelvis/translation",
+        "body/rotation",
+        "head/rotation",
+        "upper_l/rotation",
+        "fore_l/rotation",
+        "hand_l/rotation",
+        "upper_r/rotation",
+        "fore_r/rotation",
+        "hand_r/rotation",
+        "thigh_l/rotation",
+        "shin_l/rotation",
+        "foot_l/rotation",
+        "thigh_r/rotation",
+        "shin_r/rotation",
+        "foot_r/rotation"
+      ]
+    },
+    {
+      "name": "celebrate_team",
+      "passed": true,
+      "requiresRestStart": true,
+      "maxEndpointDelta": 0,
+      "maxRestDelta": 0.0000010101866791956127,
+      "maxMotion": 0.8675273656845093,
+      "baseMotion": 0,
+      "changing": [
+        "pelvis/translation",
+        "body/rotation",
+        "head/rotation",
+        "upper_l/rotation",
+        "fore_l/rotation",
+        "hand_l/rotation",
+        "fingers_l/rotation",
+        "digits_l/rotation",
+        "thumb_l/rotation",
+        "upper_r/rotation",
+        "fore_r/rotation",
+        "hand_r/rotation",
+        "fingers_r/rotation",
+        "digits_r/rotation",
+        "thumb_r/rotation",
+        "thigh_l/rotation",
+        "shin_l/rotation",
+        "foot_l/rotation",
+        "thigh_r/rotation",
+        "shin_r/rotation",
+        "foot_r/rotation"
+      ]
+    },
+    {
+      "name": "work",
+      "passed": true,
+      "requiresRestStart": true,
+      "maxEndpointDelta": 0,
+      "maxRestDelta": 0,
+      "maxMotion": 0.5731518864631653,
+      "baseMotion": 0,
+      "changing": [
+        "body/rotation",
+        "head/rotation",
+        "upper_l/rotation",
+        "fore_l/rotation",
+        "hand_l/rotation",
+        "fingers_l/rotation",
+        "digits_l/rotation",
+        "thumb_l/rotation",
+        "upper_r/rotation",
+        "fore_r/rotation",
+        "hand_r/rotation",
+        "fingers_r/rotation",
+        "digits_r/rotation",
+        "thumb_r/rotation"
+      ]
+    }
+  ]
+}

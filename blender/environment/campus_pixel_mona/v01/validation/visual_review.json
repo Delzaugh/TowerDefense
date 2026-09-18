@@ -1,0 +1,18 @@
+{
+  "asset": "campus_pixel_mona",
+  "revision": 2,
+  "sha256": "158d4f849f5a10df3668ad0d023c8cb225f1dd3696eb4ab567d66b72f7083902",
+  "sourceHash": "2eba9a8230146fe97174e3ba4f10412761c80750bb8b54c0fc97b08524daf009",
+  "technicalValidationPassed": true,
+  "reviewedViews": [
+    "front",
+    "side",
+    "isometric",
+    "rear",
+    "close_front",
+    "phone"
+  ],
+  "visualReview": "Personally inspected the actual exported renders and shared Inspector captures. Clean continuous stepped outline and front color regions; uniform shallow thickness; plain back intentional. Character remains readable at phone scale. No visible construction defect found.",
+  "limitations": "Static shallow emblem, not a fully sculpted or animated character. Facial detail becomes secondary at small decoration scale.",
+  "artisticAcceptance": "pending_user_review"
+}

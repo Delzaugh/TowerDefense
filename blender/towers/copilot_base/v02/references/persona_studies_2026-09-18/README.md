@@ -1,0 +1,36 @@
+# Copilot Persona concepts — first pass
+
+Generated 2026-09-18 with the built-in image generation tool for the user's request to explore how the existing Base Copilot changes with each Tower role.
+
+- Output: copilot_persona_concepts_v01.png
+- Reference model: copilot_base v02, revision 3; front and isometric images in ../../validation/.
+- Gameplay reference: docs/Tower_Base_Stats.md, accepted seven-Tower initial playtest design.
+- Status: exploratory visual proposals, not user-approved model designs or production meshes. Existing Blender sources, runtime assets and manifests are unchanged.
+- Family invariants: floating limb-free purple head, oversized goggles, dark face and cyan capsule eyes.
+- Developer: coral-accented processor fins and code badge.
+- Tester: mint diagnostic emitter housings and QA check badge.
+- Analyst: amber communications dish and briefing tile.
+- Security: cobalt shield plate and scanning lens.
+- Architect: ivory structural arch and square packet projector.
+- Linter Agent: lime-accented octagonal radial emitter collar.
+- Visual review: all seven role labels and captions are legible; all heads retain goggles and visible eyes; silhouettes vary through readable large attachments. The illustration does not verify actual topology, exact hidden emitter count, final footprint or model budgets.
+
+## Final generation prompt
+
+Use case: stylized-concept.
+Create one polished landscape 3D game-art concept sheet showing the existing Base Copilot and its SIX proposed Persona upgrades. This is an exploratory visual design board, not a delivered mesh. Seven characters total, exactly one per named role.
+Input images: Image 1 is the authoritative FRONT reference of the existing Copilot game model; Image 2 is its authoritative OBLIQUE reference. They show the SAME character. Preserve its identity throughout. These are subject references, not a layout template.
+IDENTITY: a compact limb-free floating robot HEAD, rounded low-poly purple/violet shell with a magenta upper dome, oversized chunky purple goggles resting ABOVE a dark navy face panel, two simple vertical cyan capsule eyes on the lower face, blocky side ear pods. NO mouth. No arms, hands, feet, legs, humanoid body, torso, clothing or human face. Retain those goggles and visible two eyes in EVERY design. Core proportions remain essentially unchanged. Base has no attachments. Purple remains the dominant family color for all six upgrades; accents occupy small deliberate regions.
+COMPOSITION: premium wide 16:9 art direction board, ideally 3840 x 2160. Warm off-white pale-gray background, charcoal/navy typography, fine light-gray dividers, generous margins. Clean 4-column by 2-row grid. Top-left cell is the TITLE block, NOT a character. Remaining top row cells are BASE COPILOT, DEVELOPER, TESTER in that order. Bottom row cells are ANALYST, SECURITY, ARCHITECT, LINTER AGENT in that order. Thus exactly seven full unobstructed character renders and one title cell. Same core head size in each cell; same elevated front three-quarter orthographic camera, gentle shadows under floating heads, consistent studio lighting. Never crop any attachment. Large renders, no tiny callout diagrams, no environments, no dramatic effects, no arrows, no extra duplicates. Names and short captions beneath each render in exact readable text.
+TITLE CELL text: "COPILOT" on first line, "PERSONA STUDIES" on second line. Smaller subtitle "One base. Six distinct roles." Smaller note "Exploratory visual concepts". Tiny three palette circles violet, navy, cyan are acceptable. No other body text in this cell.
+SEVEN CONCEPTS:
+1. BASE COPILOT — caption "Flexible starting generalist". Reproduce the supplied model faithfully: plain purple head, violet goggles, magenta dome, dark face and cyan capsule eyes, ear pods, no extra devices. This is the control/reference.
+2. DEVELOPER — caption "Fast work. Focused output." Keep reference core, add one compact top/back processor module with THREE chunky swept-back stepped cooling fins, warm coral-orange inset accent strips and one small raised code-bracket emblem on an ear pod. Technical computing metaphor, not a flame or animal mane. Fast concentrated work, clean compact silhouette.
+3. TESTER — caption "Quality support and slowing aura". Keep reference core, add a pair of chunky mint-green C-shaped diagnostic emitter housings wrapped around the existing side ear pods, like open test-calibration brackets, plus one bold check-mark badge on the upper housing. No shield, dish or guns. Slightly wider balanced silhouette; soft mint edge light but no ground aura circle. QA presence through the model equipment.
+4. ANALYST — caption "Briefings and new work opportunities". Keep reference core, add ONE small, broad amber-and-ivory faceted communications dish angled upward behind the goggles, and one compact attached side briefing tile with a simple three-node diagram. No tiny writing. Passive communication/intelligence role, taller dish-led silhouette, no weapon, no hands.
+5. SECURITY — caption "Reveal and counter hidden threats". Keep reference core, add ONE bold cobalt-blue and ivory shield-shaped plate mounted alongside an ear pod, and a short top-mounted scanning sensor with a bright small cyan lens. Clear friendly protective guardian; face and goggles fully exposed. The shield is a device attachment, not held in a hand. No riot helmet, military armor, gun or combat uniform.
+6. ARCHITECT — caption "Long-range structural bombardment". Keep reference core, add a compact ivory architectural arch/truss projecting behind and above the head, supporting ONE broad upward-tilted square node projector with a recessed cyan square core. Projector resembles a chunky software infrastructure/building module and launches abstract structural packets; NO gun barrel, ammunition, artillery cannon or military styling. A wide squared arch silhouette clearly different from Analyst's dish and Developer's fins. No additional screens.
+7. LINTER AGENT — caption "Eight-way close-range rule bursts". Keep reference core, add a low horizontal OCTAGONAL emitter collar around the LOWER head, BELOW the face panel. Exactly eight evenly spaced chunky radial short emitter blocks around the collar, readable in perspective, lime-yellow accents, dark square openings. The collar wraps behind too; front blocks never obscure the eyes. Short wide gear-like silhouette, code-cleaning appliance feel rather than spikes or weapons. No floating firing projectiles.
+STYLE: friendly toy-like stylized LOW-POLY 3D matching the source and chunky KayKit-inspired technology campus direction. Soft bevels, broad flat/faceted planes, restrained matte palette regions. Simple modelable attachments with visible sensible mounts, no dense greebles, no photorealism, no transparent surfaces, no metallic gloss, no detailed textures. Role identity must read from SHAPE, not just color. Preserve the supplied model's goggles/face arrangement rather than reinventing a generic robot. Keep all seven appealing and coherent as one family.
+Text must be exact as provided. Only title, subtitle, concept note, seven names and seven short captions. No numerical stats, no triangle-count claims, no footer, no watermark.
+

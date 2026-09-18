@@ -1,0 +1,208 @@
+{
+  "sourceHash": "d3bce572f7fd790ddf29239fd3c0d8131dc75d22610938d2c39dde934783968c",
+  "clips": [
+    {
+      "clip": "idle",
+      "samples": 121,
+      "intersectingSamples": 0,
+      "maxFacePairs": 0,
+      "firstHits": [],
+      "zones": [],
+      "maxHalfFrameRotationDegrees": 0.055952909680744456,
+      "workSoleDrift": 0,
+      "minimumElbowBelowShoulder": 0.30980753898620605
+    },
+    {
+      "clip": "move",
+      "samples": 73,
+      "intersectingSamples": 0,
+      "maxFacePairs": 0,
+      "firstHits": [],
+      "zones": [],
+      "maxHalfFrameRotationDegrees": 3.4943935081570467,
+      "workSoleDrift": 0,
+      "minimumElbowBelowShoulder": 0.31566309928894043
+    },
+    {
+      "clip": "work",
+      "samples": 241,
+      "intersectingSamples": 0,
+      "maxFacePairs": 0,
+      "firstHits": [],
+      "zones": [],
+      "maxHalfFrameRotationDegrees": 1.9900930085595745,
+      "workSoleDrift": 0,
+      "minimumElbowBelowShoulder": 0.303702712059021
+    },
+    {
+      "clip": "celebrate_team",
+      "samples": 193,
+      "intersectingSamples": 83,
+      "maxFacePairs": 72,
+      "firstHits": [
+        {
+          "frame": 23.0,
+          "facePairs": 6
+        },
+        {
+          "frame": 23.5,
+          "facePairs": 8
+        },
+        {
+          "frame": 24.0,
+          "facePairs": 8
+        },
+        {
+          "frame": 24.5,
+          "facePairs": 12
+        },
+        {
+          "frame": 25.0,
+          "facePairs": 18
+        },
+        {
+          "frame": 25.5,
+          "facePairs": 30
+        },
+        {
+          "frame": 26.0,
+          "facePairs": 46
+        },
+        {
+          "frame": 26.5,
+          "facePairs": 54
+        },
+        {
+          "frame": 27.0,
+          "facePairs": 66
+        },
+        {
+          "frame": 27.5,
+          "facePairs": 64
+        },
+        {
+          "frame": 28.0,
+          "facePairs": 58
+        },
+        {
+          "frame": 28.5,
+          "facePairs": 64
+        }
+      ],
+      "zones": [
+        {
+          "face": 197,
+          "restCenter": [
+            -0.1940000057220459,
+            -0.3009726405143738,
+            1.6383748054504395
+          ],
+          "count": 160
+        },
+        {
+          "face": 185,
+          "restCenter": [
+            -0.19099998474121094,
+            -0.2629053592681885,
+            1.8193354606628418
+          ],
+          "count": 129
+        },
+        {
+          "face": 189,
+          "restCenter": [
+            -0.1850000023841858,
+            -0.3009534180164337,
+            1.7293450832366943
+          ],
+          "count": 128
+        },
+        {
+          "face": 181,
+          "restCenter": [
+            -0.19099998474121094,
+            -0.2890946865081787,
+            1.827664852142334
+          ],
+          "count": 125
+        },
+        {
+          "face": 201,
+          "restCenter": [
+            -0.1940000057220459,
+            -0.27402734756469727,
+            1.643625259399414
+          ],
+          "count": 124
+        },
+        {
+          "face": 202,
+          "restCenter": [
+            -0.23499999940395355,
+            -0.2874999940395355,
+            1.6410000324249268
+          ],
+          "count": 105
+        },
+        {
+          "face": 75,
+          "restCenter": [
+            0.1940000057220459,
+            -0.3009726405143738,
+            1.6383748054504395
+          ],
+          "count": 103
+        },
+        {
+          "face": 59,
+          "restCenter": [
+            0.19099998474121094,
+            -0.2629053592681885,
+            1.8193354606628418
+          ],
+          "count": 103
+        },
+        {
+          "face": 79,
+          "restCenter": [
+            0.1940000057220459,
+            -0.27402734756469727,
+            1.643625259399414
+          ],
+          "count": 94
+        },
+        {
+          "face": 55,
+          "restCenter": [
+            0.19099998474121094,
+            -0.2890946865081787,
+            1.827664852142334
+          ],
+          "count": 86
+        },
+        {
+          "face": 193,
+          "restCenter": [
+            -0.1850000023841858,
+            -0.2730465829372406,
+            1.7276549339294434
+          ],
+          "count": 84
+        },
+        {
+          "face": 196,
+          "restCenter": [
+            -0.2329999953508377,
+            -0.29904797673225403,
+            1.6387498378753662
+          ],
+          "count": 78
+        }
+      ],
+      "maxHalfFrameRotationDegrees": 7.248460563274223,
+      "workSoleDrift": 0,
+      "minimumElbowBelowShoulder": 0.1640474796295166
+    }
+  ],
+  "passed": false
+}

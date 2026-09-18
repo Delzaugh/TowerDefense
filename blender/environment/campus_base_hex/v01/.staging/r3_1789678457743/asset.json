@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_base_hex",
+  "displayName": "Campus foundation \u00b7 hexagonal expansion tile",
+  "category": "environment",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/environment/campus_base_hex/v01/campus_base_hex_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_base_hex/v01/build.py",
+    "authoritativeHash": "975e54fd29f3a7053296e1a928601fb66c1f34ba4c66e5107f50f7865c1fb5e5"
+  },
+  "runtime": "assets/runtime/environment/campus_base_hex_v01.glb",
+  "budgets": {
+    "triangles": 1000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_surface",
+      "anchor_edge_ne",
+      "anchor_edge_n",
+      "anchor_edge_nw",
+      "anchor_edge_sw",
+      "anchor_edge_s",
+      "anchor_edge_se"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "tools/asset-recipes/campus-kit.py",
+      "provenance": "Shared Blender geometry helper; modular expansion refinement requested 2026-09-17."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/campus_base_hex/v01/decisions.md",
+  "delivery": {
+    "sha256": "591ae9c805b8d1d245022539fef0dadaba2b1d2aa44cf0c843dad5bef9695ca4",
+    "sourceHash": "975e54fd29f3a7053296e1a928601fb66c1f34ba4c66e5107f50f7865c1fb5e5",
+    "report": "blender/environment/campus_base_hex/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T20:52:13.198Z"
+  },
+  "texturePalettes": [
+    {
+      "material": "glacier_palette",
+      "size": [
+        16,
+        4
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#E2EDF0",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "edge": {
+          "color": "#ADC5D2",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "ground": {
+          "color": "#A5BFCB",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell": {
+          "color": "#89A4B8",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "shell": "#89A4B8",
+      "chalk": "#E2EDF0",
+      "ground": "#A5BFCB",
+      "edge": "#ADC5D2"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear",
+    "paletteTextureWorkflow": true
+  }
+}

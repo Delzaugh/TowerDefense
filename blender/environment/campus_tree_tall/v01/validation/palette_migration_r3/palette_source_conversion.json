@@ -1,0 +1,15 @@
+{
+  "asset": "campus_tree_tall",
+  "geometryHash": "4a7565339f36dcc538963c243f9259fd97c4a7feed8793d994590cbb53336b8a",
+  "maxLinearColorError": 2.2297857227293605e-8,
+  "size": [
+    32,
+    4
+  ],
+  "materials": [
+    "glacier_palette.008"
+  ],
+  "usedRoles": 5,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\environment\\campus_tree_tall\\v01\\campus_tree_tall_v01.blend"
+}

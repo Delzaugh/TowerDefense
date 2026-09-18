@@ -1,0 +1,14 @@
+{
+  "revision": 8,
+  "sha256": "f598017d4684a5d018c7b90c30b4d6f1f5c4d03c8aca3c33c1bdcf260b6b1f7d",
+  "checks": [
+    {
+      "clip": "idle",
+      "maxLateralTranslation": 0
+    },
+    {
+      "clip": "move",
+      "maxLateralTranslation": 0
+    }
+  ]
+}

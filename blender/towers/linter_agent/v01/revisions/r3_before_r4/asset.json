@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "id": "linter_agent",
+  "displayName": "Linter Agent",
+  "category": "towers",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/towers/linter_agent/v01/linter_agent_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/linter_agent/v01/build.py",
+    "authoritativeHash": "d4223f604db58a8d20e87a5cc5f37d48cfef7528d4c84ad94a0d0d6584150e48"
+  },
+  "runtime": "assets/runtime/towers/linter_agent_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 32,
+    "bones": 0,
+    "meshes": 2
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        1.7,
+        1,
+        1.4
+      ],
+      "max": [
+        2.8,
+        1.3,
+        2.8
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/linter_agent/v01/references/persona_concepts.png",
+      "provenance": "User attached selected tower concept sheet on 2026-09-18. Visual design input only; the explicit request is to model the six new towers, excluding existing Base Copilot."
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/copilot_base_v02.blend",
+      "provenance": "Existing family scale and visual-language reference. Source and runtime are preserved."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "contract.dimensions",
+      "reason": "Use the existing 1.8 m Base Copilot family scale. Architect and Developer have taller silhouette details; Linter is intentionally squat."
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/linter_agent/v01/revisions/r2_before_r3/linter_agent_v01.glb",
+      "source": "blender/towers/linter_agent/v01/revisions/r2_before_r3/linter_agent_v01.blend",
+      "sha256": "2a9e32f5debe3a27a456bbe1897f8b9a68724f07a52e8723751d098efd4f98c7",
+      "sourceHash": "5e1b4995820c9f49dfc3218ef83e4c6a75b9097f03e094908e9597d731c9a034"
+    }
+  ],
+  "decisions": "blender/towers/linter_agent/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "linter_agent_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#D1E817",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#646E36",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#F2F0CF",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#333E48",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#031D28",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#079CB9",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E6F4",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#AFCC15",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "material": "linter_agent_optics",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#D1E817",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#646E36",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#F2F0CF",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#333E48",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#031D28",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#079CB9",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E6F4",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#AFCC15",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "shell": "#D1E817",
+      "shell_dark": "#646E36",
+      "trim": "#F2F0CF",
+      "graphite": "#333E48",
+      "screen": "#031D28",
+      "lens": "#079CB9",
+      "cyan": "#00E6F4",
+      "detail": "#AFCC15"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "8c3e9d5de8e38d85ca40384d6c3c6ed83bda06e6b2b55bfc7ff8f31ad4fa9e98",
+    "sourceHash": "d4223f604db58a8d20e87a5cc5f37d48cfef7528d4c84ad94a0d0d6584150e48",
+    "report": "blender/towers/linter_agent/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T22:55:13.396Z"
+  }
+}

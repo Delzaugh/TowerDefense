@@ -1,0 +1,19 @@
+Edit the bundled 1536 x 1024 model-spec-sheet template directly and preserve its dark navy layout, labels, borders, typography, spacing, and panel geometry.
+
+Asset: Commit Halo
+Description: Calm architect commanding three orbiting commit nodes.
+Type: Tower
+Target: < 2500 tris
+
+Use Option 03 from senior_developer_artwork_v03.png as the source of truth. Show the same mature human female architect in every view: faceted dark brown wavy bob, round glasses, focused friendly face, calm average-height silhouette, one-piece off-white and charcoal tunic, broad collar, simple trousers and shoes, tiny cyan accent, one thick low-segment gold back halo, exactly three large gold cube nodes at top, left, and right, and a compact low-segment pedestal. Use primitive faceted forms, hard normals, almost no bevels, few parts, and no tiny detail.
+
+Fill Front, Front-Left, Left, Back, Back-Right, and Right with a coherent base model and no runtime particles. Keep the modeled halo and three nodes present in every view. Add an illustrative sparse wireframe. Leave Texture / UV empty. Use dashes for unverified triangles, vertices, texture, and materials; show only the supplied target. Fill five palette swatches with off-white, charcoal, warm gray, gold, and cyan.
+
+In the In-Game View, show a broad elevated isometric low-poly technology campus. Keep Commit Halo genuinely tiny at about 5–7% of panel height. Add only a restrained soft gold runtime pulse.
+
+Notes:
+- Halo stays readable from elevated camera
+- Three nodes define the commit identity
+- Designed below supplied triangle ceiling
+
+Do not add robots, armor layers, extra floating cards, weapons, extra accessories, dense circuitry, invented UVs, fabricated statistics, logos, watermarks, extra sections, or a Game Name field.

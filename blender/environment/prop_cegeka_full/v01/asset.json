@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "prop_cegeka_full",
+  "displayName": "Cegeka Full",
+  "category": "environment",
+  "version": "v01",
+  "revision": 1,
+  "source": {
+    "path": "blender/environment/prop_cegeka_full/v01/prop_cegeka_full_v01.blend",
+    "mode": "manual",
+    "authoritativeHash": "8569b5723262c9e9c72e4f8a37364acb6ba9d7a718d2406dff98bee57be4a6cc"
+  },
+  "runtime": "assets/runtime/environment/prop_cegeka_full_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 1,
+    "textures": 2,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_action",
+      "anchor_ui"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/copilot_base/v01/references/original_collection.blend",
+      "provenance": "Preserved original project draft collection; source-faithful low-poly adaptation."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "budgets.triangles",
+      "reason": "Preserve existing detailed brand geometry during storage-only migration."
+    }
+  ],
+  "milestones": [],
+  "decisions": "blender/environment/prop_cegeka_full/v01/decisions.md",
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "45236017f9f1d27b346fa1f9fe4b97f377977f9aa2a03af02cc0d23e26cc4cd6",
+    "sourceHash": "8569b5723262c9e9c72e4f8a37364acb6ba9d7a718d2406dff98bee57be4a6cc",
+    "report": "blender/environment/prop_cegeka_full/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T13:34:24.557Z"
+  }
+}

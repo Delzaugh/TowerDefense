@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "kaykit_structure_tall",
+  "displayName": "structure tall",
+  "category": "environment",
+  "version": "v01",
+  "revision": 1,
+  "source": {
+    "path": "blender/environment/kaykit_structure_tall/v01/kaykit_structure_tall_v01.blend",
+    "mode": "manual",
+    "importedFrom": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/gltf/structure_tall.gltf",
+    "authoritativeHash": "c819693e642623ef77914178fe77fa954683a09bb1c6749b10f50965aca24939"
+  },
+  "runtime": "assets/runtime/environment/kaykit_structure_tall_v01.glb",
+  "budgets": {
+    "triangles": 800,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 1024,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": []
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/gltf/structure_tall.gltf",
+      "provenance": "KayKit / Kay Lousberg, Space Base Bits 1.0, CC0; unmodified upstream source."
+    },
+    {
+      "path": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/LICENSE.txt",
+      "provenance": "Upstream CC0 license retained byte-for-byte."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "budgets.textureSize",
+      "value": 1024,
+      "reason": "Retain the existing shared upstream 1024 px palette atlas during storage-only migration; no texture resampling or new unique texture introduced."
+    }
+  ],
+  "milestones": [],
+  "decisions": "blender/environment/kaykit_structure_tall/v01/decisions.md",
+  "delivery": {
+    "sha256": "21a78f030b1a0e3c2b9104c65a28c885126f6a84455f719a9141e20873b3f121",
+    "sourceHash": "c819693e642623ef77914178fe77fa954683a09bb1c6749b10f50965aca24939",
+    "report": "blender/environment/kaykit_structure_tall/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T13:34:24.594Z"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_home_study",
+  "displayName": "Glacier — Copilot Lab campus study",
+  "category": "environment",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/environment/campus_home_study/v01/campus_home_study_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_home_study/v01/build.py",
+    "authoritativeHash": "e6925cb252bb039948552f694e2f269ae179b7cc919ce9acdd9c985aaee3c958"
+  },
+  "runtime": "assets/runtime/environment/campus_home_study_v01.glb",
+  "budgets": {
+    "triangles": 8000,
+    "materials": 1,
+    "textures": 0,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 3
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "provenance": "Local capture of the active Glacier SVG UI prototype, used as visual reference.",
+      "path": "prototypes/hub/previews/before-3d-study.png"
+    }
+  ],
+  "overrides": [
+    {
+      "reason": "Combined campus study includes lab, terrain, trees, pool, benches and lamps.",
+      "field": "budgets.triangles"
+    }
+  ],
+  "milestones": [],
+  "decisions": "blender/environment/campus_home_study/v01/decisions.md",
+  "delivery": {
+    "sha256": "8557e85a6216294fa9d031105644044eb36bf2687d10744231d1aacd8d23cb4f",
+    "sourceHash": "e6925cb252bb039948552f694e2f269ae179b7cc919ce9acdd9c985aaee3c958",
+    "report": "blender/environment/campus_home_study/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T20:16:06.998Z"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_containers_a",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "2dcb0995e0612d42b5186cc60b01db12ddf09d14d47d11489f6d649316c2f832",
+  "checkedAt": "2026-09-17T21:34:17.548Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 280,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    0.4999999850988388,
+    0.20000001369044185,
+    0.5
+  ],
+  "bounds": [
+    [
+      -0.2499999850988388,
+      -0.0019850539974868298,
+      -0.25
+    ],
+    [
+      0.25,
+      0.19801495969295502,
+      0.25
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_containers_a/v01/kaykit_containers_a_v01.blend",
+  "sourceHash": "b00448e3a0fd28a13c3f78b0c10d12238ee8bd20aa2f01c1539c65caf089f4cd",
+  "runtime": "assets/runtime/environment/kaykit_containers_a_v01.glb"
+}

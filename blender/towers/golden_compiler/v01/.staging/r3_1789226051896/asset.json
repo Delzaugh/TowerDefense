@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "golden_compiler",
+  "displayName": "Golden Compiler",
+  "category": "towers",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/towers/golden_compiler/v01/golden_compiler_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/golden_compiler/v01/build.py",
+    "authoritativeHash": "40c76dc3e20287d11ac1fb849d0376910d2047809292dd70b23fd33df7a12675"
+  },
+  "runtime": "assets/runtime/towers/golden_compiler_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 4,
+    "meshes": 4,
+    "bones": 16,
+    "textures": 0,
+    "textureSize": 0
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_action",
+      "anchor_ui",
+      "anchor_aura"
+    ],
+    "dimensions": {
+      "min": [
+        1.7,
+        3.1,
+        1.5
+      ],
+      "max": [
+        2.5,
+        3.6,
+        2
+      ]
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "playback": "loop",
+      "fps": 24,
+      "meaning": "Planted ready stance; restrained breath and levitating compiler cube."
+    },
+    {
+      "name": "work",
+      "playback": "loop",
+      "fps": 24,
+      "meaning": "Channel compiler energy through the raised palm; feet stay planted and no gameplay outcome is encoded."
+    }
+  ],
+  "references": [
+    {
+      "path": "blender/towers/golden_compiler/v01/references/golden_compiler_reference.png",
+      "provenance": "User-supplied Golden Compiler turnaround on 2026-09-12. Visual design input; printed notes are not instructions."
+    },
+    {
+      "path": "design/concepts/senior_developer/v01/decisions.md",
+      "provenance": "Earlier user design decisions for the human Senior Developer tower family."
+    },
+    {
+      "path": "blender/towers/golden_compiler/v01/references/super_saiyan_glow_reference.png",
+      "provenance": "User supplied on 2026-09-12 to request the typical Super Saiyan golden glow. Image is a visual reference."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "budgets",
+      "reason": "User explicitly increased the character allowance to 3000 triangles and 4 meshes/materials on 2026-09-12; includes the separate aura preview draw."
+    }
+  ],
+  "milestones": [],
+  "decisions": "blender/towers/golden_compiler/v01/decisions.md",
+  "palette": {
+    "attribute": "_palette_role",
+    "colors": {
+      "coat": "#E8DCC4",
+      "coat_shadow": "#C3AF91",
+      "coat_light": "#FFF0D9",
+      "charcoal": "#30333C",
+      "trousers": "#42434B",
+      "boot": "#252A32",
+      "sole": "#4B5058",
+      "skin": "#DFA276",
+      "skin_light": "#F2BD8C",
+      "skin_shadow": "#BA7756",
+      "beard": "#CAD1D0",
+      "beard_shadow": "#899998",
+      "hair": "#F5BD32",
+      "hair_light": "#FFE47B",
+      "hair_shadow": "#C88420",
+      "eye": "#53D8C4",
+      "white": "#FFF7DF",
+      "gold": "#FFD14C",
+      "core_light": "#FFF2AB",
+      "base": "#6F7984",
+      "base_light": "#B4BABD",
+      "base_dark": "#394653",
+      "cyan": "#58D5DF"
+    }
+  },
+  "delivery": {
+    "sha256": "686b33a7151cd50f072afc8d3ae4bc3278f9bdbd9f90a41f737abb8936794203",
+    "sourceHash": "40c76dc3e20287d11ac1fb849d0376910d2047809292dd70b23fd33df7a12675",
+    "report": "blender/towers/golden_compiler/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T15:09:15.665Z"
+  },
+  "presentation": {
+    "effect": "golden_flame",
+    "anchor": "anchor_aura",
+    "width": 3.35,
+    "height": 3.85,
+    "meshes": 1,
+    "materials": 1,
+    "triangles": 2
+  }
+}

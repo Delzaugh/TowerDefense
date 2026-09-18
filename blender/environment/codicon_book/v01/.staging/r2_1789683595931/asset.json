@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "codicon_book",
+  "displayName": "Codicon Book",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/codicon_book/v01/codicon_book_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/codicon_book/v01/build.py"
+  },
+  "runtime": "assets/runtime/environment/codicon_book_v01.glb",
+  "budgets": {
+    "triangles": 1200,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 8,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui"
+    ],
+    "dimensions": {
+      "min": [
+        0.599,
+        0.5132857142857142,
+        0.059
+      ],
+      "max": [
+        0.601,
+        0.5152857142857142,
+        0.061
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "assets/third_party/microsoft/vscode-codicons/6833ea2bc5fc49220e261a4a0fd1986ea02d1d0c/src/icons/book.svg",
+      "provenance": "Microsoft and contributors / vscode-codicons. Pinned upstream 6833ea2bc5fc49220e261a4a0fd1986ea02d1d0c. CC-BY-4.0; license and modifications recorded in attribution."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/codicon_book/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "codicon_palette",
+      "size": [
+        8,
+        4
+      ],
+      "roles": {
+        "icon_face": {
+          "color": "#E6F0F2",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "icon_edge": {
+          "color": "#93BCC5",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "asset": "bert_breugelmans",
+  "revision": 24,
+  "sha256": "1a926c4bffe2b36c64577dae076db25cf107a2bb4ce30987ffb146b44e360130",
+  "paletteControls": 20,
+  "errors": [],
+  "diff": [
+    {
+      "view": "iso",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.00538425925925926
+    },
+    {
+      "view": "front",
+      "maxChannelDifference": 2,
+      "meanChannelDifference": 0.004323611111111111
+    },
+    {
+      "view": "rear",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0032615740740740743
+    },
+    {
+      "view": "side",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.004335648148148148
+    },
+    {
+      "view": "top",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0038550925925925927
+    },
+    {
+      "view": "idle",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.005104166666666667
+    },
+    {
+      "view": "work",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.005127314814814815
+    },
+    {
+      "view": "celebrate_team",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0051402777777777775
+    },
+    {
+      "view": "move",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.005244907407407407
+    }
+  ],
+  "visualReview": "Reviewed by Codex: before/after appearance, front and reverse views, clip poses where present, and phone-scale silhouette. No conversion-induced visual regression observed; artistic user acceptance remains separate.",
+  "reviewedAt": "2026-09-17T21:03:25.562Z",
+  "evidence": "blender/towers/bert_breugelmans/v01/validation/palette_migration_r24/palette_review.png"
+}

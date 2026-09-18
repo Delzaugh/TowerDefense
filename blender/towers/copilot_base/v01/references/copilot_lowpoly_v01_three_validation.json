@@ -1,0 +1,116 @@
+{
+  "triangles": 2489,
+  "meshes": 2,
+  "materials": 1,
+  "dimensions": [
+    2.2728118896484375,
+    1.8002899885177612,
+    1.9463568925857544
+  ],
+  "bounds": [
+    [
+      -1.1364059448242188,
+      0,
+      -0.9731784462928772
+    ],
+    [
+      1.1364059448242188,
+      1.8002899885177612,
+      0.9731784462928772
+    ]
+  ],
+  "root": [
+    0,
+    0,
+    0
+  ],
+  "nodes": [
+    {
+      "name": "Copilot_Gameplay",
+      "type": "Group",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "root",
+      "type": "Object3D",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "anchor_action",
+      "type": "Object3D",
+      "position": [
+        0,
+        0.6064410209655762,
+        1.0900585651397705
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "anchor_ui",
+      "type": "Object3D",
+      "position": [
+        0,
+        2.100290060043335,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "copilot_body",
+      "type": "Mesh",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "copilot_eyes",
+      "type": "Mesh",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "animations": 0,
+  "errors": [],
+  "warnings": []
+}

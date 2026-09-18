@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "treeInstances": 24,
+  "decorInstances": 52,
+  "decorTypes": [
+    "campus_coffee_kiosk",
+    "campus_planter_bench",
+    "campus_code_sculpture",
+    "campus_meeting_nook",
+    "campus_wayfinding_sign",
+    "campus_cafe_table",
+    "campus_noticeboard",
+    "campus_flower_bed",
+    "campus_bush_round",
+    "campus_hedge",
+    "campus_path_bollard"
+  ],
+  "routeSamples": 2304,
+  "instances": 132,
+  "problems": []
+}

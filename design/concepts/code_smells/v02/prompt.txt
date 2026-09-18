@@ -1,0 +1,24 @@
+Use case: stylized-concept
+Asset type: revised six-option enemy concept sheet for a software-development-themed tower defense game
+Input image 1: direct edit target and mandatory composition template
+
+Edit the bundled concept-sheet template directly. Preserve its exact 1672 x 941 canvas, dark navy background, header area, category area, 3 x 2 panel grid, borders, floor grids, number badges 01-06, margins, spacing, and bottom label zones. Do not add, remove, resize, merge, or reorder panels.
+
+Create exactly six extremely simple front-facing low-poly 3D enemy concepts for Code Smells. Exactly one model per numbered panel. These are intended for a lightweight mobile/browser tower-defense game with a hard maximum of 2,500 triangles, but the visual designs should appear feasible around 400-1,000 triangles each.
+
+Simplicity is the primary correction: each model uses only 3-8 large geometric components, one dominant form, very broad bevels, flat matte color planes, and at most one simple icon. No dense clusters of parts, fine cables, repeated small ports, particles, rubble, tiny blocks, greebles, etched lines, surface text, texture noise, complicated cracks, transparency, or glossy metal. If a detail cannot read at 64 pixels, remove it.
+
+Camera: strict front orthographic or near-orthographic view for every concept. Same camera height, floor-contact baseline, light direction, presentation, and perceived scale. Keep full silhouettes visible and centered above the label areas. Bevel depth may show minimally, but no three-quarter poses and no dominant side faces.
+
+Style: bright friendly KayKit-like chunky low-poly language. Threatening through unstable shapes and one warning cue, never horror, military, or dark cyberpunk. Use large visual symbols and silhouettes, never color alone.
+
+01 — Spaghetti Code: one compact round knot made from three thick low-segment tubes crossing in a messy loop, plus one large simple warning diamond at the center. Palette: sickly lime, deep teal, and warm orange.
+02 — God Object: one oversized wide cube carrying exactly four large attached modules, visibly overloaded but simple. Palette: brick red, cool slate, and cream.
+03 — Duplicate Code: exactly two identical chunky cuboids standing side by side like clones, each with the same large bracket-shaped face mark; one simple connecting bar reveals unwanted duplication. Palette: cyan, magenta, dark navy, and one small orange warning notch.
+04 — Long Method: one very tall narrow accordion-folded strip with exactly four broad zigzag folds and one large warning cap. Palette: warm amber, deep indigo, and off-white.
+05 — Data Clump: exactly five oversized data shapes packed tightly into a low triangular bundle and held by one thick circular binding band. Palette: coral, turquoise, and charcoal.
+06 — Dead Code: one slumped asymmetrical code slab broken into exactly three large attached sections, with a single oversized X badge and one unlit status bar. Palette: desaturated steel blue, pale gray, and dim muted red.
+
+Diversity: round knot, wide overloaded cube, paired twins, tall ribbon, triangular bundle, and slumped slab. Do not share a base body or accessory system. Each must be recognizable without reading its label and must remain distinct in grayscale.
+
+Keep header and label zones completely unobstructed. Leave existing placeholder text in place if needed; exact labels will be overlaid afterward. Do not render new label text. No environments, scenery, extra panels, turnarounds, technical data, arrows, annotations, stats, footer, logos, or watermark.

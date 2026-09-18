@@ -1,0 +1,842 @@
+{
+  "asset": "Rubber_Duck",
+  "source_sha256": "366e9eb2bb471101922ef42fe2b9f7cc7d579fa4b76de03d61eab12ba8fff3b2",
+  "source_frame": 1,
+  "original": {
+    "triangles": 7210,
+    "mesh_count": 4,
+    "material_count": 4,
+    "dimensions_width_depth_height": [
+      1.8862496614456177,
+      2.766303062438965,
+      2.3499999046325684
+    ],
+    "bounds": [
+      [
+        0.5568751096725464,
+        -1.3831515312194824,
+        0
+      ],
+      [
+        2.443124771118164,
+        1.3831514120101929,
+        2.3499999046325684
+      ]
+    ]
+  },
+  "uniform_scale": 0.8242047051742022,
+  "lowpoly": {
+    "triangles": 2478,
+    "mesh_count": 2,
+    "material_count": 2,
+    "dimensions_width_depth_height": [
+      1.5546557903289795,
+      2.2799999713897705,
+      1.9368809461593628
+    ],
+    "bounds": [
+      [
+        -0.7773278951644897,
+        -1.1399999856948853,
+        0
+      ],
+      [
+        0.7773278951644897,
+        1.1399999856948853,
+        1.9368809461593628
+      ]
+    ]
+  },
+  "parts": [
+    {
+      "source": "beak",
+      "source_triangles": 460,
+      "reduced_triangles": 200,
+      "welded_topology": {
+        "connected_components": 1,
+        "component_vertices": [
+          243
+        ],
+        "boundary_edges": 24,
+        "nonmanifold_edges": 24
+      },
+      "reduced_topology": {
+        "connected_components": 1,
+        "component_vertices": [
+          112
+        ],
+        "boundary_edges": 22,
+        "nonmanifold_edges": 22
+      },
+      "component_budgets": [
+        {
+          "original_triangles": 460,
+          "reduced_triangles": 200
+        }
+      ]
+    },
+    {
+      "source": "body",
+      "source_triangles": 5356,
+      "reduced_triangles": 1840,
+      "welded_topology": {
+        "connected_components": 3,
+        "component_vertices": [
+          2538,
+          111,
+          111
+        ],
+        "boundary_edges": 160,
+        "nonmanifold_edges": 160
+      },
+      "reduced_topology": {
+        "connected_components": 3,
+        "component_vertices": [
+          775,
+          111,
+          111
+        ],
+        "boundary_edges": 150,
+        "nonmanifold_edges": 150
+      },
+      "component_budgets": [
+        {
+          "original_triangles": 5012,
+          "reduced_triangles": 1496
+        },
+        {
+          "original_triangles": 172,
+          "reduced_triangles": 172
+        },
+        {
+          "original_triangles": 172,
+          "reduced_triangles": 172
+        }
+      ]
+    },
+    {
+      "source": "eyeballs",
+      "source_triangles": 754,
+      "reduced_triangles": 218,
+      "welded_topology": {
+        "connected_components": 2,
+        "component_vertices": [
+          234,
+          177
+        ],
+        "boundary_edges": 64,
+        "nonmanifold_edges": 64
+      },
+      "reduced_topology": {
+        "connected_components": 2,
+        "component_vertices": [
+          80,
+          63
+        ],
+        "boundary_edges": 64,
+        "nonmanifold_edges": 64
+      },
+      "component_budgets": [
+        {
+          "original_triangles": 434,
+          "reduced_triangles": 126
+        },
+        {
+          "original_triangles": 320,
+          "reduced_triangles": 92
+        }
+      ]
+    },
+    {
+      "source": "eyes.001",
+      "source_triangles": 640,
+      "reduced_triangles": 220,
+      "welded_topology": {
+        "connected_components": 2,
+        "component_vertices": [
+          177,
+          177
+        ],
+        "boundary_edges": 64,
+        "nonmanifold_edges": 64
+      },
+      "reduced_topology": {
+        "connected_components": 2,
+        "component_vertices": [
+          72,
+          72
+        ],
+        "boundary_edges": 64,
+        "nonmanifold_edges": 64
+      },
+      "component_budgets": [
+        {
+          "original_triangles": 320,
+          "reduced_triangles": 110
+        },
+        {
+          "original_triangles": 320,
+          "reduced_triangles": 110
+        }
+      ]
+    }
+  ],
+  "anchors_blender": {
+    "anchor_ui": [
+      0,
+      0,
+      2.2368809461593626
+    ],
+    "anchor_action": [
+      0,
+      -1.2599999856948854,
+      1.0652845203876495
+    ]
+  },
+  "eye_design": "Original inset/attached volumetric eyes; not floating visor plates",
+  "materials": {
+    "count": 2,
+    "embedded_textures": 1,
+    "palette_size": [
+      256,
+      8
+    ],
+    "opaque": true,
+    "metallic": 0,
+    "body_roughness": 0.48,
+    "eyes_roughness": 0.25,
+    "body_emission": 0.28,
+    "eyes_emission": 0.06,
+    "baked_lighting": false
+  },
+  "source_inspection": {
+    "objects": [
+      {
+        "name": "Duck | Root",
+        "type": "EMPTY",
+        "parent": null,
+        "collections": [
+          "GLB - Duck"
+        ],
+        "location": [
+          1.5,
+          -5.960464477539063e-8,
+          0
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "matrix_world": [
+          [
+            1,
+            0,
+            0,
+            1.5
+          ],
+          [
+            0,
+            1,
+            0,
+            -5.960464477539063e-8
+          ],
+          [
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "animation": null,
+        "constraints": [],
+        "modifiers": []
+      },
+      {
+        "name": "beak",
+        "type": "MESH",
+        "parent": "Duck | Root",
+        "collections": [
+          "GLB - Duck"
+        ],
+        "location": [
+          0,
+          -0.006053213961422443,
+          1.1716938018798828
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "matrix_world": [
+          [
+            1,
+            0,
+            0,
+            1.5
+          ],
+          [
+            0,
+            1,
+            0,
+            -0.006053273566067219
+          ],
+          [
+            0,
+            0,
+            1,
+            1.1716938018798828
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "animation": null,
+        "constraints": [],
+        "modifiers": [],
+        "triangles": 460,
+        "mesh_count": 1,
+        "material_count": 1,
+        "dimensions_width_depth_height": [
+          0.7833876609802246,
+          0.6595363616943359,
+          0.4010981321334839
+        ],
+        "bounds": [
+          [
+            1.1083061695098877,
+            -1.3831515312194824,
+            0.9248534440994263
+          ],
+          [
+            1.8916938304901123,
+            -0.7236151695251465,
+            1.3259515762329102
+          ]
+        ],
+        "custom_normals": true,
+        "topology": {
+          "connected_components": 1,
+          "component_vertices": [
+            243
+          ],
+          "boundary_edges": 24,
+          "nonmanifold_edges": 24
+        },
+        "mesh_data_bounds": [
+          [
+            -0.3916938900947571,
+            -1.3770982027053833,
+            -0.24684035778045654
+          ],
+          [
+            0.3916938900947571,
+            -0.7175619006156921,
+            0.15425774455070496
+          ]
+        ]
+      },
+      {
+        "name": "body",
+        "type": "MESH",
+        "parent": "Duck | Root",
+        "collections": [
+          "GLB - Duck"
+        ],
+        "location": [
+          0,
+          -0.006053213961422443,
+          1.1716938018798828
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "matrix_world": [
+          [
+            1,
+            0,
+            0,
+            1.5
+          ],
+          [
+            0,
+            1,
+            0,
+            -0.006053273566067219
+          ],
+          [
+            0,
+            0,
+            1,
+            1.1716938018798828
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "animation": null,
+        "constraints": [],
+        "modifiers": [],
+        "triangles": 5356,
+        "mesh_count": 1,
+        "material_count": 1,
+        "dimensions_width_depth_height": [
+          1.8862496614456177,
+          2.3367955684661865,
+          2.3499999046325684
+        ],
+        "bounds": [
+          [
+            0.5568751096725464,
+            -0.9536442160606384,
+            0
+          ],
+          [
+            2.443124771118164,
+            1.3831514120101929,
+            2.3499999046325684
+          ]
+        ],
+        "custom_normals": true,
+        "topology": {
+          "connected_components": 8,
+          "component_vertices": [
+            577,
+            577,
+            463,
+            463,
+            327,
+            327,
+            111,
+            111
+          ],
+          "boundary_edges": 544,
+          "nonmanifold_edges": 544
+        },
+        "mesh_data_bounds": [
+          [
+            -0.9431248903274536,
+            -0.9475909471511841,
+            -1.1716938018798828
+          ],
+          [
+            0.9431248903274536,
+            1.389204740524292,
+            1.178306221961975
+          ]
+        ]
+      },
+      {
+        "name": "eyeballs",
+        "type": "MESH",
+        "parent": "Duck | Root",
+        "collections": [
+          "GLB - Duck"
+        ],
+        "location": [
+          0.000049591064453125,
+          -0.7484196424484253,
+          1.3630201816558838
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "matrix_world": [
+          [
+            1,
+            0,
+            0,
+            1.5000495910644531
+          ],
+          [
+            0,
+            1,
+            0,
+            -0.7484197020530701
+          ],
+          [
+            0,
+            0,
+            1,
+            1.3630201816558838
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "animation": null,
+        "constraints": [],
+        "modifiers": [],
+        "triangles": 754,
+        "mesh_count": 1,
+        "material_count": 1,
+        "dimensions_width_depth_height": [
+          1.2983555793762207,
+          0.2067052125930786,
+          0.3523683547973633
+        ],
+        "bounds": [
+          [
+            0.8508222103118896,
+            -0.8517723083496094,
+            1.1868994235992432
+          ],
+          [
+            2.1491777896881104,
+            -0.6450670957565308,
+            1.5392677783966064
+          ]
+        ],
+        "custom_normals": true,
+        "topology": {
+          "connected_components": 2,
+          "component_vertices": [
+            271,
+            177
+          ],
+          "boundary_edges": 146,
+          "nonmanifold_edges": 146
+        },
+        "mesh_data_bounds": [
+          [
+            -0.6492273807525635,
+            -0.1033526062965393,
+            -0.1761208176612854
+          ],
+          [
+            0.6491281390190125,
+            0.1033526062965393,
+            0.17624765634536743
+          ]
+        ]
+      },
+      {
+        "name": "eyes.001",
+        "type": "MESH",
+        "parent": "Duck | Root",
+        "collections": [
+          "GLB - Duck"
+        ],
+        "location": [
+          0,
+          -0.7606378793716431,
+          1.3605239391326904
+        ],
+        "rotation": [
+          0,
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "matrix_world": [
+          [
+            1,
+            0,
+            0,
+            1.5
+          ],
+          [
+            0,
+            1,
+            0,
+            -0.7606379389762878
+          ],
+          [
+            0,
+            0,
+            1,
+            1.3605239391326904
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "animation": null,
+        "constraints": [],
+        "modifiers": [],
+        "triangles": 640,
+        "mesh_count": 1,
+        "material_count": 1,
+        "dimensions_width_depth_height": [
+          1.2601183652877808,
+          0.18368732929229736,
+          0.31676387786865234
+        ],
+        "bounds": [
+          [
+            0.8699408769607544,
+            -0.850159764289856,
+            1.2021420001983643
+          ],
+          [
+            2.130059242248535,
+            -0.6664724349975586,
+            1.5189058780670166
+          ]
+        ],
+        "custom_normals": true,
+        "topology": {
+          "connected_components": 2,
+          "component_vertices": [
+            177,
+            177
+          ],
+          "boundary_edges": 64,
+          "nonmanifold_edges": 64
+        },
+        "mesh_data_bounds": [
+          [
+            -0.6300591230392456,
+            -0.0895218476653099,
+            -0.1583818793296814
+          ],
+          [
+            0.6300591230392456,
+            0.09416549652814865,
+            0.1583818793296814
+          ]
+        ]
+      }
+    ],
+    "materials": [
+      {
+        "name": "GitHub / Duck / eyes",
+        "viewport_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "shader_node_count": 138,
+        "textures": [
+          {
+            "node": "Image Texture",
+            "image": "body_sss-ecb11ff73d84fd3b.jpg"
+          },
+          {
+            "node": "Image Texture.001",
+            "image": "mascot-7c495cf9822e0d5c.jpg"
+          }
+        ],
+        "shader_output": "Camera-dependent texture/math network to Emission Surface"
+      },
+      {
+        "name": "GitHub / Duck / eyeballs",
+        "viewport_color": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "shader_node_count": 138,
+        "textures": [
+          {
+            "node": "Image Texture",
+            "image": "body_sss-ecb11ff73d84fd3b.jpg"
+          },
+          {
+            "node": "Image Texture.001",
+            "image": "mascot-7c495cf9822e0d5c.jpg"
+          }
+        ],
+        "shader_output": "Camera-dependent texture/math network to Emission Surface"
+      },
+      {
+        "name": "GitHub / Duck / body",
+        "viewport_color": [
+          0.9607843160629272,
+          0.6823529601097107,
+          0.20000000298023224,
+          1
+        ],
+        "shader_node_count": 138,
+        "textures": [
+          {
+            "node": "Image Texture",
+            "image": "body_sss-ecb11ff73d84fd3b.jpg"
+          },
+          {
+            "node": "Image Texture.001",
+            "image": "mascot-7c495cf9822e0d5c.jpg"
+          }
+        ],
+        "shader_output": "Camera-dependent texture/math network to Emission Surface"
+      },
+      {
+        "name": "GitHub / Duck / beak",
+        "viewport_color": [
+          0.9607843160629272,
+          0.6823529601097107,
+          0.20000000298023224,
+          1
+        ],
+        "shader_node_count": 138,
+        "textures": [
+          {
+            "node": "Image Texture",
+            "image": "body_sss-ecb11ff73d84fd3b.jpg"
+          },
+          {
+            "node": "Image Texture.001",
+            "image": "mascot-7c495cf9822e0d5c.jpg"
+          }
+        ],
+        "shader_output": "Camera-dependent texture/math network to Emission Surface"
+      }
+    ],
+    "images": [
+      {
+        "name": "body_sss-ecb11ff73d84fd3b.jpg",
+        "path": "//../web/mascot-materials/body_sss-ecb11ff73d84fd3b.jpg",
+        "packed": true,
+        "size": [
+          512,
+          512
+        ]
+      },
+      {
+        "name": "mascot-7c495cf9822e0d5c.jpg",
+        "path": "//../web/mascot-materials/mascot-7c495cf9822e0d5c.jpg",
+        "packed": true,
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ]
+  },
+  "kaykit": {
+    "triangles": 586,
+    "mesh_count": 1,
+    "material_count": 1,
+    "dimensions_width_depth_height": [
+      2.248182773590088,
+      2.1759612560272217,
+      1.0000017881393433
+    ],
+    "bounds": [
+      [
+        -1.1759612560272217,
+        -1.1759612560272217,
+        -0.0000018477439880371094
+      ],
+      [
+        1.0722213983535767,
+        1,
+        0.9999999403953552
+      ]
+    ],
+    "path": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/gltf/basemodule_A.gltf",
+    "sha256": "d35b464e862ea0cea36733b0e60b0ca645677615bd8393f598ef27fe19c3938e",
+    "import_scale": 1
+  },
+  "reloaded": {
+    "triangles": 2478,
+    "mesh_count": 2,
+    "material_count": 2,
+    "dimensions_width_depth_height": [
+      1.5546557903289795,
+      2.2799999713897705,
+      1.9368809461593628
+    ],
+    "bounds": [
+      [
+        -0.7773278951644897,
+        -1.1399999856948853,
+        0
+      ],
+      [
+        0.7773278951644897,
+        1.1399999856948853,
+        1.9368809461593628
+      ]
+    ]
+  },
+  "reload_frames_checked": [
+    1,
+    60,
+    120
+  ],
+  "source_unchanged": true,
+  "eye_socket_preservation": {
+    "protected_source_vertices": 310,
+    "max_source_vertex_displacement": 5.960464477539063e-8,
+    "mean_source_vertex_displacement": 5.960464477539063e-8,
+    "policy": "Original round socket and transition vertices excluded from collapse; same triangle budget, eye size and spacing",
+    "eye_mesh_unchanged": true,
+    "runtime_copy_verified": true
+  },
+  "eye_correction_comparison": "Rubber_Duck_eye_correction.png",
+  "visual_review": {
+    "views": [
+      "front",
+      "side",
+      "back",
+      "top",
+      "underside",
+      "iso"
+    ],
+    "original_comparison": "Rubber_Duck_comparison.png",
+    "three_comparison": "Rubber_Duck_runtime.png",
+    "eye_clearance": "Not a floating-eye design. Original eye surfaces remain attached/inset; front and side readability checked. No imposed floating gap.",
+    "features": [
+      "rounded head and belly",
+      "both raised wings",
+      "rear tail",
+      "upper and lower beak",
+      "dark oval eyes with rims",
+      "underside plug and ground contact"
+    ]
+  },
+  "deliverable_sha256": {
+    "source_before_migration": "2aa91ccb2f3d4be5a57c742a304b285a12bc0681abe4300db534c3f957d5c234",
+    "export_before_migration": "891e9cd2c45ce4482b6febe369ade2bc5e11801e339730a92c98db9ccb3e18a0"
+  }
+}

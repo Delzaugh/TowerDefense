@@ -1,0 +1,41 @@
+{
+  "revision": 36,
+  "sourceHash": "888176f03eb21f610e89d111e41744154f6acbe569a056b6f065f2cca9512d29",
+  "neckVertices": 29,
+  "nonmanifoldEdges": 0,
+  "clips": [
+    {
+      "clip": "idle",
+      "frames": 61,
+      "raysPerFrame": 48,
+      "lowestSurfaceBelowRim": -0.00906682014465332,
+      "coverageFailures": [],
+      "selfIntersections": []
+    },
+    {
+      "clip": "work",
+      "frames": 121,
+      "raysPerFrame": 48,
+      "lowestSurfaceBelowRim": -0.009223222732543945,
+      "coverageFailures": [],
+      "selfIntersections": []
+    },
+    {
+      "clip": "move",
+      "frames": 37,
+      "raysPerFrame": 48,
+      "lowestSurfaceBelowRim": -0.00917673110961914,
+      "coverageFailures": [],
+      "selfIntersections": []
+    },
+    {
+      "clip": "celebrate_team",
+      "frames": 97,
+      "raysPerFrame": 48,
+      "lowestSurfaceBelowRim": -0.009260177612304688,
+      "coverageFailures": [],
+      "selfIntersections": []
+    }
+  ],
+  "passed": true
+}

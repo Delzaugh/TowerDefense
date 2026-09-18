@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_roofmodule_cargo_c",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "a793d29646e04676c9212d6371ee51617b5714ceed546f70c5883e6414024bf4",
+  "checkedAt": "2026-09-17T21:34:39.936Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1158,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    1.3952346444129944,
+    1.219999484717846,
+    1.3952369689941406
+  ],
+  "bounds": [
+    [
+      -0.6976174116134644,
+      -0.10000007599592209,
+      -0.6976184844970703
+    ],
+    [
+      0.69761723279953,
+      1.1199994087219238,
+      0.6976184844970703
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_roofmodule_cargo_c/v01/kaykit_roofmodule_cargo_c_v01.blend",
+  "sourceHash": "138d89dc70607ba2724500e9966e90ecab08072869cf4486b9c2698da9466560",
+  "runtime": "assets/runtime/environment/kaykit_roofmodule_cargo_c_v01.glb"
+}

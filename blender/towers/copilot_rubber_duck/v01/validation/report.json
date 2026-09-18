@@ -1,0 +1,37 @@
+{
+  "asset": "copilot_rubber_duck",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "891e9cd2c45ce4482b6febe369ade2bc5e11801e339730a92c98db9ccb3e18a0",
+  "checkedAt": "2026-09-17T21:33:52.727Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 2478,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    1.5546557903289795,
+    1.9368809461593628,
+    2.2799999713897705
+  ],
+  "bounds": [
+    [
+      -0.7773278951644897,
+      0,
+      -1.1399999856948853
+    ],
+    [
+      0.7773278951644897,
+      1.9368809461593628,
+      1.1399999856948853
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/towers/copilot_rubber_duck/v01/copilot_rubber_duck_v01.blend",
+  "sourceHash": "263a2c311f18b0e2f8cb535b2d951fd9a0d3dff25a94163e9c40af1207ac9bee",
+  "runtime": "assets/runtime/towers/copilot_rubber_duck_v01.glb"
+}

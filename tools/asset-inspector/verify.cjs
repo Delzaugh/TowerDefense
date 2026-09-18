@@ -1,0 +1,130 @@
+// Integration checks against the real runtime GLBs; no asset files are modified.
+const assert = require('node:assert/strict');
+const path = require('node:path');
+const os = require('node:os');
+const { mkdtemp, readFile } = require('node:fs/promises');
+const { pathToFileURL } = require('node:url');
+const playwrightPath = process.env.PLAYWRIGHT_MODULE_PATH || require.resolve('playwright', {
+  paths: [process.cwd(), path.dirname(process.execPath), path.resolve(path.dirname(process.execPath), '..')],
+});
+const { chromium } = require(playwrightPath);
+const bug = 'enemies/problem_bug_v01.glb';
+const copilot = 'towers/copilot_base_v01.glb';
+const near = (a, b, epsilon = 1e-5) => assert(Math.abs(a-b) < epsilon, `${a} != ${b}`);
+
+(async () => {
+  const { createInspectorServer } = await import(pathToFileURL(path.join(__dirname, 'server.mjs')));
+  const server = createInspectorServer();
+  await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
+  const base = 'http://127.0.0.1:' + server.address().port;
+  let browser;
+  const output = await mkdtemp(path.join(os.tmpdir(), 'tower-inspector-'));
+  try {
+    const bytes = await readFile(path.resolve(__dirname, '../../assets/runtime', bug));
+    const gltf = JSON.parse(bytes.subarray(20, 20 + bytes.readUInt32LE(12)).toString());
+    const expectedTriangles = gltf.meshes.reduce((sum, mesh) => sum + mesh.primitives.reduce((n, p) => n + gltf.accessors[p.indices ?? p.attributes.POSITION].count / 3, 0), 0);
+    const models = await (await fetch(base + '/api/models')).json();
+    assert(models.some(m => m.path === bug)); assert(models.some(m => m.path === copilot));
+    assert.equal((await fetch(base + '/runtime/' + bug)).status, 200);
+    assert.equal((await fetch(base + '/runtime/' + copilot)).status, 200);
+    assert.equal((await fetch(base + '/runtime/..%2f..%2fblender%2foutside.glb')).status, 403);
+    assert.equal((await fetch(base + '/%ZZ')).status, 400);
+    browser = await chromium.launch({ channel: process.env.BROWSER_CHANNEL || 'msedge', headless: true });
+    const page = await browser.newPage({ viewport: { width: 1280, height: 960 } });
+    const errors = [], warnings = [];
+    page.on('pageerror', e => errors.push(e.message));
+    page.on('console', m => { if (m.type() === 'error') errors.push(m.text()); if (m.type() === 'warning') warnings.push(m.text()); });
+    const state = () => page.evaluate(() => window.inspectorState());
+    const ready = () => page.waitForFunction(() => window.inspectorState && !window.inspectorState().loading && window.inspectorState().entries.length > 0);
+    await page.goto(base + '/?asset=' + encodeURIComponent(bug)); await ready();
+    let s = await state(); assert.equal(s.entries[0].triangles, expectedTriangles); assert.equal(s.entries[0].materials, gltf.materials.length);
+    const initialLibrary = await page.locator('#library').boundingBox(), resizer = await page.locator('#library-resizer').boundingBox();
+    await page.mouse.move(resizer.x + resizer.width / 2, resizer.y + 200); await page.mouse.down();
+    await page.mouse.move(resizer.x + resizer.width / 2 + 140, resizer.y + 200, {steps:4}); await page.mouse.up();
+    const widerLibrary = await page.locator('#library').boundingBox(); assert(widerLibrary.width > initialLibrary.width + 120);
+    const savedLibraryWidth = await page.evaluate(() => Number(localStorage.getItem('tower-asset-inspector.library-width'))); near(savedLibraryWidth, widerLibrary.width, 1);
+    await page.reload(); await ready(); near((await page.locator('#library').boundingBox()).width, widerLibrary.width, 1);
+    assert.deepEqual(s.entries[0].clips.map(c => c.name), ['move','hit','resolve']);
+    assert.deepEqual(s.entries[0].root, [0,0,0]); near(s.entries[0].bounds[0][1], 0);
+    const rest = s.entries[0].pose;
+    for (const view of ['front','rear','left','right','top','bottom','iso']) {
+      await page.locator('[data-view="' + view + '"]').click(); s = await state(); assert.equal(s.view, view);
+      if (view === 'front') { near(s.camera[0], s.target[0]); assert(s.camera[2] > s.target[2]); }
+      if (view === 'top') assert(s.camera[1] > s.target[1]);
+      if (view === 'bottom') assert(s.camera[1] < s.target[1]);
+    }
+    const startDistance = (await state()).distance;
+    await page.locator('#zoom-in-button').click(); assert((await state()).distance < startDistance);
+    await page.locator('#zoom-out-button').click(); near((await state()).distance, startDistance);
+    const bounds = await page.locator('#viewport').boundingBox();
+    await page.mouse.move(bounds.x+bounds.width*.5,bounds.y+bounds.height*.5); await page.mouse.down();
+    await page.mouse.move(bounds.x+bounds.width*.5+80,bounds.y+bounds.height*.5+20,{steps:4}); await page.mouse.up();
+    assert.equal((await state()).view, 'custom');
+    const beforePan = (await state()).target;
+    await page.mouse.down({button:'right'}); await page.mouse.move(bounds.x+bounds.width*.5+120,bounds.y+bounds.height*.5+20); await page.mouse.up({button:'right'});
+    assert.notDeepEqual((await state()).target, beforePan);
+    await page.locator('#projection').selectOption('perspective'); assert.equal((await state()).projection, 'PerspectiveCamera');
+    await page.locator('#projection').selectOption('orthographic');
+    await page.locator('#reset-view-button').click();
+    await page.locator('#clip-select').selectOption({label:'move'});
+    await page.waitForFunction(() => window.inspectorState().entries[0].time > .15);
+    assert.notDeepEqual((await state()).entries[0].pose, rest);
+    await page.locator('#play-button').click(); const paused = (await state()).entries[0].time;
+    await page.waitForTimeout(120); near((await state()).entries[0].time, paused);
+    await page.locator('#timeline').evaluate(input => { input.value = '.4'; input.dispatchEvent(new Event('input',{bubbles:true})); });
+    near((await state()).entries[0].time, .4);
+    await page.locator('#step-button').click(); near((await state()).entries[0].time, .4+1/24);
+    await page.locator('#speed-select').selectOption('0.5'); await page.locator('#loop-toggle').uncheck();
+    await page.locator('[data-view="right"]').click(); await page.locator('#zoom-in-button').click();
+    const beforeReload = await state();
+    const reloadResponse = page.waitForResponse(r => r.url().includes('/runtime/' + bug));
+    await page.locator('#refresh-models').click(); await reloadResponse; await ready();
+    s = await state(); near(s.distance,beforeReload.distance); assert.deepEqual(s.target,beforeReload.target);
+    near(s.entries[0].time,beforeReload.entries[0].time); assert.equal(s.entries[0].speed,.5); assert.equal(s.entries[0].loop,false); assert.equal(s.entries[0].playing,false);
+    await page.locator('#clip-select').selectOption({label:'resolve'});
+    await page.locator('#speed-select').selectOption('2');
+    await page.waitForFunction(() => !window.inspectorState().entries[0].playing);
+    s = await state(); near(s.entries[0].time,s.entries[0].clips.find(c=>c.name==='resolve').duration);
+    await page.locator('#rest-button').click(); s = await state(); assert.equal(s.entries[0].clip,null);
+    s.entries[0].pose.forEach((n,i) => near(n,rest[i]));
+    await page.getByRole('button',{name:'Add ' + copilot + ' to comparison',exact:true}).click();
+    await page.waitForFunction(() => !window.inspectorState().loading && window.inspectorState().entries.length===2);
+    assert(await page.locator('#play-button').isDisabled()); assert.equal(await page.locator('#animation-status').textContent(),'No animation clips');
+    s = await state(); s.entries.forEach(e => assert.deepEqual(e.root,[0,0,0])); assert.notEqual(s.entries[0].wrapper[0],s.entries[1].wrapper[0]);
+    await page.locator('#active-model').selectOption(bug); assert(!(await page.locator('#play-button').isDisabled()));
+    await page.locator('#clear-comparison-button').click(); assert.equal((await state()).entries.length,1);
+    await page.locator('#reset-view-button').click();
+    await page.screenshot({path:path.join(output,'desktop.png')});
+    // Simulate a failed refresh and verify the last good scene is kept.
+    await page.route('**/runtime/enemies/problem_bug_v01.glb*', route => route.fulfill({status:200,body:'invalid glb'}));
+    await page.locator('#refresh-models').click();
+    await page.waitForFunction(() => document.getElementById('load-status').classList.contains('error'));
+    assert.equal((await state()).entries[0].triangles,expectedTriangles);
+    await page.unroute('**/runtime/enemies/problem_bug_v01.glb*');
+    await page.locator('#refresh-models').click(); await ready();
+    // A slow superseded load must never replace the user's later selection.
+    await page.route('**/runtime/enemies/problem_bug_v01.glb*', async route => { await new Promise(r=>setTimeout(r,350)); await route.continue(); });
+    await page.locator('#refresh-models').click();
+    await page.getByRole('button',{name:'copilot_base_v01.glb',exact:true}).click();
+    await page.waitForFunction(p => !window.inspectorState().loading && window.inspectorState().activePath===p, copilot);
+    await page.waitForTimeout(450); assert.equal((await state()).activePath,copilot);
+    await page.unroute('**/runtime/enemies/problem_bug_v01.glb*');
+    await page.getByRole('button',{name:'problem_bug_v01.glb',exact:true}).click(); await ready();
+    await page.setViewportSize({width:390,height:844}); await page.locator('#frame-button').click();
+    const phoneCanvas = await page.locator('#viewport').boundingBox(); assert(phoneCanvas.height>170);
+    assert(await page.evaluate(() => document.documentElement.scrollWidth<=innerWidth));
+    await page.locator('#open-library').click(); assert(await page.locator('#library').isVisible());
+    await page.locator('#close-library').click(); assert(!(await page.locator('#library').isVisible()));
+    const cdp = await page.context().newCDPSession(page);
+    await cdp.send('Emulation.setTouchEmulationEnabled',{enabled:true,maxTouchPoints:2});
+    const cx=phoneCanvas.x+phoneCanvas.width/2,cy=phoneCanvas.y+phoneCanvas.height/2;
+    const pinchStart=(await state()).distance;
+    await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:cx-35,y:cy,id:1},{x:cx+35,y:cy,id:2}]});
+    await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:cx-65,y:cy,id:1},{x:cx+65,y:cy,id:2}]});
+    await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
+    assert((await state()).distance<pinchStart);
+    await page.locator('#frame-button').click(); await page.screenshot({path:path.join(output,'mobile.png')});
+    assert.deepEqual(errors,[]); assert.deepEqual(warnings,[]);
+    console.log(JSON.stringify({passed:true,checks:'Asset discovery, path containment, resizable persistent library, view angles, projection, orbit/pan/zoom, animation playback/scrub/step/one-shot/rest, state-preserving refresh, failed and superseded loads, comparison, static models, mobile layout and touch pinch',screenshots:output},null,2));
+  } finally { await browser?.close(); await new Promise(resolve=>server.close(resolve)); }
+})().catch(error => { console.error(error); process.exitCode=1; });

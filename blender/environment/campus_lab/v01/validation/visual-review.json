@@ -1,0 +1,26 @@
+{
+  "asset": "campus_lab",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "a84b6cc360319e43252c2a9ed34eb34242e11e57e2af1d68fe387250f14bb27b",
+  "sourceHash": "134c6683a67040d4e577766690322fa62dd5ddf21c68ddc8f79123364c33933b",
+  "reviewedAt": "2026-09-17T21:10:09.115Z",
+  "reviewer": "Codex visual inspection",
+  "status": "reviewed",
+  "artisticAcceptance": "User review pending; not implied by technical validation.",
+  "views": [
+    "blender/environment/campus_lab/v01/renders/inspector-iso.png",
+    "blender/environment/campus_lab/v01/renders/inspector-rear.png",
+    "blender/environment/campus_lab/v01/renders/inspector-side.png"
+  ],
+  "notes": [
+    "Inspected actual registered GLB in the shared Asset Inspector from isometric and reverse views.",
+    "Silhouette, contact surfaces and palette remain coherent; no blocking construction defects observed in these views.",
+    "Source doorway has a 2.80 m by 2.48 m nominal clear opening; sampled canonical Copilot hover leaves approximately 0.253 m per side and 0.472 m headroom."
+  ],
+  "compositionEvidence": "prototypes/campus-3d/previews/home-desktop.png",
+  "limits": [
+    "Art prototype; no gameplay or progression implementation.",
+    "Phone and landscape layouts reviewed in browser emulation; physical-device performance not profiled."
+  ]
+}

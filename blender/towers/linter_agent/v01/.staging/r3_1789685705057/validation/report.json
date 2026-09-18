@@ -1,0 +1,37 @@
+{
+  "asset": "linter_agent",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "8c3e9d5de8e38d85ca40384d6c3c6ed83bda06e6b2b55bfc7ff8f31ad4fa9e98",
+  "checkedAt": "2026-09-17T22:55:11.734Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 2464,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 2,
+  "bones": 0,
+  "dimensions": [
+    2.487398147583008,
+    1.062000036239624,
+    2.487398147583008
+  ],
+  "bounds": [
+    [
+      -1.243699073791504,
+      0,
+      -1.243699073791504
+    ],
+    [
+      1.243699073791504,
+      1.062000036239624,
+      1.243699073791504
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "d4223f604db58a8d20e87a5cc5f37d48cfef7528d4c84ad94a0d0d6584150e48",
+  "source": "blender/towers/linter_agent/v01/linter_agent_v01.blend",
+  "runtime": "assets/runtime/towers/linter_agent_v01.glb"
+}

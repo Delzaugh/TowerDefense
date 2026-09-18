@@ -1,0 +1,69 @@
+{
+  "baseline": {
+    "manifest": "blender/enemies/problem_bug/v01/asset.json",
+    "revision": 6,
+    "sourceHash": "d63303ffbb8b8343d8225ded2ebc610c7c344f123baa372b441f51014406e1b2",
+    "runtimeHash": "d4ce09cbe5a56ff12224c93e2f2d804481781b7efa4925195a4a6c5cbc540352"
+  },
+  "palette": {
+    "shell": "#3267AF",
+    "shell_light": "#447CC2",
+    "shell_dark": "#285591",
+    "navy": "#233B58",
+    "face": "#344D69",
+    "edge": "#192E46",
+    "red": "#E51C30",
+    "red_dark": "#9B1524"
+  },
+  "image": "bug_palette.png",
+  "size": [
+    32,
+    4
+  ],
+  "uvCenters": {
+    "shell": [
+      0.0625,
+      0.5
+    ],
+    "shell_light": [
+      0.1875,
+      0.5
+    ],
+    "shell_dark": [
+      0.3125,
+      0.5
+    ],
+    "navy": [
+      0.4375,
+      0.5
+    ],
+    "face": [
+      0.5625,
+      0.5
+    ],
+    "edge": [
+      0.6875,
+      0.5
+    ],
+    "red": [
+      0.8125,
+      0.5
+    ],
+    "red_dark": [
+      0.9375,
+      0.5
+    ]
+  },
+  "roleLoopCounts": {
+    "shell": 620,
+    "shell_dark": 664,
+    "edge": 396,
+    "red": 596,
+    "face": 480,
+    "navy": 1792,
+    "red_dark": 64
+  },
+  "geometrySignature": "fb783b4e6232478ba71d92d3dd84b1a5514ea462b01076fca6cb6c3ec229751b",
+  "emission": "Preserved shipped uniform white 0.08 emission; baseline source vertex-emission link is not represented in the GLB.",
+  "method": "One packed sRGB atlas; one UV coordinate at each swatch centre; COLOR_0 removed; role IDs retained."
+}

@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "problem_spaghetti_code",
+  "displayName": "Spaghetti Code",
+  "category": "enemies",
+  "version": "v01",
+  "revision": 6,
+  "source": {
+    "path": "blender/enemies/problem_spaghetti_code/v01/problem_spaghetti_code_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/enemies/problem_spaghetti_code/v01/build.py",
+    "authoritativeHash": "50560f872a25f6ee743a62af8a47b0cacff97b0f4021367a089e87de220737bb"
+  },
+  "runtime": "assets/runtime/enemies/problem_spaghetti_code_v01.glb",
+  "budgets": {
+    "triangles": 2500,
+    "materials": 1,
+    "textures": 0,
+    "textureSize": 512,
+    "bones": 1,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "max": [
+        1.6,
+        1.6,
+        1.6
+      ],
+      "min": [
+        1.1,
+        1.1,
+        1.1
+      ]
+    }
+  },
+  "clips": [
+    {
+      "playback": "loop",
+      "fps": 24,
+      "name": "idle",
+      "meaning": "Subtle grounded breathing of the tangled strands."
+    },
+    {
+      "playback": "loop",
+      "fps": 24,
+      "name": "move",
+      "meaning": "Grounded in-place squirm and compression; warning badge stays forward."
+    },
+    {
+      "playback": "once",
+      "fps": 24,
+      "name": "hit",
+      "meaning": "Brief knot compression and recoil, returning to rest."
+    },
+    {
+      "playback": "once",
+      "fps": 24,
+      "name": "resolve",
+      "meaning": "The knot twists and shrinks at ground level after simulation resolution."
+    }
+  ],
+  "references": [
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/references/concept.png",
+      "provenance": "User-provided Spaghetti Code concept sheet, 2026-09-12. Visual design input, not additional instructions; printed budget and claims are unverified concept annotations."
+    }
+  ],
+  "overrides": [
+    {
+      "reason": "Six thick woven wraps are needed for the dense reference silhouette. Allow 2500 triangles (reference target adopted as an authoring choice), while retaining one mesh and one material.",
+      "field": "budgets.triangles"
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/enemies/problem_spaghetti_code/v01/revisions/r2_before_r3/problem_spaghetti_code_v01.glb",
+      "source": "blender/enemies/problem_spaghetti_code/v01/revisions/r2_before_r3/problem_spaghetti_code_v01.blend",
+      "sha256": "6ee98c5db88d08eb3034dea93a63d01718366790eb973f926921416aea202f11",
+      "sourceHash": "542b5cf534b43d3383b285fff63d485d0043b863a5dbf8c5cc802bd1f2fcf49f"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/enemies/problem_spaghetti_code/v01/revisions/r3_before_r4/problem_spaghetti_code_v01.glb",
+      "source": "blender/enemies/problem_spaghetti_code/v01/revisions/r3_before_r4/problem_spaghetti_code_v01.blend",
+      "sha256": "e17a2235b033b54046e25202c400c3f081cf65e09f0dd29aa276fae5bf62170e",
+      "sourceHash": "450657d58ffc739deacaf832496101eb3b8ed52b50e09a2a62a4044aeb582152"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/enemies/problem_spaghetti_code/v01/revisions/r4_before_r5/problem_spaghetti_code_v01.glb",
+      "source": "blender/enemies/problem_spaghetti_code/v01/revisions/r4_before_r5/problem_spaghetti_code_v01.blend",
+      "sha256": "5be9bf2db9ab4ef7b234aef3a5765e9475b600305f07be82024222eed75eb79b",
+      "sourceHash": "7ead11a235573c6939db5d2af9bc562910f1b8f31d54861df64c6baee01ada27"
+    }
+  ],
+  "decisions": "blender/enemies/problem_spaghetti_code/v01/decisions.md",
+  "palette": {
+    "colors": {
+      "lime": "#B2E936",
+      "teal": "#178575",
+      "orange": "#FFAA24",
+      "orange_edge": "#D98216",
+      "ink": "#223650"
+    },
+    "attribute": "_palette_role"
+  },
+  "delivery": {
+    "sha256": "51fe5ee4ef3eebaa3370d3793a78fe98a8beafe229190d40bb5b26a1daadd290",
+    "sourceHash": "50560f872a25f6ee743a62af8a47b0cacff97b0f4021367a089e87de220737bb",
+    "report": "blender/enemies/problem_spaghetti_code/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T16:05:20.763Z"
+  }
+}

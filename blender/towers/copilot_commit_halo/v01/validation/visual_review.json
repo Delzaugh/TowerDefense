@@ -1,0 +1,87 @@
+{
+  "asset": "copilot_commit_halo",
+  "version": "v01",
+  "revision": 19,
+  "sourceHash": "f2120df9ac410fae8bc9c097afaea3b50a02025e964603091e3fb8c660bafd75",
+  "runtimeHash": "c314bb5c44afd741a096be7536777602acdee46eb4235c36fb1f0a78c5ddeea5",
+  "technicalPassed": true,
+  "triangles": 2784,
+  "meshes": 3,
+  "materials": 3,
+  "inspector": "http://127.0.0.1:4174/?asset=copilot_commit_halo&version=v01",
+  "visualReview": "Revision 19: inspected smaller sneakers in close oblique view, full isometric proportions, right profile, rear ankle seating and phone-scale silhouette. Soles retain ground contact, trouser hems seat within the shoes, and matching sole/upper/lace scaling preserves the sneaker construction. Guarded export and idle/work guide motion checks pass. Earlier refined hand, jacket and hairstyle remain unchanged.",
+  "guideMotion": [
+    {
+      "clip": "idle",
+      "duration": 6.041666507720947,
+      "quarterCycleTravel": 1.168343604502901,
+      "loopError": 1.4687026079031407E-07,
+      "positions": [
+        [
+          0.5708518624305725,
+          1.7549999952316284,
+          -0.6162208318710327
+        ],
+        [
+          -0.597213158515426,
+          1.7549999952316284,
+          -0.5907083834339492
+        ],
+        [
+          -0.5841588349725924,
+          1.7549999952316284,
+          0.6036211231464842
+        ],
+        [
+          0.609957146763773,
+          1.7549999952316284,
+          0.5775397941040078
+        ],
+        [
+          0.5708517546870915,
+          1.7549999952316284,
+          -0.6162209316819329
+        ]
+      ]
+    },
+    {
+      "clip": "work",
+      "duration": 3.0416667461395264,
+      "quarterCycleTravel": 1.1484350186189736,
+      "loopError": 1.4687026079031407E-07,
+      "positions": [
+        [
+          0.5708518624305725,
+          1.7549999952316284,
+          -0.6162208318710327
+        ],
+        [
+          -0.5775659395086162,
+          1.7549999952316284,
+          -0.6099324155740056
+        ],
+        [
+          -0.5971875922221016,
+          1.7549999952316284,
+          0.5907342511893078
+        ],
+        [
+          0.603621024545288,
+          1.7549999952316284,
+          0.584158877537412
+        ],
+        [
+          0.5708517546870915,
+          1.7549999952316284,
+          -0.6162209316819329
+        ]
+      ]
+    }
+  ],
+  "limitations": [
+    "Hair waves and highlights use broad low-poly locks.",
+    "Glyphs are designed for front/elevated gameplay readability and appear thin edge-on.",
+    "Artistic acceptance remains with the user."
+  ],
+  "evidence": "validation/screenshots/"
+}

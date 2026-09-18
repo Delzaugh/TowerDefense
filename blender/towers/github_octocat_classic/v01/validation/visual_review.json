@@ -1,0 +1,29 @@
+{
+  "asset": "github_octocat_classic",
+  "version": "v01",
+  "revision": 9,
+  "runtimeHash": "e211dce334989587b61572cbbb5d0e62ceb4383f3d1b8dded1f7d73f7e50703d",
+  "sourceHash": "a465db1907240e99c2988bcdbd2ea259417bd78f03fb042fea1a6f777be37e5a",
+  "checkedAt": "2026-09-17T22:23:44.9968269Z",
+  "scope": "Classic four leg-to-body transitions",
+  "visualInspection": "completed",
+  "userArtisticAcceptance": "pending",
+  "views": [
+    "join_close_front.png",
+    "join_close_left.png",
+    "join_close_rear.png",
+    "join_close_iso.png",
+    "join_full_bottom.png",
+    "join_phone.png"
+  ],
+  "findings": [
+    "Exposed cap ridges removed; torso flows into all four leg roots.",
+    "Underside gaps remain open with continuous rounded saddles.",
+    "Four supporting legs grounded; one raised tail retained.",
+    "Modern source, recipe, manifest and runtime verified unchanged."
+  ],
+  "limitations": [
+    "Static asset without animation clips.",
+    "Crowded-scene performance has not been profiled."
+  ]
+}

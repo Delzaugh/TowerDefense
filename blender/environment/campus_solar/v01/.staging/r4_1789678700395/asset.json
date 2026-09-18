@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_solar",
+  "displayName": "Campus solar array",
+  "category": "environment",
+  "version": "v01",
+  "revision": 4,
+  "source": {
+    "path": "blender/environment/campus_solar/v01/campus_solar_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_solar/v01/build.py",
+    "authoritativeHash": "7faeffc41dba74b3fb97e50af108ff1a092de5f4fefd2bcefd7df93e757644aa"
+  },
+  "runtime": "assets/runtime/environment/campus_solar_v01.glb",
+  "budgets": {
+    "triangles": 1800,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "prototypes/hub/previews/before-3d-study.png",
+      "provenance": "Project-owned Glacier SVG campus, including floating panel, inset paths and faceted landscaping."
+    },
+    {
+      "path": "tools/asset-recipes/campus-kit.py",
+      "provenance": "Shared geometry helper used by the local versioned recipe."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/campus_solar/v01/revisions/r2_before_r3/campus_solar_v01.glb",
+      "source": "blender/environment/campus_solar/v01/revisions/r2_before_r3/campus_solar_v01.blend",
+      "sha256": "e5f44133a23192805ee6907c664e8123dcc0af571d0323241a202bd8053ea62f",
+      "sourceHash": "f94c8602e8ed40265a341444572567aa5d6e3cfce0bc19d323ecad7ef3cf37a2"
+    }
+  ],
+  "decisions": "blender/environment/campus_solar/v01/decisions.md",
+  "delivery": {
+    "sha256": "7c40c9ac81546efe0e0bdcd89ad69e6b8c0a34941970c02036efd2d37992704a",
+    "sourceHash": "7faeffc41dba74b3fb97e50af108ff1a092de5f4fefd2bcefd7df93e757644aa",
+    "report": "blender/environment/campus_solar/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T20:47:14.382Z"
+  },
+  "texturePalettes": [
+    {
+      "material": "glacier_palette",
+      "size": [
+        16,
+        4
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#E2EDF0",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "edge": {
+          "color": "#ADC5D2",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "glass": {
+          "color": "#305775",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "edge": "#ADC5D2",
+      "glass": "#305775",
+      "chalk": "#E2EDF0"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear",
+    "paletteTextureWorkflow": true
+  }
+}

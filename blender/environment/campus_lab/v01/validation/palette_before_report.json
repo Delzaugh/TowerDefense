@@ -1,0 +1,34 @@
+{
+  "asset": "campus_lab",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "8069808ccc1c482537d0803c75b9a580e1c72e1b7f6cd55ad090d0d864dc467b",
+  "checkedAt": "2026-09-17T20:47:46.733Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1744,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "bones": 0,
+  "dimensions": [
+    7.6499998569488525,
+    5.002499997615814,
+    6.984999895095825
+  ],
+  "bounds": [
+    [
+      -5.824999809265137,
+      5.960464477539063e-8,
+      -4.059999942779541
+    ],
+    [
+      1.8250000476837158,
+      5.002500057220459,
+      2.924999952316284
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true
+}

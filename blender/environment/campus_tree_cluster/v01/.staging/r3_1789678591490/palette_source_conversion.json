@@ -1,0 +1,15 @@
+{
+  "asset": "campus_tree_cluster",
+  "geometryHash": "760fd539f95b2af74d74a104c55d626e7da1616203b25144c06beedfbdfc0e53",
+  "maxLinearColorError": 2.2297857227293605e-08,
+  "size": [
+    32,
+    4
+  ],
+  "materials": [
+    "glacier_palette.009"
+  ],
+  "usedRoles": 6,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\environment\\campus_tree_cluster\\v01\\campus_tree_cluster_v01.blend"
+}

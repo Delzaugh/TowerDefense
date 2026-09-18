@@ -1,0 +1,15 @@
+{
+  "asset": "work_coding_task",
+  "geometryHash": "225c77bc7b716c795cc81a6598c5ebb2b3b9f252828fd97f9a21f104ce0905d5",
+  "maxLinearColorError": 2.7672028779512914e-8,
+  "size": [
+    32,
+    4
+  ],
+  "materials": [
+    "task_palette"
+  ],
+  "usedRoles": 8,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\work\\work_coding_task\\v01\\work_coding_task_v01.blend"
+}

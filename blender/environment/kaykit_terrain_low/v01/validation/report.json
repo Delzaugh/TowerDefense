@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_terrain_low",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "0661a234ec3b5d843a180a1f0cf9e7035be0b3c3f463032c3892b41f7a006b63",
+  "checkedAt": "2026-09-17T21:34:49.790Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 12,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2,
+    1,
+    2
+  ],
+  "bounds": [
+    [
+      -1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      0,
+      1
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_terrain_low/v01/kaykit_terrain_low_v01.blend",
+  "sourceHash": "3bad67f337657fe7bb455f9b630c2bacebb4598e973e48df9447576e960e3f04",
+  "runtime": "assets/runtime/environment/kaykit_terrain_low_v01.glb"
+}

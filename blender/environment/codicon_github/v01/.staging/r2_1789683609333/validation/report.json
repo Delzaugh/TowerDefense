@@ -1,0 +1,37 @@
+{
+  "asset": "codicon_github",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "a920ef4fda353fdd1acea64b62a6415385499ab1e2d8ca571d4edac21d740477",
+  "checkedAt": "2026-09-17T22:20:12.193Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1080,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    0.5999993681907654,
+    0.6000000238418579,
+    0.05999999865889549
+  ],
+  "bounds": [
+    [
+      -0.2999996840953827,
+      0,
+      -0.029999999329447746
+    ],
+    [
+      0.2999996840953827,
+      0.6000000238418579,
+      0.029999999329447746
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "20d4e42e47c9511e80fcd67dfa61ef40de3a4b35971b490e1f3c9f2904ad93fb",
+  "source": "blender/environment/codicon_github/v01/codicon_github_v01.blend",
+  "runtime": "assets/runtime/environment/codicon_github_v01.glb"
+}

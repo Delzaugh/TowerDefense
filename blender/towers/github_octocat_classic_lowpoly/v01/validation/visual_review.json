@@ -1,0 +1,35 @@
+{
+  "asset": "github_octocat_classic_lowpoly",
+  "version": "v01",
+  "revision": 7,
+  "runtimeHash": "bdf5125b1e9500bce923f71fae74e56748a91160d197ff0f604ff498b38c0382",
+  "sourceHash": "e6ed8026d5871f0ac1493044a084ed276504b46f66d7c2e274f670ccf2360db0",
+  "checkedAt": "2026-09-17T22:48:21.4527048Z",
+  "visualInspection": "completed",
+  "userArtisticAcceptance": "pending",
+  "views": [
+    "anim_idle_70.png",
+    "anim_wave_38.png",
+    "anim_wave_63.png",
+    "anim_wave_side.png",
+    "anim_move_25.png",
+    "anim_move_70.png",
+    "anim_move_side.png",
+    "anim_move_phone.png",
+    "anim_celebrate_50.png",
+    "anim_celebrate_74.png",
+    "anim_celebrate_side.png"
+  ],
+  "comparison": "Compared rest height beside registered Copilot v01 in Inspector; both 1.80029 m.",
+  "findings": [
+    "3490 triangles retained.",
+    "Four animation clips present with stationary placement root.",
+    "Smooth joins, correct appendages, cup seating and facial layers checked in motion.",
+    "Every authored frame passed foot/contact and endpoint checks.",
+    "High-resolution Classic source and export remain unchanged."
+  ],
+  "limitations": [
+    "World-speed matching and state-to-clip presentation integration are not part of this asset export.",
+    "Low-poly contours visible at close range; device performance not profiled."
+  ]
+}

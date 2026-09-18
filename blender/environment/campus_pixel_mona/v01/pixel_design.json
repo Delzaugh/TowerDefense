@@ -1,0 +1,34 @@
+{
+  "object_name": "pixel_mona",
+  "pixel_size": 0.025,
+  "depth": 0.09,
+  "letters": {
+    "P": "mona_purple",
+    "F": "mona_face",
+    "W": "mona_eye_white",
+    "D": "pixel_dark",
+    "S": "mona_smile"
+  },
+  "rows": [
+    ".PPP..............PPP.",
+    ".PPPPP..........PPPPP.",
+    ".PPPPPPP......PPPPPPP.",
+    "PPPPPPPPPPPPPPPPPPPPPP",
+    "PPPPPPPPPPPPPPPPPPPPPP",
+    "PPPPPPFFFFFFFFFFPPPPPP",
+    "PPPPFFFFFFFFFFFFFFPPPP",
+    "PPPFFFFFFFFFFFFFFFFPPP",
+    "PPPFFWWWWFFFFWWWWFFPPP",
+    "PPPFFWDDDFFFFDDDWFFPPP",
+    "PPPFFWDDDFFFFDDDWFFPPP",
+    "PPPFFWDDDFFFFDDDWFFPPP",
+    "PPPFFFFFFFFFFFFFFFFPPP",
+    "PPPFFFFFFFDDFFFFFFFPPP",
+    "PPPFFFFFFFSSFFFFFFFPPP",
+    "PPPPFFFFFSSSSFFFFFPPPP",
+    ".PPPPFFFFFFFFFFFFPPPP.",
+    "..PPPPPFFFFFFFFPPPPP..",
+    "...PPPPPPPPPPPPPPPP...",
+    ".....PPPPPPPPPPPP....."
+  ]
+}

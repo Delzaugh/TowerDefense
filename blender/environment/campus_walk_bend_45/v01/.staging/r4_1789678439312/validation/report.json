@@ -1,0 +1,37 @@
+{
+  "asset": "campus_walk_bend_45",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "848966157473fdaed82d87ed3ae9315dfa82b5e5c9e9b9b737b73c41c1c5b41b",
+  "checkedAt": "2026-09-17T20:54:06.884Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 204,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    3.902943730354309,
+    0.08699999749660492,
+    3.9597978591918945
+  ],
+  "bounds": [
+    [
+      -1.600000023841858,
+      0,
+      0
+    ],
+    [
+      2.302943706512451,
+      0.08699999749660492,
+      3.9597978591918945
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "8eb60a41dc056647f2d5c151e38802d40f4dac39694b0548b8f10bdb6f8164d8",
+  "source": "blender/environment/campus_walk_bend_45/v01/campus_walk_bend_45_v01.blend",
+  "runtime": "assets/runtime/environment/campus_walk_bend_45_v01.glb"
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "target": "C:/Users/jonas/Documents/ChatGPT/Tower/.agents/skills/game-asset-workflow/SKILL.md",
+    "staged": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\tools\\asset-pipeline\\.skill-updates\\0.md",
+    "sha256": "54594600b4cffac51cc2b34f1e91ce497383c0da758ee95fed027fe5b74e158e"
+  },
+  {
+    "target": "C:/Users/jonas/.codex/skills/model-spec-sheet-skill/SKILL.md",
+    "staged": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\tools\\asset-pipeline\\.skill-updates\\1.md",
+    "sha256": "aaae40413e19ca85a1bd114d62c46b1d7309de0591cfe3601959e78f52a5f50a"
+  },
+  {
+    "target": "C:/Users/jonas/.codex/skills/tower-defense-concept-sheet/SKILL.md",
+    "staged": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\tools\\asset-pipeline\\.skill-updates\\2.md",
+    "sha256": "f1e029e713da1177c531782944996b7176b7ce345af8871992315be6ee4e8cba"
+  }
+]

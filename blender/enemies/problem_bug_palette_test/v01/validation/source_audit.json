@@ -1,0 +1,162 @@
+{
+  "baselineSourceHash": "d63303ffbb8b8343d8225ded2ebc610c7c344f123baa372b441f51014406e1b2",
+  "baselineRuntimeHash": "d4ce09cbe5a56ff12224c93e2f2d804481781b7efa4925195a4a6c5cbc540352",
+  "geometrySignature": "fb783b4e6232478ba71d92d3dd84b1a5514ea462b01076fca6cb6c3ec229751b",
+  "objects": [
+    {
+      "name": "anchor_target",
+      "type": "EMPTY"
+    },
+    {
+      "name": "anchor_ui",
+      "type": "EMPTY"
+    },
+    {
+      "name": "bug_body",
+      "type": "MESH"
+    },
+    {
+      "name": "bug_rig",
+      "type": "ARMATURE"
+    },
+    {
+      "name": "root",
+      "type": "EMPTY"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "bug_body",
+      "triangles": 2334,
+      "vertices": 1276,
+      "loops": 4612,
+      "attributes": [
+        [
+          ".select_vert",
+          "POINT",
+          "BOOLEAN"
+        ],
+        [
+          ".select_edge",
+          "EDGE",
+          "BOOLEAN"
+        ],
+        [
+          ".select_poly",
+          "FACE",
+          "BOOLEAN"
+        ],
+        [
+          "sharp_face",
+          "FACE",
+          "BOOLEAN"
+        ],
+        [
+          "position",
+          "POINT",
+          "FLOAT_VECTOR"
+        ],
+        [
+          ".edge_verts",
+          "EDGE",
+          "INT32_2D"
+        ],
+        [
+          ".corner_vert",
+          "CORNER",
+          "INT"
+        ],
+        [
+          ".corner_edge",
+          "CORNER",
+          "INT"
+        ],
+        [
+          "Color",
+          "CORNER",
+          "FLOAT_COLOR"
+        ],
+        [
+          "_palette_role",
+          "CORNER",
+          "FLOAT"
+        ]
+      ],
+      "roles": {
+        "attribute": "_palette_role",
+        "scale": 1,
+        "roles": {
+          "shell": 1,
+          "shell_dark": 3,
+          "navy": 4,
+          "face": 5,
+          "edge": 6,
+          "red": 7,
+          "red_dark": 8
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "name": "bug_palette",
+      "nodes": [
+        [
+          "Principled BSDF",
+          "ShaderNodeBsdfPrincipled"
+        ],
+        [
+          "Material Output",
+          "ShaderNodeOutputMaterial"
+        ],
+        [
+          "Color Attribute",
+          "ShaderNodeVertexColor"
+        ]
+      ],
+      "links": [
+        [
+          "Principled BSDF",
+          "BSDF",
+          "Material Output",
+          "Surface"
+        ],
+        [
+          "Color Attribute",
+          "Color",
+          "Principled BSDF",
+          "Base Color"
+        ],
+        [
+          "Color Attribute",
+          "Color",
+          "Principled BSDF",
+          "Emission Color"
+        ]
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "name": "hit",
+      "range": [
+        1.0,
+        11.0
+      ]
+    },
+    {
+      "name": "move",
+      "range": [
+        1.0,
+        25.0
+      ]
+    },
+    {
+      "name": "resolve",
+      "range": [
+        1.0,
+        21.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+Use case: stylized-concept. Edit INPUT 1, the bundled 1536x1024 model specification sheet template, directly. INPUT 2 is the six-option concept sheet: select ONLY option 02 in the TOP CENTER, called Cohesion Pack. Other five characters/designs must not appear. User selected option 2 and explicitly requires REMOVAL OF NECK LANYARD AND BADGE. Keep structural teal backpack shoulder straps, which are not the lanyard.
+Preserve template exact dimensions 1536x1024, navy background, all panel positions, borders, typography style, six turnaround cells and lower panels. Fill all intended cells cleanly with comfortable margins. This is a CONCEPT MODEL SPECIFICATION, no existing mesh. All unknown statistics stay hyphens, empty UV grid, illustrative wireframe only.
+Header title EXACT "People Manager — Cohesion Pack"
+Subtitle EXACT "Five-tier team support pack • Concept model specification"
+Top right type EXACT "Tower"
+Single invariant asset across all views: friendly light-skinned mature human, swept silver-gray quiff, two broad curled dark handlebar moustache tips, small pointed dark goatee. Navy long-sleeved open-collar shirt, black trousers and plain black shoes. No suit jacket. Plain visible navy chest with NO hanging neck cord, NO blue lanyard, NO ID card, NO white badge, NO necklace, NO chest emblem. Two broad teal backpack straps rest over shoulders and descend vertically at outer chest; hands hold straps at lower ribs as in option 02. There is only a normal dark trouser belt with simple subtle buckle. Short chunky toy-like proportions, oversized head and hands; faceted low-poly planes and simple matte materials matching reference. Both legs, both arms. No weapons or extra objects.
+PACK GEOMETRY source of truth: exactly FIVE solid distinct vertically stacked tapered segments forming one narrow stepped pyramid backpack, broad TEAL foundation at shoulder-blade height, BLUE next, PURPLE next, CORAL next, small AMBER pointed apex. Same order bottom to top in every view. Pack base begins around upper back/shoulder height and apex extends above the silver hair, creating reference's tall silhouette. Low depth rectangular trapezoidal prisms for four bottom tiers plus a small triangular prism cap, all aligned in one plane on a simple dark backplate. Pack on BACK, never mounted on face, chest, head or top of hair. Face remains completely visible from front; broad lower segments peek outside neck/shoulders and narrower upper segments rise behind hair. A small physical gap from back of head keeps attachment sensible. In rear views the full stack and dark backplate are visible, attached by the same two teal shoulder straps. No dangling cords, tubes or metal rig. Economy suitable for target under 2500 triangles.
+TURNAROUNDS occupy the six original upper cells, same complete height, shared baseline y=420 and apex y=170, soft contact shadows, orthographic camera, consistent exact geometry and neutral friendly expression. No art outside cells, no scenery. Correct captions and orientations left to right:
+1 Front: direct straight-on, looks at viewer, pack visible above and beside head.
+2 Front-Left: true three-quarter view showing front AND character's left side, nose points toward IMAGE LEFT.
+3 Left: exact left-side profile, nose points IMAGE LEFT, backpack projects behind torso to IMAGE RIGHT.
+4 Back: pure rear, no face visible, pack broad face toward viewer. Silver hair back and shirt below, hands largely hidden in front.
+5 Back-Right: three-quarter rear showing back AND character's right side, mostly backpack rear and right side of head.
+6 Right: exact right-side profile, nose points IMAGE RIGHT, backpack projects behind torso to IMAGE LEFT. Mirror of left in geometry, preserve hair asymmetry.
+Keep existing captions exactly "Front", "Front-Left", "Left", "Back", "Back-Right", "Right".
+IN-GAME VIEW lower-left: genuinely zoomed-out isometric friendly low-poly technology campus, muted green ground with a pale winding path, two or three tiny off-white infrastructure towers, small trees, a few tiny work cubes on path. The selected People Manager at path edge must be TINY, about 5–8% of this panel's HEIGHT (20–30 pixels tall), with colored stack reading at small scale. No large hero character, no closeup, no text or HUD. Environment secondary, no new gameplay claims.
+WIREFRAME lower-middle: one illustrative economical triangulated wireframe approximation of SAME character and attached pyramid backpack at front-left three-quarter angle, thin light lines over dark surfaces. Add clear small subtitle "Illustrative topology" inside bottom of wireframe panel. Not measured production topology.
+TEXTURE / UV lower next: leave ORIGINAL EMPTY UV GRID, no fabricated islands, atlas, textures or example model.
+MODEL INFO preserve exact labels and use:
+Triangles: -
+Vertices: -
+Texture: -
+Materials: -
+Target: < 2500 tris
+COLOR PALETTE exactly FIVE swatches: navy shirt, teal pack base, charcoal trousers, silver hair, amber apex. Do not add names or hex codes.
+NOTES exactly three concise lines:
+"No neck lanyard or badge"
+"Five tiers with trust at base"
+"Concept wireframe only"
+No fabricated model statistics, no false verified claims, no Game Name field, no extra panels or watermarks. Clearly readable exact labels and type. One coherent model throughout. IMPORTANT user change applies in EVERY panel including profile, rear, game and wireframe: NO NECK LANYARD OR ID BADGE. Keep teal load-bearing backpack shoulder straps.

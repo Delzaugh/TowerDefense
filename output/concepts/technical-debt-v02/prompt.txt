@@ -1,0 +1,32 @@
+Use case: stylized-concept. Edit the supplied concept-sheet template directly as the exact layout base. Preserve wide 1672x941 aspect ratio, dark navy background, header position, all six numbered panels in 3x2 grid, borders, floor grids, number badges 01-06, spacing and bottom label zones.
+
+Create SIX ENTIRELY NEW Technical Debt general asset concepts. This revision must communicate the ADMINISTRATIVE / MANAGEMENT side of technical debt: recorded obligations, overdue tasks, exception registers, approval bottlenecks, cumulative maintenance costs. Use tangible office-administration metaphors rather than literal broken technical hardware. No cables, knots, servers, pipes, anchors, patched shells, connectors, robots or characters.
+
+Style: friendly chunky low-poly 3D game props for software-themed tower defense. Large simple planes, restrained bevels, few large components, matte off-white/soft gray and muted blue, amber overdue accents. Under 2500 triangles as a visual design target, no printed stats. Strict straight-on FRONT orthographic view, same camera and studio light. Strong silhouette and large focal feature readable at 64-96px, no tiny text. All objects grounded, fully visible, centered and similar perceived scale; no object or shadow enters label zones. Top row baseline y398; bottom row baseline y794 in original dimensions. Gentle 3D bevel depth, not three-quarter composition.
+
+Each panel represents a fundamentally different administrative object:
+01 BACKLOG INBOX — wide low desk inbox, exaggerated overfilled with a few thick task folders fanning upwards, three bold amber overdue tabs protruding. One coherent overflowing tray, not scattered papers. Dominant metaphor: unfinished work accumulating. Open wide basin silhouette.
+02 DEBT LEDGER — tall upright thick open bookkeeping ledger, simple two facing page planes with three BIG deeply inset accounting bars on one and a single oversized amber minus symbol on the other. Blue thick cover, chunky spine, bold stepped index tabs. No small text or numbers. Dominant metaphor: recorded maintenance liabilities. Open-book wing silhouette. Only traditional document-led concept on sheet.
+03 DEFERRED STAMP — squat broad rubber approval stamp with oversized mushroom-like blue handle, ivory stepped body and amber flat stamp sole with large embossed clock emblem clearly visible on its FRONT face. A single unmistakable stamp, no paper sheet beneath. Dominant metaphor: repeatedly postponing work. Narrow neck, broad head and rectangular base.
+04 EXCEPTION CABINET — narrow upright filing cabinet with two large gray drawers; lower shut, upper visibly bulging with a thick blue folder edge and oversized amber warning tab. Stubby feet, offset drawer handles, very simple front face. Dominant metaphor: accumulating documented exceptions. Tall rectangular silhouette distinct from inbox, no server vents/screens/LEDs.
+05 APPROVAL QUEUE — broad horizontal office queue rail on two short feet, holding three chunky hanging square approval tokens. Two pale tokens sit to the left; at right an oversized amber STOP gate blocks the last blue token. Each token has just one large simple hollow approval circle. Single connected framed object with strong negative space. Dominant metaphor: administrative approvals waiting at a bottleneck. No wires, no pipe, no tiny text.
+06 INTEREST COUNTER — low polygonal arched tabletop abacus, two stout horizontal rods and a few oversized slider beads. Lower rod has two blue cubes; upper rod is crowded with five amber beads. One large + symbol on the arch crown makes accumulating maintenance cost clear. No coins or treasure styling. Dominant metaphor: carrying cost increasing over time. Rounded arch/radial silhouette.
+
+Use EXACT text:
+Title: Technical Debt Concept Variations
+Subtitle: Administrative burden through records obligations and overdue work.
+Top right category: General Asset
+01 name: Backlog Inbox
+01 description: Overflowing task folders with overdue tabs
+02 name: Debt Ledger
+02 description: Open liability register with oversized index tabs
+03 name: Deferred Stamp
+03 description: Chunky postponement stamp with clock emblem
+04 name: Exception Cabinet
+04 description: Bulging file drawer with warning tab
+05 name: Approval Queue
+05 description: Pending tokens blocked by approval gate
+06 name: Interest Counter
+06 description: Oversized counting beads show accumulating cost
+
+Keep header and all name/description zones clean and unobstructed. Six unique object types, structural differences, no recolors or accessory swaps. Preserve original template positions exactly. Do not add extra panels, footer, annotations, arrows, wireframes, environments, technical data, logos, or watermark.

@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_tile_plaza",
+  "displayName": "Campus plaza tile",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/campus_tile_plaza/v01/campus_tile_plaza_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_tile_plaza/v01/build.py"
+  },
+  "runtime": "assets/runtime/environment/campus_tile_plaza_v01.glb",
+  "budgets": {
+    "triangles": 2000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_surface",
+      "anchor_edge_ne",
+      "anchor_edge_n",
+      "anchor_edge_nw",
+      "anchor_edge_sw",
+      "anchor_edge_s",
+      "anchor_edge_se"
+    ],
+    "dimensions": {
+      "min": [
+        35.99,
+        1.19,
+        31.17
+      ],
+      "max": [
+        36.01,
+        1.21,
+        31.18
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "tools/asset-recipes/campus-terrain.py",
+      "provenance": "Original terrain geometry and packed texture recipe for user-requested campus tile variants."
+    },
+    {
+      "path": "blender/environment/campus_base_hex/v01/campus_base_hex_v01.blend",
+      "provenance": "Shared frame dimensions and edge anchors; source left unchanged."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/campus_tile_plaza/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "glacier_palette",
+      "size": [
+        512,
+        512
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#6787A3",
+          "rect": [
+            0,
+            0,
+            8,
+            8
+          ]
+        },
+        "ground": {
+          "color": "#354B64",
+          "rect": [
+            8,
+            0,
+            8,
+            8
+          ]
+        },
+        "shell": {
+          "color": "#24354E",
+          "rect": [
+            16,
+            0,
+            8,
+            8
+          ]
+        },
+        "tile_seam": {
+          "color": "#577693",
+          "rect": [
+            24,
+            0,
+            8,
+            8
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "shell": "#24354E",
+      "chalk": "#6787A3",
+      "ground": "#354B64",
+      "edge": "#ADC5D2",
+      "tile_seam": "#577693"
+    }
+  },
+  "exportSettings": {
+    "paletteTextureWorkflow": false
+  }
+}

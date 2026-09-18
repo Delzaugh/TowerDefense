@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_spacetruck_trailer",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "dc8466b5a9db70cda28acf660efb7307627aed96e3af7bc3e4652a01a91d6156",
+  "checkedAt": "2026-09-17T21:34:46.007Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 824,
+  "meshes": 5,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    0.4800001084804535,
+    0.33819998800754547,
+    0.9999999403953552
+  ],
+  "bounds": [
+    [
+      -0.24000011384487152,
+      -0.1431208848953247,
+      -0.4999999403953552
+    ],
+    [
+      0.23999999463558197,
+      0.19507910311222076,
+      0.5
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_spacetruck_trailer/v01/kaykit_spacetruck_trailer_v01.blend",
+  "sourceHash": "75cc59b26fa4c4ed8af88ef415119ba106f5b5fc02f2cc607e76ee827bc654c3",
+  "runtime": "assets/runtime/environment/kaykit_spacetruck_trailer_v01.glb"
+}

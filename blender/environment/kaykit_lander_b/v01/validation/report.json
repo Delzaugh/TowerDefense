@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_lander_b",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "ce8e8d7ddaaf01b77c5851d9986d7fae3f08b758e8b6bda0b374e3bc2d3eeca1",
+  "checkedAt": "2026-09-17T21:34:25.088Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1208,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    1.3717536926269531,
+    1.0951446890830994,
+    1.4217513799667358
+  ],
+  "bounds": [
+    [
+      -0.6717513799667358,
+      -0.000003039836883544922,
+      -0.6717513799667358
+    ],
+    [
+      0.7000023126602173,
+      1.0951416492462158,
+      0.75
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_lander_b/v01/kaykit_lander_b_v01.blend",
+  "sourceHash": "b8f5b7bca8d2285a8fdd253e65d487b4693aca1cd6db914f96d808e0e2c52319",
+  "runtime": "assets/runtime/environment/kaykit_lander_b_v01.glb"
+}

@@ -1,0 +1,31 @@
+{
+  "asset": "campus_flower_bed",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "7ad32ff99326d5433eb9cefd7491be721ff3052c07fd9b4a9a4b07a574350bb6",
+  "sourceHash": "d0c0a17aa4db3433e450ea93dddf99d51046256fe279bf04b3212e233285e396",
+  "reviewedAt": "2026-09-17T23:03:02.162Z",
+  "status": "reviewed",
+  "reviewer": "Codex direct inspection of exported Inspector renders and campus",
+  "artisticAcceptance": "Pending user feedback",
+  "views": [
+    "blender/environment/campus_flower_bed/v01/renders/inspector-iso.png",
+    "blender/environment/campus_flower_bed/v01/renders/inspector-rear.png",
+    "blender/environment/campus_flower_bed/v01/renders/breeze-1.png",
+    "blender/environment/campus_flower_bed/v01/renders/breeze-3.png"
+  ],
+  "compositionEvidence": [
+    "prototypes/campus-3d/previews/home-desktop.png",
+    "prototypes/campus-3d/previews/home-phone.png",
+    "prototypes/campus-3d/previews/ambient-conversation.png"
+  ],
+  "notes": [
+    "1324 triangles; guarded export passed with packed palette.",
+    "Both breeze extrema inspected; source-authored morph deformation preserves grounded foundations.",
+    "Layout placement audit passed, with all furniture supported by actual terrain and no prop overlaps."
+  ],
+  "limits": [
+    "Fine details read as secondary accents at wide campus framing.",
+    "Emulated phone viewport; physical-device performance is not certified."
+  ]
+}

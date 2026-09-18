@@ -1,0 +1,26 @@
+{
+  "asset": "campus_solar",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "a68d42f6124dc70bccb24d74caeed72426abcf13faf47832af3c29aea8761ca7",
+  "sourceHash": "b9edd13a66f70eb4bf907e1eb642726f0b8669c96021333a6f66361b585b862e",
+  "reviewedAt": "2026-09-17T21:10:09.135Z",
+  "reviewer": "Codex visual inspection",
+  "status": "reviewed",
+  "artisticAcceptance": "User review pending; not implied by technical validation.",
+  "views": [
+    "blender/environment/campus_solar/v01/renders/inspector-iso.png",
+    "blender/environment/campus_solar/v01/renders/inspector-rear.png",
+    "blender/environment/campus_solar/v01/renders/inspector-side.png"
+  ],
+  "notes": [
+    "Inspected actual registered GLB in the shared Asset Inspector from isometric and reverse views.",
+    "Silhouette, contact surfaces and palette remain coherent; no blocking construction defects observed in these views.",
+    "Side close-up confirms the four supports meet the tilted panel underside after correcting their heights."
+  ],
+  "compositionEvidence": "prototypes/campus-3d/previews/home-desktop.png",
+  "limits": [
+    "Art prototype; no gameplay or progression implementation.",
+    "Phone and landscape layouts reviewed in browser emulation; physical-device performance not profiled."
+  ]
+}

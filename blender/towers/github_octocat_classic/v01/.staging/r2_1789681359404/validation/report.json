@@ -1,0 +1,15 @@
+{
+  "asset": "github_octocat_classic",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "dd083a3873ea038f675074cb00437e67abeca9952481265f8b0286dae80c5841",
+  "checkedAt": "2026-09-17T21:42:42.324Z",
+  "errors": [
+    "Cannot find module 'playwright'\nRequire stack:\n- C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\tools\\asset-pipeline\\validate.mjs"
+  ],
+  "warnings": [],
+  "passed": false,
+  "sourceHash": "d194da5d5da040c6d5d8319abcba0aae2fb8c06b27bc1b84c6a5b7358a53ce9b",
+  "source": "blender/towers/github_octocat_classic/v01/github_octocat_classic_v01.blend",
+  "runtime": "assets/runtime/towers/github_octocat_classic_v01.glb"
+}

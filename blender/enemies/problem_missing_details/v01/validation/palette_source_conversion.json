@@ -1,0 +1,17 @@
+{
+  "asset": "problem_missing_details",
+  "geometryHash": "11d2453b9d9c0510c359108c1ff0376bf7414900dfe751498523c070e83937fb",
+  "maxLinearColorError": 2.4765500650225647e-08,
+  "size": [
+    32,
+    8
+  ],
+  "materials": [
+    "note_palette"
+  ],
+  "usedRoles": 11,
+  "otherImages": [
+    "eye_emission_mask"
+  ],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\enemies\\problem_missing_details\\v01\\problem_missing_details_v01.blend"
+}

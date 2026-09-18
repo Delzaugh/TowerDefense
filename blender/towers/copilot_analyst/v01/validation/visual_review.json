@@ -1,0 +1,32 @@
+{
+  "asset": "copilot_analyst",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "7241b272b572f231f9fb135f32b701bde07bbc8ad385ec5931b647859bee9350",
+  "sourceHash": "2b2bf2346025f787f8cc4286f9198bdf54b55f7b0219b25599321caf2acc5c4c",
+  "reviewedAt": "2026-09-17T23:00:09.565Z",
+  "reviewer": "primary production agent",
+  "status": "visual construction review complete; user artistic acceptance pending",
+  "views": [
+    "iso",
+    "front",
+    "side",
+    "rear",
+    "top",
+    "inspector_underside",
+    "inspector_phone",
+    "inspector_small"
+  ],
+  "findings": [
+    "Distinct concept silhouette and characteristic role accessory retained.",
+    "Face screens are opaque and clear of shell intersections after adding interior support loops.",
+    "Goggle rims, ear details and structural frames inspected in front, side, reverse and underside views.",
+    "All eight Linter sockets are present; no aura, selection or gameplay-effect geometry is included.",
+    "Model identity remains legible at phone width and in the small-silhouette test; tiny symbols become secondary."
+  ],
+  "limitations": [
+    "Static rest-pose model: no skeleton or animation clips.",
+    "Backside details and depths inferred from the single three-quarter concept reference.",
+    "Artistic acceptance and integration into gameplay remain separate."
+  ]
+}

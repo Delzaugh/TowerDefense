@@ -1,0 +1,20 @@
+Use case: stylized-concept
+Asset type: six-option game-asset concept sheet for a software-development-themed tower defense game
+Input image: the bundled concept-sheet template is the direct edit target and exact composition base.
+
+Create exactly six original Senior Developer tower-class concepts. Every option is an unmistakably human-like senior-developer hero with a visible mature face, torso, two arms, two legs, hands, and a grounded stance on a compact tower pedestal. The person is the dominant subject.
+
+Design each base character so it looks plainly feasible under a strict 2,500-triangle runtime budget: chunky 4-to-5-head-tall proportions; one faceted head; one solid hair mass; optional simple beard mass; one-piece torso garment; primitive limbs, hands, and shoes; one compact low-segment pedestal; and only one large software-metaphor prop or back shape. Target 12–16 visually distinct modeled parts, hard normals, very low-segment curves, almost no bevels, 1–2 matte material families, and no small surface detail.
+
+The original high-energy golden transformation feeling is a separate runtime effect rather than dense character geometry. Show only 3–5 broad flat golden flame polygons or one broad aura shape behind the character, with restrained glow and cyan accents. Do not reproduce any existing character, costume, hairstyle, emblem, pose, or franchise-specific effect.
+
+01 — Golden Compiler: tall veteran coder, single trapezoid coat, plain glowing chest cube, five-point flame aura.
+02 — Merge Sage: broad mentor, plain short jacket, two single-piece hexagonal gauntlets, one merge cube, simple V aura.
+03 — Commit Halo: calm architect, simple tunic and trousers, one thick low-segment halo with three large node blocks.
+04 — Pipeline Ascendant: lean engineer, simple asymmetrical tunic, one four-step block staircase, raised hand and cube.
+05 — Thread Titan: stocky older developer, simple vest, one broad spiral runtime ribbon, one chest orb.
+06 — Review Gate: sturdy lead reviewer, simple long coat, one thick low-segment arch, one large checkmark shield.
+
+Preserve the template's exact 3 x 2 layout, dark navy presentation, number badges, panel borders, floor grids, margins, header, and label zones. Use strict front-facing orthographic or near-orthographic views with consistent camera height, floor contact, lighting, baseline, and perceived scale.
+
+Avoid architecture-only designs, robots, layered costumes, hard-surface armor, shoulder stacks, floating cards, particle clouds, crystalline sprays, multiple accessories, tiny devices, weapons, military styling, photorealism, text on models, logos, watermarks, extra panels, annotations, technical statistics, turnarounds, and artwork overlapping labels or badges.

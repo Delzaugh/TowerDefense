@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_tunnel_straight_b",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "370171af2b6c7c6753fb339112acec28465434978f2f03e74f5677235b9fc99a",
+  "checkedAt": "2026-09-17T21:35:05.599Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 284,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2,
+    0.5999999493360519,
+    0.7999999523162842
+  ],
+  "bounds": [
+    [
+      -1,
+      0.20000000298023224,
+      -0.3999999761581421
+    ],
+    [
+      1,
+      0.7999999523162842,
+      0.3999999761581421
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_tunnel_straight_b/v01/kaykit_tunnel_straight_b_v01.blend",
+  "sourceHash": "c593ea0e3800285fe7915ebb1a8ad1f062714e1e246cb2c0775379116e1ca751",
+  "runtime": "assets/runtime/environment/kaykit_tunnel_straight_b_v01.glb"
+}

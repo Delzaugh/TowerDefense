@@ -1,0 +1,103 @@
+{
+  "revision": 36,
+  "sha256": "4a7ebbc16f309e796241b3d6ad3c2d6c8b48ca450aba50b297dccd959e78f1db",
+  "errors": [],
+  "state": {
+    "loading": false,
+    "activePath": "towers/bert_breugelmans_v01.glb",
+    "view": "iso",
+    "projection": "OrthographicCamera",
+    "distance": 9.31479499638683,
+    "target": [
+      0,
+      1.5109307307080169,
+      -0.15519160241046961
+    ],
+    "camera": [
+      4.8327549776129395,
+      6.306362731879804,
+      6.201986786875773
+    ],
+    "effects": [
+      {
+        "path": "towers/bert_breugelmans_v01.glb",
+        "enabled": false,
+        "triangles": 0,
+        "meshes": 0,
+        "materials": 0
+      }
+    ],
+    "entries": [
+      {
+        "path": "towers/bert_breugelmans_v01.glb",
+        "revision": "4a7ebbc16f309e796241b3d6ad3c2d6c8b48ca450aba50b297dccd959e78f1db",
+        "triangles": 4499,
+        "meshes": 4,
+        "materials": 4,
+        "bounds": [
+          [
+            -0.7370913624763489,
+            -1.0165876598167269e-8,
+            -0.7192680530022014
+          ],
+          [
+            0.7370913624763489,
+            3.0218614715819103,
+            0.4088848481812622
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": "idle",
+            "duration": 2.5416667461395264
+          },
+          {
+            "name": "celebrate_team",
+            "duration": 4
+          },
+          {
+            "name": "move",
+            "duration": 1.5
+          },
+          {
+            "name": "work",
+            "duration": 5
+          }
+        ],
+        "clip": null,
+        "time": 0,
+        "playing": false,
+        "loop": true,
+        "speed": 1,
+        "pose": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          3.422854177870249e-8,
+          -0.9999999657714582,
+          0,
+          0,
+          0.9999999657714582,
+          3.422854177870249e-8,
+          0,
+          0,
+          1.216000038486733,
+          4.162190954490425e-8,
+          1
+        ]
+      }
+    ]
+  }
+}

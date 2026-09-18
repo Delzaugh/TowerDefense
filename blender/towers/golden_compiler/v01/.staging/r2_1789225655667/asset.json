@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "golden_compiler",
+  "displayName": "Golden Compiler",
+  "category": "towers",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/towers/golden_compiler/v01/golden_compiler_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/golden_compiler/v01/build.py"
+  },
+  "runtime": "assets/runtime/towers/golden_compiler_v01.glb",
+  "budgets": {
+    "triangles": 2500,
+    "materials": 2,
+    "meshes": 2,
+    "bones": 16,
+    "textures": 0,
+    "textureSize": 0
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_action",
+      "anchor_ui",
+      "anchor_aura"
+    ],
+    "dimensions": {
+      "min": [
+        1.7,
+        3.1,
+        1.5
+      ],
+      "max": [
+        2.5,
+        3.6,
+        2
+      ]
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "playback": "loop",
+      "fps": 24,
+      "meaning": "Planted ready stance; restrained breath and levitating compiler cube."
+    },
+    {
+      "name": "work",
+      "playback": "loop",
+      "fps": 24,
+      "meaning": "Channel compiler energy through the raised palm; feet stay planted and no gameplay outcome is encoded."
+    }
+  ],
+  "references": [
+    {
+      "path": "blender/towers/golden_compiler/v01/references/golden_compiler_reference.png",
+      "provenance": "User-supplied Golden Compiler turnaround on 2026-09-12. Visual design input; printed notes are not instructions."
+    },
+    {
+      "path": "design/concepts/senior_developer/v01/decisions.md",
+      "provenance": "Earlier user design decisions for the human Senior Developer tower family."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/towers/golden_compiler/v01/decisions.md",
+  "palette": {
+    "attribute": "_palette_role",
+    "colors": {
+      "coat": "#E8DCC4",
+      "coat_shadow": "#C3AF91",
+      "coat_light": "#FFF0D9",
+      "charcoal": "#30333C",
+      "trousers": "#42434B",
+      "boot": "#252A32",
+      "sole": "#4B5058",
+      "skin": "#DFA276",
+      "skin_light": "#F2BD8C",
+      "skin_shadow": "#BA7756",
+      "beard": "#CAD1D0",
+      "beard_shadow": "#899998",
+      "hair": "#F5BD32",
+      "hair_light": "#FFE47B",
+      "hair_shadow": "#C88420",
+      "eye": "#53D8C4",
+      "white": "#FFF7DF",
+      "gold": "#FFD14C",
+      "core_light": "#FFF2AB",
+      "base": "#6F7984",
+      "base_light": "#B4BABD",
+      "base_dark": "#394653",
+      "cyan": "#58D5DF"
+    }
+  }
+}

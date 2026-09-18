@@ -1,0 +1,24 @@
+Use case: stylized-concept
+Asset type: six-option enemy concept sheet for a software-development-themed tower defense game
+Input image 1: direct edit target and mandatory composition template
+
+Edit the bundled concept-sheet template directly. Preserve its exact 1680 x 945 canvas, aspect ratio, dark navy background and gradients, header placement, 3 x 2 panel grid, panel borders, floor grids, margins, spacing, bottom label zones, and number badges 01-06. Do not add, remove, merge, resize, reorder, or restyle panels.
+
+Create exactly six distinct front-facing stylized low-poly 3D concept models for Code Smells, an Enemy. Put exactly one model in each numbered panel, centered, fully visible, occupying about 58-68 percent of the panel artwork height. Use the same floor-contact baseline, camera height, perceived scale, soft studio lighting, and matte KayKit-compatible presentation in every panel.
+
+Camera: strict front view only; orthographic or near-orthographic. No three-quarter, side, top-down, tilted, or dramatic perspective views. Small bevel depth is allowed, but the primary read must be frontal.
+
+Mood and palette: playfully threatening, disruptive but not frightening. Chunky friendly technical forms. Soft blue-gray and charcoal bases, with restrained warning orange and corrupted violet accents. Use a warning shape, instability, jagged break, leak, or corrupted geometry so these clearly read as Problems. Avoid dark cyberpunk, military styling, gore, photorealism, dense texture, broad reflections, transparency, tiny text, and visual noise.
+
+Every model must look feasible below 2,500 triangles and readable at 64-96 pixels tall: large simple forms, broad extrusions, low-segment curves, controlled bevels, no fine wires or greebles, limited pieces and materials, one dominant feature, at most two or three large supporting forms.
+
+01 — Stink Wisp: A round hollow vapor-ring enemy surrounding a large fractured diamond warning core. Floating/radial silhouette, obvious open negative space, three chunky low-poly vapor lobes only. Literal code-smell and warning metaphor. No legs.
+02 — Rotten Stack: A tall stacked totem of crooked code modules with three broad offset status blocks and one thick corrupted leak pooling downward. Strong stacked silhouette and visible top warning block. Not a document or screen.
+03 — Coupling Knot: A wide asymmetric dependency node trapped by four thick branching arms bent into a knot. One central cube node, strongly irregular outline, readable crossed coupling structure. No thin cables.
+04 — God Blob: A wide low bulging single monolith, overburdened with several oversized blocky ports and a split warning face. Heavy rounded mass, squat proportions, unmistakable god-object overload metaphor. No screen.
+05 — Clone Swarm: A clustered modular enemy made from repeated low-poly cubes orbiting one visibly unstable larger master cube. Clear separated cluster silhouette, one broken duplicate, broad simple links or spacing only. Duplication metaphor.
+06 — Method Spire: A very tall narrow folded ribbon form climbing into an angular warning crown. Zigzag vertical silhouette, one continuous broad folded surface, no written code or tiny glyphs. Long-method metaphor.
+
+Diversity is mandatory: all six outer silhouettes, proportions, construction methods, part arrangements, dominant metaphors, negative-space patterns, focal-feature placements, and color-block distributions must be fundamentally different. Do not reuse a common body, face, limbs, pedestal, or accessory system. No recolors or accessory swaps.
+
+Keep all header and bottom text/label areas clean, unobstructed, and visually unchanged. Do not place artwork behind or over any text. Preserve existing placeholder text if needed; exact labels will be restored later. Do not attempt new model labels. Do not add environments, scenery, turnarounds, extra views, technical data, arrows, annotations, stats, footers, watermarks, logos, or decorative UI.

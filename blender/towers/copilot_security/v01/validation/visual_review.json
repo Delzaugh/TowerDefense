@@ -1,0 +1,41 @@
+{
+  "asset": "copilot_security",
+  "version": "v01",
+  "revision": 10,
+  "sha256": "eb1c4275c3ebd3f88b4fbec28d2fc341c84b791c86cb704674ec90b6a99624a9",
+  "sourceHash": "d075672f7ef461e24d87f40563006a4d782d6c36d23598346bbb5928be84afa4",
+  "reviewedAt": "2026-09-17T23:43:32.1726912Z",
+  "technicalPassed": true,
+  "productionVisualReview": "complete",
+  "userArtisticAcceptance": "pending",
+  "focus": [
+    "Protective goggles",
+    "Raised defender front plate and shield emblem"
+  ],
+  "references": [
+    "references/security_spec_sheet.png",
+    "references/persona_concepts.png",
+    "references/persona_rear_concepts.png"
+  ],
+  "views": [
+    "Actual GLB neutral front, close isometric and side renders",
+    "Shared Inspector underside to review front plate attachment",
+    "Shared Inspector final revision 390px phone width and small silhouette"
+  ],
+  "evidence": [
+    "front.png",
+    "iso.png",
+    "side.png"
+  ],
+  "findings": [
+    "Goggle frames and convex lenses follow the forehead curvature",
+    "White brow built from connected cross sections; no warped broad cap or exposed frame slivers",
+    "Raised cobalt plate has distinct beveled shoulders and a shallow beveled shield emblem",
+    "White chin rim shares its geometry boundary with the curved navy guard",
+    "Both sides checked together; face remains readable at small scale"
+  ],
+  "limitations": [
+    "Static model; no clips authored",
+    "Technical and production visual review do not imply user artistic acceptance"
+  ]
+}

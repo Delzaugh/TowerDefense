@@ -1,0 +1,52 @@
+{
+  "asset": "problem_bug",
+  "revision": 8,
+  "sha256": "6463dc98375ba97c45e53b8d3ea5fa27871089c6b4b072207dc689c480e35a5c",
+  "paletteControls": 7,
+  "errors": [],
+  "diff": [
+    {
+      "view": "iso",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0098875
+    },
+    {
+      "view": "front",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.005306944444444445
+    },
+    {
+      "view": "rear",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0049375
+    },
+    {
+      "view": "side",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.009216666666666666
+    },
+    {
+      "view": "top",
+      "maxChannelDifference": 2,
+      "meanChannelDifference": 0.012871296296296296
+    },
+    {
+      "view": "move",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.010998611111111112
+    },
+    {
+      "view": "hit",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0062824074074074076
+    },
+    {
+      "view": "resolve",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0009342592592592592
+    }
+  ],
+  "visualReview": "Reviewed by Codex: before/after appearance, front and reverse views, clip poses where present, and phone-scale silhouette. No conversion-induced visual regression observed; artistic user acceptance remains separate.",
+  "reviewedAt": "2026-09-17T21:03:25.321Z",
+  "evidence": "blender/enemies/problem_bug/v01/validation/palette_migration_r8/palette_review.png"
+}

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_rubber_duck",
+  "displayName": "Rubber Duck",
+  "category": "towers",
+  "version": "v01",
+  "revision": 1,
+  "source": {
+    "path": "blender/towers/copilot_rubber_duck/v01/copilot_rubber_duck_v01.blend",
+    "mode": "manual",
+    "authoritativeHash": "263a2c311f18b0e2f8cb535b2d951fd9a0d3dff25a94163e9c40af1207ac9bee"
+  },
+  "runtime": "assets/runtime/towers/copilot_rubber_duck_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 2,
+    "textures": 4,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 2
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_action",
+      "anchor_ui"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/copilot_base/v01/references/original_collection.blend",
+      "provenance": "Preserved original project draft collection; source-faithful low-poly adaptation."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/towers/copilot_rubber_duck/v01/decisions.md",
+  "delivery": {
+    "sha256": "891e9cd2c45ce4482b6febe369ade2bc5e11801e339730a92c98db9ccb3e18a0",
+    "sourceHash": "263a2c311f18b0e2f8cb535b2d951fd9a0d3dff25a94163e9c40af1207ac9bee",
+    "report": "blender/towers/copilot_rubber_duck/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T13:34:24.554Z"
+  }
+}

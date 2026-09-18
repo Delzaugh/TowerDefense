@@ -1,0 +1,42 @@
+Use case: stylized-concept. Edit IMAGE 1, the bundled model-spec-sheet template, as the DIRECT TARGET. Preserve its EXACT 1536x1024 canvas, dark navy design, panel geometry, borders, labels, typography, spacing and hierarchy. IMAGE 2 is only the asset design source; do NOT copy its six-concept layout. Produce ONE completed spec sheet for the selected asset, not multiple designs.
+
+This is a CONCEPT specification, no real mesh or UV has been supplied. Model Info MUST contain exactly:
+Triangles: -
+Vertices: -
+Texture: -
+Materials: -
+Target: < 2500 tris
+Leave the existing Texture / UV coordinate grid entirely EMPTY. Never invent UV islands, atlas or measured stats.
+Wireframe panel: one economical clean light-line illustrative wireframe of this SAME book in three-quarter view, no exact triangle count. Clearly caption within panel "Illustrative topology". Use coarse triangulated surfaces, no dense noise. Header subtitle must say "Concept spec" to establish status.
+
+Fill SIX original top-row viewports with ONE coherent object: Front, Front-Left, Left, Back, Back-Right, Right. Respect the original labels and order. Exact profile views must be EDGE-ON, not extra three-quarter views. The rear must show the outer cover, not repeat front contents. Same object scale, pivot and baseline. Same lighting and material colors. No scenery, stink wisps, smoke or effects in turnaround cells. Front/rear signs must not migrate or mirror. Only rotate the same object.
+
+Art style: chunky low-poly game prop, matte material color blocks, broad polygonal stains, dirty muted blue, yellowed paper, muddy brown and olive mildew, dull amber details. Visibly smelly and neglected but NOT photoreal, no tiny textures, paper fibers, realistic cracked leather, dense speckles, fantasy flourishes, faces, limbs or extra accessories. At most 3-5 thick page slabs per side with simple damaged corners. Economical geometry designed below 2500 triangles, not a measured claim.
+
+In-Game View: truly ZOOMED-OUT fixed isometric tower-defense campus. Muted grass, broad pale stone path, a few chunky trees and tiny gray-blue infrastructure modules. Only ONE selected book on the path, approximately 6-8% of panel height (about 24-30 pixels), visibly much smaller than scenery. Small green odor wisps immediately above the book only in this panel. No giant hero inset, no arrow/callout, no magnifying bubble. Keep gameplay art secondary, no HUD.
+
+Five palette swatches: dirty muted blue cover, yellow-beige paper, darkest muddy brown, olive mildew, dull amber status. No new sections, no Game Name field, no logos, no watermark. Clean typography, dirty asset only. Preserve all template labels and grid.
+
+SELECT ONLY OPTION 02 in IMAGE 2, top-middle, called Shortcut Register. Ignore the other five reference designs.
+Header name: Shortcut Register
+Header subtitle: Concept spec - grimy register of deferred code repairs
+Header type: General Asset
+
+Invariant object: a CLOSED upright rectangular technical-debt ledger about 1.45 times taller than wide and 0.22 widths thick. Front dirty blue cover carries a large raised blue </> code emblem. A battered DULL AMBER temporary patch plate slants slightly upward across its center, fastened by EXACTLY two dark circular fasteners, one per end. This plate is the unmistakable focal feature. Three amber thick rectangular debt tabs stick from the RIGHT PAGE FORE-EDGE at top, middle, lower positions. Thick swollen yellowed page slab with three coarse layers. Two chunky tarnished gray binding bands on LEFT SPINE. Large muddy brown and olive patches cover top-right and bottom-left of front cover. Small worn corners, no intricate texture. The book stays CLOSED in every view.
+
+Use these physically DIFFERENT exact orientations:
+FRONT: show front cover straight-on, patched code centered, left binding bands barely peeking at left, THREE tabs on right.
+FRONT-LEFT: rotate object 45 degrees to show front cover AND LEFT SPINE; the FRONT face is visibly foreshortened. Left spine thick and visible with TWO gray binding bands. This is NOT a second front view.
+LEFT: ONLY exact edge-on BLUE SPINE with TWO gray binding bands, faint cover thickness at edges. NO page fore-edge, NO code badge, NO amber tabs on this nearest side; tabs can remain hidden behind.
+BACK: broad plain dirty blue back cover with large simple grime patches. NO code, NO amber patch plate, NO fasteners on back. Amber tabs appear at image-LEFT from this angle.
+BACK-RIGHT: 45 degree rear view showing plain dirty BLUE BACK and thick YELLOW PAGE FORE-EDGE with THREE amber tabs. No front code.
+RIGHT: exact yellow PAGE FORE-EDGE, narrow blue cover strips at sides, THREE amber tabs at consistent heights. NO spine binding bands, NO front code. This exact RIGHT view must be fundamentally different from the LEFT BLUE SPINE view.
+
+All six views same height, scale and baseline. The book does not open between views. No extra hinges or belts, no floating odor in turnarounds. Reference oily ground smear is a visual effect so show only in tiny gameplay scene if used, no permanent pedestal.
+
+Notes, exactly THREE lines:
+- Keep patched code emblem prominent
+- Use broad grease and mildew patches
+- Odor and ground smear are effects
+
+Same book in wireframe and tiny in-game view. Wireframe clean simple surfaces, no geometry for flat grime stains. In-game book must be ONLY 25 pixels tall in the 400-pixel-high panel, with two little green stink wisps above it. Show more landscape to ensure zoomed-out scale.

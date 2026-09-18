@@ -1,0 +1,15 @@
+{
+  "asset": "copilot_developer",
+  "version": "v01",
+  "revision": 6,
+  "sha256": "52f022b7e68b2f54833ebada09d2c063ab94ba559bb77aa39409b7fba851384a",
+  "checkedAt": "2026-09-17T23:23:15.286Z",
+  "errors": [
+    "Cannot find module 'playwright'\nRequire stack:\n- C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\tools\\asset-pipeline\\validate.mjs"
+  ],
+  "warnings": [],
+  "passed": false,
+  "sourceHash": "27f300837b8662832a6af7bb26361fea85896868420ca3c262edbb8a88c961fd",
+  "source": "blender/towers/copilot_developer/v01/copilot_developer_v01.blend",
+  "runtime": "assets/runtime/towers/copilot_developer_v01.glb"
+}

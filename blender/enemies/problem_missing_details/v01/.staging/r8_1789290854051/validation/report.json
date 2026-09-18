@@ -1,0 +1,15 @@
+{
+  "asset": "problem_missing_details",
+  "version": "v01",
+  "revision": 8,
+  "sha256": "e83b71ad76cf94bc2dc1bffe3941704b88414767d749383f2d89849ee00ad8f7",
+  "checkedAt": "2026-09-13T09:14:19.616Z",
+  "errors": [
+    "Cannot find module 'playwright'\nRequire stack:\n- C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\tools\\asset-pipeline\\validate.mjs"
+  ],
+  "warnings": [],
+  "passed": false,
+  "sourceHash": "2bed6bee5ebfab3c979b48fd8d76742f143b5d0b5630939cac5b5e27f5e1a1cc",
+  "source": "blender/enemies/problem_missing_details/v01/problem_missing_details_v01.blend",
+  "runtime": "assets/runtime/enemies/problem_missing_details_v01.glb"
+}

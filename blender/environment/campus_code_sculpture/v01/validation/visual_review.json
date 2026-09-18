@@ -1,0 +1,17 @@
+{
+  "asset": "campus_code_sculpture",
+  "revision": 5,
+  "sha256": "0f0336c0c7686dec62a91b621f28e6d87f9a794b2c394e977eb43269d03fe5c3",
+  "sourceHash": "4649f47e59f44b15b15d62f8251dae42f23f6b64b16b6bcbab0fc854e72721aa",
+  "reviewedViews": [
+    "iso",
+    "front",
+    "side",
+    "rear",
+    "close_front",
+    "phone"
+  ],
+  "technicalValidationPassed": true,
+  "visualReview": "Personally inspected exported front, side, isometric, rear, close-front and phone views. Canonical stepped purple Copilot silhouette, blue goggles and green eyes are consistent across all six assets. Mounting and depth checked; small consumer badges are secondary details and do not retain eye detail at distant game scale.",
+  "artisticAcceptance": "pending_user_review"
+}

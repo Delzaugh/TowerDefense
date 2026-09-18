@@ -1,0 +1,35 @@
+{
+  "asset": "copilot_tester",
+  "version": "v01",
+  "revision": 7,
+  "sha256": "d67b958ffe7562f658a27b1f7bf20f80e46d90c19c66c7cc83ce8e308d4870a7",
+  "sourceHash": "4ca9c00142b104e34e5a75d9fdcf7a93a154eb848f0ff408f061bf71792c6431",
+  "reviewedAt": "2026-09-17T23:36:40.9261619Z",
+  "reviewer": "Primary asset editor; personal inspection of exported GLB evidence",
+  "technicalValidation": "passed",
+  "visualInspection": "complete",
+  "artisticAcceptance": "pending user review",
+  "views": [
+    "front.png",
+    "iso.png",
+    "side.png",
+    "rear.png",
+    "inspector_close.png",
+    "inspector_rear_oblique.png",
+    "inspector_bottom.png",
+    "inspector_phone.png",
+    "inspector_small.png"
+  ],
+  "findings": [
+    "Continuous rounded shell and ivory cradle; clean shared face surround",
+    "Circular unequal glass openings; scallops confined to large outer bezel",
+    "Check badge is fully exposed and attached at cheek",
+    "Both side modules seated, bracket symbols clear",
+    "Rear hatch and lower latch visible; underside closed",
+    "Diagnostic lenses and cyan eyes remain readable at small scale"
+  ],
+  "limitations": [
+    "Stylized low-poly interpretation within 3000-triangle target",
+    "Static pose; no new clips or runtime aura geometry"
+  ]
+}

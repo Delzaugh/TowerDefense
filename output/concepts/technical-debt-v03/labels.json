@@ -1,0 +1,31 @@
+{
+  "title": "Technical Debt Ledger Variations",
+  "subtitle": "Recorded shortcuts deferred fixes and growing maintenance obligations.",
+  "category": "General Asset",
+  "options": [
+    {
+      "name": "Deferred Fixes",
+      "description": "Code entries paired with overdue repair tasks"
+    },
+    {
+      "name": "Shortcut Register",
+      "description": "Patched code cover with accumulating debt tabs"
+    },
+    {
+      "name": "Dependency Record",
+      "description": "Indexed dependency entries flag outdated components"
+    },
+    {
+      "name": "Test Deficit",
+      "description": "Code audit ledger with unchecked tests"
+    },
+    {
+      "name": "Rework Balance",
+      "description": "Growing entries record the cost of rework"
+    },
+    {
+      "name": "Legacy Volume",
+      "description": "Layered maintenance records carry unresolved obligations"
+    }
+  ]
+}

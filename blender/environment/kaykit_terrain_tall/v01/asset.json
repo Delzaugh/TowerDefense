@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "id": "kaykit_terrain_tall",
+  "displayName": "terrain tall",
+  "category": "environment",
+  "version": "v01",
+  "revision": 1,
+  "source": {
+    "path": "blender/environment/kaykit_terrain_tall/v01/kaykit_terrain_tall_v01.blend",
+    "mode": "manual",
+    "importedFrom": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_tall.gltf",
+    "authoritativeHash": "e0f86e41568c82de173da5cb3eb4a5f4e60a3e736e9d1031ece1a4e8064d5d69"
+  },
+  "runtime": "assets/runtime/environment/kaykit_terrain_tall_v01.glb",
+  "budgets": {
+    "triangles": 800,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 1024,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": false,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [],
+    "groundY": -1
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/gltf/terrain_tall.gltf",
+      "provenance": "KayKit / Kay Lousberg, Space Base Bits 1.0, CC0; unmodified upstream source."
+    },
+    {
+      "path": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/LICENSE.txt",
+      "provenance": "Upstream CC0 license retained byte-for-byte."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "contract.grounded",
+      "reason": "Preserve the imported assembly/terrain origin during storage migration; not a zero-grounded actor. Authored contact level is recorded in groundY."
+    },
+    {
+      "field": "budgets.textureSize",
+      "value": 1024,
+      "reason": "Retain the existing shared upstream 1024 px palette atlas during storage-only migration; no texture resampling or new unique texture introduced."
+    }
+  ],
+  "milestones": [],
+  "decisions": "blender/environment/kaykit_terrain_tall/v01/decisions.md",
+  "delivery": {
+    "sha256": "4f2f08f1aa4a89f484cf411edd625544ab43e4fd713dfee24ebb2a3135034605",
+    "sourceHash": "e0f86e41568c82de173da5cb3eb4a5f4e60a3e736e9d1031ece1a4e8064d5d69",
+    "report": "blender/environment/kaykit_terrain_tall/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T13:34:24.600Z"
+  }
+}

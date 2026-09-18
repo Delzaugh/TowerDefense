@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_basemodule_a",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "cb25fd50f5ab8fc98040c87bc6538facc4f594f402c2c66d31946029d455f854",
+  "checkedAt": "2026-09-17T21:33:58.885Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 586,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.2481826543807983,
+    1.0000017881393433,
+    2.1759612560272217
+  ],
+  "bounds": [
+    [
+      -1.1759612560272217,
+      -0.0000018477439880371094,
+      -1
+    ],
+    [
+      1.0722213983535767,
+      0.9999999403953552,
+      1.1759612560272217
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_basemodule_a/v01/kaykit_basemodule_a_v01.blend",
+  "sourceHash": "490c4ecf110b76a5dba07568834430c352a1e671734d08cc0e61a581b24f626d",
+  "runtime": "assets/runtime/environment/kaykit_basemodule_a_v01.glb"
+}

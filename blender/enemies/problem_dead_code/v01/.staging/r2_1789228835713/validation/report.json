@@ -1,0 +1,15 @@
+{
+  "asset": "problem_dead_code",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "5089097f67e5c7ccceed6c26dadf31476418c543d252f2c04ee8a5648095759a",
+  "checkedAt": "2026-09-12T16:00:38.924Z",
+  "errors": [
+    "Cannot find module 'playwright'\nRequire stack:\n- C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\tools\\asset-pipeline\\validate.mjs"
+  ],
+  "warnings": [],
+  "passed": false,
+  "sourceHash": "a53a3ee5cb7d8dc76654accf5a3120cefd79a47b1f53a858586703e0e58b3122",
+  "source": "blender/enemies/problem_dead_code/v01/problem_dead_code_v01.blend",
+  "runtime": "assets/runtime/enemies/problem_dead_code_v01.glb"
+}

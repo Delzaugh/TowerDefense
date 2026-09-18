@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_walk_landing",
+  "displayName": "Campus walkway arrival pad",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/campus_walk_landing/v01/campus_walk_landing_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_walk_landing/v01/build.py"
+  },
+  "runtime": "assets/runtime/environment/campus_walk_landing_v01.glb",
+  "budgets": {
+    "textureSize": 64,
+    "textures": 1,
+    "materials": 1,
+    "meshes": 1,
+    "bones": 0,
+    "triangles": 1000
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_start",
+      "anchor_arrival"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "provenance": "User requested improved road endings, joins and placement; reusable closed arrival court, 2026-09-18.",
+      "path": "tools/asset-recipes/campus-kit.py"
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/campus_walk_landing/v01/decisions.md"
+}

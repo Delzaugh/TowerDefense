@@ -1,0 +1,37 @@
+{
+  "asset": "codicon_book",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "42e2a2965915374444dd06d41636496fa16efc36021c11d6c359ba9d8cb002c7",
+  "checkedAt": "2026-09-17T22:19:58.776Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 444,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    0.6000000238418579,
+    0.5142857432365417,
+    0.05999999865889549
+  ],
+  "bounds": [
+    [
+      -0.30000001192092896,
+      0,
+      -0.029999999329447746
+    ],
+    [
+      0.30000001192092896,
+      0.5142857432365417,
+      0.029999999329447746
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "02567d23aa2242a3fc0c4c33606d83d87acd64d9ac52f315b0580f6671ddc1b6",
+  "source": "blender/environment/codicon_book/v01/codicon_book_v01.blend",
+  "runtime": "assets/runtime/environment/codicon_book_v01.glb"
+}

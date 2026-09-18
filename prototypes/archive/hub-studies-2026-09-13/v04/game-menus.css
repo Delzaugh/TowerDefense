@@ -1,0 +1,96 @@
+/* Game destinations occupy the screen, with the actual campus behind them. */
+body:has(#game-dialog[open]) main :is(.home-brand,.home-tools,.site-pin,.continue-panel,.destination-hint,.garden-footer){opacity:0;transition:opacity .18s;pointer-events:none}
+#game-dialog{--ink:#eef6db;--muted:#aac5b3;--paper:#21453d;position:fixed;inset:0;margin:0;width:100vw;max-width:none;height:100dvh;max-height:none;border:0;border-radius:0;padding:clamp(26px,5dvh,68px) clamp(24px,7vw,180px) 24px;background:linear-gradient(100deg,#173c36f5 0%,#173c36ed 40%,#173c36b8 72%,#173c3670);box-shadow:none;overflow:hidden;color:var(--ink)}
+#game-dialog[open]{display:flex;flex-direction:column;animation:menu-arrive .22s ease-out}
+#game-dialog::backdrop{background:#102e2740;backdrop-filter:blur(2px)}
+#game-dialog .dialog-header{flex-shrink:0;position:relative;top:auto;padding:0 0 clamp(25px,4dvh,52px);margin:0;background:none;border:0;align-items:flex-start;gap:25px;color:#edf5d7}
+#game-dialog .dialog-kicker{font:11px Consolas,monospace;letter-spacing:3px;color:#a1c9aa;display:flex;align-items:center;gap:12px;margin:0 0 18px}
+#game-dialog .dialog-kicker:before{content:'';width:28px;height:3px;background:#cbe9a1}
+#game-dialog .dialog-header h2{font-size:clamp(36px,4vw,76px);font-weight:850;letter-spacing:-1.8px;line-height:1;text-shadow:0 4px 0 #082e2930}
+#game-dialog .dialog-heading p{font-size:16px;color:#b4cdb9;margin-top:15px}
+#game-dialog .dialog-header .square-button{display:flex;align-items:center;gap:11px;width:auto;min-height:44px;padding:8px 0;background:none;border:0;border-radius:0;box-shadow:none;color:#dae9cc;font:11px 'Segoe UI',sans-serif;font-weight:700;letter-spacing:1px;white-space:nowrap}
+#game-dialog kbd{font:10px Consolas,monospace;display:inline-grid;place-items:center;min-width:25px;min-height:24px;padding:4px;border:1px solid #90b69a66;background:#a6cba310;color:#c8ddbc;border-radius:2px}
+#game-dialog .dialog-header .square-button:hover{color:#d5f49f;translate:-3px 0}
+#game-dialog .dialog-body{padding:8px 6px 22px;min-height:0;flex:1;overflow:auto;width:100%;max-width:1500px;scrollbar-width:thin;scrollbar-color:#819f79 #ffffff08}
+#game-dialog .menu-footer{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-shrink:0;padding-top:18px;margin-top:6px;border-top:1px solid #bad7a925;color:#97b79e;font:9px Consolas,monospace;letter-spacing:1.5px}
+.menu-footer>span:first-child{display:flex;align-items:center;gap:8px}
+#game-dialog .game-button,#game-dialog .dialog-actions .game-button{background:#90b19c17;border:1px solid #a9c6a65e;border-radius:2px;color:#e1edd2;font-size:14px;font-weight:750;letter-spacing:1px;min-height:56px;padding:15px 25px;box-shadow:0 4px 0 #07291f24;gap:12px}
+#game-dialog .game-button.primary,#game-dialog .dialog-actions .game-button.primary{background:#cde5a4;color:#294c3d;border-color:#dceebe;box-shadow:0 4px 0 #6c9474;font-weight:850}
+#game-dialog .game-button.selected{background:#cde5a4;color:#284a3c;border-color:#dceebe}
+#game-dialog .game-button:hover{background:#9bbe9a30;translate:0 -2px;filter:none}
+#game-dialog .game-button.primary:hover,#game-dialog .game-button.selected:hover{background:#e0f1bd}
+#game-dialog :is(button,input):focus-visible{outline:2px solid #e2f7bd;outline-offset:4px}
+#game-dialog .dialog-actions{justify-content:flex-start;gap:16px;margin-top:30px}
+#game-dialog .overlay-note{font-size:12px;line-height:1.6;color:#a8c0a9;text-align:left;margin-top:22px}
+#game-dialog .status-tag{background:#b8d49e14;border:1px solid #b8d49e50;border-radius:2px;color:#d4e7b8;font-size:11px;padding:10px 14px}
+/* Options read as a selectable pause-menu list, not a preference form. */
+.options-menu{max-width:900px;width:68%;padding-top:10px}
+.options-section{font:11px Consolas,monospace;letter-spacing:2.5px;color:#8daf99;margin-bottom:22px}
+#game-dialog .setting-row{position:relative;display:flex;align-items:center;gap:24px;min-height:110px;padding:22px 25px;border:0;border-left:3px solid #b0d09830;background:linear-gradient(90deg,#8db79812,#8db79805);margin-bottom:12px;cursor:pointer;transition:background .15s,translate .15s}
+#game-dialog .setting-row:hover,#game-dialog .setting-row:focus-within{background:linear-gradient(90deg,#cbe5a629,#cbe5a611);border-left-color:#d6efae;translate:4px 0}
+.option-number{font:12px Consolas,monospace;color:#88ac8e}
+.option-copy{flex:1;min-width:0}
+#game-dialog .setting-row strong{font-size:23px;letter-spacing:.2px;color:#e8f3d6;font-weight:750}
+#game-dialog .setting-row p{font-size:13px;line-height:1.4;margin-top:8px;color:#a0bca8}
+#game-dialog .setting-row input{position:absolute;opacity:0;width:1px;height:1px;inset:50% auto auto 0;margin:0}
+.option-value{display:flex;align-items:center;justify-content:space-between;gap:16px;min-width:128px;flex-shrink:0;padding:10px 0;color:#a9c2ab}
+.option-value>span{font-size:25px;color:#9ebd92}
+.option-value b{font-size:18px;letter-spacing:2px;font-weight:750}
+.value-on{display:none}
+.setting-row input:checked~.option-value .value-off{display:none}
+.setting-row input:checked~.option-value .value-on{display:block;color:#d8efab}
+.setting-row:has(input:checked){border-left-color:#a5c987!important}
+/* Collections and level routes have room to read like game selections. */
+#game-dialog .collection-intro{font-size:12px;color:#a3bfa6;margin-bottom:30px;max-width:1200px}
+#game-dialog .collection-intro strong{font-size:28px;color:#d4e7b0}
+#game-dialog .collection-intro small{font-size:11px;color:#9ebda4}
+#game-dialog .collection{gap:22px;max-width:1300px}
+#game-dialog .collection .persona-card{border-radius:2px;background:linear-gradient(#a2c89c06,#a2c89c20);border:1px solid #a4c49b42;border-bottom:3px solid #aac99670;box-shadow:none;padding:40px 20px 28px;min-height:330px}
+#game-dialog .collection .persona-card:hover,#game-dialog .collection .persona-card:focus-visible{background:linear-gradient(#a2c89c15,#c3e29f38);border-color:#cee5b0;translate:0 -6px}
+#game-dialog .collection .persona-locked{border-style:dashed;opacity:.76}
+#game-dialog .persona-slot{font-size:12px;color:#a4c295;top:18px;left:20px}
+#game-dialog .persona-plinth svg{width:100%;height:clamp(140px,21dvh,270px);max-height:none;filter:drop-shadow(0 12px 10px #0c302b50)}
+#game-dialog .persona-plinth:after{border-color:#bed49f48;background:#c4dfaa10}
+#game-dialog .collection .persona-card h3{color:#e6f0d5;font-size:24px;margin:20px 0 17px}
+#game-dialog .persona-status{color:#b9d2ac;font-size:10px;letter-spacing:1px}
+#game-dialog .campaign-route{max-width:1050px;gap:18px}
+#game-dialog .campaign-route:before{left:47px;background:#9eb98b60}
+#game-dialog .level-choice{min-height:125px;padding:21px 24px;gap:25px;background:#a7c79c10;border:1px solid #a7c79c40;border-radius:2px;box-shadow:none}
+#game-dialog .level-choice.level-ready{background:linear-gradient(100deg,#c6dfa333,#c6dfa30b);border-left:4px solid #d3e9ac;box-shadow:none}
+#game-dialog .level-choice:hover{background:#c6dfa32a;border-color:#cbe3a7}
+#game-dialog .level-emblem{border:1px solid #b6d19c45;border-radius:0;width:66px;height:66px;background:#b6d19c0c;box-shadow:none}
+#game-dialog .level-emblem .icon{color:#c4dcaa;width:31px;height:31px}
+#game-dialog .level-summary small{color:#a9c799;font-size:10px;letter-spacing:1px}
+#game-dialog .level-choice .level-summary h3{color:#e5f1cf;font-size:25px;margin:8px 0}
+#game-dialog .level-summary p{color:#acc4a6;font-size:14px}
+#game-dialog .level-end{background:none;border:0}.level-end .icon{color:#bdd4a5!important}
+#game-dialog .campaign-reward{max-width:1050px;margin-top:12px}
+#game-dialog .campaign-reward strong{color:#cfe0ba;font-size:14px}
+#game-dialog .campaign-reward small{color:#98b68c;font-size:10px}
+#game-dialog .brief-grid{grid-template-columns:1.1fr 1fr;gap:50px;align-items:center}
+#game-dialog .brief-art{height:clamp(220px,35dvh,460px);border:0;border-radius:0;background:radial-gradient(ellipse,#b3d39727,transparent 70%);box-shadow:none;overflow:visible}
+#game-dialog .brief-art .world-svg{transform:scale(1.15)}
+#game-dialog .brief-copy h3{font-size:clamp(32px,3.5vw,60px);color:#e7f1d4;letter-spacing:-1.5px;margin:20px 0 25px}
+#game-dialog .brief-copy .mini-status{font-size:15px;border-color:#abc49e30;color:#c1d6b3;padding:13px 0}
+#game-dialog .persona-detail{gap:55px;max-width:1200px}
+#game-dialog .persona-detail>div:first-child{background:radial-gradient(ellipse,#b7d59020,transparent 68%)}
+#game-dialog .persona-detail h3{font-size:40px;color:#e1efc9}
+#game-dialog .persona-detail p{font-size:16px;color:#b6cfae;line-height:1.6}
+#game-dialog .trait-list{color:#ccdfbd;font-size:16px}
+#game-dialog .trait-list .icon{color:#b2d39b}
+#game-dialog .growth-view,#game-dialog .planning-stage{height:clamp(220px,40dvh,510px);border:0;background:radial-gradient(ellipse,#abc9961a,transparent 70%);border-radius:0;overflow:hidden}
+#game-dialog .growth-title{color:#e2edcf;font-size:21px;letter-spacing:2px}
+#game-dialog .growth-controls{justify-content:center}
+#game-dialog[data-view=your-product] .overlay-note{text-align:center}
+#game-dialog .mode-panel h3{color:#dcebc9;font-size:17px}
+#game-dialog .mode-help{color:#bdd0b3;font-size:14px}
+.high-contrast #game-dialog{background:linear-gradient(100deg,#15352afa,#15352af2)}
+.high-contrast #game-dialog :is(p,small,.overlay-note,.persona-status){color:#e1edce}
+@keyframes menu-arrive{from{opacity:0;translate:0 8px}to{opacity:1;translate:0 0}}
+@media(min-width:1900px){#game-dialog .dialog-body{padding-top:25px}.options-menu{padding-top:30px}#game-dialog .setting-row{min-height:125px}}
+@media(max-width:1000px){#game-dialog{padding:32px 34px 20px}.options-menu{width:90%}#game-dialog .dialog-header h2{font-size:45px}#game-dialog .dialog-header .square-button>span{display:none}#game-dialog .collection{gap:15px}#game-dialog .collection .persona-card{padding:32px 12px 23px;min-height:260px}#game-dialog .collection .persona-card h3{font-size:20px}#game-dialog .brief-grid{gap:25px}#game-dialog .persona-detail{gap:30px}}
+@media(max-width:600px){#game-dialog{padding:27px 20px 16px;background:linear-gradient(100deg,#173c36f7,#173c36e5)}#game-dialog .dialog-header{padding-bottom:25px;gap:12px}#game-dialog .dialog-header h2{font-size:34px;letter-spacing:-1px}#game-dialog .dialog-kicker{font-size:9px;letter-spacing:2px;margin-bottom:13px}#game-dialog .dialog-heading p{font-size:12px;line-height:1.5;margin-top:12px}#game-dialog .dialog-header .square-button{min-height:32px;padding-top:0}#game-dialog .dialog-body{padding:5px 4px 16px}.options-menu{width:100%;padding:5px 0}.options-section{font-size:9px;letter-spacing:1.5px;margin-bottom:18px}#game-dialog .setting-row{min-height:105px;padding:18px 12px;gap:11px}.option-number{font-size:10px}#game-dialog .setting-row strong{font-size:18px}#game-dialog .setting-row p{font-size:11px;margin-top:7px}.option-value{min-width:75px;gap:8px}.option-value b{font-size:14px;letter-spacing:1px}.option-value>span{font-size:20px}#game-dialog .dialog-actions{gap:12px;flex-wrap:wrap;margin-top:24px}#game-dialog .game-button,#game-dialog .dialog-actions .game-button{font-size:11px;letter-spacing:.5px;padding:13px 15px;min-height:48px}#game-dialog .menu-footer{font-size:7px;letter-spacing:.5px;padding-top:12px}.menu-footer>span:first-child{gap:5px}#game-dialog .menu-footer>span:last-child{display:none}#game-dialog .menu-footer kbd{font-size:8px;min-width:21px;min-height:21px}#game-dialog .collection-intro{font-size:9px;margin-bottom:20px}#game-dialog .collection-intro strong{font-size:22px}#game-dialog .collection-intro small{font-size:8px}#game-dialog .collection{grid-template-columns:1fr 1fr;gap:13px}#game-dialog .collection .persona-card{min-height:220px;padding:25px 10px 22px}#game-dialog .persona-plinth svg{height:135px}#game-dialog .collection .persona-card h3{font-size:18px;margin:12px 0}#game-dialog .persona-status{font-size:8px;letter-spacing:0}#game-dialog .persona-slot{font-size:9px;top:12px;left:13px}#game-dialog .level-choice{padding:17px 12px;min-height:115px;gap:12px}#game-dialog .level-emblem{width:40px;height:48px}#game-dialog .level-emblem .icon{width:24px;height:24px}#game-dialog .level-choice .level-summary h3{font-size:18px}#game-dialog .level-summary small{font-size:8px;letter-spacing:.3px}#game-dialog .level-summary p{font-size:11px}#game-dialog .level-end{display:none}#game-dialog .campaign-reward strong{font-size:11px}#game-dialog .campaign-reward small{font-size:8px}#game-dialog .brief-grid{grid-template-columns:1fr;gap:12px}#game-dialog .brief-art{height:190px;overflow:hidden}#game-dialog .brief-copy h3{font-size:32px;margin:15px 0}#game-dialog .brief-copy .mini-status{font-size:12px;padding:10px 0}#game-dialog .status-tag{font-size:9px;padding:8px 10px}#game-dialog .overlay-note{font-size:10px}#game-dialog .persona-detail{grid-template-columns:1fr;gap:15px}#game-dialog .persona-detail>div:first-child{max-height:190px}#game-dialog .persona-detail>div:first-child svg{height:190px}#game-dialog .persona-detail h3{font-size:29px}#game-dialog .persona-detail p,#game-dialog .trait-list{font-size:13px}#game-dialog .growth-title{font-size:16px;line-height:1.5}#game-dialog .growth-view,#game-dialog .planning-stage{height:240px}}
+@media(max-height:600px) and (min-width:601px){#game-dialog{padding:20px 35px 15px}#game-dialog .dialog-header{padding-bottom:18px}#game-dialog .dialog-header h2{font-size:33px}#game-dialog .dialog-kicker,#game-dialog .dialog-heading p{display:none}#game-dialog .menu-footer{padding-top:10px}.options-menu{padding:0;width:85%}.options-section{margin-bottom:12px}#game-dialog .setting-row{min-height:76px;padding:13px 20px}#game-dialog .setting-row strong{font-size:19px}#game-dialog .setting-row p{font-size:11px}#game-dialog .dialog-actions{margin-top:18px}#game-dialog .persona-plinth svg{height:125px}#game-dialog .collection .persona-card{min-height:220px}#game-dialog .brief-art{height:210px}}
+.touch-return{display:none;font-style:normal}
+@media(max-width:600px){#game-dialog .dialog-header .square-button{min-width:44px;min-height:44px;justify-content:center;margin-top:-6px}#game-dialog .dialog-header .square-button kbd{display:none}.touch-return{display:block;font-size:27px}#game-dialog .menu-footer>span:first-child{display:none}#game-dialog .menu-footer:before{content:'TAP TO SELECT';letter-spacing:1.5px}}
+@media(prefers-reduced-motion:reduce){#game-dialog[open],#game-dialog *{animation:none;transition:none}}.reduced-motion #game-dialog[open],.reduced-motion #game-dialog *{animation:none;transition:none}

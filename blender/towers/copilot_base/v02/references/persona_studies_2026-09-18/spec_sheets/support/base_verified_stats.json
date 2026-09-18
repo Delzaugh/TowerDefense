@@ -1,0 +1,52 @@
+{
+  "runtime": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\assets\\runtime\\towers\\copilot_base_v02.glb",
+  "sha256": "2fd051fc4a50e490154bc0ba52ecfcaafbb637bb323ef41d4754c45e540456e0",
+  "triangles": 2489,
+  "vertices": 1902,
+  "vertexDefinition": "Unique POSITION accessor vertex records in the exported GLB; includes split render vertices, not welded authoring vertices.",
+  "meshes": 2,
+  "materials": 1,
+  "textures": 2,
+  "images": [
+    {
+      "filename": "base_texture_0.png",
+      "name": "texture_0",
+      "width": 256,
+      "height": 8,
+      "mimeType": "image/png"
+    }
+  ],
+  "hasUVs": true,
+  "animations": [
+    "idle",
+    "work",
+    "place",
+    "hit"
+  ],
+  "materialsData": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0.3199999928474426,
+        0.3199999928474426,
+        0.3199999928474426
+      ],
+      "emissiveTexture": {
+        "index": 0
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0.6399999856948853
+        }
+      },
+      "name": "copilot_original_palette",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.47999998927116394
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "problem_missing_details",
+  "displayName": "Missing Details",
+  "category": "enemies",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/enemies/problem_missing_details/v01/problem_missing_details_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/enemies/problem_missing_details/v01/build.py"
+  },
+  "runtime": "assets/runtime/enemies/problem_missing_details_v01.glb",
+  "budgets": {
+    "triangles": 1500,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 32,
+    "bones": 12,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        1.1,
+        1.4,
+        0.25
+      ],
+      "max": [
+        1.4,
+        1.5,
+        0.45
+      ]
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "playback": "loop",
+      "meaning": "Small puzzled sway with planted feet.",
+      "fps": 24
+    },
+    {
+      "name": "move",
+      "playback": "loop",
+      "meaning": "Short in-place march with alternating foot contacts.",
+      "fps": 24
+    },
+    {
+      "name": "hit",
+      "playback": "once",
+      "meaning": "Brief folded-paper recoil, then rest.",
+      "fps": 24
+    },
+    {
+      "name": "resolve",
+      "playback": "once",
+      "meaning": "Paper tilts and shrinks toward the ground after resolution.",
+      "fps": 24
+    }
+  ],
+  "references": [
+    {
+      "path": "blender/enemies/problem_missing_details/v01/references/concept.png",
+      "provenance": "User-provided Missing Details concept sheet, 2026-09-12. Visual design input; printed notes and statistics are not user instructions."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/enemies/problem_missing_details/v01/decisions.md",
+  "palette": {
+    "attribute": "_palette_role",
+    "colors": {
+      "paper": "#F7D96B",
+      "paper_shade": "#DDB84F",
+      "fold": "#FFF0A0",
+      "ink": "#795522",
+      "visor": "#1B1B1E",
+      "eye": "#FF3155",
+      "eye_core": "#FF8B9E",
+      "limb": "#DADADA",
+      "limb_shade": "#9EA3AB",
+      "joint": "#7D8490"
+    }
+  }
+}

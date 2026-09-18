@@ -1,0 +1,15 @@
+{
+  "asset": "bert_breugelmans",
+  "version": "v01",
+  "revision": 25,
+  "sha256": "a9d5296ba0920ea5adfd04fd4356534a2278184fe0f2ddaaa9d2a2f24bea1092",
+  "checkedAt": "2026-09-17T21:48:18.368Z",
+  "errors": [
+    "Cannot find module 'playwright'\nRequire stack:\n- C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\tools\\asset-pipeline\\validate.mjs"
+  ],
+  "warnings": [],
+  "passed": false,
+  "sourceHash": "64a8e53a3693c521666d7bdf4599e7dbbf0052d3ad7582d9ea5d63eabdfaa013",
+  "source": "blender/towers/bert_breugelmans/v01/bert_breugelmans_v01.blend",
+  "runtime": "assets/runtime/towers/bert_breugelmans_v01.glb"
+}

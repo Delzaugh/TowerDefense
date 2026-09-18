@@ -1,0 +1,37 @@
+{
+  "asset": "github_mona_head",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "bccfb8d95d5e909681b07288884e6d7ff0671ba2673a51cd5f62668bafe954da",
+  "checkedAt": "2026-09-17T21:33:51.390Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 2473,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.2799999713897705,
+    2.3033347129821777,
+    2.19646954536438
+  ],
+  "bounds": [
+    [
+      -1.1399999856948853,
+      0,
+      -1.09823477268219
+    ],
+    [
+      1.1399999856948853,
+      2.3033347129821777,
+      1.09823477268219
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/towers/github_mona_head/v01/github_mona_head_v01.blend",
+  "sourceHash": "fabae271770f41e34a83727d52c76690d25edbdba276a9e61d087e21f940b107",
+  "runtime": "assets/runtime/towers/github_mona_head_v01.glb"
+}

@@ -1,0 +1,15 @@
+{
+  "asset": "campus_walk_straight",
+  "geometryHash": "545aa872a3575e20585f5a030dd9461dfb4f225ae36cbbbc99ecec7f658d06d8",
+  "maxLinearColorError": 2.2297857227293605e-8,
+  "size": [
+    16,
+    4
+  ],
+  "materials": [
+    "glacier_palette.001"
+  ],
+  "usedRoles": 3,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\environment\\campus_walk_straight\\v01\\campus_walk_straight_v01.blend"
+}

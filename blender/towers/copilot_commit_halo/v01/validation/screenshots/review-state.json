@@ -1,0 +1,94 @@
+{
+  "errors": [],
+  "state": {
+    "loading": false,
+    "activePath": "towers/copilot_commit_halo_v01.glb",
+    "view": "iso",
+    "projection": "OrthographicCamera",
+    "distance": 5.990247604830041,
+    "target": [
+      0,
+      1.2415000200271606,
+      0.1771787703037262
+    ],
+    "camera": [
+      3.1078943702578234,
+      4.325392373029803,
+      4.265413952577808
+    ],
+    "effects": [
+      {
+        "path": "towers/copilot_commit_halo_v01.glb",
+        "enabled": false,
+        "triangles": 0,
+        "meshes": 0,
+        "materials": 0
+      }
+    ],
+    "entries": [
+      {
+        "path": "towers/copilot_commit_halo_v01.glb",
+        "revision": "c314bb5c44afd741a096be7536777602acdee46eb4235c36fb1f0a78c5ddeea5",
+        "triangles": 2784,
+        "meshes": 3,
+        "materials": 3,
+        "bounds": [
+          [
+            -1.3092304468154907,
+            0,
+            -0.8876424431800842
+          ],
+          [
+            1.3092304468154907,
+            2.4830000400543213,
+            1.2419999837875366
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": "idle",
+            "duration": 6.041666507720947
+          },
+          {
+            "name": "work",
+            "duration": 3.0416667461395264
+          }
+        ],
+        "clip": null,
+        "time": 0,
+        "playing": false,
+        "loop": true,
+        "speed": 1,
+        "pose": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1.100000023841858,
+          0,
+          1
+        ]
+      }
+    ]
+  },
+  "note": "{\n  \"asset\": \"copilot_commit_halo\",\n  \"version\": \"v01\",\n  \"revision\": 19,\n  \"sha256\": \"c314bb5c44afd741a096be7536777602acdee46eb4235c36fb1f0a78c5ddeea5\",\n  \"view\": \"iso\",\n  \"projection\": \"OrthographicCamera\",\n  \"camera\": [\n    3.1078943702578234,\n    4.325392373029803,\n    4.265413952577808\n  ],\n  \"target\": [\n    0,\n    1.2415000200271606,\n    0.1771787703037262\n  ],\n  \"distance\": 5.990247604830041,\n  \"clip\": null,\n  \"time\": 0,\n  \"loop\": true,\n  \"speed\": 1,\n  \"part\": null,\n  \"appearance\": {\n    \"background\": \"light\",\n    \"lighting\": \"studio\",\n    \"ground\": false,\n    \"phoneWidth\": false\n  },\n  \"previewOnlyChanges\": {},\n  \"note\": \"\"\n}"
+}

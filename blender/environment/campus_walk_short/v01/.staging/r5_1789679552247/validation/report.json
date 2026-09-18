@@ -1,0 +1,37 @@
+{
+  "asset": "campus_walk_short",
+  "version": "v01",
+  "revision": 5,
+  "sha256": "bd11f0d9982e7ac2230b7a0076d47ce55f91cb9d6dca4c11e39f512e741d4792",
+  "checkedAt": "2026-09-17T21:12:40.867Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 156,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    3.200000047683716,
+    0.0860000029206276,
+    2
+  ],
+  "bounds": [
+    [
+      -1.600000023841858,
+      0,
+      -1
+    ],
+    [
+      1.600000023841858,
+      0.0860000029206276,
+      1
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "56df694d2848dcd911d96eb877322aa47b63a5df87cdde88452d922d38b3a9b6",
+  "source": "blender/environment/campus_walk_short/v01/campus_walk_short_v01.blend",
+  "runtime": "assets/runtime/environment/campus_walk_short_v01.glb"
+}

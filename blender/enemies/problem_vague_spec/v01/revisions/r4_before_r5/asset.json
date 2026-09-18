@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "problem_vague_spec",
+  "displayName": "Vague Spec",
+  "category": "enemies",
+  "version": "v01",
+  "revision": 4,
+  "source": {
+    "path": "blender/enemies/problem_vague_spec/v01/problem_vague_spec_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/enemies/problem_vague_spec/v01/build.py",
+    "authoritativeHash": "6aeb6e0bb35ba2e63a8b3d81202646f6d4301d42947095560e99c93521c1793f"
+  },
+  "runtime": "assets/runtime/enemies/problem_vague_spec_v01.glb",
+  "budgets": {
+    "triangles": 1500,
+    "materials": 1,
+    "textures": 0,
+    "textureSize": 512,
+    "bones": 12,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        1,
+        1.4,
+        0.25
+      ],
+      "max": [
+        1.35,
+        1.55,
+        0.5
+      ]
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "playback": "loop",
+      "meaning": "Small uncertain sway with planted boots.",
+      "fps": 24
+    },
+    {
+      "name": "move",
+      "playback": "loop",
+      "meaning": "In-place short-step walk with flat soles and counter-swinging arms.",
+      "fps": 24
+    },
+    {
+      "name": "hit",
+      "playback": "once",
+      "meaning": "Brief parchment recoil, then return to rest.",
+      "fps": 24
+    },
+    {
+      "name": "resolve",
+      "playback": "once",
+      "meaning": "Visual tuck and shrink toward the feet after simulation resolution.",
+      "fps": 24
+    }
+  ],
+  "references": [
+    {
+      "provenance": "User-provided Vague Spec concept sheet (clipboard PNG, 2026-09-12); visual design input, not additional instructions.",
+      "path": "blender/enemies/problem_vague_spec/v01/references/concept.png"
+    },
+    {
+      "provenance": "User screenshot identifying misplaced shoulder attachments; visual evidence accompanying the explicit refinement request.",
+      "path": "blender/enemies/problem_vague_spec/v01/references/user_shoulders_r3.png"
+    },
+    {
+      "provenance": "User screenshot identifying overlapping body and hip join; visual evidence accompanying the explicit refinement request.",
+      "path": "blender/enemies/problem_vague_spec/v01/references/user_hip_r3.png"
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/enemies/problem_vague_spec/v01/revisions/r2_before_r3/problem_vague_spec_v01.glb",
+      "source": "blender/enemies/problem_vague_spec/v01/revisions/r2_before_r3/problem_vague_spec_v01.blend",
+      "sha256": "b902d04f6e4d514d35b86458438d6c262d4115c659b86e9d1589cfabb30eea06",
+      "sourceHash": "244de939d1f210f0f0db586db6bbd641a9e4c746a88e5f2b1915f33abbf48937"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/enemies/problem_vague_spec/v01/revisions/r3_before_r4/problem_vague_spec_v01.glb",
+      "source": "blender/enemies/problem_vague_spec/v01/revisions/r3_before_r4/problem_vague_spec_v01.blend",
+      "sha256": "9540c9af88b86e9eaa4d47bb1afb7348e9a4d331ba048a3154a46e0d5a6ebaf0",
+      "sourceHash": "a7589ab2f6383d77d0a648f82f5e95efd63efdf0eaaf45c3bbbdcca294c4b509"
+    }
+  ],
+  "decisions": "blender/enemies/problem_vague_spec/v01/decisions.md",
+  "palette": {
+    "colors": {
+      "paper": "#E5EBEF",
+      "paper_shade": "#C9D3DE",
+      "edge": "#F3F6F8",
+      "ink": "#29394D",
+      "line": "#8E9FAD",
+      "limb_light": "#A5B2C2",
+      "limb": "#627389",
+      "joint": "#303D50",
+      "boot": "#43546C",
+      "accent": "#D8A24D"
+    },
+    "attribute": "_palette_role"
+  },
+  "delivery": {
+    "sha256": "cd61124960cc97d92fc85a160e363ef07afa0e3cf1d17bf7f9233f658abacf5f",
+    "sourceHash": "6aeb6e0bb35ba2e63a8b3d81202646f6d4301d42947095560e99c93521c1793f",
+    "report": "blender/enemies/problem_vague_spec/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T14:08:32.835Z"
+  }
+}

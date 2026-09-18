@@ -1,0 +1,39 @@
+{
+  "asset": "campus_path_bollard",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "97575728b5686787c4c582b4c16a3170ca69adfb468820594e2a27a697c1be4a",
+  "checkedAt": "2026-09-17T22:34:37.703Z",
+  "errors": [
+    "meshes exceeds budget: 2 / 1"
+  ],
+  "warnings": [],
+  "triangles": 156,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 2,
+  "bones": 0,
+  "dimensions": [
+    0.6800000071525574,
+    1.2899999618530273,
+    0.6800000071525574
+  ],
+  "bounds": [
+    [
+      -0.3400000035762787,
+      0,
+      -0.3400000035762787
+    ],
+    [
+      0.3400000035762787,
+      1.2899999618530273,
+      0.3400000035762787
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": false,
+  "sourceHash": "12fd9b484bc3ef87affc720b74b39430398e277cc6ee89a04b9862b0d0c14303",
+  "source": "blender/environment/campus_path_bollard/v01/campus_path_bollard_v01.blend",
+  "runtime": "assets/runtime/environment/campus_path_bollard_v01.glb"
+}

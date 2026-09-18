@@ -1,0 +1,162 @@
+{
+  "revision": 25,
+  "sourceHash": "64a8e53a3693c521666d7bdf4599e7dbbf0052d3ad7582d9ea5d63eabdfaa013",
+  "unchangedGeometryUvsWeightsOtherClipsAndPackedImages": true,
+  "differences": [],
+  "samples": 193,
+  "contacts": [
+    {
+      "frame": 28.0,
+      "surfaceVertexDistance": 1.394274386257166e-05,
+      "triangleIntersections": 137
+    },
+    {
+      "frame": 40.0,
+      "surfaceVertexDistance": 0.0013446820667013526,
+      "triangleIntersections": 21
+    },
+    {
+      "frame": 41.0,
+      "surfaceVertexDistance": 1.4023394214746077e-05,
+      "triangleIntersections": 137
+    },
+    {
+      "frame": 54.0,
+      "surfaceVertexDistance": 1.40075035233167e-05,
+      "triangleIntersections": 137
+    }
+  ],
+  "handIntersections": [
+    {
+      "frame": 26.5,
+      "trianglePairs": 6
+    },
+    {
+      "frame": 27.0,
+      "trianglePairs": 21
+    },
+    {
+      "frame": 27.5,
+      "trianglePairs": 99
+    },
+    {
+      "frame": 28.0,
+      "trianglePairs": 137
+    },
+    {
+      "frame": 28.5,
+      "trianglePairs": 136
+    },
+    {
+      "frame": 29.0,
+      "trianglePairs": 117
+    },
+    {
+      "frame": 29.5,
+      "trianglePairs": 26
+    },
+    {
+      "frame": 30.0,
+      "trianglePairs": 10
+    },
+    {
+      "frame": 30.5,
+      "trianglePairs": 6
+    },
+    {
+      "frame": 39.5,
+      "trianglePairs": 6
+    },
+    {
+      "frame": 40.0,
+      "trianglePairs": 21
+    },
+    {
+      "frame": 40.5,
+      "trianglePairs": 90
+    },
+    {
+      "frame": 41.0,
+      "trianglePairs": 137
+    },
+    {
+      "frame": 41.5,
+      "trianglePairs": 136
+    },
+    {
+      "frame": 42.0,
+      "trianglePairs": 117
+    },
+    {
+      "frame": 42.5,
+      "trianglePairs": 36
+    },
+    {
+      "frame": 43.0,
+      "trianglePairs": 16
+    },
+    {
+      "frame": 43.5,
+      "trianglePairs": 7
+    },
+    {
+      "frame": 52.5,
+      "trianglePairs": 10
+    },
+    {
+      "frame": 53.0,
+      "trianglePairs": 36
+    },
+    {
+      "frame": 53.5,
+      "trianglePairs": 108
+    },
+    {
+      "frame": 54.0,
+      "trianglePairs": 137
+    },
+    {
+      "frame": 54.5,
+      "trianglePairs": 136
+    },
+    {
+      "frame": 55.0,
+      "trianglePairs": 117
+    },
+    {
+      "frame": 55.5,
+      "trianglePairs": 47
+    },
+    {
+      "frame": 56.0,
+      "trianglePairs": 21
+    },
+    {
+      "frame": 56.5,
+      "trianglePairs": 12
+    },
+    {
+      "frame": 57.0,
+      "trianglePairs": 6
+    }
+  ],
+  "maxSoleDriftMetres": 5.765515909484077e-06,
+  "soleHeightRange": [
+    -5.761579814134166e-06,
+    1.7166138377433526e-07
+  ],
+  "minimumElbowBelowShoulderMetres": 0.24539899826049805,
+  "maxHalfFrameBoneRotationDegrees": 6.262382310818074,
+  "maxHalfFrameWristTravelMetres": 0.033802030748686485,
+  "endpoints": [
+    {
+      "frame": 0.0,
+      "maxRestMatrixError": 2.0203733583912253e-06
+    },
+    {
+      "frame": 96.0,
+      "maxRestMatrixError": 2.0203733583912253e-06
+    }
+  ],
+  "passed": false
+}

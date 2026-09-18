@@ -1,0 +1,13 @@
+{
+  "title": "The People Manager Concept Variations",
+  "subtitle": "Support towers for coaching and coordinating nearby developers.",
+  "category": "Tower",
+  "options": [
+    {"name": "Sprint Conductor", "description": "Raised baton above a tailored waistcoat"},
+    {"name": "Huddle Hub", "description": "Curved teamwork desk with linked emblem"},
+    {"name": "Morale Beacon", "description": "Open broadcast ring frames encouraging coach"},
+    {"name": "Blocker Breaker", "description": "Oversized zipper opens split support panels"},
+    {"name": "Growth Mentor", "description": "Branching pedestal carries chunky learning blocks"},
+    {"name": "Capacity Balancer", "description": "Shoulder beam balances twin workload trays"}
+  ]
+}

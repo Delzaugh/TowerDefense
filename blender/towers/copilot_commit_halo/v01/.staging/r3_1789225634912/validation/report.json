@@ -1,0 +1,15 @@
+{
+  "asset": "copilot_commit_halo",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "eb3a3c18535355e7f49c44d891bdbe81dd7b2689ae547f1a5722059820c58661",
+  "checkedAt": "2026-09-12T15:07:20.572Z",
+  "errors": [
+    "Cannot find module 'playwright'\nRequire stack:\n- C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\tools\\asset-pipeline\\validate.mjs"
+  ],
+  "warnings": [],
+  "passed": false,
+  "sourceHash": "9a814b0d462a31dd495692c644adfad5d2613944e7e362079348f87375f94fed",
+  "source": "blender/towers/copilot_commit_halo/v01/copilot_commit_halo_v01.blend",
+  "runtime": "assets/runtime/towers/copilot_commit_halo_v01.glb"
+}

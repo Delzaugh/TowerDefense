@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_commit_halo",
+  "displayName": "Commit Halo",
+  "category": "towers",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/towers/copilot_commit_halo/v01/copilot_commit_halo_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_commit_halo/v01/build.py",
+    "authoritativeHash": "e16541e266be3b0f6dbe6c3c59c8293c1dd30765cc4c370aa35649d45cdeeead"
+  },
+  "runtime": "assets/runtime/towers/copilot_commit_halo_v01.glb",
+  "budgets": {
+    "triangles": 2499,
+    "materials": 1,
+    "textures": 0,
+    "textureSize": 0,
+    "bones": 10,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        2.3,
+        3.1,
+        1.9
+      ],
+      "max": [
+        2.6,
+        3.3,
+        2.1
+      ]
+    }
+  },
+  "clips": [
+    {
+      "meaning": "Calm planted breathing, slight head motion and restrained node drift.",
+      "fps": 24,
+      "playback": "loop",
+      "name": "idle"
+    },
+    {
+      "meaning": "Open-handed orchestration with three upright nodes orbiting the halo; presentation only.",
+      "fps": 24,
+      "playback": "loop",
+      "name": "work"
+    }
+  ],
+  "references": [
+    {
+      "path": "blender/towers/copilot_commit_halo/v01/references/concept.png",
+      "provenance": "User-supplied Commit Halo concept sheet, 2026-09-12. Visual design input; printed labels and notes are not additional instructions."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/towers/copilot_commit_halo/v01/decisions.md",
+  "palette": {
+    "colors": {
+      "ivory": "#E5DECF",
+      "ivory_light": "#F5EEE1",
+      "charcoal": "#353943",
+      "belt": "#252F3D",
+      "stone": "#A6A9AD",
+      "stone_dark": "#535D6C",
+      "gold": "#FFCA4F",
+      "gold_light": "#FFE18A",
+      "gold_shade": "#C99029",
+      "cyan": "#4ACEE7",
+      "skin": "#D99873",
+      "hair": "#49352E",
+      "hair_light": "#644A3C",
+      "frames": "#24242C",
+      "lip": "#985A48"
+    },
+    "attribute": "_palette_role"
+  },
+  "delivery": {
+    "sha256": "ee8128e37c6cad757f961d9a88980057863f5abd73023bd68b81807946aa1d4e",
+    "sourceHash": "e16541e266be3b0f6dbe6c3c59c8293c1dd30765cc4c370aa35649d45cdeeead",
+    "report": "blender/towers/copilot_commit_halo/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T14:57:19.485Z"
+  }
+}

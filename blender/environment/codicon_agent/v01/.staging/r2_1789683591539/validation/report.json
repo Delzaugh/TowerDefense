@@ -1,0 +1,37 @@
+{
+  "asset": "codicon_agent",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "1ee614fb526caf955a948edcf69decdaf92d573cc34be8cde119ce8f7d0a3b39",
+  "checkedAt": "2026-09-17T22:19:54.399Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 372,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    0.6000000238418579,
+    0.514568030834198,
+    0.05999999865889549
+  ],
+  "bounds": [
+    [
+      -0.30000001192092896,
+      0,
+      -0.029999999329447746
+    ],
+    [
+      0.30000001192092896,
+      0.514568030834198,
+      0.029999999329447746
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "5d9457739c4f82e45de239b5e79afa2af1e20d0ba992121c5a6f76121b3727dd",
+  "source": "blender/environment/codicon_agent/v01/codicon_agent_v01.blend",
+  "runtime": "assets/runtime/environment/codicon_agent_v01.glb"
+}

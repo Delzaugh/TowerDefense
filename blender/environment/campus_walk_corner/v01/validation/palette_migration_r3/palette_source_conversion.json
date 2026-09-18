@@ -1,0 +1,15 @@
+{
+  "asset": "campus_walk_corner",
+  "geometryHash": "00fc2cfd88b9ca8a9a6e4c01a68d9162b3678798af59820234ecc372d90c94f6",
+  "maxLinearColorError": 2.2297857227293605e-8,
+  "size": [
+    16,
+    4
+  ],
+  "materials": [
+    "glacier_palette.003"
+  ],
+  "usedRoles": 3,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\environment\\campus_walk_corner\\v01\\campus_walk_corner_v01.blend"
+}

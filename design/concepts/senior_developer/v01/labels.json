@@ -1,0 +1,31 @@
+{
+  "title": "Senior Developer Concept Variations",
+  "subtitle": "Six human mentor towers charged with senior-level coding power.",
+  "category": "Tower",
+  "options": [
+    {
+      "name": "Golden Compiler",
+      "description": "Veteran coder crowned by compiler energy"
+    },
+    {
+      "name": "Merge Sage",
+      "description": "Broad mentor merges branches through radiant gauntlets"
+    },
+    {
+      "name": "Commit Halo",
+      "description": "Calm architect commands orbiting commit nodes"
+    },
+    {
+      "name": "Pipeline Ascendant",
+      "description": "Agile engineer climbs a glowing release pipeline"
+    },
+    {
+      "name": "Thread Titan",
+      "description": "Stocky expert channels spiraling process threads"
+    },
+    {
+      "name": "Review Gate",
+      "description": "Lead reviewer guards a blazing approval glyph"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+Use case: stylized-concept
+Asset type: completed low-poly game-asset model specification sheet
+
+Input image 1 is the direct edit target: the bundled 1536 x 1024 model-spec-sheet template.
+Input image 2 is the source reference: use only Option 01 Spaghetti Code from the Code Smells concept sheet.
+
+Preserve the template canvas, dark navy system, panel geometry, floor grids, labels, spacing, typography style, and hierarchy. Do not crop or redesign it.
+
+Asset name: Spaghetti Code
+Description: Tangled code paths form a compact warning knot.
+Type: Enemy
+Style: bright friendly KayKit-like chunky low-poly software-campus tower defense
+Camera: fixed elevated isometric gameplay camera
+Triangle ceiling: below 2,500; visually design around 400-1,000 triangles
+Scale intent: baseline moving Problem around 0.8-1.6 world units tall
+
+Invariant features: compact spherical knot; three thick low-segment tube paths interwoven into one ball; alternating sickly lime and deep teal; one large orange diamond warning badge with a dark exclamation mark on the front; matte softly rough surfaces; no limbs or face. Use broad bends and economical tube segments. Do not add extra tubes, limbs, eyes, mouth, fine cables, particles, smoke, text, small details, transparency, or palette shifts.
+
+Fill the six turnaround cells with the same model: Front, Front-Left, Left, Back, Back-Right, and Right. Front shows the badge centered. Back has no badge. Exact profiles show only the badge thickness. Keep scale, pivot, ground level, geometry, materials, lighting, and contact shadow consistent. Use orthographic or near-orthographic product rendering without scenery.
+
+In-Game View: genuinely zoomed-out elevated isometric view of a bright landscaped software campus with a broad path and chunky infrastructure. The enemy occupies about 5% of the panel height and remains readable.
+
+Wireframe: illustrative three-quarter approximation of the same model with economical topology. Never claim exact counts.
+
+Texture / UV: leave the template grid empty; no real UV or texture artifact exists.
+
+Model Info:
+Triangles: -
+Vertices: -
+Texture: -
+Materials: -
+Target: < 2500 tris
+
+Palette: lime green, deep teal, warning orange, dark navy, soft off-white.
+
+Notes:
+- Strong round silhouette at gameplay scale
+- Warning badge remains readable from above
+- Designed below the supplied triangle ceiling
+
+Do not add a Game Name field, unsupported statistics, extra sections, logos, or watermarks.

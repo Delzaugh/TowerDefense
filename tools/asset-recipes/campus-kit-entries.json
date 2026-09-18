@@ -1,0 +1,16 @@
+[
+  "campus_platform",
+  "campus_lab",
+  "campus_walk_straight",
+  "campus_walk_short",
+  "campus_walk_corner",
+  "campus_walk_bend",
+  "campus_walk_bend_45",
+  "campus_walk_junction",
+  "campus_tree_round",
+  "campus_tree_tall",
+  "campus_tree_cluster",
+  "campus_pond",
+  "campus_solar",
+  "campus_base_hex"
+]

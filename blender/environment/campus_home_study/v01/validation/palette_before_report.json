@@ -1,0 +1,34 @@
+{
+  "asset": "campus_home_study",
+  "version": "v01",
+  "revision": 5,
+  "sha256": "7e666ddbdddfadc6ae1e59306b1c92c8e40fc2c602e7a56ac812f6b7fe0df43d",
+  "checkedAt": "2026-09-17T20:41:12.241Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 4264,
+  "meshes": 3,
+  "materials": 1,
+  "textures": 0,
+  "bones": 0,
+  "dimensions": [
+    19,
+    5.652500152587891,
+    15
+  ],
+  "bounds": [
+    [
+      -9.5,
+      0,
+      -7.5
+    ],
+    [
+      9.5,
+      5.652500152587891,
+      7.5
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true
+}

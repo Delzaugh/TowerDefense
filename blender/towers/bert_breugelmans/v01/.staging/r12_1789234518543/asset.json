@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "id": "bert_breugelmans",
+  "displayName": "Bert Breugelmans",
+  "category": "towers",
+  "version": "v01",
+  "revision": 12,
+  "source": {
+    "path": "blender/towers/bert_breugelmans/v01/bert_breugelmans_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/bert_breugelmans/v01/build.py",
+    "authoritativeHash": "85a1ebebe1f98d547a8070cf561655b25ac4147e1d7539ea75e444a89e47d1ee"
+  },
+  "runtime": "assets/runtime/towers/bert_breugelmans_v01.glb",
+  "budgets": {
+    "meshes": 4,
+    "materials": 4,
+    "textureSize": 0,
+    "bones": 16,
+    "triangles": 4000,
+    "textures": 0
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        1.1,
+        3.1,
+        0.8
+      ],
+      "max": [
+        1.7,
+        3.5,
+        1.5
+      ]
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "meaning": "Relaxed resting pose with lowered elbows, open fingers aligned with the forearms, inward-facing palms, and restrained breathing.",
+      "playback": "loop",
+      "fps": 24
+    },
+    {
+      "name": "work",
+      "meaning": "Open-handed inclusive coaching gesture, inviting teammates to contribute.",
+      "playback": "loop",
+      "fps": 24
+    },
+    {
+      "name": "celebrate_team",
+      "meaning": "Bert releases his straps, gives three appreciative claps for the team, and returns to ready.",
+      "playback": "once",
+      "fps": 24
+    }
+  ],
+  "references": [
+    {
+      "path": "blender/towers/bert_breugelmans/v01/references/cohesion_pack.png",
+      "provenance": "User-attached Cohesion Pack turnaround, 2026-09-12. Visual reference only; printed triangle target is superseded by the explicit 3500-triangle request."
+    },
+    {
+      "path": "design/model_sheets/people_manager/v01/decisions.md",
+      "provenance": "Prior user selection and explicit removal of neck lanyard; functional backpack straps retained."
+    },
+    {
+      "path": "blender/towers/bert_breugelmans/v01/references/user_hands_r5.png",
+      "provenance": "User screenshot requesting a hand-specific quality pass; subsequent explicit request changes the resting arms to a relaxed open pose."
+    },
+    {
+      "path": "blender/towers/bert_breugelmans/v01/references/user_pyramid_colors.png",
+      "provenance": "User reference for the requested base-to-apex green, blue, yellow, gray and orange colors. Only TRUST text was explicitly requested."
+    },
+    {
+      "path": "blender/towers/bert_breugelmans/v01/references/user_wrist_orientation_r8.png",
+      "provenance": "User screenshot identifying unnatural palm/wrist orientation in the resting pose."
+    },
+    {
+      "path": "blender/towers/bert_breugelmans/v01/references/user_listen_r9.png",
+      "provenance": "User screenshot identifying incorrect listen movement: raised elbow and fist beside mouth."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "budgets",
+      "reason": "User explicitly permits up to 3500 triangles and several meshes/materials for this higher quality character, 2026-09-12."
+    },
+    {
+      "field": "clips.duration",
+      "reason": "Listening and three-clap celebration are deliberate one-shot performances; a three-second work loop keeps the coaching gesture calm."
+    },
+    {
+      "field": "budgets.triangles",
+      "reason": "User explicitly increases the maximum to 4000 triangles while requesting correction of the listen animation."
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/bert_breugelmans/v01/revisions/r2_before_r3/bert_breugelmans_v01.glb",
+      "source": "blender/towers/bert_breugelmans/v01/revisions/r2_before_r3/bert_breugelmans_v01.blend",
+      "sha256": "70e85d6fd27c1601194200e3210120e9ea7ec38fb0f29af4f63aa6b89e70bba9",
+      "sourceHash": "1408f38c33a847e18651d1bab06598836221300e5757a01dbc0fcba9c0c89566"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/bert_breugelmans/v01/revisions/r3_before_r4/bert_breugelmans_v01.glb",
+      "source": "blender/towers/bert_breugelmans/v01/revisions/r3_before_r4/bert_breugelmans_v01.blend",
+      "sha256": "24c5e6b3d7fe93894ec12a82bc6e860f4c36160a18d4808ffde0269fc84fb2c9",
+      "sourceHash": "05131be3ab524c61e80fff811e7ee29213451c256d543c3b5f8473e3063a0143"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/towers/bert_breugelmans/v01/revisions/r4_before_r5/bert_breugelmans_v01.glb",
+      "source": "blender/towers/bert_breugelmans/v01/revisions/r4_before_r5/bert_breugelmans_v01.blend",
+      "sha256": "335db3aec02185a53167af17741251069d4792ba4e81767fab362fae10e76c2f",
+      "sourceHash": "79326c5facdbb0e493495a46e3ae1651a04086b0bf37078231c1a2ba221b2c4c"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/towers/bert_breugelmans/v01/revisions/r5_before_r6/bert_breugelmans_v01.glb",
+      "source": "blender/towers/bert_breugelmans/v01/revisions/r5_before_r6/bert_breugelmans_v01.blend",
+      "sha256": "a3a53384e4e35d9b37cf37ef50fc34938097e391c91d918566e25f8230a6b740",
+      "sourceHash": "2b11642b001d59e6ef37c0b8217972a8fdf76c90cd213d4d97eb2e3345c62f1c"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/towers/bert_breugelmans/v01/revisions/r6_before_r7/bert_breugelmans_v01.glb",
+      "source": "blender/towers/bert_breugelmans/v01/revisions/r6_before_r7/bert_breugelmans_v01.blend",
+      "sha256": "d3501960c03dcd5690d88d77ed1dec03e3bd7b5999faa25f62bcefa866eb758b",
+      "sourceHash": "6433a46d4dc5c01f3eb01715b74b20b906d3c08c7867b9c112fce5b631706144"
+    },
+    {
+      "label": "before_r8",
+      "revision": 7,
+      "export": "blender/towers/bert_breugelmans/v01/revisions/r7_before_r8/bert_breugelmans_v01.glb",
+      "source": "blender/towers/bert_breugelmans/v01/revisions/r7_before_r8/bert_breugelmans_v01.blend",
+      "sha256": "639c5d736faa2653a38acf979222f172b66d6fa32617111d5d00ffc0025a7457",
+      "sourceHash": "954c1f9108f556d8a0fba5e3bebef6bd7fae824562fee044a00687f14d91e136"
+    },
+    {
+      "label": "before_r9",
+      "revision": 8,
+      "export": "blender/towers/bert_breugelmans/v01/revisions/r8_before_r9/bert_breugelmans_v01.glb",
+      "source": "blender/towers/bert_breugelmans/v01/revisions/r8_before_r9/bert_breugelmans_v01.blend",
+      "sha256": "49e3833038de3df82d8467a8c5fd70dd8a0bafda2d335e1bb95cab89d190cb6c",
+      "sourceHash": "97d769752983c17733f75cb4caf62b1c856cc3cecdfae3f7b3f65376d79c73a1"
+    },
+    {
+      "label": "before_r10",
+      "revision": 9,
+      "export": "blender/towers/bert_breugelmans/v01/revisions/r9_before_r10/bert_breugelmans_v01.glb",
+      "source": "blender/towers/bert_breugelmans/v01/revisions/r9_before_r10/bert_breugelmans_v01.blend",
+      "sha256": "d4d290cddb3c3ffcea9ecbf302df5942fa026d9c1f22b4422be6ea7a02dd9e10",
+      "sourceHash": "692838c99472ab975ea43efa80292fe385d4d485f975429cda1e95ba87dd4266"
+    },
+    {
+      "label": "before_r11",
+      "revision": 10,
+      "export": "blender/towers/bert_breugelmans/v01/revisions/r10_before_r11/bert_breugelmans_v01.glb",
+      "source": "blender/towers/bert_breugelmans/v01/revisions/r10_before_r11/bert_breugelmans_v01.blend",
+      "sha256": "63cc52af8f9c00ee7c1195b6d1c2c852ac5ca313dafc8da9207c200f6ab0a604",
+      "sourceHash": "b77189679e14a591e50000dd673a1aeb6b35c16cb77d88afbe4314ac7e3ca31a"
+    }
+  ],
+  "decisions": "blender/towers/bert_breugelmans/v01/decisions.md",
+  "palette": {
+    "colors": {
+      "skin_light": "#F4C3A0",
+      "collar": "#3B5375",
+      "teal": "#25A5AC",
+      "purple": "#9660CC",
+      "eye": "#233338",
+      "coral": "#F47A7E",
+      "hair_dark": "#7D7C7D",
+      "skin_shadow": "#C77E61",
+      "sole": "#151B23",
+      "white": "#FFF1DF",
+      "amber": "#FFBF48",
+      "shoe": "#25282B",
+      "beard": "#4E3931",
+      "navy": "#283E63",
+      "blue": "#258FD0",
+      "hair_light": "#D0C9C0",
+      "beard_light": "#766157",
+      "hair": "#A9A6A3",
+      "skin": "#EAB08A",
+      "buckle": "#A6B1B8",
+      "pants": "#292D34",
+      "label_ink": "#151C16",
+      "accountability_gray": "#999999",
+      "conflict_blue": "#508FCC",
+      "results_orange": "#F17125",
+      "commitment_yellow": "#FFB900",
+      "trust_green": "#659F38"
+    },
+    "attribute": "_palette_role"
+  },
+  "delivery": {
+    "sha256": "b62787063e30350bd59af14590357f2d13a59fd186ecdf67e9c2d4ee11d3e2be",
+    "sourceHash": "85a1ebebe1f98d547a8070cf561655b25ac4147e1d7539ea75e444a89e47d1ee",
+    "report": "blender/towers/bert_breugelmans/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T17:30:51.397Z"
+  }
+}

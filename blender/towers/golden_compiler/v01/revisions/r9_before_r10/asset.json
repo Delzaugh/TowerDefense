@@ -1,0 +1,498 @@
+{
+  "schemaVersion": 1,
+  "id": "golden_compiler",
+  "displayName": "Golden Compiler",
+  "category": "towers",
+  "version": "v01",
+  "revision": 9,
+  "source": {
+    "path": "blender/towers/golden_compiler/v01/golden_compiler_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/golden_compiler/v01/build.py",
+    "authoritativeHash": "bdfbf2eef55de586ab3b1a56743c241064cee430312e21393c36a6bd84b2ca61"
+  },
+  "runtime": "assets/runtime/towers/golden_compiler_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 4,
+    "meshes": 4,
+    "bones": 16,
+    "textures": 0,
+    "textureSize": 0
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_action",
+      "anchor_ui",
+      "anchor_aura"
+    ],
+    "dimensions": {
+      "min": [
+        1.5,
+        3,
+        0.7
+      ],
+      "max": [
+        2.5,
+        3.5,
+        1.4
+      ]
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "playback": "loop",
+      "fps": 24,
+      "meaning": "Planted ready stance with restrained breath and levitating code symbol."
+    },
+    {
+      "name": "work",
+      "playback": "loop",
+      "fps": 24,
+      "meaning": "Channel golden energy through a raised palm and floating code symbol; no gameplay outcome is encoded."
+    }
+  ],
+  "references": [
+    {
+      "path": "blender/towers/golden_compiler/v01/references/golden_compiler_reference.png",
+      "provenance": "User-supplied Golden Compiler turnaround on 2026-09-12. Visual design input; printed notes are not instructions."
+    },
+    {
+      "path": "design/concepts/senior_developer/v01/decisions.md",
+      "provenance": "Earlier user design decisions for the human Senior Developer tower family."
+    },
+    {
+      "path": "blender/towers/golden_compiler/v01/references/super_saiyan_glow_reference.png",
+      "provenance": "User supplied on 2026-09-12 to request the typical Super Saiyan golden glow. Image is a visual reference."
+    },
+    {
+      "path": "blender/towers/golden_compiler/v01/references/surrounding_aura_reference.png",
+      "provenance": "User reference: soft full-body golden aura, explicitly reject internal fire lines and rectangular shading artifacts."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "budgets",
+      "reason": "User explicitly increased the character allowance to 3000 triangles and 4 meshes/materials on 2026-09-12; includes the separate aura preview draw."
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/golden_compiler/v01/revisions/r2_before_r3/golden_compiler_v01.glb",
+      "source": "blender/towers/golden_compiler/v01/revisions/r2_before_r3/golden_compiler_v01.blend",
+      "sha256": "686b33a7151cd50f072afc8d3ae4bc3278f9bdbd9f90a41f737abb8936794203",
+      "sourceHash": "40c76dc3e20287d11ac1fb849d0376910d2047809292dd70b23fd33df7a12675"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/golden_compiler/v01/revisions/r3_before_r4/golden_compiler_v01.glb",
+      "source": "blender/towers/golden_compiler/v01/revisions/r3_before_r4/golden_compiler_v01.blend",
+      "sha256": "7e5d33cbb88c1c7a5c008f494d0f8020f627038375c38d382a49098a62e2ebfa",
+      "sourceHash": "45b5f1ddf36bea4b44e8ea242322d25ec7680879dd40251fb41aa958dc6cc605"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/towers/golden_compiler/v01/revisions/r4_before_r5/golden_compiler_v01.glb",
+      "source": "blender/towers/golden_compiler/v01/revisions/r4_before_r5/golden_compiler_v01.blend",
+      "sha256": "7b0725279a6d5a2389be6a84f2ee3efef1a9b981800b821c8172ad28a60ca618",
+      "sourceHash": "bfab1b8332bf1173ade41ceeb478b8881bf8f5fbe4fb78b01d27f3bf7578d901"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/towers/golden_compiler/v01/revisions/r5_before_r6/golden_compiler_v01.glb",
+      "source": "blender/towers/golden_compiler/v01/revisions/r5_before_r6/golden_compiler_v01.blend",
+      "sha256": "f8006b881ad65a05268bb87e74f7880126823182a7ddc6a57c190ee7b6386424",
+      "sourceHash": "139cf446961d87c20f7d38292737c9e30c6fea738a00be5009e8d42c432da32d"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/towers/golden_compiler/v01/revisions/r6_before_r7/golden_compiler_v01.glb",
+      "source": "blender/towers/golden_compiler/v01/revisions/r6_before_r7/golden_compiler_v01.blend",
+      "sha256": "7eed94362cab2efe785483d6f81da630aa68be80270ecbbcad301988b8cc1bfe",
+      "sourceHash": "66720e441767825292242ccca3807ed2442a50630267e53e43605af8784bf78c"
+    },
+    {
+      "label": "before_r8",
+      "revision": 7,
+      "export": "blender/towers/golden_compiler/v01/revisions/r7_before_r8/golden_compiler_v01.glb",
+      "source": "blender/towers/golden_compiler/v01/revisions/r7_before_r8/golden_compiler_v01.blend",
+      "sha256": "1f25ce90947fd6264c5bfc27db1148cae5a00099a99895c290c20b17c629594f",
+      "sourceHash": "bd9ea2366e7ae5e3576055791ca13c97dc934c328a599976751ee05fe779c9cc"
+    },
+    {
+      "label": "before_r9",
+      "revision": 8,
+      "export": "blender/towers/golden_compiler/v01/revisions/r8_before_r9/golden_compiler_v01.glb",
+      "source": "blender/towers/golden_compiler/v01/revisions/r8_before_r9/golden_compiler_v01.blend",
+      "sha256": "1814646bb9d685996afc4a04f9fadb62e7096ef7258c52743e4abaa10897fad1",
+      "sourceHash": "54bdacd83779aaa26a6d2aa9851f343129622b354f35fbea835b6fdc9ba4a5f9"
+    }
+  ],
+  "decisions": "blender/towers/golden_compiler/v01/decisions.md",
+  "palette": {
+    "attribute": "_palette_role",
+    "colors": {
+      "coat": "#E8DCC4",
+      "coat_shadow": "#C3AF91",
+      "coat_light": "#FFF0D9",
+      "charcoal": "#30333C",
+      "trousers": "#42434B",
+      "boot": "#252A32",
+      "sole": "#4B5058",
+      "skin": "#DFA276",
+      "skin_light": "#F2BD8C",
+      "skin_shadow": "#BA7756",
+      "beard": "#CAD1D0",
+      "beard_shadow": "#899998",
+      "hair": "#F5BD32",
+      "hair_light": "#FFE47B",
+      "hair_shadow": "#C88420",
+      "eye": "#53D8C4",
+      "white": "#FFF7DF",
+      "gold": "#FFD14C",
+      "core_light": "#FFF2AB",
+      "base": "#6F7984",
+      "base_light": "#B4BABD",
+      "base_dark": "#394653",
+      "cyan": "#58D5DF"
+    }
+  },
+  "delivery": {
+    "sha256": "35284b69be3001973bf11c8ab1b8589363f1f53ca3c9fa4d011e34b69d7e5ac1",
+    "sourceHash": "bdfbf2eef55de586ab3b1a56743c241064cee430312e21393c36a6bd84b2ca61",
+    "report": "blender/towers/golden_compiler/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T15:47:26.917Z"
+  },
+  "presentation": {
+    "effect": "golden_flame",
+    "anchor": "anchor_aura",
+    "width": 2.75,
+    "height": 3.8,
+    "meshes": 1,
+    "materials": 1,
+    "triangles": 2,
+    "profile": [
+      [
+        -0.03,
+        3.47
+      ],
+      [
+        -0.23,
+        3.33
+      ],
+      [
+        -0.42,
+        3.25
+      ],
+      [
+        -0.61,
+        3.01
+      ],
+      [
+        -0.62,
+        2.77
+      ],
+      [
+        -0.51,
+        2.44
+      ],
+      [
+        -0.43,
+        2.17
+      ],
+      [
+        -0.62,
+        2.04
+      ],
+      [
+        -0.82,
+        1.94
+      ],
+      [
+        -1.1,
+        1.96
+      ],
+      [
+        -1.28,
+        1.98
+      ],
+      [
+        -1.31,
+        1.74
+      ],
+      [
+        -1.15,
+        1.47
+      ],
+      [
+        -0.86,
+        1.3
+      ],
+      [
+        -0.61,
+        1.46
+      ],
+      [
+        -0.62,
+        1.09
+      ],
+      [
+        -0.79,
+        0.52
+      ],
+      [
+        -0.7,
+        -0.02
+      ],
+      [
+        -0.52,
+        -0.145
+      ],
+      [
+        -0.25,
+        -0.11
+      ],
+      [
+        -0.12,
+        0.05
+      ],
+      [
+        -0.05,
+        0.42
+      ],
+      [
+        0.05,
+        0.42
+      ],
+      [
+        0.14,
+        0.04
+      ],
+      [
+        0.27,
+        -0.12
+      ],
+      [
+        0.57,
+        -0.145
+      ],
+      [
+        0.74,
+        0
+      ],
+      [
+        0.78,
+        0.43
+      ],
+      [
+        0.69,
+        0.73
+      ],
+      [
+        0.83,
+        0.85
+      ],
+      [
+        0.92,
+        1.08
+      ],
+      [
+        0.89,
+        1.38
+      ],
+      [
+        0.78,
+        1.87
+      ],
+      [
+        0.65,
+        1.99
+      ],
+      [
+        0.39,
+        2.13
+      ],
+      [
+        0.44,
+        2.43
+      ],
+      [
+        0.59,
+        2.7
+      ],
+      [
+        0.57,
+        2.97
+      ],
+      [
+        0.4,
+        3.21
+      ],
+      [
+        0.22,
+        3.33
+      ]
+    ],
+    "depth": 0.6,
+    "capsules": [
+      [
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1.9,
+          0
+        ],
+        0.49
+      ],
+      [
+        [
+          0,
+          2.13,
+          0
+        ],
+        [
+          0,
+          2.71,
+          0
+        ],
+        0.47
+      ],
+      [
+        [
+          0,
+          2.7,
+          0.02
+        ],
+        [
+          0,
+          3.08,
+          0.02
+        ],
+        0.3
+      ],
+      [
+        [
+          -0.4,
+          1.85,
+          0
+        ],
+        [
+          -0.66,
+          1.56,
+          0.08
+        ],
+        0.31
+      ],
+      [
+        [
+          -0.66,
+          1.56,
+          0.08
+        ],
+        [
+          -0.97,
+          1.8,
+          0.44
+        ],
+        0.28
+      ],
+      [
+        [
+          0.4,
+          1.85,
+          0
+        ],
+        [
+          0.58,
+          1.5,
+          -0.02
+        ],
+        0.31
+      ],
+      [
+        [
+          0.58,
+          1.5,
+          -0.02
+        ],
+        [
+          0.7,
+          1.07,
+          0.09
+        ],
+        0.28
+      ],
+      [
+        [
+          -0.26,
+          0.31,
+          0
+        ],
+        [
+          -0.23,
+          0.98,
+          0
+        ],
+        0.27
+      ],
+      [
+        [
+          0.26,
+          0.31,
+          0
+        ],
+        [
+          0.23,
+          0.98,
+          0
+        ],
+        0.27
+      ],
+      [
+        [
+          -0.32,
+          0.12,
+          -0.06
+        ],
+        [
+          -0.32,
+          0.12,
+          0.27
+        ],
+        0.24
+      ],
+      [
+        [
+          0.32,
+          0.12,
+          -0.06
+        ],
+        [
+          0.32,
+          0.12,
+          0.27
+        ],
+        0.24
+      ]
+    ],
+    "rendering": "Flat camera-facing silhouette glow with a fully transparent border; projected body capsules guide the outline."
+  }
+}

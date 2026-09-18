@@ -1,0 +1,836 @@
+{
+  "archived": "2026-09-13",
+  "originalRoot": "prototypes/hub",
+  "files": [
+    {
+      "path": "01-campus.html",
+      "bytes": 69888,
+      "sha256": "cae21f194f665638c9abc46f2fc512d9a534f06c148e4999a804c18e78455a0c"
+    },
+    {
+      "path": "02-mission-control.html",
+      "bytes": 90101,
+      "sha256": "12294b102cab9f6a07e264a1973fbc5b9ff1cb00408999ca8799830a652a07ba"
+    },
+    {
+      "path": "03-release-desk.html",
+      "bytes": 68423,
+      "sha256": "bd0534728e315fca0f1ef16c90d86e7a7d2215afd216972a88c53f19ffcbf61b"
+    },
+    {
+      "path": "art.mjs",
+      "bytes": 7195,
+      "sha256": "8a5e0f8559e304e053be3fd6babbdf26fac0455cecad2bbba28378388214e7b4"
+    },
+    {
+      "path": "build.mjs",
+      "bytes": 5753,
+      "sha256": "b4d53250dd453d37a4f937c7ab360671eed7febb0100770d0e541bf7762a5733"
+    },
+    {
+      "path": "game-ui.css",
+      "bytes": 32974,
+      "sha256": "9b6d664906e18cef644905d1009cc4b61556d51209f02145ac861c71ab4ff765"
+    },
+    {
+      "path": "game-ui.js",
+      "bytes": 13774,
+      "sha256": "eb7e28db840a219b25ac2e19b229df7e72450c2d8c703d276651d77caf8d3dfb"
+    },
+    {
+      "path": "index.html",
+      "bytes": 312,
+      "sha256": "b3e3adf692aa39189ccc5b1347158fd268741a676a14d47206903b295da8d765"
+    },
+    {
+      "path": "previews/01-campus-desktop.png",
+      "bytes": 168246,
+      "sha256": "b2e9c330960508fcb4f3e8522dbaca017adc8685a428a62dea1142388aff349c"
+    },
+    {
+      "path": "previews/01-campus-mobile-dialog.png",
+      "bytes": 147672,
+      "sha256": "a02058274dd567fedd02760aca19b025840788ab49265fd30d78d87a687fbc67"
+    },
+    {
+      "path": "previews/01-campus-mobile.png",
+      "bytes": 116227,
+      "sha256": "a1d4e5c4921e61d080556079cf5f59a04728497e46c26b1abe721015b648e25e"
+    },
+    {
+      "path": "previews/01-campus-v02-desktop.png",
+      "bytes": 484821,
+      "sha256": "b49acd9cd5d62fe99c78691e9be10276edc0513d348de10b97c6a9e9c88da5ff"
+    },
+    {
+      "path": "previews/01-campus-v02-landscape.png",
+      "bytes": 177481,
+      "sha256": "7217d29e3b37575f2deaba3949e29a9a0807a8bd02cd224b84b3c7c058ecd6a0"
+    },
+    {
+      "path": "previews/01-campus-v02-mobile.png",
+      "bytes": 189374,
+      "sha256": "a4cf23d85578245440a6ef04525ae59137951b77570812f8b0b2a9e9c6b52c03"
+    },
+    {
+      "path": "previews/01-campus-v02-tablet.png",
+      "bytes": 304215,
+      "sha256": "3f8f1af65959927526684bb164dc277b5302529b37a27d4ad2f9b6d671ba16c7"
+    },
+    {
+      "path": "previews/02-mission-control-desktop.png",
+      "bytes": 369479,
+      "sha256": "8f6348e8cd20eb57bee080deba77dee034d6546bb78be1e9609929530d03f8a2"
+    },
+    {
+      "path": "previews/02-mission-control-mobile-dialog.png",
+      "bytes": 96476,
+      "sha256": "13bfae908b639e053cab1afa329ebe6499816a204e2a68b5eba89800019a6fa6"
+    },
+    {
+      "path": "previews/02-mission-control-mobile.png",
+      "bytes": 171048,
+      "sha256": "eeabc8df02632f923d0d3b76db26b605135b17f28d0bdd4b86f47708ca70b236"
+    },
+    {
+      "path": "previews/02-mission-control-v02-desktop.png",
+      "bytes": 682113,
+      "sha256": "6ff06101fc390d57c0a27c6195a70d1247b52ba0be4fbb1553a93a4e199e6f47"
+    },
+    {
+      "path": "previews/02-mission-control-v02-landscape.png",
+      "bytes": 237933,
+      "sha256": "2ea1f6cc5e4f3f6ddfe1c99634dc7021089be90873df1fdbf081af442e62b8a2"
+    },
+    {
+      "path": "previews/02-mission-control-v02-mobile.png",
+      "bytes": 247290,
+      "sha256": "e37b84023795a7577b34413a0a44cb774c7ee6d274f325d9a455733344a0be5e"
+    },
+    {
+      "path": "previews/02-mission-control-v02-tablet.png",
+      "bytes": 485072,
+      "sha256": "0f2ba9a8afedb5b4bc1f2a44e1867b6ba72f5ebd303b4ed1e81068aa35de8bf6"
+    },
+    {
+      "path": "previews/03-release-desk-desktop.png",
+      "bytes": 246275,
+      "sha256": "210296ff0dd02121a97cb440f4efcf6047a4fb665603d8b65455141a4c6b89fa"
+    },
+    {
+      "path": "previews/03-release-desk-mobile-dialog.png",
+      "bytes": 167203,
+      "sha256": "ce38c657857124ce678ab42652d804b453e95aa8292804c19ae3cddd3776a5f2"
+    },
+    {
+      "path": "previews/03-release-desk-mobile.png",
+      "bytes": 190355,
+      "sha256": "489cc96e8f376efec20a0b3fc1d8af0743570b9bad75041f73e9009b6bd4046e"
+    },
+    {
+      "path": "previews/03-release-desk-v02-desktop.png",
+      "bytes": 220167,
+      "sha256": "b05d0d5892577a3abe175fd9942d3c5594a7e182fcee908f03a6a2781196f9c8"
+    },
+    {
+      "path": "previews/03-release-desk-v02-landscape.png",
+      "bytes": 104674,
+      "sha256": "4590d07eaefd9e73395039a7860be6a6b7de9f6f4d2211d871cb8c05fdba9c10"
+    },
+    {
+      "path": "previews/03-release-desk-v02-mobile.png",
+      "bytes": 114804,
+      "sha256": "a0dada1a9bee5ac72549bf6ad4a1fca432acacd42ef26ea07423473fb51dc062"
+    },
+    {
+      "path": "previews/03-release-desk-v02-tablet.png",
+      "bytes": 164017,
+      "sha256": "0bc850bf7718cf5fd1040049e0eedb15b901d1197d2e2b3fe95a5f7ce09e804d"
+    },
+    {
+      "path": "previews/hangar-landscape-fix.png",
+      "bytes": 102731,
+      "sha256": "62a25828177458d878f09a61bbe140c713ec63b3714b7cef6a7fb0a071b7e527"
+    },
+    {
+      "path": "previews/index-desktop.png",
+      "bytes": 175393,
+      "sha256": "0582107aedd78b163bc1178af65cd27fbe6359699e69c7ab880db3666f6b80df"
+    },
+    {
+      "path": "previews/index-v02-desktop.png",
+      "bytes": 321440,
+      "sha256": "3f441a90949466f0d30a18309747e45d117fe43474c157ec768b61a25f6a2398"
+    },
+    {
+      "path": "previews/index-v02-mobile.png",
+      "bytes": 121861,
+      "sha256": "728beb524ee6d50ef6de5d60dd9cbce3e2495a39b0eb7e75238d33381813e232"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4658,
+      "sha256": "7974761b0372705acfe2ccab8a5c7fbde73dc86808413f0833e22f9bbb704c34"
+    },
+    {
+      "path": "screens.mjs",
+      "bytes": 9830,
+      "sha256": "7e94aa20270bc7fc6e78043d5dc7a4501a829d15b72ec7a5de159dd0b4c234e0"
+    },
+    {
+      "path": "serve.mjs",
+      "bytes": 1137,
+      "sha256": "2e03662b3a59fbe3c22d1aca7d00f21c58b56f5e86227da92524f32c8fc2126d"
+    },
+    {
+      "path": "v01/01-campus.html",
+      "bytes": 55754,
+      "sha256": "ecf6ee91b1cb632837909929eb0af8588ba6bffeeeb438ddd9d66e2fdb04124b"
+    },
+    {
+      "path": "v01/02-mission-control.html",
+      "bytes": 57934,
+      "sha256": "cbac7b59e1203b645111ed7542fc5e366490924066d5ab39f380422373804b83"
+    },
+    {
+      "path": "v01/03-release-desk.html",
+      "bytes": 64680,
+      "sha256": "97309aaaa3a04b8973aa780907e354326699c0e401b16b4e1ebf4cbce0735a83"
+    },
+    {
+      "path": "v01/build.mjs",
+      "bytes": 70642,
+      "sha256": "cc7e61c7ac93498d359173abf530112206bd87b78d20b8b7e5a5760efa7f7ba3"
+    },
+    {
+      "path": "v01/index.html",
+      "bytes": 43077,
+      "sha256": "76c007ed979f9bd7d4136cb6fd3b13ca74a8066b6fbbb99e4c9ba160beefff41"
+    },
+    {
+      "path": "v01/README.md",
+      "bytes": 2872,
+      "sha256": "5816cf0ada88b7ac5583f780307ae322596bdd82c9e0b1fa300f30d0e117b2cc"
+    },
+    {
+      "path": "v02-index.html",
+      "bytes": 57162,
+      "sha256": "a0fe6125bce537f2e44d74ed923b78ed212b0327411379ebfe3f16b1e952aa66"
+    },
+    {
+      "path": "v03/01-nexus-campus.html",
+      "bytes": 169304,
+      "sha256": "985a286be0764ab8623ab0f47f1c4efbe7e77a72dfe78531d0f778db9dc6e339"
+    },
+    {
+      "path": "v03/02-cloud-cluster.html",
+      "bytes": 155973,
+      "sha256": "5357a4b600c586a072efe464ccb82ea8b2c719bf5aea0d280f1787a34baa0e8c"
+    },
+    {
+      "path": "v03/03-circuit-garden.html",
+      "bytes": 171896,
+      "sha256": "bac916a424fba266e32bddf34e409f64d3958e870e8ed1ac9134791e354e9542"
+    },
+    {
+      "path": "v03/build.mjs",
+      "bytes": 9705,
+      "sha256": "2a6885d9430a776cfc08cb0ba3d8329ccbf1a640ae4323261a5d2cda42e4e6c3"
+    },
+    {
+      "path": "v03/dialogs-base.css",
+      "bytes": 32974,
+      "sha256": "9b6d664906e18cef644905d1009cc4b61556d51209f02145ac861c71ab4ff765"
+    },
+    {
+      "path": "v03/dialogs.js",
+      "bytes": 13774,
+      "sha256": "eb7e28db840a219b25ac2e19b229df7e72450c2d8c703d276651d77caf8d3dfb"
+    },
+    {
+      "path": "v03/index.html",
+      "bytes": 183775,
+      "sha256": "dbf70774305087c80f502725fe87a4bf276319779d60ad3594befb0c28bd5ed1"
+    },
+    {
+      "path": "v03/interactions.js",
+      "bytes": 2418,
+      "sha256": "6995e05be26a1dd30970348963c42aa380f9da1e2cbe213dfc62ba2cdc1a414a"
+    },
+    {
+      "path": "v03/legacy-art.mjs",
+      "bytes": 7195,
+      "sha256": "8a5e0f8559e304e053be3fd6babbdf26fac0455cecad2bbba28378388214e7b4"
+    },
+    {
+      "path": "v03/previews/01-nexus-campus-desktop.png",
+      "bytes": 462205,
+      "sha256": "e22c6430037950fd0c18c597ad1104d92f8ec9c0adc9307b7024ac0091826d99"
+    },
+    {
+      "path": "v03/previews/01-nexus-campus-landscape.png",
+      "bytes": 201484,
+      "sha256": "d463245c79a544894c8529836950b160e1930f66d9bac5fb67341841f53d1f5f"
+    },
+    {
+      "path": "v03/previews/01-nexus-campus-mobile.png",
+      "bytes": 211002,
+      "sha256": "0d268963a545b4af300f78ef6e6edd8e8126f9e4ec9c33db79e73417302cecc6"
+    },
+    {
+      "path": "v03/previews/01-nexus-campus-product-dialog.png",
+      "bytes": 111307,
+      "sha256": "5069631b6eae07f8b1b249c7fa2020a0e1521adddcd2883626b50d4b6e84a257"
+    },
+    {
+      "path": "v03/previews/01-nexus-campus-tablet.png",
+      "bytes": 317114,
+      "sha256": "b2c3b6deb871cc8fdb5f777f616651f3d72aa4252a19126dc64ccb23f469e8f0"
+    },
+    {
+      "path": "v03/previews/02-cloud-cluster-desktop.png",
+      "bytes": 590438,
+      "sha256": "bf4a8b9073d7e0bee57a152c82b882265f996de5addd4430316a5208f3ed4671"
+    },
+    {
+      "path": "v03/previews/02-cloud-cluster-landscape.png",
+      "bytes": 218572,
+      "sha256": "7b8eced3a28b81e2a93425b71ced20bd042007ab3f5db75478a9e0c0c89a1564"
+    },
+    {
+      "path": "v03/previews/02-cloud-cluster-mobile.png",
+      "bytes": 217055,
+      "sha256": "c37a16e9c9d378081780b6ca3967db1712b73b6d0e1cde1481404fa93990f013"
+    },
+    {
+      "path": "v03/previews/02-cloud-cluster-product-dialog.png",
+      "bytes": 112717,
+      "sha256": "786309a31d42c556733ea3a40b871be538eed0eef67796db50c6bf0b45153d9d"
+    },
+    {
+      "path": "v03/previews/02-cloud-cluster-tablet.png",
+      "bytes": 398471,
+      "sha256": "e329d4261e56ae5e385fd23536f8b6b6352ced244de8a9f6530992a2b483174f"
+    },
+    {
+      "path": "v03/previews/03-circuit-garden-desktop.png",
+      "bytes": 530172,
+      "sha256": "31a9cb722e4684ac12cd7b1341107dd3fd99cfc899e81bf4144e07a60d8b1b20"
+    },
+    {
+      "path": "v03/previews/03-circuit-garden-landscape.png",
+      "bytes": 211237,
+      "sha256": "64a69fa2c53b5fc9e744d4d44629d0634c86fdaaad299d2669ea600a3c7c9344"
+    },
+    {
+      "path": "v03/previews/03-circuit-garden-mobile.png",
+      "bytes": 213746,
+      "sha256": "e6f5311ebf046f228009f827a1f53edad5c02b22cdba81fa934c15b9b365e4ff"
+    },
+    {
+      "path": "v03/previews/03-circuit-garden-product-dialog.png",
+      "bytes": 114955,
+      "sha256": "52b31939b13805afea89a9cf687f3db893ef621354c29e5168d7088f3b461915"
+    },
+    {
+      "path": "v03/previews/03-circuit-garden-tablet.png",
+      "bytes": 343111,
+      "sha256": "6996258810ca51165a4a3ac844fe220c25678ce7cf0b831dc24fd957a218ce1b"
+    },
+    {
+      "path": "v03/previews/index-desktop.png",
+      "bytes": 491596,
+      "sha256": "6f19d69eefd3396400737cddb8a419f67fc2d3b999ded416b5754a68ad7643c4"
+    },
+    {
+      "path": "v03/previews/index-mobile.png",
+      "bytes": 181196,
+      "sha256": "95be333786de3a305fbf2b6fb878f4a2c6a1bf758e0a2d6846f143941dc3b110"
+    },
+    {
+      "path": "v03/README.md",
+      "bytes": 3660,
+      "sha256": "f95d1db4d46cc11b41df5f6c0cc3d6023c331037eb8107d0a1a6abe91fd4f548"
+    },
+    {
+      "path": "v03/tech.css",
+      "bytes": 20947,
+      "sha256": "4d4ac6346165305679559ed206a8cc0e475c249122a13d2e27aab0126120436d"
+    },
+    {
+      "path": "v03/worlds.mjs",
+      "bytes": 13116,
+      "sha256": "73f99c74ef23c603b4cc1ddfecb65ef156a96094ae14b3d28a9b55ca063322de"
+    },
+    {
+      "path": "v04/build.mjs",
+      "bytes": 6003,
+      "sha256": "4c64e4ad697942f899467a49f9492d232a422fc07e7cadac28ade30da15e8438"
+    },
+    {
+      "path": "v04/dialogs-base.css",
+      "bytes": 32974,
+      "sha256": "9b6d664906e18cef644905d1009cc4b61556d51209f02145ac861c71ab4ff765"
+    },
+    {
+      "path": "v04/dialogs.js",
+      "bytes": 15836,
+      "sha256": "4f479bfadb32be245e688e57795f1d280609c8b8a340de7dde16de67cdf06121"
+    },
+    {
+      "path": "v04/game-menus.css",
+      "bytes": 14539,
+      "sha256": "14111fcc66c792024add117c5f27e230c8453a1ce2aef43734bcc3342ed0c6f9"
+    },
+    {
+      "path": "v04/index.html",
+      "bytes": 283980,
+      "sha256": "0a07a40ef3e2ab49159f9b08e0a3f3a4e0083cc7093a301ddc415aa2d5356df2"
+    },
+    {
+      "path": "v04/interactions.js",
+      "bytes": 2418,
+      "sha256": "6995e05be26a1dd30970348963c42aa380f9da1e2cbe213dfc62ba2cdc1a414a"
+    },
+    {
+      "path": "v04/legacy-art.mjs",
+      "bytes": 7195,
+      "sha256": "8a5e0f8559e304e053be3fd6babbdf26fac0455cecad2bbba28378388214e7b4"
+    },
+    {
+      "path": "v04/polish.css",
+      "bytes": 29765,
+      "sha256": "fc582781cff38283827b0ef92896dc9cdc5b5237290045c5fde6f1b709c55973"
+    },
+    {
+      "path": "v04/polish.js",
+      "bytes": 3680,
+      "sha256": "eb09c08387dc7e03c0fed0a175fe7f7ba15192c481fc94a22bcc689106ac08f1"
+    },
+    {
+      "path": "v04/previews/00-before-desktop.png",
+      "bytes": 530172,
+      "sha256": "31a9cb722e4684ac12cd7b1341107dd3fd99cfc899e81bf4144e07a60d8b1b20"
+    },
+    {
+      "path": "v04/previews/01-continue.png",
+      "bytes": 321601,
+      "sha256": "4c7471a26a549a2c1d0852411dcac02f8a4bc9d9b68b3f71dbbb2a3c5b701fa0"
+    },
+    {
+      "path": "v04/previews/01-desktop.png",
+      "bytes": 868055,
+      "sha256": "6e0e4648c9403150f1c8cc65162fcc481c74a847bd1a7b1da153a3fbaf585312"
+    },
+    {
+      "path": "v04/previews/01-laptop.png",
+      "bytes": 696918,
+      "sha256": "ac289e82344335bbcde2d5ec1a9451a59992b1081b6262002aea80f9d026a4e6"
+    },
+    {
+      "path": "v04/previews/01-levels.png",
+      "bytes": 254828,
+      "sha256": "7aa513e87f66112be1e71f3b476895042694fffed744ea2f2e50e1fb049229ce"
+    },
+    {
+      "path": "v04/previews/01-mobile.png",
+      "bytes": 279235,
+      "sha256": "48890ed243a53d9a553069e40b2770ec23597586787649ef3724ff7e97706d90"
+    },
+    {
+      "path": "v04/previews/01-team.png",
+      "bytes": 263252,
+      "sha256": "aca3f167386548382d291131719d1b08a1b9b53f600086e05c8f2f67535be190"
+    },
+    {
+      "path": "v04/previews/02-desktop-missions.png",
+      "bytes": 321078,
+      "sha256": "8e564a8cec0e1967b5a66c2f8bbca6a7b67a87ceb06a697d96ab5290544662b2"
+    },
+    {
+      "path": "v04/previews/02-desktop-settings.png",
+      "bytes": 353035,
+      "sha256": "a91e01fe01ec66161fa59f580a5f3dbc989a67053705de5f6739d76871dab10f"
+    },
+    {
+      "path": "v04/previews/02-desktop-team.png",
+      "bytes": 326994,
+      "sha256": "04a0ad33526a54bf2d97fd41906a228738854b971eb93b6743b8669d861c3c05"
+    },
+    {
+      "path": "v04/previews/02-desktop.png",
+      "bytes": 868075,
+      "sha256": "4f67acf19d760b67ea7feec6283547247d55b4df8b61b0edb9ac9826a7f8f963"
+    },
+    {
+      "path": "v04/previews/02-landscape.png",
+      "bytes": 284579,
+      "sha256": "e7cbd97f1b8c185f450178d7809bf98f1cc09bdda0ebfc3c3dd6edf42b701958"
+    },
+    {
+      "path": "v04/previews/02-mobile-missions.png",
+      "bytes": 112056,
+      "sha256": "d088b4f7623a8cebdd637b5d4de2a051d189e513b34de83b361d1cfe28cac959"
+    },
+    {
+      "path": "v04/previews/02-mobile-settings.png",
+      "bytes": 123737,
+      "sha256": "4005d147fd9f9b95cfa87c3abf7825aff27c231b69a8ba05bed99d56e832efa0"
+    },
+    {
+      "path": "v04/previews/02-mobile-team.png",
+      "bytes": 125697,
+      "sha256": "065d797c93cb296c34ac80a237f14000bfd5dc6b24edad8ff974217c732c8848"
+    },
+    {
+      "path": "v04/previews/02-mobile.png",
+      "bytes": 279227,
+      "sha256": "9cb74e8578b363b791aca59fb5a03559beaee3bfb2f7bdb14b6bd0e52872b7dd"
+    },
+    {
+      "path": "v04/previews/02-small.png",
+      "bytes": 207915,
+      "sha256": "43c16a3c99224de72a9e8053a0e33d84dbbb883c0fb39db33d1052a1410f1785"
+    },
+    {
+      "path": "v04/previews/02-tablet.png",
+      "bytes": 551286,
+      "sha256": "a01b0494a46b5e808dd36fcc8ea9dc55c7052a91ce15401b0e6ce92da3933b86"
+    },
+    {
+      "path": "v04/previews/02-wide.png",
+      "bytes": 1264208,
+      "sha256": "a74610ffdb10f84189667362ebb7a427d6175008ac08eb881fcde2b55d594e64"
+    },
+    {
+      "path": "v04/previews/03-final-desktop.png",
+      "bytes": 843285,
+      "sha256": "3b77417ff43d4e6772b6a42b9768fe0404e7b78c035e798e0f8313ec1ae04ecf"
+    },
+    {
+      "path": "v04/previews/03-final-landscape.png",
+      "bytes": 288839,
+      "sha256": "9510d55d7af7833c3973063b16e05b9e9f9fc490469af7a7036652d5e0193b65"
+    },
+    {
+      "path": "v04/previews/03-final-laptop.png",
+      "bytes": 684619,
+      "sha256": "190c27e2287f208d360df89d3b5a2bc98c57c586b2c3863ca501a5cb3c835246"
+    },
+    {
+      "path": "v04/previews/03-final-mobile-continue.png",
+      "bytes": 167674,
+      "sha256": "6d3acb08d943a5906340f098df4d945bb9020a8575dc4e18a25aea4f90f245b1"
+    },
+    {
+      "path": "v04/previews/03-final-mobile.png",
+      "bytes": 279931,
+      "sha256": "6d54f907050b35263e3cd01105a76976a966cdac2b25825d20f575fd2e2dd41a"
+    },
+    {
+      "path": "v04/previews/03-final-small.png",
+      "bytes": 206270,
+      "sha256": "98911daf1ae648876ca642cf76b4ae61d56f2e85f12473a760551797772e8c4d"
+    },
+    {
+      "path": "v04/previews/03-final-tablet.png",
+      "bytes": 543590,
+      "sha256": "44c5c1d99306465b921fd6363f382bd500625d4c2f7247ddc78c186019a9e4bc"
+    },
+    {
+      "path": "v04/previews/03-final-wide.png",
+      "bytes": 1257496,
+      "sha256": "df31e9617ac53dc65290cbe961860b6eae36b88976284ae5d03edad6d5a73281"
+    },
+    {
+      "path": "v04/previews/04-expanded-desktop.png",
+      "bytes": 819031,
+      "sha256": "21f3adab7517a41558e55758abbe98cfa210016fc5104400d45e5fe2921d1133"
+    },
+    {
+      "path": "v04/previews/04-expanded-landscape.png",
+      "bytes": 287461,
+      "sha256": "4f6939586393d2cc23e994cd2bba56028cc3f9d8187ecc9bba5bc5e1245ec3be"
+    },
+    {
+      "path": "v04/previews/04-expanded-large.png",
+      "bytes": 1443475,
+      "sha256": "e1e8d987a6d92c952f9040d4079ab6de2a571e6830ba815e956f9b8dd6395a4c"
+    },
+    {
+      "path": "v04/previews/04-expanded-phone.png",
+      "bytes": 273340,
+      "sha256": "c6c423571836923388c5519548abe39c458840425a6e217037f09d46edb5a608"
+    },
+    {
+      "path": "v04/previews/04-expanded-small.png",
+      "bytes": 203948,
+      "sha256": "f7d09c7a20eaa773d2e726fce12c65e8bc103b81039a5aae860752901b66c84f"
+    },
+    {
+      "path": "v04/previews/05-final-game-options-phone.png",
+      "bytes": 157162,
+      "sha256": "e8186f944b948e77d45e55014312784f005f5d06bf9d00a852ba61a92da12b61"
+    },
+    {
+      "path": "v04/previews/05-final-game-options.png",
+      "bytes": 673243,
+      "sha256": "b2fe9e0926c3d4bfe851d63b7f777ce54fcfc5702a07137229c1519eb45a5102"
+    },
+    {
+      "path": "v04/previews/05-menu-desktop-continue.png",
+      "bytes": 697831,
+      "sha256": "7590818e799112c37eae482c2c54665a5a198fa5638e2fbfc57e83fbf0a171f6"
+    },
+    {
+      "path": "v04/previews/05-menu-desktop-missions.png",
+      "bytes": 651438,
+      "sha256": "1ede4554fe8f8102d5e7b3640014f9ff5ab596c5c7d62e4efc9119c07c5c6799"
+    },
+    {
+      "path": "v04/previews/05-menu-desktop-product.png",
+      "bytes": 698281,
+      "sha256": "c4857223931955781912b64a63c62fa63b15806e89469ab6b6bc8d5796ed7e9f"
+    },
+    {
+      "path": "v04/previews/05-menu-desktop-settings.png",
+      "bytes": 673243,
+      "sha256": "b2fe9e0926c3d4bfe851d63b7f777ce54fcfc5702a07137229c1519eb45a5102"
+    },
+    {
+      "path": "v04/previews/05-menu-desktop-team.png",
+      "bytes": 671423,
+      "sha256": "40b20d1b8ceed48f236aba2f49e2ef04fbcddb0243533ff1f90dc591344979f4"
+    },
+    {
+      "path": "v04/previews/05-menu-large-missions.png",
+      "bytes": 1217397,
+      "sha256": "a35759251bb69466a86767bfbde12f55067a23c7342ae44713009b9a877c564b"
+    },
+    {
+      "path": "v04/previews/05-menu-large-settings.png",
+      "bytes": 1231334,
+      "sha256": "5b1037e363f2ac2f31acd98d6ee4e51bfa28c80292a06bc1bec23214fe50fd5f"
+    },
+    {
+      "path": "v04/previews/05-menu-large-team.png",
+      "bytes": 1241290,
+      "sha256": "8ad0259051d390a6dd3754221e13488b44990ed78fee42ad856f2e8c54d9869b"
+    },
+    {
+      "path": "v04/previews/05-menu-phone-continue.png",
+      "bytes": 177917,
+      "sha256": "6d47a7fd33a4155cc6f31b47567354d50b80b940bfce7d42cdfbd50ad5076455"
+    },
+    {
+      "path": "v04/previews/05-menu-phone-missions.png",
+      "bytes": 155695,
+      "sha256": "f91f894f746a44f5cc854bd9d75dc8e1b6e69deb77239b0f51bc2d24e0eae906"
+    },
+    {
+      "path": "v04/previews/05-menu-phone-product.png",
+      "bytes": 169242,
+      "sha256": "ca158fc1d622f2ea6ff201ad1b6ed11dfbb255a6e2e32422aaf97ea47f3ec47c"
+    },
+    {
+      "path": "v04/previews/05-menu-phone-settings.png",
+      "bytes": 159505,
+      "sha256": "fafa7e34c1ce275661b30378e4f6dd4fe9e92b82fda3b50f2fb3eee33d2e3b51"
+    },
+    {
+      "path": "v04/previews/05-menu-phone-team.png",
+      "bytes": 178042,
+      "sha256": "873aba08a3634b6e96a80317d90c1ddbf365a18cf711b55ffa9b986bdd97bb8b"
+    },
+    {
+      "path": "v04/README.md",
+      "bytes": 4006,
+      "sha256": "a228b112021cd4d66a07f60bf44e759f1db00688692327d9b8bd431f51cac8d4"
+    },
+    {
+      "path": "v04/REVIEW.md",
+      "bytes": 3997,
+      "sha256": "b06b25c9bed0dbf4a26431003ddb9c7678145b81570fb9a6fed09e7e829eac7b"
+    },
+    {
+      "path": "v04/tech.css",
+      "bytes": 20947,
+      "sha256": "4d4ac6346165305679559ed206a8cc0e475c249122a13d2e27aab0126120436d"
+    },
+    {
+      "path": "v04/worlds.mjs",
+      "bytes": 17796,
+      "sha256": "35423f4462cb36e57b3a230bfbe362915b4cd8b7e47f079d6aee42e4780f76f4"
+    },
+    {
+      "path": "v05/01-sage.html",
+      "bytes": 297502,
+      "sha256": "318cf310c560e0476c74d8352dd04c758c42aaa0daea7dddf9c82b653884cb73"
+    },
+    {
+      "path": "v05/02-glacier.html",
+      "bytes": 297526,
+      "sha256": "61ca2ed07a874877af435e66fa8d8131b1e2a3cce3ee1a03356f9d1311d7370f"
+    },
+    {
+      "path": "v05/03-dusk.html",
+      "bytes": 297505,
+      "sha256": "72f24d6ad27bd69b7cd0bd294dbd90499f78f56ab7cd5c6b21790177ad6ea95c"
+    },
+    {
+      "path": "v05/build.mjs",
+      "bytes": 8273,
+      "sha256": "c9674a25b0cc05e392143254896ea8242c994ee0c83a69e5a35bc821fe5d63c3"
+    },
+    {
+      "path": "v05/index.html",
+      "bytes": 226699,
+      "sha256": "cdd3cac4888fb664bf16b26ca1dc23d063954cdca591c49bce12ab7ca1323383"
+    },
+    {
+      "path": "v05/previews/01-comparison.png",
+      "bytes": 346279,
+      "sha256": "84d68245c84f991534ff984ba1d9123006d974cede2a7f3f20a836b923aa6005"
+    },
+    {
+      "path": "v05/previews/01-dusk-desktop.png",
+      "bytes": 742341,
+      "sha256": "2958591cf4026f37945815368237ccbb121f703ea00bd80601c41b84a1ea9466"
+    },
+    {
+      "path": "v05/previews/01-dusk-menu.png",
+      "bytes": 586748,
+      "sha256": "053edf1175b1c49d4483282d5c14457fd8206b44ecf2c05a47dc1909d1b0eb24"
+    },
+    {
+      "path": "v05/previews/01-dusk-phone.png",
+      "bytes": 257607,
+      "sha256": "d931c8a35ff23868ad8043ad5e85bdc013c09784adf52ba5ac17067eeabd7cc4"
+    },
+    {
+      "path": "v05/previews/01-glacier-desktop.png",
+      "bytes": 812440,
+      "sha256": "f3f8b10bbd47f3da9a72ffd2a27e89949aaf85f154440ec94be77f629c1fcead"
+    },
+    {
+      "path": "v05/previews/01-glacier-menu.png",
+      "bytes": 536521,
+      "sha256": "fa7aedaa1a8db3405d4abef33c1b7d1baf3733329f86d86e27211d62cdc37e34"
+    },
+    {
+      "path": "v05/previews/01-glacier-phone.png",
+      "bytes": 262717,
+      "sha256": "5a0de07b78431df8adaa4150cc66386c4ca44c0bc437d829f4bd0b108eb9efb4"
+    },
+    {
+      "path": "v05/previews/01-sage-desktop.png",
+      "bytes": 807752,
+      "sha256": "f5d98c91c43a535abf7b44af48ab498c64f1abb4e931c9cc5960e00f8ba72846"
+    },
+    {
+      "path": "v05/previews/01-sage-menu.png",
+      "bytes": 665162,
+      "sha256": "053ca2a806ee8d6ab8d0813ea9d363aa3f4b8802b1436991a4c6171059bd6a66"
+    },
+    {
+      "path": "v05/previews/01-sage-phone.png",
+      "bytes": 275291,
+      "sha256": "9836312523af47a5e08f6c1b1ba3d7a502dae204a6ecfe342d53338b971df12a"
+    },
+    {
+      "path": "v05/previews/02-dusk-desktop.png",
+      "bytes": 689128,
+      "sha256": "173f59ff4f5e6a48ebfcca9118da1cdd5cb459cc840a5a03c37105826bc2955b"
+    },
+    {
+      "path": "v05/previews/debug-phone.png",
+      "bytes": 243872,
+      "sha256": "2846d4704a68250d42a32b58ea0d08c35e0f098165c796d4c2db5974b430b900"
+    },
+    {
+      "path": "v05/previews/final-comparison.png",
+      "bytes": 340076,
+      "sha256": "f52124d3447d02902d063719c5fd1ec834f74245afee165f6c699e6ff5472157"
+    },
+    {
+      "path": "v05/previews/final-dusk-desktop.png",
+      "bytes": 703432,
+      "sha256": "e159d3658818bf551a9727c2c98c9ae1db865d251f61b415eba805b39a456d1e"
+    },
+    {
+      "path": "v05/previews/final-dusk-landscape.png",
+      "bytes": 255053,
+      "sha256": "23e3316c134b8812a43654d4a5eedf55222a416c3dc6f3bd3d471ec49421f6c8"
+    },
+    {
+      "path": "v05/previews/final-dusk-menu.png",
+      "bytes": 561643,
+      "sha256": "1a4aff801be79d0e3e8bd5e3e9e3ed4ea53a183e096185d1249a78ee5cb0ee74"
+    },
+    {
+      "path": "v05/previews/final-dusk-phone.png",
+      "bytes": 251208,
+      "sha256": "0acfc2b5b28662c8179cfb48781a21156a0b0171c5f984d06eb3021f2781116c"
+    },
+    {
+      "path": "v05/previews/final-glacier-desktop.png",
+      "bytes": 812440,
+      "sha256": "f3f8b10bbd47f3da9a72ffd2a27e89949aaf85f154440ec94be77f629c1fcead"
+    },
+    {
+      "path": "v05/previews/final-glacier-landscape.png",
+      "bytes": 283421,
+      "sha256": "3aefc430699073fd440d5872236f0d5c3bd5a40747dc5ba5c47168b723e268f8"
+    },
+    {
+      "path": "v05/previews/final-glacier-menu.png",
+      "bytes": 536521,
+      "sha256": "fa7aedaa1a8db3405d4abef33c1b7d1baf3733329f86d86e27211d62cdc37e34"
+    },
+    {
+      "path": "v05/previews/final-glacier-phone.png",
+      "bytes": 263348,
+      "sha256": "d0ef0f0ed6a0b6cde7629332e2ea2fe79a53e19de7bef680e5a4533e8e40a22a"
+    },
+    {
+      "path": "v05/previews/final-sage-desktop.png",
+      "bytes": 807925,
+      "sha256": "2f14f25a87b5a725dc0dd7e6943d5028ff541e6fdd1b5baa6ff4b0fcd100f477"
+    },
+    {
+      "path": "v05/previews/final-sage-landscape.png",
+      "bytes": 276153,
+      "sha256": "124b3c9524b33d6e15ec71e3b805366726f88e8f705a02d78e3ef2c14420587a"
+    },
+    {
+      "path": "v05/previews/final-sage-menu.png",
+      "bytes": 665162,
+      "sha256": "053ca2a806ee8d6ab8d0813ea9d363aa3f4b8802b1436991a4c6171059bd6a66"
+    },
+    {
+      "path": "v05/previews/final-sage-phone.png",
+      "bytes": 276037,
+      "sha256": "3c5cd99965e09755411f9308d848d99083f9bf2632072e8c1647bd60392a87ec"
+    },
+    {
+      "path": "v05/README.md",
+      "bytes": 3527,
+      "sha256": "4310023b9ca9d71ee4a7031dbbad2698ace47502087ca96bfc4d82533f1ca246"
+    },
+    {
+      "path": "v05/source/circuit-garden.html",
+      "bytes": 283980,
+      "sha256": "0a07a40ef3e2ab49159f9b08e0a3f3a4e0083cc7093a301ddc415aa2d5356df2"
+    },
+    {
+      "path": "v05/variants.css",
+      "bytes": 12327,
+      "sha256": "b19cbf6da54b710ca5b5f9fbac3978e8c1b342cf33e693d33988df7e24671fcb"
+    },
+    {
+      "path": "v05/variants.js",
+      "bytes": 902,
+      "sha256": "f34988c206e3f2eaca637dfdfd04783e0135a300b9c6dd3f3d51060a6db1b3b6"
+    }
+  ]
+}

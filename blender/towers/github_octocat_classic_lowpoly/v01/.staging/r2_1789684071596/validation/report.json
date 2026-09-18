@@ -1,0 +1,37 @@
+{
+  "asset": "github_octocat_classic_lowpoly",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "365082b826efb25e280b12548a9ca233110bef6e7f01c619022a6ae9a2d459db",
+  "checkedAt": "2026-09-17T22:27:54.750Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 5819,
+  "meshes": 13,
+  "materials": 2,
+  "textures": 2,
+  "bones": 0,
+  "dimensions": [
+    3.1378273963928223,
+    3.0731914043426514,
+    1.5121975541114807
+  ],
+  "bounds": [
+    [
+      -1.56890869140625,
+      0,
+      -0.8077588677406311
+    ],
+    [
+      1.5689187049865723,
+      3.0731914043426514,
+      0.7044386863708496
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "07f96e39f54b34dcb00660a46dc52796dd9e3c03dfc94fceecf61dca19f24a4f",
+  "source": "blender/towers/github_octocat_classic_lowpoly/v01/github_octocat_classic_lowpoly_v01.blend",
+  "runtime": "assets/runtime/towers/github_octocat_classic_lowpoly_v01.glb"
+}

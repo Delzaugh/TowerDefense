@@ -1,0 +1,17 @@
+{
+  "asset": "campus_pixel_copilot",
+  "revision": 2,
+  "sha256": "501d2cf5a2f9dcb9324fbd0139b5fc68c98d0c104445bd795779590410c9bb1d",
+  "sourceHash": "710389702f7c0d56925811152563843e6701969061aea6d823b558188c79f86d",
+  "reviewedViews": [
+    "iso",
+    "front",
+    "side",
+    "rear",
+    "close_front",
+    "phone"
+  ],
+  "technicalValidationPassed": true,
+  "visualReview": "Personally inspected exported front, side, isometric, rear, close-front and phone views. Canonical stepped purple Copilot silhouette, blue goggles and green eyes are consistent across all six assets. Mounting and depth checked; small consumer badges are secondary details and do not retain eye detail at distant game scale.",
+  "artisticAcceptance": "pending_user_review"
+}

@@ -1,0 +1,357 @@
+{
+  "passed": true,
+  "checkedAt": "2026-09-17T23:21:31.018Z",
+  "checks": [
+    "29 environment assets plus canonical Copilot, low-poly Octocat and Lag Spike",
+    "7 expandable hex tiles with 12 exact edge connections",
+    "8-tile growth and alternative tile identity tested with actual exported anchors",
+    "50% larger tile dimensions with coordinated fixed framing",
+    "edge light streaks removed entirely",
+    "void-only grid below opaque models",
+    "Decor instances: supported by real terrain, no footprint overlaps; walkway terrain-contact samples",
+    "companion pause and reduced motion",
+    "four distinct camera presets with pressed state and touch support",
+    "building mesh hover, label focus, Escape dismissal and touch highlight",
+    "warm companion beacon with canonical source scale",
+    "fixed camera angles with drag pan, pointer-anchored wheel zoom, bounded button zoom and full reset",
+    "canonical Copilot scale and sampled hover doorway clearance",
+    "entire back-and-forth route and turning footprint",
+    "authored idle clip with pause/resume",
+    "reduced-motion preference",
+    "desktop, phone, landscape and touch",
+    "restricted asset serving",
+    "no browser warnings or errors"
+  ],
+  "delivered": [
+    {
+      "id": "campus_base_hex",
+      "revision": 8,
+      "sha256": "9a75349443297c186922c673266c3106cd0890634bd1166a81e75197d954fafd",
+      "triangles": 108
+    },
+    {
+      "id": "campus_tile_park",
+      "revision": 2,
+      "sha256": "fd88cf4629d7f5b71c6831a823a6a047175ccb5ceae07bb88d4b34976ca7ffd8",
+      "triangles": 920
+    },
+    {
+      "id": "campus_tile_plaza",
+      "revision": 2,
+      "sha256": "cacca154a1c5faf0e0c718b7cbcb70e5f239a5a2a4cf1dc9c97da5fd7447a560",
+      "triangles": 920
+    },
+    {
+      "id": "campus_tile_hill",
+      "revision": 2,
+      "sha256": "e77b34f6851d0a8e888645a9decce0b1d5f48fd8bf9ab2b1b5b57c450c716e5d",
+      "triangles": 920
+    },
+    {
+      "id": "campus_platform",
+      "revision": 3,
+      "sha256": "9fb6ac1087ace6556eb576ac5bd7b176c96be3e1611316e41a17418acae067b5",
+      "triangles": 148
+    },
+    {
+      "id": "campus_lab",
+      "revision": 3,
+      "sha256": "a84b6cc360319e43252c2a9ed34eb34242e11e57e2af1d68fe387250f14bb27b",
+      "triangles": 1744
+    },
+    {
+      "id": "campus_walk_straight",
+      "revision": 6,
+      "sha256": "88d5472024dd15bc26d208213b1cfdf3c956ac488f69be80054fe5643c2c37ef",
+      "triangles": 156
+    },
+    {
+      "id": "campus_walk_short",
+      "revision": 6,
+      "sha256": "633c3b8ead0d51a4950268d1b1593c49d0d354f6a922fefe60b02a51e45626b5",
+      "triangles": 156
+    },
+    {
+      "id": "campus_walk_landing",
+      "revision": 3,
+      "sha256": "badaae889f43b3eaf02fefdaf944e74a30abd012d1ab0d195270a7564ea7f02f",
+      "triangles": 224
+    },
+    {
+      "id": "campus_walk_corner",
+      "revision": 6,
+      "sha256": "e9862ad6f6232f8cc3536c728e0be41bef669268f900df8edafbbd7df3d6df48",
+      "triangles": 188
+    },
+    {
+      "id": "campus_walk_bend",
+      "revision": 7,
+      "sha256": "be3f8455b311b73c22b2c9958bce0639d9c88d88926a0acf8ae9b457f176eb62",
+      "triangles": 508
+    },
+    {
+      "id": "campus_walk_bend_45",
+      "revision": 7,
+      "sha256": "6c5f8fb81edf83835865e4f14c287fb7a27638a2b182ef8e0ba872b7d819e383",
+      "triangles": 316
+    },
+    {
+      "id": "campus_walk_junction",
+      "revision": 6,
+      "sha256": "bceef80569343877fc4a8caa39cfc727d42371b881b328fe2181de215f0dd831",
+      "triangles": 228
+    },
+    {
+      "id": "campus_tree_round",
+      "revision": 3,
+      "sha256": "a34184710614ae098e27a6a25c969844069e90d35335305436172fd0e9bc79d1",
+      "triangles": 168
+    },
+    {
+      "id": "campus_tree_tall",
+      "revision": 3,
+      "sha256": "92559e9d8ee4a8a801f000649aa248adb75b961795ce89f4b4cd8cbbce52b8b3",
+      "triangles": 168
+    },
+    {
+      "id": "campus_tree_cluster",
+      "revision": 3,
+      "sha256": "d1f5e6658651c141ee70a229d47d565dbb5c7b9fe967be04dce8d7276e183c78",
+      "triangles": 216
+    },
+    {
+      "id": "campus_pond",
+      "revision": 3,
+      "sha256": "334156831676b67aef9371cd0d8dcfa9cd8ec59ba3ff513aaffed8547cbb6e3d",
+      "triangles": 504
+    },
+    {
+      "id": "campus_solar",
+      "revision": 4,
+      "sha256": "a68d42f6124dc70bccb24d74caeed72426abcf13faf47832af3c29aea8761ca7",
+      "triangles": 616
+    },
+    {
+      "id": "campus_coffee_kiosk",
+      "revision": 5,
+      "sha256": "2390263498d8f5ed264967a4c9c16938ea83882c4e431feb0195de7b77e7d633",
+      "triangles": 2594
+    },
+    {
+      "id": "campus_planter_bench",
+      "revision": 4,
+      "sha256": "54b3ba98862cd8e5c98f679c46b6981e5120bcf79cfcf124400f0165b41e79a9",
+      "triangles": 1178
+    },
+    {
+      "id": "campus_code_sculpture",
+      "revision": 5,
+      "sha256": "0f0336c0c7686dec62a91b621f28e6d87f9a794b2c394e977eb43269d03fe5c3",
+      "triangles": 1518
+    },
+    {
+      "id": "campus_meeting_nook",
+      "revision": 5,
+      "sha256": "b1985463d4318ba66e9f21ab924e8bbbf13ce5a11ea942a9ba115b598943f8c8",
+      "triangles": 2078
+    },
+    {
+      "id": "campus_wayfinding_sign",
+      "revision": 4,
+      "sha256": "80fe023bbf7ea450c6eec5b58559db280006f5eefdfe456203af8322a5a1a7be",
+      "triangles": 914
+    },
+    {
+      "id": "campus_flower_bed",
+      "revision": 3,
+      "sha256": "7ad32ff99326d5433eb9cefd7491be721ff3052c07fd9b4a9a4b07a574350bb6",
+      "triangles": 1324
+    },
+    {
+      "id": "campus_bush_round",
+      "revision": 3,
+      "sha256": "0bd077b45c34d94691f10f4d773bc64e42d65aba4c888e75f3fe307038ad4866",
+      "triangles": 108
+    },
+    {
+      "id": "campus_hedge",
+      "revision": 3,
+      "sha256": "6ad1ba3fad2ae3e9a6495302501efa5a876be251aa78c2447113f11e9e0359f8",
+      "triangles": 268
+    },
+    {
+      "id": "campus_path_bollard",
+      "revision": 2,
+      "sha256": "97575728b5686787c4c582b4c16a3170ca69adfb468820594e2a27a697c1be4a",
+      "triangles": 156
+    },
+    {
+      "id": "campus_cafe_table",
+      "revision": 2,
+      "sha256": "2eedc15aae3fe86108c55eed3ceb1b7fcffb1619c39a0104ca65dbe42ebaf3ac",
+      "triangles": 1088
+    },
+    {
+      "id": "campus_noticeboard",
+      "revision": 2,
+      "sha256": "eabf96f6ed62a822c4a0e7756a4585227b5d72dbb5fd7d2fbbdc5393f2b9719d",
+      "triangles": 760
+    }
+  ],
+  "strollSamples": [
+    {
+      "time": 0,
+      "position": [
+        -5.5,
+        1.28,
+        7
+      ],
+      "heading": 1.5707963267948966,
+      "phase": "travelling",
+      "clip": "idle",
+      "clipTime": 0,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "time": 3.5,
+      "position": [
+        -1.5,
+        1.28,
+        7
+      ],
+      "heading": 1.5707963267948966,
+      "phase": "travelling",
+      "clip": "idle",
+      "clipTime": 1,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "time": 7.2,
+      "position": [
+        2.5,
+        1.28,
+        7
+      ],
+      "heading": 1.5707963267948966,
+      "phase": "resting",
+      "clip": "idle",
+      "clipTime": 2.2,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "time": 8.25,
+      "position": [
+        2.5,
+        1.28,
+        7
+      ],
+      "heading": 0,
+      "phase": "turning",
+      "clip": "idle",
+      "clipTime": 0.75,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "time": 9.5,
+      "position": [
+        2.5,
+        1.28,
+        7
+      ],
+      "heading": -1.5707963267948966,
+      "phase": "travelling",
+      "clip": "idle",
+      "clipTime": 2,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "time": 13,
+      "position": [
+        -1.5,
+        1.28,
+        7
+      ],
+      "heading": -1.5707963267948966,
+      "phase": "travelling",
+      "clip": "idle",
+      "clipTime": 0.5,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "time": 16.7,
+      "position": [
+        -5.5,
+        1.28,
+        7
+      ],
+      "heading": -1.5707963267948966,
+      "phase": "resting",
+      "clip": "idle",
+      "clipTime": 1.6999999999999993,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "time": 17.75,
+      "position": [
+        -5.5,
+        1.28,
+        7
+      ],
+      "heading": 0,
+      "phase": "turning",
+      "clip": "idle",
+      "clipTime": 0.25,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "time": 19,
+      "position": [
+        -5.5,
+        1.28,
+        7
+      ],
+      "heading": 1.5707963267948966,
+      "phase": "travelling",
+      "clip": "idle",
+      "clipTime": 1.5,
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "errors": []
+}

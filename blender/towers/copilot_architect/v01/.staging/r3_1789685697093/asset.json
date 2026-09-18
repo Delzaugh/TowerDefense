@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_architect",
+  "displayName": "Architect",
+  "category": "towers",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/towers/copilot_architect/v01/copilot_architect_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_architect/v01/build.py",
+    "authoritativeHash": "cecb15e32b47c846f09146d23bf93cb047e722c2939b4107cd0ea947552ee8f3"
+  },
+  "runtime": "assets/runtime/towers/copilot_architect_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 32,
+    "bones": 0,
+    "meshes": 2
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        1.7,
+        1.7,
+        1.4
+      ],
+      "max": [
+        2.8,
+        2.4,
+        2.8
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/copilot_architect/v01/references/persona_concepts.png",
+      "provenance": "User attached selected tower concept sheet on 2026-09-18. Visual design input only; the explicit request is to model the six new towers, excluding existing Base Copilot."
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/copilot_base_v02.blend",
+      "provenance": "Existing family scale and visual-language reference. Source and runtime are preserved."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "contract.dimensions",
+      "reason": "Use the existing 1.8 m Base Copilot family scale. Architect and Developer have taller silhouette details; Linter is intentionally squat."
+    }
+  ],
+  "milestones": [],
+  "decisions": "blender/towers/copilot_architect/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "architect_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#39868A",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#28656B",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#F2E8D5",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#394850",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#051F28",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#058DAD",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#05EAF0",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#F4B856",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "material": "architect_optics",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#39868A",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#28656B",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#F2E8D5",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#394850",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#051F28",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#058DAD",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#05EAF0",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#F4B856",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "shell": "#39868A",
+      "shell_dark": "#28656B",
+      "trim": "#F2E8D5",
+      "graphite": "#394850",
+      "screen": "#051F28",
+      "lens": "#058DAD",
+      "cyan": "#05EAF0",
+      "detail": "#F4B856"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "acff0bdc11e8e402e30c6352db57072ba6ee75a6f67bc2fac657290e69bc8fe1",
+    "sourceHash": "cecb15e32b47c846f09146d23bf93cb047e722c2939b4107cd0ea947552ee8f3",
+    "report": "blender/towers/copilot_architect/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T22:52:25.358Z"
+  }
+}

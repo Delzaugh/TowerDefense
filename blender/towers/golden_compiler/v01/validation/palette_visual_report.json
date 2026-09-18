@@ -1,0 +1,47 @@
+{
+  "asset": "golden_compiler",
+  "revision": 14,
+  "sha256": "1d88ddd329b57876f2db41e45a40e83df55e2596763f7af819f3a7e88ee8b719",
+  "paletteControls": 19,
+  "errors": [],
+  "diff": [
+    {
+      "view": "iso",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.006580555555555556
+    },
+    {
+      "view": "front",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.007316203703703704
+    },
+    {
+      "view": "rear",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.011935648148148148
+    },
+    {
+      "view": "side",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0049601851851851855
+    },
+    {
+      "view": "top",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0027083333333333334
+    },
+    {
+      "view": "idle",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0066375
+    },
+    {
+      "view": "work",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.006054629629629629
+    }
+  ],
+  "visualReview": "Reviewed by Codex: before/after appearance, front and reverse views, clip poses where present, and phone-scale silhouette. No conversion-induced visual regression observed; artistic user acceptance remains separate.",
+  "reviewedAt": "2026-09-17T21:03:25.477Z",
+  "evidence": "blender/towers/golden_compiler/v01/validation/palette_migration_r14/palette_review.png"
+}

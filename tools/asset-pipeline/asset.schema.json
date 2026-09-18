@@ -1,0 +1,402 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tower/asset.schema.json",
+  "title": "Tower versioned Blender asset",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "id",
+    "displayName",
+    "category",
+    "version",
+    "revision",
+    "source",
+    "runtime",
+    "budgets",
+    "contract",
+    "clips",
+    "references",
+    "overrides"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9]*(_[a-z0-9]+)*$"
+    },
+    "displayName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "category": {
+      "enum": [
+        "enemies",
+        "towers",
+        "work",
+        "product",
+        "environment"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^v[0-9]{2,}$"
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "path",
+        "mode"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "pattern": "^blender/.+\\.blend$"
+        },
+        "mode": {
+          "enum": [
+            "manual",
+            "procedural",
+            "hybrid"
+          ]
+        },
+        "recipe": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*\\.\\./)(?!.*\\\\).+$"
+        },
+        "authoritativeHash": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    },
+    "runtime": {
+      "type": "string",
+      "pattern": "^assets/runtime/.+\\.glb$"
+    },
+    "budgets": {
+      "type": "object",
+      "required": [
+        "triangles",
+        "meshes",
+        "materials",
+        "textures",
+        "textureSize",
+        "bones"
+      ],
+      "properties": {
+        "triangles": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "meshes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "materials": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "textures": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "textureSize": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "bones": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "contract": {
+      "type": "object",
+      "required": [
+        "root",
+        "up",
+        "forward",
+        "metres",
+        "grounded",
+        "groundTolerance",
+        "rootMotion",
+        "anchors"
+      ],
+      "properties": {
+        "root": {
+          "const": "root"
+        },
+        "up": {
+          "const": "+Y"
+        },
+        "forward": {
+          "const": "+Z"
+        },
+        "metres": {
+          "const": true
+        },
+        "grounded": {
+          "type": "boolean"
+        },
+        "groundTolerance": {
+          "type": "number",
+          "minimum": 0
+        },
+        "rootMotion": {
+          "const": false
+        },
+        "anchors": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^anchor_[a-z_]+$"
+          }
+        },
+        "dimensions": {
+          "type": "object",
+          "required": [
+            "min",
+            "max"
+          ],
+          "properties": {
+            "min": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 3,
+              "items": {
+                "type": "number",
+                "minimum": 0
+              }
+            },
+            "max": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 3,
+              "items": {
+                "type": "number",
+                "minimum": 0
+              }
+            }
+          }
+        },
+        "groundY": {
+          "type": "number"
+        }
+      }
+    },
+    "clips": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "playback",
+          "fps",
+          "meaning"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9]*(_[a-z0-9]+)*$"
+          },
+          "playback": {
+            "enum": [
+              "loop",
+              "once"
+            ]
+          },
+          "fps": {
+            "enum": [
+              24,
+              30
+            ]
+          },
+          "meaning": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "provenance"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "pattern": "^(?!/)(?!.*\\.\\./)(?!.*\\\\).+$"
+          },
+          "url": {
+            "type": "string"
+          },
+          "provenance": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "overrides": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "field",
+          "reason"
+        ],
+        "properties": {
+          "field": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "decisions": {
+      "type": "string",
+      "pattern": "^(?!/)(?!.*\\.\\./)(?!.*\\\\).+$"
+    },
+    "milestones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "label",
+          "revision",
+          "export",
+          "source",
+          "sha256"
+        ],
+        "properties": {
+          "label": {
+            "type": "string"
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "source": {
+            "type": "string",
+            "pattern": "^(?!/)(?!.*\\.\\./)(?!.*\\\\).+$"
+          },
+          "sha256": {
+            "type": "string"
+          },
+          "sourceHash": {
+            "type": "string"
+          },
+          "export": {
+            "type": "string",
+            "pattern": "^(?!/)(?!.*\\.\\./)(?!.*\\\\).+$"
+          }
+        }
+      }
+    },
+    "delivery": {
+      "type": "object",
+      "required": [
+        "sha256",
+        "sourceHash",
+        "report",
+        "deliveredAt"
+      ],
+      "properties": {
+        "sha256": {
+          "type": "string"
+        },
+        "sourceHash": {
+          "type": "string"
+        },
+        "report": {
+          "type": "string",
+          "pattern": "^(?!/)(?!.*\\.\\./)(?!.*\\\\).+$"
+        },
+        "deliveredAt": {
+          "type": "string"
+        }
+      }
+    },
+    "texturePalettes": {
+      "type": "array",
+      "description": "Named solid base-color atlas swatches. Rectangles are [x,y,width,height] in top-left image pixels; material names must be unique.",
+      "items": {
+        "type": "object",
+        "required": [
+          "material",
+          "size",
+          "roles"
+        ],
+        "properties": {
+          "material": {
+            "type": "string",
+            "minLength": 1
+          },
+          "size": {
+            "type": "array",
+            "minItems": 2,
+            "maxItems": 2,
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            }
+          },
+          "roles": {
+            "type": "object",
+            "minProperties": 1,
+            "propertyNames": {
+              "pattern": "^[a-z][a-z0-9_]*$"
+            },
+            "additionalProperties": {
+              "type": "object",
+              "required": [
+                "color",
+                "rect"
+              ],
+              "properties": {
+                "color": {
+                  "type": "string",
+                  "pattern": "^#[a-fA-F0-9]{6}$"
+                },
+                "rect": {
+                  "type": "array",
+                  "minItems": 4,
+                  "maxItems": 4,
+                  "items": {
+                    "type": "integer",
+                    "minimum": 0
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "palette": {
+      "type": "object",
+      "properties": {
+        "storage": {
+          "enum": [
+            "vertex",
+            "texture"
+          ],
+          "description": "Omission retains the legacy vertex-colour contract."
+        }
+      }
+    }
+  },
+  "$comment": "contracts.mjs additionally enforces matching category/id/version across catalog, source, runtime and recipe paths."
+}

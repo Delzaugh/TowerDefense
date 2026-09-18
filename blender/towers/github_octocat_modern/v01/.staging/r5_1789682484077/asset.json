@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "github_octocat_modern",
+  "displayName": "GitHub Octocat Modern",
+  "category": "towers",
+  "version": "v01",
+  "revision": 5,
+  "source": {
+    "path": "blender/towers/github_octocat_modern/v01/github_octocat_modern_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/github_octocat_modern/v01/build.py",
+    "authoritativeHash": "cf5bbce105d455210c4d66aa73003bfaed8b4886a14388ed5c45b18e72bc05cc"
+  },
+  "runtime": "assets/runtime/towers/github_octocat_modern_v01.glb",
+  "budgets": {
+    "bones": 0,
+    "triangles": 75000,
+    "textureSize": 1024,
+    "meshes": 24,
+    "materials": 3,
+    "textures": 3
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target",
+      "anchor_hat",
+      "anchor_face",
+      "anchor_chest",
+      "anchor_back",
+      "anchor_hand_left",
+      "anchor_hand_right"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/github_octocat_modern/v01/references/user_octocat.png",
+      "provenance": "User-supplied modern Octocat reference, 2026-09-17. Design input only."
+    },
+    {
+      "path": "blender/towers/github_octocat_modern/v01/references/review_1.png",
+      "provenance": "User-supplied corrective anatomy and shape reference, 2026-09-17. Visual input, not instructions."
+    },
+    {
+      "path": "blender/towers/github_octocat_modern/v01/references/review_2.png",
+      "provenance": "User-supplied corrective anatomy and shape reference, 2026-09-17. Visual input, not instructions."
+    },
+    {
+      "path": "blender/towers/github_octocat_modern/v01/references/review_3.png",
+      "provenance": "User-supplied corrective anatomy and shape reference, 2026-09-17. Visual input, not instructions."
+    },
+    {
+      "path": "blender/towers/github_octocat_modern/v01/references/review_4.png",
+      "provenance": "User-supplied corrective anatomy and shape reference, 2026-09-17. Visual input, not instructions."
+    },
+    {
+      "provenance": "Official GitHub account explicitly chooses five total tentacles for the 3D classic Octocat.",
+      "url": "https://github.blog/news-insights/company-news/from-sticker-to-sculpture-the-making-of-the-octocat-figurine/"
+    }
+  ],
+  "overrides": [
+    {
+      "reason": "User rejected aggressive low-poly simplification and explicitly prioritized quality, permitting more triangles, meshes and textures. Target smooth sculpted anatomy with detailed suckers, 2026-09-17.",
+      "field": "budgets"
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/github_octocat_modern/v01/revisions/r2_before_r3/github_octocat_modern_v01.glb",
+      "source": "blender/towers/github_octocat_modern/v01/revisions/r2_before_r3/github_octocat_modern_v01.blend",
+      "sha256": "4765697590f069cbcd08e24c3faf16430eb963a3ef7eb8529c9b82028c00ab6b",
+      "sourceHash": "43dffbbde704f8bbf8c8fd335d08bfbc86b040eb8abe7398941a9f6dca05cb63"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/github_octocat_modern/v01/revisions/r3_before_r4/github_octocat_modern_v01.glb",
+      "source": "blender/towers/github_octocat_modern/v01/revisions/r3_before_r4/github_octocat_modern_v01.blend",
+      "sha256": "fd6b9f229d1be42075dfa807ad96f5d5953cd5309eb8cede022a12cb392fec05",
+      "sourceHash": "684c76a7b7a3846cf81ce378953392328e9f1de57b0b46ffbac5c424ceda411f"
+    }
+  ],
+  "decisions": "blender/towers/github_octocat_modern/v01/decisions.md",
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "texturePalettes": [
+    {
+      "material": "octocat_palette",
+      "roles": {
+        "highlight": {
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ],
+          "color": "#FFFFFF"
+        },
+        "eyes": {
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ],
+          "color": "#F3F9F6"
+        },
+        "fur": {
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "color": "#252A31"
+        },
+        "inner_ear": {
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ],
+          "color": "#343C45"
+        },
+        "face": {
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ],
+          "color": "#F6C3AA"
+        },
+        "smile": {
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ],
+          "color": "#8E4C40"
+        },
+        "iris": {
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ],
+          "color": "#A85444"
+        },
+        "suckers": {
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ],
+          "color": "#9FD5D1"
+        }
+      },
+      "size": [
+        32,
+        4
+      ]
+    }
+  ],
+  "delivery": {
+    "sha256": "a77981b24f3ac42b5c0baa75d1c6163ac136faac4290beea218f3f277c6373d3",
+    "sourceHash": "cf5bbce105d455210c4d66aa73003bfaed8b4886a14388ed5c45b18e72bc05cc",
+    "report": "blender/towers/github_octocat_modern/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T21:46:49.707Z"
+  }
+}

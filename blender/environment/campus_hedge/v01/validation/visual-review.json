@@ -1,0 +1,31 @@
+{
+  "asset": "campus_hedge",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "6ad1ba3fad2ae3e9a6495302501efa5a876be251aa78c2447113f11e9e0359f8",
+  "sourceHash": "6427300f3a9139f2ca6bd93fc399bc814f7178d548b1668b55d59eb3d5fc7220",
+  "reviewedAt": "2026-09-17T23:03:02.166Z",
+  "status": "reviewed",
+  "reviewer": "Codex direct inspection of exported Inspector renders and campus",
+  "artisticAcceptance": "Pending user feedback",
+  "views": [
+    "blender/environment/campus_hedge/v01/renders/inspector-iso.png",
+    "blender/environment/campus_hedge/v01/renders/inspector-rear.png",
+    "blender/environment/campus_hedge/v01/renders/breeze-1.png",
+    "blender/environment/campus_hedge/v01/renders/breeze-3.png"
+  ],
+  "compositionEvidence": [
+    "prototypes/campus-3d/previews/home-desktop.png",
+    "prototypes/campus-3d/previews/home-phone.png",
+    "prototypes/campus-3d/previews/ambient-conversation.png"
+  ],
+  "notes": [
+    "268 triangles; guarded export passed with packed palette.",
+    "Both breeze extrema inspected; source-authored morph deformation preserves grounded foundations.",
+    "Layout placement audit passed, with all furniture supported by actual terrain and no prop overlaps."
+  ],
+  "limits": [
+    "Fine details read as secondary accents at wide campus framing.",
+    "Emulated phone viewport; physical-device performance is not certified."
+  ]
+}

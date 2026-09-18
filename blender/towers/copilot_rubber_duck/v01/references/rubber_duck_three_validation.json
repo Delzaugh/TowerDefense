@@ -1,0 +1,224 @@
+{
+  "asset": "Rubber_Duck",
+  "three_revision": "180",
+  "triangles": 2478,
+  "mesh_count": 2,
+  "material_count": 2,
+  "texture_sources": 1,
+  "dimensions_width_depth_height": [
+    1.5546557903289795,
+    2.2799999713897705,
+    1.9368809461593628
+  ],
+  "bounds_y_up": [
+    [
+      -0.7773278951644897,
+      0,
+      -1.1399999856948853
+    ],
+    [
+      0.7773278951644897,
+      1.9368809461593628,
+      1.1399999856948853
+    ]
+  ],
+  "root": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      "XYZ"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "Rubber_Duck",
+      "type": "Group",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "root",
+      "type": "Object3D",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "anchor_action",
+      "type": "Object3D",
+      "position": [
+        0,
+        1.0652844905853271,
+        1.2599999904632568
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "anchor_ui",
+      "type": "Object3D",
+      "position": [
+        0,
+        2.2368810176849365,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Rubber_Duck_body",
+      "type": "Mesh",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "Rubber_Duck_eyes",
+      "type": "Mesh",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "animations": 0,
+  "has_normals": true,
+  "nonfinite_positions": 0,
+  "materials": [
+    {
+      "name": "Rubber_Duck_body_PBR",
+      "roughness": 0.47999998927116394,
+      "metalness": 0,
+      "opaque": true,
+      "base_color_texture": true,
+      "emission_texture": true,
+      "emissive": [
+        0.2800000011920929,
+        0.2800000011920929,
+        0.2800000011920929
+      ],
+      "texture_dimensions": [
+        256,
+        8
+      ]
+    },
+    {
+      "name": "Rubber_Duck_eyes_PBR",
+      "roughness": 0.25,
+      "metalness": 0,
+      "opaque": true,
+      "base_color_texture": true,
+      "emission_texture": true,
+      "emissive": [
+        0.05999999865889549,
+        0.05999999865889549,
+        0.05999999865889549
+      ],
+      "texture_dimensions": [
+        256,
+        8
+      ]
+    }
+  ],
+  "anchors": {
+    "anchor_action": [
+      0,
+      1.0652844905853271,
+      1.2599999904632568
+    ],
+    "anchor_ui": [
+      0,
+      2.2368810176849365,
+      0
+    ]
+  },
+  "glb": {
+    "byte_length": 64508,
+    "images": [
+      {
+        "mimeType": "image/png",
+        "bufferView": 4,
+        "external_uri": null
+      }
+    ],
+    "buffers": [
+      {
+        "byteLength": 60980
+      }
+    ],
+    "extensions": [
+      "KHR_materials_specular"
+    ],
+    "primitive_count": 2,
+    "self_contained": true,
+    "has_normal_accessors": true
+  },
+  "errors": [],
+  "warnings": [],
+  "checks": {
+    "load_clean": true,
+    "budget": true,
+    "hard_cap": true,
+    "counts_match": true,
+    "dimensions_match": true,
+    "proportions_preserved": true,
+    "ground_contact": true,
+    "centered": true,
+    "root_identity": true,
+    "anchors": true,
+    "static": true,
+    "opaque_pbr": true,
+    "embedded_palette": true,
+    "finite_geometry": true,
+    "exported_normals": true
+  },
+  "runtime_copy": {
+    "path": "assets/runtime/towers/copilot_rubber_duck_v01.glb",
+    "identical_to_validated_export": true
+  }
+}

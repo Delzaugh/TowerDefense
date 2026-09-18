@@ -1,0 +1,19 @@
+{
+  "asset": "codicon_agent",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "1ee614fb526caf955a948edcf69decdaf92d573cc34be8cde119ce8f7d0a3b39",
+  "sourceHash": "5d9457739c4f82e45de239b5e79afa2af1e20d0ba992121c5a6f76121b3727dd",
+  "sourceSvgSha256": "544cb5b1feac07c0439e1a7c3c901472264bbb714a954faa1f581f6a9197bdf4",
+  "technicalValidationPassed": true,
+  "reviewedViews": [
+    "front",
+    "side",
+    "isometric",
+    "rear",
+    "phone"
+  ],
+  "visualReview": "Personally compared the original SVG reference board with exported front/iso/side/rear and phone evidence. Original negative spaces, disconnected details and consistent extrusion are preserved. No visible construction defect found. Closed manifold components asserted in Blender; triangle area checked against source contour area.",
+  "limitations": "Static extruded symbol with flat front/back and lightly faceted curve edges. Disconnected features are intentional; mount to a host surface for physical use. Fine gaps compress at small scale.",
+  "artisticAcceptance": "pending_user_review"
+}

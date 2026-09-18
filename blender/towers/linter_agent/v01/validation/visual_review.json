@@ -1,0 +1,32 @@
+{
+  "asset": "linter_agent",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "099ddb4a02d7e39f62e30c3d8540578a99236ae2cf1ff542587d8199010b312b",
+  "sourceHash": "f9af9f0106cbbb96fdeff021229f8e40593d842da5f9db47215bf075e06d7427",
+  "reviewedAt": "2026-09-17T23:00:09.565Z",
+  "reviewer": "primary production agent",
+  "status": "visual construction review complete; user artistic acceptance pending",
+  "views": [
+    "iso",
+    "front",
+    "side",
+    "rear",
+    "top",
+    "inspector_underside",
+    "inspector_phone",
+    "inspector_small"
+  ],
+  "findings": [
+    "Distinct concept silhouette and characteristic role accessory retained.",
+    "Face screens are opaque and clear of shell intersections after adding interior support loops.",
+    "Goggle rims, ear details and structural frames inspected in front, side, reverse and underside views.",
+    "All eight Linter sockets are present; no aura, selection or gameplay-effect geometry is included.",
+    "Model identity remains legible at phone width and in the small-silhouette test; tiny symbols become secondary."
+  ],
+  "limitations": [
+    "Static rest-pose model: no skeleton or animation clips.",
+    "Backside details and depths inferred from the single three-quarter concept reference.",
+    "Artistic acceptance and integration into gameplay remain separate."
+  ]
+}

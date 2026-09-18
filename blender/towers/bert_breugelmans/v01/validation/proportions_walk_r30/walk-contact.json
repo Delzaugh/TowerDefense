@@ -1,0 +1,18 @@
+{
+  "revision": 30,
+  "sourceHash": "12f246e1a4734ad12104b53c65a57da0fa09d1deaf172ec5235db6644778422e",
+  "samples": 145,
+  "durationSeconds": 1.5,
+  "stanceMatchingMetresPerSecond": 0.41454545454545455,
+  "minimumSoleHeight": -0.0005700588226318359,
+  "maximumSupportPlaneError": 0.0005700588226318359,
+  "maximumStanceContactPathError": 0.00013417439027263445,
+  "peakSoleClearance": 0.11122062802314758,
+  "contactSamples": {
+    "heel": 33,
+    "flat": 90,
+    "toe": 57
+  },
+  "maxQuarterFrameRotationDegrees": 1.7471459545465713,
+  "passed": true
+}

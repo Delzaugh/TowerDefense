@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tower Game Assets"
+  short_description: "Create and refine validated Blender game assets"
+  default_prompt: "Use $game-asset-workflow to create or refine this Tower model and review its exported GLB in the shared inspector."

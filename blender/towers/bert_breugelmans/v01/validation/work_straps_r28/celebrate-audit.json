@@ -1,0 +1,49 @@
+{
+  "revision": 28,
+  "sourceHash": "6f62b0a1e8e1992a5a140f0333a1be4c16c0ac1c03f6af76d04bb0925513b339",
+  "unchangedCharacterGeometryUvsWeightsIdleMoveAndPackedImages": true,
+  "intentionalChangesExcluded": [
+    "cohesion_pack strap topology",
+    "work",
+    "celebrate_team"
+  ],
+  "differences": [],
+  "samples": 193,
+  "contacts": [
+    {
+      "frame": 28.0,
+      "surfaceVertexDistance": 0.0012111096875742078,
+      "triangleIntersections": 0
+    },
+    {
+      "frame": 40.0,
+      "surfaceVertexDistance": 0.001211197697557509,
+      "triangleIntersections": 0
+    },
+    {
+      "frame": 54.0,
+      "surfaceVertexDistance": 0.0012112041004002094,
+      "triangleIntersections": 0
+    }
+  ],
+  "handIntersections": [],
+  "maxSoleDriftMetres": 5.765515909484077e-06,
+  "soleHeightRange": [
+    -5.761579814134166e-06,
+    1.7166138377433526e-07
+  ],
+  "minimumElbowBelowShoulderMetres": 0.18636775016784668,
+  "maxHalfFrameBoneRotationDegrees": 7.256883040294495,
+  "maxHalfFrameWristTravelMetres": 0.03453410671054525,
+  "endpoints": [
+    {
+      "frame": 0.0,
+      "maxRestMatrixError": 2.0203733583912253e-06
+    },
+    {
+      "frame": 96.0,
+      "maxRestMatrixError": 2.0203733583912253e-06
+    }
+  ],
+  "passed": true
+}

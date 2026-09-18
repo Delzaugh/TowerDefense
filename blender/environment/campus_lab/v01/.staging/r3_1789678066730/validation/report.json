@@ -1,0 +1,37 @@
+{
+  "asset": "campus_lab",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "a84b6cc360319e43252c2a9ed34eb34242e11e57e2af1d68fe387250f14bb27b",
+  "checkedAt": "2026-09-17T20:47:53.372Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1744,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    7.6499998569488525,
+    5.002499997615814,
+    6.984999895095825
+  ],
+  "bounds": [
+    [
+      -5.824999809265137,
+      5.960464477539063e-8,
+      -4.059999942779541
+    ],
+    [
+      1.8250000476837158,
+      5.002500057220459,
+      2.924999952316284
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "134c6683a67040d4e577766690322fa62dd5ddf21c68ddc8f79123364c33933b",
+  "source": "blender/environment/campus_lab/v01/campus_lab_v01.blend",
+  "runtime": "assets/runtime/environment/campus_lab_v01.glb"
+}

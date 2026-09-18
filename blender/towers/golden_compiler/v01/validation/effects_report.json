@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "revision": 13,
+  "sha256": "d82029f26a3ea8f1adc97a8ed7ae42a21b5a487034516ecf743b12f30af5edf7",
+  "checkedAt": "2026-09-12T15:53:07.790Z",
+  "characterTriangles": 2152,
+  "effectTriangles": 2,
+  "totalTriangles": 2154,
+  "totalMeshes": 4,
+  "totalMaterials": 4,
+  "checks": [
+    "shader compiles without browser warnings",
+    "aura toggles independently",
+    "stationary root through five work poses",
+    "unaffected asset has no aura",
+    "refresh does not duplicate effect"
+  ],
+  "visualReview": "Screenshots require visual inspection.",
+  "rendererSha256": "5c219ad34be6e1daa63cdd19f1a338faf51a430a38fee723b49ada133961bed8"
+}

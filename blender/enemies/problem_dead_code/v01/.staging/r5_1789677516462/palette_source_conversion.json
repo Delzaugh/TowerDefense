@@ -1,0 +1,15 @@
+{
+  "asset": "problem_dead_code",
+  "geometryHash": "08d7dd79b2990b8c1e0ed21aa212a56a13ce9b512d3ef23bc3310af273f26ab4",
+  "maxLinearColorError": 1.850408204440157e-08,
+  "size": [
+    32,
+    4
+  ],
+  "materials": [
+    "dead_code_palette"
+  ],
+  "usedRoles": 6,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\enemies\\problem_dead_code\\v01\\problem_dead_code_v01.blend"
+}

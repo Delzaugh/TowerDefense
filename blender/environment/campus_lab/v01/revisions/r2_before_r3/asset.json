@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_lab",
+  "displayName": "Glacier Copilot Lab",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/campus_lab/v01/campus_lab_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_lab/v01/build.py",
+    "authoritativeHash": "b3136d5e0e6d5a92795169cb4b3a50caf822983827db6936d8c57a2bf146a7d0"
+  },
+  "runtime": "assets/runtime/environment/campus_lab_v01.glb",
+  "budgets": {
+    "triangles": 4000,
+    "materials": 1,
+    "textures": 0,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_door_min",
+      "anchor_door_max"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "prototypes/hub/previews/before-3d-study.png",
+      "provenance": "Project-owned Glacier SVG campus, including floating panel, inset paths and faceted landscaping."
+    },
+    {
+      "path": "tools/asset-recipes/campus-kit.py",
+      "provenance": "Shared geometry helper used by the local versioned recipe."
+    },
+    {
+      "path": "blender/environment/campus_home_study/v01/campus_home_study_v01.blend",
+      "provenance": "Source-faithful extraction of the scale-corrected lab from revision 5."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/campus_lab/v01/decisions.md",
+  "delivery": {
+    "sha256": "8069808ccc1c482537d0803c75b9a580e1c72e1b7f6cd55ad090d0d864dc467b",
+    "sourceHash": "b3136d5e0e6d5a92795169cb4b3a50caf822983827db6936d8c57a2bf146a7d0",
+    "report": "blender/environment/campus_lab/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T20:39:03.335Z"
+  }
+}

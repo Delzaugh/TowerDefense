@@ -1,0 +1,36 @@
+# Coding Task decisions
+
+- 2026-09-12: User requests checkboxes that change as work is done, with none checked initially. Keep the three empty outlines visible. The reference's first green checkbox is not the default state.
+- New asset: no Coding Task source or runtime was registered when this work began. Reference retained in references/concept.png; its text and mesh counts are visual context, not instructions or verified measurements.
+- Preserve the reference's limb-free cream document, purple TASK badge, blue folded corner, dark code symbol and three checklist rows. Grounded 1.44 m tall, one opaque vertex-color material, one mesh, no textures or skeleton.
+- 2026-09-12 corner refinement, revision 8: user requests the actual diagonal corner cut shown in the original rear view. The cream body is now a beveled five-sided prism, with its top-right corner removed. The solid blue triangular fold spans front to back, has a light-blue diagonal strip on both faces, and follows the cut silhouette. The cream diagonal is recessed under the fold to avoid coplanar flicker. Front, rear and angled runtime renders were reviewed. 1,462 triangles; guarded delivery and checkbox/body-clip verification pass. All prior animation and default unchecked-state decisions remain in force.
+- 2026-09-12 refinement, revision 9 supersedes the separate fold construction and shuffle motion above: user identifies corner overlaps, rough code chevrons, and requests hovering because the asset has no legs. The paper and blue corner now form one closed manifold shell, with shared seam vertices, a continuous two-segment perimeter bevel and a blue diagonal thickness face. There are no separate overlapping fold/stripe plates. Each code chevron is one beveled mitered polygon, with a matching slash. Idle and move are two-second hovering loops at approximately 0.18 m visual lift; move adds a gentle forward lean and drift, with no stepping or ground contact. Resolve starts at the hover height. The editable rest pose remains grounded to preserve the placement contract. Runtime validation and 97 clearance samples per hover loop pass (minimum above 0.12 m), along with independent checkbox controls and all prior clip checks. Front/rear/angled views were inspected; 1,494 triangles and one material. The existing Inspector tab was refreshed to revision 9 and left playing move.
+- Blender owns three independent shape keys, checkbox_1 through checkbox_3 (top to bottom). Basis values are all zero; checked overlays are hidden within the solid card. Value 1 reveals the green tile and white tick. Empty outlines remain in the base geometry.
+- checklist_progress is a one-second visual preview with achieved states at 1/3, 2/3 and 1. Presentation can sample it, or set independent morph weights directly. Do not play it on a timer as a source of work completion.
+- Simulation retains ownership of work amounts and outcomes. This workspace contains asset tooling and design documents, but no game presentation or simulation implementation to wire into. The exported interface and integration example are ready for that consumer.
+- New instances and pooled instances must reset all three weights to zero. Stop the progress preview before directly controlling the same morph weights.
+- Delivered revision 4: 1,454 triangles, one mesh/material, three morph targets, default weights [0, 0, 0]. Guarded export and Three.js validation pass with no runtime warnings. The behavior check covers all eight checkbox combinations, exact progress boundaries, reset and independent cloned instances. Desktop front/iso and phone evidence were visually inspected; user artistic acceptance remains pending.
+- Export mechanics: the mesh needs an animation-data container for Blender 5.2's NLA shape-key sampler to evaluate its tracks. STEP sampling preserves achieved states. The Inspector now includes the exact final frame for one-shot clips; its integration suite and the asset pipeline smoke suite pass.
+
+## Presentation integration
+
+2026-09-12 checkbox refinement, revision 10: each gray frame is now one closed ring with consistent chamfered corners and even border width. Checked green tiles share the same center, outer dimensions and corner profile. Each white tick is one beveled polygon with a continuous elbow and consistent inset. Checkbox shape keys now retract the corresponding gray frame inside the card while revealing the green tile/tick, eliminating the exposed gray lip. All three rows remain evenly spaced and centered on their text bars. Rest stays fully unchecked. Runtime checks verify matching frame/tile bounds, ticks inside their tiles, hidden gray borders, all eight independent combinations, hover clearance, unchanged clip ownership and loop continuity. Front and angled checked/unchecked views were reviewed; delivery passes at 1,338 triangles and one material.
+
+2026-09-12 follow-up: Work assets also require `idle`, `move`, and `resolve`. Revision 6 adds a two-second gentle idle bob/yaw, a 1.333-second buoyant move loop, and a one-second positive pop/shrink resolve. The limb-free design is preserved. A `task_motion` parent drives the body and anchors while `root` remains stationary; the three body clips never target checkbox weights. The runtime must remove the resolved instance after its visual exit (the final scale is 0.015), with outcome/timing still simulation-owned. Smooth transform sampling and discrete checkbox sampling are exported separately. Source and GLB pass guarded validation, independent checkbox/clip checks and loop-boundary checks; sampled Inspector poses were visually reviewed. This is recorded as the Work-category baseline in the visual guide.
+
+Resolve the mesh named `coding_task` once per loaded instance. Its Three.js `morphTargetDictionary` maps `checkbox_1`, `checkbox_2`, and `checkbox_3` to indices; set the corresponding `morphTargetInfluences` to 0 or 1. Do not modify the shared geometry or material. Normalized thirds are a suggested display mapping, not a gameplay rule; explicit work milestones can instead supply each boolean independently.
+
+```js
+const mesh = instance.getObjectByName('coding_task');
+function setChecklist(achieved = [false, false, false]) {
+  ['checkbox_1', 'checkbox_2', 'checkbox_3'].forEach((name, i) => {
+    mesh.morphTargetInfluences[mesh.morphTargetDictionary[name]] = achieved[i] ? 1 : 0;
+  });
+}
+setChecklist(); // Spawn or pool reset: all unchecked.
+// On a simulation update, pass its achieved milestones to setChecklist.
+```
+
+## Palette texture migration — revision 11 (2026-09-17)
+
+User-authorized texture-preferred alignment. Converted the then-current authoritative source to a packed 32×4 px palette (8 used colour roles). Opaque flat role colours suit texture editing; no vertex-colour exception was needed. Preserved geometry, existing UVs, rig, anchors, morphs, clips, material response and auxiliary emission data. Exact runtime parity passed; maximum rendered channel difference was 1/255. Before/after, reverse, clip and phone-scale views were personally reviewed. Evidence: `validation/palette_migration_r11/`. Original source/runtime retained in `revisions/r10_before_r11`. Later artistic refinements remain separate. Future guarded rebuilds retain texture delivery; ordinary exports use the packed Blender image.

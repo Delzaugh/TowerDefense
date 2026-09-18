@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_drill_structure",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "a6408cdc16b749f4810a6a219e956c24e7ead790c006d2578ba9f4a8dcf389c1",
+  "checkedAt": "2026-09-17T21:34:22.496Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1198,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    1.7501269578933716,
+    1.999995470046997,
+    1.750126838684082
+  ],
+  "bounds": [
+    [
+      -0.8750634789466858,
+      0,
+      -0.8750633597373962
+    ],
+    [
+      0.8750634789466858,
+      1.999995470046997,
+      0.8750634789466858
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_drill_structure/v01/kaykit_drill_structure_v01.blend",
+  "sourceHash": "548daa438d6ac35e8b7cc3a61024f533dbf6452cc9f2958e8bf848a0e26ddb08",
+  "runtime": "assets/runtime/environment/kaykit_drill_structure_v01.glb"
+}

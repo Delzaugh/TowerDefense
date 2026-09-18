@@ -1,0 +1,37 @@
+{
+  "asset": "campus_walk_bend_45",
+  "revision": 3,
+  "sha256": "944a65b8dbd713fe3f3d066fca82c79debe1a36e31644e121ff656938d93353d",
+  "paletteControls": 3,
+  "errors": [],
+  "diff": [
+    {
+      "view": "iso",
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0
+    },
+    {
+      "view": "front",
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0
+    },
+    {
+      "view": "rear",
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0
+    },
+    {
+      "view": "side",
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0
+    },
+    {
+      "view": "top",
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0
+    }
+  ],
+  "visualReview": "Reviewed by Codex: before/after appearance, front and reverse views, clip poses where present, and phone-scale silhouette. No conversion-induced visual regression observed; artistic user acceptance remains separate.",
+  "reviewedAt": "2026-09-17T21:03:25.673Z",
+  "evidence": "blender/environment/campus_walk_bend_45/v01/validation/palette_migration_r3/palette_review.png"
+}

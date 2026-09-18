@@ -1,0 +1,37 @@
+{
+  "asset": "codicon_lightbulb",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "0f5a9d7462004e83aedf6dc529feab7fe9864f09d03b4737ae0bc2f3e9429733",
+  "checkedAt": "2026-09-17T22:20:03.305Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 528,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    0.45003214478492737,
+    0.6000000238418579,
+    0.05999999865889549
+  ],
+  "bounds": [
+    [
+      -0.22501607239246368,
+      0,
+      -0.029999999329447746
+    ],
+    [
+      0.22501607239246368,
+      0.6000000238418579,
+      0.029999999329447746
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "31ab3e80ae05ad6168ab3c2dbd81b338f39d756ed6947e7dfe66878977596efa",
+  "source": "blender/environment/codicon_lightbulb/v01/codicon_lightbulb_v01.blend",
+  "runtime": "assets/runtime/environment/codicon_lightbulb_v01.glb"
+}

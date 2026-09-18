@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_structure_low",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "2c1540f7324925320075c2b0aeb381ab6f32b26a091ba20450751a0ac9926091",
+  "checkedAt": "2026-09-17T21:34:47.283Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 422,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    1.7501269578933716,
+    1,
+    1.750126838684082
+  ],
+  "bounds": [
+    [
+      -0.8750634789466858,
+      0,
+      -0.8750633597373962
+    ],
+    [
+      0.8750634789466858,
+      1,
+      0.8750634789466858
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_structure_low/v01/kaykit_structure_low_v01.blend",
+  "sourceHash": "7a6f4757f831fb6cb4e07b5ff6e3c1932b9fab037c4fe096ec25e00c0e6d82f1",
+  "runtime": "assets/runtime/environment/kaykit_structure_low_v01.glb"
+}

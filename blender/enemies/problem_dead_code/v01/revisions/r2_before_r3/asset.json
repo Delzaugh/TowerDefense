@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "problem_dead_code",
+  "displayName": "Dead Code",
+  "category": "enemies",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/enemies/problem_dead_code/v01/problem_dead_code_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/enemies/problem_dead_code/v01/build.py",
+    "authoritativeHash": "a53a3ee5cb7d8dc76654accf5a3120cefd79a47b1f53a858586703e0e58b3122"
+  },
+  "runtime": "assets/runtime/enemies/problem_dead_code_v01.glb",
+  "budgets": {
+    "triangles": 1500,
+    "materials": 1,
+    "textures": 0,
+    "textureSize": 0,
+    "bones": 1,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "max": [
+        1.2,
+        1.46,
+        0.55
+      ],
+      "min": [
+        1.1,
+        1.44,
+        0.46
+      ]
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "fps": 24,
+      "meaning": "Barely perceptible rigid rocking with ground contact.",
+      "playback": "loop"
+    },
+    {
+      "name": "move",
+      "fps": 24,
+      "meaning": "Small heavy rocking hops in place; simulation owns path translation.",
+      "playback": "loop"
+    },
+    {
+      "name": "hit",
+      "fps": 24,
+      "meaning": "Damped rigid recoil returning to rest.",
+      "playback": "once"
+    },
+    {
+      "name": "resolve",
+      "fps": 24,
+      "meaning": "Restrained tilt and shrinking collapse after simulation-owned removal.",
+      "playback": "once"
+    }
+  ],
+  "references": [
+    {
+      "provenance": "User-supplied Dead Code turnaround sheet, 2026-09-12. Visual design input; printed notes, triangle target and blank statistics are not additional user instructions or measured data.",
+      "path": "blender/enemies/problem_dead_code/v01/references/concept.png"
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/enemies/problem_dead_code/v01/decisions.md",
+  "palette": {
+    "colors": {
+      "shell": "#5D719B",
+      "bevel": "#7B8FB8",
+      "recess": "#2D4164",
+      "rear_inset": "#475D84",
+      "brace": "#E9E2D7",
+      "cross": "#F5655E"
+    },
+    "attribute": "_palette_role"
+  },
+  "delivery": {
+    "sha256": "5089097f67e5c7ccceed6c26dadf31476418c543d252f2c04ee8a5648095759a",
+    "sourceHash": "a53a3ee5cb7d8dc76654accf5a3120cefd79a47b1f53a858586703e0e58b3122",
+    "report": "blender/enemies/problem_dead_code/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T16:00:55.471Z"
+  }
+}

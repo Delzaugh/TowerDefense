@@ -1,0 +1,37 @@
+{
+  "asset": "campus_meeting_nook",
+  "version": "v01",
+  "revision": 5,
+  "sha256": "b1985463d4318ba66e9f21ab924e8bbbf13ce5a11ea942a9ba115b598943f8c8",
+  "checkedAt": "2026-09-17T21:47:39.942Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 2078,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    4.5,
+    3.6999998092651367,
+    4.5
+  ],
+  "bounds": [
+    [
+      -2.25,
+      0,
+      -2.25
+    ],
+    [
+      2.25,
+      3.6999998092651367,
+      2.25
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "4eee9ac7e01f3ea837f2ffde0070886a6b94c5242ff7147bb3b8ef23fc844167",
+  "source": "blender/environment/campus_meeting_nook/v01/campus_meeting_nook_v01.blend",
+  "runtime": "assets/runtime/environment/campus_meeting_nook_v01.glb"
+}

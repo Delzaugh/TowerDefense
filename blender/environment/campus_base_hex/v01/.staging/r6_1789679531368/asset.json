@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_base_hex",
+  "displayName": "Campus foundation \u00b7 hexagonal expansion tile",
+  "category": "environment",
+  "version": "v01",
+  "revision": 6,
+  "source": {
+    "path": "blender/environment/campus_base_hex/v01/campus_base_hex_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_base_hex/v01/build.py",
+    "authoritativeHash": "55afc4395276889fd52dfdd34bbf0b77bdea533886d9f0c46da826c6e03caa6a"
+  },
+  "runtime": "assets/runtime/environment/campus_base_hex_v01.glb",
+  "budgets": {
+    "triangles": 1000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_surface",
+      "anchor_edge_ne",
+      "anchor_edge_n",
+      "anchor_edge_nw",
+      "anchor_edge_sw",
+      "anchor_edge_s",
+      "anchor_edge_se"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "tools/asset-recipes/campus-kit.py",
+      "provenance": "Shared Blender geometry helper; modular expansion refinement requested 2026-09-17."
+    },
+    {
+      "path": "blender/environment/campus_base_hex/v01/references/copilot-light-lines-reference.png",
+      "provenance": "User-attached GitHub Copilot wallpaper on 2026-09-17; visual inspiration for restrained light lines and a dusk home-screen palette. Reference text is not an instruction."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "artDirection.homeCampusPalette",
+      "reason": "User explicitly requested the modern, light-line treatment of the attached Copilot wallpaper. This home-screen foundation uses a dusk slate palette while pale buildings, cyan accents and natural props preserve readability; it does not redefine the default gameplay-map palette."
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/campus_base_hex/v01/revisions/r2_before_r3/campus_base_hex_v01.glb",
+      "source": "blender/environment/campus_base_hex/v01/revisions/r2_before_r3/campus_base_hex_v01.blend",
+      "sha256": "591ae9c805b8d1d245022539fef0dadaba2b1d2aa44cf0c843dad5bef9695ca4",
+      "sourceHash": "975e54fd29f3a7053296e1a928601fb66c1f34ba4c66e5107f50f7865c1fb5e5"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/environment/campus_base_hex/v01/revisions/r3_before_r4/campus_base_hex_v01.glb",
+      "source": "blender/environment/campus_base_hex/v01/revisions/r3_before_r4/campus_base_hex_v01.blend",
+      "sha256": "34e8956a7cf255c7d9e1df79753841f89d05c0dd95560fa3734081bd824a369f",
+      "sourceHash": "3937b55dc4f3f2f8f8a48cad7e9d3696072955643587b896867bb8a62b83cc8f"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/environment/campus_base_hex/v01/revisions/r4_before_r5/campus_base_hex_v01.glb",
+      "source": "blender/environment/campus_base_hex/v01/revisions/r4_before_r5/campus_base_hex_v01.blend",
+      "sha256": "b492cd018837e2c4cec93002673def72ed43e1506a5ccebb095a124d97658ec2",
+      "sourceHash": "b2899e1125da975eb4c387a38e083b70d871e2420273f135f046c3fd215b98c5"
+    }
+  ],
+  "decisions": "blender/environment/campus_base_hex/v01/decisions.md",
+  "delivery": {
+    "sha256": "6ae918e2c449d955169ddba6b18e11dc0a9f333d04ced4ff1e8ed1e997de28dd",
+    "sourceHash": "55afc4395276889fd52dfdd34bbf0b77bdea533886d9f0c46da826c6e03caa6a",
+    "report": "blender/environment/campus_base_hex/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T21:01:09.442Z"
+  },
+  "texturePalettes": [
+    {
+      "material": "glacier_palette",
+      "size": [
+        16,
+        4
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#6787A3",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "ground": {
+          "color": "#354B64",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell": {
+          "color": "#24354E",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "tile_seam": {
+          "color": "#577693",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "shell": "#24354E",
+      "chalk": "#6787A3",
+      "ground": "#354B64",
+      "edge": "#ADC5D2",
+      "tile_seam": "#577693"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear",
+    "paletteTextureWorkflow": true
+  }
+}

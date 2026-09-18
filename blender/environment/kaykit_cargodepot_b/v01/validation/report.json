@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_cargodepot_b",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "2d388911f5e3c3d27f1ce69924f1829c2285047ed49241a69159d3a3e7745e58",
+  "checkedAt": "2026-09-17T21:34:15.097Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 966,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.082562804222107,
+    1.0200009308755398,
+    2.1778693199157715
+  ],
+  "bounds": [
+    [
+      -1.072312831878662,
+      3.725290298461914e-9,
+      -1.105652093887329
+    ],
+    [
+      1.0102499723434448,
+      1.02000093460083,
+      1.0722172260284424
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_cargodepot_b/v01/kaykit_cargodepot_b_v01.blend",
+  "sourceHash": "b434dd6b1b6b049abd7d769ebf24e849cc0411ba60d07dc26ac86f906eea4f9e",
+  "runtime": "assets/runtime/environment/kaykit_cargodepot_b_v01.glb"
+}

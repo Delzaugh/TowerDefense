@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "problem_vague_spec",
+  "displayName": "Vague Spec",
+  "category": "enemies",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/enemies/problem_vague_spec/v01/problem_vague_spec_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/enemies/problem_vague_spec/v01/build.py",
+    "authoritativeHash": "244de939d1f210f0f0db586db6bbd641a9e4c746a88e5f2b1915f33abbf48937"
+  },
+  "runtime": "assets/runtime/enemies/problem_vague_spec_v01.glb",
+  "budgets": {
+    "triangles": 1500,
+    "materials": 1,
+    "textures": 0,
+    "textureSize": 512,
+    "bones": 12,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        1,
+        1.4,
+        0.25
+      ],
+      "max": [
+        1.35,
+        1.55,
+        0.5
+      ]
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "playback": "loop",
+      "meaning": "Small uncertain sway with planted boots.",
+      "fps": 24
+    },
+    {
+      "name": "move",
+      "playback": "loop",
+      "meaning": "In-place short-step walk with flat soles and counter-swinging arms.",
+      "fps": 24
+    },
+    {
+      "name": "hit",
+      "playback": "once",
+      "meaning": "Brief parchment recoil, then return to rest.",
+      "fps": 24
+    },
+    {
+      "name": "resolve",
+      "playback": "once",
+      "meaning": "Visual tuck and shrink toward the feet after simulation resolution.",
+      "fps": 24
+    }
+  ],
+  "references": [
+    {
+      "provenance": "User-provided Vague Spec concept sheet (clipboard PNG, 2026-09-12); visual design input, not additional instructions.",
+      "path": "blender/enemies/problem_vague_spec/v01/references/concept.png"
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/enemies/problem_vague_spec/v01/decisions.md",
+  "palette": {
+    "colors": {
+      "paper": "#EEE1D9",
+      "paper_shade": "#DACDCA",
+      "edge": "#F8ECE5",
+      "ink": "#35343F",
+      "line": "#ADA2A6",
+      "limb_light": "#A29BA3",
+      "limb": "#686774",
+      "joint": "#343B4A",
+      "boot": "#4A4C5B"
+    },
+    "attribute": "_palette_role"
+  },
+  "delivery": {
+    "sha256": "b902d04f6e4d514d35b86458438d6c262d4115c659b86e9d1589cfabb30eea06",
+    "sourceHash": "244de939d1f210f0f0db586db6bbd641a9e4c746a88e5f2b1915f33abbf48937",
+    "report": "blender/enemies/problem_vague_spec/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T14:01:06.314Z"
+  }
+}

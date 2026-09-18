@@ -1,0 +1,50 @@
+{
+  "revision": 30,
+  "sourceHash": "12f246e1a4734ad12104b53c65a57da0fa09d1deaf172ec5235db6644778422e",
+  "matchesRequestedProportionsWithUnchangedTopologyUvsWeightsIdleAndPackedImages": true,
+  "intentionalChanges": [
+    "ground-preserving leg/shoe height mapping",
+    "work wrist orientation",
+    "move",
+    "celebrate retargeted height"
+  ],
+  "differences": [],
+  "samples": 193,
+  "contacts": [
+    {
+      "frame": 28.0,
+      "surfaceVertexDistance": 0.0012110585812479258,
+      "triangleIntersections": 0
+    },
+    {
+      "frame": 40.0,
+      "surfaceVertexDistance": 0.0012110669631510973,
+      "triangleIntersections": 0
+    },
+    {
+      "frame": 54.0,
+      "surfaceVertexDistance": 0.0012112263357266784,
+      "triangleIntersections": 0
+    }
+  ],
+  "handIntersections": [],
+  "maxSoleDriftMetres": 5.500976127883519E-06,
+  "soleHeightRange": [
+    -5.494065590028185E-06,
+    1.946002186059559E-07
+  ],
+  "minimumElbowBelowShoulderMetres": 0.18636775016784668,
+  "maxHalfFrameBoneRotationDegrees": 7.2567754648150675,
+  "maxHalfFrameWristTravelMetres": 0.03453409196230966,
+  "endpoints": [
+    {
+      "frame": 0.0,
+      "maxRestMatrixError": 2.980232594040899E-08
+    },
+    {
+      "frame": 96.0,
+      "maxRestMatrixError": 2.980232594040899E-08
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,610 @@
+{
+  "sourceHash": "338b1e9117ea4e108caceea29c19f9f9935f5f0323f56b3da32f84db54514b46",
+  "sampledFrames": 203,
+  "pairsPerFrame": 12,
+  "surfaceIntersections": [
+    {
+      "clip": "move",
+      "frame": 3,
+      "parts": [
+        [
+          "thigh",
+          "thigh_r"
+        ],
+        [
+          "shin",
+          "shin_r"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 4,
+      "parts": [
+        [
+          "thigh",
+          "thigh_r"
+        ],
+        [
+          "shin",
+          "shin_r"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 5,
+      "parts": [
+        [
+          "thigh",
+          "thigh_r"
+        ],
+        [
+          "shin",
+          "shin_r"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 6,
+      "parts": [
+        [
+          "thigh",
+          "thigh_r"
+        ],
+        [
+          "shin",
+          "shin_r"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 7,
+      "parts": [
+        [
+          "thigh",
+          "thigh_r"
+        ],
+        [
+          "shin",
+          "shin_r"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 8,
+      "parts": [
+        [
+          "thigh",
+          "thigh_r"
+        ],
+        [
+          "shin",
+          "shin_r"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 9,
+      "parts": [
+        [
+          "thigh",
+          "thigh_r"
+        ],
+        [
+          "shin",
+          "shin_r"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 10,
+      "parts": [
+        [
+          "thigh",
+          "thigh_r"
+        ],
+        [
+          "shin",
+          "shin_r"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 11,
+      "parts": [
+        [
+          "thigh",
+          "thigh_r"
+        ],
+        [
+          "shin",
+          "shin_r"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 12,
+      "parts": [
+        [
+          "thigh",
+          "thigh_r"
+        ],
+        [
+          "shin",
+          "shin_r"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 13,
+      "parts": [
+        [
+          "thigh",
+          "thigh_r"
+        ],
+        [
+          "shin",
+          "shin_r"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 14,
+      "parts": [
+        [
+          "thigh",
+          "thigh_r"
+        ],
+        [
+          "shin",
+          "shin_r"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 15,
+      "parts": [
+        [
+          "thigh",
+          "thigh_r"
+        ],
+        [
+          "shin",
+          "shin_r"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 19,
+      "parts": [
+        [
+          "thigh",
+          "thigh_l"
+        ],
+        [
+          "shin",
+          "shin_l"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 20,
+      "parts": [
+        [
+          "thigh",
+          "thigh_l"
+        ],
+        [
+          "shin",
+          "shin_l"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 21,
+      "parts": [
+        [
+          "thigh",
+          "thigh_l"
+        ],
+        [
+          "shin",
+          "shin_l"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 22,
+      "parts": [
+        [
+          "thigh",
+          "thigh_l"
+        ],
+        [
+          "shin",
+          "shin_l"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 23,
+      "parts": [
+        [
+          "thigh",
+          "thigh_l"
+        ],
+        [
+          "shin",
+          "shin_l"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 24,
+      "parts": [
+        [
+          "thigh",
+          "thigh_l"
+        ],
+        [
+          "shin",
+          "shin_l"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 25,
+      "parts": [
+        [
+          "thigh",
+          "thigh_l"
+        ],
+        [
+          "shin",
+          "shin_l"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 26,
+      "parts": [
+        [
+          "thigh",
+          "thigh_l"
+        ],
+        [
+          "shin",
+          "shin_l"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 27,
+      "parts": [
+        [
+          "thigh",
+          "thigh_l"
+        ],
+        [
+          "shin",
+          "shin_l"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 28,
+      "parts": [
+        [
+          "thigh",
+          "thigh_l"
+        ],
+        [
+          "shin",
+          "shin_l"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 29,
+      "parts": [
+        [
+          "thigh",
+          "thigh_l"
+        ],
+        [
+          "shin",
+          "shin_l"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 30,
+      "parts": [
+        [
+          "thigh",
+          "thigh_l"
+        ],
+        [
+          "shin",
+          "shin_l"
+        ]
+      ]
+    },
+    {
+      "clip": "move",
+      "frame": 31,
+      "parts": [
+        [
+          "thigh",
+          "thigh_l"
+        ],
+        [
+          "shin",
+          "shin_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 7,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 8,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 9,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 10,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 11,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 12,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 13,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 14,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 15,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 16,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 17,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 18,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 19,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 20,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 21,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 22,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    },
+    {
+      "clip": "resolve",
+      "frame": 23,
+      "parts": [
+        [
+          "note_body",
+          "paper"
+        ],
+        [
+          "thigh",
+          "thigh_l"
+        ]
+      ]
+    }
+  ],
+  "scope": "Exterior paper, arm and leg casings only. Hidden stems and mating pivots intentionally overlap inside sockets."
+}

@@ -1,0 +1,15 @@
+{
+  "asset": "problem_spaghetti_code",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "6ee98c5db88d08eb3034dea93a63d01718366790eb973f926921416aea202f11",
+  "checkedAt": "2026-09-12T15:58:13.857Z",
+  "errors": [
+    "Cannot find module 'playwright'\nRequire stack:\n- C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\tools\\asset-pipeline\\validate.mjs"
+  ],
+  "warnings": [],
+  "passed": false,
+  "sourceHash": "542b5cf534b43d3383b285fff63d485d0043b863a5dbf8c5cc802bd1f2fcf49f",
+  "source": "blender/enemies/problem_spaghetti_code/v01/problem_spaghetti_code_v01.blend",
+  "runtime": "assets/runtime/enemies/problem_spaghetti_code_v01.glb"
+}

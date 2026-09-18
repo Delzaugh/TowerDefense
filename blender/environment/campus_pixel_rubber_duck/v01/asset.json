@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_pixel_rubber_duck",
+  "displayName": "Campus pixel Rubber Duck",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/campus_pixel_rubber_duck/v01/campus_pixel_rubber_duck_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_pixel_rubber_duck/v01/build.py",
+    "authoritativeHash": "0871bda20f69b0a3ad420a52872d50f39c546798c639b12d6395028e99bda152"
+  },
+  "runtime": "assets/runtime/environment/campus_pixel_rubber_duck_v01.glb",
+  "budgets": {
+    "triangles": 800,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 32,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui"
+    ],
+    "dimensions": {
+      "min": [
+        0.549,
+        0.499,
+        0.089
+      ],
+      "max": [
+        0.551,
+        0.501,
+        0.091
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/copilot_rubber_duck/v01/copilot_rubber_duck_v01.blend",
+      "provenance": "Existing authoritative character design, interpreted as a small pixel emblem."
+    },
+    {
+      "path": "blender/environment/campus_pixel_copilot/v01/campus_pixel_copilot_v01.blend",
+      "provenance": "User-approved chunky pixel family treatment and shallow 0.09 m extrusion."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/campus_pixel_rubber_duck/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "pixel_rubber_duck_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "duck_yellow": {
+          "color": "#FFCC32",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "duck_gold": {
+          "color": "#EBA727",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "duck_bill": {
+          "color": "#FF8A24",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "pixel_dark": {
+          "color": "#0D1117",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "duck_highlight": {
+          "color": "#FFF0A3",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "duck_bill_shadow": {
+          "color": "#DA641F",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "c51ea1add9a9fd897ef2b8ee4a340c9af22a90a0367d41f7345ccfa97bcade7c",
+    "sourceHash": "0871bda20f69b0a3ad420a52872d50f39c546798c639b12d6395028e99bda152",
+    "report": "blender/environment/campus_pixel_rubber_duck/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T22:08:01.260Z"
+  }
+}

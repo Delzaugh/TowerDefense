@@ -1,0 +1,15 @@
+{
+  "asset": "campus_walk_short",
+  "geometryHash": "6443a0eaa278657e08b47158d6c2b1810a5d86030a195f69e5f3beefa5bd8e23",
+  "maxLinearColorError": 1.2099344193217121e-08,
+  "size": [
+    32,
+    4
+  ],
+  "materials": [
+    "glacier_palette"
+  ],
+  "usedRoles": 5,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\environment\\campus_walk_short\\v01\\.staging\\r5_1789679552247\\campus_walk_short_v01.blend"
+}

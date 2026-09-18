@@ -1,0 +1,37 @@
+{
+  "asset": "campus_solar",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "e5f44133a23192805ee6907c664e8123dcc0af571d0323241a202bd8053ea62f",
+  "checkedAt": "2026-09-17T20:39:50.609Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 616,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 0,
+  "bones": 0,
+  "dimensions": [
+    3.6500000953674316,
+    1.7663573026657104,
+    2.799999952316284
+  ],
+  "bounds": [
+    [
+      -1.8250000476837158,
+      0,
+      -1.399999976158142
+    ],
+    [
+      1.8250000476837158,
+      1.7663573026657104,
+      1.399999976158142
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "f94c8602e8ed40265a341444572567aa5d6e3cfce0bc19d323ecad7ef3cf37a2",
+  "source": "blender/environment/campus_solar/v01/campus_solar_v01.blend",
+  "runtime": "assets/runtime/environment/campus_solar_v01.glb"
+}

@@ -1,0 +1,24 @@
+{
+  "asset": "campus_tree_tall",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "92559e9d8ee4a8a801f000649aa248adb75b961795ce89f4b4cd8cbbce52b8b3",
+  "sourceHash": "79acd62e9012ca93720ed9864471d3ad5daf65e06cddd0e67c256dddaab5499b",
+  "reviewedAt": "2026-09-17T21:10:09.130Z",
+  "reviewer": "Codex visual inspection",
+  "status": "reviewed",
+  "artisticAcceptance": "User review pending; not implied by technical validation.",
+  "views": [
+    "blender/environment/campus_tree_tall/v01/renders/inspector-iso.png",
+    "blender/environment/campus_tree_tall/v01/renders/inspector-rear.png"
+  ],
+  "notes": [
+    "Inspected actual registered GLB in the shared Asset Inspector from isometric and reverse views.",
+    "Silhouette, contact surfaces and palette remain coherent; no blocking construction defects observed in these views."
+  ],
+  "compositionEvidence": "prototypes/campus-3d/previews/home-desktop.png",
+  "limits": [
+    "Art prototype; no gameplay or progression implementation.",
+    "Phone and landscape layouts reviewed in browser emulation; physical-device performance not profiled."
+  ]
+}

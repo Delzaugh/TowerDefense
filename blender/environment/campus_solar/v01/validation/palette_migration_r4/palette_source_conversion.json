@@ -1,0 +1,15 @@
+{
+  "asset": "campus_solar",
+  "geometryHash": "ef9f9c3bf3315d36f90e66c170cf2112806a1ec1f4ce607229801e364f66cf59",
+  "maxLinearColorError": 2.2297857227293605e-8,
+  "size": [
+    16,
+    4
+  ],
+  "materials": [
+    "glacier_palette"
+  ],
+  "usedRoles": 3,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\environment\\campus_solar\\v01\\campus_solar_v01.blend"
+}

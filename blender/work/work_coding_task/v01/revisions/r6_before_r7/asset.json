@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "work_coding_task",
+  "displayName": "Coding Task",
+  "category": "work",
+  "version": "v01",
+  "revision": 6,
+  "source": {
+    "path": "blender/work/work_coding_task/v01/work_coding_task_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/work/work_coding_task/v01/build.py",
+    "authoritativeHash": "49530d8d7eae4342a4aef2fcb4556f7a657176654f5315f3e02f2f66e55a323b"
+  },
+  "runtime": "assets/runtime/work/work_coding_task_v01.glb",
+  "budgets": {
+    "triangles": 1500,
+    "materials": 1,
+    "textures": 0,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "max": [
+        0.97,
+        1.45,
+        0.23
+      ],
+      "min": [
+        0.95,
+        1.43,
+        0.16
+      ]
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "playback": "loop",
+      "fps": 24,
+      "meaning": "Gentle two-second breathing bob and small yaw while ready."
+    },
+    {
+      "name": "move",
+      "playback": "loop",
+      "fps": 24,
+      "meaning": "In-place buoyant shuffle and side sway; simulation owns path travel."
+    },
+    {
+      "name": "resolve",
+      "playback": "once",
+      "fps": 24,
+      "meaning": "Brief positive pop followed by a shrinking exit after simulation resolution; checkbox state is preserved."
+    },
+    {
+      "name": "checklist_progress",
+      "meaning": "Visual state preview: zero, one, two, then three achieved checkboxes. Sample from simulation progress; elapsed playback does not award work.",
+      "fps": 24,
+      "playback": "once"
+    }
+  ],
+  "references": [
+    {
+      "provenance": "User-supplied Coding Task concept sheet, 2026-09-12. Visual input only; the explicit request overrides its initially checked first box.",
+      "path": "blender/work/work_coding_task/v01/references/concept.png"
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/work/work_coding_task/v01/revisions/r2_before_r3/work_coding_task_v01.glb",
+      "source": "blender/work/work_coding_task/v01/revisions/r2_before_r3/work_coding_task_v01.blend",
+      "sha256": "1569ce2a4bdfd0bbfd3f16224a12bc1501a0e0f3e95a399b557fad2c16ffb3a7",
+      "sourceHash": "2d93f9f14400f5df0c887c538bfd718484791509b9435d2afcb3763b7af615e3"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/work/work_coding_task/v01/revisions/r3_before_r4/work_coding_task_v01.glb",
+      "source": "blender/work/work_coding_task/v01/revisions/r3_before_r4/work_coding_task_v01.blend",
+      "sha256": "4f5e7238ae747ed250d604d6c98b5f47c23e72cee20bfa9b7812201b9340aad7",
+      "sourceHash": "3f3d5237ddfd9b6c868b39b5af8b0aae59ef1e00249cf17e633f3949eac69120"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/work/work_coding_task/v01/revisions/r4_before_r5/work_coding_task_v01.glb",
+      "source": "blender/work/work_coding_task/v01/revisions/r4_before_r5/work_coding_task_v01.blend",
+      "sha256": "a4e0573f2c1cdcdffff89e8aeaa6ff8b41109368b68a321f7595f27be66c1b03",
+      "sourceHash": "543af70de3cd61365c95e4b85948a5c4df88b04a5d8f3fd7b7a233ec53d9fb20"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/work/work_coding_task/v01/revisions/r5_before_r6/work_coding_task_v01.glb",
+      "source": "blender/work/work_coding_task/v01/revisions/r5_before_r6/work_coding_task_v01.blend",
+      "sha256": "d48f721fe0610fdae8e240c502a045a907e803c28a22b029a7ba9144acfd2b5a",
+      "sourceHash": "49530d8d7eae4342a4aef2fcb4556f7a657176654f5315f3e02f2f66e55a323b"
+    }
+  ],
+  "decisions": "blender/work/work_coding_task/v01/decisions.md",
+  "palette": {
+    "colors": {
+      "paper": "#F3E4CF",
+      "line": "#8D96A4",
+      "white": "#FFFFFF",
+      "ink": "#303C4D",
+      "done": "#50BB43",
+      "fold_light": "#559BFF",
+      "badge": "#7132BE",
+      "fold": "#237BFF"
+    },
+    "attribute": "_palette_role"
+  },
+  "visualState": {
+    "targets": [
+      "checkbox_1",
+      "checkbox_2",
+      "checkbox_3"
+    ],
+    "unchecked": 0,
+    "ownership": "Presentation sets independent morph weights from simulation-owned work progress; no automatic timer.",
+    "mesh": "coding_task",
+    "order": "top to bottom",
+    "defaultWeights": [
+      0,
+      0,
+      0
+    ],
+    "checked": 1
+  },
+  "delivery": {
+    "sha256": "936d5f9a22dda256f62fded7313728acbb0417ffacbb9e47dc4ce4afabc2f634",
+    "sourceHash": "49530d8d7eae4342a4aef2fcb4556f7a657176654f5315f3e02f2f66e55a323b",
+    "report": "blender/work/work_coding_task/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T14:26:20.902Z"
+  },
+  "exportSettings": {
+    "samplingInterpolation": "LINEAR",
+    "morphSamplingInterpolation": "STEP"
+  }
+}

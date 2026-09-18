@@ -1,0 +1,31 @@
+{
+  "title": "Code Smells Concept Variations",
+  "subtitle": "Six readable code-smell enemies disrupting software-themed battles.",
+  "category": "Enemy",
+  "options": [
+    {
+      "name": "Stink Wisp",
+      "description": "Vapor ring surrounds a fractured warning core"
+    },
+    {
+      "name": "Rotten Stack",
+      "description": "Crooked modules leak corrupted status blocks"
+    },
+    {
+      "name": "Coupling Knot",
+      "description": "Branching arms choke a dependency node"
+    },
+    {
+      "name": "God Blob",
+      "description": "Bulging monolith bristles with oversized ports"
+    },
+    {
+      "name": "Clone Swarm",
+      "description": "Repeated cubes orbit one unstable master"
+    },
+    {
+      "name": "Method Spire",
+      "description": "Endless folded ribbon climbs into warning crown"
+    }
+  ]
+}

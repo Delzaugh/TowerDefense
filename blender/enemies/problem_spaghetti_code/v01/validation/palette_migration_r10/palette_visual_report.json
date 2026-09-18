@@ -1,0 +1,57 @@
+{
+  "asset": "problem_spaghetti_code",
+  "revision": 10,
+  "sha256": "b82f84fbb8725c25f649646c5894b9215035918c164a62484a670edd14a9acab",
+  "paletteControls": 5,
+  "errors": [],
+  "diff": [
+    {
+      "view": "iso",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.003648148148148148
+    },
+    {
+      "view": "front",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.005815277777777778
+    },
+    {
+      "view": "rear",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0060125
+    },
+    {
+      "view": "side",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.007546759259259259
+    },
+    {
+      "view": "top",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.009334722222222222
+    },
+    {
+      "view": "idle",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.004399074074074074
+    },
+    {
+      "view": "move",
+      "maxChannelDifference": 2,
+      "meanChannelDifference": 0.003976851851851852
+    },
+    {
+      "view": "hit",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.006459259259259259
+    },
+    {
+      "view": "resolve",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0014597222222222223
+    }
+  ],
+  "visualReview": "Reviewed by Codex: before/after appearance, front and reverse views, clip poses where present, and phone-scale silhouette. No conversion-induced visual regression observed; artistic user acceptance remains separate.",
+  "reviewedAt": "2026-09-17T21:03:25.537Z",
+  "evidence": "blender/enemies/problem_spaghetti_code/v01/validation/palette_migration_r10/palette_review.png"
+}

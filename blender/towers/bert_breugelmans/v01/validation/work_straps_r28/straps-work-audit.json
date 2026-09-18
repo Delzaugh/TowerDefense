@@ -1,0 +1,211 @@
+{
+  "sourceHash": "6f62b0a1e8e1992a5a140f0333a1be4c16c0ac1c03f6af76d04bb0925513b339",
+  "clips": [
+    {
+      "clip": "idle",
+      "samples": 121,
+      "intersectingSamples": 0,
+      "maxFacePairs": 0,
+      "firstHits": [],
+      "zones": [],
+      "maxHalfFrameRotationDegrees": 0.055952909680744456,
+      "workSoleDrift": 0,
+      "minimumElbowBelowShoulder": 0.30980753898620605
+    },
+    {
+      "clip": "move",
+      "samples": 65,
+      "intersectingSamples": 0,
+      "maxFacePairs": 0,
+      "firstHits": [],
+      "zones": [],
+      "maxHalfFrameRotationDegrees": 4.311171007882443,
+      "workSoleDrift": 0,
+      "minimumElbowBelowShoulder": 0.28744232654571533
+    },
+    {
+      "clip": "work",
+      "samples": 241,
+      "intersectingSamples": 0,
+      "maxFacePairs": 0,
+      "firstHits": [],
+      "zones": [],
+      "maxHalfFrameRotationDegrees": 2.949176645868541,
+      "workSoleDrift": 0,
+      "minimumElbowBelowShoulder": 0.303702712059021
+    },
+    {
+      "clip": "celebrate_team",
+      "samples": 193,
+      "intersectingSamples": 76,
+      "maxFacePairs": 56,
+      "firstHits": [
+        {
+          "frame": 23.5,
+          "facePairs": 6
+        },
+        {
+          "frame": 24,
+          "facePairs": 8
+        },
+        {
+          "frame": 24.5,
+          "facePairs": 8
+        },
+        {
+          "frame": 25,
+          "facePairs": 16
+        },
+        {
+          "frame": 25.5,
+          "facePairs": 26
+        },
+        {
+          "frame": 26,
+          "facePairs": 34
+        },
+        {
+          "frame": 26.5,
+          "facePairs": 44
+        },
+        {
+          "frame": 27,
+          "facePairs": 48
+        },
+        {
+          "frame": 27.5,
+          "facePairs": 50
+        },
+        {
+          "frame": 28,
+          "facePairs": 56
+        },
+        {
+          "frame": 28.5,
+          "facePairs": 54
+        },
+        {
+          "frame": 29,
+          "facePairs": 50
+        }
+      ],
+      "zones": [
+        {
+          "face": 189,
+          "restCenter": [
+            -0.1850000023841858,
+            -0.3009534180164337,
+            1.8633451461791992
+          ],
+          "count": 162
+        },
+        {
+          "face": 197,
+          "restCenter": [
+            -0.1940000057220459,
+            -0.3009726405143738,
+            1.7723748683929443
+          ],
+          "count": 140
+        },
+        {
+          "face": 63,
+          "restCenter": [
+            0.1850000023841858,
+            -0.3009534180164337,
+            1.8633451461791992
+          ],
+          "count": 125
+        },
+        {
+          "face": 193,
+          "restCenter": [
+            -0.1850000023841858,
+            -0.2730465829372406,
+            1.8616548776626587
+          ],
+          "count": 117
+        },
+        {
+          "face": 201,
+          "restCenter": [
+            -0.1940000057220459,
+            -0.27402734756469727,
+            1.777625322341919
+          ],
+          "count": 106
+        },
+        {
+          "face": 185,
+          "restCenter": [
+            -0.19099998474121094,
+            -0.2629053592681885,
+            1.9533352851867676
+          ],
+          "count": 102
+        },
+        {
+          "face": 181,
+          "restCenter": [
+            -0.19099998474121094,
+            -0.2890946865081787,
+            1.9616646766662598
+          ],
+          "count": 99
+        },
+        {
+          "face": 202,
+          "restCenter": [
+            -0.23499999940395355,
+            -0.2874999940395355,
+            1.7750000953674316
+          ],
+          "count": 91
+        },
+        {
+          "face": 75,
+          "restCenter": [
+            0.1940000057220459,
+            -0.3009726405143738,
+            1.7723748683929443
+          ],
+          "count": 85
+        },
+        {
+          "face": 67,
+          "restCenter": [
+            0.1850000023841858,
+            -0.2730465829372406,
+            1.8616548776626587
+          ],
+          "count": 80
+        },
+        {
+          "face": 196,
+          "restCenter": [
+            -0.2329999953508377,
+            -0.29904797673225403,
+            1.772749900817871
+          ],
+          "count": 74
+        },
+        {
+          "face": 79,
+          "restCenter": [
+            0.1940000057220459,
+            -0.27402734756469727,
+            1.777625322341919
+          ],
+          "count": 72
+        }
+      ],
+      "maxHalfFrameRotationDegrees": 7.256883040294495,
+      "workSoleDrift": 0,
+      "minimumElbowBelowShoulder": 0.18636775016784668
+    }
+  ],
+  "passed": false,
+  "revision": 28,
+  "runtimeHash": "4cf7919d416f48da30399b1960292ea17c0a4a91bae15c2c500693b51b8141b7",
+  "knownLimitation": "Residual Celebrate sleeve/strap intersections retained under the user’s explicit allowance; zero-overlap audit remains failed."
+}

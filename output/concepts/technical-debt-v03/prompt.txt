@@ -1,0 +1,34 @@
+Use case: stylized-concept. Create an iteration sheet for TECHNICAL DEBT LEDGERS.
+Input image 1 is the exact blank template EDIT TARGET. Preserve its 1672x941 aspect ratio, navy background, all six numbered panels in 3 columns and 2 rows, panel borders, floor grids, badges, header/label locations and margins.
+Input image 2 is DESIGN REFERENCE ONLY: its option 02 Debt Ledger is the selected object to develop. The user explicitly wants all six new variations to be LEDGERS, with a much clearer TECHNICAL DEBT meaning. Replace all six blank panel interiors with new ledger designs. No unrelated office props. This is a focused family exploration so all six must remain recognizably physical bookkeeping ledgers.
+
+Design goal: "software work postponed now creates maintenance burden later", communicated through strong code symbols, unresolved entries, deferred repair, outdated dependencies, skipped tests, increasing rework. Do not rely on coin/financial iconography, tiny readable text or merely a generic book with a minus badge. Each ledger pairs ONE clear software symbol with ONE clear visual sign of unresolved accumulating obligations. Symbols must be chunky raised or inset simple geometry, readable at thumbnail scale. Keep the administrative register/book identity dominant.
+
+Shared art style: friendly chunky stylized LOW-POLY 3D. Blue-gray covers, thick ivory page blocks, sparse amber warning accents; restrained coral only for an unresolved fault. Matte materials, simple facets and bevels, low segment curves, no fine textures, no leather realism or gold fantasy styling. Each visually feasible below 2500 triangles, no stats printed. No characters, no eyes, no currency, no floating UI or glowing effects, no cables or machinery. Strict FRONT orthographic view, consistent light and perceived size. Small bevel depth allowed, no three-quarter or top-down book view. Models centered, full silhouettes visible, grounded baseline near y398 top row, y795 bottom row. Keep every model ABOVE name areas.
+
+SIX DISTINCT LEDGER DIRECTIONS:
+01 DEFERRED FIXES: classic wide OPEN ledger inspired closely by reference option 02. Left page has a single large raised blue code-brackets symbol </>. Right page has three large EMPTY checkboxes aligned with three short amber task bars, and one chunky amber clock bookmark hanging from top edge. Three unmistakable overdue repair entries. Cleanest, most iconic choice.
+02 SHORTCUT REGISTER: narrow CLOSED upright ledger, visibly overstuffed ivory page block with three oversized staggered amber tabs sticking from its right edge. Front cover has one huge inset blue code-brackets emblem interrupted across its middle by an amber temporary patch plate with two simple fasteners. Software shortcut recorded as deferred repair. Cover and swollen page profile dominate, not a standalone broken object.
+03 DEPENDENCY RECORD: broad OPEN ledger with unequal page widths, a tall index strip on right edge. Across left page, three large square blue dependency nodes connected by two THICK flat inset lines, one node amber with an exclamation symbol. Right page has two bold gray old-version blocks overlapped by amber replacement tabs. Simple recorded outdated dependency graph, large readable elements.
+04 TEST DEFICIT: low WIDE landscape ring-bound audit ledger standing open like a flip register. Two chunky binder rings along top, sturdy blue backing. Page front has large code brackets at left and THREE oversized square test boxes at right: one blue check, two empty amber outlined boxes. One thick amber missing-test tab projects from bottom edge. Strong horizontal silhouette. Still a physical record book, not a monitor or clipboard.
+05 REWORK BALANCE: thick OPEN ledger with page blocks asymmetrically fanned, wider on the right to show burden accumulating. Left page: one large simple blue code bracket pair. Right page: three stepped amber accounting bars growing dramatically in length beneath a single chunky return-loop arrow symbol. Geometry communicates more work returning later. Minimal symbols, no charts outside the page.
+06 LEGACY VOLUME: tall partially CLOSED standing archive ledger with very thick stepped ivory page layers, restrained gray-blue cover and three large amber indexed sections protruding unevenly at top. Front cover has large raised curly braces surrounding a simple wrench emblem, and ONE amber clock seal at bottom. Software maintenance obligations preserved over many versions. Pronounced book spine and heavy layered page silhouette, not fantasy spellbook.
+
+Text must be exact and crisp in template typography:
+Title: Technical Debt Ledger Variations
+Subtitle: Recorded shortcuts deferred fixes and growing maintenance obligations.
+Category: General Asset
+01 name: Deferred Fixes
+01 description: Code entries paired with overdue repair tasks
+02 name: Shortcut Register
+02 description: Patched code cover with accumulating debt tabs
+03 name: Dependency Record
+03 description: Indexed dependency entries flag outdated components
+04 name: Test Deficit
+04 description: Code audit ledger with unchecked tests
+05 name: Rework Balance
+05 description: Growing entries record the cost of rework
+06 name: Legacy Volume
+06 description: Layered maintenance records carry unresolved obligations
+
+Preserve exact original six-panel layout. No extra panels, footer, arrows outside model artwork, annotations, turnarounds, environments, tiny prose on books, technical data or watermarks. Make the ledger family cohesive but vary closed/open format, proportions, binding and page construction, not merely swap badges.

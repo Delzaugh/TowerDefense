@@ -1,0 +1,39 @@
+{
+  "sourceHash": "5e3fc5f1fc8cb4fc540a6e0f07a547be2c5e1afcec6078a0c19ea3925c5aff2e",
+  "detailReport": "blender/towers/github_octocat_modern/v01/anatomy_review.md",
+  "technicalValidation": true,
+  "sha256": "2917ce38babc993d7c492ea660837652ff0bcdc82d006d741cd85056661231c1",
+  "revision": 9,
+  "asset": "github_octocat_modern",
+  "views": [
+    "front",
+    "left profile",
+    "rear",
+    "underside",
+    "isometric",
+    "face close-up",
+    "tentacle close-up",
+    "phone width",
+    "small scale",
+    "comparison"
+  ],
+  "limitations": [
+    "Static, no rig or animation",
+    "Wardrobe not built",
+    "Higher-detail assets have not been profiled in a crowded gameplay scene"
+  ],
+  "version": "v01",
+  "userAcceptance": "pending",
+  "anatomy": {
+    "total_appendages": 5,
+    "supporting_legs": 2,
+    "arms": 2,
+    "tails": 1,
+    "ears": 2,
+    "eyes": 2,
+    "whiskers": 4
+  },
+  "sourceAudit": true,
+  "reviewer": "Codex",
+  "reviewedAt": "2026-09-18"
+}

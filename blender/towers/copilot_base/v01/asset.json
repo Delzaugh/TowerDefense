@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "version": "v01",
+  "revision": 1,
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action"
+    ],
+    "dimensions": {
+      "min": [
+        2.2,
+        1.75,
+        1.9
+      ],
+      "max": [
+        2.35,
+        1.85,
+        2.05
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "blender/towers/copilot_base/v01/references/original_collection.blend",
+      "provenance": "Preserved original project draft collection; source-faithful low-poly adaptation."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "contract.dimensions",
+      "reason": "Preserve existing reference dimensions (1.80 m high); registration does not resize the approved source."
+    }
+  ],
+  "milestones": [],
+  "id": "copilot_base",
+  "displayName": "Copilot reference",
+  "category": "towers",
+  "source": {
+    "path": "blender/towers/copilot_base/v01/copilot_base_v01.blend",
+    "mode": "manual",
+    "authoritativeHash": "3effbe93e2bab0359e6b786e51baf90f8afd9c1c180d401bb01f10cc225b58c8"
+  },
+  "runtime": "assets/runtime/towers/copilot_base_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 2,
+    "textures": 1,
+    "bones": 0,
+    "meshes": 2,
+    "textureSize": 512
+  },
+  "clips": [],
+  "decisions": "blender/towers/copilot_base/v01/decisions.md",
+  "delivery": {
+    "sha256": "6663079d8be7d4a9b65abd7bde85f518cdaa46ff85769680cdcd9f577c3f90b3",
+    "sourceHash": "3effbe93e2bab0359e6b786e51baf90f8afd9c1c180d401bb01f10cc225b58c8",
+    "report": "blender/towers/copilot_base/v01/validation/report.json",
+    "deliveredAt": "2026-09-12T13:34:24.553Z"
+  }
+}

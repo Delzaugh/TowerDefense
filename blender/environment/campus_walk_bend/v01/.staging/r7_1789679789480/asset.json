@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_walk_bend",
+  "displayName": "Campus walkway \u00b7 rounded bend",
+  "category": "environment",
+  "version": "v01",
+  "revision": 7,
+  "source": {
+    "path": "blender/environment/campus_walk_bend/v01/campus_walk_bend_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_walk_bend/v01/build.py",
+    "authoritativeHash": "83ae4e4faf96888f48ac9dd144528d5862f022c4dd202d9ab015e26ee3c34908"
+  },
+  "runtime": "assets/runtime/environment/campus_walk_bend_v01.glb",
+  "budgets": {
+    "triangles": 1600,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_start",
+      "anchor_end"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "prototypes/hub/previews/before-3d-study.png",
+      "provenance": "Project-owned Glacier SVG campus, including floating panel, inset paths and faceted landscaping."
+    },
+    {
+      "path": "tools/asset-recipes/campus-kit.py",
+      "provenance": "Shared geometry helper used by the local versioned recipe."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/campus_walk_bend/v01/revisions/r2_before_r3/campus_walk_bend_v01.glb",
+      "source": "blender/environment/campus_walk_bend/v01/revisions/r2_before_r3/campus_walk_bend_v01.blend",
+      "sha256": "65d0b81f2ebfbc4c698cf9418662c3c62a230f729b60d4912b262930353db4f8",
+      "sourceHash": "61df14f3c48099b62be526359be1662ce18d90dc9d4d8f682c2c0024e87a2aef"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/environment/campus_walk_bend/v01/revisions/r3_before_r4/campus_walk_bend_v01.glb",
+      "source": "blender/environment/campus_walk_bend/v01/revisions/r3_before_r4/campus_walk_bend_v01.blend",
+      "sha256": "f6c83cd51b6ab8530d4bc50a64fc4ebd0f62d778ebdb7dae0235bee626211a7f",
+      "sourceHash": "73bf26432482cc194843f5b9b60fb044fe107ca305ee8271de684be08e1f7fe5"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/environment/campus_walk_bend/v01/revisions/r4_before_r5/campus_walk_bend_v01.glb",
+      "source": "blender/environment/campus_walk_bend/v01/revisions/r4_before_r5/campus_walk_bend_v01.blend",
+      "sha256": "17be796344ef9f699f621348fe190a89d48a607e1be4f8b8f4aa5ce4c710df25",
+      "sourceHash": "e98c6e67badbe63515443c0a92b8d9a7fbb819f57d45f64c04f9e72311e80a4a"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/environment/campus_walk_bend/v01/revisions/r5_before_r6/campus_walk_bend_v01.glb",
+      "source": "blender/environment/campus_walk_bend/v01/revisions/r5_before_r6/campus_walk_bend_v01.blend",
+      "sha256": "f8c738a35b550fb8ee54e256ecd86bc5e97534c48db503af04d8ff60fd5de08d",
+      "sourceHash": "603385d0b9f01407b9d0bbb3c5b52adf3cdf1c20089a18e629bd288ac859f192"
+    }
+  ],
+  "decisions": "blender/environment/campus_walk_bend/v01/decisions.md",
+  "delivery": {
+    "sha256": "b1e287dad31051313bed3b88fff449e49eb1c7931fe57cea866b68ca18799ce9",
+    "sourceHash": "83ae4e4faf96888f48ac9dd144528d5862f022c4dd202d9ab015e26ee3c34908",
+    "report": "blender/environment/campus_walk_bend/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T21:13:01.168Z"
+  },
+  "texturePalettes": [
+    {
+      "material": "glacier_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "edge": {
+          "color": "#2D435C",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "path": {
+          "color": "#48647D",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell": {
+          "color": "#25384F",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "signal": {
+          "color": "#82DADD",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "tech": {
+          "color": "#65859D",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "edge": "#2D435C",
+      "chalk": "#E2EDF0",
+      "path": "#48647D",
+      "signal": "#82DADD",
+      "tech": "#65859D",
+      "shell": "#25384F"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear",
+    "paletteTextureWorkflow": true
+  }
+}

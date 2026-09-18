@@ -1,0 +1,116 @@
+{
+  "asset": "problem_bug_v01",
+  "revision": 7,
+  "triangle_budget": 2500,
+  "triangles": 2320,
+  "vertices": 1244,
+  "materials": 1,
+  "meshes": 1,
+  "deform_bones": 16,
+  "dimensions_blender": [
+    2.264436960220337,
+    2.0702121257781982,
+    1.4700000286102295
+  ],
+  "clips": [
+    "move",
+    "hit",
+    "resolve"
+  ],
+  "source": "blender/enemies/problem_bug/v01/problem_bug_v01.blend",
+  "runtime": "assets/runtime/enemies/problem_bug_v01.glb",
+  "textures": 0,
+  "root_motion": false,
+  "joints": [
+    {
+      "leg": "l1",
+      "hip": [
+        -0.5249999999999999,
+        -0.42,
+        0.5
+      ],
+      "knee": [
+        -0.97,
+        -0.67,
+        0.25
+      ],
+      "collar_upper_overlap": 0.045,
+      "knee_hub_radius": 0.145
+    },
+    {
+      "leg": "l2",
+      "hip": [
+        -0.7213170731707318,
+        0.1,
+        0.5
+      ],
+      "knee": [
+        -0.97,
+        0.15,
+        0.25
+      ],
+      "collar_upper_overlap": 0.045,
+      "knee_hub_radius": 0.145
+    },
+    {
+      "leg": "l3",
+      "hip": [
+        -0.5895142857142858,
+        0.62,
+        0.5
+      ],
+      "knee": [
+        -0.97,
+        0.8,
+        0.25
+      ],
+      "collar_upper_overlap": 0.045,
+      "knee_hub_radius": 0.145
+    },
+    {
+      "leg": "r1",
+      "hip": [
+        0.5249999999999999,
+        -0.42,
+        0.5
+      ],
+      "knee": [
+        0.97,
+        -0.67,
+        0.25
+      ],
+      "collar_upper_overlap": 0.045,
+      "knee_hub_radius": 0.145
+    },
+    {
+      "leg": "r2",
+      "hip": [
+        0.7569756097560977,
+        0.1,
+        0.5
+      ],
+      "knee": [
+        0.97,
+        0.15,
+        0.25
+      ],
+      "collar_upper_overlap": 0.045,
+      "knee_hub_radius": 0.145
+    },
+    {
+      "leg": "r3",
+      "hip": [
+        0.5907714285714286,
+        0.62,
+        0.5
+      ],
+      "knee": [
+        0.97,
+        0.8,
+        0.25
+      ],
+      "collar_upper_overlap": 0.045,
+      "knee_hub_radius": 0.145
+    }
+  ]
+}

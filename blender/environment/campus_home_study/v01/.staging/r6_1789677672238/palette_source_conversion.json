@@ -1,0 +1,15 @@
+{
+  "asset": "campus_home_study",
+  "geometryHash": "4a2a2d05a4a773b913f6d171739e5b7b6c2dd89b4a5f3ab753488d96f5e0339e",
+  "maxLinearColorError": 2.3780175717469376e-08,
+  "size": [
+    32,
+    8
+  ],
+  "materials": [
+    "campus_palette"
+  ],
+  "usedRoles": 13,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\environment\\campus_home_study\\v01\\campus_home_study_v01.blend"
+}

@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_solarpanel",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "2ba03c728e6e77a5c566a8fdb06f4926b653d1d3e948c200c79c1c0139374a13",
+  "checkedAt": "2026-09-17T21:34:42.506Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 118,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    0.8999999761581421,
+    0.37091878801584244,
+    0.44999998807907104
+  ],
+  "bounds": [
+    [
+      -0.44999998807907104,
+      -0.0000027492642402648926,
+      -0.22500136494636536
+    ],
+    [
+      0.44999998807907104,
+      0.3709160387516022,
+      0.2249986231327057
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_solarpanel/v01/kaykit_solarpanel_v01.blend",
+  "sourceHash": "fd7647fa9187758d55070926d2e09bae16ffcdce37d384891abb64d45848c476",
+  "runtime": "assets/runtime/environment/kaykit_solarpanel_v01.glb"
+}

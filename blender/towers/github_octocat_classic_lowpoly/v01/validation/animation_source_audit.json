@@ -1,0 +1,31 @@
+{
+  "bones": 11,
+  "clips": {
+    "idle": {
+      "minimum_body_z": 0.0,
+      "maximum_foot_drift_relative_to_hop": 1.4901161193847656e-08,
+      "endpoint_body_delta": 0.0,
+      "maximum_floor_clearance": 0.0
+    },
+    "move": {
+      "minimum_body_z": 0.0,
+      "maximum_foot_drift_relative_to_hop": 3.337203127736024e-08,
+      "endpoint_body_delta": 0.0,
+      "maximum_floor_clearance": 0.0
+    },
+    "wave": {
+      "minimum_body_z": 0.0,
+      "maximum_foot_drift_relative_to_hop": 1.4901161193847656e-08,
+      "endpoint_body_delta": 0.0,
+      "maximum_floor_clearance": 0.0
+    },
+    "celebrate": {
+      "minimum_body_z": 0.0,
+      "maximum_foot_drift_relative_to_hop": 2.1073424255447017e-08,
+      "endpoint_body_delta": 0.0,
+      "maximum_floor_clearance": 0.1286839246749878
+    }
+  },
+  "errors": [],
+  "passed": true
+}

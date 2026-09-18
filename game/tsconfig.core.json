@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "lib": ["ES2022"], "types": [] },
+  "include": ["src/content/**/*.ts", "src/simulation/**/*.ts", "src/session/fixedStepClock.ts", "src/persistence/saveSchema.ts", "src/persistence/testLabSave.ts"]
+}

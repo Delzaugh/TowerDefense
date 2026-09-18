@@ -1,0 +1,29 @@
+{
+  "asset": "campus_walk_landing",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "badaae889f43b3eaf02fefdaf944e74a30abd012d1ab0d195270a7564ea7f02f",
+  "sourceHash": "bc7d8f3f1c8a0cd6f9da258d19fca1e6f40206fb05d44856390ef6925e3a415e",
+  "reviewedAt": "2026-09-17T22:28:34.682Z",
+  "status": "reviewed",
+  "reviewer": "Codex visual inspection",
+  "artisticAcceptance": "Pending user feedback",
+  "views": [
+    "blender/environment/campus_walk_landing/v01/renders/inspector-iso.png",
+    "blender/environment/campus_walk_landing/v01/renders/inspector-top.png",
+    "blender/environment/campus_walk_landing/v01/renders/inspector-rear.png"
+  ],
+  "compositionEvidence": [
+    "prototypes/campus-3d/previews/home-desktop.png",
+    "prototypes/campus-3d/previews/home-phone.png"
+  ],
+  "notes": [
+    "Open 3.2 m throat matches the existing path; side and back cyan inlay follows the clipped court perimeter.",
+    "Four pads are seated on level terrain. All 45 joins have coincident anchors and opposing directions; path network is connected.",
+    "Guarded export and palette conversion passed; 224 triangles, one mesh/material and packed 32x4 texture."
+  ],
+  "limits": [
+    "Small markings read as secondary accents at campus overview scale.",
+    "Phone evidence uses emulation, not device performance profiling."
+  ]
+}

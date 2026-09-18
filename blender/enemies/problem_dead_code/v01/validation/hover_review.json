@@ -1,0 +1,26 @@
+{
+  "asset": "problem_dead_code",
+  "revision": 4,
+  "sha256": "d4eb368de72222f3c217119771fa2bc2b8910343c4e4e0b2e1f8ebcc974a0647",
+  "sourceHash": "702ec44e6811dfccd5d35e03d05222f09450fc802d057d9f84d6c17268192e1f",
+  "passed": true,
+  "duration": 1.5,
+  "loopDelta": 9.797174737963282E-19,
+  "clearance": [
+    0.18000000715255737,
+    0.19100000288290678,
+    0.19905255214101278,
+    0.2020000056191302,
+    0.19905255214101278,
+    0.19100000288290678,
+    0.18000000715255737,
+    0.16900000300211607,
+    0.1609474368465563,
+    0.15800000585754878,
+    0.1609474368465563,
+    0.16900000300211607,
+    0.18000000715255737
+  ],
+  "visualReview": "Inspected actual GLB in shared Inspector: low point at 1.125 s in front view, high point at 0.375 s in smaller isometric view, and exported midpoint render. Continuous elevated rigid pose and clean attached details. User artistic acceptance pending.",
+  "transition": "Move starts and ends at 0.18 m clearance. Idle/rest remain grounded; presentation crossfades clip heights."
+}

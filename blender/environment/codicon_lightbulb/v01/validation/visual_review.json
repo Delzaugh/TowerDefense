@@ -1,0 +1,19 @@
+{
+  "asset": "codicon_lightbulb",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "0f5a9d7462004e83aedf6dc529feab7fe9864f09d03b4737ae0bc2f3e9429733",
+  "sourceHash": "31ab3e80ae05ad6168ab3c2dbd81b338f39d756ed6947e7dfe66878977596efa",
+  "sourceSvgSha256": "2c0072c35d0302dc3e9fb00b4382466a0dd3297a0562c33d187fa6e41dcccbe3",
+  "technicalValidationPassed": true,
+  "reviewedViews": [
+    "front",
+    "side",
+    "isometric",
+    "rear",
+    "phone"
+  ],
+  "visualReview": "Personally compared the original SVG reference board with exported front/iso/side/rear and phone evidence. Original negative spaces, disconnected details and consistent extrusion are preserved. No visible construction defect found. Closed manifold components asserted in Blender; triangle area checked against source contour area.",
+  "limitations": "Static extruded symbol with flat front/back and lightly faceted curve edges. Disconnected features are intentional; mount to a host surface for physical use. Fine gaps compress at small scale.",
+  "artisticAcceptance": "pending_user_review"
+}

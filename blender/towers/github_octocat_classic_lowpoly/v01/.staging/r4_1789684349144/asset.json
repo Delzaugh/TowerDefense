@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "github_octocat_classic_lowpoly",
+  "displayName": "GitHub Octocat Classic Low Poly",
+  "category": "towers",
+  "version": "v01",
+  "revision": 4,
+  "source": {
+    "path": "blender/towers/github_octocat_classic_lowpoly/v01/github_octocat_classic_lowpoly_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/github_octocat_classic_lowpoly/v01/build.py",
+    "authoritativeHash": "7e17d3c15369b818bfe6e129c15f3028b07929d62ed8ec54a9b1931626711ac4"
+  },
+  "runtime": "assets/runtime/towers/github_octocat_classic_lowpoly_v01.glb",
+  "budgets": {
+    "bones": 0,
+    "triangles": 3500,
+    "meshes": 13,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 512
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target",
+      "anchor_hat",
+      "anchor_face",
+      "anchor_chest",
+      "anchor_back",
+      "anchor_hand_left",
+      "anchor_hand_right"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/github_octocat_classic_lowpoly/v01/references/approved_classic_r9.blend",
+      "provenance": "Frozen copy of user-approved high-resolution Classic revision 9; source design input only."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/github_octocat_classic_lowpoly/v01/revisions/r2_before_r3/github_octocat_classic_lowpoly_v01.glb",
+      "source": "blender/towers/github_octocat_classic_lowpoly/v01/revisions/r2_before_r3/github_octocat_classic_lowpoly_v01.blend",
+      "sha256": "365082b826efb25e280b12548a9ca233110bef6e7f01c619022a6ae9a2d459db",
+      "sourceHash": "07f96e39f54b34dcb00660a46dc52796dd9e3c03dfc94fceecf61dca19f24a4f"
+    }
+  ],
+  "decisions": "blender/towers/github_octocat_classic_lowpoly/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "octocat_palette",
+      "roles": {
+        "highlight": {
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ],
+          "color": "#FFFFFF"
+        },
+        "eyes": {
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ],
+          "color": "#F3F9F6"
+        },
+        "fur": {
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "color": "#252A31"
+        },
+        "inner_ear": {
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ],
+          "color": "#343C45"
+        },
+        "face": {
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ],
+          "color": "#F6C3AA"
+        },
+        "smile": {
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ],
+          "color": "#8E4C40"
+        },
+        "iris": {
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ],
+          "color": "#A85444"
+        },
+        "suckers": {
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ],
+          "color": "#9FD5D1"
+        }
+      },
+      "size": [
+        32,
+        4
+      ]
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "8e64fc5fee7e58a8381d644193b0db0514f96a01fb32dafebdcc5137f113e452",
+    "sourceHash": "7e17d3c15369b818bfe6e129c15f3028b07929d62ed8ec54a9b1931626711ac4",
+    "report": "blender/towers/github_octocat_classic_lowpoly/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T22:29:23.318Z"
+  }
+}

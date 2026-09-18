@@ -1,0 +1,1828 @@
+{
+  "passed": true,
+  "errors": [
+    "Cannot read properties of null (reading 'checked')"
+  ],
+  "resources": [
+    {
+      "id": "problem_bug",
+      "one": {
+        "frame": 1,
+        "calls": 1,
+        "triangles": 2334,
+        "points": 0,
+        "lines": 0
+      },
+      "hundred": {
+        "frame": 2,
+        "calls": 100,
+        "triangles": 233400,
+        "points": 0,
+        "lines": 0
+      },
+      "materials": 1,
+      "baseTextureCount": 0,
+      "vertexBytes": 276720,
+      "indexBytes": 14004,
+      "textures": []
+    },
+    {
+      "id": "problem_bug_palette_test",
+      "one": {
+        "frame": 3,
+        "calls": 1,
+        "triangles": 2334,
+        "points": 0,
+        "lines": 0
+      },
+      "hundred": {
+        "frame": 4,
+        "calls": 100,
+        "triangles": 233400,
+        "points": 0,
+        "lines": 0
+      },
+      "materials": 1,
+      "baseTextureCount": 1,
+      "vertexBytes": 258272,
+      "indexBytes": 14004,
+      "textures": [
+        {
+          "width": 32,
+          "height": 4,
+          "minFilter": 1006,
+          "magFilter": 1006,
+          "colorSpace": "srgb"
+        }
+      ]
+    }
+  ],
+  "records": [
+    {
+      "label": "vertex_iso",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 4.416142730415543,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          2.2912083165054558,
+          3.0085134488773955,
+          3.0505587695725125
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "revision": "d4ce09cbe5a56ff12224c93e2f2d804481781b7efa4925195a4a6c5cbc540352",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.5,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "vertex_front",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_v01.glb",
+        "view": "front",
+        "projection": "OrthographicCamera",
+        "distance": 2.3067813081299557,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          0,
+          0.734999949182401,
+          2.3434028798692257
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "revision": "d4ce09cbe5a56ff12224c93e2f2d804481781b7efa4925195a4a6c5cbc540352",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.5,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "vertex_rear",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_v01.glb",
+        "view": "rear",
+        "projection": "OrthographicCamera",
+        "distance": 2.3067813081299557,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          2.8249923453342945e-16,
+          0.734999949182401,
+          -2.270159736390686
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "revision": "d4ce09cbe5a56ff12224c93e2f2d804481781b7efa4925195a4a6c5cbc540352",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.5,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "vertex_close",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 3.5329141843324345,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          1.832966653204365,
+          2.553810748938397,
+          2.4477713300058643
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "revision": "d4ce09cbe5a56ff12224c93e2f2d804481781b7efa4925195a4a6c5cbc540352",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.5,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "vertex_move_0.25",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 4.416142730415543,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          2.2912083165054558,
+          3.0085134488773955,
+          3.0505587695725125
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "revision": "d4ce09cbe5a56ff12224c93e2f2d804481781b7efa4925195a4a6c5cbc540352",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": "move",
+            "time": 0.25999997503999905,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": [
+              0.9997703802849809,
+              0,
+              -0.02142864217526862,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.02142864217526862,
+              0,
+              0.9997703802849809,
+              0,
+              0,
+              0.5284726966460078,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "vertex_move_0.75",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 4.416142730415543,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          2.2912083165054558,
+          3.0085134488773955,
+          3.0505587695725125
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "revision": "d4ce09cbe5a56ff12224c93e2f2d804481781b7efa4925195a4a6c5cbc540352",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": "move",
+            "time": 0.7809999250239972,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": [
+              0.9997622129464295,
+              0,
+              0.021806365237855268,
+              0,
+              0,
+              1,
+              0,
+              0,
+              -0.021806365237855268,
+              0,
+              0.9997622129464295,
+              0,
+              0,
+              0.5294855169875317,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "vertex_hit_0.5",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 4.416142730415543,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          2.2912083165054558,
+          3.0085134488773955,
+          3.0505587695725125
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "revision": "d4ce09cbe5a56ff12224c93e2f2d804481781b7efa4925195a4a6c5cbc540352",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": "hit",
+            "time": 0.229,
+            "playing": false,
+            "loop": false,
+            "speed": 1,
+            "pose": [
+              0.9971900226120932,
+              0.00001746075161320696,
+              -0.07491367481171271,
+              0,
+              -0.008026719207995775,
+              0.9942681471805979,
+              -0.10661343085829444,
+              0,
+              0.07448241911638528,
+              0.10691516055145076,
+              0.9914744163215465,
+              0,
+              0,
+              0.6231878828778419,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "vertex_resolve_0.5",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 4.416142730415543,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          2.2912083165054558,
+          3.0085134488773955,
+          3.0505587695725125
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "revision": "d4ce09cbe5a56ff12224c93e2f2d804481781b7efa4925195a4a6c5cbc540352",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": "resolve",
+            "time": 0.438,
+            "playing": false,
+            "loop": false,
+            "speed": 1,
+            "pose": [
+              0.38423620636103045,
+              0,
+              -0.08538957319517976,
+              0,
+              0,
+              0.39361001170396787,
+              0,
+              0,
+              0.08538957319517976,
+              0,
+              0.38423620636103045,
+              0,
+              0,
+              0.23604198948526367,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "vertex_editing",
+      "paletteOptions": [
+        "shell",
+        "shell dark",
+        "navy",
+        "face",
+        "edge",
+        "red",
+        "red dark"
+      ],
+      "status": ""
+    },
+    {
+      "label": "vertex_phone_small",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 22.87192700449534,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          11.866543399124781,
+          12.509898991873822,
+          15.646296302177312
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_v01.glb",
+            "revision": "d4ce09cbe5a56ff12224c93e2f2d804481781b7efa4925195a4a6c5cbc540352",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": false,
+            "speed": 1,
+            "pose": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.5,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "texture_iso",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_palette_test_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 4.416142730415543,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          2.2912083165054558,
+          3.0085134488773955,
+          3.0505587695725125
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "revision": "3210fff587383d6e9173bb89898abe00cc6d41de7ed02121a1b1b1fa5c3effaa",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.5,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "texture_front",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_palette_test_v01.glb",
+        "view": "front",
+        "projection": "OrthographicCamera",
+        "distance": 2.3067813081299557,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          0,
+          0.734999949182401,
+          2.3434028798692257
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "revision": "3210fff587383d6e9173bb89898abe00cc6d41de7ed02121a1b1b1fa5c3effaa",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.5,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "texture_rear",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_palette_test_v01.glb",
+        "view": "rear",
+        "projection": "OrthographicCamera",
+        "distance": 2.3067813081299557,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          2.8249923453342945e-16,
+          0.734999949182401,
+          -2.270159736390686
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "revision": "3210fff587383d6e9173bb89898abe00cc6d41de7ed02121a1b1b1fa5c3effaa",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.5,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "texture_close",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_palette_test_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 3.5329141843324345,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          1.832966653204365,
+          2.553810748938397,
+          2.4477713300058643
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "revision": "3210fff587383d6e9173bb89898abe00cc6d41de7ed02121a1b1b1fa5c3effaa",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.5,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "texture_move_0.25",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_palette_test_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 4.416142730415543,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          2.2912083165054558,
+          3.0085134488773955,
+          3.0505587695725125
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "revision": "3210fff587383d6e9173bb89898abe00cc6d41de7ed02121a1b1b1fa5c3effaa",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": "move",
+            "time": 0.25999997503999905,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": [
+              0.9997703802849809,
+              0,
+              -0.02142864217526862,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.02142864217526862,
+              0,
+              0.9997703802849809,
+              0,
+              0,
+              0.5284726966460078,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "texture_move_0.75",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_palette_test_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 4.416142730415543,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          2.2912083165054558,
+          3.0085134488773955,
+          3.0505587695725125
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "revision": "3210fff587383d6e9173bb89898abe00cc6d41de7ed02121a1b1b1fa5c3effaa",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": "move",
+            "time": 0.7809999250239972,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": [
+              0.9997622129464295,
+              0,
+              0.021806365237855268,
+              0,
+              0,
+              1,
+              0,
+              0,
+              -0.021806365237855268,
+              0,
+              0.9997622129464295,
+              0,
+              0,
+              0.5294855169875317,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "texture_hit_0.5",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_palette_test_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 4.416142730415543,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          2.2912083165054558,
+          3.0085134488773955,
+          3.0505587695725125
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "revision": "3210fff587383d6e9173bb89898abe00cc6d41de7ed02121a1b1b1fa5c3effaa",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": "hit",
+            "time": 0.229,
+            "playing": false,
+            "loop": false,
+            "speed": 1,
+            "pose": [
+              0.9971900226120932,
+              0.00001746075161320696,
+              -0.07491367481171271,
+              0,
+              -0.008026719207995775,
+              0.9942681471805979,
+              -0.10661343085829444,
+              0,
+              0.07448241911638528,
+              0.10691516055145076,
+              0.9914744163215465,
+              0,
+              0,
+              0.6231878828778419,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "texture_resolve_0.5",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_palette_test_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 4.416142730415543,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          2.2912083165054558,
+          3.0085134488773955,
+          3.0505587695725125
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "revision": "3210fff587383d6e9173bb89898abe00cc6d41de7ed02121a1b1b1fa5c3effaa",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": "resolve",
+            "time": 0.438,
+            "playing": false,
+            "loop": false,
+            "speed": 1,
+            "pose": [
+              0.38423620636103045,
+              0,
+              -0.08538957319517976,
+              0,
+              0,
+              0.39361001170396787,
+              0,
+              0,
+              0.08538957319517976,
+              0,
+              0.38423620636103045,
+              0,
+              0,
+              0.23604198948526367,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "label": "texture_editing",
+      "paletteOptions": [
+        "bug_palette · tint"
+      ],
+      "status": ""
+    },
+    {
+      "label": "texture_phone_small",
+      "state": {
+        "loading": false,
+        "activePath": "enemies/problem_bug_palette_test_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 22.87192700449534,
+        "target": [
+          0,
+          0.7349999491824009,
+          0.03662157173927011
+        ],
+        "camera": [
+          11.866543399124781,
+          12.509898991873822,
+          15.646296302177312
+        ],
+        "effects": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "enemies/problem_bug_palette_test_v01.glb",
+            "revision": "3210fff587383d6e9173bb89898abe00cc6d41de7ed02121a1b1b1fa5c3effaa",
+            "triangles": 2334,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.1322183791949136,
+                -1.3024542775597031e-7,
+                -0.9984844487973482
+              ],
+              [
+                1.1322183791949136,
+                1.4700000286102295,
+                1.0717275922758884
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [
+              {
+                "name": "move",
+                "duration": 1.0416666269302368
+              },
+              {
+                "name": "hit",
+                "duration": 0.4583333432674408
+              },
+              {
+                "name": "resolve",
+                "duration": 0.875
+              }
+            ],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": false,
+            "speed": 1,
+            "pose": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0.5,
+              0,
+              1
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

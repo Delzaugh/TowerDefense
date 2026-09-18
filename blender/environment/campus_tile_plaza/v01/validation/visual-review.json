@@ -1,0 +1,30 @@
+{
+  "asset": "campus_tile_plaza",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "cacca154a1c5faf0e0c718b7cbcb70e5f239a5a2a4cf1dc9c97da5fd7447a560",
+  "sourceHash": "59ce99d31216e4423614ef773cb14b62d95f87a2d906e7154d97cbc2c06d3e84",
+  "reviewedAt": "2026-09-17T22:18:56.526Z",
+  "status": "reviewed",
+  "reviewer": "Codex visual inspection",
+  "artisticAcceptance": "Pending user feedback",
+  "views": [
+    "blender/environment/campus_tile_plaza/v01/renders/inspector-iso.png",
+    "blender/environment/campus_tile_plaza/v01/renders/inspector-rear.png"
+  ],
+  "compositionEvidence": [
+    "prototypes/campus-3d/previews/home-desktop.png",
+    "prototypes/campus-3d/previews/home-phone.png",
+    "prototypes/campus-3d/previews/camera-top.png"
+  ],
+  "notes": [
+    "Shared level frame and clean source-authored terrain surface inspected in actual exported Inspector views.",
+    "Mixed tile edges, 41 path connections, furniture footprints and actual exported terrain support pass browser checks.",
+    "920 triangles, one mesh/material, one embedded 512 texture. No runtime color replacement."
+  ],
+  "limits": [
+    "Small details read primarily as silhouette/color at the requested wide camera scale.",
+    "Phone review uses browser emulation.",
+    "Hill climbing and general terrain placement are not implemented; current placements use the level corridor and flat ground."
+  ]
+}

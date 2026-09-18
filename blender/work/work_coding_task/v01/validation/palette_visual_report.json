@@ -1,0 +1,57 @@
+{
+  "asset": "work_coding_task",
+  "revision": 11,
+  "sha256": "5f6ceeb75606cfadf162052aaf6383235d75b13708aae55c4407bc46135c82ac",
+  "paletteControls": 8,
+  "errors": [],
+  "diff": [
+    {
+      "view": "iso",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.005128703703703704
+    },
+    {
+      "view": "front",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.005466203703703704
+    },
+    {
+      "view": "rear",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0007490740740740741
+    },
+    {
+      "view": "side",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.008030555555555556
+    },
+    {
+      "view": "top",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0050013888888888886
+    },
+    {
+      "view": "idle",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.005127777777777778
+    },
+    {
+      "view": "move",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0023027777777777777
+    },
+    {
+      "view": "resolve",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0014194444444444445
+    },
+    {
+      "view": "checklist_progress",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.006064351851851852
+    }
+  ],
+  "visualReview": "Reviewed by Codex: before/after appearance, front and reverse views, clip poses where present, and phone-scale silhouette. No conversion-induced visual regression observed; artistic user acceptance remains separate.",
+  "reviewedAt": "2026-09-17T21:03:25.454Z",
+  "evidence": "blender/work/work_coding_task/v01/validation/palette_migration_r11/palette_review.png"
+}

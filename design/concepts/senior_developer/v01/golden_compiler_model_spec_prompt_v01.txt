@@ -1,0 +1,19 @@
+Edit the bundled 1536 x 1024 model-spec-sheet template directly and preserve its dark navy layout, labels, borders, typography, spacing, and panel geometry.
+
+Asset: Golden Compiler
+Description: Veteran coder channeling a compact compiler core.
+Type: Tower
+Target: < 2500 tris
+
+Use Option 01 from senior_developer_artwork_v03.png as the source of truth. Show the same mature human male mentor in every view: angular gray hair and beard, calm face, tall narrow silhouette, one-piece off-white trapezoid coat, charcoal tunic and trousers, simple gloves and shoes, cyan accent, glowing gold chest cube, floating gold hand cube, and compact low-segment pedestal. Use primitive faceted forms, hard normals, almost no bevels, few parts, and no tiny detail.
+
+Fill Front, Front-Left, Left, Back, Back-Right, and Right with a coherent base model and no runtime aura. Add an illustrative sparse wireframe. Leave Texture / UV empty. Use dashes for unverified triangles, vertices, texture, and materials; show only the supplied target. Fill five palette swatches with off-white, charcoal, warm gray, gold, and cyan.
+
+In the In-Game View, show a broad elevated isometric low-poly technology campus. Keep Golden Compiler genuinely tiny at about 5–7% of panel height. Only there, add 3–5 broad flat golden aura polygons as a separate runtime effect.
+
+Notes:
+- Strong human silhouette at gameplay scale
+- Runtime aura stays separate from base mesh
+- Designed below supplied triangle ceiling
+
+Do not add robots, armor layers, floating cards, weapons, extra accessories, dense circuitry, invented UVs, fabricated statistics, logos, watermarks, extra sections, or a Game Name field.

@@ -1,0 +1,67 @@
+{
+  "errors": [],
+  "state": {
+    "loading": false,
+    "activePath": "towers/github_octocat_modern_v01.glb",
+    "view": "iso",
+    "projection": "OrthographicCamera",
+    "distance": 28.74837542571227,
+    "target": [
+      0,
+      1.7291574478149414,
+      -0.030604273080825806
+    ],
+    "camera": [
+      14.915395828978346,
+      16.52936287924278,
+      19.58963976388585
+    ],
+    "effects": [
+      {
+        "path": "towers/github_octocat_modern_v01.glb",
+        "enabled": false,
+        "triangles": 0,
+        "meshes": 0,
+        "materials": 0
+      }
+    ],
+    "entries": [
+      {
+        "path": "towers/github_octocat_modern_v01.glb",
+        "revision": "2917ce38babc993d7c492ea660837652ff0bcdc82d006d741cd85056661231c1",
+        "triangles": 73214,
+        "meshes": 17,
+        "materials": 2,
+        "bounds": [
+          [
+            -1.4009819030761719,
+            0,
+            -0.779757022857666
+          ],
+          [
+            1.4009819030761719,
+            3.458314895629883,
+            0.7185484766960144
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [],
+        "clip": null,
+        "time": 0,
+        "playing": false,
+        "loop": true,
+        "speed": 1,
+        "pose": []
+      }
+    ]
+  }
+}

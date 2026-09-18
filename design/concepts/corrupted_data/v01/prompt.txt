@@ -1,0 +1,20 @@
+Use case: stylized-concept, template edit.
+Edit the supplied 1672x941 concept-sheet template directly. It is the edit target and composition base. Preserve its original canvas/aspect ratio, dark navy background, all six panel borders and floor grids, 3 columns x 2 rows, margins, header and label placement, and number badges 01 through 06. Create exactly one low-poly 3D Corrupted Data enemy concept within each numbered panel.
+Style: playful unstable software entities in a friendly chunky colorful low-poly tower-defense game, soft bevels and matte large planes, blue-gray shells with violet corruption and sparse coral warning accents. No horror or military aesthetic. Restrained emission. Each model looks feasible below 2500 triangles, ideally 400-1500: low-segment shapes, only a few broad components, no fine surface noise or wires, no texture text.
+STRICT FRONT ORTHOGRAPHIC VIEW for ALL six models, camera level with models, no three-quarter rotation, no tilted or top-down view. Bevels may reveal a little depth. Same lighting, grounded contact baseline, consistent perceived scale. Full model artwork above label zones: top row artwork y=175..405 and bottom row y=570..800 in original template coordinates. Model height about 225px, center each in its panel with generous space and numbers unobstructed. Preserve the original floor grids visible behind them.
+Six approved fundamentally distinct silhouettes, constructions and metaphors, in order:
+01 FRACTURED FILE: tall narrow upright folded document slab, pale blue-gray, one thick folded corner, huge jagged vertical split through its center showing violet interior; a couple broad coral data bars displaced across the split. One document only. Simple iconic torn-file corruption.
+02 BIT CRAWLER: wide low chunky memory-chip body, frontal long edge facing viewer, on six thick bent pin legs, three per side, stepped violet central mass and one coral failed-bit block. Strong wide insect-like silhouette made from hardware, minimal rectangular construction.
+03 SCRAMBLED STACK: vertical totem of three low-segment database drums, offset left/right but camera faces directly forward; missing sector chunks expose violet interiors, a broad coral stripe marks one broken sector. Exactly three broad drums, no micro-detail.
+04 CHECKSUM RING: thick broken hexagonal ring standing upright, open negative space, obvious missing upper-right segment, displaced chunky violet cubical core suspended off-center within it, coral break ends. Low-poly six-sided ring, distinctive circular framed silhouette.
+05 DANGLING POINTER: branching graph-like entity, one chunky lower root node on the floor and two wide angular arms ending in large blocks, one branch visibly disconnected with a large gap; a third loose block hangs beneath that broken end. Broad Y-shaped silhouette, thick rigid connectors, no fine cables. Dark blue-gray main construction, violet nodes, coral severed connector ends.
+06 BURST PACKET: asymmetric lopsided package container, front-facing box with its upper-right shell burst outward, exactly three oversized violet data blocks spilling as a compact diagonal cluster to the right, coral jagged break lip. Distinct offset cluster silhouette, no document appearance.
+Do not add faces, screens, environments, extra panels, arrows, annotations, turnarounds, stats, or footer. No tiny details.
+Keep ALL title and bottom text areas clear and unobstructed. Replace header text with "Corrupted Data Concept Variations"; subtitle "Six unstable data enemies for software-themed battles."; upper right category "Enemy". Panel labels:
+01 "Fractured File" / "Upright folded sheet with a jagged split"
+02 "Bit Crawler" / "Broad memory chip on chunky bent pins"
+03 "Scrambled Stack" / "Three offset database drums exposing broken sectors"
+04 "Checksum Ring" / "Broken hexagonal loop surrounding a displaced core"
+05 "Dangling Pointer" / "Branching nodes ending in one broken connection"
+06 "Burst Packet" / "Lopsided container spilling three oversized data blocks".
+Preserve template layout precisely.

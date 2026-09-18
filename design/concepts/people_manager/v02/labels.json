@@ -1,0 +1,13 @@
+{
+  "title": "The People Manager Concept Variations",
+  "subtitle": "Six new support designs inspired by trust and team cohesion.",
+  "category": "Tower",
+  "options": [
+    {"name": "Trust Architect", "description": "Five tier pyramid beside foundation builder"},
+    {"name": "Cohesion Pack", "description": "Tapered five level mast above shoulders"},
+    {"name": "Foundation Guardian", "description": "Broad trust shield with five bands"},
+    {"name": "Dialogue Relay", "description": "Paired speech pods flank seated facilitator"},
+    {"name": "Alignment Sail", "description": "Angular pennant rises beside presenting coach"},
+    {"name": "Connection Bridge", "description": "Open support arch joins twin terminals"}
+  ]
+}

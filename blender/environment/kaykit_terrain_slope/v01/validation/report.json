@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_terrain_slope",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "67a96e2775ccc33aff766147355ccda24078b2b6b782b5067d3c927915c9fd99",
+  "checkedAt": "2026-09-17T21:34:53.313Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 28,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2,
+    2,
+    2
+  ],
+  "bounds": [
+    [
+      -1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_terrain_slope/v01/kaykit_terrain_slope_v01.blend",
+  "sourceHash": "05b890b6a5c6cbee4f997708cd5e4795c5c2a6efe82ac46fbcd932a365288d87",
+  "runtime": "assets/runtime/environment/kaykit_terrain_slope_v01.glb"
+}

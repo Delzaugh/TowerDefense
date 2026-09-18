@@ -1,0 +1,15 @@
+{
+  "asset": "campus_tree_round",
+  "geometryHash": "c320caf003a52103f136eaa551ba6ffc318c8b1de1af75c5d2249cfc6e769bad",
+  "maxLinearColorError": 2.2297857227293605e-8,
+  "size": [
+    32,
+    4
+  ],
+  "materials": [
+    "glacier_palette.007"
+  ],
+  "usedRoles": 5,
+  "otherImages": [],
+  "sourceInput": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\environment\\campus_tree_round\\v01\\campus_tree_round_v01.blend"
+}

@@ -1,0 +1,37 @@
+{
+  "asset": "campus_home_study",
+  "revision": 6,
+  "sha256": "e41dbcbc654feb353c5670ebdec226f93016f73385e9b29d58f39cd00d029603",
+  "paletteControls": 13,
+  "errors": [],
+  "diff": [
+    {
+      "view": "iso",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.019600462962962962
+    },
+    {
+      "view": "front",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0047365740740740745
+    },
+    {
+      "view": "rear",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0029935185185185186
+    },
+    {
+      "view": "side",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.0025666666666666667
+    },
+    {
+      "view": "top",
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.004762962962962963
+    }
+  ],
+  "visualReview": "Reviewed by Codex: before/after appearance, front and reverse views, clip poses where present, and phone-scale silhouette. No conversion-induced visual regression observed; artistic user acceptance remains separate.",
+  "reviewedAt": "2026-09-17T21:03:25.588Z",
+  "evidence": "blender/environment/campus_home_study/v01/validation/palette_migration_r6/palette_review.png"
+}

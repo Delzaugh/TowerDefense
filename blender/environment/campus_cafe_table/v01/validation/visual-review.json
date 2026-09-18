@@ -1,0 +1,29 @@
+{
+  "asset": "campus_cafe_table",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "2eedc15aae3fe86108c55eed3ceb1b7fcffb1619c39a0104ca65dbe42ebaf3ac",
+  "sourceHash": "e5333ad0b55b1772f7911dec639e143a49295b8e00f75119716b29bbf1d45dc9",
+  "reviewedAt": "2026-09-17T23:03:02.172Z",
+  "status": "reviewed",
+  "reviewer": "Codex direct inspection of exported Inspector renders and campus",
+  "artisticAcceptance": "Pending user feedback",
+  "views": [
+    "blender/environment/campus_cafe_table/v01/renders/inspector-iso.png",
+    "blender/environment/campus_cafe_table/v01/renders/inspector-rear.png"
+  ],
+  "compositionEvidence": [
+    "prototypes/campus-3d/previews/home-desktop.png",
+    "prototypes/campus-3d/previews/home-phone.png",
+    "prototypes/campus-3d/previews/ambient-conversation.png"
+  ],
+  "notes": [
+    "1088 triangles; guarded export passed with packed palette.",
+    "Oblique and reverse construction inspected; intentional furniture/fixture joins retained.",
+    "Layout placement audit passed, with all furniture supported by actual terrain and no prop overlaps."
+  ],
+  "limits": [
+    "Fine details read as secondary accents at wide campus framing.",
+    "Emulated phone viewport; physical-device performance is not certified."
+  ]
+}

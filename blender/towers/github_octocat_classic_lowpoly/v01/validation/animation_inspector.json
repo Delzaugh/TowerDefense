@@ -1,0 +1,58 @@
+{
+  "errors": [],
+  "entries": [
+    {
+      "path": "towers/github_octocat_classic_lowpoly_v01.glb",
+      "revision": "bdf5125b1e9500bce923f71fae74e56748a91160d197ff0f604ff498b38c0382",
+      "triangles": 3490,
+      "meshes": 13,
+      "materials": 2,
+      "bounds": [
+        [
+          -0.9181303977966309,
+          -3.2650859793648124e-9,
+          -0.47267988324165344
+        ],
+        [
+          0.9180521368980408,
+          1.8002899885177612,
+          0.4107798933982849
+        ]
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ],
+      "wrapper": [
+        0,
+        0,
+        0
+      ],
+      "clips": [
+        {
+          "name": "idle",
+          "duration": 2.5
+        },
+        {
+          "name": "move",
+          "duration": 1.3333333730697632
+        },
+        {
+          "name": "wave",
+          "duration": 2.5
+        },
+        {
+          "name": "celebrate",
+          "duration": 2
+        }
+      ],
+      "clip": null,
+      "time": 0,
+      "playing": false,
+      "loop": true,
+      "speed": 1,
+      "pose": []
+    }
+  ]
+}

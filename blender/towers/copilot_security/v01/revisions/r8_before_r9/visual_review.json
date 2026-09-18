@@ -1,0 +1,48 @@
+{
+  "asset": "copilot_security",
+  "version": "v01",
+  "revision": 8,
+  "sha256": "ccf41470a1af89de0a85f8b764457c79c1e57a426387961e5976de2a7756173c",
+  "sourceHash": "0290a06e1ecee14a7678321c3747d5e56b3325614e4f0495ffedaa30fd7eea25",
+  "reviewedAt": "2026-09-17T23:36:21.4670958Z",
+  "reference": "references/security_spec_sheet.png",
+  "inspectorUrl": "http://127.0.0.1:4174/?asset=copilot_security&version=v01",
+  "technicalPassed": true,
+  "productionVisualReview": "complete",
+  "userArtisticAcceptance": "pending",
+  "views": [
+    "Neutral Three.js front, isometric, side, rear and top renders",
+    "Shared Inspector underside check of the unchanged lower construction",
+    "Final revision shared Inspector at 390 px phone width and small silhouette scale",
+    "Final isometric and top review of the barrel-conforming cyan indicator"
+  ],
+  "evidence": [
+    "iso.png",
+    "front.png",
+    "side.png",
+    "rear.png",
+    "top.png"
+  ],
+  "geometryAudit": {
+    "vertices": 1317,
+    "nonmanifoldEdges": 0,
+    "packedImages": [
+      "security_palette"
+    ],
+    "degenerateFaces": 0,
+    "namedComponents": 31
+  },
+  "findings": [
+    "Connected helmet and compact display; no intersecting brow bars",
+    "Broad seated octagonal pods with white surrounds and navy inset panels",
+    "Heavy chin casting with continuous white rim and one-piece faceted shield",
+    "Recessed optical scanner with cyan ring and conforming barrel indicator",
+    "Three real rear ventilation pockets; clean reverse silhouette",
+    "Goggles, white pods and chin read at small scale; scanner micro-detail is deliberately secondary"
+  ],
+  "limitations": [
+    "Static rest model; no animation clips",
+    "Geometry follows the visual concept with restrained low-poly simplification",
+    "User artistic acceptance remains separate from technical and visual production checks"
+  ]
+}

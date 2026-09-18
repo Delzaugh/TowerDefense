@@ -1,0 +1,220 @@
+{
+  "asset": "OctoCat",
+  "three_revision": "180",
+  "triangles": 2473,
+  "mesh_count": 2,
+  "material_count": 2,
+  "texture_sources": 1,
+  "dimensions_width_depth_height": [
+    2.2799999713897705,
+    2.19646954536438,
+    2.3033347129821777
+  ],
+  "bounds_y_up": [
+    [
+      -1.1399999856948853,
+      0,
+      -1.09823477268219
+    ],
+    [
+      1.1399999856948853,
+      2.3033347129821777,
+      1.09823477268219
+    ]
+  ],
+  "root": {
+    "position": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "rotation": [
+      0,
+      0,
+      0,
+      "XYZ"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "OctoCat",
+      "type": "Group",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "root",
+      "type": "Object3D",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "anchor_action",
+      "type": "Object3D",
+      "position": [
+        0,
+        1.2668341398239136,
+        1.2182347774505615
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "anchor_ui",
+      "type": "Object3D",
+      "position": [
+        0,
+        2.603334665298462,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "OctoCat_body",
+      "type": "Mesh",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "OctoCat_eyes",
+      "type": "Mesh",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "animations": 0,
+  "has_normals": true,
+  "nonfinite_positions": 0,
+  "materials": [
+    {
+      "name": "OctoCat_body_PBR",
+      "roughness": 0.47999998927116394,
+      "metalness": 0,
+      "opaque": true,
+      "base_color_texture": true,
+      "emission_texture": true,
+      "emissive": [
+        0.2800000011920929,
+        0.2800000011920929,
+        0.2800000011920929
+      ],
+      "texture_dimensions": [
+        256,
+        8
+      ]
+    },
+    {
+      "name": "OctoCat_eyes_PBR",
+      "roughness": 0.25,
+      "metalness": 0,
+      "opaque": true,
+      "base_color_texture": true,
+      "emission_texture": true,
+      "emissive": [
+        0.05999999865889549,
+        0.05999999865889549,
+        0.05999999865889549
+      ],
+      "texture_dimensions": [
+        256,
+        8
+      ]
+    }
+  ],
+  "anchors": {
+    "anchor_action": [
+      0,
+      1.2668341398239136,
+      1.2182347774505615
+    ],
+    "anchor_ui": [
+      0,
+      2.603334665298462,
+      0
+    ]
+  },
+  "glb": {
+    "byte_length": 63308,
+    "images": [
+      {
+        "mimeType": "image/png",
+        "bufferView": 4,
+        "external_uri": null
+      }
+    ],
+    "buffers": [
+      {
+        "byteLength": 59820
+      }
+    ],
+    "extensions": [
+      "KHR_materials_specular"
+    ],
+    "primitive_count": 2,
+    "self_contained": true,
+    "has_normal_accessors": true
+  },
+  "errors": [],
+  "warnings": [],
+  "checks": {
+    "load_clean": true,
+    "budget": true,
+    "hard_cap": true,
+    "counts_match": true,
+    "dimensions_match": true,
+    "proportions_preserved": true,
+    "ground_contact": true,
+    "centered": true,
+    "root_identity": true,
+    "anchors": true,
+    "static": true,
+    "opaque_pbr": true,
+    "embedded_palette": true,
+    "finite_geometry": true,
+    "exported_normals": true
+  }
+}

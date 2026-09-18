@@ -1,0 +1,52 @@
+{
+  "style": "classic",
+  "height": 2.7970032691955566,
+  "triangles": 1844,
+  "anchors": {
+    "anchor_action": [
+      0.36,
+      0.796,
+      0.17
+    ],
+    "anchor_back": [
+      0.0,
+      1.036,
+      -0.29
+    ],
+    "anchor_chest": [
+      0.0,
+      1.036,
+      0.27
+    ],
+    "anchor_face": [
+      0.0,
+      1.926,
+      0.668
+    ],
+    "anchor_hand_left": [
+      -1.18,
+      1.176,
+      0.13
+    ],
+    "anchor_hand_right": [
+      0.36,
+      0.796,
+      0.05
+    ],
+    "anchor_hat": [
+      0.0,
+      2.563,
+      -0.0
+    ],
+    "anchor_target": [
+      0.0,
+      1.576,
+      -0.0
+    ],
+    "anchor_ui": [
+      0.0,
+      3.017,
+      -0.0
+    ]
+  }
+}

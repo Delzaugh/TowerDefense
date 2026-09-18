@@ -1,0 +1,37 @@
+{
+  "asset": "campus_cafe_table",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "2eedc15aae3fe86108c55eed3ceb1b7fcffb1619c39a0104ca65dbe42ebaf3ac",
+  "checkedAt": "2026-09-17T22:36:27.871Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1088,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    3.4200000762939453,
+    1.3480000495910645,
+    1.6799999475479126
+  ],
+  "bounds": [
+    [
+      -1.7100000381469727,
+      0,
+      -0.8399999737739563
+    ],
+    [
+      1.7100000381469727,
+      1.3480000495910645,
+      0.8399999737739563
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "e5333ad0b55b1772f7911dec639e143a49295b8e00f75119716b29bbf1d45dc9",
+  "source": "blender/environment/campus_cafe_table/v01/campus_cafe_table_v01.blend",
+  "runtime": "assets/runtime/environment/campus_cafe_table_v01.glb"
+}

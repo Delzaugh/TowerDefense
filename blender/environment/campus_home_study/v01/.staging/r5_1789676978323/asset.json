@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_home_study",
+  "displayName": "Glacier — Copilot Lab campus study",
+  "category": "environment",
+  "version": "v01",
+  "revision": 5,
+  "source": {
+    "path": "blender/environment/campus_home_study/v01/campus_home_study_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_home_study/v01/build.py",
+    "authoritativeHash": "d72f675e41b603fb4f27c3b71f08fe16378fe4ce9df264b5e1e6df92cfb9c094"
+  },
+  "runtime": "assets/runtime/environment/campus_home_study_v01.glb",
+  "budgets": {
+    "triangles": 8000,
+    "materials": 1,
+    "textures": 0,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 3
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_door_min",
+      "anchor_door_max",
+      "anchor_walk_left",
+      "anchor_walk_right"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "provenance": "Local capture of the active Glacier SVG UI prototype, used as visual reference.",
+      "path": "prototypes/hub/previews/before-3d-study.png"
+    }
+  ],
+  "overrides": [
+    {
+      "reason": "Combined campus study includes lab, terrain, trees, pool, benches and lamps.",
+      "field": "budgets.triangles"
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/campus_home_study/v01/revisions/r2_before_r3/campus_home_study_v01.glb",
+      "source": "blender/environment/campus_home_study/v01/revisions/r2_before_r3/campus_home_study_v01.blend",
+      "sha256": "8557e85a6216294fa9d031105644044eb36bf2687d10744231d1aacd8d23cb4f",
+      "sourceHash": "e6925cb252bb039948552f694e2f269ae179b7cc919ce9acdd9c985aaee3c958"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/environment/campus_home_study/v01/revisions/r3_before_r4/campus_home_study_v01.glb",
+      "source": "blender/environment/campus_home_study/v01/revisions/r3_before_r4/campus_home_study_v01.blend",
+      "sha256": "8fe208b103e6f07ade6fc392c2d0898f6eb7ca78c239c54153b1782d44c545fb",
+      "sourceHash": "e5eb096b1ef4e1fcdd64118fc95528d217fa43f1e10491ba23d967188eba8070"
+    }
+  ],
+  "decisions": "blender/environment/campus_home_study/v01/decisions.md",
+  "delivery": {
+    "sha256": "fc70e7a788611275e0db87b6b6d6ce9ac85cc7a1de572c0df3974238d903f002",
+    "sourceHash": "d72f675e41b603fb4f27c3b71f08fe16378fe4ce9df264b5e1e6df92cfb9c094",
+    "report": "blender/environment/campus_home_study/v01/validation/report.json",
+    "deliveredAt": "2026-09-17T20:24:34.756Z"
+  }
+}

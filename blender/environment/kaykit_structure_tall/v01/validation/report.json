@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_structure_tall",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "21a78f030b1a0e3c2b9104c65a28c885126f6a84455f719a9141e20873b3f121",
+  "checkedAt": "2026-09-17T21:34:48.521Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 670,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    1.7501269578933716,
+    1.999995470046997,
+    1.750126838684082
+  ],
+  "bounds": [
+    [
+      -0.8750634789466858,
+      0,
+      -0.8750633597373962
+    ],
+    [
+      0.8750634789466858,
+      1.999995470046997,
+      0.8750634789466858
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_structure_tall/v01/kaykit_structure_tall_v01.blend",
+  "sourceHash": "c819693e642623ef77914178fe77fa954683a09bb1c6749b10f50965aca24939",
+  "runtime": "assets/runtime/environment/kaykit_structure_tall_v01.glb"
+}

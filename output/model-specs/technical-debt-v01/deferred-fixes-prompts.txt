@@ -1,0 +1,49 @@
+Use case: stylized-concept. Edit IMAGE 1, the bundled model-spec-sheet template, as the DIRECT TARGET. Preserve its EXACT 1536x1024 canvas, dark navy design, panel geometry, borders, labels, typography, spacing and hierarchy. IMAGE 2 is only the asset design source; do NOT copy its six-concept layout. Produce ONE completed spec sheet for the selected asset, not multiple designs.
+
+This is a CONCEPT specification, no real mesh or UV has been supplied. Model Info MUST contain exactly:
+Triangles: -
+Vertices: -
+Texture: -
+Materials: -
+Target: < 2500 tris
+Leave the existing Texture / UV coordinate grid entirely EMPTY. Never invent UV islands, atlas or measured stats.
+Wireframe panel: one economical clean light-line illustrative wireframe of this SAME book in three-quarter view, no exact triangle count. Clearly caption within panel "Illustrative topology". Use coarse triangulated surfaces, no dense noise. Header subtitle must say "Concept spec" to establish status.
+
+Fill SIX original top-row viewports with ONE coherent object: Front, Front-Left, Left, Back, Back-Right, Right. Respect the original labels and order. Exact profile views must be EDGE-ON, not extra three-quarter views. The rear must show the outer cover, not repeat front contents. Same object scale, pivot and baseline. Same lighting and material colors. No scenery, stink wisps, smoke or effects in turnaround cells. Front/rear signs must not migrate or mirror. Only rotate the same object.
+
+Art style: chunky low-poly game prop, matte material color blocks, broad polygonal stains, dirty muted blue, yellowed paper, muddy brown and olive mildew, dull amber details. Visibly smelly and neglected but NOT photoreal, no tiny textures, paper fibers, realistic cracked leather, dense speckles, fantasy flourishes, faces, limbs or extra accessories. At most 3-5 thick page slabs per side with simple damaged corners. Economical geometry designed below 2500 triangles, not a measured claim.
+
+In-Game View: truly ZOOMED-OUT fixed isometric tower-defense campus. Muted grass, broad pale stone path, a few chunky trees and tiny gray-blue infrastructure modules. Only ONE selected book on the path, approximately 6-8% of panel height (about 24-30 pixels), visibly much smaller than scenery. Small green odor wisps immediately above the book only in this panel. No giant hero inset, no arrow/callout, no magnifying bubble. Keep gameplay art secondary, no HUD.
+
+Five palette swatches: dirty muted blue cover, yellow-beige paper, darkest muddy brown, olive mildew, dull amber status. No new sections, no Game Name field, no logos, no watermark. Clean typography, dirty asset only. Preserve all template labels and grid.
+
+SELECT ONLY OPTION 01 in IMAGE 2, top-left, called Deferred Fixes. All other reference options are irrelevant.
+Header name: Deferred Fixes
+Header subtitle: Concept spec - neglected technical debt ledger
+Header type: General Asset
+
+Invariant object: an upright OPEN ledger, about 1.6 times wider than tall, two thick rectangular dirty blue covers joined at a narrow center spine, pages open in a very shallow V. Left page has a large raised blue code symbol </>, broad brown coffee ring at upper-left, and muddy patch at bottom outer corner. Right page has exactly THREE vertically stacked EMPTY gray square checkboxes with exactly THREE short amber task bars beside them. A thick amber bookmark folds over the TOP OF THE RIGHT PAGE, holding one amber-and-rust circular CLOCK badge with pale hands on the front. Keep clock at asset's right top in every view where visible. Outer right edge has three thick index tabs arranged amber, blue, amber vertically. Olive mildew streak fills the central gutter, lower right page has a broad brown dirty torn corner. Code and unfinished-task icons must stay legible. Dirty yellowed pages, worn blue backing.
+
+Geometry across rotations: the book STAYS OPEN at precisely the same shallow V in ALL six views, never turns into a closed book. From BACK, see two connected plain dirty blue OUTER COVER panels and central hinge/spine, with broad olive/brown grime patches; NO code, NO checklist, NO duplicate clock face on the rear. Right-edge index tabs seen in FRONT appear at image-left when viewed from BACK. Clock bookmark has only its plain amber back on rear, no face. Exact LEFT and RIGHT views show compressed edge-on thickness of both open halves and their shallow V offsets. Do not invent metal hinges. The Front-Left view exposes front page content with left outside edge; Back-Right exposes only rear blue covers and right page-edge construction. Front sheet proportions and colors must follow option 01.
+
+Notes, exactly THREE concise lines:
+- Preserve code and unfinished task icons
+- Broad grime patches stay readable
+- Stink wisps are separate visual effects
+
+Keep illustrative side/rear design logically consistent with the reference. Render the SAME open ledger in Wireframe and tiny gameplay view.
+
+REFINEMENT
+Edit this Deferred Fixes concept spec sheet with precise corrections ONLY. Preserve 1536x1024 canvas, all original panels, text, dirty low-poly book design, colors, notes, palette and unknown model stats. UV remains empty. Front remains the authoritative OPEN ledger with code on left page, 3 unfinished checkboxes right, clock bookmark at top right, index tabs only outer right edge.
+
+1. The second top viewport labelled Front-Left currently duplicates Front. ROTATE THE SAME OPEN BOOK through 45 degrees around vertical axis into a TRUE FRONT-LEFT THREE-QUARTER VIEW. The outer edge of the code-bearing left page is nearest the viewer, with a visible THICK YELLOW PAGE EDGE and BLUE COVER thickness. Left page/code face is foreshortened, right checklist page farther away. Whole book's projected width is noticeably NARROWER than Front. The book must remain OPEN at its SAME shallow V angle; do not close it. Use orthographic camera at same height. Distinct true rotated angle, not a duplicate front.
+
+2. The third and sixth viewports Left and Right currently look like identical CLOSED books with the same tabs. Show strict edge-on profiles of the SAME permanently OPEN book. From LEFT, near edge is plain thick yellow left-page slab with blue cover behind; right-page clock bookmark and index tabs are far behind, mostly occluded. From RIGHT, near edge has the three amber/blue/amber index tabs and clock bookmark. Show a narrow staggered silhouette reflecting the shallow open V, not touching front and back covers of a closed volume. No changing hinge angle between views. Both profiles identical HEIGHT to Front (about 160 pixels). Front and Back widths remain wide.
+
+3. Back viewport must be straight-on rear, symmetrical wide blue cover panels meeting at central spine, not angled three-quarter. Rear clock bookmark back and index tabs belong at image LEFT. No code/checklist on back. Back-Right remains genuine rear three-quarter.
+
+4. In-Game View: keep the campus but shrink the book and its odor wisps by 40 percent, leaving it about 25 pixels tall (6 percent of the 400px panel). Refill surrounding path consistently. It must feel zoomed-out at gameplay scale.
+
+5. Wireframe panel footer should retain the template label "Wireframe", with smaller second line "Illustrative topology". Inside render, wireframe edges show only geometry, not flat stains as geometry; remove unnecessary scribbly lines.
+
+Everything else untouched. Do not invent model statistics, UV islands, new panels or extra elements.

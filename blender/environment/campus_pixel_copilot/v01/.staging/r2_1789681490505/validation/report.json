@@ -1,0 +1,39 @@
+{
+  "asset": "campus_pixel_copilot",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "2bc120370f2f46569a9e002bb52bd900f8bd6f4fb8c36e7fb5d05a2aa1504601",
+  "checkedAt": "2026-09-17T21:44:53.610Z",
+  "errors": [
+    "triangles exceeds budget: 1408 / 600"
+  ],
+  "warnings": [],
+  "triangles": 1408,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    0.6000000238418579,
+    0.5,
+    0.09000000357627869
+  ],
+  "bounds": [
+    [
+      -0.30000001192092896,
+      0,
+      -0.04500000178813934
+    ],
+    [
+      0.30000001192092896,
+      0.5,
+      0.04500000178813934
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": false,
+  "sourceHash": "98061abf912d8752e80a7fd405c4df3f2d68efc536669a6269466f92f051691f",
+  "source": "blender/environment/campus_pixel_copilot/v01/campus_pixel_copilot_v01.blend",
+  "runtime": "assets/runtime/environment/campus_pixel_copilot_v01.glb"
+}

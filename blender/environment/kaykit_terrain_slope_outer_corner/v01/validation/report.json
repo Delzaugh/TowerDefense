@@ -1,0 +1,37 @@
+{
+  "asset": "kaykit_terrain_slope_outer_corner",
+  "version": "v01",
+  "revision": 1,
+  "sha256": "d60dd4d7d4697f0c543e3d87ae6ccdef7ecf734ce732364e111740dc9a028550",
+  "checkedAt": "2026-09-17T21:34:55.732Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 34,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2,
+    2,
+    2
+  ],
+  "bounds": [
+    [
+      -1,
+      -1,
+      -1
+    ],
+    [
+      1,
+      1,
+      1
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "source": "blender/environment/kaykit_terrain_slope_outer_corner/v01/kaykit_terrain_slope_outer_corner_v01.blend",
+  "sourceHash": "a8c3578b4beefb268e761b5cb7d7fc2c8bbbac9d6a5cba090093bdf162315385",
+  "runtime": "assets/runtime/environment/kaykit_terrain_slope_outer_corner_v01.glb"
+}

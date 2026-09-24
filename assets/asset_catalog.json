@@ -602,16 +602,6 @@
       "manifest": "blender/towers/copilot_analyst/v01/asset.json"
     },
     {
-      "id": "copilot_security",
-      "version": "v01",
-      "manifest": "blender/towers/copilot_security/v01/asset.json"
-    },
-    {
-      "id": "copilot_architect",
-      "version": "v01",
-      "manifest": "blender/towers/copilot_architect/v01/asset.json"
-    },
-    {
       "id": "linter_agent",
       "version": "v01",
       "manifest": "blender/towers/linter_agent/v01/asset.json"

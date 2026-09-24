@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-09-17T21:35:45.888Z",
   "passed": true,
-  "count": 99,
+  "count": 97,
   "assets": [
     {
       "id": "copilot_base",
@@ -1061,30 +1061,6 @@
       "checkedAt": "2026-09-17T22:58:05.054Z"
     },
     {
-      "id": "copilot_security",
-      "version": "v01",
-      "source": "blender/towers/copilot_security/v01/copilot_security_v01.blend",
-      "runtime": "assets/runtime/towers/copilot_security_v01.glb",
-      "sha256": "0d00456d17328c6c42592f1892f33e89c92511556608dea3a07aba19fd1308de",
-      "sourceHash": "241b0ecedef04852a3196ec47d33a8340f46c0cfdcb4fe8d142c188dfe8553ea",
-      "passed": true,
-      "triangles": 2650,
-      "errors": [],
-      "checkedAt": "2026-09-17T22:58:12.669Z"
-    },
-    {
-      "id": "copilot_architect",
-      "version": "v01",
-      "source": "blender/towers/copilot_architect/v01/copilot_architect_v01.blend",
-      "runtime": "assets/runtime/towers/copilot_architect_v01.glb",
-      "sha256": "ce60f01d4a6fdc8a6a60d5a0106f6e2407c0277d3cc6248d7c31c1046dd8779f",
-      "sourceHash": "2d2f6471508b11481270ac4d05b99b601775f9691f54c84f2084b24b46b08483",
-      "passed": true,
-      "triangles": 2146,
-      "errors": [],
-      "checkedAt": "2026-09-17T22:58:20.6Z"
-    },
-    {
       "id": "linter_agent",
       "version": "v01",
       "source": "blender/towers/linter_agent/v01/linter_agent_v01.blend",
@@ -1101,8 +1077,6 @@
     "checkedAt": "2026-09-17T23:00:09.565Z",
     "ids": [
       "copilot_analyst",
-      "copilot_security",
-      "copilot_architect",
       "linter_agent"
     ],
     "note": "Previous Persona delivery results retained for registered assets; full-check timestamp is historical."

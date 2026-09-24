@@ -1,7 +1,7 @@
 import {readFile,writeFile,appendFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import path from 'node:path';
-const ids=['copilot_tester','copilot_analyst','copilot_security','copilot_architect','linter_agent'];
+const ids=['copilot_tester','copilot_analyst','linter_agent'];
 const hash=b=>createHash('sha256').update(b).digest('hex');
 const checkedAt=new Date().toISOString(),results=[];
 let doc='# Persona tower models\n\nSix selected concepts modeled as static, textured assets. Base Copilot is unchanged. All models use the existing compact family scale, face +Z, have grounded rest geometry and include named anchors. Animation and gameplay integration are not part of this modeling delivery.\n\n![Actual runtime previews](persona_towers_preview.png)\n\n| Model | Preview | Editable source | Runtime | Triangles |\n| --- | --- | --- | --- | ---: |\n';

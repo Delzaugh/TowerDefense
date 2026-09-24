@@ -4,7 +4,7 @@ from pathlib import Path
 import json
 HERE=Path(__file__).resolve().parent
 ROOT=HERE.parents[2]
-IDS=['copilot_tester','copilot_analyst','copilot_security','copilot_architect','linter_agent']
+IDS=['copilot_tester','copilot_analyst','linter_agent']
 def font(size):return ImageFont.truetype('C:/Windows/Fonts/segoeuib.ttf',size)
 def isolated(im):
     im=im.convert('RGB');bg=Image.new('RGB',im.size,im.getpixel((0,0)))
@@ -13,7 +13,7 @@ def isolated(im):
 bg='#dce6ef'
 board=Image.new('RGB',(1800,1280),bg);d=ImageDraw.Draw(board)
 d.text((60,30),'PERSONA TOWERS',font=font(40),fill='#132943')
-d.text((62,84),'Six modeled concepts  /  actual runtime GLB previews',font=font(20),fill='#506377')
+d.text((62,84),'Persona concepts  /  actual runtime GLB previews',font=font(20),fill='#506377')
 for i,id in enumerate(IDS):
     folder=ROOT/'blender/towers'/id/'v01';m=json.loads((folder/'asset.json').read_text())
     report=json.loads((folder/'validation/report.json').read_text())

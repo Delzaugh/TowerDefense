@@ -2,7 +2,7 @@ name: Publish campus and simulation lab
 
 on:
   push:
-    branches: [codex/campus-pages]
+    branches: [main]
     paths: [pages-site/**, .github/workflows/campus-pages.yml]
   workflow_dispatch:
 
@@ -32,3 +32,4 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+

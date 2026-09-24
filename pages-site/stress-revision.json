@@ -1,0 +1,464 @@
+{
+  "capturedAt": "2026-09-24T08:19:42.467Z",
+  "hosting": "github-pages",
+  "basePath": "/TowerDefense/",
+  "sourceCommit": "a0f8f0ffcbb578968f394b977de38ef569bccc27",
+  "sourceHashes": {
+    "index.html": "14417093f9c4d24a29d244a4da440b317cea762598771eb3b2f5d3b9b52128c2",
+    "app.js": "61bb51d24ca02a115f955b9b1649754c5402179d8621d36bc64512459636bd52",
+    "presentation.js": "8e5762b341eaf1ca257ce00f1cce6cf5804a0b8206feccbcb4da81d3f817d63d",
+    "companion.js": "b639ad58bca931f6fb6de5d900b4eeede8ec62564a357d1e46feb092c3ba52fe",
+    "ambient.js": "8295fddc745d2ad9aa57f289072d67dd5f2366808d90a643a51fbcadd42ac9a4",
+    "light-lines.js": "d5ac8fbfb3df1dd99044263eee66e8eca5887a6bb0a91dc7a206e27d7248ba01",
+    "campus-layout.js": "8f28cb355598d58b2d6e0f9d67b8081c16069d48d9d2b7b422f121b757b8cf4e",
+    "style.css": "3210392522ac3256283c36237a53f2919cc1468e6d66f8860b82128add955693",
+    "guests.js": "da4c98b10c658f9df2ad1eca58cf0ebdfd7340fbd1b497a5dce1ee55b37f7a13",
+    "performance.js": "396d0c134005e85a9cbae3003c6b85537a389cfbf16c55aaf989eac93fcbce2a",
+    "stress-load.js": "7f85e7409b0e8391d9e6686a45f5c413891b413a462d1c14c3071072bbf55411",
+    "stress-test.js": "94ff1e870f59495a444704fdb513e57f92e29c1ba372c119836a4f000f171622",
+    "stress-config.js": "e688b3a707f86cf4a7c8554d6aa61ab114f931796fbf40e5af7434f20da3c21d",
+    "simulation/app.js": "80acc6001dfb869306a6602279deb6263be3203fc787fd36ca75ba2b37252f8d",
+    "simulation/actors.js": "96ca81a90ba6a323d744a6173f4dad0e50ba13bc336208c2c7776c95c8e9fd23",
+    "simulation/map.js": "cc5ef4db826ac650dcb0cd7428359c582f66150b9f9d4dc6ca18ba35fef8dea1",
+    "simulation/config.js": "67732df56f9fec9dbb4c2743f3064bbfbac5903cfe796b2138ceea30b74d5a22",
+    "simulation/schedule.js": "255790a6704c49aef57167f7dcf0fd861b5f1ce5086a6da932cd8864cf67fe72",
+    "simulation/capture.js": "80649ef50b96426bdc4401afc3082c2df80d1e16205bb3f670c6368d8e713ceb",
+    "simulation/placement.js": "a1052327e67e906329b6c70527e2a547284cd280b9d5ba5afbbab8612d4b7d3a",
+    "simulation/index.html": "92f973a7b27ae4aa55468574fcf4ec6e0e203b32a2941f4fcdfe67be66a7272d",
+    "simulation/style.css": "d7cbdafcf8442be33538486f7361794b018bc76ffe53417e453099fb47aebb56"
+  },
+  "runtimeAssets": [
+    {
+      "url": "/TowerDefense/runtime/campus_home_study.glb",
+      "id": "campus_home_study",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_home_study_v01.glb",
+      "bytes": 441008,
+      "sha256": "e41dbcbc654feb353c5670ebdec226f93016f73385e9b29d58f39cd00d029603"
+    },
+    {
+      "url": "/TowerDefense/runtime/copilot_base_v02.glb",
+      "id": "copilot_base",
+      "version": "v02",
+      "path": "assets/runtime/towers/copilot_base_v02.glb",
+      "bytes": 132376,
+      "sha256": "2fd051fc4a50e490154bc0ba52ecfcaafbb637bb323ef41d4754c45e540456e0"
+    },
+    {
+      "url": "/TowerDefense/runtime/bert_breugelmans.glb",
+      "id": "bert_breugelmans",
+      "version": "v01",
+      "path": "assets/runtime/towers/bert_breugelmans_v01.glb",
+      "bytes": 373876,
+      "sha256": "4a7ebbc16f309e796241b3d6ad3c2d6c8b48ca450aba50b297dccd959e78f1db"
+    },
+    {
+      "url": "/TowerDefense/runtime/github_octocat_classic_lowpoly.glb",
+      "id": "github_octocat_classic_lowpoly",
+      "version": "v01",
+      "path": "assets/runtime/towers/github_octocat_classic_lowpoly_v01.glb",
+      "bytes": 190520,
+      "sha256": "bdf5125b1e9500bce923f71fae74e56748a91160d197ff0f604ff498b38c0382"
+    },
+    {
+      "url": "/TowerDefense/runtime/problem_bug.glb",
+      "id": "problem_bug",
+      "version": "v01",
+      "path": "assets/runtime/enemies/problem_bug_v01.glb",
+      "bytes": 318904,
+      "sha256": "6463dc98375ba97c45e53b8d3ea5fa27871089c6b4b072207dc689c480e35a5c"
+    },
+    {
+      "url": "/TowerDefense/runtime/problem_vague_spec.glb",
+      "id": "problem_vague_spec",
+      "version": "v01",
+      "path": "assets/runtime/enemies/problem_vague_spec_v01.glb",
+      "bytes": 206092,
+      "sha256": "7288ea169999b79754d4d3a32dd25a4aa09e4b5c0f46d316ff85a58d744b35b8"
+    },
+    {
+      "url": "/TowerDefense/runtime/problem_lag_spike.glb",
+      "id": "problem_lag_spike",
+      "version": "v01",
+      "path": "assets/runtime/enemies/problem_lag_spike_v01.glb",
+      "bytes": 263920,
+      "sha256": "46c8273d53a092a88993a28995c7ae7369b15822b585737fe637a0a2e5d3ffd5"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_base_hex.glb",
+      "id": "campus_base_hex",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_base_hex_v01.glb",
+      "bytes": 120552,
+      "sha256": "ed7634eace91de76dd82c5c47888adecd0575cb2c529955907826c0a61dcf224"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_tile_park.glb",
+      "id": "campus_tile_park",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_tile_park_v01.glb",
+      "bytes": 237044,
+      "sha256": "c0ea91ba6f2b193a935e710f1714a04a4a31f91fb4b46aaa24a5fb22776843a2"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_tile_plaza.glb",
+      "id": "campus_tile_plaza",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_tile_plaza_v01.glb",
+      "bytes": 238320,
+      "sha256": "c6664513f2b06ee4bddc84eebee0861a840797217f1a406bf79c4518d945df05"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_tile_hill.glb",
+      "id": "campus_tile_hill",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_tile_hill_v01.glb",
+      "bytes": 259924,
+      "sha256": "69df82f1d8c513d561b529e5758e750adc0baa85a93bbc70b7494f142e9447e8"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_platform.glb",
+      "id": "campus_platform",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_platform_v01.glb",
+      "bytes": 11536,
+      "sha256": "9fb6ac1087ace6556eb576ac5bd7b176c96be3e1611316e41a17418acae067b5"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_lab.glb",
+      "id": "campus_lab",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_lab_v01.glb",
+      "bytes": 178696,
+      "sha256": "a84b6cc360319e43252c2a9ed34eb34242e11e57e2af1d68fe387250f14bb27b"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_walk_straight.glb",
+      "id": "campus_walk_straight",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_walk_straight_v01.glb",
+      "bytes": 14360,
+      "sha256": "88d5472024dd15bc26d208213b1cfdf3c956ac488f69be80054fe5643c2c37ef"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_walk_short.glb",
+      "id": "campus_walk_short",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_walk_short_v01.glb",
+      "bytes": 14352,
+      "sha256": "633c3b8ead0d51a4950268d1b1593c49d0d354f6a922fefe60b02a51e45626b5"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_walk_landing.glb",
+      "id": "campus_walk_landing",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_walk_landing_v01.glb",
+      "bytes": 20576,
+      "sha256": "badaae889f43b3eaf02fefdaf944e74a30abd012d1ab0d195270a7564ea7f02f"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_walk_corner.glb",
+      "id": "campus_walk_corner",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_walk_corner_v01.glb",
+      "bytes": 15868,
+      "sha256": "e9862ad6f6232f8cc3536c728e0be41bef669268f900df8edafbbd7df3d6df48"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_walk_bend.glb",
+      "id": "campus_walk_bend",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_walk_bend_v01.glb",
+      "bytes": 30984,
+      "sha256": "be3f8455b311b73c22b2c9958bce0639d9c88d88926a0acf8ae9b457f176eb62"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_walk_bend_45.glb",
+      "id": "campus_walk_bend_45",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_walk_bend_45_v01.glb",
+      "bytes": 21968,
+      "sha256": "6c5f8fb81edf83835865e4f14c287fb7a27638a2b182ef8e0ba872b7d819e383"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_walk_junction.glb",
+      "id": "campus_walk_junction",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_walk_junction_v01.glb",
+      "bytes": 21692,
+      "sha256": "bceef80569343877fc4a8caa39cfc727d42371b881b328fe2181de215f0dd831"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_tree_round.glb",
+      "id": "campus_tree_round",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_tree_round_v01.glb",
+      "bytes": 16404,
+      "sha256": "a34184710614ae098e27a6a25c969844069e90d35335305436172fd0e9bc79d1"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_tree_tall.glb",
+      "id": "campus_tree_tall",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_tree_tall_v01.glb",
+      "bytes": 16456,
+      "sha256": "92559e9d8ee4a8a801f000649aa248adb75b961795ce89f4b4cd8cbbce52b8b3"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_tree_cluster.glb",
+      "id": "campus_tree_cluster",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_tree_cluster_v01.glb",
+      "bytes": 21508,
+      "sha256": "d1f5e6658651c141ee70a229d47d565dbb5c7b9fe967be04dce8d7276e183c78"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_pond.glb",
+      "id": "campus_pond",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_pond_v01.glb",
+      "bytes": 46928,
+      "sha256": "334156831676b67aef9371cd0d8dcfa9cd8ec59ba3ff513aaffed8547cbb6e3d"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_solar.glb",
+      "id": "campus_solar",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_solar_v01.glb",
+      "bytes": 65040,
+      "sha256": "a68d42f6124dc70bccb24d74caeed72426abcf13faf47832af3c29aea8761ca7"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_coffee_kiosk.glb",
+      "id": "campus_coffee_kiosk",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_coffee_kiosk_v01.glb",
+      "bytes": 211784,
+      "sha256": "2390263498d8f5ed264967a4c9c16938ea83882c4e431feb0195de7b77e7d633"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_planter_bench.glb",
+      "id": "campus_planter_bench",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_planter_bench_v01.glb",
+      "bytes": 107284,
+      "sha256": "54b3ba98862cd8e5c98f679c46b6981e5120bcf79cfcf124400f0165b41e79a9"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_code_sculpture.glb",
+      "id": "campus_code_sculpture",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_code_sculpture_v01.glb",
+      "bytes": 146768,
+      "sha256": "0f0336c0c7686dec62a91b621f28e6d87f9a794b2c394e977eb43269d03fe5c3"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_meeting_nook.glb",
+      "id": "campus_meeting_nook",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_meeting_nook_v01.glb",
+      "bytes": 161616,
+      "sha256": "b1985463d4318ba66e9f21ab924e8bbbf13ce5a11ea942a9ba115b598943f8c8"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_wayfinding_sign.glb",
+      "id": "campus_wayfinding_sign",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_wayfinding_sign_v01.glb",
+      "bytes": 75460,
+      "sha256": "80fe023bbf7ea450c6eec5b58559db280006f5eefdfe456203af8322a5a1a7be"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_flower_bed.glb",
+      "id": "campus_flower_bed",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_flower_bed_v01.glb",
+      "bytes": 334248,
+      "sha256": "7ad32ff99326d5433eb9cefd7491be721ff3052c07fd9b4a9a4b07a574350bb6"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_bush_round.glb",
+      "id": "campus_bush_round",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_bush_round_v01.glb",
+      "bytes": 27404,
+      "sha256": "0bd077b45c34d94691f10f4d773bc64e42d65aba4c888e75f3fe307038ad4866"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_hedge.glb",
+      "id": "campus_hedge",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_hedge_v01.glb",
+      "bytes": 66804,
+      "sha256": "6ad1ba3fad2ae3e9a6495302501efa5a876be251aa78c2447113f11e9e0359f8"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_path_bollard.glb",
+      "id": "campus_path_bollard",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_path_bollard_v01.glb",
+      "bytes": 15124,
+      "sha256": "97575728b5686787c4c582b4c16a3170ca69adfb468820594e2a27a697c1be4a"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_cafe_table.glb",
+      "id": "campus_cafe_table",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_cafe_table_v01.glb",
+      "bytes": 82424,
+      "sha256": "2eedc15aae3fe86108c55eed3ceb1b7fcffb1619c39a0104ca65dbe42ebaf3ac"
+    },
+    {
+      "url": "/TowerDefense/runtime/campus_noticeboard.glb",
+      "id": "campus_noticeboard",
+      "version": "v01",
+      "path": "assets/runtime/environment/campus_noticeboard_v01.glb",
+      "bytes": 71244,
+      "sha256": "eabf96f6ed62a822c4a0e7756a4585227b5d72dbb5fd7d2fbbdc5393f2b9719d"
+    },
+    {
+      "url": "/TowerDefense/runtime/copilot_developer.glb",
+      "id": "copilot_developer",
+      "version": "v01",
+      "path": "assets/runtime/towers/copilot_developer_v01.glb",
+      "bytes": 235080,
+      "sha256": "40a21d41f452a55e079d466eeefeefe43bb2bf27ea0683b21e911c559f04ca09"
+    },
+    {
+      "url": "/TowerDefense/runtime/copilot_rubber_duck.glb",
+      "id": "copilot_rubber_duck",
+      "version": "v01",
+      "path": "assets/runtime/towers/copilot_rubber_duck_v01.glb",
+      "bytes": 64508,
+      "sha256": "891e9cd2c45ce4482b6febe369ade2bc5e11801e339730a92c98db9ccb3e18a0"
+    },
+    {
+      "url": "/TowerDefense/runtime/copilot_shield.glb",
+      "id": "copilot_shield",
+      "version": "v01",
+      "path": "assets/runtime/towers/copilot_shield_v01.glb",
+      "bytes": 49992,
+      "sha256": "9898e4d8fabaa5c9c4fc977b25bba91a93a27f204bdcb876a71c8b92b5f620ba"
+    },
+    {
+      "url": "/TowerDefense/runtime/golden_compiler.glb",
+      "id": "golden_compiler",
+      "version": "v01",
+      "path": "assets/runtime/towers/golden_compiler_v01.glb",
+      "bytes": 283056,
+      "sha256": "1d88ddd329b57876f2db41e45a40e83df55e2596763f7af819f3a7e88ee8b719"
+    },
+    {
+      "url": "/TowerDefense/runtime/copilot_commit_halo.glb",
+      "id": "copilot_commit_halo",
+      "version": "v01",
+      "path": "assets/runtime/towers/copilot_commit_halo_v01.glb",
+      "bytes": 358520,
+      "sha256": "58a9338892df9034089a5ece9389bc692d2ef5a47af3f38e87378630170f83cc"
+    },
+    {
+      "url": "/TowerDefense/runtime/linter_agent.glb",
+      "id": "linter_agent",
+      "version": "v01",
+      "path": "assets/runtime/towers/linter_agent_v01.glb",
+      "bytes": 102616,
+      "sha256": "98a0a29402af2c08afbb0bb8204f9adf24bd8120b4b380a1458612a1675a5fca"
+    },
+    {
+      "url": "/TowerDefense/runtime/problem_missing_details.glb",
+      "id": "problem_missing_details",
+      "version": "v01",
+      "path": "assets/runtime/enemies/problem_missing_details_v01.glb",
+      "bytes": 241616,
+      "sha256": "807ac0cdfddd3911515b10fcf413e9fdc5c1640bc3e0c53ed67518616077d808"
+    },
+    {
+      "url": "/TowerDefense/runtime/kaykit_rock_a.glb",
+      "id": "kaykit_rock_a",
+      "version": "v01",
+      "path": "assets/runtime/environment/kaykit_rock_a_v01.glb",
+      "bytes": 28832,
+      "sha256": "bcce9e353686a446b4e25e8ef943d8a76c5f13979e258878deb731c6a2c6363c"
+    },
+    {
+      "url": "/TowerDefense/runtime/kaykit_basemodule_a.glb",
+      "id": "kaykit_basemodule_a",
+      "version": "v01",
+      "path": "assets/runtime/environment/kaykit_basemodule_a_v01.glb",
+      "bytes": 64240,
+      "sha256": "cb25fd50f5ab8fc98040c87bc6538facc4f594f402c2c66d31946029d455f854"
+    },
+    {
+      "url": "/TowerDefense/runtime/kaykit_basemodule_b.glb",
+      "id": "kaykit_basemodule_b",
+      "version": "v01",
+      "path": "assets/runtime/environment/kaykit_basemodule_b_v01.glb",
+      "bytes": 67144,
+      "sha256": "b4cba6b9df0287c788d40eb69bf798689136c45ce7879f70f4c44ae27619a643"
+    },
+    {
+      "url": "/TowerDefense/runtime/kaykit_basemodule_garage.glb",
+      "id": "kaykit_basemodule_garage",
+      "version": "v01",
+      "path": "assets/runtime/environment/kaykit_basemodule_garage_v01.glb",
+      "bytes": 77452,
+      "sha256": "7ed6e304462c668b342f9f211a4b26cbbdc3f03e364411ab3fbea22e55ffceed"
+    },
+    {
+      "url": "/TowerDefense/runtime/kaykit_tunnel_straight_a.glb",
+      "id": "kaykit_tunnel_straight_a",
+      "version": "v01",
+      "path": "assets/runtime/environment/kaykit_tunnel_straight_a_v01.glb",
+      "bytes": 66272,
+      "sha256": "bb63739962b135a0b9f21388dbebc62ff3ca8d7120ba9e03c8361561bc24e06b"
+    },
+    {
+      "url": "/TowerDefense/runtime/kaykit_roofmodule_solarpanels.glb",
+      "id": "kaykit_roofmodule_solarpanels",
+      "version": "v01",
+      "path": "assets/runtime/environment/kaykit_roofmodule_solarpanels_v01.glb",
+      "bytes": 43656,
+      "sha256": "4f25b0557d7cf5332b370a1d2645658c27f75a86a3e481cb9f7a74dd7d561fa5"
+    },
+    {
+      "url": "/TowerDefense/runtime/kaykit_cargodepot_a.glb",
+      "id": "kaykit_cargodepot_a",
+      "version": "v01",
+      "path": "assets/runtime/environment/kaykit_cargodepot_a_v01.glb",
+      "bytes": 81800,
+      "sha256": "154ef212bd58ed29e3217c3c990d6a8b9e51489b1469c5f790a4b1c9282dbc56"
+    },
+    {
+      "url": "/TowerDefense/runtime/kaykit_containers_a.glb",
+      "id": "kaykit_containers_a",
+      "version": "v01",
+      "path": "assets/runtime/environment/kaykit_containers_a_v01.glb",
+      "bytes": 41664,
+      "sha256": "2dcb0995e0612d42b5186cc60b01db12ddf09d14d47d11489f6d649316c2f832"
+    },
+    {
+      "url": "/TowerDefense/runtime/kaykit_landingpad_small.glb",
+      "id": "kaykit_landingpad_small",
+      "version": "v01",
+      "path": "assets/runtime/environment/kaykit_landingpad_small_v01.glb",
+      "bytes": 53704,
+      "sha256": "13182795de2b4763b9494a41dfe5d9295374e43fe87c58106d251c79db118166"
+    },
+    {
+      "url": "/TowerDefense/runtime/kaykit_windturbine_tall.glb",
+      "id": "kaykit_windturbine_tall",
+      "version": "v01",
+      "path": "assets/runtime/environment/kaykit_windturbine_tall_v01.glb",
+      "bytes": 58264,
+      "sha256": "c46a8558218494dfdbbdfebc5c9ac5f3c8db9ec2c2a752117ce74df46bd87f48"
+    },
+    {
+      "url": "/TowerDefense/runtime/kaykit_solarpanel.glb",
+      "id": "kaykit_solarpanel",
+      "version": "v01",
+      "path": "assets/runtime/environment/kaykit_solarpanel_v01.glb",
+      "bytes": 33852,
+      "sha256": "2ba03c728e6e77a5c566a8fdb06f4926b653d1d3e948c200c79c1c0139374a13"
+    }
+  ]
+}

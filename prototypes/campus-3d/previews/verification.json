@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "checkedAt": "2026-09-17T23:21:31.018Z",
+  "checkedAt": "2026-09-18T16:59:39.859Z",
   "checks": [
     "29 environment assets plus canonical Copilot, low-poly Octocat and Lag Spike",
     "7 expandable hex tiles with 12 exact edge connections",
@@ -25,26 +25,26 @@
   "delivered": [
     {
       "id": "campus_base_hex",
-      "revision": 8,
-      "sha256": "9a75349443297c186922c673266c3106cd0890634bd1166a81e75197d954fafd",
+      "revision": 10,
+      "sha256": "ed7634eace91de76dd82c5c47888adecd0575cb2c529955907826c0a61dcf224",
       "triangles": 108
     },
     {
       "id": "campus_tile_park",
-      "revision": 2,
-      "sha256": "fd88cf4629d7f5b71c6831a823a6a047175ccb5ceae07bb88d4b34976ca7ffd8",
+      "revision": 5,
+      "sha256": "c0ea91ba6f2b193a935e710f1714a04a4a31f91fb4b46aaa24a5fb22776843a2",
       "triangles": 920
     },
     {
       "id": "campus_tile_plaza",
-      "revision": 2,
-      "sha256": "cacca154a1c5faf0e0c718b7cbcb70e5f239a5a2a4cf1dc9c97da5fd7447a560",
+      "revision": 5,
+      "sha256": "c6664513f2b06ee4bddc84eebee0861a840797217f1a406bf79c4518d945df05",
       "triangles": 920
     },
     {
       "id": "campus_tile_hill",
-      "revision": 2,
-      "sha256": "e77b34f6851d0a8e888645a9decce0b1d5f48fd8bf9ab2b1b5b57c450c716e5d",
+      "revision": 5,
+      "sha256": "69df82f1d8c513d561b529e5758e750adc0baa85a93bbc70b7494f142e9447e8",
       "triangles": 920
     },
     {

@@ -95,7 +95,7 @@ def build(asset_id,folder):
         prism('Hex structural shell',outer,0,1.05,'shell')
         prism('Continuous pale trim',outer,1.05,1.13,'chalk')
         prism('Level campus surface',inner,1.13,1.20,'ground')
-        ring('Flush seam inlay',outer,inner,1.13,1.20,'tile_seam')
+        ring('Flush joining surface',outer,inner,1.13,1.20,'ground')
         anchor('anchor_surface',(0,1.2,0))
         for i,name in enumerate(['ne','n','nw','sw','s','se']):
             angle=math.pi/6+i*math.pi/3

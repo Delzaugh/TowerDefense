@@ -1,37 +1,37 @@
 {
   "asset": "linter_agent",
   "version": "v01",
-  "revision": 5,
-  "sha256": "b0d649aa708a3edd1a8adaaa7e30d120a58dd7dee6d7c090e432a38dc7ab59d0",
-  "checkedAt": "2026-09-17T23:12:47.031Z",
+  "revision": 9,
+  "sha256": "98a0a29402af2c08afbb0bb8204f9adf24bd8120b4b380a1458612a1675a5fca",
+  "checkedAt": "2026-09-22T19:20:08.942Z",
   "errors": [],
   "warnings": [],
-  "triangles": 3144,
+  "triangles": 2940,
   "meshes": 2,
   "materials": 2,
   "textures": 2,
   "bones": 0,
   "dimensions": [
-    2.4797396659851074,
+    2.486802577972412,
     1.0794999599456787,
-    2.479739785194397
+    2.5638831853866577
   ],
   "bounds": [
     [
-      -1.2398698329925537,
+      -1.243401288986206,
       0,
-      -1.2398698329925537
+      -1.243401288986206
     ],
     [
-      1.2398698329925537,
+      1.243401288986206,
       1.0794999599456787,
-      1.2398699522018433
+      1.3204818964004517
     ]
   ],
   "clips": [],
   "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
   "passed": true,
-  "sourceHash": "90933283ded89ea34c57c5b8b77781bc14483a9dc2ac6849683d8ba6692ab4e0",
+  "sourceHash": "aeb6b5cd37c629185d2c2c0d22586574b1d151bcdd19c1a343c708c6bc19c410",
   "source": "blender/towers/linter_agent/v01/linter_agent_v01.blend",
   "runtime": "assets/runtime/towers/linter_agent_v01.glb"
 }

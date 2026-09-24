@@ -4,12 +4,12 @@
   "displayName": "Campus plaza tile",
   "category": "environment",
   "version": "v01",
-  "revision": 2,
+  "revision": 5,
   "source": {
     "path": "blender/environment/campus_tile_plaza/v01/campus_tile_plaza_v01.blend",
     "mode": "procedural",
     "recipe": "blender/environment/campus_tile_plaza/v01/build.py",
-    "authoritativeHash": "59ce99d31216e4423614ef773cb14b62d95f87a2d906e7154d97cbc2c06d3e84"
+    "authoritativeHash": "aeefd46e6b1b73610fa2b3c08d60ce449c1b448f8af777aa569d53505ea60860"
   },
   "runtime": "assets/runtime/environment/campus_tile_plaza_v01.glb",
   "budgets": {
@@ -62,7 +62,32 @@
     }
   ],
   "overrides": [],
-  "milestones": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/campus_tile_plaza/v01/revisions/r2_before_r3/campus_tile_plaza_v01.glb",
+      "source": "blender/environment/campus_tile_plaza/v01/revisions/r2_before_r3/campus_tile_plaza_v01.blend",
+      "sha256": "cacca154a1c5faf0e0c718b7cbcb70e5f239a5a2a4cf1dc9c97da5fd7447a560",
+      "sourceHash": "59ce99d31216e4423614ef773cb14b62d95f87a2d906e7154d97cbc2c06d3e84"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/environment/campus_tile_plaza/v01/revisions/r3_before_r4/campus_tile_plaza_v01.glb",
+      "source": "blender/environment/campus_tile_plaza/v01/revisions/r3_before_r4/campus_tile_plaza_v01.blend",
+      "sha256": "25d7bac6cd59674e48562fa19589ef7cfe69ea24270d8f011567656ae81d5f0f",
+      "sourceHash": "64bc991b7da4b6633bdee4edc2fd2d17d593106c841db6896cad0311fbacfaf3"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/environment/campus_tile_plaza/v01/revisions/r4_before_r5/campus_tile_plaza_v01.glb",
+      "source": "blender/environment/campus_tile_plaza/v01/revisions/r4_before_r5/campus_tile_plaza_v01.blend",
+      "sha256": "e5cc8414b2b5789cf8db0b39a534d2aed53b4063fbb00904ff0ae6cdd4c67729",
+      "sourceHash": "18996469db0c6c07b6bf339362b84548654b1e1a21fc5fc7248b44ec69c79040"
+    }
+  ],
   "decisions": "blender/environment/campus_tile_plaza/v01/decisions.md",
   "texturePalettes": [
     {
@@ -125,9 +150,9 @@
     "paletteTextureWorkflow": false
   },
   "delivery": {
-    "sha256": "cacca154a1c5faf0e0c718b7cbcb70e5f239a5a2a4cf1dc9c97da5fd7447a560",
-    "sourceHash": "59ce99d31216e4423614ef773cb14b62d95f87a2d906e7154d97cbc2c06d3e84",
+    "sha256": "c6664513f2b06ee4bddc84eebee0861a840797217f1a406bf79c4518d945df05",
+    "sourceHash": "aeefd46e6b1b73610fa2b3c08d60ce449c1b448f8af777aa569d53505ea60860",
     "report": "blender/environment/campus_tile_plaza/v01/validation/report.json",
-    "deliveredAt": "2026-09-17T22:11:24.611Z"
+    "deliveredAt": "2026-09-18T16:59:06.666Z"
   }
 }

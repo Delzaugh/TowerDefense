@@ -4,12 +4,12 @@
   "displayName": "Campus foundation · hexagonal expansion tile",
   "category": "environment",
   "version": "v01",
-  "revision": 8,
+  "revision": 10,
   "source": {
     "path": "blender/environment/campus_base_hex/v01/campus_base_hex_v01.blend",
     "mode": "procedural",
     "recipe": "blender/environment/campus_base_hex/v01/build.py",
-    "authoritativeHash": "e745a313647b478ff6072c6f86612f1d1814b0de9560c5cafc342168754f0d12"
+    "authoritativeHash": "cc54a248e8e2a02382bcd359dd09b7d0eb711cbd89ae3df3c6e054e9023eeb7a"
   },
   "runtime": "assets/runtime/environment/campus_base_hex_v01.glb",
   "budgets": {
@@ -111,14 +111,30 @@
       "source": "blender/environment/campus_base_hex/v01/revisions/r7_before_r8/campus_base_hex_v01.blend",
       "sha256": "39a2433a8cbc2494253aaee5e6e0a5a133d7e89355e119f5e03fb657008491d6",
       "sourceHash": "e24a52546d526f197539b2f8f8be4eaada8484f86ffb65f936ec0b47755c1bec"
+    },
+    {
+      "label": "before_r9",
+      "revision": 8,
+      "export": "blender/environment/campus_base_hex/v01/revisions/r8_before_r9/campus_base_hex_v01.glb",
+      "source": "blender/environment/campus_base_hex/v01/revisions/r8_before_r9/campus_base_hex_v01.blend",
+      "sha256": "9a75349443297c186922c673266c3106cd0890634bd1166a81e75197d954fafd",
+      "sourceHash": "e745a313647b478ff6072c6f86612f1d1814b0de9560c5cafc342168754f0d12"
+    },
+    {
+      "label": "before_r10",
+      "revision": 9,
+      "export": "blender/environment/campus_base_hex/v01/revisions/r9_before_r10/campus_base_hex_v01.glb",
+      "source": "blender/environment/campus_base_hex/v01/revisions/r9_before_r10/campus_base_hex_v01.blend",
+      "sha256": "1f3ed250d2055d3f30affe9ef892770ea3ac9b394f3786215c442f27e1d543e9",
+      "sourceHash": "b57bae0523fbd502a0d95eeafbae6fc6ba3e3bb61c87ccaa4602d8fb4ae1e16f"
     }
   ],
   "decisions": "blender/environment/campus_base_hex/v01/decisions.md",
   "delivery": {
-    "sha256": "9a75349443297c186922c673266c3106cd0890634bd1166a81e75197d954fafd",
-    "sourceHash": "e745a313647b478ff6072c6f86612f1d1814b0de9560c5cafc342168754f0d12",
+    "sha256": "ed7634eace91de76dd82c5c47888adecd0575cb2c529955907826c0a61dcf224",
+    "sourceHash": "cc54a248e8e2a02382bcd359dd09b7d0eb711cbd89ae3df3c6e054e9023eeb7a",
     "report": "blender/environment/campus_base_hex/v01/validation/report.json",
-    "deliveredAt": "2026-09-17T21:56:43.103Z"
+    "deliveredAt": "2026-09-18T16:56:54.500Z"
   },
   "texturePalettes": [
     {

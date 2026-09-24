@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-09-17T21:35:45.888Z",
   "passed": true,
-  "count": 101,
+  "count": 99,
   "assets": [
     {
       "id": "copilot_base",
@@ -1049,30 +1049,6 @@
       "errors": []
     },
     {
-      "id": "copilot_developer",
-      "version": "v01",
-      "source": "blender/towers/copilot_developer/v01/copilot_developer_v01.blend",
-      "runtime": "assets/runtime/towers/copilot_developer_v01.glb",
-      "sha256": "e8f50ca5d1b47afb7a6dd238ba83d266f4c0d3532254d5df7b226417d49b9d34",
-      "sourceHash": "f577c704c3cea99e6a98cfe1c78a70acc610884afaec82f2d2a4cac7726b2d27",
-      "passed": true,
-      "triangles": 2218,
-      "errors": [],
-      "checkedAt": "2026-09-17T22:57:50.160Z"
-    },
-    {
-      "id": "copilot_tester",
-      "version": "v01",
-      "source": "blender/towers/copilot_tester/v01/copilot_tester_v01.blend",
-      "runtime": "assets/runtime/towers/copilot_tester_v01.glb",
-      "sha256": "a73b4fa9361070a4db260e513154a0a2fb696df5b00c5d3e46d90f63b8f7e01e",
-      "sourceHash": "3a39f6477e10f0d9550ca676eda8c2a986acc8d2a232a45eec66b64a9ffa3ebc",
-      "passed": true,
-      "triangles": 2494,
-      "errors": [],
-      "checkedAt": "2026-09-17T22:57:57.413Z"
-    },
-    {
       "id": "copilot_analyst",
       "version": "v01",
       "source": "blender/towers/copilot_analyst/v01/copilot_analyst_v01.blend",
@@ -1106,7 +1082,7 @@
       "passed": true,
       "triangles": 2146,
       "errors": [],
-      "checkedAt": "2026-09-17T22:58:20.600Z"
+      "checkedAt": "2026-09-17T22:58:20.6Z"
     },
     {
       "id": "linter_agent",
@@ -1124,13 +1100,11 @@
   "lastIncrementalCheck": {
     "checkedAt": "2026-09-17T23:00:09.565Z",
     "ids": [
-      "copilot_developer",
-      "copilot_tester",
       "copilot_analyst",
       "copilot_security",
       "copilot_architect",
       "linter_agent"
     ],
-    "note": "Updated only the six Persona deliveries from hash-verified current reports; previous asset results and full-check timestamp retained."
+    "note": "Previous Persona delivery results retained for registered assets; full-check timestamp is historical."
   }
 }

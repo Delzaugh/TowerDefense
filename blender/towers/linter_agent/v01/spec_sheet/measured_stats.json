@@ -1,0 +1,28 @@
+{
+  "runtime": "assets/runtime/towers/linter_agent_v01.glb",
+  "sha256": "98a0a29402af2c08afbb0bb8204f9adf24bd8120b4b380a1458612a1675a5fca",
+  "revision": 9,
+  "triangles": 2940,
+  "exported_vertex_records": 2552,
+  "vertex_definition": "Unique POSITION accessor records in the exported GLB; split render vertices, not welded Blender vertices.",
+  "meshes": 1,
+  "mesh_primitives": 2,
+  "materials": 2,
+  "texture_bindings": 3,
+  "embedded_images": [
+    {
+      "path": "palette_image_0.png",
+      "width": 32,
+      "height": 4
+    }
+  ],
+  "uv0_on_every_primitive": true,
+  "uv0_u_centres": [
+    0.0625,
+    0.4375,
+    0.5625,
+    0.6875,
+    0.8125
+  ],
+  "target_triangle_ceiling": 4000
+}

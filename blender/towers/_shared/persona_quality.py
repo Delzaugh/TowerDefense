@@ -299,20 +299,28 @@ def build(manifest_path,output,source_name):
             for i in range(8):f.append((j*8+i,j*8+(i+1)%8,(j+1)*8+(i+1)%8,(j+1)*8+i));rr.append('shell' if j>=3 else 'graphite')
         f.extend([tuple(range(7,-1,-1)),tuple(56+i for i in range(8))]);rr.extend(['graphite','graphite']);a.add('sculpted_octagonal_chassis',v,f,rr)
         a.disc('bottom_service_plate',(0,0,.038),.62,.05,'graphite','top',8)
-        # Chunky front brow is a single sloping visor carrying recessed narrow optics.
-        a.panel('visor_backing',(0,-.963,.73),1.62,.36,'graphite',.12,.15)
+        # One seated brow replaces the protruding optical housings.  Its two
+        # tapered cyan inlays follow the shallow wraparound band in the concept.
+        a.panel('continuous_visor',(0,-1.06,.765),1.68,.345,'graphite',.095,.16)
         for s in (-1,1):
-            a.optic('slim_rule_scanner',(s*.42,-1.045,.77),.65,.27,'graphite',pitch=-.13,yaw=s*.18,stroke=.050,slant=.36)
-            a.eye((s*.14,-.965,.39),.20,.085)
-        a.panel('face_display',(0,-.92,.36),.62,.42,'screen',.15,.062)
+            lens=[(.12,.055),(.66,.105),(.69,.005),(.60,-.075),(.19,-.12)]
+            a.poly('recessed_rule_lens',[(s*x,z) for x,z in lens],(0,-1.149,.765),.009,'lens')
+        a.panel('face_display',(0,-.94,.36),.57,.34,'screen',.12,.055)
+        for s in (-1,1):
+            a.eye((s*.13,-.995,.35),.18,.075)
         for i in range(8):
-            t=2*PI*i/8+PI/8;axis='front';center=Vector((1.10*math.cos(t),1.10*math.sin(t),.49))
+            t=2*PI*i/8+PI/8
+            # The front pair sits lower and slightly farther out, leaving an
+            # uninterrupted gap for the face and both cyan indicators.
+            front_pair=i in (5,6)
+            radius=1.20 if front_pair else 1.10
+            center=Vector((radius*math.cos(t),radius*math.sin(t),.315 if front_pair else .49))
             xf=matrix(center,yaw=t+PI/2)
-            a.loft('lime_rule_socket_'+str(i),[(rounded(.48,.45,.09),.13),(rounded(.48,.45,.09),-.10),(rounded(.43,.40,.075),-.15)],'shell',xf)
-            a.loft('socket_inner_recess_'+str(i),[(rounded(.35,.32,.055),-.145),(rounded(.35,.32,.055),-.166),(rounded(.285,.255,.035),-.183)],'graphite',xf)
-            # Recessed dog-bone port silhouette, no olive square labels.
-            pts=[(-.09,-.063),(-.055,-.063),(-.035,-.04),(.035,-.04),(.055,-.063),(.09,-.063),(.09,.063),(.055,.063),(.035,.04),(-.035,.04),(-.055,.063),(-.09,.063)]
-            vv=[xf@Vector((x,-.187,z)) for x,z in pts];a.add('dogbone_rule_port_'+str(i),vv,[tuple(range(len(vv)))],'screen')
+            width,height=(.40,.38) if front_pair else (.48,.45)
+            a.loft('lime_rule_socket_'+str(i),[(rounded(width,height,.075),.13),(rounded(width,height,.075),-.10),(rounded(width-.045,height-.045,.065),-.15)],'shell',xf)
+            a.loft('socket_inner_recess_'+str(i),[(rounded(width-.12,height-.12,.05),-.145),(rounded(width-.12,height-.12,.05),-.166),(rounded(width-.18,height-.18,.035),-.183)],'graphite',xf)
+            # The port stays a simple dark recess at game scale.
+            a.loft('rule_port_'+str(i),[(rounded(width-.22,height-.22,.025),-.184),(rounded(width-.22,height-.22,.025),-.192)],'screen',xf)
             a.box('lid_dark_latch_'+str(i),(.87*math.cos(t),.87*math.sin(t),.988),(.22,.09,.027),'graphite',.018,1,rot=(0,0,t+PI/2))
         # Top service hatch: three coherent engraved channels meeting the center.
         for i in range(3):

@@ -89,7 +89,7 @@ function panBy(delta){
 }
 function setZoom(value,pointer){
  const before=pointer?groundAt(pointer.x,pointer.y):null;
- camera.zoom=THREE.MathUtils.clamp(value,.7,5);camera.updateProjectionMatrix();
+ camera.zoom=THREE.MathUtils.clamp(value,.7,10);camera.updateProjectionMatrix();
  if(before){const after=groundAt(pointer.x,pointer.y);if(after)panBy(before.sub(after));}
  document.body.dataset.close=String(camera.zoom>1.4);document.querySelector('#zoom-reset').textContent=Math.round(camera.zoom*100)+'%';feedback?.clearHover();draw();
 }
@@ -157,7 +157,7 @@ try{
   beacon=createCompanionBeacon(scene,stage,companion.actor);
   loading.hidden=true;motionButton.disabled=false;
   resize();new ResizeObserver(resize).observe(stage);refreshMotion();
-  window.campusStudyState=()=>({loaded:true,theme:'twilight',lightLines:{traces:lightLines.traceCount,gridTiles:lightLines.gridTiles,...lightLines.state()},cameraLocked:false,cameraRotationLocked:true,cameraMode:'presets-pan-zoom',currentView,cameraViews:Object.keys(cameraViews),hover:feedback.state(),companionBeacon:beacon.state(),camera:camera.position.toArray(),target:target.toArray(),zoom:camera.zoom,zoomLimits:[.7,5],paused,guests:guests.state(),ambient:ambient.state(),companion:companion.state(),scaleAudit:audit,assemblyAudit,baseAudit,frustumHeight:camera.top-camera.bottom,assets:[...ids,...GUEST_IDS],instances:placements.length,asset:'campus_base_hex',version:'v01'});
+  window.campusStudyState=()=>({loaded:true,theme:'twilight',lightLines:{traces:lightLines.traceCount,gridTiles:lightLines.gridTiles,...lightLines.state()},cameraLocked:false,cameraRotationLocked:true,cameraMode:'presets-pan-zoom',currentView,cameraViews:Object.keys(cameraViews),hover:feedback.state(),companionBeacon:beacon.state(),camera:camera.position.toArray(),target:target.toArray(),zoom:camera.zoom,zoomLimits:[.7,10],paused,guests:guests.state(),ambient:ambient.state(),companion:companion.state(),scaleAudit:audit,assemblyAudit,baseAudit,frustumHeight:camera.top-camera.bottom,assets:[...ids,...GUEST_IDS],instances:placements.length,asset:'campus_base_hex',version:'v01'});
   window.campusPerformance={snapshot:metrics.snapshot,reset:metrics.reset};metrics.ready();
   // Deterministic evidence poses exist only in explicit local review sessions.
   // They run only in explicit review sessions.

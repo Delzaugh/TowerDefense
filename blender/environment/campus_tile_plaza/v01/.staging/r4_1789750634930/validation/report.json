@@ -1,0 +1,37 @@
+{
+  "asset": "campus_tile_plaza",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "e5cc8414b2b5789cf8db0b39a534d2aed53b4063fbb00904ff0ae6cdd4c67729",
+  "checkedAt": "2026-09-18T16:57:22.522Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 908,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    36,
+    1.2000000476837158,
+    31.17691421508789
+  ],
+  "bounds": [
+    [
+      -18,
+      0,
+      -15.588457107543945
+    ],
+    [
+      18,
+      1.2000000476837158,
+      15.588457107543945
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "18996469db0c6c07b6bf339362b84548654b1e1a21fc5fc7248b44ec69c79040",
+  "source": "blender/environment/campus_tile_plaza/v01/campus_tile_plaza_v01.blend",
+  "runtime": "assets/runtime/environment/campus_tile_plaza_v01.glb"
+}

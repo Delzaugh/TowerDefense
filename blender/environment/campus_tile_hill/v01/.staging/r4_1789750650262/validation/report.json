@@ -1,0 +1,37 @@
+{
+  "asset": "campus_tile_hill",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "21f5c2062a8908deb9cee824c59dadc95c7dd09a11a4f65c79130e19699664ad",
+  "checkedAt": "2026-09-18T16:57:38.597Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 908,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    36,
+    4.980040073394775,
+    31.17691421508789
+  ],
+  "bounds": [
+    [
+      -18,
+      0,
+      -15.588457107543945
+    ],
+    [
+      18,
+      4.980040073394775,
+      15.588457107543945
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "79d8d4c7229d67e0c784783b18a616e14c3a8097cbf7204eb3569943864de604",
+  "source": "blender/environment/campus_tile_hill/v01/campus_tile_hill_v01.blend",
+  "runtime": "assets/runtime/environment/campus_tile_hill_v01.glb"
+}

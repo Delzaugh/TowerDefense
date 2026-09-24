@@ -4,7 +4,7 @@ from pathlib import Path
 import json
 HERE=Path(__file__).resolve().parent
 ROOT=HERE.parents[2]
-IDS=['copilot_developer','copilot_tester','copilot_analyst','copilot_security','copilot_architect','linter_agent']
+IDS=['copilot_tester','copilot_analyst','copilot_security','copilot_architect','linter_agent']
 def font(size):return ImageFont.truetype('C:/Windows/Fonts/segoeuib.ttf',size)
 def isolated(im):
     im=im.convert('RGB');bg=Image.new('RGB',im.size,im.getpixel((0,0)))

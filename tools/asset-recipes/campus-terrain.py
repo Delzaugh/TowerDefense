@@ -13,7 +13,7 @@ def build(asset_id, folder):
     # Replace the entire horizontal top, leaving its side wall and shared frame.
     for p in original.polygons:
         role=round(attr.data[p.loop_start].value)
-        if role==roles['ground'] and p.normal.z>.99:continue
+        if role==roles['ground'] and p.normal.z>.99 and max(math.hypot(verts[vi][0],verts[vi][1]) for vi in p.vertices)<17.9:continue
         faces.append(tuple(p.vertices));face_roles.append(role)
     profile=asset_id.removeprefix('campus_tile_')
     def height(x,z):

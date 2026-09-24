@@ -1,13 +1,11 @@
 # Persona tower models
 
-Six selected concepts modeled as static, textured assets. Base Copilot is unchanged. All models use the existing compact family scale, face +Z, have grounded rest geometry and include named anchors. Animation and gameplay integration are not part of this modeling delivery.
+Selected concepts modeled as static, textured assets. Base Copilot is unchanged. All models use the existing compact family scale, face +Z, have grounded rest geometry and include named anchors. Animation and gameplay integration are not part of this modeling delivery.
 
 ![Actual runtime previews](persona_towers_preview.png)
 
 | Model | Preview | Editable source | Runtime | Triangles |
 | --- | --- | --- | --- | ---: |
-| Developer | [Inspector](http://127.0.0.1:4174/?asset=copilot_developer&version=v01) | [Blender](C:/Users/jonas/Documents/ChatGPT/Tower/blender/towers/copilot_developer/v01/copilot_developer_v01.blend) | [GLB](C:/Users/jonas/Documents/ChatGPT/Tower/assets/runtime/towers/copilot_developer_v01.glb) | 2218 |
-| Tester | [Inspector](http://127.0.0.1:4174/?asset=copilot_tester&version=v01) | [Blender](C:/Users/jonas/Documents/ChatGPT/Tower/blender/towers/copilot_tester/v01/copilot_tester_v01.blend) | [GLB](C:/Users/jonas/Documents/ChatGPT/Tower/assets/runtime/towers/copilot_tester_v01.glb) | 2494 |
 | Analyst | [Inspector](http://127.0.0.1:4174/?asset=copilot_analyst&version=v01) | [Blender](C:/Users/jonas/Documents/ChatGPT/Tower/blender/towers/copilot_analyst/v01/copilot_analyst_v01.blend) | [GLB](C:/Users/jonas/Documents/ChatGPT/Tower/assets/runtime/towers/copilot_analyst_v01.glb) | 2488 |
 | Security | [Inspector](http://127.0.0.1:4174/?asset=copilot_security&version=v01) | [Blender](C:/Users/jonas/Documents/ChatGPT/Tower/blender/towers/copilot_security/v01/copilot_security_v01.blend) | [GLB](C:/Users/jonas/Documents/ChatGPT/Tower/assets/runtime/towers/copilot_security_v01.glb) | 2650 |
 | Architect | [Inspector](http://127.0.0.1:4174/?asset=copilot_architect&version=v01) | [Blender](C:/Users/jonas/Documents/ChatGPT/Tower/blender/towers/copilot_architect/v01/copilot_architect_v01.blend) | [GLB](C:/Users/jonas/Documents/ChatGPT/Tower/assets/runtime/towers/copilot_architect_v01.glb) | 2146 |

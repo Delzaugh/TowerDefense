@@ -58,7 +58,7 @@ const {chromium}=require('../../game/node_modules/playwright');
   await page.waitForFunction(()=>window.campusStudyState().zoom<1);
   const anchored=await page.evaluate(([x,y])=>window.campusStudyReview.groundPoint(x,y),pointer);anchor.forEach((v,i)=>assert(Math.abs(v-anchored[i])<1e-6));
   const locked=await state();assert.notDeepEqual(locked.target,dragged.target);assert(locked.zoom>=.7);await page.keyboard.press('Escape');
-  for(let i=0;i<12;i++)await page.locator('#zoom-in').click();assert.equal((await state()).zoom,5);
+  for(let i=0;i<16;i++)await page.locator('#zoom-in').click();assert.equal((await state()).zoom,10);
   await page.locator('#zoom-reset').click();assert.equal((await state()).zoom,1);assert.deepEqual((await state()).target,start.target);direction(await state()).forEach((v,i)=>assert(Math.abs(v-direction(start)[i])<1e-8));
   await page.locator('#performance-toggle').click();assert(await page.locator('#performance-panel').isVisible());
   const perf=await page.evaluate(()=>window.campusPerformance.snapshot());assert(perf.ready);assert(perf.drawCalls>0);assert(perf.triangles>0);assert.equal(perf.uniqueGLBs,start.assets.length+1);

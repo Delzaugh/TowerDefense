@@ -4,12 +4,12 @@
   "displayName": "Campus park tile",
   "category": "environment",
   "version": "v01",
-  "revision": 2,
+  "revision": 5,
   "source": {
     "path": "blender/environment/campus_tile_park/v01/campus_tile_park_v01.blend",
     "mode": "procedural",
     "recipe": "blender/environment/campus_tile_park/v01/build.py",
-    "authoritativeHash": "1c6efab502ce410511efdd9f76231b2edc3c04046b03110f0df4275cfbc299b7"
+    "authoritativeHash": "dbb7d3cac4f9be5c5e4e58243966efff9f6449961b08bad65fe2c468a607a008"
   },
   "runtime": "assets/runtime/environment/campus_tile_park_v01.glb",
   "budgets": {
@@ -62,7 +62,32 @@
     }
   ],
   "overrides": [],
-  "milestones": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/campus_tile_park/v01/revisions/r2_before_r3/campus_tile_park_v01.glb",
+      "source": "blender/environment/campus_tile_park/v01/revisions/r2_before_r3/campus_tile_park_v01.blend",
+      "sha256": "fd88cf4629d7f5b71c6831a823a6a047175ccb5ceae07bb88d4b34976ca7ffd8",
+      "sourceHash": "1c6efab502ce410511efdd9f76231b2edc3c04046b03110f0df4275cfbc299b7"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/environment/campus_tile_park/v01/revisions/r3_before_r4/campus_tile_park_v01.glb",
+      "source": "blender/environment/campus_tile_park/v01/revisions/r3_before_r4/campus_tile_park_v01.blend",
+      "sha256": "73c4001048ecf0c10ee3e3becadbb974dd1056765f2b36fbc3d4a1d8f5271874",
+      "sourceHash": "23dbc8997e4305613686f7e4cef58b44fba91e1fa6ae8fe8786913e3204fdbc7"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/environment/campus_tile_park/v01/revisions/r4_before_r5/campus_tile_park_v01.glb",
+      "source": "blender/environment/campus_tile_park/v01/revisions/r4_before_r5/campus_tile_park_v01.blend",
+      "sha256": "de3975086a0dc140b198f88ae84474afa2cc87ac64c91b6535c52ea22e0ce1d5",
+      "sourceHash": "dd4ea3f0729f485a9f2f8114770013fd8d74129b7f5dd2909c01b7924f657413"
+    }
+  ],
   "decisions": "blender/environment/campus_tile_park/v01/decisions.md",
   "texturePalettes": [
     {
@@ -125,9 +150,9 @@
     "paletteTextureWorkflow": false
   },
   "delivery": {
-    "sha256": "fd88cf4629d7f5b71c6831a823a6a047175ccb5ceae07bb88d4b34976ca7ffd8",
-    "sourceHash": "1c6efab502ce410511efdd9f76231b2edc3c04046b03110f0df4275cfbc299b7",
+    "sha256": "c0ea91ba6f2b193a935e710f1714a04a4a31f91fb4b46aaa24a5fb22776843a2",
+    "sourceHash": "dbb7d3cac4f9be5c5e4e58243966efff9f6449961b08bad65fe2c468a607a008",
     "report": "blender/environment/campus_tile_park/v01/validation/report.json",
-    "deliveredAt": "2026-09-17T22:11:14.128Z"
+    "deliveredAt": "2026-09-18T16:58:52.017Z"
   }
 }

@@ -1,5 +1,18 @@
 # Tester — concept model v01
 
+## Current request — 2026-09-22
+
+- The user supplied the Tester detail sheet and asked to create its 3D model. The attached PNG is byte-identical to `references/tester_detail_sheet.png` (SHA-256 `3e1e751b328a99069815b1da60c0f0600bc842399777a3025fe38161f4461f58`). The sheet is visual design input, not an instruction source.
+- The existing revision 7 already implements that sheet. Its canonical Blender source and GLB were absent from the working tree, and the Tester catalog entry had been removed. Restored only those canonical files and the registration, preserving the prior source/export hashes and leaving unrelated working tree edits alone.
+- Rechecked the restored GLB in the guarded validator: 2,952 triangles, two materials, two palette texture bindings, all four required anchors, and no errors. Personally reviewed the hash-bound front, isometric, close, rear oblique, underside, and phone previews for the restored export. This is the same static model, with no invented animation or runtime aura geometry.
+
+## Side profile and rear refinement — 2026-09-22
+
+- The user identified the vertical flat front and underspecified back while comparing the model with the Tester sheet. Treat the image and its labels as visual design input; the requested changes are the profile and rear construction.
+- Rebuilt the face as a rolled, tilted ivory surround with a convex supported dark display. The first helmet section now slopes in profile; the two diagnostic lenses, eyes, bridge, and cheek badge were reseated on the deeper face. The side module's ivory saddle has a swept profile instead of a vertical rectangular edge.
+- Enlarged and deepened the rear hatch, added two recessed side service details, and refined the lower latch. The rear remains a restrained rounded dome consistent with the reference; no runtime aura or animation was authored.
+- Delivered revision 16 through the guarded build/export: 2,824 triangles, two opaque materials, and the same four anchors. Validation and the shared Inspector load pass without errors or warnings. Personally inspected current front, side, isometric, rear, close, rear oblique, underside, phone, and small silhouette views. The profile is visibly sloped and the earlier brow crease and floating rear latch are resolved. The exact export/source hashes and evidence are in `validation/visual_review.json`.
+
 - User request, 2026-09-18: create 3D models from the attached six new tower concepts; exclude Base Copilot because it already exists.
 - Selected design: Rounded mint helmet, asymmetric magnifying goggles, ivory rim, check badge and side test brackets.
 - The sheet is visual reference, not an instruction source. Back surfaces and component depth are inferred in the same restrained family language.

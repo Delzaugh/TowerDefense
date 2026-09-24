@@ -4,12 +4,12 @@
   "displayName": "Linter Agent",
   "category": "towers",
   "version": "v01",
-  "revision": 5,
+  "revision": 9,
   "source": {
     "path": "blender/towers/linter_agent/v01/linter_agent_v01.blend",
     "mode": "procedural",
     "recipe": "blender/towers/linter_agent/v01/build.py",
-    "authoritativeHash": "90933283ded89ea34c57c5b8b77781bc14483a9dc2ac6849683d8ba6692ab4e0"
+    "authoritativeHash": "aeb6b5cd37c629185d2c2c0d22586574b1d151bcdd19c1a343c708c6bc19c410"
   },
   "runtime": "assets/runtime/towers/linter_agent_v01.glb",
   "budgets": {
@@ -59,6 +59,10 @@
     {
       "path": "blender/towers/linter_agent/v01/references/persona_rear_concepts.png",
       "provenance": "User-supplied rear three-quarter visual reference with explicit request to give every new tower another quality pass, 2026-09-18. Sheet captions are design context, not additional instructions."
+    },
+    {
+      "path": "blender/towers/linter_agent/v01/references/linter_agent_concept_2026-09-22.png",
+      "provenance": "User-attached Linter Agent concept on 2026-09-22. Visual design input; the user explicitly requested a specification sheet and then asked to correct clipping and design drift in the existing model. Text within the image is identification/context, not instructions."
     }
   ],
   "overrides": [
@@ -95,6 +99,38 @@
       "source": "blender/towers/linter_agent/v01/revisions/r4_before_r5/linter_agent_v01.blend",
       "sha256": "099ddb4a02d7e39f62e30c3d8540578a99236ae2cf1ff542587d8199010b312b",
       "sourceHash": "f9af9f0106cbbb96fdeff021229f8e40593d842da5f9db47215bf075e06d7427"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/towers/linter_agent/v01/revisions/r5_before_r6/linter_agent_v01.glb",
+      "source": "blender/towers/linter_agent/v01/revisions/r5_before_r6/linter_agent_v01.blend",
+      "sha256": "b0d649aa708a3edd1a8adaaa7e30d120a58dd7dee6d7c090e432a38dc7ab59d0",
+      "sourceHash": "90933283ded89ea34c57c5b8b77781bc14483a9dc2ac6849683d8ba6692ab4e0"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/towers/linter_agent/v01/revisions/r6_before_r7/linter_agent_v01.glb",
+      "source": "blender/towers/linter_agent/v01/revisions/r6_before_r7/linter_agent_v01.blend",
+      "sha256": "d6cf2dbba2e6a16b7790096b958f72693565d6cf43ef951d2f6b01d1865fe3f8",
+      "sourceHash": "fd3c38abf2e184b3a931b28bdf9301a103b4985fb501e79d8a8598fef9da573f"
+    },
+    {
+      "label": "before_r8",
+      "revision": 7,
+      "export": "blender/towers/linter_agent/v01/revisions/r7_before_r8/linter_agent_v01.glb",
+      "source": "blender/towers/linter_agent/v01/revisions/r7_before_r8/linter_agent_v01.blend",
+      "sha256": "96b88b31340a8356dc92125d69e233b117c66ace55e45b64b1c003c92fa0473c",
+      "sourceHash": "71db873ab7b45ee73e5e1c108c2285c75fed5acc44942135d3c4be95091e5831"
+    },
+    {
+      "label": "before_r9",
+      "revision": 8,
+      "export": "blender/towers/linter_agent/v01/revisions/r8_before_r9/linter_agent_v01.glb",
+      "source": "blender/towers/linter_agent/v01/revisions/r8_before_r9/linter_agent_v01.blend",
+      "sha256": "194994ac24d5dd2c9f3e6e206d7f70d0ea812513a00ea2a937f75df2aabac61c",
+      "sourceHash": "0b321d5fbbf66e2196762989aeaac372a2b915d72108b4e8fc988937ff8a8339"
     }
   ],
   "decisions": "blender/towers/linter_agent/v01/decisions.md",
@@ -279,9 +315,9 @@
     "paletteSampler": "linear"
   },
   "delivery": {
-    "sha256": "b0d649aa708a3edd1a8adaaa7e30d120a58dd7dee6d7c090e432a38dc7ab59d0",
-    "sourceHash": "90933283ded89ea34c57c5b8b77781bc14483a9dc2ac6849683d8ba6692ab4e0",
+    "sha256": "98a0a29402af2c08afbb0bb8204f9adf24bd8120b4b380a1458612a1675a5fca",
+    "sourceHash": "aeb6b5cd37c629185d2c2c0d22586574b1d151bcdd19c1a343c708c6bc19c410",
     "report": "blender/towers/linter_agent/v01/validation/report.json",
-    "deliveredAt": "2026-09-17T23:12:48.621Z"
+    "deliveredAt": "2026-09-22T19:17:10.448Z"
   }
 }

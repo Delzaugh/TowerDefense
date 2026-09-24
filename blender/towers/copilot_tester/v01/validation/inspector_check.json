@@ -1,9 +1,9 @@
 {
   "asset": "copilot_tester",
-  "revision": 7,
-  "sha256": "d67b958ffe7562f658a27b1f7bf20f80e46d90c19c66c7cc83ce8e308d4870a7",
-  "sourceHash": "4ca9c00142b104e34e5a75d9fdcf7a93a154eb848f0ff408f061bf71792c6431",
-  "checkedAt": "2026-09-17T23:35:22.853Z",
+  "revision": 16,
+  "sha256": "91c2609c5146719e1cb773f5cdacc70be8a6b8b9b56e1c3deb2bbefe202566f0",
+  "sourceHash": "75833e9b27dd710659ac883b81707ee8667e8a0647846b4e84d6da0d2376e3c0",
+  "checkedAt": "2026-09-22T19:11:53.665Z",
   "passed": true,
   "errors": [],
   "state": {
@@ -11,16 +11,16 @@
     "activePath": "towers/copilot_tester_v01.glb",
     "view": "iso",
     "projection": "OrthographicCamera",
-    "distance": 26.04024843343847,
+    "distance": 27.918103029712277,
     "target": [
       0,
       0.9850000143051147,
-      0.03674754500389099
+      0.19200003147125244
     ],
     "camera": [
-      13.51034996302039,
-      14.391010635538597,
-      17.80874410068904
+      14.484629176990834,
+      15.3577655698138,
+      19.2455982393972
     ],
     "effects": [
       {
@@ -34,20 +34,20 @@
     "entries": [
       {
         "path": "towers/copilot_tester_v01.glb",
-        "revision": "d67b958ffe7562f658a27b1f7bf20f80e46d90c19c66c7cc83ce8e308d4870a7",
-        "triangles": 2952,
+        "revision": "91c2609c5146719e1cb773f5cdacc70be8a6b8b9b56e1c3deb2bbefe202566f0",
+        "triangles": 2824,
         "meshes": 2,
         "materials": 2,
         "bounds": [
           [
             -1.190999984741211,
             0,
-            -0.9100000262260437
+            -0.9359999895095825
           ],
           [
             1.190999984741211,
             1.9700000286102295,
-            0.9834951162338257
+            1.3200000524520874
           ]
         ],
         "root": [

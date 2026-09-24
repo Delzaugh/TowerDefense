@@ -592,11 +592,6 @@
       "manifest": "blender/environment/campus_noticeboard/v01/asset.json"
     },
     {
-      "id": "copilot_developer",
-      "version": "v01",
-      "manifest": "blender/towers/copilot_developer/v01/asset.json"
-    },
-    {
       "id": "copilot_tester",
       "version": "v01",
       "manifest": "blender/towers/copilot_tester/v01/asset.json"

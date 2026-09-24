@@ -1,0 +1,15 @@
+{
+  "asset": "campus_base_hex",
+  "version": "v01",
+  "revision": 9,
+  "sha256": "1f3ed250d2055d3f30affe9ef892770ea3ac9b394f3786215c442f27e1d543e9",
+  "checkedAt": "2026-09-18T16:53:57.530Z",
+  "errors": [
+    "Cannot find module 'playwright'\nRequire stack:\n- C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\tools\\asset-pipeline\\validate.mjs"
+  ],
+  "warnings": [],
+  "passed": false,
+  "sourceHash": "18498335a1465783aeaceec74d2954d440b3f435f74e855086d1ee5418d38507",
+  "source": "blender/environment/campus_base_hex/v01/campus_base_hex_v01.blend",
+  "runtime": "assets/runtime/environment/campus_base_hex_v01.glb"
+}

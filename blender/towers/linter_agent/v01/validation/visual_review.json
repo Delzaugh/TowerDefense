@@ -1,32 +1,33 @@
 {
   "asset": "linter_agent",
   "version": "v01",
-  "revision": 4,
-  "sha256": "099ddb4a02d7e39f62e30c3d8540578a99236ae2cf1ff542587d8199010b312b",
-  "sourceHash": "f9af9f0106cbbb96fdeff021229f8e40593d842da5f9db47215bf075e06d7427",
-  "reviewedAt": "2026-09-17T23:00:09.565Z",
+  "revision": 9,
+  "sha256": "98a0a29402af2c08afbb0bb8204f9adf24bd8120b4b380a1458612a1675a5fca",
+  "sourceHash": "aeb6b5cd37c629185d2c2c0d22586574b1d151bcdd19c1a343c708c6bc19c410",
+  "reviewedAt": "2026-09-22T19:18:00Z",
   "reviewer": "primary production agent",
   "status": "visual construction review complete; user artistic acceptance pending",
   "views": [
-    "iso",
-    "front",
-    "side",
-    "rear",
-    "top",
-    "inspector_underside",
-    "inspector_phone",
-    "inspector_small"
+    "validation/iso.png",
+    "validation/front.png",
+    "validation/side.png",
+    "validation/rear.png",
+    "validation/top.png",
+    "Asset Inspector isometric and underside",
+    "Asset Inspector isometric at 390 px viewport",
+    "spec_sheet/renders/front_left.png",
+    "spec_sheet/renders/wireframe.png"
   ],
   "findings": [
-    "Distinct concept silhouette and characteristic role accessory retained.",
-    "Face screens are opaque and clear of shell intersections after adding interior support loops.",
-    "Goggle rims, ear details and structural frames inspected in front, side, reverse and underside views.",
-    "All eight Linter sockets are present; no aura, selection or gameplay-effect geometry is included.",
-    "Model identity remains legible at phone width and in the small-silhouette test; tiny symbols become secondary."
+    "The continuous visor is seated against the shell without the yellow intersection seen in revision 6 or the narrow profile seam seen in revisions 7 and 8.",
+    "The front emitter pair sits below and outside the face; both cyan indicators remain visible.",
+    "Eight perimeter emitter sockets remain present in top and underside views.",
+    "The intended squat octagonal silhouette and facial read remain visible at phone width.",
+    "The generated specification sheet uses actual source turnarounds, actual topology and verified GLB statistics."
   ],
   "limitations": [
-    "Static rest-pose model: no skeleton or animation clips.",
-    "Backside details and depths inferred from the single three-quarter concept reference.",
-    "Artistic acceptance and integration into gameplay remain separate."
+    "No animation clips are authored.",
+    "Rear construction remains an interpretation of the supplied front concept.",
+    "The sheet's campus scene is an illustrative scale study, not an actual gameplay capture."
   ]
 }

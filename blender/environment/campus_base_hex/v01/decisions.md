@@ -36,3 +36,7 @@ Geometry remains 108 triangles, one mesh, one material, one texture; radius 18 m
 
 Actual revision 8 GLB reviewed in shared Inspector from iso/top/rear and at desktop/phone campus scale. Fine grain adds surface variation without competing with buildings, paths or light traces. Guarded export, full browser verification and a temporary eight-tile extension fixture pass. The fixture proves join checks accept surface metadata independently of model name. Current scene remains seven mineral-composite tiles. Hash-bound evidence is validation/visual-review.json; artistic acceptance remains with the user.
 
+## Shared-edge seam removal — user request, 2026-09-18
+
+Removed the distinct top seam-inlay appearance from the shared campus tile construction by making the flush joining surface a continuous ground-colored surface. The shell, pale trim, surface elevation, footprint, anchors and packed texture workflow remain unchanged. The base and terrain-family variants are re-exported together so shared joins use the same construction.
+

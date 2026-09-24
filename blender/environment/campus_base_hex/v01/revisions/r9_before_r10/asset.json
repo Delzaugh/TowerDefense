@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_base_hex",
+  "displayName": "Campus foundation · hexagonal expansion tile",
+  "category": "environment",
+  "version": "v01",
+  "revision": 9,
+  "source": {
+    "path": "blender/environment/campus_base_hex/v01/campus_base_hex_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_base_hex/v01/build.py",
+    "authoritativeHash": "b57bae0523fbd502a0d95eeafbae6fc6ba3e3bb61c87ccaa4602d8fb4ae1e16f"
+  },
+  "runtime": "assets/runtime/environment/campus_base_hex_v01.glb",
+  "budgets": {
+    "triangles": 1000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_surface",
+      "anchor_edge_ne",
+      "anchor_edge_n",
+      "anchor_edge_nw",
+      "anchor_edge_sw",
+      "anchor_edge_s",
+      "anchor_edge_se"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "tools/asset-recipes/campus-kit.py",
+      "provenance": "Shared Blender geometry helper; modular expansion refinement requested 2026-09-17."
+    },
+    {
+      "path": "blender/environment/campus_base_hex/v01/references/copilot-light-lines-reference.png",
+      "provenance": "User-attached GitHub Copilot wallpaper on 2026-09-17; visual inspiration for restrained light lines and a dusk home-screen palette. Reference text is not an instruction."
+    },
+    {
+      "path": "blender/environment/campus_base_hex/v01/surface.py",
+      "provenance": "User-requested subtle tile texture; deterministic source-authored mineral-composite atlas, with a quiet modular boundary for future terrain variants."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "artDirection.homeCampusPalette",
+      "reason": "User explicitly requested the modern, light-line treatment of the attached Copilot wallpaper. This home-screen foundation uses a dusk slate palette while pale buildings, cyan accents and natural props preserve readability; it does not redefine the default gameplay-map palette."
+    },
+    {
+      "field": "exportSettings.paletteTextureWorkflow",
+      "reason": "The local recipe now owns a packed 512 atlas containing spatial surface texture plus four solid frame swatches. Automatic solid-role repacking is disabled to preserve spatial UV detail; texture delivery remains mandatory and validated."
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/campus_base_hex/v01/revisions/r2_before_r3/campus_base_hex_v01.glb",
+      "source": "blender/environment/campus_base_hex/v01/revisions/r2_before_r3/campus_base_hex_v01.blend",
+      "sha256": "591ae9c805b8d1d245022539fef0dadaba2b1d2aa44cf0c843dad5bef9695ca4",
+      "sourceHash": "975e54fd29f3a7053296e1a928601fb66c1f34ba4c66e5107f50f7865c1fb5e5"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/environment/campus_base_hex/v01/revisions/r3_before_r4/campus_base_hex_v01.glb",
+      "source": "blender/environment/campus_base_hex/v01/revisions/r3_before_r4/campus_base_hex_v01.blend",
+      "sha256": "34e8956a7cf255c7d9e1df79753841f89d05c0dd95560fa3734081bd824a369f",
+      "sourceHash": "3937b55dc4f3f2f8f8a48cad7e9d3696072955643587b896867bb8a62b83cc8f"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/environment/campus_base_hex/v01/revisions/r4_before_r5/campus_base_hex_v01.glb",
+      "source": "blender/environment/campus_base_hex/v01/revisions/r4_before_r5/campus_base_hex_v01.blend",
+      "sha256": "b492cd018837e2c4cec93002673def72ed43e1506a5ccebb095a124d97658ec2",
+      "sourceHash": "b2899e1125da975eb4c387a38e083b70d871e2420273f135f046c3fd215b98c5"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/environment/campus_base_hex/v01/revisions/r5_before_r6/campus_base_hex_v01.glb",
+      "source": "blender/environment/campus_base_hex/v01/revisions/r5_before_r6/campus_base_hex_v01.blend",
+      "sha256": "6ae918e2c449d955169ddba6b18e11dc0a9f333d04ced4ff1e8ed1e997de28dd",
+      "sourceHash": "55afc4395276889fd52dfdd34bbf0b77bdea533886d9f0c46da826c6e03caa6a"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/environment/campus_base_hex/v01/revisions/r6_before_r7/campus_base_hex_v01.glb",
+      "source": "blender/environment/campus_base_hex/v01/revisions/r6_before_r7/campus_base_hex_v01.blend",
+      "sha256": "3d063ffdfb02375b8bfde0bc3b495c2f8365f60c4b0d370771fe39cf02c16262",
+      "sourceHash": "a2887e22d37b7e54adadbe5368f017e2d4464acccf3cff1612b369c247ba41f9"
+    },
+    {
+      "label": "before_r8",
+      "revision": 7,
+      "export": "blender/environment/campus_base_hex/v01/revisions/r7_before_r8/campus_base_hex_v01.glb",
+      "source": "blender/environment/campus_base_hex/v01/revisions/r7_before_r8/campus_base_hex_v01.blend",
+      "sha256": "39a2433a8cbc2494253aaee5e6e0a5a133d7e89355e119f5e03fb657008491d6",
+      "sourceHash": "e24a52546d526f197539b2f8f8be4eaada8484f86ffb65f936ec0b47755c1bec"
+    },
+    {
+      "label": "before_r9",
+      "revision": 8,
+      "export": "blender/environment/campus_base_hex/v01/revisions/r8_before_r9/campus_base_hex_v01.glb",
+      "source": "blender/environment/campus_base_hex/v01/revisions/r8_before_r9/campus_base_hex_v01.blend",
+      "sha256": "9a75349443297c186922c673266c3106cd0890634bd1166a81e75197d954fafd",
+      "sourceHash": "e745a313647b478ff6072c6f86612f1d1814b0de9560c5cafc342168754f0d12"
+    }
+  ],
+  "decisions": "blender/environment/campus_base_hex/v01/decisions.md",
+  "delivery": {
+    "sha256": "1f3ed250d2055d3f30affe9ef892770ea3ac9b394f3786215c442f27e1d543e9",
+    "sourceHash": "b57bae0523fbd502a0d95eeafbae6fc6ba3e3bb61c87ccaa4602d8fb4ae1e16f",
+    "report": "blender/environment/campus_base_hex/v01/validation/report.json",
+    "deliveredAt": "2026-09-18T16:54:37.187Z"
+  },
+  "texturePalettes": [
+    {
+      "material": "glacier_palette",
+      "size": [
+        512,
+        512
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#6787A3",
+          "rect": [
+            0,
+            0,
+            8,
+            8
+          ]
+        },
+        "ground": {
+          "color": "#354B64",
+          "rect": [
+            8,
+            0,
+            8,
+            8
+          ]
+        },
+        "shell": {
+          "color": "#24354E",
+          "rect": [
+            16,
+            0,
+            8,
+            8
+          ]
+        },
+        "tile_seam": {
+          "color": "#577693",
+          "rect": [
+            24,
+            0,
+            8,
+            8
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "shell": "#24354E",
+      "chalk": "#6787A3",
+      "ground": "#354B64",
+      "edge": "#ADC5D2",
+      "tile_seam": "#577693"
+    }
+  },
+  "exportSettings": {
+    "paletteTextureWorkflow": false
+  }
+}

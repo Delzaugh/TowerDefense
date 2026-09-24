@@ -3,18 +3,6 @@
   "passed": true,
   "assets": [
     {
-      "id": "copilot_developer",
-      "version": "v01",
-      "source": "blender/towers/copilot_developer/v01/copilot_developer_v01.blend",
-      "runtime": "assets/runtime/towers/copilot_developer_v01.glb",
-      "sha256": "e8f50ca5d1b47afb7a6dd238ba83d266f4c0d3532254d5df7b226417d49b9d34",
-      "sourceHash": "f577c704c3cea99e6a98cfe1c78a70acc610884afaec82f2d2a4cac7726b2d27",
-      "passed": true,
-      "triangles": 2218,
-      "errors": [],
-      "checkedAt": "2026-09-17T22:57:50.160Z"
-    },
-    {
       "id": "copilot_tester",
       "version": "v01",
       "source": "blender/towers/copilot_tester/v01/copilot_tester_v01.blend",

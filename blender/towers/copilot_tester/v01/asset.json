@@ -4,12 +4,12 @@
   "displayName": "Tester",
   "category": "towers",
   "version": "v01",
-  "revision": 7,
+  "revision": 16,
   "source": {
     "path": "blender/towers/copilot_tester/v01/copilot_tester_v01.blend",
     "mode": "procedural",
     "recipe": "blender/towers/copilot_tester/v01/build.py",
-    "authoritativeHash": "4ca9c00142b104e34e5a75d9fdcf7a93a154eb848f0ff408f061bf71792c6431"
+    "authoritativeHash": "75833e9b27dd710659ac883b81707ee8667e8a0647846b4e84d6da0d2376e3c0"
   },
   "runtime": "assets/runtime/towers/copilot_tester_v01.glb",
   "budgets": {
@@ -120,6 +120,78 @@
       "source": "blender/towers/copilot_tester/v01/revisions/r6_before_r7/copilot_tester_v01.blend",
       "sha256": "5d0bfed0149ca5aaa9813946f44ae8ba496077a1d4072120ad270805f3af5830",
       "sourceHash": "ca1d72cdc0919a4db62176ed915c3ca68a6c4c99e7a34b57ba2392456780f6a2"
+    },
+    {
+      "label": "before_r8",
+      "revision": 7,
+      "export": "blender/towers/copilot_tester/v01/revisions/r7_before_r8/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r7_before_r8/copilot_tester_v01.blend",
+      "sha256": "d67b958ffe7562f658a27b1f7bf20f80e46d90c19c66c7cc83ce8e308d4870a7",
+      "sourceHash": "4ca9c00142b104e34e5a75d9fdcf7a93a154eb848f0ff408f061bf71792c6431"
+    },
+    {
+      "label": "before_r9",
+      "revision": 8,
+      "export": "blender/towers/copilot_tester/v01/revisions/r8_before_r9/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r8_before_r9/copilot_tester_v01.blend",
+      "sha256": "6d5f39284919c4f55e228dbbaa15ebbe5b31d3d2587e868a0ee3eb4af9109c5d",
+      "sourceHash": "a6432ea30951c192484b29fd77025092a4c22ee7fbd576e7b3572241e1a203c3"
+    },
+    {
+      "label": "before_r10",
+      "revision": 9,
+      "export": "blender/towers/copilot_tester/v01/revisions/r9_before_r10/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r9_before_r10/copilot_tester_v01.blend",
+      "sha256": "23c919bd9bb9776ae54a453597bd46f576a8d64a2ce75712f529eedeffe8a45e",
+      "sourceHash": "2685f1433b0a7ef257813dcd900466549a1fc32c8ab8d3f5471d7a9198b037f0"
+    },
+    {
+      "label": "before_r11",
+      "revision": 10,
+      "export": "blender/towers/copilot_tester/v01/revisions/r10_before_r11/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r10_before_r11/copilot_tester_v01.blend",
+      "sha256": "1fd7b4fd8d6f20148d7d4fd8320f11506ec26d91bf8cc9f171fbd63de1e40b18",
+      "sourceHash": "a24eea46c38c446484429f610897a7d1dfd38b8761964f873d18e392be7ad249"
+    },
+    {
+      "label": "before_r12",
+      "revision": 11,
+      "export": "blender/towers/copilot_tester/v01/revisions/r11_before_r12/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r11_before_r12/copilot_tester_v01.blend",
+      "sha256": "2bfde6d7a24304da575c403db180873677fec2ef632b42f5a1ccd2aa0b7a8cfa",
+      "sourceHash": "a35a328ae1d3feaa39c92db0e81606f3c290ba69468323c52977e3c8becd7b8e"
+    },
+    {
+      "label": "before_r13",
+      "revision": 12,
+      "export": "blender/towers/copilot_tester/v01/revisions/r12_before_r13/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r12_before_r13/copilot_tester_v01.blend",
+      "sha256": "2bd9b061870164738fc497e7b6b8c1836437c37dd7b838dc59caceb13db20156",
+      "sourceHash": "8a8b1189db3c5fe45f79598c137065fedfd800de30c9ba5e1f7c190981b0fe5c"
+    },
+    {
+      "label": "before_r14",
+      "revision": 13,
+      "export": "blender/towers/copilot_tester/v01/revisions/r13_before_r14/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r13_before_r14/copilot_tester_v01.blend",
+      "sha256": "6c5b41f015f57f7060e7c49e52c6efae5d7b11ce73a690dc71fd33aa4a92475e",
+      "sourceHash": "8866e52057002296a706bd2bf128ca78b0777ca4a2ea82197f1373c23c858955"
+    },
+    {
+      "label": "before_r15",
+      "revision": 14,
+      "export": "blender/towers/copilot_tester/v01/revisions/r14_before_r15/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r14_before_r15/copilot_tester_v01.blend",
+      "sha256": "8194e3518fd593cc2e31e27c714606b8ee1bb4f0c6d73cb37051eaf5cc266a0e",
+      "sourceHash": "588b8e9f8e376f12f6b60e41d3d8790fbcbe36f81296b0dad75583ecda132869"
+    },
+    {
+      "label": "before_r16",
+      "revision": 15,
+      "export": "blender/towers/copilot_tester/v01/revisions/r15_before_r16/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r15_before_r16/copilot_tester_v01.blend",
+      "sha256": "2d88e0c699bca2b215a7cf2f5e1915f90c01030d0f1b28c246edcd72d644736e",
+      "sourceHash": "185563894b86782cc609ac00ab71bb7f83e4e55990f02b6aca943fe430d03885"
     }
   ],
   "decisions": "blender/towers/copilot_tester/v01/decisions.md",
@@ -304,9 +376,9 @@
     "paletteSampler": "linear"
   },
   "delivery": {
-    "sha256": "d67b958ffe7562f658a27b1f7bf20f80e46d90c19c66c7cc83ce8e308d4870a7",
-    "sourceHash": "4ca9c00142b104e34e5a75d9fdcf7a93a154eb848f0ff408f061bf71792c6431",
+    "sha256": "91c2609c5146719e1cb773f5cdacc70be8a6b8b9b56e1c3deb2bbefe202566f0",
+    "sourceHash": "75833e9b27dd710659ac883b81707ee8667e8a0647846b4e84d6da0d2376e3c0",
     "report": "blender/towers/copilot_tester/v01/validation/report.json",
-    "deliveredAt": "2026-09-17T23:34:31.700Z"
+    "deliveredAt": "2026-09-22T19:11:44.228Z"
   }
 }

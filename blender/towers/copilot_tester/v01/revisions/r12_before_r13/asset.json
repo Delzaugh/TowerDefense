@@ -1,0 +1,352 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_tester",
+  "displayName": "Tester",
+  "category": "towers",
+  "version": "v01",
+  "revision": 12,
+  "source": {
+    "path": "blender/towers/copilot_tester/v01/copilot_tester_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_tester/v01/build.py",
+    "authoritativeHash": "8a8b1189db3c5fe45f79598c137065fedfd800de30c9ba5e1f7c190981b0fe5c"
+  },
+  "runtime": "assets/runtime/towers/copilot_tester_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 32,
+    "bones": 0,
+    "meshes": 2
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target",
+      "anchor_aura"
+    ],
+    "dimensions": {
+      "min": [
+        1.7,
+        1.7,
+        1.4
+      ],
+      "max": [
+        2.8,
+        2.4,
+        2.8
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/copilot_tester/v01/references/persona_concepts.png",
+      "provenance": "User attached selected tower concept sheet on 2026-09-18. Visual design input only; the explicit request is to model the six new towers, excluding existing Base Copilot."
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/copilot_base_v02.blend",
+      "provenance": "Existing family scale and visual-language reference. Source and runtime are preserved."
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/references/persona_rear_concepts.png",
+      "provenance": "User-supplied rear three-quarter visual reference with explicit request to give every new tower another quality pass, 2026-09-18. Sheet captions are design context, not additional instructions."
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/references/tester_detail_sheet.png",
+      "provenance": "User-supplied Tester detail sheet, 2026-09-18, accompanying explicit model refinement request. Visual design input; illustrative topology and captions are not additional user instructions."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "contract.dimensions",
+      "reason": "Use the existing 1.8 m Base Copilot family scale. Architect and Developer have taller silhouette details; Linter is intentionally squat."
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/copilot_tester/v01/revisions/r2_before_r3/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r2_before_r3/copilot_tester_v01.blend",
+      "sha256": "08fb5e5de31c24033566a9288306d3601930f155c87cdaa4b4b10502a953a170",
+      "sourceHash": "2b4bbb2efa3dfcf7dec82b753209ee5dc82c6658d81a8f6bf61997aaaf813c5d"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/copilot_tester/v01/revisions/r3_before_r4/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r3_before_r4/copilot_tester_v01.blend",
+      "sha256": "896ffcfd46d3eaae051d128d6bbd7340e05c9cf25b37d4f8df747bf240635e29",
+      "sourceHash": "525624145fc150de0e39d35c3014bc25b8b28586f2a26fed475ba34bb1337263"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/towers/copilot_tester/v01/revisions/r4_before_r5/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r4_before_r5/copilot_tester_v01.blend",
+      "sha256": "a73b4fa9361070a4db260e513154a0a2fb696df5b00c5d3e46d90f63b8f7e01e",
+      "sourceHash": "3a39f6477e10f0d9550ca676eda8c2a986acc8d2a232a45eec66b64a9ffa3ebc"
+    },
+    {
+      "label": "before_detail_sheet",
+      "revision": 5,
+      "export": "blender/towers/copilot_tester/v01/revisions/r5_before_detail_sheet/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r5_before_detail_sheet/copilot_tester_v01.blend",
+      "sha256": "ae913ad6400692e5adbe78ed8181f80616103043501603f89271693365ef9106",
+      "sourceHash": "2eb12e1f721f49580cad2f26a0a0fdbfc146a67223dc2703691a3e17393f801e"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/towers/copilot_tester/v01/revisions/r5_before_r6/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r5_before_r6/copilot_tester_v01.blend",
+      "sha256": "ae913ad6400692e5adbe78ed8181f80616103043501603f89271693365ef9106",
+      "sourceHash": "2eb12e1f721f49580cad2f26a0a0fdbfc146a67223dc2703691a3e17393f801e"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/towers/copilot_tester/v01/revisions/r6_before_r7/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r6_before_r7/copilot_tester_v01.blend",
+      "sha256": "5d0bfed0149ca5aaa9813946f44ae8ba496077a1d4072120ad270805f3af5830",
+      "sourceHash": "ca1d72cdc0919a4db62176ed915c3ca68a6c4c99e7a34b57ba2392456780f6a2"
+    },
+    {
+      "label": "before_r8",
+      "revision": 7,
+      "export": "blender/towers/copilot_tester/v01/revisions/r7_before_r8/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r7_before_r8/copilot_tester_v01.blend",
+      "sha256": "d67b958ffe7562f658a27b1f7bf20f80e46d90c19c66c7cc83ce8e308d4870a7",
+      "sourceHash": "4ca9c00142b104e34e5a75d9fdcf7a93a154eb848f0ff408f061bf71792c6431"
+    },
+    {
+      "label": "before_r9",
+      "revision": 8,
+      "export": "blender/towers/copilot_tester/v01/revisions/r8_before_r9/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r8_before_r9/copilot_tester_v01.blend",
+      "sha256": "6d5f39284919c4f55e228dbbaa15ebbe5b31d3d2587e868a0ee3eb4af9109c5d",
+      "sourceHash": "a6432ea30951c192484b29fd77025092a4c22ee7fbd576e7b3572241e1a203c3"
+    },
+    {
+      "label": "before_r10",
+      "revision": 9,
+      "export": "blender/towers/copilot_tester/v01/revisions/r9_before_r10/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r9_before_r10/copilot_tester_v01.blend",
+      "sha256": "23c919bd9bb9776ae54a453597bd46f576a8d64a2ce75712f529eedeffe8a45e",
+      "sourceHash": "2685f1433b0a7ef257813dcd900466549a1fc32c8ab8d3f5471d7a9198b037f0"
+    },
+    {
+      "label": "before_r11",
+      "revision": 10,
+      "export": "blender/towers/copilot_tester/v01/revisions/r10_before_r11/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r10_before_r11/copilot_tester_v01.blend",
+      "sha256": "1fd7b4fd8d6f20148d7d4fd8320f11506ec26d91bf8cc9f171fbd63de1e40b18",
+      "sourceHash": "a24eea46c38c446484429f610897a7d1dfd38b8761964f873d18e392be7ad249"
+    },
+    {
+      "label": "before_r12",
+      "revision": 11,
+      "export": "blender/towers/copilot_tester/v01/revisions/r11_before_r12/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r11_before_r12/copilot_tester_v01.blend",
+      "sha256": "2bfde6d7a24304da575c403db180873677fec2ef632b42f5a1ccd2aa0b7a8cfa",
+      "sourceHash": "a35a328ae1d3feaa39c92db0e81606f3c290ba69468323c52977e3c8becd7b8e"
+    }
+  ],
+  "decisions": "blender/towers/copilot_tester/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "tester_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#4BCDC2",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#249D9E",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#F8EEDC",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#344A51",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#031E2C",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#034A5A",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E8F0",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#F9CE70",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "material": "tester_optics",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#4BCDC2",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#249D9E",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#F8EEDC",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#344A51",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#031E2C",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#034A5A",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E8F0",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#F9CE70",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "shell": "#4BCDC2",
+      "shell_dark": "#249D9E",
+      "trim": "#F8EEDC",
+      "graphite": "#344A51",
+      "screen": "#031E2C",
+      "lens": "#034A5A",
+      "cyan": "#00E8F0",
+      "detail": "#F9CE70"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "2bd9b061870164738fc497e7b6b8c1836437c37dd7b838dc59caceb13db20156",
+    "sourceHash": "8a8b1189db3c5fe45f79598c137065fedfd800de30c9ba5e1f7c190981b0fe5c",
+    "report": "blender/towers/copilot_tester/v01/validation/report.json",
+    "deliveredAt": "2026-09-22T19:07:37.211Z"
+  }
+}

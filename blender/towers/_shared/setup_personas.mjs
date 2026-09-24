@@ -1,6 +1,5 @@
 import {readFile,writeFile,copyFile} from 'node:fs/promises';
 const specs=[
- ['copilot_developer','Developer',['#FF682C','#D84418','#FFF1D9','#303E4B','#031D2B','#087C92','#04E7F3','#FFB052'],'Lean orange helmet; three swept crests, angular dark goggles, ivory code braces on both ear housings.'],
  ['copilot_tester','Tester',['#60CDC5','#249D9E','#FFF3DA','#344A51','#031E2C','#075D70','#00E8F0','#F9CE70'],'Rounded mint helmet, asymmetric magnifying goggles, ivory rim, check badge and side test brackets.'],
  ['copilot_analyst','Analyst',['#F5EBD4','#248B90','#D7C9AE','#46555E','#031D2B','#085C69','#00E4EF','#FF713E'],'Squarish ivory shell, teal round spectacles, inset top panel, side requirements paper and orange edit pencil.'],
  ['copilot_security','Security',['#257CEF','#244987','#F0F3E8','#263D53','#041E32','#25A9ED','#00E6FF','#A4E6FF'],'Broad cobalt armor, continuous white brow, white ear surrounds, chin shield and offset threat sensor.'],

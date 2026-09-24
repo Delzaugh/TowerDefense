@@ -9,3 +9,7 @@ Muted grass interior and narrow gravel collar; level surface for freely placed g
 ## Delivered visual review
 
 Revision 2; source SHA-256 1c6efab502ce410511efdd9f76231b2edc3c04046b03110f0df4275cfbc299b7; GLB SHA-256 fd88cf4629d7f5b71c6831a823a6a047175ccb5ceae07bb88d4b34976ca7ffd8. Guarded validation passes with 920 triangles, one mesh/material and one packed 512 texture. Personally reviewed the actual export in shared Inspector iso/rear views and desktop/phone campus composition. Level joins, terrain silhouettes and furniture/path clearances pass. The 97-instance composition places 20 decorative props without overlapping footprints. No edge streaks remain. See validation/visual-review.json and prototypes/campus-3d/previews/placement-audit.json. Artistic acceptance remains with the user.
+
+## Shared-edge seam removal — user request, 2026-09-18
+
+The shared terrain construction no longer uses a distinct top seam-inlay appearance; its flush joining surface now continues the ground material while the structural shell, trim, elevation and anchors remain unchanged.

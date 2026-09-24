@@ -49,7 +49,7 @@ try{
  const menu=document.querySelector('#settings-panel');
  document.querySelector('#settings-toggle').addEventListener('click',()=>menu.showModal());
  document.querySelector('#settings-close').addEventListener('click',()=>menu.close());
- function updateSettingsUI(){document.querySelector('#toggle-bert').checked=settings.bert;document.querySelector('#toggle-octocat').checked=settings.octocat;document.querySelector('#max-enemies').value=settings.maxEnemies;document.querySelector('#enemy-limit').textContent=`/TowerDefense/ ${settings.maxEnemies}`;document.querySelector('#cap-caption').textContent=`MAX ${settings.maxEnemies} ENEMIES · OVERFLOW QUEUES AT ENTRY`;document.querySelector('#bert-note').textContent=settings.bert?'Includes 2 Berts':'Copilot + Developer mix';document.querySelector('#octocat-note').textContent=settings.octocat?'2 Octocats await at the destination.':'Octocat is disabled.';}
+ function updateSettingsUI(){document.querySelector('#toggle-bert').checked=settings.bert;document.querySelector('#toggle-octocat').checked=settings.octocat;document.querySelector('#max-enemies').value=settings.maxEnemies;document.querySelector('#enemy-limit').textContent=`/ ${settings.maxEnemies}`;document.querySelector('#cap-caption').textContent=`MAX ${settings.maxEnemies} ENEMIES · OVERFLOW QUEUES AT ENTRY`;document.querySelector('#bert-note').textContent=settings.bert?'Includes 2 Berts':'Copilot + Developer mix';document.querySelector('#octocat-note').textContent=settings.octocat?'2 Octocats await at the destination.':'Octocat is disabled.';}
  function saveSettings(next){if(capture.state().running)return;settings=next;actors.setSettings(settings);try{localStorage.setItem('garden-simulation-settings',JSON.stringify(settings));}catch{}updateSettingsUI();draw();}
  for(const id of ['bert','octocat'])document.querySelector('#toggle-'+id).addEventListener('change',e=>saveSettings({...settings,[id]:e.target.checked}));
  document.querySelector('#max-enemies').addEventListener('change',e=>{if(!e.target.checkValidity()){e.target.reportValidity();e.target.value=settings.maxEnemies;return;}saveSettings({...settings,maxEnemies:enemyCap(e.target.value)});});
@@ -61,3 +61,4 @@ try{
  setView('home');new ResizeObserver(resize).observe(stage);document.querySelector('#loading').hidden=true;metrics.ready();
  window.simulationStudy={state,run:capture.run,cancel:capture.cancel,capture:capture.state,performance:metrics.snapshot,placement};
 }catch(error){console.error(error);document.querySelector('#loading').textContent=`Unable to open the map: ${error.message}`;}
+

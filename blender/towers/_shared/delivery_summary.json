@@ -3,30 +3,6 @@
   "passed": true,
   "assets": [
     {
-      "id": "copilot_tester",
-      "version": "v01",
-      "source": "blender/towers/copilot_tester/v01/copilot_tester_v01.blend",
-      "runtime": "assets/runtime/towers/copilot_tester_v01.glb",
-      "sha256": "a73b4fa9361070a4db260e513154a0a2fb696df5b00c5d3e46d90f63b8f7e01e",
-      "sourceHash": "3a39f6477e10f0d9550ca676eda8c2a986acc8d2a232a45eec66b64a9ffa3ebc",
-      "passed": true,
-      "triangles": 2494,
-      "errors": [],
-      "checkedAt": "2026-09-17T22:57:57.413Z"
-    },
-    {
-      "id": "copilot_analyst",
-      "version": "v01",
-      "source": "blender/towers/copilot_analyst/v01/copilot_analyst_v01.blend",
-      "runtime": "assets/runtime/towers/copilot_analyst_v01.glb",
-      "sha256": "7241b272b572f231f9fb135f32b701bde07bbc8ad385ec5931b647859bee9350",
-      "sourceHash": "2b2bf2346025f787f8cc4286f9198bdf54b55f7b0219b25599321caf2acc5c4c",
-      "passed": true,
-      "triangles": 2488,
-      "errors": [],
-      "checkedAt": "2026-09-17T22:58:05.054Z"
-    },
-    {
       "id": "linter_agent",
       "version": "v01",
       "source": "blender/towers/linter_agent/v01/linter_agent_v01.blend",

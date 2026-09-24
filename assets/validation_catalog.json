@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-09-17T21:35:45.888Z",
   "passed": true,
-  "count": 97,
+  "count": 96,
   "assets": [
     {
       "id": "copilot_base",
@@ -1049,18 +1049,6 @@
       "errors": []
     },
     {
-      "id": "copilot_analyst",
-      "version": "v01",
-      "source": "blender/towers/copilot_analyst/v01/copilot_analyst_v01.blend",
-      "runtime": "assets/runtime/towers/copilot_analyst_v01.glb",
-      "sha256": "7241b272b572f231f9fb135f32b701bde07bbc8ad385ec5931b647859bee9350",
-      "sourceHash": "2b2bf2346025f787f8cc4286f9198bdf54b55f7b0219b25599321caf2acc5c4c",
-      "passed": true,
-      "triangles": 2488,
-      "errors": [],
-      "checkedAt": "2026-09-17T22:58:05.054Z"
-    },
-    {
       "id": "linter_agent",
       "version": "v01",
       "source": "blender/towers/linter_agent/v01/linter_agent_v01.blend",
@@ -1076,7 +1064,6 @@
   "lastIncrementalCheck": {
     "checkedAt": "2026-09-17T23:00:09.565Z",
     "ids": [
-      "copilot_analyst",
       "linter_agent"
     ],
     "note": "Previous Persona delivery results retained for registered assets; full-check timestamp is historical."

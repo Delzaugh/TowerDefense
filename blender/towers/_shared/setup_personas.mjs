@@ -1,7 +1,5 @@
 import {readFile,writeFile,copyFile} from 'node:fs/promises';
 const specs=[
- ['copilot_tester','Tester',['#60CDC5','#249D9E','#FFF3DA','#344A51','#031E2C','#075D70','#00E8F0','#F9CE70'],'Rounded mint helmet, asymmetric magnifying goggles, ivory rim, check badge and side test brackets.'],
- ['copilot_analyst','Analyst',['#F5EBD4','#248B90','#D7C9AE','#46555E','#031D2B','#085C69','#00E4EF','#FF713E'],'Squarish ivory shell, teal round spectacles, inset top panel, side requirements paper and orange edit pencil.'],
  ['linter_agent','Linter Agent',['#D1E817','#646E36','#F2F0CF','#333E48','#031D28','#079CB9','#00E6F4','#AFCC15'],'Low lime octagonal shell, dark inset top, slim goggles, eight evenly spaced radial scanning sockets.'],
 ];
 for(const [id,name,colors,brief] of specs){
@@ -9,7 +7,7 @@ for(const [id,name,colors,brief] of specs){
  if(m.delivery)throw Error('Initial setup only; refusing to overwrite delivered manifest '+id);
  m.displayName=name;m.source.mode='procedural';m.source.recipe=folder+'/build.py';
  m.budgets={triangles:3000,materials:2,textures:2,textureSize:32,bones:0,meshes:2};
- m.contract.anchors=['anchor_ui','anchor_action','anchor_target',...(id==='copilot_tester'?['anchor_aura']:[])];
+ m.contract.anchors=['anchor_ui','anchor_action','anchor_target'];
  m.contract.dimensions={min:[1.7,id==='linter_agent'?1:1.7,1.4],max:[2.8,id==='linter_agent'?1.3:2.4,2.8]};
  const roles=Object.fromEntries(['shell','shell_dark','trim','graphite','screen','lens','cyan','detail'].map((r,i)=>[r,{color:colors[i],rect:[i*4,0,4,4]}]));
  const kind=id.replace('copilot_','');m.texturePalettes=[{material:kind+'_palette',size:[32,4],roles},{material:kind+'_optics',size:[32,4],roles}];

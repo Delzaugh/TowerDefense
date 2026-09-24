@@ -1,6 +1,6 @@
 import {readFile,writeFile,copyFile,appendFile} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-const ids=['copilot_tester','copilot_analyst','linter_agent'];
+const ids=['linter_agent'];
 for(const id of ids){
  const folder=`blender/towers/${id}/v01`,file=folder+'/asset.json',m=JSON.parse(await readFile(file,'utf8'));
  const actual=createHash('sha256').update(await readFile(m.source.path)).digest('hex');

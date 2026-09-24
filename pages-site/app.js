@@ -138,10 +138,10 @@ try{
   const loader=new GLTFLoader();
   const placements=layout(),ids=[...new Set(placements.map(p=>p.id))];
   const [models,copilotGLTF,visitors,guestModels]=await Promise.all([
-    Promise.all(ids.map(async id=>[id,await loader.loadAsync(`/TowerDefense/runtime/${id}.glb`)])),
-    loader.loadAsync('/TowerDefense/runtime/copilot_base_v02.glb'),
-    Promise.all([0,1].map(()=>loader.loadAsync('/TowerDefense/runtime/copilot_base_v02.glb'))),
-    Promise.all(GUEST_IDS.map(id=>loader.loadAsync(`/TowerDefense/runtime/${id}.glb`)))
+    Promise.all(ids.map(async id=>[id,await loader.loadAsync(`/TowerDefense/runtime/${id}.glb?v=mufbvk10`)])),
+    loader.loadAsync('/TowerDefense/runtime/copilot_base_v02.glb?v=mufbvk10'),
+    Promise.all([0,1].map(()=>loader.loadAsync('/TowerDefense/runtime/copilot_base_v02.glb?v=mufbvk10'))),
+    Promise.all(GUEST_IDS.map(id=>loader.loadAsync(`/TowerDefense/runtime/${id}.glb?v=mufbvk10`)))
   ]);
   const modelsById=new Map(models);asset=new THREE.Group();asset.name='Glacier campus';
   for(const p of placements){const instance=modelsById.get(p.id).scene.clone(true);instance.name=p.id;if(p.tile)instance.userData.campusTile={...p.tile};if(p.decor)instance.userData.campusDecor=true;if(p.building)instance.userData.building={...p.building};instance.position.fromArray(p.position);instance.rotation.y=p.rotation||0;asset.add(instance);}
@@ -171,6 +171,7 @@ try{
     doorway(time=0){paused=true;refreshMotion();companion.poseAtDoor(time);draw();}
   };
 }catch(error){console.error(error);loading.textContent='The campus could not load. Reload this page to try again.';label.hidden=true;motionButton.disabled=true;}
+
 
 
 

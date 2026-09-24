@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-09-24T08:19:42.467Z",
+  "capturedAt": "2026-09-24T09:27:01.126Z",
   "hosting": "github-pages",
   "basePath": "/TowerDefense/",
   "sourceCommit": "a0f8f0ffcbb578968f394b977de38ef569bccc27",
@@ -18,14 +18,15 @@
     "stress-test.js": "94ff1e870f59495a444704fdb513e57f92e29c1ba372c119836a4f000f171622",
     "stress-config.js": "e688b3a707f86cf4a7c8554d6aa61ab114f931796fbf40e5af7434f20da3c21d",
     "simulation/app.js": "80acc6001dfb869306a6602279deb6263be3203fc787fd36ca75ba2b37252f8d",
-    "simulation/actors.js": "96ca81a90ba6a323d744a6173f4dad0e50ba13bc336208c2c7776c95c8e9fd23",
+    "simulation/actors.js": "b37022fd6da08cebf5be8d34c1b0c42ec0108de2cb5225fd002ee794fcac4d0a",
     "simulation/map.js": "cc5ef4db826ac650dcb0cd7428359c582f66150b9f9d4dc6ca18ba35fef8dea1",
-    "simulation/config.js": "67732df56f9fec9dbb4c2743f3064bbfbac5903cfe796b2138ceea30b74d5a22",
+    "simulation/config.js": "212895a065fde97205e926b1a77b6793ab8dcf249b0a3a24b5ffda00bd26975a",
     "simulation/schedule.js": "255790a6704c49aef57167f7dcf0fd861b5f1ce5086a6da932cd8864cf67fe72",
-    "simulation/capture.js": "80649ef50b96426bdc4401afc3082c2df80d1e16205bb3f670c6368d8e713ceb",
-    "simulation/placement.js": "a1052327e67e906329b6c70527e2a547284cd280b9d5ba5afbbab8612d4b7d3a",
+    "simulation/capture.js": "8190c2151093e7701b0df4dc27205340ab2d66afc7523e3baa18e7a05c1cc892",
+    "simulation/placement.js": "14f9a86fa7c98c57cff62a1dc30c5326347c568f7680c3a7de29d654cba08944",
     "simulation/index.html": "92f973a7b27ae4aa55468574fcf4ec6e0e203b32a2941f4fcdfe67be66a7272d",
-    "simulation/style.css": "d7cbdafcf8442be33538486f7361794b018bc76ffe53417e453099fb47aebb56"
+    "simulation/style.css": "d7cbdafcf8442be33538486f7361794b018bc76ffe53417e453099fb47aebb56",
+    "/presentation/digital-resolve.js": "98f1aa5265c1e9d18ea15c5fa65d453dbceecb7b84e31c7d942b1f225c5289c5"
   },
   "runtimeAssets": [
     {

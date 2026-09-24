@@ -41,7 +41,7 @@ try{
  renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.info.autoReset=false;
  renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.15;renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
  scene.add(new THREE.HemisphereLight(0xfff8df,0x35595b,2));const sun=new THREE.DirectionalLight(0xffedcf,2.6);sun.position.set(-35*MAP_SCALE,65*MAP_SCALE,30*MAP_SCALE);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);Object.assign(sun.shadow.camera,{left:-95,right:95,top:90,bottom:-90,near:1,far:240});sun.shadow.normalBias=.05;scene.add(sun);
- const loader=new GLTFLoader(),models=new Map(await Promise.all([...MODELS,...[...DECOR_IDS,...STRUCTURE_IDS].map(id=>({id,url:`/TowerDefense/runtime/${id}.glb`}))].map(async spec=>[spec.id,await loader.loadAsync(spec.url)])));
+ const loader=new GLTFLoader(),models=new Map(await Promise.all([...MODELS,...[...DECOR_IDS,...STRUCTURE_IDS].map(id=>({id,url:`/TowerDefense/runtime/${id}.glb?v=mufbvk10`}))].map(async spec=>[spec.id,await loader.loadAsync(spec.url)])));
  map=createMap(scene,models);actors=createActors(scene,map,models,settings);
  metrics=createCampusPerformance(renderer,scene,{getScene:state,reportName:'map-performance.json',getFrameContext:actors.telemetry});
  placement=createPlacement({scene,camera,canvas,map,models,actors,draw,isLocked:()=>!!capture?.state().running});

@@ -1,10 +1,12 @@
 import * as THREE from 'three';
 import {cloneActor} from '/TowerDefense/stress-load.js';
+import {createDigitalResolve,createResolveBudget} from '/TowerDefense/presentation/digital-resolve.js';
 import {MODELS,TOWER_TYPES,DEFAULT_SETTINGS,enemyCap} from './config.js';
 import {createWaveSchedule} from './schedule.js';
 
 export function createActors(scene,map,models,initialSettings=DEFAULT_SETTINGS){
  const root=new THREE.Group();scene.add(root);
+ const effectBudget=createResolveBudget(256),retiring=[];
  let settings={...DEFAULT_SETTINGS,...initialSettings,maxEnemies:enemyCap(initialSettings.maxEnemies)};
  const towers=[],manual=[],specials=[],pool=[],assigned=new Map();let schedule=createWaveSchedule(map.route.length,settings.maxEnemies),running=false,time=0;
  const specFor=id=>MODELS.find(m=>m.id===id);
@@ -13,14 +15,19 @@ export function createActors(scene,map,models,initialSettings=DEFAULT_SETTINGS){
   let triangles=0,meshes=0;models.get(spec.id).scene.traverse(o=>{if(o.isMesh){meshes++;triangles+=(o.geometry.index?.count??o.geometry.attributes.position.count)/3;}});
   return {...spec,triangles,meshes};
  });
- function make(spec){
+ function play(a,name){
+  const clip=THREE.AnimationClip.findByName(models.get(a.spec.id).animations,name);if(!clip)return;
+  a.mixer.stopAllAction();a.action=a.mixer.clipAction(clip);a.action.reset();a.action.setLoop(['place','resolve'].includes(name)?THREE.LoopOnce:THREE.LoopRepeat,Infinity);a.action.clampWhenFinished=true;a.action.play();a.mixer.update(0);a.effect?.setState(null,0,0);
+ }
+ function make(spec,lifecycle=false){
   const gltf=models.get(spec.id),model=cloneActor(gltf.scene),actor=new THREE.Group();actor.add(model);root.add(actor);
   actor.traverse(o=>{if(o.isMesh){o.castShadow=true;o.receiveShadow=true;}});
   const clip=spec.clip?THREE.AnimationClip.findByName(gltf.animations,spec.clip):null;if(spec.clip&&!clip)throw new Error(`${spec.id}: missing ${spec.clip}`);
+  const effect=lifecycle&&spec.placeClip?createDigitalResolve(THREE,model,{budget:effectBudget}):null;if(effect){actor.add(effect.object);effect.prepare();}
   const mixer=new THREE.AnimationMixer(model),action=clip?mixer.clipAction(clip):null;action?.play();
-  return {spec,model,actor,mixer,action};
+  const a={spec,model,actor,mixer,action,effect};if(spec.readyClip)play(a,spec.readyClip);return a;
  }
- function dispose(a){a.mixer.stopAllAction();a.mixer.uncacheRoot(a.model);const skeletons=new Set();a.model.traverse(o=>{if(o.isSkinnedMesh)skeletons.add(o.skeleton);});skeletons.forEach(s=>s.dispose());root.remove(a.actor);}
+ function dispose(a){a.effect?.dispose();a.mixer.stopAllAction();a.mixer.uncacheRoot(a.model);const skeletons=new Set();a.model.traverse(o=>{if(o.isSkinnedMesh)skeletons.add(o.skeleton);});skeletons.forEach(s=>s.dispose());root.remove(a.actor);}
  function setSpecials(){
   specials.forEach(dispose);specials.length=0;
   const destination=map.route.at(map.route.length).point;
@@ -44,13 +51,18 @@ export function createActors(scene,map,models,initialSettings=DEFAULT_SETTINGS){
  function ensureBeamCapacity(){if(positions.length>=(towers.length+manual.length)*6)return;positions=new Float32Array(Math.max(positions.length*2,(towers.length+manual.length)*6));geometry.dispose();geometry.setAttribute('position',new THREE.BufferAttribute(positions,3));}
  function occupied(x,z){return [...towers,...manual,...specials].some(a=>Math.hypot(a.actor.position.x-x,a.actor.position.z-z)<2.8);}
  function addTower(id,x,z){if(running)throw new Error('Finish recording before placing towers');const spec=TOWER_TYPES.find(t=>t.id===id);if(!spec||![x,z].every(Number.isFinite))return null;
-  if(!map.placementAt(x,z).valid||occupied(x,z))return null;const a=make(spec);a.actor.position.set(x,map.heightAt(x,z)+.18,z);a.actor.rotation.y=Math.PI/4;a.homeHeading=Math.PI/4;manual.push(a);ensureBeamCapacity();return a.actor;
+  if(!map.placementAt(x,z).valid||occupied(x,z))return null;const a=make(spec,true);a.actor.position.set(x,map.heightAt(x,z)+.18,z);a.actor.rotation.y=Math.PI/4;a.homeHeading=Math.PI/4;manual.push(a);ensureBeamCapacity();return a.actor;
  }
- function undoTower(){if(running||!manual.length)return false;dispose(manual.pop());return true;}
- function clearTowers(){if(running)return;manual.forEach(dispose);manual.length=0;}
- function clearEnemies(){pool.forEach(dispose);pool.length=0;assigned.clear();geometry.setDrawRange(0,0);running=false;schedule=createWaveSchedule(map.route.length,settings.maxEnemies);}
+ function retire(a){if(a.effect&&a.spec.resolveClip){play(a,a.spec.resolveClip);retiring.push(a);}else dispose(a);}
+ function undoTower(){if(running||!manual.length)return false;retire(manual.pop());return true;}
+ function clearTowers(){if(running)return;manual.forEach(retire);manual.length=0;}
+ function placementDuration(actor){const a=manual.find(a=>a.actor===actor);return a?.effect?THREE.AnimationClip.findByName(models.get(a.spec.id).animations,a.spec.placeClip).duration:0;}
+ function presentPlacement(actor,t){const a=manual.find(a=>a.actor===actor);if(!a?.effect)return;if(t>=1){play(a,a.spec.readyClip);return;}if(a.action.getClip().name!==a.spec.placeClip)play(a,a.spec.placeClip);const clip=a.action.getClip();a.action.time=Math.max(0,t)*clip.duration;a.mixer.update(0);a.effect.setState(clip.name,a.action.time,clip.duration);}
+ function updateEffects(dt){for(let i=retiring.length-1;i>=0;i--){const a=retiring[i],clip=a.action.getClip();a.mixer.update(dt);a.effect.setState(clip.name,a.action.time,clip.duration);if(a.action.time>=clip.duration){dispose(a);retiring.splice(i,1);}}}
+ function finishEffects(){retiring.forEach(dispose);retiring.length=0;manual.filter(a=>a.effect).forEach(a=>play(a,a.spec.readyClip));}
+ function clearEnemies(){pool.forEach(dispose);pool.length=0;assigned.clear();geometry.setDrawRange(0,0);running=false;[...towers,...manual].filter(a=>a.spec.readyClip).forEach(a=>play(a,a.spec.readyClip));schedule=createWaveSchedule(map.route.length,settings.maxEnemies);}
  function warm(){enemySpecs.forEach((spec,i)=>{const a=make(spec);a.actor.position.copy(map.route.at(12+i*3).point);a.actor.position.y+=.22;pool.push(a);});}
- function start(){clearEnemies();time=0;running=true;}
+ function start(){clearEnemies();time=0;running=true;[...towers,...manual].filter(a=>a.spec.readyClip).forEach(a=>play(a,a.spec.clip));}
  function update(dt){
   if(!running)return;time+=dt;schedule.update(dt);
   const live=new Set(schedule.active.map(e=>e.id));
@@ -72,11 +84,12 @@ export function createActors(scene,map,models,initialSettings=DEFAULT_SETTINGS){
  function state(){
   const composition=metadata.map(m=>({...m,count:m.enemy?[...assigned.values()].filter(a=>a.spec.id===m.id).length:m.id==='github_octocat_classic_lowpoly'?specials.length:[...towers,...manual].filter(a=>a.spec.id===m.id).length}));
   return {...schedule.state(),running,settings:{...settings},towers:towers.length,manualTowers:manual.length,totalTowers:towers.length+manual.length,beamCapacity:positions.length/6,placedTowers:manual.map(a=>({id:a.spec.id,position:a.actor.position.toArray()})),heavyTowers:towers.filter(a=>a.spec.id==='bert_breugelmans').length,octocats:specials.length,composition,
-   allocatedEnemies:pool.length,attackClip:'work',developerAnimation:'static export; runtime aiming and attack lines',attackAnimationSamples:towers.filter(a=>a.action).slice(0,2).map(a=>({id:a.spec.id,time:a.action.time,playing:a.action.isRunning()})),manualAnimationSamples:manual.filter(a=>a.action).slice(0,4).map(a=>({id:a.spec.id,time:a.action.time,playing:a.action.isRunning()})),beamVertices:geometry.drawRange.count,
+   allocatedEnemies:pool.length,attackClip:'work',developerAnimation:'authored work; ready idle pose; digital place and resolve',presentation:{retiring:retiring.length,fragments:effectBudget.used,maxFragments:effectBudget.maxFragments},developerSamples:[...towers,...manual].filter(a=>a.spec.id==='copilot_developer').map(a=>({clip:a.action.getClip().name,time:a.action.time,playing:a.action.isRunning(),effect:a.effect?.diagnostics()})),attackAnimationSamples:towers.filter(a=>a.action).slice(0,2).map(a=>({id:a.spec.id,time:a.action.time,playing:a.action.isRunning()})),manualAnimationSamples:manual.filter(a=>a.action).slice(0,4).map(a=>({id:a.spec.id,time:a.action.time,playing:a.action.isRunning()})),beamVertices:geometry.drawRange.count,
    enemyPositions:schedule.active.map(e=>({id:e.id,kind:enemySpecs[e.kind].id,distance:e.distance,speedFactor:e.speedFactor,speed:e.speed,position:assigned.get(e.id)?.actor.position.toArray()})),
    towerPositions:towers.map(a=>({id:a.spec.id,position:a.actor.position.toArray()}))};
  }
  setTowers(35);
  setSpecials();
- return {setSettings,setTowers,addTower,undoTower,clearTowers,occupied,start,update,clearEnemies,warm,state,telemetry:()=>({enemyCount:schedule.state().active,wave:schedule.state().wave,queued:schedule.state().queued,manualTowers:manual.length,totalTowers:towers.length+manual.length})};
+ return {setSettings,setTowers,addTower,undoTower,clearTowers,occupied,start,update,clearEnemies,warm,state,placementDuration,presentPlacement,updateEffects,finishEffects,effectsActive:()=>retiring.length>0,telemetry:()=>({enemyCount:schedule.state().active,wave:schedule.state().wave,queued:schedule.state().queued,manualTowers:manual.length,totalTowers:towers.length+manual.length})};
 }
+

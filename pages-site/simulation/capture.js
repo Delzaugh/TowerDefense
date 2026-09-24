@@ -21,7 +21,7 @@ export function createCapture({renderer,metrics,actors,draw,state,setView,setAni
   report={schemaVersion:1,scene:'garden-switchback-v3',id:new Date().toISOString().replace(/[:.]/g,'-'),status:'running',startedAt:new Date().toISOString(),cases:[],errors:[],configuration:{waves:actors.state().waves,enemyCap:actors.state().settings.maxEnemies,mapSeed:MAP_SEED,towers:actors.state().towers,manualTowers:actors.state().manualTowers,totalTowers:actors.state().totalTowers,placedTowers:actors.state().placedTowers,octocats:actors.state().octocats,heavyTowers:actors.state().heavyTowers,settings:actors.state().settings,mapAreaMultiplier:MAP_AREA_MULTIPLIER,enemySpeeds:MODELS.filter(m=>m.enemy).map(m=>({id:m.id,factor:m.speedFactor})),targetFPS:30},
    notes:['Dedicated map with seeded environment decor. Bert and Octocat can each be enabled or disabled. Enabled Octocats are two stationary special characters; enabled Berts occupy two slots in the chosen tower total.',
     'Bug, Vague Spec and Missing Details walk the same route in three waves. Overflow waits at entry; the chosen cap limits active enemies. Wave totals scale to twice the cap. All spawned enemies reach the destination.',
-    'Placed towers are separate from preset counts and are retained through cleanup. Copilot and Bert play work. Developer currently has no authored clips and uses runtime aiming and cosmetic beams. No damage, kills, economy or gameplay balance simulation.',
+    'Placed towers are separate from preset counts and are retained through cleanup. Copilot, Bert and Developer play authored work clips. Developer uses its idle ready pose outside waves and digital Place/Resolve effects for manual placement/removal. No damage, kills, economy or gameplay balance simulation.',
     'Counts include shadow rendering. CPU submission is not GPU time. Bone textures contribute to texture counts. Fixed 30 FPS target; no GPU headroom estimate.',
     'Each case is a consecutive timeline sample. Capture work is excluded. Device emulation is not physical phone testing.'],initialState:state()};
   const original={warn:console.warn,error:console.error};
@@ -31,7 +31,7 @@ export function createCapture({renderer,metrics,actors,draw,state,setView,setAni
   for(const key of Object.keys(original))console[key]=(...args)=>{record(key,args.join(' '));original[key](...args);};
   try{
    status.textContent='Warming models and preparing automatic capture…';
-   const response=await fetch(staticHosting?'/TowerDefense/stress-revision.json':'/TowerDefense/stress-revision',{signal:abort.signal});if(!response.ok)throw new Error('Source revision capture failed');report.revision=await response.json();
+   const response=await fetch(staticHosting?'/TowerDefense/stress-revision.json?v=mufbvk10':'/TowerDefense/stress-revision',{signal:abort.signal});if(!response.ok)throw new Error('Source revision capture failed');report.revision=await response.json();
    actors.warm();draw();actors.clearEnemies();draw();setAnimating(true);phase='baseline';await wait(1000);metrics.reset();await wait(2000);capture('baseline');
    actors.start();phase='waves';metrics.reset();const thresholds=[8,20,32,44,56,68,80,92];let index=0;
    const started=performance.now();
@@ -67,3 +67,4 @@ export function createCapture({renderer,metrics,actors,draw,state,setView,setAni
  button.disabled=false;button.addEventListener('click',()=>running?cancel():void run());
  return {run,cancel,state:()=>({running,phase,report})};
 }
+

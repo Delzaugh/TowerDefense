@@ -1,7 +1,7 @@
 {
-  "builtAt": "2026-09-24T09:27:01.140Z",
+  "application": "copilot-hub",
   "base": "/TowerDefense/",
-  "sourceCommit": "a0f8f0ffcbb578968f394b977de38ef569bccc27",
-  "files": 85,
-  "assets": 54
+  "builtAt": "2026-09-26T23:44:34.602Z",
+  "release": "1a67992efb6a7af1",
+  "files": 76
 }

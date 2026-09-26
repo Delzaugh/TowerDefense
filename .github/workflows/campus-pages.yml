@@ -1,4 +1,4 @@
-name: Publish campus and simulation lab
+name: Publish Copilot Hub
 
 on:
   push:
@@ -32,4 +32,3 @@ jobs:
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
-

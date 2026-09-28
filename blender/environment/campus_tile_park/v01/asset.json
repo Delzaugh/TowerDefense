@@ -4,12 +4,12 @@
   "displayName": "Campus park tile",
   "category": "environment",
   "version": "v01",
-  "revision": 5,
+  "revision": 7,
   "source": {
     "path": "blender/environment/campus_tile_park/v01/campus_tile_park_v01.blend",
     "mode": "procedural",
     "recipe": "blender/environment/campus_tile_park/v01/build.py",
-    "authoritativeHash": "dbb7d3cac4f9be5c5e4e58243966efff9f6449961b08bad65fe2c468a607a008"
+    "authoritativeHash": "747dc569c5e04c0609a964c3260d9af429ea6f5836bc07f8ac1a439912d68b9f"
   },
   "runtime": "assets/runtime/environment/campus_tile_park_v01.glb",
   "budgets": {
@@ -86,6 +86,22 @@
       "source": "blender/environment/campus_tile_park/v01/revisions/r4_before_r5/campus_tile_park_v01.blend",
       "sha256": "de3975086a0dc140b198f88ae84474afa2cc87ac64c91b6535c52ea22e0ce1d5",
       "sourceHash": "dd4ea3f0729f485a9f2f8114770013fd8d74129b7f5dd2909c01b7924f657413"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/environment/campus_tile_park/v01/revisions/r5_before_r6/campus_tile_park_v01.glb",
+      "source": "blender/environment/campus_tile_park/v01/revisions/r5_before_r6/campus_tile_park_v01.blend",
+      "sha256": "c0ea91ba6f2b193a935e710f1714a04a4a31f91fb4b46aaa24a5fb22776843a2",
+      "sourceHash": "dbb7d3cac4f9be5c5e4e58243966efff9f6449961b08bad65fe2c468a607a008"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/environment/campus_tile_park/v01/revisions/r6_before_r7/campus_tile_park_v01.glb",
+      "source": "blender/environment/campus_tile_park/v01/revisions/r6_before_r7/campus_tile_park_v01.blend",
+      "sha256": "17e17b108284425db8a533ab51130d07b3391533bb6b6fe8d65bfbc91e59219b",
+      "sourceHash": "fed3ae98cc63f340bd35cc791c45275bf240c7a0c7356908a8275b9c70f600b6"
     }
   ],
   "decisions": "blender/environment/campus_tile_park/v01/decisions.md",
@@ -150,9 +166,9 @@
     "paletteTextureWorkflow": false
   },
   "delivery": {
-    "sha256": "c0ea91ba6f2b193a935e710f1714a04a4a31f91fb4b46aaa24a5fb22776843a2",
-    "sourceHash": "dbb7d3cac4f9be5c5e4e58243966efff9f6449961b08bad65fe2c468a607a008",
+    "sha256": "6a03a9e1b587d0bedb7ed1592a65e44ff4ba6bffc3b029e5835cca45dff11f15",
+    "sourceHash": "747dc569c5e04c0609a964c3260d9af429ea6f5836bc07f8ac1a439912d68b9f",
     "report": "blender/environment/campus_tile_park/v01/validation/report.json",
-    "deliveredAt": "2026-09-18T16:58:52.017Z"
+    "deliveredAt": "2026-09-24T11:55:40.669Z"
   }
 }

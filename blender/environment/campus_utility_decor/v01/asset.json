@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_utility_decor",
+  "displayName": "Utility Yard · substation and cooling equipment",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/campus_utility_decor/v01/campus_utility_decor_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_utility_decor/v01/build.py",
+    "authoritativeHash": "4c061badc753cd31ed0da12f8041819034c15e0ac4e7c0c5ed1e93faf51eb6c2"
+  },
+  "runtime": "assets/runtime/environment/campus_utility_decor_v01.glb",
+  "budgets": {
+    "triangles": 6000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 64,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": []
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "docs/design/Campus_Tile_System.md",
+      "provenance": "Shared hex, frame, level service surface and palette rules."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/campus_utility_decor/v01/decisions.md",
+  "exportSettings": {
+    "paletteTextureWorkflow": false
+  },
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "cream": "#DCDDD0",
+      "slate": "#4B6375",
+      "teal": "#6FAEAB",
+      "dark": "#31485B",
+      "concrete": "#ACB4AF",
+      "yellow": "#CABB7C",
+      "pale": "#C0D8D3",
+      "metal": "#859B9F"
+    }
+  },
+  "texturePalettes": [
+    {
+      "material": "utility_palette",
+      "size": [
+        64,
+        8
+      ],
+      "roles": {
+        "cream": {
+          "color": "#DCDDD0",
+          "rect": [
+            0,
+            0,
+            8,
+            8
+          ]
+        },
+        "slate": {
+          "color": "#4B6375",
+          "rect": [
+            8,
+            0,
+            8,
+            8
+          ]
+        },
+        "teal": {
+          "color": "#6FAEAB",
+          "rect": [
+            16,
+            0,
+            8,
+            8
+          ]
+        },
+        "dark": {
+          "color": "#31485B",
+          "rect": [
+            24,
+            0,
+            8,
+            8
+          ]
+        },
+        "concrete": {
+          "color": "#ACB4AF",
+          "rect": [
+            32,
+            0,
+            8,
+            8
+          ]
+        },
+        "yellow": {
+          "color": "#CABB7C",
+          "rect": [
+            40,
+            0,
+            8,
+            8
+          ]
+        },
+        "pale": {
+          "color": "#C0D8D3",
+          "rect": [
+            48,
+            0,
+            8,
+            8
+          ]
+        },
+        "metal": {
+          "color": "#859B9F",
+          "rect": [
+            56,
+            0,
+            8,
+            8
+          ]
+        }
+      }
+    }
+  ],
+  "delivery": {
+    "sha256": "2b5eb54a8b9d93ddd2fea7f29540b5bde15c31aa40534a9579d98d0e0ae3712b",
+    "sourceHash": "4c061badc753cd31ed0da12f8041819034c15e0ac4e7c0c5ed1e93faf51eb6c2",
+    "report": "blender/environment/campus_utility_decor/v01/validation/report.json",
+    "deliveredAt": "2026-09-24T11:20:01.970Z"
+  }
+}

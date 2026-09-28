@@ -12,7 +12,7 @@ export default defineConfig({
     reuseExistingServer: false,
   },
   projects: [
-    { name: 'desktop-edge', use: { ...devices['Desktop Edge'], channel: 'msedge' } },
-    { name: 'touch-edge', use: { ...devices['Pixel 7'], channel: 'msedge' } },
+    { name: 'desktop-edge', use: { ...devices['Desktop Edge'], channel: process.env.CI ? 'chromium' : 'msedge' } },
+    { name: 'touch-edge', use: { ...devices['Pixel 7'], channel: process.env.CI ? 'chromium' : 'msedge' } },
   ],
 });

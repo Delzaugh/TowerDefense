@@ -3,11 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#f4f3ee" />
-    <title>Tower — Foundation Console</title>
+    <meta name="theme-color" content="#142337" />
+    <meta name="description" content="Your campus, one corner at a time. Welcome to Copilot Tower Defense." />
+    <title>Copilot — Tower Defense</title>
+    <link rel="icon" href="data:," />
+    <style>
+      body{margin:0;background:#142337;color:#deedf7;font-family:'Segoe UI',system-ui,sans-serif}
+      #initial-startup{min-height:100vh;box-sizing:border-box;padding:10vw;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
+      #initial-startup strong{letter-spacing:.18em;font-size:28px}#initial-startup p{line-height:1.6;max-width:44ch;color:#bfcedc}
+      #initial-startup button{padding:12px 20px;min-height:44px;border:1px solid #8ac5cb;border-radius:6px;background:#bfe5e1;color:#19394b;font:inherit;cursor:pointer}
+      #initial-startup [hidden]{display:none}noscript{display:block;padding:24px}
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"><div id="initial-startup"><strong>COPILOT</strong><p role="status">Opening your campus…</p><div id="startup-recovery" hidden><p>The app hasn’t finished opening. Check your connection and try again.</p><button id="startup-reload">Reload app</button></div></div></div>
+    <noscript>Enable JavaScript to open Copilot Tower Defense.</noscript>
+    <script>
+      (() => {
+        const showRecovery = () => { const help = document.getElementById('startup-recovery'); if (help) help.hidden = false; };
+        const timeout = setTimeout(showRecovery, 20000);
+        const failed = event => { if (event.target instanceof HTMLScriptElement) showRecovery(); };
+        window.addEventListener('error', failed, true);
+        document.getElementById('startup-reload').addEventListener('click', () => location.reload());
+        window.addEventListener('tower:mounted', () => { clearTimeout(timeout); window.removeEventListener('error', failed, true); }, { once: true });
+      })();
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

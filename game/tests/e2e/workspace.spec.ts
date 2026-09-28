@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 import { closeQueue, openQueue, tapMap } from './mapActions';
 
 test('map-first workspace places ten towers, enforces the cap and restores them', async ({ page, isMobile }, testInfo) => {
-  await page.goto('/');
+  await page.goto('/#/lab');
   await expect(page.getByRole('heading', { name: 'New tower defaults' })).toHaveCount(0);
   await expect(page.getByLabel('Tower definition')).toHaveCount(0);
   await expect(page.getByRole('dialog')).toHaveCount(0);
@@ -39,7 +39,7 @@ test('map-first workspace places ten towers, enforces the cap and restores them'
 });
 
 test('wave dialog retains drafts, traps focus, closes with Escape and keyboard placement remains available', async ({ page }, testInfo) => {
-  await page.goto('/');
+  await page.goto('/#/lab');
   const map = page.locator('.tower-map'); await map.focus(); await page.keyboard.press('ArrowLeft'); await page.keyboard.press('Enter');
   await expect(page.getByTestId('placed-tower')).toHaveCount(1);
   await expect(page.getByTestId('compute')).toHaveText('270');

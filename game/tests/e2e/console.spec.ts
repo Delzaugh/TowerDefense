@@ -4,7 +4,7 @@ import { expect, test } from '@playwright/test';
 test('manual start, hard pause and resume', async ({ page }) => {
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
-  await page.goto('/');
+  await page.goto('/#/lab');
   await expect(page.getByTestId('encounter-phase')).toHaveText('Preparation');
   await expect(page.getByTestId('encounter-tick')).toHaveText('0');
   await page.getByRole('button', { name: 'Start encounter', exact: true }).click();
@@ -24,7 +24,7 @@ test('manual start, hard pause and resume', async ({ page }) => {
 });
 
 test('local save restores after page reload', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/#/lab');
   await placeTower(page);
   await openDiagnostics(page); await page.getByRole('button', { name: 'Place left' }).click();
   await page.getByRole('button', { name: '2× speed' }).click();
@@ -42,7 +42,7 @@ test('local save restores after page reload', async ({ page }) => {
 });
 
 test('rejects blocked pointer placement and supports touch-sized layout', async ({ page, isMobile }, testInfo) => {
-  await page.goto('/');
+  await page.goto('/#/lab');
   await openDiagnostics(page); await page.getByRole('button', { name: 'Place marker on map', exact: true }).click();
   const map = page.getByRole('img');
   await map.scrollIntoViewIfNeeded();
@@ -60,11 +60,11 @@ test('rejects blocked pointer placement and supports touch-sized layout', async 
 });
 
 test('stale save from another tab does not overwrite newer data', async ({ page, context }) => {
-  await page.goto('/');
+  await page.goto('/#/lab');
   await page.getByRole('button', { name: 'Save locally' }).click();
   await expect(page.getByRole('status')).toContainText('revision 1');
   const second = await context.newPage();
-  await second.goto('/');
+  await second.goto('/#/lab');
   await second.getByRole('button', { name: 'Load save' }).click();
   await expect(second.getByRole('status')).toContainText('revision 1');
   await openDiagnostics(page); await page.getByRole('button', { name: 'Place right' }).click();

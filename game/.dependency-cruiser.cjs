@@ -9,8 +9,10 @@ module.exports = {
     },
     { name: 'content-does-not-import-rules', severity: 'error', from: { path: '^src/content/' }, to: { path: '^src/(simulation|progression)/' } },
     { name: 'simulation-does-not-import-progression', severity: 'error', from: { path: '^src/simulation/' }, to: { path: '^src/progression/' } },
-    { name: 'browser-not-build-tools', severity: 'error', from: { path: '^src/' }, to: { path: '(^build/|^\.\./tools/)', dependencyTypes: ['local', 'localmodule'] } },
+    { name: 'browser-not-build-tools', severity: 'error', from: { path: '^src/' }, to: { path: '(^build/|^\.\./tools/(?!asset-presentation/digital-resolve\\.js$))', dependencyTypes: ['local', 'localmodule'] } },
     { name: 'browser-not-node', severity: 'error', from: { path: '^src/' }, to: { dependencyTypes: ['core'] } },
+    { name: 'app-not-prototypes', severity: 'error', from: { path: '^src/' }, to: { path: '(^|/)prototypes/' } },
+    { name: 'assets-through-catalog', severity: 'error', from: { path: '^src/' }, to: { path: '(^|/)(blender|assets/runtime|assets/third_party)/' } },
   ],
   options: { doNotFollow: { path: 'node_modules' }, tsConfig: { fileName: 'tsconfig.app.json' }, tsPreCompilationDeps: true },
 };

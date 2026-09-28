@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 import { placeTower } from './mapActions';
 
 test('tower stats tune one tower, validate drafts, reset, persist and lock during runs', async ({ page }, testInfo) => {
-  await page.goto('/'); await page.getByLabel('Advance automatically').uncheck();
+  await page.goto('/#/lab'); await page.getByLabel('Advance automatically').uncheck();
   await placeTower(page);
   const panel = page.locator('.tower-stats');
   await panel.locator('summary').click();

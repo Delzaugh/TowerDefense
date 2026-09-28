@@ -12,9 +12,9 @@
       "manifest": "blender/towers/copilot_base/v02/asset.json"
     },
     {
-      "id": "github_mona_head",
+      "id": "copilot_mona_head",
       "version": "v01",
-      "manifest": "blender/towers/github_mona_head/v01/asset.json"
+      "manifest": "blender/towers/copilot_mona_head/v01/asset.json"
     },
     {
       "id": "copilot_rubber_duck",
@@ -347,9 +347,9 @@
       "manifest": "blender/work/work_coding_task/v01/asset.json"
     },
     {
-      "id": "golden_compiler",
+      "id": "copilot_golden_compiler",
       "version": "v01",
-      "manifest": "blender/towers/golden_compiler/v01/asset.json"
+      "manifest": "blender/towers/copilot_golden_compiler/v01/asset.json"
     },
     {
       "id": "copilot_commit_halo",
@@ -367,14 +367,9 @@
       "manifest": "blender/enemies/problem_spaghetti_code/v01/asset.json"
     },
     {
-      "id": "bert_breugelmans",
+      "id": "copilot_bert_breugelmans",
       "version": "v01",
-      "manifest": "blender/towers/bert_breugelmans/v01/asset.json"
-    },
-    {
-      "id": "problem_bug_palette_test",
-      "version": "v01",
-      "manifest": "blender/enemies/problem_bug_palette_test/v01/asset.json"
+      "manifest": "blender/towers/copilot_bert_breugelmans/v01/asset.json"
     },
     {
       "id": "campus_home_study",
@@ -477,14 +472,14 @@
       "manifest": "blender/environment/campus_code_sculpture/v01/asset.json"
     },
     {
-      "id": "github_octocat_classic",
+      "id": "copilot_octocat_classic",
       "version": "v01",
-      "manifest": "blender/towers/github_octocat_classic/v01/asset.json"
+      "manifest": "blender/towers/copilot_octocat_classic/v01/asset.json"
     },
     {
-      "id": "github_octocat_modern",
+      "id": "copilot_octocat_modern",
       "version": "v01",
-      "manifest": "blender/towers/github_octocat_modern/v01/asset.json"
+      "manifest": "blender/towers/copilot_octocat_modern/v01/asset.json"
     },
     {
       "id": "campus_pixel_copilot",
@@ -557,9 +552,9 @@
       "manifest": "blender/environment/campus_walk_landing/v01/asset.json"
     },
     {
-      "id": "github_octocat_classic_lowpoly",
+      "id": "copilot_octocat_classic_lowpoly",
       "version": "v01",
-      "manifest": "blender/towers/github_octocat_classic_lowpoly/v01/asset.json"
+      "manifest": "blender/towers/copilot_octocat_classic_lowpoly/v01/asset.json"
     },
     {
       "id": "campus_flower_bed",
@@ -592,9 +587,134 @@
       "manifest": "blender/environment/campus_noticeboard/v01/asset.json"
     },
     {
-      "id": "linter_agent",
+      "id": "copilot_linter",
       "version": "v01",
-      "manifest": "blender/towers/linter_agent/v01/asset.json"
+      "manifest": "blender/towers/copilot_linter/v01/asset.json"
+    },
+    {
+      "id": "copilot_developer",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_developer/v01/asset.json"
+    },
+    {
+      "id": "copilot_human_developer",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_human_developer/v01/asset.json"
+    },
+    {
+      "id": "campus_visitor_man",
+      "version": "v01",
+      "manifest": "blender/environment/campus_visitor_man/v01/asset.json"
+    },
+    {
+      "id": "campus_tile_civic",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tile_civic/v01/asset.json"
+    },
+    {
+      "id": "campus_civic_decor",
+      "version": "v01",
+      "manifest": "blender/environment/campus_civic_decor/v01/asset.json"
+    },
+    {
+      "id": "campus_tile_canyon",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tile_canyon/v01/asset.json"
+    },
+    {
+      "id": "campus_canyon_decor",
+      "version": "v01",
+      "manifest": "blender/environment/campus_canyon_decor/v01/asset.json"
+    },
+    {
+      "id": "campus_tile_construction",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tile_construction/v01/asset.json"
+    },
+    {
+      "id": "campus_construction_decor",
+      "version": "v01",
+      "manifest": "blender/environment/campus_construction_decor/v01/asset.json"
+    },
+    {
+      "id": "campus_tile_utility",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tile_utility/v01/asset.json"
+    },
+    {
+      "id": "campus_utility_decor",
+      "version": "v01",
+      "manifest": "blender/environment/campus_utility_decor/v01/asset.json"
+    },
+    {
+      "id": "campus_tree_round_bare",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tree_round_bare/v01/asset.json"
+    },
+    {
+      "id": "campus_tree_tall_bare",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tree_tall_bare/v01/asset.json"
+    },
+    {
+      "id": "campus_tree_cluster_bare",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tree_cluster_bare/v01/asset.json"
+    },
+    {
+      "id": "campus_tree_pine_bare",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tree_pine_bare/v01/asset.json"
+    },
+    {
+      "id": "campus_tree_spreading_bare",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tree_spreading_bare/v01/asset.json"
+    },
+    {
+      "id": "campus_tree_autumn_bare",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tree_autumn_bare/v01/asset.json"
+    },
+    {
+      "id": "campus_forest_mixed",
+      "version": "v01",
+      "manifest": "blender/environment/campus_forest_mixed/v01/asset.json"
+    },
+    {
+      "id": "campus_forest_dense",
+      "version": "v01",
+      "manifest": "blender/environment/campus_forest_dense/v01/asset.json"
+    },
+    {
+      "id": "campus_forest_edge",
+      "version": "v01",
+      "manifest": "blender/environment/campus_forest_edge/v01/asset.json"
+    },
+    {
+      "id": "campus_tile_forest",
+      "version": "v01",
+      "manifest": "blender/environment/campus_tile_forest/v01/asset.json"
+    },
+    {
+      "id": "copilot_security",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_security/v01/asset.json"
+    },
+    {
+      "id": "campus_cave",
+      "version": "v01",
+      "manifest": "blender/environment/campus_cave/v01/asset.json"
+    },
+    {
+      "id": "showcase_workbench",
+      "version": "v01",
+      "manifest": "blender/environment/showcase_workbench/v01/asset.json"
+    },
+    {
+      "id": "copilot_architect",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_architect/v01/asset.json"
     }
   ]
 }

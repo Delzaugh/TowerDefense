@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 import { tapMap } from './mapActions';
 
 test('QA upgrades, external effects, rewards, local saves and repeat work in the test map', async ({ page, isMobile }, testInfo) => {
-  await page.goto('/'); await page.getByLabel('Advance automatically').uncheck();
+  await page.goto('/#/lab'); await page.getByLabel('Advance automatically').uncheck();
   await page.getByLabel('Tower type', { exact: true }).selectOption('tester_probe');
   await tapMap(page, -5, 0, isMobile); await page.getByRole('button', { name: 'Tower 1', exact: true }).click();
   await expect(page.getByTestId('qa-aura')).toContainText('Enemies 10% slower');
@@ -30,7 +30,7 @@ test('QA upgrades, external effects, rewards, local saves and repeat work in the
 });
 
 test('passive Towers expose only applicable controls and do not perform a main action', async ({ page, isMobile }) => {
-  await page.goto('/'); await page.getByLabel('Advance automatically').uncheck();
+  await page.goto('/#/lab'); await page.getByLabel('Advance automatically').uncheck();
   await page.getByLabel('Tower type', { exact: true }).selectOption('support_probe'); await tapMap(page, -5, 0, isMobile);
   await page.getByRole('button', { name: 'Tower 1', exact: true }).click();
   await expect(page.getByTestId('qa-aura')).toContainText('Enemies 10% slower');

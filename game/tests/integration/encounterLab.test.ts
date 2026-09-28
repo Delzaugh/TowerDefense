@@ -1,9 +1,22 @@
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it, vi } from 'vitest';
 import { headlessSlice } from '../../src/content/levels/headlessSlice';
 import { createEncounterLab } from '../../src/session/createEncounterLab';
 import { fakeHost } from '../fixtures/helpers';
+import { encounterSnapshotSchema } from '../../src/simulation/encounter/state';
 
 describe('encounter diagnostic session', () => {
+  it('avoids validating and cloning command history during idle animation frames', () => {
+    const fake = fakeHost(); const lab = createEncounterLab(headlessSlice, fake.host, () => 'lab_run');
+    lab.start();
+    const parse = vi.spyOn(encounterSnapshotSchema, 'safeParse');
+    try {
+      for (let time = 0; time < 1000; time += 16) fake.frame(time);
+      expect(parse).not.toHaveBeenCalled();
+      lab.dispatch({ type: 'start' });
+      fake.frame(1000); fake.frame(1100);
+      expect(lab.getSnapshot().snapshot.tick).toBe(6);
+    } finally { parse.mockRestore(); lab.dispose(); }
+  });
   it('owns one loop, stable snapshots and complete idempotent cleanup', () => {
     const fake = fakeHost(); const lab = createEncounterLab(headlessSlice, fake.host, () => 'lab_run');
     expect(lab.getSnapshot()).toBe(lab.getSnapshot()); lab.start(); lab.start();

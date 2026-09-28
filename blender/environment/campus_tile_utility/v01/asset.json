@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_tile_utility",
+  "displayName": "Utility Yard · concrete service pads",
+  "category": "environment",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/environment/campus_tile_utility/v01/campus_tile_utility_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_tile_utility/v01/build.py",
+    "authoritativeHash": "bff1ac36c12379c3f70c71fc2f679507278943d513a6864c9ce57ffa88911ef2"
+  },
+  "runtime": "assets/runtime/environment/campus_tile_utility_v01.glb",
+  "budgets": {
+    "triangles": 1000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_surface",
+      "anchor_edge_ne",
+      "anchor_edge_n",
+      "anchor_edge_nw",
+      "anchor_edge_sw",
+      "anchor_edge_s",
+      "anchor_edge_se"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "docs/design/Campus_Tile_System.md",
+      "provenance": "Shared hex, frame, level service surface and palette rules."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/campus_tile_utility/v01/revisions/r2_before_r3/campus_tile_utility_v01.glb",
+      "source": "blender/environment/campus_tile_utility/v01/revisions/r2_before_r3/campus_tile_utility_v01.blend",
+      "sha256": "492e9094a234c5350fe1851d65ccc9d26a1ccf44e70ed7993265cc4a872dfb55",
+      "sourceHash": "b5d46a459531cc8bcb45db95add2aba00d2acde96d3699c8b41fc5399270545b"
+    }
+  ],
+  "decisions": "blender/environment/campus_tile_utility/v01/decisions.md",
+  "exportSettings": {
+    "paletteTextureWorkflow": false
+  },
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "chalk": "#6787A3",
+      "ground": "#354B64",
+      "shell": "#24354E",
+      "tile_seam": "#577693"
+    }
+  },
+  "texturePalettes": [
+    {
+      "material": "glacier_palette",
+      "size": [
+        512,
+        512
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#6787A3",
+          "rect": [
+            0,
+            0,
+            8,
+            8
+          ]
+        },
+        "ground": {
+          "color": "#354B64",
+          "rect": [
+            8,
+            0,
+            8,
+            8
+          ]
+        },
+        "shell": {
+          "color": "#24354E",
+          "rect": [
+            16,
+            0,
+            8,
+            8
+          ]
+        },
+        "tile_seam": {
+          "color": "#577693",
+          "rect": [
+            24,
+            0,
+            8,
+            8
+          ]
+        }
+      }
+    }
+  ],
+  "delivery": {
+    "sha256": "6877c24b968ebfae224dc88046dd6ed948a681eb54caf727166be28582b39f3b",
+    "sourceHash": "bff1ac36c12379c3f70c71fc2f679507278943d513a6864c9ce57ffa88911ef2",
+    "report": "blender/environment/campus_tile_utility/v01/validation/report.json",
+    "deliveredAt": "2026-09-24T11:56:43.458Z"
+  }
+}

@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
 
 test('manual dual flow, snapshot restore and reset through the lab', async ({ page }) => {
-  await page.goto('/?lab=encounter');
+  await page.goto('/#/lab');
   await page.getByLabel('Advance automatically').uncheck();
   await page.getByRole('button', { name: 'Start encounter', exact: true }).click();
   await page.getByRole('button', { name: 'Step 60 ticks', exact: true }).click();
@@ -24,7 +24,7 @@ test('manual dual flow, snapshot restore and reset through the lab', async ({ pa
 });
 
 test('hard pause disables manual steps and speed, failure is terminal', async ({ page }) => {
-  await page.goto('/?lab=encounter&fixture=fragile');
+  await page.goto('/?fixture=fragile#/lab');
   await page.getByLabel('Advance automatically').uncheck();
   await page.getByRole('button', { name: 'Start encounter', exact: true }).click();
   await page.getByRole('button', { name: 'Pause encounter', exact: true }).click();
@@ -39,7 +39,7 @@ test('hard pause disables manual steps and speed, failure is terminal', async ({
 });
 
 test('automatic clock runs and lab stays usable in narrow layouts', async ({ page }, testInfo) => {
-  await page.goto('/');
+  await page.goto('/#/lab');
   await expect(page.getByRole('button', { name: /^Edit wave queue/ })).toBeVisible();
   await expect(page.getByRole('img')).toHaveCount(1);
   await page.getByRole('button', { name: 'Start encounter', exact: true }).click();

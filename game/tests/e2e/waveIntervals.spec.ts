@@ -2,7 +2,7 @@ import { expect, test } from '@playwright/test';
 import { closeQueue, openQueue } from './mapActions';
 
 test('millisecond intervals preview rounding, schedule correctly and persist through reload', async ({ page }) => {
-  await page.goto('/'); await openQueue(page);
+  await page.goto('/#/lab'); await openQueue(page);
   await page.getByLabel('Queue preset').selectOption('work');
   const interval = page.getByLabel('Row 1 interval', { exact: true });
   await expect(page.getByText('Interval (ms)', { exact: true })).toBeVisible();

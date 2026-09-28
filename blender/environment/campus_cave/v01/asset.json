@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_cave",
+  "displayName": "Campus cave · mossy rock shelter",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/campus_cave/v01/campus_cave_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_cave/v01/build.py",
+    "authoritativeHash": "fd08ee19604653729a254ef225e1e4684f1a1ed4b8d895ead068e8d185bc708e"
+  },
+  "runtime": "assets/runtime/environment/campus_cave_v01.glb",
+  "budgets": {
+    "triangles": 800,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 64,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_entrance",
+      "anchor_ui"
+    ],
+    "dimensions": {
+      "min": [
+        7,
+        3.8,
+        4.6
+      ],
+      "max": [
+        8.5,
+        4.1,
+        5.5
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "docs/design/Campus_Forest_Kit.md",
+      "provenance": "Established chunky, muted woodland palette and forest campus scale; original cave design from user request."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/campus_cave/v01/decisions.md",
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "stone": "#87968F",
+      "stone_light": "#A6ADA0",
+      "stone_dark": "#657974",
+      "interior": "#354B48",
+      "depth": "#21332F",
+      "moss": "#6F8D68",
+      "moss_light": "#91A17A",
+      "earth": "#8B806B"
+    }
+  },
+  "texturePalettes": [
+    {
+      "material": "campus_cave_palette",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "stone": {
+          "color": "#87968F",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "stone_light": {
+          "color": "#A6ADA0",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "stone_dark": {
+          "color": "#657974",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "interior": {
+          "color": "#354B48",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "depth": {
+          "color": "#21332F",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "moss": {
+          "color": "#6F8D68",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "moss_light": {
+          "color": "#91A17A",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "earth": {
+          "color": "#8B806B",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "delivery": {
+    "sha256": "c62e942e9ba7eddde3f04a5b0e51b863cda70052c3a110c0ec72868b071ac17b",
+    "sourceHash": "fd08ee19604653729a254ef225e1e4684f1a1ed4b8d895ead068e8d185bc708e",
+    "report": "blender/environment/campus_cave/v01/validation/report.json",
+    "deliveredAt": "2026-09-24T13:36:40.374Z"
+  }
+}

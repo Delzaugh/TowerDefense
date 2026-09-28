@@ -16,6 +16,8 @@ function Lab({ session, fixture, onPreset }: { session: EncounterLabSession; fix
   const view = useSyncExternalStore(session.subscribe, session.getSnapshot);
   const state = view.snapshot;
   const content = view.content;
+  const [diagnosticsOpen, setDiagnosticsOpen] = useState(false);
+  const [snapshotOpen, setSnapshotOpen] = useState(false);
   const [waveDirty, setWaveDirty] = useState(false);
   const [waveOpen, setWaveOpen] = useState(false);
   const [inspectorHost, setInspectorHost] = useState<HTMLDivElement | null>(null);
@@ -25,7 +27,7 @@ function Lab({ session, fixture, onPreset }: { session: EncounterLabSession; fix
   const terminal = state.phase === 'drained' || state.phase === 'failed';
   const label = state.paused ? 'Paused' : ({ preparation: 'Preparation', active: 'Active', drained: 'Wave drained', failed: 'Product destroyed' } as const)[state.phase];
   return <main className="test-app">
-    <header className="app-bar"><div className="wordmark">TOWER <span>/ TEST MAP</span></div><span className="badge">Unified test map</span>
+    <header className="app-bar"><div className="wordmark">TOWER <span>/ TEST MAP</span></div><span className="badge">Unified test map</span><a className="lab-home-link" href="#/">← Campus home</a>
       <div className="tower-fields preset-control"><label>Product preset<select aria-label="Product preset" title="Changes health, keeps applied queue, resets towers" value={fixture} disabled={running || view.busy} onChange={event => { if (!waveDirty || window.confirm('Changing Product preset discards your unapplied queue draft and resets the tower layout. Continue?')) onPreset(event.target.value, view.recipe); }}><option value="standard">Standard · 100 health</option><option value="fragile">Failure test · 20 health</option></select></label></div>
       <button aria-haspopup="dialog" onClick={() => setWaveOpen(true)}>Edit wave queue{waveDirty ? ' • draft' : ''}</button><span className="hint">{content.wave.spawns.length} scheduled</span>
     </header>
@@ -68,8 +70,8 @@ function Lab({ session, fixture, onPreset }: { session: EncounterLabSession; fix
     <p className="status" role="status">{view.busy ? 'Working with local storage…' : view.notice}</p>
     {terminal && <p className="status">{state.phase === 'failed' ? 'Failure latched. No further ticks or outcomes can occur.' : 'All scheduled traffic handled. Wave drainage is not Level 1 victory.'}</p>}
     <Modal open={waveOpen} onClose={() => setWaveOpen(false)}><WaveEditor key={canonicalJson(view.recipe)} session={session} onDirty={setWaveDirty} /></Modal>
-    <details className="debug-tray"><summary>Event log &amp; diagnostics</summary><section className="diagnostics"><div><h2>Event log</h2><p className="hint">Latest 60 events, oldest first. Restore clears the display, not event sequence state.</p><ol className="event-log">{view.events.map(event => <li key={event.sequence}><code>#{event.sequence} · t{event.tick} · {event.type}{'towerId' in event ? ` · tower ${event.towerId}` : ''}{'entityId' in event ? ` · entity ${event.entityId}` : ''}{'amount' in event ? ` · output ${event.amount}` : ''}{'damage' in event ? ` · −${event.damage} health` : ''}{'compute' in event ? ` · +${event.compute} Compute · +${event.healing} health` : ''}{'debtAdded' in event ? ' · +1 debt' : ''}</code></li>)}</ol></div>
-      <details><summary>Inspect current snapshot JSON</summary><pre data-testid="snapshot-json">{JSON.stringify({ simulation: state, marker: view.marker, probe: view.probe }, null, 2)}</pre></details></section>
+    <details className="debug-tray" onToggle={event => setDiagnosticsOpen(event.currentTarget.open)}><summary>Event log &amp; diagnostics</summary><section className="diagnostics"><div><h2>Event log</h2><p className="hint">Latest 60 events, oldest first. Restore clears the display, not event sequence state.</p><ol className="event-log">{view.events.map(event => <li key={event.sequence}><code>#{event.sequence} · t{event.tick} · {event.type}{'towerId' in event ? ` · tower ${event.towerId}` : ''}{'entityId' in event ? ` · entity ${event.entityId}` : ''}{'amount' in event ? ` · output ${event.amount}` : ''}{'damage' in event ? ` · −${event.damage} health` : ''}{'compute' in event ? ` · +${event.compute} Compute · +${event.healing} health` : ''}{'debtAdded' in event ? ' · +1 debt' : ''}</code></li>)}</ol></div>
+      <details onToggle={event => setSnapshotOpen(event.currentTarget.open)}><summary>Inspect current snapshot JSON</summary>{diagnosticsOpen && snapshotOpen && <pre data-testid="snapshot-json">{JSON.stringify({ simulation: state, marker: view.marker, probe: view.probe }, null, 2)}</pre>}</details></section>
     <p className="hint">Path-safe tower placement uses a v6 save database. Earlier v1–v5 and foundation saves remain untouched; migration is not automatic.</p></details>
   </main>;
 }

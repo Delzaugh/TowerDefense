@@ -52,8 +52,9 @@ export function TowerLab({ session, inspectorHost }: { session: EncounterLabSess
     const cancel = () => { gesture.current = null; setAim(null); };
     const key = (event: KeyboardEvent) => { if (event.key === 'Escape') cancel(); };
     cancel();
+    window.addEventListener('blur', cancel);
     window.addEventListener('keydown', key); document.addEventListener('visibilitychange', cancel);
-    return () => { window.removeEventListener('keydown', key); document.removeEventListener('visibilitychange', cancel); gesture.current = null; };
+    return () => { window.removeEventListener('blur', cancel); window.removeEventListener('keydown', key); document.removeEventListener('visibilitychange', cancel); gesture.current = null; };
   }, [state.phase, state.paused, state.commandSequence, view.busy]);
   const cx = coverage?.position.x, cz = coverage?.position.z, cf = coverage?.facing;
   const coverageShapes = useMemo(() => {

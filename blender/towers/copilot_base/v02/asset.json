@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "version": "v02",
-  "revision": 3,
+  "revision": 4,
   "contract": {
     "root": "root",
     "up": "+Y",
@@ -51,6 +51,14 @@
       "source": "blender/towers/copilot_base/v02/revisions/r2_before_r3/copilot_base_v02.blend",
       "sha256": "c25f3d3623658a57925aaee65a5f688e6de4e19bdea444a665a2781f13d1588e",
       "sourceHash": "faefde91c627055507c374a073d8133179bfc06f8fef59b9833022ed3167dd55"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/copilot_base/v02/revisions/r3_before_r4/copilot_base_v02.glb",
+      "source": "blender/towers/copilot_base/v02/revisions/r3_before_r4/copilot_base_v02.blend",
+      "sha256": "2fd051fc4a50e490154bc0ba52ecfcaafbb637bb323ef41d4754c45e540456e0",
+      "sourceHash": "8cde3d238c14806a2fd9a6cda98fbc4d42c8457cd652ae19c30286ea404e84cd"
     }
   ],
   "id": "copilot_base",
@@ -59,7 +67,7 @@
   "source": {
     "path": "blender/towers/copilot_base/v02/copilot_base_v02.blend",
     "mode": "manual",
-    "authoritativeHash": "faefde91c627055507c374a073d8133179bfc06f8fef59b9833022ed3167dd55"
+    "authoritativeHash": "8cde3d238c14806a2fd9a6cda98fbc4d42c8457cd652ae19c30286ea404e84cd"
   },
   "runtime": "assets/runtime/towers/copilot_base_v02.glb",
   "budgets": {
@@ -84,23 +92,46 @@
       "meaning": "1.5-second focused forward nod and attentive eye narrowing while doing sustained work."
     },
     {
+      "name": "move",
+      "playback": "loop",
+      "fps": 24,
+      "meaning": "2-second in-place hover glide with restrained lean and eye focus; simulation controls world travel."
+    },
+    {
       "name": "place",
       "playback": "once",
       "fps": 24,
-      "meaning": "1.25-second descending placement settle, ending at the ready hover height."
+      "meaning": "1.25-second digital cube assembly at full body scale, with eyes opening into the ready hover pose; exact reverse of Resolve."
     },
     {
       "name": "hit",
       "playback": "once",
       "fps": 24,
       "meaning": "0.75-second non-terminal recoil and eye squeeze, recovering to the ready hover pose."
+    },
+    {
+      "name": "resolve",
+      "playback": "once",
+      "fps": 24,
+      "meaning": "1.25-second display power-down synchronized with the shared digital cube disintegration; body remains full size."
     }
   ],
+  "presentation": {
+    "resolve": {
+      "type": "digital_blocks",
+      "version": 1,
+      "clip": "resolve",
+      "assembleClip": "place",
+      "cellSize": 0.25,
+      "maxFragments": 40,
+      "edgeColor": "#4CF2FF"
+    }
+  },
   "decisions": "blender/towers/copilot_base/v02/decisions.md",
   "delivery": {
-    "sha256": "2fd051fc4a50e490154bc0ba52ecfcaafbb637bb323ef41d4754c45e540456e0",
-    "sourceHash": "faefde91c627055507c374a073d8133179bfc06f8fef59b9833022ed3167dd55",
+    "sha256": "5e77ade5c6ab41a765cf5f3638ce2629cad6efb1b6c9558d57c41a4642a598cf",
+    "sourceHash": "8cde3d238c14806a2fd9a6cda98fbc4d42c8457cd652ae19c30286ea404e84cd",
     "report": "blender/towers/copilot_base/v02/validation/report.json",
-    "deliveredAt": "2026-09-12T14:48:12.919Z"
+    "deliveredAt": "2026-09-24T09:33:50.648Z"
   }
 }

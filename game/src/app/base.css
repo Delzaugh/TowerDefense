@@ -1,0 +1,13 @@
+:root { font-family: 'Segoe UI', system-ui, sans-serif; color: #deedf7; background: #142337; font-synthesis: none; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+button, input, select { font: inherit; }
+button, a, input { -webkit-tap-highlight-color: transparent; }
+.startup-screen { min-height: 100dvh; padding: clamp(24px, 8vw, 100px); display: flex; flex-direction: column; justify-content: center; align-items: flex-start; background: radial-gradient(ellipse at 65% 12%, #313048, #25374a 43%, #132035); }
+.startup-brand { font-size: 26px; font-weight: 800; letter-spacing: .16em; }
+.startup-brand small { display: block; margin-top: 8px; font-size: 9px; letter-spacing: .38em; color: #a8d3d9; }
+.startup-screen p { line-height: 1.6; color: #bfcedc; max-width: 45ch; }
+.startup-screen button, .startup-screen a { min-height: 44px; padding: 12px 18px; margin: 8px 0; border: 1px solid #8ac5cb; border-radius: 6px; background: #bfe5e1; color: #19394b; cursor: pointer; font-weight: 600; }
+.startup-screen :focus-visible { outline: 3px solid #f0ce92; outline-offset: 3px; }
+.lab-screen { min-height: 100dvh; }
+.lab-screen .lab-home-link { display: block; min-height: 44px; padding: 12px 14px; color: #245d48; font-size: 12px; }

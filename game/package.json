@@ -9,19 +9,24 @@
   "scripts": {
     "dev": "vite --host 127.0.0.1 --port 5173 --strictPort",
     "typecheck": "tsc -p tsconfig.core.json && tsc -p tsconfig.app.json && tsc -p tsconfig.node.json",
-    "lint": "eslint src tests *.ts",
+    "lint": "eslint src build tests *.ts",
     "check:boundaries": "depcruise --config .dependency-cruiser.cjs src",
     "test": "vitest run",
     "test:watch": "vitest",
     "build": "npm run typecheck && vite build",
+    "build:pages": "npm run build -- --base=/TowerDefense/ && node tools/package-pages.mjs",
     "preview": "vite preview --host 127.0.0.1 --port 5173 --strictPort",
     "test:e2e": "playwright test",
-    "verify": "npm run lint && npm run check:boundaries && npm run test && npm run build && npm run test:e2e"
+    "test:deployment": "vite build --base=/TowerDefense/ --outDir=test-results/subpath-build && playwright test --config=playwright.deployment.config.ts",
+    "verify": "npm run lint && npm run check:boundaries && npm run test && npm run build && npm run test:e2e && npm run test:deployment"
   },
   "dependencies": {
+    "@fontsource-variable/mona-sans": "5.3.0",
+    "@primer/octicons-react": "19.38.0",
     "idb": "8.0.3",
     "react": "19.3.0",
     "react-dom": "19.3.0",
+    "three": "0.180.0",
     "zod": "4.6.2"
   },
   "devDependencies": {
@@ -29,6 +34,7 @@
     "@types/node": "24.13.4",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
+    "@types/three": "0.180.0",
     "@vitejs/plugin-react": "6.1.1",
     "dependency-cruiser": "18.2.0",
     "eslint": "10.10.0",

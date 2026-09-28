@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_canyon_decor",
+  "displayName": "Campus canyon bridge and survey overlook",
+  "category": "environment",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/environment/campus_canyon_decor/v01/campus_canyon_decor_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_canyon_decor/v01/build.py",
+    "authoritativeHash": "d7414ddbb05a3d0374291829b915f69433af1d9495a5a3e6848d6d644ff02758"
+  },
+  "runtime": "assets/runtime/environment/campus_canyon_decor_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_start",
+      "anchor_end",
+      "anchor_route_north",
+      "anchor_route_south",
+      "anchor_overlook"
+    ],
+    "dimensions": {
+      "min": [
+        21.82,
+        3.31,
+        23.24
+      ],
+      "max": [
+        21.84,
+        3.33,
+        23.25
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "docs/design/Campus_Tile_System.md",
+      "provenance": "Project shared frame, scale and joining contract; original canyon geometry authored to user request."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/campus_canyon_decor/v01/revisions/r2_before_r3/campus_canyon_decor_v01.glb",
+      "source": "blender/environment/campus_canyon_decor/v01/revisions/r2_before_r3/campus_canyon_decor_v01.blend",
+      "sha256": "d9bea214225d1d840611ab47257f4b4a9e1e98e7b2c53ade8988e57da9f551b5",
+      "sourceHash": "d9a5f23b7cb7d3c9fa09db4da788bb0226bce3508f5d968c835396d465196239"
+    }
+  ],
+  "decisions": "blender/environment/campus_canyon_decor/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "canyon_palette",
+      "size": [
+        512,
+        512
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#6787A3",
+          "rect": [
+            0,
+            0,
+            8,
+            8
+          ]
+        },
+        "ground": {
+          "color": "#354B64",
+          "rect": [
+            8,
+            0,
+            8,
+            8
+          ]
+        },
+        "shell": {
+          "color": "#24354E",
+          "rect": [
+            16,
+            0,
+            8,
+            8
+          ]
+        },
+        "tile_seam": {
+          "color": "#577693",
+          "rect": [
+            24,
+            0,
+            8,
+            8
+          ]
+        },
+        "sand": {
+          "color": "#B9906B",
+          "rect": [
+            32,
+            0,
+            8,
+            8
+          ]
+        },
+        "rock": {
+          "color": "#C68D65",
+          "rect": [
+            40,
+            0,
+            8,
+            8
+          ]
+        },
+        "strata": {
+          "color": "#985F49",
+          "rect": [
+            48,
+            0,
+            8,
+            8
+          ]
+        },
+        "light": {
+          "color": "#DCB182",
+          "rect": [
+            56,
+            0,
+            8,
+            8
+          ]
+        },
+        "bed": {
+          "color": "#786C60",
+          "rect": [
+            64,
+            0,
+            8,
+            8
+          ]
+        },
+        "water": {
+          "color": "#4C939C",
+          "rect": [
+            72,
+            0,
+            8,
+            8
+          ]
+        },
+        "edge": {
+          "color": "#2D435C",
+          "rect": [
+            80,
+            0,
+            8,
+            8
+          ]
+        },
+        "path": {
+          "color": "#48647D",
+          "rect": [
+            88,
+            0,
+            8,
+            8
+          ]
+        },
+        "signal": {
+          "color": "#82DADD",
+          "rect": [
+            96,
+            0,
+            8,
+            8
+          ]
+        },
+        "metal": {
+          "color": "#89A4B8",
+          "rect": [
+            104,
+            0,
+            8,
+            8
+          ]
+        },
+        "leaf": {
+          "color": "#698A76",
+          "rect": [
+            112,
+            0,
+            8,
+            8
+          ]
+        },
+        "leaflight": {
+          "color": "#93A287",
+          "rect": [
+            120,
+            0,
+            8,
+            8
+          ]
+        },
+        "dark": {
+          "color": "#305775",
+          "rect": [
+            128,
+            0,
+            8,
+            8
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "chalk": "#6787A3",
+      "ground": "#354B64",
+      "shell": "#24354E",
+      "tile_seam": "#577693",
+      "sand": "#B9906B",
+      "rock": "#C68D65",
+      "strata": "#985F49",
+      "light": "#DCB182",
+      "bed": "#786C60",
+      "water": "#4C939C",
+      "edge": "#2D435C",
+      "path": "#48647D",
+      "signal": "#82DADD",
+      "metal": "#89A4B8",
+      "leaf": "#698A76",
+      "leaflight": "#93A287",
+      "dark": "#305775"
+    }
+  },
+  "exportSettings": {
+    "paletteTextureWorkflow": false
+  },
+  "delivery": {
+    "sha256": "cccf5a551b86dd1d91d46e409e8901ddbdfb5b9342708e0e7df6325617054b22",
+    "sourceHash": "d7414ddbb05a3d0374291829b915f69433af1d9495a5a3e6848d6d644ff02758",
+    "report": "blender/environment/campus_canyon_decor/v01/validation/report.json",
+    "deliveredAt": "2026-09-24T11:16:06.156Z"
+  }
+}

@@ -4,12 +4,12 @@
   "displayName": "Campus plaza tile",
   "category": "environment",
   "version": "v01",
-  "revision": 5,
+  "revision": 7,
   "source": {
     "path": "blender/environment/campus_tile_plaza/v01/campus_tile_plaza_v01.blend",
     "mode": "procedural",
     "recipe": "blender/environment/campus_tile_plaza/v01/build.py",
-    "authoritativeHash": "aeefd46e6b1b73610fa2b3c08d60ce449c1b448f8af777aa569d53505ea60860"
+    "authoritativeHash": "3697f3b3dfdd3999162e69ee3944c57a28961cde865273886abf4c3c7fdd8afa"
   },
   "runtime": "assets/runtime/environment/campus_tile_plaza_v01.glb",
   "budgets": {
@@ -86,6 +86,22 @@
       "source": "blender/environment/campus_tile_plaza/v01/revisions/r4_before_r5/campus_tile_plaza_v01.blend",
       "sha256": "e5cc8414b2b5789cf8db0b39a534d2aed53b4063fbb00904ff0ae6cdd4c67729",
       "sourceHash": "18996469db0c6c07b6bf339362b84548654b1e1a21fc5fc7248b44ec69c79040"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/environment/campus_tile_plaza/v01/revisions/r5_before_r6/campus_tile_plaza_v01.glb",
+      "source": "blender/environment/campus_tile_plaza/v01/revisions/r5_before_r6/campus_tile_plaza_v01.blend",
+      "sha256": "c6664513f2b06ee4bddc84eebee0861a840797217f1a406bf79c4518d945df05",
+      "sourceHash": "aeefd46e6b1b73610fa2b3c08d60ce449c1b448f8af777aa569d53505ea60860"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/environment/campus_tile_plaza/v01/revisions/r6_before_r7/campus_tile_plaza_v01.glb",
+      "source": "blender/environment/campus_tile_plaza/v01/revisions/r6_before_r7/campus_tile_plaza_v01.blend",
+      "sha256": "518bed82b80f705d971a6f2de3b22216c92a25bcc49a7f3c4c28fa8e000a388b",
+      "sourceHash": "a6b7bb4877dcf80b96d7fa988b1a592b7d800bd504238f37b454d588461eb00e"
     }
   ],
   "decisions": "blender/environment/campus_tile_plaza/v01/decisions.md",
@@ -150,9 +166,9 @@
     "paletteTextureWorkflow": false
   },
   "delivery": {
-    "sha256": "c6664513f2b06ee4bddc84eebee0861a840797217f1a406bf79c4518d945df05",
-    "sourceHash": "aeefd46e6b1b73610fa2b3c08d60ce449c1b448f8af777aa569d53505ea60860",
+    "sha256": "934519011a73ab91eafabe605cfcb2d4b09026925e1f509839b4188235a5ea45",
+    "sourceHash": "3697f3b3dfdd3999162e69ee3944c57a28961cde865273886abf4c3c7fdd8afa",
     "report": "blender/environment/campus_tile_plaza/v01/validation/report.json",
-    "deliveredAt": "2026-09-18T16:59:06.666Z"
+    "deliveredAt": "2026-09-24T11:55:59.109Z"
   }
 }

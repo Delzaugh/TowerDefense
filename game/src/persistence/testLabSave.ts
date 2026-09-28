@@ -15,17 +15,20 @@ const schema = z.strictObject({ format: z.literal('tower.test-lab.save'), versio
   snapshot: encounterSnapshotSchema, marker: pointSchema.nullable(),
 });
 export const canSaveLab = (snapshot: EncounterSnapshot) => snapshot.phase !== 'active';
-export function parseLabSave(base: EncounterContent, input: unknown) {
+export function restoreLabSave(base: EncounterContent, input: unknown) {
   const envelope = parseData(schema, input);
   // Queue may differ, but a save cannot silently replace this map, preset, or tower rules.
   if (canonicalJson({ ...envelope.content, wave: base.wave }) !== canonicalJson(base)) throw new Error('Save belongs to incompatible map/preset content.');
   const compiled = compileWaveRecipe(base, envelope.recipe);
   if (canonicalJson(compiled.content) !== canonicalJson(envelope.content)) throw new Error('Saved recipe and resolved content disagree.');
-  restoreEncounter(envelope.content, envelope.snapshot);
+  const encounter = restoreEncounter(envelope.content, envelope.snapshot);
   prepareBlueprint(envelope.content, envelope.blueprint, 'validate_blueprint');
   if (!canSaveLab(envelope.snapshot)) throw new ValidationError([{ code: 'save_not_allowed', path: 'snapshot.phase', message: 'Local saves require preparation or a finished run; pause does not enable saving.' }]);
   if (envelope.marker && markerRejection(envelope.content, envelope.marker)) throw new ValidationError([{ code: 'invalid_marker', path: 'marker', message: 'Saved marker geometry is invalid.' }]);
-  return freezeData(envelope);
+  return { envelope: freezeData(envelope), encounter };
+}
+export function parseLabSave(base: EncounterContent, input: unknown) {
+  return restoreLabSave(base, input).envelope;
 }
 export function createLabSave(content: EncounterContent, snapshot: EncounterSnapshot, marker: unknown,
   recipe: unknown = recipeFromContent(content), blueprint: unknown = captureBlueprint(snapshot, marker)) {

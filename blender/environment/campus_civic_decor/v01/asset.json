@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_civic_decor",
+  "displayName": "Civic Plaza · gateway court",
+  "category": "environment",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/environment/campus_civic_decor/v01/campus_civic_decor_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_civic_decor/v01/build.py",
+    "authoritativeHash": "8000395abb399d27eb21db409c506b852f0294f5f826ceef2c8c51d058419cb3"
+  },
+  "runtime": "assets/runtime/environment/campus_civic_decor_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 64,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": []
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/environment/campus_base_hex/v01/surface.py",
+      "provenance": "Shared campus slate edge and source texture convention."
+    },
+    {
+      "path": "game/src/content/maps/campusHome.ts",
+      "provenance": "Existing lab, solar and route clearances retained; parent owns placement integration."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/campus_civic_decor/v01/revisions/r2_before_r3/campus_civic_decor_v01.glb",
+      "source": "blender/environment/campus_civic_decor/v01/revisions/r2_before_r3/campus_civic_decor_v01.blend",
+      "sha256": "d7267cb0727d5d52961743be30083d8fb734299fc479cbfb13e9795a4266d613",
+      "sourceHash": "80674169d1ebad1e14ede390dab96959eaeb38a9c40c9a8458fdc93a6157380e"
+    }
+  ],
+  "decisions": "blender/environment/campus_civic_decor/v01/decisions.md",
+  "exportSettings": {
+    "paletteTextureWorkflow": false
+  },
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "stone": "#DBE2DB",
+      "base": "#81979F",
+      "metal": "#354B64",
+      "wood": "#BAA68C",
+      "aqua": "#8CD4CD",
+      "soil": "#5D6962",
+      "leaf": "#7AA58A",
+      "leaf_light": "#A9B99A"
+    }
+  },
+  "texturePalettes": [
+    {
+      "material": "civic_palette",
+      "size": [
+        64,
+        8
+      ],
+      "roles": {
+        "stone": {
+          "color": "#DBE2DB",
+          "rect": [
+            0,
+            0,
+            8,
+            8
+          ]
+        },
+        "base": {
+          "color": "#81979F",
+          "rect": [
+            8,
+            0,
+            8,
+            8
+          ]
+        },
+        "metal": {
+          "color": "#354B64",
+          "rect": [
+            16,
+            0,
+            8,
+            8
+          ]
+        },
+        "wood": {
+          "color": "#BAA68C",
+          "rect": [
+            24,
+            0,
+            8,
+            8
+          ]
+        },
+        "aqua": {
+          "color": "#8CD4CD",
+          "rect": [
+            32,
+            0,
+            8,
+            8
+          ]
+        },
+        "soil": {
+          "color": "#5D6962",
+          "rect": [
+            40,
+            0,
+            8,
+            8
+          ]
+        },
+        "leaf": {
+          "color": "#7AA58A",
+          "rect": [
+            48,
+            0,
+            8,
+            8
+          ]
+        },
+        "leaf_light": {
+          "color": "#A9B99A",
+          "rect": [
+            56,
+            0,
+            8,
+            8
+          ]
+        }
+      }
+    }
+  ],
+  "delivery": {
+    "sha256": "d49ff842b368a4520a6258acd9a107a77e2ff4927728f6f94e0843593c3b4579",
+    "sourceHash": "8000395abb399d27eb21db409c506b852f0294f5f826ceef2c8c51d058419cb3",
+    "report": "blender/environment/campus_civic_decor/v01/validation/report.json",
+    "deliveredAt": "2026-09-24T11:13:30.254Z"
+  }
+}

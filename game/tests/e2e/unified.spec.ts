@@ -2,7 +2,7 @@ import { placeTower, openDiagnostics } from './mapActions';
 import { expect, test } from '@playwright/test';
 
 test('one map combines towers and geometry, with separate preset saves and untouched legacy data', async ({ page }, testInfo) => {
-  await page.goto('/');
+  await page.goto('/#/lab');
   await page.evaluate(async () => {
     await new Promise<void>((resolve, reject) => {
       const request = indexedDB.open('tower-foundation-v1', 1);

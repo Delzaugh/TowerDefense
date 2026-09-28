@@ -11,7 +11,7 @@ async function screenPoint(page: Page, x: number, z: number) {
 }
 
 test('selected settings and drag aiming affect one tower, with preview, cancellation and phase locks', async ({ page, isMobile }, testInfo) => {
-  await page.goto('/'); await page.getByLabel('Advance automatically').uncheck();
+  await page.goto('/#/lab'); await page.getByLabel('Advance automatically').uncheck();
   const first = await screenPoint(page, -5, 0);
   if (isMobile) await page.touchscreen.tap(first.x, first.y); else await page.mouse.click(first.x, first.y);
   await page.getByLabel('Tower coverage', { exact: true }).selectOption('cone');
@@ -66,7 +66,7 @@ test('selected settings and drag aiming affect one tower, with preview, cancella
 });
 
 test('queue edits stay drafts, apply with the defense, save custom content and repeat cleanly', async ({ page }, testInfo) => {
-  await page.goto('/'); await placeTower(page);
+  await page.goto('/#/lab'); await placeTower(page);
   await openQueue(page);
   await page.getByLabel('Queue preset').selectOption('work');
   await page.getByLabel('Row 1 count', { exact: true }).fill('2');
@@ -112,7 +112,7 @@ test('queue edits stay drafts, apply with the defense, save custom content and r
 });
 
 test('recipe JSON and health presets preserve applied queue and explicitly discard dirty drafts', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/#/lab');
   await openQueue(page);
   await page.getByLabel('Queue preset').selectOption('burst');
   await page.getByText('Import / export recipe JSON', { exact: true }).click();

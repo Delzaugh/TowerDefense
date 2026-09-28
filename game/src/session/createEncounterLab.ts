@@ -10,7 +10,7 @@ import { markerRejection } from '../simulation/encounter/diagnostics';
 import { pointSchema } from '../content/schemas/scenario';
 import { freezeData } from '../content/schemas/data';
 import type { SaveRepository } from '../persistence/saveRepository';
-import { canSaveLab, createLabSave, parseLabSave } from '../persistence/testLabSave';
+import { canSaveLab, createLabSave, restoreLabSave } from '../persistence/testLabSave';
 import { compileWaveRecipe, recipeFromContent } from '../content/waveRecipe';
 import { captureBlueprint, prepareBlueprint } from '../simulation/encounter/blueprint';
 import type { Blueprint } from '../simulation/encounter/blueprint';
@@ -47,7 +47,7 @@ export function createEncounterLab(content: EncounterContent, host: FrameHost, r
   };
   let view = makeView();
   const publish = () => { if (!disposed) { view = makeView(); for (const listener of listeners) listener(); } };
-  const record = (batch: readonly EncounterEvent[]) => { events = Object.freeze([...events, ...batch].slice(-60)); };
+  const record = (batch: readonly EncounterEvent[]) => { if (batch.length) events = Object.freeze([...events, ...batch].slice(-60)); };
   const allowed = () => !disposed && !host.isHidden() && !busy;
   async function storageAction(operation: () => Promise<void>) {
     if (!allowed()) return;
@@ -65,7 +65,9 @@ export function createEncounterLab(content: EncounterContent, host: FrameHost, r
   function frame(timestamp: number) {
     frameId = null;
     if (disposed || !started) return;
-    const snapshot = encounter.capture();
+    // Every mutation publishes before the next browser frame. Reuse that immutable
+    // view instead of validating/cloning the full command history on idle frames.
+    const snapshot = view.snapshot;
     if (automatic && !host.isHidden() && snapshot.phase === 'active' && !snapshot.paused) {
       const result = clock.advance(timestamp, snapshot.speed, () => {
         const step = encounter.advanceOneTick(); record(step.events); return step.advanced;
@@ -176,8 +178,7 @@ export function createEncounterLab(content: EncounterContent, host: FrameHost, r
         const record = await repository!.read();
         if (disposed) return;
         if (!record) { revision = null; notice = 'No local test-map save exists.'; return; }
-        const envelope = parseLabSave(content, record.envelope);
-        const candidate = restoreEncounter(envelope.content, envelope.snapshot);
+        const { envelope, encounter: candidate } = restoreLabSave(content, record.envelope);
         content = envelope.content; recipe = envelope.recipe; startingBlueprint = envelope.blueprint; capturedBlueprint = null;
         probeRoute = compileRoute(content.map.routes[0]!.points); epoch++;
         encounter = candidate; marker = envelope.marker; revision = record.revision;

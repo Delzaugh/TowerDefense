@@ -1,0 +1,61 @@
+import * as THREE from 'three';
+import type { GLTF } from 'three/addons/loaders/GLTFLoader.js';
+import { describe, expect, it, vi } from 'vitest';
+import { createCampusAmbient } from '../../src/rendering/campus/ambient';
+import { disposeSceneResources } from '../../src/rendering/campus/resources';
+
+it('plays authored planting, hides transient effects under reduced motion, and releases effect resources', () => {
+  const campus = new THREE.Group();
+  const geometry = new THREE.BoxGeometry();
+  geometry.morphAttributes.position = [geometry.attributes.position!.clone()];
+  const plant = new THREE.Mesh(geometry, new THREE.MeshStandardMaterial());
+  plant.name = 'campus_bush_round';
+  const instance = new THREE.Group(); instance.name = plant.name; instance.add(plant); campus.add(instance);
+  const clip = new THREE.AnimationClip('idle', 4, [new THREE.NumberKeyframeTrack('campus_bush_round.morphTargetInfluences[0]', [0, 2, 4], [0, 1, 0])]);
+  const models = new Map([[plant.name, { animations: [clip] } as unknown as GLTF]]);
+  const table = new THREE.Group(); table.name = 'campus_cafe_table';
+  const anchor = new THREE.Object3D(); anchor.name = 'anchor_steam'; anchor.position.set(0, 1.4, 0); table.add(anchor); campus.add(table);
+  const pond = new THREE.Group(); pond.name = 'campus_pond'; campus.add(pond);
+  const forest = new THREE.Group(); forest.name = 'campus_tile_forest'; campus.add(forest);
+  const residents = new THREE.Group();
+  const speaker = new THREE.Group(); speaker.name = 'copilot-civic'; speaker.position.set(4, 1.28, 8); residents.add(speaker);
+  const octocat = new THREE.Group(); octocat.name = 'octocat-plaza'; octocat.position.set(4, 1.28, 10); residents.add(octocat);
+  const ambient = createCampusAmbient(campus, models, residents);
+  const steam = ambient.group.children.find(object => object.name === 'Coffee steam') as THREE.Sprite;
+  const speech = ambient.group.children.filter(object => object.name === 'Conversation') as THREE.Sprite[];
+  const initial = steam.position.clone();
+  speaker.userData.speaking = true;
+  octocat.userData.speaking = true;
+  ambient.update(1);
+  expect(plant.morphTargetInfluences![0]).toBeGreaterThan(0);
+  expect(steam.position.distanceTo(initial)).toBeGreaterThan(.1);
+  expect(speech.map(cue => cue.visible)).toEqual([true, true]);
+  expect(speech.map(cue => cue.position.toArray())).toEqual([[4, 4.38, 8], [4, 3.88, 10]]);
+  const posed = steam.position.clone();
+  ambient.setReducedMotion(true);
+  expect(ambient.group.visible).toBe(false);
+  ambient.update(1);
+  expect(steam.position.equals(posed)).toBe(true);
+  ambient.setReducedMotion(false);
+  expect(ambient.group.visible).toBe(true);
+  const texture = vi.spyOn(steam.material.map!, 'dispose');
+  const material = vi.spyOn(steam.material, 'dispose');
+  const leaves = ambient.group.children.find(object => object instanceof THREE.InstancedMesh) as THREE.InstancedMesh;
+  const instanceDisposed = vi.spyOn(leaves, 'dispose');
+  ambient.dispose();
+  ambient.update(1);
+  expect(steam.position.equals(posed)).toBe(true);
+  disposeSceneResources([campus, ambient.group]);
+  expect(texture).toHaveBeenCalledTimes(1);
+  expect(material).toHaveBeenCalledTimes(1);
+  expect(instanceDisposed).toHaveBeenCalledTimes(1);
+});
+
+describe('reduced-motion startup', () => {
+  it('starts with transient weather and social cues hidden', () => {
+    const ambient = createCampusAmbient(new THREE.Group(), new Map(), new THREE.Group(), true);
+    expect(ambient.group.visible).toBe(false);
+    ambient.dispose();
+    disposeSceneResources([ambient.group]);
+  });
+});

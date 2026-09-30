@@ -1,6 +1,8 @@
 # Light default and Tester inspection release
 
 Baseline: `706589032a9d53f65e88991a465be243c2ebf661`.
+Source revision: `b8281073cbef447b8e97eb2c927426062f5cd0a8`.
+Packaged Pages release: `332daf938bdc35be`, 78 files under `/TowerDefense/`.
 
 Light is the default for new visits, invalid preferences and unavailable browser storage. Saved Dark/System preferences remain supported. Initial HTML applies the preference before module download; the native browser theme colour follows later appearance changes.
 

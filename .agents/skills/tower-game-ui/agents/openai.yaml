@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tower game UI"
+  short_description: "Reuse and extend Tower's Primer-inspired game UI"
+  default_prompt: "Use $tower-game-ui to implement or review this Tower game UI change with shared components, stories and appropriate checks."

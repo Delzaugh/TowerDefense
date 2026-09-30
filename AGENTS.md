@@ -11,3 +11,11 @@ For creating, refining, rigging, coloring, exporting or reviewing a game model, 
 - A procedural rebuild must preserve manually edited source: the delivery command checks the recorded source hash. Use ordinary export when the edited `.blend` is authoritative.
 - Keep one editor per Blender scene. The optional asset reviewer is read-only and is used when independent review is requested; it does not imply mandatory delegation or an approval gate.
 - After your Blender work finishes, clean up stray thumbnail-cache folders it created at the project root. The known pattern is a garbled-name folder or a stray root `OneDrive` folder containing only the empty directories `.thumbnails/fail/blender` and `.thumbnails/large`. Before deleting each folder, verify that it is a direct child of this project root, has no files or reparse points, and contains only that exact directory tree. Leave any folder with other contents untouched; do not remove production assets or other agents' active work. Check the root again before reporting Blender work complete.
+
+# Tower game UI work
+
+For designing, implementing, refactoring or reviewing game menus, HUD, themes or reusable React UI, read `.agents/skills/tower-game-ui/SKILL.md` and `docs/design/UI_Field_Kit.md`.
+
+- Reuse `game/src/ui/toolkit/` exports and semantic tokens. Keep game data, commands, navigation, focus/input routing and screen layout in consuming screens.
+- Add or update the matching Storybook states when changing shared component behavior. Keep examples outside production `src/` and import real components.
+- Use the skill's focused checks and verify affected real game screens; Storybook does not establish renderer framing or world input behavior.

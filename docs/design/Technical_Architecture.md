@@ -188,6 +188,10 @@ The internal editor is a development tool, not an Alpha player-facing feature. I
 - Alpha does not require a backend, online multiplayer, player accounts, cloud saves, procedural maps, a player-facing map creator, or a full internal editor before the core vertical slice is proven.
 - Alpha includes data-driven tower line of sight, blocker-aware target validation, and prohibited placement footprints. Initial maps include a Server building that blocks sight and rejects tower placement on its footprint.
 
+## Shared game UI
+
+The shared React UI implementation contract is recorded in [UI Field kit](UI_Field_Kit.md). Its toolkit owns appearance and native control behavior; screens own game context and commands. The separate Storybook workshop imports the toolkit without constructing a session or loading renderer assets. Import-boundary checks keep toolkit dependencies independent of gameplay and keep development workshop code out of production imports.
+
 ## Decisions intentionally left open
 
 **Status: Open implementation choices**

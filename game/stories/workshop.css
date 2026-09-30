@@ -1,0 +1,25 @@
+/* Documentation layout only. Component appearance comes from the real toolkit. */
+body { margin: 0; background: var(--ui-bg); color: var(--ui-fg); font-family: var(--ui-font); }
+.workshop { min-width: 0; color: var(--ui-fg); font-family: var(--ui-font); font-size: 14px; line-height: 1.5; }
+.workshop *, .workshop *::before, .workshop *::after { box-sizing: border-box; }
+.workshop h1, .workshop h2, .workshop p { margin: 0; }
+.workshop h1 { font-size: clamp(26px, 4vw, 38px); line-height: 1.15; }
+.workshop h2 { font-size: 17px; }
+.workshop p { color: var(--ui-muted); }
+.workshop-stack { display: grid; gap: 20px; max-width: 1040px; }
+.workshop-stack > .ui-badge { justify-self: start; }
+.workshop-row { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+.workshop-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 20px; }
+.workshop-panel { padding: 24px; display: grid; gap: 16px; min-width: 0; }
+.workshop-field { display: grid; gap: 8px; min-width: 0; }
+.workshop-field label { font-weight: 600; }
+.workshop-check { display: flex; align-items: center; gap: 10px; min-height: 44px; }
+.workshop-error { color: var(--ui-danger) !important; font-size: 12px; }
+.workshop-world { background: linear-gradient(145deg, #263e49, #14262e); min-height: 260px; }
+.workshop-page { position: relative; isolation: isolate; min-height: 75vh; overflow: hidden; background: var(--ui-bg); }
+.workshop-page > .ui-page-atmosphere { position: absolute; inset: 0; }
+.workshop-page__content { position: relative; padding: 24px; display: grid; gap: 24px; }
+.workshop-preview { position: relative; isolation: isolate; overflow: hidden; min-height: 360px; }
+.workshop-preview__caption { position: relative; padding: 24px; }
+.workshop[data-motion='reduce'] *, .workshop[data-motion='reduce'] *::before, .workshop[data-motion='reduce'] *::after { animation: none !important; transition: none !important; }
+@media (max-width: 480px) { .workshop-panel, .workshop-page__content { padding: 16px; } }

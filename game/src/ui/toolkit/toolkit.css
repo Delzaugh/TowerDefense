@@ -14,6 +14,7 @@
   --ui-positive: #1a7f37;
   --ui-attention: #9a6700;
   --ui-danger: #cf222e;
+  --ui-on-danger: #fff;
   --ui-shadow: 0 8px 24px #1f232818;
   --ui-radius: 8px;
   --ui-radius8: var(--ui-radius);
@@ -33,10 +34,11 @@
   --ui-accent: #58a6ff;
   --ui-accent-soft: #142c49;
   --ui-primary: #238636;
-  --ui-primary-hover: #29903b;
+  --ui-primary-hover: #1f7a31;
   --ui-positive: #3fb950;
   --ui-attention: #d29922;
-  --ui-danger: #f85149;
+  --ui-danger: #ff7b72;
+  --ui-on-danger: #0d1117;
   --ui-shadow: 0 8px 24px #01040945;
   --ui-backdrop: #010409b8;
   --ui-focus: #58a6ff;
@@ -55,7 +57,7 @@
 .ui-button--quiet { background: transparent; border-color: transparent; box-shadow: none; }
 .ui-button--quiet:hover:not(:disabled) { background: var(--ui-raised); }
 .ui-button--danger { color: var(--ui-danger); }
-.ui-button--danger:hover:not(:disabled) { background: var(--ui-danger); color: var(--ui-on-primary); border-color: var(--ui-danger); }
+.ui-button--danger:hover:not(:disabled) { background: var(--ui-danger); color: var(--ui-on-danger); border-color: var(--ui-danger); }
 .ui-button[aria-pressed='true']:not(:disabled) { color: var(--ui-accent); background: var(--ui-accent-soft); border-color: var(--ui-accent); }
 .ui-button:disabled, .ui-segments button:disabled, .ui-input:disabled, .ui-checkbox:disabled { opacity: .5; cursor: not-allowed; box-shadow: none; }
 .ui-button:focus-visible, .ui-segments button:focus-visible, .ui-input:focus-visible, .ui-checkbox:focus-visible { outline: 2px solid var(--ui-focus); outline-offset: 3px; }

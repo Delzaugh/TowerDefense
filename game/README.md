@@ -47,6 +47,12 @@ Use the selected-tower inspector for Area/Cone, Mode/Priority and numeric or dra
 
 ## Verification commands
 
+### UI workshop
+
+Run `npm run storybook` from `game/` to open the shared Field kit on `http://127.0.0.1:6006/`. Stories use the actual React controls and cover states, Light/Dark/System appearance, reduced motion, phone/landscape layouts and accessibility. `npm run verify:ui` builds and checks this workshop separately from the production game. See the [UI Field kit contract](../docs/design/UI_Field_Kit.md) for ownership, reuse and extension rules, and the repository [tower-game-ui skill](../.agents/skills/tower-game-ui/SKILL.md) for future implementation work. UI checks also run in `.github/workflows/ui-toolkit.yml`.
+
+### Game checks
+
 ```powershell
 npm run verify
 ```

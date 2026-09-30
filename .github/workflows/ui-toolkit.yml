@@ -1,0 +1,55 @@
+name: UI Field kit
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - game/**
+      - tools/asset-presentation/**
+      - docs/design/UI_Field_Kit.md
+      - .agents/skills/tower-game-ui/**
+      - .github/workflows/ui-toolkit.yml
+  pull_request:
+    paths:
+      - game/**
+      - tools/asset-presentation/**
+      - docs/design/UI_Field_Kit.md
+      - .agents/skills/tower-game-ui/**
+      - .github/workflows/ui-toolkit.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ui-field-kit-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  workshop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: game
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: game/package-lock.json
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run verify:ui
+      - name: Build production game
+        run: npm run build
+      - name: Upload UI workshop and failure traces
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ui-field-kit
+          retention-days: 7
+          path: |
+            game/storybook-static/
+            game/test-results/

@@ -1,7 +1,7 @@
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
-  { ignores: ['dist/**', 'node_modules/**', 'test-results/**', 'playwright-report/**'] },
+  { ignores: ['dist/**', 'storybook-static/**', 'node_modules/**', 'test-results/**', 'playwright-report/**'] },
   ...tseslint.configs.recommended,
   {
     files: ['src/simulation/**/*.ts', 'src/content/**/*.ts', 'src/session/fixedStepClock.ts'],

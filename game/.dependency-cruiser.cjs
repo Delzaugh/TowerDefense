@@ -2,6 +2,12 @@ module.exports = {
   forbidden: [
     { name: 'no-cycles', severity: 'error', from: {}, to: { circular: true } },
     { name: 'production-not-tests', severity: 'error', from: { path: '^src/' }, to: { path: '^tests/' } },
+    { name: 'production-not-workshop', severity: 'error', from: { path: '^src/' }, to: { path: '^(stories/|\\.storybook/|node_modules/(storybook|@storybook)/)' } },
+    {
+      name: 'ui-toolkit-independent', severity: 'error',
+      from: { path: '^src/ui/toolkit/' },
+      to: { path: '^src/(app|rendering|session|simulation|content|progression|persistence)/' },
+    },
     {
       name: 'pure-core-only', severity: 'error',
       from: { path: '^src/(simulation|content|progression)/' },

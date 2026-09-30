@@ -2,9 +2,12 @@ import { Component, Suspense, lazy, useSyncExternalStore } from 'react';
 import type { ReactNode } from 'react';
 import { resolveAppRoute } from './routes';
 import { Button } from '../ui/toolkit';
+import { PerformancePanel } from './performance/PerformancePanel';
 
 const HomeScreen = lazy(async () => ({ default: (await import('./home/HomeScreen')).HomeScreen }));
 const LabScreen = lazy(async () => ({ default: (await import('./LabScreen')).LabScreen }));
+// Keep the import inside the compile-time branch: excluded builds have no fixture chunk or assets.
+const StressScreen = __STRESS_MAP_ENABLED__ ? lazy(async () => ({ default: (await import('../dev/stress/StressScreen')).StressScreen })) : null;
 const getRoute = () => resolveAppRoute(window.location.href);
 function subscribeRoute(changed: () => void) {
   window.addEventListener('hashchange', changed); window.addEventListener('popstate', changed);
@@ -23,7 +26,7 @@ class ScreenBoundary extends Component<{ children: ReactNode }, { failed: boolea
 }
 export function App() {
   const route = useSyncExternalStore(subscribeRoute, getRoute);
-  return <ScreenBoundary key={route}><Suspense fallback={<StartupNotice><p role="status">Opening your campus…</p></StartupNotice>}>
-    {route === 'home' ? <HomeScreen /> : route === 'lab' ? <LabScreen /> : <StartupNotice><h1>This place isn’t on the map.</h1><a href="#/">Return home</a></StartupNotice>}
-  </Suspense></ScreenBoundary>;
+  return <><ScreenBoundary key={route}><Suspense fallback={<StartupNotice><p role="status">Opening your campus…</p></StartupNotice>}>
+    {route === 'home' ? <HomeScreen /> : route === 'lab' ? <LabScreen /> : route === 'stress' && StressScreen ? <StressScreen /> : <StartupNotice><h1>This place isn’t on the map.</h1><a href="#/">Return home</a></StartupNotice>}
+  </Suspense></ScreenBoundary><PerformancePanel /></>;
 }

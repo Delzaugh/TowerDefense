@@ -36,6 +36,7 @@
 .home-screen .home-lab-card h2 { margin: 13px 0 8px; font-size: 25px; line-height: 1.15; font-weight: 750; }
 .home-screen .home-card-description { margin: 0 0 16px; color: var(--ui-muted); font-size: 12px; line-height: 1.6; }
 .home-screen .home-inspect-button { width: 100%; justify-content: space-between; }
+.home-screen .home-story-button { width: 100%; margin-top: 8px; }
 .home-screen .home-card-foot { margin: 12px 0 0; color: var(--ui-muted); font-size: 11px; line-height: 1.5; }
 .home-screen .home-preference-notice { margin: 10px 0 0; color: var(--ui-attention); font-size: 11px; line-height: 1.5; }
 .home-screen[data-browser-open='true'] .home-canvas, .home-screen[data-browser-entering='true'] .home-canvas, .home-screen[data-browser-returning='true'] .home-canvas { pointer-events: none; }

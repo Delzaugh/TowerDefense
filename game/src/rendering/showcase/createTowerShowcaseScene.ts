@@ -1,5 +1,6 @@
 import * as THREE from 'three';
-import { registerRendererDiagnostics } from '../diagnostics';
+import { registerRendererDiagnostics, trackRendererPerformance } from '../diagnostics';
+import { addPerformanceEvent } from '../../diagnostics/performance';
 import { GLTFLoader, type GLTF } from 'three/addons/loaders/GLTFLoader.js';
 import { clone as skeletonSafeClone } from 'three/addons/utils/SkeletonUtils.js';
 import { createDigitalResolve, createResolveBudget } from 'tower-presentation';
@@ -137,6 +138,12 @@ export async function createTowerShowcaseScene(
   let disposed = false, lost = false, reducedMotion = options.reducedMotion;
   let azimuth = DEFAULT_AZIMUTH, elevation = DEFAULT_ELEVATION, zoom = DEFAULT_ZOOM;
   let dirty = true;
+  const constructionStarted = performance.now();
+  let firstDraw = false;
+  const tracking = trackRendererPerformance('showcase', renderer, () => ({ tower: live?.id ?? null,
+    animation: live?.choice ?? null, zoom, azimuth, elevation, reducedMotion, paused: !live?.action, lost }));
+  tracking.metadata({ targetFPS: 30 });
+  const modelLoads: Record<string, unknown>[] = [];
   const pointers = new Map<number, { x: number; y: number }>();
   let pinchDistance = 0;
 
@@ -209,7 +216,7 @@ export async function createTowerShowcaseScene(
     previewCamera.updateProjectionMatrix();
     cameraDirty = false;
   }
-  function draw() {
+  function draw(start = tracking.begin(), continuous = false, timestamp?: number) {
     if (disposed || lost || document.hidden) return;
     try {
       if (layoutDirty) measureLayout();
@@ -230,9 +237,12 @@ export async function createTowerShowcaseScene(
       renderer.autoClear = true;
       renderer.setViewport(0, 0, renderWidth, renderHeight);
       dirty = false;
+      if (start !== undefined) tracking.end(start, { continuous, ...(timestamp === undefined ? {} : { timestamp }) });
+      if (!firstDraw) { firstDraw = true; tracking.metadata({ readyMs: performance.now() - constructionStarted }); }
       schedulePortraitAfterFirstDraw();
     } catch (cause) {
       lost = true;
+      addPerformanceEvent('render-error', String(cause));
       report({ phase: 'error', animations: [], message: cause instanceof Error ? cause.message : 'The 3D preview stopped.' });
     }
   }
@@ -240,6 +250,7 @@ export async function createTowerShowcaseScene(
     if (frame) cancelAnimationFrame(frame);
     frame = 0;
     lastFrame = 0;
+    tracking.breakCadence();
   }
   function requestFrame() {
     if (!frame && !disposed && !lost && !document.hidden) frame = requestAnimationFrame(tick);
@@ -252,6 +263,7 @@ export async function createTowerShowcaseScene(
       return;
     }
     const delta = lastFrame ? Math.min((time - lastFrame) / 1000, .08) : 0;
+    const started = tracking.begin();
     lastFrame = time;
     const current = live;
     if (current?.action) {
@@ -263,7 +275,7 @@ export async function createTowerShowcaseScene(
         dirty = true;
       }
     }
-    if (dirty) draw();
+    if (dirty) draw(started, !!current?.action, time);
     if (live?.action) requestFrame();
   }
   function invalidate() { dirty = true; requestFrame(); }
@@ -508,7 +520,11 @@ export async function createTowerShowcaseScene(
     if (!asset || cache.has(id)) return;
     const controller = new AbortController();
     modelAbort = controller;
-    void fetchModel(asset, controller.signal, loader).then(model => {
+    void fetchModel(asset, controller.signal, loader, 20_000, timings => {
+      modelLoads.push({ id: asset.id, version: asset.version, revision: asset.revision, sha256: asset.sha256, bytes: asset.bytes, ...timings });
+      if (modelLoads.length > 50) modelLoads.shift();
+      tracking.metadata({ assets: modelLoads });
+    }).then(model => {
       if (disposed || lost || selected !== generation || transition?.generation !== selected) {
         disposeSceneResources([], [model]);
         return;
@@ -639,6 +655,7 @@ export async function createTowerShowcaseScene(
       previewSun.shadow.dispose();
       previewScene.clear();
       unregisterDiagnostics();
+      tracking.dispose();
       renderer.dispose();
     },
   };

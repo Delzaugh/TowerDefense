@@ -1,0 +1,35 @@
+{
+  "source": "assets/runtime/towers/copilot_octocat_classic_lowpoly_v01.glb",
+  "headBounds": [
+    [
+      -0.6545653939247131,
+      0.6829049587249756,
+      -0.47267988324165344
+    ],
+    [
+      0.6543838381767273,
+      1.8002899885177612,
+      0.39132994413375854
+    ]
+  ],
+  "camera": [
+    0.07990922212600708,
+    1.2715974736213684,
+    4.9593250304460526
+  ],
+  "target": [
+    -0.00009077787399291992,
+    1.2415974736213684,
+    -0.04067496955394745
+  ],
+  "span": 1.492202124595642,
+  "sourceSha256": "bdf5125b1e9500bce923f71fae74e56748a91160d197ff0f604ff498b38c0382",
+  "renderedAt": "2026-09-30T21:20:43.884Z",
+  "copilot": {
+    "source": "game/src/app/showcase/portraits/base.png",
+    "assetId": "copilot_base",
+    "sha256": "7a839f4643f45924d234ba27968482ffe768b46cd64bc97c910c5a58a2b73817",
+    "note": "Reused existing approved actual model head portrait; no likeness or model edits."
+  },
+  "note": "Octocat image is a transparent orthographic head render of the registered GLB in its unchanged rest pose. Body meshes hidden only in the disposable render scene."
+}

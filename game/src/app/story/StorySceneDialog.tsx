@@ -5,6 +5,8 @@ import type { StoryFrame, StoryScene } from '../../rendering/story/types';
 import { STORY_DURATION, STORY_SHOTS, STORY_SHOT_TIMES, storyFrame } from '../../content/story/octocatAbduction';
 import { withDeadline } from '../boot/withDeadline';
 import { createStorySound, type StorySound } from './storyAudio';
+import { StoryDialogue } from './StoryDialogue';
+import type { StorySpeakerPortraitResolver } from './portraits/speakerPortraits';
 import './story.css';
 
 const openingFrame: StoryFrame = { time: 0, duration: STORY_DURATION, shot: '', speaker: null, caption: '', finished: false };
@@ -14,10 +16,11 @@ interface StorySceneDialogProps {
   open: boolean;
   reducedMotion: boolean;
   onClose: () => void;
+  resolveSpeakerPortrait?: StorySpeakerPortraitResolver | undefined;
 }
 
 /** The home-screen experiment owns no campaign state. Closing it disposes the entire stage. */
-export function StorySceneDialog({ open, reducedMotion, onClose }: StorySceneDialogProps) {
+export function StorySceneDialog({ open, reducedMotion, onClose, resolveSpeakerPortrait }: StorySceneDialogProps) {
   const dialog = useRef<HTMLDialogElement>(null);
   const closeButton = useRef<HTMLButtonElement>(null);
   const [canvas, setCanvas] = useState<HTMLCanvasElement | null>(null);
@@ -87,7 +90,7 @@ export function StorySceneDialog({ open, reducedMotion, onClose }: StorySceneDia
         onFrame: next => {
           if (!active || controller.signal.aborted) return;
           // Keep caption changes immediate while avoiding a React update for every rendered frame.
-          if (Math.abs(next.time - lastFrame.time) >= .1 || next.caption !== lastFrame.caption || next.shot !== lastFrame.shot || next.finished !== lastFrame.finished) {
+          if (Math.abs(next.time - lastFrame.time) >= .1 || next.caption !== lastFrame.caption || next.speaker !== lastFrame.speaker || next.shot !== lastFrame.shot || next.finished !== lastFrame.finished) {
             lastFrame = next; setFrame(next);
           }
         },
@@ -167,8 +170,8 @@ export function StorySceneDialog({ open, reducedMotion, onClose }: StorySceneDia
         {phase === 'error' && <div className="story-status" role="alert"><h3>The story couldn’t open</h3><p>{error}</p><Button variant="primary" onClick={() => reloadRequired ? window.location.reload() : setAttempt(value => value + 1)}>{reloadRequired ? 'Reload app' : 'Retry scene'}</Button></div>}
         {phase === 'ready' && (paused || hidden || reducedMotion || frame.finished) && <span className="story-playback-state">{reducedMotion ? 'Storyboard · reduced motion' : frame.finished ? 'Scene complete' : 'Paused'}</span>}
       </div>
-      <div className="story-subtitles" aria-live="polite" aria-atomic="true">
-        {phase === 'ready' && subtitles.caption && subtitles.caption !== 'TO BE CONTINUED' && <><span className="story-speaker">{subtitles.speaker || ' '}</span><p>{subtitles.caption}</p></>}
+      <div className="story-subtitles">
+        <StoryDialogue caption={phase === 'ready' ? subtitles.caption : ''} speaker={subtitles.speaker} resolvePortrait={resolveSpeakerPortrait} />
       </div>
       <footer className="story-controls">
         <div className="story-timeline"><label className="story-sr-only" htmlFor="story-seek">Scene timeline</label><input id="story-seek" aria-valuetext={`${clock(frame.time)} of ${clock(frame.duration)}`} type="range" min="0" max={frame.duration} step="0.1" value={frame.time} disabled={phase !== 'ready'} onChange={event => { sound.current?.setPlaying(false); setPaused(true); seek(Number(event.currentTarget.value)); }} /><span>{clock(frame.time)} / {clock(frame.duration)}</span></div>

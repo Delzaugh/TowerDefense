@@ -1,5 +1,7 @@
 import * as THREE from 'three';
-import { registerRendererDiagnostics } from '../diagnostics';
+import { registerRendererDiagnostics, trackRendererPerformance } from '../diagnostics';
+import type { PerformanceSource } from '../../diagnostics/types';
+import { addPerformanceEvent } from '../../diagnostics/performance';
 import type { GLTF } from 'three/addons/loaders/GLTFLoader.js';
 import { CAMPUS_HOME_FOCUS, CAMPUS_HOME_PLACEMENTS } from '../../content/maps/campusHome';
 import { createCampusCamera } from './camera';
@@ -18,6 +20,9 @@ export async function createCampusScene(canvas: HTMLCanvasElement, options: Camp
   if (options.signal.aborted) throw options.signal.reason ?? new DOMException('Campus loading was cancelled.', 'AbortError');
   let renderer: THREE.WebGLRenderer | undefined;
   let unregisterDiagnostics = () => {};
+  let tracking: PerformanceSource | undefined;
+  const constructionStarted = performance.now();
+  let firstDraw = false;
   let sun: THREE.DirectionalLight | undefined;
   let controls: ReturnType<typeof createCampusCamera> | undefined;
   let buildings: ReturnType<typeof createCampusBuildingInteraction> | undefined;
@@ -46,12 +51,14 @@ export async function createCampusScene(canvas: HTMLCanvasElement, options: Camp
   };
   const onContextLost = (event: Event) => {
     event.preventDefault();
+    addPerformanceEvent('context-lost', 'Campus WebGL context lost');
     reportError(new Error('The campus graphics context was lost. Please retry or continue without 3D.'));
   };
   const stopLoop = () => {
     if (frame) cancelAnimationFrame(frame);
     frame = 0;
     lastFrame = 0;
+    tracking?.breakCadence();
   };
   const dispose = () => {
     if (disposed) return;
@@ -72,11 +79,17 @@ export async function createCampusScene(canvas: HTMLCanvasElement, options: Camp
     sun?.shadow.dispose();
     scene.clear();
     unregisterDiagnostics();
+    tracking?.dispose();
     renderer?.dispose();
   };
-  const renderOnce = () => {
+  const renderOnce = (start = tracking?.begin(), continuous = false, timestamp?: number) => {
     if (disposed || !renderer) return;
-    try { atmosphere?.resize(canvas.clientWidth, canvas.clientHeight); buildings?.refresh(); renderer.render(scene, camera); }
+    try {
+      atmosphere?.resize(canvas.clientWidth, canvas.clientHeight); buildings?.refresh();
+      renderer.info.reset(); renderer.render(scene, camera);
+      if (start !== undefined) tracking?.end(start, { continuous, ...(timestamp === undefined ? {} : { timestamp }) });
+      if (!firstDraw) { firstDraw = true; tracking?.metadata({ readyMs: performance.now() - constructionStarted }); }
+    }
     catch (cause) {
       const error = cause instanceof Error ? cause : new Error(String(cause));
       if (!ready) throw error;
@@ -89,13 +102,14 @@ export async function createCampusScene(canvas: HTMLCanvasElement, options: Camp
     if (!lastFrame) lastFrame = timestamp;
     const elapsed = timestamp - lastFrame;
     if (elapsed >= 1000 / 30 - .2) {
+      const started = tracking?.begin();
       lifecycles.update(Math.min(elapsed / 1000, .1));
       companion?.update(Math.min(elapsed / 1000, .1));
       residents?.update(Math.min(elapsed / 1000, .1));
       ambient?.update(Math.min(elapsed / 1000, .1));
       atmosphere?.update(Math.min(elapsed / 1000, .1));
       lastFrame = timestamp;
-      renderOnce();
+      renderOnce(started, true, timestamp);
     }
     if (!disposed && !paused && !reducedMotion && !errorReported) frame = requestAnimationFrame(tick);
   };
@@ -109,6 +123,9 @@ export async function createCampusScene(canvas: HTMLCanvasElement, options: Camp
   try {
     renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
     renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    renderer.info.autoReset = false;
+    tracking = trackRendererPerformance('campus', renderer, () => ({ zoom: camera.zoom, position: camera.position.toArray(), ready, paused, reducedMotion }));
+    tracking.metadata({ targetFPS: 30 });
     unregisterDiagnostics = registerRendererDiagnostics('campus', renderer, () => ({ zoom: camera.zoom, position: camera.position.toArray(), ready, paused, reducedMotion }));
     renderer.setClearColor(0, 0);
     renderer.outputColorSpace = THREE.SRGBColorSpace;
@@ -143,7 +160,11 @@ export async function createCampusScene(canvas: HTMLCanvasElement, options: Camp
     ground.receiveShadow = true;
     scene.add(ground);
 
-    models = await loadCampusModels(options.signal, options.onProgress);
+    const loads: Record<string, unknown>[] = [];
+    models = await loadCampusModels(options.signal, options.onProgress, (asset, timings) => {
+      loads.push({ id: asset.id, version: asset.version, revision: asset.revision, sha256: asset.sha256, bytes: asset.bytes, ...timings });
+      tracking?.metadata({ assets: loads });
+    });
     if (options.signal.aborted || disposed) throw options.signal.reason ?? new DOMException('Campus loading was cancelled.', 'AbortError');
     const campus = new THREE.Group();
     campus.name = 'Copilot campus';

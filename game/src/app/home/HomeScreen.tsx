@@ -7,6 +7,7 @@ import type { CampusViewState } from '../../rendering/campus/types';
 import type { HomeStatus } from './homeTypes';
 import { HomeView } from './HomeView';
 import { TowerShowcaseDialog, preloadTowerShowcase } from '../showcase/TowerShowcaseDialog';
+import { StorySceneDialog } from '../story/StorySceneDialog';
 
 export function HomeScreen() {
   const [canvasKey, setCanvasKey] = useState(0);
@@ -16,6 +17,7 @@ export function HomeScreen() {
   const [status, setStatus] = useState<HomeStatus>({ phase: 'loading', loaded: 0, total: 0, message: 'Opening the campus…' });
   const [view, setView] = useState<CampusViewState>({ view: 'home', zoom: 1 });
   const [browserOpen, setBrowserOpen] = useState(false);
+  const [storyOpen, setStoryOpen] = useState(false);
   const [browserEntering, setBrowserEntering] = useState(false);
   const [browserReturning, setBrowserReturning] = useState(false);
   const [selectedTower, setSelectedTower] = useState('developer');
@@ -25,10 +27,10 @@ export function HomeScreen() {
   const transitionPhase = useRef<'idle' | 'entering' | 'open' | 'returning'>('idle');
   const transitionToken = useRef(0);
   const inspectButton = useRef<HTMLButtonElement>(null);
-  const settings = useRef({ paused: !stored.preferences.ambience || hidden || browserOpen || browserEntering || browserReturning,
-    reducedMotion: stored.preferences.reducedMotion || systemReducedMotion, interactionEnabled: !hidden && !browserOpen && !browserEntering && !browserReturning });
-  settings.current = { paused: !stored.preferences.ambience || hidden || browserOpen || browserEntering || browserReturning,
-    reducedMotion: stored.preferences.reducedMotion || systemReducedMotion, interactionEnabled: !hidden && !browserOpen && !browserEntering && !browserReturning };
+  const settings = useRef({ paused: !stored.preferences.ambience || hidden || browserOpen || browserEntering || browserReturning || storyOpen,
+    reducedMotion: stored.preferences.reducedMotion || systemReducedMotion, interactionEnabled: !hidden && !browserOpen && !browserEntering && !browserReturning && !storyOpen });
+  settings.current = { paused: !stored.preferences.ambience || hidden || browserOpen || browserEntering || browserReturning || storyOpen,
+    reducedMotion: stored.preferences.reducedMotion || systemReducedMotion, interactionEnabled: !hidden && !browserOpen && !browserEntering && !browserReturning && !storyOpen };
   const cancelEntry = () => {
     if (transitionPhase.current !== 'entering') return;
     transitionToken.current++;
@@ -45,7 +47,7 @@ export function HomeScreen() {
     if (focus && !document.hidden) requestAnimationFrame(() => inspectButton.current?.focus());
   };
   const openBrowser = () => {
-    if (transitionPhase.current !== 'idle' || document.hidden) return;
+    if (transitionPhase.current !== 'idle' || document.hidden || storyOpen) return;
     transitionPhase.current = 'entering';
     const token = ++transitionToken.current;
     preloadTowerShowcase();
@@ -122,7 +124,7 @@ export function HomeScreen() {
     };
   }, [canvas]);
 
-  useEffect(() => { boot.current?.setSettings(settings.current); }, [stored.preferences, systemReducedMotion, browserOpen, browserEntering, browserReturning, hidden]);
+  useEffect(() => { boot.current?.setSettings(settings.current); }, [stored.preferences, systemReducedMotion, browserOpen, browserEntering, browserReturning, hidden, storyOpen]);
   useEffect(() => {
     if (!browserEntering && !browserReturning) return;
     const onKeyDown = (event: KeyboardEvent) => {
@@ -150,8 +152,15 @@ export function HomeScreen() {
     onReset={() => boot.current?.resetView()} onPreferences={preferencesChanged}
     browserOpen={browserOpen} browserEntering={browserEntering} browserReturning={browserReturning}
     inspectButtonRef={inspectButton} onInspectTowers={openBrowser}
+    onPlayStory={() => {
+      if (transitionPhase.current !== 'idle' || document.hidden) return;
+      setHoveredBuildingPoint(null);
+      boot.current?.setSettings({ ...settings.current, paused: true, interactionEnabled: false });
+      setStoryOpen(true);
+    }}
     onInspectFocus={focused => boot.current?.setBuildingFocus(focused ? 'copilot-lab' : null)}
     hoveredBuildingPoint={hoveredBuildingPoint} />
     <TowerShowcaseDialog open={browserOpen} onClose={closeBrowser}
-      reducedMotion={settings.current.reducedMotion} selectedTower={selectedTower} onSelectTower={setSelectedTower} /></>;
+      reducedMotion={settings.current.reducedMotion} selectedTower={selectedTower} onSelectTower={setSelectedTower} />
+    <StorySceneDialog open={storyOpen} onClose={() => setStoryOpen(false)} reducedMotion={settings.current.reducedMotion} /></>;
 }

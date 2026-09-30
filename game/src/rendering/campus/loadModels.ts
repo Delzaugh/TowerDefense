@@ -18,6 +18,7 @@ function assertActive(signal: AbortSignal): void {
 export async function loadCampusModels(
   signal: AbortSignal,
   onProgress: (progress: CampusLoadProgress) => void,
+  onLoaded?: (asset: RuntimeAsset, timings: { fetchMs: number; parseMs: number }) => void,
 ): Promise<Map<string, GLTF>> {
   const assets: RuntimeAsset[] = [...Object.values(CAMPUS_ASSETS), COPILOT_ASSET, ...RESIDENT_ASSETS];
   const models = new Map<string, GLTF>();
@@ -34,18 +35,22 @@ export async function loadCampusModels(
       const asset = assets[index];
       if (!asset) return;
       try {
+        const fetchedAt = performance.now();
         const response = await fetch(asset.url, { signal });
         if (!response.ok) throw new Error(`Could not load ${asset.id}@${asset.version} (HTTP ${response.status}).`);
         const bytes = await response.arrayBuffer();
+        const parsedAt = performance.now();
         assertActive(signal);
         const baseUrl = asset.url.slice(0, asset.url.lastIndexOf('/') + 1);
         const model = await loader.parseAsync(bytes, baseUrl);
+        const finishedAt = performance.now();
         if (signal.aborted || firstError) {
           disposeSceneResources([], [model]);
           assertActive(signal);
           return;
         }
         models.set(asset.id, model);
+        onLoaded?.(asset, { fetchMs: parsedAt - fetchedAt, parseMs: finishedAt - parsedAt });
         loaded += 1;
         onProgress({ loaded, total: assets.length });
       } catch (error) {

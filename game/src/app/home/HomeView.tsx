@@ -1,9 +1,12 @@
-import { useRef } from 'react';
+import { useRef, useSyncExternalStore } from 'react';
 import { ArrowUpRightIcon, GearIcon, HomeIcon, NorthStarIcon, PauseIcon, PlayIcon, PlusIcon, DashIcon, XIcon } from '@primer/octicons-react';
 import { Button, GameTopBar, IconButton, Surface, SegmentedControl, StatusBadge, ThemePicker } from '../../ui/toolkit';
 import type { CampusView } from '../../rendering/campus/types';
 import type { HomeViewProps } from './homeTypes';
+import { STORY_DURATION } from '../../content/story/octocatAbduction';
+import { getTrackingEnabled, getTrackingNotice, setTrackingEnabled, subscribeTracking } from '../../diagnostics/performance';
 import './home.css';
+import '../performance/performance.css';
 
 const cameraViews = [
   { value: 'home', label: 'Home', icon: <HomeIcon size={16} /> },
@@ -13,10 +16,12 @@ const cameraViews = [
 export function HomeView({
   canvasKey, canvasRef, status, view, preferences, systemReducedMotion, preferenceNotice,
   onRetry, onFallback, onView, onZoom, onReset, onPreferences, browserOpen, browserEntering,
-  browserReturning, inspectButtonRef, onInspectTowers, onInspectFocus, hoveredBuildingPoint,
+  browserReturning, inspectButtonRef, onInspectTowers, onInspectFocus, hoveredBuildingPoint, onPlayStory,
 }: HomeViewProps) {
   const settingsDialog = useRef<HTMLDialogElement>(null);
   const settingsButton = useRef<HTMLButtonElement>(null);
+  const performanceTracking = useSyncExternalStore(subscribeTracking, getTrackingEnabled);
+  const trackingNotice = getTrackingNotice();
   const ready = status.phase === 'ready';
   const motionReduced = preferences.reducedMotion || systemReducedMotion;
   const progressMax = Math.max(1, status.total);
@@ -102,6 +107,10 @@ export function HomeView({
               onFocus={() => onInspectFocus(true)} onBlur={() => onInspectFocus(false)} aria-haspopup="dialog">
               Inspect Towers <ArrowUpRightIcon size={16} />
             </Button>
+            {onPlayStory && <Button type="button" className="home-story-button" onClick={onPlayStory}
+              disabled={browserOpen || browserEntering || browserReturning} aria-haspopup="dialog">
+              <PlayIcon size={16} /> Play story scene <span>{STORY_DURATION} sec</span>
+            </Button>}
             <p className="home-card-foot">
               {motionReduced ? 'Motion is reduced by your settings.' : ready ? (preferences.ambience ? 'Your Copilot is enjoying the campus.' : 'Campus ambience is paused.') : 'The lab is here when you are ready.'}
             </p>
@@ -132,6 +141,15 @@ export function HomeView({
           </label>
           {systemReducedMotion && <p className="home-system-motion-note">Your device requests reduced motion. The campus stays still while that setting is on, even if you allow motion here.</p>}
           {preferenceNotice && <p className="home-dialog-notice" role="status">{preferenceNotice}</p>}
+          <label className="home-setting-row">
+            <span><strong>Performance tracking</strong><small>Show performance measurements and record reports for testing.</small></span>
+            <input type="checkbox" checked={performanceTracking} onChange={event => setTrackingEnabled(event.currentTarget.checked)} />
+          </label>
+          {trackingNotice && <p className="home-dialog-notice" role="status">{trackingNotice}</p>}
+          {__STRESS_MAP_ENABLED__ && <div className="home-performance-test">
+            <a href="#/stress" className="ui-button" onClick={closeSettings}>Open stress test map <ArrowUpRightIcon size={16} /></a>
+            <p>A small test arena with repeatable load levels.</p>
+          </div>}
           <div className="home-about">
             <span className="home-eyebrow">ABOUT THE CAMPUS</span>
             <h3>Welcome to Copilot Hub.</h3>

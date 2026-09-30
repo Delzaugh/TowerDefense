@@ -1,5 +1,5 @@
 {
   "extends": "./tsconfig.json",
-  "compilerOptions": { "lib": ["ES2022", "DOM"], "types": ["node"], "allowImportingTsExtensions": true },
-  "include": ["*.ts", "build", "tests", "src/rendering/assetModules.d.ts", "src/rendering/assetPresentation.d.ts"]
+  "compilerOptions": { "lib": ["ES2022", "DOM"], "types": ["node", "vite/client"], "allowImportingTsExtensions": true },
+  "include": ["*.ts", "build", "tests", "src/rendering/assetModules.d.ts", "src/rendering/assetPresentation.d.ts", "src/devFlags.d.ts"]
 }

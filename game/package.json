@@ -18,7 +18,10 @@
     "preview": "vite preview --host 127.0.0.1 --port 5173 --strictPort",
     "test:e2e": "playwright test",
     "test:deployment": "vite build --base=/TowerDefense/ --outDir=test-results/subpath-build && playwright test --config=playwright.deployment.config.ts",
-    "verify": "npm run lint && npm run check:boundaries && npm run test && npm run build && npm run test:e2e && npm run test:deployment"
+    "verify": "npm run lint && npm run check:boundaries && npm run test && npm run build && npm run test:e2e && npm run test:deployment",
+    "build:release": "npm run typecheck && vite build --mode release",
+    "test:performance": "playwright test --config=playwright.performance.config.ts",
+    "test:performance:release": "playwright test --config=playwright.performance-release.config.ts"
   },
   "dependencies": {
     "@fontsource-variable/mona-sans": "5.3.0",

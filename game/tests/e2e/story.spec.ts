@@ -47,6 +47,129 @@ async function seek(page: Page, seconds: number) {
   await expect(timeline).toHaveValue(String(seconds));
 }
 
+const dialogueChecks = [
+  { second: 1, speaker: 'copilot', name: 'Copilot', text: 'All checks green. Coffee?', asset: 'copilot_base' },
+  { second: 7, speaker: 'octocat', name: 'Octocat', text: 'After one tiny feature. Promise?', asset: 'copilot_octocat_classic_lowpoly' },
+  { second: 11, speaker: 'copilot', name: 'Copilot', text: 'Promise. What could possibly go wrong?', asset: 'copilot_base' },
+  { second: 15, speaker: 'copilot', name: 'Copilot', text: 'Octocat… behind you!', asset: 'copilot_base' },
+  { second: 19, speaker: 'octocat', name: 'Octocat', text: "Those aren't the coffee people.", asset: 'copilot_octocat_classic_lowpoly' },
+  { second: 23.3, speaker: 'octocat', name: 'Octocat', text: 'This was definitely not in the brief!', asset: 'copilot_octocat_classic_lowpoly' },
+  { second: 27, speaker: 'copilot', name: 'Copilot', text: 'Hey! That is my teammate!', asset: 'copilot_base' },
+  { second: 32, speaker: 'octocat', name: 'Octocat', text: 'You still owe me that coffee!', asset: 'copilot_octocat_classic_lowpoly' },
+  { second: 36, speaker: 'copilot', name: 'Copilot', text: 'A promise is a promise. I’m coming.', asset: 'copilot_base' },
+] as const;
+
+test.describe('caption identity and obstacle blocking regression', () => {
+  test.setTimeout(150_000);
+
+  test('assigns every line its actual character portrait and keeps long dialogue clear', async ({ page, isMobile }, info) => {
+    const errors: string[] = [];
+    page.on('pageerror', error => errors.push(error.message));
+    await home(page);
+    await openStory(page);
+    await page.getByRole('button', { name: 'Pause', exact: true }).click();
+    const captures = [];
+    const gpu = await gpuInfo(page);
+    const normal = page.viewportSize()!;
+    for (const viewport of [normal, ...(isMobile ? [{ width: 390, height: 844 }, { width: 320, height: 720 }] : []), { width: 844, height: 390 }]) {
+      await page.setViewportSize(viewport);
+      const lines = viewport === normal ? dialogueChecks : dialogueChecks.filter(line => line.second === 11 || line.second === 23.3);
+      for (const line of lines) {
+        await seek(page, line.second);
+        const card = page.getByTestId('story-dialogue');
+        const avatar = page.getByTestId('story-dialogue-avatar');
+        const name = page.getByTestId('story-dialogue-name');
+        const text = page.getByTestId('story-dialogue-text');
+        await expect(card).toHaveAttribute('data-speaker', line.speaker);
+        await expect(card).toHaveAttribute('data-active', 'true');
+        await expect(name).toHaveText(line.name);
+        await expect(text).toHaveText(line.text);
+        await expect(avatar).toHaveAttribute('data-asset-id', line.asset);
+        await expect(avatar).toHaveAttribute('alt', '');
+        await expect.poll(() => avatar.evaluate(image => (image as HTMLImageElement).complete && (image as HTMLImageElement).naturalWidth > 0)).toBe(true);
+        expect(await avatar.evaluate(element => element.closest('[aria-live]') === null)).toBe(true);
+        const layout = await card.evaluate(element => {
+          const rect = (node: Element) => {
+            const box = node.getBoundingClientRect();
+            return { x: box.x, y: box.y, width: box.width, height: box.height, right: box.right, bottom: box.bottom };
+          };
+          const caption = element.querySelector('[data-testid="story-dialogue-text"]')!;
+          const live = caption.closest('[aria-live]');
+          return { card: rect(element), avatar: rect(element.querySelector('[data-testid="story-dialogue-avatar"]')!),
+            name: rect(element.querySelector('[data-testid="story-dialogue-name"]')!), text: rect(caption),
+            stage: rect(document.querySelector('.story-stage')!), timeline: rect(document.querySelector('#story-seek')!),
+            scrollWidth: element.scrollWidth, clientWidth: element.clientWidth, scrollHeight: element.scrollHeight, clientHeight: element.clientHeight,
+            live: live?.getAttribute('aria-live'), atomic: live?.getAttribute('aria-atomic') };
+        });
+        expect(layout.live).toBe('polite');
+        expect(layout.atomic).toBe('true');
+        for (const box of [layout.avatar, layout.name, layout.text]) {
+          expect(box.x).toBeGreaterThanOrEqual(layout.card.x - 1);
+          expect(box.y).toBeGreaterThanOrEqual(layout.card.y - 1);
+          expect(box.right).toBeLessThanOrEqual(layout.card.right + 1);
+          expect(box.bottom).toBeLessThanOrEqual(layout.card.bottom + 1);
+        }
+        expect(layout.avatar.right).toBeLessThanOrEqual(layout.text.x + 1);
+        expect(layout.name.bottom).toBeLessThanOrEqual(layout.text.y + 1);
+        expect(layout.stage.bottom).toBeLessThanOrEqual(layout.card.y + 1);
+        expect(layout.card.bottom).toBeLessThanOrEqual(layout.timeline.y + 1);
+        expect(layout.card.x).toBeGreaterThanOrEqual(0);
+        expect(layout.card.right).toBeLessThanOrEqual(viewport.width + 1);
+        expect(layout.card.bottom).toBeLessThanOrEqual(viewport.height + 1);
+        expect(layout.stage.right).toBeLessThanOrEqual(viewport.width + 1);
+        expect(layout.scrollWidth).toBeLessThanOrEqual(layout.clientWidth + 1);
+        expect(layout.scrollHeight).toBeLessThanOrEqual(layout.clientHeight + 1);
+        await expect(card).toBeInViewport();
+        expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+        const file = `caption-${viewport.width}x${viewport.height}-${String(line.second).replace('.', '_')}s.png`;
+        await page.screenshot({ path: info.outputPath(file), scale: 'css' });
+        const canvasFile = line.second === 11 || line.second === 23.3 ? file.replace('caption-', 'caption-canvas-') : undefined;
+        if (canvasFile) await page.getByTestId('story-canvas').screenshot({ path: info.outputPath(canvasFile), scale: 'css' });
+        captures.push({ ...line, viewport, layout, file, canvasFile, canvasBounds: await page.getByTestId('story-canvas').boundingBox(), diagnostics: await sample(page, 'story') });
+      }
+    }
+    await writeFile(info.outputPath('caption-review.json'), JSON.stringify({ mode: isMobile ? 'mobile' : 'desktop', gpu, method: 'Independent expected speaker/name/text/asset identity; paused real Scene timeline control', captures }, null, 2));
+    expect(errors).toEqual([]);
+    await page.getByRole('button', { name: 'Close story scene' }).click();
+  });
+
+  test('records continuous approach and tow with the complete desktop cinematic', async ({ page, isMobile }, info) => {
+    const errors: string[] = [];
+    page.on('pageerror', error => errors.push(error.message));
+    await home(page);
+    await openStory(page);
+    const gpu = await gpuInfo(page);
+    const windows = isMobile ? [[10, 21], [30, 35]] as const : [[0, STORY_DURATION]] as const;
+    const frames = [];
+    const requested = [...Array.from({ length: 23 }, (_, index) => 10 + index / 2),
+      ...Array.from({ length: 11 }, (_, index) => 30 + index / 2)];
+    if (!isMobile) requested.push(1, 7, 23.3, 24.5, 25.5, 27, 29, 36, 39, 41);
+    requested.sort((a, b) => a - b);
+    for (const [start, end] of windows) {
+      if (isMobile) {
+        await page.getByRole('button', { name: 'Pause', exact: true }).click();
+        await seek(page, start);
+        await page.getByRole('button', { name: 'Play', exact: true }).click();
+      }
+      for (const second of requested.filter(second => second >= start && second <= end)) {
+        await expect.poll(async () => (await sample(page, 'story'))?.state.time ?? 0, { timeout: 90_000, intervals: [20, 33, 50] }).toBeGreaterThanOrEqual(second);
+        const before = await sample(page, 'story');
+        const file = `blocking-${String(second).replace('.', '_')}s.png`;
+        await page.getByTestId('story-canvas').screenshot({ path: info.outputPath(file), scale: 'css' });
+        frames.push({ requestedSeconds: second, beforeCapture: before, afterCapture: await sample(page, 'story'), file });
+      }
+      await expect.poll(async () => (await sample(page, 'story'))?.state.time ?? 0, { timeout: 90_000 }).toBeGreaterThanOrEqual(end);
+    }
+    if (!isMobile) await expect(page.getByText('Scene complete', { exact: true })).toBeVisible();
+    await writeFile(info.outputPath('blocking-motion-review.json'), JSON.stringify({ mode: isMobile ? 'mobile' : 'desktop', gpu,
+      method: isMobile ? 'Real player seeks only before each segment, then continuous unpaused10–21 and30–35 playback' : 'Full natural42s playback, no seeks or forced poses',
+      environment: 'Host Edge GPU; phone viewport emulation, not a physical phone benchmark', frames }, null, 2));
+    expect(errors).toEqual([]);
+    await page.getByRole('button', { name: 'Close story scene' }).click();
+    expect(await sample(page, 'story')).toBeUndefined();
+  });
+});
+
 test.describe('standalone story preview', () => {
   test.setTimeout(120_000);
 

@@ -23,7 +23,7 @@ export interface StoryShot {
 export const STORY_SHOTS: readonly StoryShot[] = [
   { start: 0, end: 6, name: 'Coffee before code', camera: [4.5, 2.55, 8.8], cameraEnd: [3.9, 2.4, 8.1], target: [0, 1.15, 0], targetEnd: [0, 1.15, 0], fov: 33 },
   { start: 6, end: 10, name: 'One tiny feature', camera: [-.8, 1.95, 5.4], cameraEnd: [-.6, 1.9, 5], target: [1.4, 1.15, 0], targetEnd: [1.4, 1.15, 0], fov: 30 },
-  { start: 10, end: 14, name: 'Uninvited guests', camera: [7, 1.3, 3.7], cameraEnd: [6.4, 1.3, 3.3], target: [4.6, .8, -2.2], targetEnd: [3.5, .8, -1.7], fov: 36 },
+  { start: 10, end: 14, name: 'Uninvited guests', camera: [-.25, 1.5, -1.3], cameraEnd: [-.55, 1.45, -1.8], target: [-2.2, .72, -4.7], targetEnd: [-2.2, .72, -4.2], fov: 36 },
   { start: 14, end: 18, name: 'Something is wrong', camera: [1.7, 2.05, 5], cameraEnd: [1.2, 1.95, 4.5], target: [-1.5, 1.3, 0], targetEnd: [-1.5, 1.3, 0], fov: 32 },
   { start: 18, end: 21, name: 'Not the coffee people', camera: [4.9, 2.05, 5.3], cameraEnd: [4.5, 1.95, 4.9], target: [1.5, 1.1, -.2], targetEnd: [1.7, 1.1, -.3], fov: 34 },
   { start: 21, end: 26, name: 'The trap closes', camera: [.8, 2.65, 8.7], cameraEnd: [.6, 2.35, 8.1], target: [1.4, 1.15, 0], targetEnd: [1.4, 1.4, 0], fov: 37 },
@@ -75,6 +75,13 @@ function performanceAt(t: number, beats: readonly Performance[]) {
 }
 const COPILOT: readonly Performance[] = [[0, 'story_talk'], [6, 'story_listen'], [10, 'story_talk'], [14, 'story_alarm'], [15.5, 'story_listen'], [24.5, 'move'], [26, 'hit'], [26.75, 'story_listen'], [35, 'story_determined']];
 const CAT: readonly Performance[] = [[0, 'idle'], [6, 'story_talk'], [10, 'idle'], [18, 'story_startle'], [19.5, 'story_talk'], [21.6, 'story_startle'], [24, 'story_struggle'], [30, 'story_reach'], [32, 'story_struggle']];
+/** The rear-left aisle and front-right flank avoid the authored planter/furniture
+ * envelopes. Keep each approach straight so travel distance and planted stride
+ * phase remain exact; facing follows that segment until the arrival turn. */
+export const STORY_BUG_APPROACH = {
+  'bug-left': { start: [-2.2, 0, -5.05], end: [-2.2, 0, -3.4], startTime: 10, endTime: 18 },
+  'bug-right': { start: [8.2, 0, 2.9], end: [4.7, 0, 1.3], startTime: 14, endTime: 21 },
+} as const;
 /** World blocking is independent of the authoritative Blender rig. */
 export function storyPose(role: StoryRole, time: number): StoryPose {
   const t = clampStoryTime(time);
@@ -88,22 +95,25 @@ export function storyPose(role: StoryRole, time: number): StoryPose {
   if (role === 'octocat') {
     return { position: [1.4 + STORY_TOW_DISTANCE * escape, .58 * storyProgress(t, 24, 25.2), 0],
       heading: t < 29.6 ? storyLerp(-.55, .85, storyProgress(t, 18, 19))
-        : storyLerp(.85, -1.1, storyProgress(t, 29.6, 30.3)), ...performanceAt(t, CAT), visible: t < STORY_BEATS.exit };
+        : storyLerp(.85, -.8, storyProgress(t, 29.6, 30.3)), ...performanceAt(t, CAT), visible: t < STORY_BEATS.exit };
   }
   const right = role === 'bug-right';
-  const start = right ? 14 : 10;
-  const arrival = right ? 21 : 18;
+  const route = STORY_BUG_APPROACH[role];
+  const start = route.startTime;
+  const arrival = route.endTime;
   const approach = storyProgress(t, start, arrival);
+  const point = storyPointLerp(route.start, route.end, approach);
+  const travelHeading = Math.atan2(route.end[0] - route.start[0], route.end[2] - route.start[2]);
+  const facingCat = Math.atan2(1.4 - route.end[0], -route.end[2]);
   // Same travel as the captive keeps the tow connection taut throughout escape.
   const acting = performanceAt(t, [[0, 'story_lurk'], [start, 'story_creep'], ...(arrival < 21 ? [[arrival, 'story_lurk']] as readonly Performance[] : []), [21, 'story_grab'], [22.5, 'story_lurk'], [30, 'story_haul']]);
-  const approachDistance = Math.hypot(right ? 3.9 : 7, right ? -1.25 : 1.75) * approach;
+  const approachDistance = Math.hypot(route.end[0] - route.start[0], route.end[2] - route.start[2]) * approach;
   const creepTime = approachDistance / .65 * (11 / 6);
   const haulTime = STORY_TOW_DISTANCE * escape / .7 * (4 / 3);
-  return { position: [storyLerp(right ? 7.3 : 6.6, right ? 3.4 : -.4, approach) + STORY_TOW_DISTANCE * escape, 0,
-      storyLerp(right ? 3 : -3.5, right ? 1.75 : -1.75, approach)],
-    heading: t < arrival ? right ? -1.881 : -1.326
-      : t < 29 ? right ? storyLerp(-1.881, -2.2, storyProgress(t, arrival, arrival + .4)) : storyLerp(-1.326, .8, storyProgress(t, arrival, arrival + .8))
-      : storyLerp(right ? -2.2 : .8, Math.PI / 2, storyProgress(t, 29, 30)),
+  return { position: [point[0] + STORY_TOW_DISTANCE * escape, 0, point[2]],
+    heading: t < arrival ? travelHeading
+      : t < 29 ? storyLerp(travelHeading, facingCat, storyProgress(t, arrival, arrival + (right ? .4 : .8)))
+      : storyLerp(facingCat, Math.PI / 2, storyProgress(t, 29, 30)),
     ...acting,
     clipTime: acting.clip === 'story_creep' ? creepTime : acting.clip === 'story_haul' ? haulTime : acting.clipTime,
     blend: acting.blend?.clip === 'story_creep' ? { ...acting.blend, clipTime: creepTime } : acting.blend,

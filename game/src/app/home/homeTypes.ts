@@ -30,6 +30,7 @@ export interface HomeViewProps {
   readonly browserReturning: boolean;
   readonly inspectButtonRef: RefObject<HTMLButtonElement | null>;
   readonly onInspectTowers: () => void;
+  readonly onPlayStory?: () => void;
   readonly onInspectFocus: (focused: boolean) => void;
   readonly hoveredBuildingPoint: { readonly x: number; readonly y: number } | null;
 }

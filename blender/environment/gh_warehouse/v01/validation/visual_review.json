@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_warehouse",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "b8994233f65bbdeb029f5d0d2fd8f46a2f95ef2caac70bf2f441c0dffabe4903",
+  "sourceHash": "bdc26656df5317c185abf435f62efa57ac4ddf03e2900b6d9631e2b9e25acb2e",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:25:35.121Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Three-story light stucco and a 15.24 m height cue read as a warehouse, with real arched recesses, deep pale sills, slim iron mullions and horizontal bands. The researched facade vocabulary is preserved; spacing and footprint are explicitly authored, not a measured reconstruction."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Replaced overlapping corner bands with front/back continuations and fitted butt-ended side bands; repeated cornice corners now read consistently. Upper east bridge opening has actual full-depth clearance rather than a painted doorway. The shell is hollow and intentionally has no floors or roof; three levels have separate removable walls."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "At the 390 px Inspector viewport the three levels, arches and central entrance remain clear; roofless silhouette reads as a shell and needs the separate deck module in the campus."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Deliberately static environment architecture, no skeleton or authored clips."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Inspected the rebuilt isometric, east elevation, top and current phone export after repairing corner joins and adding the upper doorway. No remaining irregular arch rhythm or wall behind the upper opening was observed."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_warehouse/v01/validation/iso.png",
+      "sha256": "80e0d65c0957793c3469a713eccabee4e1cd9295a4b35a994c9aab125e4a1897",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_warehouse/v01/validation/side.png",
+      "sha256": "d5068d5695c0aba391bb8805e3d113aee1edcd84fc138267049a51d1c2d7a13b",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_warehouse/v01/validation/top.png",
+      "sha256": "fc722d3e35ad947905b4b6c03050f4b687f29fe61fd4354ec27f5089c5a24844",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_warehouse/v01/validation/phone.png",
+      "sha256": "4ceb276e0979d7f41409bcc0f30b8761a389e71a547c874f6fb6ebba3b32e658",
+      "view": "phone",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User authorized creation but has not explicitly accepted this model revision."
+  },
+  "limitations": [
+    "Original interpreted campus architecture; complete measured GitHub as-built CAD documentation was not found."
+  ]
+}

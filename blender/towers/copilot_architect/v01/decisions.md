@@ -312,3 +312,12 @@ User requests distinct variants of evolution-sheet01 Boundary Builder and05 Syst
 
 User likes option02 Boundary Bridge from architect-boundary-planning-variants.png and requests more Umpf. Develop stronger structural volume and confident presence while preserving the twin pillars, connecting bridge, curved face and domain cartridges. New one-direction front/oblique concept board documents the refinement. The direction is selected; refined artwork and production geometry still require review. No animation authorization inferred.
 
+
+## 2026-09-30 — Boundary Bridge production
+User approved the stronger 02 Boundary Bridge concept and explicitly requested sheets followed by a polished model with a small rear detail. Six-sheet pack completed first; concealed rear interpretation adds a compact chalk-rimmed service panel and three amber nodes. Previous r39 recipe preserved. New model built from scratch with a continuous convex face and shell, seated chalk pillars, bowed solid forehead bridge with actual rounded recesses, amber cartridges and indigo chin. Model-only r45: 4374/4500 triangles, two materials and a packed 32×4 palette. Game showcase now binds the canonical Architect model, preserving existing gameplay stats. Author visual review and technical checks complete; user model acceptance and animations remain pending.
+
+## 2026-09-30 — Vertical contour evaluation
+User identifies flat vertical faceplate. Measured unchanged r45 GLB: centre bow 100mm over 1170mm, eye line 93mm, outer display 35mm. Prior reference-fidelity assessment superseded; authored contour needs fuller crown/display/jaw transitions. See validation/contour-evaluation-r45/README.md and chart. Current request is evaluation; no source/runtime changes or animation authorization inferred.
+
+## 2026-09-30 — Side part/detail review
+User provides current profile and illustrative reference and requests side-to-side detail review. Both actual sides are consistent, but crown ridge, shoulder form, lower cheek/jaw masses and wraparound cartridge construction are underdeveloped. Amber exists but is occluded too early in side-oblique views. 552 triangles in six small amber markers suggest reallocation toward primary forms within the 4500 ceiling. Evaluation recorded in validation/side-detail-evaluation-r45/README.md. Production assets unchanged.

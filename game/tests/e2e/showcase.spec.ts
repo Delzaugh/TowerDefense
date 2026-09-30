@@ -162,7 +162,7 @@ test.describe('Hub Tower browser', () => {
     expect(errors).toEqual([]);
   });
 
-  test('delivered Analyst loads while missing art stays honest and stats remain qualitative', async ({ page }, testInfo) => {
+  test('delivered Analyst and Architect load with qualitative stats', async ({ page }, testInfo) => {
     const dialog = await openFromCard(page);
     await expect(page.getByTestId('tower-showcase')).toHaveAttribute('data-state', 'ready', { timeout: 30_000 });
     await expect(dialog.getByRole('group', { name: 'Animation selection' })).toHaveCount(0);
@@ -185,7 +185,12 @@ test.describe('Hub Tower browser', () => {
     expect(await dialog.locator('.codex-stats').innerText()).not.toMatch(/\d/);
     await page.screenshot({ path: testInfo.outputPath('analyst-inspector.png'), fullPage: true });
     await dialog.getByRole('button', { name: 'Architect', exact: true }).click();
-    await expect(dialog.getByRole('heading', { name: 'Model preview coming soon' })).toBeVisible({ timeout: 10_000 });
+    await expect(page.getByTestId('tower-showcase')).toHaveAttribute('data-state', 'ready', { timeout: 30_000 });
+    await expect(page.getByTestId('tower-showcase')).toHaveAttribute('data-animation', 'rest');
+    await expect(dialog.getByRole('heading', { name: 'Model preview coming soon' })).toHaveCount(0);
+    await expect(dialog.getByRole('button', { name: 'Architect', exact: true })).toHaveAttribute('data-preview', 'available');
+    await expect(dialog.getByRole('button', { name: 'Architect', exact: true }).locator('img')).toBeVisible();
+    await page.screenshot({ path: testInfo.outputPath('architect-inspector.png'), fullPage: true });
   });
 
   test('phone layout keeps stats visible without animation tabs', async ({ page }, testInfo) => {

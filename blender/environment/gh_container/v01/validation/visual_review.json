@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_container",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "85ff88faf663c740128d210edeca6a7f6df96e91345262f1a593404adada644c",
+  "sourceHash": "94928e32cc91c3667015d2e78aca353c1f1b273da87fd5eded35e81eabe7d7d0",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:25:35.130Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "The orange corrugated collaboration container, broad corner posts, black caps and wood floor preserve the distinctive original GitHub office motif. The 6 m module size is authored; this is not a recovered historic container measurement."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Replaced solid window backing with fitted perimeter frames, retained actual rear wall cutouts and repaired a 2 cm bottom-panel seam visible from the rear. Corrugation ribs stop at windows and continue above/below. Front is a true open collaboration portal; removable roof has fitted raised ribs."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Orange silhouette, broad corrugation and corner caps remain clear at phone width; the empty studio is ready for independent furnishings."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Deliberately static environment architecture, no skeleton or authored clips."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Viewed current front/rear/oblique and phone renders after repairing the rear windows and panel seam. The wall is continuous around both window voids, and no opaque backing or bright crack remains."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_container/v01/validation/iso.png",
+      "sha256": "e7abbd8e846d6c8b991a658ab06bf475d86b5f375867b0b39c7b82ef22a1ff73",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_container/v01/validation/front.png",
+      "sha256": "cb448ed3650d0c88fa47a9592c2900770ac0caacd016a1faa41861cbaea47b97",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_container/v01/validation/rear.png",
+      "sha256": "03d2104b4928f5ea6e9fbe81ea750ef076701a36959fcbf0262f1b546b5d5b77",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_container/v01/validation/phone.png",
+      "sha256": "ef22af7b8973c70c1123f0dbed87ec7fec637b2b7f6f403f7fae816ccba25ca0",
+      "view": "phone",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User authorized creation but has not explicitly accepted this model revision."
+  },
+  "limitations": [
+    "Original interpreted campus architecture; complete measured GitHub as-built CAD documentation was not found."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "asset": "gh_planter",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "b03cb6fea53895403a8cff892e3241757fb2cf64321196bd454c0af213b60cb9",
+  "checkedAt": "2026-09-30T17:58:21.247Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 412,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.0900001525878906,
+    1.5956000089645386,
+    1.2899999618530273
+  ],
+  "bounds": [
+    [
+      -1.0450000762939453,
+      0,
+      -0.6449999809265137
+    ],
+    [
+      1.0450000762939453,
+      1.5956000089645386,
+      0.6449999809265137
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "a86ef71f25cfdeb51ce256f979e6179c653dd1275ce438b9b4a59c9fb3c856e3",
+  "source": "blender/environment/gh_planter/v01/gh_planter_v01.blend",
+  "runtime": "assets/runtime/environment/gh_planter_v01.glb"
+}

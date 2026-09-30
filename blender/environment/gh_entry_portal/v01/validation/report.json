@@ -1,0 +1,37 @@
+{
+  "asset": "gh_entry_portal",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "40c27c606ef4ee23c215251267d7b6b4cd8f4c89aea504b2f1a3d5a03a2252e1",
+  "checkedAt": "2026-09-30T18:05:06.325Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 308,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    5,
+    3.5950000286102295,
+    2.200000047683716
+  ],
+  "bounds": [
+    [
+      -2.5,
+      0,
+      -1.100000023841858
+    ],
+    [
+      2.5,
+      3.5950000286102295,
+      1.100000023841858
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "4c754647522317cbc84fb35440011c701435ffff3df2bf7756ba5a6aef9f886a",
+  "source": "blender/environment/gh_entry_portal/v01/gh_entry_portal_v01.blend",
+  "runtime": "assets/runtime/environment/gh_entry_portal_v01.glb"
+}

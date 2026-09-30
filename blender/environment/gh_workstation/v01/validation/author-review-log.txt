@@ -1,0 +1,12 @@
+{
+  "ready": true,
+  "file": "blender/environment/gh_workstation/v01/validation/visual_review.json",
+  "asset": "gh_workstation",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "97c2612d0bb9eec35a56833272b2cd105dc63dce768afd0bba55d9bf2ff7baab",
+  "sourceHash": "4339a10574299e6859be4fe905a1da9dc91ee9744f1fca8729068dc92bb2ccf5",
+  "userAcceptance": "pending",
+  "errors": [],
+  "meaning": "Checks record completeness and current files; author judgment is not independently verified."
+}

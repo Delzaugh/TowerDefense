@@ -1,0 +1,13 @@
+
+> tower-game@0.1.0 test
+> vitest run tests/build/runtimeAssets.test.ts
+
+
+ RUN  v5.0.0 C:/Users/jonas/Documents/ChatGPT/Tower/artifacts/releases/primer-field-kit-20260930/game
+
+
+ Test Files  1 passed (1)
+      Tests  17 passed (17)
+   Start at  19:18:21
+   Duration  1.34s (tests 75%, import 20%, transform 4%)
+

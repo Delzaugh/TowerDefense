@@ -1,0 +1,12 @@
+{
+  "ready": true,
+  "file": "blender/environment/gh_cafe_bar/v01/validation/visual_review.json",
+  "asset": "gh_cafe_bar",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "6e116306de0710a6d85094cdc6e01276c203509482e1254e0d144ab73ec1afb3",
+  "sourceHash": "990288d0d337ba39a70a8c6e76dc7fa2bce159e207b967d34f475417d583a577",
+  "userAcceptance": "pending",
+  "errors": [],
+  "meaning": "Checks record completeness and current files; author judgment is not independently verified."
+}

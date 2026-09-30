@@ -1,0 +1,571 @@
+{
+  "schemaVersion": 1,
+  "id": "gh_bookshelf_pod",
+  "displayName": "Bookshelf and side reading nook",
+  "category": "environment",
+  "version": "v01",
+  "revision": 4,
+  "source": {
+    "path": "blender/environment/gh_bookshelf_pod/v01/gh_bookshelf_pod_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/gh_bookshelf_pod/v01/build.py",
+    "authoritativeHash": "cd9556ad7e20aaee8582016f1a35eeaa235cae42682a89d4a7b782558d730bf1"
+  },
+  "runtime": "assets/runtime/environment/gh_bookshelf_pod_v01.glb",
+  "budgets": {
+    "triangles": 30000,
+    "meshes": 10,
+    "materials": 3,
+    "textures": 3,
+    "textureSize": 64,
+    "bones": 0
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.004,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_seat",
+      "anchor_books"
+    ],
+    "groundY": 0,
+    "dimensions": {
+      "min": [
+        1.54,
+        3.14,
+        2.14
+      ],
+      "max": [
+        1.6600000000000001,
+        3.2600000000000002,
+        2.2600000000000002
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/references/user-photo.png",
+      "provenance": "User attached GitHub office photo, 2026-09-30; copied without changes. Photography guides shapes/materials only, never used as runtime texture."
+    },
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/references/user-wide-lounges.png",
+      "provenance": "User attached wide reading-lounge photo, 2026-09-30; unchanged design reference, not shipping texture."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/gh_bookshelf_pod/v01/revisions/r2_before_r3/gh_bookshelf_pod_v01.glb",
+      "source": "blender/environment/gh_bookshelf_pod/v01/revisions/r2_before_r3/gh_bookshelf_pod_v01.blend",
+      "sha256": "99bcb6b806c4ff9d69d58adcbb6a1cc68107c1534b4cfe7f9457e4a745039536",
+      "sourceHash": "3162d266a40578fe6613961d27d1ce4d723ab43efb97451946d33dd534935f6c"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/environment/gh_bookshelf_pod/v01/revisions/r3_before_r4/gh_bookshelf_pod_v01.glb",
+      "source": "blender/environment/gh_bookshelf_pod/v01/revisions/r3_before_r4/gh_bookshelf_pod_v01.blend",
+      "sha256": "0ea08fdadf5ea7d5f1ed0fde583207a104b0d5579e3bc4aee8bf01ef791383af",
+      "sourceHash": "fc4877d1d84b52d55d2f0ef1e2cae974729ea236a665d8fb15f4a88f374caf53"
+    }
+  ],
+  "decisions": "blender/environment/gh_bookshelf_pod/v01/decisions.md",
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "oak": "#BF9465",
+      "oak_edge": "#9C744C",
+      "grain": "#C8A274",
+      "walnut": "#835739",
+      "ivory": "#E5DBC4",
+      "fabric": "#A69A86",
+      "dark": "#232925",
+      "brick": "#A56548",
+      "mortar": "#C9B69C",
+      "gold": "#E9B864",
+      "green": "#70B5B4",
+      "blue": "#5579B8",
+      "bordeaux": "#7C354D",
+      "purple": "#8534F3",
+      "paper": "#F2F5F3",
+      "red": "#B84035"
+    }
+  },
+  "texturePalettes": [
+    {
+      "material": "gh_bookshelf_pod_palette",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "oak": {
+          "color": "#BF9465",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "oak_edge": {
+          "color": "#9C744C",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "grain": {
+          "color": "#C8A274",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "walnut": {
+          "color": "#835739",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "ivory": {
+          "color": "#E5DBC4",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "fabric": {
+          "color": "#A69A86",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "dark": {
+          "color": "#232925",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "brick": {
+          "color": "#A56548",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "mortar": {
+          "color": "#C9B69C",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "gold": {
+          "color": "#E9B864",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        },
+        "green": {
+          "color": "#70B5B4",
+          "rect": [
+            40,
+            0,
+            4,
+            4
+          ]
+        },
+        "blue": {
+          "color": "#5579B8",
+          "rect": [
+            44,
+            0,
+            4,
+            4
+          ]
+        },
+        "bordeaux": {
+          "color": "#7C354D",
+          "rect": [
+            48,
+            0,
+            4,
+            4
+          ]
+        },
+        "purple": {
+          "color": "#8534F3",
+          "rect": [
+            52,
+            0,
+            4,
+            4
+          ]
+        },
+        "paper": {
+          "color": "#F2F5F3",
+          "rect": [
+            56,
+            0,
+            4,
+            4
+          ]
+        },
+        "red": {
+          "color": "#B84035",
+          "rect": [
+            60,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "material": "gh_bookshelf_pod_fabric",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "oak": {
+          "color": "#BF9465",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "oak_edge": {
+          "color": "#9C744C",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "grain": {
+          "color": "#C8A274",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "walnut": {
+          "color": "#835739",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "ivory": {
+          "color": "#E5DBC4",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "fabric": {
+          "color": "#A69A86",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "dark": {
+          "color": "#232925",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "brick": {
+          "color": "#A56548",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "mortar": {
+          "color": "#C9B69C",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "gold": {
+          "color": "#E9B864",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        },
+        "green": {
+          "color": "#70B5B4",
+          "rect": [
+            40,
+            0,
+            4,
+            4
+          ]
+        },
+        "blue": {
+          "color": "#5579B8",
+          "rect": [
+            44,
+            0,
+            4,
+            4
+          ]
+        },
+        "bordeaux": {
+          "color": "#7C354D",
+          "rect": [
+            48,
+            0,
+            4,
+            4
+          ]
+        },
+        "purple": {
+          "color": "#8534F3",
+          "rect": [
+            52,
+            0,
+            4,
+            4
+          ]
+        },
+        "paper": {
+          "color": "#F2F5F3",
+          "rect": [
+            56,
+            0,
+            4,
+            4
+          ]
+        },
+        "red": {
+          "color": "#B84035",
+          "rect": [
+            60,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "material": "gh_bookshelf_pod_warm_light",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "oak": {
+          "color": "#BF9465",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "oak_edge": {
+          "color": "#9C744C",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "grain": {
+          "color": "#C8A274",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "walnut": {
+          "color": "#835739",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "ivory": {
+          "color": "#E5DBC4",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "fabric": {
+          "color": "#A69A86",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "dark": {
+          "color": "#232925",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "brick": {
+          "color": "#A56548",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "mortar": {
+          "color": "#C9B69C",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "gold": {
+          "color": "#E9B864",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        },
+        "green": {
+          "color": "#70B5B4",
+          "rect": [
+            40,
+            0,
+            4,
+            4
+          ]
+        },
+        "blue": {
+          "color": "#5579B8",
+          "rect": [
+            44,
+            0,
+            4,
+            4
+          ]
+        },
+        "bordeaux": {
+          "color": "#7C354D",
+          "rect": [
+            48,
+            0,
+            4,
+            4
+          ]
+        },
+        "purple": {
+          "color": "#8534F3",
+          "rect": [
+            52,
+            0,
+            4,
+            4
+          ]
+        },
+        "paper": {
+          "color": "#F2F5F3",
+          "rect": [
+            56,
+            0,
+            4,
+            4
+          ]
+        },
+        "red": {
+          "color": "#B84035",
+          "rect": [
+            60,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "348bd245a003aaf03f17e87fe2c21534b260f182484f245ae4c3258633f6fd5b",
+    "sourceHash": "cd9556ad7e20aaee8582016f1a35eeaa235cae42682a89d4a7b782558d730bf1",
+    "report": "blender/environment/gh_bookshelf_pod/v01/validation/report.json",
+    "deliveredAt": "2026-09-30T21:09:53.130Z"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_courtyard",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "8ca167d66da21fb98673edf8f5d5dee973dd13f7d6abbaf4a39758b7c92b2157",
+  "sourceHash": "72a7b1565d55b6b7a4e2b36187df2a0c71bb7c6a7d967474563308cdc81021b3",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:31:21.283Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Contribution graph geometry is an authored garden interpretation paired with concrete/wood bench vocabulary from the office terrace sources."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Raised cells are seated in a continuous turf bed; wood planks span two concrete piers and lanterns have fitted panes and bases."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "The 14-by-7 green cell field reads as contribution-inspired paving at phone scale; benches stay outside its main field."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static modular office/campus scenery. No animation was requested or authored."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second oblique/reverse check confirms perimeter seating and lantern seats. This is a garden, not a flat traversable floor module. Phone capture was explicitly reframed after the viewport width changed, then checked for complete-model visibility."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_courtyard/v01/validation/iso.png",
+      "sha256": "758037be47f868e5ee7e2961dd6deff28f255ca48263feb40bc65397743176a6",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_courtyard/v01/validation/rear.png",
+      "sha256": "a1c75b61806b7d37c29e0184174a0d08ea2d6abef85ada97eb4ab9358b6e3c0b",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_courtyard/v01/validation/inspector-detail.png",
+      "sha256": "07e3038ad614e69dd8ce16b2098305b64d25ab8006cb9b438b6cba668e900747",
+      "view": "inspector-detail"
+    },
+    {
+      "path": "blender/environment/gh_courtyard/v01/validation/inspector-phone.png",
+      "sha256": "e9a591b97465e604dab48396b3c30e14bbeb42453837e3ea7567f401d765f353",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author self-review completed; no artistic acceptance is inferred from the user request."
+  },
+  "limitations": [
+    "Stylized, inferred dimensions; not a measured as-built reconstruction."
+  ]
+}

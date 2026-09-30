@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_thinktocat",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "981cc947053a4d1891cafa180e8dc7be16f3b777ee131287c875ae879770d08c",
+  "sourceHash": "a69f0471590ee3d10d73e510a56a9d3c8bb12ebad52a4eef4d7f701fd620156c",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:09:08.117Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Reference governing landmarks checked against installed Thinktocat photo: broad round head, cat ears, lowered face, chin-rest curl, crossed tentacle, seated feet and white tapered plinth. Bronze shape is original low-poly interpretation, not exact sculptural duplication."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Front/close/oblique views show chin-support tentacle seated beneath muzzle and crossed tentacle across body. Rear shows swept curved tail and rock seat, feet rest on plinth."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "At phone size the round cat head, paired ears, thoughtful pose and chalk plinth remain clear. Bronze faceting is deliberate stylization."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Intentionally static environment ensemble; no rig, animation, root motion or gameplay behavior requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second close review compared major head/body ratio and chin/elbow landmarks with source. Lowered eyelids and curved extremities preserve thoughtful expression; simplified bronze surface omits source patina and sculptural microdetail."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_thinktocat/v01/validation/front.png",
+      "sha256": "297c7e73fc2f629cd5347959ce3ace132503904de0fa5dc27e9da335b696dc87",
+      "view": "front"
+    },
+    {
+      "path": "blender/environment/gh_thinktocat/v01/validation/iso.png",
+      "sha256": "ec209afb623a326e640757c73c85f8bd8cdf2273574a94eaffd25b14ed9a9387",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_thinktocat/v01/validation/rear.png",
+      "sha256": "2651e766d9c4b5c70342f91346ec485e9ffd5b05b801d259745b15451981301c",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_thinktocat/v01/validation/inspector-phone.png",
+      "sha256": "fdbcc17e9d6ca2778b45d44b2bb6f1aec2e949010c251e62f04bc7d4235c3e1f",
+      "view": "inspector-phone"
+    },
+    {
+      "path": "blender/environment/gh_thinktocat/v01/validation/inspector-close.png",
+      "sha256": "dfac8e8660320295d2a59e14e1217f0a84d956e716599818b8d119e61170ad2b",
+      "view": "inspector-close"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested production; no artistic acceptance of this specific revision has been given."
+  },
+  "limitations": [
+    "Research-informed modular interpretation; furniture measurements are inferred, not certified as-built specifications."
+  ]
+}

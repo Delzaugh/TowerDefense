@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_atrium",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "bfcd0c41bdbf62b30c0805ee6d66fc667c378634e236f868091a78d5d1806ef3",
+  "sourceHash": "6e46b835b36e4c98aa83cbea66f40ef88b49b9e3e4b33b1c4d2087c8b1868b96",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:25:35.128Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Pale glazing grid, exposed timber skylight beams and stepped oak-topped seating translate the public contemporary GitHub atrium vocabulary into an original detached campus volume. The suspended contribution artwork is intentionally a separate model."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Thin low-alpha glazing is isolated from one opaque packed palette. Added a receiving gallery and actual 25-tread narrow west stair, with an upper doorway and clipped mullion/glass sections. Gallery deck Y5.30 matches the covered bridge when placed atY5; stair and landing rails are fitted and the rear seating stays clear."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Current 390 px viewport clearly separates glazing, roof grid, stairs and stepped seating. Clear glass allows the contribution artwork and furniture to remain visible without dense refraction."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Deliberately static environment architecture, no skeleton or authored clips."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked current exported west elevation, isometric and phone after replacing the empty upper connection with a real stair/gallery and lowering the gallery to match the bridge. The doorway is clear; opposite glazing can be seen through it and is not an opaque local backing."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_atrium/v01/validation/iso.png",
+      "sha256": "953d20f9119ad688bf8c7802db3972f4586683cee6f21f4f3a6f81d1b97f4788",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_atrium/v01/validation/west_access.png",
+      "sha256": "ac5f63a973c0cef69df7ec7aef845e75dda9ac574604feac91a3b396df9e1d8c",
+      "view": "west_access",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_atrium/v01/validation/phone.png",
+      "sha256": "08ad57c34a64fa9a7e592f4ce52614e36549af9c6add4bde93becd9fdd7ade2b",
+      "view": "phone",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User authorized creation but has not explicitly accepted this model revision."
+  },
+  "limitations": [
+    "Original interpreted campus architecture; complete measured GitHub as-built CAD documentation was not found."
+  ]
+}

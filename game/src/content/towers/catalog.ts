@@ -74,7 +74,7 @@ export const TOWERS: readonly TowerReference[] = Object.freeze([
   {
     id: 'architect', title: 'Architect', role: 'Long-range area specialist',
     description: 'Strikes a selected Enemy and damages each eligible Enemy near the impact.',
-    family: 'copilot', collection: core, accent: '#D98655',
+    family: 'copilot', collection: core, accent: '#485995', modelId: 'copilot_architect@v01',
     stats: { range: 8, investment: 60, damagePerHit: 16, cooldownTicks: 72, damageKind: 'area' },
     abilities: ['Structural Impact damages each eligible Enemy caught near the impact point.'],
   },

@@ -1,0 +1,92 @@
+{
+  "base": "http://127.0.0.1:5191/",
+  "checks": [
+    {
+      "theme": "light",
+      "size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "tower": "analyst",
+      "animation": "rest",
+      "portrait": true,
+      "fullCard": true,
+      "stablePanel": true,
+      "overflow": false,
+      "triangles": 4780
+    },
+    {
+      "theme": "light",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tower": "analyst",
+      "animation": "rest",
+      "portrait": true,
+      "fullCard": true,
+      "stablePanel": true,
+      "overflow": false,
+      "triangles": 4780
+    },
+    {
+      "theme": "light",
+      "size": {
+        "width": 844,
+        "height": 390
+      },
+      "tower": "analyst",
+      "animation": "rest",
+      "portrait": true,
+      "fullCard": true,
+      "stablePanel": true,
+      "overflow": false,
+      "triangles": 4780
+    },
+    {
+      "theme": "dark",
+      "size": {
+        "width": 1600,
+        "height": 1000
+      },
+      "tower": "analyst",
+      "animation": "rest",
+      "portrait": true,
+      "fullCard": true,
+      "stablePanel": true,
+      "overflow": false,
+      "triangles": 4780
+    },
+    {
+      "theme": "dark",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "tower": "analyst",
+      "animation": "rest",
+      "portrait": true,
+      "fullCard": true,
+      "stablePanel": true,
+      "overflow": false,
+      "triangles": 4780
+    },
+    {
+      "theme": "dark",
+      "size": {
+        "width": 844,
+        "height": 390
+      },
+      "tower": "analyst",
+      "animation": "rest",
+      "portrait": true,
+      "fullCard": true,
+      "stablePanel": true,
+      "overflow": false,
+      "triangles": 4780
+    }
+  ],
+  "errors": [],
+  "requests": [],
+  "failures": []
+}

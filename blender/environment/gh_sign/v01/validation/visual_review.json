@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_sign",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "f9dc0ce06c14551ac74f1d43d5b19e431a8601aeabba11db3a8579d2d0f49c26",
+  "sourceHash": "73d3526b32419eb90bcbb2bd6e69b35ac665b6722301c75bcdb3199833fd6051",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:09:08.432Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Current official GitHub white vector lockup sampled directly from official SVG paths, keeping logotype/Invertocat layout and aspect ratio. Original monument frame uses neutral black and restrained green base line."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Extruded logo outlines sit just proud of graphite slab, closed slab and stone footing are fitted. Oblique view preserves holes in letters and Invertocat silhouette; rear is intentionally blank."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "White lockup and black backing read clearly at 390px with broad clear space around the mark."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Intentionally static environment ensemble; no rig, animation, root motion or gameplay behavior requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second enlarged export view checked wordmark holes, pictogram proportions and slab edge. Curved paths remain faithful at intended model scale, no invented typeface substitute."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_sign/v01/validation/front.png",
+      "sha256": "6ced40874a1633f0e41c44f9e6f3f2c0941b2436c986b986fab7d28257cd2d95",
+      "view": "front"
+    },
+    {
+      "path": "blender/environment/gh_sign/v01/validation/iso.png",
+      "sha256": "fd4840e7ad2cc35e81e48cdfe969e07a5f8ebb2a7aa7a1062267df5102994757",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_sign/v01/validation/rear.png",
+      "sha256": "b7e29f58880226fb510e9109288bc3225867f036d482dc1f7d50072456a13cca",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_sign/v01/validation/inspector-phone.png",
+      "sha256": "3b79b0731724a607adc60f27090029588bf08958ec0821bdaf95a843fbd46281",
+      "view": "inspector-phone"
+    },
+    {
+      "path": "blender/environment/gh_sign/v01/validation/inspector-close.png",
+      "sha256": "80ac6977f65b191098b14d967a260cbf87888cf0f4c30d28c25fcc667fa84e0f",
+      "view": "inspector-close"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested production; no artistic acceptance of this specific revision has been given."
+  },
+  "limitations": [
+    "Research-informed modular interpretation; furniture measurements are inferred, not certified as-built specifications.",
+    "Official GitHub logo/trademarks remain GitHub property; downloaded originals retained for provenance."
+  ]
+}

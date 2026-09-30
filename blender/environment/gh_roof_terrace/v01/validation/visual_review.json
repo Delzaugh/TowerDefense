@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_roof_terrace",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "ac2ea2fcd09515e650bcccd82538858329baa89c54c69bd1a1ab45cbc9930824",
+  "sourceHash": "17c9f3b837fe4e9072333ae1bd0c17283b42b9a71d23291af6347dda5047011d",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:25:35.149Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Broad oak deck boards, industrial rails and an open timber pavilion use the researched GitHub rooftop terrace vocabulary. Furniture is separate; pergola footprint and complete deck layout are authored."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Deck slab and all intersecting wood boards are cut around the fixed stair interface X[11.1,14.1],Z[-5.5,1.25]. Guards follow the two sides and bottom edge while the upper landing stays open. Small intermediate oak step keeps roof access rises under .3 m."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "At phone width the perimeter, pergola and rectangular stair aperture are visible. Large usable deck intentionally leaves space for the separate concrete seating/planters."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Deliberately static environment architecture, no skeleton or authored clips."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Reviewed current top, rear, isometric and phone after cutting the roof aperture. Top view confirms no floor backing in the stairwell; side/bottom guards and open arrival edge form a coherent access point."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_roof_terrace/v01/validation/iso.png",
+      "sha256": "4520161329bacd2e54426923b150eda3901b66203fdda90a27d5c62ef5e8f919",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_roof_terrace/v01/validation/rear.png",
+      "sha256": "4419c464fb610a9bb0dec6bd92eadbaa0e869af5c7343d42cbfd4f1efb648b69",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_roof_terrace/v01/validation/top.png",
+      "sha256": "b1ea8ecd1aa96a518e252439d42e24048fb7c2c28c35c147a296ff3e7b943e43",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_roof_terrace/v01/validation/phone.png",
+      "sha256": "38c77d30dc450c5f1df5c1161ef59ddca214601f7861a7ac28fb3c747e753b0a",
+      "view": "phone",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User authorized creation but has not explicitly accepted this model revision."
+  },
+  "limitations": [
+    "Original interpreted campus architecture; complete measured GitHub as-built CAD documentation was not found."
+  ]
+}

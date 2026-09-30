@@ -1,0 +1,14 @@
+00:02.172  blend            | Read blend: "C:\Users\jonas\Documents\ChatGPT\Tower\blender\environment\gh_thinktocat\v01\gh_thinktocat_v01.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+20:00:53 | INFO: Starting glTF 2.0 export
+20:00:53 | INFO: Extracting primitive: Tapered chalk stone plinth
+20:00:53 | INFO: Primitives created: 1
+20:00:53 | INFO: Finished glTF 2.0 export in 0.1410970687866211 s
+
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+Delivered gh_thinktocat v01 revision 2: 1492 triangles. Visual review remains separate.
+
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _aligned_free

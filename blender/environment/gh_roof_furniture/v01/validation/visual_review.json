@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_roof_furniture",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "e86bd3bf8cbfca5af4e026c301311eda6508cd99b8d295b2c70a82f11e8d32d0",
+  "sourceHash": "29d97eaf39c41de7e33faff141540504b04a5923eec81c18c94551ff043963fb",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:09:09.074Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Circular concrete chess/pedestal table, timber/concrete benches and planted concrete basin reference GitHub roof furniture cues. Chess pieces and paired bench arrangement are original."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Table pedestal reaches ground; chessboard inlay is intentionally just above concrete surface, two bench supports and fitted back rails visible in reverse."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Phone view distinguishes checkerboard top, two warm benches and teal planter foliage without requiring readable small pieces."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Intentionally static environment ensemble; no rig, animation, root motion or gameplay behavior requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second assessment checked circular top edge, bench feet and planter/table clearance from opposite view. All pieces remain separate and mechanically plausible in this stylization."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_roof_furniture/v01/validation/front.png",
+      "sha256": "167effed080b8de314c324642c950cbeca6b35f3af0d4e6f08c1847168cfb2c7",
+      "view": "front"
+    },
+    {
+      "path": "blender/environment/gh_roof_furniture/v01/validation/iso.png",
+      "sha256": "81b9d94cba20efb9733482b0bc1f9772d4ec820539a09a5c9a0f7d11bb0198d2",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_roof_furniture/v01/validation/rear.png",
+      "sha256": "787abd649d9a74764d81933e6e72ddc81ac197dbc56fa235a4cbefe8b4e0fc3a",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_roof_furniture/v01/validation/inspector-phone.png",
+      "sha256": "7ecb90e189745ef0880e95d459af287b1defa207a960ec038de915a6044d3389",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested production; no artistic acceptance of this specific revision has been given."
+  },
+  "limitations": [
+    "Research-informed modular interpretation; furniture measurements are inferred, not certified as-built specifications."
+  ]
+}

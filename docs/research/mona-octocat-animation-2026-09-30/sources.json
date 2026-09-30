@@ -1,0 +1,30 @@
+{
+  "researched_at": "2026-09-30",
+  "purpose": "Public primary-source research for Tower Mona / Octocat 2.0 animation direction",
+  "report": "../../design/Mona_Octocat_Animation_Research.md",
+  "sources": [
+    {"url":"https://www.tonytimetables.com/#/art-direction/", "author":"Tony Jaramillo", "use":"Art direction and character-universe context", "access":"Browser page inspected"},
+    {"url":"https://www.tonytimetables.com/mona/", "author":"Tony Jaramillo", "use":"Character intent and construction-sheet provenance", "access":"Public page read; existing local construction images visually inspected"},
+    {"url":"https://www.tonytimetables.com/hubot-20", "author":"Tony Jaramillo", "use":"Pentaped locomotion and production context", "access":"Public page, expression sheet, walk poses and two GIFs inspected; Vimeo film unavailable"},
+    {"url":"https://github.blog/news-insights/company-news/from-sticker-to-sculpture-the-making-of-the-octocat-figurine/", "author":"Tony Jaramillo / GitHub", "use":"3D anatomy and elastic support"},
+    {"url":"https://cameronmcefee.com/work/the-octocat/", "author":"Cameron McEfee", "use":"Historical character rules, nonverbal acting, inclusive movement and optimism"},
+    {"url":"https://github.blog/engineering/how-we-illustrate-at-github/", "author":"Tony Jaramillo / GitHub", "use":"Curiosity, tenacity and collaborative exploration"},
+    {"url":"https://dribbble.com/shots/6364613-Octocat-walk-cycle", "author":"Cameron Foxly for GitHub", "use":"Written animation-process note; no claimed frame analysis"},
+    {"url":"https://dribbble.com/shots/16080750-World-Building-Octocat-Animation", "author":"Cameron Foxly for GitHub", "use":"Written production context and limited browser playback observation", "observed_video_duration_seconds":6.666667, "approximate_observed_positions_seconds":[2.837472,5.602208], "screenshot":"world_building_browser_observation.png"},
+    {"url":"https://dribbble.com/shots/7075035-Octocat-with-a-Commit", "author":"Cameron Foxly for GitHub", "use":"Written note about restrained feline emphasis; no claimed full-film observation"},
+    {"url":"https://www.heavybit.com/library/podcasts/open-source-ready/ep-29-building-ascii-motion-with-cameron-foxly", "author":"Cameron Foxly interview / Heavybit", "use":"Current stewardship and retrofuturist cultural context; transcript read"},
+    {"url":"https://brand.github.com/graphic-elements/mascots", "author":"GitHub", "use":"Current mascot identities and style-era context"},
+    {"url":"https://brand.github.com/motion/principles", "author":"GitHub", "use":"Current broad motion identity; distinction from character-specific biomechanics"}
+  ],
+  "captured_media": [
+    {"file":"creator_expression_sheet.webp", "url":"https://images.squarespace-cdn.com/content/v1/5c87335493a6325711667e99/0cbc0304-994c-474e-a56a-cc1fac399b9f/Colorexpression1-sm.jpg?format=1000w", "note":"Browser pageAssets returned WebP content for the original JPEG URL"},
+    {"file":"creator_pentaped_walk_sheet.webp", "url":"https://images.squarespace-cdn.com/content/v1/5c87335493a6325711667e99/45415994-d0e7-47a3-84db-a9a15186453d/pentaped_walk_profile_v1-sm.jpg?format=1000w", "note":"Browser pageAssets returned WebP content for the original JPEG URL"},
+    {"file":"creator_pentaped_walk.gif", "url":"https://images.squarespace-cdn.com/content/v1/5c87335493a6325711667e99/9a8784b2-60ec-4fec-83c8-e374083dc13c/Octopus_Walk_01.gif?format=1000w", "derived_contact_sheet":"creator_pentaped_walk_frames.jpg"},
+    {"file":"creator_locomotion_rough.gif", "url":"https://images.squarespace-cdn.com/content/v1/5c87335493a6325711667e99/1a7b1bb3-81ec-474b-ac57-2d796904c307/SH_08_Rough.gif?format=1000w", "derived_contact_sheet":"creator_locomotion_rough_frames.jpg"}
+  ],
+  "access_limitations": [
+    "Vimeo embed on the Hubot page reported unavailable; no full-film timestamp claims made.",
+    "Google Drive character brief was denied by automatic approval review because it might be private and specific access was not authorized. Left unopened; no workaround attempted."
+  ],
+  "status":"Research and proposed direction; no rig or clips authored; no new animation acceptance recorded."
+}

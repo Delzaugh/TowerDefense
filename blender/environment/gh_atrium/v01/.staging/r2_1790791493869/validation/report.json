@@ -1,0 +1,37 @@
+{
+  "asset": "gh_atrium",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "9236a8c1f6df86c174bbfc4cae1dfe3540b28308e2bda0a039f7aed744f8c69a",
+  "checkedAt": "2026-09-30T18:04:56.784Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1864,
+  "meshes": 10,
+  "materials": 2,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    14.050000190734863,
+    10,
+    14.085000038146973
+  ],
+  "bounds": [
+    [
+      -7.025000095367432,
+      0,
+      -7.025000095367432
+    ],
+    [
+      7.025000095367432,
+      10,
+      7.059999942779541
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "1f210b78cf6a03d193e9a4e7f99ff3317f4576ab3bf0c130255dbcf1b7edc004",
+  "source": "blender/environment/gh_atrium/v01/gh_atrium_v01.blend",
+  "runtime": "assets/runtime/environment/gh_atrium_v01.glb"
+}

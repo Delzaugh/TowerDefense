@@ -1,0 +1,37 @@
+{
+  "asset": "gh_floor_wood",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "3634874fd305cf08dc7d3d83230a967a3325417c1406df6854a1b70ae73c3f96",
+  "checkedAt": "2026-09-30T17:57:11.009Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1020,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    6,
+    0.18090000748634338,
+    6
+  ],
+  "bounds": [
+    [
+      -3,
+      0,
+      -3
+    ],
+    [
+      3,
+      0.18090000748634338,
+      3
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "7398774cb1a956d6ead31056e250287893e03039c076a1fc19ab2f109b1b36f4",
+  "source": "blender/environment/gh_floor_wood/v01/gh_floor_wood_v01.blend",
+  "runtime": "assets/runtime/environment/gh_floor_wood_v01.glb"
+}

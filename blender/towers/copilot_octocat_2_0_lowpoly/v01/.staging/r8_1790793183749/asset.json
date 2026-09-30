@@ -1,0 +1,368 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_octocat_2_0_lowpoly",
+  "displayName": "GitHub Octocat 2.0 Low Poly",
+  "category": "towers",
+  "version": "v01",
+  "revision": 8,
+  "source": {
+    "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/copilot_octocat_2_0_lowpoly_v01.blend",
+    "mode": "hybrid",
+    "recipe": "blender/towers/copilot_octocat_2_0_lowpoly/v01/build.py",
+    "authoritativeHash": "1e5e6cb1c85aae20334bee661f1f0d8c62e5011d911f1ca4e2c6a780c392c07f"
+  },
+  "runtime": "assets/runtime/towers/copilot_octocat_2_0_lowpoly_v01.glb",
+  "budgets": {
+    "triangles": 4000,
+    "meshes": 2,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 512,
+    "bones": 29
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target",
+      "anchor_hat",
+      "anchor_face",
+      "anchor_chest",
+      "anchor_back",
+      "anchor_hand_left",
+      "anchor_hand_right"
+    ],
+    "dimensions": {
+      "min": [
+        1.2,
+        1.799,
+        0.6
+      ],
+      "max": [
+        1.7,
+        1.802,
+        1
+      ]
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "playback": "loop",
+      "fps": 24,
+      "duration": 2.25,
+      "meaning": "Attentive readiness: restrained weight redistribution, investigative head inclination and a distal curl."
+    },
+    {
+      "name": "work",
+      "playback": "loop",
+      "fps": 24,
+      "duration": 1.75,
+      "meaning": "Inspect, brace, operate precisely with a raised tentacle, and acknowledge the result; nonverbal maker acting."
+    },
+    {
+      "name": "move",
+      "playback": "loop",
+      "fps": 24,
+      "duration": 1.1666666666666667,
+      "meaning": "In-place five-tentacle walk with staggered contacts, low reaches, recovery curls and elastic head support."
+    },
+    {
+      "name": "place",
+      "playback": "once",
+      "fps": 24,
+      "duration": 1.0833333333333333,
+      "meaning": "Full-size orienting gesture while shared digital cubes assemble into the ready pose."
+    },
+    {
+      "name": "hit",
+      "playback": "once",
+      "fps": 24,
+      "duration": 0.4166666666666667,
+      "meaning": "Brief surprise and compression; planted tentacles catch the weight and recover purposefully."
+    },
+    {
+      "name": "resolve",
+      "playback": "once",
+      "fps": 24,
+      "duration": 1.0833333333333333,
+      "meaning": "Compact acknowledgment and soft eye closure while shared presentation reverses cube assembly."
+    }
+  ],
+  "references": [
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/references/octocat_2_0_r7.blend",
+      "provenance": "Pinned anatomy-corrected Octocat 2.0 revision 7 source; simplification input, hash 992e17a5267f099c730892bf50e7ecb616515f9bcfe9a8d47bc7faf87b2e1d6e"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/references/github_octocat_2_0_official.png",
+      "url": "https://brand.github.com/graphic-elements/mascots",
+      "provenance": "User-selected official Octocat 2.0 illustration. Character volume, cheeks, ears and expression; scene and props omitted."
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/references/myoctocat_base.svg",
+      "url": "https://myoctocat.com",
+      "provenance": "Official posed unadorned Octocat linked by the brand page. Proportion and pose input; detailed anatomy follows the creator construction/turnaround sheets."
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/references/creator_turnaround.jpg",
+      "url": "https://www.tonytimetables.com/mona/",
+      "provenance": "GitHub Animation Team seven-angle Mona turnaround; published by contributor Tony Jaramillo. Primary five-limb layout and three-support upright pose."
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/references/creator_tentacle_construction.png",
+      "url": "https://www.tonytimetables.com/mona/",
+      "provenance": "GitHub Animation Studios tentacle construction sheet dated 20 January 2016; five tentacles in pentagonal formation, flat underside, bulbous tips, taper toward head base and five suction cups per tentacle."
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/references/creator_head_construction.png",
+      "url": "https://www.tonytimetables.com/mona/",
+      "provenance": "GitHub Animation Team head construction sheet; rounded head volume, ear placement and facial landmarks."
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/references/octocat_2_0_uv_corrected_r8.blend",
+      "provenance": "User-requested face UV repair shared from high-resolution revision 8. Pinned input hash c0c000b5b12d0380bdaeb54904fb92b2428912519e10ab09263e70c110eec8cb"
+    },
+    {
+      "path": "docs/design/Mona_Octocat_Animation_Research.md",
+      "provenance": "User-authorized research-led movement and nonverbal character direction; creator pentaped studies, expression sheets and primary-source accounts."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r2_before_r3/copilot_octocat_2_0_lowpoly_v01.glb",
+      "source": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r2_before_r3/copilot_octocat_2_0_lowpoly_v01.blend",
+      "sha256": "4b7ef38eb2464acfba49b3ac264863328fe047c6518a4483434daea9b83c4598",
+      "sourceHash": "402b6aa1b4723f617feeb96eea7cc1ad628475a207ecfdaadd8e6deb5d717820"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r3_before_r4/copilot_octocat_2_0_lowpoly_v01.glb",
+      "source": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r3_before_r4/copilot_octocat_2_0_lowpoly_v01.blend",
+      "sha256": "bc02ff38869f02d62969c7434779ddfafc29fc13ce212f78cc007c5e6854b410",
+      "sourceHash": "165811bcbe6f9181acf42fdca3dba10835287cb6a919dfe56f4f70b09d7c736f"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r4_before_r5/copilot_octocat_2_0_lowpoly_v01.glb",
+      "source": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r4_before_r5/copilot_octocat_2_0_lowpoly_v01.blend",
+      "sha256": "cce0b58ce52f8a470aa7de57e44e0453bdebff3bf854bfecd6de1b8af02fb7ee",
+      "sourceHash": "e7b3f4e99b114f7b75d72660845762b2abb2fdac21ff54517a40d7962d5ed0bf"
+    },
+    {
+      "label": "before_mona_animation",
+      "revision": 5,
+      "export": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r5_before_mona_animation/copilot_octocat_2_0_lowpoly_v01.glb",
+      "source": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r5_before_mona_animation/copilot_octocat_2_0_lowpoly_v01.blend",
+      "sha256": "b16e408dc3409a139609abda088fae9d368bccae599b82114c516f253d4454ee",
+      "sourceHash": "a264b9081b1d2994551b5e656635f9b0cb287bee24185e23dff8700784d1290f"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r5_before_r6/copilot_octocat_2_0_lowpoly_v01.glb",
+      "source": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r5_before_r6/copilot_octocat_2_0_lowpoly_v01.blend",
+      "sha256": "b16e408dc3409a139609abda088fae9d368bccae599b82114c516f253d4454ee",
+      "sourceHash": "ebd64dc5f7e39925a67fb6dcb8c909bf8480a76d79c52e05257d6d423d570225"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r6_before_r7/copilot_octocat_2_0_lowpoly_v01.glb",
+      "source": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r6_before_r7/copilot_octocat_2_0_lowpoly_v01.blend",
+      "sha256": "f4a91291fd9657ecb39116e3e71622411c5d43dc896e2ab09fb54ac9be5ceea2",
+      "sourceHash": "1e5e6cb1c85aae20334bee661f1f0d8c62e5011d911f1ca4e2c6a780c392c07f"
+    }
+  ],
+  "decisions": "blender/towers/copilot_octocat_2_0_lowpoly/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "octocat_palette",
+      "size": [
+        40,
+        4
+      ],
+      "roles": {
+        "fur": {
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "color": "#252A31"
+        },
+        "face": {
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ],
+          "color": "#F6C3AA"
+        },
+        "eyes": {
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ],
+          "color": "#D9F0EA"
+        },
+        "iris": {
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ],
+          "color": "#A85444"
+        },
+        "suckers": {
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ],
+          "color": "#9FD5D1"
+        },
+        "inner_ear": {
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ],
+          "color": "#171D23"
+        },
+        "smile": {
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ],
+          "color": "#8E4C40"
+        },
+        "highlight": {
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ],
+          "color": "#FFFFFF"
+        },
+        "mouth": {
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ],
+          "color": "#522735"
+        },
+        "tongue": {
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ],
+          "color": "#CF6B87"
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "f7f5f3675c8fdd2a1a09e5a5e3f3d1fee8a99b40068b634bf165c4e4784bbfe1",
+    "sourceHash": "1e5e6cb1c85aae20334bee661f1f0d8c62e5011d911f1ca4e2c6a780c392c07f",
+    "report": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/report.json",
+    "deliveredAt": "2026-09-30T18:24:21.953Z"
+  },
+  "presentation": {
+    "resolve": {
+      "type": "digital_blocks",
+      "version": 1,
+      "clip": "resolve",
+      "assembleClip": "place",
+      "cellSize": 0.13,
+      "maxFragments": 3,
+      "edgeColor": "#9FD5D1"
+    }
+  },
+  "animationDesign": {
+    "research": "docs/design/Mona_Octocat_Animation_Research.md",
+    "authorization": "User: apply these to both 2.0 octocats (2026-09-30).",
+    "locomotion": {
+      "type": "pentaped",
+      "cycleSeconds": 1.1666666666666667,
+      "virtualSpeedMetresPerSecond": 0.28,
+      "stanceFraction": 0.78,
+      "limbOrder": [
+        "leg_left",
+        "arm_left",
+        "leg_rear",
+        "arm_right",
+        "leg_right"
+      ],
+      "phaseOffsets": [
+        0,
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ]
+    },
+    "expressionTargets": [
+      "blink_left",
+      "blink_right",
+      "focus",
+      "surprise",
+      "concern",
+      "delight",
+      "gaze_left",
+      "gaze_right"
+    ],
+    "expressionStates": {
+      "attentive": {},
+      "interest": {
+        "gaze_left": 0.55
+      },
+      "focused": {
+        "focus": 0.85
+      },
+      "surprised": {
+        "surprise": 1
+      },
+      "concerned": {
+        "concern": 0.8
+      },
+      "amused": {
+        "delight": 0.5
+      },
+      "delighted": {
+        "delight": 1
+      }
+    },
+    "maxCombinedTriangles": 3997,
+    "restModelAcceptance": "pending; explicit animation authorization is recorded separately"
+  }
+}

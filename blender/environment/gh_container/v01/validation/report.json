@@ -1,0 +1,37 @@
+{
+  "asset": "gh_container",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "85ff88faf663c740128d210edeca6a7f6df96e91345262f1a593404adada644c",
+  "checkedAt": "2026-09-30T18:12:40.395Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 3096,
+  "meshes": 3,
+  "materials": 2,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    6.079999923706055,
+    3.242500066757202,
+    3.0799999237060547
+  ],
+  "bounds": [
+    [
+      -3.0399999618530273,
+      0,
+      -1.5399999618530273
+    ],
+    [
+      3.0399999618530273,
+      3.242500066757202,
+      1.5399999618530273
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "94928e32cc91c3667015d2e78aca353c1f1b273da87fd5eded35e81eabe7d7d0",
+  "source": "blender/environment/gh_container/v01/gh_container_v01.blend",
+  "runtime": "assets/runtime/environment/gh_container_v01.glb"
+}

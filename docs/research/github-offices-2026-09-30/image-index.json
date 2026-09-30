@@ -10,7 +10,11 @@
     "sha256": "fff9d598dced11bf83e4ebfbcf15f588bb7758e1dab5404a774f48bccf719562",
     "status": "downloaded",
     "width": 1326,
-    "height": 800
+    "height": 800,
+    "title": "Amsterdam mural / room",
+    "modeling_observation": "White wall with fine stitch-like symbol patterns, light wood floor and blue chairs.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "amsterdam-mural-02",
@@ -23,7 +27,11 @@
     "sha256": "888c95c483fa84841ba8b2f8a3c0b8fda4bf8bd83d05ca592538ae28778e93db",
     "status": "downloaded",
     "width": 919,
-    "height": 1000
+    "height": 1000,
+    "title": "Amsterdam mural detail",
+    "modeling_observation": "Quiet graphic blocks and understated colors; artist confirms 2024 commission.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "atrium-01",
@@ -36,7 +44,11 @@
     "sha256": "555acd486a117753f9609c143d9401f29ac349880c9db7e8d0ddace09c14424e",
     "status": "downloaded",
     "width": 1349,
-    "height": 900
+    "height": 900,
+    "title": "Atrium from upper floor",
+    "modeling_observation": "Glass enclosure, green suspended field, warm existing structure.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "atrium-02",
@@ -49,7 +61,11 @@
     "sha256": "74d6beae254bfee3138ac9f7ce308d426dcef20def6456a83061b9b3a3837343",
     "status": "downloaded",
     "width": 600,
-    "height": 900
+    "height": 900,
+    "title": "Polycarbonate icon detail",
+    "modeling_observation": "Rounded green plates, graphic icon and slender suspension lines.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "atrium-03",
@@ -62,7 +78,11 @@
     "sha256": "e3c561c8f4b7c9dde8de8d4b01a99432d4c2d5cf783a94959254a5bc33083d43",
     "status": "downloaded",
     "width": 600,
-    "height": 900
+    "height": 900,
+    "title": "Mona from below",
+    "modeling_observation": "View-dependent mascot silhouette in a three-dimensional field.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "atrium-04",
@@ -75,7 +95,11 @@
     "sha256": "2e3f9433400da6342b4819649b4c45bf3fe28f946c460e06e63449265457372f",
     "status": "downloaded",
     "width": 600,
-    "height": 900
+    "height": 900,
+    "title": "Mona from oblique below",
+    "modeling_observation": "Shows depth and spacing, and why the outline changes with viewpoint.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "atrium-05",
@@ -88,7 +112,11 @@
     "sha256": "ca28139b56b4996979b58f3e6f75f2384893a36d90f8aace354be884dc4e9c4e",
     "status": "downloaded",
     "width": 600,
-    "height": 900
+    "height": 900,
+    "title": "Diagonal plate field",
+    "modeling_observation": "Repeated squares and suspended elements; variation in transparency.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "atrium-06",
@@ -101,7 +129,11 @@
     "sha256": "e76dfcdd805bb0c99de6ca68efd1543d37aafde740839ca19cb185505ff18bb8",
     "status": "downloaded",
     "width": 600,
-    "height": 900
+    "height": 900,
+    "title": "Plate grid / cables",
+    "modeling_observation": "Individual plates at changing heights and depths.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "atrium-07",
@@ -114,7 +146,11 @@
     "sha256": "71ad08ebaff68674557770e4f84cdb64deaac96abb6ceaeaba8028180918b380",
     "status": "downloaded",
     "width": 600,
-    "height": 900
+    "height": 900,
+    "title": "Embedded graphic detail",
+    "modeling_observation": "Printed icon within a plate and cable structure.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "atrium-08",
@@ -127,7 +163,11 @@
     "sha256": "0242b77f08a7cd16daa76ef4141f7a985019648bf8f2994563fa4a908919dfbb",
     "status": "downloaded",
     "width": 600,
-    "height": 900
+    "height": 900,
+    "title": "Across the atrium",
+    "modeling_observation": "Edge-on field: depth layers and reflections.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "atrium-09",
@@ -140,7 +180,11 @@
     "sha256": "8690d746c0d5ab9221c57bebc07fd7172973689b77ae7a8e0ee715d9b2848c0c",
     "status": "downloaded",
     "width": 600,
-    "height": 900
+    "height": 900,
+    "title": "All-hands below atrium",
+    "modeling_observation": "Stepped event seating under suspended artwork.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "boulder-01",
@@ -153,7 +197,11 @@
     "sha256": "70de04c1eeba4f271db4b29e332148ff2537c250055f332022f25bb9a5b7ed4f",
     "status": "downloaded",
     "width": 1500,
-    "height": 1000
+    "height": 1000,
+    "title": "Boulder office, 2014",
+    "modeling_observation": "Curved dark seating divider, mustard floor zone, orange chairs and bright window perimeter.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "expansion-contractor-01",
@@ -166,7 +214,11 @@
     "sha256": "7ed133f3374533b445a698379d115f3f73ad177c7bf33337b6f23226e01ed26c",
     "status": "downloaded",
     "width": 960,
-    "height": 630
+    "height": 630,
+    "title": "Quiet-room Octocat / shelves",
+    "modeling_observation": "Decorative Octocat on large table; sculpted seat niches in bookshelves.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "expansion-contractor-02",
@@ -179,7 +231,12 @@
     "sha256": "260179282c42a40c27298b2e1dec5a96cdbb45ac970d17d711df94bd4d24dc24",
     "status": "downloaded",
     "width": 1920,
-    "height": 940
+    "height": 940,
+    "title": "Reading room / carrels",
+    "modeling_observation": "Long table and burgundy upholstered work niches.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "rapt-expansion-01",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "expansion-contractor-03",
@@ -192,7 +249,11 @@
     "sha256": "e690b05444e1d0907797f5fbc3d1ac8db97a888dd8f5522e70539df88965d2d2",
     "status": "downloaded",
     "width": 1140,
-    "height": 648
+    "height": 648,
+    "title": "Meeting wall / mural",
+    "modeling_observation": "Luminous divider, white furniture and graphic mural beyond.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "expansion-contractor-04",
@@ -205,7 +266,12 @@
     "sha256": "30da456b76d46b6d385d164fd8de66eb3e5e423c5950f4dfdad568c905aedcef",
     "status": "downloaded",
     "width": 770,
-    "height": 815
+    "height": 815,
+    "title": "Bookcase seat detail",
+    "modeling_observation": "Rounded niche and circular openings in pale timber shelving.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "rapt-expansion-02",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "expansion-contractor-05",
@@ -218,7 +284,12 @@
     "sha256": "b7a4485740566d46d8baf238d5b933a337b7a8a43d890d5e6b75603d923b7d22",
     "status": "downloaded",
     "width": 500,
-    "height": 398
+    "height": 398,
+    "title": "Luminous meeting zone",
+    "modeling_observation": "Translucent wall faces and green hanging pendants.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "rapt-expansion-03",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "expansion-contractor-06",
@@ -231,7 +302,11 @@
     "sha256": "2424e3a735064a89c4b932841ecdf9e298a4a3e5d280a3e87dd30b597eda55fd",
     "status": "downloaded",
     "width": 1140,
-    "height": 917
+    "height": 917,
+    "title": "Expansion kitchen island",
+    "modeling_observation": "Pale counters, open timber shelves and large ducts.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "expansion-contractor-07",
@@ -244,7 +319,11 @@
     "sha256": "99377695639fbaa1eaeb3744e321d8e37197a695133801e7645a32636195beb7",
     "status": "downloaded",
     "width": 1140,
-    "height": 648
+    "height": 648,
+    "title": "Mezzanine / connection",
+    "modeling_observation": "Upper-level seating, cable rail and lower lounge; builder documents a third-floor connection.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "expansion-contractor-08",
@@ -257,7 +336,11 @@
     "sha256": "ca1f89a8c3d569a7002fe9208041b2a15cebcb52fcb62ad6a8426783c738a379",
     "status": "downloaded",
     "width": 1140,
-    "height": 1000
+    "height": 1000,
+    "title": "Soft lounge",
+    "modeling_observation": "Blue/purple upholstered sofa, round table and warm timber structure.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "exterior-01",
@@ -270,7 +353,11 @@
     "sha256": "0a85b51b98d84a89c2b42416263057a3a9ff679e0d990ee458ee082321778791",
     "status": "downloaded",
     "width": 1162,
-    "height": 776
+    "height": 776,
+    "title": "Colin P. Kelly entrance",
+    "modeling_observation": "Gray finished façade, shallow white canopy, circular Invertocat sign and glazed double doors.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "furniture-01",
@@ -283,7 +370,11 @@
     "sha256": "3a5f12b9c57809796ba803730852c281ad588bc662691a2a78613c609b73d102",
     "status": "downloaded",
     "width": 1800,
-    "height": 1200
+    "height": 1200,
+    "title": "Basic workstations",
+    "modeling_observation": "Simple wood tops and dark metal frames.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "furniture-02",
@@ -296,7 +387,11 @@
     "sha256": "83a66341f8320538f048b88e9dd264fa53bb203c9b6d11c3e51bcf168fa8d5da",
     "status": "downloaded",
     "width": 1800,
-    "height": 1308
+    "height": 1308,
+    "title": "Communal table",
+    "modeling_observation": "Broad worktop and braced metal legs; use maker specification for material identification.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "furniture-03",
@@ -309,7 +404,11 @@
     "sha256": "a646b6c22065cc058087b7e78b96f05ccc042f151ef03497fde7cf073f1f0d1c",
     "status": "downloaded",
     "width": 1800,
-    "height": 1200
+    "height": 1200,
+    "title": "Hacker / steel table",
+    "modeling_observation": "Long cold gray tabletop with dark braced supports.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "furniture-04",
@@ -322,7 +421,11 @@
     "sha256": "e22d99faea641a18eb5b49f82d7922f8cf76ab2fa0f8379b08a3f4c0f810de9a",
     "status": "downloaded",
     "width": 1800,
-    "height": 1200
+    "height": 1200,
+    "title": "Height-adjustable desks",
+    "modeling_observation": "Exposed lifting mechanisms beneath timber tops.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "furniture-05",
@@ -335,7 +438,11 @@
     "sha256": "92747fe4d354177d0ab1a10cf160a11fc1ccfda5feb8ab14f2039a9a1ea634ed",
     "status": "downloaded",
     "width": 1800,
-    "height": 1200
+    "height": 1200,
+    "title": "Stand-up table",
+    "modeling_observation": "Tall work surface and stools; leg structure visible.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "furniture-06",
@@ -348,7 +455,11 @@
     "sha256": "77c9c66682c0fe83ca7f9ef9d97ce2773ed312e06a0b3cecb97b991dc2d262bf",
     "status": "downloaded",
     "width": 1800,
-    "height": 1200
+    "height": 1200,
+    "title": "Wall-mounted desks",
+    "modeling_observation": "Continuous oak worktop along windows with individual task stations.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "furniture-07",
@@ -361,7 +472,11 @@
     "sha256": "1f2b5db24a96f7d66ea467aad153705dfb3ca36c235d0a0438c9456846f03adf",
     "status": "downloaded",
     "width": 2428,
-    "height": 1448
+    "height": 1448,
+    "title": "Poker table",
+    "modeling_observation": "Polygonal wood border, green felt surface and timber chairs.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "furniture-08",
@@ -374,7 +489,11 @@
     "sha256": "b4d6647844ccabe2d51c42458f7220d74e047cdb57d8a2dbc494f93bc26b28e9",
     "status": "downloaded",
     "width": 2428,
-    "height": 1448
+    "height": 1448,
+    "title": "Private-office desk",
+    "modeling_observation": "Wood top with dark frame and front modesty panel.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-01",
@@ -387,7 +506,11 @@
     "sha256": "58a42a7fa7978cf7656aa3fe92852cc7f8d9b33542a7fe87cc3155ebf5d6df51",
     "status": "downloaded",
     "width": 1200,
-    "height": 799
+    "height": 799,
+    "title": "Café work area",
+    "modeling_observation": "Timber posts, solid tabletops and slender black frames.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-02",
@@ -400,7 +523,11 @@
     "sha256": "f53a9ea1ced3cb63a4d26aa7d0d26280b8b3f728f78f9c2553b1a6bb368e0290",
     "status": "downloaded",
     "width": 1200,
-    "height": 770
+    "height": 770,
+    "title": "Orange container room",
+    "modeling_observation": "Corrugated sides, cut-away openings, corner posts and upper access stair.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-03",
@@ -413,7 +540,11 @@
     "sha256": "558a280de34ebd53b903a294b08ef6ebffd474bd8f03178e43452971cb8accbb",
     "status": "downloaded",
     "width": 1200,
-    "height": 799
+    "height": 799,
+    "title": "Pendant detail",
+    "modeling_observation": "Exposed filament bulbs and dark sockets; warm points of light.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-04",
@@ -426,7 +557,11 @@
     "sha256": "8c47132bae82410473702237b567750258a62c9f4d84806665e38b0acdd70bfe",
     "status": "downloaded",
     "width": 579,
-    "height": 869
+    "height": 869,
+    "title": "Window-side counter",
+    "modeling_observation": "Timber counter and round stools under exposed roof framing.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-05",
@@ -439,7 +574,11 @@
     "sha256": "a2328f0374e3ab6577330fdcbd626e44ea540dd5fec9788b729daf68738afd7e",
     "status": "downloaded",
     "width": 579,
-    "height": 869
+    "height": 869,
+    "title": "Main bar / structure",
+    "modeling_observation": "Long counter, dense bottle shelving, pendant grid and timber bay rhythm.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-06",
@@ -452,7 +591,11 @@
     "sha256": "2566dc1e489d815b525d86859fe6f11d65d5d9cc14dbc8ba68521882bad886f0",
     "status": "downloaded",
     "width": 1200,
-    "height": 823
+    "height": 823,
+    "title": "Café / dining",
+    "modeling_observation": "White tile, brown hexagonal flooring, round table and black seating.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-07",
@@ -465,7 +608,11 @@
     "sha256": "8282d5134711aad2b59e2e66e0c665030e4861988c26c8aac01b23c4947bc21f",
     "status": "downloaded",
     "width": 1200,
-    "height": 418
+    "height": 418,
+    "title": "Floor and mascot detail collage",
+    "modeling_observation": "Hexagonal floor meeting wood planks; historical Octocat artwork. This is a collage, not one room.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-08",
@@ -478,7 +625,11 @@
     "sha256": "c41a0f5bb0ae5796c243667b788fca6d8574c4e3faf665d8e896b109f08a28c8",
     "status": "downloaded",
     "width": 579,
-    "height": 869
+    "height": 869,
+    "title": "Speakeasy-like room",
+    "modeling_observation": "Dark framed textured glazing, checkerboard floor and small round tables.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-09",
@@ -491,7 +642,11 @@
     "sha256": "0b92e0756167b514b1fa536db12bfed5978e4fae1c994e14d9183ff24249a05a",
     "status": "downloaded",
     "width": 579,
-    "height": 869
+    "height": 869,
+    "title": "Open work floor",
+    "modeling_observation": "Timber joists, exposed services, linear lights and perimeter desks.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-10",
@@ -504,7 +659,11 @@
     "sha256": "4fb55a83f318be8714dbebf7c2eb77a6a8a16ba27cfa633ebd4f65b866a625d6",
     "status": "downloaded",
     "width": 579,
-    "height": 869
+    "height": 869,
+    "title": "Door / material detail",
+    "modeling_observation": "Horizontal wood door, dark lever, pale textured wall.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-11",
@@ -517,7 +676,11 @@
     "sha256": "2bd28efdf66873c9de0cd0f11be2ce467382774bd013e5f41f6db7c324b0a5b5",
     "status": "downloaded",
     "width": 1197,
-    "height": 798
+    "height": 798,
+    "title": "Tufted lounge corner",
+    "modeling_observation": "Black buttoned banquette, black metal chair and tree-trunk tables.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-12",
@@ -530,7 +693,11 @@
     "sha256": "b44379f55ac178dbc1591bff43818f53a5b9ef8758fa45e74c5dcfd464b6cf5a",
     "status": "downloaded",
     "width": 1200,
-    "height": 799
+    "height": 799,
+    "title": "Room portals",
+    "modeling_observation": "Deep charcoal frame, wood infill and orange container beyond.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-13",
@@ -543,7 +710,11 @@
     "sha256": "551d94269fc2338bf06c56b9f3d525692a2587a4e37d68d0a7d4e7cc0188d918",
     "status": "downloaded",
     "width": 1200,
-    "height": 800
+    "height": 800,
+    "title": "Phone / focus rooms",
+    "modeling_observation": "Glazed dark frames, timber surrounds and small individual stations.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-14",
@@ -556,7 +727,11 @@
     "sha256": "3530528c87716ac567579d4afdeef7900cc1139711b862d7a03b69a5816618f8",
     "status": "downloaded",
     "width": 1200,
-    "height": 934
+    "height": 934,
+    "title": "Indoor park",
+    "modeling_observation": "Turf and timber strips, Adirondack-style chairs, plants and skylight.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-15",
@@ -569,7 +744,11 @@
     "sha256": "60281c41798929cfa1e9c86b8b74bbc7fe0028ee1754bb7097a7c025ab41683e",
     "status": "downloaded",
     "width": 1200,
-    "height": 799
+    "height": 799,
+    "title": "Event dining hall",
+    "modeling_observation": "Heavy trestle tables and ring chandeliers beneath open services.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-16",
@@ -582,7 +761,11 @@
     "sha256": "9fce9ae37cc3dbf2e5f22d73a077957d3fe8ac112e463f1ce4d81e22b8b28491",
     "status": "downloaded",
     "width": 1200,
-    "height": 800
+    "height": 800,
+    "title": "Kitchen / event space",
+    "modeling_observation": "Stainless extraction canopy and white tiled cooking wall.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-17",
@@ -595,7 +778,11 @@
     "sha256": "cf53242003f9098aa8a219fb6b297cb8d9616e24eb91d27cf5fb409e01710950",
     "status": "downloaded",
     "width": 1200,
-    "height": 724
+    "height": 724,
+    "title": "Kitchen close-up",
+    "modeling_observation": "Floating shelves on metal frame, white tile and timber counter.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-architect-18",
@@ -608,7 +795,11 @@
     "sha256": "e9c328c9994926557d01c8b57cc0c32e4ee2b50ce3fcdd26ab9b7339090a3847",
     "status": "downloaded",
     "width": 1200,
-    "height": 1800
+    "height": 1800,
+    "title": "Container seating detail",
+    "modeling_observation": "Deep portal, built-in seat, wood floor and exposed post.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-01",
@@ -621,7 +812,11 @@
     "bytes": 598510,
     "sha256": "2b6afd945a065f3bc1fad96242e8bef3da5ee5d4537c426f7d8d4598f4bb4ccc",
     "width": 1067,
-    "height": 1600
+    "height": 1600,
+    "title": "Rail motif / entrance",
+    "modeling_observation": "Two parallel floor rails and timber cross-bands; suspended motorcycle and cart props.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-02",
@@ -634,7 +829,12 @@
     "bytes": 540309,
     "sha256": "ca816d9f1dec10476df890d73a7cc3211eae7c6d4f8cc932fe36cf0ffdbf211b",
     "width": 1600,
-    "height": 1067
+    "height": 1067,
+    "title": "Room portals",
+    "modeling_observation": "Dark deep opening with wood infill; orange container behind.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "original-architect-12",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-03",
@@ -647,7 +847,12 @@
     "bytes": 460765,
     "sha256": "df83c7876c75180ff13eaa58505c1ff4021d2f60281b4b1e8a0d7232e1309dfc",
     "width": 1600,
-    "height": 1067
+    "height": 1067,
+    "title": "Kitchen close-up",
+    "modeling_observation": "White subway-style tile, stainless hood, suspended shelves.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "original-architect-17",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-04",
@@ -660,7 +865,11 @@
     "bytes": 462901,
     "sha256": "08fce9fcc6f1a5a9bc838b7cee60dcce45cdb4715babb93bbab77c18c41b06ce",
     "width": 1067,
-    "height": 1600
+    "height": 1600,
+    "title": "Shelf construction detail",
+    "modeling_observation": "Wood shelves in black metal frame, sink and tile.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-05",
@@ -673,7 +882,11 @@
     "bytes": 568783,
     "sha256": "0742c4d416443947f1a4946f198c078308d66e29adf00a1b84d5dd8556e2a5a7",
     "width": 1067,
-    "height": 1600
+    "height": 1600,
+    "title": "Stair / handrail detail",
+    "modeling_observation": "Timber structure with dark metal fittings.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-06",
@@ -686,7 +899,12 @@
     "bytes": 701153,
     "sha256": "cbda15687a5724eb999f71ffdab75bdf450ef067e6adec0a2a17434d77b84e03",
     "width": 1067,
-    "height": 1600
+    "height": 1600,
+    "title": "Main bar / timber bays",
+    "modeling_observation": "Counter and stools; high exposed structure.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "original-architect-05",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-07",
@@ -699,7 +917,12 @@
     "bytes": 741135,
     "sha256": "10950fc1e13a17d0fa68970ab83210009ebdf70da43f80f0090d1a39a1bcadba",
     "width": 1600,
-    "height": 1067
+    "height": 1067,
+    "title": "Event dining hall",
+    "modeling_observation": "Large trestle tables, benches and ring chandeliers.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "original-architect-15",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-08",
@@ -712,7 +935,12 @@
     "bytes": 573191,
     "sha256": "d29dd32ae7a5303eb91f48ab52380bdcdd35f9d54336e17e0ab817bcb7428c55",
     "width": 1600,
-    "height": 1067
+    "height": 1067,
+    "title": "Kitchen / dining junction",
+    "modeling_observation": "Kitchen extraction canopy, timber furniture and dark frames.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "original-architect-16",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-09",
@@ -725,7 +953,12 @@
     "bytes": 672374,
     "sha256": "f6b8af292c5e86d2d1db5191280a643807122c4b30e72417663082c82db7a185",
     "width": 1600,
-    "height": 1067
+    "height": 1067,
+    "title": "Orange shipping-container workspace",
+    "modeling_observation": "Cut-away corrugated shell, padded seat, orange metal stair.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "original-architect-02",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-10",
@@ -738,7 +971,12 @@
     "bytes": 726065,
     "sha256": "938547248d65198270b707181b9fe842f0b8504516187f53f5c10e02386db7ac",
     "width": 1600,
-    "height": 1067
+    "height": 1067,
+    "title": "Black lounge banquette",
+    "modeling_observation": "Button-tufted seat, timber trunk tables and patterned glazing.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "original-architect-11",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-11",
@@ -751,7 +989,12 @@
     "bytes": 694939,
     "sha256": "2169bd36bd9fa370c5b428e5d2771189a31f63256c7b85ada5f5f6c7121b2f80",
     "width": 1067,
-    "height": 1600
+    "height": 1600,
+    "title": "Window-side counter",
+    "modeling_observation": "Wood counter, round stool seats, timber beams.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "original-architect-04",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-12",
@@ -764,7 +1007,11 @@
     "bytes": 619582,
     "sha256": "50bd4b17e5c2dea6546a7b290e6e7288ffe47817ba934bc7da284af746dfa37d",
     "width": 1600,
-    "height": 1067
+    "height": 1067,
+    "title": "Historic Oval Office reception",
+    "modeling_observation": "Curved pale walls, gold drapery and sofas, white trim and wood desk.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-13",
@@ -777,7 +1024,11 @@
     "bytes": 745474,
     "sha256": "857396c09ca03f47326b8bfd430cb1ada58f6baf3db597e1ca3c772232ca466c",
     "width": 1600,
-    "height": 1067
+    "height": 1067,
+    "title": "Original dark library",
+    "modeling_observation": "Tall bookcases, leather chairs, rug and Octocat portrait.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-14",
@@ -790,7 +1041,12 @@
     "bytes": 720485,
     "sha256": "a3164915f96e6d4e21c874400f164168d5435e867f9f66b440b8456ef6bc69a8",
     "width": 1067,
-    "height": 1600
+    "height": 1600,
+    "title": "Café hexagonal floor",
+    "modeling_observation": "Glossy brown hex tiles with pale grout under round tables.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "original-architect-06",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-15",
@@ -803,7 +1059,12 @@
     "bytes": 817549,
     "sha256": "bdb7a6c6898d3ae7d7e6fb336baac003f2aeb8d42f2a69c0eac45a392e9dfdc3",
     "width": 1067,
-    "height": 1600
+    "height": 1600,
+    "title": "Indoor park / skylight",
+    "modeling_observation": "Green turf, plank strips and wood lounge chairs.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "original-architect-14",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-16",
@@ -816,7 +1077,12 @@
     "bytes": 663325,
     "sha256": "6ff364dd87ac610c11e5429fa190250e2481fa27eba207c52f141592133cbcc4",
     "width": 1067,
-    "height": 1600
+    "height": 1600,
+    "title": "Original work floor",
+    "modeling_observation": "Exposed joists and services above desks.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "original-architect-09",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-17",
@@ -829,7 +1095,12 @@
     "bytes": 610398,
     "sha256": "ca8f597ed12f94b2dca612a1f0d7a7445cd609efca0791c126a574eab919f2c7",
     "width": 1067,
-    "height": 1600
+    "height": 1600,
+    "title": "Speakeasy-like meeting room",
+    "modeling_observation": "Dark glazing and checkerboard floor.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "original-architect-08",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-18",
@@ -842,7 +1113,11 @@
     "bytes": 678323,
     "sha256": "c135ee978b997cb26257773e91ffa49293a26b7cb27d45f0eb934c83430cd36d",
     "width": 1066,
-    "height": 1600
+    "height": 1600,
+    "title": "Bar shelving front view",
+    "modeling_observation": "Bottle shelf grid, timber countertop and black stools.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-19",
@@ -855,7 +1130,12 @@
     "bytes": 727552,
     "sha256": "47e3681d1ff891e50c35e9ed730f328704a551d1944c79cdd650e615dde83642",
     "width": 1600,
-    "height": 1067
+    "height": 1067,
+    "title": "Small focus rooms",
+    "modeling_observation": "Glazed frames and compact stations.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "original-architect-13",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-20",
@@ -868,7 +1148,12 @@
     "bytes": 628577,
     "sha256": "b58cb0728e7a5bdb52a29bb21ace73aa647a49d194304f7863e9dba3a347c719",
     "width": 1600,
-    "height": 1067
+    "height": 1067,
+    "title": "Café work area",
+    "modeling_observation": "Timber posts, table rows and sofas.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "original-architect-01",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "original-gallery-21",
@@ -881,7 +1166,12 @@
     "bytes": 450344,
     "sha256": "719c4d72370afaa24ff99b359e9f4322a4c0ad94da818416642eeae2057e8ce2",
     "width": 1067,
-    "height": 1600
+    "height": 1600,
+    "title": "Container seating portal",
+    "modeling_observation": "Dark surround and recessed bench.",
+    "observation_type": "visual observation; not a measured specification",
+    "similar_view": "original-architect-18",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "rapt-expansion-01",
@@ -894,7 +1184,11 @@
     "sha256": "825255c59dd8c685342d7cbd8a42536a4e9da215126a2de50cd1155df02ba3a5",
     "status": "downloaded",
     "width": 2880,
-    "height": 1360
+    "height": 1360,
+    "title": "Expansion quiet room",
+    "modeling_observation": "Long warm wood table, bookshelves and red upholstered reading carrels.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "rapt-expansion-02",
@@ -907,7 +1201,11 @@
     "sha256": "414c5beee45037403b28ab2ec90e0f5ee47b944de18b0394f54ca1b77e9e7e83",
     "status": "downloaded",
     "width": 2562,
-    "height": 1708
+    "height": 1708,
+    "title": "Sit-in bookshelf",
+    "modeling_observation": "Seat carved into shelving with rounded openings and integrated lights.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "rapt-expansion-03",
@@ -920,7 +1218,11 @@
     "sha256": "146d573e128a9f0622653879e519c2455ba66f0410f65de1b1b41f8d3defe21e",
     "status": "downloaded",
     "width": 2562,
-    "height": 1760
+    "height": 1760,
+    "title": "Backlit meeting hub",
+    "modeling_observation": "Organic white luminous wall around a circular table.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "rapt-expansion-04",
@@ -933,7 +1235,11 @@
     "sha256": "a10c19288e167dbe9404a35af551126583d739ca866e3df00eb6de726f563cb0",
     "status": "downloaded",
     "width": 1281,
-    "height": 1921
+    "height": 1921,
+    "title": "Focus room",
+    "modeling_observation": "Brick wall, compact desk, acoustic surface and pale finishes.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "roof-furniture-01",
@@ -946,7 +1252,11 @@
     "sha256": "38ffd9cdd00a57253faf96385d071529f9b7e22044f54ca0db33292a67b9c9e2",
     "status": "downloaded",
     "width": 1280,
-    "height": 1440
+    "height": 1440,
+    "title": "Roof planter-table",
+    "modeling_observation": "Concrete rectangular planter with chairs, deck and metal guardrail.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "roof-furniture-02",
@@ -959,7 +1269,11 @@
     "sha256": "10fed084674e4d87189396d243edee0576aa47218a07d0d115e761d82f3464bd",
     "status": "downloaded",
     "width": 1280,
-    "height": 1440
+    "height": 1440,
+    "title": "Roof planter detail",
+    "modeling_observation": "Cast concrete form with a central planted recess.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "roof-furniture-03",
@@ -972,7 +1286,11 @@
     "sha256": "62e214e90a472b764ddbe426fd150709f73ab8264dc671a18de83a5ddfbc4156",
     "status": "downloaded",
     "width": 2560,
-    "height": 1440
+    "height": 1440,
+    "title": "Concrete surface detail",
+    "modeling_observation": "Fine grid/etched surface pattern; construction identity is not specified in the image.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "roof-furniture-04",
@@ -985,7 +1303,11 @@
     "sha256": "13198e87fe443a44013afd9186806fab9acf0dfc6d47426bf35e535106f95767",
     "status": "downloaded",
     "width": 1280,
-    "height": 1440
+    "height": 1440,
+    "title": "Roof chess tables",
+    "modeling_observation": "Round patterned tables, slender dark bases and grasses behind.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "id": "roof-furniture-05",
@@ -998,7 +1320,11 @@
     "sha256": "f1cc0de5d65bab3322b9206cf7f832e67c3e47342efc98550663f068c1563715",
     "status": "downloaded",
     "width": 1280,
-    "height": 1440
+    "height": 1440,
+    "title": "Interior concrete table",
+    "modeling_observation": "Pale round tabletop with dark upholstered dining chairs.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "url": "https://images.squarespace-cdn.com/content/v1/5c87335493a6325711667e99/1552673304965-TICT2PSLYMOLK32TUYVA/EVENTS_Oct_Gen_05.png",
@@ -1011,7 +1337,11 @@
     "bytes": 329634,
     "sha256": "5f9fbb26ca7c38557ade85dc63e2cc853bf1829971debfa37e263cae556d963f",
     "width": 2000,
-    "height": 1500
+    "height": 1500,
+    "title": "Thinktocat clay model",
+    "modeling_observation": "Large head and thinking pose before bronze casting.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "url": "https://images.squarespace-cdn.com/content/v1/5c87335493a6325711667e99/1552674366165-3OQMXN15OY42CAJRN4G2/04_process.jpg",
@@ -1024,7 +1354,11 @@
     "bytes": 348892,
     "sha256": "006bd004a5e114e210f6f92597292bc8d05e6f940f5fee55f9d10cbada4d74ed",
     "width": 2000,
-    "height": 1500
+    "height": 1500,
+    "title": "Thinktocat process collage",
+    "modeling_observation": "Armature, small study, sculpting and installation stages.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "url": "https://images.squarespace-cdn.com/content/v1/5c87335493a6325711667e99/1552675151341-Z85J55DMZK4PNZFD0U5B/05_final.jpg",
@@ -1037,7 +1371,11 @@
     "bytes": 210862,
     "sha256": "c20a728a919bb6b026fdd2eac7bdd1cf49dae8e6f240ff65ccfc6da727fb9810",
     "width": 2000,
-    "height": 1500
+    "height": 1500,
+    "title": "Thinktocat installed",
+    "modeling_observation": "Dark patinated bronze sculpture on light tapered pedestal.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "url": "https://media.wired.com/photos/59331f7ff682204f7369871d/3:2/w_2560,c_limit/20130925-GITHUB-NEW-OFFICE-306edit.jpg",
@@ -1050,9 +1388,163 @@
     "bytes": 812150,
     "sha256": "55eba11bd3ab73bcb0d7061f725069b9425484f5e0766317ca209fa6d3caa9fa",
     "width": 2500,
-    "height": 1667
+    "height": 1667,
+    "title": "2013 orange lounge / Octocat art",
+    "modeling_observation": "Orange egg-like chair and white cellular shelving against brick.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
   },
   {
     "url": "https://media.wired.com/photos/5b8886227801f850077ffd0d/master/w_320,c_limit/20130925-GITHUB-NEW-OFFICE-312edit.jpg",
     "group": "wired-tour",
-    "page": "ht
+    "page": "https://www.wired.com/2013/09/github-office/",
+    "credit": "Ariel Zambelich / WIRED",
+    "id": "wired-tour-02",
+    "file": "images/wired-tour-02.jpg",
+    "status": "downloaded",
+    "bytes": 22978,
+    "sha256": "b414e03682c215fdac37692a2ef009632f96c1d4d764ea8f62a20282cb2e003d",
+    "width": 320,
+    "height": 213,
+    "title": "2013 general workspace",
+    "modeling_observation": "Mixed lounge and work furniture below high timber ceiling.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
+  },
+  {
+    "url": "https://media.wired.com/photos/5b888623cde746582fe9ff7f/master/w_320,c_limit/20130925-GITHUB-NEW-OFFICE-008edit.jpg",
+    "group": "wired-tour",
+    "page": "https://www.wired.com/2013/09/github-office/",
+    "credit": "Ariel Zambelich / WIRED",
+    "id": "wired-tour-03",
+    "file": "images/wired-tour-03.jpg",
+    "status": "downloaded",
+    "bytes": 24748,
+    "sha256": "33d104bc9fbc13ea0f8ca181459638ccff6102b95f15d201a9b0e4b6935ac24a",
+    "width": 320,
+    "height": 213,
+    "title": "Historic Octocat seal",
+    "modeling_observation": "Circular emblem from opening-era reception; historical graphic.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
+  },
+  {
+    "url": "https://media.wired.com/photos/5b8886245e14e34a223b3789/master/w_320,c_limit/20130925-GITHUB-NEW-OFFICE-046edit.jpg",
+    "group": "wired-tour",
+    "page": "https://www.wired.com/2013/09/github-office/",
+    "credit": "Ariel Zambelich / WIRED",
+    "id": "wired-tour-04",
+    "file": "images/wired-tour-04.jpg",
+    "status": "downloaded",
+    "bytes": 13401,
+    "sha256": "f30e4389e31eb1b4a52c36f0685f563440037692688be10d6832919e2870d12d",
+    "width": 320,
+    "height": 213,
+    "title": "2013 tent / turf nook",
+    "modeling_observation": "Small tent, turf patch, tree-trunk stools and industrial shell.",
+    "observation_type": "visual observation; not a measured specification",
+    "rights": "Source photograph/artwork retained as modeling reference. No redistribution or texture-use license inferred."
+  },
+  {
+    "id": "art-direction-01",
+    "group": "art-direction",
+    "page": "https://www.tonytimetables.com/art-direction/",
+    "url": "https://images.squarespace-cdn.com/content/v1/5c87335493a6325711667e99/7f0fa529-111e-46e2-997b-85bda2dc654e/office-saskia-01-sm.jpg",
+    "credit": "Saskia / Tony Jaramillo portfolio",
+    "file": "images/art-direction-01.jpg",
+    "bytes": 345894,
+    "sha256": "93c8f6a5b65ec020b0fb4548c36e831a79f779d259919adaaa970f4e7be038ef",
+    "status": "downloaded",
+    "width": 2016,
+    "height": 1115,
+    "title": "GitHub commissioned office art — Saskia",
+    "modeling_observation": "See mural-research.md: colour rhythm, graphic contours and office placement.",
+    "observation_type": "Visual reference; not measured specification",
+    "rights": "Reference photograph/artwork. No redistribution or runtime texture license inferred."
+  },
+  {
+    "id": "art-direction-02",
+    "group": "art-direction",
+    "page": "https://www.tonytimetables.com/art-direction/",
+    "url": "https://images.squarespace-cdn.com/content/v1/5c87335493a6325711667e99/1b7db7a4-1360-49b9-a9d4-0abdab0b9de8/office-edwards-01-sm.jpg",
+    "credit": "Jonathan Edwards / Tony Jaramillo portfolio",
+    "file": "images/art-direction-02.jpg",
+    "bytes": 375161,
+    "sha256": "d71ffa94ae488b10f799cf64c726bd8ba41cdb7322078cbd2a8e68623dc26c0d",
+    "status": "downloaded",
+    "width": 2016,
+    "height": 1179,
+    "title": "GitHub commissioned office art — Jonathan Edwards",
+    "modeling_observation": "See mural-research.md: colour rhythm, graphic contours and office placement.",
+    "observation_type": "Visual reference; not measured specification",
+    "rights": "Reference photograph/artwork. No redistribution or runtime texture license inferred."
+  },
+  {
+    "id": "art-direction-03",
+    "group": "art-direction",
+    "page": "https://www.tonytimetables.com/art-direction/",
+    "url": "https://images.squarespace-cdn.com/content/v1/5c87335493a6325711667e99/e69dc544-a995-447d-88b6-1a3de28ed646/office-hobbs-02-sm.jpg",
+    "credit": "Tyler Hobbs / Tony Jaramillo portfolio",
+    "file": "images/art-direction-03.jpg",
+    "bytes": 51606,
+    "sha256": "70fe05f8d89ee8f7a7a746197ae7375bab691b8b6ce7fc331b16a88ad20cc367",
+    "status": "downloaded",
+    "width": 524,
+    "height": 394,
+    "title": "GitHub commissioned office art — Tyler Hobbs",
+    "modeling_observation": "See mural-research.md: colour rhythm, graphic contours and office placement.",
+    "observation_type": "Visual reference; not measured specification",
+    "rights": "Reference photograph/artwork. No redistribution or runtime texture license inferred."
+  },
+  {
+    "id": "art-direction-04",
+    "group": "art-direction",
+    "page": "https://www.tonytimetables.com/art-direction/",
+    "url": "https://images.squarespace-cdn.com/content/v1/5c87335493a6325711667e99/90db75ed-6dcf-4596-b99b-2c1363a5ef62/office-hobbs-01.jpg",
+    "credit": "Tyler Hobbs / Tony Jaramillo portfolio",
+    "file": "images/art-direction-04.jpg",
+    "bytes": 57450,
+    "sha256": "dfdb694d1221ab2edb8fca2ef12b872863a00b24caaed391b99b97a15d8681ea",
+    "status": "downloaded",
+    "width": 470,
+    "height": 396,
+    "title": "GitHub commissioned office art — Tyler Hobbs",
+    "modeling_observation": "See mural-research.md: colour rhythm, graphic contours and office placement.",
+    "observation_type": "Visual reference; not measured specification",
+    "rights": "Reference photograph/artwork. No redistribution or runtime texture license inferred."
+  },
+  {
+    "id": "art-direction-05",
+    "group": "art-direction",
+    "page": "https://www.tonytimetables.com/art-direction/",
+    "url": "https://images.squarespace-cdn.com/content/v1/5c87335493a6325711667e99/797f1f66-939a-4d3c-a56e-765d6aac9491/sf-cafe.jpeg",
+    "credit": "San Francisco mural, artist not named in adjacent caption / Tony Jaramillo portfolio",
+    "file": "images/art-direction-05.jpg",
+    "bytes": 115307,
+    "sha256": "823e0e074b7da8adb79c14c12f002a572633a81cf8332b450279d3718c308a57",
+    "status": "downloaded",
+    "width": 1000,
+    "height": 397,
+    "title": "GitHub commissioned office art — San Francisco mural, artist not named in adjacent caption",
+    "modeling_observation": "See mural-research.md: colour rhythm, graphic contours and office placement.",
+    "observation_type": "Visual reference; not measured specification",
+    "rights": "Reference photograph/artwork. No redistribution or runtime texture license inferred."
+  },
+  {
+    "id": "art-direction-06",
+    "group": "art-direction",
+    "page": "https://www.tonytimetables.com/art-direction/",
+    "url": "https://images.squarespace-cdn.com/content/v1/5c87335493a6325711667e99/abb97c06-8092-412c-876a-0d0dd413febe/ARTIST_PARNTER_Mural_01-sm.jpg",
+    "credit": "Aaron de la Cruz / Tony Jaramillo portfolio",
+    "file": "images/art-direction-06.jpg",
+    "bytes": 40823,
+    "sha256": "a763a9215a90b2850c16176d70f1ca23b2ccd56281810d3556db441562d603db",
+    "status": "downloaded",
+    "width": 618,
+    "height": 464,
+    "title": "GitHub commissioned office art — Aaron de la Cruz",
+    "modeling_observation": "See mural-research.md: colour rhythm, graphic contours and office placement.",
+    "observation_type": "Visual reference; not measured specification",
+    "rights": "Reference photograph/artwork. No redistribution or runtime texture license inferred."
+  }
+]

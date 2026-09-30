@@ -1,0 +1,37 @@
+{
+  "asset": "gh_tree",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "920c70e9908ec59e54a845a90bf5abf12b0559f0ce00491dc17e9f829159f1c1",
+  "checkedAt": "2026-09-30T17:58:25.645Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 364,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    3.9208693504333496,
+    5.878399848937988,
+    2.878565788269043
+  ],
+  "bounds": [
+    [
+      -1.9315189123153687,
+      0,
+      -1.4192829132080078
+    ],
+    [
+      1.989350438117981,
+      5.878399848937988,
+      1.4592828750610352
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "1587d7807f65b8dcc003f79087712c975e9518b7a9e9356737a71140d0a77549",
+  "source": "blender/environment/gh_tree/v01/gh_tree_v01.blend",
+  "runtime": "assets/runtime/environment/gh_tree_v01.glb"
+}

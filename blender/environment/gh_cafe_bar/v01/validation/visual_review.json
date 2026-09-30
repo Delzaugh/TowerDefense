@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_cafe_bar",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "6e116306de0710a6d85094cdc6e01276c203509482e1254e0d144ab73ec1afb3",
+  "sourceHash": "990288d0d337ba39a70a8c6e76dc7fa2bce159e207b967d34f475417d583a577",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:09:07.174Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Warm solid oak, vertical boarded counter, four iron stools, light rear wall, bottle shelving and espresso block reflect documented industrial cafe references."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Counter front panel rhythm is consistent, stool metal feet meet ground and seat under a continuous top; shelves fit the rear tile wall, bottle necks are connected."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "At phone size the long oak bar, dark stools and repeated bottle shelves remain distinct; fine bottle labels were deliberately omitted."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Intentionally static environment ensemble; no rig, animation, root motion or gameplay behavior requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second assessment checked rear wall closure, stool repeat centers and top edge from opposite view. No floaters or unintended counter/shelf crossings observed."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_cafe_bar/v01/validation/front.png",
+      "sha256": "cfbc438b35a0522f2311a20362ac1f78cae6fd5c092288ac91b37b809e8c497e",
+      "view": "front"
+    },
+    {
+      "path": "blender/environment/gh_cafe_bar/v01/validation/iso.png",
+      "sha256": "1d34e4e77628ebb71304e25b3304f5f27a275ec5526a95d94fa5399ec28458f4",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_cafe_bar/v01/validation/rear.png",
+      "sha256": "418b731ea71f2f5f5214dbfbf38daf18865e35ce964d6a0219ad9c800fde0a0b",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_cafe_bar/v01/validation/inspector-phone.png",
+      "sha256": "d1b894a513fa8087d0cf07ad8b7f34c5bedba9f4e3de89f37131860337d647b2",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested production; no artistic acceptance of this specific revision has been given."
+  },
+  "limitations": [
+    "Research-informed modular interpretation; furniture measurements are inferred, not certified as-built specifications."
+  ]
+}

@@ -477,11 +477,6 @@
       "manifest": "blender/towers/copilot_octocat_classic/v01/asset.json"
     },
     {
-      "id": "copilot_octocat_modern",
-      "version": "v01",
-      "manifest": "blender/towers/copilot_octocat_modern/v01/asset.json"
-    },
-    {
       "id": "campus_pixel_copilot",
       "version": "v01",
       "manifest": "blender/environment/campus_pixel_copilot/v01/asset.json"
@@ -725,6 +720,211 @@
       "id": "copilot_analyst",
       "version": "v01",
       "manifest": "blender/towers/copilot_analyst/v01/asset.json"
+    },
+    {
+      "id": "copilot_mona",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_mona/v01/asset.json"
+    },
+    {
+      "id": "story_courtyard",
+      "version": "v01",
+      "manifest": "blender/environment/story_courtyard/v01/asset.json"
+    },
+    {
+      "id": "story_capture_carrier",
+      "version": "v01",
+      "manifest": "blender/environment/story_capture_carrier/v01/asset.json"
+    },
+    {
+      "id": "copilot_octocat_2_0",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_octocat_2_0/v01/asset.json"
+    },
+    {
+      "id": "copilot_octocat_2_0_lowpoly",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_octocat_2_0_lowpoly/v01/asset.json"
+    },
+    {
+      "id": "gh_warehouse",
+      "version": "v01",
+      "manifest": "blender/environment/gh_warehouse/v01/asset.json"
+    },
+    {
+      "id": "gh_atrium",
+      "version": "v01",
+      "manifest": "blender/environment/gh_atrium/v01/asset.json"
+    },
+    {
+      "id": "gh_container",
+      "version": "v01",
+      "manifest": "blender/environment/gh_container/v01/asset.json"
+    },
+    {
+      "id": "gh_facade_bay",
+      "version": "v01",
+      "manifest": "blender/environment/gh_facade_bay/v01/asset.json"
+    },
+    {
+      "id": "gh_entry_portal",
+      "version": "v01",
+      "manifest": "blender/environment/gh_entry_portal/v01/asset.json"
+    },
+    {
+      "id": "gh_glass_partition",
+      "version": "v01",
+      "manifest": "blender/environment/gh_glass_partition/v01/asset.json"
+    },
+    {
+      "id": "gh_roof_terrace",
+      "version": "v01",
+      "manifest": "blender/environment/gh_roof_terrace/v01/asset.json"
+    },
+    {
+      "id": "gh_bridge",
+      "version": "v01",
+      "manifest": "blender/environment/gh_bridge/v01/asset.json"
+    },
+    {
+      "id": "gh_workstation",
+      "version": "v01",
+      "manifest": "blender/environment/gh_workstation/v01/asset.json"
+    },
+    {
+      "id": "gh_meeting_set",
+      "version": "v01",
+      "manifest": "blender/environment/gh_meeting_set/v01/asset.json"
+    },
+    {
+      "id": "gh_library",
+      "version": "v01",
+      "manifest": "blender/environment/gh_library/v01/asset.json"
+    },
+    {
+      "id": "gh_cafe_bar",
+      "version": "v01",
+      "manifest": "blender/environment/gh_cafe_bar/v01/asset.json"
+    },
+    {
+      "id": "gh_lounge",
+      "version": "v01",
+      "manifest": "blender/environment/gh_lounge/v01/asset.json"
+    },
+    {
+      "id": "gh_pendant",
+      "version": "v01",
+      "manifest": "blender/environment/gh_pendant/v01/asset.json"
+    },
+    {
+      "id": "gh_thinktocat",
+      "version": "v01",
+      "manifest": "blender/environment/gh_thinktocat/v01/asset.json"
+    },
+    {
+      "id": "gh_sign",
+      "version": "v01",
+      "manifest": "blender/environment/gh_sign/v01/asset.json"
+    },
+    {
+      "id": "gh_contribution_art",
+      "version": "v01",
+      "manifest": "blender/environment/gh_contribution_art/v01/asset.json"
+    },
+    {
+      "id": "gh_roof_furniture",
+      "version": "v01",
+      "manifest": "blender/environment/gh_roof_furniture/v01/asset.json"
+    },
+    {
+      "id": "gh_floor_wood",
+      "version": "v01",
+      "manifest": "blender/environment/gh_floor_wood/v01/asset.json"
+    },
+    {
+      "id": "gh_floor_paving",
+      "version": "v01",
+      "manifest": "blender/environment/gh_floor_paving/v01/asset.json"
+    },
+    {
+      "id": "gh_floor_hex",
+      "version": "v01",
+      "manifest": "blender/environment/gh_floor_hex/v01/asset.json"
+    },
+    {
+      "id": "gh_timber_frame",
+      "version": "v01",
+      "manifest": "blender/environment/gh_timber_frame/v01/asset.json"
+    },
+    {
+      "id": "gh_stairs",
+      "version": "v01",
+      "manifest": "blender/environment/gh_stairs/v01/asset.json"
+    },
+    {
+      "id": "gh_planter",
+      "version": "v01",
+      "manifest": "blender/environment/gh_planter/v01/asset.json"
+    },
+    {
+      "id": "gh_tree",
+      "version": "v01",
+      "manifest": "blender/environment/gh_tree/v01/asset.json"
+    },
+    {
+      "id": "gh_courtyard",
+      "version": "v01",
+      "manifest": "blender/environment/gh_courtyard/v01/asset.json"
+    },
+    {
+      "id": "gh_membrane_wall",
+      "version": "v01",
+      "manifest": "blender/environment/gh_membrane_wall/v01/asset.json"
+    },
+    {
+      "id": "gh_ceiling_services",
+      "version": "v01",
+      "manifest": "blender/environment/gh_ceiling_services/v01/asset.json"
+    },
+    {
+      "id": "gh_indoor_park",
+      "version": "v01",
+      "manifest": "blender/environment/gh_indoor_park/v01/asset.json"
+    },
+    {
+      "id": "gh_bookshelf_pod",
+      "version": "v01",
+      "manifest": "blender/environment/gh_bookshelf_pod/v01/asset.json"
+    },
+    {
+      "id": "gh_worklounge_pod",
+      "version": "v01",
+      "manifest": "blender/environment/gh_worklounge_pod/v01/asset.json"
+    },
+    {
+      "id": "gh_recessed_lounge",
+      "version": "v01",
+      "manifest": "blender/environment/gh_recessed_lounge/v01/asset.json"
+    },
+    {
+      "id": "gh_secret_octocat",
+      "version": "v01",
+      "manifest": "blender/environment/gh_secret_octocat/v01/asset.json"
+    },
+    {
+      "id": "gh_mural_universe",
+      "version": "v01",
+      "manifest": "blender/environment/gh_mural_universe/v01/asset.json"
+    },
+    {
+      "id": "gh_mural_currents",
+      "version": "v01",
+      "manifest": "blender/environment/gh_mural_currents/v01/asset.json"
+    },
+    {
+      "id": "gh_mural_collaboration",
+      "version": "v01",
+      "manifest": "blender/environment/gh_mural_collaboration/v01/asset.json"
     }
   ]
 }

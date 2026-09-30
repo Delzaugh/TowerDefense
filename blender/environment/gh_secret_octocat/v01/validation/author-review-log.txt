@@ -1,0 +1,12 @@
+{
+  "ready": true,
+  "file": "blender/environment/gh_secret_octocat/v01/validation/visual_review.json",
+  "asset": "gh_secret_octocat",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "f28dc21e61a088409bf90ac17c0f60d12fe1965fc74f621761703982dbf1beb4",
+  "sourceHash": "9224ba915b02ea971fff400067d4f9b5d1cbaffa1bbd48535e1b1184265d0c3c",
+  "userAcceptance": "pending",
+  "errors": [],
+  "meaning": "Checks record completeness and current files; author judgment is not independently verified."
+}

@@ -148,3 +148,10 @@ stats['runtime_meshes']=2;stats['source_parts']='Named part_* vertex groups reta
 bpy.context.view_layer.update()
 bpy.ops.wm.save_as_mainfile(filepath=str(OUT/os.environ.get('ASSET_SOURCE_NAME','copilot_octocat_2_0_lowpoly_v01.blend')))
 print(json.dumps(stats))
+
+if os.environ.get('ASSET_MANIFEST') and json.loads(Path(os.environ['ASSET_MANIFEST']).read_text(encoding='utf-8')).get('clips'):
+    import importlib.util
+    shared=FOLDER.parents[1]/'copilot_octocat_2_0/v01/animate.py'
+    spec=importlib.util.spec_from_file_location('mona_animation',shared)
+    animation=importlib.util.module_from_spec(spec);spec.loader.exec_module(animation)
+    animation.animate_current(OUT/os.environ.get('ASSET_SOURCE_NAME','copilot_octocat_2_0_lowpoly_v01.blend'))

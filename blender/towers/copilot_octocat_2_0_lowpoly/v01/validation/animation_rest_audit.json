@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "asset": "copilot_octocat_2_0_lowpoly",
+  "revision": 8,
+  "sha256": "450e6be3070a890bc2f253c162cb493fd8ca368a64383cf991543f89f4b62c1a",
+  "sourceHash": "eed31447ba53a3b5fc2dbecaa484ef60699fc93270c8803b659338370580877d",
+  "baselineRevision": 5,
+  "restAttributeMaximumDifferences": {
+    "head_and_ears": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "octocat_features": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    }
+  },
+  "embeddedImageHashes": [
+    "15f30e638fa32f5f821e463bcc21e99255104bbf772e86a8ffdb58995bbb27e8",
+    "df8578ee88f8effff74758cdac6877009ad7b4c8100acd7e82544c2635d4f257"
+  ],
+  "materialsEqual": true,
+  "maxContactDeviationMetres": 4.6497663811623235e-7
+}

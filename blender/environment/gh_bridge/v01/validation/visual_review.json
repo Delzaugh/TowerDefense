@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_bridge",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "b8a2e8947dec0bf2d94ac06fd117c508ac360d9897938d5e62f922e0c7f4ef72",
+  "sourceHash": "1bc91054d6e097204d17c76935e9da84600841c40d945514fe9928b61ad39ba4",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:25:35.151Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "The bridge is a new campus connector in the same timber/iron/pale architecture family, rather than a claim about real GitHub site adjacency."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Deck has broad individual boards, fixed iron posts, warm wood handrails, clear guards and a timber-supported pale cover. Symmetric rails terminate at structural posts; posts express their small exposed top caps. End openings remain usable."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Covered linear span and warm walking surface remain clear on the 390 px viewport. Thin rails are subordinate to the primary deck/roof silhouette."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Deliberately static environment architecture, no skeleton or authored clips."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked front/rear/oblique and phone after confirming the receiving warehouse and atrium interfaces. No blocking end panel or detached guard was observed; bridge top deck Y=.30 aligns with atrium landing at5.30 when placed atY5."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_bridge/v01/validation/iso.png",
+      "sha256": "9a916cb797e8def1d6e96295b6535f82a796a53898c4988f975c6729bdb03c70",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_bridge/v01/validation/front.png",
+      "sha256": "1b90c260773e537c34d15db1e4b30105b969c8e057f07db5e7044287229c851b",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_bridge/v01/validation/rear.png",
+      "sha256": "d2d94dc1553a04dee7644f60db8151d079434b85b5237ea2dadb3053e59fd3c7",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_bridge/v01/validation/phone.png",
+      "sha256": "3a7eb8dd93e28dc4d0df7b3f731edd59f962f85cac6f29be780f0de726cec767",
+      "view": "phone",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User authorized creation but has not explicitly accepted this model revision."
+  },
+  "limitations": [
+    "Original interpreted campus architecture; complete measured GitHub as-built CAD documentation was not found."
+  ]
+}

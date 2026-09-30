@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 1,
+  "id": "gh_mural_currents",
+  "displayName": "GitHub flowing-pattern mural",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/gh_mural_currents/v01/gh_mural_currents_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/gh_mural_currents/v01/build.py"
+  },
+  "runtime": "assets/runtime/environment/gh_mural_currents_v01.glb",
+  "budgets": {
+    "triangles": 30000,
+    "meshes": 4,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 64,
+    "bones": 0
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [],
+    "groundY": 0
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "docs/research/github-offices-2026-09-30/work/mural-reference-board.jpg",
+      "provenance": "Tony Jaramillo Art Direction / Artist Partnership Project, portfolio photos credited individually in mural-research.md. Reference only."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/gh_mural_currents/v01/decisions.md",
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "ink": "#232925",
+      "cream": "#F2EAD8",
+      "paper": "#F2F5F3",
+      "blue": "#5579B8",
+      "navy": "#302C59",
+      "pink": "#E99BA6",
+      "coral": "#D76369",
+      "gold": "#E9B864",
+      "green": "#0FBF3E",
+      "teal": "#70B5B4",
+      "purple": "#8534F3",
+      "skin": "#E5BA9C",
+      "orange": "#D89046",
+      "slate": "#89A4B8",
+      "wood": "#A77B55",
+      "white": "#FFFFFF"
+    }
+  },
+  "texturePalettes": [
+    {
+      "material": "github_mural_palette",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "ink": {
+          "color": "#232925",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "cream": {
+          "color": "#F2EAD8",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "paper": {
+          "color": "#F2F5F3",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "blue": {
+          "color": "#5579B8",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "navy": {
+          "color": "#302C59",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "pink": {
+          "color": "#E99BA6",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "coral": {
+          "color": "#D76369",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "gold": {
+          "color": "#E9B864",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "green": {
+          "color": "#0FBF3E",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "teal": {
+          "color": "#70B5B4",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        },
+        "purple": {
+          "color": "#8534F3",
+          "rect": [
+            40,
+            0,
+            4,
+            4
+          ]
+        },
+        "skin": {
+          "color": "#E5BA9C",
+          "rect": [
+            44,
+            0,
+            4,
+            4
+          ]
+        },
+        "orange": {
+          "color": "#D89046",
+          "rect": [
+            48,
+            0,
+            4,
+            4
+          ]
+        },
+        "slate": {
+          "color": "#89A4B8",
+          "rect": [
+            52,
+            0,
+            4,
+            4
+          ]
+        },
+        "wood": {
+          "color": "#A77B55",
+          "rect": [
+            56,
+            0,
+            4,
+            4
+          ]
+        },
+        "white": {
+          "color": "#FFFFFF",
+          "rect": [
+            60,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ]
+}

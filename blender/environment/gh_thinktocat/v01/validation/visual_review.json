@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_thinktocat",
+  "version": "v01",
+  "revision": 6,
+  "sha256": "dd6c606e0ed9ddf4aea1562c05fc6c2b59158697bd391840e97209ff569ce87e",
+  "sourceHash": "fd5525438b0f0c4697b8a56243cbcdd32fa75b4c1d1ae4cedf5686da0f70ec38",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-30T21:17:25.130Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Installed bronze and clay/process photos rechecked against front/side/close export: broad round forehead, lowered closed-eye face, recessed ears, small nose, curled chin support, crossing arm, seated feet, rear curl and tapered white plinth retain the sculptural identity. Accepted bronze palette is retained; exact patina and anatomical carving remain stylized."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Inspected front, side, oblique, reverse and detail. Initial flat facial backing and detached cap equator seams were repaired using a welded cast head/face and shared-ring hemispherical tentacle ends. Bronze face now blends into forehead with no side wafer edge; ear bowls have seated inset surfaces, rock seats into the plinth, and intentional tentacle crossings preserve clear negative spaces."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "At 390 px the round head, ear pair, closed eyes, thoughtful chin-rest curl, crossing tentacle and contrasting chalk plinth remain legible. Smooth major cast volumes contrast with the faceted rock seat; very small eyelid creases are secondary at campus overview distance."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Intentionally static environment sculpture; no skeleton, animations, root motion or gameplay behavior requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Finished revision rechecked against installed bronze/clay references after the face weld, cap correction and cast smoothing pass. Front/side close comparison confirms no exposed facial backing lip or voxel-grid pattern, curved end caps retain continuous surface, and reverse silhouette keeps ear/tail/body proportions. Reference proportions are interpreted rather than exact scanned measurements."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_thinktocat/v01/validation/front.png",
+      "sha256": "62bfed54c207d1575cde2c7356bbcb3d0018637a148c1d95eeb9bb61d2fc3fcc",
+      "view": "front"
+    },
+    {
+      "path": "blender/environment/gh_thinktocat/v01/validation/side.png",
+      "sha256": "0246133357c5c5f12eec318a3699f7aecee378ff070719844ac3763fc244e5bb",
+      "view": "side"
+    },
+    {
+      "path": "blender/environment/gh_thinktocat/v01/validation/iso.png",
+      "sha256": "3d349f6c83e85a1d668086f0b7b99518d8b0d40dfbe3105c2389c1e5c3a32d9e",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_thinktocat/v01/validation/rear.png",
+      "sha256": "4e76c11aabed02a6b050eff1949e6c7b2602f89d8897ca8050af2f29fe4bbe2f",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_thinktocat/v01/validation/inspector-close.png",
+      "sha256": "1825c3214fe880b7ec93c49bdfc5e6ebd4fdfadccfc87821fb1ceb5b3bfcccca",
+      "view": "inspector-close"
+    },
+    {
+      "path": "blender/environment/gh_thinktocat/v01/validation/inspector-phone.png",
+      "sha256": "64f9e87850dbf432b239df791cd5b7c878b945fb292cb69bb163497ed695b793",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested production/refinement; artistic acceptance of this exact source/export revision has not been given."
+  },
+  "limitations": [
+    "Original stylized interpretation of Thinktocat sculpture, not an exact scan; fine bronze patina and detailed source carving are simplified."
+  ]
+}

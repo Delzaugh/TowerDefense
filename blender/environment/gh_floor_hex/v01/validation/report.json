@@ -1,0 +1,37 @@
+{
+  "asset": "gh_floor_hex",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "fb7a853f71f75fe33640bcb11d27981ae0891b37ee3996dfced8810ca4070af2",
+  "checkedAt": "2026-09-30T17:58:08.284Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 2296,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    6,
+    0.18000000715255737,
+    6
+  ],
+  "bounds": [
+    [
+      -3,
+      0,
+      -3
+    ],
+    [
+      3,
+      0.18000000715255737,
+      3
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "f2a2938783a1254dbdbe3293d7fb6459df54f090992a376c195c618d9010ce30",
+  "source": "blender/environment/gh_floor_hex/v01/gh_floor_hex_v01.blend",
+  "runtime": "assets/runtime/environment/gh_floor_hex_v01.glb"
+}

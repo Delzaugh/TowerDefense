@@ -1,0 +1,37 @@
+{
+  "asset": "gh_timber_frame",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "455fec8a06b2438a6aa0a02e6dd2cd53afca9b583af2e19f2c22689deaab22d1",
+  "checkedAt": "2026-09-30T17:58:12.608Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 848,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    6.079999685287476,
+    4.640000343322754,
+    6.079999685287476
+  ],
+  "bounds": [
+    [
+      -3.0399999618530273,
+      0,
+      -3.0399999618530273
+    ],
+    [
+      3.0399997234344482,
+      4.640000343322754,
+      3.0399997234344482
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "3c1d2135fdfb72bfad5e40c40f9c2dfefd35d7b87f017915c42fda99a7f2e4bb",
+  "source": "blender/environment/gh_timber_frame/v01/gh_timber_frame_v01.blend",
+  "runtime": "assets/runtime/environment/gh_timber_frame_v01.glb"
+}

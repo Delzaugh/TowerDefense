@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_meeting_set",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "f0794a8a0eed207782cffd00b32836015539a083fc22727a96f522ea6b85fce0",
+  "sourceHash": "4ed40b333207f2fa81db4b8d9fec4c620299e82397c5d05e60e808ca50139ae8",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:09:06.517Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Mahogany slab and broad trestles follow documented communal-table material direction, with burgundy upholstery from the quieter expansion. Eight-chair layout is interpreted."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Chair spacing repeats evenly, supports contact ground, trestle beam sits beneath the thick slab; oblique and reverse views show intentional seated overlaps."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "At 390px the wide table and paired chair rhythm read as a meeting ensemble; laptops and cups remain quiet secondary accents."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Intentionally static environment ensemble; no rig, animation, root motion or gameplay behavior requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked chair rows from opposite side, slab thickness and feet under equal neutral framing. Main and supporting forms remain legible; no repair needed."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_meeting_set/v01/validation/front.png",
+      "sha256": "cd7b5e46e80416c244f13aa175215ca7fb3dab9e3d2b3a634adc133eff4e76b1",
+      "view": "front"
+    },
+    {
+      "path": "blender/environment/gh_meeting_set/v01/validation/iso.png",
+      "sha256": "6278583662a951ec973f415fea4f8c49af73f5f4d247d3749eb40a9c66df7635",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_meeting_set/v01/validation/rear.png",
+      "sha256": "3661be76fd00f6d2f5c9c0f8fe7ae12d6116ae9f8ee80f48a47d7d0fbe42ce22",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_meeting_set/v01/validation/inspector-phone.png",
+      "sha256": "7d53679a6a1ea878de69af75c3eb1d538d232f097444686b787454db43714f9c",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested production; no artistic acceptance of this specific revision has been given."
+  },
+  "limitations": [
+    "Research-informed modular interpretation; furniture measurements are inferred, not certified as-built specifications."
+  ]
+}

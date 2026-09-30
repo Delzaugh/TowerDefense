@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "name": "named-exception",
+      "passed": true,
+      "exportAccepted": true,
+      "errors": []
+    },
+    {
+      "name": "no-exception",
+      "passed": true,
+      "exportAccepted": false,
+      "errors": [
+        "Transparent material without named static-environment exception: clear_architectural_glazing"
+      ]
+    },
+    {
+      "name": "wrong-name",
+      "passed": true,
+      "exportAccepted": false,
+      "errors": [
+        "Transparent material without named static-environment exception: clear_architectural_glazing"
+      ]
+    },
+    {
+      "name": "blank-reason",
+      "passed": true,
+      "manifestAccepted": false
+    },
+    {
+      "name": "duplicate-material",
+      "passed": true,
+      "manifestAccepted": false
+    },
+    {
+      "name": "animated-asset",
+      "passed": true,
+      "manifestAccepted": false
+    },
+    {
+      "name": "other-category",
+      "passed": true,
+      "manifestAccepted": false
+    }
+  ]
+}

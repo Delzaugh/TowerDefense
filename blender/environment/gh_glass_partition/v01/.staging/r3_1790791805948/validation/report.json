@@ -1,0 +1,37 @@
+{
+  "asset": "gh_glass_partition",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "eece78671a9cee77bf12077a58ec67c87972a1062bf3b5cfcda8f4295a672828",
+  "checkedAt": "2026-09-30T18:10:10.894Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 348,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    6.039999961853027,
+    3.5950000286102295,
+    0.2500000074505806
+  ],
+  "bounds": [
+    [
+      -3.0199999809265137,
+      0,
+      -0.10000000149011612
+    ],
+    [
+      3.0199999809265137,
+      3.5950000286102295,
+      0.15000000596046448
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "b11bb66ebafaa1a5347c7a38222ecb810a72836c18ea31d2d8b626945e5d5853",
+  "source": "blender/environment/gh_glass_partition/v01/gh_glass_partition_v01.blend",
+  "runtime": "assets/runtime/environment/gh_glass_partition_v01.glb"
+}

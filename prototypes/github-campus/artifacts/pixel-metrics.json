@@ -1,0 +1,509 @@
+{
+  "passed": true,
+  "captures": [
+    {
+      "file": "desktop-assets.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        35.67,
+        34.66,
+        34.65
+      ],
+      "quantized_colors": 40,
+      "passed": true
+    },
+    {
+      "file": "desktop-atrium.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        71.45,
+        62.42,
+        63.64
+      ],
+      "quantized_colors": 278,
+      "passed": true
+    },
+    {
+      "file": "desktop-campus.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        51.81,
+        49.4,
+        52.69
+      ],
+      "quantized_colors": 231,
+      "passed": true
+    },
+    {
+      "file": "desktop-dusk.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        51.21,
+        48.66,
+        51.58
+      ],
+      "quantized_colors": 189,
+      "passed": true
+    },
+    {
+      "file": "desktop-library.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        55.59,
+        55.89,
+        61.83
+      ],
+      "quantized_colors": 193,
+      "passed": true
+    },
+    {
+      "file": "desktop-model-gh_bookshelf_pod.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        32.79,
+        49.46,
+        64.31
+      ],
+      "quantized_colors": 251,
+      "passed": true
+    },
+    {
+      "file": "desktop-model-gh_mural_collaboration.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        39.65,
+        38.73,
+        39.31
+      ],
+      "quantized_colors": 96,
+      "passed": true
+    },
+    {
+      "file": "desktop-model-gh_mural_currents.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        81.06,
+        83.58,
+        65.1
+      ],
+      "quantized_colors": 92,
+      "passed": true
+    },
+    {
+      "file": "desktop-model-gh_mural_universe.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        30.0,
+        29.35,
+        30.29
+      ],
+      "quantized_colors": 101,
+      "passed": true
+    },
+    {
+      "file": "desktop-model-gh_recessed_lounge.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        90.89,
+        89.3,
+        91.07
+      ],
+      "quantized_colors": 118,
+      "passed": true
+    },
+    {
+      "file": "desktop-model-gh_secret_octocat.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        48.45,
+        47.47,
+        48.27
+      ],
+      "quantized_colors": 111,
+      "passed": true
+    },
+    {
+      "file": "desktop-model-gh_thinktocat.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        35.09,
+        45.36,
+        63.32
+      ],
+      "quantized_colors": 69,
+      "passed": true
+    },
+    {
+      "file": "desktop-model-gh_worklounge_pod.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        23.85,
+        36.35,
+        53.19
+      ],
+      "quantized_colors": 60,
+      "passed": true
+    },
+    {
+      "file": "desktop-secret-found.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        57.81,
+        65.94,
+        70.99
+      ],
+      "quantized_colors": 121,
+      "passed": true
+    },
+    {
+      "file": "desktop-shelves.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        45.61,
+        59.38,
+        65.73
+      ],
+      "quantized_colors": 298,
+      "passed": true
+    },
+    {
+      "file": "desktop-terrace.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        33.28,
+        29.84,
+        30.13
+      ],
+      "quantized_colors": 153,
+      "passed": true
+    },
+    {
+      "file": "desktop-warehouse-upper.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        47.1,
+        47.65,
+        52.81
+      ],
+      "quantized_colors": 299,
+      "passed": true
+    },
+    {
+      "file": "desktop-warehouse.png",
+      "size": [
+        1440,
+        960
+      ],
+      "center_crop_stddev": [
+        46.91,
+        49.95,
+        59.0
+      ],
+      "quantized_colors": 307,
+      "passed": true
+    },
+    {
+      "file": "phone-assets.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        28.81,
+        27.56,
+        27.88
+      ],
+      "quantized_colors": 33,
+      "passed": true
+    },
+    {
+      "file": "phone-atrium.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        60.13,
+        53.18,
+        54.95
+      ],
+      "quantized_colors": 284,
+      "passed": true
+    },
+    {
+      "file": "phone-campus.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        41.44,
+        38.94,
+        45.75
+      ],
+      "quantized_colors": 209,
+      "passed": true
+    },
+    {
+      "file": "phone-dusk.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        61.86,
+        55.23,
+        58.34
+      ],
+      "quantized_colors": 191,
+      "passed": true
+    },
+    {
+      "file": "phone-library.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        46.06,
+        56.61,
+        65.84
+      ],
+      "quantized_colors": 188,
+      "passed": true
+    },
+    {
+      "file": "phone-model-gh_bookshelf_pod.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        30.84,
+        45.66,
+        60.19
+      ],
+      "quantized_colors": 209,
+      "passed": true
+    },
+    {
+      "file": "phone-model-gh_mural_collaboration.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        32.52,
+        32.05,
+        33.04
+      ],
+      "quantized_colors": 86,
+      "passed": true
+    },
+    {
+      "file": "phone-model-gh_mural_currents.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        68.87,
+        71.41,
+        56.43
+      ],
+      "quantized_colors": 87,
+      "passed": true
+    },
+    {
+      "file": "phone-model-gh_mural_universe.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        24.63,
+        24.2,
+        25.38
+      ],
+      "quantized_colors": 88,
+      "passed": true
+    },
+    {
+      "file": "phone-model-gh_recessed_lounge.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        84.14,
+        84.94,
+        88.8
+      ],
+      "quantized_colors": 119,
+      "passed": true
+    },
+    {
+      "file": "phone-model-gh_secret_octocat.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        57.9,
+        56.73,
+        57.93
+      ],
+      "quantized_colors": 118,
+      "passed": true
+    },
+    {
+      "file": "phone-model-gh_thinktocat.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        31.55,
+        40.06,
+        55.27
+      ],
+      "quantized_colors": 78,
+      "passed": true
+    },
+    {
+      "file": "phone-model-gh_worklounge_pod.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        23.59,
+        33.95,
+        49.2
+      ],
+      "quantized_colors": 72,
+      "passed": true
+    },
+    {
+      "file": "phone-secret-found.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        62.87,
+        69.86,
+        79.08
+      ],
+      "quantized_colors": 100,
+      "passed": true
+    },
+    {
+      "file": "phone-shelves.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        41.79,
+        53.77,
+        60.13
+      ],
+      "quantized_colors": 284,
+      "passed": true
+    },
+    {
+      "file": "phone-terrace.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        36.57,
+        35.16,
+        40.41
+      ],
+      "quantized_colors": 137,
+      "passed": true
+    },
+    {
+      "file": "phone-warehouse-upper.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        41.42,
+        44.36,
+        55.84
+      ],
+      "quantized_colors": 223,
+      "passed": true
+    },
+    {
+      "file": "phone-warehouse.png",
+      "size": [
+        390,
+        844
+      ],
+      "center_crop_stddev": [
+        37.26,
+        43.44,
+        55.05
+      ],
+      "quantized_colors": 237,
+      "passed": true
+    }
+  ]
+}

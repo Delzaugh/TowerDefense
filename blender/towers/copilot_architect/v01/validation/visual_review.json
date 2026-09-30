@@ -2,139 +2,167 @@
   "schemaVersion": 1,
   "asset": "copilot_architect",
   "version": "v01",
-  "revision": 39,
-  "sha256": "8f50f4cfe39c176fcc03861611850fc477aee7d8cb24143ec5c1fee8e7af9c4e",
-  "sourceHash": "64335771a51309d0d296ee2d86f22889447b79a861fa5608d577d5315efaf386",
+  "revision": 45,
+  "sha256": "af00b5f37467f8ed654607f80c74402534cdf6a77b8ee95aa5313dc90d690b01",
+  "sourceHash": "215388fb9882637f904bb491024be99db5c8fbef6c52021411560aa23f46c31b",
   "scope": "model",
-  "reviewedAt": "2026-09-27T10:43:56.220289+00:00",
+  "reviewedAt": "2026-09-30T21:12:39.401Z",
   "checks": {
     "referenceFidelity": {
-      "status": "passed",
-      "findings": "Inspected selected concept, six-angle pairs, contour overlays and detail comparisons. Compact deep faceted shell, lower crown, low bowed face, two cyan eyes, ivory drafting frame with two openings, upright blue paper roll, opposing orange pencil and connected application/database/service tiles are present in their intended regions. Front aspect difference is +0.2%; approximate outline overlaps are 87.2-91.4%. Remaining illustrated-camera and faceting differences are stated in the comparison report; this is not pixel-exact reproduction."
+      "status": "failed",
+      "findings": "User-identified vertical flatness confirmed by actual GLB sections: centre display bow 0.100m across 1.170m height; outer display bow only 0.035m. Crown, cheek and chin transition lacks approved concept fullness. Prior fidelity assessment superseded by contour-evaluation-r45/README.md. Geometry unchanged. Side-detail review confirms missing distinct crown ridge, slab-like shoulder, insufficient lower cheek/jaw volume and stacked cartridge construction. Both sides repeat these shortcomings. See side-detail-evaluation-r45/README.md."
     },
     "construction": {
-      "status": "passed",
-      "findings": "Inspected closeups of both tools, frame openings and diagram, plus top and underside of actual GLB. Smoothed manufactured frame spans and consistent wall thickness remove creases and broad cap artifacts. Offset blueprint flap exposes its complete plan glyph without cylinder occlusion. Pencil seats on its dock and action anchor is at its tip. Geometry audit: 2652 triangles, zero zero-area triangles, 32 named editable component groups, no missing parts, two meshes/materials, one packed/embedded 48x8 palette. Grounding/dimensions/anchors and budget validation passed without warnings."
+      "status": "failed",
+      "findings": "The amber capsules exist, but projecting socket lips hide them in matched oblique views. Cartridge wrap/cutback and bridge/shoulder junctions need reconstruction to match the reference part hierarchy. Mirrored major positions are consistent; the principal defect is not one-sided missing geometry."
     },
     "readability": {
       "status": "passed",
-      "findings": "Reviewed phone-width gameplay lighting, 128px render and small Inspector view. Face, ivory border, orange application tile and opposite blue/orange tools remain distinct. Fine hierarchy lines become small marks at the smallest view, while primary role cues survive. Quiet faceted back and underside avoid unnecessary detail."
+      "findings": "Inspected phone and small isometric views: cyan eyes, chalk shoulder outline and amber markers remain distinct. Rear panel stays subordinate. Desktop and touch showcase loading tests pass; canonical model has no clips and displays Rest."
     },
     "motion": {
       "status": "not_applicable",
-      "findings": "Model-only delivery. No rig or clips were added; baseline animation remains pending separate authorization."
+      "findings": "Model-only delivery; baseline animations await user authorization."
     }
   },
   "secondPass": {
-    "status": "passed",
-    "findings": "After repairs, rechecked exported six-angle geometry, masks, side details, top/underside and phone/small views. Lowered and widened primary volume; cleaned ivory sweep and cheek joins; removed blueprint-side mirrored truss that obscured its glyph; moved final flap clear of its roll; removed a degenerate bevel sliver and duplicate capsule endpoints. Final source/GLB audit and Inspector loaded hash agree. Last revision places the action anchor at the pencil tip without changing visible geometry."
+    "status": "failed",
+    "findings": "Contour reassessment confirms a shallow front despite numerical validity. Needs distinct crown, display and jaw profiles with stronger vertical bow and roll-under; this evaluation does not implement that correction. Both exact profiles and symmetric oblique angles were inspected for part hierarchy and amber visibility; these confirm further source refinement is required."
   },
   "evidence": [
     {
-      "path": "blender/towers/copilot_architect/v01/validation/spec-comparison/spec-vs-model-six-angles.png",
-      "sha256": "e57e2bd95fa0c581dd25ca50f6a626e533dec044783431bd49ed3ceee8b405cc",
-      "view": "spec-vs-model-six-angles"
+      "path": "blender/towers/copilot_architect/v01/validation/iso.png",
+      "sha256": "fc48d9c136f3ba8d6e4d4bc28fc75548f6c2a66d728b11d756921cdca6ffac91",
+      "view": "iso",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/spec-comparison/silhouette-overlays.png",
-      "sha256": "e97333836adc46f1229b272ddec089b101ca5a4ec35387d6e45166a98d984289",
-      "view": "silhouette-overlays"
+      "path": "blender/towers/copilot_architect/v01/validation/iso-silhouette.png",
+      "sha256": "f828bc358bfc60753b145f94eca5771dbcfb5ef34fb70cd97583171f61bbddbe",
+      "view": "iso",
+      "mode": "silhouette"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/spec-comparison/spec-vs-model-details.png",
-      "sha256": "0e54165a0087ce87c6b804e55368d89d5cd9f77cce7e9733445220176d68a9ed",
-      "view": "spec-vs-model-details"
+      "path": "blender/towers/copilot_architect/v01/validation/front.png",
+      "sha256": "9649212b88428d2cf288fb0f249b6f99f67e3995237001e55785980adac077e1",
+      "view": "front",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/spec-comparison/hero.png",
-      "sha256": "de136ac319072ba1d0caa982feb72f783fef0666e6246b2302c7b43220ef0aa0",
-      "view": "hero"
+      "path": "blender/towers/copilot_architect/v01/validation/front-silhouette.png",
+      "sha256": "2f9ed5b5d1f21e4c29ff46bc14d28e9108e55af773f3e5ab946e9a9414b75c1c",
+      "view": "front",
+      "mode": "silhouette"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/spec-comparison/front.png",
-      "sha256": "0190c8ca1006c4921e5292248f67ec16f9bc2f7975b92bda4e4333e8e2c5b583",
-      "view": "front"
+      "path": "blender/towers/copilot_architect/v01/validation/side.png",
+      "sha256": "b40070c6d452c7bf3d0eb70cd8fa7be0affcae3a049fcd2acfaa2e7ef9ecb829",
+      "view": "side",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/spec-comparison/front-left.png",
-      "sha256": "69f96d82d982b3b3ef04f1901083d3b599dde0d025e3e7b0bb36116280750800",
-      "view": "front-left"
+      "path": "blender/towers/copilot_architect/v01/validation/side-silhouette.png",
+      "sha256": "f99438ee513ac60c5066d8d5b3ccbf681de52b7a75ca15c2cea7809931b4bf03",
+      "view": "side",
+      "mode": "silhouette"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/spec-comparison/left.png",
-      "sha256": "a74b4caadc0b57428ff5207639be0db4f8d9f7719c7c53d3bb03346b19a2f88c",
-      "view": "left"
+      "path": "blender/towers/copilot_architect/v01/validation/rear.png",
+      "sha256": "e4faaa384f9f75fc91caf55ce0cf7aec191d07d7439fa63a6397e893a5beae7f",
+      "view": "rear",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/spec-comparison/back.png",
-      "sha256": "b2b8245f100d6604933744d18f77a724ca0e9a5b48667967bacb6a3272e9a4cb",
-      "view": "back"
+      "path": "blender/towers/copilot_architect/v01/validation/rear-silhouette.png",
+      "sha256": "2f9ed5b5d1f21e4c29ff46bc14d28e9108e55af773f3e5ab946e9a9414b75c1c",
+      "view": "rear",
+      "mode": "silhouette"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/spec-comparison/back-right.png",
-      "sha256": "0351f57c4b52b05fd39ad13a0a513bd520061616af5a7e4d76bfb005ff20399a",
-      "view": "back-right"
+      "path": "blender/towers/copilot_architect/v01/validation/top.png",
+      "sha256": "ea917e3cf94e61850bd66a2e4aba1c41cc50c2037594d15b48e30cc4eb6e7cf5",
+      "view": "top",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/spec-comparison/right.png",
-      "sha256": "7f2448ffd7dbb04d428490420cd4257db359d24407a7ee46d5f9b88f00faa9a4",
-      "view": "right"
+      "path": "blender/towers/copilot_architect/v01/validation/top-silhouette.png",
+      "sha256": "2689d4f8b3e965175c7c286dfab03ef67db84811eabbf575baf04205888d483b",
+      "view": "top",
+      "mode": "silhouette"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/spec-comparison/top.png",
-      "sha256": "2ed0de9efe85198c38e18a6bbda63dca101e37789ef0a6f8c8c1069e85038e6d",
-      "view": "top"
+      "path": "blender/towers/copilot_architect/v01/validation/close-iso.png",
+      "sha256": "33844cd13c6af777e4be1c517fd8a734d60e05a800569780a607f3c8681b023a",
+      "view": "iso",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/spec-comparison/underside.png",
-      "sha256": "bab3fdcba9b9782c8b413ffb6bb89aea7d777d89f479b87a6d60600995e86d78",
-      "view": "underside"
+      "path": "blender/towers/copilot_architect/v01/validation/close-front.png",
+      "sha256": "2adc6650d57527ae1cef7727ea21e17bb36ecf9610b2982df696126e1e1d121d",
+      "view": "front",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/spec-comparison/blueprint-close.png",
-      "sha256": "75be3df9c58765cdb76d65eac8324bfd8a8c82b753ea049d08310b9b90d630c7",
-      "view": "blueprint-close"
+      "path": "blender/towers/copilot_architect/v01/validation/close-left.png",
+      "sha256": "a4fe0bcd4de14636ebb5b82636928857119e4ac8062dd1fb901a2c60601c33df",
+      "view": "left",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/spec-comparison/stylus-close.png",
-      "sha256": "47f6befd5c8833720c3b0277cb72f213b2b35b484c0320b5b8ac8b7c14ce2f77",
-      "view": "stylus-close"
+      "path": "blender/towers/copilot_architect/v01/validation/close-rear.png",
+      "sha256": "8a1275135e2ac022d72e0d72bfa8f40dbb6dfcdd1f90403909f8826f0511b87b",
+      "view": "rear",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/spec-comparison/diagram-close.png",
-      "sha256": "1ef1b8b93aedf7ea40eeb1c50fedc6840895d1d08a3c5057c8e248b9f9119986",
-      "view": "diagram-close"
+      "path": "blender/towers/copilot_architect/v01/validation/close-bottom.png",
+      "sha256": "6477cdd91280f3c34a5e3378ce9522a1c0a095ad2ac3b2987fa8d3472842d09e",
+      "view": "bottom",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/spec-comparison/small.png",
-      "sha256": "13797365cca8e3ff68c9d4e70f7610a4bc5222c35af8ee5c264ef7afd8bb8fde",
-      "view": "small"
+      "path": "blender/towers/copilot_architect/v01/validation/phone.png",
+      "sha256": "e336cb4bb2e879e3697b6c4cc43d3b6d2580c572c89166304fdbb96d4ad8ed8b",
+      "view": "phone.png",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/inspector/phone.png",
-      "sha256": "538ee4a9bfd0cc59bf3c423315b932d64b6812f151ff0523fe2b8ff2665ec005",
-      "view": "phone"
+      "path": "blender/towers/copilot_architect/v01/validation/small-silhouette.png",
+      "sha256": "c09010d6e0c7a774daf7504c7f6766835b7e4f2760018199c0ede535052512b9",
+      "view": "small-silhouette.png",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/inspector/bottom.png",
-      "sha256": "b4820546f4200c6a4df413241c8013d0d3de8c971877530e763adc16f91f15eb",
-      "view": "bottom"
+      "path": "blender/towers/copilot_architect/v01/validation/side-detail-evaluation-r45/left.png",
+      "sha256": "a4fe0bcd4de14636ebb5b82636928857119e4ac8062dd1fb901a2c60601c33df",
+      "view": "left",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_architect/v01/validation/inspector/small.png",
-      "sha256": "3ccf4cf83711941f650282f2948899e308525181339f61ceb6676358ddf70974",
-      "view": "small"
+      "path": "blender/towers/copilot_architect/v01/validation/side-detail-evaluation-r45/right.png",
+      "sha256": "6fc2574a40d3fe207f8aedea6622a2bfb53be1f23f8455235ee09ad1aeeed93c",
+      "view": "right",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/side-detail-evaluation-r45/oblique-a.png",
+      "sha256": "cfedb8d573dd52f29535d468d4a74018ed018e071e73c29a9be3eb4f12caa774",
+      "view": "oblique-a",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/side-detail-evaluation-r45/oblique-b.png",
+      "sha256": "a60cb3b964b55085fa295ad7ac2c66573b2f12d4342fc0576e2ff1091409c47b",
+      "view": "oblique-b",
+      "mode": "shaded"
     }
   ],
   "userAcceptance": {
     "status": "pending",
-    "note": "User explicitly selected the concept and authorized this model rebuild; no acceptance of the delivered 3D revision is inferred."
+    "note": "User identifies front vertical flatness and requests a contour evaluation. Model acceptance remains pending."
   },
   "limitations": [
-    "Generated reference sheets are illustrative and include an inferred rear. Camera/projection differences remain; uniform-height overlap metrics are approximate diagnostics.",
-    "Production frame and face corners are more angular than the painted reference; soft ambient occlusion and cyan bloom are not baked into the asset.",
-    "Rear width/height diagnostic is +8.7% and left profile is -5.9% versus the generated shape study; these are documented rather than presented as exact matches.",
-    "Fine line symbols are not individually readable at the smallest gameplay view. Primary face, tool and tile cues remain visible.",
-    "Animation is pending and user artistic acceptance remains open."
+    "Illustrative spec PNGs precede production and retain unknown technical fields; verified delivery statistics are in the reference-pack README.",
+    "Baseline animations pending user authorization."
   ]
 }

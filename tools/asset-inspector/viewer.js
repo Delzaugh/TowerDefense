@@ -310,7 +310,10 @@ function scrub(seconds) {
   const e = activeEntry(); if (!e?.clips.length) return;
   if (!currentClip(e)) setClip(e,0);
   const duration = currentClip(e).duration;
-  setClip(e,e.state.clipIndex,duration ? seconds / duration : 0,false); syncAnimation();
+  // The range input serializes floating-point durations with fewer digits.
+  // Preserve the exact terminal pose for fractional authoring-frame durations.
+  const progress=duration ? (Math.abs(seconds-duration)<1e-9 ? 1 : seconds/duration) : 0;
+  setClip(e,e.state.clipIndex,progress,false); syncAnimation();
 }
 $('timeline').oninput = () => scrub(Number($('timeline').value));
 $('step-button').onclick = () => {const e=activeEntry(),clip=currentClip(e)||e?.clips[0];scrub((e?.action?.time||0)+1/(e?.model.contract?.clips.find(c=>c.name===clip?.name)?.fps||30));};

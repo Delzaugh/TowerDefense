@@ -2,91 +2,774 @@
   "schemaVersion": 1,
   "asset": "copilot_octocat_2_0_lowpoly",
   "version": "v01",
-  "revision": 5,
-  "sha256": "b16e408dc3409a139609abda088fae9d368bccae599b82114c516f253d4454ee",
-  "sourceHash": "a264b9081b1d2994551b5e656635f9b0cb287bee24185e23dff8700784d1290f",
-  "scope": "refinement",
-  "reviewedAt": "2026-09-30T17:17:56.752Z",
+  "revision": 8,
+  "sha256": "450e6be3070a890bc2f253c162cb493fd8ca368a64383cf991543f89f4b62c1a",
+  "sourceHash": "eed31447ba53a3b5fc2dbecaa484ef60699fc93270c8803b659338370580877d",
+  "scope": "animation",
+  "reviewedAt": "2026-09-30T18:54:15.388Z",
   "checks": {
     "referenceFidelity": {
       "status": "passed",
-      "findings": "Localized face-UV correction preserves the existing Octocat 2.0 head/cheek proportions, expression, ears, whiskers, waving pose and five-tentacle anatomy. Reviewed final front and close oblique views against the pre-repair reference renders; peach face outline and game-scale identity remain. Neither anatomy nor palette was redesigned."
+      "findings": "Applied the documented research direction: five supporting tentacles in Move, soft elastic weight, focused nonverbal maker gestures, a brief startled Hit and friendly recovery. No extra tail, humanoid torso, spoken acting or angry default. The two raised tentacles remain an upright rest pose choice. Timings are Tower choices, not official GitHub requirements."
     },
     "construction": {
       "status": "passed",
-      "findings": "User screenshot exposed peach slivers on the lower side/back of the head that the preceding review missed. The face paint is on one skull surface; expanded front-depth projection had mapped a few back-facing polygons into peach texels. Fixed hemisphere plus outward-normal classification in the high source recipe, stored exact scaled projection metadata and reapplied the UV map after low-poly reduction. Personally inspected final underside, side, front and close oblique runtime views: rear/underside slivers are gone and front expression remains intact. Source audit confirms closed head/body components with no nonmanifold edges or degenerate faces and three zero-height support contacts. The UV audit checks 708 rear/back-facing polygons and finds zero projected-face UVs; they all sample the dark fur texel. Packed palette/face maps and existing anchors remain."
+      "findings": "29 deform bones; exact source rest geometry/topology/UV/material/smoothing hashes. Runtime positions and UVs match the static milestone, embedded images and material definitions match, and normal differences stay below 0.0001. Reviewed exposed rear/side/underside bends: connected five-way skin junction, cup rows follow the skin, and the repaired rear/underside face boundary remains black. Correctives use skin triangle attachment and explicit Basis initialization."
     },
     "readability": {
       "status": "passed",
-      "findings": "Personally inspected final phone and game-scale Inspector captures. Face silhouette, peach/graphite contrast, eyes, pointed ears, asymmetrical arms and support stance retain identity. The repair removes stray peach marks without changing the palette. Low-poly simplification remains intentionally faceted."
+      "findings": "Reviewed the actual Inspector in normal, phone-width, ground/shadow and game-scale views. Focused reach, lowered five-limb walk and surprised recoil read separately; the face remains the dominant contrast cue. The low version retains 3,961 triangles and full cell coverage with three temporary cube fragments, for 3,997 combined triangles."
     },
     "motion": {
-      "status": "not_applicable",
-      "findings": "UV-only static-model refinement; no rig or clips are added. Animation remains pending."
+      "status": "passed",
+      "findings": "Six changing clips at 24 fps. Reviewed starts, anticipation/action extremes, recovery and exact ends; normal playback of several loop cycles and both sides of joins; Idle/Work/Move/Hit selection; Place-to-Idle; replay, seek and unanimated Rest reset. Recovery-foot velocity and acceleration match stance at contact. 240 actual runtime walk samples give <2.73 mm stance gap and <0.006 mm penetration. Independent expression presets vary and reset. Root remains stationary, fitting anchors retain their rest seats and follow assigned bones. Place begins invisible and ends exactly at ready Idle; Resolve ends invisible. Verified deterministic seek, completed hold/replay, loops, phone shadows, effects disabled, phase-preserving reload, exhausted fragment budget and material restoration."
     }
   },
   "secondPass": {
     "status": "passed",
-    "findings": "After guarded re-export, reviewed underside and right-side views again for the isolated peach triangle and adjoining face boundary, then checked front/close-oblique expression and phone/game scale. Final views show no recurrence of the reported sliver. Low-poly live preview was additionally refreshed and inspected in the user exact close-up camera: the before/after images keep the same framing and the reported mark disappears. Separate source UV and shell/contact audits passed. Previous review rejection is retained in review history; this is a new author assessment, not user acceptance."
+    "findings": "Second author inspection of the final exports after repairing cup binding, exporting armature-driven facial channels, initializing every morph from Basis, and smoothing foot recovery speed. Rechecked focused facial layers and reactions on both meshes; underside/rear/side maximum walk bends; phone/game silhouettes; actual lifecycle endpoints and Rest reset. The Inspector timeline now retains fractional 24 fps endpoints exactly."
   },
   "evidence": [
     {
-      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/inspector-front.png",
-      "sha256": "624ef9836d9d6001a642fb15119bf8ca3ad4d2202882e82e61ff51d488de87f5",
-      "view": "inspector-front"
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/iso.png",
+      "sha256": "7653b8029702f68b634537e75b595c51b8b01aa710bf5c719bd132c695a6a74a",
+      "view": "iso",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/inspector-iso.png",
-      "sha256": "d0d2b8218f01d09b065529c6e795f3a3c2ec51a82b9b788cbf8c9a120821563c",
-      "view": "inspector-iso"
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/iso-silhouette.png",
+      "sha256": "9f5559503e0ca81de31489cb1668c98aba582929cfe42209297c2727f2509b55",
+      "view": "iso",
+      "mode": "silhouette"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/inspector-rear.png",
-      "sha256": "05ba5f73d7c795e1f3aac7d6179dbe427efc46619f4252864a206ea48ca5ffc2",
-      "view": "inspector-rear"
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/front.png",
+      "sha256": "323d357e80f341c790f4bb84c97ae2902c8e15bc33b015408dfe8d8d66b867a0",
+      "view": "front",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/inspector-right.png",
-      "sha256": "8355e174cb85b63f202acb78b95e5ca76234454acd29629cbe39de69a2986132",
-      "view": "inspector-right"
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/front-silhouette.png",
+      "sha256": "dc743d3478059cada88d8826a6a49d62a60ce2358cbc5617f60d09230d733848",
+      "view": "front",
+      "mode": "silhouette"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/inspector-bottom.png",
-      "sha256": "2108cf765d4eefb37f9b93c578bc84b29e63b953de4541c3343e6584811ff92e",
-      "view": "inspector-bottom"
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/side.png",
+      "sha256": "1ac732f231d9a61f06422be51de9f2237be3eebf161e6014fd845abc087693ce",
+      "view": "side",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/face-close-front.png",
-      "sha256": "02770fa536517d68cf03cae7dd5ab9ad0a8b302516868f5f13eeb673fbcf3b2e",
-      "view": "face-close-front"
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/side-silhouette.png",
+      "sha256": "683ed89aca941d3001be94cb9fc48432b9aaaff7c0e67b8f316dab8b2fd766c6",
+      "view": "side",
+      "mode": "silhouette"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/face-close-iso.png",
-      "sha256": "2ee26096fe7bf55eb49525ecdd5d16a78ebdc3aa17cbef5b9f2806fff4c2807c",
-      "view": "face-close-iso"
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/rear.png",
+      "sha256": "5e9d3b713489e445ed8021f38957cd8ff59d4e5bfd5ef7480b781f5feb0f90d2",
+      "view": "rear",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/phone.png",
-      "sha256": "88e08998ced3d667ff2a60fc98dab8f8c31c538842d474a4eb9766d487c209b7",
-      "view": "phone"
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/rear-silhouette.png",
+      "sha256": "db784d7e4def9ca346d20b2e9c762fae7d6f2e9f1fe13c2a166b0583387db38c",
+      "view": "rear",
+      "mode": "silhouette"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/game-scale.png",
-      "sha256": "1bfa4376af8e742411881058f58e4b0261b47b9748b2fee8fd458e13212d7bd7",
-      "view": "game-scale"
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/top.png",
+      "sha256": "aab65969d4590f40d2a57068ff86515e2c9cf8e75c441f0920cb285127ab38ef",
+      "view": "top",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/user-uv-after-r5.png",
-      "sha256": "1ed910fb74cc0d2c79fa8fc93d82780880aa2cac7c15cd4fb185cfeddaba70aa",
-      "view": "user-exact-closeup-after-UV-repair"
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/top-silhouette.png",
+      "sha256": "d713e05d339c3c48445149278f8f39dece64c1c7be4d9df6434de48776ebc84c",
+      "view": "top",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/idle.png",
+      "sha256": "f1cb8b07054ab1a0cfe3ec6a2e27cf8d207e920b1553e7ab78a1da5abf84f1e3",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "idle",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/work.png",
+      "sha256": "125e6ac7ea70278938a94f0ef03fedbfd4bf538b0ec4df29bfcfe3128b9e8b01",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "work",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/move.png",
+      "sha256": "e339700de88327a754369df8cbb88a70eb260ed62d9471636f5fce30ccd047b6",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "move",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/place.png",
+      "sha256": "1d836da4de3fb96fdb961b7a349fbf1721caa2a6f2b774f6d32ee50a71e4a538",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "place",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/hit.png",
+      "sha256": "e551fc8a83fad530b90faddc1f8d6e59bd68d5509b8dd5c9f3386be609ff694b",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "hit",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/resolve.png",
+      "sha256": "1d836da4de3fb96fdb961b7a349fbf1721caa2a6f2b774f6d32ee50a71e4a538",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "resolve",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/rest.png",
+      "sha256": "39e4501ba862ed3ca78f5e1e6eed129a819bde509cd3400150516a33160b47b7",
+      "view": "iso",
+      "clip": null,
+      "time": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/idle-0.png",
+      "sha256": "39e4501ba862ed3ca78f5e1e6eed129a819bde509cd3400150516a33160b47b7",
+      "view": "iso",
+      "clip": "idle",
+      "time": 0,
+      "progress": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/idle-20.png",
+      "sha256": "187bd24570bb763f52b9714e5680f034849db980715bbf334ba0bbfc6d8e7966",
+      "view": "iso",
+      "clip": "idle",
+      "time": 0.4499999800000001,
+      "progress": 0.2
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/idle-40.png",
+      "sha256": "77304c10ad2b87778faf79ff27c24ad065b93e25b6783f08c116ceeadfeb807c",
+      "view": "iso",
+      "clip": "idle",
+      "time": 0.8999999600000002,
+      "progress": 0.4
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/idle-60.png",
+      "sha256": "cb52bd42b382e9645c85334660a33e13f358b8950379fcc42114d4bcb1cda44d",
+      "view": "iso",
+      "clip": "idle",
+      "time": 1.3499999400000002,
+      "progress": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/idle-80.png",
+      "sha256": "03b6758ee97c5b185aea163d71f14d09942234c967e6448e999349fbfb8270d8",
+      "view": "iso",
+      "clip": "idle",
+      "time": 1.7999999200000003,
+      "progress": 0.8
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/idle-100.png",
+      "sha256": "39e4501ba862ed3ca78f5e1e6eed129a819bde509cd3400150516a33160b47b7",
+      "view": "iso",
+      "clip": "idle",
+      "time": 2.2499999,
+      "progress": 1
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/work-0.png",
+      "sha256": "39e4501ba862ed3ca78f5e1e6eed129a819bde509cd3400150516a33160b47b7",
+      "view": "iso",
+      "clip": "work",
+      "time": 0,
+      "progress": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/work-20.png",
+      "sha256": "798a271c393bc0edaf5e433dfb5daab8c9970fda238d941a5e22b60e9f0412e8",
+      "view": "iso",
+      "clip": "work",
+      "time": 0.34999997999999993,
+      "progress": 0.2
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/work-40.png",
+      "sha256": "ea81f93e4d82eecafa14cb96830e105d6e3752c8d22f4a8b69a3dc31da555650",
+      "view": "iso",
+      "clip": "work",
+      "time": 0.6999999599999999,
+      "progress": 0.4
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/work-60.png",
+      "sha256": "37364397922e413e0287746d7ef9781473b16965b0a7bb49871d4c945ab2153b",
+      "view": "iso",
+      "clip": "work",
+      "time": 1.04999994,
+      "progress": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/work-80.png",
+      "sha256": "8743f7dcfcc0cac048dd15480be708da7e2510e3f5213d64346584fc01d0a570",
+      "view": "iso",
+      "clip": "work",
+      "time": 1.3999999199999997,
+      "progress": 0.8
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/work-100.png",
+      "sha256": "39e4501ba862ed3ca78f5e1e6eed129a819bde509cd3400150516a33160b47b7",
+      "view": "iso",
+      "clip": "work",
+      "time": 1.7499999,
+      "progress": 1
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/move-0.png",
+      "sha256": "e8e2408fc28e06c99bdf2ea619c20c442a92e43e5ed0dd119c783333fb9dd980",
+      "view": "iso",
+      "clip": "move",
+      "time": 0,
+      "progress": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/move-20.png",
+      "sha256": "f22b2b83c5cd0eccf7e79d612b74a62ccaec1900021f9fd3ce4103ec837ab65c",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.23333330538604702,
+      "progress": 0.2
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/move-40.png",
+      "sha256": "a183b2f5a8c7ccfa3e81c2e0c59d0f04b92853a3e08ed441a2b1f146330f658e",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.466666610772095,
+      "progress": 0.4
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/move-60.png",
+      "sha256": "960d6a6d4e1365643f43c73aeedd1290e4e2b9c832c9fe58de83f466074451f6",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.699999916158142,
+      "progress": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/move-80.png",
+      "sha256": "b979b0ec95ec9bec4ea1082ea0cecfe8a04ac6f9d3fc26ee7b2f9c2b527bce1a",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.93333322154419,
+      "progress": 0.8
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/move-100.png",
+      "sha256": "e8e2408fc28e06c99bdf2ea619c20c442a92e43e5ed0dd119c783333fb9dd980",
+      "view": "iso",
+      "clip": "move",
+      "time": 1.1666665269302368,
+      "progress": 1
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/hit-0.png",
+      "sha256": "39e4501ba862ed3ca78f5e1e6eed129a819bde509cd3400150516a33160b47b7",
+      "view": "iso",
+      "clip": "hit",
+      "time": 0,
+      "progress": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/hit-20.png",
+      "sha256": "a58b0bb23f020612e584d44c22767de61c6fa0578e1418f77c83409b78513adc",
+      "view": "iso",
+      "clip": "hit",
+      "time": 0.0833333313465118,
+      "progress": 0.2
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/hit-40.png",
+      "sha256": "fcd376c0a01e965cfc14f473aa8fcac6c82d10b9be819dd8c03f1db0bcbdef85",
+      "view": "iso",
+      "clip": "hit",
+      "time": 0.166666662693024,
+      "progress": 0.4
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/hit-60.png",
+      "sha256": "8393210e9866c16c083efb90783cb120d2daf1d0cd6013a19bf7a8e4f3bebb07",
+      "view": "iso",
+      "clip": "hit",
+      "time": 0.249999994039536,
+      "progress": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/hit-80.png",
+      "sha256": "6c0e19f16db0dc33b7d21c473dc6c44dee272b87f4a17810b394c06735d76411",
+      "view": "iso",
+      "clip": "hit",
+      "time": 0.333333325386047,
+      "progress": 0.8
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/hit-100.png",
+      "sha256": "39e4501ba862ed3ca78f5e1e6eed129a819bde509cd3400150516a33160b47b7",
+      "view": "iso",
+      "clip": "hit",
+      "time": 0.4166666567325592,
+      "progress": 1
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/place-0.png",
+      "sha256": "0d72b7b9c86a50cc30d9b18ebcceeeafabf6b8b486d9fd298bc890d5a1f5b8b6",
+      "view": "iso",
+      "clip": "place",
+      "time": 0,
+      "progress": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/place-20.png",
+      "sha256": "85deb1e355f2dc6781991b8060284a696b732c65f2688013cf944316ea361702",
+      "view": "iso",
+      "clip": "place",
+      "time": 0.216666674613953,
+      "progress": 0.2
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/place-40.png",
+      "sha256": "acd89f4a60bf47151c391874b322f425998b4c77dfabec5fe32114aac653570e",
+      "view": "iso",
+      "clip": "place",
+      "time": 0.433333349227905,
+      "progress": 0.4
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/place-60.png",
+      "sha256": "598c602699861d7ae8ee8cb4c86559ccca63b778b6d70d3de87dd8993c8885fc",
+      "view": "iso",
+      "clip": "place",
+      "time": 0.650000023841858,
+      "progress": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/place-80.png",
+      "sha256": "f07880f0533d94e9d4dd6e40b53ec7cfb0ec18839d937763fe0b3547d988b781",
+      "view": "iso",
+      "clip": "place",
+      "time": 0.8666666984558109,
+      "progress": 0.8
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/place-100.png",
+      "sha256": "39e4501ba862ed3ca78f5e1e6eed129a819bde509cd3400150516a33160b47b7",
+      "view": "iso",
+      "clip": "place",
+      "time": 1.0833333730697632,
+      "progress": 1
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/resolve-0.png",
+      "sha256": "39e4501ba862ed3ca78f5e1e6eed129a819bde509cd3400150516a33160b47b7",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 0,
+      "progress": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/resolve-20.png",
+      "sha256": "9c61264158642b4d3fcd3ca42bb330359f522eca4798e997da3348358802cc01",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 0.216666674613953,
+      "progress": 0.2
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/resolve-40.png",
+      "sha256": "598c602699861d7ae8ee8cb4c86559ccca63b778b6d70d3de87dd8993c8885fc",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 0.433333349227905,
+      "progress": 0.4
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/resolve-60.png",
+      "sha256": "acd89f4a60bf47151c391874b322f425998b4c77dfabec5fe32114aac653570e",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 0.650000023841858,
+      "progress": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/resolve-80.png",
+      "sha256": "85deb1e355f2dc6781991b8060284a696b732c65f2688013cf944316ea361702",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 0.8666666984558109,
+      "progress": 0.8
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/resolve-100.png",
+      "sha256": "0d72b7b9c86a50cc30d9b18ebcceeeafabf6b8b486d9fd298bc890d5a1f5b8b6",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 1.0833333730697632,
+      "progress": 1
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-00.png",
+      "sha256": "fd06f1b8c39a3c9f87d292ca6ad035790fefaf44ab90aedb2848a8504659577e",
+      "view": "iso",
+      "clip": "move",
+      "time": 0,
+      "progress": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-01.png",
+      "sha256": "71e343b0e75e7972eede051e8ef0c49e339c5a4d7e35f5ca6c4027d5f7197df0",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.04861110528875983,
+      "progress": 0.041666666666666664
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-02.png",
+      "sha256": "7da3a3b69d5c3281de706104291941ef95b120405aaf55ac8afa7f9999ec471d",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.09722221057751976,
+      "progress": 0.08333333333333333
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-03.png",
+      "sha256": "67be9f8851b15fe954ab2bb043802d4088d6051ed5b6371d47e3172add6fee67",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.14583331586627998,
+      "progress": 0.125
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-04.png",
+      "sha256": "ac984bff71996de8a7d0f7035eb95f0fb9f90e0f005edc08f9dee67c6683f2cf",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.19444442115503932,
+      "progress": 0.16666666666666666
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-05.png",
+      "sha256": "beab75aa2c7571dc251012f4200e2e22de4df586773b352ef977b6b8670d8e0e",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.24305552644379966,
+      "progress": 0.20833333333333334
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-06.png",
+      "sha256": "13ffe0dcccb631f15b8f37ed13d16ec76e27d252c141300903e3d52f321ec55e",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.29166663173255897,
+      "progress": 0.25
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-07.png",
+      "sha256": "d62dcc0bef6bfbf57c96937f3dbf2b36130914cf737de224e6fe24faa905bce4",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.34027773702131936,
+      "progress": 0.2916666666666667
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-08.png",
+      "sha256": "ace4a13873554ed38fe031c62d713850e242ddddf4ef7f72c0ff7794d3304043",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.38888884231007864,
+      "progress": 0.3333333333333333
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-09.png",
+      "sha256": "af595545a3f202cb3b9b3ac481cfafcee7688e4078074892e0eb5898edc1f660",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.437499947598839,
+      "progress": 0.375
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-10.png",
+      "sha256": "a108ec0d7b2abbc5eb36776b4508b412d3f2b1e2fad22243e09031d18203a9e8",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.48611105288759826,
+      "progress": 0.4166666666666667
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-11.png",
+      "sha256": "69d3c46e8f9462e0db8386cb846390842b920fcc057334e20d3d9675a946e747",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.5347221581763586,
+      "progress": 0.4583333333333333
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-12.png",
+      "sha256": "f47467b776eeb23568d6ac1ee826edfd7ae4740b20485da9cc345c52b7b37375",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.5833332634651179,
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-13.png",
+      "sha256": "f3b171da7eead45a93d5188eb9be18638bad8a3932b2976f5696d111fbae2b91",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.6319443687538784,
+      "progress": 0.5416666666666666
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-14.png",
+      "sha256": "6865a89772e910b85c08f71f86437fbb910e095c6e829ed9d1bdc1d5f2213120",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.6805554740426387,
+      "progress": 0.5833333333333334
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-15.png",
+      "sha256": "e23627567e4c6284822731613d10556a759242c5b0890bcdeddb1014d7b7f466",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.729166579331398,
+      "progress": 0.625
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-16.png",
+      "sha256": "f735dba1b2df792fd67ff29def37997bf0652a7b62416e2211f48cf45a2076f4",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.7777776846201583,
+      "progress": 0.6666666666666666
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-17.png",
+      "sha256": "c0097f83d9fafdab4aea2536bf77c03abf8ff6a78535ba31149ffd3177bfda02",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.8263887899089176,
+      "progress": 0.7083333333333334
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-18.png",
+      "sha256": "c5f7502f49e56ae67b19a847a7805ade65879d4abba07f7f5af3b645fa1187aa",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.874999895197678,
+      "progress": 0.75
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-19.png",
+      "sha256": "673a7d6b73af43a1ec200c89c9dc66862cc1cc3eb71ad4b6a8b947fc8f9926f7",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.9236110004864373,
+      "progress": 0.7916666666666666
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-20.png",
+      "sha256": "07f197aa37e008a19f0e9207765658d2503a0926418526e810b61ccb7cbe5173",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.9722221057751976,
+      "progress": 0.8333333333333334
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-21.png",
+      "sha256": "5c32737890bf1fc0bd35c78857aa8a11880276923a0525713eec3df40f67ac4f",
+      "view": "iso",
+      "clip": "move",
+      "time": 1.02083321106396,
+      "progress": 0.875
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-22.png",
+      "sha256": "52e0c72cad122db6ebee4aa917631c30d6f84e1c4c950543a2aec62b3beedb00",
+      "view": "iso",
+      "clip": "move",
+      "time": 1.0694443163527132,
+      "progress": 0.9166666666666666
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/walk-23.png",
+      "sha256": "593b0b7bb2b81d3fc6c2b90e8c339f0ac1a2b4c6175fc1de492ec3c619342b82",
+      "view": "iso",
+      "clip": "move",
+      "time": 1.1180554216414766,
+      "progress": 0.9583333333333334
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/bend-rear.png",
+      "sha256": "1463c1fa59c37b0974d098938a99780d1bd31721917d11c5a38e3a5b84594fc1",
+      "view": "rear",
+      "clip": "move",
+      "time": 0.466666610772095
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/bend-right.png",
+      "sha256": "656126c8c023c72e8c63b312127e0020b58bc4f0ae6706994fb28a7dc9dcf679",
+      "view": "right",
+      "clip": "move",
+      "time": 0.466666610772095
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/bend-bottom.png",
+      "sha256": "a6a9bc8a951b8d592dd5ef89df2753d0cd429d6b5e8c0750ae8bacd5ffc34835",
+      "view": "bottom",
+      "clip": "move",
+      "time": 0.466666610772095
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/playing-idle.png",
+      "sha256": "bafee2d691ef61f22057c5bab301fa219bdaaaf8085223359bb726c9b942b1a1",
+      "view": "iso",
+      "clip": "idle",
+      "time": 0.4398999019761558
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/playing-work.png",
+      "sha256": "f8b15b05b1ee51572d45d4db955a03d4c94e7ba176fb1cee5735db06cba8d140",
+      "view": "iso",
+      "clip": "work",
+      "time": 0.92779990201192
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/playing-move.png",
+      "sha256": "3613fcd640a72cf1846f8b4604d295008199ed6ca09f690dc681dc9abfe4e57a",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.35013331555323424
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/resolve-repeat-a.png",
+      "sha256": "bee729a3664d2f3a00ca7cd7306e132af936657c3c07f82430c9625190ce921d",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 0.520000019073486
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/resolve-repeat-b.png",
+      "sha256": "bee729a3664d2f3a00ca7cd7306e132af936657c3c07f82430c9625190ce921d",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 0.520000019073486
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/resolve-rest-reset.png",
+      "sha256": "39e4501ba862ed3ca78f5e1e6eed129a819bde509cd3400150516a33160b47b7",
+      "view": "iso",
+      "clip": null,
+      "time": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/place-repeat-a.png",
+      "sha256": "11089b16b7096b9f9c902a8fc6d731f9a66daa1527bfd991bc7e99264fb11984",
+      "view": "iso",
+      "clip": "place",
+      "time": 0.520000019073486
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/place-repeat-b.png",
+      "sha256": "11089b16b7096b9f9c902a8fc6d731f9a66daa1527bfd991bc7e99264fb11984",
+      "view": "iso",
+      "clip": "place",
+      "time": 0.520000019073486
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/place-rest-reset.png",
+      "sha256": "39e4501ba862ed3ca78f5e1e6eed129a819bde509cd3400150516a33160b47b7",
+      "view": "iso",
+      "clip": null,
+      "time": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/phone-move.png",
+      "sha256": "3664bf38a6908358dfca7aef25f5bf4497ede1289995eff9d8b7fa7ad44066d7",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.5599999329265141
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/phone-work.png",
+      "sha256": "d7839de745b02f791533c57a823dcd0c5b72017aaf85ad0491e58f29fdfbec85",
+      "view": "iso",
+      "clip": "work",
+      "time": 0.839999952
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/phone-place.png",
+      "sha256": "9d3e2b0b8f646e1ef83641a0c21018455b33c8f31cbe5d9217622522a4b6dba2",
+      "view": "iso",
+      "clip": "place",
+      "time": 0.520000019073486
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/phone-resolve.png",
+      "sha256": "90d3d2baa60eeb216f8cc065134fcbb8984f8cb21e607d1f4e66eb69e04eab23",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 0.520000019073486
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/phone-resolve-end.png",
+      "sha256": "42c39de3fbc6b7c5713efafc6b7b65f8df2752598d44ff03389e6fe1c0fdd028",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 1.0833333730697632
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/animation/game-scale.png",
+      "sha256": "60da49781d59f16924435c31518a7d538e8c6f3e49e22c73b17c288b39d1da05",
+      "view": "iso",
+      "clip": null,
+      "time": 0
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/digital-resolve.js",
+      "sha256": "98f1aa5265c1e9d18ea15c5fa65d453dbceecb7b84e31c7d942b1f225c5289c5"
+    },
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
     }
   ],
   "userAcceptance": {
     "status": "pending",
-    "note": "Prior revision rejected for user-reported skin-coloured slivers. Awaiting feedback on UV-corrected revision 5."
+    "note": "User authorized this animation pass; visual acceptance of the resulting model/animation revision is separate and remains pending."
   },
   "limitations": [
-    "Static model; animation remains pending.",
-    "Low-density outlines, shallow octagonal cups and angular close-up highlights remain intentional."
+    "Move is authored against 0.28 m/s forward travel; simulation remains responsible for position and speed. Blend idle/move over about 0.18–0.22 s to change between the raised ready pose and five-limb locomotion.",
+    "Digital assembly/disintegration requires Tower’s shared createLifecycleEffect presentation renderer; a standalone GLB player shows only the authored full-size pose.",
+    "The low-poly version permits only three temporary cubes to keep its model-plus-effect geometry under 4,000 triangles. Its cell reveal/disintegration shader remains complete.",
+    "Runtime interpolation produces a maximum 2.73 mm stance gap between authored keys; this is below the reviewed game-scale threshold."
   ]
 }

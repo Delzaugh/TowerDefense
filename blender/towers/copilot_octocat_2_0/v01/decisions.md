@@ -154,3 +154,63 @@ Final: 68180 triangles, 20 meshes, 2 materials,
 Runtime hash 02e3657bfe1d0fe392676010d7acb37c378075a4c771976f1a97188ea3646f12.
 Source hash c0c000b5b12d0380bdaeb54904fb92b2428912519e10ab09263e70c110eec8cb.
 User acceptance of this corrected revision remains pending.
+
+## Animation research — 2026-09-30
+
+User requested deep research into Mona/Octocat's animation, attributes and mindset.
+The proposed direction and primary-source evidence are recorded in
+[Mona / Octocat animation research](../../../../docs/design/Mona_Octocat_Animation_Research.md).
+Public creator walk studies were sampled and their frame timing measured; evidence is preserved
+under `docs/research/mona-octocat-animation-2026-09-30/`.
+
+Recommended starting direction: grounded five-tentacle locomotion, elastic
+weight support and curls, purposeful nonverbal acting, curious maker/jester
+personality and optimistic recovery. Two raised tentacles in upright rest are
+a pose choice, not permanent anatomy assignments. Clip timings and rig layout
+in the brief are project proposals, not official GitHub specifications.
+
+Research does not record model acceptance or authorize a new animation export.
+Source, runtime and current review status remain unchanged; animation is pending.
+
+## Research-led animation applied — 2026-09-30
+
+User authorization: “apply these to both 2.0 octocats”. This supersedes the
+research-only animation-pending status above. Preserved static model revision
+8 in revisions/r8_before_mona_animation/ before rigging. Its source hash
+was c0c000b5b12d0380bdaeb54904fb92b2428912519e10ab09263e70c110eec8cb; runtime
+02e3657bfe1d0fe392676010d7acb37c378075a4c771976f1a97188ea3646f12. Model acceptance remains
+pending and is separate from this explicit animation authorization.
+
+Delivered animation revision 13: 29 deform bones, five independent elastic
+tentacle chains, stationary root, and six clips at 24 fps: idle (2.25 s), work
+(1.75 s), move (28/24 s), place and resolve (26/24 s each), hit (10/24 s).
+The maker’s attentive inspection/reach/tap, brief surprise and optimistic
+recovery apply the published personality direction. Upright rest still has
+two raised and three supporting tentacles; grounded locomotion uses all five.
+Walk is authored for 0.28 m/s, 78% stance and five phased contacts. Recovery
+velocity/acceleration match stance; runtime stance gap is below 2.73 mm.
+
+Independent facial targets and seven presets retain separate display control;
+armature properties drive the editable source and sampled GLB weight tracks.
+Cup weights/correctives follow underlying skin triangles. Explicit Basis
+initialization prevents inherited morph deformation. Rest source geometry,
+UVs, palette, smoothing and fitting origins are preserved. Runtime rest
+positions/UVs and embedded images/materials match; normal rounding is <0.0001.
+The repaired peach-face boundary stays confined to the front hemisphere.
+
+Tower Place assembles digital cells into ready Idle; Resolve reverses it and
+ends invisible. 32 temporary cubes fit the existing geometry budget:
+68,564 maximum model-plus-cube triangles. No gameplay
+position, timing or outcomes are implemented by this art export. A standalone
+GLB viewer needs the shared lifecycle renderer for the full effect.
+
+Reviewed actual Inspector phase/extreme/recovery/end frames and normal playback,
+loop joins, exposed bends, phone/game scale, shadows, seek/replay/Rest reset,
+effect-off fallback, exhausted cube budget, disposal and hash-preserving reload.
+Second author review and guarded technical/review checks are hash-bound to:
+source d4137359a0e93df115bc5634f99d5a02fc320ff00c9636135f98e3032591a182,
+runtime b4a9dabfeaeae1e3770f5f104991b0a24e75ea56da149108a7b76e140e75d63a.
+User visual acceptance of this revision remains pending.
+
+See animation.md for the animation interface
+and runtime integration notes; research is in docs/design/Mona_Octocat_Animation_Research.md.

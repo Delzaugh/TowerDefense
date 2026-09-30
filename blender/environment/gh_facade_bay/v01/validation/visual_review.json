@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_facade_bay",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "1a46797a9e4ece7a5fff9d9e89d9fd3e42714ac2a106a54a6862c21766f36a33",
+  "sourceHash": "d1ed9aa8dd38ac3afdfe36e9190fc7b1c6b2bf9fd308a0e10ab38233ab03c698",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:25:35.137Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "The arch springline, narrow metal muntins, light projecting sill and broad stucco spandrel reproduce the researched historic warehouse vocabulary at modular scale."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "A coherent twelve-segment extruded arch and full-depth opening replace flat painted treatment. Widened base/cornice endcaps slightly so their visible ends are not coincident with the stucco end plane; front and reverse reveal the actual aperture."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Single tall arched window and chunky pale trim remain recognizable on the 390 px viewport; repeated deployment gives a clear facade rhythm."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Deliberately static environment architecture, no skeleton or authored clips."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Inspected the current rebuilt front, rear, oblique and phone after endcap repair. The side-end band shimmer is removed, the sill has deliberate depth and the arch frame remains concentric."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_facade_bay/v01/validation/iso.png",
+      "sha256": "a3f39d03be496f3370f18efa8c181e9594a08527a720c5f058a2ac871d6dcb79",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_facade_bay/v01/validation/front.png",
+      "sha256": "a7121a039b4a4690f781baf7771de236246524da9708abf517ecb36524276b4f",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_facade_bay/v01/validation/rear.png",
+      "sha256": "3cf95f1351c33e59b6518d1d724eee2739fa7c16c7e4105160da8ba6e82085a6",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_facade_bay/v01/validation/phone.png",
+      "sha256": "d25f603fd8552e0e379d05d5995cb998ba2bcc06da20ee8d276f8a76985f230d",
+      "view": "phone",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User authorized creation but has not explicitly accepted this model revision."
+  },
+  "limitations": [
+    "Original interpreted campus architecture; complete measured GitHub as-built CAD documentation was not found."
+  ]
+}

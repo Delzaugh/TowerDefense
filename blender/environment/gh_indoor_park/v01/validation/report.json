@@ -1,0 +1,37 @@
+{
+  "asset": "gh_indoor_park",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "732ac2aa57ae714a0c03d6c6c3792e809c0237c3ff8da9fd27feee1d507807bf",
+  "checkedAt": "2026-09-30T18:19:32.423Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 756,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    6,
+    1.5189999341964722,
+    4
+  ],
+  "bounds": [
+    [
+      -3,
+      0,
+      -2
+    ],
+    [
+      3,
+      1.5189999341964722,
+      2
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "329fbb2dbd7e8fc9f02c291babc37cdba2e8b0b6cc437d7e203d2dc1f7e43911",
+  "source": "blender/environment/gh_indoor_park/v01/gh_indoor_park_v01.blend",
+  "runtime": "assets/runtime/environment/gh_indoor_park_v01.glb"
+}

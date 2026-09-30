@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_workstation",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "97c2612d0bb9eec35a56833272b2cd105dc63dce768afd0bba55d9bf2ff7baab",
+  "sourceHash": "4339a10574299e6859be4fe905a1da9dc91ee9744f1fca8729068dc92bb2ccf5",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:09:06.189Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Solid pale oak top, iron trestles and dark monitor match MASH/warehouse material cues; monitor/chair and green laptop are original readable fittings."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Monitor seated on a visible stem/base; separate keyboard and cup clear the top. Rear view exposes coherent iron frame and planted chair feet."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Phone oblique view clearly separates monitor, chair, pale tabletop and laptop; small code lines remain secondary."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Intentionally static environment ensemble; no rig, animation, root motion or gameplay behavior requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second assessment confirms armrests fit the chair, monitor clears the chair back, and desktop props retain separate silhouettes. No structural repair required."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_workstation/v01/validation/front.png",
+      "sha256": "acca07539f477e201cc3a30dc953b88375776f6285471b1c3e6723b75c6d6076",
+      "view": "front"
+    },
+    {
+      "path": "blender/environment/gh_workstation/v01/validation/iso.png",
+      "sha256": "33870aeab60c2882b4b8d75eff81a6a89f7325a4ba9ffa45b32258070b45dbc6",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_workstation/v01/validation/rear.png",
+      "sha256": "801414713b1a42cc017862a5bb9ab020a84436f72abd20f115bbc55021ccd61c",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_workstation/v01/validation/inspector-phone.png",
+      "sha256": "ea70eab3f3ac3f6025e6ece1310698fe105a23528dca1aa1ba4bf3132378fd82",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested production; no artistic acceptance of this specific revision has been given."
+  },
+  "limitations": [
+    "Research-informed modular interpretation; furniture measurements are inferred, not certified as-built specifications."
+  ]
+}

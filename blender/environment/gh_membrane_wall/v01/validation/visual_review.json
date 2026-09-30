@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_membrane_wall",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "8399faa8c8f70e85a63121f4fbb50daddfc8a803644a3eeb40beabcc567f6f77",
+  "sourceHash": "f84f48abfa3f6e5869bab0545d53c0a69b317a04df527cc799d27912e006bf1a",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:31:21.344Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Rapt Studio and NEW/LIGHT references govern the continuous curved white meeting-wall vocabulary. Wall thickness is 0.3048m, matching the documented one-foot assembly; curve footprint is inferred."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Twenty-four joined curve segments keep continuous inner/outer boundaries and a closed top; mounting feet seat under the sweep. Repaired unused UV channels so both groups bind one exact named palette material."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "White curved silhouette and shallow end thickness read in oblique/rear and phone views. Low emission suggests the luminous membrane without expensive glass sorting."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static modular office/campus scenery. No animation was requested or authored."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second reference comparison confirms the long curved white shape and clean edge profile. It is an opaque luminous approximation, not a membrane engineering simulation. Phone capture was explicitly reframed after the viewport width changed, then checked for complete-model visibility."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_membrane_wall/v01/validation/iso.png",
+      "sha256": "ad857d7bb71bcc6ff13cf7cac3969fd9984a81984a86d67f3c6755ea719e22a0",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_membrane_wall/v01/validation/rear.png",
+      "sha256": "15358812d73c38f8dc5a3b355293552db5e03482c4b6633b686d277d50711a50",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_membrane_wall/v01/validation/inspector-detail.png",
+      "sha256": "b4cefdbd885f9d06ffcd06deb221602c51713145896283b844057d29bf4e4896",
+      "view": "inspector-detail"
+    },
+    {
+      "path": "blender/environment/gh_membrane_wall/v01/validation/inspector-phone.png",
+      "sha256": "204c0e22b4660ffcc1bf773777582bdcc7096a38559c0d1c38a501c9508ade0c",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author self-review completed; no artistic acceptance is inferred from the user request."
+  },
+  "limitations": [
+    "Stylized, inferred dimensions; not a measured as-built reconstruction."
+  ]
+}

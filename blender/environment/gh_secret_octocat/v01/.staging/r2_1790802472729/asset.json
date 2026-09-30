@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "gh_secret_octocat",
+  "displayName": "Hidden reading-room Octocat figurine",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/gh_secret_octocat/v01/gh_secret_octocat_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/gh_secret_octocat/v01/build.py"
+  },
+  "runtime": "assets/runtime/environment/gh_secret_octocat_v01.glb",
+  "budgets": {
+    "triangles": 20000,
+    "meshes": 2,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 64,
+    "bones": 0
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.004,
+    "rootMotion": false,
+    "anchors": [],
+    "groundY": 0
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "docs/research/github-offices-2026-09-30/report.html",
+      "provenance": "Public architect, contractor, artist and official brand references catalogued in adjacent sources.json. Original interpreted geometry; photographs are references, not runtime textures."
+    },
+    {
+      "path": "C:/Users/jonas/AppData/Local/Temp/codex-clipboard-17f6b711-ab94-407c-824b-147fa3180491.png",
+      "provenance": "User-supplied 2026-09-30 office photo, tabletop black collectible Octocat with peach face, pink eyes, turquoise pedestal. Design reference only."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/gh_secret_octocat/v01/decisions.md",
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "black": "#232925",
+      "peach": "#E5B89F",
+      "pink": "#C66973",
+      "cream": "#F2E3C9",
+      "turquoise": "#70B5B4",
+      "white": "#F2F5F3",
+      "eye": "#985257",
+      "graphite": "#333E48"
+    }
+  },
+  "texturePalettes": [
+    {
+      "material": "gh_secret_octocat_palette",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "black": {
+          "color": "#232925",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "peach": {
+          "color": "#E5B89F",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "pink": {
+          "color": "#C66973",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "cream": {
+          "color": "#F2E3C9",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "turquoise": {
+          "color": "#70B5B4",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "white": {
+          "color": "#F2F5F3",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "eye": {
+          "color": "#985257",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#333E48",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  }
+}

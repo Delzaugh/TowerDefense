@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "id": "gh_warehouse",
+  "displayName": "Brannan-inspired warehouse shell",
+  "category": "environment",
+  "version": "v01",
+  "revision": 4,
+  "source": {
+    "path": "blender/environment/gh_warehouse/v01/gh_warehouse_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/gh_warehouse/v01/build.py",
+    "authoritativeHash": "0c3787d31aee88d92e186c2e2a11c749a653320dc0e38e6c40cf889008af24ec"
+  },
+  "runtime": "assets/runtime/environment/gh_warehouse_v01.glb",
+  "budgets": {
+    "triangles": 50000,
+    "meshes": 40,
+    "materials": 2,
+    "textures": 1,
+    "textureSize": 64,
+    "bones": 0
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": false,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [],
+    "groundY": 0
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "docs/research/github-offices-2026-09-30/report.html",
+      "provenance": "Public architect, contractor, artist and official brand references catalogued in adjacent sources.json. Original interpreted geometry; photographs are references, not runtime textures."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "material.transparency",
+      "material": "clear_architectural_glazing",
+      "reason": "Thin transparent glazing deliberately allows furnished interior visibility and is isolated from the opaque single-atlas structure. No refraction or layered decals."
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/gh_warehouse/v01/revisions/r2_before_r3/gh_warehouse_v01.glb",
+      "source": "blender/environment/gh_warehouse/v01/revisions/r2_before_r3/gh_warehouse_v01.blend",
+      "sha256": "bf293eda0ca4f7ff7ad8d1066352d9b83edd97333eb12658d9f6a8d32d1545af",
+      "sourceHash": "cb15a468fa9fe58f751fdace1dc971f0dcaa3520230f32e0ee6bd7affcb7e856"
+    }
+  ],
+  "decisions": "blender/environment/gh_warehouse/v01/decisions.md",
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "stucco": "#CAD1CE",
+      "trim": "#E2EDF0",
+      "stone": "#89A4B8",
+      "iron": "#232925",
+      "wood": "#A77B55",
+      "oak": "#CFAC77",
+      "orange": "#D86C35",
+      "orange_light": "#F19A50",
+      "slate": "#48647D",
+      "teal": "#82DADD",
+      "green": "#0FBF3E",
+      "cream": "#F2E3C9"
+    }
+  },
+  "texturePalettes": [
+    {
+      "material": "github_architecture_palette",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "stucco": {
+          "color": "#CAD1CE",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#E2EDF0",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "stone": {
+          "color": "#89A4B8",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "iron": {
+          "color": "#232925",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "wood": {
+          "color": "#A77B55",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "oak": {
+          "color": "#CFAC77",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "orange": {
+          "color": "#D86C35",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "orange_light": {
+          "color": "#F19A50",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "slate": {
+          "color": "#48647D",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "teal": {
+          "color": "#82DADD",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        },
+        "green": {
+          "color": "#0FBF3E",
+          "rect": [
+            40,
+            0,
+            4,
+            4
+          ]
+        },
+        "cream": {
+          "color": "#F2E3C9",
+          "rect": [
+            44,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "c14775ebd40a8584a67c0fcee9642e0b1ddd739387dc726f4955374b6101312e",
+    "sourceHash": "0c3787d31aee88d92e186c2e2a11c749a653320dc0e38e6c40cf889008af24ec",
+    "report": "blender/environment/gh_warehouse/v01/validation/report.json",
+    "deliveredAt": "2026-09-30T18:06:40.537Z"
+  }
+}

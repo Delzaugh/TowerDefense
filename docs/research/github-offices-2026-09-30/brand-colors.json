@@ -1,0 +1,16 @@
+{
+  "source": "https://brand.github.com/foundations/color",
+  "accessed": "2026-09-30",
+  "scope": "Current graphics brand, not historical office paint",
+  "colors": {
+    "github_green": "#0FBF3E",
+    "gray_1": "#F2F5F3",
+    "gray_2": "#E4EBE6",
+    "gray_3": "#B6BFB8",
+    "gray_4": "#909692",
+    "gray_5": "#232925",
+    "gray_6": "#101411",
+    "copilot_purple": "#8534F3",
+    "security_blue": "#3094FF"
+  }
+}

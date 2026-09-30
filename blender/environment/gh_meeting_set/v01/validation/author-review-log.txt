@@ -1,0 +1,12 @@
+{
+  "ready": true,
+  "file": "blender/environment/gh_meeting_set/v01/validation/visual_review.json",
+  "asset": "gh_meeting_set",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "f0794a8a0eed207782cffd00b32836015539a083fc22727a96f522ea6b85fce0",
+  "sourceHash": "4ed40b333207f2fa81db4b8d9fec4c620299e82397c5d05e60e808ca50139ae8",
+  "userAcceptance": "pending",
+  "errors": [],
+  "meaning": "Checks record completeness and current files; author judgment is not independently verified."
+}

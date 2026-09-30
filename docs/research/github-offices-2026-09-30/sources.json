@@ -1,0 +1,324 @@
+{
+  "researched_on": "2026-09-30",
+  "scope": "Public GitHub office architecture, interior design, materials, furniture, artwork, and visual identity for 3D reference. Historical phases are separate.",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "GitHub — FENNIE+MEHL architect project",
+      "url": "https://fm-arch.com/workitems/github/",
+      "kind": "primary",
+      "phase": "SF original / 2013",
+      "use": "Design intent, original architect photographs by Eva Kolenko, industrial structure and room details."
+    },
+    {
+      "id": "S02",
+      "title": "GitHub Headquarters — Truebeck",
+      "url": "https://www.truebeck.com/project/github-headquarters/",
+      "kind": "primary",
+      "phase": "SF original / 2013",
+      "use": "Three-story 1905 brick-and-timber shell, high ceilings, roof deck/penthouse, office support facilities. Browser text available; direct collector received HTTP 403."
+    },
+    {
+      "id": "S03",
+      "title": "Truebeck self-perform case study",
+      "url": "https://www.truebeck.com/self-perform/",
+      "kind": "primary",
+      "phase": "SF original / 2013",
+      "use": "Restored exposed wood, historic window restoration, roof deck installation and custom container assembly."
+    },
+    {
+      "id": "S04",
+      "title": "GitHub — MASHstudios",
+      "url": "https://mashstudios.com/projects/github/",
+      "kind": "primary",
+      "phase": "SF original / 2013",
+      "use": "Custom desk/table material specifications and maker photographs; oak, cast iron, cold-rolled steel, walnut and mahogany."
+    },
+    {
+      "id": "S05",
+      "title": "GitHub HQ — Concreteworks",
+      "url": "https://concreteworks.com/projects/github-hq/",
+      "kind": "primary",
+      "phase": "SF original",
+      "use": "Concrete dining/meeting tables, acid-etched chess tables, planters, wood/concrete bench, roof furniture."
+    },
+    {
+      "id": "S06",
+      "title": "GitHub — San Francisco Headquarters, Office Snapshots",
+      "url": "https://officesnapshots.com/2015/04/06/github-san-francisco-headquarters/",
+      "kind": "secondary / architect-supplied project",
+      "phase": "2013 project, published 2015",
+      "use": "21-photo gallery including Oval Office, library, containers, bar and indoor park; five containers; brass faux rails and stamped-concrete ties."
+    },
+    {
+      "id": "S07",
+      "title": "GitHub Office Space / Studio Hatch — HomeWorldDesign",
+      "url": "https://homeworlddesign.com/github-office-space-san-francisco-studio-hatch/",
+      "kind": "secondary",
+      "phase": "Original design, published 2017",
+      "use": "Studio Hatch/Kate Hanzo attribution, program and additional image access."
+    },
+    {
+      "id": "S08",
+      "title": "Best Interiors/Tenant Improvement: GitHub Headquarters — ENR",
+      "url": "https://www.enr.com/articles/10693-interiorstenant-improvement-github-headquarters",
+      "kind": "trade publication",
+      "phase": "2014 award coverage",
+      "use": "Image-led design/build process, shop drawings, LED controls, roof-deck composition and project team."
+    },
+    {
+      "id": "S09",
+      "title": "Take the Exclusive Tour of GitHub's New Hacker Heaven — WIRED",
+      "url": "https://www.wired.com/2013/09/github-office/",
+      "kind": "contemporary reporting",
+      "phase": "September 26, 2013",
+      "use": "Room tour and Ariel Zambelich photographs; opening-era floor assignments; plans were in an internal GitHub repository."
+    },
+    {
+      "id": "S10",
+      "title": "GitHub — Rapt Studio",
+      "url": "https://raptstudio.com/work/github/",
+      "kind": "primary",
+      "phase": "Later expansion, documented by 2018",
+      "use": "Central meeting hub, perimeter work areas, organic continuous backlit wall, limited east-side daylight and low ceilings."
+    },
+    {
+      "id": "S11",
+      "title": "GitHub, SF HQ — SC Builders",
+      "url": "https://www.scbuildersinc.com/projects/github-sf-hq/",
+      "kind": "primary",
+      "phase": "Rapt expansion",
+      "use": "20,000 SF construction scope, one-foot-thick Newmat wall, third-floor connection/mezzanine, five sit-in bookshelves and ten reading carrels."
+    },
+    {
+      "id": "S12",
+      "title": "GitHub Office Expansion — West Coast Industries",
+      "url": "https://westcoastindustries.com/installations/github-office-expansion-san-francisco/",
+      "kind": "primary supplier",
+      "phase": "Rapt expansion",
+      "use": "Custom L-shaped meeting-space banquettes; Rapt Studio and Jasper Sanidad credits."
+    },
+    {
+      "id": "S13",
+      "title": "NEW/LIGHT 2019 USA catalog",
+      "url": "https://newmatworld.com/headquarters/wp-content/uploads/2019/02/Catalogue_NEWLIGHT_2019_USA_Web.pdf",
+      "kind": "primary supplier PDF",
+      "phase": "Rapt expansion",
+      "use": "PDF page 31 identifies GitHub's NEW/LIGHT 3D wall, white translucent T0B1320/TOB1320 membrane and LED strips.",
+      "local": "documents/newlight-2019-usa.pdf",
+      "pages": "31; membrane options on 64"
+    },
+    {
+      "id": "S14",
+      "title": "GitHub atrium / Commit to the Future — IA Interior Architects",
+      "url": "https://interiorarchitects.com/projects/githubatrium/",
+      "kind": "primary",
+      "phase": "Contemporary installation; completion date not stated",
+      "use": "Multi-story suspended polycarbonate contribution-graph/Mona artwork, lighting and nine multi-angle photographs. Image paths dated July 2026 do not prove completion date."
+    },
+    {
+      "id": "S15",
+      "title": "Thinktocat — Tony Jaramillo",
+      "url": "https://www.tonytimetables.com/thinktocat",
+      "kind": "primary artist",
+      "phase": "Original HQ artwork",
+      "use": "8-foot bronze sculpture design brief, concept/sculpt/process/final photos and foundry video. Portfolio says 2014 move; opening reporting says 2013."
+    },
+    {
+      "id": "S16",
+      "title": "The Octocat — Cameron McEfee",
+      "url": "https://cameronmcefee.com/work/the-octocat/",
+      "kind": "primary designer retrospective",
+      "phase": "2011–2015 identity",
+      "use": "Octocat identity development, illustration, animation and sculpture context."
+    },
+    {
+      "id": "S17",
+      "title": "South End Historic District, final National Register certification — Page & Turnbull / SF Planning",
+      "url": "https://sfplanninggis.org/docs/NatRegDistricts/2008-06-26_Final-NR-SouthEndHistDist.pdf",
+      "kind": "primary historic survey PDF",
+      "phase": "2008, before GitHub fit-out",
+      "use": "PDF page 30 / A2-8: 275 Brannan, APN 3789/009, 1905/1909, three stories, height 50 feet, brick/stucco, façade photo. Page 71 / A2-49: 625 Second context.",
+      "local": "documents/south-end-historic-2008.pdf",
+      "pages": "30 / A2-8; 71 / A2-49"
+    },
+    {
+      "id": "S18",
+      "title": "Hudson Pacific signs GitHub for full occupancy of 275 Brannan",
+      "url": "https://investors.hudsonpacificproperties.com/investor-resources/press-releases/press-release-details/2013/Hudson-Pacific-Properties-Inc-Announces-New-Lease-for-Full-Occupancy-of-275-Brannan-Street-in-San-Francisco/default.aspx",
+      "kind": "primary landlord",
+      "phase": "January 7, 2013",
+      "use": "54,763 SF lease; building identity and historic shell; scheduled April commencement is not the September ribbon-cutting date."
+    },
+    {
+      "id": "S19",
+      "title": "Hudson Pacific 2023 Form 10-K",
+      "url": "https://s22.q4cdn.com/675150095/files/doc_financials/2023/q4/HUDSON-PACIFIC-10K-20241602.pdf",
+      "kind": "primary landlord filing",
+      "phase": "2024 filing",
+      "use": "57,120 SF at 275 Brannan with June 2030 expiration; 35,330 SF at 625 Second with December 2024 expiration. These are lease accounting figures, not room dimensions."
+    },
+    {
+      "id": "S20",
+      "title": "GitHub renews San Francisco headquarters lease — SF Chronicle",
+      "url": "https://www.sfchronicle.com/realestate/article/s-f-github-renews-lease-18670310.php",
+      "kind": "reported company/landlord confirmation",
+      "phase": "February 15, 2024",
+      "use": "Renewal and collaboration-hub explanation; corrects reading of 2023 office-closure coverage."
+    },
+    {
+      "id": "S21",
+      "title": "Remembering GitHub's Office — WIRED",
+      "url": "https://www.wired.com/story/github-tech-values/",
+      "kind": "former-employee retrospective",
+      "phase": "May 28, 2023",
+      "use": "Describes intended closures and reports Oval Office replacement with café around 2016; historical context, not present-day status."
+    },
+    {
+      "id": "S22",
+      "title": "Former GitHub Headquarters — Fourth Street leasing brochure",
+      "url": "https://images1.showcase.com/d2/x3rCf2s1Leabz87sMnGnmrNo4pqx95ytPong8NAHowo/document.pdf",
+      "kind": "primary broker PDF / marketing",
+      "phase": "Earlier SF location; brochure issue date unstated",
+      "use": "Two floor plans on PDF page 6 (printed pages 10–11), photos on 4–5, 28,000 SF total / 14,000 per level; cannot certify GitHub-era layout.",
+      "local": "documents/fourth-street-leasing.pdf",
+      "pages": "6 (plans); 4–5 (photos)"
+    },
+    {
+      "id": "S23",
+      "title": "Kids are the future. Teach 'em to code. — GitHub",
+      "url": "https://github.blog/news-insights/kids-are-the-future-teach-em-to-code/",
+      "kind": "primary company",
+      "phase": "February 9, 2012",
+      "use": "Confirms GitHub HQ address as 548 Fourth Street in 2012."
+    },
+    {
+      "id": "S24",
+      "title": "Patchwork Night Boulder Edition — GitHub",
+      "url": "https://github.blog/news-insights/the-library/patchwork-night-boulder-edition/",
+      "kind": "primary company",
+      "phase": "August 6, 2014",
+      "use": "New Boulder office at 1300 Walnut Street, Suite 101 and usable interior photograph."
+    },
+    {
+      "id": "S25",
+      "title": "Five tech companies making Colorado their second home — Built In Colorado",
+      "url": "https://www.builtincolorado.com/articles/5-cutting-edge-tech-companies-making-colorado-their-second-home",
+      "kind": "secondary",
+      "phase": "2014–2015 Boulder context",
+      "use": "Reports 3,500 SF Boulder office; dimensions and plans not provided."
+    },
+    {
+      "id": "S26",
+      "title": "Announcing GitHub Japan — GitHub",
+      "url": "https://github.blog/news-insights/announcing-github-japan/",
+      "kind": "primary company",
+      "phase": "June 4, 2015",
+      "use": "First official international office in Tokyo; announcement does not supply an architectural package."
+    },
+    {
+      "id": "S27",
+      "title": "Tesselated Plots — Sasj",
+      "url": "https://sasj.nl/portfolio/tesselatedplots/",
+      "kind": "primary artist",
+      "phase": "Amsterdam, 2024",
+      "use": "GitHub Amsterdam commission, Dutch stitching/keyboard motif, two interior mural photographs; office address and floor plan not given."
+    },
+    {
+      "id": "S28",
+      "title": "Logo — GitHub Brand Toolkit",
+      "url": "https://brand.github.com/foundations/logo",
+      "kind": "primary brand specification",
+      "phase": "Current toolkit, accessed 2026-09-30",
+      "use": "Official vector download link, Invertocat/wordmark construction and usage. github.com/logos redirects here."
+    },
+    {
+      "id": "S29",
+      "title": "Color — GitHub Brand Toolkit",
+      "url": "https://brand.github.com/foundations/color",
+      "kind": "primary brand specification",
+      "phase": "Current toolkit",
+      "use": "GitHub Green #0FBF3E, neutral palette, Copilot purple and Security blue. These are current graphics colors, not historical interior paint specifications."
+    },
+    {
+      "id": "S30",
+      "title": "Typography — GitHub Brand Toolkit",
+      "url": "https://brand.github.com/foundations/typography",
+      "kind": "primary brand specification",
+      "phase": "Current toolkit",
+      "use": "Mona Sans / Mona Sans Mono and official font download; signage direction for a contemporary interpretation."
+    },
+    {
+      "id": "S31",
+      "title": "Mascots — GitHub Brand Toolkit",
+      "url": "https://brand.github.com/graphic-elements/mascots",
+      "kind": "primary brand specification",
+      "phase": "Current toolkit",
+      "use": "Mona, Copilot and Ducky, alternate historical Octocat styles and mascot-versus-logo distinction."
+    },
+    {
+      "id": "S32",
+      "title": "Experiential — GitHub Brand Toolkit",
+      "url": "https://brand.github.com/brand-in-action/experiential",
+      "kind": "primary brand specification",
+      "phase": "Current toolkit",
+      "use": "Developer-culture spaces, tactile premium materials, restrained environmental identity; Universe designs are event-specific."
+    },
+    {
+      "id": "S33",
+      "title": "How JSON Schema Was an Obvious Choice at GitHub",
+      "url": "https://json-schema.org/blog/posts/github-case-study",
+      "kind": "technical community source / photo reference",
+      "phase": "Exterior photograph, exact capture date unknown",
+      "use": "Entrance at 88 Colin P. Kelly; source for local exterior photograph, not architectural measurements."
+    },
+    {
+      "id": "S34",
+      "title": "Craftwork San Francisco — GitHub",
+      "url": "https://github.blog/news-insights/the-library/craftwork-san-francisco/",
+      "kind": "primary company",
+      "phase": "July 25, 2018",
+      "use": "Company-confirmed event address 88 Colin P. Kelly Jr Street."
+    },
+    {
+      "id": "S35",
+      "title": "GitHub engineering organization — Logmi",
+      "url": "https://logmi.jp/main/technology/322254",
+      "kind": "employee presentation transcript",
+      "phase": "Tokyo historical context",
+      "use": "Mentions Daimon office and mixed remote work; limited photography, no dimensioned design set."
+    },
+    {
+      "id": "S36",
+      "title": "Art Direction / Artist Partnership Project — Tony Jaramillo",
+      "url": "https://www.tonytimetables.com/art-direction/",
+      "kind": "primary art director portfolio",
+      "phase": "Historical global office branding, accessed 2026-09-30",
+      "use": "Commissioned office mural photographs with individual artist credits, including Saskia, Tyler Hobbs, Anna Casseras, Aaron de la Cruz and SF cafe mural. See mural-research.md for authored interpretation scope."
+    }
+  ],
+  "rejected_or_limited": [
+    {
+      "url": "https://commissions.sfplanning.org/hpcpackets/2016-000845COA-02.pdf",
+      "reason": "Inspected: 250 Brannan / 270 Brannan Splunk connector project. 275 Brannan is a neighboring label only. Its plans do not depict GitHub; excluded from delivered documents."
+    },
+    {
+      "url": "https://commissions.sfplanning.org/hpcpackets/2012.0799A.pdf",
+      "reason": "Search identifies 270 Brannan project; contextual site drawing only. Not evidence of GitHub's interior or dimensions."
+    },
+    {
+      "url": "https://www.studiohatch.com/github",
+      "reason": "Unverified guessed path failed. Use architect page S01 and original project galleries instead."
+    },
+    {
+      "url": "https://www.yumpu.com/en/document/view/16439472/275-brannan-street-san-francisco-planning-department",
+      "reason": "Mirrors office-use planning history, not a verified GitHub construction drawing set. Not used to invent measured floor geometry."
+    },
+    {
+      "reason": "No complete, dimensioned public Brannan headquarters plan, BIM/IFC/CAD file, room finish schedule or furniture shop-drawing set was located in this search."
+    },
+    {
+      "reason": "Tokyo event photographs often show partner venues such as Cybozu or Recruit rather than GitHub offices. Excluded when identity did not match."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "asset": "gh_warehouse",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "bf293eda0ca4f7ff7ad8d1066352d9b83edd97333eb12658d9f6a8d32d1545af",
+  "checkedAt": "2026-09-30T18:04:51.961Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 37488,
+  "meshes": 19,
+  "materials": 2,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    30.809999465942383,
+    15.239999771118164,
+    18.809999465942383
+  ],
+  "bounds": [
+    [
+      -15.404999732971191,
+      0,
+      -9.404999732971191
+    ],
+    [
+      15.404999732971191,
+      15.239999771118164,
+      9.404999732971191
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "cb15a468fa9fe58f751fdace1dc971f0dcaa3520230f32e0ee6bd7affcb7e856",
+  "source": "blender/environment/gh_warehouse/v01/gh_warehouse_v01.blend",
+  "runtime": "assets/runtime/environment/gh_warehouse_v01.glb"
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_ceiling_services",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "e443801ff8b07484bac0c0ef445771251b1ca5d71d420f9262a8435920b4a1ce",
+  "sourceHash": "9f1873c6e6d192948f53ede56659cfcc11265f2d984bb28adbeb5e0ac095d6fa",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:31:21.403Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Exposed silver ducts and suspended linear lights follow the original warehouse open-office photograph, with an authored six-metre bay interface."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Initial review found an unconnected outlet and a floating flange; corrected to a continuous quarter-turn mesh and properly aligned outlet/flanges. Suspension ties end at mount shoes."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Large duct elbow and two black light housings remain readable in phone view; white underside diffusers separate from the dark fittings."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static modular office/campus scenery. No animation was requested or authored."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second underside/reverse inspection checks the corrected continuous elbow, flange seats and suspension attachment. No isolated pipe hardware remains. Phone capture was explicitly reframed after the viewport width changed, then checked for complete-model visibility."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_ceiling_services/v01/validation/iso.png",
+      "sha256": "bee51f3a0bfb61b43e460da7d484f7c0b3da7e050867d0f050b8484ce7e6e261",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_ceiling_services/v01/validation/rear.png",
+      "sha256": "17f30e6deaefe045093cdc900dc203b420490c2cb0aeaa9f010cd133e1b90e28",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_ceiling_services/v01/validation/inspector-detail.png",
+      "sha256": "197d8f5f60c475f978df058f032845f3b0061217c89fa70eb3559661209b48cc",
+      "view": "inspector-detail"
+    },
+    {
+      "path": "blender/environment/gh_ceiling_services/v01/validation/inspector-phone.png",
+      "sha256": "909eb25b1a05c8a863c4f6176ea575d6e57e14f3714c0b56cb6013ae4c14d061",
+      "view": "inspector-phone"
+    },
+    {
+      "path": "blender/environment/gh_ceiling_services/v01/validation/inspector-underside.png",
+      "sha256": "82bbca50ddc8ca24ff6332e5c308929e37be8abe5d1942499c40c9ab8d0ad34e",
+      "view": "underside"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author self-review completed; no artistic acceptance is inferred from the user request."
+  },
+  "limitations": [
+    "Stylized, inferred dimensions; not a measured as-built reconstruction."
+  ]
+}

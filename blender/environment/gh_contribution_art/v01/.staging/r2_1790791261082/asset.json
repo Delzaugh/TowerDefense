@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "id": "gh_contribution_art",
+  "displayName": "Green contribution-plate atrium artwork",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/gh_contribution_art/v01/gh_contribution_art_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/gh_contribution_art/v01/build.py"
+  },
+  "runtime": "assets/runtime/environment/gh_contribution_art_v01.glb",
+  "budgets": {
+    "triangles": 30000,
+    "meshes": 4,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 64,
+    "bones": 0
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.004,
+    "rootMotion": false,
+    "anchors": [],
+    "groundY": 0
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "docs/research/github-offices-2026-09-30/report.html",
+      "provenance": "Public architect, contractor, artist and official brand references catalogued in adjacent sources.json. Original interpreted geometry; photographs are references, not runtime textures."
+    },
+    {
+      "path": "docs/research/github-offices-2026-09-30/images/atrium-01.jpg",
+      "provenance": "Public photo reference from research image-index.json; not used as a runtime texture."
+    },
+    {
+      "path": "docs/research/github-offices-2026-09-30/images/atrium-03.jpg",
+      "provenance": "Public photo reference from research image-index.json; not used as a runtime texture."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/gh_contribution_art/v01/decisions.md",
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "wood": "#BF9465",
+      "wood_dark": "#835739",
+      "mahogany": "#77483B",
+      "dark": "#232925",
+      "paper": "#F2F5F3",
+      "slate": "#89A4B8",
+      "screen": "#153F50",
+      "green": "#0FBF3E",
+      "leaf": "#70B5B4",
+      "gold": "#E9B864",
+      "purple": "#8534F3",
+      "blue": "#5579B8",
+      "bordeaux": "#7C354D",
+      "stone": "#D2D0C5",
+      "bronze": "#98794C",
+      "bronze_dark": "#65583C"
+    }
+  },
+  "texturePalettes": [
+    {
+      "material": "gh_contribution_art_palette",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "wood": {
+          "color": "#BF9465",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "wood_dark": {
+          "color": "#835739",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "mahogany": {
+          "color": "#77483B",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "dark": {
+          "color": "#232925",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "paper": {
+          "color": "#F2F5F3",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "slate": {
+          "color": "#89A4B8",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#153F50",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "green": {
+          "color": "#0FBF3E",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "leaf": {
+          "color": "#70B5B4",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "gold": {
+          "color": "#E9B864",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        },
+        "purple": {
+          "color": "#8534F3",
+          "rect": [
+            40,
+            0,
+            4,
+            4
+          ]
+        },
+        "blue": {
+          "color": "#5579B8",
+          "rect": [
+            44,
+            0,
+            4,
+            4
+          ]
+        },
+        "bordeaux": {
+          "color": "#7C354D",
+          "rect": [
+            48,
+            0,
+            4,
+            4
+          ]
+        },
+        "stone": {
+          "color": "#D2D0C5",
+          "rect": [
+            52,
+            0,
+            4,
+            4
+          ]
+        },
+        "bronze": {
+          "color": "#98794C",
+          "rect": [
+            56,
+            0,
+            4,
+            4
+          ]
+        },
+        "bronze_dark": {
+          "color": "#65583C",
+          "rect": [
+            60,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  }
+}

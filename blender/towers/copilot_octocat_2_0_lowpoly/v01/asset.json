@@ -4,12 +4,12 @@
   "displayName": "GitHub Octocat 2.0 Low Poly",
   "category": "towers",
   "version": "v01",
-  "revision": 5,
+  "revision": 8,
   "source": {
     "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/copilot_octocat_2_0_lowpoly_v01.blend",
-    "mode": "procedural",
+    "mode": "hybrid",
     "recipe": "blender/towers/copilot_octocat_2_0_lowpoly/v01/build.py",
-    "authoritativeHash": "a264b9081b1d2994551b5e656635f9b0cb287bee24185e23dff8700784d1290f"
+    "authoritativeHash": "eed31447ba53a3b5fc2dbecaa484ef60699fc93270c8803b659338370580877d"
   },
   "runtime": "assets/runtime/towers/copilot_octocat_2_0_lowpoly_v01.glb",
   "budgets": {
@@ -18,7 +18,7 @@
     "materials": 2,
     "textures": 2,
     "textureSize": 512,
-    "bones": 0
+    "bones": 29
   },
   "contract": {
     "root": "root",
@@ -52,7 +52,57 @@
       ]
     }
   },
-  "clips": [],
+  "clips": [
+    {
+      "name": "idle",
+      "playback": "loop",
+      "fps": 24,
+      "duration": 2.25,
+      "meaning": "Attentive readiness: restrained weight redistribution, investigative head inclination and a distal curl."
+    },
+    {
+      "name": "work",
+      "playback": "loop",
+      "fps": 24,
+      "duration": 1.75,
+      "meaning": "Inspect, brace, operate precisely with a raised tentacle, and acknowledge the result; nonverbal maker acting."
+    },
+    {
+      "name": "move",
+      "playback": "loop",
+      "fps": 24,
+      "duration": 1.1666666666666667,
+      "meaning": "Upright in-place two-leg walk with alternating contacts, distinct counter-swinging arms and a carried rear appendage."
+    },
+    {
+      "name": "run",
+      "playback": "loop",
+      "fps": 24,
+      "duration": 0.8333333333333334,
+      "meaning": "Upright in-place two-leg run with alternating push-off/recovery, brief flight phases and distinct arm counter-swing; simulation owns world travel."
+    },
+    {
+      "name": "place",
+      "playback": "once",
+      "fps": 24,
+      "duration": 1.0833333333333333,
+      "meaning": "Full-size orienting gesture while shared digital cubes assemble into the ready pose."
+    },
+    {
+      "name": "hit",
+      "playback": "once",
+      "fps": 24,
+      "duration": 0.4166666666666667,
+      "meaning": "Brief surprise and compression; two planted legs catch the weight while the arms react and recover purposefully."
+    },
+    {
+      "name": "resolve",
+      "playback": "once",
+      "fps": 24,
+      "duration": 1.0833333333333333,
+      "meaning": "Compact acknowledgment and soft eye closure while shared presentation reverses cube assembly."
+    }
+  ],
   "references": [
     {
       "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/references/octocat_2_0_r7.blend",
@@ -86,6 +136,15 @@
     {
       "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/references/octocat_2_0_uv_corrected_r8.blend",
       "provenance": "User-requested face UV repair shared from high-resolution revision 8. Pinned input hash c0c000b5b12d0380bdaeb54904fb92b2428912519e10ab09263e70c110eec8cb"
+    },
+    {
+      "path": "docs/design/Mona_Octocat_Animation_Research.md",
+      "provenance": "User-corrected Octocat 2.0 direction: upright two-leg walk/run, distinct arms, nonverbal maker acting. Classic pentaped studies are historical evidence, not the 2.0 gait contract."
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/references/user_octocat_2_0_biped.png",
+      "url": "https://www.tonytimetables.com/mona/",
+      "provenance": "User-supplied illustration reference and explicit instruction: 2.0 is more human-like, walks/runs on two legs, and has arms. Two lower legs and distinct upper arm poses govern this correction."
     }
   ],
   "overrides": [],
@@ -113,6 +172,46 @@
       "source": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r4_before_r5/copilot_octocat_2_0_lowpoly_v01.blend",
       "sha256": "cce0b58ce52f8a470aa7de57e44e0453bdebff3bf854bfecd6de1b8af02fb7ee",
       "sourceHash": "e7b3f4e99b114f7b75d72660845762b2abb2fdac21ff54517a40d7962d5ed0bf"
+    },
+    {
+      "label": "before_mona_animation",
+      "revision": 5,
+      "export": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r5_before_mona_animation/copilot_octocat_2_0_lowpoly_v01.glb",
+      "source": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r5_before_mona_animation/copilot_octocat_2_0_lowpoly_v01.blend",
+      "sha256": "b16e408dc3409a139609abda088fae9d368bccae599b82114c516f253d4454ee",
+      "sourceHash": "a264b9081b1d2994551b5e656635f9b0cb287bee24185e23dff8700784d1290f"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r5_before_r6/copilot_octocat_2_0_lowpoly_v01.glb",
+      "source": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r5_before_r6/copilot_octocat_2_0_lowpoly_v01.blend",
+      "sha256": "b16e408dc3409a139609abda088fae9d368bccae599b82114c516f253d4454ee",
+      "sourceHash": "ebd64dc5f7e39925a67fb6dcb8c909bf8480a76d79c52e05257d6d423d570225"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r6_before_r7/copilot_octocat_2_0_lowpoly_v01.glb",
+      "source": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r6_before_r7/copilot_octocat_2_0_lowpoly_v01.blend",
+      "sha256": "f4a91291fd9657ecb39116e3e71622411c5d43dc896e2ab09fb54ac9be5ceea2",
+      "sourceHash": "1e5e6cb1c85aae20334bee661f1f0d8c62e5011d911f1ca4e2c6a780c392c07f"
+    },
+    {
+      "label": "before_r8",
+      "revision": 7,
+      "export": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r7_before_r8/copilot_octocat_2_0_lowpoly_v01.glb",
+      "source": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r7_before_r8/copilot_octocat_2_0_lowpoly_v01.blend",
+      "sha256": "f7f5f3675c8fdd2a1a09e5a5e3f3d1fee8a99b40068b634bf165c4e4784bbfe1",
+      "sourceHash": "eed31447ba53a3b5fc2dbecaa484ef60699fc93270c8803b659338370580877d"
+    },
+    {
+      "label": "before_bipedal_correction",
+      "revision": 8,
+      "export": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r8_before_bipedal_correction/copilot_octocat_2_0_lowpoly_v01.glb",
+      "source": "blender/towers/copilot_octocat_2_0_lowpoly/v01/revisions/r8_before_bipedal_correction/copilot_octocat_2_0_lowpoly_v01.blend",
+      "sha256": "450e6be3070a890bc2f253c162cb493fd8ca368a64383cf991543f89f4b62c1a",
+      "sourceHash": "eed31447ba53a3b5fc2dbecaa484ef60699fc93270c8803b659338370580877d"
     }
   ],
   "decisions": "blender/towers/copilot_octocat_2_0_lowpoly/v01/decisions.md",
@@ -221,9 +320,87 @@
     "paletteSampler": "linear"
   },
   "delivery": {
-    "sha256": "b16e408dc3409a139609abda088fae9d368bccae599b82114c516f253d4454ee",
-    "sourceHash": "a264b9081b1d2994551b5e656635f9b0cb287bee24185e23dff8700784d1290f",
+    "sha256": "450e6be3070a890bc2f253c162cb493fd8ca368a64383cf991543f89f4b62c1a",
+    "sourceHash": "eed31447ba53a3b5fc2dbecaa484ef60699fc93270c8803b659338370580877d",
     "report": "blender/towers/copilot_octocat_2_0_lowpoly/v01/validation/report.json",
-    "deliveredAt": "2026-09-30T17:11:01.051Z"
+    "deliveredAt": "2026-09-30T18:33:09.349Z"
+  },
+  "presentation": {
+    "resolve": {
+      "type": "digital_blocks",
+      "version": 1,
+      "clip": "resolve",
+      "assembleClip": "place",
+      "cellSize": 0.13,
+      "maxFragments": 3,
+      "edgeColor": "#9FD5D1"
+    }
+  },
+  "animationDesign": {
+    "research": "docs/design/Mona_Octocat_Animation_Research.md",
+    "authorization": "User: apply these to both 2.0 octocats (2026-09-30).",
+    "userCorrection": "User identifies the previous pentaped study as classic Octocat (1.0); Octocat 2.0 walks/runs on two legs and has distinct arms (2026-09-30).",
+    "locomotion": {
+      "type": "biped",
+      "cycleSeconds": 1.1666666666666667,
+      "virtualSpeedMetresPerSecond": 0.4,
+      "stanceFraction": 0.62,
+      "limbOrder": [
+        "leg_left",
+        "leg_right"
+      ],
+      "phaseOffsets": [
+        0,
+        0.5
+      ],
+      "arms": [
+        "arm_left",
+        "arm_right"
+      ],
+      "carriedRearAppendage": "leg_rear",
+      "minimumRearClearanceMetres": 0.2,
+      "run": {
+        "cycleSeconds": 0.8333333333333334,
+        "virtualSpeedMetresPerSecond": 0.75,
+        "stanceFraction": 0.42,
+        "phaseOffsets": [
+          0,
+          0.5
+        ]
+      }
+    },
+    "expressionTargets": [
+      "blink_left",
+      "blink_right",
+      "focus",
+      "surprise",
+      "concern",
+      "delight",
+      "gaze_left",
+      "gaze_right"
+    ],
+    "expressionStates": {
+      "attentive": {},
+      "interest": {
+        "gaze_left": 0.55
+      },
+      "focused": {
+        "focus": 0.85
+      },
+      "surprised": {
+        "surprise": 1
+      },
+      "concerned": {
+        "concern": 0.8
+      },
+      "amused": {
+        "delight": 0.5
+      },
+      "delighted": {
+        "delight": 1
+      }
+    },
+    "maxCombinedTriangles": 3997,
+    "restModelAcceptance": "pending; explicit animation authorization is recorded separately"
   }
 }

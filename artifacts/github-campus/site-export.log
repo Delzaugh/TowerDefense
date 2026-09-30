@@ -1,0 +1,91 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _aligned_free
+00:01.969  blend            | Read blend: "C:\Users\jonas\Documents\ChatGPT\Tower\blender\environment\gh_floor_paving\v01\gh_floor_paving_v01.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+19:58:03 | INFO: Starting glTF 2.0 export
+19:58:03 | INFO: Extracting primitive: Cube.001
+19:58:03 | INFO: Primitives created: 1
+19:58:03 | INFO: Finished glTF 2.0 export in 0.12804341316223145 s
+
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+Delivered gh_floor_paving v01 revision 2: 204 triangles. Visual review remains separate.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _aligned_free
+00:02.015  blend            | Read blend: "C:\Users\jonas\Documents\ChatGPT\Tower\blender\environment\gh_floor_hex\v01\gh_floor_hex_v01.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+19:58:07 | INFO: Starting glTF 2.0 export
+19:58:07 | INFO: Extracting primitive: Cube.001
+19:58:08 | INFO: Primitives created: 1
+19:58:08 | INFO: Finished glTF 2.0 export in 0.1362285614013672 s
+
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+Delivered gh_floor_hex v01 revision 2: 2296 triangles. Visual review remains separate.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _aligned_free
+00:02.016  blend            | Read blend: "C:\Users\jonas\Documents\ChatGPT\Tower\blender\environment\gh_timber_frame\v01\gh_timber_frame_v01.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+19:58:12 | INFO: Starting glTF 2.0 export
+19:58:12 | INFO: Extracting primitive: Cube.001
+19:58:12 | INFO: Primitives created: 1
+19:58:12 | INFO: Finished glTF 2.0 export in 0.12822794914245605 s
+
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+Delivered gh_timber_frame v01 revision 2: 848 triangles. Visual review remains separate.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _aligned_free
+00:02.000  blend            | Read blend: "C:\Users\jonas\Documents\ChatGPT\Tower\blender\environment\gh_stairs\v01\gh_stairs_v01.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+19:58:16 | INFO: Starting glTF 2.0 export
+19:58:16 | INFO: Extracting primitive: Cube.001
+19:58:16 | INFO: Primitives created: 1
+19:58:16 | INFO: Finished glTF 2.0 export in 0.1341710090637207 s
+
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+Delivered gh_stairs v01 revision 2: 820 triangles. Visual review remains separate.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _aligned_free
+00:02.016  blend            | Read blend: "C:\Users\jonas\Documents\ChatGPT\Tower\blender\environment\gh_planter\v01\gh_planter_v01.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+19:58:20 | INFO: Starting glTF 2.0 export
+19:58:20 | INFO: Extracting primitive: Cube.001
+19:58:21 | INFO: Primitives created: 1
+19:58:21 | INFO: Finished glTF 2.0 export in 0.13277411460876465 s
+
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+Delivered gh_planter v01 revision 2: 412 triangles. Visual review remains separate.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _aligned_free
+00:02.000  blend            | Read blend: "C:\Users\jonas\Documents\ChatGPT\Tower\blender\environment\gh_tree\v01\gh_tree_v01.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+19:58:25 | INFO: Starting glTF 2.0 export
+19:58:25 | INFO: Extracting primitive: Cone
+19:58:25 | INFO: Primitives created: 1
+19:58:25 | INFO: Finished glTF 2.0 export in 0.13230037689208984 s
+
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+Delivered gh_tree v01 revision 2: 364 triangles. Visual review remains separate.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _aligned_free
+00:02.031  blend            | Read blend: "C:\Users\jonas\Documents\ChatGPT\Tower\blender\environment\gh_courtyard\v01\gh_courtyard_v01.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+19:58:29 | INFO: Starting glTF 2.0 export
+19:58:29 | INFO: Extracting primitive: Cube.001
+19:58:29 | INFO: Primitives created: 1
+19:58:29 | INFO: Finished glTF 2.0 export in 0.14582610130310059 s
+
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+Delivered gh_courtyard v01 revision 2: 1792 triangles. Visual review remains separate.

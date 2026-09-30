@@ -1,0 +1,37 @@
+{
+  "asset": "gh_roof_terrace",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "0ef79d2339aa3d81d68fb370e47fcbfd5b4e2cd8f45377cd3d8026e7bdccd081",
+  "checkedAt": "2026-09-30T18:00:56.710Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 2608,
+  "meshes": 4,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    30,
+    3.799999952316284,
+    18
+  ],
+  "bounds": [
+    [
+      -15,
+      0,
+      -9
+    ],
+    [
+      15,
+      3.799999952316284,
+      9
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "05dabf45b15cd6af8bec1affaae2fe6ad300ed5353a8bc47330da91fa883a171",
+  "source": "blender/environment/gh_roof_terrace/v01/gh_roof_terrace_v01.blend",
+  "runtime": "assets/runtime/environment/gh_roof_terrace_v01.glb"
+}

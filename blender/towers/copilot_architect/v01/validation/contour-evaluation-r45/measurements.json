@@ -1,0 +1,330 @@
+{
+  "asset": "copilot_architect",
+  "revision": 45,
+  "sha256": "af00b5f37467f8ed654607f80c74402534cdf6a77b8ee95aa5313dc90d690b01",
+  "method": "Actual GLB triangle-plane intersections. Forward distance=glTF Z; height=glTF Y. Display measured separately from rear marks sharing its palette role. No perspective reconstruction from concept artwork.",
+  "sections": {
+    "0": {
+      "height_m": 1.17,
+      "chord_bulge_m": 0.09975699999999998,
+      "bulge_percent_of_height": 8.526239316239314,
+      "peak_height_m": 0.8605,
+      "peak_forward_depth_m": 0.993951,
+      "bottom": [
+        0.2755,
+        0.873731
+      ],
+      "top": [
+        1.4455,
+        0.914657
+      ],
+      "samples": [
+        [
+          0.2755,
+          0.873731
+        ],
+        [
+          0.4393,
+          0.927503
+        ],
+        [
+          0.6382,
+          0.97177
+        ],
+        [
+          0.8605,
+          0.993951
+        ],
+        [
+          1.0828,
+          0.987322
+        ],
+        [
+          1.2817,
+          0.95697
+        ],
+        [
+          1.4455,
+          0.914657
+        ]
+      ]
+    },
+    "0.33": {
+      "height_m": 1.141894,
+      "chord_bulge_m": 0.0930224999999999,
+      "bulge_percent_of_height": 8.146334073040046,
+      "peak_height_m": 0.8605,
+      "peak_forward_depth_m": 0.973309,
+      "bottom": [
+        0.289553,
+        0.860315
+      ],
+      "top": [
+        1.431447,
+        0.900258
+      ],
+      "samples": [
+        [
+          0.289553,
+          0.860315
+        ],
+        [
+          0.317995,
+          0.869624
+        ],
+        [
+          0.463079,
+          0.915619
+        ],
+        [
+          0.472451,
+          0.917581
+        ],
+        [
+          0.475885,
+          0.918321
+        ],
+        [
+          0.559926,
+          0.934972
+        ],
+        [
+          0.583848,
+          0.93995
+        ],
+        [
+          0.618998,
+          0.946486
+        ],
+        [
+          0.648709,
+          0.952333
+        ],
+        [
+          0.66351,
+          0.954897
+        ],
+        [
+          0.695051,
+          0.960616
+        ],
+        [
+          0.699818,
+          0.96138
+        ],
+        [
+          0.726742,
+          0.965737
+        ],
+        [
+          0.731397,
+          0.966047
+        ],
+        [
+          0.7605,
+          0.967936
+        ],
+        [
+          0.788971,
+          0.969711
+        ],
+        [
+          0.819092,
+          0.971436
+        ],
+        [
+          0.8605,
+          0.973309
+        ],
+        [
+          0.901908,
+          0.974333
+        ],
+        [
+          0.932029,
+          0.974715
+        ],
+        [
+          0.9605,
+          0.974931
+        ],
+        [
+          0.989603,
+          0.975079
+        ],
+        [
+          0.994258,
+          0.975095
+        ],
+        [
+          1.017717,
+          0.972881
+        ],
+        [
+          1.021182,
+          0.972621
+        ],
+        [
+          1.047966,
+          0.969513
+        ],
+        [
+          1.05749,
+          0.968678
+        ],
+        [
+          1.082702,
+          0.965302
+        ],
+        [
+          1.102002,
+          0.963381
+        ],
+        [
+          1.124543,
+          0.960055
+        ],
+        [
+          1.161074,
+          0.956
+        ],
+        [
+          1.177847,
+          0.953374
+        ],
+        [
+          1.248549,
+          0.944728
+        ],
+        [
+          1.250658,
+          0.944389
+        ],
+        [
+          1.257921,
+          0.943422
+        ],
+        [
+          1.322303,
+          0.926445
+        ],
+        [
+          1.403005,
+          0.907577
+        ],
+        [
+          1.417591,
+          0.903669
+        ],
+        [
+          1.431447,
+          0.900258
+        ]
+      ]
+    },
+    "0.86": {
+      "height_m": 0.72051,
+      "chord_bulge_m": 0.03502950000000005,
+      "bulge_percent_of_height": 4.861764583420084,
+      "peak_height_m": 0.8605,
+      "peak_forward_depth_m": 0.866611,
+      "bottom": [
+        0.500245,
+        0.81898
+      ],
+      "top": [
+        1.220755,
+        0.844183
+      ],
+      "samples": [
+        [
+          0.500245,
+          0.81898
+        ],
+        [
+          0.52405,
+          0.824116
+        ],
+        [
+          0.52881,
+          0.82504
+        ],
+        [
+          0.599893,
+          0.838439
+        ],
+        [
+          0.615552,
+          0.840896
+        ],
+        [
+          0.67409,
+          0.850113
+        ],
+        [
+          0.697891,
+          0.852849
+        ],
+        [
+          0.752589,
+          0.859438
+        ],
+        [
+          0.790108,
+          0.86181
+        ],
+        [
+          0.8605,
+          0.866611
+        ],
+        [
+          0.898323,
+          0.866871
+        ],
+        [
+          0.968411,
+          0.866987
+        ],
+        [
+          0.993263,
+          0.865881
+        ],
+        [
+          1.04691,
+          0.863154
+        ],
+        [
+          1.065498,
+          0.861539
+        ],
+        [
+          1.121107,
+          0.856671
+        ],
+        [
+          1.133019,
+          0.855175
+        ],
+        [
+          1.19695,
+          0.847653
+        ],
+        [
+          1.200368,
+          0.847104
+        ],
+        [
+          1.220755,
+          0.844183
+        ]
+      ]
+    }
+  },
+  "findings": [
+    "Centre display has a shallow vertical bow; broad near-vertical middle remains.",
+    "Forehead bridge projects over the display rather than forming one continuous domed faceplate.",
+    "Chalk cheeks read as a near-vertical front border; lower frame and chin provide little overall roll-under.",
+    "Reference artwork suggests fuller crown/display/chin volume; exact concept depth cannot be recovered from its perspective image."
+  ],
+  "recommendation": "Replace the shared generic front parabola with separately controlled crown, display and jaw profiles; deepen display bulge to an initial 0.18\u20130.22 m study, roll the lower rim backward and refit bridge/eyes. This is a proposed study, not an exact reference measurement or an implemented change."
+}

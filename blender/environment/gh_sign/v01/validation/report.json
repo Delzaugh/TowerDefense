@@ -1,0 +1,37 @@
+{
+  "asset": "gh_sign",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "f9dc0ce06c14551ac74f1d43d5b19e431a8601aeabba11db3a8579d2d0f49c26",
+  "checkedAt": "2026-09-30T18:00:59.180Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1952,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    5,
+    2.700000286102295,
+    0.550000011920929
+  ],
+  "bounds": [
+    [
+      -2.5,
+      0,
+      -0.2750000059604645
+    ],
+    [
+      2.5,
+      2.700000286102295,
+      0.2750000059604645
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "73d3526b32419eb90bcbb2bd6e69b35ac665b6722301c75bcdb3199833fd6051",
+  "source": "blender/environment/gh_sign/v01/gh_sign_v01.blend",
+  "runtime": "assets/runtime/environment/gh_sign_v01.glb"
+}

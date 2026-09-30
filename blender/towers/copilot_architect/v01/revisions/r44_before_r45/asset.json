@@ -1,0 +1,746 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_architect",
+  "displayName": "Architect Copilot — Boundary Bridge",
+  "category": "towers",
+  "version": "v01",
+  "revision": 44,
+  "source": {
+    "path": "blender/towers/copilot_architect/v01/copilot_architect_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_architect/v01/build.py",
+    "authoritativeHash": "9ed5e8e46d7b8a672e05d39eb75770d1e5e9bb8dbcb9f15ce538ed13ab9a4f77"
+  },
+  "runtime": "assets/runtime/towers/copilot_architect_v01.glb",
+  "budgets": {
+    "triangles": 4500,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 64,
+    "bones": 32,
+    "meshes": 2
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        2.8,
+        2,
+        1.5
+      ],
+      "max": [
+        3.5,
+        2.6,
+        2.5
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/copilot_architect/v01/references/anatomy.png",
+      "role": "Historical, superseded by Boundary Bridge: Historical Pavilion reference, superseded by the selected Keystone Field Architect. User-provided visual design input. Original: C:/Users/jonas/.codex/generated_images/01a0df9f-a531-7ed1-bb53-612b067db0a3/exec-5776353e-87f5-413a-987f-b55c07ccd65c.png"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/silhouettes.png",
+      "role": "Historical, superseded by Boundary Bridge: Historical Pavilion reference, superseded by the selected Keystone Field Architect. User-provided visual design input. Original: C:/Users/jonas/.codex/generated_images/01a0df9f-a531-7ed1-bb53-612b067db0a3/exec-73f38fd1-1ec6-4761-8606-a9879909b2ce.png"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/turnaround.png",
+      "role": "Historical, superseded by Boundary Bridge: Historical Pavilion reference, superseded by the selected Keystone Field Architect. User-provided visual design input. Original: C:/Users/jonas/.codex/generated_images/01a0df9f-a531-7ed1-bb53-612b067db0a3/exec-cb12b845-0c00-4de5-9451-ca88cdc04267.png"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/side_module.png",
+      "role": "Historical, superseded by Boundary Bridge: Historical Pavilion reference, superseded by the selected Keystone Field Architect. User-provided visual design input. Original: C:/Users/jonas/.codex/generated_images/01a0df9f-a531-7ed1-bb53-612b067db0a3/exec-8c0d5573-a5fb-4f2c-bef4-da4289f54c98.png"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/concept_sheet.png",
+      "role": "Historical, superseded by Boundary Bridge: Historical Pavilion reference, superseded by the selected Keystone Field Architect. User-provided visual design input. Original: C:/Users/jonas/AppData/Local/Temp/codex-clipboard-38d38118-b98c-4470-96f8-16814e2350e8.png"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/systems_architect_concept.png",
+      "role": "Historical, superseded by Boundary Bridge: Historical generated design reference for r16-r19; user rejected top/fins and vertical flatness. Current r23 shape intentionally supersedes the tabletop, sheet stack and body. Retained as process provenance."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/weaver_concepts.png",
+      "role": "Historical, superseded by Boundary Bridge: Built-in image generation exploration: select C Weaver as design input; adapt symmetry and depth. Exact prompt stored beside image. Not user approval."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/keystone_placeable_2026-09-27/keystone_field_architect.png",
+      "role": "Historical, superseded by Boundary Bridge: Current primary authority: compact Keystone Field Architect concept explicitly selected by user; shape, proportions and visible feature inventory."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/keystone_spec_pack_2026-09-27/architect-spec-sheet.png",
+      "role": "Historical, superseded by Boundary Bridge: Current illustrative model specification; not measured runtime statistics."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/keystone_spec_pack_2026-09-27/architect-six-angle-sheet.png",
+      "role": "Historical, superseded by Boundary Bridge: Current illustrative six-angle reference; unseen rear inferred."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/keystone_spec_pack_2026-09-27/architect-anatomy-sheet.png",
+      "role": "Historical, superseded by Boundary Bridge: Current feature inventory and named external construction."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/keystone_spec_pack_2026-09-27/architect-shape-study.png",
+      "role": "Historical, superseded by Boundary Bridge: Current silhouette/contour study used for approximate uniform-scale overlay comparison."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/keystone_spec_pack_2026-09-27/architect-accessory-blueprint-pod.png",
+      "role": "Historical, superseded by Boundary Bridge: Current blueprint pod reference."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/keystone_spec_pack_2026-09-27/architect-accessory-stylus.png",
+      "role": "Historical, superseded by Boundary Bridge: Current drafting stylus reference."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/keystone_spec_pack_2026-09-27/architect-accessory-application-diagram.png",
+      "role": "Historical, superseded by Boundary Bridge: Current connected application/database/service assembly reference."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/boundary_bridge_spec_pack_2026-09-30/approved-concept.png",
+      "role": "Approved primary concept"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/boundary_bridge_spec_pack_2026-09-30/architect-accessory-bridge.png",
+      "role": "Illustrative reference; concealed construction conceptual, counts unverified."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/boundary_bridge_spec_pack_2026-09-30/architect-accessory-cartridges.png",
+      "role": "Illustrative reference; concealed construction conceptual, counts unverified."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/boundary_bridge_spec_pack_2026-09-30/architect-anatomy-sheet.png",
+      "role": "Illustrative reference; concealed construction conceptual, counts unverified."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/boundary_bridge_spec_pack_2026-09-30/architect-shape-study.png",
+      "role": "Illustrative reference; concealed construction conceptual, counts unverified."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/boundary_bridge_spec_pack_2026-09-30/architect-six-angle-sheet.png",
+      "role": "Illustrative reference; concealed construction conceptual, counts unverified."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/boundary_bridge_spec_pack_2026-09-30/architect-spec-sheet.png",
+      "role": "Illustrative reference; concealed construction conceptual, counts unverified."
+    }
+  ],
+  "overrides": [
+    "2026-09-27 user asks for much stronger dimension after rejecting r8; increase depth envelope to 2.8Ã¢â‚¬â€œ3.6m and allow up to 4500 triangles for curved patch construction, preserving 2 materials and palette.",
+    "2026-09-27 user requests re-imagination to restore application architect identity. Replace Pavilion crown and armour with inclined planning desk, connected application/service/data components and blueprint roll. Updated dimensions recorded for new silhouette.",
+    "2026-09-27 user rejects top/fins and vertically flat body. Remove desk, diagram blocks from head and rear fins; rebuild main silhouette and screen with genuine two-axis curvature, preserving application-architect identity through curved shoulder diagram and blueprint roll.",
+    "2026-09-27 user rejects rounded pod and requests a creative tower-defense copilot. Weaver replaces monolithic sphere with deep angular head and folded keel, open structural brackets and three connected application/service/data components. No roof or fins; updated dimensional envelope.",
+    "2026-09-27: User selects compact Keystone Field Architect and authorizes faithful model rebuild with detailed spec comparisons. New deep faceted shell, fitted blueprint and stylus, top diagram; retain 4500 triangle ceiling and two meshes/materials. Update dimensional envelope to compact reference form. Add accepted royal-blue paper.",
+    "Field Architect delivery: muted teal #1B536B matches selected concept; preserve ivory, dark display, cyan, orange and royal-blue paper. Cyan details use the same palette as an unlit material; no baked bloom.",
+    "2026-09-30 approved Boundary Bridge and replacement model. Broad curved head, proud chalk pillars, indigo bridge and amber cartridges; small rear three-node panel. Keep 4500 triangles and two materials, tiny palette with two texture bindings."
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/copilot_architect/v01/revisions/r2_before_r3/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r2_before_r3/copilot_architect_v01.blend",
+      "sha256": "34901eb638bd0463adbfe30bf45b5be51d0cedb2980156f1b86de7585f8428b9",
+      "sourceHash": "de578a5d7118c118774f93ff6c013849802d01bc15f4272b2eeebaa4113d1c5a"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/copilot_architect/v01/revisions/r3_before_r4/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r3_before_r4/copilot_architect_v01.blend",
+      "sha256": "0bc4f2a675df6387cdbf0c3c89c8af4a3db39b151cc9d1e7df15912e1ccfe35e",
+      "sourceHash": "4969131f427b53098451f0daa3be465dbd426025bb139555965b36802f1283c2"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/towers/copilot_architect/v01/revisions/r4_before_r5/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r4_before_r5/copilot_architect_v01.blend",
+      "sha256": "cc4933f5edb37ddb76b6d9c16fe19e8d8882b3a699172c5a94a53932a8410284",
+      "sourceHash": "5359de4bb6f161e673d1adeb360873abfb0de503d48d35ad47a41eca4f6061c1"
+    },
+    {
+      "label": "rejected_flat_construction",
+      "revision": 5,
+      "export": "blender/towers/copilot_architect/v01/revisions/r5_rejected_flat_construction/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r5_rejected_flat_construction/copilot_architect_v01.blend",
+      "sha256": "af5cc8f250f90c4c80b02a1d98222b007da39d77c42eeab2f3d76061a561cc4f",
+      "sourceHash": "ef3cc3f2c872b9f3a5989792c57b99cbd2acda400486273b7160d96a74ce8e5a"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/towers/copilot_architect/v01/revisions/r5_before_r6/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r5_before_r6/copilot_architect_v01.blend",
+      "sha256": "af5cc8f250f90c4c80b02a1d98222b007da39d77c42eeab2f3d76061a561cc4f",
+      "sourceHash": "ef3cc3f2c872b9f3a5989792c57b99cbd2acda400486273b7160d96a74ce8e5a"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/towers/copilot_architect/v01/revisions/r6_before_r7/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r6_before_r7/copilot_architect_v01.blend",
+      "sha256": "e088a791443f778915f8a629b4cfdc1f6ee5105a954d8d41d4746f0f30392bcb",
+      "sourceHash": "42dcf2f98ca62149c7c3f3cb4873981a869c3bf48c8415391be01d0638319ade"
+    },
+    {
+      "label": "before_r8",
+      "revision": 7,
+      "export": "blender/towers/copilot_architect/v01/revisions/r7_before_r8/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r7_before_r8/copilot_architect_v01.blend",
+      "sha256": "c7313e694fa63482308d55367f12120869d96870fa4a6a0e19c5de6da14ca924",
+      "sourceHash": "8389d793184259ec6075ab0b2579ab810b54036de78c02b16873d50a071dfc1b"
+    },
+    {
+      "label": "before_strong_depth",
+      "revision": 8,
+      "export": "blender/towers/copilot_architect/v01/revisions/r8_before_strong_depth/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r8_before_strong_depth/copilot_architect_v01.blend",
+      "sha256": "e2ffbcb9aa769c45e81f24c5722cb39ae70cf63d0e244b33d47891b67cb7a46a",
+      "sourceHash": "8a3455c98fd5b30641ef1805dba94888d62f9c1b145b108f101a233011c5ffa3"
+    },
+    {
+      "label": "before_r9",
+      "revision": 8,
+      "export": "blender/towers/copilot_architect/v01/revisions/r8_before_r9/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r8_before_r9/copilot_architect_v01.blend",
+      "sha256": "e2ffbcb9aa769c45e81f24c5722cb39ae70cf63d0e244b33d47891b67cb7a46a",
+      "sourceHash": "8a3455c98fd5b30641ef1805dba94888d62f9c1b145b108f101a233011c5ffa3"
+    },
+    {
+      "label": "before_r10",
+      "revision": 9,
+      "export": "blender/towers/copilot_architect/v01/revisions/r9_before_r10/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r9_before_r10/copilot_architect_v01.blend",
+      "sha256": "ba6582ae1080c040b5afd81f1e49f3c6460970e1562e1a36f9569a1f79a68bcc",
+      "sourceHash": "ec7d97c6026d01014dcba093bdbeb4297672ed942ea36c7a54d78709e51b69f8"
+    },
+    {
+      "label": "before_r11",
+      "revision": 10,
+      "export": "blender/towers/copilot_architect/v01/revisions/r10_before_r11/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r10_before_r11/copilot_architect_v01.blend",
+      "sha256": "eb9c3d2ee6badba7dbfe0fa2cea26eedfc06de32be3b36ca224f6595a2caf46a",
+      "sourceHash": "47071ad355cd757ec6f516f4c997aeb52cc38b39d8445ec6bc478f1801879732"
+    },
+    {
+      "label": "before_r12",
+      "revision": 11,
+      "export": "blender/towers/copilot_architect/v01/revisions/r11_before_r12/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r11_before_r12/copilot_architect_v01.blend",
+      "sha256": "9b0ac2225b1d24ff68129801b1657a2d8d0878dd25cb93404b7f0eefe6b92915",
+      "sourceHash": "7e91dc165642cb5c0981b917e8e1c81996f38a19952cb15535d2948d882f9609"
+    },
+    {
+      "label": "before_r13",
+      "revision": 12,
+      "export": "blender/towers/copilot_architect/v01/revisions/r12_before_r13/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r12_before_r13/copilot_architect_v01.blend",
+      "sha256": "15a727eb775cef29c528bf41760d7ef8fab5abbaae076456d5159ca94daa9706",
+      "sourceHash": "588db672f8e7e8d4ef73021e86983556694b7488de5da99c64d37f1ed6f20e69"
+    },
+    {
+      "label": "before_r14",
+      "revision": 13,
+      "export": "blender/towers/copilot_architect/v01/revisions/r13_before_r14/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r13_before_r14/copilot_architect_v01.blend",
+      "sha256": "2a1e3c7df1e3fff2943171e8657c9471d4bca37650ec33a9913c24b95f731d9b",
+      "sourceHash": "7c73a4a931a10c1c1b9590f7ac227f66ba3c823ec09b7d45d2055045571960ed"
+    },
+    {
+      "label": "before_r15",
+      "revision": 14,
+      "export": "blender/towers/copilot_architect/v01/revisions/r14_before_r15/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r14_before_r15/copilot_architect_v01.blend",
+      "sha256": "04d28f52c3bfd4b42e4af04f0be1af3e03b7a9151e903012ec043f5f61534362",
+      "sourceHash": "d714f0746f57adabb70172df9b244487931f95dae079d406a3420c2a0f29b421"
+    },
+    {
+      "label": "before_reimagination",
+      "revision": 15,
+      "export": "blender/towers/copilot_architect/v01/revisions/r15_before_reimagination/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r15_before_reimagination/copilot_architect_v01.blend",
+      "sha256": "b9a088dfe12960662519fdb813c5d45d985848e15b773eeb5ef75271f999e7b0",
+      "sourceHash": "50f6cd6f4a4c7ef292d1aff77ece8c1436f1740a7c7f505d742df6effb9505f0"
+    },
+    {
+      "label": "before_r16",
+      "revision": 15,
+      "export": "blender/towers/copilot_architect/v01/revisions/r15_before_r16/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r15_before_r16/copilot_architect_v01.blend",
+      "sha256": "b9a088dfe12960662519fdb813c5d45d985848e15b773eeb5ef75271f999e7b0",
+      "sourceHash": "50f6cd6f4a4c7ef292d1aff77ece8c1436f1740a7c7f505d742df6effb9505f0"
+    },
+    {
+      "label": "before_r17",
+      "revision": 16,
+      "export": "blender/towers/copilot_architect/v01/revisions/r16_before_r17/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r16_before_r17/copilot_architect_v01.blend",
+      "sha256": "f90710abeaa38a7fdd88e70d8fa1d3181111e1fff86dd1df81218f6784b979bd",
+      "sourceHash": "ef334391b4f358431428d387d5178af90ea3021fbe8fcbaf8245de37daf65239"
+    },
+    {
+      "label": "before_r18",
+      "revision": 17,
+      "export": "blender/towers/copilot_architect/v01/revisions/r17_before_r18/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r17_before_r18/copilot_architect_v01.blend",
+      "sha256": "2be00c4ef734087ca8b7c849499fa9a0fa75b89806ebdffb3c50ba724419eea9",
+      "sourceHash": "97c4a6c8a34a05749f7846f1f56d90223f84802c542c1fd1970d2bceb0ab7e06"
+    },
+    {
+      "label": "before_r19",
+      "revision": 18,
+      "export": "blender/towers/copilot_architect/v01/revisions/r18_before_r19/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r18_before_r19/copilot_architect_v01.blend",
+      "sha256": "4d2682ef17d363f2283f1d6ff20169c503f5ee0d5cf46835b0967ce665fe119a",
+      "sourceHash": "14820567cff4d1ead9eaedb8f9227fe83bd1ba97234727b7671ddb1283ab5616"
+    },
+    {
+      "label": "rejected_top_flat_body",
+      "revision": 19,
+      "export": "blender/towers/copilot_architect/v01/revisions/r19_rejected_top_flat_body/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r19_rejected_top_flat_body/copilot_architect_v01.blend",
+      "sha256": "0a922daf548437b763e58a89dd8d604df9f26b112fa97aae07720955486b91f9",
+      "sourceHash": "9f8427609defc8c9c6b398f299f06def6254604b1e4bd63dd5fd0b2fc015441b"
+    },
+    {
+      "label": "before_r20",
+      "revision": 19,
+      "export": "blender/towers/copilot_architect/v01/revisions/r19_before_r20/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r19_before_r20/copilot_architect_v01.blend",
+      "sha256": "0a922daf548437b763e58a89dd8d604df9f26b112fa97aae07720955486b91f9",
+      "sourceHash": "9f8427609defc8c9c6b398f299f06def6254604b1e4bd63dd5fd0b2fc015441b"
+    },
+    {
+      "label": "before_r21",
+      "revision": 20,
+      "export": "blender/towers/copilot_architect/v01/revisions/r20_before_r21/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r20_before_r21/copilot_architect_v01.blend",
+      "sha256": "a43b647b493f32a954cd3d3097f68edcafc823592ee34df66a37f207eb2342d7",
+      "sourceHash": "47ab93d68997a139f5edb9b42e5102c0b68a284032f1054bb13bd518e7f847ac"
+    },
+    {
+      "label": "before_r22",
+      "revision": 21,
+      "export": "blender/towers/copilot_architect/v01/revisions/r21_before_r22/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r21_before_r22/copilot_architect_v01.blend",
+      "sha256": "83ca74c2d4a675eff6547379dee1b5d6430b62dcd53c0c81f0471a76787a8bb6",
+      "sourceHash": "f69594a2bdac44cdd0f5f8865c9793c30c7a306388e87af06cd3919bfeb9d77e"
+    },
+    {
+      "label": "before_r23",
+      "revision": 22,
+      "export": "blender/towers/copilot_architect/v01/revisions/r22_before_r23/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r22_before_r23/copilot_architect_v01.blend",
+      "sha256": "046d4b28f98e5350095545146a3ecba195fc3af94a590a2a1c4afe5b93f3768f",
+      "sourceHash": "2b71211e971d00de56df2e26c2162864d13e843812d3631f0ee30c8343a995a2"
+    },
+    {
+      "label": "rejected_round_pod",
+      "revision": 23,
+      "export": "blender/towers/copilot_architect/v01/revisions/r23_rejected_round_pod/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r23_rejected_round_pod/copilot_architect_v01.blend",
+      "sha256": "6bcb94b0296c011b10f3d334fe49733175cef069e90d9538df1feafa819cf069",
+      "sourceHash": "513eb9a90aa50b9ad4eacdbe5ef5c0b8a183e513baf7d11edc22e1ab45dafdf8"
+    },
+    {
+      "label": "before_r24",
+      "revision": 23,
+      "export": "blender/towers/copilot_architect/v01/revisions/r23_before_r24/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r23_before_r24/copilot_architect_v01.blend",
+      "sha256": "6bcb94b0296c011b10f3d334fe49733175cef069e90d9538df1feafa819cf069",
+      "sourceHash": "513eb9a90aa50b9ad4eacdbe5ef5c0b8a183e513baf7d11edc22e1ab45dafdf8"
+    },
+    {
+      "label": "weaver_blockout",
+      "revision": 24,
+      "export": "blender/towers/copilot_architect/v01/revisions/r24_weaver_blockout/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r24_weaver_blockout/copilot_architect_v01.blend",
+      "sha256": "d23d0f2f7667965a0501ef7b3e24b2921dee67d62ae504df294256a7913b6e30",
+      "sourceHash": "08d05e8a516c609b45421e1ba4fe0dd3c4f4c165c159652615c13c29a4af5e86"
+    },
+    {
+      "label": "before_r25",
+      "revision": 24,
+      "export": "blender/towers/copilot_architect/v01/revisions/r24_before_r25/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r24_before_r25/copilot_architect_v01.blend",
+      "sha256": "d23d0f2f7667965a0501ef7b3e24b2921dee67d62ae504df294256a7913b6e30",
+      "sourceHash": "08d05e8a516c609b45421e1ba4fe0dd3c4f4c165c159652615c13c29a4af5e86"
+    },
+    {
+      "label": "before_r26",
+      "revision": 25,
+      "export": "blender/towers/copilot_architect/v01/revisions/r25_before_r26/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r25_before_r26/copilot_architect_v01.blend",
+      "sha256": "4ad4fce81d6d783888f3c1b43c2aa68ff37823dadd99e5839786f1ab9b4da6c3",
+      "sourceHash": "112a5085f34b22ce4e0af434f0fbecf86f8ada8499a1545255a17198928be117"
+    },
+    {
+      "label": "before_r27",
+      "revision": 26,
+      "export": "blender/towers/copilot_architect/v01/revisions/r26_before_r27/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r26_before_r27/copilot_architect_v01.blend",
+      "sha256": "7ccec7f552f74f120b9ed889bfe14be409d5664b4b6b575480a42758a6345544",
+      "sourceHash": "67225dd3046f2a803fdf7f184285ecbc942c2047af10a472b7835298c5a15838"
+    },
+    {
+      "label": "before_field_architect",
+      "revision": 27,
+      "export": "blender/towers/copilot_architect/v01/revisions/r27_before_field_architect/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r27_before_field_architect/copilot_architect_v01.blend",
+      "sha256": "a979da5360075d4ef334b3ea3a97c99da5f0fd08ca0fe93eaf301e0ed5400217",
+      "sourceHash": "087243d975631778ed21dc796df95099a6a5a83cc8b2d819987417b57e62db6e"
+    },
+    {
+      "label": "before_r28",
+      "revision": 27,
+      "export": "blender/towers/copilot_architect/v01/revisions/r27_before_r28/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r27_before_r28/copilot_architect_v01.blend",
+      "sha256": "a979da5360075d4ef334b3ea3a97c99da5f0fd08ca0fe93eaf301e0ed5400217",
+      "sourceHash": "087243d975631778ed21dc796df95099a6a5a83cc8b2d819987417b57e62db6e"
+    },
+    {
+      "label": "before_r29",
+      "revision": 28,
+      "export": "blender/towers/copilot_architect/v01/revisions/r28_before_r29/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r28_before_r29/copilot_architect_v01.blend",
+      "sha256": "d99a671bc9fd1c8994e9c74433c15dff78757c023769ef193f630c625f070ab8",
+      "sourceHash": "4d253f72c4d078c0780b775762541c3cace0d8835c1a3a58fddc77bf7970cdcc"
+    },
+    {
+      "label": "before_r30",
+      "revision": 29,
+      "export": "blender/towers/copilot_architect/v01/revisions/r29_before_r30/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r29_before_r30/copilot_architect_v01.blend",
+      "sha256": "5d2e247b571a3d9a0b557bcf1909416e891b31c2bcc2734bd3be9bb4ea5c881d",
+      "sourceHash": "0a492a0d54f5423ec5374a164144c6c7dff1eb52544cd1380a59b48e5a4a0cb3"
+    },
+    {
+      "label": "before_r31",
+      "revision": 30,
+      "export": "blender/towers/copilot_architect/v01/revisions/r30_before_r31/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r30_before_r31/copilot_architect_v01.blend",
+      "sha256": "820bc26d3d28b901595b0b7d8915d636d55a97ca42064cfacf123fa2cbd751f7",
+      "sourceHash": "66e142777d31f6483660e6defda7fb2a7f7ba9882d53fa30261fb7e20e6b15f4"
+    },
+    {
+      "label": "before_r32",
+      "revision": 31,
+      "export": "blender/towers/copilot_architect/v01/revisions/r31_before_r32/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r31_before_r32/copilot_architect_v01.blend",
+      "sha256": "c76f1b633e7979a373cb183889e94dd47c553221eccbf46cf2954efa6b3a5955",
+      "sourceHash": "e82bc3d69dbbc415d4b0164af24ec9e6b411d5fa80089d841b8f9007ef281299"
+    },
+    {
+      "label": "before_r33",
+      "revision": 32,
+      "export": "blender/towers/copilot_architect/v01/revisions/r32_before_r33/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r32_before_r33/copilot_architect_v01.blend",
+      "sha256": "b1d9275829f9769f3f758c4ed4bb17c69bed1ffecb0fd5879f11803e28f0f8bc",
+      "sourceHash": "a397d4cd9f746b99fa279b6ea0dd8e10f580004dbe747aa852326efdd29f20b3"
+    },
+    {
+      "label": "before_r34",
+      "revision": 33,
+      "export": "blender/towers/copilot_architect/v01/revisions/r33_before_r34/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r33_before_r34/copilot_architect_v01.blend",
+      "sha256": "be5f8c76154f8651a31179c93491ed2c1b0fc7a9916f0f238c5716f23e4db2c2",
+      "sourceHash": "8a7696f2ccfbf3bc2aa526508044fd5c031b81ba530b225ce919a8729e8fd8de"
+    },
+    {
+      "label": "before_r35",
+      "revision": 34,
+      "export": "blender/towers/copilot_architect/v01/revisions/r34_before_r35/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r34_before_r35/copilot_architect_v01.blend",
+      "sha256": "b1063501ed67b51b2d3f678e04e0d6795592cd90b4954b273cd178d441547fbf",
+      "sourceHash": "9855c43242d96394ac8bdbda48ae7a12b65abd326372538885d3520b34151ccb"
+    },
+    {
+      "label": "before_r36",
+      "revision": 35,
+      "export": "blender/towers/copilot_architect/v01/revisions/r35_before_r36/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r35_before_r36/copilot_architect_v01.blend",
+      "sha256": "0eafda3fd51d002080193786895f68b2c4d88cc5c89972dbf14c4b36aa07d7fc",
+      "sourceHash": "d8dcfcffe0c788d0fbee23c8a3bfe4f1ef564b216c7d4daa49367a7dbfed7eae"
+    },
+    {
+      "label": "before_r37",
+      "revision": 36,
+      "export": "blender/towers/copilot_architect/v01/revisions/r36_before_r37/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r36_before_r37/copilot_architect_v01.blend",
+      "sha256": "db147b138b4b3d0bc9b525eb76fdfea2996240e094180b62d9360d1bde4f71f7",
+      "sourceHash": "7e74c4f76bab52410e0fd08047152b880b3c0e19deaa8a4d6617c0a7b9c74d93"
+    },
+    {
+      "label": "before_r38",
+      "revision": 37,
+      "export": "blender/towers/copilot_architect/v01/revisions/r37_before_r38/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r37_before_r38/copilot_architect_v01.blend",
+      "sha256": "2d3eea0cc5b30da18083770fc7e15559c5f8caea6c61c7ac093a6c9e281da2e3",
+      "sourceHash": "dd53f23facb9d5abf0e27966c5fd3d15bbe3260b01be1479b0961fc2e536a559"
+    },
+    {
+      "label": "before_r39",
+      "revision": 38,
+      "export": "blender/towers/copilot_architect/v01/revisions/r38_before_r39/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r38_before_r39/copilot_architect_v01.blend",
+      "sha256": "3c63741c9de2ead9c8beb4c9db7976a8b061a2f68f81c48c2df339057d5cc543",
+      "sourceHash": "5d3de4426d5615fade354b44e6a853236750f02333900b9da8d736aebbc582c8"
+    },
+    {
+      "label": "before_r40",
+      "revision": 39,
+      "export": "blender/towers/copilot_architect/v01/revisions/r39_before_r40/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r39_before_r40/copilot_architect_v01.blend",
+      "sha256": "8f50f4cfe39c176fcc03861611850fc477aee7d8cb24143ec5c1fee8e7af9c4e",
+      "sourceHash": "64335771a51309d0d296ee2d86f22889447b79a861fa5608d577d5315efaf386"
+    },
+    {
+      "label": "before_r41",
+      "revision": 40,
+      "export": "blender/towers/copilot_architect/v01/revisions/r40_before_r41/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r40_before_r41/copilot_architect_v01.blend",
+      "sha256": "ac02a46d3599754b29a67d360a34481f4267ff75a02c5a421bc2d2f542fafa09",
+      "sourceHash": "68b0f69399744619a91c5cb808f8c900ab597ef8732e3d725bcd282868107093"
+    },
+    {
+      "label": "before_r42",
+      "revision": 41,
+      "export": "blender/towers/copilot_architect/v01/revisions/r41_before_r42/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r41_before_r42/copilot_architect_v01.blend",
+      "sha256": "cbd1ecaf154432d789d3e46e023a3c46ae1c2b02e94c7890a3597440475144d4",
+      "sourceHash": "53ec1fb5c98bc3a9860d4c410ecc7e279049dd811fe2fe5fff77c8016df6ed8d"
+    },
+    {
+      "label": "before_r43",
+      "revision": 42,
+      "export": "blender/towers/copilot_architect/v01/revisions/r42_before_r43/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r42_before_r43/copilot_architect_v01.blend",
+      "sha256": "aae92ed448c90e72f4081560a2970b8d3d06eab094c30d36ee496895708c3e4c",
+      "sourceHash": "8ac2a9f6e5a05c1735d0315616f1edad5dfe8e9261d3bdf22b8d75f4f184e416"
+    },
+    {
+      "label": "before_r44",
+      "revision": 43,
+      "export": "blender/towers/copilot_architect/v01/revisions/r43_before_r44/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r43_before_r44/copilot_architect_v01.blend",
+      "sha256": "af00b5f37467f8ed654607f80c74402534cdf6a77b8ee95aa5313dc90d690b01",
+      "sourceHash": "175da55c4d2207d445565a3ee05ec81a97353dc7bd3befcdaa4658783ea2b2d8"
+    }
+  ],
+  "decisions": "blender/towers/copilot_architect/v01/decisions.md",
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "shell": "#485995",
+      "trim": "#E2EDF0",
+      "slate": "#89A4B8",
+      "screen": "#041D2A",
+      "amber": "#F2B54D",
+      "cyan": "#00E5EF",
+      "shell_dark": "#303E72",
+      "detail": "#89A4B8"
+    }
+  },
+  "texturePalettes": [
+    {
+      "material": "architect_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "color": "#485995"
+        },
+        "trim": {
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ],
+          "color": "#E2EDF0"
+        },
+        "slate": {
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ],
+          "color": "#89A4B8"
+        },
+        "screen": {
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ],
+          "color": "#041D2A"
+        },
+        "amber": {
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ],
+          "color": "#F2B54D"
+        },
+        "cyan": {
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ],
+          "color": "#00E5EF"
+        },
+        "shell_dark": {
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ],
+          "color": "#303E72"
+        },
+        "detail": {
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ],
+          "color": "#89A4B8"
+        }
+      }
+    },
+    {
+      "material": "architect_optics",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "color": "#485995"
+        },
+        "trim": {
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ],
+          "color": "#E2EDF0"
+        },
+        "slate": {
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ],
+          "color": "#89A4B8"
+        },
+        "screen": {
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ],
+          "color": "#041D2A"
+        },
+        "amber": {
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ],
+          "color": "#F2B54D"
+        },
+        "cyan": {
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ],
+          "color": "#00E5EF"
+        },
+        "shell_dark": {
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ],
+          "color": "#303E72"
+        },
+        "detail": {
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ],
+          "color": "#89A4B8"
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "5a912c59acb0f295834a8b529db064a835c4fb13ce9022357835937783a32440",
+    "sourceHash": "9ed5e8e46d7b8a672e05d39eb75770d1e5e9bb8dbcb9f15ce538ed13ab9a4f77",
+    "report": "blender/towers/copilot_architect/v01/validation/report.json",
+    "deliveredAt": "2026-09-30T17:53:48.700Z"
+  },
+  "animationHandoff": {
+    "sha256": "8f50f4cfe39c176fcc03861611850fc477aee7d8cb24143ec5c1fee8e7af9c4e",
+    "authorization": "Model rebuild authorized. Animations remain deferred; ask about baseline animation after the user reviews this delivered model.",
+    "status": "animation-pending",
+    "plannedClips": [
+      "idle",
+      "work",
+      "move",
+      "place",
+      "hit",
+      "resolve"
+    ],
+    "sourceHash": "64335771a51309d0d296ee2d86f22889447b79a861fa5608d577d5315efaf386",
+    "modelRevision": 39,
+    "modelAcceptance": "pending"
+  }
+}

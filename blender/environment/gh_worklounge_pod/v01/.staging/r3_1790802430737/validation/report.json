@@ -1,0 +1,37 @@
+{
+  "asset": "gh_worklounge_pod",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "c6513e4b2efeb0487153a675a8ff0dd0093757bdb3e6f77589ce09df6882155b",
+  "checkedAt": "2026-09-30T21:07:16.024Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 8752,
+  "meshes": 5,
+  "materials": 3,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    6,
+    3.200000047683716,
+    2.4110000133514404
+  ],
+  "bounds": [
+    [
+      -3,
+      0,
+      -1.2000000476837158
+    ],
+    [
+      3,
+      3.200000047683716,
+      1.2109999656677246
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "b57e68dda4b2b8972b9060a61824426bb536ac6b35d0dc5d62a78240e0ca8a40",
+  "source": "blender/environment/gh_worklounge_pod/v01/gh_worklounge_pod_v01.blend",
+  "runtime": "assets/runtime/environment/gh_worklounge_pod_v01.glb"
+}

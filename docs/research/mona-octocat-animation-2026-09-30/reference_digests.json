@@ -1,0 +1,18 @@
+[
+  {
+    "file": "creator_expression_sheet.webp",
+    "sha256": "37808e1b06044ced56e782819a0b9382a9bbe2c51a92195ce91f89bb559bc49e"
+  },
+  {
+    "file": "creator_pentaped_walk_sheet.webp",
+    "sha256": "1188ac6f33e8373f2b840fda06b9d0f9f30b4c6ebc273522894233ac7587061c"
+  },
+  {
+    "file": "creator_pentaped_walk.gif",
+    "sha256": "d325c37c1fa46706825d26b2545c6ee81fd5f869e888019c1941715739835c19"
+  },
+  {
+    "file": "creator_locomotion_rough.gif",
+    "sha256": "5f8acfe4ca97b5ab36f321d160d2103b6e31522f88e08a10924f50c11c29ec92"
+  }
+]

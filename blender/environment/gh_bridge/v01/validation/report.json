@@ -1,0 +1,37 @@
+{
+  "asset": "gh_bridge",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "b8a2e8947dec0bf2d94ac06fd117c508ac360d9897938d5e62f922e0c7f4ef72",
+  "checkedAt": "2026-09-30T18:05:15.405Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1272,
+  "meshes": 4,
+  "materials": 2,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    8,
+    3.509999990463257,
+    3
+  ],
+  "bounds": [
+    [
+      -4,
+      0,
+      -1.5
+    ],
+    [
+      4,
+      3.509999990463257,
+      1.5
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "1bc91054d6e097204d17c76935e9da84600841c40d945514fe9928b61ad39ba4",
+  "source": "blender/environment/gh_bridge/v01/gh_bridge_v01.blend",
+  "runtime": "assets/runtime/environment/gh_bridge_v01.glb"
+}

@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_tree",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "920c70e9908ec59e54a845a90bf5abf12b0559f0ce00491dc17e9f829159f1c1",
+  "sourceHash": "1587d7807f65b8dcc003f79087712c975e9518b7a9e9356737a71140d0a77549",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:31:21.242Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Original landscape model extends the campus kit using Tower foliage colours and official GitHub green accents. It does not reproduce a documented GitHub tree."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Trunk tapers into three seated branches, asymmetric crown masses overlap intentionally, and the planting ring contacts the ground."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Broad angular crown and slim trunk remain readable on phone; a few brighter leaf masses provide orientation."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static modular office/campus scenery. No animation was requested or authored."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second reverse check verifies branch attachment and ground ring. Crown asymmetry is deliberate, with no detached leaves. Phone capture was explicitly reframed after the viewport width changed, then checked for complete-model visibility."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_tree/v01/validation/iso.png",
+      "sha256": "a1cb6513736f033d68e1dd0a717e6917a6465aaa5f63d23a28b66d7ff3248fc4",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_tree/v01/validation/rear.png",
+      "sha256": "da708cd978d9922dbaec2987e9ef1c838df2e0bc09f5f154431bb7d717d5ad97",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_tree/v01/validation/inspector-detail.png",
+      "sha256": "a1c089b1055cbddac189254e698098ccea6c3b348f65aed445ce149f0188f7a2",
+      "view": "inspector-detail"
+    },
+    {
+      "path": "blender/environment/gh_tree/v01/validation/inspector-phone.png",
+      "sha256": "92f6acbbeb4e91d69411fd99da7cc6cd1c34a7755ef520ae29d2aa4c168f83fa",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author self-review completed; no artistic acceptance is inferred from the user request."
+  },
+  "limitations": [
+    "Stylized, inferred dimensions; not a measured as-built reconstruction."
+  ]
+}

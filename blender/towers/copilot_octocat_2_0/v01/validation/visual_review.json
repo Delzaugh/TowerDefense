@@ -2,86 +2,774 @@
   "schemaVersion": 1,
   "asset": "copilot_octocat_2_0",
   "version": "v01",
-  "revision": 8,
-  "sha256": "02e3657bfe1d0fe392676010d7acb37c378075a4c771976f1a97188ea3646f12",
-  "sourceHash": "c0c000b5b12d0380bdaeb54904fb92b2428912519e10ab09263e70c110eec8cb",
-  "scope": "refinement",
-  "reviewedAt": "2026-09-30T17:17:56.740Z",
+  "revision": 13,
+  "sha256": "b4a9dabfeaeae1e3770f5f104991b0a24e75ea56da149108a7b76e140e75d63a",
+  "sourceHash": "d4137359a0e93df115bc5634f99d5a02fc320ff00c9636135f98e3032591a182",
+  "scope": "animation",
+  "reviewedAt": "2026-09-30T18:54:15.335Z",
   "checks": {
     "referenceFidelity": {
       "status": "passed",
-      "findings": "Localized face-UV correction preserves the existing Octocat 2.0 head/cheek proportions, expression, ears, whiskers, waving pose and five-tentacle anatomy. Reviewed final front and close oblique views against the pre-repair reference renders; peach face outline and game-scale identity remain. Neither anatomy nor palette was redesigned."
+      "findings": "Applied the documented research direction: five supporting tentacles in Move, soft elastic weight, focused nonverbal maker gestures, a brief startled Hit and friendly recovery. No extra tail, humanoid torso, spoken acting or angry default. The two raised tentacles remain an upright rest pose choice. Timings are Tower choices, not official GitHub requirements."
     },
     "construction": {
       "status": "passed",
-      "findings": "User screenshot exposed peach slivers on the lower side/back of the head that the preceding review missed. The face paint is on one skull surface; expanded front-depth projection had mapped a few back-facing polygons into peach texels. Fixed hemisphere plus outward-normal classification in the high source recipe, stored exact scaled projection metadata and reapplied the UV map after low-poly reduction. Personally inspected final underside, side, front and close oblique runtime views: rear/underside slivers are gone and front expression remains intact. Source audit confirms closed head/body components with no nonmanifold edges or degenerate faces and three zero-height support contacts. The UV audit checks 12249 rear/back-facing polygons and finds zero projected-face UVs; they all sample the dark fur texel. Packed palette/face maps and existing anchors remain."
+      "findings": "29 deform bones; exact source rest geometry/topology/UV/material/smoothing hashes. Runtime positions and UVs match the static milestone, embedded images and material definitions match, and normal differences stay below 0.0001. Reviewed exposed rear/side/underside bends: connected five-way skin junction, cup rows follow the skin, and the repaired rear/underside face boundary remains black. Correctives use skin triangle attachment and explicit Basis initialization."
     },
     "readability": {
       "status": "passed",
-      "findings": "Personally inspected final phone and game-scale Inspector captures. Face silhouette, peach/graphite contrast, eyes, pointed ears, asymmetrical arms and support stance retain identity. The repair removes stray peach marks without changing the palette. Low-poly simplification remains intentionally faceted."
+      "findings": "Reviewed the actual Inspector in normal, phone-width, ground/shadow and game-scale views. Focused reach, lowered five-limb walk and surprised recoil read separately; the face remains the dominant contrast cue. The low version retains 3,961 triangles and full cell coverage with three temporary cube fragments, for 3,997 combined triangles."
     },
     "motion": {
-      "status": "not_applicable",
-      "findings": "UV-only static-model refinement; no rig or clips are added. Animation remains pending."
+      "status": "passed",
+      "findings": "Six changing clips at 24 fps. Reviewed starts, anticipation/action extremes, recovery and exact ends; normal playback of several loop cycles and both sides of joins; Idle/Work/Move/Hit selection; Place-to-Idle; replay, seek and unanimated Rest reset. Recovery-foot velocity and acceleration match stance at contact. 240 actual runtime walk samples give <2.73 mm stance gap and <0.006 mm penetration. Independent expression presets vary and reset. Root remains stationary, fitting anchors retain their rest seats and follow assigned bones. Place begins invisible and ends exactly at ready Idle; Resolve ends invisible. Verified deterministic seek, completed hold/replay, loops, phone shadows, effects disabled, phase-preserving reload, exhausted fragment budget and material restoration."
     }
   },
   "secondPass": {
     "status": "passed",
-    "findings": "After guarded re-export, reviewed underside and right-side views again for the isolated peach triangle and adjoining face boundary, then checked front/close-oblique expression and phone/game scale. Final views show no recurrence of the reported sliver. Low-poly live preview was additionally refreshed and inspected in the user exact close-up camera: the before/after images keep the same framing and the reported mark disappears. Separate source UV and shell/contact audits passed. Previous review rejection is retained in review history; this is a new author assessment, not user acceptance."
+    "findings": "Second author inspection of the final exports after repairing cup binding, exporting armature-driven facial channels, initializing every morph from Basis, and smoothing foot recovery speed. Rechecked focused facial layers and reactions on both meshes; underside/rear/side maximum walk bends; phone/game silhouettes; actual lifecycle endpoints and Rest reset. The Inspector timeline now retains fractional 24 fps endpoints exactly."
   },
   "evidence": [
     {
-      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-front.png",
-      "sha256": "7816c8479d4f33df46f7d6b5edf28a0495f3fc2e7a5d03af1ad58c92714f3b75",
-      "view": "inspector-front"
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/iso.png",
+      "sha256": "22c2f7ba83de12238498a96155b2f32ec61f93994efceb1d5e4f0ce39a1675a8",
+      "view": "iso",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-iso.png",
-      "sha256": "ae04eab492e8857f6854db8a311ffadaea5db830668e54df340bad80b1dff932",
-      "view": "inspector-iso"
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/iso-silhouette.png",
+      "sha256": "5d7047ab0690af460ca9cff7d0c74f595a802c0809d6155912483d43eeeacff1",
+      "view": "iso",
+      "mode": "silhouette"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-rear.png",
-      "sha256": "0714eac60c3a602b9698afaa31d17d9c234b02d7d8a2c8a325884d177fccc0cb",
-      "view": "inspector-rear"
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/front.png",
+      "sha256": "8c2ac9922b24be846b0a45dc7d44e8840efff3d5447be785b8e63e19f595409e",
+      "view": "front",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-right.png",
-      "sha256": "473d4bd8616115332502bdcdc89ba3c1efd102c4857edb49670c7a883b953034",
-      "view": "inspector-right"
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/front-silhouette.png",
+      "sha256": "8a34cdbd96b41312fe07cd84dcd2db07a94d379a99e078119bbc39a6a050bbae",
+      "view": "front",
+      "mode": "silhouette"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-bottom.png",
-      "sha256": "b41e4cf13304e40182d84e943636eff99227555f3c197d9729890c4353e29f50",
-      "view": "inspector-bottom"
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/side.png",
+      "sha256": "377956002f6fdcbc96ccbf9ca6e85099d6fdd25b70818d5308a0e9e8038bd4be",
+      "view": "side",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0/v01/renders/face-close-front.png",
-      "sha256": "3b83caf988e67656c03ef3ca1e3c86f7672ee1750c372b701e36e408bc28bf80",
-      "view": "face-close-front"
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/side-silhouette.png",
+      "sha256": "69903f81c2873ac431111c7f1dbb04fd873a3af5fafe9adfc8c702f804dc174f",
+      "view": "side",
+      "mode": "silhouette"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0/v01/renders/face-close-iso.png",
-      "sha256": "d7883b08c79db4d20f90c0016456845c839d5ecd9ff97701514e026b2b4ca369",
-      "view": "face-close-iso"
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/rear.png",
+      "sha256": "df02a2bb39dc1862f346ec8a8ae08f84593ea31f3380e4d4842ac1fb8d03a45c",
+      "view": "rear",
+      "mode": "shaded"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0/v01/renders/phone.png",
-      "sha256": "b5438a4833d25cc8696c2f432ef59982866d4d22787b26b4b6a65aa7a9105b99",
-      "view": "phone"
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/rear-silhouette.png",
+      "sha256": "7166a5323509540b330396e72d58be6a4570102bf0a085d01563c04d8e735e4f",
+      "view": "rear",
+      "mode": "silhouette"
     },
     {
-      "path": "blender/towers/copilot_octocat_2_0/v01/renders/game-scale.png",
-      "sha256": "8a031322024af1edb65789139de0e69a4d721f0a7fdfa708bbd85dd11c6fda6b",
-      "view": "game-scale"
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/top.png",
+      "sha256": "c91ece2e575e1a4716e7cd9c8f2947fdf48bbeeaad98b1b3d7f4c748ab07fcc3",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/top-silhouette.png",
+      "sha256": "1a161f7dd71d56d04842062bc596aaacde363a364e4da283e05f5bd4d809cd00",
+      "view": "top",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/idle.png",
+      "sha256": "d317007e67750b40904c6bd3e9729ce02107956b484c28806d1d20599eb3ed46",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "idle",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/work.png",
+      "sha256": "b9c083dad29c5ddb3fe3e24974a92b8939ddac94aa18121f7b978fc2cb2d611c",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "work",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/move.png",
+      "sha256": "783124040dc13da3a814e99c68e14f54a3e3c1f989c937036ce33958b5ecb76d",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "move",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/place.png",
+      "sha256": "2a55c9d0bf5e233ae7e5e9878f6b256c6f443610255409cd734ffa9d0820c981",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "place",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/hit.png",
+      "sha256": "13ca62a1f9c87335acf6d18fa1eda4c83fcd6d8958ef9385d36c9194ac8ddb74",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "hit",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/resolve.png",
+      "sha256": "2a55c9d0bf5e233ae7e5e9878f6b256c6f443610255409cd734ffa9d0820c981",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "resolve",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/rest.png",
+      "sha256": "6e0ba7ecf7d3b95852e86839457e55bc28124ff360153bc3184797bf07c24036",
+      "view": "iso",
+      "clip": null,
+      "time": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/idle-0.png",
+      "sha256": "7f8c644cacc493bb41afc7c157a54193be6269895f941455e7da3819e769c87e",
+      "view": "iso",
+      "clip": "idle",
+      "time": 0,
+      "progress": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/idle-20.png",
+      "sha256": "f8bbd9b3ee9d929643fca4c8e2ca9a8c9baa00dd90b2689f604782ab6700e5d2",
+      "view": "iso",
+      "clip": "idle",
+      "time": 0.4499999800000001,
+      "progress": 0.2
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/idle-40.png",
+      "sha256": "af1e7ae819f135f27a1fe136e2e0ed56ce5a4e0c1f570a99927c2c59f2d79c95",
+      "view": "iso",
+      "clip": "idle",
+      "time": 0.8999999600000002,
+      "progress": 0.4
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/idle-60.png",
+      "sha256": "1ea5e5db5bb61fccc2c7dfda410179378e582f56ba64b47036b109b66d6f2113",
+      "view": "iso",
+      "clip": "idle",
+      "time": 1.3499999400000002,
+      "progress": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/idle-80.png",
+      "sha256": "20ce39e1e061e54f6f9782c8eb30983922527a4d676cdcc4e43d5f8b9185d60e",
+      "view": "iso",
+      "clip": "idle",
+      "time": 1.7999999200000003,
+      "progress": 0.8
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/idle-100.png",
+      "sha256": "927cffde3454753792816db5d561ca32feac934ab2a3a4e2ba7bc54e41ab4e6e",
+      "view": "iso",
+      "clip": "idle",
+      "time": 2.2499999,
+      "progress": 1
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/work-0.png",
+      "sha256": "7f8c644cacc493bb41afc7c157a54193be6269895f941455e7da3819e769c87e",
+      "view": "iso",
+      "clip": "work",
+      "time": 0,
+      "progress": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/work-20.png",
+      "sha256": "fff20826dd1144a811b6d36af533ccdbe5749c4b4a6b2ddefa9ed3383a1cf3d8",
+      "view": "iso",
+      "clip": "work",
+      "time": 0.34999997999999993,
+      "progress": 0.2
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/work-40.png",
+      "sha256": "d03cf049b2f35c5cce52a285462bf329d8b47def41aa936ea0753c986fb311d7",
+      "view": "iso",
+      "clip": "work",
+      "time": 0.6999999599999999,
+      "progress": 0.4
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/work-60.png",
+      "sha256": "79b55e88ec8957cafb623248c44b5ad1b97d368dda70b77ffc046c24619a9134",
+      "view": "iso",
+      "clip": "work",
+      "time": 1.04999994,
+      "progress": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/work-80.png",
+      "sha256": "4e0c57248722f742c9287cc70536f476decae60aaf54117594a241c5f603215d",
+      "view": "iso",
+      "clip": "work",
+      "time": 1.3999999199999997,
+      "progress": 0.8
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/work-100.png",
+      "sha256": "7f8c644cacc493bb41afc7c157a54193be6269895f941455e7da3819e769c87e",
+      "view": "iso",
+      "clip": "work",
+      "time": 1.7499999,
+      "progress": 1
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/move-0.png",
+      "sha256": "6d11c358879e5578d251c807f31597b188d5ad01dc306a290fa0079a2d1777a3",
+      "view": "iso",
+      "clip": "move",
+      "time": 0,
+      "progress": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/move-20.png",
+      "sha256": "4ff516db70315b9899bc969f2202003a297e35d688de918d2a15a8c74663eb9f",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.23333330538604702,
+      "progress": 0.2
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/move-40.png",
+      "sha256": "de4eda7671f4996e6b8a6d01f36f9d866b64911cde0f932b687fff858a1b9d67",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.466666610772095,
+      "progress": 0.4
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/move-60.png",
+      "sha256": "7df3765297d50d76b61ad1ecf315573660c6f20ceba8e2b57baf9230ae9e0b5b",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.699999916158142,
+      "progress": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/move-80.png",
+      "sha256": "a859a45ff7942c12ea2846dd379c3d6199352b1d7ebb2a1aeb0cbaf95518f0cf",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.93333322154419,
+      "progress": 0.8
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/move-100.png",
+      "sha256": "6ccf6c505a69040c3b9c31772d5aee176167d39c53b8cdc69f41967d2c4c7533",
+      "view": "iso",
+      "clip": "move",
+      "time": 1.1666665269302368,
+      "progress": 1
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/hit-0.png",
+      "sha256": "7f8c644cacc493bb41afc7c157a54193be6269895f941455e7da3819e769c87e",
+      "view": "iso",
+      "clip": "hit",
+      "time": 0,
+      "progress": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/hit-20.png",
+      "sha256": "91943b32fcc8bef4000a95c9b109ef4113b3a9b42235c2cac86ac787d1066447",
+      "view": "iso",
+      "clip": "hit",
+      "time": 0.0833333313465118,
+      "progress": 0.2
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/hit-40.png",
+      "sha256": "dd9a0e9deea92138121333f060652981ed5b1432d292e887b1867b3f9155eb21",
+      "view": "iso",
+      "clip": "hit",
+      "time": 0.166666662693024,
+      "progress": 0.4
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/hit-60.png",
+      "sha256": "9b8d8992c2b00f0856ae9636ad66fbe324e0b8444dbddcb39604952c20fc4d98",
+      "view": "iso",
+      "clip": "hit",
+      "time": 0.249999994039536,
+      "progress": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/hit-80.png",
+      "sha256": "e21bef6f5a374bc8d721c9a0396efde4ede197585f0c3a6295449b80b7885d60",
+      "view": "iso",
+      "clip": "hit",
+      "time": 0.333333325386047,
+      "progress": 0.8
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/hit-100.png",
+      "sha256": "7f8c644cacc493bb41afc7c157a54193be6269895f941455e7da3819e769c87e",
+      "view": "iso",
+      "clip": "hit",
+      "time": 0.4166666567325592,
+      "progress": 1
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/place-0.png",
+      "sha256": "0d72b7b9c86a50cc30d9b18ebcceeeafabf6b8b486d9fd298bc890d5a1f5b8b6",
+      "view": "iso",
+      "clip": "place",
+      "time": 0,
+      "progress": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/place-20.png",
+      "sha256": "021066a60f2b3db22e96a96593d5fd01d25fd6aaee18c19fdaa4c4ae42f91990",
+      "view": "iso",
+      "clip": "place",
+      "time": 0.216666674613953,
+      "progress": 0.2
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/place-40.png",
+      "sha256": "df19d2a40cc8c94224d6a10632dab12b9499de5b112b0bbdde73fe6c8a7ca763",
+      "view": "iso",
+      "clip": "place",
+      "time": 0.433333349227905,
+      "progress": 0.4
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/place-60.png",
+      "sha256": "bfa983efb610cd04fbbc8c7a7ad174185d7c1e02cd0fc7f1aab9ac6a53bca4c7",
+      "view": "iso",
+      "clip": "place",
+      "time": 0.650000023841858,
+      "progress": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/place-80.png",
+      "sha256": "c75854f400fdee6a3a379d78719c59a7a0c28f38932b10f26da6437c0b78a39d",
+      "view": "iso",
+      "clip": "place",
+      "time": 0.8666666984558109,
+      "progress": 0.8
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/place-100.png",
+      "sha256": "7f8c644cacc493bb41afc7c157a54193be6269895f941455e7da3819e769c87e",
+      "view": "iso",
+      "clip": "place",
+      "time": 1.0833333730697632,
+      "progress": 1
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/resolve-0.png",
+      "sha256": "7f8c644cacc493bb41afc7c157a54193be6269895f941455e7da3819e769c87e",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 0,
+      "progress": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/resolve-20.png",
+      "sha256": "c074a6b168dc0d64b4850fccb6a1f15e570fca4ed74cdf5f4aabd470342cae55",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 0.216666674613953,
+      "progress": 0.2
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/resolve-40.png",
+      "sha256": "28d866d06fd1d999e4e800d884edc8658a6e199213a3d48328434289d52c731a",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 0.433333349227905,
+      "progress": 0.4
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/resolve-60.png",
+      "sha256": "1801e21729d1e9b1a0bab4f6b4e188d26f83448d5576fdde585466e5679fae72",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 0.650000023841858,
+      "progress": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/resolve-80.png",
+      "sha256": "021066a60f2b3db22e96a96593d5fd01d25fd6aaee18c19fdaa4c4ae42f91990",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 0.8666666984558109,
+      "progress": 0.8
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/resolve-100.png",
+      "sha256": "0d72b7b9c86a50cc30d9b18ebcceeeafabf6b8b486d9fd298bc890d5a1f5b8b6",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 1.0833333730697632,
+      "progress": 1
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-00.png",
+      "sha256": "a5b654dcf9cf7151fbd1fb2933f89daee2877a6011cb223da902f8da085f276b",
+      "view": "iso",
+      "clip": "move",
+      "time": 0,
+      "progress": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-01.png",
+      "sha256": "e1dd9f194c006c39cf7ae7c6161f17759c412ea33b847426e1c67f71b8dd980e",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.04861110528875983,
+      "progress": 0.041666666666666664
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-02.png",
+      "sha256": "11a3285595cd3d408da511eb16cd042c6b76eb51e0c0451fb19353cf0858cda3",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.09722221057751976,
+      "progress": 0.08333333333333333
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-03.png",
+      "sha256": "c0b818b5db6b33ad3de244a982b27c10cf53ce6bbed14f9908e16b885257d97b",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.14583331586627998,
+      "progress": 0.125
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-04.png",
+      "sha256": "3e118e3e21ccd508d6a2110526df1ad1288830a3e48d712fc26f585c97c3f320",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.19444442115503932,
+      "progress": 0.16666666666666666
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-05.png",
+      "sha256": "e4f5de9f2270c85d744b2fdb5241eb95e8101b2426f0d48133864efa0148f20f",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.24305552644379966,
+      "progress": 0.20833333333333334
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-06.png",
+      "sha256": "3d8472e6377ffa5eb43e12b47f87a7cbf1a895025eee6e3f09e142a5f8911c7a",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.29166663173255897,
+      "progress": 0.25
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-07.png",
+      "sha256": "33b3429c01396dcb340b65e219293afb42910b20f3559733e705bf06b775520a",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.34027773702131936,
+      "progress": 0.2916666666666667
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-08.png",
+      "sha256": "49042fa254cc7662a6d2cd046b32222156413b08d179805b9e902435967d9209",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.38888884231007864,
+      "progress": 0.3333333333333333
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-09.png",
+      "sha256": "3eea93a673e638c8f5df8e1fa0e5fb9eda9c85842eca6050aa9cd503255e6117",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.437499947598839,
+      "progress": 0.375
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-10.png",
+      "sha256": "d3aefae98bfec2f892eeefaf173d1412f7893595f7ee49f3ef0a031ed221c9b2",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.48611105288759826,
+      "progress": 0.4166666666666667
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-11.png",
+      "sha256": "1a83cae4a29474e3024f35264faaa51a1268c9effa3ca7bd670f79f19098b9b2",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.5347221581763586,
+      "progress": 0.4583333333333333
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-12.png",
+      "sha256": "df158992155549cd830224638781b7422ef6249b2b0fab242719b8c5c8f16aa9",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.5833332634651179,
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-13.png",
+      "sha256": "2bc75b43d8d663bf5e514d3d1c1c56d550cc9b09fcb741098cdc7981078c62bd",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.6319443687538784,
+      "progress": 0.5416666666666666
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-14.png",
+      "sha256": "6dce00fa3da501cb89fc2874ccb1d65aa887b60d1d24a217220e825f2b9fff1c",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.6805554740426387,
+      "progress": 0.5833333333333334
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-15.png",
+      "sha256": "9550e7eb77d0d8acf627a1dd8383dd216ca7430f0a7988ff2b2c977dd4c4551d",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.729166579331398,
+      "progress": 0.625
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-16.png",
+      "sha256": "f308278ad586362e47f1ebf4eecc8df5416e113b92b01a9f8a5f6be56f316e8c",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.7777776846201583,
+      "progress": 0.6666666666666666
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-17.png",
+      "sha256": "01e6f747c2ce95724d63dc26ba09d27ef6001324f124e12f2b5039b0b97005a4",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.8263887899089176,
+      "progress": 0.7083333333333334
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-18.png",
+      "sha256": "01b25432ee4d32013ff8a27238ead13ace1ab6a13de6d5ee7e6abab70bcb6d55",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.874999895197678,
+      "progress": 0.75
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-19.png",
+      "sha256": "096e9046fcbb89b373bcc249a29b1cb763376b38eebed2a8146d2776c376193e",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.9236110004864373,
+      "progress": 0.7916666666666666
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-20.png",
+      "sha256": "d11a287ab8dd3b29a197f67fc61019e81b9aaa8525c18627d8f681d081e74e0f",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.9722221057751976,
+      "progress": 0.8333333333333334
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-21.png",
+      "sha256": "6b833fb52226847c21bcb17b346d9275dd8dab3bf20795810a4539be6ae80786",
+      "view": "iso",
+      "clip": "move",
+      "time": 1.02083321106396,
+      "progress": 0.875
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-22.png",
+      "sha256": "7646e24c74cad2e76058964566f636f18c5397905409482a9daa2f9e3ee93c8f",
+      "view": "iso",
+      "clip": "move",
+      "time": 1.0694443163527132,
+      "progress": 0.9166666666666666
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/walk-23.png",
+      "sha256": "3b48c7466e9e4b8c95029ae59594e31917dbc557e8702dc1589eaa254d822456",
+      "view": "iso",
+      "clip": "move",
+      "time": 1.1180554216414766,
+      "progress": 0.9583333333333334
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/bend-rear.png",
+      "sha256": "77808c9c74c641613e78d7a14983e96c19d232a3bf161d5fa9d2fb239e56b96b",
+      "view": "rear",
+      "clip": "move",
+      "time": 0.466666610772095
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/bend-right.png",
+      "sha256": "3424232ecd26451fc73f55c5523625d65ddb0db423a71b103dcd7b674695bdd1",
+      "view": "right",
+      "clip": "move",
+      "time": 0.466666610772095
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/bend-bottom.png",
+      "sha256": "2daacd607502ce74be11600d3dc881b3f90510f70a650f6718f1691456389184",
+      "view": "bottom",
+      "clip": "move",
+      "time": 0.466666610772095
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/playing-idle.png",
+      "sha256": "5360d93a04654b9a5c1352c3b92e3bc4eab1198fba93971f4937a4dedd8cf7c7",
+      "view": "iso",
+      "clip": "idle",
+      "time": 0.43909990196423615
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/playing-work.png",
+      "sha256": "db022e85c02b89d1eac2b19acca475af890421a795c34cd798db518d72ffb32b",
+      "view": "iso",
+      "clip": "work",
+      "time": 0.9406999019880777
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/playing-move.png",
+      "sha256": "31034cab314d16723997a994ce4b4cafbe006e527a9a354c3f30995d16ed13a3",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.3520333156486016
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/resolve-repeat-a.png",
+      "sha256": "7a6b7274ce2f3065443447b36146d6616cc408addc35dca85faa360b7debe16a",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 0.520000019073486
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/resolve-repeat-b.png",
+      "sha256": "7a6b7274ce2f3065443447b36146d6616cc408addc35dca85faa360b7debe16a",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 0.520000019073486
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/resolve-rest-reset.png",
+      "sha256": "6e0ba7ecf7d3b95852e86839457e55bc28124ff360153bc3184797bf07c24036",
+      "view": "iso",
+      "clip": null,
+      "time": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/place-repeat-a.png",
+      "sha256": "fe6169eca2c558a8e33c2892b6dd5b906c34dd667f224da49f0a85339c7b63b3",
+      "view": "iso",
+      "clip": "place",
+      "time": 0.520000019073486
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/place-repeat-b.png",
+      "sha256": "fe6169eca2c558a8e33c2892b6dd5b906c34dd667f224da49f0a85339c7b63b3",
+      "view": "iso",
+      "clip": "place",
+      "time": 0.520000019073486
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/place-rest-reset.png",
+      "sha256": "6e0ba7ecf7d3b95852e86839457e55bc28124ff360153bc3184797bf07c24036",
+      "view": "iso",
+      "clip": null,
+      "time": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/phone-move.png",
+      "sha256": "03045475d4fb1020b3f43f6d9b9015342943cb770cfb143efbf5053eec64e05a",
+      "view": "iso",
+      "clip": "move",
+      "time": 0.5599999329265141
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/phone-work.png",
+      "sha256": "8b363cd78f9ee4b1132e5169fac414734feaf0ffe3730002e27a87847da2d3e0",
+      "view": "iso",
+      "clip": "work",
+      "time": 0.839999952
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/phone-place.png",
+      "sha256": "ab61aa58563ed66e4fd2a941f98be4d999b5d49e4c92260e33da15c299797a94",
+      "view": "iso",
+      "clip": "place",
+      "time": 0.520000019073486
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/phone-resolve.png",
+      "sha256": "4094ec542d28bee4902858ac3785965b322805d37765ae1e600a40078909556a",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 0.520000019073486
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/phone-resolve-end.png",
+      "sha256": "42c39de3fbc6b7c5713efafc6b7b65f8df2752598d44ff03389e6fe1c0fdd028",
+      "view": "iso",
+      "clip": "resolve",
+      "time": 1.0833333730697632
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/animation/game-scale.png",
+      "sha256": "c8982dbce8b13c6743ed7813a62eff89e13ea3b0cd8c4bfae5b81933708b93f4",
+      "view": "iso",
+      "clip": null,
+      "time": 0
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/digital-resolve.js",
+      "sha256": "98f1aa5265c1e9d18ea15c5fa65d453dbceecb7b84e31c7d942b1f225c5289c5"
+    },
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
     }
   ],
   "userAcceptance": {
     "status": "pending",
-    "note": "Prior revision rejected for user-reported skin-coloured slivers. Awaiting feedback on UV-corrected revision 8."
+    "note": "User authorized this animation pass; visual acceptance of the resulting model/animation revision is separate and remains pending."
   },
   "limitations": [
-    "Static model; animation remains pending.",
-    "Crowded-scene performance has not been profiled."
+    "Move is authored against 0.28 m/s forward travel; simulation remains responsible for position and speed. Blend idle/move over about 0.18–0.22 s to change between the raised ready pose and five-limb locomotion.",
+    "Digital assembly/disintegration requires Tower’s shared createLifecycleEffect presentation renderer; a standalone GLB player shows only the authored full-size pose.",
+    "The low-poly version permits only three temporary cubes to keep its model-plus-effect geometry under 4,000 triangles. Its cell reveal/disintegration shader remains complete.",
+    "Runtime interpolation produces a maximum 2.73 mm stance gap between authored keys; this is below the reviewed game-scale threshold."
   ]
 }

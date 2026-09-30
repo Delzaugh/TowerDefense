@@ -1,0 +1,116 @@
+{
+  "passed": true,
+  "asset": "copilot_octocat_2_0",
+  "revision": 13,
+  "sha256": "b4a9dabfeaeae1e3770f5f104991b0a24e75ea56da149108a7b76e140e75d63a",
+  "sourceHash": "d4137359a0e93df115bc5634f99d5a02fc320ff00c9636135f98e3032591a182",
+  "baselineRevision": 8,
+  "restAttributeMaximumDifferences": {
+    "body_five_tentacles": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "eye_glint_1": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "eye_glint_-1": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "eye_glint_small_1": {
+      "position": 0,
+      "normal": 0.00009675323963165283,
+      "uv": 0
+    },
+    "eye_glint_small_-1": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "eye_iris_1": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "eye_iris_-1": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "eye_white_1": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "eye_white_-1": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "head_and_ears": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "inner_ear_1": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "inner_ear_-1": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "nose": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "smile_open": {
+      "position": 0,
+      "normal": 0.00007343292236328125,
+      "uv": 0
+    },
+    "smile_tongue": {
+      "position": 0,
+      "normal": 5.960464477539063e-8,
+      "uv": 0
+    },
+    "suction_cup_rows": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "whisker_1_0": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "whisker_1_1": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "whisker_-1_0": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    },
+    "whisker_-1_1": {
+      "position": 0,
+      "normal": 1.1920928955078125e-7,
+      "uv": 0
+    }
+  },
+  "embeddedImageHashes": [
+    "df8578ee88f8effff74758cdac6877009ad7b4c8100acd7e82544c2635d4f257",
+    "15f30e638fa32f5f821e463bcc21e99255104bbf772e86a8ffdb58995bbb27e8"
+  ],
+  "materialsEqual": true,
+  "maxContactDeviationMetres": 4.6497663811623235e-7
+}

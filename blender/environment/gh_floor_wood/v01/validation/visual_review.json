@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_floor_wood",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "3634874fd305cf08dc7d3d83230a967a3325417c1406df6854a1b70ae73c3f96",
+  "sourceHash": "7398774cb1a956d6ead31056e250287893e03039c076a1fc19ab2f109b1b36f4",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:31:20.970Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "The photographed warm warehouse boards are translated into staggered oak geometry, with intentionally simplified grain and a lighter game palette."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Thin slab, board edges and staggered end seams remain consistent; no lifted boards or exposed unfilled edge cuts in oblique view."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Board rhythm reads in the 390px Inspector view; thin rear silhouette is appropriate for a floor module."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static modular office/campus scenery. No animation was requested or authored."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second comparison with the open-office photo confirms the warm plank vocabulary; the brighter oak is an explicit stylization. Phone capture was explicitly reframed after the viewport width changed, then checked for complete-model visibility."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_floor_wood/v01/validation/iso.png",
+      "sha256": "97da86416e00d7a2d588f86ad0b0b7ed850719b04ff13a8a3aa6f6fc3dd7db33",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_floor_wood/v01/validation/rear.png",
+      "sha256": "8530d9de4385de4959a05bb78e8c406ebe14bed46f4b4c3eb4d712547c6d662a",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_floor_wood/v01/validation/inspector-detail.png",
+      "sha256": "d6c73b6b56e5972ead1c1cd0ce707a2178a0c7b3f234da52facd80fdc8de2b95",
+      "view": "inspector-detail"
+    },
+    {
+      "path": "blender/environment/gh_floor_wood/v01/validation/inspector-phone.png",
+      "sha256": "806d9f8e1c447565d6ebc5ba82052461a4b7761c1a1dd07ea1aeb4ff7e187cf5",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author self-review completed; no artistic acceptance is inferred from the user request."
+  },
+  "limitations": [
+    "Stylized, inferred dimensions; not a measured as-built reconstruction."
+  ]
+}

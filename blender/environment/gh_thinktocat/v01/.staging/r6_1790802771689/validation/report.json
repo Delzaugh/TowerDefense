@@ -1,0 +1,37 @@
+{
+  "asset": "gh_thinktocat",
+  "version": "v01",
+  "revision": 6,
+  "sha256": "dd6c606e0ed9ddf4aea1562c05fc6c2b59158697bd391840e97209ff569ce87e",
+  "checkedAt": "2026-09-30T21:12:59.454Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 23716,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.089554786682129,
+    3.2899999618530273,
+    1.714263379573822
+  ],
+  "bounds": [
+    [
+      -1.0056571960449219,
+      0,
+      -0.7200000286102295
+    ],
+    [
+      1.083897590637207,
+      3.2899999618530273,
+      0.9942633509635925
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "fd5525438b0f0c4697b8a56243cbcdd32fa75b4c1d1ae4cedf5686da0f70ec38",
+  "source": "blender/environment/gh_thinktocat/v01/gh_thinktocat_v01.blend",
+  "runtime": "assets/runtime/environment/gh_thinktocat_v01.glb"
+}

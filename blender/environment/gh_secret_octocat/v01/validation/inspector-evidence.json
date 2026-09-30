@@ -1,0 +1,314 @@
+{
+  "asset": "gh_secret_octocat",
+  "revision": 4,
+  "sourceHash": "9224ba915b02ea971fff400067d4f9b5d1cbaffa1bbd48535e1b1184265d0c3c",
+  "sha256": "f28dc21e61a088409bf90ac17c0f60d12fe1965fc74f621761703982dbf1beb4",
+  "origin": "http://127.0.0.1:4174",
+  "evidence": [
+    {
+      "view": "front",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_secret_octocat_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_secret_octocat_v01.glb",
+        "view": "front",
+        "projection": "OrthographicCamera",
+        "distance": 0.9948974142918523,
+        "target": [
+          -0.05146269500255585,
+          0.31700000166893005,
+          0.01600000262260437
+        ],
+        "camera": [
+          -0.05146269500255585,
+          0.3170000016689301,
+          1.0108974169144567
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_secret_octocat_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_secret_octocat_v01.glb",
+            "revision": "f28dc21e61a088409bf90ac17c0f60d12fe1965fc74f621761703982dbf1beb4",
+            "triangles": 11250,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -0.30792543292045593,
+                0,
+                -0.14499999582767487
+              ],
+              [
+                0.20500004291534424,
+                0.6340000033378601,
+                0.1770000010728836
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "iso",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_secret_octocat_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_secret_octocat_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 1.3107906154262934,
+        "target": [
+          -0.05146269500255585,
+          0.31700000166893005,
+          0.01600000262260437
+        ],
+        "camera": [
+          0.6286091556143352,
+          0.9918197123001513,
+          0.9105907881954007
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_secret_octocat_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_secret_octocat_v01.glb",
+            "revision": "f28dc21e61a088409bf90ac17c0f60d12fe1965fc74f621761703982dbf1beb4",
+            "triangles": 11250,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -0.30792543292045593,
+                0,
+                -0.14499999582767487
+              ],
+              [
+                0.20500004291534424,
+                0.6340000033378601,
+                0.1770000010728836
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "rear",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_secret_octocat_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_secret_octocat_v01.glb",
+        "view": "rear",
+        "projection": "OrthographicCamera",
+        "distance": 0.9948974142918523,
+        "target": [
+          -0.05146269500255585,
+          0.31700000166893005,
+          0.01600000262260437
+        ],
+        "camera": [
+          -0.05146269500255572,
+          0.3170000016689301,
+          -0.9788974116692479
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_secret_octocat_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_secret_octocat_v01.glb",
+            "revision": "f28dc21e61a088409bf90ac17c0f60d12fe1965fc74f621761703982dbf1beb4",
+            "triangles": 11250,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -0.30792543292045593,
+                0,
+                -0.14499999582767487
+              ],
+              [
+                0.20500004291534424,
+                0.6340000033378601,
+                0.1770000010728836
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "phone",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_secret_octocat_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_secret_octocat_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 1.3107906154262938,
+        "target": [
+          -0.05146269500255585,
+          0.31700000166893005,
+          0.01600000262260437
+        ],
+        "camera": [
+          0.6286091556143354,
+          0.9918197123001515,
+          0.9105907881954011
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_secret_octocat_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_secret_octocat_v01.glb",
+            "revision": "f28dc21e61a088409bf90ac17c0f60d12fe1965fc74f621761703982dbf1beb4",
+            "triangles": 11250,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -0.30792543292045593,
+                0,
+                -0.14499999582767487
+              ],
+              [
+                0.20500004291534424,
+                0.6340000033378601,
+                0.1770000010728836
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

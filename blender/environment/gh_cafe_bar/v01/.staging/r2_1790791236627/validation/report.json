@@ -1,0 +1,37 @@
+{
+  "asset": "gh_cafe_bar",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "6e116306de0710a6d85094cdc6e01276c203509482e1254e0d144ab73ec1afb3",
+  "checkedAt": "2026-09-30T18:00:39.567Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 2568,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    6,
+    2.962746500968933,
+    2.584999918937683
+  ],
+  "bounds": [
+    [
+      -3,
+      -0.0027464628219604492,
+      -1.3049999475479126
+    ],
+    [
+      3,
+      2.9600000381469727,
+      1.2799999713897705
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "990288d0d337ba39a70a8c6e76dc7fa2bce159e207b967d34f475417d583a577",
+  "source": "blender/environment/gh_cafe_bar/v01/gh_cafe_bar_v01.blend",
+  "runtime": "assets/runtime/environment/gh_cafe_bar_v01.glb"
+}

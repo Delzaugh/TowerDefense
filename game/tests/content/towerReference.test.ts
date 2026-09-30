@@ -20,7 +20,8 @@ describe('Tower reference content', () => {
       ['base', 'copilot_base@v02'], ['developer', 'copilot_developer@v01'],
       ['tester', 'copilot_tester@v01'],
       ['analyst', 'copilot_analyst@v01'],
-      ['security', 'copilot_security@v01'], ['linter', 'copilot_linter@v01'],
+      ['security', 'copilot_security@v01'], ['architect', 'copilot_architect@v01'],
+      ['linter', 'copilot_linter@v01'],
       ['senior-developer', 'copilot_golden_compiler@v01'],
       ['commit-halo', 'copilot_commit_halo@v01'],
     ]);

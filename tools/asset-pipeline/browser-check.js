@@ -9,12 +9,15 @@ export async function inspect(url, manifest) {
   try{inspectTexturePalettes(THREE,root,manifest.texturePalettes);}catch(error){errors.push(error.message);}
   root.updateMatrixWorld(true);
   const meshes = [], materials = new Set(), textures = new Set(), bones = new Set();
+  const transparentMaterials = new Set(manifest.category === 'environment' && manifest.clips.length === 0
+    ? manifest.overrides.filter(o => o?.field === 'material.transparency' && typeof o.material === 'string' && typeof o.reason === 'string' && o.reason.trim()).map(o => o.material)
+    : []);
   root.traverse(o => {
     if (!o.isMesh) return;
     meshes.push(o); o.skeleton?.bones.forEach(b => bones.add(b));
     (Array.isArray(o.material) ? o.material : [o.material]).forEach(m => {
       materials.add(m); Object.values(m).filter(v => v?.isTexture).forEach(t => textures.add(t));
-      check(!m.transparent, 'Transparent material: ' + m.name);
+      check(!m.transparent || transparentMaterials.has(m.name), 'Transparent material without named static-environment exception: ' + m.name);
       for(const texture of Object.values(m).filter(v=>v?.isTexture))check(!!o.geometry.attributes[texture.channel?'uv'+texture.channel:'uv'], 'Missing texture UV channel: ' + o.name);
       check(!m.normalMap || !!o.geometry.attributes.tangent, 'Missing normal-map tangents: ' + o.name);
     });

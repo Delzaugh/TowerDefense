@@ -1,0 +1,37 @@
+{
+  "asset": "gh_bookshelf_pod",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "348bd245a003aaf03f17e87fe2c21534b260f182484f245ae4c3258633f6fd5b",
+  "checkedAt": "2026-09-30T21:09:51.513Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 6576,
+  "meshes": 5,
+  "materials": 3,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    1.600000023841858,
+    3.200000047683716,
+    2.2020000219345093
+  ],
+  "bounds": [
+    [
+      -0.800000011920929,
+      0,
+      -1.100000023841858
+    ],
+    [
+      0.800000011920929,
+      3.200000047683716,
+      1.1019999980926514
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "cd9556ad7e20aaee8582016f1a35eeaa235cae42682a89d4a7b782558d730bf1",
+  "source": "blender/environment/gh_bookshelf_pod/v01/gh_bookshelf_pod_v01.blend",
+  "runtime": "assets/runtime/environment/gh_bookshelf_pod_v01.glb"
+}

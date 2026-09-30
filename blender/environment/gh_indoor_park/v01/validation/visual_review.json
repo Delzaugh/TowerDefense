@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_indoor_park",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "732ac2aa57ae714a0c03d6c6c3792e809c0237c3ff8da9fd27feee1d507807bf",
+  "sourceHash": "329fbb2dbd7e8fc9f02c291babc37cdba2e8b0b6cc437d7e203d2dc1f7e43911",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:31:21.472Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "The photographed indoor park, turf and wooden Adirondack chairs guide this six-by-four-metre original seating module."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Slatted inclined seats join splayed legs, broad armrests and back supports; turf sits in a floor tray and planter is seated at the edge."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Chair profiles, wood walkway and green inset remain distinct in close oblique and phone frames."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static modular office/campus scenery. No animation was requested or authored."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second reverse/side comparison confirms the reclining chair silhouette and fitted supports. Plant geometry is deliberately faceted and module dimensions are inferred. Phone capture was explicitly reframed after the viewport width changed, then checked for complete-model visibility."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_indoor_park/v01/validation/iso.png",
+      "sha256": "b212a6dc0e7cd3b1c07172036aefa0fcb8e5fe569530eb3410b0eb0cf241e079",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_indoor_park/v01/validation/rear.png",
+      "sha256": "0947cae9166c8478582711c2555567fc6f210b32a90c343022ce124bd2dd21a1",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_indoor_park/v01/validation/inspector-detail.png",
+      "sha256": "f186f8b1bdec41055855433485981f30e135b366c049931ecc1af685693fa916",
+      "view": "inspector-detail"
+    },
+    {
+      "path": "blender/environment/gh_indoor_park/v01/validation/inspector-phone.png",
+      "sha256": "4004b1d0a013d323bb73ef40a89ab0a0274c46df4e3cfb3be9ddef391bd9e4d0",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author self-review completed; no artistic acceptance is inferred from the user request."
+  },
+  "limitations": [
+    "Stylized, inferred dimensions; not a measured as-built reconstruction."
+  ]
+}

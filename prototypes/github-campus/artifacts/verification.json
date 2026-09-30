@@ -1,0 +1,2835 @@
+{
+  "run": "2026-09-30T21:10:43.187Z",
+  "url": "http://127.0.0.1:5200/",
+  "checks": [
+    {
+      "name": "desktop: all 36 assets loaded and placed",
+      "pass": true,
+      "detail": {
+        "ready": true,
+        "secretFound": false,
+        "view": "campus",
+        "selected": "gh_warehouse",
+        "loaded": [
+          "gh_warehouse",
+          "gh_atrium",
+          "gh_container",
+          "gh_facade_bay",
+          "gh_entry_portal",
+          "gh_glass_partition",
+          "gh_roof_terrace",
+          "gh_bridge",
+          "gh_workstation",
+          "gh_meeting_set",
+          "gh_library",
+          "gh_cafe_bar",
+          "gh_lounge",
+          "gh_pendant",
+          "gh_thinktocat",
+          "gh_sign",
+          "gh_contribution_art",
+          "gh_roof_furniture",
+          "gh_floor_wood",
+          "gh_floor_paving",
+          "gh_floor_hex",
+          "gh_timber_frame",
+          "gh_stairs",
+          "gh_planter",
+          "gh_tree",
+          "gh_courtyard",
+          "gh_membrane_wall",
+          "gh_ceiling_services",
+          "gh_indoor_park",
+          "gh_bookshelf_pod",
+          "gh_worklounge_pod",
+          "gh_recessed_lounge",
+          "gh_secret_octocat",
+          "gh_mural_universe",
+          "gh_mural_currents",
+          "gh_mural_collaboration"
+        ],
+        "used": [
+          "gh_floor_hex",
+          "gh_floor_wood",
+          "gh_timber_frame",
+          "gh_stairs",
+          "gh_cafe_bar",
+          "gh_lounge",
+          "gh_meeting_set",
+          "gh_container",
+          "gh_workstation",
+          "gh_pendant",
+          "gh_planter",
+          "gh_bookshelf_pod",
+          "gh_worklounge_pod",
+          "gh_recessed_lounge",
+          "gh_secret_octocat",
+          "gh_mural_currents",
+          "gh_glass_partition",
+          "gh_library",
+          "gh_membrane_wall",
+          "gh_indoor_park",
+          "gh_ceiling_services",
+          "gh_warehouse",
+          "gh_roof_terrace",
+          "gh_roof_furniture",
+          "gh_mural_collaboration",
+          "gh_atrium",
+          "gh_contribution_art",
+          "gh_bridge",
+          "gh_mural_universe",
+          "gh_entry_portal",
+          "gh_floor_paving",
+          "gh_thinktocat",
+          "gh_sign",
+          "gh_courtyard",
+          "gh_facade_bay",
+          "gh_tree"
+        ],
+        "placements": 213,
+        "calls": 126,
+        "triangles": 289218,
+        "geometries": 96,
+        "textures": 37,
+        "frameMs": 70.8,
+        "dpr": 1,
+        "errors": [],
+        "camera": [
+          41.30544338105701,
+          48.30478908118746,
+          54.50995436435139
+        ],
+        "target": [
+          -1,
+          4,
+          0
+        ],
+        "cutaway": false,
+        "floor": 0,
+        "roofs": true
+      }
+    },
+    {
+      "name": "desktop: campus applied",
+      "pass": true
+    },
+    {
+      "name": "desktop: warehouse applied",
+      "pass": true
+    },
+    {
+      "name": "desktop: library applied",
+      "pass": true
+    },
+    {
+      "name": "desktop: atrium applied",
+      "pass": true
+    },
+    {
+      "name": "desktop: terrace applied",
+      "pass": true
+    },
+    {
+      "name": "desktop: assets applied",
+      "pass": true
+    },
+    {
+      "name": "Floor selector reveals upper office",
+      "pass": true
+    },
+    {
+      "name": "Cutaway toggles off",
+      "pass": true
+    },
+    {
+      "name": "Roof toggle on",
+      "pass": true
+    },
+    {
+      "name": "Dusk state applied",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_warehouse",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_atrium",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_container",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_facade_bay",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_entry_portal",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_glass_partition",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_roof_terrace",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_bridge",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_workstation",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_meeting_set",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_library",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_cafe_bar",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_lounge",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_pendant",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_thinktocat",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_sign",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_contribution_art",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_roof_furniture",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_floor_wood",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_floor_paving",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_floor_hex",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_timber_frame",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_stairs",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_planter",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_tree",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_courtyard",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_membrane_wall",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_ceiling_services",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_indoor_park",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_bookshelf_pod",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_worklounge_pod",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_recessed_lounge",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_secret_octocat",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_mural_universe",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_mural_currents",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_mural_collaboration",
+      "pass": true
+    },
+    {
+      "name": "Octocat starts undiscovered",
+      "pass": true
+    },
+    {
+      "name": "Hidden figure can be inspected from shelf view",
+      "pass": true,
+      "detail": {
+        "x": 871.3138464268243,
+        "y": 470.6048435826022,
+        "visible": true
+      }
+    },
+    {
+      "name": "Desktop click discovers the secret through the scene",
+      "pass": true
+    },
+    {
+      "name": "Secret reveal returns to reading view",
+      "pass": true
+    },
+    {
+      "name": "About dialog opens",
+      "pass": true
+    },
+    {
+      "name": "About dialog closes",
+      "pass": true
+    },
+    {
+      "name": "Real pointer orbit changes camera",
+      "pass": true
+    },
+    {
+      "name": "Wheel zoom changes camera",
+      "pass": true
+    },
+    {
+      "name": "No horizontal page overflow",
+      "pass": true
+    },
+    {
+      "name": "Tour buttons fit viewport",
+      "pass": true,
+      "detail": [
+        {
+          "label": "Campus",
+          "width": 78.8125,
+          "height": 42,
+          "left": 461.328125,
+          "right": 540.140625,
+          "top": 854,
+          "bottom": 896
+        },
+        {
+          "label": "Warehouse",
+          "width": 95.28125,
+          "height": 42,
+          "left": 545.140625,
+          "right": 640.421875,
+          "top": 854,
+          "bottom": 896
+        },
+        {
+          "label": "Library",
+          "width": 71.875,
+          "height": 42,
+          "left": 645.421875,
+          "right": 717.296875,
+          "top": 854,
+          "bottom": 896
+        },
+        {
+          "label": "Atrium",
+          "width": 72.015625,
+          "height": 42,
+          "left": 722.296875,
+          "right": 794.3125,
+          "top": 854,
+          "bottom": 896
+        },
+        {
+          "label": "Terrace",
+          "width": 73.671875,
+          "height": 42,
+          "left": 799.3125,
+          "right": 872.984375,
+          "top": 854,
+          "bottom": 896
+        },
+        {
+          "label": "Asset library",
+          "width": 100.6875,
+          "height": 42,
+          "left": 877.984375,
+          "right": 978.671875,
+          "top": 854,
+          "bottom": 896
+        }
+      ]
+    },
+    {
+      "name": "phone: all 36 assets loaded and placed",
+      "pass": true,
+      "detail": {
+        "ready": true,
+        "secretFound": false,
+        "view": "campus",
+        "selected": "gh_warehouse",
+        "loaded": [
+          "gh_warehouse",
+          "gh_atrium",
+          "gh_container",
+          "gh_facade_bay",
+          "gh_entry_portal",
+          "gh_glass_partition",
+          "gh_roof_terrace",
+          "gh_bridge",
+          "gh_workstation",
+          "gh_meeting_set",
+          "gh_library",
+          "gh_cafe_bar",
+          "gh_lounge",
+          "gh_pendant",
+          "gh_thinktocat",
+          "gh_sign",
+          "gh_contribution_art",
+          "gh_roof_furniture",
+          "gh_floor_wood",
+          "gh_floor_paving",
+          "gh_floor_hex",
+          "gh_timber_frame",
+          "gh_stairs",
+          "gh_planter",
+          "gh_tree",
+          "gh_courtyard",
+          "gh_membrane_wall",
+          "gh_ceiling_services",
+          "gh_indoor_park",
+          "gh_bookshelf_pod",
+          "gh_worklounge_pod",
+          "gh_recessed_lounge",
+          "gh_secret_octocat",
+          "gh_mural_universe",
+          "gh_mural_currents",
+          "gh_mural_collaboration"
+        ],
+        "used": [
+          "gh_floor_hex",
+          "gh_floor_wood",
+          "gh_timber_frame",
+          "gh_stairs",
+          "gh_cafe_bar",
+          "gh_lounge",
+          "gh_meeting_set",
+          "gh_container",
+          "gh_workstation",
+          "gh_pendant",
+          "gh_planter",
+          "gh_bookshelf_pod",
+          "gh_worklounge_pod",
+          "gh_recessed_lounge",
+          "gh_secret_octocat",
+          "gh_mural_currents",
+          "gh_glass_partition",
+          "gh_library",
+          "gh_membrane_wall",
+          "gh_indoor_park",
+          "gh_ceiling_services",
+          "gh_warehouse",
+          "gh_roof_terrace",
+          "gh_roof_furniture",
+          "gh_mural_collaboration",
+          "gh_atrium",
+          "gh_contribution_art",
+          "gh_bridge",
+          "gh_mural_universe",
+          "gh_entry_portal",
+          "gh_floor_paving",
+          "gh_thinktocat",
+          "gh_sign",
+          "gh_courtyard",
+          "gh_facade_bay",
+          "gh_tree"
+        ],
+        "placements": 213,
+        "calls": 126,
+        "triangles": 289218,
+        "geometries": 96,
+        "textures": 37,
+        "frameMs": 26.7,
+        "dpr": 1,
+        "errors": [],
+        "camera": [
+          62.458165071585526,
+          70.4571836217812,
+          81.7649315465271
+        ],
+        "target": [
+          -1,
+          4,
+          0
+        ],
+        "cutaway": false,
+        "floor": 0,
+        "roofs": true
+      }
+    },
+    {
+      "name": "phone: campus applied",
+      "pass": true
+    },
+    {
+      "name": "phone: warehouse applied",
+      "pass": true
+    },
+    {
+      "name": "phone: library applied",
+      "pass": true
+    },
+    {
+      "name": "phone: atrium applied",
+      "pass": true
+    },
+    {
+      "name": "phone: terrace applied",
+      "pass": true
+    },
+    {
+      "name": "phone: assets applied",
+      "pass": true
+    },
+    {
+      "name": "Floor selector reveals upper office",
+      "pass": true
+    },
+    {
+      "name": "Cutaway toggles off",
+      "pass": true
+    },
+    {
+      "name": "Roof toggle on",
+      "pass": true
+    },
+    {
+      "name": "Dusk state applied",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_warehouse",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_atrium",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_container",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_facade_bay",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_entry_portal",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_glass_partition",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_roof_terrace",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_bridge",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_workstation",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_meeting_set",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_library",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_cafe_bar",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_lounge",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_pendant",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_thinktocat",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_sign",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_contribution_art",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_roof_furniture",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_floor_wood",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_floor_paving",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_floor_hex",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_timber_frame",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_stairs",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_planter",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_tree",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_courtyard",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_membrane_wall",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_ceiling_services",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_indoor_park",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_bookshelf_pod",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_worklounge_pod",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_recessed_lounge",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_secret_octocat",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_mural_universe",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_mural_currents",
+      "pass": true
+    },
+    {
+      "name": "Asset library gh_mural_collaboration",
+      "pass": true
+    },
+    {
+      "name": "Octocat starts undiscovered",
+      "pass": true
+    },
+    {
+      "name": "Hidden figure can be inspected from shelf view",
+      "pass": true,
+      "detail": {
+        "x": 263.3482655202351,
+        "y": 410.64889249821334,
+        "visible": true
+      }
+    },
+    {
+      "name": "Phone touch discovers the secret through the scene",
+      "pass": true
+    },
+    {
+      "name": "Secret reveal returns to reading view",
+      "pass": true
+    },
+    {
+      "name": "About dialog opens",
+      "pass": true
+    },
+    {
+      "name": "About dialog closes",
+      "pass": true
+    },
+    {
+      "name": "Real pointer orbit changes camera",
+      "pass": true
+    },
+    {
+      "name": "Wheel zoom changes camera",
+      "pass": true
+    },
+    {
+      "name": "No horizontal page overflow",
+      "pass": true
+    },
+    {
+      "name": "Tour buttons fit viewport",
+      "pass": true,
+      "detail": [
+        {
+          "label": "Campus",
+          "width": 116.65625,
+          "height": 44,
+          "left": 18,
+          "right": 134.65625,
+          "top": 691,
+          "bottom": 735
+        },
+        {
+          "label": "Warehouse",
+          "width": 116.671875,
+          "height": 44,
+          "left": 136.65625,
+          "right": 253.328125,
+          "top": 691,
+          "bottom": 735
+        },
+        {
+          "label": "Library",
+          "width": 116.65625,
+          "height": 44,
+          "left": 255.328125,
+          "right": 371.984375,
+          "top": 691,
+          "bottom": 735
+        },
+        {
+          "label": "Atrium",
+          "width": 116.65625,
+          "height": 44,
+          "left": 18,
+          "right": 134.65625,
+          "top": 737,
+          "bottom": 781
+        },
+        {
+          "label": "Terrace",
+          "width": 116.671875,
+          "height": 44,
+          "left": 136.65625,
+          "right": 253.328125,
+          "top": 737,
+          "bottom": 781
+        },
+        {
+          "label": "Asset library",
+          "width": 116.65625,
+          "height": 44,
+          "left": 255.328125,
+          "right": 371.984375,
+          "top": 737,
+          "bottom": 781
+        }
+      ]
+    },
+    {
+      "name": "Actual phone touch orbit",
+      "pass": true
+    },
+    {
+      "name": "Actual phone pinch zoom",
+      "pass": true
+    },
+    {
+      "name": "Phone controls reachable above tour: campus",
+      "pass": true,
+      "detail": [
+        {
+          "label": "Cutaway",
+          "left": 173.421875,
+          "right": 254.65625,
+          "top": 628,
+          "bottom": 672,
+          "navTop": 685
+        },
+        {
+          "label": "Roofs",
+          "left": 259.65625,
+          "right": 326.921875,
+          "top": 628,
+          "bottom": 672,
+          "navTop": 685
+        },
+        {
+          "label": "Dusk",
+          "left": 331.921875,
+          "right": 378,
+          "top": 628,
+          "bottom": 672,
+          "navTop": 685
+        }
+      ]
+    },
+    {
+      "name": "Phone controls reachable above tour: warehouse",
+      "pass": true,
+      "detail": [
+        {
+          "label": "Cutaway",
+          "left": 173.421875,
+          "right": 254.65625,
+          "top": 628,
+          "bottom": 672,
+          "navTop": 685
+        },
+        {
+          "label": "Roofs",
+          "left": 259.65625,
+          "right": 326.921875,
+          "top": 628,
+          "bottom": 672,
+          "navTop": 685
+        },
+        {
+          "label": "Floor CaféWork & readMeet & relax",
+          "left": 230.25,
+          "right": 378,
+          "top": 575,
+          "bottom": 624,
+          "navTop": 685
+        },
+        {
+          "label": "Dusk",
+          "left": 331.921875,
+          "right": 378,
+          "top": 628,
+          "bottom": 672,
+          "navTop": 685
+        }
+      ]
+    },
+    {
+      "name": "Phone controls reachable above tour: library",
+      "pass": true,
+      "detail": [
+        {
+          "label": "Cutaway",
+          "left": 75.640625,
+          "right": 156.875,
+          "top": 628,
+          "bottom": 672,
+          "navTop": 685
+        },
+        {
+          "label": "Roofs",
+          "left": 160.875,
+          "right": 228.140625,
+          "top": 628,
+          "bottom": 672,
+          "navTop": 685
+        },
+        {
+          "label": "Floor CaféWork & readMeet & relax",
+          "left": 230.25,
+          "right": 378,
+          "top": 575,
+          "bottom": 624,
+          "navTop": 685
+        },
+        {
+          "label": "Explore shelves",
+          "left": 232.140625,
+          "right": 327.921875,
+          "top": 628,
+          "bottom": 672,
+          "navTop": 685
+        },
+        {
+          "label": "Dusk",
+          "left": 331.921875,
+          "right": 378,
+          "top": 628,
+          "bottom": 672,
+          "navTop": 685
+        }
+      ]
+    },
+    {
+      "name": "Phone controls reachable above tour: atrium",
+      "pass": true,
+      "detail": [
+        {
+          "label": "Cutaway",
+          "left": 173.421875,
+          "right": 254.65625,
+          "top": 628,
+          "bottom": 672,
+          "navTop": 685
+        },
+        {
+          "label": "Roofs",
+          "left": 259.65625,
+          "right": 326.921875,
+          "top": 628,
+          "bottom": 672,
+          "navTop": 685
+        },
+        {
+          "label": "Dusk",
+          "left": 331.921875,
+          "right": 378,
+          "top": 628,
+          "bottom": 672,
+          "navTop": 685
+        }
+      ]
+    },
+    {
+      "name": "Phone controls reachable above tour: terrace",
+      "pass": true,
+      "detail": [
+        {
+          "label": "Cutaway",
+          "left": 173.421875,
+          "right": 254.65625,
+          "top": 628,
+          "bottom": 672,
+          "navTop": 685
+        },
+        {
+          "label": "Roofs",
+          "left": 259.65625,
+          "right": 326.921875,
+          "top": 628,
+          "bottom": 672,
+          "navTop": 685
+        },
+        {
+          "label": "Dusk",
+          "left": 331.921875,
+          "right": 378,
+          "top": 628,
+          "bottom": 672,
+          "navTop": 685
+        }
+      ]
+    },
+    {
+      "name": "Reset view preserves selected office floor",
+      "pass": true
+    },
+    {
+      "name": "Library floor change enters coherent warehouse view",
+      "pass": true
+    },
+    {
+      "name": "All captures contain varied scene pixels",
+      "pass": true,
+      "detail": {
+        "passed": true,
+        "captures": [
+          {
+            "file": "desktop-assets.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              35.67,
+              34.66,
+              34.65
+            ],
+            "quantized_colors": 40,
+            "passed": true
+          },
+          {
+            "file": "desktop-atrium.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              71.45,
+              62.42,
+              63.64
+            ],
+            "quantized_colors": 278,
+            "passed": true
+          },
+          {
+            "file": "desktop-campus.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              51.81,
+              49.4,
+              52.69
+            ],
+            "quantized_colors": 231,
+            "passed": true
+          },
+          {
+            "file": "desktop-dusk.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              51.21,
+              48.66,
+              51.58
+            ],
+            "quantized_colors": 189,
+            "passed": true
+          },
+          {
+            "file": "desktop-library.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              55.59,
+              55.89,
+              61.83
+            ],
+            "quantized_colors": 193,
+            "passed": true
+          },
+          {
+            "file": "desktop-model-gh_bookshelf_pod.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              32.79,
+              49.46,
+              64.31
+            ],
+            "quantized_colors": 251,
+            "passed": true
+          },
+          {
+            "file": "desktop-model-gh_mural_collaboration.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              39.65,
+              38.73,
+              39.31
+            ],
+            "quantized_colors": 96,
+            "passed": true
+          },
+          {
+            "file": "desktop-model-gh_mural_currents.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              81.06,
+              83.58,
+              65.1
+            ],
+            "quantized_colors": 92,
+            "passed": true
+          },
+          {
+            "file": "desktop-model-gh_mural_universe.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              30,
+              29.35,
+              30.29
+            ],
+            "quantized_colors": 101,
+            "passed": true
+          },
+          {
+            "file": "desktop-model-gh_recessed_lounge.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              90.89,
+              89.3,
+              91.07
+            ],
+            "quantized_colors": 118,
+            "passed": true
+          },
+          {
+            "file": "desktop-model-gh_secret_octocat.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              48.45,
+              47.47,
+              48.27
+            ],
+            "quantized_colors": 111,
+            "passed": true
+          },
+          {
+            "file": "desktop-model-gh_thinktocat.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              35.09,
+              45.36,
+              63.32
+            ],
+            "quantized_colors": 69,
+            "passed": true
+          },
+          {
+            "file": "desktop-model-gh_worklounge_pod.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              23.85,
+              36.35,
+              53.19
+            ],
+            "quantized_colors": 60,
+            "passed": true
+          },
+          {
+            "file": "desktop-secret-found.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              57.81,
+              65.94,
+              70.99
+            ],
+            "quantized_colors": 121,
+            "passed": true
+          },
+          {
+            "file": "desktop-shelves.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              45.61,
+              59.38,
+              65.73
+            ],
+            "quantized_colors": 298,
+            "passed": true
+          },
+          {
+            "file": "desktop-terrace.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              33.28,
+              29.84,
+              30.13
+            ],
+            "quantized_colors": 153,
+            "passed": true
+          },
+          {
+            "file": "desktop-warehouse-upper.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              47.1,
+              47.65,
+              52.81
+            ],
+            "quantized_colors": 299,
+            "passed": true
+          },
+          {
+            "file": "desktop-warehouse.png",
+            "size": [
+              1440,
+              960
+            ],
+            "center_crop_stddev": [
+              46.91,
+              49.95,
+              59
+            ],
+            "quantized_colors": 307,
+            "passed": true
+          },
+          {
+            "file": "phone-assets.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              28.81,
+              27.56,
+              27.88
+            ],
+            "quantized_colors": 33,
+            "passed": true
+          },
+          {
+            "file": "phone-atrium.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              60.13,
+              53.18,
+              54.95
+            ],
+            "quantized_colors": 284,
+            "passed": true
+          },
+          {
+            "file": "phone-campus.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              41.44,
+              38.94,
+              45.75
+            ],
+            "quantized_colors": 209,
+            "passed": true
+          },
+          {
+            "file": "phone-dusk.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              61.86,
+              55.23,
+              58.34
+            ],
+            "quantized_colors": 191,
+            "passed": true
+          },
+          {
+            "file": "phone-library.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              46.06,
+              56.61,
+              65.84
+            ],
+            "quantized_colors": 188,
+            "passed": true
+          },
+          {
+            "file": "phone-model-gh_bookshelf_pod.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              30.84,
+              45.66,
+              60.19
+            ],
+            "quantized_colors": 209,
+            "passed": true
+          },
+          {
+            "file": "phone-model-gh_mural_collaboration.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              32.52,
+              32.05,
+              33.04
+            ],
+            "quantized_colors": 86,
+            "passed": true
+          },
+          {
+            "file": "phone-model-gh_mural_currents.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              68.87,
+              71.41,
+              56.43
+            ],
+            "quantized_colors": 87,
+            "passed": true
+          },
+          {
+            "file": "phone-model-gh_mural_universe.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              24.63,
+              24.2,
+              25.38
+            ],
+            "quantized_colors": 88,
+            "passed": true
+          },
+          {
+            "file": "phone-model-gh_recessed_lounge.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              84.14,
+              84.94,
+              88.8
+            ],
+            "quantized_colors": 119,
+            "passed": true
+          },
+          {
+            "file": "phone-model-gh_secret_octocat.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              57.9,
+              56.73,
+              57.93
+            ],
+            "quantized_colors": 118,
+            "passed": true
+          },
+          {
+            "file": "phone-model-gh_thinktocat.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              31.55,
+              40.06,
+              55.27
+            ],
+            "quantized_colors": 78,
+            "passed": true
+          },
+          {
+            "file": "phone-model-gh_worklounge_pod.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              23.59,
+              33.95,
+              49.2
+            ],
+            "quantized_colors": 72,
+            "passed": true
+          },
+          {
+            "file": "phone-secret-found.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              62.87,
+              69.86,
+              79.08
+            ],
+            "quantized_colors": 100,
+            "passed": true
+          },
+          {
+            "file": "phone-shelves.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              41.79,
+              53.77,
+              60.13
+            ],
+            "quantized_colors": 284,
+            "passed": true
+          },
+          {
+            "file": "phone-terrace.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              36.57,
+              35.16,
+              40.41
+            ],
+            "quantized_colors": 137,
+            "passed": true
+          },
+          {
+            "file": "phone-warehouse-upper.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              41.42,
+              44.36,
+              55.84
+            ],
+            "quantized_colors": 223,
+            "passed": true
+          },
+          {
+            "file": "phone-warehouse.png",
+            "size": [
+              390,
+              844
+            ],
+            "center_crop_stddev": [
+              37.26,
+              43.44,
+              55.05
+            ],
+            "quantized_colors": 237,
+            "passed": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Source asset hashes remained stable during browser pass",
+      "pass": false
+    }
+  ],
+  "captures": [
+    "desktop-campus.png",
+    "desktop-warehouse.png",
+    "desktop-library.png",
+    "desktop-atrium.png",
+    "desktop-terrace.png",
+    "desktop-assets.png",
+    "desktop-warehouse-upper.png",
+    "desktop-dusk.png",
+    "desktop-model-gh_thinktocat.png",
+    "desktop-model-gh_bookshelf_pod.png",
+    "desktop-model-gh_worklounge_pod.png",
+    "desktop-model-gh_recessed_lounge.png",
+    "desktop-model-gh_secret_octocat.png",
+    "desktop-model-gh_mural_universe.png",
+    "desktop-model-gh_mural_currents.png",
+    "desktop-model-gh_mural_collaboration.png",
+    "desktop-shelves.png",
+    "desktop-secret-found.png",
+    "phone-campus.png",
+    "phone-warehouse.png",
+    "phone-library.png",
+    "phone-atrium.png",
+    "phone-terrace.png",
+    "phone-assets.png",
+    "phone-warehouse-upper.png",
+    "phone-dusk.png",
+    "phone-model-gh_thinktocat.png",
+    "phone-model-gh_bookshelf_pod.png",
+    "phone-model-gh_worklounge_pod.png",
+    "phone-model-gh_recessed_lounge.png",
+    "phone-model-gh_secret_octocat.png",
+    "phone-model-gh_mural_universe.png",
+    "phone-model-gh_mural_currents.png",
+    "phone-model-gh_mural_collaboration.png",
+    "phone-shelves.png",
+    "phone-secret-found.png",
+    "phone-library.png"
+  ],
+  "errors": [],
+  "metrics": [
+    {
+      "ready": true,
+      "secretFound": false,
+      "view": "campus",
+      "selected": "gh_warehouse",
+      "loaded": [
+        "gh_warehouse",
+        "gh_atrium",
+        "gh_container",
+        "gh_facade_bay",
+        "gh_entry_portal",
+        "gh_glass_partition",
+        "gh_roof_terrace",
+        "gh_bridge",
+        "gh_workstation",
+        "gh_meeting_set",
+        "gh_library",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_pendant",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_contribution_art",
+        "gh_roof_furniture",
+        "gh_floor_wood",
+        "gh_floor_paving",
+        "gh_floor_hex",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_planter",
+        "gh_tree",
+        "gh_courtyard",
+        "gh_membrane_wall",
+        "gh_ceiling_services",
+        "gh_indoor_park",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_universe",
+        "gh_mural_currents",
+        "gh_mural_collaboration"
+      ],
+      "used": [
+        "gh_floor_hex",
+        "gh_floor_wood",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_meeting_set",
+        "gh_container",
+        "gh_workstation",
+        "gh_pendant",
+        "gh_planter",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_currents",
+        "gh_glass_partition",
+        "gh_library",
+        "gh_membrane_wall",
+        "gh_indoor_park",
+        "gh_ceiling_services",
+        "gh_warehouse",
+        "gh_roof_terrace",
+        "gh_roof_furniture",
+        "gh_mural_collaboration",
+        "gh_atrium",
+        "gh_contribution_art",
+        "gh_bridge",
+        "gh_mural_universe",
+        "gh_entry_portal",
+        "gh_floor_paving",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_courtyard",
+        "gh_facade_bay",
+        "gh_tree"
+      ],
+      "placements": 213,
+      "calls": 126,
+      "triangles": 289218,
+      "geometries": 96,
+      "textures": 37,
+      "frameMs": 8.3,
+      "dpr": 1,
+      "errors": [],
+      "camera": [
+        41.30544338105702,
+        48.30478908118746,
+        54.50995436435138
+      ],
+      "target": [
+        -1,
+        4,
+        0
+      ],
+      "cutaway": false,
+      "floor": 0,
+      "roofs": true,
+      "viewport": "desktop"
+    },
+    {
+      "ready": true,
+      "secretFound": false,
+      "view": "warehouse",
+      "selected": "gh_warehouse",
+      "loaded": [
+        "gh_warehouse",
+        "gh_atrium",
+        "gh_container",
+        "gh_facade_bay",
+        "gh_entry_portal",
+        "gh_glass_partition",
+        "gh_roof_terrace",
+        "gh_bridge",
+        "gh_workstation",
+        "gh_meeting_set",
+        "gh_library",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_pendant",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_contribution_art",
+        "gh_roof_furniture",
+        "gh_floor_wood",
+        "gh_floor_paving",
+        "gh_floor_hex",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_planter",
+        "gh_tree",
+        "gh_courtyard",
+        "gh_membrane_wall",
+        "gh_ceiling_services",
+        "gh_indoor_park",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_universe",
+        "gh_mural_currents",
+        "gh_mural_collaboration"
+      ],
+      "used": [
+        "gh_floor_hex",
+        "gh_floor_wood",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_meeting_set",
+        "gh_container",
+        "gh_workstation",
+        "gh_pendant",
+        "gh_planter",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_currents",
+        "gh_glass_partition",
+        "gh_library",
+        "gh_membrane_wall",
+        "gh_indoor_park",
+        "gh_ceiling_services",
+        "gh_warehouse",
+        "gh_roof_terrace",
+        "gh_roof_furniture",
+        "gh_mural_collaboration",
+        "gh_atrium",
+        "gh_contribution_art",
+        "gh_bridge",
+        "gh_mural_universe",
+        "gh_entry_portal",
+        "gh_floor_paving",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_courtyard",
+        "gh_facade_bay",
+        "gh_tree"
+      ],
+      "placements": 213,
+      "calls": 29,
+      "triangles": 70900,
+      "geometries": 96,
+      "textures": 37,
+      "frameMs": 8.3,
+      "dpr": 1,
+      "errors": [],
+      "camera": [
+        -1.6091536701199338,
+        21.453689128329973,
+        23.460361236541967
+      ],
+      "target": [
+        -11.99885054756035,
+        2.000208991352664,
+        -4.999477521618341
+      ],
+      "cutaway": true,
+      "floor": 0,
+      "roofs": false,
+      "viewport": "desktop"
+    },
+    {
+      "ready": true,
+      "secretFound": false,
+      "view": "library",
+      "selected": "gh_warehouse",
+      "loaded": [
+        "gh_warehouse",
+        "gh_atrium",
+        "gh_container",
+        "gh_facade_bay",
+        "gh_entry_portal",
+        "gh_glass_partition",
+        "gh_roof_terrace",
+        "gh_bridge",
+        "gh_workstation",
+        "gh_meeting_set",
+        "gh_library",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_pendant",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_contribution_art",
+        "gh_roof_furniture",
+        "gh_floor_wood",
+        "gh_floor_paving",
+        "gh_floor_hex",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_planter",
+        "gh_tree",
+        "gh_courtyard",
+        "gh_membrane_wall",
+        "gh_ceiling_services",
+        "gh_indoor_park",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_universe",
+        "gh_mural_currents",
+        "gh_mural_collaboration"
+      ],
+      "used": [
+        "gh_floor_hex",
+        "gh_floor_wood",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_meeting_set",
+        "gh_container",
+        "gh_workstation",
+        "gh_pendant",
+        "gh_planter",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_currents",
+        "gh_glass_partition",
+        "gh_library",
+        "gh_membrane_wall",
+        "gh_indoor_park",
+        "gh_ceiling_services",
+        "gh_warehouse",
+        "gh_roof_terrace",
+        "gh_roof_furniture",
+        "gh_mural_collaboration",
+        "gh_atrium",
+        "gh_contribution_art",
+        "gh_bridge",
+        "gh_mural_universe",
+        "gh_entry_portal",
+        "gh_floor_paving",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_courtyard",
+        "gh_facade_bay",
+        "gh_tree"
+      ],
+      "placements": 213,
+      "calls": 32,
+      "triangles": 108658,
+      "geometries": 96,
+      "textures": 37,
+      "frameMs": 8.3,
+      "dpr": 1,
+      "errors": [],
+      "camera": [
+        -18.244009163536827,
+        8.760254927230621,
+        6.731895394074817
+      ],
+      "target": [
+        -20.497707056320323,
+        6.648745850903486,
+        -10.498516390245543
+      ],
+      "cutaway": true,
+      "floor": 1,
+      "roofs": false,
+      "viewport": "desktop"
+    },
+    {
+      "ready": true,
+      "secretFound": false,
+      "view": "atrium",
+      "selected": "gh_warehouse",
+      "loaded": [
+        "gh_warehouse",
+        "gh_atrium",
+        "gh_container",
+        "gh_facade_bay",
+        "gh_entry_portal",
+        "gh_glass_partition",
+        "gh_roof_terrace",
+        "gh_bridge",
+        "gh_workstation",
+        "gh_meeting_set",
+        "gh_library",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_pendant",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_contribution_art",
+        "gh_roof_furniture",
+        "gh_floor_wood",
+        "gh_floor_paving",
+        "gh_floor_hex",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_planter",
+        "gh_tree",
+        "gh_courtyard",
+        "gh_membrane_wall",
+        "gh_ceiling_services",
+        "gh_indoor_park",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_universe",
+        "gh_mural_currents",
+        "gh_mural_collaboration"
+      ],
+      "used": [
+        "gh_floor_hex",
+        "gh_floor_wood",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_meeting_set",
+        "gh_container",
+        "gh_workstation",
+        "gh_pendant",
+        "gh_planter",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_currents",
+        "gh_glass_partition",
+        "gh_library",
+        "gh_membrane_wall",
+        "gh_indoor_park",
+        "gh_ceiling_services",
+        "gh_warehouse",
+        "gh_roof_terrace",
+        "gh_roof_furniture",
+        "gh_mural_collaboration",
+        "gh_atrium",
+        "gh_contribution_art",
+        "gh_bridge",
+        "gh_mural_universe",
+        "gh_entry_portal",
+        "gh_floor_paving",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_courtyard",
+        "gh_facade_bay",
+        "gh_tree"
+      ],
+      "placements": 213,
+      "calls": 51,
+      "triangles": 146608,
+      "geometries": 96,
+      "textures": 37,
+      "frameMs": 8.3,
+      "dpr": 1,
+      "errors": [],
+      "camera": [
+        25.470938178094734,
+        16.245795293314465,
+        16.519276438930792
+      ],
+      "target": [
+        16.99516253301266,
+        4.000341706776693,
+        -6.0005803401391224
+      ],
+      "cutaway": false,
+      "floor": 1,
+      "roofs": false,
+      "viewport": "desktop"
+    },
+    {
+      "ready": true,
+      "secretFound": false,
+      "view": "terrace",
+      "selected": "gh_warehouse",
+      "loaded": [
+        "gh_warehouse",
+        "gh_atrium",
+        "gh_container",
+        "gh_facade_bay",
+        "gh_entry_portal",
+        "gh_glass_partition",
+        "gh_roof_terrace",
+        "gh_bridge",
+        "gh_workstation",
+        "gh_meeting_set",
+        "gh_library",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_pendant",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_contribution_art",
+        "gh_roof_furniture",
+        "gh_floor_wood",
+        "gh_floor_paving",
+        "gh_floor_hex",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_planter",
+        "gh_tree",
+        "gh_courtyard",
+        "gh_membrane_wall",
+        "gh_ceiling_services",
+        "gh_indoor_park",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_universe",
+        "gh_mural_currents",
+        "gh_mural_collaboration"
+      ],
+      "used": [
+        "gh_floor_hex",
+        "gh_floor_wood",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_meeting_set",
+        "gh_container",
+        "gh_workstation",
+        "gh_pendant",
+        "gh_planter",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_currents",
+        "gh_glass_partition",
+        "gh_library",
+        "gh_membrane_wall",
+        "gh_indoor_park",
+        "gh_ceiling_services",
+        "gh_warehouse",
+        "gh_roof_terrace",
+        "gh_roof_furniture",
+        "gh_mural_collaboration",
+        "gh_atrium",
+        "gh_contribution_art",
+        "gh_bridge",
+        "gh_mural_universe",
+        "gh_entry_portal",
+        "gh_floor_paving",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_courtyard",
+        "gh_facade_bay",
+        "gh_tree"
+      ],
+      "placements": 213,
+      "calls": 112,
+      "triangles": 260650,
+      "geometries": 96,
+      "textures": 37,
+      "frameMs": 8.3,
+      "dpr": 1,
+      "errors": [],
+      "camera": [
+        0.20064192713921614,
+        40.13616392166999,
+        19.24861296882515
+      ],
+      "target": [
+        -11.99538200103759,
+        15.998088839492302,
+        -6.000000092429562
+      ],
+      "cutaway": false,
+      "floor": 1,
+      "roofs": true,
+      "viewport": "desktop"
+    },
+    {
+      "ready": true,
+      "secretFound": false,
+      "view": "assets",
+      "selected": "gh_warehouse",
+      "loaded": [
+        "gh_warehouse",
+        "gh_atrium",
+        "gh_container",
+        "gh_facade_bay",
+        "gh_entry_portal",
+        "gh_glass_partition",
+        "gh_roof_terrace",
+        "gh_bridge",
+        "gh_workstation",
+        "gh_meeting_set",
+        "gh_library",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_pendant",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_contribution_art",
+        "gh_roof_furniture",
+        "gh_floor_wood",
+        "gh_floor_paving",
+        "gh_floor_hex",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_planter",
+        "gh_tree",
+        "gh_courtyard",
+        "gh_membrane_wall",
+        "gh_ceiling_services",
+        "gh_indoor_park",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_universe",
+        "gh_mural_currents",
+        "gh_mural_collaboration"
+      ],
+      "used": [
+        "gh_floor_hex",
+        "gh_floor_wood",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_meeting_set",
+        "gh_container",
+        "gh_workstation",
+        "gh_pendant",
+        "gh_planter",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_currents",
+        "gh_glass_partition",
+        "gh_library",
+        "gh_membrane_wall",
+        "gh_indoor_park",
+        "gh_ceiling_services",
+        "gh_warehouse",
+        "gh_roof_terrace",
+        "gh_roof_furniture",
+        "gh_mural_collaboration",
+        "gh_atrium",
+        "gh_contribution_art",
+        "gh_bridge",
+        "gh_mural_universe",
+        "gh_entry_portal",
+        "gh_floor_paving",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_courtyard",
+        "gh_facade_bay",
+        "gh_tree"
+      ],
+      "placements": 213,
+      "calls": 20,
+      "triangles": 36976,
+      "geometries": 97,
+      "textures": 37,
+      "frameMs": 8.3,
+      "dpr": 1,
+      "errors": [],
+      "camera": [
+        34.14854311068171,
+        51.27004744832486,
+        65.59527752081254
+      ],
+      "target": [
+        -0.0011281189995508167,
+        6.858859486801375,
+        -0.0005642766608842435
+      ],
+      "cutaway": false,
+      "floor": 1,
+      "roofs": true,
+      "viewport": "desktop"
+    },
+    {
+      "ready": true,
+      "secretFound": false,
+      "view": "campus",
+      "selected": "gh_warehouse",
+      "loaded": [
+        "gh_warehouse",
+        "gh_atrium",
+        "gh_container",
+        "gh_facade_bay",
+        "gh_entry_portal",
+        "gh_glass_partition",
+        "gh_roof_terrace",
+        "gh_bridge",
+        "gh_workstation",
+        "gh_meeting_set",
+        "gh_library",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_pendant",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_contribution_art",
+        "gh_roof_furniture",
+        "gh_floor_wood",
+        "gh_floor_paving",
+        "gh_floor_hex",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_planter",
+        "gh_tree",
+        "gh_courtyard",
+        "gh_membrane_wall",
+        "gh_ceiling_services",
+        "gh_indoor_park",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_universe",
+        "gh_mural_currents",
+        "gh_mural_collaboration"
+      ],
+      "used": [
+        "gh_floor_hex",
+        "gh_floor_wood",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_meeting_set",
+        "gh_container",
+        "gh_workstation",
+        "gh_pendant",
+        "gh_planter",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_currents",
+        "gh_glass_partition",
+        "gh_library",
+        "gh_membrane_wall",
+        "gh_indoor_park",
+        "gh_ceiling_services",
+        "gh_warehouse",
+        "gh_roof_terrace",
+        "gh_roof_furniture",
+        "gh_mural_collaboration",
+        "gh_atrium",
+        "gh_contribution_art",
+        "gh_bridge",
+        "gh_mural_universe",
+        "gh_entry_portal",
+        "gh_floor_paving",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_courtyard",
+        "gh_facade_bay",
+        "gh_tree"
+      ],
+      "placements": 213,
+      "calls": 126,
+      "triangles": 289218,
+      "geometries": 96,
+      "textures": 37,
+      "frameMs": 8.3,
+      "dpr": 1,
+      "errors": [],
+      "camera": [
+        62.45816507158554,
+        70.4571836217812,
+        81.76493154652708
+      ],
+      "target": [
+        -1,
+        4,
+        0
+      ],
+      "cutaway": false,
+      "floor": 0,
+      "roofs": true,
+      "viewport": "phone"
+    },
+    {
+      "ready": true,
+      "secretFound": false,
+      "view": "warehouse",
+      "selected": "gh_warehouse",
+      "loaded": [
+        "gh_warehouse",
+        "gh_atrium",
+        "gh_container",
+        "gh_facade_bay",
+        "gh_entry_portal",
+        "gh_glass_partition",
+        "gh_roof_terrace",
+        "gh_bridge",
+        "gh_workstation",
+        "gh_meeting_set",
+        "gh_library",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_pendant",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_contribution_art",
+        "gh_roof_furniture",
+        "gh_floor_wood",
+        "gh_floor_paving",
+        "gh_floor_hex",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_planter",
+        "gh_tree",
+        "gh_courtyard",
+        "gh_membrane_wall",
+        "gh_ceiling_services",
+        "gh_indoor_park",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_universe",
+        "gh_mural_currents",
+        "gh_mural_collaboration"
+      ],
+      "used": [
+        "gh_floor_hex",
+        "gh_floor_wood",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_meeting_set",
+        "gh_container",
+        "gh_workstation",
+        "gh_pendant",
+        "gh_planter",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_currents",
+        "gh_glass_partition",
+        "gh_library",
+        "gh_membrane_wall",
+        "gh_indoor_park",
+        "gh_ceiling_services",
+        "gh_warehouse",
+        "gh_roof_terrace",
+        "gh_roof_furniture",
+        "gh_mural_collaboration",
+        "gh_atrium",
+        "gh_contribution_art",
+        "gh_bridge",
+        "gh_mural_universe",
+        "gh_entry_portal",
+        "gh_floor_paving",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_courtyard",
+        "gh_facade_bay",
+        "gh_tree"
+      ],
+      "placements": 213,
+      "calls": 28,
+      "triangles": 82548,
+      "geometries": 96,
+      "textures": 37,
+      "frameMs": 8.3,
+      "dpr": 1,
+      "errors": [],
+      "camera": [
+        3.584108400869326,
+        31.179017597387563,
+        37.68831455977857
+      ],
+      "target": [
+        -11.999245844254347,
+        2.0001371192264834,
+        -4.999657201933793
+      ],
+      "cutaway": true,
+      "floor": 0,
+      "roofs": false,
+      "viewport": "phone"
+    },
+    {
+      "ready": true,
+      "secretFound": false,
+      "view": "library",
+      "selected": "gh_warehouse",
+      "loaded": [
+        "gh_warehouse",
+        "gh_atrium",
+        "gh_container",
+        "gh_facade_bay",
+        "gh_entry_portal",
+        "gh_glass_partition",
+        "gh_roof_terrace",
+        "gh_bridge",
+        "gh_workstation",
+        "gh_meeting_set",
+        "gh_library",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_pendant",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_contribution_art",
+        "gh_roof_furniture",
+        "gh_floor_wood",
+        "gh_floor_paving",
+        "gh_floor_hex",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_planter",
+        "gh_tree",
+        "gh_courtyard",
+        "gh_membrane_wall",
+        "gh_ceiling_services",
+        "gh_indoor_park",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_universe",
+        "gh_mural_currents",
+        "gh_mural_collaboration"
+      ],
+      "used": [
+        "gh_floor_hex",
+        "gh_floor_wood",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_meeting_set",
+        "gh_container",
+        "gh_workstation",
+        "gh_pendant",
+        "gh_planter",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_currents",
+        "gh_glass_partition",
+        "gh_library",
+        "gh_membrane_wall",
+        "gh_indoor_park",
+        "gh_ceiling_services",
+        "gh_warehouse",
+        "gh_roof_terrace",
+        "gh_roof_furniture",
+        "gh_mural_collaboration",
+        "gh_atrium",
+        "gh_contribution_art",
+        "gh_bridge",
+        "gh_mural_universe",
+        "gh_entry_portal",
+        "gh_floor_paving",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_courtyard",
+        "gh_facade_bay",
+        "gh_tree"
+      ],
+      "placements": 213,
+      "calls": 31,
+      "triangles": 107610,
+      "geometries": 96,
+      "textures": 37,
+      "frameMs": 8.3,
+      "dpr": 1,
+      "errors": [],
+      "camera": [
+        -20.496877674680807,
+        9.293269487846269,
+        15.622404336915311
+      ],
+      "target": [
+        -20.498495669605187,
+        6.649177140058974,
+        -10.49902663543711
+      ],
+      "cutaway": true,
+      "floor": 1,
+      "roofs": false,
+      "viewport": "phone"
+    },
+    {
+      "ready": true,
+      "secretFound": false,
+      "view": "atrium",
+      "selected": "gh_warehouse",
+      "loaded": [
+        "gh_warehouse",
+        "gh_atrium",
+        "gh_container",
+        "gh_facade_bay",
+        "gh_entry_portal",
+        "gh_glass_partition",
+        "gh_roof_terrace",
+        "gh_bridge",
+        "gh_workstation",
+        "gh_meeting_set",
+        "gh_library",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_pendant",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_contribution_art",
+        "gh_roof_furniture",
+        "gh_floor_wood",
+        "gh_floor_paving",
+        "gh_floor_hex",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_planter",
+        "gh_tree",
+        "gh_courtyard",
+        "gh_membrane_wall",
+        "gh_ceiling_services",
+        "gh_indoor_park",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_universe",
+        "gh_mural_currents",
+        "gh_mural_collaboration"
+      ],
+      "used": [
+        "gh_floor_hex",
+        "gh_floor_wood",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_meeting_set",
+        "gh_container",
+        "gh_workstation",
+        "gh_pendant",
+        "gh_planter",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_currents",
+        "gh_glass_partition",
+        "gh_library",
+        "gh_membrane_wall",
+        "gh_indoor_park",
+        "gh_ceiling_services",
+        "gh_warehouse",
+        "gh_roof_terrace",
+        "gh_roof_furniture",
+        "gh_mural_collaboration",
+        "gh_atrium",
+        "gh_contribution_art",
+        "gh_bridge",
+        "gh_mural_universe",
+        "gh_entry_portal",
+        "gh_floor_paving",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_courtyard",
+        "gh_facade_bay",
+        "gh_tree"
+      ],
+      "placements": 213,
+      "calls": 41,
+      "triangles": 127240,
+      "geometries": 96,
+      "textures": 37,
+      "frameMs": 8.3,
+      "dpr": 1,
+      "errors": [],
+      "camera": [
+        29.70827601128942,
+        22.368428688380618,
+        27.779462136110517
+      ],
+      "target": [
+        16.995162431276025,
+        4.000341762416017,
+        -6.000580405964326
+      ],
+      "cutaway": false,
+      "floor": 1,
+      "roofs": false,
+      "viewport": "phone"
+    },
+    {
+      "ready": true,
+      "secretFound": false,
+      "view": "terrace",
+      "selected": "gh_warehouse",
+      "loaded": [
+        "gh_warehouse",
+        "gh_atrium",
+        "gh_container",
+        "gh_facade_bay",
+        "gh_entry_portal",
+        "gh_glass_partition",
+        "gh_roof_terrace",
+        "gh_bridge",
+        "gh_workstation",
+        "gh_meeting_set",
+        "gh_library",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_pendant",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_contribution_art",
+        "gh_roof_furniture",
+        "gh_floor_wood",
+        "gh_floor_paving",
+        "gh_floor_hex",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_planter",
+        "gh_tree",
+        "gh_courtyard",
+        "gh_membrane_wall",
+        "gh_ceiling_services",
+        "gh_indoor_park",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_universe",
+        "gh_mural_currents",
+        "gh_mural_collaboration"
+      ],
+      "used": [
+        "gh_floor_hex",
+        "gh_floor_wood",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_meeting_set",
+        "gh_container",
+        "gh_workstation",
+        "gh_pendant",
+        "gh_planter",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_currents",
+        "gh_glass_partition",
+        "gh_library",
+        "gh_membrane_wall",
+        "gh_indoor_park",
+        "gh_ceiling_services",
+        "gh_warehouse",
+        "gh_roof_terrace",
+        "gh_roof_furniture",
+        "gh_mural_collaboration",
+        "gh_atrium",
+        "gh_contribution_art",
+        "gh_bridge",
+        "gh_mural_universe",
+        "gh_entry_portal",
+        "gh_floor_paving",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_courtyard",
+        "gh_facade_bay",
+        "gh_tree"
+      ],
+      "placements": 213,
+      "calls": 104,
+      "triangles": 259990,
+      "geometries": 96,
+      "textures": 37,
+      "frameMs": 8.3,
+      "dpr": 1,
+      "errors": [],
+      "camera": [
+        6.298653796518737,
+        52.20520144541634,
+        31.87291956169272
+      ],
+      "target": [
+        -11.995382001053796,
+        15.998088839501163,
+        -6.000000092440045
+      ],
+      "cutaway": false,
+      "floor": 1,
+      "roofs": true,
+      "viewport": "phone"
+    },
+    {
+      "ready": true,
+      "secretFound": false,
+      "view": "assets",
+      "selected": "gh_warehouse",
+      "loaded": [
+        "gh_warehouse",
+        "gh_atrium",
+        "gh_container",
+        "gh_facade_bay",
+        "gh_entry_portal",
+        "gh_glass_partition",
+        "gh_roof_terrace",
+        "gh_bridge",
+        "gh_workstation",
+        "gh_meeting_set",
+        "gh_library",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_pendant",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_contribution_art",
+        "gh_roof_furniture",
+        "gh_floor_wood",
+        "gh_floor_paving",
+        "gh_floor_hex",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_planter",
+        "gh_tree",
+        "gh_courtyard",
+        "gh_membrane_wall",
+        "gh_ceiling_services",
+        "gh_indoor_park",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_universe",
+        "gh_mural_currents",
+        "gh_mural_collaboration"
+      ],
+      "used": [
+        "gh_floor_hex",
+        "gh_floor_wood",
+        "gh_timber_frame",
+        "gh_stairs",
+        "gh_cafe_bar",
+        "gh_lounge",
+        "gh_meeting_set",
+        "gh_container",
+        "gh_workstation",
+        "gh_pendant",
+        "gh_planter",
+        "gh_bookshelf_pod",
+        "gh_worklounge_pod",
+        "gh_recessed_lounge",
+        "gh_secret_octocat",
+        "gh_mural_currents",
+        "gh_glass_partition",
+        "gh_library",
+        "gh_membrane_wall",
+        "gh_indoor_park",
+        "gh_ceiling_services",
+        "gh_warehouse",
+        "gh_roof_terrace",
+        "gh_roof_furniture",
+        "gh_mural_collaboration",
+        "gh_atrium",
+        "gh_contribution_art",
+        "gh_bridge",
+        "gh_mural_universe",
+        "gh_entry_portal",
+        "gh_floor_paving",
+        "gh_thinktocat",
+        "gh_sign",
+        "gh_courtyard",
+        "gh_facade_bay",
+        "gh_tree"
+      ],
+      "placements": 213,
+      "calls": 20,
+      "triangles": 36976,
+      "geometries": 97,
+      "textures": 37,
+      "frameMs": 8.3,
+      "dpr": 1,
+      "errors": [],
+      "camera": [
+        51.22497754757637,
+        73.47596660649056,
+        98.39548514069769
+      ],
+      "target": [
+        -0.0007401588756062907,
+        6.858563873869774,
+        -0.0003702219172067989
+      ],
+      "cutaway": false,
+      "floor": 1,
+      "roofs": true,
+      "viewport": "phone"
+    }
+  ],
+  "assetHashes": {
+    "assets/runtime/environment/gh_warehouse_v01.glb": "b8994233f65bbdeb029f5d0d2fd8f46a2f95ef2caac70bf2f441c0dffabe4903",
+    "assets/runtime/environment/gh_atrium_v01.glb": "bfcd0c41bdbf62b30c0805ee6d66fc667c378634e236f868091a78d5d1806ef3",
+    "assets/runtime/environment/gh_container_v01.glb": "85ff88faf663c740128d210edeca6a7f6df96e91345262f1a593404adada644c",
+    "assets/runtime/environment/gh_facade_bay_v01.glb": "1a46797a9e4ece7a5fff9d9e89d9fd3e42714ac2a106a54a6862c21766f36a33",
+    "assets/runtime/environment/gh_entry_portal_v01.glb": "40c27c606ef4ee23c215251267d7b6b4cd8f4c89aea504b2f1a3d5a03a2252e1",
+    "assets/runtime/environment/gh_glass_partition_v01.glb": "b52eb713988d322ab0840fdb6acd1cd69b513e336ec3e4b6c87d26185f97e2d0",
+    "assets/runtime/environment/gh_roof_terrace_v01.glb": "ac2ea2fcd09515e650bcccd82538858329baa89c54c69bd1a1ab45cbc9930824",
+    "assets/runtime/environment/gh_bridge_v01.glb": "b8a2e8947dec0bf2d94ac06fd117c508ac360d9897938d5e62f922e0c7f4ef72",
+    "assets/runtime/environment/gh_workstation_v01.glb": "97c2612d0bb9eec35a56833272b2cd105dc63dce768afd0bba55d9bf2ff7baab",
+    "assets/runtime/environment/gh_meeting_set_v01.glb": "f0794a8a0eed207782cffd00b32836015539a083fc22727a96f522ea6b85fce0",
+    "assets/runtime/environment/gh_library_v01.glb": "eeb35aa533e530ae80c70de0a92bddc38d6806a9e02a1aba590c1e07c809d1b5",
+    "assets/runtime/environment/gh_cafe_bar_v01.glb": "6e116306de0710a6d85094cdc6e01276c203509482e1254e0d144ab73ec1afb3",
+    "assets/runtime/environment/gh_lounge_v01.glb": "a98b2f64a16d0e6ed15c4043c9b8e2a73f92f3edff858b4bf5b2bd4478c1f869",
+    "assets/runtime/environment/gh_pendant_v01.glb": "5f6161a71710d3b44bf7ee09a2da1353919cecb17b01a9643bea46af15ea5a17",
+    "assets/runtime/environment/gh_thinktocat_v01.glb": "953c4823ea9c9f86a5963bf941208db6d62e84a8995189ab7d113d4bf0809c42",
+    "assets/runtime/environment/gh_sign_v01.glb": "f9dc0ce06c14551ac74f1d43d5b19e431a8601aeabba11db3a8579d2d0f49c26",
+    "assets/runtime/environment/gh_contribution_art_v01.glb": "4319ccb20156e6fc3324302da1931c324a986be3e2fbb519d05a32b84ecbe019",
+    "assets/runtime/environment/gh_roof_furniture_v01.glb": "e86bd3bf8cbfca5af4e026c301311eda6508cd99b8d295b2c70a82f11e8d32d0",
+    "assets/runtime/environment/gh_floor_wood_v01.glb": "3634874fd305cf08dc7d3d83230a967a3325417c1406df6854a1b70ae73c3f96",
+    "assets/runtime/environment/gh_floor_paving_v01.glb": "fd002a7d184d339ac3b9ee8a27dd659974dcfe1cf44a642fd602859b680afdb5",
+    "assets/runtime/environment/gh_floor_hex_v01.glb": "fb7a853f71f75fe33640bcb11d27981ae0891b37ee3996dfced8810ca4070af2",
+    "assets/runtime/environment/gh_timber_frame_v01.glb": "455fec8a06b2438a6aa0a02e6dd2cd53afca9b583af2e19f2c22689deaab22d1",
+    "assets/runtime/environment/gh_stairs_v01.glb": "0c9e021daf46ece7cbcc43498d545254392aaf25bf17878aa226181ee15f2b31",
+    "assets/runtime/environment/gh_planter_v01.glb": "b03cb6fea53895403a8cff892e3241757fb2cf64321196bd454c0af213b60cb9",
+    "assets/runtime/environment/gh_tree_v01.glb": "920c70e9908ec59e54a845a90bf5abf12b0559f0ce00491dc17e9f829159f1c1",
+    "assets/runtime/environment/gh_courtyard_v01.glb": "8ca167d66da21fb98673edf8f5d5dee973dd13f7d6abbaf4a39758b7c92b2157",
+    "assets/runtime/environment/gh_membrane_wall_v01.glb": "8399faa8c8f70e85a63121f4fbb50daddfc8a803644a3eeb40beabcc567f6f77",
+    "assets/runtime/environment/gh_ceiling_services_v01.glb": "e443801ff8b07484bac0c0ef445771251b1ca5d71d420f9262a8435920b4a1ce",
+    "assets/runtime/environment/gh_indoor_park_v01.glb": "732ac2aa57ae714a0c03d6c6c3792e809c0237c3ff8da9fd27feee1d507807bf",
+    "assets/runtime/environment/gh_bookshelf_pod_v01.glb": "348bd245a003aaf03f17e87fe2c21534b260f182484f245ae4c3258633f6fd5b",
+    "assets/runtime/environment/gh_worklounge_pod_v01.glb": "2e25f08443d87541a32f2308eff779f841f0aa2cef841776e8ea0eab1c9225ec",
+    "assets/runtime/environment/gh_recessed_lounge_v01.glb": "f13f1a371262d8e3ff88efba5fc53137667d03e214b017d907fab8d0f488c3c0",
+    "assets/runtime/environment/gh_secret_octocat_v01.glb": "f28dc21e61a088409bf90ac17c0f60d12fe1965fc74f621761703982dbf1beb4",
+    "assets/runtime/environment/gh_mural_universe_v01.glb": "c0012d8fa5d097f6d573ee047e833d75cab06a7163171a5bbc975af67f1c300f",
+    "assets/runtime/environment/gh_mural_currents_v01.glb": "6a2d9048e27748d5a0ea032968b76075336566b292c526bc014811769dc46eac",
+    "assets/runtime/environment/gh_mural_collaboration_v01.glb": "4ada0f8f297ee9546e63819b171c52f59feea061135b9ff4807f859b6e9a524f"
+  },
+  "codeHashes": {
+    "index.html": "b65e10ab94c6f430c54b7ffde14428919a9ab4c93a66fa94c449f10964ab9798",
+    "style.css": "075d6cd6aa2c8f42667abf246bd888e87e99a0b0db6d162b51f43b2ed0a3b6ba",
+    "app.js": "a8f7a510cb9d5643fe21c45f59908d06301b3fa9f1713add663062aa6350a183",
+    "layout.js": "25244b84e67e0d7cd44d63255f656fc745785641a6b73dc35a8841ba89f472fd",
+    "serve.mjs": "5ceacfd4e0ceaa65e82c972e60e5da46b3803804d551164b199995e9f21152b6",
+    "verify.mjs": "4adb629946178401da3c7ee84da298e32199450c10fb217f2d13b959e91aa80c"
+  },
+  "passed": false,
+  "failure": "Error: Source asset hashes remained stable during browser pass: undefined\n    at check (file:///C:/Users/jonas/Documents/ChatGPT/Tower/prototypes/github-campus/verify.mjs:10:88)\n    at file:///C:/Users/jonas/Documents/ChatGPT/Tower/prototypes/github-campus/verify.mjs:17:1248"
+}

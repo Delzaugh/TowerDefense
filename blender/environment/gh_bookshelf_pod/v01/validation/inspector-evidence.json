@@ -1,0 +1,465 @@
+{
+  "id": "gh_bookshelf_pod",
+  "revision": 6,
+  "sha256": "500ab07d38483ee08f64cb739c60ef5a05d6f1dbce4705b1513a8418faf47d7e",
+  "sourceHash": "42bbc91aace53a14cbac121674fc058cd3904b98a6d7bfd7dc7a18da29a6f5ac",
+  "states": [
+    {
+      "view": "front",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_bookshelf_pod_v01.glb",
+        "view": "front",
+        "projection": "OrthographicCamera",
+        "distance": 5.021564284563176,
+        "target": [
+          0,
+          1.600000023841858,
+          0.0009999871253967285
+        ],
+        "camera": [
+          0,
+          1.6000000238418581,
+          5.022564271688573
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb",
+            "revision": "500ab07d38483ee08f64cb739c60ef5a05d6f1dbce4705b1513a8418faf47d7e",
+            "triangles": 6604,
+            "meshes": 5,
+            "materials": 3,
+            "bounds": [
+              [
+                -0.800000011920929,
+                0,
+                -1.100000023841858
+              ],
+              [
+                0.800000011920929,
+                3.200000047683716,
+                1.1019999980926514
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "iso",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_bookshelf_pod_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 6.5034283705734275,
+        "target": [
+          0,
+          1.600000023841858,
+          0.0009999871253967285
+        ],
+        "camera": [
+          3.374145737144972,
+          4.948087505925308,
+          4.439471720504112
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb",
+            "revision": "500ab07d38483ee08f64cb739c60ef5a05d6f1dbce4705b1513a8418faf47d7e",
+            "triangles": 6604,
+            "meshes": 5,
+            "materials": 3,
+            "bounds": [
+              [
+                -0.800000011920929,
+                0,
+                -1.100000023841858
+              ],
+              [
+                0.800000011920929,
+                3.200000047683716,
+                1.1019999980926514
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "rear",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_bookshelf_pod_v01.glb",
+        "view": "rear",
+        "projection": "OrthographicCamera",
+        "distance": 5.021564284563176,
+        "target": [
+          0,
+          1.600000023841858,
+          0.0009999871253967285
+        ],
+        "camera": [
+          6.149642627802962e-16,
+          1.6000000238418581,
+          -5.0205642974377795
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb",
+            "revision": "500ab07d38483ee08f64cb739c60ef5a05d6f1dbce4705b1513a8418faf47d7e",
+            "triangles": 6604,
+            "meshes": 5,
+            "materials": 3,
+            "bounds": [
+              [
+                -0.800000011920929,
+                0,
+                -1.100000023841858
+              ],
+              [
+                0.800000011920929,
+                3.200000047683716,
+                1.1019999980926514
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "left",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_bookshelf_pod_v01.glb",
+        "view": "left",
+        "projection": "OrthographicCamera",
+        "distance": 5.021564284563176,
+        "target": [
+          0,
+          1.600000023841858,
+          0.0009999871253967285
+        ],
+        "camera": [
+          -5.021564284563176,
+          1.6000000238418581,
+          0.000999987125397036
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb",
+            "revision": "500ab07d38483ee08f64cb739c60ef5a05d6f1dbce4705b1513a8418faf47d7e",
+            "triangles": 6604,
+            "meshes": 5,
+            "materials": 3,
+            "bounds": [
+              [
+                -0.800000011920929,
+                0,
+                -1.100000023841858
+              ],
+              [
+                0.800000011920929,
+                3.200000047683716,
+                1.1019999980926514
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "close-left-oblique",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_bookshelf_pod_v01.glb",
+        "view": "custom",
+        "projection": "OrthographicCamera",
+        "distance": 4.670766754712948,
+        "target": [
+          0,
+          1.600000023841858,
+          0.0009999871253967285
+        ],
+        "camera": [
+          -4.147420807574153,
+          2.907140718252485,
+          1.7058008338076098
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb",
+            "revision": "500ab07d38483ee08f64cb739c60ef5a05d6f1dbce4705b1513a8418faf47d7e",
+            "triangles": 6604,
+            "meshes": 5,
+            "materials": 3,
+            "bounds": [
+              [
+                -0.800000011920929,
+                0,
+                -1.100000023841858
+              ],
+              [
+                0.800000011920929,
+                3.200000047683716,
+                1.1019999980926514
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "390px-phone",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_bookshelf_pod_v01.glb",
+        "view": "left",
+        "projection": "OrthographicCamera",
+        "distance": 5.021564284563176,
+        "target": [
+          0,
+          1.600000023841858,
+          0.0009999871253967285
+        ],
+        "camera": [
+          -5.021564284563176,
+          1.6000000238418581,
+          0.000999987125397036
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_bookshelf_pod_v01.glb",
+            "revision": "500ab07d38483ee08f64cb739c60ef5a05d6f1dbce4705b1513a8418faf47d7e",
+            "triangles": 6604,
+            "meshes": 5,
+            "materials": 3,
+            "bounds": [
+              [
+                -0.800000011920929,
+                0,
+                -1.100000023841858
+              ],
+              [
+                0.800000011920929,
+                3.200000047683716,
+                1.1019999980926514
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,37 @@
+{
+  "asset": "gh_meeting_set",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "f0794a8a0eed207782cffd00b32836015539a083fc22727a96f522ea6b85fce0",
+  "checkedAt": "2026-09-30T18:00:30.103Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1636,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    4.900000095367432,
+    1.2799999713897705,
+    3.0900001525878906
+  ],
+  "bounds": [
+    [
+      -2.450000047683716,
+      0,
+      -1.5450000762939453
+    ],
+    [
+      2.450000047683716,
+      1.2799999713897705,
+      1.5450000762939453
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "4ed40b333207f2fa81db4b8d9fec4c620299e82397c5d05e60e808ca50139ae8",
+  "source": "blender/environment/gh_meeting_set/v01/gh_meeting_set_v01.blend",
+  "runtime": "assets/runtime/environment/gh_meeting_set_v01.glb"
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_entry_portal",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "40c27c606ef4ee23c215251267d7b6b4cd8f4c89aea504b2f1a3d5a03a2252e1",
+  "sourceHash": "4c754647522317cbc84fb35440011c701435ffff3df2bf7756ba5a6aef9f886a",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:25:35.140Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Light projecting canopy, charcoal paired doors and slim steel supports follow the documented warehouse entrance language; the green edge is a current GitHub palette interpretation, not a historical measured paint claim."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Portal has clear glass and no solid opaque wall behind its door. Paired handles sit on the glazed leaves; diagonal brackets connect canopy to portal frame. The rear view confirms the thin doorway construction."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Canopy, broad contrasting jambs, handles and restrained green line remain clear at phone width."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Deliberately static environment architecture, no skeleton or authored clips."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked front, rear, oblique and phone with the entrance reference visible. No floating handle, blocking wall, crossed canopy connection or inconsistent symmetry was observed; dimensions remain an authored interface."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_entry_portal/v01/validation/iso.png",
+      "sha256": "3295f5007216bd7ff0074c72144015e43bbe4be5dd20ec637f37c0d781ef0dbf",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_entry_portal/v01/validation/front.png",
+      "sha256": "552063633736f66dc15db77b04e8b9a59ea7c10ba335cb75e233522cf9c5b22b",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_entry_portal/v01/validation/rear.png",
+      "sha256": "95f3eb292135a0d45cf26f5d7453355221c704485d1196b214c23b952eb04513",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_entry_portal/v01/validation/phone.png",
+      "sha256": "3eb45a9c30567af3f97febf788ad6ed56fe063124977d75d9c6c740dfdd22c3f",
+      "view": "phone",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User authorized creation but has not explicitly accepted this model revision."
+  },
+  "limitations": [
+    "Original interpreted campus architecture; complete measured GitHub as-built CAD documentation was not found."
+  ]
+}

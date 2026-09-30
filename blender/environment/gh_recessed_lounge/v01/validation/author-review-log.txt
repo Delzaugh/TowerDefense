@@ -1,0 +1,12 @@
+{
+  "ready": true,
+  "file": "blender/environment/gh_recessed_lounge/v01/validation/visual_review.json",
+  "asset": "gh_recessed_lounge",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "f13f1a371262d8e3ff88efba5fc53137667d03e214b017d907fab8d0f488c3c0",
+  "sourceHash": "b50f39f1662357cd849b770972c669898c73b3db0bf07c1e9b889ec49b8cca84",
+  "userAcceptance": "pending",
+  "errors": [],
+  "meaning": "Checks record completeness and current files; author judgment is not independently verified."
+}

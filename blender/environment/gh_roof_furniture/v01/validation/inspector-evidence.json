@@ -1,0 +1,314 @@
+{
+  "asset": "gh_roof_furniture",
+  "revision": 2,
+  "sourceHash": "29d97eaf39c41de7e33faff141540504b04a5923eec81c18c94551ff043963fb",
+  "sha256": "e86bd3bf8cbfca5af4e026c301311eda6508cd99b8d295b2c70a82f11e8d32d0",
+  "origin": "http://127.0.0.1:4174",
+  "evidence": [
+    {
+      "view": "front",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_roof_furniture_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_roof_furniture_v01.glb",
+        "view": "front",
+        "projection": "OrthographicCamera",
+        "distance": 4.707838862006154,
+        "target": [
+          0,
+          0.6425000429153442,
+          -0.4374999403953552
+        ],
+        "camera": [
+          0,
+          0.6425000429153446,
+          4.270338921610799
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_roof_furniture_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_roof_furniture_v01.glb",
+            "revision": "e86bd3bf8cbfca5af4e026c301311eda6508cd99b8d295b2c70a82f11e8d32d0",
+            "triangles": 1744,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -2.4749999046325684,
+                0,
+                -1.7249999046325684
+              ],
+              [
+                2.4749999046325684,
+                1.2850000858306885,
+                0.8500000238418579
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "iso",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_roof_furniture_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_roof_furniture_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 5.804917593903654,
+        "target": [
+          0,
+          0.6425000429153442,
+          -0.4374999403953552
+        ],
+        "camera": [
+          3.011740398736928,
+          3.6309810137545955,
+          3.524250875791827
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_roof_furniture_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_roof_furniture_v01.glb",
+            "revision": "e86bd3bf8cbfca5af4e026c301311eda6508cd99b8d295b2c70a82f11e8d32d0",
+            "triangles": 1744,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -2.4749999046325684,
+                0,
+                -1.7249999046325684
+              ],
+              [
+                2.4749999046325684,
+                1.2850000858306885,
+                0.8500000238418579
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "rear",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_roof_furniture_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_roof_furniture_v01.glb",
+        "view": "rear",
+        "projection": "OrthographicCamera",
+        "distance": 4.707838862006154,
+        "target": [
+          0,
+          0.6425000429153442,
+          -0.4374999403953552
+        ],
+        "camera": [
+          5.765439793257355e-16,
+          0.6425000429153446,
+          -5.145338802401509
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_roof_furniture_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_roof_furniture_v01.glb",
+            "revision": "e86bd3bf8cbfca5af4e026c301311eda6508cd99b8d295b2c70a82f11e8d32d0",
+            "triangles": 1744,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -2.4749999046325684,
+                0,
+                -1.7249999046325684
+              ],
+              [
+                2.4749999046325684,
+                1.2850000858306885,
+                0.8500000238418579
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "phone",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_roof_furniture_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_roof_furniture_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 9.317527087433984,
+        "target": [
+          0,
+          0.6425000429153442,
+          -0.4374999403953552
+        ],
+        "camera": [
+          4.8341724566463,
+          5.4393385760443795,
+          5.921543051404337
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_roof_furniture_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_roof_furniture_v01.glb",
+            "revision": "e86bd3bf8cbfca5af4e026c301311eda6508cd99b8d295b2c70a82f11e8d32d0",
+            "triangles": 1744,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -2.4749999046325684,
+                0,
+                -1.7249999046325684
+              ],
+              [
+                2.4749999046325684,
+                1.2850000858306885,
+                0.8500000238418579
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

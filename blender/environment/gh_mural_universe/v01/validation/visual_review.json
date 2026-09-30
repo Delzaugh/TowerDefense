@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_mural_universe",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "7cd764a6025838764f297ba5117cc63710bae4adcae09158dc426356ef7b1d1f",
+  "sourceHash": "8562fd3d1c3649f52b68ce32781ed5af48d9bca342481739c1355b149382c829",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T21:18:16.717Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "The San Francisco cafe reference establishes an illustrated laboratory universe. This original graphic uses a large Octocat, planets, circuit contours and a row of machines; it deliberately simplifies the dense original wall."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Graphic contours are closed shallow solids on a continuous framed wall; nose/eyes and smile sit above the face. Corrected centre tentacle to a curling path instead of a folded vertical stroke. Oblique view retains fitted depth and uninterrupted panel boundary."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Planet, Octocat and machine row remain distinct at phone framing. The larger character provides an identifiable focus even when tiny details simplify."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static wall-mounted graphic panel, no rig or clips requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Finished GLB compared again with the six reference photographs after centre-tentacle correction on character panels. Front and close-up retain consistent face/ear landmarks; oblique has no detached graphic edges; rear is intentionally plain and closed; phone captures were reframed after viewport reduction. No additional scoped construction repair remains."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_mural_universe/v01/validation/inspector-front.png",
+      "sha256": "6de391cf0b008f9c5bb6bc7d3f5d4eb507d2aa26febf9488cfdcec0d62ced719",
+      "view": "front"
+    },
+    {
+      "path": "blender/environment/gh_mural_universe/v01/validation/inspector-iso.png",
+      "sha256": "1a23cb82c3cfe983ef380492da08723cf17f59f5ed02acdde194ff80020fe6dc",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_mural_universe/v01/validation/inspector-rear.png",
+      "sha256": "04d65f59bdf858130c21c24b4f0d643e62dca5bac19da664d4a5dde3aea7c967",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_mural_universe/v01/validation/inspector-detail.png",
+      "sha256": "0b1e4c2df1ece477226dcc02870eb3147634418179581d4cca00ec54bb37b930",
+      "view": "detail"
+    },
+    {
+      "path": "blender/environment/gh_mural_universe/v01/validation/inspector-phone.png",
+      "sha256": "045848bba43031f9d60dfc287db16f615b317e2dc095f93a68e409c2ffb0dd9a",
+      "view": "phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author review completed; user artistic acceptance is not inferred."
+  },
+  "limitations": [
+    "Original simplified graphic interpretations, not replicas of commissioned paintings.",
+    "Panel dimensions are authored; source photographs are reference-only."
+  ]
+}

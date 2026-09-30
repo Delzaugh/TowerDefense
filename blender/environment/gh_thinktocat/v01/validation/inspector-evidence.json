@@ -1,0 +1,314 @@
+{
+  "asset": "gh_thinktocat",
+  "revision": 6,
+  "sourceHash": "fd5525438b0f0c4697b8a56243cbcdd32fa75b4c1d1ae4cedf5686da0f70ec38",
+  "sha256": "dd6c606e0ed9ddf4aea1562c05fc6c2b59158697bd391840e97209ff569ce87e",
+  "origin": "http://127.0.0.1:4174",
+  "evidence": [
+    {
+      "view": "front",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_thinktocat_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_thinktocat_v01.glb",
+        "view": "front",
+        "projection": "OrthographicCamera",
+        "distance": 5.162795643273154,
+        "target": [
+          0.03912019729614258,
+          1.6449999809265137,
+          0.13713166117668152
+        ],
+        "camera": [
+          0.03912019729614258,
+          1.644999980926514,
+          5.299927304449835
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_thinktocat_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_thinktocat_v01.glb",
+            "revision": "dd6c606e0ed9ddf4aea1562c05fc6c2b59158697bd391840e97209ff569ce87e",
+            "triangles": 23716,
+            "meshes": 2,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.0056571960449219,
+                0,
+                -0.7200000286102295
+              ],
+              [
+                1.083897590637207,
+                3.2899999618530273,
+                0.9942633509635925
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "iso",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_thinktocat_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_thinktocat_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 6.550175550732562,
+        "target": [
+          0.03912019729614258,
+          1.6449999809265137,
+          0.13713166117668152
+        ],
+        "camera": [
+          3.4375195726254293,
+          5.017153792305092,
+          4.607507495889135
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_thinktocat_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_thinktocat_v01.glb",
+            "revision": "dd6c606e0ed9ddf4aea1562c05fc6c2b59158697bd391840e97209ff569ce87e",
+            "triangles": 23716,
+            "meshes": 2,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.0056571960449219,
+                0,
+                -0.7200000286102295
+              ],
+              [
+                1.083897590637207,
+                3.2899999618530273,
+                0.9942633509635925
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "rear",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_thinktocat_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_thinktocat_v01.glb",
+        "view": "rear",
+        "projection": "OrthographicCamera",
+        "distance": 5.162795643273154,
+        "target": [
+          0.03912019729614258,
+          1.6449999809265137,
+          0.13713166117668152
+        ],
+        "camera": [
+          0.03912019729614321,
+          1.644999980926514,
+          -5.025663982096472
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_thinktocat_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_thinktocat_v01.glb",
+            "revision": "dd6c606e0ed9ddf4aea1562c05fc6c2b59158697bd391840e97209ff569ce87e",
+            "triangles": 23716,
+            "meshes": 2,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.0056571960449219,
+                0,
+                -0.7200000286102295
+              ],
+              [
+                1.083897590637207,
+                3.2899999618530273,
+                0.9942633509635925
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "phone",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_thinktocat_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_thinktocat_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 6.550175550732562,
+        "target": [
+          0.03912019729614258,
+          1.6449999809265137,
+          0.13713166117668152
+        ],
+        "camera": [
+          3.4375195726254293,
+          5.017153792305092,
+          4.607507495889135
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_thinktocat_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_thinktocat_v01.glb",
+            "revision": "dd6c606e0ed9ddf4aea1562c05fc6c2b59158697bd391840e97209ff569ce87e",
+            "triangles": 23716,
+            "meshes": 2,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.0056571960449219,
+                0,
+                -0.7200000286102295
+              ],
+              [
+                1.083897590637207,
+                3.2899999618530273,
+                0.9942633509635925
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

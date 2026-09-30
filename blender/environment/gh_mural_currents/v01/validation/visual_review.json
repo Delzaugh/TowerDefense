@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_mural_currents",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "6a2d9048e27748d5a0ea032968b76075336566b292c526bc014811769dc46eac",
+  "sourceHash": "3b5c93679a689533723eee030b9bb1c229cb6cdae8da042fa5908ee7c25f721e",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T21:18:16.780Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Blue ground and varied coral/cream/blue flowing lines follow the vocabulary of the portfolio’s Tyler Hobbs office mural photographs. These paths are independently authored; no tracing or source painting is embedded."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Thirty-five coherent stroke outlines have fitted ends and remain attached to the backing. Crossing paths are intentional graphic overlaps; flat rear is closed and front layers have explicit depth separation."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Line rhythm and contrasting dark background read at phone width; sparse gold nodes and the bottom branch glyph provide accents without dominating the pattern."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static wall-mounted graphic panel, no rig or clips requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Finished GLB compared again with the six reference photographs after centre-tentacle correction on character panels. Front and close-up retain consistent face/ear landmarks; oblique has no detached graphic edges; rear is intentionally plain and closed; phone captures were reframed after viewport reduction. No additional scoped construction repair remains."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_mural_currents/v01/validation/inspector-front.png",
+      "sha256": "a046ab442b9e763e3f489b8e038b9ae6f576c0bbfbf8036eaaf07089d5c7f44c",
+      "view": "front"
+    },
+    {
+      "path": "blender/environment/gh_mural_currents/v01/validation/inspector-iso.png",
+      "sha256": "578417dd640c2e55c47273484e6c316edf5065f041dff2b1bed42872bf87f0ce",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_mural_currents/v01/validation/inspector-rear.png",
+      "sha256": "35ddfa52993488371063fe48fa618f31f61914e36b7dabe88d8d0b03e74a28a8",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_mural_currents/v01/validation/inspector-detail.png",
+      "sha256": "7e53b9cb4b1404c6c75187bb0a448cefa9cc24ff23cd668344d83acd51a8acd2",
+      "view": "detail"
+    },
+    {
+      "path": "blender/environment/gh_mural_currents/v01/validation/inspector-phone.png",
+      "sha256": "5ca4bc2735dbd466f4ad1adb1bc79f51429bbd9a62be78c31bbaaa87389ae618",
+      "view": "phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author review completed; user artistic acceptance is not inferred."
+  },
+  "limitations": [
+    "Original simplified graphic interpretations, not replicas of commissioned paintings.",
+    "Panel dimensions are authored; source photographs are reference-only."
+  ]
+}

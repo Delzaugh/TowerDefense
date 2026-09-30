@@ -1,0 +1,39 @@
+{
+  "asset": "gh_membrane_wall",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "7bcd2003a7e875b31d640c16b15689a9946131594e8eacd09cdf016b39b1f8c2",
+  "checkedAt": "2026-09-30T18:19:23.402Z",
+  "errors": [
+    "Texture palette requires one named material: github_site_palette"
+  ],
+  "warnings": [],
+  "triangles": 888,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 2,
+  "bones": 0,
+  "dimensions": [
+    8.030401229858398,
+    3.200000047683716,
+    1.908109188079834
+  ],
+  "bounds": [
+    [
+      -4.015200614929199,
+      0,
+      -1.7361167669296265
+    ],
+    [
+      4.015200614929199,
+      3.200000047683716,
+      0.17199242115020752
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": false,
+  "sourceHash": "7e4eab7bd6dbf5597f8444eea998f26c365c1bd117b0fde3bb91e5ee8ec57aac",
+  "source": "blender/environment/gh_membrane_wall/v01/gh_membrane_wall_v01.blend",
+  "runtime": "assets/runtime/environment/gh_membrane_wall_v01.glb"
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "initialGalleryCount": 66,
+  "totalImageFiles": 84,
+  "containerCount": 3,
+  "atriumCount": 9,
+  "modalSrc": "images/original-architect-02.jpg",
+  "mobileOverflow": false,
+  "missingLocalImages": 0,
+  "missingAnchors": [],
+  "errors": []
+}

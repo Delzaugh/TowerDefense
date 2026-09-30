@@ -1,0 +1,37 @@
+{
+  "asset": "gh_stairs",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "0c9e021daf46ece7cbcc43498d545254392aaf25bf17878aa226181ee15f2b31",
+  "checkedAt": "2026-09-30T17:58:16.924Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 820,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.945000648498535,
+    6.072106778621674,
+    6.892087697982788
+  ],
+  "bounds": [
+    [
+      -1.4725003242492676,
+      5.960464477539063e-8,
+      -3.5399999618530273
+    ],
+    [
+      1.4725003242492676,
+      6.072106838226318,
+      3.3520877361297607
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "ee81da1045bc8fd3fefaf5803767dc54cda183ee87073accb8eb20c62f6ad462",
+  "source": "blender/environment/gh_stairs/v01/gh_stairs_v01.blend",
+  "runtime": "assets/runtime/environment/gh_stairs_v01.glb"
+}

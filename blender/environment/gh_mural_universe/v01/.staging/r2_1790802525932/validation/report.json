@@ -1,0 +1,37 @@
+{
+  "asset": "gh_mural_universe",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "c0012d8fa5d097f6d573ee047e833d75cab06a7163171a5bbc975af67f1c300f",
+  "checkedAt": "2026-09-30T21:08:48.769Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 11672,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    8,
+    3.4000000953674316,
+    0.16599999740719795
+  ],
+  "bounds": [
+    [
+      -4,
+      0,
+      -0.05000000074505806
+    ],
+    [
+      4,
+      3.4000000953674316,
+      0.11599999666213989
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "e68a9fb0daabe70c7fddfba79f32dd62f2ba789bf408fb2db9d5ed50f9447e67",
+  "source": "blender/environment/gh_mural_universe/v01/gh_mural_universe_v01.blend",
+  "runtime": "assets/runtime/environment/gh_mural_universe_v01.glb"
+}

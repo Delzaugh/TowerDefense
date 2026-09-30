@@ -1,0 +1,37 @@
+{
+  "asset": "gh_secret_octocat",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "40da27c22323c3b2f5e478540213009b6b0e7ed4d9dc1a453a577dc1d9102bf2",
+  "checkedAt": "2026-09-30T21:09:18.901Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 10700,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    0.5129254758358002,
+    0.6340000033378601,
+    0.32199999690055847
+  ],
+  "bounds": [
+    [
+      -0.30792543292045593,
+      0,
+      -0.14499999582767487
+    ],
+    [
+      0.20500004291534424,
+      0.6340000033378601,
+      0.1770000010728836
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "094185ec6d79fee8dd8479317a60804d6f6ae81ca0f5a97089ef5bc188e59b8e",
+  "source": "blender/environment/gh_secret_octocat/v01/gh_secret_octocat_v01.blend",
+  "runtime": "assets/runtime/environment/gh_secret_octocat_v01.glb"
+}

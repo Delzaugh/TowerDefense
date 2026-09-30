@@ -1,0 +1,314 @@
+{
+  "asset": "gh_cafe_bar",
+  "revision": 2,
+  "sourceHash": "990288d0d337ba39a70a8c6e76dc7fa2bce159e207b967d34f475417d583a577",
+  "sha256": "6e116306de0710a6d85094cdc6e01276c203509482e1254e0d144ab73ec1afb3",
+  "origin": "http://127.0.0.1:4174",
+  "evidence": [
+    {
+      "view": "front",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_cafe_bar_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_cafe_bar_v01.glb",
+        "view": "front",
+        "projection": "OrthographicCamera",
+        "distance": 5.7064715677696976,
+        "target": [
+          0,
+          1.478626787662506,
+          -0.012499988079071045
+        ],
+        "camera": [
+          0,
+          1.4786267876625065,
+          5.6939715796906265
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_cafe_bar_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_cafe_bar_v01.glb",
+            "revision": "6e116306de0710a6d85094cdc6e01276c203509482e1254e0d144ab73ec1afb3",
+            "triangles": 2568,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -3,
+                -0.0027464628219604492,
+                -1.3049999475479126
+              ],
+              [
+                3,
+                2.9600000381469727,
+                1.2799999713897705
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "iso",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_cafe_bar_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_cafe_bar_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 8.581792677274676,
+        "target": [
+          0,
+          1.478626787662506,
+          -0.012499988079071045
+        ],
+        "camera": [
+          4.452454540763263,
+          5.896695381548676,
+          5.844417632809798
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_cafe_bar_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_cafe_bar_v01.glb",
+            "revision": "6e116306de0710a6d85094cdc6e01276c203509482e1254e0d144ab73ec1afb3",
+            "triangles": 2568,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -3,
+                -0.0027464628219604492,
+                -1.3049999475479126
+              ],
+              [
+                3,
+                2.9600000381469727,
+                1.2799999713897705
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "rear",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_cafe_bar_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_cafe_bar_v01.glb",
+        "view": "rear",
+        "projection": "OrthographicCamera",
+        "distance": 5.7064715677696976,
+        "target": [
+          0,
+          1.478626787662506,
+          -0.012499988079071045
+        ],
+        "camera": [
+          6.988412139894538e-16,
+          1.4786267876625065,
+          -5.718971555848769
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_cafe_bar_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_cafe_bar_v01.glb",
+            "revision": "6e116306de0710a6d85094cdc6e01276c203509482e1254e0d144ab73ec1afb3",
+            "triangles": 2568,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -3,
+                -0.0027464628219604492,
+                -1.3049999475479126
+              ],
+              [
+                3,
+                2.9600000381469727,
+                1.2799999713897705
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "phone",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_cafe_bar_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_cafe_bar_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 11.101315295922275,
+        "target": [
+          0,
+          1.478626787662506,
+          -0.012499988079071045
+        ],
+        "camera": [
+          5.759647611700485,
+          7.19379310595651,
+          7.563946054937966
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_cafe_bar_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_cafe_bar_v01.glb",
+            "revision": "6e116306de0710a6d85094cdc6e01276c203509482e1254e0d144ab73ec1afb3",
+            "triangles": 2568,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -3,
+                -0.0027464628219604492,
+                -1.3049999475479126
+              ],
+              [
+                3,
+                2.9600000381469727,
+                1.2799999713897705
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

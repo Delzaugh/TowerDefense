@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_floor_hex",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "fb7a853f71f75fe33640bcb11d27981ae0891b37ee3996dfced8810ca4070af2",
+  "sourceHash": "f2a2938783a1254dbdbe3293d7fb6459df54f090992a376c195c618d9010ce30",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:31:21.067Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "The original cafe hex-floor motif is represented as real individually cut polygon tiles, without a copied photograph."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Hexagons clip cleanly to the square module boundary; visible dark grout is deliberate and the slab stays continuous."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "White hex pattern and sparse slate accents remain legible in close oblique and phone views."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static modular office/campus scenery. No animation was requested or authored."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second view check confirms clipping preserves the square outline; no floating edge triangles were visible. Phone capture was explicitly reframed after the viewport width changed, then checked for complete-model visibility."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_floor_hex/v01/validation/iso.png",
+      "sha256": "c1959fb0d3c02c6255c52850bd9487f33801be1e9d4b393186d393710b0b8c7c",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_floor_hex/v01/validation/rear.png",
+      "sha256": "75a41519161304f845ed6d5f34fe888fd0554ccfd03cf79a5adc5c4f5fd70063",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_floor_hex/v01/validation/inspector-detail.png",
+      "sha256": "cd60cdc2ecbd34ba1fb8eb774f380ff863c0014cf4a76c254bdb91ce243df8e4",
+      "view": "inspector-detail"
+    },
+    {
+      "path": "blender/environment/gh_floor_hex/v01/validation/inspector-phone.png",
+      "sha256": "6235f4d04c552923b983eabb3bd6672a3baf184488cccf110aac774fc0b19754",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author self-review completed; no artistic acceptance is inferred from the user request."
+  },
+  "limitations": [
+    "Stylized, inferred dimensions; not a measured as-built reconstruction."
+  ]
+}

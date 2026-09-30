@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_bookshelf_pod",
+  "version": "v01",
+  "revision": 5,
+  "sha256": "39ae988ad43996557fbb55a7d40e4f57803afc1ed65f0546c1d020fac24b8d0a",
+  "sourceHash": "8d8e214a0baa77fb2eccd98f1597af7b83cc54e2ece8a8516b202d582be2256b",
+  "scope": "model",
+  "reviewedAt": null,
+  "checks": {
+    "referenceFidelity": {
+      "status": "pending",
+      "findings": ""
+    },
+    "construction": {
+      "status": "pending",
+      "findings": ""
+    },
+    "readability": {
+      "status": "pending",
+      "findings": ""
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "pending",
+    "findings": ""
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/validation/iso.png",
+      "sha256": "0aa121054164780a29502a865018e5ec75ac696f029790cc977d3a6752074a3c",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/validation/iso-silhouette.png",
+      "sha256": "911beecb6907162334ec2faef6d1afc833a0a5d3f65b3b221d8b93aeb89b08fa",
+      "view": "iso",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/validation/front.png",
+      "sha256": "e0efa95187734e2f65c9e431c51e8de854f7a308e7cbe0ce8bab0b44346cf2c6",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/validation/front-silhouette.png",
+      "sha256": "afd8751aba62fca313e1f4fabc878e135ba117be9f6311f3390ac6e07ce8a725",
+      "view": "front",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/validation/side.png",
+      "sha256": "68ffe24a7744b08b9bd01725d5e9b683f55cb6e537fb4f51a9f93b25da6aa023",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/validation/side-silhouette.png",
+      "sha256": "2972680321435fb683ca1dfac40f2c7d9932d8bda6d2222c32ebc46d2cd68a81",
+      "view": "side",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/validation/rear.png",
+      "sha256": "e6144c968eaad6bef4e1b2327d30abed93f71fc1c84b8c3e2c7295898e4b5811",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/validation/rear-silhouette.png",
+      "sha256": "afd8751aba62fca313e1f4fabc878e135ba117be9f6311f3390ac6e07ce8a725",
+      "view": "rear",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/validation/top.png",
+      "sha256": "92ba8b16a6d5a0bf3fafac15769e658e3b51f6ce391ea27fe1fc04af2e580863",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/validation/top-silhouette.png",
+      "sha256": "e3aa9d7dcecc5d7ff7c087ba8577aa03669c6b56ad3ae32c35aaae5d2ef50b6c",
+      "view": "top",
+      "mode": "silhouette"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": ""
+  },
+  "limitations": []
+}

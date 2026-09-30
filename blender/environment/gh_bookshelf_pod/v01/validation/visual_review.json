@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_bookshelf_pod",
+  "version": "v01",
+  "revision": 6,
+  "sha256": "500ab07d38483ee08f64cb739c60ef5a05d6f1dbce4705b1513a8418faf47d7e",
+  "sourceHash": "42bbc91aace53a14cbac121674fc058cd3904b98a6d7bfd7dc7a18da29a6f5ac",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T21:17:20.652Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Compared supplied close and wide office photographs to current front, left, oblique and phone exports. Tall warm oak end-cap has dense varied book rows, a clear sculptural display shelf and separate full circular wood disk with a warm halo. Side reading portal has rounded rectangular corners, an actual recessed cushion, diamond upholstery and black lamp. Human occupant and literal book titles are intentionally omitted."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Closed ring geometry forms a true -X side opening; padded ring sits within the oak frame. Cabinet book stack remains on +Z and ends before the shifted side portal. Reading seat is physically recessed with a fitted structural and quilted back. Bust clears the shelf above, full circular halo clears roof and book tops. Front/left/close and blank rear export show supported panels and coherent shelf depth."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "At 390px the rounded opening, diamond lining and hanging lamp remain distinct; front view identifies the bookcase and halo. Default positive-X oblique faces the closed side, so the left side and a left oblique were also examined. Book labels remain intentionally secondary."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static environment furniture. No animation, rig, moving root or gameplay behavior requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Initial export exposed upper books overlapping the halo and a shelf clipping the bust. Removed the surplus upper row, lowered/reduced halo and shortened bust. Shifted side opening behind front shelving, tightened quilting seam spacing and fitted a shallower seat back. Re-exported and independently rechecked current front/left/reverse/oblique/close and 390px renders against both supplied photos; halo is fully visible, niche is genuine and shelving has clear structural separation."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/validation/inspector-front.png",
+      "sha256": "2087f89481a5351e26cfb0433ffddaa782ec63afc7d31efc22c7dbb3f5f8f6f6",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/validation/inspector-iso.png",
+      "sha256": "5f45889dc486c54f49dbc57feadf59deaa94c02d70d854d22be48db961dacf97",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/validation/inspector-rear.png",
+      "sha256": "4fe5abb2373a080fd173711f2bc1e5828c5cadde29e191257fb1638f8a44fbf5",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/validation/inspector-left.png",
+      "sha256": "90321625e7fe03bb9d9086165672746ad5528b139df19bdd81d4236232fa8712",
+      "view": "left",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/validation/inspector-close.png",
+      "sha256": "c2bbff7672b886b94c4c22244c8ca19dea505642cc3068ae8d394f0aed5fdfd1",
+      "view": "close",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_bookshelf_pod/v01/validation/inspector-phone.png",
+      "sha256": "b37cde4e10bbb5b5cc3d45f741917949cc3cb3057b2bd39f096c924a7cf364cc",
+      "view": "390px-phone",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested these additions; no explicit artistic acceptance of the delivered revision has been given."
+  },
+  "limitations": [
+    "Modular low-poly interpretation with inferred dimensions, not a measured replica of GitHub furniture. Books and optional bust use enlarged simple shapes; fabric has geometric quilting rather than a photo texture."
+  ]
+}

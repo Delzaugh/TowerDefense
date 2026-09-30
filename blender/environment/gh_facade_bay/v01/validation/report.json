@@ -1,0 +1,37 @@
+{
+  "asset": "gh_facade_bay",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "1a46797a9e4ece7a5fff9d9e89d9fd3e42714ac2a106a54a6862c21766f36a33",
+  "checkedAt": "2026-09-30T18:06:32.017Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 444,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    3.0350000858306885,
+    5,
+    0.8899999856948853
+  ],
+  "bounds": [
+    [
+      -1.5175000429153442,
+      0,
+      -0.25999999046325684
+    ],
+    [
+      1.5175000429153442,
+      5,
+      0.6299999952316284
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "d1ed9aa8dd38ac3afdfe36e9190fc7b1c6b2bf9fd308a0e10ab38233ab03c698",
+  "source": "blender/environment/gh_facade_bay/v01/gh_facade_bay_v01.blend",
+  "runtime": "assets/runtime/environment/gh_facade_bay_v01.glb"
+}

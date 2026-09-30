@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_lounge",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "a98b2f64a16d0e6ed15c4043c9b8e2a73f92f3edff858b4bf5b2bd4478c1f869",
+  "sourceHash": "517a59df9ccfa3c52fde93014fc04716362ba5c36894e38d46c0fe308e466e2e",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:09:07.500Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Blue/purple softened upholstered furniture and wood stump table reference the expanded office lounge and earlier wood/black lounge material cues."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Feet support sofa bodies; cushion divisions remain visibly separate, broad arms fit the seat depth. Reverse shows a continuous back rather than exposed facing panels."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "At 390px blue sofa, purple chair and contrasting circular table are recognizable through silhouette and color."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Intentionally static environment ensemble; no rig, animation, root motion or gameplay behavior requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second review confirms seat subdivisions do not form sliver gaps, table clears sofas and leg contact remains coherent; no repair needed."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_lounge/v01/validation/front.png",
+      "sha256": "0c73a140219ac9a9407a68af388f9c62c5498ee7341d0c7e9adcf1bea52b24a3",
+      "view": "front"
+    },
+    {
+      "path": "blender/environment/gh_lounge/v01/validation/iso.png",
+      "sha256": "3d162415dc8bc92655626fd6a3db79179363b431ef185681b61d7b5cd9dc140c",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_lounge/v01/validation/rear.png",
+      "sha256": "f4b924f52949ec89fb54a3d3f72b1ae5445c64e7cc2c06d218e10bf2fa90a35f",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_lounge/v01/validation/inspector-phone.png",
+      "sha256": "64bfd2f73f50c4d2eb6fd332f3d13d3d6704dab25c8ea2119bd27a17ecbe9eb5",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested production; no artistic acceptance of this specific revision has been given."
+  },
+  "limitations": [
+    "Research-informed modular interpretation; furniture measurements are inferred, not certified as-built specifications."
+  ]
+}

@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
   "id": "copilot_architect",
-  "displayName": "Architect Copilot - Keystone Field Architect",
+  "displayName": "Architect Copilot — Boundary Bridge",
   "category": "towers",
   "version": "v01",
-  "revision": 39,
+  "revision": 45,
   "source": {
     "path": "blender/towers/copilot_architect/v01/copilot_architect_v01.blend",
     "mode": "procedural",
     "recipe": "blender/towers/copilot_architect/v01/build.py",
-    "authoritativeHash": "64335771a51309d0d296ee2d86f22889447b79a861fa5608d577d5315efaf386"
+    "authoritativeHash": "215388fb9882637f904bb491024be99db5c8fbef6c52021411560aa23f46c31b"
   },
   "runtime": "assets/runtime/towers/copilot_architect_v01.glb",
   "budgets": {
     "triangles": 4500,
     "materials": 2,
-    "textures": 1,
+    "textures": 2,
     "textureSize": 64,
     "bones": 32,
     "meshes": 2
@@ -35,14 +35,14 @@
     ],
     "dimensions": {
       "min": [
-        3.1,
-        2.5,
-        2.3
+        2.8,
+        2,
+        1.5
       ],
       "max": [
-        3.6,
-        2.9,
-        2.9
+        3.5,
+        2.6,
+        2.5
       ]
     }
   },
@@ -50,72 +50,101 @@
   "references": [
     {
       "path": "blender/towers/copilot_architect/v01/references/anatomy.png",
-      "role": "Historical Pavilion reference, superseded by the selected Keystone Field Architect. User-provided visual design input. Original: C:/Users/jonas/.codex/generated_images/01a0df9f-a531-7ed1-bb53-612b067db0a3/exec-5776353e-87f5-413a-987f-b55c07ccd65c.png"
+      "role": "Historical, superseded by Boundary Bridge: Historical Pavilion reference, superseded by the selected Keystone Field Architect. User-provided visual design input. Original: C:/Users/jonas/.codex/generated_images/01a0df9f-a531-7ed1-bb53-612b067db0a3/exec-5776353e-87f5-413a-987f-b55c07ccd65c.png"
     },
     {
       "path": "blender/towers/copilot_architect/v01/references/silhouettes.png",
-      "role": "Historical Pavilion reference, superseded by the selected Keystone Field Architect. User-provided visual design input. Original: C:/Users/jonas/.codex/generated_images/01a0df9f-a531-7ed1-bb53-612b067db0a3/exec-73f38fd1-1ec6-4761-8606-a9879909b2ce.png"
+      "role": "Historical, superseded by Boundary Bridge: Historical Pavilion reference, superseded by the selected Keystone Field Architect. User-provided visual design input. Original: C:/Users/jonas/.codex/generated_images/01a0df9f-a531-7ed1-bb53-612b067db0a3/exec-73f38fd1-1ec6-4761-8606-a9879909b2ce.png"
     },
     {
       "path": "blender/towers/copilot_architect/v01/references/turnaround.png",
-      "role": "Historical Pavilion reference, superseded by the selected Keystone Field Architect. User-provided visual design input. Original: C:/Users/jonas/.codex/generated_images/01a0df9f-a531-7ed1-bb53-612b067db0a3/exec-cb12b845-0c00-4de5-9451-ca88cdc04267.png"
+      "role": "Historical, superseded by Boundary Bridge: Historical Pavilion reference, superseded by the selected Keystone Field Architect. User-provided visual design input. Original: C:/Users/jonas/.codex/generated_images/01a0df9f-a531-7ed1-bb53-612b067db0a3/exec-cb12b845-0c00-4de5-9451-ca88cdc04267.png"
     },
     {
       "path": "blender/towers/copilot_architect/v01/references/side_module.png",
-      "role": "Historical Pavilion reference, superseded by the selected Keystone Field Architect. User-provided visual design input. Original: C:/Users/jonas/.codex/generated_images/01a0df9f-a531-7ed1-bb53-612b067db0a3/exec-8c0d5573-a5fb-4f2c-bef4-da4289f54c98.png"
+      "role": "Historical, superseded by Boundary Bridge: Historical Pavilion reference, superseded by the selected Keystone Field Architect. User-provided visual design input. Original: C:/Users/jonas/.codex/generated_images/01a0df9f-a531-7ed1-bb53-612b067db0a3/exec-8c0d5573-a5fb-4f2c-bef4-da4289f54c98.png"
     },
     {
       "path": "blender/towers/copilot_architect/v01/references/concept_sheet.png",
-      "role": "Historical Pavilion reference, superseded by the selected Keystone Field Architect. User-provided visual design input. Original: C:/Users/jonas/AppData/Local/Temp/codex-clipboard-38d38118-b98c-4470-96f8-16814e2350e8.png"
+      "role": "Historical, superseded by Boundary Bridge: Historical Pavilion reference, superseded by the selected Keystone Field Architect. User-provided visual design input. Original: C:/Users/jonas/AppData/Local/Temp/codex-clipboard-38d38118-b98c-4470-96f8-16814e2350e8.png"
     },
     {
       "path": "blender/towers/copilot_architect/v01/references/systems_architect_concept.png",
-      "role": "Historical generated design reference for r16-r19; user rejected top/fins and vertical flatness. Current r23 shape intentionally supersedes the tabletop, sheet stack and body. Retained as process provenance."
+      "role": "Historical, superseded by Boundary Bridge: Historical generated design reference for r16-r19; user rejected top/fins and vertical flatness. Current r23 shape intentionally supersedes the tabletop, sheet stack and body. Retained as process provenance."
     },
     {
       "path": "blender/towers/copilot_architect/v01/references/weaver_concepts.png",
-      "role": "Built-in image generation exploration: select C Weaver as design input; adapt symmetry and depth. Exact prompt stored beside image. Not user approval."
+      "role": "Historical, superseded by Boundary Bridge: Built-in image generation exploration: select C Weaver as design input; adapt symmetry and depth. Exact prompt stored beside image. Not user approval."
     },
     {
       "path": "blender/towers/copilot_architect/v01/references/keystone_placeable_2026-09-27/keystone_field_architect.png",
-      "role": "Current primary authority: compact Keystone Field Architect concept explicitly selected by user; shape, proportions and visible feature inventory."
+      "role": "Historical, superseded by Boundary Bridge: Current primary authority: compact Keystone Field Architect concept explicitly selected by user; shape, proportions and visible feature inventory."
     },
     {
       "path": "blender/towers/copilot_architect/v01/references/keystone_spec_pack_2026-09-27/architect-spec-sheet.png",
-      "role": "Current illustrative model specification; not measured runtime statistics."
+      "role": "Historical, superseded by Boundary Bridge: Current illustrative model specification; not measured runtime statistics."
     },
     {
       "path": "blender/towers/copilot_architect/v01/references/keystone_spec_pack_2026-09-27/architect-six-angle-sheet.png",
-      "role": "Current illustrative six-angle reference; unseen rear inferred."
+      "role": "Historical, superseded by Boundary Bridge: Current illustrative six-angle reference; unseen rear inferred."
     },
     {
       "path": "blender/towers/copilot_architect/v01/references/keystone_spec_pack_2026-09-27/architect-anatomy-sheet.png",
-      "role": "Current feature inventory and named external construction."
+      "role": "Historical, superseded by Boundary Bridge: Current feature inventory and named external construction."
     },
     {
       "path": "blender/towers/copilot_architect/v01/references/keystone_spec_pack_2026-09-27/architect-shape-study.png",
-      "role": "Current silhouette/contour study used for approximate uniform-scale overlay comparison."
+      "role": "Historical, superseded by Boundary Bridge: Current silhouette/contour study used for approximate uniform-scale overlay comparison."
     },
     {
       "path": "blender/towers/copilot_architect/v01/references/keystone_spec_pack_2026-09-27/architect-accessory-blueprint-pod.png",
-      "role": "Current blueprint pod reference."
+      "role": "Historical, superseded by Boundary Bridge: Current blueprint pod reference."
     },
     {
       "path": "blender/towers/copilot_architect/v01/references/keystone_spec_pack_2026-09-27/architect-accessory-stylus.png",
-      "role": "Current drafting stylus reference."
+      "role": "Historical, superseded by Boundary Bridge: Current drafting stylus reference."
     },
     {
       "path": "blender/towers/copilot_architect/v01/references/keystone_spec_pack_2026-09-27/architect-accessory-application-diagram.png",
-      "role": "Current connected application/database/service assembly reference."
+      "role": "Historical, superseded by Boundary Bridge: Current connected application/database/service assembly reference."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/boundary_bridge_spec_pack_2026-09-30/approved-concept.png",
+      "role": "Approved primary concept"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/boundary_bridge_spec_pack_2026-09-30/architect-accessory-bridge.png",
+      "role": "Illustrative reference; concealed construction conceptual, counts unverified."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/boundary_bridge_spec_pack_2026-09-30/architect-accessory-cartridges.png",
+      "role": "Illustrative reference; concealed construction conceptual, counts unverified."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/boundary_bridge_spec_pack_2026-09-30/architect-anatomy-sheet.png",
+      "role": "Illustrative reference; concealed construction conceptual, counts unverified."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/boundary_bridge_spec_pack_2026-09-30/architect-shape-study.png",
+      "role": "Illustrative reference; concealed construction conceptual, counts unverified."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/boundary_bridge_spec_pack_2026-09-30/architect-six-angle-sheet.png",
+      "role": "Illustrative reference; concealed construction conceptual, counts unverified."
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/boundary_bridge_spec_pack_2026-09-30/architect-spec-sheet.png",
+      "role": "Illustrative reference; concealed construction conceptual, counts unverified."
     }
   ],
   "overrides": [
-    "2026-09-27 user asks for much stronger dimension after rejecting r8; increase depth envelope to 2.8\u00c3\u00a2\u00e2\u201a\u00ac\u00e2\u20ac\u01533.6m and allow up to 4500 triangles for curved patch construction, preserving 2 materials and palette.",
+    "2026-09-27 user asks for much stronger dimension after rejecting r8; increase depth envelope to 2.8Ã¢â‚¬â€œ3.6m and allow up to 4500 triangles for curved patch construction, preserving 2 materials and palette.",
     "2026-09-27 user requests re-imagination to restore application architect identity. Replace Pavilion crown and armour with inclined planning desk, connected application/service/data components and blueprint roll. Updated dimensions recorded for new silhouette.",
     "2026-09-27 user rejects top/fins and vertically flat body. Remove desk, diagram blocks from head and rear fins; rebuild main silhouette and screen with genuine two-axis curvature, preserving application-architect identity through curved shoulder diagram and blueprint roll.",
     "2026-09-27 user rejects rounded pod and requests a creative tower-defense copilot. Weaver replaces monolithic sphere with deep angular head and folded keel, open structural brackets and three connected application/service/data components. No roof or fins; updated dimensional envelope.",
     "2026-09-27: User selects compact Keystone Field Architect and authorizes faithful model rebuild with detailed spec comparisons. New deep faceted shell, fitted blueprint and stylus, top diagram; retain 4500 triangle ceiling and two meshes/materials. Update dimensional envelope to compact reference form. Add accepted royal-blue paper.",
-    "Field Architect delivery: muted teal #1B536B matches selected concept; preserve ivory, dark display, cyan, orange and royal-blue paper. Cyan details use the same palette as an unlit material; no baked bloom."
+    "Field Architect delivery: muted teal #1B536B matches selected concept; preserve ivory, dark display, cyan, orange and royal-blue paper. Cyan details use the same palette as an unlit material; no baked bloom.",
+    "2026-09-30 approved Boundary Bridge and replacement model. Broad curved head, proud chalk pillars, indigo bridge and amber cartridges; small rear three-node panel. Keep 4500 triangles and two materials, tiny palette with two texture bindings."
   ],
   "milestones": [
     {
@@ -469,144 +498,230 @@
       "source": "blender/towers/copilot_architect/v01/revisions/r38_before_r39/copilot_architect_v01.blend",
       "sha256": "3c63741c9de2ead9c8beb4c9db7976a8b061a2f68f81c48c2df339057d5cc543",
       "sourceHash": "5d3de4426d5615fade354b44e6a853236750f02333900b9da8d736aebbc582c8"
+    },
+    {
+      "label": "before_r40",
+      "revision": 39,
+      "export": "blender/towers/copilot_architect/v01/revisions/r39_before_r40/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r39_before_r40/copilot_architect_v01.blend",
+      "sha256": "8f50f4cfe39c176fcc03861611850fc477aee7d8cb24143ec5c1fee8e7af9c4e",
+      "sourceHash": "64335771a51309d0d296ee2d86f22889447b79a861fa5608d577d5315efaf386"
+    },
+    {
+      "label": "before_r41",
+      "revision": 40,
+      "export": "blender/towers/copilot_architect/v01/revisions/r40_before_r41/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r40_before_r41/copilot_architect_v01.blend",
+      "sha256": "ac02a46d3599754b29a67d360a34481f4267ff75a02c5a421bc2d2f542fafa09",
+      "sourceHash": "68b0f69399744619a91c5cb808f8c900ab597ef8732e3d725bcd282868107093"
+    },
+    {
+      "label": "before_r42",
+      "revision": 41,
+      "export": "blender/towers/copilot_architect/v01/revisions/r41_before_r42/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r41_before_r42/copilot_architect_v01.blend",
+      "sha256": "cbd1ecaf154432d789d3e46e023a3c46ae1c2b02e94c7890a3597440475144d4",
+      "sourceHash": "53ec1fb5c98bc3a9860d4c410ecc7e279049dd811fe2fe5fff77c8016df6ed8d"
+    },
+    {
+      "label": "before_r43",
+      "revision": 42,
+      "export": "blender/towers/copilot_architect/v01/revisions/r42_before_r43/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r42_before_r43/copilot_architect_v01.blend",
+      "sha256": "aae92ed448c90e72f4081560a2970b8d3d06eab094c30d36ee496895708c3e4c",
+      "sourceHash": "8ac2a9f6e5a05c1735d0315616f1edad5dfe8e9261d3bdf22b8d75f4f184e416"
+    },
+    {
+      "label": "before_r44",
+      "revision": 43,
+      "export": "blender/towers/copilot_architect/v01/revisions/r43_before_r44/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r43_before_r44/copilot_architect_v01.blend",
+      "sha256": "af00b5f37467f8ed654607f80c74402534cdf6a77b8ee95aa5313dc90d690b01",
+      "sourceHash": "175da55c4d2207d445565a3ee05ec81a97353dc7bd3befcdaa4658783ea2b2d8"
+    },
+    {
+      "label": "before_r45",
+      "revision": 44,
+      "export": "blender/towers/copilot_architect/v01/revisions/r44_before_r45/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r44_before_r45/copilot_architect_v01.blend",
+      "sha256": "5a912c59acb0f295834a8b529db064a835c4fb13ce9022357835937783a32440",
+      "sourceHash": "9ed5e8e46d7b8a672e05d39eb75770d1e5e9bb8dbcb9f15ce538ed13ab9a4f77"
     }
   ],
   "decisions": "blender/towers/copilot_architect/v01/decisions.md",
   "palette": {
     "storage": "texture",
     "colors": {
-      "cream": "#F4DFC0",
-      "teal": "#1B536B",
+      "shell": "#485995",
+      "trim": "#E2EDF0",
+      "slate": "#89A4B8",
       "screen": "#041D2A",
+      "amber": "#F2B54D",
       "cyan": "#00E5EF",
-      "orange": "#FF7308",
-      "blue": "#2456BE"
+      "shell_dark": "#303E72",
+      "detail": "#89A4B8"
     }
   },
   "texturePalettes": [
     {
+      "material": "architect_palette",
+      "size": [
+        32,
+        4
+      ],
       "roles": {
-        "cream": {
+        "shell": {
           "rect": [
             0,
             0,
-            8,
-            8
+            4,
+            4
           ],
-          "color": "#F4DFC0"
+          "color": "#485995"
         },
-        "cyan": {
+        "trim": {
           "rect": [
-            24,
+            4,
             0,
-            8,
-            8
+            4,
+            4
           ],
-          "color": "#00E5EF"
+          "color": "#E2EDF0"
         },
-        "teal": {
+        "slate": {
           "rect": [
             8,
             0,
-            8,
-            8
+            4,
+            4
           ],
-          "color": "#1B536B"
+          "color": "#89A4B8"
         },
         "screen": {
           "rect": [
-            16,
+            12,
             0,
-            8,
-            8
+            4,
+            4
           ],
           "color": "#041D2A"
         },
-        "orange": {
+        "amber": {
           "rect": [
-            32,
+            16,
             0,
-            8,
-            8
+            4,
+            4
           ],
-          "color": "#FF7308"
+          "color": "#F2B54D"
         },
-        "blue": {
+        "cyan": {
           "rect": [
-            40,
+            20,
             0,
-            8,
-            8
+            4,
+            4
           ],
-          "color": "#2456BE"
+          "color": "#00E5EF"
+        },
+        "shell_dark": {
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ],
+          "color": "#303E72"
+        },
+        "detail": {
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ],
+          "color": "#89A4B8"
         }
-      },
-      "size": [
-        48,
-        8
-      ],
-      "material": "pavilion_palette"
+      }
     },
     {
-      "material": "pavilion_eyes",
+      "material": "architect_optics",
       "size": [
-        48,
-        8
+        32,
+        4
       ],
       "roles": {
-        "cream": {
+        "shell": {
           "rect": [
             0,
             0,
-            8,
-            8
+            4,
+            4
           ],
-          "color": "#F4DFC0"
+          "color": "#485995"
         },
-        "cyan": {
+        "trim": {
           "rect": [
-            24,
+            4,
             0,
-            8,
-            8
+            4,
+            4
           ],
-          "color": "#00E5EF"
+          "color": "#E2EDF0"
         },
-        "teal": {
+        "slate": {
           "rect": [
             8,
             0,
-            8,
-            8
+            4,
+            4
           ],
-          "color": "#1B536B"
+          "color": "#89A4B8"
         },
         "screen": {
           "rect": [
-            16,
+            12,
             0,
-            8,
-            8
+            4,
+            4
           ],
           "color": "#041D2A"
         },
-        "orange": {
+        "amber": {
           "rect": [
-            32,
+            16,
             0,
-            8,
-            8
+            4,
+            4
           ],
-          "color": "#FF7308"
+          "color": "#F2B54D"
         },
-        "blue": {
+        "cyan": {
           "rect": [
-            40,
+            20,
             0,
-            8,
-            8
+            4,
+            4
           ],
-          "color": "#2456BE"
+          "color": "#00E5EF"
+        },
+        "shell_dark": {
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ],
+          "color": "#303E72"
+        },
+        "detail": {
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ],
+          "color": "#89A4B8"
         }
       }
     }
@@ -615,15 +730,18 @@
     "paletteSampler": "linear"
   },
   "delivery": {
-    "sha256": "8f50f4cfe39c176fcc03861611850fc477aee7d8cb24143ec5c1fee8e7af9c4e",
-    "sourceHash": "64335771a51309d0d296ee2d86f22889447b79a861fa5608d577d5315efaf386",
+    "sha256": "af00b5f37467f8ed654607f80c74402534cdf6a77b8ee95aa5313dc90d690b01",
+    "sourceHash": "215388fb9882637f904bb491024be99db5c8fbef6c52021411560aa23f46c31b",
     "report": "blender/towers/copilot_architect/v01/validation/report.json",
-    "deliveredAt": "2026-09-27T10:41:15.553Z"
+    "deliveredAt": "2026-09-30T17:55:11.354Z"
   },
   "animationHandoff": {
-    "sha256": "8f50f4cfe39c176fcc03861611850fc477aee7d8cb24143ec5c1fee8e7af9c4e",
-    "authorization": "Model rebuild authorized. Animations remain deferred; ask about baseline animation after the user reviews this delivered model.",
+    "sha256": "af00b5f37467f8ed654607f80c74402534cdf6a77b8ee95aa5313dc90d690b01",
+    "sourceHash": "215388fb9882637f904bb491024be99db5c8fbef6c52021411560aa23f46c31b",
+    "modelRevision": 45,
     "status": "animation-pending",
+    "modelAcceptance": "pending",
+    "authorization": "Model production approved; animation authorization remains pending.",
     "plannedClips": [
       "idle",
       "work",
@@ -631,9 +749,6 @@
       "place",
       "hit",
       "resolve"
-    ],
-    "sourceHash": "64335771a51309d0d296ee2d86f22889447b79a861fa5608d577d5315efaf386",
-    "modelRevision": 39,
-    "modelAcceptance": "pending"
+    ]
   }
 }

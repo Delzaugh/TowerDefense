@@ -1,0 +1,37 @@
+{
+  "asset": "gh_floor_paving",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "fd002a7d184d339ac3b9ee8a27dd659974dcfe1cf44a642fd602859b680afdb5",
+  "checkedAt": "2026-09-30T17:58:03.929Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 204,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    6,
+    0.17999999225139618,
+    6
+  ],
+  "bounds": [
+    [
+      -3,
+      0,
+      -3
+    ],
+    [
+      3,
+      0.17999999225139618,
+      3
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "a38f3c77dfd4f19438f4dfd01a5ca2d17ee5d3b61c9f1fd27b18f583bc86d499",
+  "source": "blender/environment/gh_floor_paving/v01/gh_floor_paving_v01.blend",
+  "runtime": "assets/runtime/environment/gh_floor_paving_v01.glb"
+}

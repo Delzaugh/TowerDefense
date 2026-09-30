@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_stairs",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "0c9e021daf46ece7cbcc43498d545254392aaf25bf17878aa226181ee15f2b31",
+  "sourceHash": "ee81da1045bc8fd3fefaf5803767dc54cda183ee87073accb8eb20c62f6ad462",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:31:21.154Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Industrial metal and oak stairs echo the container/stair references; rise is an authored five-metre module, not a surveyed stair."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Twenty treads have continuous stringers, nosings, rail supports and a top landing; reverse view exposes the open risers and fitted support posts."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "The stair direction and oak/steel separation read at phone width, with a continuous diagonal rail silhouette."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static modular office/campus scenery. No animation was requested or authored."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second oblique/rear assessment confirms support and rail continuity. Upper guard height is correctly additional to the five-metre rise. Phone capture was explicitly reframed after the viewport width changed, then checked for complete-model visibility."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_stairs/v01/validation/iso.png",
+      "sha256": "11a62eee6665ce1cc6d5a8d9e98bc2259254dfe967c5d32c1211a52153264922",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_stairs/v01/validation/rear.png",
+      "sha256": "da4421d86bd19d4319763d663011504219c7e8ad4517f761686c32658568e9c0",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_stairs/v01/validation/inspector-detail.png",
+      "sha256": "d6a79e84db8803166bc0d81e1fff3615ac5e428c9049260e49ca623c161625c0",
+      "view": "inspector-detail"
+    },
+    {
+      "path": "blender/environment/gh_stairs/v01/validation/inspector-phone.png",
+      "sha256": "30bae8ecc8cc153ece297ce8ab9d166b15880f3acc1dafb5c38332ed970152e6",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author self-review completed; no artistic acceptance is inferred from the user request."
+  },
+  "limitations": [
+    "Stylized, inferred dimensions; not a measured as-built reconstruction."
+  ]
+}

@@ -56,6 +56,13 @@ export function validateManifest(m) {
   }
   if (m.contract?.dimensions) for (const key of ['min','max']) check(Array.isArray(m.contract.dimensions[key]) && m.contract.dimensions[key].length === 3 && m.contract.dimensions[key].every(v => Number.isFinite(v) && v >= 0), 'dimensions.' + key + ' must contain W,H,D');
   check(Array.isArray(m.references) && Array.isArray(m.overrides), 'references and overrides must be explicit lists');
+  const transparentMaterials=new Set();
+  for(const override of m.overrides||[])if(override?.field==='material.transparency'){
+    check(m.category==='environment'&&m.clips?.length===0,'Transparent-material exceptions apply only to static environment assets');
+    check(typeof override.material==='string'&&override.material.trim().length>0&&!transparentMaterials.has(override.material),'Transparent-material exceptions must name unique materials');
+    check(typeof override.reason==='string'&&override.reason.trim().length>0,'Transparent-material exceptions require a design reason');
+    transparentMaterials.add(override.material);
+  }
   if(m.palette)check(m.palette.colors && Object.values(m.palette.colors).every(v=>/^#[a-f0-9]{6}$/i.test(v)), 'Palette colors must be explicit sRGB hex values');
   if(m.palette?.storage!==undefined)check(['vertex','texture'].includes(m.palette.storage),'Unknown palette storage');
   if(m.palette?.storage==='texture')check(Array.isArray(m.texturePalettes)&&m.texturePalettes.length>0,'Texture palette storage requires texturePalettes bindings');

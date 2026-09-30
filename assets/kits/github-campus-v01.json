@@ -1,0 +1,1390 @@
+{
+  "schemaVersion": 1,
+  "id": "github_campus",
+  "version": "v01",
+  "createdAt": "2026-09-30T21:18:39.517Z",
+  "style": "Reusable friendly low-poly GitHub office kit and disposable campus interpretation, informed by public SF references, not an as-built reconstruction.",
+  "units": "metres",
+  "runtimeAxes": {
+    "up": "+Y",
+    "front": "+Z"
+  },
+  "blenderAxes": {
+    "up": "+Z",
+    "front": "-Y"
+  },
+  "scope": "Static environment art. Campus interpretation; not an as-built survey or collision simulation.",
+  "research": "docs/research/github-offices-2026-09-30/report.html",
+  "prototype": "prototypes/github-campus/",
+  "assets": [
+    {
+      "id": "gh_warehouse",
+      "name": "Brannan-inspired warehouse shell",
+      "group": "Architecture",
+      "version": "v01",
+      "revision": 4,
+      "source": "blender/environment/gh_warehouse/v01/gh_warehouse_v01.blend",
+      "runtime": "assets/runtime/environment/gh_warehouse_v01.glb",
+      "manifest": "blender/environment/gh_warehouse/v01/asset.json",
+      "recipe": "blender/environment/gh_warehouse/v01/build.py",
+      "decisions": "blender/environment/gh_warehouse/v01/decisions.md",
+      "dimensions": [
+        30.81,
+        15.24,
+        18.81
+      ],
+      "triangles": 36784,
+      "meshes": 19,
+      "materials": 2,
+      "textures": 1,
+      "bytes": 2427692,
+      "sha256": "b8994233f65bbdeb029f5d0d2fd8f46a2f95ef2caac70bf2f441c0dffabe4903",
+      "sourceHash": "bdc26656df5317c185abf435f62efa57ac4ddf03e2900b6d9631e2b9e25acb2e",
+      "anchors": [],
+      "review": "blender/environment/gh_warehouse/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_warehouse/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "GitHub — FENNIE+MEHL architect project",
+          "url": "https://fm-arch.com/workitems/github/"
+        },
+        {
+          "id": "S02",
+          "title": "GitHub Headquarters — Truebeck",
+          "url": "https://www.truebeck.com/project/github-headquarters/"
+        },
+        {
+          "id": "S17",
+          "title": "South End Historic District, final National Register certification — Page & Turnbull / SF Planning",
+          "url": "https://sfplanninggis.org/docs/NatRegDistricts/2008-06-26_Final-NR-SouthEndHistDist.pdf"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_atrium",
+      "name": "Contemporary glass atrium",
+      "group": "Architecture",
+      "version": "v01",
+      "revision": 4,
+      "source": "blender/environment/gh_atrium/v01/gh_atrium_v01.blend",
+      "runtime": "assets/runtime/environment/gh_atrium_v01.glb",
+      "manifest": "blender/environment/gh_atrium/v01/asset.json",
+      "recipe": "blender/environment/gh_atrium/v01/build.py",
+      "decisions": "blender/environment/gh_atrium/v01/decisions.md",
+      "dimensions": [
+        14.085,
+        10,
+        14.085
+      ],
+      "triangles": 3256,
+      "meshes": 12,
+      "materials": 2,
+      "textures": 1,
+      "bytes": 224692,
+      "sha256": "bfcd0c41bdbf62b30c0805ee6d66fc667c378634e236f868091a78d5d1806ef3",
+      "sourceHash": "6e46b835b36e4c98aa83cbea66f40ef88b49b9e3e4b33b1c4d2087c8b1868b96",
+      "anchors": [],
+      "review": "blender/environment/gh_atrium/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_atrium/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S14",
+          "title": "GitHub atrium / Commit to the Future — IA Interior Architects",
+          "url": "https://interiorarchitects.com/projects/githubatrium/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_container",
+      "name": "Orange container collaboration studio",
+      "group": "Architecture",
+      "version": "v01",
+      "revision": 4,
+      "source": "blender/environment/gh_container/v01/gh_container_v01.blend",
+      "runtime": "assets/runtime/environment/gh_container_v01.glb",
+      "manifest": "blender/environment/gh_container/v01/asset.json",
+      "recipe": "blender/environment/gh_container/v01/build.py",
+      "decisions": "blender/environment/gh_container/v01/decisions.md",
+      "dimensions": [
+        6.08,
+        3.243,
+        3.08
+      ],
+      "triangles": 3096,
+      "meshes": 3,
+      "materials": 2,
+      "textures": 1,
+      "bytes": 197244,
+      "sha256": "85ff88faf663c740128d210edeca6a7f6df96e91345262f1a593404adada644c",
+      "sourceHash": "94928e32cc91c3667015d2e78aca353c1f1b273da87fd5eded35e81eabe7d7d0",
+      "anchors": [],
+      "review": "blender/environment/gh_container/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_container/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "GitHub — FENNIE+MEHL architect project",
+          "url": "https://fm-arch.com/workitems/github/"
+        },
+        {
+          "id": "S03",
+          "title": "Truebeck self-perform case study",
+          "url": "https://www.truebeck.com/self-perform/"
+        },
+        {
+          "id": "S06",
+          "title": "GitHub — San Francisco Headquarters, Office Snapshots",
+          "url": "https://officesnapshots.com/2015/04/06/github-san-francisco-headquarters/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_facade_bay",
+      "name": "Arched warehouse facade bay",
+      "group": "Architecture",
+      "version": "v01",
+      "revision": 3,
+      "source": "blender/environment/gh_facade_bay/v01/gh_facade_bay_v01.blend",
+      "runtime": "assets/runtime/environment/gh_facade_bay_v01.glb",
+      "manifest": "blender/environment/gh_facade_bay/v01/asset.json",
+      "recipe": "blender/environment/gh_facade_bay/v01/build.py",
+      "decisions": "blender/environment/gh_facade_bay/v01/decisions.md",
+      "dimensions": [
+        3.035,
+        5,
+        0.89
+      ],
+      "triangles": 444,
+      "meshes": 2,
+      "materials": 2,
+      "textures": 1,
+      "bytes": 31920,
+      "sha256": "1a46797a9e4ece7a5fff9d9e89d9fd3e42714ac2a106a54a6862c21766f36a33",
+      "sourceHash": "d1ed9aa8dd38ac3afdfe36e9190fc7b1c6b2bf9fd308a0e10ab38233ab03c698",
+      "anchors": [],
+      "review": "blender/environment/gh_facade_bay/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_facade_bay/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S17",
+          "title": "South End Historic District, final National Register certification — Page & Turnbull / SF Planning",
+          "url": "https://sfplanninggis.org/docs/NatRegDistricts/2008-06-26_Final-NR-SouthEndHistDist.pdf"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_entry_portal",
+      "name": "GitHub entry canopy and portal",
+      "group": "Architecture",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_entry_portal/v01/gh_entry_portal_v01.blend",
+      "runtime": "assets/runtime/environment/gh_entry_portal_v01.glb",
+      "manifest": "blender/environment/gh_entry_portal/v01/asset.json",
+      "recipe": "blender/environment/gh_entry_portal/v01/build.py",
+      "decisions": "blender/environment/gh_entry_portal/v01/decisions.md",
+      "dimensions": [
+        5,
+        3.595,
+        2.2
+      ],
+      "triangles": 308,
+      "meshes": 2,
+      "materials": 2,
+      "textures": 1,
+      "bytes": 22224,
+      "sha256": "40c27c606ef4ee23c215251267d7b6b4cd8f4c89aea504b2f1a3d5a03a2252e1",
+      "sourceHash": "4c754647522317cbc84fb35440011c701435ffff3df2bf7756ba5a6aef9f886a",
+      "anchors": [],
+      "review": "blender/environment/gh_entry_portal/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_entry_portal/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S17",
+          "title": "South End Historic District, final National Register certification — Page & Turnbull / SF Planning",
+          "url": "https://sfplanninggis.org/docs/NatRegDistricts/2008-06-26_Final-NR-SouthEndHistDist.pdf"
+        },
+        {
+          "id": "S28",
+          "title": "Logo — GitHub Brand Toolkit",
+          "url": "https://brand.github.com/foundations/logo"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_glass_partition",
+      "name": "Glazed interior partition and door",
+      "group": "Architecture",
+      "version": "v01",
+      "revision": 4,
+      "source": "blender/environment/gh_glass_partition/v01/gh_glass_partition_v01.blend",
+      "runtime": "assets/runtime/environment/gh_glass_partition_v01.glb",
+      "manifest": "blender/environment/gh_glass_partition/v01/asset.json",
+      "recipe": "blender/environment/gh_glass_partition/v01/build.py",
+      "decisions": "blender/environment/gh_glass_partition/v01/decisions.md",
+      "dimensions": [
+        6.04,
+        3.595,
+        0.25
+      ],
+      "triangles": 348,
+      "meshes": 2,
+      "materials": 2,
+      "textures": 1,
+      "bytes": 24828,
+      "sha256": "b52eb713988d322ab0840fdb6acd1cd69b513e336ec3e4b6c87d26185f97e2d0",
+      "sourceHash": "3077c4ec5c3ab8a37bb2b4e28e25ce9e39765308d283c5aa1573efc4e32e98e7",
+      "anchors": [],
+      "review": "blender/environment/gh_glass_partition/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_glass_partition/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "GitHub — FENNIE+MEHL architect project",
+          "url": "https://fm-arch.com/workitems/github/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_roof_terrace",
+      "name": "Warehouse rooftop deck and pavilion",
+      "group": "Architecture",
+      "version": "v01",
+      "revision": 3,
+      "source": "blender/environment/gh_roof_terrace/v01/gh_roof_terrace_v01.blend",
+      "runtime": "assets/runtime/environment/gh_roof_terrace_v01.glb",
+      "manifest": "blender/environment/gh_roof_terrace/v01/asset.json",
+      "recipe": "blender/environment/gh_roof_terrace/v01/build.py",
+      "decisions": "blender/environment/gh_roof_terrace/v01/decisions.md",
+      "dimensions": [
+        30,
+        3.8,
+        18
+      ],
+      "triangles": 3212,
+      "meshes": 4,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 206168,
+      "sha256": "ac2ea2fcd09515e650bcccd82538858329baa89c54c69bd1a1ab45cbc9930824",
+      "sourceHash": "17c9f3b837fe4e9072333ae1bd0c17283b42b9a71d23291af6347dda5047011d",
+      "anchors": [],
+      "review": "blender/environment/gh_roof_terrace/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_roof_terrace/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S02",
+          "title": "GitHub Headquarters — Truebeck",
+          "url": "https://www.truebeck.com/project/github-headquarters/"
+        },
+        {
+          "id": "S05",
+          "title": "GitHub HQ — Concreteworks",
+          "url": "https://concreteworks.com/projects/github-hq/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_bridge",
+      "name": "Timber and steel campus connection",
+      "group": "Architecture",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_bridge/v01/gh_bridge_v01.blend",
+      "runtime": "assets/runtime/environment/gh_bridge_v01.glb",
+      "manifest": "blender/environment/gh_bridge/v01/asset.json",
+      "recipe": "blender/environment/gh_bridge/v01/build.py",
+      "decisions": "blender/environment/gh_bridge/v01/decisions.md",
+      "dimensions": [
+        8,
+        3.51,
+        3
+      ],
+      "triangles": 1272,
+      "meshes": 4,
+      "materials": 2,
+      "textures": 1,
+      "bytes": 87084,
+      "sha256": "b8a2e8947dec0bf2d94ac06fd117c508ac360d9897938d5e62f922e0c7f4ef72",
+      "sourceHash": "1bc91054d6e097204d17c76935e9da84600841c40d945514fe9928b61ad39ba4",
+      "anchors": [],
+      "review": "blender/environment/gh_bridge/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_bridge/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "GitHub — FENNIE+MEHL architect project",
+          "url": "https://fm-arch.com/workitems/github/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_workstation",
+      "name": "Oak and iron workstation ensemble",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_workstation/v01/gh_workstation_v01.blend",
+      "runtime": "assets/runtime/environment/gh_workstation_v01.glb",
+      "manifest": "blender/environment/gh_workstation/v01/asset.json",
+      "recipe": "blender/environment/gh_workstation/v01/build.py",
+      "decisions": "blender/environment/gh_workstation/v01/decisions.md",
+      "dimensions": [
+        2.25,
+        1.58,
+        1.585
+      ],
+      "triangles": 524,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 44896,
+      "sha256": "97c2612d0bb9eec35a56833272b2cd105dc63dce768afd0bba55d9bf2ff7baab",
+      "sourceHash": "4339a10574299e6859be4fe905a1da9dc91ee9744f1fca8729068dc92bb2ccf5",
+      "anchors": [],
+      "review": "blender/environment/gh_workstation/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_workstation/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S04",
+          "title": "GitHub — MASHstudios",
+          "url": "https://mashstudios.com/projects/github/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_meeting_set",
+      "name": "Mahogany meeting table and chairs",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_meeting_set/v01/gh_meeting_set_v01.blend",
+      "runtime": "assets/runtime/environment/gh_meeting_set_v01.glb",
+      "manifest": "blender/environment/gh_meeting_set/v01/asset.json",
+      "recipe": "blender/environment/gh_meeting_set/v01/build.py",
+      "decisions": "blender/environment/gh_meeting_set/v01/decisions.md",
+      "dimensions": [
+        4.9,
+        1.28,
+        3.09
+      ],
+      "triangles": 1636,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 140408,
+      "sha256": "f0794a8a0eed207782cffd00b32836015539a083fc22727a96f522ea6b85fce0",
+      "sourceHash": "4ed40b333207f2fa81db4b8d9fec4c620299e82397c5d05e60e808ca50139ae8",
+      "anchors": [],
+      "review": "blender/environment/gh_meeting_set/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_meeting_set/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S04",
+          "title": "GitHub — MASHstudios",
+          "url": "https://mashstudios.com/projects/github/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_library",
+      "name": "Sit-in bookshelf and reading carrels",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 3,
+      "source": "blender/environment/gh_library/v01/gh_library_v01.blend",
+      "runtime": "assets/runtime/environment/gh_library_v01.glb",
+      "manifest": "blender/environment/gh_library/v01/asset.json",
+      "recipe": "blender/environment/gh_library/v01/build.py",
+      "decisions": "blender/environment/gh_library/v01/decisions.md",
+      "dimensions": [
+        6.03,
+        3.025,
+        2.097
+      ],
+      "triangles": 1432,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 128608,
+      "sha256": "eeb35aa533e530ae80c70de0a92bddc38d6806a9e02a1aba590c1e07c809d1b5",
+      "sourceHash": "74c7b2f503f8832ae17e8a7fda2d87032f72bd56eb7fff431f64d937e1a7d38e",
+      "anchors": [],
+      "review": "blender/environment/gh_library/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_library/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S10",
+          "title": "GitHub — Rapt Studio",
+          "url": "https://raptstudio.com/work/github/"
+        },
+        {
+          "id": "S11",
+          "title": "GitHub, SF HQ — SC Builders",
+          "url": "https://www.scbuildersinc.com/projects/github-sf-hq/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_cafe_bar",
+      "name": "Industrial coffee bar",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_cafe_bar/v01/gh_cafe_bar_v01.blend",
+      "runtime": "assets/runtime/environment/gh_cafe_bar_v01.glb",
+      "manifest": "blender/environment/gh_cafe_bar/v01/asset.json",
+      "recipe": "blender/environment/gh_cafe_bar/v01/build.py",
+      "decisions": "blender/environment/gh_cafe_bar/v01/decisions.md",
+      "dimensions": [
+        6,
+        2.963,
+        2.585
+      ],
+      "triangles": 2568,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 201668,
+      "sha256": "6e116306de0710a6d85094cdc6e01276c203509482e1254e0d144ab73ec1afb3",
+      "sourceHash": "990288d0d337ba39a70a8c6e76dc7fa2bce159e207b967d34f475417d583a577",
+      "anchors": [],
+      "review": "blender/environment/gh_cafe_bar/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_cafe_bar/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "GitHub — FENNIE+MEHL architect project",
+          "url": "https://fm-arch.com/workitems/github/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_lounge",
+      "name": "Soft lounge and coffee table",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_lounge/v01/gh_lounge_v01.blend",
+      "runtime": "assets/runtime/environment/gh_lounge_v01.glb",
+      "manifest": "blender/environment/gh_lounge/v01/asset.json",
+      "recipe": "blender/environment/gh_lounge/v01/build.py",
+      "decisions": "blender/environment/gh_lounge/v01/decisions.md",
+      "dimensions": [
+        4.555,
+        1.085,
+        2.625
+      ],
+      "triangles": 968,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 85984,
+      "sha256": "a98b2f64a16d0e6ed15c4043c9b8e2a73f92f3edff858b4bf5b2bd4478c1f869",
+      "sourceHash": "517a59df9ccfa3c52fde93014fc04716362ba5c36894e38d46c0fe308e466e2e",
+      "anchors": [],
+      "review": "blender/environment/gh_lounge/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_lounge/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S10",
+          "title": "GitHub — Rapt Studio",
+          "url": "https://raptstudio.com/work/github/"
+        },
+        {
+          "id": "S12",
+          "title": "GitHub Office Expansion — West Coast Industries",
+          "url": "https://westcoastindustries.com/installations/github-office-expansion-san-francisco/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_pendant",
+      "name": "Suspended industrial light rig",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 3,
+      "source": "blender/environment/gh_pendant/v01/gh_pendant_v01.blend",
+      "runtime": "assets/runtime/environment/gh_pendant_v01.glb",
+      "manifest": "blender/environment/gh_pendant/v01/asset.json",
+      "recipe": "blender/environment/gh_pendant/v01/build.py",
+      "decisions": "blender/environment/gh_pendant/v01/decisions.md",
+      "dimensions": [
+        3,
+        1.525,
+        0.65
+      ],
+      "triangles": 696,
+      "meshes": 2,
+      "materials": 2,
+      "textures": 2,
+      "bytes": 61468,
+      "sha256": "5f6161a71710d3b44bf7ee09a2da1353919cecb17b01a9643bea46af15ea5a17",
+      "sourceHash": "5a8b45fb55c76f15fa4d08dd1ec13d344663250b72819d25758be4f054e8d6bf",
+      "anchors": [],
+      "review": "blender/environment/gh_pendant/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_pendant/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "GitHub — FENNIE+MEHL architect project",
+          "url": "https://fm-arch.com/workitems/github/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_thinktocat",
+      "name": "Thinking Octocat bronze interpretation",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 6,
+      "source": "blender/environment/gh_thinktocat/v01/gh_thinktocat_v01.blend",
+      "runtime": "assets/runtime/environment/gh_thinktocat_v01.glb",
+      "manifest": "blender/environment/gh_thinktocat/v01/asset.json",
+      "recipe": "blender/environment/gh_thinktocat/v01/build.py",
+      "decisions": "blender/environment/gh_thinktocat/v01/decisions.md",
+      "dimensions": [
+        2.09,
+        3.29,
+        1.714
+      ],
+      "triangles": 23716,
+      "meshes": 2,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 532924,
+      "sha256": "dd6c606e0ed9ddf4aea1562c05fc6c2b59158697bd391840e97209ff569ce87e",
+      "sourceHash": "fd5525438b0f0c4697b8a56243cbcdd32fa75b4c1d1ae4cedf5686da0f70ec38",
+      "anchors": [],
+      "review": "blender/environment/gh_thinktocat/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_thinktocat/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S15",
+          "title": "Thinktocat — Tony Jaramillo",
+          "url": "https://www.tonytimetables.com/thinktocat"
+        },
+        {
+          "id": "S16",
+          "title": "The Octocat — Cameron McEfee",
+          "url": "https://cameronmcefee.com/work/the-octocat/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_sign",
+      "name": "GitHub monument sign",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_sign/v01/gh_sign_v01.blend",
+      "runtime": "assets/runtime/environment/gh_sign_v01.glb",
+      "manifest": "blender/environment/gh_sign/v01/asset.json",
+      "recipe": "blender/environment/gh_sign/v01/build.py",
+      "decisions": "blender/environment/gh_sign/v01/decisions.md",
+      "dimensions": [
+        5,
+        2.7,
+        0.55
+      ],
+      "triangles": 1952,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 98688,
+      "sha256": "f9dc0ce06c14551ac74f1d43d5b19e431a8601aeabba11db3a8579d2d0f49c26",
+      "sourceHash": "73d3526b32419eb90bcbb2bd6e69b35ac665b6722301c75bcdb3199833fd6051",
+      "anchors": [],
+      "review": "blender/environment/gh_sign/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_sign/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S28",
+          "title": "Logo — GitHub Brand Toolkit",
+          "url": "https://brand.github.com/foundations/logo"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_contribution_art",
+      "name": "Green contribution-plate atrium artwork",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_contribution_art/v01/gh_contribution_art_v01.blend",
+      "runtime": "assets/runtime/environment/gh_contribution_art_v01.glb",
+      "manifest": "blender/environment/gh_contribution_art/v01/asset.json",
+      "recipe": "blender/environment/gh_contribution_art/v01/build.py",
+      "decisions": "blender/environment/gh_contribution_art/v01/decisions.md",
+      "dimensions": [
+        7.9,
+        6,
+        1.09
+      ],
+      "triangles": 7332,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 632524,
+      "sha256": "4319ccb20156e6fc3324302da1931c324a986be3e2fbb519d05a32b84ecbe019",
+      "sourceHash": "18cf8fd64142c793a7cad8f3c29aa113f73b87e9892fa6d7176308abd253dddc",
+      "anchors": [],
+      "review": "blender/environment/gh_contribution_art/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_contribution_art/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S14",
+          "title": "GitHub atrium / Commit to the Future — IA Interior Architects",
+          "url": "https://interiorarchitects.com/projects/githubatrium/"
+        },
+        {
+          "id": "S29",
+          "title": "Color — GitHub Brand Toolkit",
+          "url": "https://brand.github.com/foundations/color"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_roof_furniture",
+      "name": "Concrete chess and roof seating ensemble",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_roof_furniture/v01/gh_roof_furniture_v01.blend",
+      "runtime": "assets/runtime/environment/gh_roof_furniture_v01.glb",
+      "manifest": "blender/environment/gh_roof_furniture/v01/asset.json",
+      "recipe": "blender/environment/gh_roof_furniture/v01/build.py",
+      "decisions": "blender/environment/gh_roof_furniture/v01/decisions.md",
+      "dimensions": [
+        4.95,
+        1.285,
+        2.575
+      ],
+      "triangles": 1744,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 154664,
+      "sha256": "e86bd3bf8cbfca5af4e026c301311eda6508cd99b8d295b2c70a82f11e8d32d0",
+      "sourceHash": "29d97eaf39c41de7e33faff141540504b04a5923eec81c18c94551ff043963fb",
+      "anchors": [],
+      "review": "blender/environment/gh_roof_furniture/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_roof_furniture/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S05",
+          "title": "GitHub HQ — Concreteworks",
+          "url": "https://concreteworks.com/projects/github-hq/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_floor_wood",
+      "name": "Modular oak floor tile",
+      "group": "Floors, structure and site",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_floor_wood/v01/gh_floor_wood_v01.blend",
+      "runtime": "assets/runtime/environment/gh_floor_wood_v01.glb",
+      "manifest": "blender/environment/gh_floor_wood/v01/asset.json",
+      "recipe": "blender/environment/gh_floor_wood/v01/build.py",
+      "decisions": "blender/environment/gh_floor_wood/v01/decisions.md",
+      "dimensions": [
+        6,
+        0.181,
+        6
+      ],
+      "triangles": 1020,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 89656,
+      "sha256": "3634874fd305cf08dc7d3d83230a967a3325417c1406df6854a1b70ae73c3f96",
+      "sourceHash": "7398774cb1a956d6ead31056e250287893e03039c076a1fc19ab2f109b1b36f4",
+      "anchors": [
+        "anchor_floor"
+      ],
+      "review": "blender/environment/gh_floor_wood/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_floor_wood/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "GitHub — FENNIE+MEHL architect project",
+          "url": "https://fm-arch.com/workitems/github/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_floor_paving",
+      "name": "Modular campus paving tile",
+      "group": "Floors, structure and site",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_floor_paving/v01/gh_floor_paving_v01.blend",
+      "runtime": "assets/runtime/environment/gh_floor_paving_v01.glb",
+      "manifest": "blender/environment/gh_floor_paving/v01/asset.json",
+      "recipe": "blender/environment/gh_floor_paving/v01/build.py",
+      "decisions": "blender/environment/gh_floor_paving/v01/decisions.md",
+      "dimensions": [
+        6,
+        0.18,
+        6
+      ],
+      "triangles": 204,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 19476,
+      "sha256": "fd002a7d184d339ac3b9ee8a27dd659974dcfe1cf44a642fd602859b680afdb5",
+      "sourceHash": "a38f3c77dfd4f19438f4dfd01a5ca2d17ee5d3b61c9f1fd27b18f583bc86d499",
+      "anchors": [
+        "anchor_floor"
+      ],
+      "review": "blender/environment/gh_floor_paving/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_floor_paving/v01/validation/iso.png",
+      "sources": [],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_floor_hex",
+      "name": "Cafe hex tile floor module",
+      "group": "Floors, structure and site",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_floor_hex/v01/gh_floor_hex_v01.blend",
+      "runtime": "assets/runtime/environment/gh_floor_hex_v01.glb",
+      "manifest": "blender/environment/gh_floor_hex/v01/asset.json",
+      "recipe": "blender/environment/gh_floor_hex/v01/build.py",
+      "decisions": "blender/environment/gh_floor_hex/v01/decisions.md",
+      "dimensions": [
+        6,
+        0.18,
+        6
+      ],
+      "triangles": 2296,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 181320,
+      "sha256": "fb7a853f71f75fe33640bcb11d27981ae0891b37ee3996dfced8810ca4070af2",
+      "sourceHash": "f2a2938783a1254dbdbe3293d7fb6459df54f090992a376c195c618d9010ce30",
+      "anchors": [
+        "anchor_floor"
+      ],
+      "review": "blender/environment/gh_floor_hex/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_floor_hex/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "GitHub — FENNIE+MEHL architect project",
+          "url": "https://fm-arch.com/workitems/github/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_timber_frame",
+      "name": "Exposed warehouse post and beam bay",
+      "group": "Floors, structure and site",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_timber_frame/v01/gh_timber_frame_v01.blend",
+      "runtime": "assets/runtime/environment/gh_timber_frame_v01.glb",
+      "manifest": "blender/environment/gh_timber_frame/v01/asset.json",
+      "recipe": "blender/environment/gh_timber_frame/v01/build.py",
+      "decisions": "blender/environment/gh_timber_frame/v01/decisions.md",
+      "dimensions": [
+        6.08,
+        4.64,
+        6.08
+      ],
+      "triangles": 848,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 80040,
+      "sha256": "455fec8a06b2438a6aa0a02e6dd2cd53afca9b583af2e19f2c22689deaab22d1",
+      "sourceHash": "3c1d2135fdfb72bfad5e40c40f9c2dfefd35d7b87f017915c42fda99a7f2e4bb",
+      "anchors": [
+        "anchor_next_bay"
+      ],
+      "review": "blender/environment/gh_timber_frame/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_timber_frame/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "GitHub — FENNIE+MEHL architect project",
+          "url": "https://fm-arch.com/workitems/github/"
+        },
+        {
+          "id": "S02",
+          "title": "GitHub Headquarters — Truebeck",
+          "url": "https://www.truebeck.com/project/github-headquarters/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_stairs",
+      "name": "Five-metre industrial stair module",
+      "group": "Floors, structure and site",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_stairs/v01/gh_stairs_v01.blend",
+      "runtime": "assets/runtime/environment/gh_stairs_v01.glb",
+      "manifest": "blender/environment/gh_stairs/v01/asset.json",
+      "recipe": "blender/environment/gh_stairs/v01/build.py",
+      "decisions": "blender/environment/gh_stairs/v01/decisions.md",
+      "dimensions": [
+        2.945,
+        6.072,
+        6.892
+      ],
+      "triangles": 820,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 73216,
+      "sha256": "0c9e021daf46ece7cbcc43498d545254392aaf25bf17878aa226181ee15f2b31",
+      "sourceHash": "ee81da1045bc8fd3fefaf5803767dc54cda183ee87073accb8eb20c62f6ad462",
+      "anchors": [
+        "anchor_bottom",
+        "anchor_top"
+      ],
+      "review": "blender/environment/gh_stairs/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_stairs/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S03",
+          "title": "Truebeck self-perform case study",
+          "url": "https://www.truebeck.com/self-perform/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_planter",
+      "name": "Concrete planter with layered foliage",
+      "group": "Floors, structure and site",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_planter/v01/gh_planter_v01.blend",
+      "runtime": "assets/runtime/environment/gh_planter_v01.glb",
+      "manifest": "blender/environment/gh_planter/v01/asset.json",
+      "recipe": "blender/environment/gh_planter/v01/build.py",
+      "decisions": "blender/environment/gh_planter/v01/decisions.md",
+      "dimensions": [
+        2.09,
+        1.596,
+        1.29
+      ],
+      "triangles": 412,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 46172,
+      "sha256": "b03cb6fea53895403a8cff892e3241757fb2cf64321196bd454c0af213b60cb9",
+      "sourceHash": "a86ef71f25cfdeb51ce256f979e6179c653dd1275ce438b9b4a59c9fb3c856e3",
+      "anchors": [],
+      "review": "blender/environment/gh_planter/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_planter/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S05",
+          "title": "GitHub HQ — Concreteworks",
+          "url": "https://concreteworks.com/projects/github-hq/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_tree",
+      "name": "Campus shade tree",
+      "group": "Floors, structure and site",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_tree/v01/gh_tree_v01.blend",
+      "runtime": "assets/runtime/environment/gh_tree_v01.glb",
+      "manifest": "blender/environment/gh_tree/v01/asset.json",
+      "recipe": "blender/environment/gh_tree/v01/build.py",
+      "decisions": "blender/environment/gh_tree/v01/decisions.md",
+      "dimensions": [
+        3.921,
+        5.878,
+        2.879
+      ],
+      "triangles": 364,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 35068,
+      "sha256": "920c70e9908ec59e54a845a90bf5abf12b0559f0ce00491dc17e9f829159f1c1",
+      "sourceHash": "1587d7807f65b8dcc003f79087712c975e9518b7a9e9356737a71140d0a77549",
+      "anchors": [],
+      "review": "blender/environment/gh_tree/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_tree/v01/validation/iso.png",
+      "sources": [],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_courtyard",
+      "name": "Courtyard seating and contribution garden",
+      "group": "Floors, structure and site",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_courtyard/v01/gh_courtyard_v01.blend",
+      "runtime": "assets/runtime/environment/gh_courtyard_v01.glb",
+      "manifest": "blender/environment/gh_courtyard/v01/asset.json",
+      "recipe": "blender/environment/gh_courtyard/v01/build.py",
+      "decisions": "blender/environment/gh_courtyard/v01/decisions.md",
+      "dimensions": [
+        8,
+        1.55,
+        6
+      ],
+      "triangles": 1792,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 159528,
+      "sha256": "8ca167d66da21fb98673edf8f5d5dee973dd13f7d6abbaf4a39758b7c92b2157",
+      "sourceHash": "72a7b1565d55b6b7a4e2b36187df2a0c71bb7c6a7d967474563308cdc81021b3",
+      "anchors": [],
+      "review": "blender/environment/gh_courtyard/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_courtyard/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S05",
+          "title": "GitHub HQ — Concreteworks",
+          "url": "https://concreteworks.com/projects/github-hq/"
+        },
+        {
+          "id": "S29",
+          "title": "Color — GitHub Brand Toolkit",
+          "url": "https://brand.github.com/foundations/color"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_membrane_wall",
+      "name": "Curved luminous meeting wall",
+      "group": "Floors, structure and site",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_membrane_wall/v01/gh_membrane_wall_v01.blend",
+      "runtime": "assets/runtime/environment/gh_membrane_wall_v01.glb",
+      "manifest": "blender/environment/gh_membrane_wall/v01/asset.json",
+      "recipe": "blender/environment/gh_membrane_wall/v01/build.py",
+      "decisions": "blender/environment/gh_membrane_wall/v01/decisions.md",
+      "dimensions": [
+        8.03,
+        3.2,
+        1.908
+      ],
+      "triangles": 888,
+      "meshes": 2,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 64860,
+      "sha256": "8399faa8c8f70e85a63121f4fbb50daddfc8a803644a3eeb40beabcc567f6f77",
+      "sourceHash": "f84f48abfa3f6e5869bab0545d53c0a69b317a04df527cc799d27912e006bf1a",
+      "anchors": [],
+      "review": "blender/environment/gh_membrane_wall/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_membrane_wall/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S10",
+          "title": "GitHub — Rapt Studio",
+          "url": "https://raptstudio.com/work/github/"
+        },
+        {
+          "id": "S11",
+          "title": "GitHub, SF HQ — SC Builders",
+          "url": "https://www.scbuildersinc.com/projects/github-sf-hq/"
+        },
+        {
+          "id": "S13",
+          "title": "NEW/LIGHT 2019 USA catalog",
+          "url": "https://newmatworld.com/headquarters/wp-content/uploads/2019/02/Catalogue_NEWLIGHT_2019_USA_Web.pdf"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_ceiling_services",
+      "name": "Exposed ducts and suspended strip lights",
+      "group": "Floors, structure and site",
+      "version": "v01",
+      "revision": 4,
+      "source": "blender/environment/gh_ceiling_services/v01/gh_ceiling_services_v01.blend",
+      "runtime": "assets/runtime/environment/gh_ceiling_services_v01.glb",
+      "manifest": "blender/environment/gh_ceiling_services/v01/asset.json",
+      "recipe": "blender/environment/gh_ceiling_services/v01/build.py",
+      "decisions": "blender/environment/gh_ceiling_services/v01/decisions.md",
+      "dimensions": [
+        5.317,
+        1.1,
+        2.475
+      ],
+      "triangles": 992,
+      "meshes": 2,
+      "materials": 2,
+      "textures": 1,
+      "bytes": 64552,
+      "sha256": "e443801ff8b07484bac0c0ef445771251b1ca5d71d420f9262a8435920b4a1ce",
+      "sourceHash": "9f1873c6e6d192948f53ede56659cfcc11265f2d984bb28adbeb5e0ac095d6fa",
+      "anchors": [],
+      "review": "blender/environment/gh_ceiling_services/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_ceiling_services/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "GitHub — FENNIE+MEHL architect project",
+          "url": "https://fm-arch.com/workitems/github/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_indoor_park",
+      "name": "Indoor park and Adirondack chairs",
+      "group": "Floors, structure and site",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_indoor_park/v01/gh_indoor_park_v01.blend",
+      "runtime": "assets/runtime/environment/gh_indoor_park_v01.glb",
+      "manifest": "blender/environment/gh_indoor_park/v01/asset.json",
+      "recipe": "blender/environment/gh_indoor_park/v01/build.py",
+      "decisions": "blender/environment/gh_indoor_park/v01/decisions.md",
+      "dimensions": [
+        6,
+        1.519,
+        4
+      ],
+      "triangles": 756,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 65944,
+      "sha256": "732ac2aa57ae714a0c03d6c6c3792e809c0237c3ff8da9fd27feee1d507807bf",
+      "sourceHash": "329fbb2dbd7e8fc9f02c291babc37cdba2e8b0b6cc437d7e203d2dc1f7e43911",
+      "anchors": [],
+      "review": "blender/environment/gh_indoor_park/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_indoor_park/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "GitHub — FENNIE+MEHL architect project",
+          "url": "https://fm-arch.com/workitems/github/"
+        },
+        {
+          "id": "S06",
+          "title": "GitHub — San Francisco Headquarters, Office Snapshots",
+          "url": "https://officesnapshots.com/2015/04/06/github-san-francisco-headquarters/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_bookshelf_pod",
+      "name": "Bookshelf and side reading nook",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 6,
+      "source": "blender/environment/gh_bookshelf_pod/v01/gh_bookshelf_pod_v01.blend",
+      "runtime": "assets/runtime/environment/gh_bookshelf_pod_v01.glb",
+      "manifest": "blender/environment/gh_bookshelf_pod/v01/asset.json",
+      "recipe": "blender/environment/gh_bookshelf_pod/v01/build.py",
+      "decisions": "blender/environment/gh_bookshelf_pod/v01/decisions.md",
+      "dimensions": [
+        1.6,
+        3.2,
+        2.202
+      ],
+      "triangles": 6604,
+      "meshes": 5,
+      "materials": 3,
+      "textures": 1,
+      "bytes": 437596,
+      "sha256": "500ab07d38483ee08f64cb739c60ef5a05d6f1dbce4705b1513a8418faf47d7e",
+      "sourceHash": "42bbc91aace53a14cbac121674fc058cd3904b98a6d7bfd7dc7a18da29a6f5ac",
+      "anchors": [
+        "anchor_seat",
+        "anchor_books"
+      ],
+      "review": "blender/environment/gh_bookshelf_pod/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_bookshelf_pod/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "GitHub — FENNIE+MEHL architect project",
+          "url": "https://fm-arch.com/workitems/github/"
+        },
+        {
+          "id": "S06",
+          "title": "GitHub — San Francisco Headquarters, Office Snapshots",
+          "url": "https://officesnapshots.com/2015/04/06/github-san-francisco-headquarters/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_worklounge_pod",
+      "name": "Wide oak window reading lounge",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 4,
+      "source": "blender/environment/gh_worklounge_pod/v01/gh_worklounge_pod_v01.blend",
+      "runtime": "assets/runtime/environment/gh_worklounge_pod_v01.glb",
+      "manifest": "blender/environment/gh_worklounge_pod/v01/asset.json",
+      "recipe": "blender/environment/gh_worklounge_pod/v01/build.py",
+      "decisions": "blender/environment/gh_worklounge_pod/v01/decisions.md",
+      "dimensions": [
+        6,
+        3.2,
+        2.411
+      ],
+      "triangles": 10432,
+      "meshes": 5,
+      "materials": 3,
+      "textures": 1,
+      "bytes": 669780,
+      "sha256": "2e25f08443d87541a32f2308eff779f841f0aa2cef841776e8ea0eab1c9225ec",
+      "sourceHash": "907bd25cc9a73d7c8b63270df1606745e7011971649191cadfac3cc667d4d1ef",
+      "anchors": [
+        "anchor_seat",
+        "anchor_opening"
+      ],
+      "review": "blender/environment/gh_worklounge_pod/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_worklounge_pod/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "GitHub — FENNIE+MEHL architect project",
+          "url": "https://fm-arch.com/workitems/github/"
+        },
+        {
+          "id": "S06",
+          "title": "GitHub — San Francisco Headquarters, Office Snapshots",
+          "url": "https://officesnapshots.com/2015/04/06/github-san-francisco-headquarters/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_recessed_lounge",
+      "name": "Raised platform recessed work lounge",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 3,
+      "source": "blender/environment/gh_recessed_lounge/v01/gh_recessed_lounge_v01.blend",
+      "runtime": "assets/runtime/environment/gh_recessed_lounge_v01.glb",
+      "manifest": "blender/environment/gh_recessed_lounge/v01/asset.json",
+      "recipe": "blender/environment/gh_recessed_lounge/v01/build.py",
+      "decisions": "blender/environment/gh_recessed_lounge/v01/decisions.md",
+      "dimensions": [
+        4.5,
+        3.2,
+        2.4
+      ],
+      "triangles": 1696,
+      "meshes": 5,
+      "materials": 3,
+      "textures": 1,
+      "bytes": 111628,
+      "sha256": "f13f1a371262d8e3ff88efba5fc53137667d03e214b017d907fab8d0f488c3c0",
+      "sourceHash": "b50f39f1662357cd849b770972c669898c73b3db0bf07c1e9b889ec49b8cca84",
+      "anchors": [
+        "anchor_seat",
+        "anchor_opening"
+      ],
+      "review": "blender/environment/gh_recessed_lounge/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_recessed_lounge/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S01",
+          "title": "GitHub — FENNIE+MEHL architect project",
+          "url": "https://fm-arch.com/workitems/github/"
+        },
+        {
+          "id": "S06",
+          "title": "GitHub — San Francisco Headquarters, Office Snapshots",
+          "url": "https://officesnapshots.com/2015/04/06/github-san-francisco-headquarters/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_secret_octocat",
+      "name": "Hidden reading-room Octocat figurine",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 4,
+      "source": "blender/environment/gh_secret_octocat/v01/gh_secret_octocat_v01.blend",
+      "runtime": "assets/runtime/environment/gh_secret_octocat_v01.glb",
+      "manifest": "blender/environment/gh_secret_octocat/v01/asset.json",
+      "recipe": "blender/environment/gh_secret_octocat/v01/build.py",
+      "decisions": "blender/environment/gh_secret_octocat/v01/decisions.md",
+      "dimensions": [
+        0.513,
+        0.634,
+        0.322
+      ],
+      "triangles": 11250,
+      "meshes": 1,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 256056,
+      "sha256": "f28dc21e61a088409bf90ac17c0f60d12fe1965fc74f621761703982dbf1beb4",
+      "sourceHash": "9224ba915b02ea971fff400067d4f9b5d1cbaffa1bbd48535e1b1184265d0c3c",
+      "anchors": [],
+      "review": "blender/environment/gh_secret_octocat/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_secret_octocat/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S16",
+          "title": "The Octocat — Cameron McEfee",
+          "url": "https://cameronmcefee.com/work/the-octocat/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_mural_universe",
+      "name": "Octocat universe mural",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 3,
+      "source": "blender/environment/gh_mural_universe/v01/gh_mural_universe_v01.blend",
+      "runtime": "assets/runtime/environment/gh_mural_universe_v01.glb",
+      "manifest": "blender/environment/gh_mural_universe/v01/asset.json",
+      "recipe": "blender/environment/gh_mural_universe/v01/build.py",
+      "decisions": "blender/environment/gh_mural_universe/v01/decisions.md",
+      "dimensions": [
+        8,
+        3.4,
+        0.166
+      ],
+      "triangles": 11672,
+      "meshes": 2,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 648404,
+      "sha256": "7cd764a6025838764f297ba5117cc63710bae4adcae09158dc426356ef7b1d1f",
+      "sourceHash": "8562fd3d1c3649f52b68ce32781ed5af48d9bca342481739c1355b149382c829",
+      "anchors": [],
+      "review": "blender/environment/gh_mural_universe/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_mural_universe/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S36",
+          "title": "Art Direction / Artist Partnership Project — Tony Jaramillo",
+          "url": "https://www.tonytimetables.com/art-direction/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_mural_currents",
+      "name": "GitHub flowing-pattern mural",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 2,
+      "source": "blender/environment/gh_mural_currents/v01/gh_mural_currents_v01.blend",
+      "runtime": "assets/runtime/environment/gh_mural_currents_v01.glb",
+      "manifest": "blender/environment/gh_mural_currents/v01/asset.json",
+      "recipe": "blender/environment/gh_mural_currents/v01/build.py",
+      "decisions": "blender/environment/gh_mural_currents/v01/decisions.md",
+      "dimensions": [
+        6,
+        3.4,
+        0.12
+      ],
+      "triangles": 24372,
+      "meshes": 2,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 1341204,
+      "sha256": "6a2d9048e27748d5a0ea032968b76075336566b292c526bc014811769dc46eac",
+      "sourceHash": "3b5c93679a689533723eee030b9bb1c229cb6cdae8da042fa5908ee7c25f721e",
+      "anchors": [],
+      "review": "blender/environment/gh_mural_currents/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_mural_currents/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S36",
+          "title": "Art Direction / Artist Partnership Project — Tony Jaramillo",
+          "url": "https://www.tonytimetables.com/art-direction/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    },
+    {
+      "id": "gh_mural_collaboration",
+      "name": "Octocat collaboration mural",
+      "group": "Furniture and identity",
+      "version": "v01",
+      "revision": 3,
+      "source": "blender/environment/gh_mural_collaboration/v01/gh_mural_collaboration_v01.blend",
+      "runtime": "assets/runtime/environment/gh_mural_collaboration_v01.glb",
+      "manifest": "blender/environment/gh_mural_collaboration/v01/asset.json",
+      "recipe": "blender/environment/gh_mural_collaboration/v01/build.py",
+      "decisions": "blender/environment/gh_mural_collaboration/v01/decisions.md",
+      "dimensions": [
+        6,
+        3.4,
+        0.2
+      ],
+      "triangles": 20140,
+      "meshes": 2,
+      "materials": 1,
+      "textures": 1,
+      "bytes": 1117028,
+      "sha256": "00a69f9ffb17c5b3520fe36d5d7d3127cac58b048a0911cc8b1bb362afdab821",
+      "sourceHash": "65ab3261902150bd0212b1db4ddcf74693ed4e176922d5efd60eeb70dc538033",
+      "anchors": [],
+      "review": "blender/environment/gh_mural_collaboration/v01/validation/visual_review.json",
+      "preview": "blender/environment/gh_mural_collaboration/v01/validation/iso.png",
+      "sources": [
+        {
+          "id": "S36",
+          "title": "Art Direction / Artist Partnership Project — Tony Jaramillo",
+          "url": "https://www.tonytimetables.com/art-direction/"
+        },
+        {
+          "id": "S27",
+          "title": "Tesselated Plots — Sasj",
+          "url": "https://sasj.nl/portfolio/tesselatedplots/"
+        }
+      ],
+      "inferred": "Footprint, room layouts and furniture scale are authored. Historical warehouse height uses published50ft datum; membrane wall thickness uses documented1ft assembly."
+    }
+  ],
+  "totals": {
+    "models": 36,
+    "triangles": 187846,
+    "runtimeBytes": 10765212,
+    "editableSourceBytes": 5631394
+  }
+}

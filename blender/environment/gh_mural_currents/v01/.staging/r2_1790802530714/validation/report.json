@@ -1,0 +1,37 @@
+{
+  "asset": "gh_mural_currents",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "6a2d9048e27748d5a0ea032968b76075336566b292c526bc014811769dc46eac",
+  "checkedAt": "2026-09-30T21:08:53.704Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 24372,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    6,
+    3.4000000953674316,
+    0.12000000104308128
+  ],
+  "bounds": [
+    [
+      -3,
+      0,
+      -0.05000000074505806
+    ],
+    [
+      3,
+      3.4000000953674316,
+      0.07000000029802322
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "3b5c93679a689533723eee030b9bb1c229cb6cdae8da042fa5908ee7c25f721e",
+  "source": "blender/environment/gh_mural_currents/v01/gh_mural_currents_v01.blend",
+  "runtime": "assets/runtime/environment/gh_mural_currents_v01.glb"
+}

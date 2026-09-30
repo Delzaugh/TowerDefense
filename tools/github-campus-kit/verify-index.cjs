@@ -1,0 +1,9 @@
+const fs=require('node:fs');const {chromium}=require('C:/Users/jonas/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const expected=JSON.parse(fs.readFileSync('tools/github-campus-kit/plan.json')).assets.length;
+(async()=>{const browser=await chromium.launch({channel:'msedge',headless:true});const errors=[];const page=await browser.newPage({viewport:{width:1400,height:1000}});page.on('pageerror',e=>errors.push(e.message));
+await page.goto('file:///C:/Users/jonas/Documents/ChatGPT/Tower/docs/design/GitHub_Campus_Kit.html');
+await page.evaluate(async()=>{for(const i of document.images)i.loading='eager';await Promise.all([...document.images].map(i=>i.decode()));});
+const loaded=await page.locator('article img').evaluateAll(images=>images.filter(i=>i.complete&&i.naturalWidth>0).length);if(loaded!==expected)throw Error(`Expected all ${expected} model previews, loaded ${loaded}`);
+await page.screenshot({path:'artifacts/github-campus/kit-index-desktop.png'});await page.locator('#search').fill('tree');if(await page.locator('article:visible').count()!==1)throw Error('Filter does not isolate tree');await page.locator('#search').fill('');
+await page.setViewportSize({width:390,height:844});if(!await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth))throw Error('Phone catalog overflow');await page.screenshot({path:'artifacts/github-campus/kit-index-phone.png'});await browser.close();
+fs.writeFileSync('artifacts/github-campus/kit-index-verification.json',JSON.stringify({passed:errors.length===0,previews:loaded,search:true,phoneOverflow:false,errors},null,2));if(errors.length)throw Error(errors.join('\n'));console.log(`Model catalog: ${loaded} images, search and phone layout passed`);})().catch(e=>{console.error(e);process.exitCode=1;});

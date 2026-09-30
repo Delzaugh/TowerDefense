@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_planter",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "b03cb6fea53895403a8cff892e3241757fb2cf64321196bd454c0af213b60cb9",
+  "sourceHash": "a86ef71f25cfdeb51ce256f979e6179c653dd1275ce438b9b4a59c9fb3c856e3",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:31:21.200Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Concreteworks planter and warm courtyard material vocabulary guide the concrete body; broad foliage is a stylized campus addition."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Separate rim sections meet without floating corners; dark soil is recessed and shrub masses grow above the soil rather than through the exterior."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Chalk rim, grey body and green/teal foliage stay distinct in the phone view."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static modular office/campus scenery. No animation was requested or authored."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second front/oblique check finds even rim seats and a compact silhouette; no visible soil/body gaps. Phone capture was explicitly reframed after the viewport width changed, then checked for complete-model visibility."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_planter/v01/validation/iso.png",
+      "sha256": "1937fcc06bd343b5c37ca74112e3488e394fa8997120f05e9ce4f9694fd9067f",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_planter/v01/validation/rear.png",
+      "sha256": "a9ceb007873216522aaa4139e6f05b4908771ee995b15808f8a5fcf727a46dc6",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_planter/v01/validation/inspector-detail.png",
+      "sha256": "458a6f9119885c35b066524ed9633204fad82fe7e48efd510365542da254b8ec",
+      "view": "inspector-detail"
+    },
+    {
+      "path": "blender/environment/gh_planter/v01/validation/inspector-phone.png",
+      "sha256": "cf6bb6df96b21d665287eb7eb9ca6dc3be516390608acdf77b14771c3a392d1d",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author self-review completed; no artistic acceptance is inferred from the user request."
+  },
+  "limitations": [
+    "Stylized, inferred dimensions; not a measured as-built reconstruction."
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "version": "v01",
+  "intent": "Reusable friendly low-poly GitHub office kit and disposable campus interpretation, informed by public SF references, not an as-built reconstruction.",
+  "assets": [
+    {
+      "id": "gh_warehouse",
+      "name": "Brannan-inspired warehouse shell",
+      "owner": "architecture",
+      "size": [
+        30,
+        15.24,
+        18
+      ]
+    },
+    {
+      "id": "gh_atrium",
+      "name": "Contemporary glass atrium",
+      "owner": "architecture",
+      "size": [
+        14,
+        10,
+        14
+      ]
+    },
+    {
+      "id": "gh_container",
+      "name": "Orange container collaboration studio",
+      "owner": "architecture",
+      "size": [
+        6,
+        3.2,
+        3
+      ]
+    },
+    {
+      "id": "gh_facade_bay",
+      "name": "Arched warehouse facade bay",
+      "owner": "architecture",
+      "size": [
+        3,
+        5,
+        0.55
+      ]
+    },
+    {
+      "id": "gh_entry_portal",
+      "name": "GitHub entry canopy and portal",
+      "owner": "architecture",
+      "size": [
+        5,
+        3.6,
+        2.2
+      ]
+    },
+    {
+      "id": "gh_glass_partition",
+      "name": "Glazed interior partition and door",
+      "owner": "architecture",
+      "size": [
+        6,
+        3.6,
+        0.2
+      ]
+    },
+    {
+      "id": "gh_roof_terrace",
+      "name": "Warehouse rooftop deck and pavilion",
+      "owner": "architecture",
+      "size": [
+        30,
+        3.8,
+        18
+      ]
+    },
+    {
+      "id": "gh_bridge",
+      "name": "Timber and steel campus connection",
+      "owner": "architecture",
+      "size": [
+        8,
+        3.5,
+        3
+      ]
+    },
+    {
+      "id": "gh_workstation",
+      "name": "Oak and iron workstation ensemble",
+      "owner": "props",
+      "size": [
+        2.4,
+        1.5,
+        2
+      ]
+    },
+    {
+      "id": "gh_meeting_set",
+      "name": "Mahogany meeting table and chairs",
+      "owner": "props",
+      "size": [
+        5,
+        1.5,
+        3.6
+      ]
+    },
+    {
+      "id": "gh_library",
+      "name": "Sit-in bookshelf and reading carrels",
+      "owner": "props",
+      "size": [
+        6,
+        3.2,
+        2.2
+      ]
+    },
+    {
+      "id": "gh_cafe_bar",
+      "name": "Industrial coffee bar",
+      "owner": "props",
+      "size": [
+        6,
+        3.2,
+        2.2
+      ]
+    },
+    {
+      "id": "gh_lounge",
+      "name": "Soft lounge and coffee table",
+      "owner": "props",
+      "size": [
+        4.8,
+        1.1,
+        3
+      ]
+    },
+    {
+      "id": "gh_pendant",
+      "name": "Suspended industrial light rig",
+      "owner": "props",
+      "size": [
+        3,
+        1.6,
+        1.4
+      ]
+    },
+    {
+      "id": "gh_thinktocat",
+      "name": "Thinking Octocat bronze interpretation",
+      "owner": "props",
+      "size": [
+        2.5,
+        3.3,
+        2.5
+      ]
+    },
+    {
+      "id": "gh_sign",
+      "name": "GitHub monument sign",
+      "owner": "props",
+      "size": [
+        5,
+        2.8,
+        0.5
+      ]
+    },
+    {
+      "id": "gh_contribution_art",
+      "name": "Green contribution-plate atrium artwork",
+      "owner": "props",
+      "size": [
+        8,
+        6,
+        1.5
+      ]
+    },
+    {
+      "id": "gh_roof_furniture",
+      "name": "Concrete chess and roof seating ensemble",
+      "owner": "props",
+      "size": [
+        5,
+        1.5,
+        4
+      ]
+    },
+    {
+      "id": "gh_floor_wood",
+      "name": "Modular oak floor tile",
+      "owner": "site",
+      "size": [
+        6,
+        0.18,
+        6
+      ]
+    },
+    {
+      "id": "gh_floor_paving",
+      "name": "Modular campus paving tile",
+      "owner": "site",
+      "size": [
+        6,
+        0.18,
+        6
+      ]
+    },
+    {
+      "id": "gh_floor_hex",
+      "name": "Cafe hex tile floor module",
+      "owner": "site",
+      "size": [
+        6,
+        0.18,
+        6
+      ]
+    },
+    {
+      "id": "gh_timber_frame",
+      "name": "Exposed warehouse post and beam bay",
+      "owner": "site",
+      "size": [
+        6,
+        4.65,
+        6
+      ]
+    },
+    {
+      "id": "gh_stairs",
+      "name": "Five-metre industrial stair module",
+      "owner": "site",
+      "size": [
+        3,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "gh_planter",
+      "name": "Concrete planter with layered foliage",
+      "owner": "site",
+      "size": [
+        2,
+        1.6,
+        1.2
+      ]
+    },
+    {
+      "id": "gh_tree",
+      "name": "Campus shade tree",
+      "owner": "site",
+      "size": [
+        4,
+        5.8,
+        4
+      ]
+    },
+    {
+      "id": "gh_courtyard",
+      "name": "Courtyard seating and contribution garden",
+      "owner": "site",
+      "size": [
+        8,
+        2.6,
+        6
+      ]
+    },
+    {
+      "id": "gh_membrane_wall",
+      "name": "Curved luminous meeting wall",
+      "owner": "site",
+      "size": [
+        8,
+        3.2,
+        2.5
+      ]
+    },
+    {
+      "id": "gh_ceiling_services",
+      "name": "Exposed ducts and suspended strip lights",
+      "owner": "site",
+      "size": [
+        6,
+        1.1,
+        2.4
+      ]
+    },
+    {
+      "id": "gh_indoor_park",
+      "name": "Indoor park and Adirondack chairs",
+      "owner": "site",
+      "size": [
+        6,
+        1.8,
+        4
+      ]
+    },
+    {
+      "id": "gh_bookshelf_pod",
+      "name": "Oak bookshelf with side reading niche",
+      "owner": "props",
+      "size": [
+        1.6,
+        3.2,
+        2.2
+      ]
+    },
+    {
+      "id": "gh_worklounge_pod",
+      "name": "Rounded oak work lounge with brick backing",
+      "owner": "props",
+      "size": [
+        6,
+        3.2,
+        2.4
+      ]
+    },
+    {
+      "id": "gh_recessed_lounge",
+      "name": "Illuminated recessed work couch",
+      "owner": "props",
+      "size": [
+        4.5,
+        3.2,
+        2.4
+      ]
+    },
+    {
+      "id": "gh_secret_octocat",
+      "name": "Hidden reading-room Octocat figurine",
+      "owner": "props",
+      "size": [
+        0.5,
+        0.65,
+        0.5
+      ]
+    },
+    {
+      "id": "gh_mural_universe",
+      "name": "Octocat universe mural",
+      "owner": "props",
+      "size": [
+        8,
+        3.4,
+        0.18
+      ]
+    },
+    {
+      "id": "gh_mural_currents",
+      "name": "GitHub flowing-pattern mural",
+      "owner": "props",
+      "size": [
+        6,
+        3.4,
+        0.18
+      ]
+    },
+    {
+      "id": "gh_mural_collaboration",
+      "name": "Octocat collaboration mural",
+      "owner": "props",
+      "size": [
+        6,
+        3.4,
+        0.18
+      ]
+    }
+  ]
+}

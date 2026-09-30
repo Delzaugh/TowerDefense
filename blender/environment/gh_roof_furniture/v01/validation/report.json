@@ -1,0 +1,37 @@
+{
+  "asset": "gh_roof_furniture",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "e86bd3bf8cbfca5af4e026c301311eda6508cd99b8d295b2c70a82f11e8d32d0",
+  "checkedAt": "2026-09-30T18:01:09.088Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1744,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    4.949999809265137,
+    1.2850000858306885,
+    2.5749999284744263
+  ],
+  "bounds": [
+    [
+      -2.4749999046325684,
+      0,
+      -1.7249999046325684
+    ],
+    [
+      2.4749999046325684,
+      1.2850000858306885,
+      0.8500000238418579
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "29d97eaf39c41de7e33faff141540504b04a5923eec81c18c94551ff043963fb",
+  "source": "blender/environment/gh_roof_furniture/v01/gh_roof_furniture_v01.blend",
+  "runtime": "assets/runtime/environment/gh_roof_furniture_v01.glb"
+}

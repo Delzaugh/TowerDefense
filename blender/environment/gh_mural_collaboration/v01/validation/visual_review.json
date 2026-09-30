@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_mural_collaboration",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "00a69f9ffb17c5b3520fe36d5d7d3127cac58b048a0911cc8b1bb362afdab821",
+  "sourceHash": "65ab3261902150bd0212b1db4ddcf74693ed4e176922d5efd60eeb70dc538033",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T21:18:16.846Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "The Saskia office-art reference informs patchwork colour and keyboard-symbol rhythm. The three original related Octocats and contribution cells add clear GitHub identity; this is an interpretation, not the commissioned mural itself."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Repeated characters share aligned facial landmarks and deliberately varied face colours. Corrected centre tentacle curls on all three instances. Graphic is seated on one continuous rectangular panel, and rear remains plain."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Three characters, code brackets and tiled contribution rhythm survive phone framing. Their large silhouettes remain separate from the lighter background tiles."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static wall-mounted graphic panel, no rig or clips requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Finished GLB compared again with the six reference photographs after centre-tentacle correction on character panels. Front and close-up retain consistent face/ear landmarks; oblique has no detached graphic edges; rear is intentionally plain and closed; phone captures were reframed after viewport reduction. No additional scoped construction repair remains."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_mural_collaboration/v01/validation/inspector-front.png",
+      "sha256": "ffb331b2997338adfce4fda4cca3a817b58e3f320f0b091c0b82fe842f8da52d",
+      "view": "front"
+    },
+    {
+      "path": "blender/environment/gh_mural_collaboration/v01/validation/inspector-iso.png",
+      "sha256": "10322059931e04ce312a29d9564301fbf3e76bb0856bcfa780382e708e501277",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_mural_collaboration/v01/validation/inspector-rear.png",
+      "sha256": "35ddfa52993488371063fe48fa618f31f61914e36b7dabe88d8d0b03e74a28a8",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_mural_collaboration/v01/validation/inspector-detail.png",
+      "sha256": "ff2ad488da84829f9c285d2a8a6010fafa047f82662b76a66d141c736b9f9343",
+      "view": "detail"
+    },
+    {
+      "path": "blender/environment/gh_mural_collaboration/v01/validation/inspector-phone.png",
+      "sha256": "dfe77cbfe062679dbb2d9c508f64b846d2478ead1a9bceb4d44dbed5de79dab6",
+      "view": "phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author review completed; user artistic acceptance is not inferred."
+  },
+  "limitations": [
+    "Original simplified graphic interpretations, not replicas of commissioned paintings.",
+    "Panel dimensions are authored; source photographs are reference-only."
+  ]
+}

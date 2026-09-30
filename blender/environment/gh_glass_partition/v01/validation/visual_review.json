@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_glass_partition",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "b52eb713988d322ab0840fdb6acd1cd69b513e336ec3e4b6c87d26185f97e2d0",
+  "sourceHash": "3077c4ec5c3ab8a37bb2b4e28e25ce9e39765308d283c5aa1573efc4e32e98e7",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:25:35.142Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "The charcoal framed glass partitions and paired doors translate photographed office meeting-room fronts with broad pale privacy bands instead of tiny decals."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Main vertical frame members now terminate between top/bottom rails instead of overlapping their outer end faces. Central paired-door mullion was extended to meet the transom and leaf panes fitted to the resulting aperture. Handles have deliberate depth and clear frames."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Pale bands and wood handles make the glazed doors recognizable at phone width; charcoal frames rely on the light wood/stucco interior context and appear lower contrast against the Inspector dark background."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Deliberately static environment architecture, no skeleton or authored clips."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked current rebuilt front/rear/oblique and phone after frame-junction repair. Central mullion no longer floats below the top rail; only fitted corner feet project and the privacy bands align."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_glass_partition/v01/validation/iso.png",
+      "sha256": "3587cf7f88909702854463b08c5be57e846c4d47288e562308ee45a4c0181399",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_glass_partition/v01/validation/front.png",
+      "sha256": "b00e68a86f6eff2aaa4ab898f63c367efc28f0f7183ea5f10aacb7273e7a953e",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_glass_partition/v01/validation/rear.png",
+      "sha256": "01ecffd85d07dbe59e33a7f88242ad428c9f1740c7c3ba053b9ba208ccb77e6c",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_glass_partition/v01/validation/phone.png",
+      "sha256": "6681cd249ad6d3b8a8879a9d377dfd8101c89bcb06f136c6767eb25cced759eb",
+      "view": "phone",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User authorized creation but has not explicitly accepted this model revision."
+  },
+  "limitations": [
+    "Original interpreted campus architecture; complete measured GitHub as-built CAD documentation was not found.",
+    "Dark frames need a light interior background for strongest contrast; the pale bands and handles remain legible on the dark Inspector background."
+  ]
+}

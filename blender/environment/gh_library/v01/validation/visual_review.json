@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_library",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "eeb35aa533e530ae80c70de0a92bddc38d6806a9e02a1aba590c1e07c809d1b5",
+  "sourceHash": "74c7b2f503f8832ae17e8a7fda2d87032f72bd56eb7fff431f64d937e1a7d38e",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:09:06.857Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Pale oak bookshelf, true curved central reading niche, books and burgundy carrel wings capture Rapt expansion landmarks. It is a compact reusable interpretation rather than an exact furniture copy."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Real segmented closed arch solids preserve central negative space; rear panels intentionally close seated niches. Side stacks have distinct shelves/books; carrel wings have consistent depth."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Phone framing retains central blue niche, burgundy paired screens and book-filled outside stacks. Wood outline and curved opening identify the unit."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Intentionally static environment ensemble; no rig, animation, root motion or gameplay behavior requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Repaired initial empty side bays by adding vertical book stacks and narrower seat cushions. Finished export rechecked front/oblique/reverse and phone: arch remains clear, new shelf depth does not cross the carrel wings."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_library/v01/validation/front.png",
+      "sha256": "1ba37c58b0b4dde264541f7fbb0452b983defe7e2e3fa308cfe5d73e07f92e93",
+      "view": "front"
+    },
+    {
+      "path": "blender/environment/gh_library/v01/validation/iso.png",
+      "sha256": "14f838a6846b82c88c50d89110c1142cb54279e122c99f958b27009f1674a2d3",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_library/v01/validation/rear.png",
+      "sha256": "872285025061a577a53aaa0e5cbba2181c77b0297a68271a146f73d8a5ada389",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_library/v01/validation/inspector-phone.png",
+      "sha256": "95934eca366526b5808aacc907ff0560b0249dabd38a0c861012aed734a16afd",
+      "view": "inspector-phone"
+    },
+    {
+      "path": "blender/environment/gh_library/v01/validation/inspector-close.png",
+      "sha256": "74dfd97fc9bda44d13f3f59f44d5b53b4d4348fde96c5778a50aae2b2349fdd8",
+      "view": "inspector-close"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested production; no artistic acceptance of this specific revision has been given."
+  },
+  "limitations": [
+    "Research-informed modular interpretation; furniture measurements are inferred, not certified as-built specifications."
+  ]
+}

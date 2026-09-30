@@ -1,0 +1,12 @@
+{
+  "ready": true,
+  "file": "blender/environment/gh_worklounge_pod/v01/validation/visual_review.json",
+  "asset": "gh_worklounge_pod",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "2e25f08443d87541a32f2308eff779f841f0aa2cef841776e8ea0eab1c9225ec",
+  "sourceHash": "907bd25cc9a73d7c8b63270df1606745e7011971649191cadfac3cc667d4d1ef",
+  "userAcceptance": "pending",
+  "errors": [],
+  "meaning": "Checks record completeness and current files; author judgment is not independently verified."
+}

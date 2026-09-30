@@ -1,0 +1,314 @@
+{
+  "asset": "gh_workstation",
+  "revision": 2,
+  "sourceHash": "4339a10574299e6859be4fe905a1da9dc91ee9744f1fca8729068dc92bb2ccf5",
+  "sha256": "97c2612d0bb9eec35a56833272b2cd105dc63dce768afd0bba55d9bf2ff7baab",
+  "origin": "http://127.0.0.1:4174",
+  "evidence": [
+    {
+      "view": "front",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_workstation_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_workstation_v01.glb",
+        "view": "front",
+        "projection": "OrthographicCamera",
+        "distance": 2.4793972088337486,
+        "target": [
+          0,
+          0.7899999618530273,
+          0.012499988079071045
+        ],
+        "camera": [
+          0,
+          0.7899999618530275,
+          2.4918971969128196
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_workstation_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_workstation_v01.glb",
+            "revision": "97c2612d0bb9eec35a56833272b2cd105dc63dce768afd0bba55d9bf2ff7baab",
+            "triangles": 524,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.125,
+                0,
+                -0.7799999713897705
+              ],
+              [
+                1.125,
+                1.5799999237060547,
+                0.8049999475479126
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "iso",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_workstation_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_workstation_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 4.245010848309207,
+        "target": [
+          0,
+          0.7899999618530273,
+          0.012499988079071045
+        ],
+        "camera": [
+          2.2024206990218214,
+          2.9754115436645034,
+          2.909642784847526
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_workstation_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_workstation_v01.glb",
+            "revision": "97c2612d0bb9eec35a56833272b2cd105dc63dce768afd0bba55d9bf2ff7baab",
+            "triangles": 524,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.125,
+                0,
+                -0.7799999713897705
+              ],
+              [
+                1.125,
+                1.5799999237060547,
+                0.8049999475479126
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "rear",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_workstation_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_workstation_v01.glb",
+        "view": "rear",
+        "projection": "OrthographicCamera",
+        "distance": 2.4793972088337486,
+        "target": [
+          0,
+          0.7899999618530273,
+          0.012499988079071045
+        ],
+        "camera": [
+          3.036385855613132e-16,
+          0.7899999618530275,
+          -2.4668972207546775
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_workstation_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_workstation_v01.glb",
+            "revision": "97c2612d0bb9eec35a56833272b2cd105dc63dce768afd0bba55d9bf2ff7baab",
+            "triangles": 524,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.125,
+                0,
+                -0.7799999713897705
+              ],
+              [
+                1.125,
+                1.5799999237060547,
+                0.8049999475479126
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "phone",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/gh_workstation_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/gh_workstation_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 4.660329434962547,
+        "target": [
+          0,
+          0.7899999618530273,
+          0.012499988079071045
+        ],
+        "camera": [
+          2.4178986529352096,
+          3.18922537873993,
+          3.193090176310855
+        ],
+        "effects": [
+          {
+            "path": "environment/gh_workstation_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/gh_workstation_v01.glb",
+            "revision": "97c2612d0bb9eec35a56833272b2cd105dc63dce768afd0bba55d9bf2ff7baab",
+            "triangles": 524,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -1.125,
+                0,
+                -0.7799999713897705
+              ],
+              [
+                1.125,
+                1.5799999237060547,
+                0.8049999475479126
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,4 +1,12 @@
-# Performance tracking and stress map
+# Current task: GitHub campus kit — 2026-09-30
+
+Complete: source-backed office research,29 reusable Blender/GLB environment models and a disposable campus using all29 in209 placements. All asset deliveries and current author reviews pass. Final browser evidence:101 checks,14 captures, no errors, actual desktop/touch input and current asset hashes. Models remain outside the removable prototype folder. No gameplay edits.
+
+Handoff: `exports/github-campus-v01.zip`, `docs/design/GitHub_Campus_Kit.html`, `assets/kits/github-campus-v01.json`; prototype http://127.0.0.1:5199/. Detailed task record: `artifacts/github-campus/game-progress.md` and `artifacts/github-campus/final-evidence.md`. Root thumbnail-cache cleanup completed with34 verified empty folders removed. Static authored interpretation; no measured replica or collision walking simulation. No pending work.
+
+---
+
+# Performance tracking and stress map (previous completed task)
 
 Current request: implement optional persistent performance tracking and a small removable stress-test map in the actual game.
 

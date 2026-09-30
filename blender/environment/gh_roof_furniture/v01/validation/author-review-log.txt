@@ -1,0 +1,12 @@
+{
+  "ready": true,
+  "file": "blender/environment/gh_roof_furniture/v01/validation/visual_review.json",
+  "asset": "gh_roof_furniture",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "e86bd3bf8cbfca5af4e026c301311eda6508cd99b8d295b2c70a82f11e8d32d0",
+  "sourceHash": "29d97eaf39c41de7e33faff141540504b04a5923eec81c18c94551ff043963fb",
+  "userAcceptance": "pending",
+  "errors": [],
+  "meaning": "Checks record completeness and current files; author judgment is not independently verified."
+}

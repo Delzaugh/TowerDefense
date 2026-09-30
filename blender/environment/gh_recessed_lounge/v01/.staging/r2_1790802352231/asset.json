@@ -1,0 +1,543 @@
+{
+  "schemaVersion": 1,
+  "id": "gh_recessed_lounge",
+  "displayName": "Raised platform recessed work lounge",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/gh_recessed_lounge/v01/gh_recessed_lounge_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/gh_recessed_lounge/v01/build.py"
+  },
+  "runtime": "assets/runtime/environment/gh_recessed_lounge_v01.glb",
+  "budgets": {
+    "triangles": 30000,
+    "meshes": 10,
+    "materials": 3,
+    "textures": 3,
+    "textureSize": 64,
+    "bones": 0
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.004,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_seat",
+      "anchor_opening"
+    ],
+    "groundY": 0,
+    "dimensions": {
+      "min": [
+        4.44,
+        3.14,
+        2.34
+      ],
+      "max": [
+        4.56,
+        3.2600000000000002,
+        2.46
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/environment/gh_recessed_lounge/v01/references/user-photo.png",
+      "provenance": "User attached GitHub office photo, 2026-09-30; copied without changes. Photography guides shapes/materials only, never used as runtime texture."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/gh_recessed_lounge/v01/decisions.md",
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "oak": "#BF9465",
+      "oak_edge": "#9C744C",
+      "grain": "#C8A274",
+      "walnut": "#835739",
+      "ivory": "#E5DBC4",
+      "fabric": "#A69A86",
+      "dark": "#232925",
+      "brick": "#A56548",
+      "mortar": "#C9B69C",
+      "gold": "#E9B864",
+      "green": "#70B5B4",
+      "blue": "#5579B8",
+      "bordeaux": "#7C354D",
+      "purple": "#8534F3",
+      "paper": "#F2F5F3",
+      "red": "#B84035"
+    }
+  },
+  "texturePalettes": [
+    {
+      "material": "gh_recessed_lounge_palette",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "oak": {
+          "color": "#BF9465",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "oak_edge": {
+          "color": "#9C744C",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "grain": {
+          "color": "#C8A274",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "walnut": {
+          "color": "#835739",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "ivory": {
+          "color": "#E5DBC4",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "fabric": {
+          "color": "#A69A86",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "dark": {
+          "color": "#232925",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "brick": {
+          "color": "#A56548",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "mortar": {
+          "color": "#C9B69C",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "gold": {
+          "color": "#E9B864",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        },
+        "green": {
+          "color": "#70B5B4",
+          "rect": [
+            40,
+            0,
+            4,
+            4
+          ]
+        },
+        "blue": {
+          "color": "#5579B8",
+          "rect": [
+            44,
+            0,
+            4,
+            4
+          ]
+        },
+        "bordeaux": {
+          "color": "#7C354D",
+          "rect": [
+            48,
+            0,
+            4,
+            4
+          ]
+        },
+        "purple": {
+          "color": "#8534F3",
+          "rect": [
+            52,
+            0,
+            4,
+            4
+          ]
+        },
+        "paper": {
+          "color": "#F2F5F3",
+          "rect": [
+            56,
+            0,
+            4,
+            4
+          ]
+        },
+        "red": {
+          "color": "#B84035",
+          "rect": [
+            60,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "material": "gh_recessed_lounge_fabric",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "oak": {
+          "color": "#BF9465",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "oak_edge": {
+          "color": "#9C744C",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "grain": {
+          "color": "#C8A274",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "walnut": {
+          "color": "#835739",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "ivory": {
+          "color": "#E5DBC4",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "fabric": {
+          "color": "#A69A86",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "dark": {
+          "color": "#232925",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "brick": {
+          "color": "#A56548",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "mortar": {
+          "color": "#C9B69C",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "gold": {
+          "color": "#E9B864",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        },
+        "green": {
+          "color": "#70B5B4",
+          "rect": [
+            40,
+            0,
+            4,
+            4
+          ]
+        },
+        "blue": {
+          "color": "#5579B8",
+          "rect": [
+            44,
+            0,
+            4,
+            4
+          ]
+        },
+        "bordeaux": {
+          "color": "#7C354D",
+          "rect": [
+            48,
+            0,
+            4,
+            4
+          ]
+        },
+        "purple": {
+          "color": "#8534F3",
+          "rect": [
+            52,
+            0,
+            4,
+            4
+          ]
+        },
+        "paper": {
+          "color": "#F2F5F3",
+          "rect": [
+            56,
+            0,
+            4,
+            4
+          ]
+        },
+        "red": {
+          "color": "#B84035",
+          "rect": [
+            60,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "material": "gh_recessed_lounge_warm_light",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "oak": {
+          "color": "#BF9465",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "oak_edge": {
+          "color": "#9C744C",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "grain": {
+          "color": "#C8A274",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "walnut": {
+          "color": "#835739",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "ivory": {
+          "color": "#E5DBC4",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "fabric": {
+          "color": "#A69A86",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "dark": {
+          "color": "#232925",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "brick": {
+          "color": "#A56548",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "mortar": {
+          "color": "#C9B69C",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "gold": {
+          "color": "#E9B864",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        },
+        "green": {
+          "color": "#70B5B4",
+          "rect": [
+            40,
+            0,
+            4,
+            4
+          ]
+        },
+        "blue": {
+          "color": "#5579B8",
+          "rect": [
+            44,
+            0,
+            4,
+            4
+          ]
+        },
+        "bordeaux": {
+          "color": "#7C354D",
+          "rect": [
+            48,
+            0,
+            4,
+            4
+          ]
+        },
+        "purple": {
+          "color": "#8534F3",
+          "rect": [
+            52,
+            0,
+            4,
+            4
+          ]
+        },
+        "paper": {
+          "color": "#F2F5F3",
+          "rect": [
+            56,
+            0,
+            4,
+            4
+          ]
+        },
+        "red": {
+          "color": "#B84035",
+          "rect": [
+            60,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  }
+}

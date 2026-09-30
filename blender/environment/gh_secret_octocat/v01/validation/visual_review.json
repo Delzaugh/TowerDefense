@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_secret_octocat",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "f28dc21e61a088409bf90ac17c0f60d12fe1965fc74f621761703982dbf1beb4",
+  "sourceHash": "9224ba915b02ea971fff400067d4f9b5d1cbaffa1bbd48535e1b1184265d0c3c",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T21:17:25.565Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Attachment 3 tabletop figurine rechecked against finished export: glossy black oversized head, cat-ear pair, broad peach face, rose-pink oval eyes, small smile/nose, four standing tentacles plus curling side tentacle and turquoise pedestal preserve the classic collectible identity. Height and subtle details are interpreted."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Front/side/oblique/reverse/detail inspection confirms curved face inset seats inside black head shell, eye rims and pupils have intentional layered depths, ear bowls are recessed, tail joins torso, and four rounded standing tips seat into pedestal. First-pass end-cap sphere seams were replaced with shared-ring hemispherical geometry; repeating tail suckers are secondary coherent fittings."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Phone framing retains classic round head, peach face, rosy eyes, cat ears, waving tail and turquoise base. At actual shelf size it functions as a discoverable small figure; facial glints and sucker dots are intentionally secondary and will disappear in distant campus views."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Intentionally static environment sculpture; no skeleton, animations, root motion or gameplay behavior requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Finished model rechecked against attachment 3 after cap repairs and five-tentacle silhouette correction. Rear/side views show seated supports and consistent head thickness; face boundary remains within black shell and eye pair shares common height/spacing. Ground/base and rooted +Z orientation are preserved."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_secret_octocat/v01/validation/front.png",
+      "sha256": "3ce69d4061b946d070da71b2045a3c0df902c3979e1d2b7bc34aa38638436361",
+      "view": "front"
+    },
+    {
+      "path": "blender/environment/gh_secret_octocat/v01/validation/side.png",
+      "sha256": "93f52f076854219a678a0b4a5cabbb2f6ec140ba709fc2fa1db86c1595bf8537",
+      "view": "side"
+    },
+    {
+      "path": "blender/environment/gh_secret_octocat/v01/validation/iso.png",
+      "sha256": "4c7650e64c8444b33ef4883614bfdc4bd7bea0016ff9ebbc186160805f3361d7",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_secret_octocat/v01/validation/rear.png",
+      "sha256": "eff6f42ac9b794be20483358d5bd434ac89c9eedc8a383eac485732b9b3abe54",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_secret_octocat/v01/validation/inspector-close.png",
+      "sha256": "173649c7da6afac1b6352c7ed3a600606eca0faeea0925ee74a2cefd95e20abe",
+      "view": "inspector-close"
+    },
+    {
+      "path": "blender/environment/gh_secret_octocat/v01/validation/inspector-phone.png",
+      "sha256": "79d1344fc80d7fe7353adca4bbbbdc7a6f556381062a4fa60acf04bf28b499c1",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested production/refinement; artistic acceptance of this exact source/export revision has not been given."
+  },
+  "limitations": [
+    "Original stylized interpretation of user-supplied collectible photo; dimensions are inferred and not manufacturer measurements."
+  ]
+}

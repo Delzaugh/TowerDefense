@@ -1,0 +1,388 @@
+{
+  "asset": "gh_mural_universe",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "7cd764a6025838764f297ba5117cc63710bae4adcae09158dc426356ef7b1d1f",
+  "views": [
+    {
+      "file": "iso.png",
+      "sha256": "b9c57ebca31c091526be5b88349bec9bf143d59baae1e778cc299c7efd622b46",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": null,
+      "progress": 0,
+      "camera": {
+        "projection": "orthographic",
+        "position": [
+          24,
+          17.700000047683716,
+          32.03299999795854
+        ],
+        "target": [
+          0,
+          1.7000000476837158,
+          0.032999997958540916
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "frustum": [
+          -7.6499999999999995,
+          7.6499999999999995,
+          6.8,
+          -6.8,
+          0.01,
+          1000
+        ],
+        "viewport": [
+          900,
+          800
+        ]
+      }
+    },
+    {
+      "file": "iso-silhouette.png",
+      "sha256": "66f7856aad2126365bfb0919a9c5d3832dd6870a1d3d5bc9edd862a29cde5b66",
+      "view": "iso",
+      "mode": "silhouette",
+      "clip": null,
+      "progress": 0,
+      "camera": {
+        "projection": "orthographic",
+        "position": [
+          24,
+          17.700000047683716,
+          32.03299999795854
+        ],
+        "target": [
+          0,
+          1.7000000476837158,
+          0.032999997958540916
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "frustum": [
+          -7.6499999999999995,
+          7.6499999999999995,
+          6.8,
+          -6.8,
+          0.01,
+          1000
+        ],
+        "viewport": [
+          900,
+          800
+        ]
+      }
+    },
+    {
+      "file": "front.png",
+      "sha256": "2a525557d1f7b4c363cb537fa3082a46d4799b29cc4d162d758066e22630090b",
+      "view": "front",
+      "mode": "shaded",
+      "clip": null,
+      "progress": 0,
+      "camera": {
+        "projection": "orthographic",
+        "position": [
+          0,
+          1.7000000476837158,
+          40.03299999795854
+        ],
+        "target": [
+          0,
+          1.7000000476837158,
+          0.032999997958540916
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "frustum": [
+          -7.6499999999999995,
+          7.6499999999999995,
+          6.8,
+          -6.8,
+          0.01,
+          1000
+        ],
+        "viewport": [
+          900,
+          800
+        ]
+      }
+    },
+    {
+      "file": "front-silhouette.png",
+      "sha256": "d7bd1743d995282c0b54e6473531d974d9f36753c84ee7d19afabfc292ada9a6",
+      "view": "front",
+      "mode": "silhouette",
+      "clip": null,
+      "progress": 0,
+      "camera": {
+        "projection": "orthographic",
+        "position": [
+          0,
+          1.7000000476837158,
+          40.03299999795854
+        ],
+        "target": [
+          0,
+          1.7000000476837158,
+          0.032999997958540916
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "frustum": [
+          -7.6499999999999995,
+          7.6499999999999995,
+          6.8,
+          -6.8,
+          0.01,
+          1000
+        ],
+        "viewport": [
+          900,
+          800
+        ]
+      }
+    },
+    {
+      "file": "side.png",
+      "sha256": "d5aafcb346d3fce61d26e609d5dc9d155c3217842b4f2751cc06511fca7ada7f",
+      "view": "side",
+      "mode": "shaded",
+      "clip": null,
+      "progress": 0,
+      "camera": {
+        "projection": "orthographic",
+        "position": [
+          40,
+          1.7000000476837158,
+          0.032999997958540916
+        ],
+        "target": [
+          0,
+          1.7000000476837158,
+          0.032999997958540916
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "frustum": [
+          -7.6499999999999995,
+          7.6499999999999995,
+          6.8,
+          -6.8,
+          0.01,
+          1000
+        ],
+        "viewport": [
+          900,
+          800
+        ]
+      }
+    },
+    {
+      "file": "side-silhouette.png",
+      "sha256": "a82ee09db8e264b680d708fe3cd18f03cc8a2110d2643fc15c3dc62ff99131ab",
+      "view": "side",
+      "mode": "silhouette",
+      "clip": null,
+      "progress": 0,
+      "camera": {
+        "projection": "orthographic",
+        "position": [
+          40,
+          1.7000000476837158,
+          0.032999997958540916
+        ],
+        "target": [
+          0,
+          1.7000000476837158,
+          0.032999997958540916
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "frustum": [
+          -7.6499999999999995,
+          7.6499999999999995,
+          6.8,
+          -6.8,
+          0.01,
+          1000
+        ],
+        "viewport": [
+          900,
+          800
+        ]
+      }
+    },
+    {
+      "file": "rear.png",
+      "sha256": "82ae77f44c2853d4a8ea54cc16c8594c034443f6ff81e8e1c44e77a35d36a7ac",
+      "view": "rear",
+      "mode": "shaded",
+      "clip": null,
+      "progress": 0,
+      "camera": {
+        "projection": "orthographic",
+        "position": [
+          0,
+          1.7000000476837158,
+          -39.96700000204146
+        ],
+        "target": [
+          0,
+          1.7000000476837158,
+          0.032999997958540916
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "frustum": [
+          -7.6499999999999995,
+          7.6499999999999995,
+          6.8,
+          -6.8,
+          0.01,
+          1000
+        ],
+        "viewport": [
+          900,
+          800
+        ]
+      }
+    },
+    {
+      "file": "rear-silhouette.png",
+      "sha256": "d7bd1743d995282c0b54e6473531d974d9f36753c84ee7d19afabfc292ada9a6",
+      "view": "rear",
+      "mode": "silhouette",
+      "clip": null,
+      "progress": 0,
+      "camera": {
+        "projection": "orthographic",
+        "position": [
+          0,
+          1.7000000476837158,
+          -39.96700000204146
+        ],
+        "target": [
+          0,
+          1.7000000476837158,
+          0.032999997958540916
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "frustum": [
+          -7.6499999999999995,
+          7.6499999999999995,
+          6.8,
+          -6.8,
+          0.01,
+          1000
+        ],
+        "viewport": [
+          900,
+          800
+        ]
+      }
+    },
+    {
+      "file": "top.png",
+      "sha256": "31d7ad24272067c4bd63a6aebb5ffd3e39b242bec908472fef19c792d98becf2",
+      "view": "top",
+      "mode": "shaded",
+      "clip": null,
+      "progress": 0,
+      "camera": {
+        "projection": "orthographic",
+        "position": [
+          0,
+          41.700000047683716,
+          0.03379999795854092
+        ],
+        "target": [
+          0,
+          1.7000000476837158,
+          0.032999997958540916
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "frustum": [
+          -7.6499999999999995,
+          7.6499999999999995,
+          6.8,
+          -6.8,
+          0.01,
+          1000
+        ],
+        "viewport": [
+          900,
+          800
+        ]
+      }
+    },
+    {
+      "file": "top-silhouette.png",
+      "sha256": "fc8af8305f29380ba55dd527a2d7871aa6bfa6b7a8f28159511e653f3c445ca3",
+      "view": "top",
+      "mode": "silhouette",
+      "clip": null,
+      "progress": 0,
+      "camera": {
+        "projection": "orthographic",
+        "position": [
+          0,
+          41.700000047683716,
+          0.03379999795854092
+        ],
+        "target": [
+          0,
+          1.7000000476837158,
+          0.032999997958540916
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "frustum": [
+          -7.6499999999999995,
+          7.6499999999999995,
+          6.8,
+          -6.8,
+          0.01,
+          1000
+        ],
+        "viewport": [
+          900,
+          800
+        ]
+      }
+    }
+  ]
+}

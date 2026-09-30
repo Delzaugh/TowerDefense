@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_pendant",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "5f6161a71710d3b44bf7ee09a2da1353919cecb17b01a9643bea46af15ea5a17",
+  "sourceHash": "5a8b45fb55c76f15fa4d08dd1ec13d344663250b72819d25758be4f054e8d6bf",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:09:07.808Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Black warehouse suspension, hanging cables, dark shades and warm visible bulbs capture documented industrial pendant lamps. Three-lamp straight rig is modular interpretation."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Each cable joins top beam and shade. Warm rim seats around the shade edge, bulb remains within shade mouth, and no cable crosses the neighboring shade."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Initial phone oblique result hid bulbs; added warm emissive rim now reads against the dark Inspector background while remaining restrained."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Intentionally static environment ensemble; no rig, animation, root motion or gameplay behavior requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Repaired warm rim/emitter and re-exported with explicit two-material/two-texture budget. Rechecked front and phone export: hanging rhythm and shade silhouette preserved, illuminated edges now legible."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_pendant/v01/validation/front.png",
+      "sha256": "acb2e9e02cca8b339e2d2af1ba3f17e36a0a27ace4ad54021d0c5ab88c130cc7",
+      "view": "front"
+    },
+    {
+      "path": "blender/environment/gh_pendant/v01/validation/iso.png",
+      "sha256": "da47c9a29f3324941832f6b2c07a4360b18e7c66ded389adabfb87abefc4dc7c",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_pendant/v01/validation/rear.png",
+      "sha256": "73dd836cf65020cce9b8b0c0850f8404c6a53e8e7abe67a2042ea17a51814827",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_pendant/v01/validation/inspector-phone.png",
+      "sha256": "e8bf95a2c187fa07a42b98d40c4fcafe34637798698866eeebc97cdf94f2d16e",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested production; no artistic acceptance of this specific revision has been given."
+  },
+  "limitations": [
+    "Research-informed modular interpretation; furniture measurements are inferred, not certified as-built specifications."
+  ]
+}

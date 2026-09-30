@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_recessed_lounge",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "f13f1a371262d8e3ff88efba5fc53137667d03e214b017d907fab8d0f488c3c0",
+  "sourceHash": "b50f39f1662357cd849b770972c669898c73b3db0bf07c1e9b889ec49b8cca84",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T21:17:21.477Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Supplied dark nook photograph governs graphite framing, raised oak step, brown couch, loose pillows, striped draped throw, small folding side table, lantern and exposed warehouse timber. These landmarks remain in the current export; laptop and cup express its work lounge use without adding people."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Deep graphite side frames and top surround a genuinely open front. Sofa base supports separated seat cushions and loose pillows; throw wraps across the cushion and front edge with short tassels. Crossed table legs seat under a small tabletop, lantern cage meets its base/cap, laptop screen is supported by its base. Step emission is a fitted narrow source-authored strip."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "At 390px the dark frame, warm platform, brown seat, blue laptop and high-contrast throw remain clear. Small lantern and folding details are secondary close-view details; overall silhouette reads as a cozy recessed work lounge."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static environment furniture. No animation, rig, moving root or gameplay behavior requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After first pass, replaced boxy loose-pillow faces with rounded profiles and adjusted repeated seat centers to remain within the couch. Reviewed the finished front/oblique/reverse/close and phone exports against the photo again; pillows clear the frame, throw has a consistent drape, and table feet rest on the raised platform."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_recessed_lounge/v01/validation/inspector-front.png",
+      "sha256": "6db882f2424163cd4f4c5d7af183d49cf07c01135d8ac38aec4716eb4d374665",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_recessed_lounge/v01/validation/inspector-iso.png",
+      "sha256": "802222e21b5360ad69c2e4ae6b231c9a9b3eec9f7ae315c8236fcacb1a15374e",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_recessed_lounge/v01/validation/inspector-rear.png",
+      "sha256": "f22a3bbd81acf4c099aad78c5694eac6445f91a685073652a243010a69bf4ff8",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_recessed_lounge/v01/validation/inspector-left.png",
+      "sha256": "52da24e0a44be1b0148fdf0b1b8e0caf4d34b9b7b0bb9b875e1204ee97890ae9",
+      "view": "left",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_recessed_lounge/v01/validation/inspector-close.png",
+      "sha256": "378dd16e889dbf2671ac2c8549076b94e50de5d5e2916dcd702b9397b81827a6",
+      "view": "close",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_recessed_lounge/v01/validation/inspector-phone.png",
+      "sha256": "fefed4fdb3a31c71d7ce329ce64a06dc2cb7af44ddd90674883d8349701be38b",
+      "view": "390px-phone",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested these additions; no explicit artistic acceptance of the delivered revision has been given."
+  },
+  "limitations": [
+    "Modular low-poly interpretation with inferred dimensions, not a measured replica of GitHub furniture. Books and optional bust use enlarged simple shapes; fabric has geometric quilting rather than a photo texture."
+  ]
+}

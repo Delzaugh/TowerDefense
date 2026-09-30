@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_worklounge_pod",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "2e25f08443d87541a32f2308eff779f841f0aa2cef841776e8ea0eab1c9225ec",
+  "sourceHash": "907bd25cc9a73d7c8b63270df1606745e7011971649191cadfac3cc667d4d1ef",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T21:17:21.136Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Wide supplied lounge photo governs broad horizontal opening, warm oak enclosure, rounded corners, visible brick back, cream lining and long cushion. Current export contains a true 4.78m-wide rounded rectangular portal, three tailored cushions, cream padded sides, a wall lamp and a quiet book ledge. Oak enclosure and brick contrast follow the photo."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Continuous ring has no crossing bars or fake dark opening. Deep side/roof panels, inset padded ring, layered brick backing and seat cushions fit within the shell. Diamond upholstery is mesh geometry with narrow fabric seams. Front, reverse and close oblique show intentional wall closure and full-depth seat; small books clear the seating edge."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "At 390px the wide horizontal rounded opening and long pale seat silhouette remain recognizable; brick and quilt patterns are secondary. The large opening reads distinctly from the earlier arch-shaped library."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static environment furniture. No animation, rig, moving root or gameplay behavior requested."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "First review found square pillow outlines and coarse, checker-like quilting. Rebuilt pillow faces with rounded rectangle profiles and tightened quilt spacing. Current exported front/oblique/reverse/close and phone views were assessed again with the wide photo visible; the open portal proportions, seat separation and tucked padded edge remain clean."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_worklounge_pod/v01/validation/inspector-front.png",
+      "sha256": "674a31a1cf4b6762edc0d0a0d7440f4f00102c577439d938cdb685bb4204f7bd",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_worklounge_pod/v01/validation/inspector-iso.png",
+      "sha256": "8a63885843b0257b14505f5f82ded4f77f4d1ceaf260ee6a196ef3a4c0e84685",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_worklounge_pod/v01/validation/inspector-rear.png",
+      "sha256": "0aa694c1cc4f67229aa51e44d2f26593ff3ec95fca4c91b19a5bd17a24ad4c3c",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_worklounge_pod/v01/validation/inspector-left.png",
+      "sha256": "dd09bf6a0a8d7bfc53008fe97f8b34c42a42a726c1e33418219092f5a91e4026",
+      "view": "left",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_worklounge_pod/v01/validation/inspector-close.png",
+      "sha256": "5a62e34e262db4915372937a850d29b5273af88e2ae107b5ed1400b704801c31",
+      "view": "close",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/gh_worklounge_pod/v01/validation/inspector-phone.png",
+      "sha256": "26463c7b63ea4c6698456692878f0b18c00846470f0aa6bc021d46946c1569a5",
+      "view": "390px-phone",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested these additions; no explicit artistic acceptance of the delivered revision has been given."
+  },
+  "limitations": [
+    "Modular low-poly interpretation with inferred dimensions, not a measured replica of GitHub furniture. Books and optional bust use enlarged simple shapes; fabric has geometric quilting rather than a photo texture."
+  ]
+}

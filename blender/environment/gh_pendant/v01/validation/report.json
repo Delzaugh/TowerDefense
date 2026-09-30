@@ -1,0 +1,37 @@
+{
+  "asset": "gh_pendant",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "5f6161a71710d3b44bf7ee09a2da1353919cecb17b01a9643bea46af15ea5a17",
+  "checkedAt": "2026-09-30T18:04:27.797Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 696,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 2,
+  "bones": 0,
+  "dimensions": [
+    3,
+    1.5250000953674316,
+    0.6499999761581421
+  ],
+  "bounds": [
+    [
+      -1.5,
+      0,
+      -0.32499998807907104
+    ],
+    [
+      1.5,
+      1.5250000953674316,
+      0.32499998807907104
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "5a8b45fb55c76f15fa4d08dd1ec13d344663250b72819d25758be4f054e8d6bf",
+  "source": "blender/environment/gh_pendant/v01/gh_pendant_v01.blend",
+  "runtime": "assets/runtime/environment/gh_pendant_v01.glb"
+}

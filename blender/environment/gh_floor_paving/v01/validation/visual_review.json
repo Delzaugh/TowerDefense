@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "asset": "gh_floor_paving",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "fd002a7d184d339ac3b9ee8a27dd659974dcfe1cf44a642fd602859b680afdb5",
+  "sourceHash": "a38f3c77dfd4f19438f4dfd01a5ca2d17ee5d3b61c9f1fd27b18f583bc86d499",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T18:31:21.021Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Authored campus landscaping addition: concrete slab and neutral large-format paving support the office kit. Not a claim about surveyed Brannan sidewalks."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Six-metre slab has even four-by-four inset paving with a continuous bed and small intentional seams."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Slab boundary and joints remain visible in phone framing; restrained variation avoids competing with buildings."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static modular office/campus scenery. No animation was requested or authored."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second oblique/reverse check confirms a flat reusable module with no projecting corners or accidental open grout bed. Phone capture was explicitly reframed after the viewport width changed, then checked for complete-model visibility."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/gh_floor_paving/v01/validation/iso.png",
+      "sha256": "dbe1a98533c4c0aa28b03850752d78f0a361b6becc1f48f6a6a86f4d9d9e9022",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/gh_floor_paving/v01/validation/rear.png",
+      "sha256": "c103987ef722e80e3c02996d698125431ce684c5e3911ed083a1dff779dac025",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/gh_floor_paving/v01/validation/inspector-detail.png",
+      "sha256": "b9d7d093c42ded3810c5063b5a6f071ce9d90056d79c9133c55694b7d98c023f",
+      "view": "inspector-detail"
+    },
+    {
+      "path": "blender/environment/gh_floor_paving/v01/validation/inspector-phone.png",
+      "sha256": "907478fba2e9c16bb167cd3712f8a9e290ac27abd82a6df4ba0b9e3efc0d8a32",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author self-review completed; no artistic acceptance is inferred from the user request."
+  },
+  "limitations": [
+    "Stylized, inferred dimensions; not a measured as-built reconstruction."
+  ]
+}

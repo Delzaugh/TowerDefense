@@ -1,0 +1,37 @@
+{
+  "asset": "gh_ceiling_services",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "ffe8ef9f96c13b49c131392cb6931e4d53e8ffdf362e39fe6481d50379bc5f49",
+  "checkedAt": "2026-09-30T18:21:43.600Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 992,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    5.316999912261963,
+    1.1010000109672546,
+    2.4749999046325684
+  ],
+  "bounds": [
+    [
+      -3,
+      -0.0009999871253967285,
+      -1.1249998807907104
+    ],
+    [
+      2.316999912261963,
+      1.100000023841858,
+      1.350000023841858
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "38afad15758cb5261eba6f17313f3568c55f5da0e7bff3ea98dd97d718f80ac1",
+  "source": "blender/environment/gh_ceiling_services/v01/gh_ceiling_services_v01.blend",
+  "runtime": "assets/runtime/environment/gh_ceiling_services_v01.glb"
+}

@@ -1,0 +1,17 @@
+{
+  "sha256": "af00b5f37467f8ed654607f80c74402534cdf6a77b8ee95aa5313dc90d690b01",
+  "unique_positions": 2207,
+  "mirror_key_tolerance_m": 1e-05,
+  "positions_without_rounded_mirror": 8,
+  "worst_nearest_mirror_distance_m": 0.004636847179663585,
+  "triangles_by_palette_role": {
+    "shell": 1630,
+    "trim": 744,
+    "screen": 272,
+    "shell_dark": 736,
+    "amber": 552,
+    "slate": 320,
+    "cyan": 120
+  },
+  "note": "Position symmetry only; topology triangulation and shading can differ. Role totals are material regions, not independent parts."
+}

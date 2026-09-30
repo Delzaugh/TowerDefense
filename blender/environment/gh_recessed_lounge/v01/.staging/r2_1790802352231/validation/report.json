@@ -1,0 +1,37 @@
+{
+  "asset": "gh_recessed_lounge",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "33e34c345860a131393d6201598ff7b88dabf6c06417e4c59603627a5ab1af93",
+  "checkedAt": "2026-09-30T21:05:55.073Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1440,
+  "meshes": 5,
+  "materials": 3,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    4.5,
+    3.200000047683716,
+    2.4000000953674316
+  ],
+  "bounds": [
+    [
+      -2.25,
+      0,
+      -1.2000000476837158
+    ],
+    [
+      2.25,
+      3.200000047683716,
+      1.2000000476837158
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "d52f58d239b3730216ed9c0b61ecb957711ea0961e4c31340734513eba2554aa",
+  "source": "blender/environment/gh_recessed_lounge/v01/gh_recessed_lounge_v01.blend",
+  "runtime": "assets/runtime/environment/gh_recessed_lounge_v01.glb"
+}

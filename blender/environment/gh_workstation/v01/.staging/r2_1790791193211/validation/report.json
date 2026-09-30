@@ -1,0 +1,37 @@
+{
+  "asset": "gh_workstation",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "97c2612d0bb9eec35a56833272b2cd105dc63dce768afd0bba55d9bf2ff7baab",
+  "checkedAt": "2026-09-30T17:59:56.928Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 524,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.25,
+    1.5799999237060547,
+    1.584999918937683
+  ],
+  "bounds": [
+    [
+      -1.125,
+      0,
+      -0.7799999713897705
+    ],
+    [
+      1.125,
+      1.5799999237060547,
+      0.8049999475479126
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "4339a10574299e6859be4fe905a1da9dc91ee9744f1fca8729068dc92bb2ccf5",
+  "source": "blender/environment/gh_workstation/v01/gh_workstation_v01.blend",
+  "runtime": "assets/runtime/environment/gh_workstation_v01.glb"
+}

@@ -1,0 +1,12 @@
+{
+  "ready": true,
+  "file": "blender/environment/gh_bookshelf_pod/v01/validation/visual_review.json",
+  "asset": "gh_bookshelf_pod",
+  "version": "v01",
+  "revision": 6,
+  "sha256": "500ab07d38483ee08f64cb739c60ef5a05d6f1dbce4705b1513a8418faf47d7e",
+  "sourceHash": "42bbc91aace53a14cbac121674fc058cd3904b98a6d7bfd7dc7a18da29a6f5ac",
+  "userAcceptance": "pending",
+  "errors": [],
+  "meaning": "Checks record completeness and current files; author judgment is not independently verified."
+}

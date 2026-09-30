@@ -78,6 +78,14 @@ loaded hash must match the reviewed payload before claiming its view is refreshe
 
 ## Technical checks and preview
 
+Opaque materials remain the default. A static environment asset may declare a
+specific glazed material with an override
+`{"field":"material.transparency","material":"clear_architectural_glazing","reason":"Interior visibility through the authored glass shell."}`.
+The actual loaded material name must match. Empty reasons, duplicate selectors,
+animated assets and other categories are rejected; unnamed transparent materials
+remain blocking failures. This is a per-material design exception, not a global
+transparency switch. Inspect alpha sorting from both sides in the actual scene.
+
 Towers/enemies use the baseline and model-first handoff in the visual guide.
 Deliver the reviewed model and ask whether to add animations before beginning
 that pass, unless continuation is already authorized. Rest Pose is the unanimated

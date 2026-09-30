@@ -70,4 +70,41 @@ test.describe('Tower inspection usability', () => {
       await expect(page.getByRole('button', { name: 'Back to Hub', exact: true })).toBeInViewport();
     }
   });
+  test('close inspection uses the complete card and page ambience respects reduced motion', async ({ page }, testInfo) => {
+    const preview = page.locator('.codex-model-viewport');
+    const atmosphere = page.locator('.codex-workbench > .ui-page-atmosphere');
+    const light = atmosphere.locator('.ui-page-atmosphere__light--blue');
+    await expect(atmosphere).toHaveAttribute('aria-hidden', 'true');
+    await expect(atmosphere).toHaveCSS('pointer-events', 'none');
+    await expect(page.locator('.codex-stage .ui-page-atmosphere')).toHaveCount(0);
+    await page.emulateMedia({ reducedMotion: 'no-preference' });
+    await expect(light).toHaveCSS('animation-name', 'ui-page-light-drift');
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    await expect(light).toHaveCSS('animation-name', 'none');
+    for (const size of [{ width: 1600, height: 1000 }, { width: 390, height: 844 }, { width: 844, height: 390 }]) {
+      await page.setViewportSize(size);
+      const stage = (await page.locator('.codex-stage').boundingBox())!;
+      const canvas = (await page.locator('.codex-scene').boundingBox())!;
+      expect(canvas.y).toBeCloseTo(stage.y + 1, 0);
+      expect(canvas.x).toBeCloseTo(stage.x + 1, 0);
+      expect(canvas.height).toBeCloseTo(stage.height - 2, 0);
+      expect(canvas.width).toBeCloseTo(stage.width - 2, 0);
+      await expect.poll(() => page.locator('.codex-scene').evaluate((element: HTMLCanvasElement) => Math.abs(element.height - element.clientHeight * Math.min(devicePixelRatio, 2)))).toBeLessThan(2);
+      await preview.focus();
+      for (let index = 0; index < 8; index++) await preview.press('+');
+      await page.screenshot({ path: testInfo.outputPath(`closeup-${size.width}.png`) });
+      await preview.press('r');
+    }
+    await page.setViewportSize({ width: 1600, height: 1000 });
+    const state = () => page.evaluate(() => (window.__TOWER_DIAGNOSTICS__!.showcase!.sample().state as { azimuth: number }));
+    const initial = await state();
+    const stage = (await page.locator('.codex-stage').boundingBox())!;
+    await page.mouse.move(stage.x + stage.width / 2, stage.y + 35);
+    await page.mouse.down();
+    await page.mouse.move(stage.x + stage.width / 2 + 70, stage.y + 35, { steps: 5 });
+    await page.mouse.up();
+    await expect.poll(async () => (await state()).azimuth).not.toBe(initial.azimuth);
+    await page.getByRole('button', { name: 'Reset preview', exact: true }).click();
+    await expect.poll(async () => (await state()).azimuth).toBe(initial.azimuth);
+  });
 });

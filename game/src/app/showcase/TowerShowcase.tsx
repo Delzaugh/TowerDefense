@@ -7,7 +7,7 @@ import type { TowerReference } from '../../content/towers/catalog';
 import type { AnimationChoice, ShowcaseStatus, TowerShowcaseScene } from '../../rendering/showcase/types';
 import { getVisualStats } from './visualStats';
 import type { TowerShowcaseDialogProps } from './types';
-import { Button, IconButton, ModelPreviewBackdrop, SegmentedControl, StatGauge, StatusBadge } from '../../ui/toolkit';
+import { Button, IconButton, ModelPreviewBackdrop, PageAtmosphere, SegmentedControl, StatGauge, StatusBadge } from '../../ui/toolkit';
 
 const STAT_ICONS: Record<string, typeof ZapIcon> = { damage: ZapIcon, 'work-throughput': CodeIcon, 'action-cadence': MeterIcon, range: CrosshairsIcon, investment: CpuIcon };
 const bundledPortraits = import.meta.glob<string>('./portraits/*.png', { eager: true, import: 'default', query: '?url' });
@@ -118,6 +118,7 @@ export function TowerShowcase({ selectedTower, onSelectTower, reducedMotion }: O
     else if (event.key.toLowerCase() === 'r') { event.preventDefault(); scene.current?.resetView(); }
   }
   return <div className="codex-workbench" data-testid="tower-showcase" data-state={status.phase} data-animation={animation}>
+    <PageAtmosphere animated={!reducedMotion} />
     <div className="codex-workspace">
       <section className="ui-surface codex-console codex-collection" data-collection={collection} aria-labelledby="codex-collection-title">
         <div className="codex-collection-top"><h2 id="codex-collection-title">Your specialists</h2>

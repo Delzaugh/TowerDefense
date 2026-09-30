@@ -1,0 +1,7 @@
+# Full-card inspection and page ambience — 2026-09-30
+
+The model canvas occupied the flex area below the title rather than the complete preview card. At 1600×1000 its top edge was 160px below the card's inner top, producing a hard cut across the enlarged model. The canvas and interaction surface now fill the card; the title and bottom controls overlay it. Title pointer input reaches the camera, while the camera buttons retain their own targets. Close inspection can crop at the card boundary, with the existing zoom range and model scale preserved.
+
+`PageAtmosphere` is a reusable decorative layer behind whole menu pages, independent of the model's SVG background. It uses shared Light/Dark tokens for blue and green ambient light, a faint lattice and slow CSS drift. It requires no assets or WebGL pass, does not intercept input, and respects game and OS reduced motion. Inspection fixes it to the page viewport behind scrolling panels.
+
+Validation passed: build/type checks, lint, module boundaries, 14 affected inspection/renderer browser tests, 12 theme/viewport layout reviews and 5 GitHub Pages subpath tests. Close-up regression checks full canvas bounds and drawing-buffer size at desktop, phone and landscape sizes, camera drag under the title, button controls and reduced motion. Visual review covers the default model and close inspection in both appearances. The stable capability-panel height remains intact.

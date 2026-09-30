@@ -5,6 +5,7 @@ import './toolkit.css';
 
 export { ThemeProvider, useTheme } from './ThemeProvider';
 export { GameTopBar, type GameTopBarProps } from './GameTopBar';
+export { ModelPreviewBackdrop } from './ModelPreviewBackdrop';
 export type { ThemePreference, ResolvedTheme } from './theme';
 
 type ButtonVariant = 'primary' | 'secondary' | 'quiet' | 'danger';

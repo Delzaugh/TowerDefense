@@ -63,7 +63,7 @@ test.describe('Tower inspection usability', () => {
         expect(roster!.x + roster!.width).toBeCloseTo(panel!.x + panel!.width, 0);
         expect(roster!.y).toBeGreaterThanOrEqual(stage!.y + stage!.height);
         expect(roster!.y).toBeGreaterThan(panel!.y + panel!.height);
-        expect(await page.locator('.codex-stats').evaluate(element => getComputedStyle(element).alignSelf)).toBe('start');
+        expect(panel!.height).toBeCloseTo(stage!.height, 0);
       }
       const dialog = page.locator('.codex-dialog');
       expect(await dialog.evaluate(element => element.scrollWidth <= element.clientWidth)).toBe(true);

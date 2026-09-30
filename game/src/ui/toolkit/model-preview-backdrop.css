@@ -1,0 +1,8 @@
+.ui-model-backdrop { position:absolute; inset:0; overflow:hidden; pointer-events:none; contain:paint; }
+.ui-model-backdrop svg { display:block; width:100%; height:100%; }
+.ui-model-backdrop__structure { fill:none; stroke:var(--ui-border); stroke-width:1; opacity:.7; }
+.ui-model-backdrop__field { fill:none; stroke:var(--ui-accent); stroke-width:1.2; opacity:.25; }
+.ui-model-backdrop__flow { fill:none; stroke:var(--ui-accent); stroke-width:1.6; stroke-dasharray:28 240; opacity:.35; }
+.ui-model-backdrop[data-animated='true'] .ui-model-backdrop__flow { animation:ui-model-field-flow 18s linear infinite; }
+@keyframes ui-model-field-flow { to { stroke-dashoffset:-536; } }
+@media (prefers-reduced-motion:reduce) { .ui-model-backdrop .ui-model-backdrop__flow { animation:none!important; } }

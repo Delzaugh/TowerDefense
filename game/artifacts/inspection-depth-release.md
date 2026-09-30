@@ -1,0 +1,9 @@
+# Inspection depth and stable panel — 2026-09-30
+
+The capability panel fills the preview row and retains its dimensions when switching between Personas and the development collection. Its title stays fixed while long content scrolls inside the panel. Portrait cards reserve a consistent height; narrow landscape uses a bounded preview row and stacked phone views use a stable panel height.
+
+The shared `ModelPreviewBackdrop` uses native SVG planes, perspective lines, projection contours and a soft theme-aware light. Slow dashed light traces animate through CSS. Game and OS reduced-motion settings stop the motion while retaining the depth composition. The backdrop has unique SVG definition IDs, is decorative, ignores pointer input and does not encode gameplay range. The existing model scale, camera controls and lifecycle are preserved.
+
+Validation covers Light/Dark at 1600×1000, 1280×800, 1024×600, 844×390, 390×844 and 320×568, including Developer, Tester, Analyst and Senior Developer. The review script captures the layouts, checks equal panel/preview heights where side by side, verifies that Tower/collection changes retain panel height, checks overflow and minimum model height, and measures SVG motion before stopping it with reduced motion. Browser regression also exercises model arrival, selection, recall, rapid switching, retry and keyboard/touch camera controls. Production is checked under the GitHub Pages subpath before publication.
+
+Validation passed: production build/type checks, lint, module boundaries, 12 affected inspection/renderer browser cases, 6 final layout/lifecycle cases, 2 final keyboard-scroll cases and 5 deployment cases. The visual review covered 12 theme/viewport combinations with no layout failures, console errors or failed requests. CSS light traces changed their dash offset over time and stopped under reduced motion. Keyboard users can focus and scroll the capability details while its heading remains visible.

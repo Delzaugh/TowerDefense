@@ -7,7 +7,7 @@ import type { TowerReference } from '../../content/towers/catalog';
 import type { AnimationChoice, ShowcaseStatus, TowerShowcaseScene } from '../../rendering/showcase/types';
 import { getVisualStats } from './visualStats';
 import type { TowerShowcaseDialogProps } from './types';
-import { Button, IconButton, SegmentedControl, StatGauge, StatusBadge } from '../../ui/toolkit';
+import { Button, IconButton, ModelPreviewBackdrop, SegmentedControl, StatGauge, StatusBadge } from '../../ui/toolkit';
 
 const STAT_ICONS: Record<string, typeof ZapIcon> = { damage: ZapIcon, 'work-throughput': CodeIcon, 'action-cadence': MeterIcon, range: CrosshairsIcon, investment: CpuIcon };
 const bundledPortraits = import.meta.glob<string>('./portraits/*.png', { eager: true, import: 'default', query: '?url' });
@@ -24,6 +24,7 @@ function TowerStats({ tower }: { tower: TowerReference }) {
   const stats = getVisualStats(tower);
   return <section className="ui-surface codex-console codex-stats" aria-labelledby="codex-stats-title">
     <div className="codex-console-heading"><h2 id="codex-stats-title">Capabilities</h2></div>
+    <div className="codex-stats-body" role="region" aria-label="Capability details" tabIndex={0}>
     <p className="codex-tower-description">{tower.description}</p>
     {stats.length ? <div className="codex-gauges">{stats.map(stat => {
       const Icon = STAT_ICONS[stat.id] ?? PulseIcon;
@@ -31,6 +32,7 @@ function TowerStats({ tower }: { tower: TowerReference }) {
     })}</div> : <p className="codex-unavailable-copy">Stats not yet defined</p>}
     {tower.abilities.length > 0 && <div className="codex-abilities"><span className="codex-eyebrow">{tower.id === 'analyst' ? 'PASSIVE SUPPORT' : 'SPECIAL ABILITIES'}</span>{tower.abilities.map(ability => <p key={ability}>{ability}</p>)}</div>}
     {tower.stats && <div className="codex-coverage"><BroadcastIcon size={28} aria-hidden="true" /><span>{tower.id === 'analyst' ? 'Support coverage' : tower.id === 'linter' ? 'Radial coverage' : 'Coverage preview'}<small>Terrain can shape coverage.</small></span></div>}
+    </div>
   </section>;
 }
 
@@ -128,6 +130,7 @@ export function TowerShowcase({ selectedTower, onSelectTower, reducedMotion }: O
       </section>
 
       <section className="codex-stage" aria-label="Tower studio">
+      <ModelPreviewBackdrop animated={!reducedMotion} />
       <div className="codex-model-heading" aria-live="polite"><span className="codex-eyebrow">{tower.collection === 'development' ? 'IN DEVELOPMENT' : tower.id === 'base' ? 'BASE COPILOT' : 'COPILOT PERSONA'}</span><h2>{tower.title}</h2><p>{tower.role}</p><div className="codex-availability">{tower.availability && <StatusBadge tone="neutral">{tower.availability}</StatusBadge>}</div></div>
       <div ref={viewport} className="codex-model-viewport" role="group" aria-label={`${tower.title} model preview`} tabIndex={status.phase === 'ready' ? 0 : -1} onKeyDown={previewKey} aria-describedby="codex-preview-instructions">
         <canvas ref={canvas} key={attempt} className="codex-scene" aria-hidden="true" />

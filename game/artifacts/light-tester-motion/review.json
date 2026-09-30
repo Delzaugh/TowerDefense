@@ -1,0 +1,260 @@
+{
+  "frames": [
+    {
+      "label": "arrival-0",
+      "state": {
+        "calls": 9,
+        "triangles": 6152,
+        "geometries": 7,
+        "textures": 9,
+        "pixelRatio": 1,
+        "state": {
+          "tower": "tester",
+          "animation": "place",
+          "zoom": 1.12,
+          "azimuth": 0.24,
+          "elevation": 0.32
+        }
+      }
+    },
+    {
+      "label": "arrival-1",
+      "state": {
+        "calls": 9,
+        "triangles": 6140,
+        "geometries": 7,
+        "textures": 9,
+        "pixelRatio": 1,
+        "state": {
+          "tower": "tester",
+          "animation": "place",
+          "zoom": 1.12,
+          "azimuth": 0.24,
+          "elevation": 0.32
+        }
+      }
+    },
+    {
+      "label": "arrival-2",
+      "state": {
+        "calls": 8,
+        "triangles": 6128,
+        "geometries": 7,
+        "textures": 9,
+        "pixelRatio": 1,
+        "state": {
+          "tower": "tester",
+          "animation": "place",
+          "zoom": 1.12,
+          "azimuth": 0.24,
+          "elevation": 0.32
+        }
+      }
+    },
+    {
+      "label": "arrival-3",
+      "state": {
+        "calls": 8,
+        "triangles": 6128,
+        "geometries": 7,
+        "textures": 9,
+        "pixelRatio": 1,
+        "state": {
+          "tower": "tester",
+          "animation": "idle",
+          "zoom": 1.12,
+          "azimuth": 0.24,
+          "elevation": 0.32
+        }
+      }
+    },
+    {
+      "label": "arrival-4",
+      "state": {
+        "calls": 8,
+        "triangles": 6128,
+        "geometries": 7,
+        "textures": 9,
+        "pixelRatio": 1,
+        "state": {
+          "tower": "tester",
+          "animation": "idle",
+          "zoom": 1.12,
+          "azimuth": 0.24,
+          "elevation": 0.32
+        }
+      }
+    },
+    {
+      "label": "idle-0",
+      "state": {
+        "calls": 8,
+        "triangles": 6128,
+        "geometries": 7,
+        "textures": 9,
+        "pixelRatio": 1,
+        "state": {
+          "tower": "tester",
+          "animation": "idle",
+          "zoom": 1.12,
+          "azimuth": 0.24,
+          "elevation": 0.32
+        }
+      }
+    },
+    {
+      "label": "idle-1",
+      "state": {
+        "calls": 8,
+        "triangles": 6128,
+        "geometries": 7,
+        "textures": 9,
+        "pixelRatio": 1,
+        "state": {
+          "tower": "tester",
+          "animation": "idle",
+          "zoom": 1.12,
+          "azimuth": 0.24,
+          "elevation": 0.32
+        }
+      }
+    },
+    {
+      "label": "idle-2",
+      "state": {
+        "calls": 8,
+        "triangles": 6128,
+        "geometries": 7,
+        "textures": 9,
+        "pixelRatio": 1,
+        "state": {
+          "tower": "tester",
+          "animation": "idle",
+          "zoom": 1.12,
+          "azimuth": 0.24,
+          "elevation": 0.32
+        }
+      }
+    },
+    {
+      "label": "idle-3",
+      "state": {
+        "calls": 8,
+        "triangles": 6128,
+        "geometries": 7,
+        "textures": 9,
+        "pixelRatio": 1,
+        "state": {
+          "tower": "tester",
+          "animation": "idle",
+          "zoom": 1.12,
+          "azimuth": 0.24,
+          "elevation": 0.32
+        }
+      }
+    },
+    {
+      "label": "idle-4",
+      "state": {
+        "calls": 8,
+        "triangles": 6128,
+        "geometries": 7,
+        "textures": 9,
+        "pixelRatio": 1,
+        "state": {
+          "tower": "tester",
+          "animation": "idle",
+          "zoom": 1.12,
+          "azimuth": 0.24,
+          "elevation": 0.32
+        }
+      }
+    },
+    {
+      "label": "idle-5",
+      "state": {
+        "calls": 8,
+        "triangles": 6128,
+        "geometries": 7,
+        "textures": 9,
+        "pixelRatio": 1,
+        "state": {
+          "tower": "tester",
+          "animation": "idle",
+          "zoom": 1.12,
+          "azimuth": 0.24,
+          "elevation": 0.32
+        }
+      }
+    },
+    {
+      "label": "recall-0",
+      "state": {
+        "calls": 8,
+        "triangles": 6128,
+        "geometries": 7,
+        "textures": 9,
+        "pixelRatio": 1,
+        "state": {
+          "tower": "tester",
+          "animation": "resolve",
+          "zoom": 1.12,
+          "azimuth": 0.24,
+          "elevation": 0.32
+        }
+      }
+    },
+    {
+      "label": "recall-1",
+      "state": {
+        "calls": 8,
+        "triangles": 6128,
+        "geometries": 7,
+        "textures": 9,
+        "pixelRatio": 1,
+        "state": {
+          "tower": "tester",
+          "animation": "resolve",
+          "zoom": 1.12,
+          "azimuth": 0.24,
+          "elevation": 0.32
+        }
+      }
+    },
+    {
+      "label": "recall-2",
+      "state": {
+        "calls": 9,
+        "triangles": 6152,
+        "geometries": 7,
+        "textures": 9,
+        "pixelRatio": 1,
+        "state": {
+          "tower": "tester",
+          "animation": "resolve",
+          "zoom": 1.12,
+          "azimuth": 0.24,
+          "elevation": 0.32
+        }
+      }
+    },
+    {
+      "label": "recall-3",
+      "state": {
+        "calls": 8,
+        "triangles": 6128,
+        "geometries": 7,
+        "textures": 9,
+        "pixelRatio": 1,
+        "state": {
+          "tower": "tester",
+          "animation": "resolve",
+          "zoom": 1.12,
+          "azimuth": 0.24,
+          "elevation": 0.32
+        }
+      }
+    }
+  ],
+  "scope": "Tester arrival, Idle and recall in production inspection"
+}

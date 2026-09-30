@@ -1,0 +1,194 @@
+
+> tower-game@0.1.0 test:e2e
+> playwright test
+
+[WebServer] (node:36432) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 106 tests using 4 workers
+
+(node:37000) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:25408) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:27700) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:26756) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok   3 [desktop-edge] › tests\e2e\abilities.spec.ts:32:1 › passive Towers expose only applicable controls and do not perform a main action (2.5s)
+  ok   4 [desktop-edge] › tests\e2e\console.spec.ts:4:1 › manual start, hard pause and resume (2.7s)
+  ok   2 [desktop-edge] › tests\e2e\console.spec.ts:26:1 › local save restores after page reload (3.3s)
+  ok   5 [desktop-edge] › tests\e2e\console.spec.ts:44:1 › rejects blocked pointer placement and supports touch-sized layout (1.3s)
+  ok   1 [desktop-edge] › tests\e2e\abilities.spec.ts:4:1 › QA upgrades, external effects, rewards, local saves and repeat work in the test map (4.2s)
+  ok   6 [desktop-edge] › tests\e2e\console.spec.ts:62:1 › stale save from another tab does not overwrite newer data (2.1s)
+  ok   7 [desktop-edge] › tests\e2e\encounter.spec.ts:3:1 › manual dual flow, snapshot restore and reset through the lab (2.1s)
+  ok   8 [desktop-edge] › tests\e2e\encounter.spec.ts:26:1 › hard pause disables manual steps and speed, failure is terminal (1.9s)
+  ok   9 [desktop-edge] › tests\e2e\encounter.spec.ts:41:1 › automatic clock runs and lab stays usable in narrow layouts (1.9s)
+  ok  12 [desktop-edge] › tests\e2e\home.spec.ts:111:3 › campus home › OS reduced-motion preference is explained in settings and respected without changing the saved choice (3.9s)
+  ok  13 [desktop-edge] › tests\e2e\home.spec.ts:123:3 › campus home › unavailable browser storage keeps home and settings usable for this visit (4.2s)
+  ok  11 [desktop-edge] › tests\e2e\home.spec.ts:80:3 › campus home › motion and ambience preferences persist after reload (6.4s)
+  ok  10 [desktop-edge] › tests\e2e\home.spec.ts:14:3 › campus home › the production entry opens the campus, its camera controls work, and the diagnostic route stays lazy (6.9s)
+  ok  14 [desktop-edge] › tests\e2e\home.spec.ts:147:3 › campus home › a failed campus model can be retried successfully (3.8s)
+  ok  16 [desktop-edge] › tests\e2e\home.spec.ts:195:3 › campus home › unavailable WebGL offers a useful home without 3D (1.6s)
+  ok  15 [desktop-edge] › tests\e2e\home.spec.ts:168:3 › campus home › a lost WebGL context recovers on a replacement canvas (3.7s)
+  ok  17 [desktop-edge] › tests\e2e\home.spec.ts:216:3 › campus home › hash navigation returns from the diagnostic lab and keeps the legacy alias (4.4s)
+  ok  20 [desktop-edge] › tests\e2e\mechanics.spec.ts:13:1 › selected settings and drag aiming affect one tower, with preview, cancellation and phase locks (2.7s)
+  ok  18 [desktop-edge] › tests\e2e\hubToolkit.spec.ts:3:1 › the Field kit Hub keeps its world and real controls usable across themes and viewport sizes (3.8s)
+  -   23 [desktop-edge] › tests\e2e\mobileQuality.spec.ts:13:3 › mobile gestures and recovery › real touch pan/pinch, cancellation, orientation and renderer cleanup
+  ok  22 [desktop-edge] › tests\e2e\mechanics.spec.ts:114:1 › recipe JSON and health presets preserve applied queue and explicitly discard dirty drafts (1.7s)
+  ok  21 [desktop-edge] › tests\e2e\mechanics.spec.ts:68:1 › queue edits stay drafts, apply with the defense, save custom content and repeat cleanly (2.9s)
+  ok  19 [desktop-edge] › tests\e2e\inspectionToolkit.spec.ts:3:1 › inspection keeps qualitative capabilities and collections in both appearances (6.8s)
+  ok  24 [desktop-edge] › tests\e2e\mobileQuality.spec.ts:72:3 › mobile gestures and recovery › failed showcase screen download recovers using Reload app (7.6s)
+  ok  27 [desktop-edge] › tests\e2e\showcase.spec.ts:22:3 › Hub Tower browser › the accessible entry preserves the Hub camera, ambience, selection, and focus on return (5.7s)
+  ok  26 [desktop-edge] › tests\e2e\mobileQuality.spec.ts:101:3 › mobile gestures and recovery › failed showcase renderer chunk recovers with a new document (7.8s)
+  ok  28 [desktop-edge] › tests\e2e\showcase.spec.ts:42:3 › Hub Tower browser › entry pushes the campus camera toward the Lab and restores it on close (3.4s)
+  ok  29 [desktop-edge] › tests\e2e\showcase.spec.ts:63:3 › Hub Tower browser › hiding the page during return restores the Hub and unlocks it on visibility (4.2s)
+  ok  30 [desktop-edge] › tests\e2e\showcase.spec.ts:83:3 › Hub Tower browser › enabling reduced motion during return finishes immediately (3.5s)
+  ok  31 [desktop-edge] › tests\e2e\showcase.spec.ts:96:3 › Hub Tower browser › Escape during return snaps home and permits another opening (4.8s)
+  ok  33 [desktop-edge] › tests\e2e\showcase.spec.ts:122:3 › Hub Tower browser › enabling reduced motion during entry finishes cleanly (2.9s)
+  ok  32 [desktop-edge] › tests\e2e\showcase.spec.ts:110:3 › Hub Tower browser › Escape cancels entry and allows another clean opening (4.0s)
+  -   36 [desktop-edge] › tests\e2e\showcase.spec.ts:182:3 › Hub Tower browser › phone layout keeps stats visible without animation tabs
+  ok  34 [desktop-edge] › tests\e2e\showcase.spec.ts:135:3 › Hub Tower browser › dragging the actual Lab pans while a stationary click opens the browser (4.5s)
+  ok  37 [desktop-edge] › tests\e2e\showcase.spec.ts:190:3 › Hub Tower browser › reduced motion starts at Rest and changes Towers without automatic clips (2.4s)
+  ok  25 [desktop-edge] › tests\e2e\mobileQuality.spec.ts:86:3 › mobile gestures and recovery › stalled model download exposes Retry preview and a fresh attempt succeeds (23.2s)
+  ok  35 [desktop-edge] › tests\e2e\showcase.spec.ts:162:3 › Hub Tower browser › missing art stays honest and the full stats panel has no numeric readouts or info buttons (9.6s)
+  ok  38 [desktop-edge] › tests\e2e\showcaseRefinement.spec.ts:13:3 › Tower inspection usability › keyboard browsing reveals the selected portrait and explains stats without numeric readouts (7.7s)
+  x   39 [desktop-edge] › tests\e2e\showcaseRefinement.spec.ts:31:3 › Tower inspection usability › keyboard camera controls keep a large preview and stats remain visible across layouts (6.2s)
+(node:38972) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  41 [desktop-edge] › tests\e2e\showcaseRenderer.spec.ts:43:3 › Tower showcase renderer lifecycle › skips automatic Resolve and Place under reduced motion and settles on Rest (3.3s)
+  ok  44 [desktop-edge] › tests\e2e\theme.spec.ts:27:1 › appearance survives blocked storage and remains usable for the visit (1.4s)
+  ok  43 [desktop-edge] › tests\e2e\theme.spec.ts:8:1 › appearance persists and system responds to operating system changes (3.1s)
+  ok  42 [desktop-edge] › tests\e2e\showcaseRenderer.spec.ts:64:3 › Tower showcase renderer lifecycle › keeps the preview region stationary when Tower availability text changes (4.5s)
+  ok  45 [desktop-edge] › tests\e2e\theme.spec.ts:40:1 › appearance changes synchronize across open tabs (2.7s)
+  ok  48 [desktop-edge] › tests\e2e\towers.spec.ts:41:1 › blocker feedback, cone rotation and map placement work with mouse and touch (2.0s)
+  ok  46 [desktop-edge] › tests\e2e\towers.spec.ts:4:1 › map clicks place towers immediately and keep placement ready until selecting a tower (2.6s)
+  ok  47 [desktop-edge] › tests\e2e\towers.spec.ts:20:1 › place, inspect partial work, restore, and finish a defended encounter (3.0s)
+  ok  50 [desktop-edge] › tests\e2e\unified.spec.ts:4:1 › one map combines towers and geometry, with separate preset saves and untouched legacy data (3.3s)
+  ok  51 [desktop-edge] › tests\e2e\waveIntervals.spec.ts:4:1 › millisecond intervals preview rounding, schedule correctly and persist through reload (2.9s)
+  ok  49 [desktop-edge] › tests\e2e\towerStats.spec.ts:4:1 › tower stats tune one tower, validate drafts, reset, persist and lock during runs (5.0s)
+  ok  53 [desktop-edge] › tests\e2e\workspace.spec.ts:41:1 › wave dialog retains drafts, traps focus, closes with Escape and keyboard placement remains available (2.0s)
+(node:36804) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:44884) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  52 [desktop-edge] › tests\e2e\workspace.spec.ts:4:1 › map-first workspace places ten towers, enforces the cap and restores them (3.9s)
+(node:40156) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  55 [touch-edge] › tests\e2e\abilities.spec.ts:32:1 › passive Towers expose only applicable controls and do not perform a main action (1.8s)
+  ok  56 [touch-edge] › tests\e2e\console.spec.ts:4:1 › manual start, hard pause and resume (2.1s)
+  ok  54 [touch-edge] › tests\e2e\abilities.spec.ts:4:1 › QA upgrades, external effects, rewards, local saves and repeat work in the test map (4.5s)
+  ok  57 [touch-edge] › tests\e2e\console.spec.ts:26:1 › local save restores after page reload (2.4s)
+  ok  58 [touch-edge] › tests\e2e\console.spec.ts:44:1 › rejects blocked pointer placement and supports touch-sized layout (1.5s)
+  ok  59 [touch-edge] › tests\e2e\console.spec.ts:62:1 › stale save from another tab does not overwrite newer data (2.1s)
+  ok  60 [touch-edge] › tests\e2e\encounter.spec.ts:3:1 › manual dual flow, snapshot restore and reset through the lab (1.9s)
+  ok  61 [touch-edge] › tests\e2e\encounter.spec.ts:26:1 › hard pause disables manual steps and speed, failure is terminal (1.8s)
+  ok  62 [touch-edge] › tests\e2e\encounter.spec.ts:41:1 › automatic clock runs and lab stays usable in narrow layouts (2.2s)
+  ok  40 [desktop-edge] › tests\e2e\showcaseRenderer.spec.ts:6:3 › Tower showcase renderer lifecycle › keeps the latest model through rapid changes and survives repeated close/reopen (29.8s)
+  ok  65 [touch-edge] › tests\e2e\home.spec.ts:111:3 › campus home › OS reduced-motion preference is explained in settings and respected without changing the saved choice (3.6s)
+(node:44336) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  63 [touch-edge] › tests\e2e\home.spec.ts:14:3 › campus home › the production entry opens the campus, its camera controls work, and the diagnostic route stays lazy (6.2s)
+  ok  64 [touch-edge] › tests\e2e\home.spec.ts:80:3 › campus home › motion and ambience preferences persist after reload (5.7s)
+  ok  69 [touch-edge] › tests\e2e\home.spec.ts:195:3 › campus home › unavailable WebGL offers a useful home without 3D (1.1s)
+  ok  66 [touch-edge] › tests\e2e\home.spec.ts:147:3 › campus home › a failed campus model can be retried successfully (3.5s)
+  ok  68 [touch-edge] › tests\e2e\home.spec.ts:168:3 › campus home › a lost WebGL context recovers on a replacement canvas (3.4s)
+  ok  67 [touch-edge] › tests\e2e\home.spec.ts:123:3 › campus home › unavailable browser storage keeps home and settings usable for this visit (4.5s)
+  ok  70 [touch-edge] › tests\e2e\home.spec.ts:216:3 › campus home › hash navigation returns from the diagnostic lab and keeps the legacy alias (4.2s)
+  ok  73 [touch-edge] › tests\e2e\mechanics.spec.ts:13:1 › selected settings and drag aiming affect one tower, with preview, cancellation and phase locks (2.7s)
+  ok  71 [touch-edge] › tests\e2e\hubToolkit.spec.ts:3:1 › the Field kit Hub keeps its world and real controls usable across themes and viewport sizes (5.5s)
+  ok  74 [touch-edge] › tests\e2e\mechanics.spec.ts:68:1 › queue edits stay drafts, apply with the defense, save custom content and repeat cleanly (3.2s)
+  ok  75 [touch-edge] › tests\e2e\mechanics.spec.ts:114:1 › recipe JSON and health presets preserve applied queue and explicitly discard dirty drafts (2.4s)
+  ok  72 [touch-edge] › tests\e2e\inspectionToolkit.spec.ts:3:1 › inspection keeps qualitative capabilities and collections in both appearances (7.1s)
+  ok  76 [touch-edge] › tests\e2e\mobileQuality.spec.ts:13:3 › mobile gestures and recovery › real touch pan/pinch, cancellation, orientation and renderer cleanup (5.5s)
+  ok  77 [touch-edge] › tests\e2e\mobileQuality.spec.ts:72:3 › mobile gestures and recovery › failed showcase screen download recovers using Reload app (9.2s)
+  ok  79 [touch-edge] › tests\e2e\mobileQuality.spec.ts:101:3 › mobile gestures and recovery › failed showcase renderer chunk recovers with a new document (8.0s)
+  ok  80 [touch-edge] › tests\e2e\showcase.spec.ts:22:3 › Hub Tower browser › the accessible entry preserves the Hub camera, ambience, selection, and focus on return (6.0s)
+  -   82 [touch-edge] › tests\e2e\showcase.spec.ts:63:3 › Hub Tower browser › hiding the page during return restores the Hub and unlocks it on visibility
+  -   83 [touch-edge] › tests\e2e\showcase.spec.ts:83:3 › Hub Tower browser › enabling reduced motion during return finishes immediately
+  -   84 [touch-edge] › tests\e2e\showcase.spec.ts:96:3 › Hub Tower browser › Escape during return snaps home and permits another opening
+  ok  81 [touch-edge] › tests\e2e\showcase.spec.ts:42:3 › Hub Tower browser › entry pushes the campus camera toward the Lab and restores it on close (4.3s)
+  -   85 [touch-edge] › tests\e2e\showcase.spec.ts:110:3 › Hub Tower browser › Escape cancels entry and allows another clean opening
+  -   86 [touch-edge] › tests\e2e\showcase.spec.ts:122:3 › Hub Tower browser › enabling reduced motion during entry finishes cleanly
+  -   87 [touch-edge] › tests\e2e\showcase.spec.ts:135:3 › Hub Tower browser › dragging the actual Lab pans while a stationary click opens the browser
+  ok  89 [touch-edge] › tests\e2e\showcase.spec.ts:182:3 › Hub Tower browser › phone layout keeps stats visible without animation tabs (3.3s)
+  ok  90 [touch-edge] › tests\e2e\showcase.spec.ts:190:3 › Hub Tower browser › reduced motion starts at Rest and changes Towers without automatic clips (3.2s)
+  ok  88 [touch-edge] › tests\e2e\showcase.spec.ts:162:3 › Hub Tower browser › missing art stays honest and the full stats panel has no numeric readouts or info buttons (9.5s)
+  ok  78 [touch-edge] › tests\e2e\mobileQuality.spec.ts:86:3 › mobile gestures and recovery › stalled model download exposes Retry preview and a fresh attempt succeeds (23.8s)
+  ok  91 [touch-edge] › tests\e2e\showcaseRefinement.spec.ts:13:3 › Tower inspection usability › keyboard browsing reveals the selected portrait and explains stats without numeric readouts (8.6s)
+  x   92 [touch-edge] › tests\e2e\showcaseRefinement.spec.ts:31:3 › Tower inspection usability › keyboard camera controls keep a large preview and stats remain visible across layouts (7.8s)
+(node:8316) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  94 [touch-edge] › tests\e2e\showcaseRenderer.spec.ts:43:3 › Tower showcase renderer lifecycle › skips automatic Resolve and Place under reduced motion and settles on Rest (4.0s)
+  ok  97 [touch-edge] › tests\e2e\theme.spec.ts:27:1 › appearance survives blocked storage and remains usable for the visit (1.3s)
+  ok  95 [touch-edge] › tests\e2e\showcaseRenderer.spec.ts:64:3 › Tower showcase renderer lifecycle › keeps the preview region stationary when Tower availability text changes (4.5s)
+  ok  96 [touch-edge] › tests\e2e\theme.spec.ts:8:1 › appearance persists and system responds to operating system changes (2.9s)
+  ok  98 [touch-edge] › tests\e2e\theme.spec.ts:40:1 › appearance changes synchronize across open tabs (3.7s)
+  ok  99 [touch-edge] › tests\e2e\towers.spec.ts:4:1 › map clicks place towers immediately and keep placement ready until selecting a tower (2.5s)
+  ok 100 [touch-edge] › tests\e2e\towers.spec.ts:20:1 › place, inspect partial work, restore, and finish a defended encounter (3.2s)
+  ok 101 [touch-edge] › tests\e2e\towers.spec.ts:41:1 › blocker feedback, cone rotation and map placement work with mouse and touch (1.8s)
+  ok 103 [touch-edge] › tests\e2e\unified.spec.ts:4:1 › one map combines towers and geometry, with separate preset saves and untouched legacy data (3.0s)
+  ok 104 [touch-edge] › tests\e2e\waveIntervals.spec.ts:4:1 › millisecond intervals preview rounding, schedule correctly and persist through reload (2.5s)
+  ok 102 [touch-edge] › tests\e2e\towerStats.spec.ts:4:1 › tower stats tune one tower, validate drafts, reset, persist and lock during runs (4.4s)
+  ok 106 [touch-edge] › tests\e2e\workspace.spec.ts:41:1 › wave dialog retains drafts, traps focus, closes with Escape and keyboard placement remains available (1.7s)
+  ok 105 [touch-edge] › tests\e2e\workspace.spec.ts:4:1 › map-first workspace places ten towers, enforces the cap and restores them (2.9s)
+  ok  93 [touch-edge] › tests\e2e\showcaseRenderer.spec.ts:6:3 › Tower showcase renderer lifecycle › keeps the latest model through rapid changes and survives repeated close/reopen (29.6s)
+
+
+  1) [desktop-edge] › tests\e2e\showcaseRefinement.spec.ts:31:3 › Tower inspection usability › keyboard camera controls keep a large preview and stats remain visible across layouts 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 488
+    Received:    394.8125
+
+      62 |         expect(roster!.x).toBe(stage!.x);
+      63 |         expect(roster!.x + roster!.width).toBeCloseTo(panel!.x + panel!.width, 0);
+    > 64 |         expect(roster!.y).toBeGreaterThanOrEqual(stage!.y + stage!.height);
+         |                           ^
+      65 |         expect(roster!.y).toBeGreaterThan(panel!.y + panel!.height);
+      66 |         expect(await page.locator('.codex-stats').evaluate(element => getComputedStyle(element).alignSelf)).toBe('start');
+      67 |       }
+        at C:\Users\jonas\Documents\ChatGPT\Tower\artifacts\releases\primer-field-kit-20260930\game\tests\e2e\showcaseRefinement.spec.ts:64:27
+
+    Error Context: test-results\showcaseRefinement-Tower-i-f4c51-main-visible-across-layouts-desktop-edge\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\showcaseRefinement-Tower-i-f4c51-main-visible-across-layouts-desktop-edge\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\showcaseRefinement-Tower-i-f4c51-main-visible-across-layouts-desktop-edge\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [touch-edge] › tests\e2e\showcaseRefinement.spec.ts:31:3 › Tower inspection usability › keyboard camera controls keep a large preview and stats remain visible across layouts 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 488
+    Received:    394.8125
+
+      62 |         expect(roster!.x).toBe(stage!.x);
+      63 |         expect(roster!.x + roster!.width).toBeCloseTo(panel!.x + panel!.width, 0);
+    > 64 |         expect(roster!.y).toBeGreaterThanOrEqual(stage!.y + stage!.height);
+         |                           ^
+      65 |         expect(roster!.y).toBeGreaterThan(panel!.y + panel!.height);
+      66 |         expect(await page.locator('.codex-stats').evaluate(element => getComputedStyle(element).alignSelf)).toBe('start');
+      67 |       }
+        at C:\Users\jonas\Documents\ChatGPT\Tower\artifacts\releases\primer-field-kit-20260930\game\tests\e2e\showcaseRefinement.spec.ts:64:27
+
+    Error Context: test-results\showcaseRefinement-Tower-i-f4c51-main-visible-across-layouts-touch-edge\error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\showcaseRefinement-Tower-i-f4c51-main-visible-across-layouts-touch-edge\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\showcaseRefinement-Tower-i-f4c51-main-visible-across-layouts-touch-edge\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [desktop-edge] › tests\e2e\showcaseRefinement.spec.ts:31:3 › Tower inspection usability › keyboard camera controls keep a large preview and stats remain visible across layouts 
+    [touch-edge] › tests\e2e\showcaseRefinement.spec.ts:31:3 › Tower inspection usability › keyboard camera controls keep a large preview and stats remain visible across layouts 
+  8 skipped
+  96 passed (2.3m)

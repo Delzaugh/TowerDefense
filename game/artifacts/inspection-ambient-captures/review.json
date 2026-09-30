@@ -1,0 +1,57 @@
+{
+  "base": "https://delzaugh.github.io/TowerDefense/",
+  "checks": [
+    {
+      "theme": "light",
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fullCard": true,
+      "overlayVisible": true,
+      "ambientFullPage": true,
+      "zoom": 4.085339240886439
+    },
+    {
+      "theme": "light",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "fullCard": true,
+      "overlayVisible": true,
+      "ambientFullPage": true,
+      "zoom": 4.085339240886439
+    },
+    {
+      "theme": "dark",
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "fullCard": true,
+      "overlayVisible": true,
+      "ambientFullPage": true,
+      "zoom": 4.085339240886439
+    },
+    {
+      "theme": "dark",
+      "size": {
+        "width": 390,
+        "height": 844
+      },
+      "fullCard": true,
+      "overlayVisible": true,
+      "ambientFullPage": true,
+      "zoom": 4.085339240886439
+    }
+  ],
+  "motion": {
+    "before": "matrix(1, 0, 0, 1, 0, 0)",
+    "after": "matrix(1.00012, 0, 0, 1.00012, 0.0229309, 0.0661663)",
+    "reduced": "none"
+  },
+  "errors": [],
+  "requests": [],
+  "failures": []
+}

@@ -1,0 +1,7 @@
+
+> tower-game@0.1.0 check:boundaries
+> depcruise --config .dependency-cruiser.cjs src
+
+
+✔ no dependency violations found (159 modules, 417 dependencies cruised)
+

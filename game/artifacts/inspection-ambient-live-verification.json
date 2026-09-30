@@ -1,0 +1,390 @@
+{
+  "url": "https://delzaugh.github.io/TowerDefense/",
+  "release": "0b265332531e84c9",
+  "sourceRevision": "f617095ae6f00dd58730ae58c397b2d29efdbdc9",
+  "verified": 76,
+  "contentBytes": 7484827,
+  "checkedAt": "2026-09-30T16:41:56.946Z",
+  "files": [
+    {
+      "path": "assets/base-DroUYIP2.png",
+      "bytes": 27228,
+      "sha256": "7a839f4643f45924d234ba27968482ffe768b46cd64bc97c910c5a58a2b73817"
+    },
+    {
+      "path": "assets/commit-halo-DSBviUEb.png",
+      "bytes": 9746,
+      "sha256": "26474c356110831f33aae24a288e38e8709cb31f067888bed9e7b7bad57315d4"
+    },
+    {
+      "path": "assets/createCampusScene-BTz_8BvV.js",
+      "bytes": 54135,
+      "sha256": "19e2b70fb160763b3e175c3c4c690c5c799b275e48cebd40421b149cf3fdf4ed"
+    },
+    {
+      "path": "assets/createTowerShowcaseScene-BgMwTU3i.js",
+      "bytes": 15908,
+      "sha256": "bd71422ab811b7bbe6dcace76955020a4052acb4759b20cefc80a56ba7484460"
+    },
+    {
+      "path": "assets/developer-CyEI2mgl.png",
+      "bytes": 28606,
+      "sha256": "556dd4cd4692828903c4415b83a0d56d83d87fb79739eee51912b74753539bcb"
+    },
+    {
+      "path": "assets/HomeScreen-D7oS2Y5V.css",
+      "bytes": 19248,
+      "sha256": "823bc05cac9257efa15e1cc2a6a68f718fcda5bf4ad023f5bf1f4def3aeb046e"
+    },
+    {
+      "path": "assets/HomeScreen-t8M2JnGq.js",
+      "bytes": 27895,
+      "sha256": "b7ddcce612b041bc0b4b36c81135006c182d0ac1b9f7ed92ea693035d05f940f"
+    },
+    {
+      "path": "assets/index-FVC2uDzf.js",
+      "bytes": 231065,
+      "sha256": "a9865bf531672b8baa5f610e10466813fd02eb3c404fd46b370c37fc0cc5dfef"
+    },
+    {
+      "path": "assets/index-lgOT3XCr.css",
+      "bytes": 12174,
+      "sha256": "05164863b07eb1803b3c216d2dfabb5f0d3cccb265544c7ecaaec095619ae842"
+    },
+    {
+      "path": "assets/LabScreen-BOt5F1Og.js",
+      "bytes": 171525,
+      "sha256": "96dc9e0ae15ef85d383c32251a1ce6f347d5d7205dea5edb5007c067068445b6"
+    },
+    {
+      "path": "assets/LabScreen-Ci-qQKet.css",
+      "bytes": 12102,
+      "sha256": "5a2e3a8e39ce346820dd491a19646e558c7b58b47968c39a72c30f1500f29145"
+    },
+    {
+      "path": "assets/linter-CId7IPyX.png",
+      "bytes": 18857,
+      "sha256": "59fbe7c1b5cfc0a18a5dc8e97534934328dcf0b42f9357d21d9fddef268bfc32"
+    },
+    {
+      "path": "assets/mona-sans-latin-ext-wght-normal-BqSk0Z3x.woff2",
+      "bytes": 15524,
+      "sha256": "5adec652263260d219807b036bca9fe94ab6dc2ba6d30c0d45dc6a955dac270e"
+    },
+    {
+      "path": "assets/mona-sans-latin-wght-normal-Pz49MTQZ.woff2",
+      "bytes": 39788,
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844"
+    },
+    {
+      "path": "assets/mona-sans-vietnamese-wght-normal-DsUdksa4.woff2",
+      "bytes": 7152,
+      "sha256": "933a526b6c42ba27afe0de46e25be7170c25768bfbf833448e730e9de90f5fc7"
+    },
+    {
+      "path": "assets/PlayIcon-Bdf0N3V6.js",
+      "bytes": 4937,
+      "sha256": "6a66030ca8af0886b9432cd943e0329a66558d121864f06282c33a31c0821bde"
+    },
+    {
+      "path": "assets/resources-BUMzfZ-H.js",
+      "bytes": 750781,
+      "sha256": "7bce7ee3da74f69943cdbd6e5d25d6c998681be8b906a0124bc68b8690fbb0c4"
+    },
+    {
+      "path": "assets/rolldown-runtime-hePW80VL.js",
+      "bytes": 716,
+      "sha256": "580ad8c58061a4dde99bde0a56905e382f0568516ee2f5b84dbfb52085709021"
+    },
+    {
+      "path": "assets/runtime/environment/campus_base_hex_v01.ed7634eace91de76.glb",
+      "bytes": 120552,
+      "sha256": "ed7634eace91de76dd82c5c47888adecd0575cb2c529955907826c0a61dcf224"
+    },
+    {
+      "path": "assets/runtime/environment/campus_bush_round_v01.0bd077b45c34d946.glb",
+      "bytes": 27404,
+      "sha256": "0bd077b45c34d94691f10f4d773bc64e42d65aba4c888e75f3fe307038ad4866"
+    },
+    {
+      "path": "assets/runtime/environment/campus_cafe_table_v01.2eedc15aae3fe861.glb",
+      "bytes": 82424,
+      "sha256": "2eedc15aae3fe86108c55eed3ceb1b7fcffb1619c39a0104ca65dbe42ebaf3ac"
+    },
+    {
+      "path": "assets/runtime/environment/campus_canyon_decor_v01.cccf5a551b86dd1d.glb",
+      "bytes": 188232,
+      "sha256": "cccf5a551b86dd1d91d46e409e8901ddbdfb5b9342708e0e7df6325617054b22"
+    },
+    {
+      "path": "assets/runtime/environment/campus_cave_v01.c62e942e9ba7eddd.glb",
+      "bytes": 15904,
+      "sha256": "c62e942e9ba7eddde3f04a5b0e51b863cda70052c3a110c0ec72868b071ac17b"
+    },
+    {
+      "path": "assets/runtime/environment/campus_civic_decor_v01.d49ff842b368a452.glb",
+      "bytes": 140792,
+      "sha256": "d49ff842b368a4520a6258acd9a107a77e2ff4927728f6f94e0843593c3b4579"
+    },
+    {
+      "path": "assets/runtime/environment/campus_code_sculpture_v01.0f0336c0c7686dec.glb",
+      "bytes": 146768,
+      "sha256": "0f0336c0c7686dec62a91b621f28e6d87f9a794b2c394e977eb43269d03fe5c3"
+    },
+    {
+      "path": "assets/runtime/environment/campus_coffee_kiosk_v01.2390263498d8f5ed.glb",
+      "bytes": 211784,
+      "sha256": "2390263498d8f5ed264967a4c9c16938ea83882c4e431feb0195de7b77e7d633"
+    },
+    {
+      "path": "assets/runtime/environment/campus_construction_decor_v01.4909198bb6349aad.glb",
+      "bytes": 253324,
+      "sha256": "4909198bb6349aad61a1829f2470400a3ca0864da5a1e4092e141c6c9a603400"
+    },
+    {
+      "path": "assets/runtime/environment/campus_flower_bed_v01.7ad32ff99326d543.glb",
+      "bytes": 334248,
+      "sha256": "7ad32ff99326d5433eb9cefd7491be721ff3052c07fd9b4a9a4b07a574350bb6"
+    },
+    {
+      "path": "assets/runtime/environment/campus_hedge_v01.6ad1ba3fad2ae3e9.glb",
+      "bytes": 66804,
+      "sha256": "6ad1ba3fad2ae3e9a6495302501efa5a876be251aa78c2447113f11e9e0359f8"
+    },
+    {
+      "path": "assets/runtime/environment/campus_lab_v01.a84b6cc360319e43.glb",
+      "bytes": 178696,
+      "sha256": "a84b6cc360319e43252c2a9ed34eb34242e11e57e2af1d68fe387250f14bb27b"
+    },
+    {
+      "path": "assets/runtime/environment/campus_meeting_nook_v01.b1985463d4318ba6.glb",
+      "bytes": 161616,
+      "sha256": "b1985463d4318ba66e9f21ab924e8bbbf13ce5a11ea942a9ba115b598943f8c8"
+    },
+    {
+      "path": "assets/runtime/environment/campus_noticeboard_v01.eabf96f6ed62a822.glb",
+      "bytes": 71244,
+      "sha256": "eabf96f6ed62a822c4a0e7756a4585227b5d72dbb5fd7d2fbbdc5393f2b9719d"
+    },
+    {
+      "path": "assets/runtime/environment/campus_path_bollard_v01.97575728b5686787.glb",
+      "bytes": 15124,
+      "sha256": "97575728b5686787c4c582b4c16a3170ca69adfb468820594e2a27a697c1be4a"
+    },
+    {
+      "path": "assets/runtime/environment/campus_planter_bench_v01.54b3ba98862cd8e5.glb",
+      "bytes": 107284,
+      "sha256": "54b3ba98862cd8e5c98f679c46b6981e5120bcf79cfcf124400f0165b41e79a9"
+    },
+    {
+      "path": "assets/runtime/environment/campus_pond_v01.334156831676b67a.glb",
+      "bytes": 46928,
+      "sha256": "334156831676b67aef9371cd0d8dcfa9cd8ec59ba3ff513aaffed8547cbb6e3d"
+    },
+    {
+      "path": "assets/runtime/environment/campus_solar_v01.a68d42f6124dc70b.glb",
+      "bytes": 65040,
+      "sha256": "a68d42f6124dc70bccb24d74caeed72426abcf13faf47832af3c29aea8761ca7"
+    },
+    {
+      "path": "assets/runtime/environment/campus_tile_canyon_v01.08ef3ebc706f564d.glb",
+      "bytes": 192860,
+      "sha256": "08ef3ebc706f564dab2941646ead845bc9dce8bb3fc2d40bfe38272af27fdcc9"
+    },
+    {
+      "path": "assets/runtime/environment/campus_tile_civic_v01.193a676faee6909b.glb",
+      "bytes": 26252,
+      "sha256": "193a676faee6909b0050bce77f14062e02b002cd174d13f7db1d8a7ce42cb56c"
+    },
+    {
+      "path": "assets/runtime/environment/campus_tile_construction_v01.a790961697b0a911.glb",
+      "bytes": 172696,
+      "sha256": "a790961697b0a911c28d9b2f198523d066abab71e0f99b83ef6a13eeece86d1c"
+    },
+    {
+      "path": "assets/runtime/environment/campus_tile_forest_v01.406367db5895adf0.glb",
+      "bytes": 434412,
+      "sha256": "406367db5895adf0deb0ce0ef41fa2d53883510b88603b88bf7455d4567f1215"
+    },
+    {
+      "path": "assets/runtime/environment/campus_tile_hill_v01.ccc92b083a48356d.glb",
+      "bytes": 226868,
+      "sha256": "ccc92b083a48356da72875b7095dd7e94471a1e06a3c90c62d3f2e3e0e6b7019"
+    },
+    {
+      "path": "assets/runtime/environment/campus_tile_park_v01.6a03a9e1b587d0be.glb",
+      "bytes": 166016,
+      "sha256": "6a03a9e1b587d0bedb7ed1592a65e44ff4ba6bffc3b029e5835cca45dff11f15"
+    },
+    {
+      "path": "assets/runtime/environment/campus_tile_plaza_v01.934519011a73ab91.glb",
+      "bytes": 160180,
+      "sha256": "934519011a73ab91eafabe605cfcb2d4b09026925e1f509839b4188235a5ea45"
+    },
+    {
+      "path": "assets/runtime/environment/campus_tile_utility_v01.6877c24b968ebfae.glb",
+      "bytes": 26836,
+      "sha256": "6877c24b968ebfae224dc88046dd6ed948a681eb54caf727166be28582b39f3b"
+    },
+    {
+      "path": "assets/runtime/environment/campus_tree_autumn_bare_v01.73eef6b6f0be5b8e.glb",
+      "bytes": 10616,
+      "sha256": "73eef6b6f0be5b8eacb8a3fdb0a0642f534d34ee332454f10aa55e981c1b7953"
+    },
+    {
+      "path": "assets/runtime/environment/campus_tree_cluster_v01.d1f5e6658651c141.glb",
+      "bytes": 21508,
+      "sha256": "d1f5e6658651c141ee70a229d47d565dbb5c7b9fe967be04dce8d7276e183c78"
+    },
+    {
+      "path": "assets/runtime/environment/campus_tree_pine_bare_v01.ee806616c3bd1055.glb",
+      "bytes": 11660,
+      "sha256": "ee806616c3bd10556030260bed5e515c91b35ebd7b8144a62d0f900a61e6592e"
+    },
+    {
+      "path": "assets/runtime/environment/campus_tree_round_v01.a34184710614ae09.glb",
+      "bytes": 16404,
+      "sha256": "a34184710614ae098e27a6a25c969844069e90d35335305436172fd0e9bc79d1"
+    },
+    {
+      "path": "assets/runtime/environment/campus_tree_spreading_bare_v01.d02edb11d69d16c1.glb",
+      "bytes": 14836,
+      "sha256": "d02edb11d69d16c1e5c5f04d287fcf119c8beaf772f40510ce489562bdfdf2b4"
+    },
+    {
+      "path": "assets/runtime/environment/campus_tree_tall_v01.92559e9d8ee4a8a8.glb",
+      "bytes": 16456,
+      "sha256": "92559e9d8ee4a8a801f000649aa248adb75b961795ce89f4b4cd8cbbce52b8b3"
+    },
+    {
+      "path": "assets/runtime/environment/campus_utility_decor_v01.2b5eb54a8b9d93dd.glb",
+      "bytes": 256516,
+      "sha256": "2b5eb54a8b9d93ddd2fea7f29540b5bde15c31aa40534a9579d98d0e0ae3712b"
+    },
+    {
+      "path": "assets/runtime/environment/campus_walk_bend_v01.be3f8455b311b73c.glb",
+      "bytes": 30984,
+      "sha256": "be3f8455b311b73c22b2c9958bce0639d9c88d88926a0acf8ae9b457f176eb62"
+    },
+    {
+      "path": "assets/runtime/environment/campus_walk_junction_v01.bceef80569343877.glb",
+      "bytes": 21692,
+      "sha256": "bceef80569343877fc4a8caa39cfc727d42371b881b328fe2181de215f0dd831"
+    },
+    {
+      "path": "assets/runtime/environment/campus_walk_landing_v01.badaae889f43b3ea.glb",
+      "bytes": 20576,
+      "sha256": "badaae889f43b3eaf02fefdaf944e74a30abd012d1ab0d195270a7564ea7f02f"
+    },
+    {
+      "path": "assets/runtime/environment/campus_walk_short_v01.633c3b8ead0d51a4.glb",
+      "bytes": 14352,
+      "sha256": "633c3b8ead0d51a4950268d1b1593c49d0d354f6a922fefe60b02a51e45626b5"
+    },
+    {
+      "path": "assets/runtime/environment/campus_walk_straight_v01.88d5472024dd15bc.glb",
+      "bytes": 14360,
+      "sha256": "88d5472024dd15bc26d208213b1cfdf3c956ac488f69be80054fe5643c2c37ef"
+    },
+    {
+      "path": "assets/runtime/environment/campus_wayfinding_sign_v01.80fe023bbf7ea450.glb",
+      "bytes": 75460,
+      "sha256": "80fe023bbf7ea450c6eec5b58559db280006f5eefdfe456203af8322a5a1a7be"
+    },
+    {
+      "path": "assets/runtime/towers/copilot_base_v02.5e77ade5c6ab41a7.glb",
+      "bytes": 136844,
+      "sha256": "5e77ade5c6ab41a765cf5f3638ce2629cad6efb1b6c9558d57c41a4642a598cf"
+    },
+    {
+      "path": "assets/runtime/towers/copilot_commit_halo_v01.58a9338892df9034.glb",
+      "bytes": 358520,
+      "sha256": "58a9338892df9034089a5ece9389bc692d2ef5a47af3f38e87378630170f83cc"
+    },
+    {
+      "path": "assets/runtime/towers/copilot_developer_v01.9fd5a1b9dc641430.glb",
+      "bytes": 235504,
+      "sha256": "9fd5a1b9dc6414306847da17caa29a15f7fd1e2a956fb1198ded1d06553d9fb8"
+    },
+    {
+      "path": "assets/runtime/towers/copilot_golden_compiler_v01.1d88ddd329b57876.glb",
+      "bytes": 283056,
+      "sha256": "1d88ddd329b57876f2db41e45a40e83df55e2596763f7af819f3a7e88ee8b719"
+    },
+    {
+      "path": "assets/runtime/towers/copilot_linter_v01.661861e7c46c8433.glb",
+      "bytes": 168692,
+      "sha256": "661861e7c46c8433e9bc75f3543cf43674a90e3143756c1ad310e10fe48040a6"
+    },
+    {
+      "path": "assets/runtime/towers/copilot_octocat_classic_lowpoly_v01.bdf5125b1e9500bc.glb",
+      "bytes": 190520,
+      "sha256": "bdf5125b1e9500bce923f71fae74e56748a91160d197ff0f604ff498b38c0382"
+    },
+    {
+      "path": "assets/runtime/towers/copilot_rubber_duck_v01.891e9cd2c45ce448.glb",
+      "bytes": 64508,
+      "sha256": "891e9cd2c45ce4482b6febe369ade2bc5e11801e339730a92c98db9ccb3e18a0"
+    },
+    {
+      "path": "assets/runtime/towers/copilot_security_v01.717eba681251162e.glb",
+      "bytes": 198264,
+      "sha256": "717eba681251162ec79f837bea3c934be45f871e70d3f80528ed31c7ce9c154b"
+    },
+    {
+      "path": "assets/runtime/towers/copilot_tester_v01.d0d0a68c4ee364a6.glb",
+      "bytes": 125836,
+      "sha256": "d0d0a68c4ee364a6c6855622e1536bd98fde9da04a432c3ba95b5462ab1fde65"
+    },
+    {
+      "path": "assets/security-DvURmbcN.png",
+      "bytes": 29960,
+      "sha256": "566dd60158784999a35eb2da1da58cc367f28c2ca6559b533fb5e0caf86a7e05"
+    },
+    {
+      "path": "assets/senior-developer-BCXXwJ0I.png",
+      "bytes": 10305,
+      "sha256": "2afe06a30e2014250965a4b26b085d049ecbe1d3aa7d575b2e367907fdaad6d0"
+    },
+    {
+      "path": "assets/SyncIcon-9H-LvvHB.js",
+      "bytes": 1235,
+      "sha256": "513526d52d46715e47456ae1ee01570a5976316a31fe840f1d24e7bb27a2b5a9"
+    },
+    {
+      "path": "assets/tester-Cw7uwksu.png",
+      "bytes": 21256,
+      "sha256": "9ea441946f703f0d4838c885b05d15965b31d37f5c3e1139f014e88867db7b71"
+    },
+    {
+      "path": "assets/TowerShowcase-PRhxKEWl.js",
+      "bytes": 36798,
+      "sha256": "b7f1ca7354fa519d7a24e659f94f923061b255131ae4fd8e3cde0991c3f02242"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3325,
+      "sha256": "df0ba9908a6bed81657554836b05657a2b9ae498e9d7f4d644bbfacbf05da060"
+    },
+    {
+      "path": "licenses/mona-sans.txt",
+      "bytes": 4564,
+      "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d"
+    },
+    {
+      "path": "licenses/octicons.txt",
+      "bytes": 1068,
+      "sha256": "da259c8bd0de62713ccdcf88910aebca810644f98c2c912bad814fc79ea778df"
+    },
+    {
+      "path": "licenses/three.txt",
+      "bytes": 1081,
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+    },
+    {
+      "path": "simulation/index.html",
+      "bytes": 396,
+      "sha256": "eb5322c014bf3ebfa1f5f6d42376289a3da34b00d1814f0be0f0af0a81f25a50"
+    }
+  ]
+}

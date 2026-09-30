@@ -1,0 +1,105 @@
+
+> tower-game@0.1.0 test:deployment
+> vite build --base=/TowerDefense/ --outDir=test-results/subpath-build && playwright test --config=playwright.deployment.config.ts
+
+vite v8.3.0 building client environment for production...
+transforming...
+✓ 658 modules transformed.
+rendering chunks...
+computing gzip size...
+test-results/subpath-build/licenses/octicons.txt                                                             1.06 kB │ gzip:   0.65 kB
+test-results/subpath-build/licenses/three.txt                                                                1.08 kB │ gzip:   0.67 kB
+test-results/subpath-build/index.html                                                                        3.32 kB │ gzip:   1.51 kB
+test-results/subpath-build/licenses/mona-sans.txt                                                            4.56 kB │ gzip:   2.01 kB
+test-results/subpath-build/assets/mona-sans-vietnamese-wght-normal-DsUdksa4.woff2                            7.15 kB
+test-results/subpath-build/assets/commit-halo-DSBviUEb.png                                                   9.74 kB
+test-results/subpath-build/assets/senior-developer-BCXXwJ0I.png                                             10.30 kB
+test-results/subpath-build/assets/runtime/environment/campus_tree_autumn_bare_v01.73eef6b6f0be5b8e.glb      10.61 kB
+test-results/subpath-build/assets/runtime/environment/campus_tree_pine_bare_v01.ee806616c3bd1055.glb        11.66 kB
+test-results/subpath-build/assets/runtime/environment/campus_walk_short_v01.633c3b8ead0d51a4.glb            14.35 kB
+test-results/subpath-build/assets/runtime/environment/campus_walk_straight_v01.88d5472024dd15bc.glb         14.36 kB
+test-results/subpath-build/assets/runtime/environment/campus_tree_spreading_bare_v01.d02edb11d69d16c1.glb   14.83 kB
+test-results/subpath-build/assets/runtime/environment/campus_path_bollard_v01.97575728b5686787.glb          15.12 kB
+test-results/subpath-build/assets/mona-sans-latin-ext-wght-normal-BqSk0Z3x.woff2                            15.52 kB
+test-results/subpath-build/assets/runtime/environment/campus_cave_v01.c62e942e9ba7eddd.glb                  15.90 kB
+test-results/subpath-build/assets/runtime/environment/campus_tree_round_v01.a34184710614ae09.glb            16.40 kB
+test-results/subpath-build/assets/runtime/environment/campus_tree_tall_v01.92559e9d8ee4a8a8.glb             16.45 kB
+test-results/subpath-build/assets/linter-CId7IPyX.png                                                       18.85 kB
+test-results/subpath-build/assets/runtime/environment/campus_walk_landing_v01.badaae889f43b3ea.glb          20.57 kB
+test-results/subpath-build/assets/tester-Cw7uwksu.png                                                       21.25 kB
+test-results/subpath-build/assets/runtime/environment/campus_tree_cluster_v01.d1f5e6658651c141.glb          21.50 kB
+test-results/subpath-build/assets/runtime/environment/campus_walk_junction_v01.bceef80569343877.glb         21.69 kB
+test-results/subpath-build/assets/runtime/environment/campus_tile_civic_v01.193a676faee6909b.glb            26.25 kB
+test-results/subpath-build/assets/runtime/environment/campus_tile_utility_v01.6877c24b968ebfae.glb          26.83 kB
+test-results/subpath-build/assets/base-DroUYIP2.png                                                         27.22 kB
+test-results/subpath-build/assets/runtime/environment/campus_bush_round_v01.0bd077b45c34d946.glb            27.40 kB
+test-results/subpath-build/assets/developer-CyEI2mgl.png                                                    28.60 kB
+test-results/subpath-build/assets/security-DvURmbcN.png                                                     29.96 kB
+test-results/subpath-build/assets/runtime/environment/campus_walk_bend_v01.be3f8455b311b73c.glb             30.98 kB
+test-results/subpath-build/assets/mona-sans-latin-wght-normal-Pz49MTQZ.woff2                                39.78 kB
+test-results/subpath-build/assets/runtime/environment/campus_pond_v01.334156831676b67a.glb                  46.92 kB
+test-results/subpath-build/assets/runtime/towers/copilot_rubber_duck_v01.891e9cd2c45ce448.glb               64.50 kB
+test-results/subpath-build/assets/runtime/environment/campus_solar_v01.a68d42f6124dc70b.glb                 65.04 kB
+test-results/subpath-build/assets/runtime/environment/campus_hedge_v01.6ad1ba3fad2ae3e9.glb                 66.80 kB
+test-results/subpath-build/assets/runtime/environment/campus_noticeboard_v01.eabf96f6ed62a822.glb           71.24 kB
+test-results/subpath-build/assets/runtime/environment/campus_wayfinding_sign_v01.80fe023bbf7ea450.glb       75.46 kB
+test-results/subpath-build/assets/runtime/environment/campus_cafe_table_v01.2eedc15aae3fe861.glb            82.42 kB
+test-results/subpath-build/assets/runtime/environment/campus_planter_bench_v01.54b3ba98862cd8e5.glb        107.28 kB
+test-results/subpath-build/assets/runtime/environment/campus_base_hex_v01.ed7634eace91de76.glb             120.55 kB
+test-results/subpath-build/assets/runtime/towers/copilot_tester_v01.d0d0a68c4ee364a6.glb                   125.83 kB
+test-results/subpath-build/assets/runtime/towers/copilot_base_v02.5e77ade5c6ab41a7.glb                     136.84 kB
+test-results/subpath-build/assets/runtime/environment/campus_civic_decor_v01.d49ff842b368a452.glb          140.79 kB
+test-results/subpath-build/assets/runtime/environment/campus_code_sculpture_v01.0f0336c0c7686dec.glb       146.76 kB
+test-results/subpath-build/assets/runtime/environment/campus_tile_plaza_v01.934519011a73ab91.glb           160.18 kB
+test-results/subpath-build/assets/runtime/environment/campus_meeting_nook_v01.b1985463d4318ba6.glb         161.61 kB
+test-results/subpath-build/assets/runtime/environment/campus_tile_park_v01.6a03a9e1b587d0be.glb            166.01 kB
+test-results/subpath-build/assets/runtime/towers/copilot_linter_v01.661861e7c46c8433.glb                   168.69 kB
+test-results/subpath-build/assets/runtime/environment/campus_tile_construction_v01.a790961697b0a911.glb    172.69 kB
+test-results/subpath-build/assets/runtime/environment/campus_lab_v01.a84b6cc360319e43.glb                  178.69 kB
+test-results/subpath-build/assets/runtime/environment/campus_canyon_decor_v01.cccf5a551b86dd1d.glb         188.23 kB
+test-results/subpath-build/assets/runtime/towers/copilot_octocat_classic_lowpoly_v01.bdf5125b1e9500bc.glb  190.52 kB
+test-results/subpath-build/assets/runtime/environment/campus_tile_canyon_v01.08ef3ebc706f564d.glb          192.86 kB
+test-results/subpath-build/assets/runtime/towers/copilot_security_v01.717eba681251162e.glb                 198.26 kB
+test-results/subpath-build/assets/runtime/environment/campus_coffee_kiosk_v01.2390263498d8f5ed.glb         211.78 kB
+test-results/subpath-build/assets/runtime/environment/campus_tile_hill_v01.ccc92b083a48356d.glb            226.86 kB
+test-results/subpath-build/assets/runtime/towers/copilot_developer_v01.9fd5a1b9dc641430.glb                235.50 kB
+test-results/subpath-build/assets/runtime/environment/campus_construction_decor_v01.4909198bb6349aad.glb   253.32 kB
+test-results/subpath-build/assets/runtime/environment/campus_utility_decor_v01.2b5eb54a8b9d93dd.glb        256.51 kB
+test-results/subpath-build/assets/runtime/towers/copilot_golden_compiler_v01.1d88ddd329b57876.glb          283.05 kB
+test-results/subpath-build/assets/runtime/environment/campus_flower_bed_v01.7ad32ff99326d543.glb           334.24 kB
+test-results/subpath-build/assets/runtime/towers/copilot_commit_halo_v01.58a9338892df9034.glb              358.52 kB
+test-results/subpath-build/assets/runtime/environment/campus_tile_forest_v01.406367db5895adf0.glb          434.41 kB
+test-results/subpath-build/assets/LabScreen-Ci-qQKet.css                                                    12.10 kB │ gzip:   2.82 kB
+test-results/subpath-build/assets/index-lgOT3XCr.css                                                        12.17 kB │ gzip:   3.33 kB
+test-results/subpath-build/assets/HomeScreen-D7oS2Y5V.css                                                   19.24 kB │ gzip:   4.36 kB
+test-results/subpath-build/assets/rolldown-runtime-hePW80VL.js                                               0.71 kB │ gzip:   0.42 kB
+test-results/subpath-build/assets/SyncIcon-9H-LvvHB.js                                                       1.23 kB │ gzip:   0.63 kB
+test-results/subpath-build/assets/PlayIcon-Bdf0N3V6.js                                                       4.93 kB │ gzip:   2.07 kB
+test-results/subpath-build/assets/createTowerShowcaseScene-BgMwTU3i.js                                      15.90 kB │ gzip:   6.02 kB
+test-results/subpath-build/assets/HomeScreen-t8M2JnGq.js                                                    27.89 kB │ gzip:   9.67 kB
+test-results/subpath-build/assets/TowerShowcase-PRhxKEWl.js                                                 36.79 kB │ gzip:  12.72 kB
+test-results/subpath-build/assets/createCampusScene-BTz_8BvV.js                                             54.13 kB │ gzip:  17.53 kB
+test-results/subpath-build/assets/LabScreen-BOt5F1Og.js                                                    171.52 kB │ gzip:  49.96 kB
+test-results/subpath-build/assets/index-FVC2uDzf.js                                                        231.06 kB │ gzip:  72.45 kB
+test-results/subpath-build/assets/resources-BUMzfZ-H.js                                                    750.78 kB │ gzip: 193.01 kB
+
+✓ built in 622ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+[WebServer] (node:50340) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 5 tests using 1 worker
+
+(node:49972) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [landscape-edge] › tests\deployment\startup.spec.ts:3:1 › the subpath build opens home, preserves route navigation and fits landscape (4.0s)
+  ok 2 [landscape-edge] › tests\deployment\startup.spec.ts:18:1 › the Tower workbench loads its models under the deployment subpath and fits landscape (8.5s)
+  ok 3 [landscape-edge] › tests\deployment\startup.spec.ts:45:1 › failed initial JavaScript download leaves a working reload action (1.5s)
+  ok 4 [landscape-edge] › tests\deployment\startup.spec.ts:59:1 › startup respects a saved dark preference before the app downloads (320ms)
+  ok 5 [landscape-edge] › tests\deployment\startup.spec.ts:69:1 › failed renderer chunk offers reload and recovers with a new document (2.3s)
+
+  5 passed (19.9s)

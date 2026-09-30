@@ -1,0 +1,12 @@
+{
+  "base": "https://delzaugh.github.io/TowerDefense/",
+  "release": "332daf938bdc35be",
+  "sourceRevision": "b8281073cbef447b8e97eb2c927426062f5cd0a8",
+  "verifiedPublicFiles": 77,
+  "tester": {
+    "path": "assets/runtime/towers/copilot_tester_v01.d0d0a68c4ee364a6.glb",
+    "bytes": 125836,
+    "sha256": "d0d0a68c4ee364a6c6855622e1536bd98fde9da04a432c3ba95b5462ab1fde65"
+  },
+  "verifiedAt": "2026-09-30T13:46:04.654Z"
+}

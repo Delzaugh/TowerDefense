@@ -1,0 +1,4 @@
+
+> tower-game@0.1.0 lint
+> eslint src build tests *.ts
+

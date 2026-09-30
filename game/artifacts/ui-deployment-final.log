@@ -1,0 +1,13 @@
+[WebServer] (node:11708) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 4 tests using 1 worker
+
+(node:37144) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [landscape-edge] › tests\deployment\startup.spec.ts:3:1 › the subpath build opens home, preserves route navigation and fits landscape (3.7s)
+  ok 2 [landscape-edge] › tests\deployment\startup.spec.ts:18:1 › the Tower workbench loads its models under the deployment subpath and fits landscape (8.4s)
+  ok 3 [landscape-edge] › tests\deployment\startup.spec.ts:44:1 › failed initial JavaScript download leaves a working reload action (1.4s)
+  ok 4 [landscape-edge] › tests\deployment\startup.spec.ts:55:1 › failed renderer chunk offers reload and recovers with a new document (2.3s)
+
+  4 passed (18.0s)

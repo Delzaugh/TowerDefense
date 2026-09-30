@@ -1,0 +1,23 @@
+
+> tower-game@0.1.0 test:e2e
+> playwright test tests/e2e/showcaseRefinement.spec.ts
+
+[WebServer] (node:11132) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 4 tests using 4 workers
+
+(node:7996) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:41584) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:37696) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:24364) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 2 [desktop-edge] › tests\e2e\showcaseRefinement.spec.ts:31:3 › Tower inspection usability › keyboard camera controls keep a large preview and stats remain visible across layouts (9.0s)
+  ok 4 [touch-edge] › tests\e2e\showcaseRefinement.spec.ts:31:3 › Tower inspection usability › keyboard camera controls keep a large preview and stats remain visible across layouts (10.0s)
+  ok 1 [desktop-edge] › tests\e2e\showcaseRefinement.spec.ts:13:3 › Tower inspection usability › keyboard browsing reveals the selected portrait and explains stats without numeric readouts (11.2s)
+  ok 3 [touch-edge] › tests\e2e\showcaseRefinement.spec.ts:13:3 › Tower inspection usability › keyboard browsing reveals the selected portrait and explains stats without numeric readouts (11.2s)
+
+  4 passed (13.8s)

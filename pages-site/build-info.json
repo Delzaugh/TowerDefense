@@ -1,9 +1,9 @@
 {
   "application": "copilot-hub",
   "base": "/TowerDefense/",
-  "builtAt": "2026-09-28T20:46:39.776Z",
-  "release": "59331ceb59572bf7",
-  "sourceRevision": null,
+  "builtAt": "2026-09-30T12:12:35.548Z",
+  "release": "c633454d4a42914a",
+  "sourceRevision": "57d5f102300fd04781635f0022bb73bbeb36934e",
   "manifest": [
     {
       "path": ".nojekyll",
@@ -36,34 +36,34 @@
       "sha256": "556dd4cd4692828903c4415b83a0d56d83d87fb79739eee51912b74753539bcb"
     },
     {
-      "path": "assets/HomeScreen-D4dn1z7W.js",
-      "bytes": 19773,
-      "sha256": "7f9a32124f4ef9ed9df4e2a23bd06bba7dd4015e5e0804299f24cd900e7b24e2"
+      "path": "assets/HomeScreen-BJ5M7GLA.css",
+      "bytes": 20843,
+      "sha256": "46579d434843bcc00f7ca7c862c85e28bd163199a795c610d8a7e1ce04797775"
     },
     {
-      "path": "assets/HomeScreen-QVVjw21U.css",
-      "bytes": 33614,
-      "sha256": "9ad9e78ea31419609561cc1a0be7027d19208d579d192bb45a2a832a2890e7fa"
+      "path": "assets/HomeScreen-D6_bo12a.js",
+      "bytes": 32708,
+      "sha256": "b20ea58c1b98b4345e75656c5d57158cbff015a6b4de98ee78cbce427f458a2b"
     },
     {
-      "path": "assets/index-C2ofgs7W.css",
-      "bytes": 1090,
-      "sha256": "56f07ac70615e5fa385435ebd5a32aa96cd8f28fe6fc7d91f73b06ed825e8d07"
+      "path": "assets/index-BHlC96eg.css",
+      "bytes": 7506,
+      "sha256": "ac5fc46f7303d8885b26e5c52409a5da9b57c619f64e4258f059cecb0973bff8"
     },
     {
-      "path": "assets/index-YK6uDyk6.js",
-      "bytes": 223079,
-      "sha256": "386869b87f829a16631d8a7f73e260d313e87402cd73a42495ce98212d704dc7"
+      "path": "assets/index-CcMZuyXM.js",
+      "bytes": 227479,
+      "sha256": "364142266c516dc9374b793a3c7f6f79fa2302a0ec6bdcf1f96e1afb65d86fde"
     },
     {
-      "path": "assets/LabScreen-CjI0lJpZ.js",
-      "bytes": 171079,
-      "sha256": "1c839c3898489dbe4c20fb3e4dbbe9b365959e76ecedd41fd6889b844ca1bd6c"
+      "path": "assets/LabScreen-Ci-qQKet.css",
+      "bytes": 12102,
+      "sha256": "5a2e3a8e39ce346820dd491a19646e558c7b58b47968c39a72c30f1500f29145"
     },
     {
-      "path": "assets/LabScreen-nhca9mt1.css",
-      "bytes": 11862,
-      "sha256": "fe88aafa8c46c053819a2098b46c2278dca4491ee48e3e792860632aaea96de7"
+      "path": "assets/LabScreen-DB4ekCG8.js",
+      "bytes": 171155,
+      "sha256": "f66b121b532502a0da8011cbbaba14ee2c0ad69d0e6729508839128a6b6de20d"
     },
     {
       "path": "assets/linter-CId7IPyX.png",
@@ -346,19 +346,14 @@
       "sha256": "2afe06a30e2014250965a4b26b085d049ecbe1d3aa7d575b2e367907fdaad6d0"
     },
     {
-      "path": "assets/TowerShowcase-Cp3NltaE.css",
-      "bytes": 1065,
-      "sha256": "0289d2d04189616a87df1f04a47ff1ad3ffea0ff296706955fc81d2d9ae06850"
-    },
-    {
-      "path": "assets/TowerShowcase-DblDBT5L.js",
-      "bytes": 28459,
-      "sha256": "7ce37c361f8c11ff443d0736a3f248ddae9dff4d39e8839ffe18e743b3be474c"
+      "path": "assets/TowerShowcase-DB3N5Ex5.js",
+      "bytes": 25074,
+      "sha256": "8781f1d62547bcde9c0e5e9889e86de604f350894c14e6cc5a680121acd183ba"
     },
     {
       "path": "index.html",
-      "bytes": 2342,
-      "sha256": "99e8cfb6361ce3dbf15648e5cbe0c0728e5984a55dba6a904c5cfcaebd5ecc82"
+      "bytes": 2369,
+      "sha256": "dc65b32f374345b48c7e1164d7a5b6938c7006840446a4a3daf35a6cf6b034e0"
     },
     {
       "path": "licenses/mona-sans.txt",
@@ -381,5 +376,5 @@
       "sha256": "eb5322c014bf3ebfa1f5f6d42376289a3da34b00d1814f0be0f0af0a81f25a50"
     }
   ],
-  "files": 76
+  "files": 75
 }

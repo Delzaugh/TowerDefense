@@ -1,0 +1,2 @@
+# Preserve generated Pages bytes, including the packager's line endings.
+pages-site/** -text -whitespace

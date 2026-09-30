@@ -19,3 +19,7 @@ The reusable `GameTopBar` is adopted by Hub and inspection. It owns leading/cont
 - The concept passes 12 separate context/layout checks and local menu/settings/back interactions. Production uses Octicons; the inline concept uses host-supplied icons.
 
 The source and checked-in Pages snapshot are released as separate commits so `build-info.json` identifies the source revision used to build the deployable bytes. After deployment, check the live metadata, file hashes and the same UI interactions against the public URL.
+
+## Packaged release
+
+Source revision: 499049428c98d974e71fe751ffaf7faba1e5c89a. Pages release: bb4eeddedbb033f8. The staged snapshot verifies all 77 manifest files against their SHA-256 hashes (78 files including build metadata, 7,479,128 content bytes).

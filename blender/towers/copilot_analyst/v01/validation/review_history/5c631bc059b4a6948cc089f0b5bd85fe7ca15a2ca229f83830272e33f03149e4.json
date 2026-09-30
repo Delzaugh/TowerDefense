@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_analyst",
+  "version": "v01",
+  "revision": 13,
+  "sha256": "05c1cbbddcdd9d28d2f2bb10e165a61758d20c0166eeea6aa69d49db65bdb126",
+  "sourceHash": "b88e8330305e33802180392a0f6679aa82120880a92bcfdc16e06f36d1b09902",
+  "scope": "palette",
+  "reviewedAt": "2026-09-30T14:43:33.651Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "User requested a slightly different hat colour to reduce blending with body. Changed only cap colour-role assignments: deep teal crown panel/brim/seat band, dark centre seam/underside, retained chalk panel, body and pencil. Selected cap shape and side pencil remain unchanged; current colour request supersedes pale teal hat areas in the illustrative specs."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Palette-only recipe change. Actual exported front and close oblique inspected: cap/brim/holder placement and two eye geometry retained. Triangles2390, materials2, dimensions unchanged; no geometry/anchor/clip changes introduced."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Actual phone and front captures show deeper teal cap clearly separated from pale teal head. Chalk opposing panel and dark centre seam distinguish crown panels; dark underside separates brim from face. Pencil/eyes retain their previous contrast. Source-authored swatch roles used, no viewer tint."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Palette-only model refinement; no clips or rig."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After exporting the changed cap roles, personally inspected close oblique, front and phone result again: cap reads as a separate garment, retained chalk panel and pencil remain coherent, body colour preserved. No further palette repairs needed. Inspector loaded current hash and technical validation passed."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/front.png",
+      "sha256": "ed14fa3d3f44fedcd3a6def0d944683d3b3bd8d1e01c88e6b6d116cf9c36a649",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/close-iso.png",
+      "sha256": "9453ccb5eeed0d04f15ba5941ce8f36e724a4ba0c0de0d38b9b992930da77efe",
+      "view": "close-iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/phone.png",
+      "sha256": "7dda7f855836997059b9caa4af546ade8fe961aa9bea4dd78a7827b87497b70f",
+      "view": "phone",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User authorized hat colour separation. Artistic acceptance of the new revision remains pending."
+  },
+  "limitations": [
+    "Model only; baseline animations remain pending."
+  ]
+}

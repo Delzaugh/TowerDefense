@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_analyst",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "4bb74295a7c3db03f2f8c83b36933911894bac3cb764a6c2699b01dff24bd01f",
+  "sourceHash": "61865be55355993432d481834d4b54e0ec13be3e52e7affa89f30ead09e90388",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T11:26:46.162Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Actual exported front and side/oblique compared with selected03 Insight Owl: broad amber rounded head, paired tilted oval teal optics with cyan centres, continuous ivory sweeping brow-rims, central cyan diamond, lower paired eyes and symmetrical orange drums/ivory caps retained. Primary aspect approximately1.58 matches broad concept character. Supporting generated depth/rear views are illustrative; no exact geometric match is claimed."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Final GLB fixed front/side and close oblique, reverse and underside reviewed. Shell/lip/display share boundaries; convex front rolls into temples and lower bowl. Each brow is a closed continuous annulus including solid wing tip; no overlapping feathers. Thick rims seat opaque lenses; bridge closes the central join. Segmented ear solids/endcaps sit against the body. No exposed backing, floating tips or accidental crossing at the affected joins seen."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Phone and small Inspector captures retain broad ivory owl outline, two teal optics and lower cyan eye pair. Front silhouette and negative space read cleanly. Saved palette is used without viewer tints. Analyst distinction rests on brow/optics shape rather than amber colour alone."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model-only delivery; animation not authorized for Analyst yet. No placeholder clips or rig."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Initial r2 primary front/side/iso assessment exposed thin rims and pointed lower contour. R3 thickened ivory rims/seated lenses and closed the bridge. R4 changed contour interpolation to round lower bowl and corrected front/optic surface normals. Personally re-inspected finished r4 close oblique/reverse/underside, front/side, phone and small views against the original chosen front; scoped joins, repeated parts and readability remain coherent. Technical validation passes2352 triangles; Inspector loaded hash matches this payload."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/front.png",
+      "sha256": "5587235b26ed2b3111bb6144e887f7de4c41067c9df96b8ff23aafb59dc46e3b",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/side.png",
+      "sha256": "f06965a7d9b1c99a95bb7c6d0e0a980fb455e24f3291a003e0efbdd8cbfcdfd1",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/iso.png",
+      "sha256": "d964d7ce65b3b73feccb10f998ee989615817bd5847c21f277c1e6bffbeb17ab",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/rear.png",
+      "sha256": "20a068f457a008e2aaaf30111460a815fe8e5eda40f23ef87800feb1424eb6e5",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/front-silhouette.png",
+      "sha256": "61f003537fee3ba2a183d909c8064dddb56e3516b329ae1702cd1bc1e579ebc7",
+      "view": "front-silhouette",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/iso-silhouette.png",
+      "sha256": "86281e247164f5cb295d0c89c469fc5aa5a4da4b50871385f3798e7b611de8b7",
+      "view": "iso-silhouette",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/close-iso.png",
+      "sha256": "eb043cf5e451f6594339f08ce2814c5e8172b3100eba3b5e8782b800ac1f6bcf",
+      "view": "close-iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/close-rear.png",
+      "sha256": "ec26f2f5c4868111134c855b3573507a8627473b9b8864e75488f15f0a792f00",
+      "view": "close-rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/close-underside.png",
+      "sha256": "47ab459eee41f60a78315da52fae3c943b8582c1612a9dfefb975125e310475d",
+      "view": "close-underside",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/phone.png",
+      "sha256": "eb8ded1a1c42c791c2808be7b5db96363f1d5e0badc4981e17366a2f5acce517",
+      "view": "phone",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/small-silhouette.png",
+      "sha256": "b410150424ed6e1b1fd1ad1b11f8224ff0db0d4dff464b17c824c83fd64fc551",
+      "view": "small-silhouette",
+      "mode": "silhouette"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User delegated concept selection to GPT6.1sol and authorized spec/model production; concept selection does not imply acceptance of the resulting 3D model."
+  },
+  "limitations": [
+    "Generated side/rear reference views are illustrative; hidden contacts and rear volume are authored interpretations.",
+    "Model-only delivery; baseline animation pending."
+  ]
+}

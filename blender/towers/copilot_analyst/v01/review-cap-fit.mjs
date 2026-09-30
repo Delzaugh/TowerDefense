@@ -1,0 +1,17 @@
+import fs from 'node:fs/promises';
+import crypto from 'node:crypto';
+const d='blender/towers/copilot_analyst/v01';
+const r=JSON.parse(await fs.readFile(d+'/validation/visual_review.json','utf8'));
+const report=JSON.parse(await fs.readFile(d+'/validation/report.json','utf8'));
+if(r.revision!==16||!report.passed)throw Error('Requires passing current r16');
+r.scope='refinement';r.reviewedAt=new Date().toISOString();
+r.checks.referenceFidelity={status:'passed',findings:'User requested classic pencil colour, more distinct hat, and clipping review. Yellow #F2C34B barrel, retained wood and graphite point; slate blue #50678F cap and chalk opposing panel distinguish garment from pale teal head. Selected06 cap/pencil identity retained.'};
+r.checks.construction={status:'passed',findings:'Truncated and closed old head at fitted seat. Cap lower band follows radial intersections with actual head cut contour, with clearance over curved sides. Initial ellipse and tighter contour fits still showed rear/temple overlap; repaired outer band clearance. Personally inspected actual r16 front, side, rear, close oblique and underside: no pale protruding shards or jagged rear join remain. Slight band flare is deliberate seating geometry. Closed brim and source-authored palette retained. 2324/2500 triangles,2 materials,2 meshes.'};
+r.checks.readability={status:'passed',findings:'Actual phone and close oblique captures show a distinct blue/chalk cap against teal head, clearly yellow pencil with wood/graphite tip, and readable cyan eyes. Added two asset-local palette roles in64x4 atlas; no viewer tint.'};
+r.checks.motion={status:'not_applicable',findings:'Model refinement only; no rig or animation changes.'};
+r.secondPass={status:'passed',findings:'After initial export exposed jagged rear/temple overlap, replaced ellipse seating with actual cut-contour fit and increased clearance. Rechecked final side/rear, close oblique, underside and phone captures: continuous fitted lower band; head no longer breaks through cap surfaces. Numeric export passes and Inspector capture reports current hash with no errors.'};
+r.evidence=await Promise.all(['front.png','side.png','rear.png','close-iso.png','close-underside.png','phone.png'].map(async f=>({path:d+'/validation/'+f,sha256:crypto.createHash('sha256').update(await fs.readFile(d+'/validation/'+f)).digest('hex'),view:f.slice(0,-4),mode:'shaded'})));
+r.userAcceptance={status:'pending',note:'User requested this repair and colour revision; acceptance of r16 remains pending.'};
+r.limitations=['Model only; animation production remains pending.'];
+await fs.writeFile(d+'/validation/visual_review.json',JSON.stringify(r,null,2)+'\n');
+await fs.appendFile(d+'/decisions.md',`\n## Pencil colour and cap fit — revision16\n\nUser requested classic pencil colour, distinct hat colour and clipping review. Yellow barrel #F2C34B with retained wood/graphite tip; slate blue cap #50678F with chalk panel. Added asset-local64x4 palette roles, shared builder unchanged. Head geometrically cut/closed at seat; band lower contour fitted to actual head cut and widened for curved-shell clearance. Iterative side/rear/temple repair removed pale protrusions and jagged overlap. Actual GLB inspected front/side/rear/close/underside/phone;2324 triangles. Source ${r.sourceHash}; export ${r.sha256}. User acceptance pending; animations pending.\n`);

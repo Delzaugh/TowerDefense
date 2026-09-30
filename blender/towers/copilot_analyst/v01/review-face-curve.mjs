@@ -1,0 +1,17 @@
+import fs from 'node:fs/promises';
+import crypto from 'node:crypto';
+const d='blender/towers/copilot_analyst/v01';
+const r=JSON.parse(await fs.readFile(d+'/validation/visual_review.json','utf8'));
+const report=JSON.parse(await fs.readFile(d+'/validation/report.json','utf8'));
+if(r.revision!==17||!report.passed)throw Error('Requires passing r17');
+r.scope='refinement';r.reviewedAt=new Date().toISOString();
+r.checks.referenceFidelity={status:'passed',findings:'User identified vertically flat front. Retained selected Session Cap06, blue/chalk hat and classic yellow pencil. Strengthened vertical convexity of the continuous face/rim, with centre near eye level and brow/chin retreating. Broad rounded family shape retained.'};
+r.checks.construction={status:'passed',findings:'Source-authored front depth now uses .60m vertical quadratic coefficient instead of .22m, centred at .72m instead of .82m. Extra .90 display support ring resolves curvature near the border; normals match actual curve. Eyes and rim use the same surface. Personally compared prior r16 side profile with r17: obvious convex roll from brow through cheeks to chin. Front/close oblique/underside show continuous lip and seated eyes; rear hat seam remains clean. Actual2390/2500 triangles,2 meshes/materials, unchanged anchors and overall bounds.'};
+r.checks.readability={status:'passed',findings:'Front and phone views retain two clear eyes and the wide friendly display. Oblique view now shows rounded face volume and tucked chin. Hat/pencil colours retained.'};
+r.checks.motion={status:'not_applicable',findings:'Geometry refinement only, no rig or clips.'};
+r.secondPass={status:'passed',findings:'After curvature repair, reassessed final exported side, front, close oblique, underside, rear and phone views. Convex profile is visible; rim and eyes follow the new surface; cap seating remains intact. No further scoped repair needed. Technical validation and loaded Inspector hash agree.'};
+r.evidence=await Promise.all(['side.png','front.png','close-iso.png','close-underside.png','rear.png','phone.png'].map(async f=>({path:d+'/validation/'+f,sha256:crypto.createHash('sha256').update(await fs.readFile(d+'/validation/'+f)).digest('hex'),view:f.slice(0,-4),mode:'shaded'})));
+r.userAcceptance={status:'pending',note:'User requested more vertical face curvature; acceptance of revision17 remains pending.'};
+r.limitations=['Model only; animations remain pending.'];
+await fs.writeFile(d+'/validation/visual_review.json',JSON.stringify(r,null,2)+'\n');
+await fs.appendFile(d+'/decisions.md',`\n## Vertical face curvature — revision17\n\nUser identified front as vertically flat. Increased source front depth quadratic from .22 to .60m, centred near eye level .72m; added outer display support ring .90 and matching analytic normals. Rim and eyes share front function. Compared r16/r17 side profile and reviewed actual front/oblique/underside/rear/phone: stronger convex face and rolled-back chin/brow, retained cap fit and accepted colours. Actual2390 triangles. Source ${r.sourceHash}; runtime ${r.sha256}. User acceptance pending; animations pending.\n`);

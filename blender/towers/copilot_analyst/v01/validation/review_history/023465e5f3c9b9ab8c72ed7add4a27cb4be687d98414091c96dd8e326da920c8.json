@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_analyst",
+  "version": "v01",
+  "revision": 12,
+  "sha256": "a563f89cecaed053b6df725b5992d1095f4bb973cefdbc78d66b13538366cd1a",
+  "sourceHash": "d3eef9981d63ad3860edae474c7f70651d1aa0e88a41038767627e1a432c9aad",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-30T14:33:11.038Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Compared final actual GLB with selected06 and approved two-page spec: fitted pale teal/chalk panel cap, narrow centre seam, short curved brim and single chalk pencil with teal holder/wood point on wearer-left. Open navy face with only two cyan capsule eyes; no goggles, pointed brows, diamond, charts or mouth. Broad lower head contour and segmented ear housings retained. Upper hidden dome intentionally cut to receive cap."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Actual front/profile, close oblique, rear and underside checked. Geometric cut closes the old dome on a coherent seating plane, removing its protrusion and crimped contour. Cap panel colours share a surface; continuous lower band seats against shell. Brim has top/underside and closed edges. Pencil shaft/point and holder are closed, holder enters cap side. No exposed old optic parts or crossing crown plates remain. Rear band edge remains intentionally faceted, without the earlier compressed-dome folds."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Final phone and small views inspected: cap/brim and side pencil recognizable; eyes remain visible below brim at intended isometric angle. Broad head/ear silhouette retained. Chalk/pale teal panel distinction and dark face contrast read without viewer tint. Pencil increased to remain a visible secondary tool at phone scale."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model implementation only. Baseline animations not authorized; no rig or placeholder clips."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "First candidate exceeded2500 triangles and was rejected without replacing runtime; reduced cap sampling. Initial promoted r8 exposed old forehead intersecting cap. Compression in r9 left a crimped rear join; r10 added a band and adjusted pencil; r11 replaced compression with a closed geometric cut. Final r12 restores denser cap/brim sampling within budget. Personally rechecked the finished r12 oblique, reverse, underside and phone views against selected06/spec after those repairs. Shape/clearance and broad source lower volume remain coherent; actual2390 triangles with current Inspector hash matching delivery."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/front.png",
+      "sha256": "083e4b40ac31f898942259fa80f71ff370f99d134c51d9dcbfa5cfa167f24a2c",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/side.png",
+      "sha256": "dc9c5e57bb46842d5693a7e58da19770a8de2b4e633b5af256abfd29b6267ec3",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/iso.png",
+      "sha256": "72399239d98abce52ad721f43b01af6c32f2fd534fefc6d4ea9d809a499d6df8",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/rear.png",
+      "sha256": "546337dc3472bc98a1c2bad7304b34ccd6cdc4cf9332e3f44989f88bd88c5fc3",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/close-iso.png",
+      "sha256": "c52ac8d9b0997e3363e41c3addc4c1234efdb9833aa51454e0f367b8ba7795c7",
+      "view": "close-iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/close-rear.png",
+      "sha256": "85334222386251dd1710c5a577c00ef25a3f94417dd9268ca3911fb5cba61b2a",
+      "view": "close-rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/close-underside.png",
+      "sha256": "71e4d45e996c45dd72742fc5d0b29a40c968ff92ecbb0d1baf3f0870b2e91e54",
+      "view": "close-underside",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/phone.png",
+      "sha256": "4a5f2f1476791e3d24623ec80216518bdbbb2535ac0a47a42bebfd993c8ad71b",
+      "view": "phone",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/small-silhouette.png",
+      "sha256": "dba7b893ceb8f65deeb885fa871200dddfca890237fcf98508b821e9d5370430",
+      "view": "small-silhouette",
+      "mode": "silhouette"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User accepted Session Cap spec pages and authorized implementation. Artistic acceptance of resulting revision12 remains pending."
+  },
+  "limitations": [
+    "Illustrative spec hidden cap fit was authored as a closed fitted seat; no engineered internals claimed.",
+    "Model only; baseline animations pending authorization."
+  ]
+}

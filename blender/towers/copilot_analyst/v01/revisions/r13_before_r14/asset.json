@@ -1,0 +1,361 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_analyst",
+  "displayName": "Analyst — Session Cap",
+  "category": "towers",
+  "version": "v01",
+  "revision": 13,
+  "source": {
+    "path": "blender/towers/copilot_analyst/v01/copilot_analyst_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_analyst/v01/build.py",
+    "authoritativeHash": "b88e8330305e33802180392a0f6679aa82120880a92bcfdc16e06f36d1b09902"
+  },
+  "runtime": "assets/runtime/towers/copilot_analyst_v01.glb",
+  "budgets": {
+    "triangles": 2500,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 64,
+    "bones": 0,
+    "meshes": 2
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        2.6,
+        1.7,
+        1.6
+      ],
+      "max": [
+        3,
+        2.1,
+        2.3
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "docs/design/concepts/analyst_hats_2026-09-30/session_cap_specs_v01/analyst-session-cap-accessory-spec.png",
+      "provenance": "User selected concept06 cap and little pencil, accepted spec pages and requested implementation."
+    },
+    {
+      "path": "docs/design/concepts/analyst_hats_2026-09-30/session_cap_specs_v01/analyst-session-cap-model-changes-spec.png",
+      "provenance": "User approved plan: remove owl optics/data motifs, retain rounded source volume/ear housings, extend open face."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/copilot_analyst/v01/revisions/r2_before_r3/copilot_analyst_v01.glb",
+      "source": "blender/towers/copilot_analyst/v01/revisions/r2_before_r3/copilot_analyst_v01.blend",
+      "sha256": "94c40ae7819cfefe3021a206528b3e93cefdf068e2c13f76b420d5aaf01d1c8e",
+      "sourceHash": "4dfa8335792c89992097817a62bae1fd3baa747d45602811a803581326291313"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/copilot_analyst/v01/revisions/r3_before_r4/copilot_analyst_v01.glb",
+      "source": "blender/towers/copilot_analyst/v01/revisions/r3_before_r4/copilot_analyst_v01.blend",
+      "sha256": "cd738b6c4ee6be6e7137719fa40696d1296328b2042103250c5ca3eab2dea9c7",
+      "sourceHash": "aac08722ad127aa97265144c1a721b74f77b24db51f13eb7104b9de038e25dec"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/towers/copilot_analyst/v01/revisions/r4_before_r5/copilot_analyst_v01.glb",
+      "source": "blender/towers/copilot_analyst/v01/revisions/r4_before_r5/copilot_analyst_v01.blend",
+      "sha256": "4bb74295a7c3db03f2f8c83b36933911894bac3cb764a6c2699b01dff24bd01f",
+      "sourceHash": "61865be55355993432d481834d4b54e0ec13be3e52e7affa89f30ead09e90388"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/towers/copilot_analyst/v01/revisions/r5_before_r6/copilot_analyst_v01.glb",
+      "source": "blender/towers/copilot_analyst/v01/revisions/r5_before_r6/copilot_analyst_v01.blend",
+      "sha256": "08135b7ee2e30da4c365bcd65e86342b1362233b3b2bb9213470c438866bc237",
+      "sourceHash": "aa407bb1593ed65128fcabe1ec360dbafefd93d06811aacad14415091143e4e8"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/towers/copilot_analyst/v01/revisions/r6_before_r7/copilot_analyst_v01.glb",
+      "source": "blender/towers/copilot_analyst/v01/revisions/r6_before_r7/copilot_analyst_v01.blend",
+      "sha256": "b74a6bca2713136ff8bbe25223cb4e42cde3385ffce01a9cb4655f0c8fbe1ee6",
+      "sourceHash": "adf0fa0ec32281a4e9649314bcc27414de6116416c5109fee368afb270d29024"
+    },
+    {
+      "label": "before_r8",
+      "revision": 7,
+      "export": "blender/towers/copilot_analyst/v01/revisions/r7_before_r8/copilot_analyst_v01.glb",
+      "source": "blender/towers/copilot_analyst/v01/revisions/r7_before_r8/copilot_analyst_v01.blend",
+      "sha256": "0d4f4ec94e8379dd48677e9284d928e21521f1246f4be8321b6574cd91c92986",
+      "sourceHash": "3faf807ea2e1cb8ec83a9e4c4fc0c3a2b7002cb6310722001030ea558af199f2"
+    },
+    {
+      "label": "before_r9",
+      "revision": 8,
+      "export": "blender/towers/copilot_analyst/v01/revisions/r8_before_r9/copilot_analyst_v01.glb",
+      "source": "blender/towers/copilot_analyst/v01/revisions/r8_before_r9/copilot_analyst_v01.blend",
+      "sha256": "b34aab50d25b6549c670c7eb2b4183afa469403a43537382fa0606aeb646cd8b",
+      "sourceHash": "3cc6e2377067acfb4fdb16e9ef02f4d84ae4bbad1a2a7d006f5d17b58c1f0080"
+    },
+    {
+      "label": "before_r10",
+      "revision": 9,
+      "export": "blender/towers/copilot_analyst/v01/revisions/r9_before_r10/copilot_analyst_v01.glb",
+      "source": "blender/towers/copilot_analyst/v01/revisions/r9_before_r10/copilot_analyst_v01.blend",
+      "sha256": "6ac08f4696ef64724d13610545ae43c6b08bcf5b8afbe003648e6eb8041b436e",
+      "sourceHash": "81766204cc7ad4065d3c7943d5f966ebdb041a73139aae45a1721bdf94f78238"
+    },
+    {
+      "label": "before_r11",
+      "revision": 10,
+      "export": "blender/towers/copilot_analyst/v01/revisions/r10_before_r11/copilot_analyst_v01.glb",
+      "source": "blender/towers/copilot_analyst/v01/revisions/r10_before_r11/copilot_analyst_v01.blend",
+      "sha256": "598afbaee621489e96d26a72e693d3957b6b74754607d757923194610f0db747",
+      "sourceHash": "2eb2cb18b146b1bea7836ada5a505dbea89012f36de0580e981c9419763d0f11"
+    },
+    {
+      "label": "before_r12",
+      "revision": 11,
+      "export": "blender/towers/copilot_analyst/v01/revisions/r11_before_r12/copilot_analyst_v01.glb",
+      "source": "blender/towers/copilot_analyst/v01/revisions/r11_before_r12/copilot_analyst_v01.blend",
+      "sha256": "b840339522dac2fd6b1b82f9e00a41129b43d9cfa1ff1558d4dc28573126ca4a",
+      "sourceHash": "fd3309252348c4d8fd2c844f485975699154005f8744c523b285a0381f3db6a8"
+    },
+    {
+      "label": "before_r13",
+      "revision": 12,
+      "export": "blender/towers/copilot_analyst/v01/revisions/r12_before_r13/copilot_analyst_v01.glb",
+      "source": "blender/towers/copilot_analyst/v01/revisions/r12_before_r13/copilot_analyst_v01.blend",
+      "sha256": "a563f89cecaed053b6df725b5992d1095f4bb973cefdbc78d66b13538366cd1a",
+      "sourceHash": "d3eef9981d63ad3860edae474c7f70651d1aa0e88a41038767627e1a432c9aad"
+    }
+  ],
+  "decisions": "blender/towers/copilot_analyst/v01/decisions.md",
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "texturePalettes": [
+    {
+      "material": "analyst_palette",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#91D9D2",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#398D94",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#E2EDF0",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#333E48",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#041D2A",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "wood": {
+          "color": "#DDB78B",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E5EF",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#22313A",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "hat": {
+          "color": "#50678F",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "pencil": {
+          "color": "#F2C34B",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "material": "analyst_optics",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#91D9D2",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#398D94",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#E2EDF0",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#333E48",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#041D2A",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "wood": {
+          "color": "#DDB78B",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E5EF",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#22313A",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "hat": {
+          "color": "#50678F",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "pencil": {
+          "color": "#F2C34B",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "delivery": {
+    "sha256": "05c1cbbddcdd9d28d2f2bb10e165a61758d20c0166eeea6aa69d49db65bdb126",
+    "sourceHash": "b88e8330305e33802180392a0f6679aa82120880a92bcfdc16e06f36d1b09902",
+    "report": "blender/towers/copilot_analyst/v01/validation/report.json",
+    "deliveredAt": "2026-09-30T14:42:05.188Z"
+  }
+}

@@ -1,0 +1,16 @@
+import fs from 'node:fs/promises';
+const dir='blender/towers/copilot_analyst/v01';
+const m=JSON.parse(await fs.readFile(dir+'/asset.json','utf8'));
+m.displayName='Analyst — Insight Owl';
+m.source={path:dir+'/copilot_analyst_v01.blend',mode:'procedural',recipe:dir+'/build.py'};
+m.budgets={triangles:2500,materials:2,textures:2,textureSize:32,bones:0,meshes:2};
+m.contract.anchors=['anchor_ui','anchor_action','anchor_target'];
+m.contract.dimensions={min:[2.6,1.7,1.6],max:[3,2.1,2.3]};
+m.exportSettings={paletteSampler:'linear'};
+const colors={shell:'#FFA52B',shell_dark:'#D47718',trim:'#F3E4CF',graphite:'#333E48',screen:'#101D3D',lens:'#087F8E',cyan:'#00E5EF',detail:'#22313A'};
+m.texturePalettes=['analyst_palette','analyst_optics'].map(material=>({material,size:[32,4],roles:Object.fromEntries(Object.entries(colors).map(([role,color],i)=>[role,{color,rect:[i*4,0,4,4]}]))}));
+await fs.mkdir(dir+'/references',{recursive:true});
+for(const [input,output]of [['analyst-concepts.png','analyst-concepts.png'],['insight-owl-selected.png','selected-front.png'],['insight_owl_specs_v01/analyst-six-angle-sheet.png','six-angle-concept.png']])await fs.copyFile('docs/design/concepts/analyst_2026-09-30/'+input,dir+'/references/'+output);
+m.references=[{path:dir+'/references/selected-front.png',provenance:'Concept03 Insight Owl selected by user-authorized GPT6.1sol subagent, 2026-09-30. Authoritative front.'},{path:dir+'/references/six-angle-concept.png',provenance:'Generated illustrative views; rear inferred, selected front governs.'}];
+await fs.writeFile(dir+'/asset.json',JSON.stringify(m,null,2)+'\n');
+await fs.writeFile(dir+'/decisions.md',`# Analyst — Insight Owl\n\nUser requested six Analyst concepts, delegated final selection to GPT6.1sol, then requested model specs and production model. Subagent selected03 as authored; preserve the owl identity without hybridizing alternatives. Model acceptance pending; animations not authorized by this request.\n\n## Primary landmarks\n\nBroad amber rounded shell, width about2.25m and dome height1.73m. Full assembly approximately2.8m wide and1.85m high. Two lenses centered at +-0.50m, height1.17m, oval tilt outward-upward25degrees. Ivory rim extends continuously into pointed upper outside wings. Navy lower display has two capsule eyes centered +-0.25m, height0.53m. Central ivory bridge/cyan diamond sits below lens bridge; orange ear drums and faceted ivory caps sit near height0.87m. These are authored coordinates, not measured concept dimensions.\n\nUse front landmarks and broad depth sections with curved front/display before accessory refinement; rounded face must not become a flat slab. Browse primary front/side/iso before final detailing. Hidden contacts/rear are authoring interpretations. Paired rims are continuous solids, not overlapping plates or separate feathers. Optics are opaque and inset. No body/limbs/stand or Tester brackets.\n\n## Material plan\n\nPacked32x4 solid palette image and two materials for housing/optics. Ivory, graphite and cyan reuse suitable shared roles; amber and navy preserve selected concept. No transparent lenses or baked gameplay aura. Triangle ceiling2500; model-only, no rig or placeholder clips.\n`);

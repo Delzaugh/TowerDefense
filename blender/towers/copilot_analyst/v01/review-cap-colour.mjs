@@ -1,0 +1,18 @@
+import fs from 'node:fs/promises';
+import crypto from 'node:crypto';
+const d='blender/towers/copilot_analyst/v01';
+const r=JSON.parse(await fs.readFile(d+'/validation/visual_review.json','utf8'));
+const report=JSON.parse(await fs.readFile(d+'/validation/report.json','utf8'));
+if(r.revision!==13||!report.passed||report.triangles!==2390)throw Error('Requires passing r13 with unchanged triangle count');
+r.scope='palette';r.reviewedAt=new Date().toISOString();
+r.checks.referenceFidelity={status:'passed',findings:'User requested a slightly different hat colour to reduce blending with body. Changed only cap colour-role assignments: deep teal crown panel/brim/seat band, dark centre seam/underside, retained chalk panel, body and pencil. Selected cap shape and side pencil remain unchanged; current colour request supersedes pale teal hat areas in the illustrative specs.'};
+r.checks.construction={status:'passed',findings:'Palette-only recipe change. Actual exported front and close oblique inspected: cap/brim/holder placement and two eye geometry retained. Triangles2390, materials2, dimensions unchanged; no geometry/anchor/clip changes introduced.'};
+r.checks.readability={status:'passed',findings:'Actual phone and front captures show deeper teal cap clearly separated from pale teal head. Chalk opposing panel and dark centre seam distinguish crown panels; dark underside separates brim from face. Pencil/eyes retain their previous contrast. Source-authored swatch roles used, no viewer tint.'};
+r.checks.motion={status:'not_applicable',findings:'Palette-only model refinement; no clips or rig.'};
+r.secondPass={status:'passed',findings:'After exporting the changed cap roles, personally inspected close oblique, front and phone result again: cap reads as a separate garment, retained chalk panel and pencil remain coherent, body colour preserved. No further palette repairs needed. Inspector loaded current hash and technical validation passed.'};
+const files=['front.png','close-iso.png','phone.png'];
+r.evidence=await Promise.all(files.map(async f=>({path:d+'/validation/'+f,sha256:crypto.createHash('sha256').update(await fs.readFile(d+'/validation/'+f)).digest('hex'),view:f.replace('.png',''),mode:'shaded'})));
+r.userAcceptance={status:'pending',note:'User authorized hat colour separation. Artistic acceptance of the new revision remains pending.'};
+r.limitations=['Model only; baseline animations remain pending.'];
+await fs.writeFile(d+'/validation/visual_review.json',JSON.stringify(r,null,2)+'\n');
+await fs.appendFile(d+'/decisions.md',`\n## Hat colour separation — revision13\n\nUser requested slightly different hat colour so it blends less with body. Cap pale teal regions reassigned to existing deep teal shell_dark #398D94; seam/underside use detail #22313A, chalk panel retained. Body/pencil colours unchanged. Actual2390 triangles and original dimensions/interfaces retained. Front/close oblique/phone inspected twice; cap now separates clearly from body. Source ${r.sourceHash}; export ${r.sha256}. User acceptance pending.\n`);

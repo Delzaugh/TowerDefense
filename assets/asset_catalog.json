@@ -720,6 +720,11 @@
       "id": "copilot_tester",
       "version": "v01",
       "manifest": "blender/towers/copilot_tester/v01/asset.json"
+    },
+    {
+      "id": "copilot_analyst",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_analyst/v01/asset.json"
     }
   ]
 }

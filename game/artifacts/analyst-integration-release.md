@@ -1,0 +1,7 @@
+# Analyst inspection integration — 2026-09-30
+
+User requested adding the completed Analyst model to the game. Inspection now resolves the catalog-registered `copilot_analyst@v01`, revision 17, and includes a portrait captured from that exact model with the inspection renderer. The teal Session Cap model, palette, dimensions, cap/pencil and rounded face are unchanged. Passive support content and gameplay values remain as authored. Architect retains its unavailable preview state.
+
+The canonical delivery is 72,748 bytes, SHA-256 `503a52de090dfb05f8e93d408699df9cc85ef2b192db5c8f9a72b232d708ed14`, with source hash `68a722cb40b773143d94734b6520b6e294112c75ed18473ed0acfc7b2a29a821`. The existing manifest and hash-bound validation/review accompany the source and runtime export. Its model-only contract contains no animation clips; the established renderer shows Rest and supports orbit/tilt/zoom without adding placeholder clips or modifying Blender.
+
+Validation includes canonical source/runtime hashes, build/type checks, lint, module boundaries, 23 focused content/framing/asset-resolver unit checks, 20 inspection/model lifecycle browser checks and 5 GitHub Pages subpath checks. Desktop and touch tests exercise normal/reduced-motion selection, loaded portrait, model fetch, passive stats, camera input and switching back from an animated Tower. A separate visual review captures Light/Dark at desktop, phone and landscape sizes, checking nonempty rendering, full-card preview bounds and panel/overflow stability.

@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_analyst",
+  "version": "v01",
+  "revision": 7,
+  "sha256": "0d4f4ec94e8379dd48677e9284d928e21521f1246f4be8321b6574cd91c92986",
+  "sourceHash": "3faf807ea2e1cb8ec83a9e4c4fc0c3a2b7002cb6310722001030ea558af199f2",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-30T12:57:35.755Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Original Insight Owl geometry remains: broad rounded head, fitted sweeping chalk brows, tilted optics, central diamond and lower eye pair. User explicitly requested analytical features and lighter teal; this supersedes the original amber palette and plain lens disks. Added reticle/chart, forehead data tabs and ear traces preserve the role and established silhouette."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Inspected actual final GLB front/side and close oblique/reverse/underside. Lens inlays follow piecewise convex lens depth; baseline subdivided to avoid buried/flickering central segments. Ear traces are continuous solid strokes on endcap seats. Data tabs enter the curved forehead. Existing shell, brow thickness, optic seats and ear attachments retained; no disconnected tips or exposed backing in scoped views."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Actual phone capture preserves focus brackets/cross, three chart columns and owl outline. Pale teal head contrasts with deep teal optics and dark display; shared chalk outlines remain clear. Forehead tabs/ear traces are secondary supporting details, not critical state information. No temporary viewer tints used."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model refinement only; no animation authorization, skeleton or clips."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Initial r5 assessment found lens glyphs buried by the curved surface. R6 corrected piecewise inlay depth; subsequent oblique assessment exposed baseline surface intersection. R7 subdivided baseline. Personally inspected finished close oblique, reverse/underside, front/side and phone views again: reticle/chart now continuous and visible, pale teal/chalk contrast and prior form retained. Inspector loaded hash matches this final payload."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/front.png",
+      "sha256": "86fb94d66e898de8fd2aa0de4654f83aae7d08d07a3d60ea27f1377e40271460",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/side.png",
+      "sha256": "b1a9ce27f1c5fa5b0a238ca06fc393a35d3996810eca048095a8c4f344f0209a",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/iso.png",
+      "sha256": "b53c9201890eb107cd811b6e3d738b299c629498f4bcea788adeb80c32af1963",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/rear.png",
+      "sha256": "f7af9659b403b6f5090434c7688ae02101c1e09e3cac0baa9caf31f16fa9006c",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/close-iso.png",
+      "sha256": "983059c097d0e3b7b00c83124b16f6ba823d26c1057feb3c5ffafc3d156fbad2",
+      "view": "close-iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/close-rear.png",
+      "sha256": "0fd42e437ea635e747320400c9c6d38780cc7d4ff64f088cd9f4178acb5c7c87",
+      "view": "close-rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/close-underside.png",
+      "sha256": "dc38f9fa531181ee8e6e85fba9a3befdaa38a549922ebedb6c4d1ec6f95a2a59",
+      "view": "close-underside",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/phone.png",
+      "sha256": "199f37cdae5a63979a4357a144f85827a551bf175b3ced389c6461095a2c66b9",
+      "view": "phone",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/small-silhouette.png",
+      "sha256": "0098b32557e092b856819bcbf03f8f663054d840bfd12edc8a1f0cefca38e9c2",
+      "view": "small-silhouette",
+      "mode": "silhouette"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested a stronger analytical identity and light teal refinement; acceptance of this resulting revision remains pending."
+  },
+  "limitations": [
+    "Original concept/spec illustrations document the amber design; current user-approved direction is recorded in the manifest/decisions, with final runtime captures for this refinement.",
+    "Model only; baseline animations remain pending."
+  ]
+}

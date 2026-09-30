@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_analyst",
+  "version": "v01",
+  "revision": 17,
+  "sha256": "503a52de090dfb05f8e93d408699df9cc85ef2b192db5c8f9a72b232d708ed14",
+  "sourceHash": "68a722cb40b773143d94734b6520b6e294112c75ed18473ed0acfc7b2a29a821",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-30T16:04:13.160Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "User identified vertically flat front. Retained selected Session Cap06, blue/chalk hat and classic yellow pencil. Strengthened vertical convexity of the continuous face/rim, with centre near eye level and brow/chin retreating. Broad rounded family shape retained."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Source-authored front depth now uses .60m vertical quadratic coefficient instead of .22m, centred at .72m instead of .82m. Extra .90 display support ring resolves curvature near the border; normals match actual curve. Eyes and rim use the same surface. Personally compared prior r16 side profile with r17: obvious convex roll from brow through cheeks to chin. Front/close oblique/underside show continuous lip and seated eyes; rear hat seam remains clean. Actual2390/2500 triangles,2 meshes/materials, unchanged anchors and overall bounds."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Front and phone views retain two clear eyes and the wide friendly display. Oblique view now shows rounded face volume and tucked chin. Hat/pencil colours retained."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Geometry refinement only, no rig or clips."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After curvature repair, reassessed final exported side, front, close oblique, underside, rear and phone views. Convex profile is visible; rim and eyes follow the new surface; cap seating remains intact. No further scoped repair needed. Technical validation and loaded Inspector hash agree."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/side.png",
+      "sha256": "a36935ca603340a5b1a8581a665b3f08164250d73f8ffc016823c128e78b984e",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/front.png",
+      "sha256": "830579fbbd9ad35b06eaab32954312afe9bcc15cf0b451f991a95c631cdddfce",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/close-iso.png",
+      "sha256": "d96ab79b3e2a62e88a568e3da846cab4e6dfc4d7558f647dc41fdf242c32af5c",
+      "view": "close-iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/close-underside.png",
+      "sha256": "c2e69f320aef86f2d436d66fa32f4dd5c6faed5861c5b9912330a85688cd29db",
+      "view": "close-underside",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/rear.png",
+      "sha256": "0b069ddea6f6eaefc7f59043fbfb461fe4ba475c6bfe36cee5902646d614ba41",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/phone.png",
+      "sha256": "24ceaf7869a4438ec998991dcae5027d9995e221696cc9184e3527ea81bf68a4",
+      "view": "phone",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested more vertical face curvature; acceptance of revision17 remains pending."
+  },
+  "limitations": [
+    "Model only; animations remain pending."
+  ]
+}

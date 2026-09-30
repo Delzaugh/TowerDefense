@@ -31,6 +31,11 @@ test('the Tower workbench loads its models under the deployment subpath and fits
   await expect(page.locator('.codex-stats')).toBeVisible();
   await expect(page.getByRole('group', { name: 'Animation selection' })).toHaveCount(0);
   expect(models.some(path => path.startsWith('/TowerDefense/assets/runtime/towers/copilot_security_v01.'))).toBe(true);
+  await page.getByRole('button', { name: 'Analyst', exact: true }).click();
+  await expect(workbench).toHaveAttribute('data-state', 'ready', { timeout: 30_000 });
+  await expect(workbench).toHaveAttribute('data-animation', 'rest');
+  await expect(page.getByRole('button', { name: 'Analyst', exact: true }).locator('img')).toBeVisible();
+  expect(models.some(path => path.startsWith('/TowerDefense/assets/runtime/towers/copilot_analyst_v01.'))).toBe(true);
   expect(models.some(path => path.includes('showcase_workbench'))).toBe(false);
   expect(models.every(path => path.startsWith('/TowerDefense/'))).toBe(true);
   const back = page.getByRole('button', { name: 'Back to Hub', exact: true });

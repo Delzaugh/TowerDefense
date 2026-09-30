@@ -54,7 +54,7 @@ export const TOWERS: readonly TowerReference[] = Object.freeze([
   {
     id: 'analyst', title: 'Analyst', role: 'Passive support',
     description: 'Creates Work opportunities and supports Developer action speed in a broad area.',
-    family: 'copilot', collection: core, accent: '#E6B84D',
+    family: 'copilot', collection: core, accent: '#91D9D2', modelId: 'copilot_analyst@v01',
     stats: { range: 8, investment: 60 },
     abilities: [
       'Opportunity Discovery creates productive Work after Unclear Requirements are defeated in its coverage.',

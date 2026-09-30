@@ -25,7 +25,8 @@ test.describe('Tower inspection usability', () => {
     await expect(roster.getByRole('button', { name: 'Base Copilot', exact: true })).toBeFocused();
     await expect(page.locator('.codex-stats')).toContainText('An affordable starting Tower');
     await expect(roster.getByRole('button', { name: 'Tester', exact: true })).toHaveAccessibleDescription('');
-    await expect(roster.getByRole('button', { name: 'Analyst', exact: true })).toHaveAccessibleDescription('Model preview coming soon. Role and stats are available.');
+    await expect(roster.getByRole('button', { name: 'Analyst', exact: true })).toHaveAccessibleDescription('');
+    await expect(roster.getByRole('button', { name: 'Architect', exact: true })).toHaveAccessibleDescription('Model preview coming soon. Role and stats are available.');
   });
 
   test('keyboard camera controls keep a large preview and stats remain visible across layouts', async ({ page }, testInfo) => {

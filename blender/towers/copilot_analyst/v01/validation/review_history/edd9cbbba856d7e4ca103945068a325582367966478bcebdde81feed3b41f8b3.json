@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_analyst",
+  "version": "v01",
+  "revision": 16,
+  "sha256": "50aae162be22b83c9035b3fb734f897ae356267d815cbc90fe11fc6afb418425",
+  "sourceHash": "dd40dd89240ccee8e934ce1cd81907891cf0c55d127d604f1eccc7095a4ef397",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-30T15:56:25.054Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "User requested classic pencil colour, more distinct hat, and clipping review. Yellow #F2C34B barrel, retained wood and graphite point; slate blue #50678F cap and chalk opposing panel distinguish garment from pale teal head. Selected06 cap/pencil identity retained."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Truncated and closed old head at fitted seat. Cap lower band follows radial intersections with actual head cut contour, with clearance over curved sides. Initial ellipse and tighter contour fits still showed rear/temple overlap; repaired outer band clearance. Personally inspected actual r16 front, side, rear, close oblique and underside: no pale protruding shards or jagged rear join remain. Slight band flare is deliberate seating geometry. Closed brim and source-authored palette retained. 2324/2500 triangles,2 materials,2 meshes."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Actual phone and close oblique captures show a distinct blue/chalk cap against teal head, clearly yellow pencil with wood/graphite tip, and readable cyan eyes. Added two asset-local palette roles in64x4 atlas; no viewer tint."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model refinement only; no rig or animation changes."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After initial export exposed jagged rear/temple overlap, replaced ellipse seating with actual cut-contour fit and increased clearance. Rechecked final side/rear, close oblique, underside and phone captures: continuous fitted lower band; head no longer breaks through cap surfaces. Numeric export passes and Inspector capture reports current hash with no errors."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/front.png",
+      "sha256": "a283f8748c78cd0dbc085235c116135b92c6be11517b0b2c4f6cf240e2ec0b7f",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/side.png",
+      "sha256": "b6ffa79a3d17977b7f33b675f5a6b31901b19794311ee781c92379a8e2320c0f",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/rear.png",
+      "sha256": "778883fa5f57021fac9c25524d78d252822e76af29ae808562ccfa8476aeee6f",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/close-iso.png",
+      "sha256": "86019df73ed57e1c176b2969d99495ac84b523f049fc0026d63d911c5da718d0",
+      "view": "close-iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/close-underside.png",
+      "sha256": "9de0978a4ad9006c2515e70886148fdd23c45f3029d2d5dccc3638239e306a32",
+      "view": "close-underside",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/validation/phone.png",
+      "sha256": "0f874b6bb5d882bf07dce4a4d4843e1b8759c41a02506d686fd8c09ad8ea7cef",
+      "view": "phone",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested this repair and colour revision; acceptance of r16 remains pending."
+  },
+  "limitations": [
+    "Model only; animation production remains pending."
+  ]
+}

@@ -11,4 +11,4 @@ button, a, input { -webkit-tap-highlight-color: transparent; }
 .startup-screen a { min-height: 44px; padding: 12px 0; margin: 8px 0; color: var(--ui-accent); text-underline-offset: 4px; font-weight: 600; }
 .startup-screen :focus-visible { outline: 2px solid var(--ui-focus); outline-offset: 3px; }
 .lab-screen { min-height: 100dvh; }
-.lab-screen .lab-home-link { display: block; min-height: 44px; padding: 12px 14px; color: var(--ui-accent); font-size: 12px; }
+.lab-screen .lab-home-link { display: flex; align-items: center; gap: 6px; min-height: 44px; padding: 12px 14px; color: var(--ui-accent); font-size: 12px; }

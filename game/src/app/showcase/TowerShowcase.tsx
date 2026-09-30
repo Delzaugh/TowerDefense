@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import type { CSSProperties, KeyboardEvent } from 'react';
-import { CheckIcon, ChevronLeftIcon, ChevronRightIcon, CodeIcon, CpuIcon, CrosshairsIcon, MeterIcon, PackageIcon, PulseIcon, ZapIcon } from '@primer/octicons-react';
+import { BroadcastIcon, CheckIcon, ChevronLeftIcon, ChevronRightIcon, CodeIcon, CopilotIcon, CpuIcon, CrosshairsIcon, MeterIcon, PackageIcon, PersonIcon, PulseIcon, ZapIcon } from '@primer/octicons-react';
 import '@fontsource-variable/mona-sans';
 import { TOWERS, getTower } from '../../content/towers/catalog';
 import type { TowerReference } from '../../content/towers/catalog';
@@ -14,8 +14,9 @@ const bundledPortraits = import.meta.glob<string>('./portraits/*.png', { eager: 
 const portraitCache: Record<string, string> = Object.fromEntries(Object.entries(bundledPortraits).map(([path, url]) => [path.split('/').pop()!.replace('.png', ''), url]));
 
 function Portrait({ tower, source }: { tower: TowerReference; source: string | undefined }) {
+  const PlaceholderIcon = tower.family === 'copilot' ? CopilotIcon : tower.family === 'human' ? PersonIcon : PackageIcon;
   return <span className="codex-portrait-art" style={{ '--tower-accent': tower.accent } as CSSProperties}>
-    {source ? <img src={source} alt="" draggable={false} /> : <svg className={tower.modelId ? 'codex-model-symbol' : 'codex-silhouette'} viewBox="0 0 90 82" aria-hidden="true"><path d="m20 24 20-13 29 6 12 17-3 28-25 12-30-8-12-23Z" fill="currentColor"/><path d="m19 34 23-7 29 5-4 27-24 7-21-7Z" fill="#0c1b2a" opacity=".7"/><path d="M31 41v12m22-14v12" stroke="currentColor" strokeWidth="5" strokeLinecap="round"/><path d="m28 23 5-9 25-5 9 12" fill="currentColor"/></svg>}
+    {source ? <img src={source} alt="" draggable={false} /> : <PlaceholderIcon className={tower.modelId ? 'codex-model-symbol' : 'codex-silhouette'} size={56} aria-hidden="true" />}
   </span>;
 }
 
@@ -29,7 +30,7 @@ function TowerStats({ tower }: { tower: TowerReference }) {
       return <StatGauge key={stat.id} className={`codex-gauge codex-gauge-${stat.tone}`} label={stat.label} value={stat.segments} max={8} showValue={false} segments={8} valueText={stat.description} caption={stat.description} tone={stat.tone === 'teal' ? 'positive' : 'accent'} icon={<Icon size={20} />} />;
     })}</div> : <p className="codex-unavailable-copy">Stats not yet defined</p>}
     {tower.abilities.length > 0 && <div className="codex-abilities"><span className="codex-eyebrow">{tower.id === 'analyst' ? 'PASSIVE SUPPORT' : 'SPECIAL ABILITIES'}</span>{tower.abilities.map(ability => <p key={ability}>{ability}</p>)}</div>}
-    {tower.stats && <div className="codex-coverage"><svg viewBox="0 0 80 42" aria-hidden="true"><path d="m8 22 31-16 33 16-31 16Z" fill="#82939c" opacity=".14"/><ellipse cx="40" cy="22" rx={10 + tower.stats.range * 2} ry={4 + tower.stats.range * .7} fill="none" stroke="#8abfbd" strokeWidth="1.5" strokeDasharray="3 3"/><path d="m40 14 7 4v8l-7 4-7-4v-8Z" fill="#aaa5ed"/><path d="m33 18 7 4 7-4M40 22v8" fill="none" stroke="#293951"/></svg><span>{tower.id === 'analyst' ? 'Support coverage' : tower.id === 'linter' ? 'Radial coverage' : 'Coverage preview'}<small>Terrain can shape coverage.</small></span></div>}
+    {tower.stats && <div className="codex-coverage"><BroadcastIcon size={28} aria-hidden="true" /><span>{tower.id === 'analyst' ? 'Support coverage' : tower.id === 'linter' ? 'Radial coverage' : 'Coverage preview'}<small>Terrain can shape coverage.</small></span></div>}
   </section>;
 }
 

@@ -60,7 +60,7 @@
 .codex-abilities { border-top:1px solid var(--ui-border); margin-top:22px; padding-top:16px; }
 .codex-abilities p { font-size:12px; line-height:1.6; margin:9px 0 0; color:var(--ui-muted); }
 .codex-coverage { display:flex; align-items:center; gap:10px; margin-top:18px; padding-top:12px; border-top:1px solid var(--ui-border); }
-.codex-coverage svg { width:65px; height:40px; flex-shrink:0; }
+.codex-coverage svg { width:28px; height:28px; flex-shrink:0; color:var(--ui-accent); }
 .codex-coverage span { font-size:11px; color:var(--ui-fg); }
 .codex-coverage small { display:block; color:var(--ui-muted); font-size:11px; line-height:1.4; margin-top:4px; }
 .codex-unavailable-copy { color:var(--ui-muted); font-size:13px; margin:20px 0; }

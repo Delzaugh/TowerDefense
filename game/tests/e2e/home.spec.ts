@@ -219,7 +219,7 @@ test.describe('campus home', () => {
     await page.evaluate(() => { window.location.hash = '/lab'; });
     await expect(page.getByRole('button', { name: 'Start encounter', exact: true })).toBeVisible();
 
-    await page.getByRole('link', { name: '← Campus home' }).click();
+    await page.getByRole('link', { name: 'Campus home', exact: true }).click();
     await expectCampusReady(page);
     await expect(page.getByRole('button', { name: 'Start encounter', exact: true })).toHaveCount(0);
 

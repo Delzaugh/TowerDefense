@@ -4,7 +4,7 @@ export const THEME_STORAGE_KEY = 'tower.ui.appearance.v1';
 export const THEME_STORAGE_NOTICE = 'Appearance will apply for this visit. Browser storage is unavailable.';
 
 export function parseThemePreference(value: string | null): ThemePreference {
-  return value === 'system' || value === 'light' || value === 'dark' ? value : 'dark';
+  return value === 'system' || value === 'light' || value === 'dark' ? value : 'light';
 }
 
 export function resolveTheme(preference: ThemePreference, prefersDark: boolean): ResolvedTheme {
@@ -15,7 +15,7 @@ export function readThemePreference(getStorage: () => Pick<Storage, 'getItem'>):
   try {
     return { preference: parseThemePreference(getStorage().getItem(THEME_STORAGE_KEY)), notice: null };
   } catch {
-    return { preference: 'dark', notice: THEME_STORAGE_NOTICE };
+    return { preference: 'light', notice: THEME_STORAGE_NOTICE };
   }
 }
 

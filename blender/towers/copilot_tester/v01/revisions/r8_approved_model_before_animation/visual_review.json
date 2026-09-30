@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_tester",
+  "version": "v01",
+  "revision": 8,
+  "sha256": "5e201200886f49dcc2dde3d554d10ec968c304dea73636462d2bb0bc73f520de",
+  "sourceHash": "2be8aeef086845e9eaf532a9b4e804a5ec39c78114dc28e710806d095c5f5907",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-30T10:55:00.310Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Compared attached ear-housing reference with front and close oblique runtime views. Paired ivory casing surrounds an angular graphite recess and a rounded cyan capsule. Preserved outer guards, ear fit, palette and head anatomy. Reference is illustrative rather than measured geometry."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Housing now has an eight-point clipped contour, rear taper, side wall, broad ivory bevel and continuous recess transition into the graphite face. Rim and recessed plate share boundaries; cyan capsule has a physical edge bevel. Inspected front, side, close oblique, reverse and underside: mirrored seating remains consistent, guard gaps remain open and no exposed panel backing or floating rim is visible."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Phone and small silhouette captures retain the compact ear/guard shape; cyan strips are distinct at phone scale. Palette unchanged."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model refinement only; animation remains deferred pending authorization."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After first recessed housing pass, refined the sharp casing contour into an eight-point clipped outline. Re-inspected the final revision 8 exported front, close oblique and underside plus phone/small captures against the accessory sheet; bevels, repeated modules and guard clearance remain coherent. Technical checks pass at 2468 triangles, and Inspector loaded hash matches the canonical runtime."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_tester/v01/validation/front.png",
+      "sha256": "a6b5afa42c7c8cf2ec85265add55722c334697322663740ae81ed49ff819bb28",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/validation/side.png",
+      "sha256": "b70ceb7f01832673ffe30efb100933c331c4aa59739aea339889518a382fb028",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/validation/rear.png",
+      "sha256": "ddef031aad42f8bc9003b35f13644f13e72e5f971b3e0f905bed727c5c66bc77",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/validation/iso.png",
+      "sha256": "1e9d9b4d683d4af119b36ee6d4c600eb31fd6ed75d96bd028b313ad91cddd8a2",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/validation/close-iso.png",
+      "sha256": "f0baa8f144f0fbbb09201037f681e57608ebf7c2da28c90a2ca12f3e28e1b365",
+      "view": "close-iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/validation/close-rear.png",
+      "sha256": "4d00abb9d376963eb9898431f293e0ef53566b9cdc7e7b0b1f4a030e608d556c",
+      "view": "close-rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/validation/close-underside.png",
+      "sha256": "477fa924af3dd7adca5206e7dbbfbd6dfb9aa5011a05a9959517d22c2edf29aa",
+      "view": "close-underside",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/validation/phone.png",
+      "sha256": "881aae348c98e543bb85f9eac158b3a187269cac6eedf02129456f5e5973608b",
+      "view": "phone",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/validation/small-silhouette.png",
+      "sha256": "3325fb138e0d07c08f38d85d87bfab1f4a7b8a95a2ceed87b5157c9064fe0f28",
+      "view": "small-silhouette",
+      "mode": "silhouette"
+    }
+  ],
+  "userAcceptance": {
+    "status": "accepted",
+    "note": "User: looks good! make the animations. Model revision 8 approved; animation explicitly authorized."
+  },
+  "limitations": [
+    "Concealed ear contacts are authored interpretations of illustrative reference art.",
+    "Model-only delivery; animation remains pending."
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "checkedAt": "2026-09-17T21:35:45.888Z",
   "passed": true,
-  "count": 96,
+  "count": 97,
   "assets": [
     {
       "id": "copilot_base",
@@ -1059,13 +1059,25 @@
       "triangles": 2498,
       "errors": [],
       "checkedAt": "2026-09-17T22:58:28.476Z"
+    },
+    {
+      "id": "copilot_tester",
+      "version": "v01",
+      "source": "blender/towers/copilot_tester/v01/copilot_tester_v01.blend",
+      "runtime": "assets/runtime/towers/copilot_tester_v01.glb",
+      "sha256": "d0d0a68c4ee364a6c6855622e1536bd98fde9da04a432c3ba95b5462ab1fde65",
+      "sourceHash": "557452cc10faac74859db7b27ca9a3194d4058acb4ba9452e59e1e85befc30fe",
+      "passed": true,
+      "triangles": 2468,
+      "errors": [],
+      "checkedAt": "2026-09-30T10:58:25.622Z"
     }
   ],
   "lastIncrementalCheck": {
-    "checkedAt": "2026-09-17T23:00:09.565Z",
+    "checkedAt": "2026-09-30T10:58:25.622Z",
     "ids": [
-      "linter_agent"
+      "copilot_tester"
     ],
-    "note": "Previous Persona delivery results retained for registered assets; full-check timestamp is historical."
+    "note": "Hash-matching delivered Tester added; other registered validation results retain their dates."
   }
 }

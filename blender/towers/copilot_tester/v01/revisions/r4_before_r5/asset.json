@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_tester",
+  "displayName": "Tester — Boundary Watcher",
+  "category": "towers",
+  "version": "v01",
+  "revision": 4,
+  "source": {
+    "path": "blender/towers/copilot_tester/v01/copilot_tester_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_tester/v01/build.py",
+    "authoritativeHash": "b5495b68f430ed131e56943d31965774ff335cee30d060e3a86fc23d47e25500"
+  },
+  "runtime": "assets/runtime/towers/copilot_tester_v01.glb",
+  "budgets": {
+    "triangles": 2500,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 32,
+    "bones": 0,
+    "meshes": 2
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target",
+      "anchor_aura"
+    ],
+    "dimensions": {
+      "min": [
+        2.6,
+        1.7,
+        1.5
+      ],
+      "max": [
+        3.1,
+        2,
+        2.1
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/copilot_tester/v01/references/tester_concept_sheet.png",
+      "provenance": "User selected concept04 Boundary Watcher, 2026-09-30. Authoritative front."
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/references/boundary-watcher-six-angle-sheet.png",
+      "provenance": "Image-generated illustrative depth/rear proposal; front original takes priority."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/copilot_tester/v01/revisions/r2_before_r3/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r2_before_r3/copilot_tester_v01.blend",
+      "sha256": "adfc6acfadeae6e41a225cbed6ffa94c4826846b3376dc025f785e07c11ea2c3",
+      "sourceHash": "ade3f80d32f4a1bbd14b3fa12ba1c5370ccd23300441ef0a10c99fa112ea07b8"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/copilot_tester/v01/revisions/r3_before_r4/copilot_tester_v01.glb",
+      "source": "blender/towers/copilot_tester/v01/revisions/r3_before_r4/copilot_tester_v01.blend",
+      "sha256": "561723d6baae01d694d2b67ed7c5e936ea677a83ddf42d46c893e8faaac56e25",
+      "sourceHash": "161f06b43ecc8792db6b8e8010cf16462ce4a750e0d8a7ab834c94a68374d15a"
+    }
+  ],
+  "decisions": "blender/towers/copilot_tester/v01/decisions.md",
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "texturePalettes": [
+    {
+      "material": "tester_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#67D990",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#43B574",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#EBDDC6",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#333E48",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#041D2A",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#087F8E",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E5EF",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#22313A",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "material": "tester_optics",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#67D990",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#43B574",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#EBDDC6",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#333E48",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#041D2A",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#087F8E",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E5EF",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#22313A",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "delivery": {
+    "sha256": "29ef2cc7aa81deb5c891a052d08cfa0845149b25db08bcbf4493ae3f1702cb43",
+    "sourceHash": "b5495b68f430ed131e56943d31965774ff335cee30d060e3a86fc23d47e25500",
+    "report": "blender/towers/copilot_tester/v01/validation/report.json",
+    "deliveredAt": "2026-09-30T05:38:07.573Z"
+  }
+}

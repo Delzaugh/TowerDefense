@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_tester",
+  "version": "v01",
+  "revision": 9,
+  "sha256": "d0d0a68c4ee364a6c6855622e1536bd98fde9da04a432c3ba95b5462ab1fde65",
+  "sourceHash": "557452cc10faac74859db7b27ca9a3194d4058acb4ba9452e59e1e85befc30fe",
+  "scope": "animation",
+  "reviewedAt": "2026-09-30T11:03:29.995Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Accepted r8 model retained. Runtime comparison confirms zero rest-position/UV delta; normal difference is below 0.000001, packed palette/materials and topology match. No added anatomy; limb-free hover/glide follows recorded direction."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Three-bone body/paired-eye rig keeps housing, guards, shell and goggles rigid. Actual rest anchors unchanged; moving action/target anchors follow body without drift. Close and side motion samples show coherent attachment through scan, bank and recoil."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Reviewed loop/one-shot boards and actual normal-speed playback frames, then phone captures for all six clips. Idle blink, focused inspection scan, glide bank and brief hit flinch are distinct restrained motions. Digital coverage and cyan edge read at phone scale."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Six varying clips: idle 2.5s, work 1.667s, move 1.333s, place/resolve 1.25s, hit 0.583s. Runtime audit samples at 96Hz: stationary root, rigid anchor follow, loop endpoint continuity, minimum hover clearance >0.114m, no ground penetration during crossfades, ready starts match, place ends at Idle, reversed Place/Resolve poses and Rest reset pass. Reviewed normal-speed two-cycle loop playback and scrubbed start/action/recovery/end frames. Shared effect tests pass invisible endpoints, replay, seek, shadow/phone views, resource fallback and disposal."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Re-assessed final r9 after source/export and dense motion checks: inspected runtime loop and one-shot boards, normal-speed playback film frames, phone board and actual Inspector effect states. Guard/ear seating holds under extremes; no visible deformation or ground intersection. Idle blink returns cleanly; focused Work scan and Move bank recover to shared ready pose. Model geometry needs no repair. Two-cube effect stays within 2492 combined triangles and resets on Rest Pose."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_tester/v01/validation/animation/loops-board.png",
+      "sha256": "bec019e07fe6369cd2786170a90f0efa1a12a27876eaa284f28f86739c880baf",
+      "view": "animation/loops-board",
+      "mode": "animation"
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/validation/animation/oneshots-board.png",
+      "sha256": "e1e9933db50454012b1ed23d7ba6c06c2473d231982e116b394594d2f34233a6",
+      "view": "animation/oneshots-board",
+      "mode": "animation"
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/validation/animation/effects-board.png",
+      "sha256": "0acf02f97a4bf7a70f60654a6c0c65eb1da46972129b6780060db9c691adb845",
+      "view": "animation/effects-board",
+      "mode": "animation"
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/validation/animation/playback-board.png",
+      "sha256": "9c7caf41e0bd4c2adbda5558db7d3a8a5f6776efb8e4d44029d9c698e07bbdaf",
+      "view": "animation/playback-board",
+      "mode": "animation"
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/validation/animation/phone-board.png",
+      "sha256": "5fe468d4fb35f1a9b9936f28654e65628513755f1c4fe9334237d43b6ad5b8c7",
+      "view": "animation/phone-board",
+      "mode": "animation"
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/validation/animation/runtime_audit.json",
+      "sha256": "890642aa1fa647884f3c6eb9225912b89209468b5eed10faa201cd7bb3fb2cec",
+      "view": "animation/runtime_audit.json",
+      "mode": "animation"
+    },
+    {
+      "path": "blender/towers/copilot_tester/v01/validation/digital-resolve/review.json",
+      "sha256": "80bbe132f7ff6729d86d85e06350d216aff6c53516f9533d50fa073d782d503a",
+      "view": "digital-resolve/review.json",
+      "mode": "animation"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/digital-resolve.js",
+      "sha256": "98f1aa5265c1e9d18ea15c5fa65d453dbceecb7b84e31c7d942b1f225c5289c5"
+    },
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User accepted model revision 8 and explicitly authorized animation. Animation revision 9 awaits artistic review."
+  },
+  "limitations": [
+    "Complete cube assembly/disintegration requires tools/asset-presentation/lifecycle.js; a plain GLB player shows skeletal pose clips only.",
+    "Debris is limited to two cubes to preserve the approved mesh under the 2500 combined-triangle limit."
+  ]
+}

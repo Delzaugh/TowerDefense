@@ -1,2 +1,6 @@
 # Preserve generated Pages bytes, including the packager's line endings.
 pages-site/** -text -whitespace
+# Preserve the byte identities of the delivered Tester and its reviewed effects.
+blender/towers/copilot_tester/v01/** -text -whitespace
+tools/asset-presentation/digital-resolve.js -text
+tools/asset-presentation/lifecycle.js -text

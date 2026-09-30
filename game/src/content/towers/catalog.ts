@@ -46,7 +46,7 @@ export const TOWERS: readonly TowerReference[] = Object.freeze([
   {
     id: 'tester', title: 'Tester', role: 'Quality support',
     description: 'Keeps Base direct output while supporting allies within its coverage.',
-    family: 'copilot', collection: core, accent: '#48BFA8',
+    family: 'copilot', collection: core, accent: '#67D990', modelId: 'copilot_tester@v01',
     stats: { range: 5, investment: 50, damagePerHit: 5, workPerAction: 5, cooldownTicks: 30, damageKind: 'single' },
     abilities: ['QA Aura slows nearby Enemies and awards bonus Compute when nearby Work completes.'],
     availability: 'Available from the first mission',

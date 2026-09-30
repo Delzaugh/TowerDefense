@@ -21,6 +21,11 @@ test.describe('Tower showcase renderer lifecycle', () => {
         new MutationObserver(() => node.setAttribute('data-phase-history', `${node.getAttribute('data-phase-history')},${node.getAttribute('data-state')}`))
           .observe(node, { attributes: true, attributeFilter: ['data-state'] });
       });
+      await page.locator('[data-tower="tester"]').click();
+      await expect(showcase).toHaveAttribute('data-state', 'placing', { timeout: 30_000 });
+      await expect(showcase).toHaveAttribute('data-animation', 'place');
+      await expect(showcase).toHaveAttribute('data-state', 'ready', { timeout: 30_000 });
+      await expect(showcase).toHaveAttribute('data-animation', 'idle');
       await page.locator('[data-tower="security"]').click();
       await page.locator('[data-tower="base"]').click();
       await page.locator('[data-tower="linter"]').click();

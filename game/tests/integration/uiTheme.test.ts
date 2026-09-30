@@ -2,9 +2,9 @@ import { describe, expect, it } from 'vitest';
 import { parseThemePreference, readThemePreference, resolveTheme, saveThemePreference, THEME_STORAGE_KEY, THEME_STORAGE_NOTICE } from '../../src/ui/toolkit/theme';
 
 describe('appearance preferences', () => {
-  it('keeps the chosen dark direction for absent or unsupported persisted values', () => {
+  it('defaults to light for absent or unsupported persisted values', () => {
     for (const stored of [null, '', 'sepia', '{"theme":"light"}']) {
-      expect(readThemePreference(() => ({ getItem: () => stored }))).toEqual({ preference: 'dark', notice: null });
+      expect(readThemePreference(() => ({ getItem: () => stored }))).toEqual({ preference: 'light', notice: null });
     }
     expect(parseThemePreference('system')).toBe('system');
   });
@@ -28,7 +28,7 @@ describe('appearance preferences', () => {
 
   it('keeps a usable visit when access or writes to browser storage are blocked', () => {
     const denied = () => { throw new Error('SecurityError'); };
-    expect(readThemePreference(denied)).toEqual({ preference: 'dark', notice: THEME_STORAGE_NOTICE });
+    expect(readThemePreference(denied)).toEqual({ preference: 'light', notice: THEME_STORAGE_NOTICE });
     expect(saveThemePreference('light', denied)).toBe(THEME_STORAGE_NOTICE);
     expect(saveThemePreference('system', () => ({ setItem: denied }))).toBe(THEME_STORAGE_NOTICE);
   });

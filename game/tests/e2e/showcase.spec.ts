@@ -165,9 +165,14 @@ test.describe('Hub Tower browser', () => {
     await expect(dialog.getByRole('group', { name: 'Animation selection' })).toHaveCount(0);
     await expect(dialog.locator('.codex-stats button, .codex-stats .octicon-info')).toHaveCount(0);
     await dialog.getByRole('button', { name: 'Tester', exact: true }).click();
-    await expect(dialog.getByRole('heading', { name: 'Model preview coming soon' })).toBeVisible({ timeout: 10_000 });
+    await expect(page.getByTestId('tower-showcase')).toHaveAttribute('data-state', 'ready', { timeout: 30_000 });
+    await expect(dialog.getByRole('heading', { name: 'Model preview coming soon' })).toHaveCount(0);
+    await expect(dialog.getByRole('button', { name: 'Tester', exact: true })).toHaveAttribute('data-preview', 'available');
+    await expect(dialog.getByRole('button', { name: 'Tester', exact: true }).locator('img')).toBeVisible();
     await expect(dialog.locator('.codex-stats')).toContainText('QA Aura');
     await dialog.getByRole('button', { name: 'Analyst', exact: true }).click();
+    await expect(dialog.getByRole('heading', { name: 'Model preview coming soon' })).toBeVisible({ timeout: 10_000 });
+    await expect(dialog.getByRole('button', { name: 'Analyst', exact: true }).locator('.octicon-copilot')).toBeVisible();
     await expect(dialog.locator('.codex-stats')).toContainText('PASSIVE SUPPORT');
     const labels = await dialog.locator('.codex-stats .codex-gauge-label').allTextContents();
     expect(labels.join(' ')).not.toMatch(/Damage|Work/);

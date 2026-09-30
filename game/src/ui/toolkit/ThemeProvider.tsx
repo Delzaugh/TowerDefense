@@ -43,6 +43,7 @@ export function ThemeProvider({ children }: { children: ReactNode }) {
     document.documentElement.dataset.theme = resolved;
     document.documentElement.dataset.themePreference = preference;
     document.documentElement.style.colorScheme = resolved;
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', resolved === 'dark' ? '#0d1117' : '#f6f8fa');
   }, [preference, resolved]);
 
   const state = useMemo(() => ({ preference, resolved, notice, setPreference }), [preference, resolved, notice, setPreference]);

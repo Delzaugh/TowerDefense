@@ -715,6 +715,11 @@
       "id": "copilot_architect",
       "version": "v01",
       "manifest": "blender/towers/copilot_architect/v01/asset.json"
+    },
+    {
+      "id": "copilot_tester",
+      "version": "v01",
+      "manifest": "blender/towers/copilot_tester/v01/asset.json"
     }
   ]
 }

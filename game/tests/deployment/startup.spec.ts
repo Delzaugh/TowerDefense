@@ -9,7 +9,7 @@ test('the subpath build opens home, preserves route navigation and fits landscap
   await page.screenshot({ path: info.outputPath('home-landscape-subpath.png'), fullPage: true });
   await page.evaluate(() => { location.hash = '/lab'; });
   await expect(page.getByRole('button', { name: 'Start encounter', exact: true })).toBeVisible();
-  await page.getByRole('link', { name: '← Campus home' }).click();
+  await page.getByRole('link', { name: 'Campus home', exact: true }).click();
   await expect(page.getByTestId('home-screen')).toHaveAttribute('data-state', 'ready');
   expect(new URL(page.url()).pathname).toBe('/TowerDefense/');
   expect(errors).toEqual([]);
@@ -42,14 +42,27 @@ test('the Tower workbench loads its models under the deployment subpath and fits
 });
 
 test('failed initial JavaScript download leaves a working reload action', async ({ page }) => {
+  await page.emulateMedia({ colorScheme: 'dark' });
   let failed = false;
   await page.route('**/assets/index-*.js', async route => {
     if (!failed) { failed = true; await route.abort(); } else await route.continue();
   });
   await page.goto('./');
   await expect(page.locator('#startup-recovery')).toBeVisible();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'light');
+  await expect(page.locator('body')).toHaveCSS('background-color', 'rgb(246, 248, 250)');
   await page.getByRole('button', { name: 'Reload app' }).click();
   await expect(page.getByTestId('home-screen')).toHaveAttribute('data-state', 'ready', { timeout: 30_000 });
+});
+
+test('startup respects a saved dark preference before the app downloads', async ({ page }) => {
+  await page.addInitScript(() => localStorage.setItem('tower.ui.appearance.v1', 'dark'));
+  await page.route('**/assets/index-*.js', route => route.abort());
+  await page.goto('./');
+  await expect(page.locator('#startup-recovery')).toBeVisible();
+  await expect(page.locator('html')).toHaveAttribute('data-theme', 'dark');
+  await expect(page.locator('body')).toHaveCSS('background-color', 'rgb(13, 17, 23)');
+  await expect(page.locator('meta[name="theme-color"]')).toHaveAttribute('content', '#0d1117');
 });
 
 test('failed renderer chunk offers reload and recovers with a new document', async ({ page }) => {

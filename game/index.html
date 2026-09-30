@@ -3,15 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#142337" />
+    <meta name="theme-color" content="#f6f8fa" />
     <meta name="description" content="Your campus, one corner at a time. Welcome to Copilot Tower Defense." />
     <title>Copilot — Tower Defense</title>
     <link rel="icon" href="data:," />
+    <script>
+      (() => {
+        let preference = 'light';
+        try {
+          const saved = localStorage.getItem('tower.ui.appearance.v1');
+          if (saved === 'light' || saved === 'dark' || saved === 'system') preference = saved;
+        } catch { /* The default remains usable when storage is blocked. */ }
+        const theme = preference === 'system' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : preference;
+        document.documentElement.dataset.theme = theme;
+        document.documentElement.dataset.themePreference = preference;
+        document.documentElement.style.colorScheme = theme;
+        document.querySelector('meta[name="theme-color"]').setAttribute('content', theme === 'dark' ? '#0d1117' : '#f6f8fa');
+      })();
+    </script>
     <style>
-      body{margin:0;background:#142337;color:#deedf7;font-family:'Segoe UI',system-ui,sans-serif}
+      :root[data-theme='dark']{--ui-bg:#0d1117;--ui-fg:#f0f6fc;--ui-muted:#b1bac4;--ui-border:#3d444d;--ui-primary:#238636}
+      body{margin:0;background:var(--ui-bg,#f6f8fa);color:var(--ui-fg,#1f2328);font-family:'Segoe UI',system-ui,sans-serif}
       #initial-startup{min-height:100vh;box-sizing:border-box;padding:10vw;display:flex;flex-direction:column;justify-content:center;align-items:flex-start}
-      #initial-startup strong{letter-spacing:.18em;font-size:28px}#initial-startup p{line-height:1.6;max-width:44ch;color:#bfcedc}
-      #initial-startup button{padding:12px 20px;min-height:44px;border:1px solid #8ac5cb;border-radius:6px;background:#bfe5e1;color:#19394b;font:inherit;cursor:pointer}
+      #initial-startup strong{letter-spacing:.18em;font-size:28px}#initial-startup p{line-height:1.6;max-width:44ch;color:var(--ui-muted,#59636e)}
+      #initial-startup button{padding:12px 20px;min-height:44px;border:1px solid var(--ui-border,#d1d9e0);border-radius:6px;background:var(--ui-primary,#1f883d);color:#fff;font:inherit;cursor:pointer}
       #initial-startup [hidden]{display:none}noscript{display:block;padding:24px}
     </style>
   </head>

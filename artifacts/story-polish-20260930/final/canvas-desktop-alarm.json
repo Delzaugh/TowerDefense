@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "runId": "story-polish-final-20260930-bands",
+  "mode": "desktop",
+  "state": "alarm",
+  "requestedState": "alarm",
+  "appliedState": "alarm",
+  "seconds": 14.7,
+  "method": "Production player Scene timeline seeks; no mutable production test hooks. CSS-scale story-canvas screenshot targeted explicitly because first documentcanvas is campus.",
+  "screenshotCssPixels": {
+    "width": 1280,
+    "height": 459
+  },
+  "canvasBounds": {
+    "x": 0,
+    "y": 73.5,
+    "width": 1280,
+    "height": 458.5
+  },
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "gpu": {
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x00002204) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)",
+    "softwareRendered": false
+  },
+  "diagnostics": {
+    "calls": 24,
+    "triangles": 16869,
+    "geometries": 24,
+    "textures": 25,
+    "pixelRatio": 1,
+    "state": {
+      "time": 14.7,
+      "paused": true,
+      "reducedMotion": false,
+      "finished": false,
+      "shot": "Something is wrong",
+      "actors": [
+        {
+          "role": "copilot",
+          "visible": true,
+          "clip": "story_alarm",
+          "position": [
+            -1.5,
+            0,
+            0
+          ]
+        },
+        {
+          "role": "octocat",
+          "visible": true,
+          "clip": "idle",
+          "position": [
+            1.4,
+            0,
+            0
+          ]
+        },
+        {
+          "role": "bug-left",
+          "visible": true,
+          "clip": "story_creep",
+          "position": [
+            2.1906289062500006,
+            0,
+            -2.3976572265625
+          ]
+        },
+        {
+          "role": "bug-right",
+          "visible": true,
+          "clip": "story_creep",
+          "position": [
+            7.1908,
+            0,
+            2.965
+          ]
+        }
+      ],
+      "capture": false,
+      "expression": "alarm",
+      "trapPhase": "hidden",
+      "ready": true,
+      "shadowSize": 1024,
+      "postPasses": 0,
+      "assets": [
+        "copilot_base@v02",
+        "copilot_octocat_classic_lowpoly@v01",
+        "problem_bug@v01",
+        "story_courtyard@v01",
+        "story_capture_carrier@v01"
+      ]
+    }
+  },
+  "result": {
+    "ok": true,
+    "reason": "nonblank",
+    "alphaPixels": 4109,
+    "variance": 255,
+    "colorBuckets": 342,
+    "metrics": {
+      "colorBuckets": 483,
+      "colorEntropyBits": 7.04,
+      "edgeDensity": 0.307,
+      "luminance": {
+        "mean": 127.7,
+        "p5": 12.8,
+        "p95": 211.7,
+        "contrast": 199
+      },
+      "dominantColorShare": 0.044,
+      "nonBackgroundShare": 0.956
+    },
+    "renderBudget": {
+      "tier": "desktop",
+      "rows": [
+        {
+          "metric": "calls",
+          "limit": 300,
+          "actual": 24,
+          "ok": true
+        },
+        {
+          "metric": "triangles",
+          "limit": 750000,
+          "actual": 16869,
+          "ok": true
+        },
+        {
+          "metric": "geometries",
+          "limit": 300,
+          "actual": 24,
+          "ok": true
+        },
+        {
+          "metric": "textures",
+          "limit": 60,
+          "actual": 25,
+          "ok": true
+        }
+      ],
+      "withinBudget": true,
+      "note": "Skill starting-point budgets; no GPU timing inferred"
+    }
+  },
+  "screenshotPath": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\final\\canvas-desktop-alarm.png"
+}

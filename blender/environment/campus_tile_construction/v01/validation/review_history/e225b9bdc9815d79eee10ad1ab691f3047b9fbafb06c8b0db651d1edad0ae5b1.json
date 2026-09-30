@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_tile_construction",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "890de159525a398d8129f69c968f84e82806fb96f4f887b35abb8226af88c74d",
+  "sourceHash": "823a4098a1c52d085028c19e50360b3746d8e3ddd3752360065b415014583682",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T11:19:20.645Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Shared radius-18 campus shell, trim and anchor interface preserved; earth interior makes this a distinct construction district. Quiet outer slate band remains continuous and level."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Close and reverse exported views show a continuous level deck and unbroken shell/trim. Earth texture fades inside the quiet band; no duplicate raised pads or route are authored into terrain."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Phone-width review shows a calm tan earth field inside a legible slate frame; subtle mineral variation does not become speckled noise."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Reassessed close/reverse/phone views after initial form/material check. Level interface and continuous trim remain clean from the opposite side; no repairs were needed."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_tile_construction/v01/validation/iso.png",
+      "sha256": "77f918d0a4b62125d1bbe5f110ed3328f58a1fae455d2680976e7ecbf51a393b",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_construction/v01/validation/iso-silhouette.png",
+      "sha256": "418ed1dc4682de4fdfaaa817733a5b7d1b3641975e5d8b5f8e9cb8c017c49a2a",
+      "view": "iso",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/campus_tile_construction/v01/validation/rear.png",
+      "sha256": "b27863ed5669662a1bbd381935112f8383468047c3617b62b441323d59af61b2",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_construction/v01/validation/rear-silhouette.png",
+      "sha256": "99761ab145db3994ab6b92324a5743392c1164b9879cd6f5a1fe045445b9454e",
+      "view": "rear",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/campus_tile_construction/v01/validation/top.png",
+      "sha256": "fcd9e4a13609e3c07af5c2c28f551b785c784c44402078a249c5431641e4e2b0",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_construction/v01/validation/top-silhouette.png",
+      "sha256": "68f16943211c0e03d08458f6a4b9f0b7025f6d187b6408798a003531b5f2c8e4",
+      "view": "top",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/campus_tile_construction/v01/validation/inspector-iso.png",
+      "sha256": "c2df11cc3ed8eac15933b57dc3c0bf8051b7c8f15ffb477e406b5d9be09c68d1",
+      "view": "inspector-iso"
+    },
+    {
+      "path": "blender/environment/campus_tile_construction/v01/validation/inspector-close.png",
+      "sha256": "6c5ff888cc6c1633a7b7b34222a3a7392f4655049831dc8415f73fd4b4e8de93",
+      "view": "inspector-close"
+    },
+    {
+      "path": "blender/environment/campus_tile_construction/v01/validation/inspector-reverse.png",
+      "sha256": "9d5f7a220204870d9ca74973d9de23c5fe1e468e41c7f0504cfe24d05882db8e",
+      "view": "inspector-reverse"
+    },
+    {
+      "path": "blender/environment/campus_tile_construction/v01/validation/inspector-phone.png",
+      "sha256": "91130c6964fd0f0eba0f3540aa99a51589044465d5dd523870f57b6d00635662",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "No explicit user artistic acceptance yet."
+  },
+  "limitations": [
+    "In-campus combined composition is reviewed by the parent integration task."
+  ]
+}

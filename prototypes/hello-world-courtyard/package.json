@@ -1,0 +1,12 @@
+{
+  "name": "tower-hello-world-draft",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node ../../game/node_modules/vite/bin/vite.js --config vite.config.ts --host 127.0.0.1 --port 5189 --strictPort",
+    "typecheck": "node ../../game/node_modules/typescript/bin/tsc --noEmit",
+    "build": "npm run typecheck && node ../../game/node_modules/vite/bin/vite.js build --config vite.config.ts",
+    "preview": "node ../../game/node_modules/vite/bin/vite.js preview --config vite.config.ts --host 127.0.0.1 --port 5189 --strictPort"
+  }
+}

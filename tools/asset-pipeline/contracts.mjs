@@ -27,6 +27,7 @@ export function validateManifest(m) {
   check(Number.isInteger(m.revision) && m.revision >= 1, 'revision must be positive');
   check(typeof m.displayName === 'string' && !!m.displayName.trim(), 'displayName required');
   check(['enemies','towers','work','product','environment'].includes(m.category), 'Unknown category');
+  check(m.category !== 'towers' || m.id?.startsWith('copilot_'), 'Tower asset IDs must start with copilot_');
   check(['manual','procedural','hybrid'].includes(m.source?.mode), 'source.mode required');
   for (const p of [m.source?.path, m.runtime, ...(m.source?.recipe ? [m.source.recipe] : [])]) {
     try { resolvePath(p); } catch (e) { errors.push(e.message); }

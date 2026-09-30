@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_civic_decor",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "d49ff842b368a4520a6258acd9a107a77e2ff4927728f6f94e0843593c3b4579",
+  "sourceHash": "8000395abb399d27eb21db409c506b852f0294f5f826ceef2c8c51d058419cb3",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T11:15:33.717Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Compact pale portal with actual open negative space, a restrained aqua crystal, paired inward-facing timber benches and low planting match the civic brief. Measured x[-5.66,-2.34], z[11.40,13.93] keeps the entire assembly inside the assigned south pocket."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Corrected the initial UV selection defect by removing generated primitive UV maps before assigning semantic swatches, then rebuilt through the source-hash guard. Current close and reverse views show seated plinth, attached bench supports, parallel separated slats, inset soil, and a continuous thick portal with open center."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Phone-size actual GLB capture preserves the portal opening, crystal, two separated bench silhouettes and paired planting. Pale stone and warm seats remain distinct from dark supports."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After correcting palette UVs and exporting revision 3, inspected close-joins, reverse-oblique, rear and phone views. Stone, wood and planting now remain consistent across all faces; the underside and rear bench attachments remain seated. No further in-scope construction defect found."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_civic_decor/v01/validation/iso.png",
+      "sha256": "88b44f1a72ee83389314c15d00e94a077d77aa3c2d6878fd3c08ad3e60782399",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_civic_decor/v01/validation/rear.png",
+      "sha256": "7ac6fccf98aab34b6902862d993d50115c70f93f25055ade95a75e66aa9c3fac",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_civic_decor/v01/validation/close-joins.png",
+      "sha256": "92d2b60994e99c18601350f1b4e70a9cac5a5bb0e972ef31a4772b1846931e11",
+      "view": "close-joins"
+    },
+    {
+      "path": "blender/environment/campus_civic_decor/v01/validation/reverse-oblique.png",
+      "sha256": "e7d08d3739240d764396e4946954170a0291e2477ee4a9827b6b1bd9a80d4d02",
+      "view": "reverse-oblique"
+    },
+    {
+      "path": "blender/environment/campus_civic_decor/v01/validation/phone.png",
+      "sha256": "ce868263db40750abf627bdd2eb4bd8c7488bfa445a90d4ec9a84e3da0a65895",
+      "view": "phone-scale"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author self-review completed; explicit user artistic acceptance remains separate."
+  },
+  "limitations": [
+    "Final campus composition and existing prop visibility are reviewed by the integrating parent task."
+  ]
+}

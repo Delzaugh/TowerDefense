@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "asset": "problem_spaghetti_code",
+  "sourceHash": "828fd49cefd6cdeeee7148b4d3c446e5dc06ca1c83565c3e9bbc9927c467b541",
+  "sha256": "fdb8a02e10ed82124d56db3a2e91b6c3749606415837b9b9617ed1372a13e029",
+  "tracks": [
+    "hit",
+    "idle",
+    "move",
+    "resolve",
+    "spawn"
+  ],
+  "allTracksMuted": true,
+  "activeAction": null,
+  "bonesInRest": true,
+  "rootIdentity": true,
+  "lifecycleExtrasMatchManifest": true,
+  "lifecycleFrames": [
+    0,
+    30
+  ]
+}

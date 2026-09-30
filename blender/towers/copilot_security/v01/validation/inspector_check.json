@@ -1,0 +1,110 @@
+{
+  "sha256": "aabd2b42dc8233ea2cda102246f341a82626af2f4a6c94806114f5f523430b7e",
+  "revision": 15,
+  "note": {
+    "asset": "copilot_security",
+    "version": "v01",
+    "revision": 15,
+    "sha256": "aabd2b42dc8233ea2cda102246f341a82626af2f4a6c94806114f5f523430b7e",
+    "view": "iso",
+    "projection": "OrthographicCamera",
+    "camera": [
+      3.038253381828888,
+      4.1841799939188,
+      4.041626957142764
+    ],
+    "target": [
+      0,
+      1.1693907976150513,
+      0.04500001668930054
+    ],
+    "distance": 5.856019502315792,
+    "clip": null,
+    "time": 0,
+    "loop": true,
+    "speed": 1,
+    "part": null,
+    "appearance": {
+      "background": "light",
+      "lighting": "studio",
+      "ground": false,
+      "phoneWidth": false
+    },
+    "previewOnlyChanges": {},
+    "note": ""
+  },
+  "errors": [],
+  "state": {
+    "resolveBudget": {
+      "used": 0,
+      "maxFragments": 256
+    },
+    "resolveEffects": [
+      {
+        "path": "towers/copilot_security_v01.glb"
+      }
+    ],
+    "loading": false,
+    "activePath": "towers/copilot_security_v01.glb",
+    "view": "iso",
+    "projection": "OrthographicCamera",
+    "distance": 33.48169390193399,
+    "target": [
+      0,
+      1.1693907976150513,
+      0.04500001668930054
+    ],
+    "camera": [
+      17.37116307189254,
+      18.406397779846305,
+      22.895647936760007
+    ],
+    "effects": [
+      {
+        "path": "towers/copilot_security_v01.glb",
+        "enabled": false,
+        "triangles": 0,
+        "meshes": 0,
+        "materials": 0
+      }
+    ],
+    "entries": [
+      {
+        "path": "towers/copilot_security_v01.glb",
+        "revision": "aabd2b42dc8233ea2cda102246f341a82626af2f4a6c94806114f5f523430b7e",
+        "triangles": 2854,
+        "meshes": 2,
+        "materials": 2,
+        "bounds": [
+          [
+            -1.3070000410079956,
+            0,
+            -1.0679999589920044
+          ],
+          [
+            1.3070000410079956,
+            2.3387815952301025,
+            1.1579999923706055
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [],
+        "clip": null,
+        "time": 0,
+        "playing": false,
+        "loop": true,
+        "speed": 1,
+        "pose": []
+      }
+    ]
+  }
+}

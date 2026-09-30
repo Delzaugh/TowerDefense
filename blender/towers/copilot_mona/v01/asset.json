@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_mona",
+  "displayName": "GitHub Mona Full Body",
+  "category": "towers",
+  "version": "v01",
+  "revision": 7,
+  "source": {
+    "path": "blender/towers/copilot_mona/v01/copilot_mona_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_mona/v01/build.py",
+    "authoritativeHash": "119d6e6c73c83014c7b31245fdf0d0096020b8a2736607444489194ff793086e"
+  },
+  "runtime": "assets/runtime/towers/copilot_mona_v01.glb",
+  "budgets": {
+    "triangles": 3600,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 512,
+    "bones": 11,
+    "meshes": 15
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target",
+      "anchor_hat",
+      "anchor_face",
+      "anchor_chest",
+      "anchor_back",
+      "anchor_hand_left",
+      "anchor_hand_right"
+    ],
+    "dimensions": {
+      "min": [
+        1.82,
+        1.799,
+        0.87
+      ],
+      "max": [
+        1.85,
+        1.802,
+        0.9
+      ]
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "meaning": "Quiet breathing, head sway, tail curl and blink inherited from the selected Classic.",
+      "fps": 24,
+      "playback": "loop"
+    },
+    {
+      "name": "work",
+      "meaning": "Focused nod and deliberate raised-tail operating taps with four planted legs.",
+      "fps": 24,
+      "playback": "loop"
+    },
+    {
+      "name": "move",
+      "meaning": "Classic alternating diagonal four-leg walk in place; simulation owns travel.",
+      "fps": 24,
+      "playback": "loop"
+    },
+    {
+      "name": "place",
+      "meaning": "Reverse digital cube assembly at full size, opening eyes into ready.",
+      "fps": 24,
+      "playback": "once"
+    },
+    {
+      "name": "hit",
+      "meaning": "Brief compression, head recoil and eye flinch, recovering to ready.",
+      "fps": 24,
+      "playback": "once"
+    },
+    {
+      "name": "resolve",
+      "meaning": "Eyes close at full size while shared presentation disintegrates Mona into digital cubes.",
+      "fps": 24,
+      "playback": "once"
+    },
+    {
+      "name": "wave",
+      "meaning": "Classic raised-tail greeting with a friendly head tilt.",
+      "fps": 24,
+      "playback": "once"
+    },
+    {
+      "name": "celebrate",
+      "meaning": "Classic anticipation, small hop, landing compression and recovery.",
+      "fps": 24,
+      "playback": "once"
+    }
+  ],
+  "references": [
+    {
+      "path": "blender/towers/copilot_mona/v01/references/classic_lowpoly_base_r8.blend",
+      "provenance": "Frozen current source of user-selected copilot_octocat_classic_lowpoly v01 revision 8. Primary geometry, anatomy, scale, rig and anchor base; SHA256 e433b387cd8bf61fe9d7fbc105bee080d0e086d3cd6c64885fdc144afb5fed29"
+    },
+    {
+      "url": "https://brand.github.com/graphic-elements/mascots",
+      "path": "blender/towers/copilot_mona/v01/references/github_mona_official.png",
+      "provenance": "Official Mona head sheet supplies purple/pink colours, plum eyes, cream sclera, pink ear insets and eye glints. The selected classic model governs geometry."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "budgets.triangles",
+      "reason": "Preserve all 3490 triangles of the selected Classic Low Poly base; two 8-triangle eye glints add 16 triangles for Mona."
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/copilot_mona/v01/revisions/r2_before_r3/copilot_mona_v01.glb",
+      "source": "blender/towers/copilot_mona/v01/revisions/r2_before_r3/copilot_mona_v01.blend",
+      "sha256": "6628dc63cce9ca35a67069ac1c8ae3656bd9b57844f9c02d68576d55dc3e0e4d",
+      "sourceHash": "ddad0cba09fe8c20cf7d85bd7b01bc3fcbc5210498855fd0940963532dc9be00"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/copilot_mona/v01/revisions/r3_before_r4/copilot_mona_v01.glb",
+      "source": "blender/towers/copilot_mona/v01/revisions/r3_before_r4/copilot_mona_v01.blend",
+      "sha256": "9f18dfd034d81998fcdf2683966ca240448a8f8b95e1efccdaa73fafe8f86a53",
+      "sourceHash": "5e5459746a2c18d78145602d7c221e316c0ce71de711957deaf8abe54b755f1b"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/towers/copilot_mona/v01/revisions/r4_before_r5/copilot_mona_v01.glb",
+      "source": "blender/towers/copilot_mona/v01/revisions/r4_before_r5/copilot_mona_v01.blend",
+      "sha256": "f778b355e9738c3628453cc97e904c6ca5d723d26fb85a91999936800ffc01c1",
+      "sourceHash": "16a6d8529c2a3765431224d19ac0ced67db0570c6f37a6b7d8395c56f3fa12ae"
+    },
+    {
+      "label": "superseded_body_reference",
+      "revision": 5,
+      "export": "blender/towers/copilot_mona/v01/revisions/r5_superseded_body_reference/copilot_mona_v01.glb",
+      "source": "blender/towers/copilot_mona/v01/revisions/r5_superseded_body_reference/copilot_mona_v01.blend",
+      "sha256": "9abb03604d6283d1152384f6b1fd017ac722d4817db3734e47db9459a020bf78",
+      "sourceHash": "c5548de57354d3b46004419382d76ae7b9f7dddf6ba51b299caa0f25574eb8c8"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/towers/copilot_mona/v01/revisions/r5_before_r6/copilot_mona_v01.glb",
+      "source": "blender/towers/copilot_mona/v01/revisions/r5_before_r6/copilot_mona_v01.blend",
+      "sha256": "9abb03604d6283d1152384f6b1fd017ac722d4817db3734e47db9459a020bf78",
+      "sourceHash": "c5548de57354d3b46004419382d76ae7b9f7dddf6ba51b299caa0f25574eb8c8"
+    },
+    {
+      "label": "animation_model_baseline",
+      "revision": 6,
+      "export": "blender/towers/copilot_mona/v01/revisions/r6_animation_model_baseline/copilot_mona_v01.glb",
+      "source": "blender/towers/copilot_mona/v01/revisions/r6_animation_model_baseline/copilot_mona_v01.blend",
+      "sha256": "35dd9185c7ff75ed0cf95dee11f6e4435d5e3cb119762d4789faecaa20b69fdd",
+      "sourceHash": "ee3ec62f3f16579e66a1e04d3920285fcbf8f58250d2a93adb4ef72baf0177c0"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/towers/copilot_mona/v01/revisions/r6_before_r7/copilot_mona_v01.glb",
+      "source": "blender/towers/copilot_mona/v01/revisions/r6_before_r7/copilot_mona_v01.blend",
+      "sha256": "35dd9185c7ff75ed0cf95dee11f6e4435d5e3cb119762d4789faecaa20b69fdd",
+      "sourceHash": "ee3ec62f3f16579e66a1e04d3920285fcbf8f58250d2a93adb4ef72baf0177c0"
+    }
+  ],
+  "decisions": "blender/towers/copilot_mona/v01/decisions.md",
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "texturePalettes": [
+    {
+      "material": "mona_palette",
+      "size": [
+        128,
+        64
+      ],
+      "roles": {
+        "fur": {
+          "color": "#6744EF",
+          "rect": [
+            96,
+            0,
+            4,
+            64
+          ]
+        },
+        "cup_inner": {
+          "color": "#CF4DAB",
+          "rect": [
+            100,
+            0,
+            4,
+            64
+          ]
+        },
+        "eyes": {
+          "color": "#FFF1FA",
+          "rect": [
+            104,
+            0,
+            4,
+            64
+          ]
+        },
+        "iris": {
+          "color": "#31136E",
+          "rect": [
+            108,
+            0,
+            4,
+            64
+          ]
+        },
+        "suckers": {
+          "color": "#FFAFE6",
+          "rect": [
+            112,
+            0,
+            4,
+            64
+          ]
+        },
+        "inner_ear": {
+          "color": "#FF80D4",
+          "rect": [
+            116,
+            0,
+            4,
+            64
+          ]
+        },
+        "smile": {
+          "color": "#31136E",
+          "rect": [
+            120,
+            0,
+            4,
+            64
+          ]
+        },
+        "highlight": {
+          "color": "#FFFFFF",
+          "rect": [
+            124,
+            0,
+            4,
+            64
+          ]
+        }
+      }
+    }
+  ],
+  "delivery": {
+    "sha256": "ce2a74096bcbc4e650ff6590f88ad79defe17479e240e1ab6aefb87601507b40",
+    "sourceHash": "119d6e6c73c83014c7b31245fdf0d0096020b8a2736607444489194ff793086e",
+    "report": "blender/towers/copilot_mona/v01/validation/report.json",
+    "deliveredAt": "2026-09-30T16:50:17.380Z"
+  },
+  "presentation": {
+    "resolve": {
+      "type": "digital_blocks",
+      "version": 1,
+      "clip": "resolve",
+      "assembleClip": "place",
+      "cellSize": 0.15,
+      "maxFragments": 32,
+      "edgeColor": "#FF80D4"
+    }
+  }
+}

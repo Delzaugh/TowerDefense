@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_canyon_decor",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "cccf5a551b86dd1d91d46e409e8901ddbdfb5b9342708e0e7df6325617054b22",
+  "sourceHash": "d7414ddbb05a3d0374291829b915f69433af1d9495a5a3e6848d6d644ff02758",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-24T11:27:15.862Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Preserved all unique exported vertex positions, dimensions, anchors, palette and campus placement while correcting source winding. Repaired top normals support intended warm layered canyon silhouette and negative relief."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Actual exported GLB audit finds zero downward upper-surface normals and zero upward underside normals. All48 flat bed normals and38 river normals now point +Y; every sloped strip also points upward. Source triangulates nonplanar strip quads for geometric per-triangle normals. No geometry positions moved; all21 approach and4 shelter samples retain y1.2."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally inspected shadow-enabled actual GLB assembly close and reverse views after repair. Bed and river are clean and receive coherent bridge/rail shadows rather than fine self-shadow stripes. Faceted sandstone retains readable layered structure, deck width and separate shelter."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static environment, no authored clips."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked corrected winding with a2048 directional PCF shadow map. Triangulated warped strip quads after the initial winding repair to align shading normals with delivered triangles. Final reverse and close renders preserve open basin, clean bed/water, clear traversal and grounded shelter; technical validation passes."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_canyon_decor/v01/validation/shadowed-assembly-iso.png",
+      "sha256": "1b97eaf754c41d349ea33fabdd2a08e4edbc775c4be854aa3c33ea2d905f3e95",
+      "view": "shadowed-assembly-iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_canyon_decor/v01/validation/shadowed-assembly-reverse.png",
+      "sha256": "7c8fc9e6aaba66f4098e308b8409984ebfa48bc3d5250478a171658ac42336e2",
+      "view": "shadowed-assembly-reverse",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_canyon_decor/v01/validation/shadowed-assembly-close.png",
+      "sha256": "3f254e12c148f7c6c7cebea44d77f5f1e4ae197bbda244a46fa0e7092a3b50b4",
+      "view": "shadowed-assembly-close",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "notes": "Technical and author self-review only; user artistic acceptance remains separate."
+  },
+  "limitations": [
+    "Shadow-enabled equivalent assembly reviewed; parent task rechecks full game after rebuilding its assets. Assembly uses tile r4 and decor r3."
+  ]
+}

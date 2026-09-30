@@ -1,0 +1,2578 @@
+{
+  "names": {
+    "github_mona_head": "copilot_mona_head",
+    "golden_compiler": "copilot_golden_compiler",
+    "bert_breugelmans": "copilot_bert_breugelmans",
+    "github_octocat_classic": "copilot_octocat_classic",
+    "github_octocat_modern": "copilot_octocat_modern",
+    "github_octocat_classic_lowpoly": "copilot_octocat_classic_lowpoly",
+    "linter_agent": "copilot_linter",
+    "human_developer": "copilot_human_developer"
+  },
+  "entries": [
+    {
+      "oldId": "github_mona_head",
+      "newId": "copilot_mona_head",
+      "version": "v01",
+      "revision": 1,
+      "oldManifest": "blender/towers/github_mona_head/v01/asset.json",
+      "newManifest": "blender/towers/copilot_mona_head/v01/asset.json",
+      "oldSource": "blender/towers/github_mona_head/v01/github_mona_head_v01.blend",
+      "newSource": "blender/towers/copilot_mona_head/v01/copilot_mona_head_v01.blend",
+      "oldRuntime": "assets/runtime/towers/github_mona_head_v01.glb",
+      "newRuntime": "assets/runtime/towers/copilot_mona_head_v01.glb",
+      "sourceHash": "fabae271770f41e34a83727d52c76690d25edbdba276a9e61d087e21f940b107",
+      "runtimeHash": "bccfb8d95d5e909681b07288884e6d7ff0671ba2673a51cd5f62668bafe954da",
+      "beforeReview": {
+        "ready": false,
+        "file": "blender/towers/github_mona_head/v01/validation/visual_review.json",
+        "asset": "github_mona_head",
+        "version": "v01",
+        "revision": 1,
+        "sha256": "bccfb8d95d5e909681b07288884e6d7ff0671ba2673a51cd5f62668bafe954da",
+        "sourceHash": "fabae271770f41e34a83727d52c76690d25edbdba276a9e61d087e21f940b107",
+        "userAcceptance": "pending",
+        "errors": [
+          "No visual review. Run review <id> --init after export."
+        ],
+        "meaning": "Checks record completeness and current files; author judgment is not independently verified."
+      }
+    },
+    {
+      "oldId": "golden_compiler",
+      "newId": "copilot_golden_compiler",
+      "version": "v01",
+      "revision": 14,
+      "oldManifest": "blender/towers/golden_compiler/v01/asset.json",
+      "newManifest": "blender/towers/copilot_golden_compiler/v01/asset.json",
+      "oldSource": "blender/towers/golden_compiler/v01/golden_compiler_v01.blend",
+      "newSource": "blender/towers/copilot_golden_compiler/v01/copilot_golden_compiler_v01.blend",
+      "oldRuntime": "assets/runtime/towers/golden_compiler_v01.glb",
+      "newRuntime": "assets/runtime/towers/copilot_golden_compiler_v01.glb",
+      "sourceHash": "8381bb21d103215e379aeea934db399c1f6597a507e6a7ecae6a93d1416798a5",
+      "runtimeHash": "1d88ddd329b57876f2db41e45a40e83df55e2596763f7af819f3a7e88ee8b719",
+      "beforeReview": {
+        "ready": false,
+        "file": "blender/towers/golden_compiler/v01/validation/visual_review.json",
+        "asset": "golden_compiler",
+        "version": "v01",
+        "revision": 14,
+        "sha256": "1d88ddd329b57876f2db41e45a40e83df55e2596763f7af819f3a7e88ee8b719",
+        "sourceHash": "8381bb21d103215e379aeea934db399c1f6597a507e6a7ecae6a93d1416798a5",
+        "userAcceptance": "pending",
+        "errors": [
+          "Legacy review: preserve/migrate it with review <id> --init.",
+          "Stale review identity: revision",
+          "Stale review identity: sha256",
+          "Stale review identity: sourceHash",
+          "Declare the review scope.",
+          "referenceFidelity: record a completed assessment or a reason it is not applicable.",
+          "construction: record a completed assessment or a reason it is not applicable.",
+          "readability: record a completed assessment or a reason it is not applicable.",
+          "motion: record a completed assessment or a reason it is not applicable.",
+          "Second author review is incomplete or failed.",
+          "Include inspected evidence files.",
+          "Declare user acceptance separately.",
+          "limitations must be a list of concrete notes (or empty)."
+        ],
+        "meaning": "Checks record completeness and current files; author judgment is not independently verified."
+      }
+    },
+    {
+      "oldId": "bert_breugelmans",
+      "newId": "copilot_bert_breugelmans",
+      "version": "v01",
+      "revision": 36,
+      "oldManifest": "blender/towers/bert_breugelmans/v01/asset.json",
+      "newManifest": "blender/towers/copilot_bert_breugelmans/v01/asset.json",
+      "oldSource": "blender/towers/bert_breugelmans/v01/bert_breugelmans_v01.blend",
+      "newSource": "blender/towers/copilot_bert_breugelmans/v01/copilot_bert_breugelmans_v01.blend",
+      "oldRuntime": "assets/runtime/towers/bert_breugelmans_v01.glb",
+      "newRuntime": "assets/runtime/towers/copilot_bert_breugelmans_v01.glb",
+      "sourceHash": "888176f03eb21f610e89d111e41744154f6acbe569a056b6f065f2cca9512d29",
+      "runtimeHash": "4a7ebbc16f309e796241b3d6ad3c2d6c8b48ca450aba50b297dccd959e78f1db",
+      "beforeReview": {
+        "ready": false,
+        "file": "blender/towers/bert_breugelmans/v01/validation/visual_review.json",
+        "asset": "bert_breugelmans",
+        "version": "v01",
+        "revision": 36,
+        "sha256": "4a7ebbc16f309e796241b3d6ad3c2d6c8b48ca450aba50b297dccd959e78f1db",
+        "sourceHash": "888176f03eb21f610e89d111e41744154f6acbe569a056b6f065f2cca9512d29",
+        "userAcceptance": "pending",
+        "errors": [
+          "No visual review. Run review <id> --init after export."
+        ],
+        "meaning": "Checks record completeness and current files; author judgment is not independently verified."
+      }
+    },
+    {
+      "oldId": "github_octocat_classic",
+      "newId": "copilot_octocat_classic",
+      "version": "v01",
+      "revision": 9,
+      "oldManifest": "blender/towers/github_octocat_classic/v01/asset.json",
+      "newManifest": "blender/towers/copilot_octocat_classic/v01/asset.json",
+      "oldSource": "blender/towers/github_octocat_classic/v01/github_octocat_classic_v01.blend",
+      "newSource": "blender/towers/copilot_octocat_classic/v01/copilot_octocat_classic_v01.blend",
+      "oldRuntime": "assets/runtime/towers/github_octocat_classic_v01.glb",
+      "newRuntime": "assets/runtime/towers/copilot_octocat_classic_v01.glb",
+      "sourceHash": "a465db1907240e99c2988bcdbd2ea259417bd78f03fb042fea1a6f777be37e5a",
+      "runtimeHash": "e211dce334989587b61572cbbb5d0e62ceb4383f3d1b8dded1f7d73f7e50703d",
+      "beforeReview": {
+        "ready": false,
+        "file": "blender/towers/github_octocat_classic/v01/validation/visual_review.json",
+        "asset": "github_octocat_classic",
+        "version": "v01",
+        "revision": 9,
+        "sha256": "e211dce334989587b61572cbbb5d0e62ceb4383f3d1b8dded1f7d73f7e50703d",
+        "sourceHash": "a465db1907240e99c2988bcdbd2ea259417bd78f03fb042fea1a6f777be37e5a",
+        "userAcceptance": "pending",
+        "errors": [
+          "Legacy review: preserve/migrate it with review <id> --init.",
+          "Stale review identity: sha256",
+          "Declare the review scope.",
+          "Record when the visual review was completed.",
+          "referenceFidelity: record a completed assessment or a reason it is not applicable.",
+          "construction: record a completed assessment or a reason it is not applicable.",
+          "readability: record a completed assessment or a reason it is not applicable.",
+          "motion: record a completed assessment or a reason it is not applicable.",
+          "Second author review is incomplete or failed.",
+          "Include inspected evidence files.",
+          "Declare user acceptance separately."
+        ],
+        "meaning": "Checks record completeness and current files; author judgment is not independently verified."
+      }
+    },
+    {
+      "oldId": "github_octocat_modern",
+      "newId": "copilot_octocat_modern",
+      "version": "v01",
+      "revision": 9,
+      "oldManifest": "blender/towers/github_octocat_modern/v01/asset.json",
+      "newManifest": "blender/towers/copilot_octocat_modern/v01/asset.json",
+      "oldSource": "blender/towers/github_octocat_modern/v01/github_octocat_modern_v01.blend",
+      "newSource": "blender/towers/copilot_octocat_modern/v01/copilot_octocat_modern_v01.blend",
+      "oldRuntime": "assets/runtime/towers/github_octocat_modern_v01.glb",
+      "newRuntime": "assets/runtime/towers/copilot_octocat_modern_v01.glb",
+      "sourceHash": "5e3fc5f1fc8cb4fc540a6e0f07a547be2c5e1afcec6078a0c19ea3925c5aff2e",
+      "runtimeHash": "2917ce38babc993d7c492ea660837652ff0bcdc82d006d741cd85056661231c1",
+      "beforeReview": {
+        "ready": false,
+        "file": "blender/towers/github_octocat_modern/v01/validation/visual_review.json",
+        "asset": "github_octocat_modern",
+        "version": "v01",
+        "revision": 9,
+        "sha256": "2917ce38babc993d7c492ea660837652ff0bcdc82d006d741cd85056661231c1",
+        "sourceHash": "5e3fc5f1fc8cb4fc540a6e0f07a547be2c5e1afcec6078a0c19ea3925c5aff2e",
+        "userAcceptance": "pending",
+        "errors": [
+          "Legacy review: preserve/migrate it with review <id> --init.",
+          "Declare the review scope.",
+          "referenceFidelity: record a completed assessment or a reason it is not applicable.",
+          "construction: record a completed assessment or a reason it is not applicable.",
+          "readability: record a completed assessment or a reason it is not applicable.",
+          "motion: record a completed assessment or a reason it is not applicable.",
+          "Second author review is incomplete or failed.",
+          "Include inspected evidence files.",
+          "Declare user acceptance separately."
+        ],
+        "meaning": "Checks record completeness and current files; author judgment is not independently verified."
+      }
+    },
+    {
+      "oldId": "github_octocat_classic_lowpoly",
+      "newId": "copilot_octocat_classic_lowpoly",
+      "version": "v01",
+      "revision": 7,
+      "oldManifest": "blender/towers/github_octocat_classic_lowpoly/v01/asset.json",
+      "newManifest": "blender/towers/copilot_octocat_classic_lowpoly/v01/asset.json",
+      "oldSource": "blender/towers/github_octocat_classic_lowpoly/v01/github_octocat_classic_lowpoly_v01.blend",
+      "newSource": "blender/towers/copilot_octocat_classic_lowpoly/v01/copilot_octocat_classic_lowpoly_v01.blend",
+      "oldRuntime": "assets/runtime/towers/github_octocat_classic_lowpoly_v01.glb",
+      "newRuntime": "assets/runtime/towers/copilot_octocat_classic_lowpoly_v01.glb",
+      "sourceHash": "e6ed8026d5871f0ac1493044a084ed276504b46f66d7c2e274f670ccf2360db0",
+      "runtimeHash": "bdf5125b1e9500bce923f71fae74e56748a91160d197ff0f604ff498b38c0382",
+      "beforeReview": {
+        "ready": false,
+        "file": "blender/towers/github_octocat_classic_lowpoly/v01/validation/visual_review.json",
+        "asset": "github_octocat_classic_lowpoly",
+        "version": "v01",
+        "revision": 7,
+        "sha256": "bdf5125b1e9500bce923f71fae74e56748a91160d197ff0f604ff498b38c0382",
+        "sourceHash": "e6ed8026d5871f0ac1493044a084ed276504b46f66d7c2e274f670ccf2360db0",
+        "userAcceptance": "pending",
+        "errors": [
+          "Legacy review: preserve/migrate it with review <id> --init.",
+          "Stale review identity: sha256",
+          "Declare the review scope.",
+          "Record when the visual review was completed.",
+          "referenceFidelity: record a completed assessment or a reason it is not applicable.",
+          "construction: record a completed assessment or a reason it is not applicable.",
+          "readability: record a completed assessment or a reason it is not applicable.",
+          "motion: record a completed assessment or a reason it is not applicable.",
+          "Second author review is incomplete or failed.",
+          "Include inspected evidence files.",
+          "Declare user acceptance separately."
+        ],
+        "meaning": "Checks record completeness and current files; author judgment is not independently verified."
+      }
+    },
+    {
+      "oldId": "linter_agent",
+      "newId": "copilot_linter",
+      "version": "v01",
+      "revision": 14,
+      "oldManifest": "blender/towers/linter_agent/v01/asset.json",
+      "newManifest": "blender/towers/copilot_linter/v01/asset.json",
+      "oldSource": "blender/towers/linter_agent/v01/linter_agent_v01.blend",
+      "newSource": "blender/towers/copilot_linter/v01/copilot_linter_v01.blend",
+      "oldRuntime": "assets/runtime/towers/linter_agent_v01.glb",
+      "newRuntime": "assets/runtime/towers/copilot_linter_v01.glb",
+      "sourceHash": "f5889a6c285ada2d265e1eb440dcb3c33198fc71b847b3841ea47b5078cc6ec6",
+      "runtimeHash": "7cdddfdfccddb6415346c8586071b4e4d52951d8ab66e4ff0a059592189df4d2",
+      "beforeReview": {
+        "ready": true,
+        "file": "blender/towers/linter_agent/v01/validation/visual_review.json",
+        "asset": "linter_agent",
+        "version": "v01",
+        "revision": 14,
+        "sha256": "7cdddfdfccddb6415346c8586071b4e4d52951d8ab66e4ff0a059592189df4d2",
+        "sourceHash": "f5889a6c285ada2d265e1eb440dcb3c33198fc71b847b3841ea47b5078cc6ec6",
+        "userAcceptance": "pending",
+        "errors": [],
+        "meaning": "Checks record completeness and current files; author judgment is not independently verified."
+      }
+    },
+    {
+      "oldId": "human_developer",
+      "newId": "copilot_human_developer",
+      "version": "v01",
+      "revision": 4,
+      "oldManifest": "blender/towers/human_developer/v01/asset.json",
+      "newManifest": "blender/towers/copilot_human_developer/v01/asset.json",
+      "oldSource": "blender/towers/human_developer/v01/human_developer_v01.blend",
+      "newSource": "blender/towers/copilot_human_developer/v01/copilot_human_developer_v01.blend",
+      "oldRuntime": "assets/runtime/towers/human_developer_v01.glb",
+      "newRuntime": "assets/runtime/towers/copilot_human_developer_v01.glb",
+      "sourceHash": "f497a7bfe9636b25f919963236d1902ebf02ee7059a42b87a8271c1e733d4e74",
+      "runtimeHash": "9ed0ed1c42247f881a8507fb37ce0bb8b9a1a213156d2f99cba78c831e4b0298",
+      "beforeReview": {
+        "ready": true,
+        "file": "blender/towers/human_developer/v01/validation/visual_review.json",
+        "asset": "human_developer",
+        "version": "v01",
+        "revision": 4,
+        "sha256": "9ed0ed1c42247f881a8507fb37ce0bb8b9a1a213156d2f99cba78c831e4b0298",
+        "sourceHash": "f497a7bfe9636b25f919963236d1902ebf02ee7059a42b87a8271c1e733d4e74",
+        "userAcceptance": "pending",
+        "errors": [],
+        "meaning": "Checks record completeness and current files; author judgment is not independently verified."
+      }
+    }
+  ],
+  "folders": [
+    {
+      "from": "blender/towers/github_mona_head",
+      "to": "blender/towers/copilot_mona_head"
+    },
+    {
+      "from": "blender/towers/golden_compiler",
+      "to": "blender/towers/copilot_golden_compiler"
+    },
+    {
+      "from": "blender/towers/bert_breugelmans",
+      "to": "blender/towers/copilot_bert_breugelmans"
+    },
+    {
+      "from": "blender/towers/github_octocat_classic",
+      "to": "blender/towers/copilot_octocat_classic"
+    },
+    {
+      "from": "blender/towers/github_octocat_modern",
+      "to": "blender/towers/copilot_octocat_modern"
+    },
+    {
+      "from": "blender/towers/github_octocat_classic_lowpoly",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly"
+    },
+    {
+      "from": "blender/towers/linter_agent",
+      "to": "blender/towers/copilot_linter"
+    },
+    {
+      "from": "blender/towers/human_developer",
+      "to": "blender/towers/copilot_human_developer"
+    }
+  ],
+  "renames": [
+    {
+      "from": "blender/towers/copilot_mona_head/v01/github_mona_head_v01.blend",
+      "to": "blender/towers/copilot_mona_head/v01/copilot_mona_head_v01.blend"
+    },
+    {
+      "from": "assets/runtime/towers/github_mona_head_v01.glb",
+      "to": "assets/runtime/towers/copilot_mona_head_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r10_1789228129708/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r10_1789228129708/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r10_1789228129708/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r10_1789228129708/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r11_1789228181547/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r11_1789228181547/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r11_1789228181547/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r11_1789228181547/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r12_1789228324108/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r12_1789228324108/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r12_1789228324108/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r12_1789228324108/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r13_1789228374896/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r13_1789228374896/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r13_1789228374896/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r13_1789228374896/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r14_1789677438277/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r14_1789677438277/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r14_1789677438277/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r14_1789677438277/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r2_1789225655667/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r2_1789225655667/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r2_1789225674002/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r2_1789225674002/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r2_1789225750677/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r2_1789225750677/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r3_1789226051896/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r3_1789226051896/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r3_1789226051896/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r3_1789226051896/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r4_1789226381539/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r4_1789226381539/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r4_1789226381539/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r4_1789226381539/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r5_1789226718628/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r5_1789226718628/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r5_1789226718628/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r5_1789226718628/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r6_1789227077231/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r6_1789227077231/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r6_1789227077231/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r6_1789227077231/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r7_1789227353219/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r7_1789227353219/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r7_1789227353219/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r7_1789227353219/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r8_1789227826232/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r8_1789227826232/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r8_1789227826232/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r8_1789227826232/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r9_1789228039538/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r9_1789228039538/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/.staging/r9_1789228039538/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/.staging/r9_1789228039538/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r10_before_r11/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r10_before_r11/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r10_before_r11/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r10_before_r11/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r11_before_r12/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r11_before_r12/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r11_before_r12/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r11_before_r12/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r12_before_r13/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r12_before_r13/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r12_before_r13/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r12_before_r13/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r13_before_r14/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r13_before_r14/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r13_before_r14/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r13_before_r14/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r2_before_r3/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r2_before_r3/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r2_before_r3/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r2_before_r3/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r3_before_r4/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r3_before_r4/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r3_before_r4/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r3_before_r4/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r4_before_r5/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r4_before_r5/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r4_before_r5/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r4_before_r5/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r5_before_r6/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r5_before_r6/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r5_before_r6/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r5_before_r6/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r6_before_r7/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r6_before_r7/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r6_before_r7/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r6_before_r7/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r7_before_r8/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r7_before_r8/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r7_before_r8/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r7_before_r8/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r8_before_r9/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r8_before_r9/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r8_before_r9/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r8_before_r9/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r9_before_r10/golden_compiler_v01.blend",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r9_before_r10/copilot_golden_compiler_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_golden_compiler/v01/revisions/r9_before_r10/golden_compiler_v01.glb",
+      "to": "blender/towers/copilot_golden_compiler/v01/revisions/r9_before_r10/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "assets/runtime/towers/golden_compiler_v01.glb",
+      "to": "assets/runtime/towers/copilot_golden_compiler_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r10_1789234138386/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r10_1789234138386/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r10_1789234138386/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r10_1789234138386/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r11_1789234243693/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r11_1789234243693/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r11_1789234243693/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r11_1789234243693/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r12_1789234518543/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r12_1789234518543/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r12_1789234518543/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r12_1789234518543/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r13_1789234836725/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r13_1789234836725/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r13_1789234836725/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r13_1789234836725/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r14_1789234914356/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r14_1789234914356/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r14_1789234914356/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r14_1789234914356/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r15_1789235050289/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r15_1789235050289/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r15_1789235050289/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r15_1789235050289/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r16_1789235157059/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r16_1789235157059/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r16_1789235157059/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r16_1789235157059/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r17_1789235248801/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r17_1789235248801/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r17_1789235248801/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r17_1789235248801/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r18_1789235555681/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r18_1789235555681/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r18_1789235555681/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r18_1789235555681/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r19_1789235876986/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r19_1789235876986/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r19_1789235876986/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r19_1789235876986/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r20_1789236018809/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r20_1789236018809/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r20_1789236018809/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r20_1789236018809/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r21_1789236252965/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r21_1789236252965/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r21_1789236252965/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r21_1789236252965/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r22_1789236322197/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r22_1789236322197/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r22_1789236322197/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r22_1789236322197/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r23_1789236419347/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r23_1789236419347/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r23_1789236419347/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r23_1789236419347/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r24_1789677629365/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r24_1789677629365/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r24_1789677629365/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r24_1789677629365/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r25_1789681694527/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r25_1789681694527/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r25_1789681722742/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r25_1789681722742/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r26_1789682164592/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r26_1789682164592/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r27_1789683100640/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r27_1789683100640/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r28_1789683264087/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r28_1789683264087/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r29_1789684256955/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r29_1789684256955/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r2_1789230295675/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r2_1789230295675/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r2_1789230311230/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r2_1789230311230/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r30_1789684633833/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r30_1789684633833/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r31_1789685131176/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r31_1789685131176/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r32_1789685830042/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r32_1789685830042/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r33_1789686133757/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r33_1789686133757/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r34_1789686444370/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r34_1789686444370/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r35_1789686904133/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r35_1789686904133/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r36_1789687292578/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r36_1789687292578/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r3_1789230402516/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r3_1789230402516/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r3_1789230402516/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r3_1789230402516/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r4_1789230479236/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r4_1789230479236/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r4_1789230479236/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r4_1789230479236/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r5_1789230589798/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r5_1789230589798/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r5_1789230589798/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r5_1789230589798/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r6_1789233254158/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r6_1789233254158/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r6_1789233254158/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r6_1789233254158/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r7_1789233535749/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r7_1789233535749/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r7_1789233535749/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r7_1789233535749/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r8_1789233645417/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r8_1789233645417/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r8_1789233645417/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r8_1789233645417/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r9_1789233973113/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r9_1789233973113/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/.staging/r9_1789233973113/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/.staging/r9_1789233973113/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r10_before_r11/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r10_before_r11/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r10_before_r11/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r10_before_r11/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r11_before_r12/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r11_before_r12/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r11_before_r12/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r11_before_r12/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r12_before_r13/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r12_before_r13/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r12_before_r13/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r12_before_r13/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r13_before_r14/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r13_before_r14/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r13_before_r14/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r13_before_r14/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r14_before_r15/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r14_before_r15/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r14_before_r15/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r14_before_r15/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r15_before_r16/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r15_before_r16/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r15_before_r16/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r15_before_r16/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r16_before_r17/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r16_before_r17/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r16_before_r17/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r16_before_r17/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r17_before_r18/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r17_before_r18/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r17_before_r18/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r17_before_r18/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r18_before_r19/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r18_before_r19/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r18_before_r19/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r18_before_r19/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r19_before_r20/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r19_before_r20/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r19_before_r20/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r19_before_r20/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r20_before_r21/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r20_before_r21/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r20_before_r21/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r20_before_r21/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r21_before_r22/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r21_before_r22/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r21_before_r22/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r21_before_r22/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r22_before_r23/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r22_before_r23/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r22_before_r23/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r22_before_r23/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r23_before_r24/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r23_before_r24/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r23_before_r24/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r23_before_r24/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r24_before_natural_celebrate/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r24_before_natural_celebrate/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r24_before_natural_celebrate/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r24_before_natural_celebrate/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r24_before_r25/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r24_before_r25/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r24_before_r25/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r24_before_r25/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r25_before_r26/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r25_before_r26/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r25_before_r26/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r25_before_r26/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r26_before_r27/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r26_before_r27/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r26_before_r27/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r26_before_r27/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r26_before_work_and_straps/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r26_before_work_and_straps/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r26_before_work_and_straps/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r26_before_work_and_straps/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r27_before_r28/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r27_before_r28/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r27_before_r28/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r27_before_r28/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r28_before_proportions_walk/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r28_before_proportions_walk/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r28_before_proportions_walk/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r28_before_proportions_walk/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r28_before_r29/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r28_before_r29/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r28_before_r29/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r28_before_r29/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r29_before_r30/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r29_before_r30/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r29_before_r30/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r29_before_r30/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r2_before_r3/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r2_before_r3/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r2_before_r3/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r2_before_r3/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r30_before_inward_palms_relaxed_arms/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r30_before_inward_palms_relaxed_arms/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r30_before_inward_palms_relaxed_arms/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r30_before_inward_palms_relaxed_arms/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r30_before_r31/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r30_before_r31/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r30_before_r31/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r30_before_r31/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r31_before_r32/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r31_before_r32/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r31_before_r32/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r31_before_r32/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r32_before_r33/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r32_before_r33/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r32_before_r33/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r32_before_r33/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r33_before_r34/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r33_before_r34/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r33_before_r34/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r33_before_r34/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r33_before_thumb_alignment/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r33_before_thumb_alignment/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r33_before_thumb_alignment/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r33_before_thumb_alignment/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r34_before_r35/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r34_before_r35/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r34_before_r35/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r34_before_r35/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r35_before_r36/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r35_before_r36/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r35_before_r36/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r35_before_r36/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r3_before_r4/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r3_before_r4/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r3_before_r4/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r3_before_r4/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r4_before_r5/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r4_before_r5/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r4_before_r5/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r4_before_r5/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r5_before_r6/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r5_before_r6/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r5_before_r6/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r5_before_r6/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r6_before_r7/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r6_before_r7/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r6_before_r7/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r6_before_r7/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r7_before_r8/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r7_before_r8/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r7_before_r8/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r7_before_r8/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r8_before_r9/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r8_before_r9/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r8_before_r9/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r8_before_r9/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r9_before_r10/bert_breugelmans_v01.blend",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r9_before_r10/copilot_bert_breugelmans_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_bert_breugelmans/v01/revisions/r9_before_r10/bert_breugelmans_v01.glb",
+      "to": "blender/towers/copilot_bert_breugelmans/v01/revisions/r9_before_r10/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "assets/runtime/towers/bert_breugelmans_v01.glb",
+      "to": "assets/runtime/towers/copilot_bert_breugelmans_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r2_1789681359404/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r2_1789681359404/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r2_1789681390594/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r2_1789681390594/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r3_1789681472724/github_octocat_classic_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r3_1789681472724/copilot_octocat_classic_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r3_1789681472724/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r3_1789681472724/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r4_1789681579830/github_octocat_classic_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r4_1789681579830/copilot_octocat_classic_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r4_1789681579830/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r4_1789681579830/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r5_1789682379704/github_octocat_classic_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r5_1789682379704/copilot_octocat_classic_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r5_1789682379704/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r5_1789682379704/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r5_1789682472708/github_octocat_classic_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r5_1789682472708/copilot_octocat_classic_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r5_1789682472708/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r5_1789682472708/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r6_1789682637169/github_octocat_classic_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r6_1789682637169/copilot_octocat_classic_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r6_1789682637169/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r6_1789682637169/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r7_1789682722408/github_octocat_classic_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r7_1789682722408/copilot_octocat_classic_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r7_1789682722408/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r7_1789682722408/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r8_1789682985090/github_octocat_classic_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r8_1789682985090/copilot_octocat_classic_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r8_1789682985090/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r8_1789682985090/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r9_1789683512158/github_octocat_classic_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r9_1789683512158/copilot_octocat_classic_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/.staging/r9_1789683512158/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/.staging/r9_1789683512158/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/github_octocat_classic_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic/v01/copilot_octocat_classic_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/revisions/r2_before_r3/github_octocat_classic_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic/v01/revisions/r2_before_r3/copilot_octocat_classic_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/revisions/r2_before_r3/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/revisions/r2_before_r3/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/revisions/r3_before_r4/github_octocat_classic_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic/v01/revisions/r3_before_r4/copilot_octocat_classic_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/revisions/r3_before_r4/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/revisions/r3_before_r4/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/revisions/r4_before_r5/github_octocat_classic_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic/v01/revisions/r4_before_r5/copilot_octocat_classic_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/revisions/r4_before_r5/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/revisions/r4_before_r5/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/revisions/r5_before_r6/github_octocat_classic_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic/v01/revisions/r5_before_r6/copilot_octocat_classic_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/revisions/r5_before_r6/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/revisions/r5_before_r6/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/revisions/r6_before_r7/github_octocat_classic_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic/v01/revisions/r6_before_r7/copilot_octocat_classic_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/revisions/r6_before_r7/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/revisions/r6_before_r7/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/revisions/r7_before_r8/github_octocat_classic_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic/v01/revisions/r7_before_r8/copilot_octocat_classic_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/revisions/r7_before_r8/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/revisions/r7_before_r8/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/revisions/r8_before_r9/github_octocat_classic_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic/v01/revisions/r8_before_r9/copilot_octocat_classic_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic/v01/revisions/r8_before_r9/github_octocat_classic_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic/v01/revisions/r8_before_r9/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "assets/runtime/towers/github_octocat_classic_v01.glb",
+      "to": "assets/runtime/towers/copilot_octocat_classic_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/.staging/r2_1789681362483/github_octocat_modern_v01.glb",
+      "to": "blender/towers/copilot_octocat_modern/v01/.staging/r2_1789681362483/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/.staging/r2_1789681395248/github_octocat_modern_v01.glb",
+      "to": "blender/towers/copilot_octocat_modern/v01/.staging/r2_1789681395248/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/.staging/r3_1789681480251/github_octocat_modern_v01.blend",
+      "to": "blender/towers/copilot_octocat_modern/v01/.staging/r3_1789681480251/copilot_octocat_modern_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/.staging/r3_1789681480251/github_octocat_modern_v01.glb",
+      "to": "blender/towers/copilot_octocat_modern/v01/.staging/r3_1789681480251/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/.staging/r4_1789681601971/github_octocat_modern_v01.blend",
+      "to": "blender/towers/copilot_octocat_modern/v01/.staging/r4_1789681601971/copilot_octocat_modern_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/.staging/r4_1789681601971/github_octocat_modern_v01.glb",
+      "to": "blender/towers/copilot_octocat_modern/v01/.staging/r4_1789681601971/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/.staging/r5_1789682484077/github_octocat_modern_v01.blend",
+      "to": "blender/towers/copilot_octocat_modern/v01/.staging/r5_1789682484077/copilot_octocat_modern_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/.staging/r5_1789682484077/github_octocat_modern_v01.glb",
+      "to": "blender/towers/copilot_octocat_modern/v01/.staging/r5_1789682484077/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/.staging/r6_1789682649452/github_octocat_modern_v01.blend",
+      "to": "blender/towers/copilot_octocat_modern/v01/.staging/r6_1789682649452/copilot_octocat_modern_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/.staging/r6_1789682649452/github_octocat_modern_v01.glb",
+      "to": "blender/towers/copilot_octocat_modern/v01/.staging/r6_1789682649452/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/.staging/r7_1789682734835/github_octocat_modern_v01.blend",
+      "to": "blender/towers/copilot_octocat_modern/v01/.staging/r7_1789682734835/copilot_octocat_modern_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/.staging/r7_1789682734835/github_octocat_modern_v01.glb",
+      "to": "blender/towers/copilot_octocat_modern/v01/.staging/r7_1789682734835/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/.staging/r8_1789682871758/github_octocat_modern_v01.blend",
+      "to": "blender/towers/copilot_octocat_modern/v01/.staging/r8_1789682871758/copilot_octocat_modern_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/.staging/r8_1789682871758/github_octocat_modern_v01.glb",
+      "to": "blender/towers/copilot_octocat_modern/v01/.staging/r8_1789682871758/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/.staging/r9_1789682998011/github_octocat_modern_v01.blend",
+      "to": "blender/towers/copilot_octocat_modern/v01/.staging/r9_1789682998011/copilot_octocat_modern_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/.staging/r9_1789682998011/github_octocat_modern_v01.glb",
+      "to": "blender/towers/copilot_octocat_modern/v01/.staging/r9_1789682998011/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/github_octocat_modern_v01.blend",
+      "to": "blender/towers/copilot_octocat_modern/v01/copilot_octocat_modern_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/revisions/r2_before_r3/github_octocat_modern_v01.blend",
+      "to": "blender/towers/copilot_octocat_modern/v01/revisions/r2_before_r3/copilot_octocat_modern_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/revisions/r2_before_r3/github_octocat_modern_v01.glb",
+      "to": "blender/towers/copilot_octocat_modern/v01/revisions/r2_before_r3/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/revisions/r3_before_r4/github_octocat_modern_v01.blend",
+      "to": "blender/towers/copilot_octocat_modern/v01/revisions/r3_before_r4/copilot_octocat_modern_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/revisions/r3_before_r4/github_octocat_modern_v01.glb",
+      "to": "blender/towers/copilot_octocat_modern/v01/revisions/r3_before_r4/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/revisions/r4_before_r5/github_octocat_modern_v01.blend",
+      "to": "blender/towers/copilot_octocat_modern/v01/revisions/r4_before_r5/copilot_octocat_modern_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/revisions/r4_before_r5/github_octocat_modern_v01.glb",
+      "to": "blender/towers/copilot_octocat_modern/v01/revisions/r4_before_r5/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/revisions/r5_before_r6/github_octocat_modern_v01.blend",
+      "to": "blender/towers/copilot_octocat_modern/v01/revisions/r5_before_r6/copilot_octocat_modern_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/revisions/r5_before_r6/github_octocat_modern_v01.glb",
+      "to": "blender/towers/copilot_octocat_modern/v01/revisions/r5_before_r6/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/revisions/r6_before_r7/github_octocat_modern_v01.blend",
+      "to": "blender/towers/copilot_octocat_modern/v01/revisions/r6_before_r7/copilot_octocat_modern_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/revisions/r6_before_r7/github_octocat_modern_v01.glb",
+      "to": "blender/towers/copilot_octocat_modern/v01/revisions/r6_before_r7/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/revisions/r7_before_r8/github_octocat_modern_v01.blend",
+      "to": "blender/towers/copilot_octocat_modern/v01/revisions/r7_before_r8/copilot_octocat_modern_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/revisions/r7_before_r8/github_octocat_modern_v01.glb",
+      "to": "blender/towers/copilot_octocat_modern/v01/revisions/r7_before_r8/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/revisions/r8_before_r9/github_octocat_modern_v01.blend",
+      "to": "blender/towers/copilot_octocat_modern/v01/revisions/r8_before_r9/copilot_octocat_modern_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_modern/v01/revisions/r8_before_r9/github_octocat_modern_v01.glb",
+      "to": "blender/towers/copilot_octocat_modern/v01/revisions/r8_before_r9/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "assets/runtime/towers/github_octocat_modern_v01.glb",
+      "to": "assets/runtime/towers/copilot_octocat_modern_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r2_1789684071596/github_octocat_classic_lowpoly_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r2_1789684071596/copilot_octocat_classic_lowpoly_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r3_1789684155769/github_octocat_classic_lowpoly_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r3_1789684155769/copilot_octocat_classic_lowpoly_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r3_1789684155769/github_octocat_classic_lowpoly_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r3_1789684155769/copilot_octocat_classic_lowpoly_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r4_1789684349144/github_octocat_classic_lowpoly_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r4_1789684349144/copilot_octocat_classic_lowpoly_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r4_1789684349144/github_octocat_classic_lowpoly_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r4_1789684349144/copilot_octocat_classic_lowpoly_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r5_1789684600076/github_octocat_classic_lowpoly_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r5_1789684600076/copilot_octocat_classic_lowpoly_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r5_1789684600076/github_octocat_classic_lowpoly_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r5_1789684600076/copilot_octocat_classic_lowpoly_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r6_1789684855175/github_octocat_classic_lowpoly_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r6_1789684855175/copilot_octocat_classic_lowpoly_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r6_1789684855175/github_octocat_classic_lowpoly_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r6_1789684855175/copilot_octocat_classic_lowpoly_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r7_1789685101313/github_octocat_classic_lowpoly_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r7_1789685101313/copilot_octocat_classic_lowpoly_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r7_1789685101313/github_octocat_classic_lowpoly_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/.staging/r7_1789685101313/copilot_octocat_classic_lowpoly_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/github_octocat_classic_lowpoly_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/copilot_octocat_classic_lowpoly_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r2_before_r3/github_octocat_classic_lowpoly_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r2_before_r3/copilot_octocat_classic_lowpoly_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r2_before_r3/github_octocat_classic_lowpoly_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r2_before_r3/copilot_octocat_classic_lowpoly_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r3_before_r4/github_octocat_classic_lowpoly_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r3_before_r4/copilot_octocat_classic_lowpoly_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r3_before_r4/github_octocat_classic_lowpoly_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r3_before_r4/copilot_octocat_classic_lowpoly_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r4_before_r5/github_octocat_classic_lowpoly_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r4_before_r5/copilot_octocat_classic_lowpoly_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r4_before_r5/github_octocat_classic_lowpoly_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r4_before_r5/copilot_octocat_classic_lowpoly_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r5_before_r6/github_octocat_classic_lowpoly_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r5_before_r6/copilot_octocat_classic_lowpoly_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r5_before_r6/github_octocat_classic_lowpoly_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r5_before_r6/copilot_octocat_classic_lowpoly_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r6_before_r7/github_octocat_classic_lowpoly_v01.blend",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r6_before_r7/copilot_octocat_classic_lowpoly_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r6_before_r7/github_octocat_classic_lowpoly_v01.glb",
+      "to": "blender/towers/copilot_octocat_classic_lowpoly/v01/revisions/r6_before_r7/copilot_octocat_classic_lowpoly_v01.glb"
+    },
+    {
+      "from": "assets/runtime/towers/github_octocat_classic_lowpoly_v01.glb",
+      "to": "assets/runtime/towers/copilot_octocat_classic_lowpoly_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/.staging/r10_1790260480220/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/.staging/r10_1790260480220/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/.staging/r11_1790261266608/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/.staging/r11_1790261266608/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/.staging/r12_1790261361113/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/.staging/r12_1790261361113/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/.staging/r13_1790261686873/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/.staging/r13_1790261686873/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/.staging/r14_1790261714263/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/.staging/r14_1790261714263/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/.staging/r2_1789685545512/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/.staging/r2_1789685545512/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/.staging/r3_1789685705057/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/.staging/r3_1789685705057/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/.staging/r3_1789685705057/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/.staging/r3_1789685705057/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/.staging/r4_1789685902395/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/.staging/r4_1789685902395/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/.staging/r4_1789685902395/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/.staging/r4_1789685902395/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/.staging/r5_1789686761385/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/.staging/r5_1789686761385/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/.staging/r5_1789686761385/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/.staging/r5_1789686761385/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r10_before_attachment_face_refinement/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/revisions/r10_before_attachment_face_refinement/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r10_before_attachment_face_refinement/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/revisions/r10_before_attachment_face_refinement/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r10_before_r11/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/revisions/r10_before_r11/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r10_before_r11/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/revisions/r10_before_r11/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r11_before_r12/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/revisions/r11_before_r12/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r11_before_r12/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/revisions/r11_before_r12/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r12_before_r13/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/revisions/r12_before_r13/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r12_before_r13/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/revisions/r12_before_r13/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r12_model_approved_before_animation/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/revisions/r12_model_approved_before_animation/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r12_model_approved_before_animation/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/revisions/r12_model_approved_before_animation/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r13_before_r14/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/revisions/r13_before_r14/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r13_before_r14/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/revisions/r13_before_r14/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r2_before_r3/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/revisions/r2_before_r3/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r2_before_r3/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/revisions/r2_before_r3/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r3_before_r4/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/revisions/r3_before_r4/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r3_before_r4/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/revisions/r3_before_r4/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r4_before_r5/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/revisions/r4_before_r5/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r4_before_r5/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/revisions/r4_before_r5/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r5_before_r6/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/revisions/r5_before_r6/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r5_before_r6/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/revisions/r5_before_r6/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r6_before_r7/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/revisions/r6_before_r7/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r6_before_r7/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/revisions/r6_before_r7/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r7_before_r8/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/revisions/r7_before_r8/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r7_before_r8/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/revisions/r7_before_r8/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r8_before_r9/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/revisions/r8_before_r9/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r8_before_r9/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/revisions/r8_before_r9/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r9_before_r10/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/revisions/r9_before_r10/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r9_before_r10/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/revisions/r9_before_r10/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r9_before_six_shooter_refinement/linter_agent_v01.blend",
+      "to": "blender/towers/copilot_linter/v01/revisions/r9_before_six_shooter_refinement/copilot_linter_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_linter/v01/revisions/r9_before_six_shooter_refinement/linter_agent_v01.glb",
+      "to": "blender/towers/copilot_linter/v01/revisions/r9_before_six_shooter_refinement/copilot_linter_v01.glb"
+    },
+    {
+      "from": "assets/runtime/towers/linter_agent_v01.glb",
+      "to": "assets/runtime/towers/copilot_linter_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_human_developer/v01/.staging/r2_1790246587537/human_developer_v01.glb",
+      "to": "blender/towers/copilot_human_developer/v01/.staging/r2_1790246587537/copilot_human_developer_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_human_developer/v01/.staging/r2_1790246617321/human_developer_v01.glb",
+      "to": "blender/towers/copilot_human_developer/v01/.staging/r2_1790246617321/copilot_human_developer_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_human_developer/v01/.staging/r3_1790246664880/human_developer_v01.blend",
+      "to": "blender/towers/copilot_human_developer/v01/.staging/r3_1790246664880/copilot_human_developer_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_human_developer/v01/.staging/r3_1790246664880/human_developer_v01.glb",
+      "to": "blender/towers/copilot_human_developer/v01/.staging/r3_1790246664880/copilot_human_developer_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_human_developer/v01/.staging/r4_1790246706681/human_developer_v01.blend",
+      "to": "blender/towers/copilot_human_developer/v01/.staging/r4_1790246706681/copilot_human_developer_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_human_developer/v01/.staging/r4_1790246706681/human_developer_v01.glb",
+      "to": "blender/towers/copilot_human_developer/v01/.staging/r4_1790246706681/copilot_human_developer_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_human_developer/v01/human_developer_v01.blend",
+      "to": "blender/towers/copilot_human_developer/v01/copilot_human_developer_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_human_developer/v01/human_developer_v01.blend1",
+      "to": "blender/towers/copilot_human_developer/v01/copilot_human_developer_v01.blend1"
+    },
+    {
+      "from": "blender/towers/copilot_human_developer/v01/revisions/r2_before_r3/human_developer_v01.blend",
+      "to": "blender/towers/copilot_human_developer/v01/revisions/r2_before_r3/copilot_human_developer_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_human_developer/v01/revisions/r2_before_r3/human_developer_v01.glb",
+      "to": "blender/towers/copilot_human_developer/v01/revisions/r2_before_r3/copilot_human_developer_v01.glb"
+    },
+    {
+      "from": "blender/towers/copilot_human_developer/v01/revisions/r3_before_r4/human_developer_v01.blend",
+      "to": "blender/towers/copilot_human_developer/v01/revisions/r3_before_r4/copilot_human_developer_v01.blend"
+    },
+    {
+      "from": "blender/towers/copilot_human_developer/v01/revisions/r3_before_r4/human_developer_v01.glb",
+      "to": "blender/towers/copilot_human_developer/v01/revisions/r3_before_r4/copilot_human_developer_v01.glb"
+    },
+    {
+      "from": "assets/runtime/towers/human_developer_v01.glb",
+      "to": "assets/runtime/towers/copilot_human_developer_v01.glb"
+    }
+  ],
+  "edits": [
+    {
+      "beforePath": "assets/animation_coverage.json",
+      "afterPath": "assets/animation_coverage.json",
+      "beforeHash": "0824bf62cf939d1ca2689c170c11bf6836800c0844c4d336c9eb5afa3feb3d6c",
+      "afterHash": "f571dc3e029d0520d90439c43638a3510721cb68fe8bd463144fe853480df3e1"
+    },
+    {
+      "beforePath": "assets/asset_catalog.json",
+      "afterPath": "assets/asset_catalog.json",
+      "beforeHash": "effb3d3c2a57918b30fb2f5534cbb79dbd32ed0a1e9f1746e012f7374cf4230f",
+      "afterHash": "8e671bf78333e77a497da5c44e849cf8946e2d5a5f363703c808f004b825eb6a"
+    },
+    {
+      "beforePath": "assets/migration_report.json",
+      "afterPath": "assets/migration_report.json",
+      "beforeHash": "bddbd6332084a5487a7c66148412defb80667a4366451ab65e08f7d437fc9849",
+      "afterHash": "d3a40f1a5b4fb33c77ffea7a9ccddca7072d24d2f1458d6e858e3d828c1c782f"
+    },
+    {
+      "beforePath": "assets/palette_conversion_report.json",
+      "afterPath": "assets/palette_conversion_report.json",
+      "beforeHash": "0fbd283d71bcec66d95e76b3d0e4c2663de5ea9c127e5c47ff80a74bc1da3882",
+      "afterHash": "5cc3f63623a6c0a1b385a567d277d1ab11e67c6ca0c16d8d6182b8698d1f8d9c"
+    },
+    {
+      "beforePath": "assets/palette_conversion_source_audit.json",
+      "afterPath": "assets/palette_conversion_source_audit.json",
+      "beforeHash": "d4b5ccd98d7d5a3cff1dd822cb1c9221ec4fb98b3e286fd2c187774b6b07d122",
+      "afterHash": "0e72447c98774fb125188ea8af1e2024196e67bed3f1e2c79b67c2f66dc352b5"
+    },
+    {
+      "beforePath": "assets/validation_catalog.json",
+      "afterPath": "assets/validation_catalog.json",
+      "beforeHash": "57922a06482e599787cb5b6015486a2d984f72f26881fa60cf8470c78b0ee6f2",
+      "afterHash": "5a8bc7de07db15db28b9ffb7681d9ae5491a4dd66147c80ddfd3df1be7453600"
+    },
+    {
+      "beforePath": "blender/environment/campus_pixel_mona/v01/asset.json",
+      "afterPath": "blender/environment/campus_pixel_mona/v01/asset.json",
+      "beforeHash": "7eec3c16c0c860e36ff6029f1a29f687b44ca18bd0d1c166cba4077e68bf509f",
+      "afterHash": "e9b06c47276889e4b4c0331f3330192d6d0988918ad4aafc66900ded1e69a7da"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/asset.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/asset.json",
+      "beforeHash": "160cf6da095720b194edfcd5f6e4750d64a6c1351b39f67749dd9d01536605ac",
+      "afterHash": "66bd1674323473ea8bce1ea2bdf5e386a43222b45952e73d4a1021844b7ab451"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/audit-celebrate.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/audit-celebrate.py",
+      "beforeHash": "fb551083f1cbaee9bcd3d9931da99d8a0a6898431ac8427e2e6ba9ce748eab6f",
+      "afterHash": "6e3f929467149776d8f27b5f6f5192773b13c1fb45bd48565345c6bcc3c8b4ac"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/audit-hand-shape.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/audit-hand-shape.py",
+      "beforeHash": "32a290cc543e3e2a6505718f5ca1a3f48c88b8f60a685e7371363841b9641b02",
+      "afterHash": "bddfe50fc896a79392d97bda2a47cc60d733eead106c12c84a4c8fb4449cf08e"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/audit-hands.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/audit-hands.py",
+      "beforeHash": "adcc0ddf7c29780e1e3102003014c4ee6210f9b2d06975770d0ef586ac04dc40",
+      "afterHash": "a9fda18ac7447b0b9b9f7785e5735993ba9028b11997fc08a4431e30def4431b"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/audit-neck.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/audit-neck.py",
+      "beforeHash": "e082338ec838b31fbd60dab7c28f2b863684c9b52c3a26d028345d922f39687b",
+      "afterHash": "99a4e4a596ce39e438b9bd2a521b76c80febe286d80044e47411b3178fa16a2e"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/audit-pack-clearance.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/audit-pack-clearance.py",
+      "beforeHash": "ada91f34c3495a722b183969c31e70e264eb5e7d0da3eb399f8008681f526864",
+      "afterHash": "3f62afebba5554f65348ad6772c39e8c8b5afdbdf2f8c63d8b27939b540bc150"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/audit-strap-topology.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/audit-strap-topology.py",
+      "beforeHash": "aa40cd6171e96aea207f754998a077a3275ea202b5d4484925a335b5fc5bba92",
+      "afterHash": "bbfd2756780b4030f21c00d37ba8ea2ff205581aa72afcea94fdbc5e7703b4a0"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/audit-straps-work.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/audit-straps-work.py",
+      "beforeHash": "17f03d5e378386ee1c60ee95cfc70c7dc190d56acea105e7aca5e29ad86db297",
+      "afterHash": "7d90a5dff0d0e4029d46410257b515d053f27054ac42bbb5b96d55e13586200e"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/audit-walk.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/audit-walk.py",
+      "beforeHash": "aba2e3e83c56d03e1d5bbc4d70fdf503ffa8e9c1f7cfc996f37b23afaa56c874",
+      "afterHash": "78b7762202de1097d83eda228d011a3d85c83b8647be1db914d86e3292d0c4af"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/audit-work-walk-arms.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/audit-work-walk-arms.py",
+      "beforeHash": "0b75d02ea0811c07b1c5051fa8f548b66dfd6bb75e98ebf87a9e9f7cea367525",
+      "afterHash": "8f01a58de3a1cac97dda9ade4df9bf70833e39d6569134dcf6848019a7a09b31"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/build.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/build.py",
+      "beforeHash": "dc4357cd75d982327966a8e86449e35b3ad1fe24a49cc2757ba9550a52bf5888",
+      "afterHash": "440d76e0b1173b060cba48512664da14b0637e947ffdc0339e7643e72cf08b57"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/calibrate-contact.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/calibrate-contact.py",
+      "beforeHash": "9406b7bd33e3015247b26fcd581e7d661c5b136137ffcf9f8fc23aa1d0b02adf",
+      "afterHash": "180b3aebaf2be98b21c87bb0a97fec6dc7e0ee7995e9b360948fd09e09a4cd7f"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/fit-elbow-clearance.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/fit-elbow-clearance.py",
+      "beforeHash": "7894572f5f40dca99734ccc2206496883332d2a5a5574e834ffd457bebd24d54",
+      "afterHash": "204b583a4968461cab0173fd47047f2ced83369a30512e9ee6eb197110c20fa7"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/fit-strap-clearance.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/fit-strap-clearance.py",
+      "beforeHash": "74c43b2ddd1783ea45fb5c29fed66f57dadc315c3cd5655306b3f8494da96d0a",
+      "afterHash": "2aee591b8dc1e6c16ebf86f1c0760d46edce3768dea455c5b98db8dafbdc48b3"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/inspect-animation.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/inspect-animation.py",
+      "beforeHash": "3ae1085ed9d0536387d3f6ac0484a1b7565ddb212688d50dfa1aa436b04d1eff",
+      "afterHash": "465b6c1b7c615541430a0be1ff7fb2bc34429a1a499c75fdca55f2938b845a72"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/refine-celebrate.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/refine-celebrate.py",
+      "beforeHash": "d648ef636e527b97d9366155a7caf014aed8a83f5acbe31c0925c0b74fe66bb3",
+      "afterHash": "fc483370ad4197a9e229b3a7b7f34a65c4cfa6539eac1d1ec03a15f7462a2c55"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/refine-hands-motion.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/refine-hands-motion.py",
+      "beforeHash": "f64695d1d0991ffec3dd4f0a342fef3dae1bf4218920378c803db0072d96d819",
+      "afterHash": "fc45aa4601040b56c1c51c55e3e0d0e98d62bca49dfdcb6df0a3e147b872b569"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/refine-neck.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/refine-neck.py",
+      "beforeHash": "173d65500ce54b705376de080d143c8606583eb4618c912059eb6a88ecaf797a",
+      "afterHash": "a5a6052160f073e0d82513eb5c1c56349f744a76924b8086bb11b4e9a51a4c9a"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/refine-proportions-walk.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/refine-proportions-walk.py",
+      "beforeHash": "070ed9cb3a024e54e753f80365cb915e452a5864440c326ee4a8c57551fbffa5",
+      "afterHash": "af8d63f26f1826377485cf72610c8bccfd5097ce4462d28739835e9498d3263e"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/refine-work-straps.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/refine-work-straps.py",
+      "beforeHash": "07d3817d2d1565d4535550df454d083b0d0532650b8549eedd79485afc750d57",
+      "afterHash": "b60a81419491a5a51891e4805c801c147e8efd4b0c285b218ee65b681b91dd4f"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/refine-work-walk-arms.py",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/refine-work-walk-arms.py",
+      "beforeHash": "1bccc443023d63b73acb962ee24afd9e655b3e434c306cfd60994a51f2c6e855",
+      "afterHash": "15ef13de3bcfb9e12ec8efa1359d0ca11220758ef64d3306f06c84d65a35e770"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/review-celebrate.cjs",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/review-celebrate.cjs",
+      "beforeHash": "3a5254ee3585a7fb1abea4600cfe68b97a81915e51db6b7b68277f2e7cc94264",
+      "afterHash": "565e80d23fbd4c37040f7755149859a7ae09481f69f90d7e217cd8eaa6a6070a"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/review-details.cjs",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/review-details.cjs",
+      "beforeHash": "f89f6c78e984cf72f91bf20bac427eba4929dba8399b016d28f3db748ad2c7f1",
+      "afterHash": "083e312d6c5ccb82d8d597f7d38d6bf5643ae943c056ea4fed8d0f201a55e580"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/review-hand-details.cjs",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/review-hand-details.cjs",
+      "beforeHash": "b28cf85c907cfc62a0f455b997e007c0bdca86e1764eac4e2c16aba34078635a",
+      "afterHash": "0db28f2e8fb234a20b605a69ebe8c6ae54589899506993d7745bed8c46ff4bec"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/review-hands.cjs",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/review-hands.cjs",
+      "beforeHash": "c4adeb8b826cfd516a7b78b10fe863e9e55b503dcb787dc4c1a12489bd86bc60",
+      "afterHash": "6b3c3f08f878b999e13af383421717ec220db1ed96eaa72a6bdabf45d458d0ba"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/review-neck.cjs",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/review-neck.cjs",
+      "beforeHash": "338ad4626fd1a67a5abcac91f87b58d345d3087c63f1ec558cbe8967816562bb",
+      "afterHash": "80bf78a6060c0a73dbb79c9091f754615d2ea901a10193600b250c37ce7e25df"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/review-proportions-walk.cjs",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/review-proportions-walk.cjs",
+      "beforeHash": "0020140c9e65f7d2e53b44b435cea89bea1f434b66b79fbe0c14fc142a360c8d",
+      "afterHash": "e0feaeb82bace7a2ed921d90e21139ed5a0f059ba6666f2ebf405e631c11d8df"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/review-work-straps.cjs",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/review-work-straps.cjs",
+      "beforeHash": "daa5b703d5bed9673be40222f6c917b502f2f0ea9471616426de654fdc724e30",
+      "afterHash": "9e64ac741553bd28ca9f6370d37fa0f0642e2bd62a0c31dcdbfc66c8556cb2a5"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/review.cjs",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/review.cjs",
+      "beforeHash": "f6e1290ef3da9c496a17c9d4a77427c866d7eb5a3c9c7d191e67b7a9704f548a",
+      "afterHash": "d3126711cc506e01c2d1c506eb3a9200922581a88d710aa539e626ede3189b03"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/celebrate_r25/state.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/celebrate_r25/state.json",
+      "beforeHash": "cdf02f3e88c15ad819e37d00829ff44c15fe1f23842299669d376a7b4918ab06",
+      "afterHash": "655288aa983f59d9972ee546f53c0c2f80a96e7b3025b8d6468865e2f866b412"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/celebrate_r26/state.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/celebrate_r26/state.json",
+      "beforeHash": "f9c5d84e6f19da763f226b28957a23469dd53252da6ee675ffc981326085e3bb",
+      "afterHash": "4a4415201b4aa7cefb029d84a3bd223629fb01d23cfc0a956c6e91832d40c705"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/extra-review/state.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/extra-review/state.json",
+      "beforeHash": "484dd93ab3eb4691e22f23d752f65ada466afbcfe54ac1c2fadfd1f5263b3075",
+      "afterHash": "838a0115e556ea655586d1990d3c6b77dc70e2b0061b48114f90bb33e11d8c04"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/hands/state.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/hands/state.json",
+      "beforeHash": "8d61d5dd0f478f865ed6989e9304508673c6e81b19a4a36197f7bd987c0b6fc8",
+      "afterHash": "37315bc1bb1d80ed1a073cfcc571d80fb4e51a838c199adb88780f0b60f5a707"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/hands_motion_r33/report.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/hands_motion_r33/report.json",
+      "beforeHash": "507108f7c767cf8c6d32973cdbeeb893d4ed70400087e3ce94fe6d66fb51afc5",
+      "afterHash": "c124019536e368a708daf7d43dd8c51abcafdd53d9d7b45b27a4505b1412e555"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/hands_motion_r36/report.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/hands_motion_r36/report.json",
+      "beforeHash": "6e4babcd0b0d8b234fe93ef60355ad5734c6d50f200bcae9d928a41a4270dfe0",
+      "afterHash": "19799630aac544760f70fb319fb8a09682fad98c34e472ca0a99d061005a6f5e"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/neck_r35/state.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/neck_r35/state.json",
+      "beforeHash": "645b481def284c9ce5b23c17eace0aca82a9b7ee045a08683a345efc9b94d617",
+      "afterHash": "6821f2377217a3560375f31872c58f209bef8e61cae66164ae4c57b2f84b8220"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/neck_r36/state.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/neck_r36/state.json",
+      "beforeHash": "0e2a1b9d8c35e939f370388b07d1e4d035fd833ffd088c36ad3af9cbb2520853",
+      "afterHash": "df9ce399afa4881ab038cf0add94b117ba6ac15e6cdef084f3b998ee5f9af90d"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/nose-pack/state.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/nose-pack/state.json",
+      "beforeHash": "305b013291787a7d4cacd87cf0d68fd1debdb2c84b48a4060bce346f88829861",
+      "afterHash": "86ca795fb81745304cf7998b9ae38b1265553c6d80ac516a3b37a69fdfd2376e"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/palette_before_report.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/palette_before_report.json",
+      "beforeHash": "e875920c769368082452012d943275f4d928ef754d503d15a7beb4c21c3ad483",
+      "afterHash": "d59ef31e78a73297b80c3b26846527f998234f2d4ebcd9d19dbd06146fce6eb5"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/palette_source_conversion.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/palette_source_conversion.json",
+      "beforeHash": "177a7a20a2c3f14a6f6b6d4ebc782f4c86c8636776e515c6ac0d484959db823d",
+      "afterHash": "c62fc5af70fd87c0780753a57d9564c298ff8381607d6678dedb2cc72d14d692"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/palette_visual_report.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/palette_visual_report.json",
+      "beforeHash": "f0b4ed3ecd2d9763369be64bed40f553d04bb33c261717a6c60e495dc9f7d034",
+      "afterHash": "f578d9bfa840ae192f1ca243f8c9583c7611240ef3361207d59e01674423de04"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/proportions_walk_r30/report.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/proportions_walk_r30/report.json",
+      "beforeHash": "db056383ce1234ebeb8b28b2f036b1b91d8bf8fb9fe76398edb45622d9b722a9",
+      "afterHash": "27028462c432ca8ad90e46d57c67e70654f23a903d06b93b6ffe9646a208e522"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/proportions_walk_r30/state.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/proportions_walk_r30/state.json",
+      "beforeHash": "19e297649efda87d910bd22e2f57e608b02f26849ce07e15e1a0e17653e74cb5",
+      "afterHash": "c28d17af1dae3e1d0d4ed44bd291a7862cae6f32ed1422ac0f0084a37c2be8c1"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/proportions_walk_r31/state.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/proportions_walk_r31/state.json",
+      "beforeHash": "d674cf4737c2a3d9737d1816e0908d42544f757ea00d5a58b84538c5a7189ed3",
+      "afterHash": "b41476d739638729ada2484dd193bed1bcfc59c32f954bd4fbd987ef23daeed0"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/proportions_walk_r32/state.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/proportions_walk_r32/state.json",
+      "beforeHash": "094fcd25f96e9cdd9c452f86aa963809455822cb442a3915146733be9071b511",
+      "afterHash": "1a51da5294d1bf963369c1c7a75ff707863aec0d40eef017bd57cf209a973665"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/proportions_walk_r33/state.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/proportions_walk_r33/state.json",
+      "beforeHash": "bcfaab292842a72414768a41657d3da39f837595be1dd3f64987e756360d1515",
+      "afterHash": "a9968384a490dea72764b2dc722764e2802de50dcc95cb7a96e8b5378b1489e5"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/report.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/report.json",
+      "beforeHash": "6e4babcd0b0d8b234fe93ef60355ad5734c6d50f200bcae9d928a41a4270dfe0",
+      "afterHash": "19799630aac544760f70fb319fb8a09682fad98c34e472ca0a99d061005a6f5e"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/review_celebrate_r26.md",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/review_celebrate_r26.md",
+      "beforeHash": "02094228d4cd39a6133c9a70876f5b583d61192f1abbf4d38cc4708afd23326b",
+      "afterHash": "3f06a2580c202f1aa8fc7f055df60c5d0f6997603281e7fe5eb6151e5719fd99"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/review_work_straps_r28.md",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/review_work_straps_r28.md",
+      "beforeHash": "a229dc6c2dacc2afe2be307158fb73e3c267510197e48431b0d4c24c7e8cc6e2",
+      "afterHash": "6256cfc9cf4c067a135c1535db11693250a11d102dbe5c4f02081aa80dd52222"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/work_straps_r28/report.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/work_straps_r28/report.json",
+      "beforeHash": "0226fe74e66b82ee92d6d936d6741074313a53dd99512425d167a64c6321ed8f",
+      "afterHash": "be0a7c75a234e6f8e27d3b1ab270d30d2924b43b0d6d941be22ff736543c9c88"
+    },
+    {
+      "beforePath": "blender/towers/bert_breugelmans/v01/validation/work_straps_r28/state.json",
+      "afterPath": "blender/towers/copilot_bert_breugelmans/v01/validation/work_straps_r28/state.json",
+      "beforeHash": "ca3117fae83c3e18afd6c1b814a795b5d08f5cbe597a625ddeace7fb5a632496",
+      "afterHash": "afd01cd4e119edb590fb66745b00c54855a7d8171e4121bf0cac2386337dd894"
+    },
+    {
+      "beforePath": "blender/towers/github_mona_head/v01/asset.json",
+      "afterPath": "blender/towers/copilot_mona_head/v01/asset.json",
+      "beforeHash": "1bf7608b4be9132a25666b73fcfe2b30b653566a708c6cc97b17e2a6b9d6bd06",
+      "afterHash": "29b1a672fbe09e521c663a796f41fb0cbf6a37a80f975aa8578e33cf234e0e5b"
+    },
+    {
+      "beforePath": "blender/towers/github_mona_head/v01/decisions.md",
+      "afterPath": "blender/towers/copilot_mona_head/v01/decisions.md",
+      "beforeHash": "2a376710c9fc4f7f979b48b02d7edf1d12332a50226e287f2a4b29573d2a5ae9",
+      "afterHash": "62ad022b82073681bb9cc568a9320acaa60ad1839258f1e8357f0157329c4783"
+    },
+    {
+      "beforePath": "blender/towers/github_mona_head/v01/README.md",
+      "afterPath": "blender/towers/copilot_mona_head/v01/README.md",
+      "beforeHash": "aa438a94f9a755b9d0f9f331463e18a17f9dd548e7e6d776145302baa76aa0d2",
+      "afterHash": "b3e897fe1050a1f71d393fe06b435b5be5e48214d683e78343a067be6d5b934e"
+    },
+    {
+      "beforePath": "blender/towers/github_mona_head/v01/validation/report.json",
+      "afterPath": "blender/towers/copilot_mona_head/v01/validation/report.json",
+      "beforeHash": "89514ef542f0961e20bb8ad08da1b5016977fc866b56cdfb0ac9ca68c0031813",
+      "afterHash": "bc2399400fbe945a947e537220bee5adaf29ad4405435f2f6cc80129ebbd83a8"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic/v01/asset.json",
+      "afterPath": "blender/towers/copilot_octocat_classic/v01/asset.json",
+      "beforeHash": "f20595d405315a515f1b912745d16e61fe6ab44fb389fc58bece519f918f7e74",
+      "afterHash": "c864ab284fceec138ff77b3340094b23b7bd8370de6f22f8bc05656a05198849"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic/v01/decisions.md",
+      "afterPath": "blender/towers/copilot_octocat_classic/v01/decisions.md",
+      "beforeHash": "8a2c40e9f9b07214823059b6adebea5deb7850fb38df0eae9a133ffbbcf9770c",
+      "afterHash": "12b81466c9ff426584ba602a94fb9005666abda7db5feec2e20fbb0c10820ed4"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic/v01/review_joins.cjs",
+      "afterPath": "blender/towers/copilot_octocat_classic/v01/review_joins.cjs",
+      "beforeHash": "b059504099f29cf05a27b77d1ebaef9740bbe6b398f159e229050ffcec032b8a",
+      "afterHash": "0d85fa94a7d409df6d0dd2b58a6d978a6e9af95085b0cb7cbadd92cf8c05466c"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic/v01/validation/inspector_check.json",
+      "afterPath": "blender/towers/copilot_octocat_classic/v01/validation/inspector_check.json",
+      "beforeHash": "f1595dc952cb61aa4d62f18736ead3ecf8a5d6f740c1b52ab09f52b27888ada0",
+      "afterHash": "1ac7e4582218982529d1bdb2c7aa20294fe1cd72d50229246908bf894dfbe67c"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic/v01/validation/modern_after_join_fix.json",
+      "afterPath": "blender/towers/copilot_octocat_classic/v01/validation/modern_after_join_fix.json",
+      "beforeHash": "6086b0c24a702fe4f3f8f9ee465c0baf7c65ac56d77f347081935bb93b821c4a",
+      "afterHash": "0e36d2dd841d430415cad285a108b32a64275def29405ab8a7867223c72d8656"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic/v01/validation/modern_before_join_fix.json",
+      "afterPath": "blender/towers/copilot_octocat_classic/v01/validation/modern_before_join_fix.json",
+      "beforeHash": "e098009e154b8ed25d1ca00348ff1ce346efe49a74976bf7f6a512c069512087",
+      "afterHash": "96d45279952ee16387b97fddae9583283e721b8bede676da68481ba74db9a4af"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic/v01/validation/report.json",
+      "afterPath": "blender/towers/copilot_octocat_classic/v01/validation/report.json",
+      "beforeHash": "1bc6c42d641093fb51ee7045d865e4247774aa65ac4a237a69a0cdc18cf8699e",
+      "afterHash": "696789f830073a3d6f57e9cf0c92fa210387328f25d9815710f2e26ae2d44652"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic/v01/validation/visual_review.json",
+      "afterPath": "blender/towers/copilot_octocat_classic/v01/validation/visual_review.json",
+      "beforeHash": "5e6c0c1773eb2105d4b8e94284bcbca6f0799ae300ca13aa981fe96065acec36",
+      "afterHash": "75c329006ebd66516ff233ed4ae348419d9f0af3ea9ef84869b9ce63eb0cdc75"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic_lowpoly/v01/asset.json",
+      "afterPath": "blender/towers/copilot_octocat_classic_lowpoly/v01/asset.json",
+      "beforeHash": "30da7fa2bded067095f40d3ad9b3d5b851aa746465271731d95595d15f2c362d",
+      "afterHash": "ed7c47a05546add1987ea5b3089d4cb7738aa37ee4426009f828caaef0c098b2"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic_lowpoly/v01/audit_animation.py",
+      "afterPath": "blender/towers/copilot_octocat_classic_lowpoly/v01/audit_animation.py",
+      "beforeHash": "f098d3858c8511c3ec3fc002cc28abf5b8f5a0a6d47e28b38409c0e7cf749e62",
+      "afterHash": "c3aefc46ac89adb158e590cfe781917bd7e8a0491e2b7254fd989e8baf62e0f6"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic_lowpoly/v01/build.py",
+      "afterPath": "blender/towers/copilot_octocat_classic_lowpoly/v01/build.py",
+      "beforeHash": "4c2535f6de66e70110531bc4ff4744fb8cfa9dbafb0f3815d731c32e5fd7f19b",
+      "afterHash": "04d224477c4aee19e9c6544809010041fad94c2002f088d263a5ca5402d5df07"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic_lowpoly/v01/decisions.md",
+      "afterPath": "blender/towers/copilot_octocat_classic_lowpoly/v01/decisions.md",
+      "beforeHash": "58e0a2399a5064164f4e9a573f65ea9ef6ef3179a3dd3fbe604dea94928b670e",
+      "afterHash": "4a01e0d2f45c0708f2436d42433aa97e7091988cda9411539ac6de6d3ec5e2b4"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic_lowpoly/v01/review.cjs",
+      "afterPath": "blender/towers/copilot_octocat_classic_lowpoly/v01/review.cjs",
+      "beforeHash": "a79dfe41fb77e75d54db5fb8e080e001f5f61c48f8b9140a85c9489b10f8dd9e",
+      "afterHash": "e6c8a7a3b93d19c73dfd2f2d42a7dfb7b49fb93f2365d28f686fb062683e5b5d"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic_lowpoly/v01/review_animation.cjs",
+      "afterPath": "blender/towers/copilot_octocat_classic_lowpoly/v01/review_animation.cjs",
+      "beforeHash": "318f7398e0671eb64efb1af6e5758bb80aaa3abe8311b59526218ebb74d8379c",
+      "afterHash": "e01d56ed87213587dad7bc88dddb41adc813ba84429a05f5dfb318eb9c412251"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic_lowpoly/v01/validation/animation_inspector.json",
+      "afterPath": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/animation_inspector.json",
+      "beforeHash": "80b4bab06227913dc78f5dc803182f70c51aaa26d905a7bb29871fa79fd48660",
+      "afterHash": "b35acff805f71184d00e65df7d62ec711d7299c9dd5e3349b54e769a6f513a97"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic_lowpoly/v01/validation/high_resolution_before.json",
+      "afterPath": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/high_resolution_before.json",
+      "beforeHash": "01e4a6d0992ef1d48be6d2c591373b1f03a500f189c7f486bf8d4e31484184ca",
+      "afterHash": "77f6913d22ad6abbfe282d509937f341c788f879c08a1a4e372c246f029f775c"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic_lowpoly/v01/validation/high_resolution_preserved.json",
+      "afterPath": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/high_resolution_preserved.json",
+      "beforeHash": "3bf82c40d3b6faa0ec512079209353ebde84f5192defc20b299e0266b227ef2a",
+      "afterHash": "9b998cb85bdea5ae1322d67891b997f62599faedc3ff2025b88e5fdc0e55d8b5"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic_lowpoly/v01/validation/inspector_check.json",
+      "afterPath": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/inspector_check.json",
+      "beforeHash": "be226c2ea90018094a4980f67b5e3c05714ea4462e468e0629fd8f2f972bff39",
+      "afterHash": "264d9c1416b23adb59d45aba4acc2bc0710b644f65a0c8b4d0c159c4936fd732"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic_lowpoly/v01/validation/report.json",
+      "afterPath": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/report.json",
+      "beforeHash": "e1eda1d3f8a29fe1269712af533c3ba1774ca72c6d9fd6180944f8b9e3023e27",
+      "afterHash": "f83735b506cb6e78fbc011baa7aa39f185a6b3e2ccd64dbc16756cde25c73a2a"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_classic_lowpoly/v01/validation/visual_review.json",
+      "afterPath": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/visual_review.json",
+      "beforeHash": "043ca0b16f2febdc0afceae0b38a64f2f642df9c35632d1fe1cc0e1fb2169dd3",
+      "afterHash": "5ff79877238cd10f5963bf09bb477dc0626a0da7bd8e44f65fb324e9bf06166e"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_modern/v01/asset.json",
+      "afterPath": "blender/towers/copilot_octocat_modern/v01/asset.json",
+      "beforeHash": "a5b9b0ecab9a891e40d35b4031133bd58c254d4479143f27ea5c1669d92ede40",
+      "afterHash": "e55efc6973f8552cb046d21bb018c821e5a5ceb0dd3085d303cbc2a9e2900b8b"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_modern/v01/decisions.md",
+      "afterPath": "blender/towers/copilot_octocat_modern/v01/decisions.md",
+      "beforeHash": "26c2ce93ce81e90d24a4c596ce0ca16e7c3600b362f289fd3d928bfba3592b64",
+      "afterHash": "c1ba8622d4ab95d0b319c3651e966384ae5907a03a27ff2ac39325ec91fc3614"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_modern/v01/review.cjs",
+      "afterPath": "blender/towers/copilot_octocat_modern/v01/review.cjs",
+      "beforeHash": "c3395b61122a4446f5214f0eab18be2d487a9047c5d0ba7c0d98da6f15b22728",
+      "afterHash": "69917b03ac22e8663a438f4fd999ac5d495d7d25ae05c198debd9eb00a3af622"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_modern/v01/validation/inspector_check.json",
+      "afterPath": "blender/towers/copilot_octocat_modern/v01/validation/inspector_check.json",
+      "beforeHash": "ef8bf2ad78981a0e6cf5d0a0903d48fbbdce29ad4af719d09ac291e6cab941cd",
+      "afterHash": "474df287296edbbe1e0c683adabe66a6049e3627cf24c419dc6d48116a3d5f2e"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_modern/v01/validation/report.json",
+      "afterPath": "blender/towers/copilot_octocat_modern/v01/validation/report.json",
+      "beforeHash": "41d6f7eed078838601a8bf5bef8c3382a137710382f31036306cca9191b2ad14",
+      "afterHash": "46cca2a7a56f713a478e1068d8608bf2a4d441db03191d99e541e7913c718fc4"
+    },
+    {
+      "beforePath": "blender/towers/github_octocat_modern/v01/validation/visual_review.json",
+      "afterPath": "blender/towers/copilot_octocat_modern/v01/validation/visual_review.json",
+      "beforeHash": "9051ba154a11d6b11b297d48e586371609f18d3c89ab43fe429566110eccab51",
+      "afterHash": "63af91a1ea5939936a1c91f49e1a5c194735f56873459aa8fe048f01d6c66894"
+    },
+    {
+      "beforePath": "blender/towers/golden_compiler/v01/asset.json",
+      "afterPath": "blender/towers/copilot_golden_compiler/v01/asset.json",
+      "beforeHash": "6c0f569375c7384758643285b5b4521e9e7fe1449287e120f4385e415482066a",
+      "afterHash": "6f6c20f54b12d69159b6faedde985aa143fbbb76cfbb231ef4bdbabc74afd5d3"
+    },
+    {
+      "beforePath": "blender/towers/golden_compiler/v01/build.py",
+      "afterPath": "blender/towers/copilot_golden_compiler/v01/build.py",
+      "beforeHash": "5cd074f4043ea0b5a30fd083e42945da218864dc8ff304208a0d870dc9136935",
+      "afterHash": "749c2d17a7daf550932e6208abaebb70658990f9b975b69c9311508d9c4c6fbe"
+    },
+    {
+      "beforePath": "blender/towers/golden_compiler/v01/decisions.md",
+      "afterPath": "blender/towers/copilot_golden_compiler/v01/decisions.md",
+      "beforeHash": "4dcd97eb1fc9f67de03d68580f60779cc71ace9ebbbdf7cb2ef6582ff0c4a9eb",
+      "afterHash": "98d6744874b07e26d3b01069b4c0b23e63cca8dde8f22ffbf76ed33ba6bc6e17"
+    },
+    {
+      "beforePath": "blender/towers/golden_compiler/v01/render_presentation.py",
+      "afterPath": "blender/towers/copilot_golden_compiler/v01/render_presentation.py",
+      "beforeHash": "693ecb471394770f6c04a80530c4b0cc7b9e69ac1e516b3a40ab04e9f43d92f4",
+      "afterHash": "516b63c9c87bf3a21d3a11f2c064ac8c4e15f1f57b8723d34f4a6540404ea83e"
+    },
+    {
+      "beforePath": "blender/towers/golden_compiler/v01/validation/check_collar_clearance.py",
+      "afterPath": "blender/towers/copilot_golden_compiler/v01/validation/check_collar_clearance.py",
+      "beforeHash": "0f9bf7ec9460caa40fcd02e5bfbc8a851400360a1f8a823aa9a3c4f31c655417",
+      "afterHash": "e359d7c8d1f0276fb82247b1c98619de375e16553306026a0c0f283e34a7f5de"
+    },
+    {
+      "beforePath": "blender/towers/golden_compiler/v01/validation/palette_before_report.json",
+      "afterPath": "blender/towers/copilot_golden_compiler/v01/validation/palette_before_report.json",
+      "beforeHash": "c1318a1b57e7acfdc28df7d0af0dad1ddcb73d4fc76796568e893d5869233e3e",
+      "afterHash": "45e472d4ec5e5b7ba4b9757379e85b6c2b6764ce37f9dfa1cb4ba192614f5484"
+    },
+    {
+      "beforePath": "blender/towers/golden_compiler/v01/validation/palette_source_conversion.json",
+      "afterPath": "blender/towers/copilot_golden_compiler/v01/validation/palette_source_conversion.json",
+      "beforeHash": "cce3c8942b01a3a347cf9944f3f6beb6f6ef0e842b745c3f32a1ff6dda23977f",
+      "afterHash": "5e28e7acf37dec49f8e785c36fb685af1a18fa252a097a808a1c72baf7f19310"
+    },
+    {
+      "beforePath": "blender/towers/golden_compiler/v01/validation/palette_visual_report.json",
+      "afterPath": "blender/towers/copilot_golden_compiler/v01/validation/palette_visual_report.json",
+      "beforeHash": "e28aeebf39b2c8a12e928356c3f3e88b64ec293eacaa5fed834caca39266829e",
+      "afterHash": "a0062d8707e86346fa6d2fa6ee37c10dad5e50f94be8067e0adcb5772d0997f3"
+    },
+    {
+      "beforePath": "blender/towers/golden_compiler/v01/validation/report.json",
+      "afterPath": "blender/towers/copilot_golden_compiler/v01/validation/report.json",
+      "beforeHash": "58d50c78bf1546822898778508532ae34b2308276571fa00afcca4c95f6c6c2d",
+      "afterHash": "9152a43cb2a8a6eef345306e068a177a65efea2d861f75e79626b36cbaf57c67"
+    },
+    {
+      "beforePath": "blender/towers/golden_compiler/v01/validation/visual_review.json",
+      "afterPath": "blender/towers/copilot_golden_compiler/v01/validation/visual_review.json",
+      "beforeHash": "cc2607d6ed0db86d9ae9be570fe23281a09a9900a0fa755b746b20c6f4a73f30",
+      "afterHash": "b297b3956744eaab7ac383160d277ef697c8fa8b3139cac89204d430d8c86d1e"
+    },
+    {
+      "beforePath": "blender/towers/human_developer/v01/asset.json",
+      "afterPath": "blender/towers/copilot_human_developer/v01/asset.json",
+      "beforeHash": "ca2f6832f88b62ce53dbb599e81843a3e7260c4bbcf6cf392f1574f96051d4a0",
+      "afterHash": "9bb0aaed91cc4ca04ee5a9bedf161088ed36b50166b171e8e6a19f06c22e90e9"
+    },
+    {
+      "beforePath": "blender/towers/human_developer/v01/build.py",
+      "afterPath": "blender/towers/copilot_human_developer/v01/build.py",
+      "beforeHash": "fb9426b075298029d84d10d455ffd7a74072079c52cf261ac3e558bce0b3721b",
+      "afterHash": "139db25c418a3345d36468237a0bf1284fd80727a21ee48c22c473d6c2372077"
+    },
+    {
+      "beforePath": "blender/towers/human_developer/v01/validation/capture_review.cjs",
+      "afterPath": "blender/towers/copilot_human_developer/v01/validation/capture_review.cjs",
+      "beforeHash": "c4d46ae709e1d87e7356b353952e76a6b49966ca0f7f4bc0167bf049b2395056",
+      "afterHash": "63076547cfb52dd17c505913a683e20c91ce7cab93288e510fbcfd7e5b1ce09d"
+    },
+    {
+      "beforePath": "blender/towers/human_developer/v01/validation/inspector-check.json",
+      "afterPath": "blender/towers/copilot_human_developer/v01/validation/inspector-check.json",
+      "beforeHash": "9433a7896fbf982470302cb0359511e11c67c017508c23bc499fea385a88ea7d",
+      "afterHash": "86b6d93227821fac7ed67369ecf06ba11be3fea7ae1d1d299bf081d628b499bf"
+    },
+    {
+      "beforePath": "blender/towers/human_developer/v01/validation/render_evidence.json",
+      "afterPath": "blender/towers/copilot_human_developer/v01/validation/render_evidence.json",
+      "beforeHash": "6295e51843420de6619d35381decf4d33e80efc52e06df5431d81e2a3e16b3c3",
+      "afterHash": "0ab2ba0c24acdf451bc0e7156d21376cc4487eb2626b3ffeb3ddef76fdec03eb"
+    },
+    {
+      "beforePath": "blender/towers/human_developer/v01/validation/report.json",
+      "afterPath": "blender/towers/copilot_human_developer/v01/validation/report.json",
+      "beforeHash": "104b16f7cdd69ce7c755ac58005008c70ce171f43684b17aad26d67419254d11",
+      "afterHash": "35122f1ed326df6f5147666bdbd682093af354d4e1a10b5683298640a084d3cb"
+    },
+    {
+      "beforePath": "blender/towers/human_developer/v01/validation/visual_review.json",
+      "afterPath": "blender/towers/copilot_human_developer/v01/validation/visual_review.json",
+      "beforeHash": "a6a74f676ea8ca5cfb5c7bf5a3d85d5c153eea3bc9bd1f7083d079b029cc9f39",
+      "afterHash": "2851cef68311e832fe4ff055a0685a47d65ca8ebd162bde065e7b39616254bd9"
+    },
+    {
+      "beforePath": "blender/towers/linter_agent/v01/animate_linter.py",
+      "afterPath": "blender/towers/copilot_linter/v01/animate_linter.py",
+      "beforeHash": "8be715bcf538b5f89f3982e2ce0519f7dd806a08378f070e24d623746c40befe",
+      "afterHash": "ce1fb659613fbfb56f84630f6c88ff1634b87cbb8e7113b54fd057bf49f739f2"
+    },
+    {
+      "beforePath": "blender/towers/linter_agent/v01/asset.json",
+      "afterPath": "blender/towers/copilot_linter/v01/asset.json",
+      "beforeHash": "7a467bf139f98eea4ba95a45ea81c908548c9ccd582cf2155819aa5aa6651d5e",
+      "afterHash": "0b4e3b93097fdd14b23a9707add64890f6a2f85ba45d4715cf8860c8e290e693"
+    },
+    {
+      "beforePath": "blender/towers/linter_agent/v01/decisions.md",
+      "afterPath": "blender/towers/copilot_linter/v01/decisions.md",
+      "beforeHash": "5364c4fae5b8c6d3e6bd5bf871967e230c905b3d2221d73b8225cea1b420819f",
+      "afterHash": "7277f310f56812d5e180cd7ffa7274a3e6ef831c8a26fcd170c729d5847a38d4"
+    },
+    {
+      "beforePath": "blender/towers/linter_agent/v01/prepare_face_refinement.mjs",
+      "afterPath": "blender/towers/copilot_linter/v01/prepare_face_refinement.mjs",
+      "beforeHash": "18d8ef239140f0f03ceb11e40eddb9e21ba1847144fa20a25b3a9525b944d661",
+      "afterHash": "f385eff415fa75b43d9b3700042a5ffcff75d520267f9bba2062f6efedbac69e"
+    },
+    {
+      "beforePath": "blender/towers/linter_agent/v01/promote_six_shooter.py",
+      "afterPath": "blender/towers/copilot_linter/v01/promote_six_shooter.py",
+      "beforeHash": "10ca01177d56d9fdea4d37a48ffbcad9177af94fcf8aaacf5401bc9bc8b137e2",
+      "afterHash": "60e1d0317ae364bd09d0d6ee1fe85f842998a2cda3506cec3d176b46139e2deb"
+    },
+    {
+      "beforePath": "blender/towers/linter_agent/v01/refine_attachments_face.py",
+      "afterPath": "blender/towers/copilot_linter/v01/refine_attachments_face.py",
+      "beforeHash": "1631ee6f688f07f3c0c03cd281ee2e14e8cb12078bbe52301fea01e57fc985a0",
+      "afterHash": "26b098a4c50fecc6a2174ba9080a8c4f1bb1b0a9672075bcec3223de625d77b0"
+    },
+    {
+      "beforePath": "blender/towers/linter_agent/v01/spec_sheet/compose_sheet.py",
+      "afterPath": "blender/towers/copilot_linter/v01/spec_sheet/compose_sheet.py",
+      "beforeHash": "65cbb4e45bc04d2aa994fff1269986acd56e9e38304bedb383f722e5761c9337",
+      "afterHash": "9030ac7492475937017a1caaa66ef2819cdf437c6a712b8c0c412a927b46e5c2"
+    },
+    {
+      "beforePath": "blender/towers/linter_agent/v01/spec_sheet/measured_stats.json",
+      "afterPath": "blender/towers/copilot_linter/v01/spec_sheet/measured_stats.json",
+      "beforeHash": "b7eb08aa365a6ba0116bd35c3040e3483feff83ff9c72c810d089d5b4aca85e8",
+      "afterHash": "c3b9f60fd9dd1e7f3e0e913fa88c674f385165b67529d1347f89f7aea85e661b"
+    },
+    {
+      "beforePath": "blender/towers/linter_agent/v01/spec_sheet/render_views.py",
+      "afterPath": "blender/towers/copilot_linter/v01/spec_sheet/render_views.py",
+      "beforeHash": "2b5622c7479eaa2d9abd16d66b929d518a4ab5c60c40260000b9aeae7d23e845",
+      "afterHash": "dd05a71220b5b296cd5f9e6cbe6b3717e48ae4a23e4a9af3c3a2c0c74422d5ec"
+    },
+    {
+      "beforePath": "blender/towers/linter_agent/v01/validation/animation/review.json",
+      "afterPath": "blender/towers/copilot_linter/v01/validation/animation/review.json",
+      "beforeHash": "ee3ab222f4b8f80b2bff56952f7ca9a62e5416675636690a33e58bfac32a0203",
+      "afterHash": "807d4160237833c5adc42a327d1dbaa0e8e23618fc198804bd1ba180620ab75e"
+    },
+    {
+      "beforePath": "blender/towers/linter_agent/v01/validation/inspector_check.json",
+      "afterPath": "blender/towers/copilot_linter/v01/validation/inspector_check.json",
+      "beforeHash": "4579a7bcbbb59a1ee95179e0eca091ee556072636e18e28d73233cd69975e5e9",
+      "afterHash": "e31f60a5a20b1429e45f0d00839b51f2c1c6fb3502472642fd5b7592ca3a4d23"
+    },
+    {
+      "beforePath": "blender/towers/linter_agent/v01/validation/render_evidence.json",
+      "afterPath": "blender/towers/copilot_linter/v01/validation/render_evidence.json",
+      "beforeHash": "c10c20dfd6939f21ff0f2f22fd8f751afb475437e488dd6e64de206b713a13a2",
+      "afterHash": "d9b6bbff8517f09a938bb3527c708e39067bc1d7c4daefb3f10928e15f96f54d"
+    },
+    {
+      "beforePath": "blender/towers/linter_agent/v01/validation/report.json",
+      "afterPath": "blender/towers/copilot_linter/v01/validation/report.json",
+      "beforeHash": "7716e5dad3b8ca357952c242c18c99251d5e53d9280cc1a86fa2b9723a4639ea",
+      "afterHash": "9de399e32f826b15fc8952b54e49b65370ae956ea7326683dec4a12de9463034"
+    },
+    {
+      "beforePath": "blender/towers/linter_agent/v01/validation/review_animation.mjs",
+      "afterPath": "blender/towers/copilot_linter/v01/validation/review_animation.mjs",
+      "beforeHash": "10c74e6f71780e4f1861c3b7b6e2376a8fa5c20f520a383412f276ace6523c7c",
+      "afterHash": "c9da6e4b37cd3eabd549fcbcda302213d143b0eea8bf36d0d077f28649420a90"
+    },
+    {
+      "beforePath": "blender/towers/linter_agent/v01/validation/visual_review.json",
+      "afterPath": "blender/towers/copilot_linter/v01/validation/visual_review.json",
+      "beforeHash": "c90e14ab07b4f3fecf4d82b3f880535e66a99673d55216b88a5ce668fcaca8ee",
+      "afterHash": "fdfd8aa95bc198923d236f72fd85d803b9ef250b0de83d1cddc3c7c883478c9d"
+    },
+    {
+      "beforePath": "blender/towers/_shared/compose_previews.py",
+      "afterPath": "blender/towers/_shared/compose_previews.py",
+      "beforeHash": "0ac26295c6005329168d4592423cd4e99471ec5e5a4a577f865c2c0156f2cd67",
+      "afterHash": "b8f4ffa685f04950e66091af7788fe040b3aa02cb4ec9d44e4156bbec4794e83"
+    },
+    {
+      "beforePath": "blender/towers/_shared/delivery_summary.json",
+      "afterPath": "blender/towers/_shared/delivery_summary.json",
+      "beforeHash": "4dcc5c7440bdac02e2725ed44b9189f71e779307a84adf37a119cea993aec8b5",
+      "afterHash": "6c454bbfe4c2436831369e8326babd3e3c9dc17e168493c8689af0c946f9f67b"
+    },
+    {
+      "beforePath": "blender/towers/_shared/finalize_personas.mjs",
+      "afterPath": "blender/towers/_shared/finalize_personas.mjs",
+      "beforeHash": "ea826ba99ea6e87e651768e744c9d9fa9a76ab1ef51ad3afa44e5ad6da584f11",
+      "afterHash": "013df1326284ba7d393a7d66f34d473b94d00898f569b793e381238d973ec0b8"
+    },
+    {
+      "beforePath": "blender/towers/_shared/PERSONA_MODELS.md",
+      "afterPath": "blender/towers/_shared/PERSONA_MODELS.md",
+      "beforeHash": "fa79500e010afc02c896836d4f51cffa84558fd47d2612909e9e6a4bc2d1d286",
+      "afterHash": "84f4781a621010806ff7a6838e50f0deb6a90cce881a22ba1da11fd8574698a9"
+    },
+    {
+      "beforePath": "blender/towers/_shared/prepare_quality.mjs",
+      "afterPath": "blender/towers/_shared/prepare_quality.mjs",
+      "beforeHash": "03f82c6c1dce18656d83f935e328a00dc87c4510ae13063075762dba9f9c984c",
+      "afterHash": "93c5ef10eb426c0eb95e25ff8b6271536ad2e058e28e06ad228c87e5225ed74a"
+    },
+    {
+      "beforePath": "blender/towers/_shared/review_personas.cjs",
+      "afterPath": "blender/towers/_shared/review_personas.cjs",
+      "beforeHash": "5284a924090c3286b7bc2b1d5cd695c4cd8fb34dd9a854760b39ae85b5c408d1",
+      "afterHash": "44a28bd95aec8f2d473f7d7b0f1c7eb9225606363810044af0d05cbf40815135"
+    },
+    {
+      "beforePath": "blender/towers/_shared/setup_personas.mjs",
+      "afterPath": "blender/towers/_shared/setup_personas.mjs",
+      "beforeHash": "8d2a5125d6c914e35a73d5dcbabd5673843d8ac435c73dd0bbe842d70fbdb1c9",
+      "afterHash": "889d5513c84b12e064bed90e4ea8c2ea9c4aa15eb3ab2d090d41f6163af5b27b"
+    },
+    {
+      "beforePath": "docs/design/Animation_Workflow_Review.md",
+      "afterPath": "docs/design/Animation_Workflow_Review.md",
+      "beforeHash": "c3210b3951e4ccb502aa90dcdf6e61fe76f48482cf9e38ae07ecb6971878a503",
+      "afterHash": "82b4eac1b8200d46ecf6b3c068bd7238d36257b7737a2100a38e86313345fe19"
+    },
+    {
+      "beforePath": "docs/design/Campus_Ambient_Life.md",
+      "afterPath": "docs/design/Campus_Ambient_Life.md",
+      "beforeHash": "57171d7ba79021f36b2db50da0eeefeb3fcccbc2bcd76fd41193d1943c9e72a2",
+      "afterHash": "d0bf65b2d23a76c500da3bdd6b434924268efe461d3e5ca9c93bef8d605f99a6"
+    },
+    {
+      "beforePath": "docs/design/reviews/palette-2026-09-26/index.html",
+      "afterPath": "docs/design/reviews/palette-2026-09-26/index.html",
+      "beforeHash": "2c324b31949608904e20ff0d50554255b7b630ec1f70a84a3454a15cf531d397",
+      "afterHash": "a169fd3b97ae86a9b1372033c7a0e4002f19729d059c01ae85b0fabba63c9a5e"
+    },
+    {
+      "beforePath": "docs/design/reviews/palette-2026-09-26/inventory.json",
+      "afterPath": "docs/design/reviews/palette-2026-09-26/inventory.json",
+      "beforeHash": "60aaf8bfe7728b5a7cb527902bbf3b7365271aeaeda94cbeb44ae1d22db59d4d",
+      "afterHash": "344e06cd07e730169912ecbed5d3e0f95d8fc38787260b498df231f135a84ea2"
+    },
+    {
+      "beforePath": "docs/design/reviews/palette-2026-09-26/render-report.json",
+      "afterPath": "docs/design/reviews/palette-2026-09-26/render-report.json",
+      "beforeHash": "a9f8972ac1ec93af773a1e5ac61c2173af502e865d93fd8cccc4f702bfdb3f9f",
+      "afterHash": "8973a0d799bd6cb26e1188599dc1bdac9fc817fa5d03b2193c74b011d238aa9d"
+    },
+    {
+      "beforePath": "docs/design/Shared_Palette.json",
+      "afterPath": "docs/design/Shared_Palette.json",
+      "beforeHash": "50d14bce70eafaa912d81da0d26ee8913a339fda94e39bd69832b233d203266b",
+      "afterHash": "51665d24820eaa2ebce3292e8c8d6ccd183b51020a088b73d6d06e3d9f61a215"
+    },
+    {
+      "beforePath": "design/mockups/copilot_hub_towers/v01/prompts.json",
+      "afterPath": "design/mockups/copilot_hub_towers/v01/prompts.json",
+      "beforeHash": "6baebc1279c78a28f2cd588697e2942554c64cf82746f7e1d17c3ddc3c34505c",
+      "afterHash": "fd1601628aef8ad6604ece77d2319e8d716931c8e93b0ef3dd7817cde5d71ee8"
+    },
+    {
+      "beforePath": "game/src/content/maps/campusResidents.ts",
+      "afterPath": "game/src/content/maps/campusResidents.ts",
+      "beforeHash": "1e0a69e21b14ff2aff0d3c773a1e4fce87d361ed844970c0285f2dc18381ec9b",
+      "afterHash": "4e4a8f2ed3d8ae32285ecce210f239137b77a6bcace6483c3b4d7b1c85c7dc3f"
+    },
+    {
+      "beforePath": "game/src/rendering/campus/assets.ts",
+      "afterPath": "game/src/rendering/campus/assets.ts",
+      "beforeHash": "38832b8f9eb161c579e42b70fa8f26adea8d2e3ce0baafc2ceaef330922e68aa",
+      "afterHash": "90e252424164eb879367537839661c4173ef953a9ddcf1c84ce2c580a8bd1b35"
+    },
+    {
+      "beforePath": "game/src/rendering/campus/residents.ts",
+      "afterPath": "game/src/rendering/campus/residents.ts",
+      "beforeHash": "9c0b2886fbe120febd32dc13cc37c98ede83073d1f4b94bafea7dacde1544e89",
+      "afterHash": "bf6203fe23578618e2db55da6bcfd0f65990caf142b25f3d7e9aafc4bfe7a2a1"
+    },
+    {
+      "beforePath": "game/tests/e2e/home.spec.ts",
+      "afterPath": "game/tests/e2e/home.spec.ts",
+      "beforeHash": "2c4723000e6ef56109d399acd6ef171681f0e305d57da92b4a6e8c954ce9ba55",
+      "afterHash": "0a34458eec0667925050d3dafdd4b28e28cfea29417d01fb905222c28d1ddaa7"
+    },
+    {
+      "beforePath": "tools/asset-inspector/review-roster-palette.mjs",
+      "afterPath": "tools/asset-inspector/review-roster-palette.mjs",
+      "beforeHash": "3b0a6c0956a489100a5fd1234bfdba132994096eeff0b36cf76f2a212301c741",
+      "afterHash": "21d1c9be9bfedbbf7b55af8aae81455ddc0d6cf815a213a4d428b2771e666c89"
+    },
+    {
+      "beforePath": "tools/asset-inspector/verify-bambu.cjs",
+      "afterPath": "tools/asset-inspector/verify-bambu.cjs",
+      "beforeHash": "a327edee578892e569b7bbf90cbea95e2929b92b1230fce9beace2c5ee55423d",
+      "afterHash": "4c7bbbccd6ca64578496e97407cee402f34aaa7fef7f6c5eca0f08ab000078cc"
+    },
+    {
+      "beforePath": "tools/asset-inspector/verify-effects.cjs",
+      "afterPath": "tools/asset-inspector/verify-effects.cjs",
+      "beforeHash": "b2884805a5273e4665a5ce33c580bc867a983264c46678a05d1a339e25d6a44b",
+      "afterHash": "9cf6d35cfaa40d30929ef183690330375d61721fb77d3264fac02dad61f68416"
+    },
+    {
+      "beforePath": "tools/asset-pipeline/record-palette-migration.mjs",
+      "afterPath": "tools/asset-pipeline/record-palette-migration.mjs",
+      "beforeHash": "c1dcff8d335d4802633e40a0260ea1b76fdb05f9009ae45278ff557e79ad0eed",
+      "afterHash": "b0b9f118e2ce4b97c392cbd770c405c1620ab5dc0f6ce2eb27a47ccda3edb9c3"
+    },
+    {
+      "beforePath": "prototypes/campus-3d/guests.js",
+      "afterPath": "prototypes/campus-3d/guests.js",
+      "beforeHash": "da4c98b10c658f9df2ad1eca58cf0ebdfd7340fbd1b497a5dce1ee55b37f7a13",
+      "afterHash": "d3d4cb3980681e2df41928d26b74b1cd86b814c94f51e1687e7fca3f6531eca5"
+    },
+    {
+      "beforePath": "prototypes/campus-3d/serve.mjs",
+      "afterPath": "prototypes/campus-3d/serve.mjs",
+      "beforeHash": "5e0b591e0bb5e4ef535f8948f933e6b5a70ed15bcf7b633db1889a14bd7dfc16",
+      "afterHash": "28b194dddd8234df437ba347c32043190c9fadc864284e7b4e271d7ab3b8bc37"
+    },
+    {
+      "beforePath": "prototypes/campus-3d/simulation/actors.js",
+      "afterPath": "prototypes/campus-3d/simulation/actors.js",
+      "beforeHash": "b37022fd6da08cebf5be8d34c1b0c42ec0108de2cb5225fd002ee794fcac4d0a",
+      "afterHash": "1fb09c8cba009384aa4f6fa7150a244dd64ef3020bf5e9348daacc9f01d568af"
+    },
+    {
+      "beforePath": "prototypes/campus-3d/simulation/config.js",
+      "afterPath": "prototypes/campus-3d/simulation/config.js",
+      "beforeHash": "212895a065fde97205e926b1a77b6793ab8dcf249b0a3a24b5ffda00bd26975a",
+      "afterHash": "6af7bf3c3009f3cc1719d324010176d910a3c80dddce58b0494c0de54cfed3f9"
+    },
+    {
+      "beforePath": "prototypes/campus-3d/simulation/placement.js",
+      "afterPath": "prototypes/campus-3d/simulation/placement.js",
+      "beforeHash": "14f9a86fa7c98c57cff62a1dc30c5326347c568f7680c3a7de29d654cba08944",
+      "afterHash": "92d340dd16049c9edfa9f55aa8b60bd4f204a7f52c9efe29a9a5e0fc6e8ff58d"
+    },
+    {
+      "beforePath": "prototypes/campus-3d/simulation/verify-placement.cjs",
+      "afterPath": "prototypes/campus-3d/simulation/verify-placement.cjs",
+      "beforeHash": "a7a663fa4cefe3962866c83fc21b840ebe267c6bc03bb63ba39b4470d8b4844d",
+      "afterHash": "4630f73c5aa52336ce2cbd06d95c20d9374e15931c24e9a9570108bc69f541ac"
+    },
+    {
+      "beforePath": "prototypes/campus-3d/simulation/verify.cjs",
+      "afterPath": "prototypes/campus-3d/simulation/verify.cjs",
+      "beforeHash": "d1cce65bcb67d038c92b171cf3702bff2c656bcbb239bcda106872b365887ad3",
+      "afterHash": "51f8feceb0c82f1f04c817b1a89031bef0db94497cf210aba1ff04ac8945e060"
+    },
+    {
+      "beforePath": "prototypes/campus-3d/stress-config.js",
+      "afterPath": "prototypes/campus-3d/stress-config.js",
+      "beforeHash": "e688b3a707f86cf4a7c8554d6aa61ab114f931796fbf40e5af7434f20da3c21d",
+      "afterHash": "9d9c9dead728254b6f6384df8e85c6ba6f70c9b1bb648f6d79654b5583027f1c"
+    },
+    {
+      "beforePath": "prototypes/campus-3d/verify.cjs",
+      "afterPath": "prototypes/campus-3d/verify.cjs",
+      "beforeHash": "68036e9b8bd68c890dca6d1c83624a1c664f1bea6f494c6f8d54cc2e01b070e5",
+      "afterHash": "b4a51a35674a3924920c0d1834ff52dfe8f3ffae5b35a7d949c1505c493fda65"
+    }
+  ]
+}

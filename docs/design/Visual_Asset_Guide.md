@@ -40,6 +40,13 @@ The intended feeling is **playful orchestration**, not dark cyberpunk, military 
 - Treat the Product as the map's visual anchor. It should be larger, calmer, and more developed than ordinary infrastructure.
 - Make path-adjacent props lower and simpler than the entities travelling on the route; they must frame action rather than hide it.
 
+For bespoke models, resolve primary volume, proportions and negative spaces before
+small details. Use reference landmarks and comparable front, side and game views
+to judge fidelity; the presence of recognizable accessories is insufficient.
+Low-poly style calls for deliberate planes and curves, not an automatically flat
+front or a generic primitive body. Fit rigid accessories to the resolved form.
+Budgets constrain delivery; additional triangles do not establish quality.
+
 ### Palette and material roles
 
 Use a restrained neutral-and-natural base palette with a small set of semantic accents.
@@ -53,7 +60,52 @@ Use a restrained neutral-and-natural base palette with a small set of semantic a
 | Problem accent | A distinct warning color plus a corrupted, unstable, or jagged form | Bugs and other harmful entities. |
 | Tester accent | A separate quality-focused accent and visible aura treatment | Tester identity and area effect. |
 
-Exact colors remain open. The final palette must pass common color-vision-deficiency checks: Work, Problems, selection, and warning states need different shapes, iconography, motion, or patterns in addition to color.
+The working shared colours and explicit exceptions are recorded in
+[Shared_Palette.json](Shared_Palette.json), with the roster findings in
+[Palette_Consistency_Review.md](Palette_Consistency_Review.md). User direction,
+2026-09-26: preserve character identities and unify supporting neutrals and small
+accents. Developer and Linter share graphite `#333E48`; Developer, Linter and
+Security share display black `#041D2A` and small cyan marks `#00E5EF`. Security's
+navy casing remains an identity exception. These are source-authored colours,
+not runtime tints or instructions to normalize every similarly named swatch.
+
+Treat shared palettes as **extensible references**, not an exhaustive colour list.
+Reuse established neutrals and accents when their material role, value and hue fit
+the design. Merge near-duplicate shades where doing so preserves useful contrast.
+Introduce a new colour when character identity, material, setting or game-scale
+readability benefits; record it in the asset's colour contract and decisions.
+Add a shared token when reuse is useful; a one-off colour can remain asset-local.
+Review related assets together at authored scale under the same lighting.
+
+There is no universal colour-count limit. Prefer a compact, purposeful palette;
+explicit user limits apply only to the assets and refinement they concern. Keep
+accepted source/export colours stable until a colour change is part of the task.
+Validation checks that delivery matches that asset's declared design, rather than
+requiring every model to draw from a global whitelist.
+
+The six production Problems use [Problems_Palette.json](Problems_Palette.json)
+to record their accepted family mappings. The 2026-09-27 iteration explored eight
+colours, then reduced Vague Spec and Missing Details to seven at the user's request.
+The resulting five-to-seven counts describe these deliveries, not a rule for new
+Problems, other asset families or future authorized refinements.
+Semantic roles can share a value; lighting and independent emission masks do not
+count as additional base colours. Preserve character identities and merge redundant
+supporting shades first. See [Problems_Palette_Review.md](Problems_Palette_Review.md)
+for the delivered comparison, counts and evidence. This consolidates authoring
+colours; each asset still has its own embedded palette.
+
+Retain the approved campus slate/teal family: chalk `#E2EDF0`, architectural
+slate `#89A4B8`, path `#48647D`, path signals `#82DADD`, and foliage `#70B5B4`.
+The approved home-campus ground `#354B64` is local to that setting. Warm paper,
+clothing, skin, brands, imported atlases and biome variants retain their intended
+differences. Match equivalent materials within a family before matching across
+unrelated subjects. Preserve separate emission maps when editing base colours.
+
+Colour is not an allegiance key: Lag Spike uses cyan, Spaghetti uses lime/orange,
+and Bug and Security both use blue. Work, Problems, selection and warning states
+need different shapes, iconography, motion or patterns in addition to colour.
+Common colour-vision-deficiency checks in the final gameplay camera remain open;
+the roster's grayscale check assesses luminance only.
 
 Materials should be mostly matte or softly rough. Use emissive screens, LEDs, and pulses sparingly to communicate active technology. Avoid broad reflective metal, transparent model surfaces, and high-frequency texture detail during Alpha.
 
@@ -198,21 +250,50 @@ Use the following optional, consistently named empty nodes where the asset needs
 
 ### Clip naming vocabulary
 
-Use the following shared vocabulary whenever an asset needs the corresponding motion. It defines clip meaning and playback shape, not a mandatory per-asset list; static assets export no clips, and an asset contract selects only the names it needs.
+Towers and enemies have a baseline animation set: **Rest Pose, Idle, Work,
+Walk/locomotion, Place, Hit and Resolve** (user decision, 2026-09-24). Rest Pose
+is the unanimated bind/rest state; it is not a constant animation clip. The six
+exported names are `idle`, `work`, `move`, `place`, `hit` and `resolve`.
+For enemies, `spawn` fulfills the arrival slot in place of `place`; preserve an
+existing arrival interface and do not export duplicate aliases.
+`move` is the existing runtime name for Walk/locomotion; use walking, rolling,
+gliding or hovering according to the anatomy and recorded user choices.
+
+Deliver and review the model first. At that handoff, ask whether the user wants
+the baseline animations added, with the preview available for model review.
+Wait for their answer before starting animation unless they have already
+authorized that continuation. Record the reviewed model revision/hash, consent
+or deferral, locomotion choice and clip plan beside the source. A model-only
+delivery is a valid review milestone, but is not animation-complete. Do not add
+empty clips to claim coverage. Existing assets with missing clips remain an
+explicit backlog; preserve their working interfaces until their animation pass.
+
+Use the dedicated project skill `.agents/skills/game-asset-animation/SKILL.md`
+for this pass. Preserve accepted rest geometry, materials and anchors. The
+manifest lists the clips actually authored for the current delivery; the brief
+records planned clips while awaiting the user's animation decision. Environment
+props and other deliberately static assets need no invented motion.
+
+The following vocabulary defines shared meaning and playback. Additional clips
+are selected according to the asset's role.
 
 | Clip | Playback | Meaning |
 | --- | --- | --- |
 | `idle` | Loop | Default resting or ready pose. |
 | `move` | Loop | In-place locomotion while the simulation controls world movement. |
-| `work` | Loop | Sustained primary action, such as producing, repairing, or resolving a target. |
+| `work` | Loop | Sustained primary role action: a tower operates or an enemy performs its characteristic disruptive action. Pose only; no damage or task outcome is encoded. |
 | `active` | Loop | A sustained engaged state that is visibly distinct from `idle`. |
 | `spawn` | One-shot | Entry into play after the simulation has created the entity. |
-| `place` | One-shot | A player-controlled unit becoming established in the world. |
+| `place` | One-shot | Establishment/arrival at an already simulation-assigned position, for a tower or enemy. Existing `spawn` clips retain their creation/entry meaning. |
 | `hit` | One-shot | Non-terminal impact or damage reaction. |
-| `resolve` | One-shot | Work, a Problem, or another removable entity being successfully handled and leaving play. |
+| `resolve` | One-shot | Successful removal: Work completes, a Problem is handled, or a tower is recalled/powered down. The simulation already owns that decision. |
 | `complete` | One-shot | Beneficial or recovery work finishing successfully. |
 | `heal` | One-shot | A protected objective visibly recovering. |
 | `defeat` | One-shot | Terminal defeat of a boss or other entity whose identity is defeated rather than resolved. |
+| `story_talk` | Loop | Cinematic dialogue acting through the existing anatomy: emphasis, eyeline, small head/body gestures and blink. Does not imply lip sync or generate dialogue. |
+| `story_listen` | Loop | Cinematic attentive listening, distinct from speaking and baseline idle. |
+| `story_alarm` | One-shot | Cinematic recognition of danger, with readable anticipation and startled expression. |
+| `story_determined` | One-shot | Cinematic settle into a purposeful pose; presentation may hold its terminal expression. |
 
 Names are lowercase snake_case with no asset-name prefix, tense variation, or redundant suffix such as `_loop`. Use `work`, rather than action-specific aliases such as `attack`, `shoot`, or `cast`, when the shared gameplay meaning is sustained work. Do not use `active` as an alias for `idle`, or a model-specific name such as `aura_idle` for a runtime-owned effect.
 
@@ -220,10 +301,71 @@ Work-category assets require `idle` and `move` loops plus a one-shot `resolve` c
 
 An asset-specific clip that has no shared meaning needs a descriptive lowercase snake_case name and a one-line definition in that asset's manifest. A new name with cross-asset meaning must be added to this table before export.
 
+The standalone story experiment is authorized to add acting clips beside the
+shared character rigs (user decision, 2026-09-30). Preserve existing gameplay
+clips and model identity. Cinematic world blocking and story beats belong to
+the isolated presentation timeline; the GLB still contains pose-only clips.
+Asset-specific startle, struggle, reach, creep, grab and haul clips retain their
+exact definitions, periods and any measured gait distances in their manifests
+and source decisions. These additions do not mandate cinematic clips on the
+rest of the roster.
+
+### Category arrival and resolution effects
+
+**Tower default (user decision, 2026-09-24):** `place` assembles the tower from
+digital cubes; `resolve` disintegrates it using the same effect in reverse. Use
+the Developer's shared digital-block presentation implementation as the visual
+baseline. This default applies to every tower's authorized animation pass, with
+asset-specific timing, cell scale and fragment budget recorded in its manifest.
+Keep the model at full size; the dissolve changes visible coverage rather than
+shrinking the entire body. Place must finish at the ready/Idle pose, Resolve must
+finish invisible, and replay/Rest Pose must reset all effect state. Preserve
+explicit user overrides. Existing towers adopt this during their next animation
+pass; the default is not authorization for a bulk asset migration.
+
+The model-review handoff and animation consent still apply. An authorized tower
+animation pass includes this established effect without asking the user to choose
+its style again. Blender owns any matching pose tracks and the exported effect
+parameters; presentation owns the shader and transient cubes. See
+`tools/asset-presentation/README.md` for the shared implementation and integration
+contract. Review the combined result in the Inspector, including phone scale,
+entry/exit endpoints, ready transitions, replay, shadows and pooled FX limits.
+Record the runtime renderer hash alongside source/GLB hashes. Account for model
+and effect costs separately, and check any declared combined triangle ceiling.
+
+**Enemy default (user approved, 2026-09-24): Glitch breach.** Spawn reveals the
+full-size body through jagged bands and a brief registration glitch, with no
+portal (`spawnPortal: false`). Resolve uses a debugging sweep and thin horizontal
+streaks. Bug is the approved reference; its initial review milestone is complete.
+Apply this default during authorized enemy animation passes, preserving explicit
+asset overrides. The user has authorized rollout to the remaining production
+enemies; comparison/experimental assets stay outside that rollout.
+
+**Work/task default (user approved, 2026-09-24): Blueprint.** Spawn traces the
+model's outline, then fills it with an upward scan. Resolve shows a separate
+confirmation mark and carries the result away with a clean upward sweep, without
+rising lines or ribbons. Coding Task is the approved reference. This refers to Work-category
+assets, not the looping `work` action. Preserve independent checklist/progress
+controls and their default unchecked state; the effect must not award work or
+expose alternate geometry hidden inside the model during a cut.
+
+These category effects retain full body scale and use dedicated entry/exit
+timelines. Record parameters in `presentation.lifecycle` and matching root
+`lifecycle_effect` extras. Preserve existing `spawn`/`place` interfaces; add
+`spawn` when an enemy or Work asset has no arrival clip, rather than silently
+renaming a working clip or exporting duplicate aliases. New effects still need
+the model-first authorization and actual-renderer review described above.
+Fit effect geometry to each asset's combined triangle ceiling. Enemy streaks cost
+12 triangles each plus the 12-triangle sweep; reduce the streak budget when
+needed instead of changing approved model geometry. Category defaults do not
+implicitly authorize unrelated asset migrations or gameplay integration.
+
 ### Acceptance checklist
 
 Before a bespoke asset is accepted into the game, verify that it:
 
+- follows its reference priorities and major landmarks, with any view inconsistencies resolved in its source decisions;
+- has clean attachments, intended thickness and controlled shading in close and reverse views, not just a readable silhouette;
 - is recognizable at default camera distance on a phone-sized viewport;
 - respects its scale, triangle, material, and texture budget;
 - has correct `root` placement, orientation, and required anchors;
@@ -231,6 +373,15 @@ Before a bespoke asset is accepted into the game, verify that it:
 - loads as a self-contained GLB in a Three.js test scene without warnings;
 - uses the approved palette/material language and remains visually distinct from opposite gameplay categories;
 - has its Blender source file, source version, and exported GLB recorded in the asset-source inventory.
+
+Complete a second author review of the finished export after the initial repair
+pass, scaled to the change. Record reference fidelity, construction, readability
+and relevant motion separately from technical validation and user acceptance.
+The record must identify the reviewed source/export hashes and useful evidence.
+New file identities make an earlier review stale; explicit user rejection
+supersedes the corresponding positive assessment. These are author self-checks,
+not additional user approval gates. See the game-asset workflow for execution
+and the asset-pipeline README for review records and checks.
 
 ## KayKit-led prototyping policy
 
@@ -268,7 +419,7 @@ Prefer reusable terrain, route, infrastructure, unit, and effect families over d
 
 **Status: Open**
 
-- Exact palette values and accessibility validation.
+- Accessibility validation in the final gameplay camera; palette extensions as new characters, materials and settings need them.
 - Copilot mascot anatomy, face/display language, and animation style.
 - Whether Work is represented as a physical delivery object, floating task card, miniature feature package, or another abstraction.
 - Bug visual language: mischievous creature, glitching code object, corrupted drone, or a hybrid.

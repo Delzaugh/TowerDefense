@@ -1,0 +1,440 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_octocat_classic_lowpoly",
+  "version": "v01",
+  "revision": 8,
+  "sha256": "43e0de013f4514d1be50cc6eba647f4f332a81e57b9035979e7a9b942c0aae53",
+  "sourceHash": "e433b387cd8bf61fe9d7fbc105bee080d0e086d3cd6c64885fdc144afb5fed29",
+  "scope": "animation",
+  "reviewedAt": "2026-09-30T16:19:30.522Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Added actions on accepted existing rig. cinematic_preservation.json confirms byte-identical exported geometry attributes/indices, materials and all preexisting animation channels versus retained model milestone."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Inspected iso/side extreme poses and exposed front/rear details; rigid accessories, eye placement and source joins stay coherent. Rest art, skin and bones unchanged."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally inspected Inspector phone-sized alarm/struggle/haul and conversation extremes. Body/head accents and silhouette remain legible; subtle tail gestures benefit from scene closeups."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Inspected talk/head accents, startle .45–.72s recoil, struggle opposing feet/head/tail at .6–.96s and reach 2s rear terminal pose. Planted talk/startle/reach feet remain at ground; airborne struggle raises contacts .06m minimum and requires scene lift. Tail remains continuous and cup rows stay attached, including rear extreme. Loop joins match and multi-cycle normal-speed playback was exercised."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Personally rechecked exported start/extremes/recovery/end pose boards, phone rendering and exposed detail views after initial inspection. No geometry or joint repair required; old clips and materials remain byte-identical."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/iso.png",
+      "sha256": "6e7886ea890641044292fd2657ef2912d457049255b63488db4fe1a8cc1ed420",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/iso-silhouette.png",
+      "sha256": "d8f58599809491416779ed024bfbe77f405c3cfb4c3b4faae5e30188566738f0",
+      "view": "iso",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/front.png",
+      "sha256": "296f2882c79edf9dddef1dfd11f8c1b77144cff7bcb4f2405ac994acb5dbb3da",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/front-silhouette.png",
+      "sha256": "529d97d66f2743ad497a0a4843846b73cb5f414eb305f077a530339301433db6",
+      "view": "front",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/side.png",
+      "sha256": "9bf1e10dccb0bcf1670748a5de78b8aeb8c012bb3a9339ebd6c70823c4dc795e",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/side-silhouette.png",
+      "sha256": "07ed064c4d759fb751f926330a2cfba08002f59c0b461255f27f4bcf429a2eb5",
+      "view": "side",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/rear.png",
+      "sha256": "67942d6ec9892318a1d779b8595c6da917f3d2e9ba4e64a7013f9afe4ec9f827",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/rear-silhouette.png",
+      "sha256": "ecbe9679c5c1102198478311bb06f8d71ce063b4c28e725cb59e55004eda9cf8",
+      "view": "rear",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/top.png",
+      "sha256": "232ec5628c40d62f651f46f8bcc0b13a56f0c61574378ac31eeb224e9c1da539",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/top-silhouette.png",
+      "sha256": "5ab36d42448270f0584ffa00d82b0dc76c34284f157e44639001ace59eb0c896",
+      "view": "top",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/idle.png",
+      "sha256": "d27b1713748222fcd19fa8b3c9c9dbdf2741c04e0a0d03a956906d4387ad20ce",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "idle",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/wave.png",
+      "sha256": "de2aadbed0d308f2cf422a78dd7300177a80749fe1f2653666931cb89667fc9f",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "wave",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/celebrate.png",
+      "sha256": "1f873d6a780409361417ade6a94f3a33e039cd7214aec9b331509cbf0f07e1d0",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "celebrate",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/move.png",
+      "sha256": "31980af3bc0063a4238c19496367568482d58952bac9ac87ad26e328d08d9cdf",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "move",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/story_talk.png",
+      "sha256": "0012244006998ed19a65fde88877cb73371d2972c524e2bc71f92b042eaa6b36",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "story_talk",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/story_startle.png",
+      "sha256": "ea3f87d6f41e9c0e89fd0d507262b2c5a4aeb74158e6b1f002ba1081d09c9bd7",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "story_startle",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/story_struggle.png",
+      "sha256": "85c418b442b92c4ffc4c0258577b1defdf08c9d8480947981715a9230d704a71",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "story_struggle",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/story_reach.png",
+      "sha256": "b6cd07572ddd9ec85fa3c7469804208eb8e23f2664d1833e8e5ef4edfb7b3b8c",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "story_reach",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_talk_0.png",
+      "sha256": "2e414596a4ced2cc79e95a1349be79f2338ee5413c98dc0de71ef389132d8465",
+      "view": "Inspector iso",
+      "clip": "story_talk",
+      "time": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_talk_20.png",
+      "sha256": "dc4a69ae1003e8b935ff8077de08e92f6d594d1a05d99466a7731085895d6b2b",
+      "view": "Inspector iso",
+      "clip": "story_talk",
+      "time": 0.6000000000000001
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_talk_30.png",
+      "sha256": "d3a26e15e5feb0b38258f82da0044e2a291cbc15548731e4135c17cc81256de5",
+      "view": "Inspector iso",
+      "clip": "story_talk",
+      "time": 0.8999999999999999
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_talk_48.png",
+      "sha256": "372c5b1312c71e127b3205a45a0d765afc1859fe6914a938c9dbc9dfeb40f261",
+      "view": "Inspector iso",
+      "clip": "story_talk",
+      "time": 1.44
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_talk_65.png",
+      "sha256": "8196380f036936492da52c2d47d348326e29e2964bc9be6273ca567f92d375b6",
+      "view": "Inspector iso",
+      "clip": "story_talk",
+      "time": 1.9500000000000002
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_talk_82.png",
+      "sha256": "2a6adb2da857684e0c689a1701a693d3aaa3d2a234babfc7fd95f076de112890",
+      "view": "Inspector iso",
+      "clip": "story_talk",
+      "time": 2.46
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_talk_100.png",
+      "sha256": "2e414596a4ced2cc79e95a1349be79f2338ee5413c98dc0de71ef389132d8465",
+      "view": "Inspector iso",
+      "clip": "story_talk",
+      "time": 3
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_talk_side.png",
+      "sha256": "412ef70826f4489afe7e30fc465b76bf8c67b7a0ca18658eb587ece503c484b8",
+      "view": "Inspector side",
+      "clip": "story_talk",
+      "time": 1.44
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_talk_phone.png",
+      "sha256": "3421c731b5d89ed1885dc4ef1d49454104446562a21e713c5eafab5ea36ebf8c",
+      "view": "Inspector phone iso",
+      "clip": "story_talk",
+      "time": 0.8999999999999999
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_startle_0.png",
+      "sha256": "2e414596a4ced2cc79e95a1349be79f2338ee5413c98dc0de71ef389132d8465",
+      "view": "Inspector iso",
+      "clip": "story_startle",
+      "time": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_startle_20.png",
+      "sha256": "3ca48ecf9fa7c1fb1f7747b4807db3abcaad6fefb35fc6692464ac59eb1daecb",
+      "view": "Inspector iso",
+      "clip": "story_startle",
+      "time": 0.30000000000000004
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_startle_30.png",
+      "sha256": "c8f1e3298f0236cfe4b38f28ef91f106f9967e81be899ad4a412b56c757a7355",
+      "view": "Inspector iso",
+      "clip": "story_startle",
+      "time": 0.44999999999999996
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_startle_48.png",
+      "sha256": "2eb305d94dadba24c3339d702b5bc891901d4b79562340aaf23f5d5ffe038e0e",
+      "view": "Inspector iso",
+      "clip": "story_startle",
+      "time": 0.72
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_startle_65.png",
+      "sha256": "43c601ca0f6e65a60352abd1f102393b322d2edcfb58b266f30814545f8fc311",
+      "view": "Inspector iso",
+      "clip": "story_startle",
+      "time": 0.9750000000000001
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_startle_82.png",
+      "sha256": "a0feec378c9a70b4df7d3eece6288a27384d62e4a79f054b68a2e918368a2494",
+      "view": "Inspector iso",
+      "clip": "story_startle",
+      "time": 1.23
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_startle_100.png",
+      "sha256": "2e414596a4ced2cc79e95a1349be79f2338ee5413c98dc0de71ef389132d8465",
+      "view": "Inspector iso",
+      "clip": "story_startle",
+      "time": 1.5
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_startle_side.png",
+      "sha256": "421d35854ad08b397d038a83d8484284c488db1f534bb8ae7dbc45064de46a16",
+      "view": "Inspector side",
+      "clip": "story_startle",
+      "time": 0.72
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_startle_phone.png",
+      "sha256": "cc230fc0913d6e5f7bdd2f09a7e6926ecdfd3d5d66fb9ff3a3486d25b3c21101",
+      "view": "Inspector phone iso",
+      "clip": "story_startle",
+      "time": 0.44999999999999996
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_struggle_0.png",
+      "sha256": "e04e122f2f0511ced3a1e8ab5b0731557a1956b317f4187515e1a254d102032b",
+      "view": "Inspector iso",
+      "clip": "story_struggle",
+      "time": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_struggle_20.png",
+      "sha256": "ba12123c0580e3a1f46465f9eb56ad56efd3fe8d89f61c1a5d5b3ba609446d86",
+      "view": "Inspector iso",
+      "clip": "story_struggle",
+      "time": 0.4
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_struggle_30.png",
+      "sha256": "827672e77934bf8c002d37a528494b6519783ab4d018d0f4f1308fa53cb08160",
+      "view": "Inspector iso",
+      "clip": "story_struggle",
+      "time": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_struggle_48.png",
+      "sha256": "eaec6d1101273af2eb07368187c9f38668ed6886974c726f0dc536e178aa7e05",
+      "view": "Inspector iso",
+      "clip": "story_struggle",
+      "time": 0.96
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_struggle_65.png",
+      "sha256": "1c8a36cf5b9974a41e8edcafa758866737e458cc3f1f2d8bb04417740e540818",
+      "view": "Inspector iso",
+      "clip": "story_struggle",
+      "time": 1.3
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_struggle_82.png",
+      "sha256": "af69596f0a77b92997e6dc705dd890d4c93055f014bf26d01e7f748723299638",
+      "view": "Inspector iso",
+      "clip": "story_struggle",
+      "time": 1.64
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_struggle_100.png",
+      "sha256": "786a741520f13aaf580f049c14f4ee4af5c5726d08e3903449088977cd2e4639",
+      "view": "Inspector iso",
+      "clip": "story_struggle",
+      "time": 2
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_struggle_side.png",
+      "sha256": "a7f1a4cffc2542dc2c552671407be802fc3ac309f551aaf0ab5d35dd8c9a8cc0",
+      "view": "Inspector side",
+      "clip": "story_struggle",
+      "time": 0.96
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_struggle_phone.png",
+      "sha256": "c18dcec29c03fe98d69bb7f8e81739bfed09e9b4afabe3fb267d5e12c7577f48",
+      "view": "Inspector phone iso",
+      "clip": "story_struggle",
+      "time": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_reach_0.png",
+      "sha256": "2e414596a4ced2cc79e95a1349be79f2338ee5413c98dc0de71ef389132d8465",
+      "view": "Inspector iso",
+      "clip": "story_reach",
+      "time": 0
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_reach_20.png",
+      "sha256": "562f701d421398f2f7ab3bb523a81746d405fe44691488e876add25ce2762a52",
+      "view": "Inspector iso",
+      "clip": "story_reach",
+      "time": 0.4
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_reach_30.png",
+      "sha256": "9d0fc5ae31f15a8a639388b8783f0dc9778cb6836cd4befc1c0c5d73c7712bd1",
+      "view": "Inspector iso",
+      "clip": "story_reach",
+      "time": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_reach_48.png",
+      "sha256": "76b2c66058e8b5568e6355268985bfeca07898b23e10858add6ce2784fe2054e",
+      "view": "Inspector iso",
+      "clip": "story_reach",
+      "time": 0.96
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_reach_65.png",
+      "sha256": "448c5ac24fc8fbebc006fe63053ea232866105c3d06ca5cd84b7450efc7c4fa7",
+      "view": "Inspector iso",
+      "clip": "story_reach",
+      "time": 1.3
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_reach_82.png",
+      "sha256": "f5dbb6b5ba7ad967d827c3a68c9e69905ed23dd4c4e1cae240c56666a077ea06",
+      "view": "Inspector iso",
+      "clip": "story_reach",
+      "time": 1.64
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_reach_100.png",
+      "sha256": "f5dbb6b5ba7ad967d827c3a68c9e69905ed23dd4c4e1cae240c56666a077ea06",
+      "view": "Inspector iso",
+      "clip": "story_reach",
+      "time": 2
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_reach_side.png",
+      "sha256": "17da8cf182c7c3bc362bb91fd5e2b5304e474d103788c3ea77d7229957721c7d",
+      "view": "Inspector side",
+      "clip": "story_reach",
+      "time": 0.96
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_reach_phone.png",
+      "sha256": "4566b966d4ae466c0f7bb718dcaba32ba533d5867157c32726b0b754f4524365",
+      "view": "Inspector phone iso",
+      "clip": "story_reach",
+      "time": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_reach_rear_detail.png",
+      "sha256": "0b3c241aa2ed4233ff633b1f699d9fa7beda2bc8b41d4c349251a274a343f49a",
+      "view": "Inspector rear detail",
+      "clip": "story_reach",
+      "time": 2
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_talk_front_detail.png",
+      "sha256": "1c3eff5fea9dad16c0eb1d959a5f8e2f17ff10955d47a8beb02c7a80b23d6efb",
+      "view": "Inspector front detail",
+      "clip": "story_talk",
+      "time": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_octocat_classic_lowpoly/v01/validation/cinematic/story_struggle_rear_detail.png",
+      "sha256": "63e2d03481382747b842d028a0c55306830309f972c0597c14e0e8403a8fa072",
+      "view": "Inspector rear detail",
+      "clip": "story_struggle",
+      "time": 0.96
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Explicit authorization covers this cinematic animation pass; no acceptance of the new revision has been inferred."
+  },
+  "limitations": [
+    "Scene presentation owns carrying contacts, world translation, clip blends and timed story outcomes; these actions only change existing rig poses.",
+    "Clip loop joins and pose extremes were reviewed; final cinematic camera/edit appeal remains a scene-level review.",
+    "Existing eleven-bone rig has no mouth/finger controls; speech/reach uses head, blink and tail. Baseline backlog unchanged by the added story actions."
+  ]
+}

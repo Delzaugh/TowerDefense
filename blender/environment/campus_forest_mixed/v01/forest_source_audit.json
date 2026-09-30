@@ -1,0 +1,139 @@
+{
+  "id": "campus_forest_mixed",
+  "placements": [
+    {
+      "shape": "tall",
+      "position": [
+        -3,
+        0,
+        -3.2
+      ],
+      "scale": 0.92,
+      "rotationY": 0,
+      "palette": {}
+    },
+    {
+      "shape": "pine",
+      "position": [
+        0.2,
+        0,
+        -3.7
+      ],
+      "scale": 0.96,
+      "rotationY": -0.73,
+      "palette": {}
+    },
+    {
+      "shape": "round",
+      "position": [
+        3.3,
+        0,
+        -2.4
+      ],
+      "scale": 1.02,
+      "rotationY": -1.46,
+      "palette": {}
+    },
+    {
+      "shape": "cluster",
+      "position": [
+        -3.45,
+        0,
+        0.2
+      ],
+      "scale": 0.92,
+      "rotationY": -2.19,
+      "palette": {}
+    },
+    {
+      "shape": "spreading",
+      "position": [
+        -0.6,
+        0,
+        -0.1
+      ],
+      "scale": 0.96,
+      "rotationY": -2.92,
+      "palette": {}
+    },
+    {
+      "shape": "pine",
+      "position": [
+        2.8,
+        0,
+        0.8
+      ],
+      "scale": 0.84,
+      "rotationY": -3.65,
+      "palette": {}
+    },
+    {
+      "shape": "round",
+      "position": [
+        -2.8,
+        0,
+        3.6
+      ],
+      "scale": 0.9,
+      "rotationY": -4.38,
+      "palette": {}
+    },
+    {
+      "shape": "tall",
+      "position": [
+        0.5,
+        0,
+        3.1
+      ],
+      "scale": 0.94,
+      "rotationY": -5.109999999999999,
+      "palette": {}
+    },
+    {
+      "shape": "autumn",
+      "position": [
+        3.4,
+        0,
+        3.5
+      ],
+      "scale": 0.93,
+      "rotationY": -5.84,
+      "palette": {}
+    }
+  ],
+  "foliageVertices": 438,
+  "nonManifoldEdges": 0,
+  "zeroAreaFaces": 0,
+  "minimumContactHeight": -2.918243410920951e-8,
+  "maximumHeight": 4.173599802780151,
+  "anchors": {
+    "anchor_n": [
+      0,
+      0,
+      -5
+    ],
+    "anchor_e": [
+      5,
+      0,
+      0
+    ],
+    "anchor_s": [
+      0,
+      0,
+      5
+    ],
+    "anchor_w": [
+      -5,
+      0,
+      0
+    ],
+    "anchor_ui": [
+      0,
+      4.423599802780151,
+      0
+    ]
+  },
+  "paletteSha256": "5bf6f19b097f5a46ffe80ccbc29b949c4c8454829ad959c1ff2ef3d80c2a2367",
+  "sourceHash": "4ba7824d47acdadd2c2987727ce3ffa4c74f284158f80e0bc5a24d2c98b9cac6",
+  "sha256": "5742549703a9c20659d5338031416051052a2676260c45cc057982ae93dd0be0"
+}

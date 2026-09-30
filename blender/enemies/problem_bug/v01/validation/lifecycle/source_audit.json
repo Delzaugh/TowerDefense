@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "asset": "problem_bug",
+  "revision": 11,
+  "sourceHash": "2201813dba398071a3421289a1f40cba918f3399f9d8214dc97cb2fe742fc075",
+  "activeActions": [],
+  "unmutedNla": [],
+  "maximumPoseDelta": 0.0,
+  "defaultMorphs": {},
+  "rootExtras": {
+    "type": "glitch_breach",
+    "version": 1,
+    "entryClip": "spawn",
+    "exitClip": "resolve",
+    "anchor": "root",
+    "color": "#FF497C",
+    "maxFragments": 12,
+    "spawnPortal": false
+  }
+}

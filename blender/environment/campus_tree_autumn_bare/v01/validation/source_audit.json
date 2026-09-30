@@ -1,0 +1,31 @@
+{
+  "id": "campus_tree_autumn_bare",
+  "placements": [
+    {
+      "shape": "autumn",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "rotationY": 0,
+      "palette": {}
+    }
+  ],
+  "foliageVertices": 56,
+  "nonManifoldEdges": 0,
+  "zeroAreaFaces": 0,
+  "minimumContactHeight": 0,
+  "maximumHeight": 3.75,
+  "anchors": {
+    "anchor_ui": [
+      0,
+      4,
+      0
+    ]
+  },
+  "paletteSha256": "5bf6f19b097f5a46ffe80ccbc29b949c4c8454829ad959c1ff2ef3d80c2a2367",
+  "sourceHash": "bf5f290f9d533aa6a841a742d657c4749b6516af8a070aad0f5934af040f8165",
+  "sha256": "73eef6b6f0be5b8eacb8a3fdb0a0642f534d34ee332454f10aa55e981c1b7953"
+}

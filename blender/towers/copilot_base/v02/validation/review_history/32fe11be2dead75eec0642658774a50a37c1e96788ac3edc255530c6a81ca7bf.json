@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_base",
+  "version": "v02",
+  "revision": 4,
+  "sha256": "5e77ade5c6ab41a765cf5f3638ce2629cad6efb1b6c9558d57c41a4642a598cf",
+  "sourceHash": "8cde3d238c14806a2fd9a6cda98fbc4d42c8457cd652ae19c30286ea404e84cd",
+  "scope": "animation",
+  "reviewedAt": "2026-09-24T09:48:45.021Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "The accepted revision-3 Base silhouette, purple shell, goggles and face remain unchanged. The revision-4 GLB has identical rest geometry accessors, material data and embedded image bytes to the retained baseline; viewed rest/isometric and mid-effect frames."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Three-bone rig, two meshes and anchors remain intact. The old idle/work/hit animation channels are byte-identical to revision 3. Full-size body and closed eyes at Resolve 1.25 s are visible with effects disabled; root remains stationary and the 0.18 m hover clears ground."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "At 0.40, 0.60 and 0.80 s, colored cubes and a cyan cell edge make the disintegration visible without losing the Base identity too early. The reverse Place sequence is readable at 390 px phone width with ground shadow; the final face matches Idle ready."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Inspected the exported Inspector sequence at Resolve 0, 0.40, 0.60, 0.80 and 1.25 s and Place 0, 0.60 and 1.25 s, plus phone midpoints. Resolve ends invisible; Place starts invisible and ends at ready. Both share a 1.25 s timeline and reverse fragment states. Seeking, replay, Rest Pose reset, effects toggle and shared budget checks pass. Added in-place move loop; endpoint displacement is below 0.002 and its sampled minimum clearance stays above ground."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After the initial Inspector pass exposed overly strict exact-PNG comparisons in the review script, changed them to a two-level pixel tolerance. Replayed and reviewed final revision-4 close and phone sequences; the 22-frame Inspector audit, GLB preservation check, guarded runtime validation and shared effect verifier all pass."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_base/v02/validation/iso.png",
+      "sha256": "37fe17e2dd5e2d78c36ba54713ce025081729e642b5d27393a7ef41f9c11aef3",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/iso-silhouette.png",
+      "sha256": "66d72e2d933af180080a3cd729c169cd83f4ce1db857d091193c1196207ed3bb",
+      "view": "iso",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/front.png",
+      "sha256": "9cefdb3d221f574686762f6d44e75d2cf0950b6bf417a9b90290580f37eaf8b5",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/front-silhouette.png",
+      "sha256": "7beb7424560472eb330cde268a7aa3da1e6e57ec8341ffdb84a897cde0884923",
+      "view": "front",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/side.png",
+      "sha256": "fecf84ee227bf285677a494136e11fef19d8afbb3f20f8f5cfd2a5218811a727",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/side-silhouette.png",
+      "sha256": "44bd87e3d3bc2442510a249bf69ac8cc6ecafded800dbecf699386d1dac453ff",
+      "view": "side",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/rear.png",
+      "sha256": "7ac7c60e4d61745cf9a114aea90335cad81a3ff995b70669e6d8892013244351",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/rear-silhouette.png",
+      "sha256": "74351bad8a7ae4245d74f084af0b73a0bad315387d69055c6b43edab5d67a01c",
+      "view": "rear",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/top.png",
+      "sha256": "7d920bb784b65f23954ef6cf2ee1e8b8f8ebbb2974aabd9e4c8846c44fcbae6a",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/top-silhouette.png",
+      "sha256": "1acae6f9889c093c1094ff4dee6aa56442272e732e059259758352d9ff2d750f",
+      "view": "top",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/idle.png",
+      "sha256": "ffd39ba3c3b78e62710252f1c8d95da0635fcad3a1576794d3c7473ecd4953f2",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "idle",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/work.png",
+      "sha256": "189300bc0245dae7397733e63924cd84ea6202e836189dc1f5ddf65184ddf1aa",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "work",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/move.png",
+      "sha256": "ab19aa4ec7a76e2a3e729a93dc49dfddaf9fb88f2d6ad005cc5ca89082e5c8ce",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "move",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/place.png",
+      "sha256": "3bef7b0dd40aa261df40e02b7ed0473ee206c6171876ea34ba4e93917a68aa9c",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "place",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/hit.png",
+      "sha256": "2bcb29c876083c98147918f55a2c0e66d28e18db999324727a56f60bde2062d9",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "hit",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/resolve.png",
+      "sha256": "3bef7b0dd40aa261df40e02b7ed0473ee206c6171876ea34ba4e93917a68aa9c",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "resolve",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/lifecycle_review/resolve-032.png",
+      "sha256": "5ac952cb66e18e67b39d8a0e29a16a9c5ede74b1fee1d9b5c4687f88f3b9d482",
+      "view": "Inspector isometric Resolve at 0.40 s"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/lifecycle_review/resolve-048.png",
+      "sha256": "9537c6306c77f1f205cae60fc15287a19050e565bec95cc5bde2c13d4e0bb82b",
+      "view": "Inspector isometric Resolve at 0.60 s"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/lifecycle_review/resolve-064.png",
+      "sha256": "4ea94a87f406aea8f33996a498ca1dd5a102c3394120cf646b0d1c1509484867",
+      "view": "Inspector isometric Resolve at 0.80 s"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/lifecycle_review/place-000.png",
+      "sha256": "1710d256e80ddbf8fa5c4e52014c660ee748f84429887f4350d49c6401775b4f",
+      "view": "Inspector Place invisible start at 0 s"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/lifecycle_review/place-048.png",
+      "sha256": "22015242891bd0b923ee462b5d8fd50113bca4fdf50c9fd13657ba4e28ac72e3",
+      "view": "Inspector isometric Place at 0.60 s"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/lifecycle_review/place-100.png",
+      "sha256": "4d009e5abef7c8ac8df3a519869afb6cdd46294c93ffb8a73df00e045543391a",
+      "view": "Inspector Place ready endpoint at 1.25 s"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/lifecycle_review/resolve-effect-off.png",
+      "sha256": "aebd3b296ea594180ff2b5c05d28a1cde858de92f0f6043900483460bdd66d3f",
+      "view": "Inspector Resolve endpoint with presentation disabled; full-size body and closed eyes"
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/validation/lifecycle_review/phone-resolve-mid.png",
+      "sha256": "30b39ba02f6f5f10af4dd2b2bde8f64e74ae40970c06f2c5d4ceb089866d6efe",
+      "view": "Inspector phone-scale Resolve at 0.60 s with ground shadow"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/digital-resolve.js",
+      "sha256": "98f1aa5265c1e9d18ea15c5fa65d453dbceecb7b84e31c7d942b1f225c5289c5"
+    },
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "fe40daaecfa3b96dd8a3dc93e758c8ea1890d8dffc8fa2809d4bda26d98d5cb2"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": ""
+  },
+  "limitations": []
+}

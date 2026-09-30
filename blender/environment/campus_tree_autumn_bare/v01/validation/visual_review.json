@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_tree_autumn_bare",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "73eef6b6f0be5b8eacb8a3fdb0a0642f534d34ee332454f10aa55e981c1b7953",
+  "sourceHash": "bf5f290f9d533aa6a841a742d657c4749b6516af8a070aad0f5934af040f8165",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T11:19:57.624Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Asymmetric gold and amber lobes with a warm trunk provide a seasonal variant without emission."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "The first candidate had a slanted bottom cap 0.00613 m below zero. Flattened the trunk bottom in the source recipe; the replacement export is grounded. Reverse/underside confirm the fork enters the second lobe."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally inspected the phone-width and fixed-view renders: the crown outline and trunk remain readable; different forms are identifiable without relying only on color."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked the corrected ground contact and both crown attachments. The replacement has a flat bottom and a readable asymmetrical outline in close and phone views."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_tree_autumn_bare/v01/validation/iso.png",
+      "sha256": "46df49c267abf03ab5a9bed131cb3bff2a17d65692fc092e47c37fc62d6ada94",
+      "view": "validation/iso"
+    },
+    {
+      "path": "blender/environment/campus_tree_autumn_bare/v01/validation/front.png",
+      "sha256": "c4cd46dd3a36c0196116db1f4eb303ed6fd96daf9dd7a5bda7da1724d5e4e349",
+      "view": "validation/front"
+    },
+    {
+      "path": "blender/environment/campus_tree_autumn_bare/v01/validation/rear.png",
+      "sha256": "f24364b63df6d23dbbcb44a0302e16866cbb879fdb47cca343417d41cacfcc5f",
+      "view": "validation/rear"
+    },
+    {
+      "path": "blender/environment/campus_tree_autumn_bare/v01/renders/inspector-close.png",
+      "sha256": "f5d6cda2f556d10c3a6b28b39641be510ccf55b6950c623ef7ad1a7a0a183727",
+      "view": "renders/inspector-close"
+    },
+    {
+      "path": "blender/environment/campus_tree_autumn_bare/v01/renders/inspector-rear.png",
+      "sha256": "4227b7e5a0ce85a451e0662ebb6fbeae80da53b7ad3c44cc8cd86ba9296d49b9",
+      "view": "renders/inspector-rear"
+    },
+    {
+      "path": "blender/environment/campus_tree_autumn_bare/v01/renders/inspector-phone.png",
+      "sha256": "d50706b9b7b9a1a770f1332ec1dfb9863edb54c2914474574ad17715aacf9974",
+      "view": "renders/inspector-phone"
+    },
+    {
+      "path": "blender/environment/campus_tree_autumn_bare/v01/renders/inspector-bottom.png",
+      "sha256": "ae35761602640338299abe9fc898332b2d42b2a1b73a271e0d91cc309c8b32df",
+      "view": "renders/inspector-bottom"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "New family delivered for user artistic review; no approval inferred."
+  },
+  "limitations": [
+    "Static environmental art; no collision, pathfinding or gameplay placement integration."
+  ]
+}

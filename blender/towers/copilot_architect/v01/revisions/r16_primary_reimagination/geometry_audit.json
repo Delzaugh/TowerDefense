@@ -1,0 +1,60 @@
+{
+  "meshes": [
+    {
+      "name": "pavilion_body",
+      "triangles": 1732,
+      "zeroAreaTriangles": [],
+      "editablePartGroups": 26
+    },
+    {
+      "name": "pavilion_eyes",
+      "triangles": 280,
+      "zeroAreaTriangles": [],
+      "editablePartGroups": 2
+    }
+  ],
+  "designChecks": {
+    "upper_cheek_1": {
+      "widthRange": [
+        0.6100000143051147,
+        1.2300000190734863
+      ],
+      "depthRange": [
+        0.43433770537376404,
+        1.5276999473571777
+      ],
+      "heightRange": [
+        0.6100000143051147,
+        1.909999966621399
+      ]
+    },
+    "lower_cheek_1": {
+      "widthRange": [
+        0.4300000071525574,
+        1.065000057220459
+      ],
+      "depthRange": [
+        0.527400016784668,
+        1.439048409461975
+      ],
+      "heightRange": [
+        0.11999999731779099,
+        0.8149999976158142
+      ]
+    },
+    "fitted_side_casing_1": {
+      "widthRange": [
+        0.7371360063552856,
+        1.4496610164642334
+      ],
+      "depthRange": [
+        -1.2999999523162842,
+        0.6399999856948853
+      ],
+      "heightRange": [
+        0.18000000715255737,
+        1.940000057220459
+      ]
+    }
+  }
+}

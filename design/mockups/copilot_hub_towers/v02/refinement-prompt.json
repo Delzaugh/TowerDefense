@@ -1,0 +1,9 @@
+{
+  "generator": "Built-in image_gen tool",
+  "reason": "Correct the duplicated central Lab outside the Codex's window so the proposed interior remains in the same place.",
+  "key": "codex-window-correction",
+  "refs": [
+    "C:/Users/jonas/.codex/generated_images/01a0d390-7cfc-73b3-9260-5abd55bff5ab/exec-50f2ffca-c113-4be5-b8fc-96963f818555.png"
+  ],
+  "prompt": "Precise edit of this game UI mock-up. Change ONLY the scene outside the windows in the upper background, to correct world continuity. We are INSIDE the central Copilot Lab, so the duplicate white two-storey Lab building currently visible outside at the upper center-left must be removed. Replace that duplicate building with the surrounding campus's low-poly paved pedestrian paths, low grass, teal faceted trees, a small bench and existing style of low flowering bed. The viewpoint should plausibly look from the Lab out toward the nearby campus park, with the blue digital void far beyond the tile edge. No other Lab building or new landmark outside. Use the same flat matte palette, chunky simple geometry, orthographic-like perspective and neutral daylight as the existing background. Keep all foreground content unchanged: exact Developer model and its pose/colors, all seven portrait cards on the left, all UI labels and numerical stats, headers, animations strip, light-colored counter, thin blue-gray frames, layout, lighting, crop and resolution. Do not redesign or move the foreground UI. Keep readable text intact. This is a small background continuity correction, not a new concept."
+}

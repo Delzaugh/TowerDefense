@@ -1,0 +1,37 @@
+{
+  "asset": "campus_tree_round_bare",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "e41c2abe2ea7c2fed94eddbe8f2433a42773cf359987842379cc27c6deeb3b81",
+  "checkedAt": "2026-09-24T11:12:23.472Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 48,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.146620035171509,
+    3.610000162124633,
+    1.922446370124817
+  ],
+  "bounds": [
+    [
+      -1.0733100175857544,
+      -2.8610228852699038e-8,
+      -0.9612231850624084
+    ],
+    [
+      1.0733100175857544,
+      3.6100001335144043,
+      0.9612231850624084
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "84ccaa67c7c518b56657cf66fd2e8d91b6bb8c5ff5f79ee964c8fc4454ba2248",
+  "source": "blender/environment/campus_tree_round_bare/v01/campus_tree_round_bare_v01.blend",
+  "runtime": "assets/runtime/environment/campus_tree_round_bare_v01.glb"
+}

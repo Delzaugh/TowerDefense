@@ -1,0 +1,14 @@
+for group,name in (([p for p in parts if p.get('palette_role')!='cyan'],'pavilion_body'),([p for p in parts if p.get('palette_role')=='cyan'],'pavilion_eyes')):
+    if not group:continue
+    bpy.ops.object.select_all(action='DESELECT')
+    for p in group:p.select_set(True)
+    bpy.context.view_layer.objects.active=group[0]
+    bpy.ops.object.join();bpy.context.object.name=name
+    bpy.ops.object.transform_apply(location=True,rotation=True,scale=True)
+    bpy.ops.object.select_all(action='DESELECT')
+for name,p in [('anchor_ui',(0,3.15,0)),('anchor_action',(0,2.35,.02)),('anchor_target',(0,1.30,0))]:
+    a=bpy.data.objects.new(name,None);scene.collection.objects.link(a);a.parent=root;a.location=xyz(p)
+scene.render.fps=30;scene.frame_set(0)
+OUT.mkdir(parents=True,exist_ok=True)
+bpy.ops.wm.save_as_mainfile(filepath=str(OUT/os.environ.get('ASSET_SOURCE_NAME','copilot_architect_v01.blend')))
+

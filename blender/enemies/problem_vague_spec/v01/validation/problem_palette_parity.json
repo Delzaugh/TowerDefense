@@ -1,0 +1,15 @@
+{
+  "id": "problem_vague_spec",
+  "revision": 9,
+  "sha256": "5b437567df99096c2ca1b63ee4913bb1604ee4a268d7e11a7092eb851d433b79",
+  "uniqueBaseColors": 7,
+  "parity": {
+    "passed": true,
+    "vertices": 2754,
+    "meshes": 1,
+    "materials": 1,
+    "oldBytes": 210120,
+    "newBytes": 210120,
+    "checks": "Exact exported topology, positions, normals, skinning, old UV channels, morph targets, rig, anchors, clips, and material/emission parity; base-colour storage only."
+  }
+}

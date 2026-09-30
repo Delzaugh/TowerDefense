@@ -1,0 +1,37 @@
+{
+  "asset": "campus_visitor_man",
+  "version": "v01",
+  "revision": 6,
+  "sha256": "47ab9215db6beb003621a33bd8d508b2f754d51f60280253bcd3f1020cbc108b",
+  "checkedAt": "2026-09-24T11:20:22.694Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 3948,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    0.7737982869148254,
+    1.8130000829696655,
+    0.5190519988536835
+  ],
+  "bounds": [
+    [
+      -0.3868991434574127,
+      0,
+      -0.22405201196670532
+    ],
+    [
+      0.3868991434574127,
+      1.8130000829696655,
+      0.29499998688697815
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "69edc96bc3e20ab4f1bae8efe3650d28f507b63a1a209cc6934c1a0cd3a0bfa6",
+  "source": "blender/environment/campus_visitor_man/v01/campus_visitor_man_v01.blend",
+  "runtime": "assets/runtime/environment/campus_visitor_man_v01.glb"
+}

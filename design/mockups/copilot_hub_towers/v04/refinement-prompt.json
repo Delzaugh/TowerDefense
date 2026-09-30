@@ -1,0 +1,8 @@
+{
+  "generator": "Built-in image_gen tool",
+  "mode": "Targeted cleanup: remove unintended extra blank animation key",
+  "references": [
+    "C:/Users/jonas/.codex/generated_images/01a0d390-7cfc-73b3-9260-5abd55bff5ab/exec-3eab4d9b-33b8-444e-a80e-2c2a453189e2.png"
+  ],
+  "prompt": "Use case: precise-object-edit. Edit this exact game interface image with ONE surgical cleanup only. In the bottom ANIMATION console, there is an unwanted EIGHTH blank ivory key at the far left before Rest. REMOVE that blank key completely, including its socket. Redistribute the SEVEN remaining existing physical buttons evenly across the recessed rail, in this exact order and with these exact labels: Rest, Idle, Work, Move, Place, Hit, Resolve. There must be exactly seven keys and exactly seven sockets, no extra blank/ghost buttons. Keep the existing icon on each correctly labeled key. Idle alone is selected in muted mint with its small status light, slightly depressed into its socket. All other keys retain their raised ivory faces, simple beveled edges, slate-blue sides and contact shadows. Make only this animation-strip cleanup. Preserve every other pixel/visual element as closely as possible: current full composition, camera framing, header, low-poly Lab/Hub materials, Developer character, portrait board, purely visual non-numeric stat gauges, Back to Hub and Reset controls, windows and park. No new numbers, speed controls, playback controls, labels or objects. Return the entire full-screen landscape interface image, not a cropped detail."
+}

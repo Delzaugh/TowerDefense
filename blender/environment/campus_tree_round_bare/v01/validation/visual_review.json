@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_tree_round_bare",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "e41c2abe2ea7c2fed94eddbe8f2433a42773cf359987842379cc27c6deeb3b81",
+  "sourceHash": "84ccaa67c7c518b56657cf66fd2e8d91b6bb8c5ff5f79ee964c8fc4454ba2248",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-24T11:19:57.286Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Original broad teal crown and eight-sided trunk preserve their geometry and color after removing the planter and lowering by 0.28 m."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Front and reverse show the trunk seated inside the crown; underside shows a capped trunk and no planter remnants."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally inspected the phone-width and fixed-view renders: the crown outline and trunk remain readable; different forms are identifiable without relying only on color."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked the unchanged crown profile against the original round-tree render and the source snapshot. Grounded contact and silhouette are clean; no further repairs needed."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_tree_round_bare/v01/validation/iso.png",
+      "sha256": "e24f805dc414a94b7c88cef2ac0695f398480091e74e4f54e595b9e4e0a13d13",
+      "view": "validation/iso"
+    },
+    {
+      "path": "blender/environment/campus_tree_round_bare/v01/validation/front.png",
+      "sha256": "2a536363711a438e1bd4dd9baec94e5bc1cb3f79fde398c9485cf714e7cb5369",
+      "view": "validation/front"
+    },
+    {
+      "path": "blender/environment/campus_tree_round_bare/v01/validation/rear.png",
+      "sha256": "83936fa1b5425d77d47676597f500250d1c535400e305eefb6f9b5a8f0434d55",
+      "view": "validation/rear"
+    },
+    {
+      "path": "blender/environment/campus_tree_round_bare/v01/renders/inspector-close.png",
+      "sha256": "41874102cb66886be15ede3676bafda1b1fd99f0fbab2aa181158c8fe2d80f32",
+      "view": "renders/inspector-close"
+    },
+    {
+      "path": "blender/environment/campus_tree_round_bare/v01/renders/inspector-rear.png",
+      "sha256": "9820da74ec2699bd423b45a702e557a77c089a17d3438c2a7e41a7b27e3dd8cc",
+      "view": "renders/inspector-rear"
+    },
+    {
+      "path": "blender/environment/campus_tree_round_bare/v01/renders/inspector-phone.png",
+      "sha256": "e5f64c18e08e8317280058b4cc1a2c40f1ebb39172cf3bf9c62344ce380a8314",
+      "view": "renders/inspector-phone"
+    },
+    {
+      "path": "blender/environment/campus_tree_round_bare/v01/renders/inspector-bottom.png",
+      "sha256": "fc7c54c84f1ed5bf5d42f132cf482fecba47dad99f10a5bc9ed8237735213563",
+      "view": "renders/inspector-bottom"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "New family delivered for user artistic review; no approval inferred."
+  },
+  "limitations": [
+    "Static environmental art; no collision, pathfinding or gameplay placement integration."
+  ]
+}

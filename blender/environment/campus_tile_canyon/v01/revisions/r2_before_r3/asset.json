@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_tile_canyon",
+  "displayName": "Campus canyon tile",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/campus_tile_canyon/v01/campus_tile_canyon_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_tile_canyon/v01/build.py",
+    "authoritativeHash": "ba6f8519620141048f258e71c9e1a68c7ef441e8001dcbc49bc38a2a5aca3d49"
+  },
+  "runtime": "assets/runtime/environment/campus_tile_canyon_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_surface",
+      "anchor_edge_ne",
+      "anchor_edge_n",
+      "anchor_edge_nw",
+      "anchor_edge_sw",
+      "anchor_edge_s",
+      "anchor_edge_se"
+    ],
+    "dimensions": {
+      "min": [
+        35.99,
+        3,
+        31.17
+      ],
+      "max": [
+        36.01,
+        4.1,
+        31.18
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "docs/design/Campus_Tile_System.md",
+      "provenance": "Project shared frame, scale and joining contract; original canyon geometry authored to user request."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/campus_tile_canyon/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "canyon_palette",
+      "size": [
+        512,
+        512
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#6787A3",
+          "rect": [
+            0,
+            0,
+            8,
+            8
+          ]
+        },
+        "ground": {
+          "color": "#354B64",
+          "rect": [
+            8,
+            0,
+            8,
+            8
+          ]
+        },
+        "shell": {
+          "color": "#24354E",
+          "rect": [
+            16,
+            0,
+            8,
+            8
+          ]
+        },
+        "tile_seam": {
+          "color": "#577693",
+          "rect": [
+            24,
+            0,
+            8,
+            8
+          ]
+        },
+        "sand": {
+          "color": "#B9906B",
+          "rect": [
+            32,
+            0,
+            8,
+            8
+          ]
+        },
+        "rock": {
+          "color": "#C68D65",
+          "rect": [
+            40,
+            0,
+            8,
+            8
+          ]
+        },
+        "strata": {
+          "color": "#985F49",
+          "rect": [
+            48,
+            0,
+            8,
+            8
+          ]
+        },
+        "light": {
+          "color": "#DCB182",
+          "rect": [
+            56,
+            0,
+            8,
+            8
+          ]
+        },
+        "bed": {
+          "color": "#786C60",
+          "rect": [
+            64,
+            0,
+            8,
+            8
+          ]
+        },
+        "water": {
+          "color": "#4C939C",
+          "rect": [
+            72,
+            0,
+            8,
+            8
+          ]
+        },
+        "edge": {
+          "color": "#2D435C",
+          "rect": [
+            80,
+            0,
+            8,
+            8
+          ]
+        },
+        "path": {
+          "color": "#48647D",
+          "rect": [
+            88,
+            0,
+            8,
+            8
+          ]
+        },
+        "signal": {
+          "color": "#82DADD",
+          "rect": [
+            96,
+            0,
+            8,
+            8
+          ]
+        },
+        "metal": {
+          "color": "#89A4B8",
+          "rect": [
+            104,
+            0,
+            8,
+            8
+          ]
+        },
+        "leaf": {
+          "color": "#698A76",
+          "rect": [
+            112,
+            0,
+            8,
+            8
+          ]
+        },
+        "leaflight": {
+          "color": "#93A287",
+          "rect": [
+            120,
+            0,
+            8,
+            8
+          ]
+        },
+        "dark": {
+          "color": "#305775",
+          "rect": [
+            128,
+            0,
+            8,
+            8
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "chalk": "#6787A3",
+      "ground": "#354B64",
+      "shell": "#24354E",
+      "tile_seam": "#577693",
+      "sand": "#B9906B",
+      "rock": "#C68D65",
+      "strata": "#985F49",
+      "light": "#DCB182",
+      "bed": "#786C60",
+      "water": "#4C939C",
+      "edge": "#2D435C",
+      "path": "#48647D",
+      "signal": "#82DADD",
+      "metal": "#89A4B8",
+      "leaf": "#698A76",
+      "leaflight": "#93A287",
+      "dark": "#305775"
+    }
+  },
+  "exportSettings": {
+    "paletteTextureWorkflow": false
+  },
+  "delivery": {
+    "sha256": "56d927813754f0571385c41f999a4f92ad6fe6c4790eda9eb77b2ff812f7feea",
+    "sourceHash": "ba6f8519620141048f258e71c9e1a68c7ef441e8001dcbc49bc38a2a5aca3d49",
+    "report": "blender/environment/campus_tile_canyon/v01/validation/report.json",
+    "deliveredAt": "2026-09-24T11:14:51.563Z"
+  }
+}

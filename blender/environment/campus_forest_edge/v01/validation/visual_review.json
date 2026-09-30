@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_forest_edge",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "e047a304c599939d0f23f76d7d288897d688faaa3d0d924ccfaba0fcd298da28",
+  "sourceHash": "4ada1c14585d60b3510f9786664cbed0f6737ed4cd84f7c9a07ddd6d2cf760e8",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T11:19:57.801Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Seven trees transition from taller back crowns to low sage/amber foreground crowns."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "All trunks sit at zero; top and underside show a shallow 12 by 6 m envelope with no baked ground or planter."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally inspected the phone-width and fixed-view renders: the crown outline and trunk remain readable; different forms are identifiable without relying only on color."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked the wide side silhouette, front-to-back height ordering and branch seating. The autumn accent remains readable at phone scale."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_forest_edge/v01/validation/iso.png",
+      "sha256": "fdb7eb30d106265ab18059a0fdbb2f2c2d5ebc9bda74f675d308329e36e7c708",
+      "view": "validation/iso"
+    },
+    {
+      "path": "blender/environment/campus_forest_edge/v01/validation/front.png",
+      "sha256": "ecfe6d041e7167f1f9ed79a05b712a7770cfff33902ea9e4ccb582bc34afa4c3",
+      "view": "validation/front"
+    },
+    {
+      "path": "blender/environment/campus_forest_edge/v01/validation/rear.png",
+      "sha256": "df4d35619076ea569aef13b07421afac9bd73a9c7027caa2084b728dd32c9ec0",
+      "view": "validation/rear"
+    },
+    {
+      "path": "blender/environment/campus_forest_edge/v01/validation/top.png",
+      "sha256": "30ffe08e35090e66dd933c094dc5b67716c1087f723e2c8768b203eb7596f43a",
+      "view": "validation/top"
+    },
+    {
+      "path": "blender/environment/campus_forest_edge/v01/renders/inspector-close.png",
+      "sha256": "c02eb7e8f13d4f4c2f57ad292af25d1fc07658852143028908c43d71755055a0",
+      "view": "renders/inspector-close"
+    },
+    {
+      "path": "blender/environment/campus_forest_edge/v01/renders/inspector-rear.png",
+      "sha256": "95894be138ea9bbf86a57c1587def8015a21792257a62435fbced55117008e59",
+      "view": "renders/inspector-rear"
+    },
+    {
+      "path": "blender/environment/campus_forest_edge/v01/renders/inspector-phone.png",
+      "sha256": "b8c9214a05ae58905ac00c452430bda99d8e3394a301cc0edb0c899a76e4e225",
+      "view": "renders/inspector-phone"
+    },
+    {
+      "path": "blender/environment/campus_forest_edge/v01/renders/inspector-bottom.png",
+      "sha256": "617557835fa9ac7d1f1569c5b3fb27cf7f07b7f23477544f6856e5c8810b352a",
+      "view": "renders/inspector-bottom"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "New family delivered for user artistic review; no approval inferred."
+  },
+  "limitations": [
+    "Static environmental art; no collision, pathfinding or gameplay placement integration.",
+    "Flat common contact plane; use individual trees for uneven terrain."
+  ]
+}

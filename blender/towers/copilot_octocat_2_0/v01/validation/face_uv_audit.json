@@ -1,0 +1,14 @@
+{
+  "asset": "copilot_octocat_2_0",
+  "revision": 8,
+  "sourceHash": "c0c000b5b12d0380bdaeb54904fb92b2428912519e10ab09263e70c110eec8cb",
+  "checkedBackFacingOrRearPolygons": 12249,
+  "rearProjectionFailures": 0,
+  "furPixel": [
+    0.14509804546833038,
+    0.16470588743686676,
+    0.19215688109397888,
+    1.0
+  ],
+  "passed": true
+}

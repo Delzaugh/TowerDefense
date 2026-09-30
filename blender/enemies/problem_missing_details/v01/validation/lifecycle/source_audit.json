@@ -1,0 +1,31 @@
+{
+  "sourceHash": "8a9f65d9e554e1df35310d148d8709ffbb824d00b7fac94e952283237f30f70f",
+  "tracks": [
+    "hit",
+    "idle",
+    "move",
+    "resolve",
+    "seated",
+    "sit_down",
+    "spawn"
+  ],
+  "allNlaMuted": true,
+  "activeAction": null,
+  "restPose": true,
+  "rootStationary": true,
+  "anchorsParentedToRoot": [
+    "anchor_ui",
+    "anchor_target"
+  ],
+  "lifecycle": {
+    "type": "glitch_breach",
+    "version": 1,
+    "entryClip": "spawn",
+    "exitClip": "resolve",
+    "anchor": "root",
+    "color": "#FF497C",
+    "maxFragments": 10,
+    "spawnPortal": false
+  },
+  "fps": 24
+}

@@ -1,0 +1,4637 @@
+{
+  "schemaVersion": 1,
+  "scene": "garden-switchback-v1",
+  "id": "2026-09-24T07-17-58-754Z",
+  "status": "cancelled",
+  "startedAt": "2026-09-24T07:17:58.754Z",
+  "cases": [],
+  "errors": [],
+  "configuration": {
+    "waves": [
+      {
+        "start": 0,
+        "count": 40
+      },
+      {
+        "start": 8,
+        "count": 60
+      },
+      {
+        "start": 16,
+        "count": 100
+      }
+    ],
+    "enemyCap": 100,
+    "mapSeed": 230924,
+    "towers": 35,
+    "octocats": 2,
+    "heavyTowers": 2,
+    "targetFPS": 30
+  },
+  "notes": [
+    "Dedicated map with seeded environment decor. Two stationary special Octocats are not enemies or part of the tower count. Two Berts are included in the chosen 20/35/50 tower total.",
+    "Bug, Vague Spec and Missing Details walk the same route in three waves. Overflow waits at entry; at most 100 enemies are active. All 200 spawned enemies reach the destination.",
+    "Towers play work and aim at nearby enemies with cosmetic beams. No damage, kills, economy or gameplay balance simulation.",
+    "Counts include shadow rendering. CPU submission is not GPU time. Bone textures contribute to texture counts. Fixed 30 FPS target; no GPU headroom estimate.",
+    "Each case is a consecutive timeline sample. Capture work is excluded. Device emulation is not physical phone testing."
+  ],
+  "initialState": {
+    "scene": "garden-switchback-v1",
+    "view": "home",
+    "zoom": 1,
+    "animating": false,
+    "map": {
+      "id": "garden-switchback-v1",
+      "seed": 230924,
+      "pathWidth": 4.4,
+      "length": 225.9530740817201,
+      "route": [
+        [
+          -40,
+          0,
+          -22
+        ],
+        [
+          24,
+          0,
+          -22
+        ],
+        [
+          24.638888888888886,
+          0,
+          -21.972222222222218
+        ],
+        [
+          25.222222222222225,
+          0,
+          -21.888888888888893
+        ],
+        [
+          25.75,
+          0,
+          -21.75
+        ],
+        [
+          26.222222222222225,
+          0,
+          -21.555555555555557
+        ],
+        [
+          26.638888888888882,
+          0,
+          -21.30555555555555
+        ],
+        [
+          27,
+          0,
+          -21
+        ],
+        [
+          27.305555555555557,
+          0,
+          -20.63888888888889
+        ],
+        [
+          27.555555555555554,
+          0,
+          -20.22222222222222
+        ],
+        [
+          27.75,
+          0,
+          -19.75
+        ],
+        [
+          27.88888888888889,
+          0,
+          -19.22222222222222
+        ],
+        [
+          27.97222222222222,
+          0,
+          -18.63888888888889
+        ],
+        [
+          28,
+          0,
+          -18
+        ],
+        [
+          28,
+          0,
+          -7
+        ],
+        [
+          27.97222222222222,
+          0,
+          -6.36111111111111
+        ],
+        [
+          27.888888888888893,
+          0,
+          -5.777777777777778
+        ],
+        [
+          27.75,
+          0,
+          -5.25
+        ],
+        [
+          27.55555555555556,
+          0,
+          -4.777777777777778
+        ],
+        [
+          27.305555555555554,
+          0,
+          -4.36111111111111
+        ],
+        [
+          27,
+          0,
+          -4
+        ],
+        [
+          26.63888888888889,
+          0,
+          -3.694444444444444
+        ],
+        [
+          26.22222222222222,
+          0,
+          -3.4444444444444446
+        ],
+        [
+          25.75,
+          0,
+          -3.25
+        ],
+        [
+          25.22222222222222,
+          0,
+          -3.111111111111111
+        ],
+        [
+          24.63888888888889,
+          0,
+          -3.0277777777777777
+        ],
+        [
+          24,
+          0,
+          -3
+        ],
+        [
+          -23,
+          0,
+          -3
+        ],
+        [
+          -23.638888888888886,
+          0,
+          -2.9722222222222214
+        ],
+        [
+          -24.222222222222225,
+          0,
+          -2.8888888888888893
+        ],
+        [
+          -24.75,
+          0,
+          -2.75
+        ],
+        [
+          -25.222222222222225,
+          0,
+          -2.555555555555556
+        ],
+        [
+          -25.638888888888886,
+          0,
+          -2.305555555555555
+        ],
+        [
+          -26,
+          0,
+          -2
+        ],
+        [
+          -26.305555555555557,
+          0,
+          -1.6388888888888886
+        ],
+        [
+          -26.555555555555557,
+          0,
+          -1.2222222222222225
+        ],
+        [
+          -26.75,
+          0,
+          -0.75
+        ],
+        [
+          -26.888888888888893,
+          0,
+          -0.222222222222222
+        ],
+        [
+          -26.97222222222222,
+          0,
+          0.36111111111111077
+        ],
+        [
+          -27,
+          0,
+          1
+        ],
+        [
+          -27,
+          0,
+          16
+        ],
+        [
+          -26.972222222222218,
+          0,
+          16.63888888888889
+        ],
+        [
+          -26.888888888888893,
+          0,
+          17.222222222222225
+        ],
+        [
+          -26.75,
+          0,
+          17.75
+        ],
+        [
+          -26.555555555555557,
+          0,
+          18.22222222222222
+        ],
+        [
+          -26.30555555555555,
+          0,
+          18.638888888888886
+        ],
+        [
+          -26,
+          0,
+          19
+        ],
+        [
+          -25.63888888888889,
+          0,
+          19.305555555555557
+        ],
+        [
+          -25.22222222222222,
+          0,
+          19.555555555555557
+        ],
+        [
+          -24.75,
+          0,
+          19.75
+        ],
+        [
+          -24.22222222222222,
+          0,
+          19.88888888888889
+        ],
+        [
+          -23.638888888888886,
+          0,
+          19.97222222222222
+        ],
+        [
+          -23,
+          0,
+          20
+        ],
+        [
+          40,
+          0,
+          20
+        ]
+      ],
+      "decor": [
+        {
+          "id": "campus_tree_round",
+          "x": -9.235062662977725,
+          "z": 7.8386006355285645,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_tree_tall",
+          "x": -35.40475863777101,
+          "z": 11.080906658899039,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_tree_cluster",
+          "x": 39.88492026226595,
+          "z": -26.166501791216433,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_planter_bench",
+          "x": 38.49380945134908,
+          "z": -18.560773901175708,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_bush_round",
+          "x": -33.57622266607359,
+          "z": 23.111381072551012,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_flower_bed",
+          "x": 41.14622915349901,
+          "z": 6.328456613700837,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_wayfinding_sign",
+          "x": -40.14624651754275,
+          "z": -1.809308098629117,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "kaykit_rock_a",
+          "x": -40.899537906982005,
+          "z": 3.349989926908165,
+          "rotation": 0
+        },
+        {
+          "id": "campus_coffee_kiosk",
+          "x": 38.15948433848098,
+          "z": -9.46185312140733,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_tree_round",
+          "x": 20.272801171056926,
+          "z": 7.196787829045206,
+          "rotation": 0
+        },
+        {
+          "id": "campus_tree_tall",
+          "x": -37.59060196066275,
+          "z": 18.595928637310863,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_tree_cluster",
+          "x": -4.118868308141828,
+          "z": -12.792887423653156,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_planter_bench",
+          "x": 42.56340647256002,
+          "z": 28.6362075638026,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_bush_round",
+          "x": -31.65111050195992,
+          "z": -9.715963859576732,
+          "rotation": 0
+        },
+        {
+          "id": "campus_flower_bed",
+          "x": -14.984051938634366,
+          "z": -12.646232125349343,
+          "rotation": 0
+        },
+        {
+          "id": "campus_wayfinding_sign",
+          "x": 34.950830922462046,
+          "z": -26.88026401726529,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "kaykit_rock_a",
+          "x": 41.247485843952745,
+          "z": -4.2648539040237665,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_coffee_kiosk",
+          "x": -16.461224916391075,
+          "z": 10.721832663286477,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_tree_round",
+          "x": 25.582575290929526,
+          "z": 28.620963346213102,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_tree_tall",
+          "x": -40.5277631431818,
+          "z": -15.271574689541012,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_tree_cluster",
+          "x": -23.572880912106484,
+          "z": 28.798768068663776,
+          "rotation": 0
+        },
+        {
+          "id": "campus_planter_bench",
+          "x": 37.1129257902503,
+          "z": -14.093418619129807,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_bush_round",
+          "x": 35.01967748021707,
+          "z": 3.34484919719398,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_flower_bed",
+          "x": 0.6461162120103836,
+          "z": -12.888380809221417,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_wayfinding_sign",
+          "x": 6.415308673400432,
+          "z": 9.422597396187484,
+          "rotation": 0
+        },
+        {
+          "id": "kaykit_rock_a",
+          "x": -2.241291919723153,
+          "z": 9.353625256102532,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_coffee_kiosk",
+          "x": 14.970124958548695,
+          "z": 7.788505674339831,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_tree_round",
+          "x": -37.78666721470654,
+          "z": 28.36354189692065,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_tree_tall",
+          "x": -37.184370909351856,
+          "z": -5.858029156923294,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_tree_cluster",
+          "x": -1.3871256466954947,
+          "z": 28.98973524523899,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_planter_bench",
+          "x": 35.13113080477342,
+          "z": 13.356631932780147,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_bush_round",
+          "x": 38.753252102062106,
+          "z": 10.289625282865018,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_flower_bed",
+          "x": -25.50229529151693,
+          "z": -11.983249535784125,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_wayfinding_sign",
+          "x": 7.623249502852559,
+          "z": -12.354956783819944,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "kaykit_rock_a",
+          "x": 1.8966154917143285,
+          "z": 6.881222145631909,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_coffee_kiosk",
+          "x": -39.94907825253904,
+          "z": 8.648432686459273,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_tree_round",
+          "x": -40.654260815586895,
+          "z": 22.132921994663775,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_tree_tall",
+          "x": 9.7324632788077,
+          "z": 28.825327639002353,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_tree_cluster",
+          "x": 27.281969575677067,
+          "z": 9.920562476851046,
+          "rotation": 0
+        },
+        {
+          "id": "campus_planter_bench",
+          "x": -39.854286949150264,
+          "z": -9.901941202115268,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_bush_round",
+          "x": 42.93582374835387,
+          "z": -22.709984715096653,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_flower_bed",
+          "x": 11.27479265537113,
+          "z": 11.159285849425942,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_wayfinding_sign",
+          "x": -35.73129887925461,
+          "z": 1.3723436556756496,
+          "rotation": 0
+        },
+        {
+          "id": "kaykit_rock_a",
+          "x": 16.460217457264662,
+          "z": -12.298091287259012,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_coffee_kiosk",
+          "x": -7.6247061477042735,
+          "z": 28.528809489682317,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_tree_round",
+          "x": -41.85654422361404,
+          "z": 14.856116297189146,
+          "rotation": 0
+        },
+        {
+          "id": "campus_tree_tall",
+          "x": -40.72777565708384,
+          "z": -28.645095176063478,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_tree_cluster",
+          "x": 42.13164552114904,
+          "z": -12.434298795182258,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_planter_bench",
+          "x": 28.22875148570165,
+          "z": 4.632300300523639,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_bush_round",
+          "x": 34.23223427962512,
+          "z": 8.137628401163965,
+          "rotation": 0
+        },
+        {
+          "id": "campus_flower_bed",
+          "x": -42.31889637885615,
+          "z": 26.50925752799958,
+          "rotation": 0
+        },
+        {
+          "id": "campus_wayfinding_sign",
+          "x": 35.91218536812812,
+          "z": 28.765119642484933,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "kaykit_rock_a",
+          "x": 19.665326565038413,
+          "z": 28.32727838680148,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_coffee_kiosk",
+          "x": 34.79714544955641,
+          "z": -2.1370514440350235,
+          "rotation": 0
+        },
+        {
+          "id": "campus_tree_round",
+          "x": -27.990462112706155,
+          "z": 27.21528163086623,
+          "rotation": 0
+        },
+        {
+          "id": "campus_tree_tall",
+          "x": 34.56778116244823,
+          "z": -21.418678506743163,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_tree_cluster",
+          "x": 39.69439911702648,
+          "z": 1.3435188541188836,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_planter_bench",
+          "x": -15.32033197954297,
+          "z": 5.876611863728613,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_bush_round",
+          "x": -32.83992066094652,
+          "z": 27.896437818184495,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_flower_bed",
+          "x": -35.482023468241096,
+          "z": -15.384586558211595,
+          "rotation": 4.71238898038469
+        }
+      ],
+      "availableTowerSlots": 72,
+      "gates": [
+        [
+          -40,
+          0,
+          -22
+        ],
+        [
+          40,
+          0,
+          20
+        ]
+      ]
+    },
+    "actors": {
+      "time": 0,
+      "spawned": 0,
+      "arrived": 0,
+      "active": 0,
+      "peak": 0,
+      "cap": 100,
+      "total": 200,
+      "queued": 40,
+      "wave": 0,
+      "done": false,
+      "events": [],
+      "running": false,
+      "towers": 35,
+      "heavyTowers": 2,
+      "octocats": 2,
+      "composition": [
+        {
+          "id": "copilot_base",
+          "version": "v02",
+          "url": "/runtime/copilot_base_v02.glb",
+          "clip": "work",
+          "triangles": 2489,
+          "meshes": 2,
+          "count": 33
+        },
+        {
+          "id": "bert_breugelmans",
+          "version": "v01",
+          "url": "/runtime/bert_breugelmans.glb",
+          "clip": "work",
+          "triangles": 4499,
+          "meshes": 4,
+          "count": 2
+        },
+        {
+          "id": "github_octocat_classic_lowpoly",
+          "version": "v01",
+          "url": "/runtime/github_octocat_classic_lowpoly.glb",
+          "clip": "idle",
+          "triangles": 3490,
+          "meshes": 13,
+          "count": 2
+        },
+        {
+          "id": "problem_bug",
+          "version": "v01",
+          "url": "/runtime/problem_bug.glb",
+          "clip": "move",
+          "enemy": true,
+          "triangles": 2320,
+          "meshes": 1,
+          "count": 0
+        },
+        {
+          "id": "problem_vague_spec",
+          "version": "v01",
+          "url": "/runtime/problem_vague_spec.glb",
+          "clip": "move",
+          "enemy": true,
+          "triangles": 1456,
+          "meshes": 1,
+          "count": 0
+        },
+        {
+          "id": "problem_missing_details",
+          "version": "v01",
+          "url": "/runtime/problem_missing_details.glb",
+          "clip": "move",
+          "enemy": true,
+          "triangles": 1358,
+          "meshes": 1,
+          "count": 0
+        }
+      ],
+      "allocatedEnemies": 0,
+      "attackClip": "work",
+      "attackAnimationSamples": [
+        {
+          "id": "bert_breugelmans",
+          "time": 0,
+          "playing": true
+        },
+        {
+          "id": "copilot_base",
+          "time": 0,
+          "playing": true
+        }
+      ],
+      "enemyPositions": [],
+      "towerPositions": [
+        {
+          "id": "bert_breugelmans",
+          "position": [
+            -33,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -27.6340993903362,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -22.2681987806724,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -16.902298171008603,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -11.536397561344799,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -6.170496951681002,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -0.8045963420172058,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            4.561304267646598,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            9.927204877310402,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            15.293105486974206,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            20.659006096638002,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            27.885299374952847,
+            0.18,
+            -26.27804623115184
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            33,
+            0.18,
+            -11.731560594800612
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            32.967726822282245,
+            0.18,
+            -6.149072580278359
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            19.122127286239248,
+            0.18,
+            2
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            13.756226676575452,
+            0.18,
+            2
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            8.39032606691164,
+            0.18,
+            2
+          ]
+        },
+        {
+          "id": "bert_breugelmans",
+          "position": [
+            3.024425457247858,
+            0.18,
+            2
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -5.024425457247844,
+            0.18,
+            -8
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -10.390326066911655,
+            0.18,
+            -8
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -15.756226676575452,
+            0.18,
+            -8
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -21.122127286239248,
+            0.18,
+            -8
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -32,
+            0.18,
+            3.36565998513683
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -32,
+            0.18,
+            8.73156059480064
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -32,
+            0.18,
+            14.097461204464452
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -20.659006096637995,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -15.293105486974213,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -9.927204877310402,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -4.561304267646591,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            0.8045963420171915,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            6.170496951681002,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            11.536397561344785,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            16.902298171008596,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            22.268198780672407,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            27.634099390336218,
+            0.18,
+            25
+          ]
+        }
+      ]
+    }
+  },
+  "revision": {
+    "capturedAt": "2026-09-24T07:17:59.591Z",
+    "sourceHashes": {
+      "app.js": "61bb51d24ca02a115f955b9b1649754c5402179d8621d36bc64512459636bd52",
+      "performance.js": "396d0c134005e85a9cbae3003c6b85537a389cfbf16c55aaf989eac93fcbce2a",
+      "stress-config.js": "e688b3a707f86cf4a7c8554d6aa61ab114f931796fbf40e5af7434f20da3c21d",
+      "stress-load.js": "7f85e7409b0e8391d9e6686a45f5c413891b413a462d1c14c3071072bbf55411",
+      "stress-test.js": "94ff1e870f59495a444704fdb513e57f92e29c1ba372c119836a4f000f171622",
+      "stress-storage.mjs": "3d7d54f2fef560e56897770f88577eec2414c38cf7647824878cb7d8c64c8794",
+      "serve.mjs": "4d0aeae6c17934e2987d3e11d885ab61dc8187167c98e8a696b8cd43f65de363",
+      "campus-layout.js": "8f28cb355598d58b2d6e0f9d67b8081c16069d48d9d2b7b422f121b757b8cf4e",
+      "ambient.js": "8295fddc745d2ad9aa57f289072d67dd5f2366808d90a643a51fbcadd42ac9a4",
+      "guests.js": "da4c98b10c658f9df2ad1eca58cf0ebdfd7340fbd1b497a5dce1ee55b37f7a13",
+      "companion.js": "b639ad58bca931f6fb6de5d900b4eeede8ec62564a357d1e46feb092c3ba52fe",
+      "presentation.js": "8e5762b341eaf1ca257ce00f1cce6cf5804a0b8206feccbcb4da81d3f817d63d",
+      "light-lines.js": "d5ac8fbfb3df1dd99044263eee66e8eca5887a6bb0a91dc7a206e27d7248ba01",
+      "index.html": "14417093f9c4d24a29d244a4da440b317cea762598771eb3b2f5d3b9b52128c2",
+      "style.css": "3d195117a74be61296cda8f5ea7703a097a1aec2274b042621da33b6f1ae45a8",
+      "simulation/index.html": "a79759739491d8c341246e962b5591e7e5b169a8dcc8b7affb4c823b6876bbe2",
+      "simulation/style.css": "f1d5ed46f9432af2fabd305b32e0ac7ceabd327df4f926692b03e37bbd833a1d",
+      "simulation/app.js": "5e5ed472cf2d6356ff474fa5b56096cbc4e2debef3189afa059f40be573b1a26",
+      "simulation/actors.js": "2b2d0b382cd234aaad0295ee2fc60e12adef7d50a5119f6f2d5015b91a212493",
+      "simulation/map.js": "21c0cbc4d70b974f078256b9851c66b1064aa308af8f5c9d1301527c84b0677b",
+      "simulation/config.js": "3428bd86821b506fcb6dd6af142b5a863564f8dad491bcefd381a468afd77684",
+      "simulation/schedule.js": "78798ebd12f6e7aa6776579f9b2bdb28c93aacf7ac86c270c4f9df081c719b5c",
+      "simulation/capture.js": "4736a07ec8bb858c722a9b8a53f4740216486be9adb05eda50091dd7941ad658"
+    },
+    "runtimeAssets": [
+      {
+        "url": "/runtime/campus_home_study.glb",
+        "id": "campus_home_study",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_home_study_v01.glb",
+        "bytes": 441008,
+        "sha256": "e41dbcbc654feb353c5670ebdec226f93016f73385e9b29d58f39cd00d029603"
+      },
+      {
+        "url": "/runtime/copilot_base_v02.glb",
+        "id": "copilot_base",
+        "version": "v02",
+        "path": "assets/runtime/towers/copilot_base_v02.glb",
+        "bytes": 132376,
+        "sha256": "2fd051fc4a50e490154bc0ba52ecfcaafbb637bb323ef41d4754c45e540456e0"
+      },
+      {
+        "url": "/runtime/bert_breugelmans.glb",
+        "id": "bert_breugelmans",
+        "version": "v01",
+        "path": "assets/runtime/towers/bert_breugelmans_v01.glb",
+        "bytes": 373876,
+        "sha256": "4a7ebbc16f309e796241b3d6ad3c2d6c8b48ca450aba50b297dccd959e78f1db"
+      },
+      {
+        "url": "/runtime/github_octocat_classic_lowpoly.glb",
+        "id": "github_octocat_classic_lowpoly",
+        "version": "v01",
+        "path": "assets/runtime/towers/github_octocat_classic_lowpoly_v01.glb",
+        "bytes": 190520,
+        "sha256": "bdf5125b1e9500bce923f71fae74e56748a91160d197ff0f604ff498b38c0382"
+      },
+      {
+        "url": "/runtime/problem_bug.glb",
+        "id": "problem_bug",
+        "version": "v01",
+        "path": "assets/runtime/enemies/problem_bug_v01.glb",
+        "bytes": 318904,
+        "sha256": "6463dc98375ba97c45e53b8d3ea5fa27871089c6b4b072207dc689c480e35a5c"
+      },
+      {
+        "url": "/runtime/problem_vague_spec.glb",
+        "id": "problem_vague_spec",
+        "version": "v01",
+        "path": "assets/runtime/enemies/problem_vague_spec_v01.glb",
+        "bytes": 206092,
+        "sha256": "7288ea169999b79754d4d3a32dd25a4aa09e4b5c0f46d316ff85a58d744b35b8"
+      },
+      {
+        "url": "/runtime/problem_lag_spike.glb",
+        "id": "problem_lag_spike",
+        "version": "v01",
+        "path": "assets/runtime/enemies/problem_lag_spike_v01.glb",
+        "bytes": 263920,
+        "sha256": "46c8273d53a092a88993a28995c7ae7369b15822b585737fe637a0a2e5d3ffd5"
+      },
+      {
+        "url": "/runtime/campus_base_hex.glb",
+        "id": "campus_base_hex",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_base_hex_v01.glb",
+        "bytes": 120552,
+        "sha256": "ed7634eace91de76dd82c5c47888adecd0575cb2c529955907826c0a61dcf224"
+      },
+      {
+        "url": "/runtime/campus_tile_park.glb",
+        "id": "campus_tile_park",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_tile_park_v01.glb",
+        "bytes": 237044,
+        "sha256": "c0ea91ba6f2b193a935e710f1714a04a4a31f91fb4b46aaa24a5fb22776843a2"
+      },
+      {
+        "url": "/runtime/campus_tile_plaza.glb",
+        "id": "campus_tile_plaza",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_tile_plaza_v01.glb",
+        "bytes": 238320,
+        "sha256": "c6664513f2b06ee4bddc84eebee0861a840797217f1a406bf79c4518d945df05"
+      },
+      {
+        "url": "/runtime/campus_tile_hill.glb",
+        "id": "campus_tile_hill",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_tile_hill_v01.glb",
+        "bytes": 259924,
+        "sha256": "69df82f1d8c513d561b529e5758e750adc0baa85a93bbc70b7494f142e9447e8"
+      },
+      {
+        "url": "/runtime/campus_platform.glb",
+        "id": "campus_platform",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_platform_v01.glb",
+        "bytes": 11536,
+        "sha256": "9fb6ac1087ace6556eb576ac5bd7b176c96be3e1611316e41a17418acae067b5"
+      },
+      {
+        "url": "/runtime/campus_lab.glb",
+        "id": "campus_lab",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_lab_v01.glb",
+        "bytes": 178696,
+        "sha256": "a84b6cc360319e43252c2a9ed34eb34242e11e57e2af1d68fe387250f14bb27b"
+      },
+      {
+        "url": "/runtime/campus_walk_straight.glb",
+        "id": "campus_walk_straight",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_walk_straight_v01.glb",
+        "bytes": 14360,
+        "sha256": "88d5472024dd15bc26d208213b1cfdf3c956ac488f69be80054fe5643c2c37ef"
+      },
+      {
+        "url": "/runtime/campus_walk_short.glb",
+        "id": "campus_walk_short",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_walk_short_v01.glb",
+        "bytes": 14352,
+        "sha256": "633c3b8ead0d51a4950268d1b1593c49d0d354f6a922fefe60b02a51e45626b5"
+      },
+      {
+        "url": "/runtime/campus_walk_landing.glb",
+        "id": "campus_walk_landing",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_walk_landing_v01.glb",
+        "bytes": 20576,
+        "sha256": "badaae889f43b3eaf02fefdaf944e74a30abd012d1ab0d195270a7564ea7f02f"
+      },
+      {
+        "url": "/runtime/campus_walk_corner.glb",
+        "id": "campus_walk_corner",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_walk_corner_v01.glb",
+        "bytes": 15868,
+        "sha256": "e9862ad6f6232f8cc3536c728e0be41bef669268f900df8edafbbd7df3d6df48"
+      },
+      {
+        "url": "/runtime/campus_walk_bend.glb",
+        "id": "campus_walk_bend",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_walk_bend_v01.glb",
+        "bytes": 30984,
+        "sha256": "be3f8455b311b73c22b2c9958bce0639d9c88d88926a0acf8ae9b457f176eb62"
+      },
+      {
+        "url": "/runtime/campus_walk_bend_45.glb",
+        "id": "campus_walk_bend_45",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_walk_bend_45_v01.glb",
+        "bytes": 21968,
+        "sha256": "6c5f8fb81edf83835865e4f14c287fb7a27638a2b182ef8e0ba872b7d819e383"
+      },
+      {
+        "url": "/runtime/campus_walk_junction.glb",
+        "id": "campus_walk_junction",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_walk_junction_v01.glb",
+        "bytes": 21692,
+        "sha256": "bceef80569343877fc4a8caa39cfc727d42371b881b328fe2181de215f0dd831"
+      },
+      {
+        "url": "/runtime/campus_tree_round.glb",
+        "id": "campus_tree_round",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_tree_round_v01.glb",
+        "bytes": 16404,
+        "sha256": "a34184710614ae098e27a6a25c969844069e90d35335305436172fd0e9bc79d1"
+      },
+      {
+        "url": "/runtime/campus_tree_tall.glb",
+        "id": "campus_tree_tall",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_tree_tall_v01.glb",
+        "bytes": 16456,
+        "sha256": "92559e9d8ee4a8a801f000649aa248adb75b961795ce89f4b4cd8cbbce52b8b3"
+      },
+      {
+        "url": "/runtime/campus_tree_cluster.glb",
+        "id": "campus_tree_cluster",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_tree_cluster_v01.glb",
+        "bytes": 21508,
+        "sha256": "d1f5e6658651c141ee70a229d47d565dbb5c7b9fe967be04dce8d7276e183c78"
+      },
+      {
+        "url": "/runtime/campus_pond.glb",
+        "id": "campus_pond",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_pond_v01.glb",
+        "bytes": 46928,
+        "sha256": "334156831676b67aef9371cd0d8dcfa9cd8ec59ba3ff513aaffed8547cbb6e3d"
+      },
+      {
+        "url": "/runtime/campus_solar.glb",
+        "id": "campus_solar",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_solar_v01.glb",
+        "bytes": 65040,
+        "sha256": "a68d42f6124dc70bccb24d74caeed72426abcf13faf47832af3c29aea8761ca7"
+      },
+      {
+        "url": "/runtime/campus_coffee_kiosk.glb",
+        "id": "campus_coffee_kiosk",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_coffee_kiosk_v01.glb",
+        "bytes": 211784,
+        "sha256": "2390263498d8f5ed264967a4c9c16938ea83882c4e431feb0195de7b77e7d633"
+      },
+      {
+        "url": "/runtime/campus_planter_bench.glb",
+        "id": "campus_planter_bench",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_planter_bench_v01.glb",
+        "bytes": 107284,
+        "sha256": "54b3ba98862cd8e5c98f679c46b6981e5120bcf79cfcf124400f0165b41e79a9"
+      },
+      {
+        "url": "/runtime/campus_code_sculpture.glb",
+        "id": "campus_code_sculpture",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_code_sculpture_v01.glb",
+        "bytes": 146768,
+        "sha256": "0f0336c0c7686dec62a91b621f28e6d87f9a794b2c394e977eb43269d03fe5c3"
+      },
+      {
+        "url": "/runtime/campus_meeting_nook.glb",
+        "id": "campus_meeting_nook",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_meeting_nook_v01.glb",
+        "bytes": 161616,
+        "sha256": "b1985463d4318ba66e9f21ab924e8bbbf13ce5a11ea942a9ba115b598943f8c8"
+      },
+      {
+        "url": "/runtime/campus_wayfinding_sign.glb",
+        "id": "campus_wayfinding_sign",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_wayfinding_sign_v01.glb",
+        "bytes": 75460,
+        "sha256": "80fe023bbf7ea450c6eec5b58559db280006f5eefdfe456203af8322a5a1a7be"
+      },
+      {
+        "url": "/runtime/campus_flower_bed.glb",
+        "id": "campus_flower_bed",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_flower_bed_v01.glb",
+        "bytes": 334248,
+        "sha256": "7ad32ff99326d5433eb9cefd7491be721ff3052c07fd9b4a9a4b07a574350bb6"
+      },
+      {
+        "url": "/runtime/campus_bush_round.glb",
+        "id": "campus_bush_round",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_bush_round_v01.glb",
+        "bytes": 27404,
+        "sha256": "0bd077b45c34d94691f10f4d773bc64e42d65aba4c888e75f3fe307038ad4866"
+      },
+      {
+        "url": "/runtime/campus_hedge.glb",
+        "id": "campus_hedge",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_hedge_v01.glb",
+        "bytes": 66804,
+        "sha256": "6ad1ba3fad2ae3e9a6495302501efa5a876be251aa78c2447113f11e9e0359f8"
+      },
+      {
+        "url": "/runtime/campus_path_bollard.glb",
+        "id": "campus_path_bollard",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_path_bollard_v01.glb",
+        "bytes": 15124,
+        "sha256": "97575728b5686787c4c582b4c16a3170ca69adfb468820594e2a27a697c1be4a"
+      },
+      {
+        "url": "/runtime/campus_cafe_table.glb",
+        "id": "campus_cafe_table",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_cafe_table_v01.glb",
+        "bytes": 82424,
+        "sha256": "2eedc15aae3fe86108c55eed3ceb1b7fcffb1619c39a0104ca65dbe42ebaf3ac"
+      },
+      {
+        "url": "/runtime/campus_noticeboard.glb",
+        "id": "campus_noticeboard",
+        "version": "v01",
+        "path": "assets/runtime/environment/campus_noticeboard_v01.glb",
+        "bytes": 71244,
+        "sha256": "eabf96f6ed62a822c4a0e7756a4585227b5d72dbb5fd7d2fbbdc5393f2b9719d"
+      },
+      {
+        "url": "/runtime/problem_missing_details.glb",
+        "id": "problem_missing_details",
+        "version": "v01",
+        "path": "assets/runtime/enemies/problem_missing_details_v01.glb",
+        "bytes": 241616,
+        "sha256": "807ac0cdfddd3911515b10fcf413e9fdc5c1640bc3e0c53ed67518616077d808"
+      },
+      {
+        "url": "/runtime/kaykit_rock_a.glb",
+        "id": "kaykit_rock_a",
+        "version": "v01",
+        "path": "assets/runtime/environment/kaykit_rock_a_v01.glb",
+        "bytes": 28832,
+        "sha256": "bcce9e353686a446b4e25e8ef943d8a76c5f13979e258878deb731c6a2c6363c"
+      }
+    ]
+  },
+  "reason": "Viewport changed during capture",
+  "partial": {
+    "phase": "baseline",
+    "state": {
+      "scene": "garden-switchback-v1",
+      "view": "home",
+      "zoom": 1,
+      "animating": true,
+      "map": {
+        "id": "garden-switchback-v1",
+        "seed": 230924,
+        "pathWidth": 4.4,
+        "length": 225.9530740817201,
+        "route": [
+          [
+            -40,
+            0,
+            -22
+          ],
+          [
+            24,
+            0,
+            -22
+          ],
+          [
+            24.638888888888886,
+            0,
+            -21.972222222222218
+          ],
+          [
+            25.222222222222225,
+            0,
+            -21.888888888888893
+          ],
+          [
+            25.75,
+            0,
+            -21.75
+          ],
+          [
+            26.222222222222225,
+            0,
+            -21.555555555555557
+          ],
+          [
+            26.638888888888882,
+            0,
+            -21.30555555555555
+          ],
+          [
+            27,
+            0,
+            -21
+          ],
+          [
+            27.305555555555557,
+            0,
+            -20.63888888888889
+          ],
+          [
+            27.555555555555554,
+            0,
+            -20.22222222222222
+          ],
+          [
+            27.75,
+            0,
+            -19.75
+          ],
+          [
+            27.88888888888889,
+            0,
+            -19.22222222222222
+          ],
+          [
+            27.97222222222222,
+            0,
+            -18.63888888888889
+          ],
+          [
+            28,
+            0,
+            -18
+          ],
+          [
+            28,
+            0,
+            -7
+          ],
+          [
+            27.97222222222222,
+            0,
+            -6.36111111111111
+          ],
+          [
+            27.888888888888893,
+            0,
+            -5.777777777777778
+          ],
+          [
+            27.75,
+            0,
+            -5.25
+          ],
+          [
+            27.55555555555556,
+            0,
+            -4.777777777777778
+          ],
+          [
+            27.305555555555554,
+            0,
+            -4.36111111111111
+          ],
+          [
+            27,
+            0,
+            -4
+          ],
+          [
+            26.63888888888889,
+            0,
+            -3.694444444444444
+          ],
+          [
+            26.22222222222222,
+            0,
+            -3.4444444444444446
+          ],
+          [
+            25.75,
+            0,
+            -3.25
+          ],
+          [
+            25.22222222222222,
+            0,
+            -3.111111111111111
+          ],
+          [
+            24.63888888888889,
+            0,
+            -3.0277777777777777
+          ],
+          [
+            24,
+            0,
+            -3
+          ],
+          [
+            -23,
+            0,
+            -3
+          ],
+          [
+            -23.638888888888886,
+            0,
+            -2.9722222222222214
+          ],
+          [
+            -24.222222222222225,
+            0,
+            -2.8888888888888893
+          ],
+          [
+            -24.75,
+            0,
+            -2.75
+          ],
+          [
+            -25.222222222222225,
+            0,
+            -2.555555555555556
+          ],
+          [
+            -25.638888888888886,
+            0,
+            -2.305555555555555
+          ],
+          [
+            -26,
+            0,
+            -2
+          ],
+          [
+            -26.305555555555557,
+            0,
+            -1.6388888888888886
+          ],
+          [
+            -26.555555555555557,
+            0,
+            -1.2222222222222225
+          ],
+          [
+            -26.75,
+            0,
+            -0.75
+          ],
+          [
+            -26.888888888888893,
+            0,
+            -0.222222222222222
+          ],
+          [
+            -26.97222222222222,
+            0,
+            0.36111111111111077
+          ],
+          [
+            -27,
+            0,
+            1
+          ],
+          [
+            -27,
+            0,
+            16
+          ],
+          [
+            -26.972222222222218,
+            0,
+            16.63888888888889
+          ],
+          [
+            -26.888888888888893,
+            0,
+            17.222222222222225
+          ],
+          [
+            -26.75,
+            0,
+            17.75
+          ],
+          [
+            -26.555555555555557,
+            0,
+            18.22222222222222
+          ],
+          [
+            -26.30555555555555,
+            0,
+            18.638888888888886
+          ],
+          [
+            -26,
+            0,
+            19
+          ],
+          [
+            -25.63888888888889,
+            0,
+            19.305555555555557
+          ],
+          [
+            -25.22222222222222,
+            0,
+            19.555555555555557
+          ],
+          [
+            -24.75,
+            0,
+            19.75
+          ],
+          [
+            -24.22222222222222,
+            0,
+            19.88888888888889
+          ],
+          [
+            -23.638888888888886,
+            0,
+            19.97222222222222
+          ],
+          [
+            -23,
+            0,
+            20
+          ],
+          [
+            40,
+            0,
+            20
+          ]
+        ],
+        "decor": [
+          {
+            "id": "campus_tree_round",
+            "x": -9.235062662977725,
+            "z": 7.8386006355285645,
+            "rotation": 1.5707963267948966
+          },
+          {
+            "id": "campus_tree_tall",
+            "x": -35.40475863777101,
+            "z": 11.080906658899039,
+            "rotation": 1.5707963267948966
+          },
+          {
+            "id": "campus_tree_cluster",
+            "x": 39.88492026226595,
+            "z": -26.166501791216433,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_planter_bench",
+            "x": 38.49380945134908,
+            "z": -18.560773901175708,
+            "rotation": 3.141592653589793
+          },
+          {
+            "id": "campus_bush_round",
+            "x": -33.57622266607359,
+            "z": 23.111381072551012,
+            "rotation": 1.5707963267948966
+          },
+          {
+            "id": "campus_flower_bed",
+            "x": 41.14622915349901,
+            "z": 6.328456613700837,
+            "rotation": 1.5707963267948966
+          },
+          {
+            "id": "campus_wayfinding_sign",
+            "x": -40.14624651754275,
+            "z": -1.809308098629117,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "kaykit_rock_a",
+            "x": -40.899537906982005,
+            "z": 3.349989926908165,
+            "rotation": 0
+          },
+          {
+            "id": "campus_coffee_kiosk",
+            "x": 38.15948433848098,
+            "z": -9.46185312140733,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_tree_round",
+            "x": 20.272801171056926,
+            "z": 7.196787829045206,
+            "rotation": 0
+          },
+          {
+            "id": "campus_tree_tall",
+            "x": -37.59060196066275,
+            "z": 18.595928637310863,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_tree_cluster",
+            "x": -4.118868308141828,
+            "z": -12.792887423653156,
+            "rotation": 1.5707963267948966
+          },
+          {
+            "id": "campus_planter_bench",
+            "x": 42.56340647256002,
+            "z": 28.6362075638026,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_bush_round",
+            "x": -31.65111050195992,
+            "z": -9.715963859576732,
+            "rotation": 0
+          },
+          {
+            "id": "campus_flower_bed",
+            "x": -14.984051938634366,
+            "z": -12.646232125349343,
+            "rotation": 0
+          },
+          {
+            "id": "campus_wayfinding_sign",
+            "x": 34.950830922462046,
+            "z": -26.88026401726529,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "kaykit_rock_a",
+            "x": 41.247485843952745,
+            "z": -4.2648539040237665,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_coffee_kiosk",
+            "x": -16.461224916391075,
+            "z": 10.721832663286477,
+            "rotation": 1.5707963267948966
+          },
+          {
+            "id": "campus_tree_round",
+            "x": 25.582575290929526,
+            "z": 28.620963346213102,
+            "rotation": 1.5707963267948966
+          },
+          {
+            "id": "campus_tree_tall",
+            "x": -40.5277631431818,
+            "z": -15.271574689541012,
+            "rotation": 1.5707963267948966
+          },
+          {
+            "id": "campus_tree_cluster",
+            "x": -23.572880912106484,
+            "z": 28.798768068663776,
+            "rotation": 0
+          },
+          {
+            "id": "campus_planter_bench",
+            "x": 37.1129257902503,
+            "z": -14.093418619129807,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_bush_round",
+            "x": 35.01967748021707,
+            "z": 3.34484919719398,
+            "rotation": 3.141592653589793
+          },
+          {
+            "id": "campus_flower_bed",
+            "x": 0.6461162120103836,
+            "z": -12.888380809221417,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_wayfinding_sign",
+            "x": 6.415308673400432,
+            "z": 9.422597396187484,
+            "rotation": 0
+          },
+          {
+            "id": "kaykit_rock_a",
+            "x": -2.241291919723153,
+            "z": 9.353625256102532,
+            "rotation": 3.141592653589793
+          },
+          {
+            "id": "campus_coffee_kiosk",
+            "x": 14.970124958548695,
+            "z": 7.788505674339831,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_tree_round",
+            "x": -37.78666721470654,
+            "z": 28.36354189692065,
+            "rotation": 3.141592653589793
+          },
+          {
+            "id": "campus_tree_tall",
+            "x": -37.184370909351856,
+            "z": -5.858029156923294,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_tree_cluster",
+            "x": -1.3871256466954947,
+            "z": 28.98973524523899,
+            "rotation": 3.141592653589793
+          },
+          {
+            "id": "campus_planter_bench",
+            "x": 35.13113080477342,
+            "z": 13.356631932780147,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_bush_round",
+            "x": 38.753252102062106,
+            "z": 10.289625282865018,
+            "rotation": 3.141592653589793
+          },
+          {
+            "id": "campus_flower_bed",
+            "x": -25.50229529151693,
+            "z": -11.983249535784125,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_wayfinding_sign",
+            "x": 7.623249502852559,
+            "z": -12.354956783819944,
+            "rotation": 1.5707963267948966
+          },
+          {
+            "id": "kaykit_rock_a",
+            "x": 1.8966154917143285,
+            "z": 6.881222145631909,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_coffee_kiosk",
+            "x": -39.94907825253904,
+            "z": 8.648432686459273,
+            "rotation": 3.141592653589793
+          },
+          {
+            "id": "campus_tree_round",
+            "x": -40.654260815586895,
+            "z": 22.132921994663775,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_tree_tall",
+            "x": 9.7324632788077,
+            "z": 28.825327639002353,
+            "rotation": 1.5707963267948966
+          },
+          {
+            "id": "campus_tree_cluster",
+            "x": 27.281969575677067,
+            "z": 9.920562476851046,
+            "rotation": 0
+          },
+          {
+            "id": "campus_planter_bench",
+            "x": -39.854286949150264,
+            "z": -9.901941202115268,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_bush_round",
+            "x": 42.93582374835387,
+            "z": -22.709984715096653,
+            "rotation": 3.141592653589793
+          },
+          {
+            "id": "campus_flower_bed",
+            "x": 11.27479265537113,
+            "z": 11.159285849425942,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_wayfinding_sign",
+            "x": -35.73129887925461,
+            "z": 1.3723436556756496,
+            "rotation": 0
+          },
+          {
+            "id": "kaykit_rock_a",
+            "x": 16.460217457264662,
+            "z": -12.298091287259012,
+            "rotation": 1.5707963267948966
+          },
+          {
+            "id": "campus_coffee_kiosk",
+            "x": -7.6247061477042735,
+            "z": 28.528809489682317,
+            "rotation": 3.141592653589793
+          },
+          {
+            "id": "campus_tree_round",
+            "x": -41.85654422361404,
+            "z": 14.856116297189146,
+            "rotation": 0
+          },
+          {
+            "id": "campus_tree_tall",
+            "x": -40.72777565708384,
+            "z": -28.645095176063478,
+            "rotation": 3.141592653589793
+          },
+          {
+            "id": "campus_tree_cluster",
+            "x": 42.13164552114904,
+            "z": -12.434298795182258,
+            "rotation": 1.5707963267948966
+          },
+          {
+            "id": "campus_planter_bench",
+            "x": 28.22875148570165,
+            "z": 4.632300300523639,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_bush_round",
+            "x": 34.23223427962512,
+            "z": 8.137628401163965,
+            "rotation": 0
+          },
+          {
+            "id": "campus_flower_bed",
+            "x": -42.31889637885615,
+            "z": 26.50925752799958,
+            "rotation": 0
+          },
+          {
+            "id": "campus_wayfinding_sign",
+            "x": 35.91218536812812,
+            "z": 28.765119642484933,
+            "rotation": 1.5707963267948966
+          },
+          {
+            "id": "kaykit_rock_a",
+            "x": 19.665326565038413,
+            "z": 28.32727838680148,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_coffee_kiosk",
+            "x": 34.79714544955641,
+            "z": -2.1370514440350235,
+            "rotation": 0
+          },
+          {
+            "id": "campus_tree_round",
+            "x": -27.990462112706155,
+            "z": 27.21528163086623,
+            "rotation": 0
+          },
+          {
+            "id": "campus_tree_tall",
+            "x": 34.56778116244823,
+            "z": -21.418678506743163,
+            "rotation": 1.5707963267948966
+          },
+          {
+            "id": "campus_tree_cluster",
+            "x": 39.69439911702648,
+            "z": 1.3435188541188836,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_planter_bench",
+            "x": -15.32033197954297,
+            "z": 5.876611863728613,
+            "rotation": 4.71238898038469
+          },
+          {
+            "id": "campus_bush_round",
+            "x": -32.83992066094652,
+            "z": 27.896437818184495,
+            "rotation": 1.5707963267948966
+          },
+          {
+            "id": "campus_flower_bed",
+            "x": -35.482023468241096,
+            "z": -15.384586558211595,
+            "rotation": 4.71238898038469
+          }
+        ],
+        "availableTowerSlots": 72,
+        "gates": [
+          [
+            -40,
+            0,
+            -22
+          ],
+          [
+            40,
+            0,
+            20
+          ]
+        ]
+      },
+      "actors": {
+        "time": 0,
+        "spawned": 0,
+        "arrived": 0,
+        "active": 0,
+        "peak": 0,
+        "cap": 100,
+        "total": 200,
+        "queued": 40,
+        "wave": 0,
+        "done": false,
+        "events": [],
+        "running": false,
+        "towers": 35,
+        "heavyTowers": 2,
+        "octocats": 2,
+        "composition": [
+          {
+            "id": "copilot_base",
+            "version": "v02",
+            "url": "/runtime/copilot_base_v02.glb",
+            "clip": "work",
+            "triangles": 2489,
+            "meshes": 2,
+            "count": 33
+          },
+          {
+            "id": "bert_breugelmans",
+            "version": "v01",
+            "url": "/runtime/bert_breugelmans.glb",
+            "clip": "work",
+            "triangles": 4499,
+            "meshes": 4,
+            "count": 2
+          },
+          {
+            "id": "github_octocat_classic_lowpoly",
+            "version": "v01",
+            "url": "/runtime/github_octocat_classic_lowpoly.glb",
+            "clip": "idle",
+            "triangles": 3490,
+            "meshes": 13,
+            "count": 2
+          },
+          {
+            "id": "problem_bug",
+            "version": "v01",
+            "url": "/runtime/problem_bug.glb",
+            "clip": "move",
+            "enemy": true,
+            "triangles": 2320,
+            "meshes": 1,
+            "count": 0
+          },
+          {
+            "id": "problem_vague_spec",
+            "version": "v01",
+            "url": "/runtime/problem_vague_spec.glb",
+            "clip": "move",
+            "enemy": true,
+            "triangles": 1456,
+            "meshes": 1,
+            "count": 0
+          },
+          {
+            "id": "problem_missing_details",
+            "version": "v01",
+            "url": "/runtime/problem_missing_details.glb",
+            "clip": "move",
+            "enemy": true,
+            "triangles": 1358,
+            "meshes": 1,
+            "count": 0
+          }
+        ],
+        "allocatedEnemies": 0,
+        "attackClip": "work",
+        "attackAnimationSamples": [
+          {
+            "id": "bert_breugelmans",
+            "time": 0,
+            "playing": true
+          },
+          {
+            "id": "copilot_base",
+            "time": 0,
+            "playing": true
+          }
+        ],
+        "enemyPositions": [],
+        "towerPositions": [
+          {
+            "id": "bert_breugelmans",
+            "position": [
+              -33,
+              0.18,
+              -27
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -27.6340993903362,
+              0.18,
+              -27
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -22.2681987806724,
+              0.18,
+              -27
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -16.902298171008603,
+              0.18,
+              -27
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -11.536397561344799,
+              0.18,
+              -27
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -6.170496951681002,
+              0.18,
+              -27
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -0.8045963420172058,
+              0.18,
+              -27
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              4.561304267646598,
+              0.18,
+              -27
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              9.927204877310402,
+              0.18,
+              -27
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              15.293105486974206,
+              0.18,
+              -27
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              20.659006096638002,
+              0.18,
+              -27
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              27.885299374952847,
+              0.18,
+              -26.27804623115184
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              33,
+              0.18,
+              -11.731560594800612
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              32.967726822282245,
+              0.18,
+              -6.149072580278359
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              19.122127286239248,
+              0.18,
+              2
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              13.756226676575452,
+              0.18,
+              2
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              8.39032606691164,
+              0.18,
+              2
+            ]
+          },
+          {
+            "id": "bert_breugelmans",
+            "position": [
+              3.024425457247858,
+              0.18,
+              2
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -5.024425457247844,
+              0.18,
+              -8
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -10.390326066911655,
+              0.18,
+              -8
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -15.756226676575452,
+              0.18,
+              -8
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -21.122127286239248,
+              0.18,
+              -8
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -32,
+              0.18,
+              3.36565998513683
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -32,
+              0.18,
+              8.73156059480064
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -32,
+              0.18,
+              14.097461204464452
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -20.659006096637995,
+              0.18,
+              25
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -15.293105486974213,
+              0.18,
+              25
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -9.927204877310402,
+              0.18,
+              25
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              -4.561304267646591,
+              0.18,
+              25
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              0.8045963420171915,
+              0.18,
+              25
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              6.170496951681002,
+              0.18,
+              25
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              11.536397561344785,
+              0.18,
+              25
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              16.902298171008596,
+              0.18,
+              25
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              22.268198780672407,
+              0.18,
+              25
+            ]
+          },
+          {
+            "id": "copilot_base",
+            "position": [
+              27.634099390336218,
+              0.18,
+              25
+            ]
+          }
+        ]
+      }
+    },
+    "measurement": {
+      "sampleDurationMs": 1043.199999988079,
+      "frameSamples": [
+        {
+          "enemyCount": 0,
+          "wave": 0,
+          "queued": 40,
+          "atMs": 51.10000002384186,
+          "cpu": 50.30000001192093,
+          "interval": 0,
+          "calls": 336,
+          "triangles": 286754,
+          "geometries": 40,
+          "textures": 116
+        },
+        {
+          "enemyCount": 0,
+          "wave": 0,
+          "queued": 40,
+          "atMs": 1027.4000000357628,
+          "cpu": 99.20000004768372,
+          "interval": 976.3000000119209,
+          "calls": 342,
+          "triangles": 297022,
+          "geometries": 43,
+          "textures": 123
+        },
+        {
+          "enemyCount": 0,
+          "wave": 0,
+          "queued": 40,
+          "atMs": 1032.6000000238419,
+          "cpu": 4.400000035762787,
+          "interval": 5.199999988079071,
+          "calls": 336,
+          "triangles": 286754,
+          "geometries": 43,
+          "textures": 120
+        },
+        {
+          "enemyCount": 0,
+          "wave": 0,
+          "queued": 40,
+          "atMs": 1038.6000000238419,
+          "cpu": 4.400000035762787,
+          "interval": 0,
+          "calls": 336,
+          "triangles": 286754,
+          "geometries": 43,
+          "textures": 120
+        }
+      ],
+      "longTaskEntries": [
+        {
+          "start": 1552.199999988079,
+          "duration": 51
+        },
+        {
+          "start": 2479.099999964237,
+          "duration": 105
+        }
+      ],
+      "renderDistribution": {
+        "calls": {
+          "p50": 336,
+          "p95": 342,
+          "max": 342
+        },
+        "triangles": {
+          "p50": 286754,
+          "p95": 297022,
+          "max": 297022
+        }
+      },
+      "hardware": {
+        "platform": "Win32",
+        "logicalProcessors": 20,
+        "deviceMemoryGiB": 32,
+        "jsHeap": {
+          "used": 25628490,
+          "total": 30983334,
+          "limit": 4395630592
+        },
+        "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x00002204) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (NVIDIA)",
+        "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+      },
+      "capturedAt": "2026-09-24T07:17:59.800Z",
+      "ready": true,
+      "loadMs": 1552.0999999642372,
+      "frames": 4,
+      "fps": 2.0376974019358127,
+      "frameIntervalMs": {
+        "p50": 976.3000000119209,
+        "p95": 976.3000000119209
+      },
+      "cpuSubmissionMs": {
+        "p50": 50.30000001192093,
+        "p95": 99.20000004768372
+      },
+      "framesOver50ms": 1,
+      "longTasks": 2,
+      "longTaskMs": 156,
+      "drawCalls": 336,
+      "triangles": 286754,
+      "geometries": 43,
+      "textures": 120,
+      "programs": 22,
+      "meshes": 171,
+      "skinnedMeshes": 100,
+      "glbRequests": 15,
+      "uniqueGLBs": 15,
+      "glbDecodedBytes": 2302764,
+      "viewport": {
+        "width": 1000,
+        "height": 750,
+        "dpr": 1,
+        "bufferWidth": 988,
+        "bufferHeight": 647
+      },
+      "renderer": "WebKit WebGL",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "scene": {
+        "scene": "garden-switchback-v1",
+        "view": "home",
+        "zoom": 1,
+        "animating": true,
+        "map": {
+          "id": "garden-switchback-v1",
+          "seed": 230924,
+          "pathWidth": 4.4,
+          "length": 225.9530740817201,
+          "route": [
+            [
+              -40,
+              0,
+              -22
+            ],
+            [
+              24,
+              0,
+              -22
+            ],
+            [
+              24.638888888888886,
+              0,
+              -21.972222222222218
+            ],
+            [
+              25.222222222222225,
+              0,
+              -21.888888888888893
+            ],
+            [
+              25.75,
+              0,
+              -21.75
+            ],
+            [
+              26.222222222222225,
+              0,
+              -21.555555555555557
+            ],
+            [
+              26.638888888888882,
+              0,
+              -21.30555555555555
+            ],
+            [
+              27,
+              0,
+              -21
+            ],
+            [
+              27.305555555555557,
+              0,
+              -20.63888888888889
+            ],
+            [
+              27.555555555555554,
+              0,
+              -20.22222222222222
+            ],
+            [
+              27.75,
+              0,
+              -19.75
+            ],
+            [
+              27.88888888888889,
+              0,
+              -19.22222222222222
+            ],
+            [
+              27.97222222222222,
+              0,
+              -18.63888888888889
+            ],
+            [
+              28,
+              0,
+              -18
+            ],
+            [
+              28,
+              0,
+              -7
+            ],
+            [
+              27.97222222222222,
+              0,
+              -6.36111111111111
+            ],
+            [
+              27.888888888888893,
+              0,
+              -5.777777777777778
+            ],
+            [
+              27.75,
+              0,
+              -5.25
+            ],
+            [
+              27.55555555555556,
+              0,
+              -4.777777777777778
+            ],
+            [
+              27.305555555555554,
+              0,
+              -4.36111111111111
+            ],
+            [
+              27,
+              0,
+              -4
+            ],
+            [
+              26.63888888888889,
+              0,
+              -3.694444444444444
+            ],
+            [
+              26.22222222222222,
+              0,
+              -3.4444444444444446
+            ],
+            [
+              25.75,
+              0,
+              -3.25
+            ],
+            [
+              25.22222222222222,
+              0,
+              -3.111111111111111
+            ],
+            [
+              24.63888888888889,
+              0,
+              -3.0277777777777777
+            ],
+            [
+              24,
+              0,
+              -3
+            ],
+            [
+              -23,
+              0,
+              -3
+            ],
+            [
+              -23.638888888888886,
+              0,
+              -2.9722222222222214
+            ],
+            [
+              -24.222222222222225,
+              0,
+              -2.8888888888888893
+            ],
+            [
+              -24.75,
+              0,
+              -2.75
+            ],
+            [
+              -25.222222222222225,
+              0,
+              -2.555555555555556
+            ],
+            [
+              -25.638888888888886,
+              0,
+              -2.305555555555555
+            ],
+            [
+              -26,
+              0,
+              -2
+            ],
+            [
+              -26.305555555555557,
+              0,
+              -1.6388888888888886
+            ],
+            [
+              -26.555555555555557,
+              0,
+              -1.2222222222222225
+            ],
+            [
+              -26.75,
+              0,
+              -0.75
+            ],
+            [
+              -26.888888888888893,
+              0,
+              -0.222222222222222
+            ],
+            [
+              -26.97222222222222,
+              0,
+              0.36111111111111077
+            ],
+            [
+              -27,
+              0,
+              1
+            ],
+            [
+              -27,
+              0,
+              16
+            ],
+            [
+              -26.972222222222218,
+              0,
+              16.63888888888889
+            ],
+            [
+              -26.888888888888893,
+              0,
+              17.222222222222225
+            ],
+            [
+              -26.75,
+              0,
+              17.75
+            ],
+            [
+              -26.555555555555557,
+              0,
+              18.22222222222222
+            ],
+            [
+              -26.30555555555555,
+              0,
+              18.638888888888886
+            ],
+            [
+              -26,
+              0,
+              19
+            ],
+            [
+              -25.63888888888889,
+              0,
+              19.305555555555557
+            ],
+            [
+              -25.22222222222222,
+              0,
+              19.555555555555557
+            ],
+            [
+              -24.75,
+              0,
+              19.75
+            ],
+            [
+              -24.22222222222222,
+              0,
+              19.88888888888889
+            ],
+            [
+              -23.638888888888886,
+              0,
+              19.97222222222222
+            ],
+            [
+              -23,
+              0,
+              20
+            ],
+            [
+              40,
+              0,
+              20
+            ]
+          ],
+          "decor": [
+            {
+              "id": "campus_tree_round",
+              "x": -9.235062662977725,
+              "z": 7.8386006355285645,
+              "rotation": 1.5707963267948966
+            },
+            {
+              "id": "campus_tree_tall",
+              "x": -35.40475863777101,
+              "z": 11.080906658899039,
+              "rotation": 1.5707963267948966
+            },
+            {
+              "id": "campus_tree_cluster",
+              "x": 39.88492026226595,
+              "z": -26.166501791216433,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_planter_bench",
+              "x": 38.49380945134908,
+              "z": -18.560773901175708,
+              "rotation": 3.141592653589793
+            },
+            {
+              "id": "campus_bush_round",
+              "x": -33.57622266607359,
+              "z": 23.111381072551012,
+              "rotation": 1.5707963267948966
+            },
+            {
+              "id": "campus_flower_bed",
+              "x": 41.14622915349901,
+              "z": 6.328456613700837,
+              "rotation": 1.5707963267948966
+            },
+            {
+              "id": "campus_wayfinding_sign",
+              "x": -40.14624651754275,
+              "z": -1.809308098629117,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "kaykit_rock_a",
+              "x": -40.899537906982005,
+              "z": 3.349989926908165,
+              "rotation": 0
+            },
+            {
+              "id": "campus_coffee_kiosk",
+              "x": 38.15948433848098,
+              "z": -9.46185312140733,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_tree_round",
+              "x": 20.272801171056926,
+              "z": 7.196787829045206,
+              "rotation": 0
+            },
+            {
+              "id": "campus_tree_tall",
+              "x": -37.59060196066275,
+              "z": 18.595928637310863,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_tree_cluster",
+              "x": -4.118868308141828,
+              "z": -12.792887423653156,
+              "rotation": 1.5707963267948966
+            },
+            {
+              "id": "campus_planter_bench",
+              "x": 42.56340647256002,
+              "z": 28.6362075638026,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_bush_round",
+              "x": -31.65111050195992,
+              "z": -9.715963859576732,
+              "rotation": 0
+            },
+            {
+              "id": "campus_flower_bed",
+              "x": -14.984051938634366,
+              "z": -12.646232125349343,
+              "rotation": 0
+            },
+            {
+              "id": "campus_wayfinding_sign",
+              "x": 34.950830922462046,
+              "z": -26.88026401726529,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "kaykit_rock_a",
+              "x": 41.247485843952745,
+              "z": -4.2648539040237665,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_coffee_kiosk",
+              "x": -16.461224916391075,
+              "z": 10.721832663286477,
+              "rotation": 1.5707963267948966
+            },
+            {
+              "id": "campus_tree_round",
+              "x": 25.582575290929526,
+              "z": 28.620963346213102,
+              "rotation": 1.5707963267948966
+            },
+            {
+              "id": "campus_tree_tall",
+              "x": -40.5277631431818,
+              "z": -15.271574689541012,
+              "rotation": 1.5707963267948966
+            },
+            {
+              "id": "campus_tree_cluster",
+              "x": -23.572880912106484,
+              "z": 28.798768068663776,
+              "rotation": 0
+            },
+            {
+              "id": "campus_planter_bench",
+              "x": 37.1129257902503,
+              "z": -14.093418619129807,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_bush_round",
+              "x": 35.01967748021707,
+              "z": 3.34484919719398,
+              "rotation": 3.141592653589793
+            },
+            {
+              "id": "campus_flower_bed",
+              "x": 0.6461162120103836,
+              "z": -12.888380809221417,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_wayfinding_sign",
+              "x": 6.415308673400432,
+              "z": 9.422597396187484,
+              "rotation": 0
+            },
+            {
+              "id": "kaykit_rock_a",
+              "x": -2.241291919723153,
+              "z": 9.353625256102532,
+              "rotation": 3.141592653589793
+            },
+            {
+              "id": "campus_coffee_kiosk",
+              "x": 14.970124958548695,
+              "z": 7.788505674339831,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_tree_round",
+              "x": -37.78666721470654,
+              "z": 28.36354189692065,
+              "rotation": 3.141592653589793
+            },
+            {
+              "id": "campus_tree_tall",
+              "x": -37.184370909351856,
+              "z": -5.858029156923294,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_tree_cluster",
+              "x": -1.3871256466954947,
+              "z": 28.98973524523899,
+              "rotation": 3.141592653589793
+            },
+            {
+              "id": "campus_planter_bench",
+              "x": 35.13113080477342,
+              "z": 13.356631932780147,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_bush_round",
+              "x": 38.753252102062106,
+              "z": 10.289625282865018,
+              "rotation": 3.141592653589793
+            },
+            {
+              "id": "campus_flower_bed",
+              "x": -25.50229529151693,
+              "z": -11.983249535784125,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_wayfinding_sign",
+              "x": 7.623249502852559,
+              "z": -12.354956783819944,
+              "rotation": 1.5707963267948966
+            },
+            {
+              "id": "kaykit_rock_a",
+              "x": 1.8966154917143285,
+              "z": 6.881222145631909,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_coffee_kiosk",
+              "x": -39.94907825253904,
+              "z": 8.648432686459273,
+              "rotation": 3.141592653589793
+            },
+            {
+              "id": "campus_tree_round",
+              "x": -40.654260815586895,
+              "z": 22.132921994663775,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_tree_tall",
+              "x": 9.7324632788077,
+              "z": 28.825327639002353,
+              "rotation": 1.5707963267948966
+            },
+            {
+              "id": "campus_tree_cluster",
+              "x": 27.281969575677067,
+              "z": 9.920562476851046,
+              "rotation": 0
+            },
+            {
+              "id": "campus_planter_bench",
+              "x": -39.854286949150264,
+              "z": -9.901941202115268,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_bush_round",
+              "x": 42.93582374835387,
+              "z": -22.709984715096653,
+              "rotation": 3.141592653589793
+            },
+            {
+              "id": "campus_flower_bed",
+              "x": 11.27479265537113,
+              "z": 11.159285849425942,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_wayfinding_sign",
+              "x": -35.73129887925461,
+              "z": 1.3723436556756496,
+              "rotation": 0
+            },
+            {
+              "id": "kaykit_rock_a",
+              "x": 16.460217457264662,
+              "z": -12.298091287259012,
+              "rotation": 1.5707963267948966
+            },
+            {
+              "id": "campus_coffee_kiosk",
+              "x": -7.6247061477042735,
+              "z": 28.528809489682317,
+              "rotation": 3.141592653589793
+            },
+            {
+              "id": "campus_tree_round",
+              "x": -41.85654422361404,
+              "z": 14.856116297189146,
+              "rotation": 0
+            },
+            {
+              "id": "campus_tree_tall",
+              "x": -40.72777565708384,
+              "z": -28.645095176063478,
+              "rotation": 3.141592653589793
+            },
+            {
+              "id": "campus_tree_cluster",
+              "x": 42.13164552114904,
+              "z": -12.434298795182258,
+              "rotation": 1.5707963267948966
+            },
+            {
+              "id": "campus_planter_bench",
+              "x": 28.22875148570165,
+              "z": 4.632300300523639,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_bush_round",
+              "x": 34.23223427962512,
+              "z": 8.137628401163965,
+              "rotation": 0
+            },
+            {
+              "id": "campus_flower_bed",
+              "x": -42.31889637885615,
+              "z": 26.50925752799958,
+              "rotation": 0
+            },
+            {
+              "id": "campus_wayfinding_sign",
+              "x": 35.91218536812812,
+              "z": 28.765119642484933,
+              "rotation": 1.5707963267948966
+            },
+            {
+              "id": "kaykit_rock_a",
+              "x": 19.665326565038413,
+              "z": 28.32727838680148,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_coffee_kiosk",
+              "x": 34.79714544955641,
+              "z": -2.1370514440350235,
+              "rotation": 0
+            },
+            {
+              "id": "campus_tree_round",
+              "x": -27.990462112706155,
+              "z": 27.21528163086623,
+              "rotation": 0
+            },
+            {
+              "id": "campus_tree_tall",
+              "x": 34.56778116244823,
+              "z": -21.418678506743163,
+              "rotation": 1.5707963267948966
+            },
+            {
+              "id": "campus_tree_cluster",
+              "x": 39.69439911702648,
+              "z": 1.3435188541188836,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_planter_bench",
+              "x": -15.32033197954297,
+              "z": 5.876611863728613,
+              "rotation": 4.71238898038469
+            },
+            {
+              "id": "campus_bush_round",
+              "x": -32.83992066094652,
+              "z": 27.896437818184495,
+              "rotation": 1.5707963267948966
+            },
+            {
+              "id": "campus_flower_bed",
+              "x": -35.482023468241096,
+              "z": -15.384586558211595,
+              "rotation": 4.71238898038469
+            }
+          ],
+          "availableTowerSlots": 72,
+          "gates": [
+            [
+              -40,
+              0,
+              -22
+            ],
+            [
+              40,
+              0,
+              20
+            ]
+          ]
+        },
+        "actors": {
+          "time": 0,
+          "spawned": 0,
+          "arrived": 0,
+          "active": 0,
+          "peak": 0,
+          "cap": 100,
+          "total": 200,
+          "queued": 40,
+          "wave": 0,
+          "done": false,
+          "events": [],
+          "running": false,
+          "towers": 35,
+          "heavyTowers": 2,
+          "octocats": 2,
+          "composition": [
+            {
+              "id": "copilot_base",
+              "version": "v02",
+              "url": "/runtime/copilot_base_v02.glb",
+              "clip": "work",
+              "triangles": 2489,
+              "meshes": 2,
+              "count": 33
+            },
+            {
+              "id": "bert_breugelmans",
+              "version": "v01",
+              "url": "/runtime/bert_breugelmans.glb",
+              "clip": "work",
+              "triangles": 4499,
+              "meshes": 4,
+              "count": 2
+            },
+            {
+              "id": "github_octocat_classic_lowpoly",
+              "version": "v01",
+              "url": "/runtime/github_octocat_classic_lowpoly.glb",
+              "clip": "idle",
+              "triangles": 3490,
+              "meshes": 13,
+              "count": 2
+            },
+            {
+              "id": "problem_bug",
+              "version": "v01",
+              "url": "/runtime/problem_bug.glb",
+              "clip": "move",
+              "enemy": true,
+              "triangles": 2320,
+              "meshes": 1,
+              "count": 0
+            },
+            {
+              "id": "problem_vague_spec",
+              "version": "v01",
+              "url": "/runtime/problem_vague_spec.glb",
+              "clip": "move",
+              "enemy": true,
+              "triangles": 1456,
+              "meshes": 1,
+              "count": 0
+            },
+            {
+              "id": "problem_missing_details",
+              "version": "v01",
+              "url": "/runtime/problem_missing_details.glb",
+              "clip": "move",
+              "enemy": true,
+              "triangles": 1358,
+              "meshes": 1,
+              "count": 0
+            }
+          ],
+          "allocatedEnemies": 0,
+          "attackClip": "work",
+          "attackAnimationSamples": [
+            {
+              "id": "bert_breugelmans",
+              "time": 0,
+              "playing": true
+            },
+            {
+              "id": "copilot_base",
+              "time": 0,
+              "playing": true
+            }
+          ],
+          "enemyPositions": [],
+          "towerPositions": [
+            {
+              "id": "bert_breugelmans",
+              "position": [
+                -33,
+                0.18,
+                -27
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -27.6340993903362,
+                0.18,
+                -27
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -22.2681987806724,
+                0.18,
+                -27
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -16.902298171008603,
+                0.18,
+                -27
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -11.536397561344799,
+                0.18,
+                -27
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -6.170496951681002,
+                0.18,
+                -27
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -0.8045963420172058,
+                0.18,
+                -27
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                4.561304267646598,
+                0.18,
+                -27
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                9.927204877310402,
+                0.18,
+                -27
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                15.293105486974206,
+                0.18,
+                -27
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                20.659006096638002,
+                0.18,
+                -27
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                27.885299374952847,
+                0.18,
+                -26.27804623115184
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                33,
+                0.18,
+                -11.731560594800612
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                32.967726822282245,
+                0.18,
+                -6.149072580278359
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                19.122127286239248,
+                0.18,
+                2
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                13.756226676575452,
+                0.18,
+                2
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                8.39032606691164,
+                0.18,
+                2
+              ]
+            },
+            {
+              "id": "bert_breugelmans",
+              "position": [
+                3.024425457247858,
+                0.18,
+                2
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -5.024425457247844,
+                0.18,
+                -8
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -10.390326066911655,
+                0.18,
+                -8
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -15.756226676575452,
+                0.18,
+                -8
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -21.122127286239248,
+                0.18,
+                -8
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -32,
+                0.18,
+                3.36565998513683
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -32,
+                0.18,
+                8.73156059480064
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -32,
+                0.18,
+                14.097461204464452
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -20.659006096637995,
+                0.18,
+                25
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -15.293105486974213,
+                0.18,
+                25
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -9.927204877310402,
+                0.18,
+                25
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                -4.561304267646591,
+                0.18,
+                25
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                0.8045963420171915,
+                0.18,
+                25
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                6.170496951681002,
+                0.18,
+                25
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                11.536397561344785,
+                0.18,
+                25
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                16.902298171008596,
+                0.18,
+                25
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                22.268198780672407,
+                0.18,
+                25
+              ]
+            },
+            {
+              "id": "copilot_base",
+              "position": [
+                27.634099390336218,
+                0.18,
+                25
+              ]
+            }
+          ]
+        }
+      },
+      "notes": [
+        "Target: 30 rendered frames/s during ambience. Paused frames are demand-driven.",
+        "CPU time includes animation, presentation and WebGL submission; it is not GPU time.",
+        "Renderer counters include the shadow pass. Texture/geometries are counts, not VRAM bytes.",
+        "Local load time includes parsing, assembly, validation and first render; production network latency is not represented.",
+        "Rolling window: up to 900 frames. Hidden-tab transitions and pause transitions reset frame intervals."
+      ]
+    }
+  },
+  "finishedAt": "2026-09-24T07:17:59.804Z",
+  "finalState": {
+    "scene": "garden-switchback-v1",
+    "view": "home",
+    "zoom": 1,
+    "animating": false,
+    "map": {
+      "id": "garden-switchback-v1",
+      "seed": 230924,
+      "pathWidth": 4.4,
+      "length": 225.9530740817201,
+      "route": [
+        [
+          -40,
+          0,
+          -22
+        ],
+        [
+          24,
+          0,
+          -22
+        ],
+        [
+          24.638888888888886,
+          0,
+          -21.972222222222218
+        ],
+        [
+          25.222222222222225,
+          0,
+          -21.888888888888893
+        ],
+        [
+          25.75,
+          0,
+          -21.75
+        ],
+        [
+          26.222222222222225,
+          0,
+          -21.555555555555557
+        ],
+        [
+          26.638888888888882,
+          0,
+          -21.30555555555555
+        ],
+        [
+          27,
+          0,
+          -21
+        ],
+        [
+          27.305555555555557,
+          0,
+          -20.63888888888889
+        ],
+        [
+          27.555555555555554,
+          0,
+          -20.22222222222222
+        ],
+        [
+          27.75,
+          0,
+          -19.75
+        ],
+        [
+          27.88888888888889,
+          0,
+          -19.22222222222222
+        ],
+        [
+          27.97222222222222,
+          0,
+          -18.63888888888889
+        ],
+        [
+          28,
+          0,
+          -18
+        ],
+        [
+          28,
+          0,
+          -7
+        ],
+        [
+          27.97222222222222,
+          0,
+          -6.36111111111111
+        ],
+        [
+          27.888888888888893,
+          0,
+          -5.777777777777778
+        ],
+        [
+          27.75,
+          0,
+          -5.25
+        ],
+        [
+          27.55555555555556,
+          0,
+          -4.777777777777778
+        ],
+        [
+          27.305555555555554,
+          0,
+          -4.36111111111111
+        ],
+        [
+          27,
+          0,
+          -4
+        ],
+        [
+          26.63888888888889,
+          0,
+          -3.694444444444444
+        ],
+        [
+          26.22222222222222,
+          0,
+          -3.4444444444444446
+        ],
+        [
+          25.75,
+          0,
+          -3.25
+        ],
+        [
+          25.22222222222222,
+          0,
+          -3.111111111111111
+        ],
+        [
+          24.63888888888889,
+          0,
+          -3.0277777777777777
+        ],
+        [
+          24,
+          0,
+          -3
+        ],
+        [
+          -23,
+          0,
+          -3
+        ],
+        [
+          -23.638888888888886,
+          0,
+          -2.9722222222222214
+        ],
+        [
+          -24.222222222222225,
+          0,
+          -2.8888888888888893
+        ],
+        [
+          -24.75,
+          0,
+          -2.75
+        ],
+        [
+          -25.222222222222225,
+          0,
+          -2.555555555555556
+        ],
+        [
+          -25.638888888888886,
+          0,
+          -2.305555555555555
+        ],
+        [
+          -26,
+          0,
+          -2
+        ],
+        [
+          -26.305555555555557,
+          0,
+          -1.6388888888888886
+        ],
+        [
+          -26.555555555555557,
+          0,
+          -1.2222222222222225
+        ],
+        [
+          -26.75,
+          0,
+          -0.75
+        ],
+        [
+          -26.888888888888893,
+          0,
+          -0.222222222222222
+        ],
+        [
+          -26.97222222222222,
+          0,
+          0.36111111111111077
+        ],
+        [
+          -27,
+          0,
+          1
+        ],
+        [
+          -27,
+          0,
+          16
+        ],
+        [
+          -26.972222222222218,
+          0,
+          16.63888888888889
+        ],
+        [
+          -26.888888888888893,
+          0,
+          17.222222222222225
+        ],
+        [
+          -26.75,
+          0,
+          17.75
+        ],
+        [
+          -26.555555555555557,
+          0,
+          18.22222222222222
+        ],
+        [
+          -26.30555555555555,
+          0,
+          18.638888888888886
+        ],
+        [
+          -26,
+          0,
+          19
+        ],
+        [
+          -25.63888888888889,
+          0,
+          19.305555555555557
+        ],
+        [
+          -25.22222222222222,
+          0,
+          19.555555555555557
+        ],
+        [
+          -24.75,
+          0,
+          19.75
+        ],
+        [
+          -24.22222222222222,
+          0,
+          19.88888888888889
+        ],
+        [
+          -23.638888888888886,
+          0,
+          19.97222222222222
+        ],
+        [
+          -23,
+          0,
+          20
+        ],
+        [
+          40,
+          0,
+          20
+        ]
+      ],
+      "decor": [
+        {
+          "id": "campus_tree_round",
+          "x": -9.235062662977725,
+          "z": 7.8386006355285645,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_tree_tall",
+          "x": -35.40475863777101,
+          "z": 11.080906658899039,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_tree_cluster",
+          "x": 39.88492026226595,
+          "z": -26.166501791216433,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_planter_bench",
+          "x": 38.49380945134908,
+          "z": -18.560773901175708,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_bush_round",
+          "x": -33.57622266607359,
+          "z": 23.111381072551012,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_flower_bed",
+          "x": 41.14622915349901,
+          "z": 6.328456613700837,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_wayfinding_sign",
+          "x": -40.14624651754275,
+          "z": -1.809308098629117,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "kaykit_rock_a",
+          "x": -40.899537906982005,
+          "z": 3.349989926908165,
+          "rotation": 0
+        },
+        {
+          "id": "campus_coffee_kiosk",
+          "x": 38.15948433848098,
+          "z": -9.46185312140733,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_tree_round",
+          "x": 20.272801171056926,
+          "z": 7.196787829045206,
+          "rotation": 0
+        },
+        {
+          "id": "campus_tree_tall",
+          "x": -37.59060196066275,
+          "z": 18.595928637310863,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_tree_cluster",
+          "x": -4.118868308141828,
+          "z": -12.792887423653156,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_planter_bench",
+          "x": 42.56340647256002,
+          "z": 28.6362075638026,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_bush_round",
+          "x": -31.65111050195992,
+          "z": -9.715963859576732,
+          "rotation": 0
+        },
+        {
+          "id": "campus_flower_bed",
+          "x": -14.984051938634366,
+          "z": -12.646232125349343,
+          "rotation": 0
+        },
+        {
+          "id": "campus_wayfinding_sign",
+          "x": 34.950830922462046,
+          "z": -26.88026401726529,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "kaykit_rock_a",
+          "x": 41.247485843952745,
+          "z": -4.2648539040237665,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_coffee_kiosk",
+          "x": -16.461224916391075,
+          "z": 10.721832663286477,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_tree_round",
+          "x": 25.582575290929526,
+          "z": 28.620963346213102,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_tree_tall",
+          "x": -40.5277631431818,
+          "z": -15.271574689541012,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_tree_cluster",
+          "x": -23.572880912106484,
+          "z": 28.798768068663776,
+          "rotation": 0
+        },
+        {
+          "id": "campus_planter_bench",
+          "x": 37.1129257902503,
+          "z": -14.093418619129807,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_bush_round",
+          "x": 35.01967748021707,
+          "z": 3.34484919719398,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_flower_bed",
+          "x": 0.6461162120103836,
+          "z": -12.888380809221417,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_wayfinding_sign",
+          "x": 6.415308673400432,
+          "z": 9.422597396187484,
+          "rotation": 0
+        },
+        {
+          "id": "kaykit_rock_a",
+          "x": -2.241291919723153,
+          "z": 9.353625256102532,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_coffee_kiosk",
+          "x": 14.970124958548695,
+          "z": 7.788505674339831,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_tree_round",
+          "x": -37.78666721470654,
+          "z": 28.36354189692065,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_tree_tall",
+          "x": -37.184370909351856,
+          "z": -5.858029156923294,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_tree_cluster",
+          "x": -1.3871256466954947,
+          "z": 28.98973524523899,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_planter_bench",
+          "x": 35.13113080477342,
+          "z": 13.356631932780147,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_bush_round",
+          "x": 38.753252102062106,
+          "z": 10.289625282865018,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_flower_bed",
+          "x": -25.50229529151693,
+          "z": -11.983249535784125,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_wayfinding_sign",
+          "x": 7.623249502852559,
+          "z": -12.354956783819944,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "kaykit_rock_a",
+          "x": 1.8966154917143285,
+          "z": 6.881222145631909,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_coffee_kiosk",
+          "x": -39.94907825253904,
+          "z": 8.648432686459273,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_tree_round",
+          "x": -40.654260815586895,
+          "z": 22.132921994663775,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_tree_tall",
+          "x": 9.7324632788077,
+          "z": 28.825327639002353,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_tree_cluster",
+          "x": 27.281969575677067,
+          "z": 9.920562476851046,
+          "rotation": 0
+        },
+        {
+          "id": "campus_planter_bench",
+          "x": -39.854286949150264,
+          "z": -9.901941202115268,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_bush_round",
+          "x": 42.93582374835387,
+          "z": -22.709984715096653,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_flower_bed",
+          "x": 11.27479265537113,
+          "z": 11.159285849425942,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_wayfinding_sign",
+          "x": -35.73129887925461,
+          "z": 1.3723436556756496,
+          "rotation": 0
+        },
+        {
+          "id": "kaykit_rock_a",
+          "x": 16.460217457264662,
+          "z": -12.298091287259012,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_coffee_kiosk",
+          "x": -7.6247061477042735,
+          "z": 28.528809489682317,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_tree_round",
+          "x": -41.85654422361404,
+          "z": 14.856116297189146,
+          "rotation": 0
+        },
+        {
+          "id": "campus_tree_tall",
+          "x": -40.72777565708384,
+          "z": -28.645095176063478,
+          "rotation": 3.141592653589793
+        },
+        {
+          "id": "campus_tree_cluster",
+          "x": 42.13164552114904,
+          "z": -12.434298795182258,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_planter_bench",
+          "x": 28.22875148570165,
+          "z": 4.632300300523639,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_bush_round",
+          "x": 34.23223427962512,
+          "z": 8.137628401163965,
+          "rotation": 0
+        },
+        {
+          "id": "campus_flower_bed",
+          "x": -42.31889637885615,
+          "z": 26.50925752799958,
+          "rotation": 0
+        },
+        {
+          "id": "campus_wayfinding_sign",
+          "x": 35.91218536812812,
+          "z": 28.765119642484933,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "kaykit_rock_a",
+          "x": 19.665326565038413,
+          "z": 28.32727838680148,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_coffee_kiosk",
+          "x": 34.79714544955641,
+          "z": -2.1370514440350235,
+          "rotation": 0
+        },
+        {
+          "id": "campus_tree_round",
+          "x": -27.990462112706155,
+          "z": 27.21528163086623,
+          "rotation": 0
+        },
+        {
+          "id": "campus_tree_tall",
+          "x": 34.56778116244823,
+          "z": -21.418678506743163,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_tree_cluster",
+          "x": 39.69439911702648,
+          "z": 1.3435188541188836,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_planter_bench",
+          "x": -15.32033197954297,
+          "z": 5.876611863728613,
+          "rotation": 4.71238898038469
+        },
+        {
+          "id": "campus_bush_round",
+          "x": -32.83992066094652,
+          "z": 27.896437818184495,
+          "rotation": 1.5707963267948966
+        },
+        {
+          "id": "campus_flower_bed",
+          "x": -35.482023468241096,
+          "z": -15.384586558211595,
+          "rotation": 4.71238898038469
+        }
+      ],
+      "availableTowerSlots": 72,
+      "gates": [
+        [
+          -40,
+          0,
+          -22
+        ],
+        [
+          40,
+          0,
+          20
+        ]
+      ]
+    },
+    "actors": {
+      "time": 0,
+      "spawned": 0,
+      "arrived": 0,
+      "active": 0,
+      "peak": 0,
+      "cap": 100,
+      "total": 200,
+      "queued": 40,
+      "wave": 0,
+      "done": false,
+      "events": [],
+      "running": false,
+      "towers": 35,
+      "heavyTowers": 2,
+      "octocats": 2,
+      "composition": [
+        {
+          "id": "copilot_base",
+          "version": "v02",
+          "url": "/runtime/copilot_base_v02.glb",
+          "clip": "work",
+          "triangles": 2489,
+          "meshes": 2,
+          "count": 33
+        },
+        {
+          "id": "bert_breugelmans",
+          "version": "v01",
+          "url": "/runtime/bert_breugelmans.glb",
+          "clip": "work",
+          "triangles": 4499,
+          "meshes": 4,
+          "count": 2
+        },
+        {
+          "id": "github_octocat_classic_lowpoly",
+          "version": "v01",
+          "url": "/runtime/github_octocat_classic_lowpoly.glb",
+          "clip": "idle",
+          "triangles": 3490,
+          "meshes": 13,
+          "count": 2
+        },
+        {
+          "id": "problem_bug",
+          "version": "v01",
+          "url": "/runtime/problem_bug.glb",
+          "clip": "move",
+          "enemy": true,
+          "triangles": 2320,
+          "meshes": 1,
+          "count": 0
+        },
+        {
+          "id": "problem_vague_spec",
+          "version": "v01",
+          "url": "/runtime/problem_vague_spec.glb",
+          "clip": "move",
+          "enemy": true,
+          "triangles": 1456,
+          "meshes": 1,
+          "count": 0
+        },
+        {
+          "id": "problem_missing_details",
+          "version": "v01",
+          "url": "/runtime/problem_missing_details.glb",
+          "clip": "move",
+          "enemy": true,
+          "triangles": 1358,
+          "meshes": 1,
+          "count": 0
+        }
+      ],
+      "allocatedEnemies": 0,
+      "attackClip": "work",
+      "attackAnimationSamples": [
+        {
+          "id": "bert_breugelmans",
+          "time": 0,
+          "playing": true
+        },
+        {
+          "id": "copilot_base",
+          "time": 0,
+          "playing": true
+        }
+      ],
+      "enemyPositions": [],
+      "towerPositions": [
+        {
+          "id": "bert_breugelmans",
+          "position": [
+            -33,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -27.6340993903362,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -22.2681987806724,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -16.902298171008603,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -11.536397561344799,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -6.170496951681002,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -0.8045963420172058,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            4.561304267646598,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            9.927204877310402,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            15.293105486974206,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            20.659006096638002,
+            0.18,
+            -27
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            27.885299374952847,
+            0.18,
+            -26.27804623115184
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            33,
+            0.18,
+            -11.731560594800612
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            32.967726822282245,
+            0.18,
+            -6.149072580278359
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            19.122127286239248,
+            0.18,
+            2
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            13.756226676575452,
+            0.18,
+            2
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            8.39032606691164,
+            0.18,
+            2
+          ]
+        },
+        {
+          "id": "bert_breugelmans",
+          "position": [
+            3.024425457247858,
+            0.18,
+            2
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -5.024425457247844,
+            0.18,
+            -8
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -10.390326066911655,
+            0.18,
+            -8
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -15.756226676575452,
+            0.18,
+            -8
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -21.122127286239248,
+            0.18,
+            -8
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -32,
+            0.18,
+            3.36565998513683
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -32,
+            0.18,
+            8.73156059480064
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -32,
+            0.18,
+            14.097461204464452
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -20.659006096637995,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -15.293105486974213,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -9.927204877310402,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            -4.561304267646591,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            0.8045963420171915,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            6.170496951681002,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            11.536397561344785,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            16.902298171008596,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            22.268198780672407,
+            0.18,
+            25
+          ]
+        },
+        {
+          "id": "copilot_base",
+          "position": [
+            27.634099390336218,
+            0.18,
+            25
+          ]
+        }
+      ]
+    }
+  },
+  "correctnessPassed": false,
+  "overBudgetCases": []
+}

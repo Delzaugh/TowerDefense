@@ -1,0 +1,173 @@
+{
+  "date": "2026-09-26T21:38:20.208Z",
+  "errors": [],
+  "inventoryCount": 142,
+  "visualSample": [
+    [
+      "Copilot family",
+      [
+        "copilot_developer",
+        "linter_agent",
+        "copilot_security",
+        "copilot_base"
+      ]
+    ],
+    [
+      "Problems",
+      [
+        "problem_bug",
+        "problem_lag_spike",
+        "problem_vague_spec",
+        "problem_missing_details",
+        "problem_dead_code",
+        "problem_spaghetti_code"
+      ]
+    ],
+    [
+      "Work and character towers",
+      [
+        "work_coding_task",
+        "human_developer",
+        "golden_compiler",
+        "copilot_commit_halo",
+        "bert_breugelmans"
+      ]
+    ],
+    [
+      "Campus references",
+      [
+        "campus_lab",
+        "campus_tree_round",
+        "campus_walk_straight",
+        "campus_coffee_kiosk",
+        "campus_utility_decor",
+        "kaykit_basemodule_a"
+      ]
+    ]
+  ],
+  "policy": {
+    "schemaVersion": 1,
+    "status": "Working baseline, 2026-09-26; preserve character identities. These are authoring references, not runtime overrides.",
+    "tokens": {
+      "graphite": {
+        "color": "#333E48",
+        "use": "Neutral Copilot casing; Linter reference"
+      },
+      "screen": {
+        "color": "#041D2A",
+        "use": "Copilot display black; Developer reference"
+      },
+      "active_cyan": {
+        "color": "#00E5EF",
+        "use": "Small Copilot display accents; Developer reference, not a faction identifier"
+      },
+      "architecture_chalk": {
+        "color": "#E2EDF0",
+        "use": "Cool campus architecture"
+      },
+      "architecture_edge": {
+        "color": "#ADC5D2",
+        "use": "Campus edge planes"
+      },
+      "architecture_slate": {
+        "color": "#89A4B8",
+        "use": "Campus structural surfaces"
+      },
+      "campus_ground": {
+        "color": "#354B64",
+        "use": "Approved home-campus dusk surface; not a global gameplay ground mandate"
+      },
+      "path": {
+        "color": "#48647D",
+        "use": "Campus routes"
+      },
+      "path_signal": {
+        "color": "#82DADD",
+        "use": "Quiet campus route accents"
+      },
+      "leaf": {
+        "color": "#70B5B4",
+        "use": "Established teal foliage; biome variations retained"
+      },
+      "warm_paper": {
+        "color": "#F3E4CF",
+        "use": "Coding Task paper reference; clothing, skin and white armour retain their own palettes"
+      },
+      "problem_red": {
+        "color": "#E51C30",
+        "use": "Bug warning accent reference; not a blanket enemy recolour"
+      }
+    },
+    "pilot": {
+      "copilot_developer": {
+        "graphite": "#333E48"
+      },
+      "linter_agent": {
+        "screen": "#041D2A",
+        "cyan": "#00E5EF"
+      },
+      "copilot_security": {
+        "screen": "#041D2A",
+        "cyan": "#00E5EF"
+      }
+    },
+    "exceptions": [
+      "Security navy casing, blue armour and white trim are identity colours.",
+      "Developer orange, Linter lime, Bug cobalt/red and Coding Task cream/blue/purple remain distinct.",
+      "Lag Spike cyan and Spaghetti lime/orange overlap friendly colours intentionally; silhouette, motion and UI must carry allegiance.",
+      "Human skin, hair, clothing, brand colours, imported atlases, spatial textures and separate emission maps are not normalized automatically.",
+      "Shared role names such as shell, ink or chalk are not global semantic IDs; select each mapping explicitly."
+    ]
+  },
+  "lighting": "Shared Inspector studio",
+  "effects": "off",
+  "scale": "Authored metres; no model scaling",
+  "images": [
+    "copilot_developer-current.png",
+    "copilot_developer-candidate.png",
+    "linter_agent-current.png",
+    "linter_agent-candidate.png",
+    "copilot_security-current.png",
+    "copilot_security-candidate.png",
+    "copilot_base-current.png",
+    "copilot_base-candidate.png",
+    "problem_bug-current.png",
+    "problem_bug-candidate.png",
+    "problem_lag_spike-current.png",
+    "problem_lag_spike-candidate.png",
+    "problem_vague_spec-current.png",
+    "problem_vague_spec-candidate.png",
+    "problem_missing_details-current.png",
+    "problem_missing_details-candidate.png",
+    "problem_dead_code-current.png",
+    "problem_dead_code-candidate.png",
+    "problem_spaghetti_code-current.png",
+    "problem_spaghetti_code-candidate.png",
+    "work_coding_task-current.png",
+    "work_coding_task-candidate.png",
+    "human_developer-current.png",
+    "human_developer-candidate.png",
+    "golden_compiler-current.png",
+    "golden_compiler-candidate.png",
+    "copilot_commit_halo-current.png",
+    "copilot_commit_halo-candidate.png",
+    "bert_breugelmans-current.png",
+    "bert_breugelmans-candidate.png",
+    "campus_lab-current.png",
+    "campus_lab-candidate.png",
+    "campus_tree_round-current.png",
+    "campus_tree_round-candidate.png",
+    "campus_walk_straight-current.png",
+    "campus_walk_straight-candidate.png",
+    "campus_coffee_kiosk-current.png",
+    "campus_coffee_kiosk-candidate.png",
+    "campus_utility_decor-current.png",
+    "campus_utility_decor-candidate.png",
+    "kaykit_basemodule_a-current.png",
+    "kaykit_basemodule_a-candidate.png",
+    "lineup-slate-current.png",
+    "lineup-slate-candidate.png",
+    "lineup-light-current.png",
+    "lineup-light-candidate.png"
+  ]
+}

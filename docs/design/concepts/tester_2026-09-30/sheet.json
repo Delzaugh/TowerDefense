@@ -1,0 +1,31 @@
+{
+  "title": "Tester Tower Concept Variations",
+  "subtitle": "Copilot evolutions specializing in quality and nearby support.",
+  "category": "Tower",
+  "options": [
+    {
+      "name": "Precision Inspector",
+      "description": "Asymmetric magnifying goggle and reinforced cheek housings"
+    },
+    {
+      "name": "Coverage Sentinel",
+      "description": "Broad shell with outward sweeping sensor vanes"
+    },
+    {
+      "name": "Test Pilot",
+      "description": "Raised visor and chunky diagnostic headset"
+    },
+    {
+      "name": "Boundary Watcher",
+      "description": "Angular shell framed by bracket-shaped guards"
+    },
+    {
+      "name": "Sandbox Specialist",
+      "description": "Rounded protective casing with inset sample chamber"
+    },
+    {
+      "name": "Signal Scout",
+      "description": "Tapered helmet crowned by split scanning antennae"
+    }
+  ]
+}

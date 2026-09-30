@@ -1,0 +1,87 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "id": "problem_bug",
+      "revision": 12,
+      "sha256": "c065c487c7669562106e12753aa2759bdf194b28bb4214a676fb613871225c41",
+      "uniqueBaseColors": 7
+    },
+    {
+      "id": "problem_lag_spike",
+      "revision": 11,
+      "sha256": "57b50be10be8426bf8639494d49e339d03a9ca9809124285bd998f4b99e12f89",
+      "uniqueBaseColors": 7,
+      "parity": {
+        "passed": true,
+        "vertices": 2856,
+        "meshes": 1,
+        "materials": 1,
+        "oldBytes": 268436,
+        "newBytes": 268616,
+        "checks": "Exact exported topology, positions, normals, skinning, old UV channels, morph targets, rig, anchors, clips, and material/emission parity; base-colour storage only."
+      }
+    },
+    {
+      "id": "problem_vague_spec",
+      "revision": 9,
+      "sha256": "5b437567df99096c2ca1b63ee4913bb1604ee4a268d7e11a7092eb851d433b79",
+      "uniqueBaseColors": 7,
+      "parity": {
+        "passed": true,
+        "vertices": 2754,
+        "meshes": 1,
+        "materials": 1,
+        "oldBytes": 210120,
+        "newBytes": 210120,
+        "checks": "Exact exported topology, positions, normals, skinning, old UV channels, morph targets, rig, anchors, clips, and material/emission parity; base-colour storage only."
+      }
+    },
+    {
+      "id": "problem_missing_details",
+      "revision": 13,
+      "sha256": "6b3e267075d1014c018ed681362670af86c5412667d3a2828777a15e54c49c6a",
+      "uniqueBaseColors": 7,
+      "parity": {
+        "passed": true,
+        "vertices": 2730,
+        "meshes": 1,
+        "materials": 1,
+        "oldBytes": 248028,
+        "newBytes": 248024,
+        "checks": "Exact exported topology, positions, normals, skinning, old UV channels, morph targets, rig, anchors, clips, and material/emission parity; base-colour storage only."
+      }
+    },
+    {
+      "id": "problem_dead_code",
+      "revision": 7,
+      "sha256": "4f1ba014aad4d26238d25336ee915211a36ddb962cfc6c862d5c7e6cb13d38f1",
+      "uniqueBaseColors": 6,
+      "parity": {
+        "passed": true,
+        "vertices": 1736,
+        "meshes": 1,
+        "materials": 1,
+        "oldBytes": 115136,
+        "newBytes": 115316,
+        "checks": "Exact exported topology, positions, normals, skinning, old UV channels, morph targets, rig, anchors, clips, and material/emission parity; base-colour storage only."
+      }
+    },
+    {
+      "id": "problem_spaghetti_code",
+      "revision": 12,
+      "sha256": "4d6eae17c8a59c916f616666d34ea6a10e19ad9c74ca54cc2264be91edbf1a04",
+      "uniqueBaseColors": 5,
+      "parity": {
+        "passed": true,
+        "vertices": 4828,
+        "meshes": 1,
+        "materials": 1,
+        "oldBytes": 297240,
+        "newBytes": 297420,
+        "checks": "Exact exported topology, positions, normals, skinning, old UV channels, morph targets, rig, anchors, clips, and material/emission parity; base-colour storage only."
+      }
+    }
+  ],
+  "errors": []
+}

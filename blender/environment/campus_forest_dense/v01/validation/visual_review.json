@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_forest_dense",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "648f16cc7a29eb9a00ae971a0de3a1e5dc35098a0e8c2fcf1f1fbebbb7bcf20a",
+  "sourceHash": "c0023a74a00520188cef77682fdf0ed8da7ad1dc5525f60b99848feeb9454801",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T11:19:57.740Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Thirteen round, tall and pine trees create a denser blue-green/moss group with varied heights."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Top and underside confirm clear distinct trunk contacts and no shared base. Reverse shows the intended overlapping silhouettes without accidental floating trees."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally inspected the phone-width and fixed-view renders: the crown outline and trunk remain readable; different forms are identifiable without relying only on color."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked the repeated pines and tall crowns at close and phone scale. The denser silhouette remains legible and stays inside the 10 m module."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_forest_dense/v01/validation/iso.png",
+      "sha256": "2fd426ec1aff4c4bac331edd179b9dec37c45c9cb0959acfd649f6faadd714f5",
+      "view": "validation/iso"
+    },
+    {
+      "path": "blender/environment/campus_forest_dense/v01/validation/front.png",
+      "sha256": "7c1bec3d361554dd1cea87de0e046b0b8d51195fcd3604b28874f1cf7701d2fb",
+      "view": "validation/front"
+    },
+    {
+      "path": "blender/environment/campus_forest_dense/v01/validation/rear.png",
+      "sha256": "ae86514c22fbb8fbeda7308b6a3f6672539acf426376f84c8aba810310b954e5",
+      "view": "validation/rear"
+    },
+    {
+      "path": "blender/environment/campus_forest_dense/v01/validation/top.png",
+      "sha256": "ab7944aa72881c5a73722890efbee3ffafe973ef6d5540bb719a7d7a3b347719",
+      "view": "validation/top"
+    },
+    {
+      "path": "blender/environment/campus_forest_dense/v01/renders/inspector-close.png",
+      "sha256": "d9ab9b09cd6f101c9e97561fc1c9258972160a7f0ca7ebf61612b371406a6b58",
+      "view": "renders/inspector-close"
+    },
+    {
+      "path": "blender/environment/campus_forest_dense/v01/renders/inspector-rear.png",
+      "sha256": "1c1f71ff4d5afeffc5816793421ad38b9e93b0e789ea0cef64cf7520df773260",
+      "view": "renders/inspector-rear"
+    },
+    {
+      "path": "blender/environment/campus_forest_dense/v01/renders/inspector-phone.png",
+      "sha256": "bec1dedc33d17feedf9494d5a4ebc8f3792aefe8237fd796d684ab80a435dc93",
+      "view": "renders/inspector-phone"
+    },
+    {
+      "path": "blender/environment/campus_forest_dense/v01/renders/inspector-bottom.png",
+      "sha256": "abf0be02faf5b80657c0a7c524f0108fe1db62ff04893b53a9103af4d5883721",
+      "view": "renders/inspector-bottom"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "New family delivered for user artistic review; no approval inferred."
+  },
+  "limitations": [
+    "Static environmental art; no collision, pathfinding or gameplay placement integration.",
+    "Flat common contact plane; use individual trees for uneven terrain."
+  ]
+}

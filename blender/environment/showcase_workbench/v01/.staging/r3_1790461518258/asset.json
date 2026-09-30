@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "showcase_workbench",
+  "displayName": "Copilot Hub Tower workbench",
+  "category": "environment",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/environment/showcase_workbench/v01/showcase_workbench_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/showcase_workbench/v01/build.py",
+    "authoritativeHash": "8c16b1c3fa6f3d2ca1a3da645c109c3f9c3328bb564c79a3b600100349767f51"
+  },
+  "runtime": "assets/runtime/environment/showcase_workbench_v01.glb",
+  "budgets": {
+    "triangles": 4000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 4
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": []
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "design/mockups/copilot_hub_towers/v09/codex.png",
+      "provenance": "User-approved Tower Codex v09 mockup, composition and palette reference."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "budgets.meshes",
+      "reason": "Room shell and preview plinth remain separately addressable for fixed room and independent preview render passes."
+    }
+  ],
+  "milestones": [],
+  "decisions": "blender/environment/showcase_workbench/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "showcase_palette",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "ivory": {
+          "color": "#E8E6DF",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "slate": {
+          "color": "#354B64",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "slate_light": {
+          "color": "#89A4B8",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "wood": {
+          "color": "#D7A875",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "wood_edge": {
+          "color": "#B88258",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "plinth": {
+          "color": "#36475A",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "plinth_top": {
+          "color": "#657C8D",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#82DADD",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "sky": {
+          "color": "#9BD6F2",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "hill": {
+          "color": "#BAD2B7",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        },
+        "tree": {
+          "color": "#70B5B4",
+          "rect": [
+            40,
+            0,
+            4,
+            4
+          ]
+        },
+        "tree_dark": {
+          "color": "#4D9695",
+          "rect": [
+            44,
+            0,
+            4,
+            4
+          ]
+        },
+        "shadow": {
+          "color": "#26394F",
+          "rect": [
+            48,
+            0,
+            4,
+            4
+          ]
+        },
+        "white": {
+          "color": "#F8F5ED",
+          "rect": [
+            52,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "7ba2845fd1621f760ecdaff52e33a9331832202dab5ecb516f71013d5adc8a76",
+    "sourceHash": "8c16b1c3fa6f3d2ca1a3da645c109c3f9c3328bb564c79a3b600100349767f51",
+    "report": "blender/environment/showcase_workbench/v01/validation/report.json",
+    "deliveredAt": "2026-09-26T22:14:44.906Z"
+  }
+}

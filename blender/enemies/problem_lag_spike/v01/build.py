@@ -262,6 +262,8 @@ for clip,length in [('idle',48),('move',32),('hit',12),('resolve',24)]:
     track=rig.animation_data.nla_tracks.new();track.name=clip
     strip=track.strips.new(clip,1,action);strip.name=clip;track.mute=True
 rig.animation_data.action=None;reset();scene.frame_set(1);scene.frame_end=33
+import runpy
+runpy.run_path(str(Path(__file__).with_name('animate_lifecycle.py')))['author'](CONTRACT)
 data.calc_loop_triangles();assert len(data.loop_triangles)<=CONTRACT['budgets']['triangles'],len(data.loop_triangles)
 bpy.context.view_layer.update()
 bpy.ops.object.select_all(action='DESELECT');obj.select_set(True);bpy.context.view_layer.objects.active=obj

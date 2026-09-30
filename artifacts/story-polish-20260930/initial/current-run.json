@@ -1,0 +1,70 @@
+{
+  "run": "Initial audience framing review before carrier repair and camera freeze",
+  "capturedAt": "2026-09-30T18:27:30.3746874+02:00",
+  "timelineSeconds": 42,
+  "method": "Production Scene timeline paused seeks; screenshot evidence only",
+  "desktopTimes": [
+    3,
+    7,
+    12,
+    14.7,
+    19,
+    23.3,
+    27,
+    32,
+    37
+  ],
+  "phoneTimes": [
+    14.7,
+    23.3,
+    32
+  ],
+  "tests": {
+    "captureCasesPrintedPassed": 2,
+    "browserTeardown": "Stopped own hung test runner after capture cases printed passed; own port5187 verified closed",
+    "contentTestsPassed": 5
+  },
+  "findings": [
+    "Cafe establishes place; physical carrier reads clearly",
+    "Desktop14.7 alarm badge clips stage top",
+    "Desktop27 carrier platform appears to intersect Copilot body",
+    "Desktop37 callback expression looks neutral while clip is story_talk",
+    "Phone alarmbadge has headroom; lock/tow keep captive visible with Copilot partially cropped left"
+  ],
+  "buildFiles": [
+    {
+      "name": "createStoryScene-DXy9zl7C.js",
+      "sha256": "257F702EBB1FBB0ED65E47C4094B2D3290AF81401A818A9EEF23DB7B06A00025"
+    },
+    {
+      "name": "HomeScreen-Bx2oI6xA.js",
+      "sha256": "CA498646999E28031691177C713F6852AC8726244532B35A9BAA508E4E55D00F"
+    },
+    {
+      "name": "HomeScreen-XYNY8Clc.css",
+      "sha256": "C957DFE4B2C333663E85C64B6A7480BBB6B7086D035E65879B3E1E94E100035A"
+    }
+  ],
+  "runtimeFiles": [
+    {
+      "name": "problem_bug_v01.225f1c9f81e540fe.glb",
+      "sha256": "225F1C9F81E540FEBB5A353B1417E963A7636463DD4437E7EF8BE40634B66D3C"
+    },
+    {
+      "name": "story_capture_carrier_v01.7c7c4091373e20d1.glb",
+      "sha256": "7C7C4091373E20D1E22A891047B75EEA83958E69856FD63C36D354C4225A87B8"
+    },
+    {
+      "name": "story_courtyard_v01.2d9bf699239d13d5.glb",
+      "sha256": "2D9BF699239D13D5724B3528C121F5F997D706D04647A9F5FFF8B7B8C81A0804"
+    },
+    {
+      "name": "copilot_base_v02.8d33985ed7557229.glb",
+      "sha256": "8D33985ED755722902537366D318CE6C91DE21E8E94C8762BA4C9B33D8C64DB0"
+    },
+    {
+      "name": "copilot_octocat_classic_lowpoly_v01.43e0de013f4514d1.glb",
+      "sha256": "43E0DE013F4514D1BE50CC6EBA647F4F332A81E57B9035979E7A9B942C0AAE53"
+    }
+  ]
+}

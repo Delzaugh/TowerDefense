@@ -2,6 +2,35 @@
 
 Use this for geometry work and visual review. Apply checks to the affected parts and their repeated instances; a palette-only edit does not require rebuilding topology. Asset dimensions, tolerances and budgets belong in the manifest, not in this reference.
 
+## Resolve the primary form before detailing
+
+For a new model or a correction to its body/silhouette, first identify which
+references govern outline, volume, materials and accessories. Record the major
+extrema, changes of direction, attachment centers, feature roots/tips and negative
+spaces beside the source. Choose a construction method that can represent them;
+do not inherit a generic body merely because an existing helper makes it easy.
+Use traced profiles, sections, direct mesh editing or another suitable method.
+
+Compare a primary-form blockout in front, side and the game view before spending
+effort on symbols, optics and small bevels. Include simple accessory volumes when
+they affect the silhouette. Compare internal landmarks as well as the outer
+outline: a high silhouette overlap can hide a misplaced face, jaw or attachment.
+Preserve reference aspect ratios and use a documented uniform scale, alignment
+and projection. If illustrated views disagree, reconcile the important landmarks
+and record the choice; do not distort each view to manufacture a match.
+
+The pipeline renders flat `*-silhouette.png` masks and camera metadata beside the
+shaded views. Inspect any mask/overlay before relying on a metric. Use metrics to
+locate differences, not as a universal artistic pass score. A useful comparison
+may be a marked side-by-side image rather than a numerical measurement.
+
+If the primary volume is wrong, replace or reshape that form before detailing.
+Do not repeatedly compensate through accessories or broad assembly deformation.
+Preserve manufactured parts in local coordinates and fit them to the resolved
+body. More triangles, smoother surfaces or recognizable features do not by
+themselves establish reference fidelity. Palette-only and localized edits do not
+require rebuilding an already resolved body.
+
 ## Choose the connection before modeling
 
 Read the reference silhouette from front, back and thickness views where available. A cut or fold that changes the outline needs corresponding geometry; a colored triangle on an uncut rectangle cannot provide that outline. Distinguish these connections:
@@ -37,4 +66,13 @@ Inspect the GLB in the shared Inspector with neutral lighting, without relying o
 
 Use wireframe or Blender topology inspection to diagnose a visible defect, then return to the shaded runtime result to judge the repair. Automated reports can miss coincident surfaces, awkward elbows and exposed backing, even when bounds and triangle counts pass.
 
-Resolve visible defects in the requested area, export, and inspect the new revision from the views that exposed them. Recheck nearby geometry and affected states after a structural fix. Stop iterating when the requested construction is clean and the relevant checks pass; do not turn detail review into unrelated redesign or an approval gate. Record the reviewed revision, useful views/times and any remaining limitation beside the source. Keep evidence outside runtime.
+Resolve visible defects in the requested area, export, and inspect the new revision from the views that exposed them. Recheck nearby geometry and affected states after a structural fix. Check for degenerate triangles or loose geometry when construction changes; interpret open boundaries in the context of the intended component rather than demanding every mesh be a closed solid.
+
+Then review the finished export again with the references visible. Look for the
+largest remaining proportion error, an attachment defect exposed from another
+angle, and a shading/readability issue. Record the actual findings, including
+repairs or a concrete explanation that the affected checks are clean. A second
+pass means another assessment after the initial repair pass, not a requirement
+to delegate or rerun every unrelated test. Stop when the scoped construction and
+reference checks pass. Keep technical validation, author review and explicit user
+acceptance distinct, as described in delivery.md.

@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "runId": "story-polish-final-20260930-bands",
+  "mode": "desktop",
+  "state": "tow",
+  "requestedState": "tow",
+  "appliedState": "tow",
+  "seconds": 32,
+  "method": "Production player Scene timeline seeks; no mutable production test hooks. CSS-scale story-canvas screenshot targeted explicitly because first documentcanvas is campus.",
+  "screenshotCssPixels": {
+    "width": 1280,
+    "height": 459
+  },
+  "canvasBounds": {
+    "x": 0,
+    "y": 73.5,
+    "width": 1280,
+    "height": 458.5
+  },
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "gpu": {
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x00002204) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)",
+    "softwareRendered": false
+  },
+  "diagnostics": {
+    "calls": 29,
+    "triangles": 20515,
+    "geometries": 29,
+    "textures": 25,
+    "pixelRatio": 1,
+    "state": {
+      "time": 32,
+      "paused": true,
+      "reducedMotion": false,
+      "finished": false,
+      "shot": "Carried away",
+      "actors": [
+        {
+          "role": "copilot",
+          "visible": true,
+          "clip": "story_listen",
+          "position": [
+            -1.7,
+            0,
+            1.3
+          ]
+        },
+        {
+          "role": "octocat",
+          "visible": true,
+          "clip": "story_struggle",
+          "position": [
+            2.8080000000000003,
+            0.58,
+            0
+          ]
+        },
+        {
+          "role": "bug-left",
+          "visible": true,
+          "clip": "story_haul",
+          "position": [
+            1.008,
+            0,
+            -1.75
+          ]
+        },
+        {
+          "role": "bug-right",
+          "visible": true,
+          "clip": "story_haul",
+          "position": [
+            4.808,
+            0,
+            1.75
+          ]
+        }
+      ],
+      "capture": true,
+      "expression": null,
+      "trapPhase": "tow",
+      "ready": true,
+      "shadowSize": 1024,
+      "postPasses": 0,
+      "assets": [
+        "copilot_base@v02",
+        "copilot_octocat_classic_lowpoly@v01",
+        "problem_bug@v01",
+        "story_courtyard@v01",
+        "story_capture_carrier@v01"
+      ]
+    }
+  },
+  "result": {
+    "ok": true,
+    "reason": "nonblank",
+    "alphaPixels": 4109,
+    "variance": 255,
+    "colorBuckets": 327,
+    "metrics": {
+      "colorBuckets": 460,
+      "colorEntropyBits": 6.87,
+      "edgeDensity": 0.326,
+      "luminance": {
+        "mean": 142.8,
+        "p5": 28.3,
+        "p95": 214.7,
+        "contrast": 186.3
+      },
+      "dominantColorShare": 0.043,
+      "nonBackgroundShare": 0.957
+    },
+    "renderBudget": {
+      "tier": "desktop",
+      "rows": [
+        {
+          "metric": "calls",
+          "limit": 300,
+          "actual": 29,
+          "ok": true
+        },
+        {
+          "metric": "triangles",
+          "limit": 750000,
+          "actual": 20515,
+          "ok": true
+        },
+        {
+          "metric": "geometries",
+          "limit": 300,
+          "actual": 29,
+          "ok": true
+        },
+        {
+          "metric": "textures",
+          "limit": 60,
+          "actual": 25,
+          "ok": true
+        }
+      ],
+      "withinBudget": true,
+      "note": "Skill starting-point budgets; no GPU timing inferred"
+    }
+  },
+  "screenshotPath": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\final\\canvas-desktop-tow.png"
+}

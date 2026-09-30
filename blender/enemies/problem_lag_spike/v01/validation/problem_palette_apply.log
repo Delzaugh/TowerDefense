@@ -1,0 +1,10 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _aligned_free
+00:02.297  blend            | Read blend: "C:\Users\jonas\Documents\ChatGPT\Tower\blender\enemies\problem_lag_spike\v01\problem_lag_spike_v01.blend"
+C:\Users\jonas\Documents\ChatGPT\Tower\tools\asset-pipeline\refine_problem_palettes.py:24: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  'materialLinks':{mat.name:[{'input':l.to_socket.name,'image':l.from_node.image.name if l.from_node.type=='TEX_IMAGE' and l.from_node.image else None} for l in mat.node_tree.links if l.to_node.type=='BSDF_PRINCIPLED'] for mat in bpy.data.materials if mat.use_nodes}}
+00:02.391  image.write      | ERROR OpenImageIO write failed: Could not open file "촐¦\.thumbnails\large\blender_21376_63528cb39b8973250fe3d5e508ab07d2.png.png"
+PROBLEM_PALETTE_INSPECTION {"asset": "problem_lag_spike", "sourceBefore": "42deab141f321a002ba2a7d8a8dbcb743c1de429413eddf38b1b4651864424b2", "revisionBefore": 10, "colorsBefore": {"body": "#343344", "body_dark": "#252533", "head": "#454154", "limb": "#625D77", "joint": "#302E40", "blue_dark": "#304568", "blue": "#328EE8", "cyan": "#30C9F5", "ice": "#94E4FF"}, "colorsAfter": {"blue": "#328EE8", "blue_dark": "#344D69", "body": "#233B58", "body_dark": "#192E46", "cyan": "#30C9F5", "head": "#344D69", "ice": "#94E4FF", "joint": "#192E46", "limb": "#627389"}, "objects": 5, "actions": ["hit", "idle", "move", "resolve", "spawn"], "images": [{"name": "problem_lag_spike_palette", "size": [32, 8], "packed": true}], "materialLinks": {"lag_spike_palette": [{"input": "Base Color", "image": "problem_lag_spike_palette"}]}}
+Info: Saved as "problem_lag_spike_v01.blend"
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "asset": "problem_missing_details",
+  "version": "v01",
+  "revision": 12,
+  "sha256": "556f9b1c5525b6271c88394b09983e1674542e9d0a063d36c77a58a8d64d1747",
+  "sourceHash": "b15a7169b94a3bddf2717775490ad030a87703265c31d6aa81d4f636471724bf",
+  "scope": "palette",
+  "reviewedAt": "2026-09-26T22:22:03.593Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "User requested shared supporting colours while preserving identities, then an eight-base-colour trial. Merged navy question mark/visor, slate joints/limb shadows and red eye/core base shades. Yellow sheet, raised fold, white limbs and red eyes remain distinct; independent emission remains exact."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Personally inspected final guarded iso and rear renders. No new bleed or discontinuous colour regions observed. Exact parity proves unchanged topology, positions, normals, UVs, skinning, rig, anchors, morphs, material settings, texture samplers and auxiliary emission images; only base palette pixels changed."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected common-scale board, grayscale and small phone Rest/Move views. 8 distinct authored base colours. Merged navy question mark/visor, slate joints/limb shadows and red eye/core base shades. Yellow sheet, raised fold, white limbs and red eyes remain distinct; independent emission remains exact. This is controlled Inspector lighting, not final gameplay-camera or colour-vision-deficiency approval."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Reviewed small Inspector Move at 0.5 seconds after palette delivery. Exact exported animation channels, time/value buffers and root presentation metadata match the retained pre-palette milestone. No animation changes or new full-animation approval in this palette pass."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Following candidate comparison and source export, personally reviewed the final iso/rear, phone Rest/Move and grayscale evidence. Source/runtime hashes and every mapped role match the policy; the palette stays within eight distinct colours. No further palette correction needed in these views."
+  },
+  "evidence": [
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/iso.png",
+      "sha256": "5db05d367c220c0441e851ed757edcfd88c52b83c3132fd0f098a455fc6ea948",
+      "view": "Final close isometric",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/rear.png",
+      "sha256": "f8467691d64b0f6b3d2b5e6de43991564b44448cb7a47e0bd191e598092caf57",
+      "view": "Final reverse",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/problem-palette-phone.png",
+      "sha256": "8c86b9fe87d589f06ec797ceba153d9b553616e4aa6af4901c9c95ed8f3b545a",
+      "view": "Small phone Rest",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/problem-palette-move-phone.png",
+      "sha256": "50ead0c1305aab2b5137cd371e618f9f5ad5adab699f1c7df7552affb61b3be9",
+      "view": "Small phone Move 0.5s",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/problem_palette_parity.json",
+      "sha256": "49d4efb51c7620234070f310496bf8912bfe3b4c27ef9ad69dd3d9635a6efe25",
+      "view": "Exact palette-only preservation audit",
+      "mode": "audit"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User authorized the family palette iteration and eight-colour trial. Exact revised appearance awaits artistic feedback."
+  },
+  "limitations": []
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_tile_civic",
+  "displayName": "Civic Plaza · ashlar square",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/campus_tile_civic/v01/campus_tile_civic_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_tile_civic/v01/build.py"
+  },
+  "runtime": "assets/runtime/environment/campus_tile_civic_v01.glb",
+  "budgets": {
+    "triangles": 1000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_surface",
+      "anchor_edge_ne",
+      "anchor_edge_n",
+      "anchor_edge_nw",
+      "anchor_edge_sw",
+      "anchor_edge_s",
+      "anchor_edge_se"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/environment/campus_base_hex/v01/surface.py",
+      "provenance": "Shared campus slate edge and source texture convention."
+    },
+    {
+      "path": "game/src/content/maps/campusHome.ts",
+      "provenance": "Existing lab, solar and route clearances retained; parent owns placement integration."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/campus_tile_civic/v01/decisions.md",
+  "exportSettings": {
+    "paletteTextureWorkflow": false
+  },
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "chalk": "#6787A3",
+      "ground": "#354B64",
+      "shell": "#24354E",
+      "tile_seam": "#577693"
+    }
+  },
+  "texturePalettes": [
+    {
+      "material": "glacier_palette",
+      "size": [
+        512,
+        512
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#6787A3",
+          "rect": [
+            0,
+            0,
+            8,
+            8
+          ]
+        },
+        "ground": {
+          "color": "#354B64",
+          "rect": [
+            8,
+            0,
+            8,
+            8
+          ]
+        },
+        "shell": {
+          "color": "#24354E",
+          "rect": [
+            16,
+            0,
+            8,
+            8
+          ]
+        },
+        "tile_seam": {
+          "color": "#577693",
+          "rect": [
+            24,
+            0,
+            8,
+            8
+          ]
+        }
+      }
+    }
+  ]
+}

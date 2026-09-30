@@ -1,0 +1,17 @@
+
+> tower-game@0.1.0 test:e2e
+> playwright test tests/e2e/inspectionToolkit.spec.ts
+
+[WebServer] (node:52084) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 2 tests using 2 workers
+
+(node:50660) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43216) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [desktop-edge] › tests\e2e\inspectionToolkit.spec.ts:3:1 › inspection keeps qualitative capabilities and collections in both appearances (9.2s)
+  ok 2 [touch-edge] › tests\e2e\inspectionToolkit.spec.ts:3:1 › inspection keeps qualitative capabilities and collections in both appearances (9.4s)
+
+  2 passed (11.9s)

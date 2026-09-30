@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "id": "story_courtyard",
+  "displayName": "Coffee before code courtyard",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/story_courtyard/v01/story_courtyard_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/story_courtyard/v01/build.py",
+    "authoritativeHash": "53004134ab7bd81cd85d2124176ae717680fae947861b49f82ce1f218adbd86f"
+  },
+  "runtime": "assets/runtime/environment/story_courtyard_v01.glb",
+  "budgets": {
+    "triangles": 12000,
+    "meshes": 6,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 64,
+    "bones": 0
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": false,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_stage",
+      "anchor_exit",
+      "anchor_cafe"
+    ],
+    "groundY": -0.235
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "docs/design/Visual_Asset_Guide.md",
+      "provenance": "Original authored friendly low-poly campus and bespoke story prop. No external models or reference images."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/story_courtyard/v01/decisions.md",
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "stone": "#CBBBA3",
+      "paving": "#E6D1AE",
+      "paper": "#E2EDF0",
+      "slate": "#89A4B8",
+      "glass": "#35566B",
+      "teal": "#70B5B4",
+      "wood": "#A77B55",
+      "terra": "#C57857",
+      "leaf": "#69966B",
+      "dark": "#333E48",
+      "gold": "#E8B75C",
+      "cream": "#F2E3C9"
+    }
+  },
+  "texturePalettes": [
+    {
+      "material": "courtyard_palette",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "stone": {
+          "color": "#CBBBA3",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "paving": {
+          "color": "#E6D1AE",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "paper": {
+          "color": "#E2EDF0",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "slate": {
+          "color": "#89A4B8",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "glass": {
+          "color": "#35566B",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "teal": {
+          "color": "#70B5B4",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "wood": {
+          "color": "#A77B55",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "terra": {
+          "color": "#C57857",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "leaf": {
+          "color": "#69966B",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "dark": {
+          "color": "#333E48",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        },
+        "gold": {
+          "color": "#E8B75C",
+          "rect": [
+            40,
+            0,
+            4,
+            4
+          ]
+        },
+        "cream": {
+          "color": "#F2E3C9",
+          "rect": [
+            44,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  }
+}

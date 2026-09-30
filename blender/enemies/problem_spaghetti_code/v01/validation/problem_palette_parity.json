@@ -1,0 +1,15 @@
+{
+  "id": "problem_spaghetti_code",
+  "revision": 12,
+  "sha256": "4d6eae17c8a59c916f616666d34ea6a10e19ad9c74ca54cc2264be91edbf1a04",
+  "uniqueBaseColors": 5,
+  "parity": {
+    "passed": true,
+    "vertices": 4828,
+    "meshes": 1,
+    "materials": 1,
+    "oldBytes": 297240,
+    "newBytes": 297420,
+    "checks": "Exact exported topology, positions, normals, skinning, old UV channels, morph targets, rig, anchors, clips, and material/emission parity; base-colour storage only."
+  }
+}

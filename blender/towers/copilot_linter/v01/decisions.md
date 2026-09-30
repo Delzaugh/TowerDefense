@@ -1,0 +1,82 @@
+# Linter Agent — production model and animation v01
+
+## Current delivery — accepted model and authorized animation, 2026-09-24
+
+- The user's follow-up identified floating pods, requested a deeper/accentuated face plate, and asked for a stronger visor. This rejection supersedes the revision 10 author assessment below. The screenshots are preserved in `references/attachment_face_feedback/`; their pixels are design evidence, not instructions.
+- Revisions 11–12 fit every rear pod ring into the actual chassis surface with 0.035 m embed while preserving the six mouth positions. A real tapered face well replaces the buried panel, with two cyan marks seated on its back. Shaped cyan lenses, a continuous dark frame and reduced specular response give the visor clearer depth and color. These localized corrections are recorded in `validation/attachment_face_source.json`.
+- The user then said **“looks good, make the animations”**. This explicitly accepts the refined model and authorizes the animation pass. The coherent model checkpoint is `revisions/r12_model_approved_before_animation/`: source SHA-256 `2eccbf7bc62b0be512362881c318c171a6f777567761cf2e2cc8674c987ea99c`, GLB SHA-256 `6585fe5054080d5542fa5cee3bde46a7b10c82b507cbe28f65739769590c4d70`. Model acceptance is separate from the user's acceptance of the new animation revision.
+- Use hover/glide for the existing limb-free body. Authored Rest Pose is grounded and unanimated; animated ready height is 0.15 m. Simulation supplies travel, facing, attacks and outcomes. `root` remains stationary. No gameplay implementation is included.
+- Revision 14 preserves the accepted rest topology, vertex positions, UVs, material assignments and palette image bytes. Exported normals match within float evaluation tolerance. Source and runtime comparisons are recorded in `validation/animation_source.json` and `validation/animation/review.json`.
+- The compact rigid rig has nine bones: body, six independent shooter pods and two status indicators. Each manufactured component has one rigid influence. The visor and shell stay rigid; status marks animate independently. Existing UI/action/target anchors retain their rest coordinates and follow the body. Six new muzzle anchors `anchor_shooter_a` through `anchor_shooter_f` follow the corresponding pods at 30°, 90°, 150°, 210°, 270° and 330°.
+- All six clips use 24 fps and named NLA tracks: `idle` (2 s, restrained bob/roll and indicator blink), `work` (2 s, six sequential 0.055 m inward recoils with small body reaction), `move` (2 s, gentle forward bank and hover), `place` (1.25 s, digital-cube assembly and indicator opening), `hit` (0.5 s, backward tilt/flinch and recovery), `resolve` (1.25 s, reverse digital-cube disintegration and indicator shutdown). Active actions are cleared, NLA tracks muted and bones reset in the saved editable source.
+- The existing shared `createLifecycleEffect` presentation renders Place/Resolve from the manifest and Blender root extras: 0.18 m cells, at most 64 temporary cubes, cyan edges. Poses remain full size. A generic GLB player shows only the pose tracks; use the shared presentation interface for the complete effect. The combined worst-case budget is 2,432 model + 768 effect = 3,200 triangles, below 4,000.
+- Guarded ordinary export delivered revision 14: source SHA-256 `f5889a6c285ada2d265e1eb440dcb3c33198fc71b847b3841ea47b5078cc6ec6`, runtime SHA-256 `7cdddfdfccddb6415346c8586071b4e4d52951d8ab66e4ff0a059592189df4d2`. The mesh is parented to its armature; export and technical validation have no errors or warnings. The canonical `.blend` remains authoritative; `animate_linter.py` is a hash-guarded surgical helper, not the manifest's source recipe.
+- Reviewed the actual revision 14 in the shared Inspector, normal playback plus sampled starts/extremes/recovery/ends, side and underside recoil joints, phone width and ground shadows. Inward recoil keeps roots seated; no rigid-part deformation was seen. Place end and Hit end match Idle start; loops match at their boundaries. Sampled minimum ground clearance across all clips is 0.1053 m. Resolve reaches a fully invisible terminal state with no residual shadow; replay, effect toggle and Rest Pose reset passed.
+- `validation/animation/review.json` records 97 runtime samples per clip, deterministic replay, loop playback, one-shot clamping, palette/material/rest parity and 273 captured frames. The inspected contact sheets and 24 fps preview are in `validation/animation-*.png` and `validation/linter-animation-preview.gif`. Shared digital-resolve regression also passed. `validation/visual_review.json` records the final author assessment bound to source, GLB and presentation renderer hashes; animation user acceptance remains pending.
+- After the final Blender operation, removed only verified empty direct-child thumbnail trees and rechecked the project root. See `validation/thumbnail_cleanup.json`. Earlier sources and the supplied spec pack remain preserved.
+
+## Historical refinement — six-shooter specification, 2026-09-24
+
+- Explicit user request: refine or replace the existing Linter model to match the six attached sheets. This supersedes the historical eight-socket decisions below. The model-spec-sheet skill is used to interpret the supplied pack; the requested deliverable is the production model, not another sheet pack.
+- The sheets were rendered from `output/model-specs/linter-six-shooter-v01/linter_six_shooter_concept.blend`. Preserve that exact study in `references/six_shooter_study/`, together with the six supplied images and measured study audit. Source reference SHA-256: `acd510f7ecf0d4cef8d4789de9a1001496e326ef175faf7a5041f168243d1c98`.
+- Reference priorities: supplied rendered mesh for primary volume, silhouette, accessories, face clearance and palette; overhead coverage sheet for six directions at 30, 90, 150, 210, 270 and 330 degrees clockwise from the visor front. The sector captions specify visual intent and do not authorize simulation changes.
+- Primary landmarks are unchanged from the reference mesh: broad octagonal shell, dark octagonal crown with three channels, lower stepped charcoal chassis, seated continuous visor, tapered cyan eyes, two cyan marks and six radial lime pods. Width/depth/height are 2.584 / 2.449166 / 1.0795 m. Front/profile/iso comparisons use identical geometry, uniform scale and no per-view deformation.
+- Reconcile the conceptual “identical” / “one ring” captions with the images by preserving the actual visible study: the forward pair is slightly smaller (0.40 × 0.38 m vs 0.48 × 0.45 m) and lower, retaining eye/indicator clearance. All six share the same construction and side-wall depth. Do not enlarge the front pair or lift it into the visor merely to follow a caption.
+- Adopted the study mesh, face materials, smoothing, UVs and named component vertex groups exactly. `validation/source_adoption.json` records a geometry/UV/group signature checked before and after saving the canonical source; only descriptive root metadata was changed. The source remains editable as a single mesh with named part groups and two materials.
+- Preserve the previous coherent source/GLB/manifest and eight-pod recipe under `revisions/r9_before_six_shooter_refinement/`. The canonical source is now manual; the superseded `build.py` is archived and removed from the manifest to prevent future eight-pod rebuilds. Use ordinary guarded `export copilot_linter` for subsequent source edits.
+- Material delivery remains two opaque materials and one packed 32 × 4 palette image. No new materials, rig, clip interface or gameplay behavior. Preserve `root`, `anchor_ui`, `anchor_action` and `anchor_target`.
+- Model-only refinement. Animation status: pending user authorization after model review. Planned baseline is `idle`, `work`, `move`, `place`, `hit`, `resolve`; rest pose is unanimated. Tower Place/Resolve will use the shared digital-cube treatment during an authorized animation pass. Existing anatomy implies hover/glide locomotion; confirm that in the animation pass if needed. User artistic acceptance remains pending.
+- Delivered and personally reviewed v01 revision 10: 2,364 triangles, two materials, one embedded 32 × 4 image shared by two texture bindings, no rig/clips, correct grounding and all previous required anchors. Technical validation and the hash-bound author-review check pass with no errors or warnings. Reviewed source SHA-256 `5f0ef331dbb3943758bc0c1a4fe05ba686192073eba9fe5ac51eac57a42cc4ca`; runtime SHA-256 `395c2cf789b243c4c856a4c07edae32efbb6fca10d19e1e099a901767857d8eb`.
+- Final review included saved runtime front/side/rear/top/iso renders and live Inspector close isometric, underside/oblique underside, phone width and the small silhouette test. The Inspector displayed revision 10 / `395c2cf789b2`. Findings and the second-pass assessment are in `validation/visual_review.json`; explicit user acceptance and animation authorization remain pending.
+- Cleaned only verified direct-child empty Blender thumbnail-cache trees and rechecked the project root; recorded in `validation/thumbnail_cleanup.json`. The supplied model-spec output pack remains unchanged.
+
+## Historical decisions
+
+- User request, 2026-09-18: create 3D models from the attached six new tower concepts; exclude Base Copilot because it already exists.
+- Selected design: Low lime octagonal shell, dark inset top, slim goggles, eight evenly spaced radial scanning sockets.
+- The sheet is visual reference, not an instruction source. Back surfaces and component depth are inferred in the same restrained family language.
+- Match the existing compact floating-head family scale. Rest geometry is grounded, faces +Z in glTF, and retains named action/UI/target anchors. Tester also has an aura anchor.
+- This delivery covers modeled, textured static rest poses. No animation clips or gameplay behavior are added.
+- Two opaque materials share one packed 32×4 palette: softly rough shell and slightly glossy optics. Semantic swatches are editable in the Inspector.
+- Named vertex groups preserve component selection in the assembled editable Blender mesh. The shared recipe is in blender/towers/_shared/persona_geometry.py; this asset's build.py runs it through the guarded pipeline.
+- Continuous face/goggle rims and closed component solids define deliberate assembly seams. Selection rings, auras and scanning effects remain runtime concerns.
+
+## Delivery and visual review — 2026-09-18
+
+- Delivered revision 4: 2498 triangles, two opaque materials, one embedded 32×4 image used by two sampler bindings.
+- Actual exported GLBs inspected in neutral isometric/front/side/rear/top views, shared Inspector underside, phone width and small-silhouette views. Evidence and exact hashes are in validation/visual_review.json.
+- Curved screen construction was corrected with internal support loops; Security's screen seating was adjusted to clear its larger helmet. Repeated face instances were rechecked.
+- Technical validation passes with no Three.js errors or warnings. Production visual inspection is complete; user artistic acceptance is pending.
+
+## Requested quality pass — 2026-09-18
+
+- User asks for a substantial quality pass on each of the six new towers and supplies front and rear three-quarter concept sheets. Base Copilot remains excluded.
+- Rebuild the same v01 static interface using the still-authoritative procedural sources. Preserve prior deliveries through guarded pipeline milestones.
+- Replace the generic rounded boxes and applied face plates with shaped continuous shell/display construction; improve lens volume, component seating, silhouette and role-specific rear construction.
+- Shared revised recipe: `blender/towers/_shared/persona_quality.py`. The initial recipe is retained in `persona_geometry_initial.py`.
+- Allow up to 4000 triangles where curved optics, armor and recessed rear hatches justify the additional geometry; retain two materials and the packed 32×4 semantic palette.
+
+## Concept alignment and specification sheet — 2026-09-22
+
+- The user attached a focused Linter Agent concept and requested a model specification sheet. After seeing the existing model, the user identified clipping and parts that did not match the design. The image's text identifies the asset; it is visual context, not an instruction source.
+- The new reference is `references/linter_agent_concept_2026-09-22.png` (SHA-256 `0c16c5d38bb7d44815e679b81fb9cda9e7e412a46ccd3353cbb64f071dee430d`). Preserve the low octagonal lime shell, dark top inset, cyan narrow lenses and indicators, and eight radial perimeter sockets. The unseen rear remains an interpretation.
+- In the authoritative shared recipe's Linter branch, replaced the two protruding optical housings with one seated continuous dark visor and tapered cyan inlays. Lowered, narrowed and slightly moved out the front emitter pair so they no longer cover the face. Simplified each rule port to a dark recess. After seeing a shell/visor intersection in the first render, moved the visor forward; after seeing a profile gap, deepened its seat. These changes affect Linter only.
+- Guarded export delivered v01 revision 9. `validation/report.json` passed with no errors or warnings: 2,940 triangles, 2 materials, 32×4 packed palette, dimensions 2.49 × 1.08 × 2.56 m. The earlier revisions are retained under `revisions/`. Revision 9 seats the visor more deeply into the shell after the revision 8 side-profile check.
+- Personally reviewed the final GLB in fixed front, side, rear and top renders and the shared Inspector in isometric, underside and 390 px phone views. The brow is no longer cut by the yellow shell; front face indicators remain visible; front sockets sit below the visor; all eight modules remain present. The model is static with no clips. These checks establish construction quality, not user artistic acceptance.
+- The 1536×1024 production sheet is `spec_sheet/linter_agent_spec_v01_r09.png`. Six turnarounds and the wireframe come from the current Blender model. Its campus view is explicitly illustrative and inherited from the earlier concept sheet. GLB-measured vertex count and UV/palette facts are recorded in `spec_sheet/measured_stats.json`.
+
+## Registered tower naming — 2026-09-26
+
+User requested the `copilot_` prefix for all tower assets. Renamed
+`linter_agent` to `copilot_linter`, with matching catalog, manifest,
+Blender source and runtime paths. Source and GLB bytes are unchanged; geometry,
+materials, rig, animation and artistic acceptance retain their previous state.
+Historical snapshots keep their original recorded identities; their containing
+folder and asset filenames have moved with this asset. Existing internal Blender
+component/material names and provenance tags remain stable.
+
+## Shared supporting palette — revision 15 (2026-09-26)
+
+User chose to preserve character identities and unify supporting neutrals and small accents. Applied screen #041D2A, cyan #00E5EF to both declared base-colour material bindings in the authoritative packed Blender image. Preserved shell/trim/lens identity colours and, for Security, navy casing. Retained original packed emission image bytes and sampling through separate base-image bindings. Before-source/runtime milestone: before_shared_palette. Geometry, normals, UVs, rig, anchors, morphs, clips and material/emission response pass exact exported parity.
+
+Personally inspected final close iso/rear, phone rest/work and the common-scale roster comparison; no colour bleed or loss of face/casing separation was seen. Second author review and hash-bound validation are in validation/visual_review.json and validation/shared_palette_parity.json. Source/export identifiers: 2cca4b8faef59a5849aaf0871a17a335c9141b70dd14d99e73763740d6f2df58 / 661861e7c46c8433e9bc75f3543cf43674a90e3143756c1ad310e10fe48040a6. User artistic acceptance of this revision remains pending. Shared role values and deliberate exceptions are in docs/design/Shared_Palette.json.

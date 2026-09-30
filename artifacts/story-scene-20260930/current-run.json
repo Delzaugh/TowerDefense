@@ -1,0 +1,167 @@
+{
+  "capturedAt": "2026-09-30T16:43:26.6331259+02:00",
+  "run": "Final isolated production build at port5187, one worker",
+  "command": "npm exec playwright test -- --config=test-results/story.playwright.config.ts tests/e2e/story.spec.ts --workers=1",
+  "build": "game/test-results/story-build",
+  "results": {
+    "failed": 0,
+    "skipped": 1,
+    "skipReason": "Full48s motion runs only on desktop; mobile covered by four focused interaction/layout tests",
+    "passed": 9
+  },
+  "timelineSeconds": 48,
+  "observedRemainingWallSeconds": 47.97149999999404,
+  "observedPresentationIntervals": {
+    "count": 1427,
+    "meanMs": 33.61289418360208,
+    "p95Ms": 33.599999999998545,
+    "maximumMs": 41.69999999999709
+  },
+  "measurement": "Browser requestAnimationFrame observer samples changes in renderer-owned story time. Intervals are observed presentation update cadence, not GPU timing or a physical-device benchmark. The observer starts just after story readiness and sound activation.",
+  "renderMetrics": {
+    "timestamp": 1418.8,
+    "calls": 25,
+    "triangles": 12497,
+    "geometries": 21,
+    "textures": 25,
+    "pixelRatio": 1,
+    "state": {
+      "time": 0.03333600000000001,
+      "paused": false,
+      "reducedMotion": false,
+      "finished": false,
+      "shot": "Coffee before code",
+      "actors": [
+        {
+          "role": "copilot",
+          "visible": true,
+          "clip": "idle",
+          "position": [
+            -1.5,
+            0,
+            0
+          ]
+        },
+        {
+          "role": "octocat",
+          "visible": true,
+          "clip": "idle",
+          "position": [
+            1.4,
+            0,
+            0
+          ]
+        },
+        {
+          "role": "bug-left",
+          "visible": false,
+          "clip": "rest",
+          "position": [
+            6.6,
+            0,
+            -3.5
+          ]
+        },
+        {
+          "role": "bug-right",
+          "visible": false,
+          "clip": "rest",
+          "position": [
+            7.3,
+            0,
+            3
+          ]
+        }
+      ],
+      "capture": false,
+      "ready": true,
+      "shadowSize": 1024,
+      "assets": [
+        "copilot_base@v02",
+        "copilot_octocat_classic_lowpoly@v01",
+        "problem_bug@v01",
+        "campus_tile_plaza@v01",
+        "campus_planter_bench@v01",
+        "campus_tree_round@v01",
+        "campus_coffee_kiosk@v01",
+        "campus_path_bollard@v01"
+      ]
+    }
+  },
+  "buildFiles": [
+    {
+      "sha256": "0A0D13C332214C7DF07F04FD6C1F28109899586F08ED6FBD7F0431C24472EF0F",
+      "name": "createStoryScene-DXQUJhJt.js"
+    },
+    {
+      "sha256": "E2D1E9225828BD64E1BFC8D489DA8F8F5E0AB70BE0F1E4565AD78703030E498C",
+      "name": "HomeScreen-CgcyA8UY.css"
+    },
+    {
+      "sha256": "21F1272C1742EE8B5CB20CAA4084A8E3481139EEECDD2C56679297C382BF0C0C",
+      "name": "HomeScreen-DnTy02oC.js"
+    }
+  ],
+  "artifactFiles": [
+    {
+      "sha256": "B6544C2F55FFD341B35660CC96605B88ED7BC91DA38985EC0E7D5C36D74FE8D5",
+      "bytes": 453886,
+      "name": "story-capture-desktop.png"
+    },
+    {
+      "sha256": "69AF5B0E720A82EFC686005DD2C54E593F9F35C6441D06CDAB4BC239D06C4BDC",
+      "bytes": 1008345,
+      "name": "story-capture-phone.png"
+    },
+    {
+      "sha256": "CC5B50DBBFD1A7CA936BA415A2DB654A35F7C93DBE8876F5087D7D41F6625846",
+      "bytes": 455699,
+      "name": "story-desktop.png"
+    },
+    {
+      "sha256": "5FE326443A2E73EA1FCE6D5E328108D201917CD17D108EC89E2EC7280B686D73",
+      "bytes": 405775,
+      "name": "story-motion-20s.png"
+    },
+    {
+      "sha256": "D7E4F77459421D661269E89C8D9D628182D4B43FBF8E39861B6C49E3C45E710A",
+      "bytes": 451919,
+      "name": "story-motion-31s.png"
+    },
+    {
+      "sha256": "C5E6AA4B9411C3843365223E404A1BFE97261C62F3170BAC8BAB2B6C012166A1",
+      "bytes": 461043,
+      "name": "story-motion-37s.png"
+    },
+    {
+      "sha256": "4F8C8E78910196FD19971BF8D5A6E2EA7C31D9E41A31774205AB5F61DA31B876",
+      "bytes": 440595,
+      "name": "story-motion-43s.png"
+    },
+    {
+      "sha256": "5BEBF38C96BEC89C595175A8390FBDBB5E6EE7057E6BD199E3B7D6E11E57F8DA",
+      "bytes": 453314,
+      "name": "story-motion-8s.png"
+    },
+    {
+      "sha256": "4E5A6B9328EA987E165A519165F63C6770B7F884B7201FECADD0B272B4EE41FC",
+      "bytes": 111545,
+      "name": "story-motion-metrics.json"
+    },
+    {
+      "sha256": "F3EC2B5A979FB9F3A343C78717BE1027C7FC81D943237FCAFCCBEE4FD2BA583A",
+      "bytes": 784632,
+      "name": "story-phone-landscape.png"
+    },
+    {
+      "sha256": "F197A88408A93443174E32497957208539E9252E3091946DABB3647ACFFC3CDD",
+      "bytes": 957470,
+      "name": "story-phone.png"
+    },
+    {
+      "sha256": "92F6B556CA6FCF45CEC8E70A7251B3A109A3F0D35867801F663B78E94A3F7097",
+      "bytes": 6087736,
+      "name": "video.webm"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+import fs from 'node:fs/promises';
+import crypto from 'node:crypto';
+const folder='blender/towers/copilot_octocat_2_0_lowpoly/v01';
+const high=JSON.parse(await fs.readFile('blender/towers/copilot_octocat_2_0/v01/asset.json'));
+if(high.revision!==8)throw Error('Expected UV-corrected high-resolution revision 8');
+const data=await fs.readFile(high.source.path);
+if(crypto.createHash('sha256').update(data).digest('hex')!==high.delivery.sourceHash)throw Error('High source changed');
+const path=folder+'/references/octocat_2_0_uv_corrected_r8.blend';
+await fs.writeFile(path,data);
+let recipe=await fs.readFile(folder+'/build.py','utf8');
+recipe=recipe.replace('Pinned Octocat 2.0 r7,','Pinned UV-corrected Octocat 2.0 r8,').replace("INPUT=FOLDER/'references/octocat_2_0_r7.blend'","INPUT=FOLDER/'references/octocat_2_0_uv_corrected_r8.blend'").replace("EXPECTED='992e17a5267f099c730892bf50e7ecb616515f9bcfe9a8d47bc7faf87b2e1d6e'",`EXPECTED='${high.delivery.sourceHash}'`).replace("root['derived_from_revision']=7","root['derived_from_revision']=8");
+await fs.writeFile(folder+'/build.py',recipe);
+const m=JSON.parse(await fs.readFile(folder+'/asset.json'));
+if(!m.references.some(r=>r.path===path))m.references.push({path,provenance:'User-requested face UV repair shared from high-resolution revision 8. Pinned input hash '+high.delivery.sourceHash});
+await fs.writeFile(folder+'/asset.json',JSON.stringify(m,null,2)+'\n');
+console.log(JSON.stringify({pinnedRevision:high.revision,sourceHash:high.delivery.sourceHash}));

@@ -1,0 +1,51 @@
+{
+  "asset": "campus_construction_decor",
+  "sha256": "498ba214264fc1420daa3b91ae57f3d371b8796b41c3497ac5d230f87260ab4c",
+  "minimumPerimeterClearance": 2.6420748760734822,
+  "requiredPerimeterClearance": 1.4,
+  "clearanceZones": [
+    {
+      "name": "promenade",
+      "x": [
+        2.2,
+        5.8
+      ],
+      "z": [
+        -15.588457268,
+        6.3
+      ]
+    },
+    {
+      "name": "landing",
+      "x": [
+        1.6,
+        6.4
+      ],
+      "z": [
+        2.6,
+        6.3
+      ]
+    }
+  ],
+  "collisions": [],
+  "placement": {
+    "tile": [
+      0,
+      0,
+      62.353829072
+    ],
+    "decor": [
+      0,
+      1.2,
+      62.353829072
+    ],
+    "rotation": 0
+  },
+  "surfaceHeights": {
+    "terrain": 1.2,
+    "mainFoundationLocalTop": 0.18,
+    "officeFoundationLocalTop": 0.24,
+    "craneFoundationLocalTop": 0.46
+  },
+  "passed": true
+}

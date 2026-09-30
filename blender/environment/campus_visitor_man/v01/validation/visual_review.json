@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_visitor_man",
+  "version": "v01",
+  "revision": 6,
+  "sha256": "47ab9215db6beb003621a33bd8d508b2f754d51f60280253bcd3f1020cbc108b",
+  "sourceHash": "69edc96bc3e20ab4f1bae8efe3650d28f507b63a1a209cc6934c1a0cd3a0bfa6",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T11:21:22.6674804Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Reviewed against the supplied color turnaround, shape study and anatomy sheet. Olive open shirt, cream tee to waist, navy straight trousers, two cream laces on terracotta sneakers, warm light skin and swept dark hair preserve the visitor identity. Head/face, hair locks and hands are simplified into broad low-poly forms. Narrowed arms and lowered hands improve the reference proportions; rear hair wraps toward the nape."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Actual GLB inspected in fixed front/side/rear/isometric views and front/oblique upper-body Inspector closeups. Tee no longer intersects jacket or trousers; collar ring has coherent thickness; shoulder spikes removed; buttons/eyes/smile are seated; lace ribbons conform to shoe surfaces. Final underside hair rim closes the temple through-crack verified in the front silhouette. Ground contact is clean and soles align."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Viewed final Inspector phone-width gameplay lighting and small-silhouette test. Cream central opening, olive torso, dark separated trouser legs and terracotta shoes remain distinct. Friendly human silhouette reads from elevated view; face details intentionally become secondary at background scale. Inspector loaded the exact delivery hash and exposed 16 palette roles with no browser errors."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After independent Sol reviews and source repairs, rechecked final export oblique face/collar, side profile, rear hair, cream tee hem, two seated lace marks per shoe and phone-scale readability. Final surgical hair rim removed the small silhouette hole without changing the facial outline. No remaining scoped construction defect found. Earlier rejected iterations are documented in decisions.md and milestones."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/iso.png",
+      "sha256": "c1410f0f8429ccd123ea8025d1f7f225ef4e3b556c16c6e970710684d0512df7",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/front-silhouette.png",
+      "sha256": "b78a37ae762dfb3aa06b32585dc3968972b0100d68081dc236fa01bbe992f674",
+      "view": "front",
+      "mode": "silhouette"
+    },
+    {
+      "view": "left",
+      "path": "blender/environment/campus_visitor_man/v01/validation/inspector/left.png",
+      "sha256": "04ebcd16e4256c902d7a5d148afbe19decf2ed22c604eaa424af49577422a67d"
+    },
+    {
+      "view": "rear",
+      "path": "blender/environment/campus_visitor_man/v01/validation/inspector/rear.png",
+      "sha256": "5e159b034c89e1decf08eafa1dd19abc50055bd35015fa45f02e4b251332c8c2"
+    },
+    {
+      "view": "front-upper-detail",
+      "path": "blender/environment/campus_visitor_man/v01/validation/inspector/front-upper-detail.png",
+      "sha256": "82beffea447f5b699ef9d22f2edf2a778ec1356d25b4852c35d451cc21f742e2"
+    },
+    {
+      "view": "iso-upper-detail",
+      "path": "blender/environment/campus_visitor_man/v01/validation/inspector/iso-upper-detail.png",
+      "sha256": "2fae3e243b45b271a501a6d9ba12324e9a20ae21e88a2b63d86b141c5aec856a"
+    },
+    {
+      "view": "phone-gameplay",
+      "path": "blender/environment/campus_visitor_man/v01/validation/inspector/phone-gameplay.png",
+      "sha256": "7711a9205c4663575a2ff60b792404866f6b3daccb23ede46851147893255291"
+    },
+    {
+      "view": "small-silhouette",
+      "path": "blender/environment/campus_visitor_man/v01/validation/inspector/small-silhouette.png",
+      "sha256": "265cd806bb7d20e1cb986a4b3c16f79510260f6a6554af73e228026fecfb7906"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Pending user review of the new environment character; author and independent reviews are not user acceptance."
+  },
+  "limitations": [
+    "Static model only: no rig or animation clips.",
+    "Deliberately simplified faceted hair and mitten-like hands; conceptual reference fidelity rather than a pixel-identical reconstruction."
+  ]
+}

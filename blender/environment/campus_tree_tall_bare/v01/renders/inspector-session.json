@@ -1,0 +1,79 @@
+{
+  "sha256": "9e29cd96c2c63be4ab88d84a680275ccd0eb4cfc9a2a634d6be39cfa0c0651f9",
+  "revision": 2,
+  "capturedAt": "2026-09-24T11:14:59.480Z",
+  "state": {
+    "resolveBudget": {
+      "used": 0,
+      "maxFragments": 256
+    },
+    "resolveEffects": [
+      {
+        "path": "environment/campus_tree_tall_bare_v01.glb"
+      }
+    ],
+    "loading": false,
+    "activePath": "environment/campus_tree_tall_bare_v01.glb",
+    "view": "iso",
+    "projection": "OrthographicCamera",
+    "distance": 13.813073279776528,
+    "target": [
+      0,
+      2.21999983549118,
+      0
+    ],
+    "camera": [
+      7.166577329384745,
+      9.331230266871085,
+      9.427171610098188
+    ],
+    "effects": [
+      {
+        "path": "environment/campus_tree_tall_bare_v01.glb",
+        "enabled": false,
+        "triangles": 0,
+        "meshes": 0,
+        "materials": 0
+      }
+    ],
+    "entries": [
+      {
+        "path": "environment/campus_tree_tall_bare_v01.glb",
+        "revision": "9e29cd96c2c63be4ab88d84a680275ccd0eb4cfc9a2a634d6be39cfa0c0651f9",
+        "triangles": 48,
+        "meshes": 1,
+        "materials": 1,
+        "bounds": [
+          [
+            -0.787093997001648,
+            9.059905892172537e-8,
+            -0.7485631704330444
+          ],
+          [
+            0.787093997001648,
+            4.439999580383301,
+            0.7485631704330444
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [],
+        "clip": null,
+        "time": 0,
+        "playing": false,
+        "loop": true,
+        "speed": 1,
+        "pose": []
+      }
+    ]
+  },
+  "errors": []
+}

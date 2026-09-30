@@ -1,0 +1,73 @@
+{
+  "resolveBudget": {
+    "used": 0,
+    "maxFragments": 256
+  },
+  "resolveEffects": [
+    {
+      "path": "environment/campus_construction_decor_v01.glb"
+    }
+  ],
+  "loading": false,
+  "activePath": "environment/campus_construction_decor_v01.glb",
+  "view": "iso",
+  "projection": "OrthographicCamera",
+  "distance": 38.344087971931174,
+  "target": [
+    0.6499996185302734,
+    5.414999961853027,
+    -0.4849996566772461
+  ],
+  "camera": [
+    20.543897667844174,
+    25.15525904298899,
+    25.684143894695058
+  ],
+  "effects": [
+    {
+      "path": "environment/campus_construction_decor_v01.glb",
+      "enabled": false,
+      "triangles": 0,
+      "meshes": 0,
+      "materials": 0
+    }
+  ],
+  "entries": [
+    {
+      "path": "environment/campus_construction_decor_v01.glb",
+      "revision": "498ba214264fc1420daa3b91ae57f3d371b8796b41c3497ac5d230f87260ab4c",
+      "triangles": 2704,
+      "meshes": 1,
+      "materials": 1,
+      "bounds": [
+        [
+          -10.200000762939453,
+          0,
+          -10.719999313354492
+        ],
+        [
+          11.5,
+          10.829999923706055,
+          9.75
+        ]
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ],
+      "wrapper": [
+        0,
+        0,
+        0
+      ],
+      "clips": [],
+      "clip": null,
+      "time": 0,
+      "playing": false,
+      "loop": true,
+      "speed": 1,
+      "pose": []
+    }
+  ]
+}

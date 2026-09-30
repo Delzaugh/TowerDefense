@@ -1,0 +1,152 @@
+{
+  "resolveBudget": {
+    "used": 0,
+    "maxFragments": 256
+  },
+  "resolveEffects": [
+    {
+      "path": "towers/copilot_mona_v01.glb"
+    },
+    {
+      "path": "towers/copilot_octocat_classic_lowpoly_v01.glb"
+    }
+  ],
+  "loading": false,
+  "activePath": "towers/copilot_octocat_classic_lowpoly_v01.glb",
+  "view": "iso",
+  "projection": "OrthographicCamera",
+  "distance": 5.176729260323392,
+  "target": [
+    0,
+    0.9001449926263376,
+    -0.030949994921684265
+  ],
+  "camera": [
+    2.6858201506621184,
+    3.5652227711481976,
+    3.502073694132024
+  ],
+  "effects": [
+    {
+      "path": "towers/copilot_mona_v01.glb",
+      "enabled": false,
+      "triangles": 0,
+      "meshes": 0,
+      "materials": 0
+    },
+    {
+      "path": "towers/copilot_octocat_classic_lowpoly_v01.glb",
+      "enabled": false,
+      "triangles": 0,
+      "meshes": 0,
+      "materials": 0
+    }
+  ],
+  "entries": [
+    {
+      "path": "towers/copilot_mona_v01.glb",
+      "revision": "35dd9185c7ff75ed0cf95dee11f6e4435d5e3cb119762d4789faecaa20b69fdd",
+      "triangles": 3506,
+      "meshes": 15,
+      "materials": 2,
+      "bounds": [
+        [
+          -0.9181303977966309,
+          -3.2650859793648124e-9,
+          -0.47267988324165344
+        ],
+        [
+          0.9180521368980408,
+          1.8002899885177612,
+          0.4107798933982849
+        ]
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ],
+      "wrapper": [
+        -1.3180521368980407,
+        0,
+        0
+      ],
+      "clips": [],
+      "clip": null,
+      "time": 0,
+      "playing": false,
+      "loop": true,
+      "speed": 1,
+      "pose": []
+    },
+    {
+      "path": "towers/copilot_octocat_classic_lowpoly_v01.glb",
+      "revision": "43e0de013f4514d1be50cc6eba647f4f332a81e57b9035979e7a9b942c0aae53",
+      "triangles": 3490,
+      "meshes": 13,
+      "materials": 2,
+      "bounds": [
+        [
+          -0.9181303977966309,
+          -3.2650859793648124e-9,
+          -0.47267988324165344
+        ],
+        [
+          0.9180521368980408,
+          1.8002899885177612,
+          0.4107798933982849
+        ]
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ],
+      "wrapper": [
+        1.3181303977966308,
+        0,
+        0
+      ],
+      "clips": [
+        {
+          "name": "idle",
+          "duration": 2.5
+        },
+        {
+          "name": "move",
+          "duration": 1.3333333730697632
+        },
+        {
+          "name": "wave",
+          "duration": 2.5
+        },
+        {
+          "name": "celebrate",
+          "duration": 2
+        },
+        {
+          "name": "story_talk",
+          "duration": 3
+        },
+        {
+          "name": "story_startle",
+          "duration": 1.5
+        },
+        {
+          "name": "story_struggle",
+          "duration": 2
+        },
+        {
+          "name": "story_reach",
+          "duration": 2
+        }
+      ],
+      "clip": null,
+      "time": 0,
+      "playing": false,
+      "loop": true,
+      "speed": 1,
+      "pose": []
+    }
+  ]
+}

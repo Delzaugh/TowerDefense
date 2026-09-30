@@ -1,0 +1,37 @@
+{
+  "asset": "campus_forest_dense",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "648f16cc7a29eb9a00ae971a0de3a1e5dc35098a0e8c2fcf1f1fbebbb7bcf20a",
+  "checkedAt": "2026-09-24T11:14:27.374Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1068,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    9.010334968566895,
+    4.795199899101258,
+    9.146356105804443
+  ],
+  "bounds": [
+    [
+      -4.578467845916748,
+      -2.803802523487775e-8,
+      -4.5741190910339355
+    ],
+    [
+      4.4318671226501465,
+      4.795199871063232,
+      4.572237014770508
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "c0023a74a00520188cef77682fdf0ed8da7ad1dc5525f60b99848feeb9454801",
+  "source": "blender/environment/campus_forest_dense/v01/campus_forest_dense_v01.blend",
+  "runtime": "assets/runtime/environment/campus_forest_dense_v01.glb"
+}

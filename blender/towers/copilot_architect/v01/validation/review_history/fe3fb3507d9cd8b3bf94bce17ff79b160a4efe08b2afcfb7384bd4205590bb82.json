@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_architect",
+  "version": "v01",
+  "revision": 27,
+  "sha256": "a979da5360075d4ef334b3ea3a97c99da5f0fd08ca0fe93eaf301e0ed5400217",
+  "sourceHash": "087243d975631778ed21dc796df95099a6a5a83cc8b2d819987417b57e62db6e",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-27T00:29:42.296030+00:00",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Latest user rejects r23 as too round and asks for creative tower-defense copilot. Developed C Weaver from three generated concepts. Supersedes Pavilion, desk/fins and rounded-pod silhouettes. Deep angular face pod, folded keel and open brackets replace the monolithic body. Actual application/service/database volumes form the main tool assembly. r24 primary form was inspected in front, side and isometric before details. Generated concept is a direction, not an exact turnaround or user-approved target."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Final r27 actual runtime inspected close, left/right, rear and underside. Head has 1.54m depth; changing-section keel has 2.17m depth; staggered brackets span 1.35m and 1.57m in depth. Added recessed head collar; face rim has continuous shared boundaries and eyes follow actual screen triangles. Rear spine, orange keel inset and shoulder keys are fitted to source facets. No visible floating trim or exposed accidental gaps in inspected views. 3098 triangles, two meshes/materials, one packed palette; source audit has zero degenerate triangles."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Final front and side black masks inspected. Open bracket spaces, wide tilted face, narrow neck and folded lower body give a distinct silhouette. Phone and small previews retain face, orange app and two linked components; service glyph internals reduce at small scale. Game angle partially overlaps body and brackets, while front view confirms intentional negative spaces. Rear is intentionally quiet, with one fitted maintenance strip."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model redesign only. Animation remains deferred during user review; no clips or placeholder motion were added."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After r24 blockout, added head-shell facets, restrained body edge bevels and seated software details. r25 review caught floating orange lower inset and intersecting rear trim: projected them onto actual body facets and added a physical head collar. r26 underside exposed shoulder-key clearance: refitted keys to the bracket surfaces. Final r27 close/underside/left/front/phone and silhouette images were examined. Source audit and runtime validation pass. Existing user Inspector refreshed to r27 / a979da536007 and set to isometric for handoff."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/close_oblique.png",
+      "sha256": "00a48531fd90cf34e22067b5b7050462b003cd7bc96e4ea897450e14fe799830",
+      "view": "close oblique",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/front.png",
+      "sha256": "ec4f3d4b5ef4f15a0ea325759084148d2718bdb4f54895fc73c2831513620ddf",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/left.png",
+      "sha256": "7be685a6f2486c6804087f7e82f2c342f14e62d6c2341166be7336febdcb6e34",
+      "view": "left side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/right.png",
+      "sha256": "07b796d8675627f26376be3488d440383a6b8b9cd220f9db56212b1b1a74844a",
+      "view": "right side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/rear.png",
+      "sha256": "d90f54b4977345e5da9273e241a3943d037403b968228d8c3a0e32c4033c2331",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/bottom.png",
+      "sha256": "5d99477ba1948151e743ff1020a791c32aac98336fd0f59980a76142653e42be",
+      "view": "underside",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/phone.png",
+      "sha256": "add51d0dd55ee18f032c83fb49e2e46d8c4e0c26dee4d3b28765d8e44a59efa9",
+      "view": "phone gameplay",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/small.png",
+      "sha256": "be6200eefe7e0e74ee47b951726a67b6ac5815e14908c0f81fee9d2b17cf82e4",
+      "view": "small gameplay",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/front-silhouette.png",
+      "sha256": "3291ba37c5f93989c3f4faa46199c933253f3893c7af2997a5a5a43c3278e655",
+      "view": "front silhouette",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/side-silhouette.png",
+      "sha256": "1338222095229a05789a2fe59e400e052220db906d3d591daacc55dba0e27f8a",
+      "view": "side silhouette",
+      "mode": "silhouette"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "New creative direction shown for user review. Earlier r23 rejection is preserved; technical and author checks do not imply artistic acceptance."
+  },
+  "limitations": [
+    "No animation or rig in this model-stage delivery; animation remains deferred.",
+    "At small gameplay scale the service glyph internals are secondary; the three dimensional component shapes carry the role.",
+    "The generated exploration is illustrative. This reinterpretation remains subject to user artistic judgment."
+  ]
+}

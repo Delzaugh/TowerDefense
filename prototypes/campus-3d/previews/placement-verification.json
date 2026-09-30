@@ -1,0 +1,17 @@
+{
+  "capturedAt": "2026-09-24T09:26:48.523Z",
+  "results": [
+    {
+      "profile": "desktop",
+      "manualTowers": 65,
+      "totalTowers": 115,
+      "report": "prototypes/campus-3d/previews/stress/2026-09-24T09-26-35-642Z-601e517a/report.json",
+      "correctness": true
+    },
+    {
+      "profile": "phone-emulated",
+      "towerTypes": 7,
+      "passed": true
+    }
+  ]
+}

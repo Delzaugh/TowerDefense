@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_developer",
+  "version": "v01",
+  "revision": 8,
+  "sha256": "e5627fa1339cd99e2ddf471e24e6d992d9684f0ec3f1a158cfaf9dd4446d2711",
+  "sourceHash": "6b8a76f7885fc796f8c27c2d3cc3bc15e1f0690faf12fb803e0fa0878d5f2b3f",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T07:10:34.8874230Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "author reviewed: substantially closer under aligned front/side comparison; illustrated-view interpretation remains an artistic judgment"
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "author reviewed after correcting crown/casing protrusions, cheek seating, temple sockets and vent backing degeneracy"
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "eyes, goggles, temple badge and swept crown remain readable in phone and small previews"
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Reviewed full reconstruction, found casing protrusions and cheek mismatch, corrected source and rechecked exports. Inspected source topology, found collapsed vent-backing bevels, removed them and checked final geometry. Final rear shading and nearby surfaces rechecked after export."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/iso.png",
+      "sha256": "a41281a1d2e37db157cb2d194f09a7d9c2bfe9a56273fd73c750dd93edb15e2c",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/front.png",
+      "sha256": "402e5dccc960b8cd35d61b65ebcb70119fdf74f24a1788f62eb6ce9d76c98f9b",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/front-silhouette.png",
+      "sha256": "b5022717a0f0363cf8e1eced0f11135e7c5a9441416f404ce5c80ffd5a462140",
+      "view": "front",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/side.png",
+      "sha256": "78f12863ad1f1d5871edd7585cbf6cb93e4fca1e981e62e2fb71d20833a244c9",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/side-silhouette.png",
+      "sha256": "a705218d381ef2ac55d26e7f7092ff37a261e2934a954297bee703b486310091",
+      "view": "side",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/rear.png",
+      "sha256": "d00c7ef8d71c8151fe794e36f47a045d453782e24bae10be1f464d8580eb0d67",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/top.png",
+      "sha256": "67fa38c181decbb911fff127bf806d2b6aff047b13a1545b44ca458b95e98bec",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/inspector_close_front_oblique.png",
+      "sha256": "f6c47929372c8fbef2dac4861ee71ceb245d9687d663d288760df0fca3631552",
+      "view": "inspector_close_front_oblique"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/inspector_rear_oblique.png",
+      "sha256": "89942b166900f6f138646ebaf6a1cad8d170bd45d205a67979d90cc35a0f125b",
+      "view": "inspector_rear_oblique"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/inspector_underside.png",
+      "sha256": "b4ed3ffeea2c1153e4361faa569065a06d2bf641fd8aa0ea3404703955a473a4",
+      "view": "inspector_underside"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/inspector_phone.png",
+      "sha256": "54b5e77f967f7e570948771ca650f11568cfbb97095691385d131f064730cabc",
+      "view": "inspector_phone"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/inspector_small.png",
+      "sha256": "3dc8b3773fbdd6599fabb30e552be49bd5258f792d36c6ae59a066126b488e15",
+      "view": "inspector_small"
+    }
+  ],
+  "userAcceptance": {
+    "status": "accepted",
+    "note": "2026-09-24: user responded to revision 8: Much better! Great work, improve the game assets workflow so we have this quality each time."
+  },
+  "limitations": [
+    "Static model, no animation authored.",
+    "References are illustrative and not fully orthographically consistent.",
+    "Silhouette overlap cannot assess internal contours or guarantee artistic acceptance."
+  ],
+  "recordMigratedAt": "2026-09-24T07:30:29.937679+00:00"
+}

@@ -13,3 +13,12 @@ Revision 2; source SHA-256 59ce99d31216e4423614ef773cb14b62d95f87a2d906e7154d97c
 ## Shared-edge seam removal — user request, 2026-09-18
 
 The shared terrain construction no longer uses a distinct top seam-inlay appearance; its flush joining surface now continues the ground material while the structural shell, trim, elevation and anchors remain unchanged.
+
+## Continuous baseplate joins — 2026-09-24
+
+User reported artifacts where baseplates meet. Revision 6 fades terrain grain to the shared ground color across the same 1.4 m quiet band as the mineral foundation, and matches its 0.92 roughness. Palette, interiors, geometry, dimensions and attachment anchors are preserved. Guarded source rebuild and exported isometric/rear plus campus desktop/phone visual checks pass; user artistic acceptance remains pending. Current hashes and evidence are in validation/visual_review.json.
+
+
+## Narrow terrain joins — 2026-09-24
+
+User rejected the broad blue separators. Surface colour now reaches the perimeter through a .54 m muted neutral transition, with a .06 m quiet edge; the outer structural wall and all terrain/connection geometry remain unchanged. Utility has full concrete paving, expansion joints, service bays and flush drains. This supersedes the previous 1.4 m slate surface border. Source-authored packed textures, not runtime tint.

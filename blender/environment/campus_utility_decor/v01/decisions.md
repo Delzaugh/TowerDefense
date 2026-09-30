@@ -1,0 +1,11 @@
+# Utility Yard decor brief and decisions
+
+User direction: coherent service building, power cabinets, cooling fans/tanks, organized pipes and modest maintenance details. Cream structures, teal accents and muted yellow details keep this a friendly campus utility yard. No external image references were supplied; shared campus art guide governs form and material treatment.
+
+Primary form: one dominant west-side substation shell centred (-7.25,-.7), footprint7x8.9m, wall top4.66m. A shallow teal roof fascia and restrained riser create a 5.61m maximum. Opposite the route: twin-fan cooler at(7.3,2.8), three cabinets x5.6/7.6/9.6 at z-2.4, and two tanks x5.85/8.75 at z-5.6. These major rectangular/cylindrical volumes establish the silhouette; doors, vents and rails were fitted afterward.
+
+Construction: closed softly bevelled cream masses, inset panels and mounted fascia. Tank branch pipes meet a low common manifold; rails are restricted to tank maintenance sides. Broad four-blade fans remain static. Palette UVs deliberately replace generated primitive UVs and target an eight-role packed64x8 texture, embedded in GLB. One material at roughness .86, one joined mesh, 3668 triangles. This is an assembled district, so a6000-triangle budget covers its multiple major equipment units.
+
+Placement: local tile-centred root y0; place whole assembly at world(27,1.2,-15.588457268). Bounds x[-11.20,10.80], y[0,5.61], z[-7.07,5.20]; dimension22x5.61x12.27m. Ground remains flat; no tile height changes. Actual exported vertices stay at least2.73886m inside hex edges, leaving the required1.4m band. Full x[-1,3] route shoulders remain clear by at least1.30000m; terminal landing z[-13.02,-9.41] has no decor. Decorative pavement comes from the companion tile; model footings bottom at y0.
+
+Review: iso and close views assess shell/panel seating, fans and pipe/rail connections. Second pass top/side/silhouette and phone views confirmed spacing, grounds and distinctive equipment silhouettes. No construction repair needed after first export. Technical export and hash-bound visual review passed for v01 revision2. User acceptance pending; no animation requested. Parent owns whole-campus composition and global Blender thumbnail-cache cleanup.

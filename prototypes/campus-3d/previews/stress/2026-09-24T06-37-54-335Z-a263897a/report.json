@@ -1,0 +1,1616 @@
+{
+  "schemaVersion": 1,
+  "id": "2026-09-24T06-37-54-209Z",
+  "startedAt": "2026-09-24T06:37:54.209Z",
+  "status": "failed",
+  "configuration": {
+    "plan": [
+      {
+        "name": "baseline",
+        "towers": 0,
+        "movers": 0
+      },
+      {
+        "name": "standard",
+        "towers": 25,
+        "movers": 100
+      },
+      {
+        "name": "heavy",
+        "towers": 50,
+        "movers": 100
+      },
+      {
+        "name": "overload",
+        "towers": 100,
+        "movers": 200
+      }
+    ],
+    "views": [
+      "home",
+      "top"
+    ],
+    "warmupMs": 2000,
+    "sampleMs": 8000,
+    "targetFPS": 30,
+    "limits": {
+      "fps": 28,
+      "frameP95Ms": 50,
+      "cpuP95Ms": 16.7,
+      "calls": 600,
+      "triangles": 1000000,
+      "textures": 64
+    }
+  },
+  "notes": [
+    "Synthetic rendering/animation load added to the campus; no gameplay targeting, collision, projectiles or wave AI.",
+    "Models retain authored scale; synthetic grid and circular lanes may overlap campus props. Counts are added to existing campus actors.",
+    "Shared geometry/materials, independent skeletons and animation mixers; no instancing. Actual asset triangles may differ from the 3,000-triangle tower reference.",
+    "30 FPS cap retained. CPU submission is not GPU time; shadow passes included in render counters. Heap metrics are optional and not VRAM.",
+    "Budget flags are provisional diagnostics. Desktop phone emulation does not establish physical phone performance.",
+    "Screenshots capture the rendered canvas after each sample; capture/serialization work is outside timed samples."
+  ],
+  "initialState": {
+    "view": "home",
+    "zoom": 1,
+    "target": [
+      0,
+      1.6,
+      0
+    ],
+    "paused": false,
+    "time": 3.7001
+  },
+  "initialMetrics": {
+    "sampleDurationMs": 68.80000001192093,
+    "renderDistribution": {
+      "calls": {
+        "p50": 363,
+        "p95": 363,
+        "max": 363
+      },
+      "triangles": {
+        "p50": 157044,
+        "p95": 157044,
+        "max": 157044
+      }
+    },
+    "hardware": {
+      "platform": "Win32",
+      "logicalProcessors": 20,
+      "deviceMemoryGiB": 32,
+      "jsHeap": {
+        "used": 26773288,
+        "total": 35431972,
+        "limit": 4395630592
+      },
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x00002204) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "vendor": "Google Inc. (NVIDIA)",
+      "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+    },
+    "capturedAt": "2026-09-24T06:37:54.280Z",
+    "ready": true,
+    "loadMs": 1884.300000011921,
+    "frames": 2,
+    "fps": 28.985507246376812,
+    "frameIntervalMs": {
+      "p50": 34.5,
+      "p95": 34.5
+    },
+    "cpuSubmissionMs": {
+      "p50": 3.600000023841858,
+      "p95": 3.600000023841858
+    },
+    "framesOver50ms": 0,
+    "longTasks": 0,
+    "longTaskMs": 0,
+    "drawCalls": 363,
+    "triangles": 157044,
+    "geometries": 61,
+    "textures": 42,
+    "programs": 19,
+    "meshes": 177,
+    "skinnedMeshes": 20,
+    "glbRequests": 28,
+    "uniqueGLBs": 28,
+    "glbDecodedBytes": 3175460,
+    "viewport": {
+      "width": 1280,
+      "height": 720,
+      "dpr": 1,
+      "bufferWidth": 1260,
+      "bufferHeight": 486
+    },
+    "renderer": "WebKit WebGL",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+    "scene": {
+      "loaded": true,
+      "stress": {
+        "towers": 0,
+        "movers": 0,
+        "time": 0.06679999999999972,
+        "actors": 0,
+        "assets": [
+          {
+            "id": "copilot_base_v02",
+            "clip": "idle",
+            "triangles": 2489,
+            "meshes": 2,
+            "skinnedMeshes": 2,
+            "materials": 1,
+            "scale": 1
+          },
+          {
+            "id": "problem_lag_spike_v01",
+            "clip": "move",
+            "triangles": 1376,
+            "meshes": 1,
+            "skinnedMeshes": 1,
+            "materials": 1,
+            "scale": 1
+          }
+        ],
+        "addedModelTriangles": 0,
+        "towerBudgetReferenceTriangles": 0,
+        "instanced": false,
+        "independentAnimationMixers": 0
+      },
+      "theme": "twilight",
+      "lightLines": {
+        "traces": 0,
+        "gridTiles": 0,
+        "time": 0,
+        "heads": [],
+        "paths": [],
+        "pathStyle": "disabled",
+        "gridY": -0.63,
+        "implementation": "void grid only"
+      },
+      "cameraLocked": false,
+      "cameraRotationLocked": true,
+      "cameraMode": "presets-pan-zoom",
+      "currentView": "home",
+      "cameraViews": [
+        "home",
+        "top",
+        "front",
+        "left"
+      ],
+      "hover": {
+        "active": null,
+        "buildings": [
+          {
+            "id": "copilot-lab",
+            "highlighted": false,
+            "screen": [
+              -0.009671498585894302,
+              0.10169164164242625,
+              0.0296786479817166
+            ]
+          }
+        ]
+      },
+      "companionBeacon": {
+        "color": "#ffd078",
+        "label": "COPILOT",
+        "sourceScalePreserved": true
+      },
+      "camera": [
+        45.12779509983825,
+        49.37563530899137,
+        45.61765864497292
+      ],
+      "target": [
+        0,
+        1.6,
+        0
+      ],
+      "zoom": 1,
+      "zoomLimits": [
+        0.7,
+        10
+      ],
+      "paused": false,
+      "guests": {
+        "time": 3.7001,
+        "reducedMotion": false,
+        "characters": [
+          {
+            "id": "github_octocat_classic_lowpoly",
+            "position": [
+              3,
+              1.28,
+              22
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "activity": "waiting for coffee"
+          },
+          {
+            "id": "problem_lag_spike",
+            "position": [
+              4,
+              1.28,
+              26.165855902545985
+            ],
+            "scale": [
+              1,
+              1,
+              1
+            ],
+            "activity": "strolling through the park"
+          }
+        ]
+      },
+      "ambient": {
+        "time": 3.7001,
+        "reducedMotion": false,
+        "cycle": 120,
+        "plantInstances": 18,
+        "foliage": [
+          [
+            0,
+            0.2751575622414403
+          ],
+          [
+            0.04302473959105986,
+            0
+          ],
+          [
+            0.6406804495755694,
+            0
+          ],
+          [
+            0.9867271824775424,
+            0
+          ],
+          [
+            0.4475092251269594,
+            0
+          ],
+          [
+            0,
+            0.0006167523819868017
+          ],
+          [
+            0,
+            0.4626991426961037
+          ],
+          [
+            0,
+            0.9902867557773869
+          ],
+          [
+            0,
+            0.6261252006646121
+          ],
+          [
+            0,
+            0.03733653773252892
+          ],
+          [
+            0.28907856412465827,
+            0
+          ],
+          [
+            0.918384519096304,
+            0
+          ],
+          [
+            0.7900248906912541,
+            0
+          ],
+          [
+            0.14028512105715327,
+            0
+          ],
+          [
+            0,
+            0.1404440394768503
+          ],
+          [
+            0,
+            0.7902182035901033
+          ],
+          [
+            0,
+            0.9182475126966707
+          ],
+          [
+            0,
+            0.28887283664162533
+          ]
+        ],
+        "steam": [
+          {
+            "position": [
+              0.9027064374097052,
+              4.5876448,
+              22.142764017191247
+            ],
+            "opacity": 0.5942746259289555,
+            "width": 1.3084232,
+            "source": "kiosk",
+            "visible": true
+          },
+          {
+            "position": [
+              1.066111845606899,
+              5.054311466666666,
+              22.120143021353634
+            ],
+            "opacity": 0.4262860156512516,
+            "width": 1.5500898666666665,
+            "source": "kiosk",
+            "visible": true
+          },
+          {
+            "position": [
+              1.3302066366097987,
+              5.520978133333333,
+              22.14984236237416
+            ],
+            "opacity": 0.14407441173511376,
+            "width": 1.7917565333333332,
+            "source": "kiosk",
+            "visible": true
+          },
+          {
+            "position": [
+              0.09851441709176381,
+              3.1876448,
+              22.251704406296174
+            ],
+            "opacity": 0.17674181445543694,
+            "width": 0.8950617283950617,
+            "source": "kiosk",
+            "visible": true
+          },
+          {
+            "position": [
+              0.4144059742529513,
+              3.654311466666666,
+              22.189581595651784
+            ],
+            "opacity": 0.4502002141938416,
+            "width": 0.8950617283950617,
+            "source": "kiosk",
+            "visible": true
+          },
+          {
+            "position": [
+              0.6027064374097053,
+              4.120978133333333,
+              22.134284668408725
+            ],
+            "opacity": 0.6030278301066883,
+            "width": 1.0667565333333333,
+            "source": "kiosk",
+            "visible": true
+          },
+          {
+            "position": [
+              24.9027064374097,
+              4.5876448,
+              8.142764017191249
+            ],
+            "opacity": 0.5942746259289555,
+            "width": 1.3084232,
+            "source": "kiosk",
+            "visible": true
+          },
+          {
+            "position": [
+              25.066111845606898,
+              5.054311466666666,
+              8.120143021353632
+            ],
+            "opacity": 0.4262860156512516,
+            "width": 1.5500898666666665,
+            "source": "kiosk",
+            "visible": true
+          },
+          {
+            "position": [
+              25.330206636609798,
+              5.520978133333333,
+              8.149842362374159
+            ],
+            "opacity": 0.14407441173511376,
+            "width": 1.7917565333333332,
+            "source": "kiosk",
+            "visible": true
+          },
+          {
+            "position": [
+              24.098514417091764,
+              3.1876448,
+              8.251704406296174
+            ],
+            "opacity": 0.17674181445543694,
+            "width": 0.8950617283950617,
+            "source": "kiosk",
+            "visible": true
+          },
+          {
+            "position": [
+              24.41440597425295,
+              3.654311466666666,
+              8.189581595651783
+            ],
+            "opacity": 0.4502002141938416,
+            "width": 0.8950617283950617,
+            "source": "kiosk",
+            "visible": true
+          },
+          {
+            "position": [
+              24.602706437409704,
+              4.120978133333333,
+              8.134284668408727
+            ],
+            "opacity": 0.6030278301066883,
+            "width": 1.0667565333333333,
+            "source": "kiosk",
+            "visible": true
+          },
+          {
+            "position": [
+              -0.8129223661665738,
+              3.6948304047683718,
+              18.811167217191247
+            ],
+            "opacity": 0.440913432140838,
+            "width": 0.8950617283950617,
+            "source": "table",
+            "visible": true
+          },
+          {
+            "position": [
+              -0.9495169579693798,
+              4.011497071435038,
+              18.82187955468697
+            ],
+            "opacity": 0.3162767212896383,
+            "width": 1.0207485333333333,
+            "source": "table",
+            "visible": true
+          },
+          {
+            "position": [
+              -0.9854221669664806,
+              4.328163738101705,
+              18.884912229040825
+            ],
+            "opacity": 0.10689391838411666,
+            "width": 1.1790818666666667,
+            "source": "table",
+            "visible": true
+          },
+          {
+            "position": [
+              -0.7171143864845153,
+              2.744830404768372,
+              18.820107606296176
+            ],
+            "opacity": 0.1311310236282274,
+            "width": 0.8950617283950617,
+            "source": "table",
+            "visible": true
+          },
+          {
+            "position": [
+              -0.7012228293233276,
+              3.0614970714350385,
+              18.791318128985118
+            ],
+            "opacity": 0.33401951375672123,
+            "width": 0.8950617283950617,
+            "source": "table",
+            "visible": true
+          },
+          {
+            "position": [
+              -0.8129223661665738,
+              3.378163738101705,
+              18.769354535075394
+            ],
+            "opacity": 0.4474077449178655,
+            "width": 0.8950617283950617,
+            "source": "table",
+            "visible": true
+          },
+          {
+            "position": [
+              21.687077633833425,
+              3.6948304047683718,
+              25.511167217191247
+            ],
+            "opacity": 0.440913432140838,
+            "width": 0.8950617283950617,
+            "source": "table",
+            "visible": true
+          },
+          {
+            "position": [
+              21.55048304203062,
+              4.011497071435038,
+              25.52187955468697
+            ],
+            "opacity": 0.3162767212896383,
+            "width": 1.0207485333333333,
+            "source": "table",
+            "visible": true
+          },
+          {
+            "position": [
+              21.51457783303352,
+              4.328163738101705,
+              25.584912229040825
+            ],
+            "opacity": 0.10689391838411666,
+            "width": 1.1790818666666667,
+            "source": "table",
+            "visible": true
+          },
+          {
+            "position": [
+              21.782885613515486,
+              2.744830404768372,
+              25.520107606296175
+            ],
+            "opacity": 0.1311310236282274,
+            "width": 0.8950617283950617,
+            "source": "table",
+            "visible": true
+          },
+          {
+            "position": [
+              21.798777170676672,
+              3.0614970714350385,
+              25.491318128985117
+            ],
+            "opacity": 0.33401951375672123,
+            "width": 0.8950617283950617,
+            "source": "table",
+            "visible": true
+          },
+          {
+            "position": [
+              21.687077633833425,
+              3.378163738101705,
+              25.469354535075393
+            ],
+            "opacity": 0.4474077449178655,
+            "width": 0.8950617283950617,
+            "source": "table",
+            "visible": true
+          }
+        ],
+        "visitors": [
+          {
+            "position": [
+              28,
+              1.28,
+              6.825507117860194
+            ],
+            "heading": 0,
+            "activity": "heading for coffee",
+            "conversationVisible": false
+          },
+          {
+            "position": [
+              30.424543379442472,
+              1.28,
+              20.2
+            ],
+            "heading": 2.322053639656728,
+            "activity": "visiting the noticeboard",
+            "conversationVisible": false
+          }
+        ],
+        "status": "A little life around the campus."
+      },
+      "companion": {
+        "time": 3.7001,
+        "position": [
+          -1.15734516646069,
+          1.28,
+          7
+        ],
+        "heading": 1.5707963267948966,
+        "phase": "travelling",
+        "clip": "idle",
+        "clipTime": 1.2001,
+        "scale": [
+          1,
+          1,
+          1
+        ]
+      },
+      "scaleAudit": {
+        "asset": "copilot_base",
+        "version": "v02",
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "restDimensions": [
+          2.2728118896484375,
+          1.8002899885177612,
+          1.9463568925857544
+        ],
+        "hoverEnvelope": {
+          "min": [
+            -1.1469333683510152,
+            0.15143490657829095,
+            -0.9742150223045947
+          ],
+          "max": [
+            1.1466049316747524,
+            2.007767675010909,
+            0.9781707784676152
+          ],
+          "dimensions": [
+            2.2935383000257676,
+            1.8563327684326179,
+            1.95238580077221
+          ]
+        },
+        "door": {
+          "width": 2.8000000715255737,
+          "height": 2.4799998104572296,
+          "threshold": 1.6500000178813934,
+          "marginLeft": 0.25306666741177164,
+          "marginRight": 0.25339510408803445,
+          "headroom": 0.4722321354463208,
+          "fits": true
+        },
+        "path": {
+          "left": [
+            -5.5,
+            1.28,
+            7
+          ],
+          "right": [
+            2.5,
+            1.28,
+            7
+          ],
+          "width": 3.2,
+          "minZ": 5.4,
+          "maxZ": 8.6,
+          "envelope": {
+            "min": [
+              -6.653685920381363,
+              1.4315253088402813,
+              5.833300363575102
+            ],
+            "max": [
+              3.6642117018839455,
+              3.287678554699781,
+              8.14690152929791
+            ]
+          },
+          "fits": true
+        },
+        "samples": {
+          "hover": 121,
+          "stroll": 191
+        }
+      },
+      "assemblyAudit": {
+        "passed": true,
+        "connected": true,
+        "pieces": 45,
+        "ports": 91,
+        "connections": 45,
+        "entrance": [
+          {
+            "piece": 14,
+            "asset": "campus_walk_straight",
+            "anchor": "anchor_start",
+            "position": [
+              -4,
+              1.2799999982118606,
+              1
+            ],
+            "direction": [
+              0,
+              -1
+            ]
+          }
+        ],
+        "invalid": [],
+        "tolerance": 0.0001
+      },
+      "baseAudit": {
+        "passed": true,
+        "tiles": 7,
+        "joinedEdges": 12,
+        "exposedEdges": 18,
+        "area": 5892.4368473493205,
+        "width": 90,
+        "depth": 93.53074360871936,
+        "surfaceProfiles": [
+          "mineral_composite",
+          "plaza",
+          "hill",
+          "park"
+        ],
+        "invalid": []
+      },
+      "frustumHeight": 87,
+      "assets": [
+        "campus_base_hex",
+        "campus_tile_plaza",
+        "campus_tile_hill",
+        "campus_tile_park",
+        "campus_lab",
+        "campus_walk_junction",
+        "campus_walk_straight",
+        "campus_walk_bend",
+        "campus_walk_landing",
+        "campus_tree_round",
+        "campus_tree_tall",
+        "campus_tree_cluster",
+        "campus_solar",
+        "campus_coffee_kiosk",
+        "campus_planter_bench",
+        "campus_code_sculpture",
+        "campus_pond",
+        "campus_meeting_nook",
+        "campus_wayfinding_sign",
+        "campus_cafe_table",
+        "campus_noticeboard",
+        "campus_flower_bed",
+        "campus_bush_round",
+        "campus_hedge",
+        "campus_path_bollard",
+        "github_octocat_classic_lowpoly",
+        "problem_lag_spike"
+      ],
+      "instances": 132,
+      "asset": "campus_base_hex",
+      "version": "v01"
+    },
+    "notes": [
+      "Target: 30 rendered frames/s during ambience. Paused frames are demand-driven.",
+      "CPU time includes animation, presentation and WebGL submission; it is not GPU time.",
+      "Renderer counters include the shadow pass. Texture/geometries are counts, not VRAM bytes.",
+      "Local load time includes parsing, assembly, validation and first render; production network latency is not represented.",
+      "Rolling window: up to 900 frames. Hidden-tab transitions and pause transitions reset frame intervals."
+    ]
+  },
+  "cases": [],
+  "errors": [
+    {
+      "type": "runner",
+      "message": "Error: Unable to capture source revision\n    at run (http://127.0.0.1:58178/stress-test.js:72:100)",
+      "phase": "preparing",
+      "at": "2026-09-24T06:37:54.308Z"
+    }
+  ],
+  "events": [],
+  "reason": "Unable to capture source revision",
+  "partial": {
+    "phase": "preparing",
+    "load": {
+      "towers": 0,
+      "movers": 0,
+      "time": 0.14159999999999992,
+      "actors": 0,
+      "assets": [
+        {
+          "id": "copilot_base_v02",
+          "clip": "idle",
+          "triangles": 2489,
+          "meshes": 2,
+          "skinnedMeshes": 2,
+          "materials": 1,
+          "scale": 1
+        },
+        {
+          "id": "problem_lag_spike_v01",
+          "clip": "move",
+          "triangles": 1376,
+          "meshes": 1,
+          "skinnedMeshes": 1,
+          "materials": 1,
+          "scale": 1
+        }
+      ],
+      "addedModelTriangles": 0,
+      "towerBudgetReferenceTriangles": 0,
+      "instanced": false,
+      "independentAnimationMixers": 0
+    },
+    "measurement": {
+      "sampleDurationMs": 148.4000000357628,
+      "frameSamples": [
+        {
+          "atMs": 33.10000002384186,
+          "cpu": 2.699999988079071,
+          "interval": 0,
+          "calls": 363,
+          "triangles": 157044,
+          "geometries": 61,
+          "textures": 42
+        },
+        {
+          "atMs": 67.60000002384186,
+          "cpu": 3.600000023841858,
+          "interval": 34.5,
+          "calls": 363,
+          "triangles": 157044,
+          "geometries": 61,
+          "textures": 42
+        },
+        {
+          "atMs": 144,
+          "cpu": 2.099999964237213,
+          "interval": 76.39999997615814,
+          "calls": 363,
+          "triangles": 157044,
+          "geometries": 61,
+          "textures": 42
+        },
+        {
+          "atMs": 146.70000004768372,
+          "cpu": 2,
+          "interval": 2.700000047683716,
+          "calls": 363,
+          "triangles": 157044,
+          "geometries": 61,
+          "textures": 42
+        }
+      ],
+      "longTaskEntries": [
+        {
+          "start": 2726,
+          "duration": 73
+        }
+      ],
+      "renderDistribution": {
+        "calls": {
+          "p50": 363,
+          "p95": 363,
+          "max": 363
+        },
+        "triangles": {
+          "p50": 157044,
+          "p95": 157044,
+          "max": 157044
+        }
+      },
+      "hardware": {
+        "platform": "Win32",
+        "logicalProcessors": 20,
+        "deviceMemoryGiB": 32,
+        "jsHeap": {
+          "used": 27093508,
+          "total": 35431972,
+          "limit": 4395630592
+        },
+        "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x00002204) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (NVIDIA)",
+        "webglVersion": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+      },
+      "capturedAt": "2026-09-24T06:37:54.307Z",
+      "ready": true,
+      "loadMs": 1884.300000011921,
+      "frames": 4,
+      "fps": 26.408450698682866,
+      "frameIntervalMs": {
+        "p50": 34.5,
+        "p95": 76.39999997615814
+      },
+      "cpuSubmissionMs": {
+        "p50": 2.699999988079071,
+        "p95": 3.600000023841858
+      },
+      "framesOver50ms": 1,
+      "longTasks": 1,
+      "longTaskMs": 73,
+      "drawCalls": 363,
+      "triangles": 157044,
+      "geometries": 61,
+      "textures": 42,
+      "programs": 19,
+      "meshes": 177,
+      "skinnedMeshes": 20,
+      "glbRequests": 28,
+      "uniqueGLBs": 28,
+      "glbDecodedBytes": 3175460,
+      "viewport": {
+        "width": 1280,
+        "height": 720,
+        "dpr": 1,
+        "bufferWidth": 1260,
+        "bufferHeight": 486
+      },
+      "renderer": "WebKit WebGL",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/153.0.0.0 Safari/537.36 Edg/153.0.0.0",
+      "scene": {
+        "loaded": true,
+        "stress": {
+          "towers": 0,
+          "movers": 0,
+          "time": 0.14159999999999992,
+          "actors": 0,
+          "assets": [
+            {
+              "id": "copilot_base_v02",
+              "clip": "idle",
+              "triangles": 2489,
+              "meshes": 2,
+              "skinnedMeshes": 2,
+              "materials": 1,
+              "scale": 1
+            },
+            {
+              "id": "problem_lag_spike_v01",
+              "clip": "move",
+              "triangles": 1376,
+              "meshes": 1,
+              "skinnedMeshes": 1,
+              "materials": 1,
+              "scale": 1
+            }
+          ],
+          "addedModelTriangles": 0,
+          "towerBudgetReferenceTriangles": 0,
+          "instanced": false,
+          "independentAnimationMixers": 0
+        },
+        "theme": "twilight",
+        "lightLines": {
+          "traces": 0,
+          "gridTiles": 0,
+          "time": 0,
+          "heads": [],
+          "paths": [],
+          "pathStyle": "disabled",
+          "gridY": -0.63,
+          "implementation": "void grid only"
+        },
+        "cameraLocked": false,
+        "cameraRotationLocked": true,
+        "cameraMode": "presets-pan-zoom",
+        "currentView": "home",
+        "cameraViews": [
+          "home",
+          "top",
+          "front",
+          "left"
+        ],
+        "hover": {
+          "active": null,
+          "buildings": [
+            {
+              "id": "copilot-lab",
+              "highlighted": false,
+              "screen": [
+                -0.009671498585894302,
+                0.10169164164242625,
+                0.0296786479817166
+              ]
+            }
+          ]
+        },
+        "companionBeacon": {
+          "color": "#ffd078",
+          "label": "COPILOT",
+          "sourceScalePreserved": true
+        },
+        "camera": [
+          45.12779509983825,
+          49.37563530899137,
+          45.61765864497292
+        ],
+        "target": [
+          0,
+          1.6,
+          0
+        ],
+        "zoom": 1,
+        "zoomLimits": [
+          0.7,
+          10
+        ],
+        "paused": false,
+        "guests": {
+          "time": 3.7749,
+          "reducedMotion": false,
+          "characters": [
+            {
+              "id": "github_octocat_classic_lowpoly",
+              "position": [
+                3,
+                1.28,
+                22
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "activity": "waiting for coffee"
+            },
+            {
+              "id": "problem_lag_spike",
+              "position": [
+                4,
+                1.28,
+                26.239387021889513
+              ],
+              "scale": [
+                1,
+                1,
+                1
+              ],
+              "activity": "strolling through the park"
+            }
+          ]
+        },
+        "ambient": {
+          "time": 3.7749,
+          "reducedMotion": false,
+          "cycle": 120,
+          "plantInstances": 18,
+          "foliage": [
+            [
+              0,
+              0.20221982370410543
+            ],
+            [
+              0.08732300625420344,
+              0
+            ],
+            [
+              0.7194935320974463,
+              0
+            ],
+            [
+              0.9591695347078173,
+              0
+            ],
+            [
+              0.3649123306451616,
+              0
+            ],
+            [
+              0,
+              0.011905121617021988
+            ],
+            [
+              0,
+              0.5466541760484162
+            ],
+            [
+              0,
+              0.9998572052579784
+            ],
+            [
+              0,
+              0.543137300372501
+            ],
+            [
+              0,
+              0.01108095116119049
+            ],
+            [
+              0.36828221339606376,
+              0
+            ],
+            [
+              0.9604832560052838,
+              0
+            ],
+            [
+              0.7162704165832232,
+              0
+            ],
+            [
+              0.08517696426524353,
+              0
+            ],
+            [
+              0,
+              0.20500222676567165
+            ],
+            [
+              0,
+              0.8555846276457275
+            ],
+            [
+              0,
+              0.863686157896694
+            ],
+            [
+              0,
+              0.21480576171700205
+            ]
+          ],
+          "steam": [
+            {
+              "position": [
+                0.9153770995969619,
+                4.6211552,
+                22.140154895171655
+              ],
+              "opacity": 0.5872109504338617,
+              "width": 1.3257768,
+              "source": "kiosk",
+              "visible": true
+            },
+            {
+              "position": [
+                1.0817203897891234,
+                5.087821866666666,
+                22.120463322777443
+              ],
+              "opacity": 0.4090618395110806,
+              "width": 1.5674434666666666,
+              "source": "kiosk",
+              "visible": true
+            },
+            {
+              "position": [
+                1.3542086224604752,
+                5.554488533333332,
+                22.152882233592088
+              ],
+              "opacity": 0.12130493903691608,
+              "width": 1.8091101333333333,
+              "source": "kiosk",
+              "visible": true
+            },
+            {
+              "position": [
+                0.1249811224919847,
+                3.2211552,
+                22.248723877587352
+              ],
+              "opacity": 0.198955521890097,
+              "width": 0.8950617283950617,
+              "source": "kiosk",
+              "visible": true
+            },
+            {
+              "position": [
+                0.4322953892761614,
+                3.687821866666666,
+                22.185797836607907
+              ],
+              "opacity": 0.46590601139694565,
+              "width": 0.8950617283950617,
+              "source": "kiosk",
+              "visible": true
+            },
+            {
+              "position": [
+                0.615377099596962,
+                4.154488533333334,
+                22.132176705298022
+              ],
+              "opacity": 0.6080173614011776,
+              "width": 1.0841101333333336,
+              "source": "kiosk",
+              "visible": true
+            },
+            {
+              "position": [
+                24.91537709959696,
+                4.6211552,
+                8.140154895171655
+              ],
+              "opacity": 0.5872109504338617,
+              "width": 1.3257768,
+              "source": "kiosk",
+              "visible": true
+            },
+            {
+              "position": [
+                25.081720389789123,
+                5.087821866666666,
+                8.120463322777445
+              ],
+              "opacity": 0.4090618395110806,
+              "width": 1.5674434666666666,
+              "source": "kiosk",
+              "visible": true
+            },
+            {
+              "position": [
+                25.354208622460476,
+                5.554488533333332,
+                8.152882233592088
+              ],
+              "opacity": 0.12130493903691608,
+              "width": 1.8091101333333333,
+              "source": "kiosk",
+              "visible": true
+            },
+            {
+              "position": [
+                24.124981122491985,
+                3.2211552,
+                8.248723877587354
+              ],
+              "opacity": 0.198955521890097,
+              "width": 0.8950617283950617,
+              "source": "kiosk",
+              "visible": true
+            },
+            {
+              "position": [
+                24.43229538927616,
+                3.687821866666666,
+                8.185797836607906
+              ],
+              "opacity": 0.46590601139694565,
+              "width": 0.8950617283950617,
+              "source": "kiosk",
+              "visible": true
+            },
+            {
+              "position": [
+                24.61537709959696,
+                4.154488533333334,
+                8.13217670529802
+              ],
+              "opacity": 0.6080173614011776,
+              "width": 1.0841101333333336,
+              "source": "kiosk",
+              "visible": true
+            },
+            {
+              "position": [
+                -0.8217941039793173,
+                3.717569604768372,
+                18.810951695171656
+              ],
+              "opacity": 0.435672640644478,
+              "width": 0.8950617283950617,
+              "source": "table",
+              "visible": true
+            },
+            {
+              "position": [
+                -0.9554508137871557,
+                4.034236271435038,
+                18.824593456110776
+              ],
+              "opacity": 0.30349749383080177,
+              "width": 1.0321181333333334,
+              "source": "table",
+              "visible": true
+            },
+            {
+              "position": [
+                -0.9829625811158038,
+                4.350902938101705,
+                18.890345700258756
+              ],
+              "opacity": 0.09000043864029258,
+              "width": 1.1904514666666666,
+              "source": "table",
+              "visible": true
+            },
+            {
+              "position": [
+                -0.7121900810842944,
+                2.7675696047683718,
+                18.819520677587352
+              ],
+              "opacity": 0.14761216140233005,
+              "width": 0.8950617283950617,
+              "source": "table",
+              "visible": true
+            },
+            {
+              "position": [
+                -0.7048758143001175,
+                3.084236271435038,
+                18.789927969941242
+              ],
+              "opacity": 0.34567220200418547,
+              "width": 0.8950617283950617,
+              "source": "table",
+              "visible": true
+            },
+            {
+              "position": [
+                -0.8217941039793174,
+                3.4009029381017055,
+                18.76964017196469
+              ],
+              "opacity": 0.4511096552331318,
+              "width": 0.8950617283950617,
+              "source": "table",
+              "visible": true
+            },
+            {
+              "position": [
+                21.678205896020682,
+                3.717569604768372,
+                25.510951695171656
+              ],
+              "opacity": 0.435672640644478,
+              "width": 0.8950617283950617,
+              "source": "table",
+              "visible": true
+            },
+            {
+              "position": [
+                21.544549186212844,
+                4.034236271435038,
+                25.524593456110775
+              ],
+              "opacity": 0.30349749383080177,
+              "width": 1.0321181333333334,
+              "source": "table",
+              "visible": true
+            },
+            {
+              "position": [
+                21.517037418884197,
+                4.350902938101705,
+                25.590345700258755
+              ],
+              "opacity": 0.09000043864029258,
+              "width": 1.1904514666666666,
+              "source": "table",
+              "visible": true
+            },
+            {
+              "position": [
+                21.787809918915706,
+                2.7675696047683718,
+                25.51952067758735
+              ],
+              "opacity": 0.14761216140233005,
+              "width": 0.8950617283950617,
+              "source": "table",
+              "visible": true
+            },
+            {
+              "position": [
+                21.795124185699883,
+                3.084236271435038,
+                25.48992796994124
+              ],
+              "opacity": 0.34567220200418547,
+              "width": 0.8950617283950617,
+              "source": "table",
+              "visible": true
+            },
+            {
+              "position": [
+                21.678205896020682,
+                3.4009029381017055,
+                25.469640171964688
+              ],
+              "opacity": 0.4511096552331318,
+              "width": 0.8950617283950617,
+              "source": "table",
+              "visible": true
+            }
+          ],
+          "visitors": [
+            {
+              "position": [
+                28,
+                1.28,
+                6.887483347021163
+              ],
+              "heading": 0,
+              "activity": "heading for coffee",
+              "conversationVisible": false
+            },
+            {
+              "position": [
+                30.5,
+                1.28,
+                20.189638498949087
+              ],
+              "heading": 2.3568890746247217,
+              "activity": "visiting the noticeboard",
+              "conversationVisible": false
+            }
+          ],
+          "status": "A little life around the campus."
+        },
+        "companion": {
+          "time": 3.7749,
+          "position": [
+            -1.0297119158366899,
+            1.28,
+            7
+          ],
+          "heading": 1.5707963267948966,
+          "phase": "travelling",
+          "clip": "idle",
+          "clipTime": 1.2749000000000001,
+          "scale": [
+            1,
+            1,
+            1
+          ]
+        },
+        "scaleAudit": {
+          "asset": "copilot_base",
+          "version": "v02",
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "restDimensions": [
+            2.2728118896484375,
+            1.8002899885177612,
+            1.9463568925857544
+          ],
+          "hoverEnvelope": {
+            "min": [
+              -1.1469333683510152,
+              0.15143490657829095,
+              -0.9742150223045947
+            ],
+            "max": [
+              1.1466049316747524,
+              2.007767675010909,
+              0.9781707784676152
+            ],
+            "dimensions": [
+              2.2935383000257676,
+              1.8563327684326179,
+              1.95238580077221
+            ]
+          },
+          "door": {
+            "width": 2.8000000715255737,
+            "height": 2.4799998104572296,
+            "threshold": 1.6500000178813934,
+            "marginLeft": 0.25306666741177164,
+            "marginRight": 0.25339510408803445,
+            "headroom": 0.4722321354463208,
+            "fits": true
+          },
+          "path": {
+            "left": [
+              -5.5,
+              1.28,
+              7
+            ],
+            "right": [
+              2.5,
+              1.28,
+              7
+            ],
+            "width": 3.2,
+            "minZ": 5.4,
+            "maxZ": 8.6,
+            "envelope": {
+              "min": [
+                -6.653685920381363,
+                1.4315253088402813,
+                5.833300363575102
+              ],
+              "max": [
+                3.6642117018839455,
+                3.287678554699781,
+                8.14690152929791
+              ]
+            },
+            "fits": true
+          },
+          "samples": {
+            "hover": 121,
+            "stroll": 191
+          }
+        },
+        "assemblyAudit": {
+          "passed": true,
+          "connected": true,
+          "pieces": 45,
+          "ports": 91,
+          "connections": 45,
+          "entrance": [
+            {
+              "piece": 14,
+              "asset": "campus_walk_straight",
+              "anchor": "anchor_start",
+              "position": [
+                -4,
+                1.2799999982118606,
+                1
+              ],
+              "direction": [
+                0,
+                -1
+              ]
+            }
+          ],
+          "invalid": [],
+          "tolerance": 0.0001
+        },
+        "baseAudit": {
+          "passed": true,
+          "tiles": 7,
+          "joinedEdges": 12,
+          "exposedEdges": 18,
+          "area": 5892.4368473493205,
+          "width": 90,
+          "depth": 93.53074360871936,
+          "surfaceProfiles": [
+            "mineral_composite",
+            "plaza",
+            "hill",
+            "park"
+          ],
+          "invalid": []
+        },
+        "frustumHeight": 87,
+        "assets": [
+          "campus_base_hex",
+          "campus_tile_plaza",
+          "campus_tile_hill",
+          "campus_tile_park",
+          "campus_lab",
+          "campus_walk_junction",
+          "campus_walk_straight",
+          "campus_walk_bend",
+          "campus_walk_landing",
+          "campus_tree_round",
+          "campus_tree_tall",
+          "campus_tree_cluster",
+          "campus_solar",
+          "campus_coffee_kiosk",
+          "campus_planter_bench",
+          "campus_code_sculpture",
+          "campus_pond",
+          "campus_meeting_nook",
+          "campus_wayfinding_sign",
+          "campus_cafe_table",
+          "campus_noticeboard",
+          "campus_flower_bed",
+          "campus_bush_round",
+          "campus_hedge",
+          "campus_path_bollard",
+          "github_octocat_classic_lowpoly",
+          "problem_lag_spike"
+        ],
+        "instances": 132,
+        "asset": "campus_base_hex",
+        "version": "v01"
+      },
+      "notes": [
+        "Target: 30 rendered frames/s during ambience. Paused frames are demand-driven.",
+        "CPU time includes animation, presentation and WebGL submission; it is not GPU time.",
+        "Renderer counters include the shadow pass. Texture/geometries are counts, not VRAM bytes.",
+        "Local load time includes parsing, assembly, validation and first render; production network latency is not represented.",
+        "Rolling window: up to 900 frames. Hidden-tab transitions and pause transitions reset frame intervals."
+      ]
+    }
+  },
+  "finalState": {
+    "view": "home",
+    "zoom": 1,
+    "target": [
+      0,
+      1.6,
+      0
+    ],
+    "paused": false,
+    "time": 3.7001
+  },
+  "finishedAt": "2026-09-24T06:37:54.326Z",
+  "correctnessPassed": false,
+  "overBudgetCases": []
+}

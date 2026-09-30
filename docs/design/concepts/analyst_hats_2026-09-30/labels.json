@@ -1,0 +1,31 @@
+{
+  "title": "Analyst Hat Concepts",
+  "subtitle": "Fitted hats for a friendly software requirements analyst.",
+  "category": "Tower",
+  "options": [
+    {
+      "name": "Story Editor",
+      "description": "Shallow flat cap with tucked pencil"
+    },
+    {
+      "name": "Discovery Beret",
+      "description": "Soft tilted beret with bookmark tab"
+    },
+    {
+      "name": "Workshop Fold",
+      "description": "Compact paper cap with folded seams"
+    },
+    {
+      "name": "Scope Bucket",
+      "description": "Low bucket hat with narrow brim"
+    },
+    {
+      "name": "Refinement Knit",
+      "description": "Snug beanie with turned up cuff"
+    },
+    {
+      "name": "Session Cap",
+      "description": "Soft workshop cap with side pencil"
+    }
+  ]
+}

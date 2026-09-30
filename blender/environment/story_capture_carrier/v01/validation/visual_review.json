@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "asset": "story_capture_carrier",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "7c7c4091373e20d1e22a891047b75eea83958e69856fd63c36d354c4225a87b8",
+  "sourceHash": "a16d584f52f706b9e330250bdc971514d85834a6b0938412ff90016897735e29",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T16:24:30.830Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Original open-front capture-cradle brief is met. Rear frame/angled shoulder bridge and side winch pods provide an unmistakable mechanical silhouette, with restrained violet/amber identity. Root remains the captive foot origin and the positive-Z face stays open for Octocat readability."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Initial review exposed coplanar tray/footplate flicker and insufficient physical seating of side winches/power block. Repaired by recessing the tray below the footplate, extending side rails down to their seats, adding structural winch brackets and a rear power support stem. Personally inspected final GLB iso/front/side/rear/top and Inspector close/reverse: clean plate, connected pods/stem, consistent shoulders, no visible depth flicker."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "The390px Inspector phone view retains the open captive space, violet tray/uprights, amber tow hardware and side pods. Front/oblique views show interior clearance for recorded Octocat1.836x1.8x.883; the surrounding frame is legible without a transparent shell. The rear plate is a secondary detail, not a required front-facing cue."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static authored environment asset; no skeletal/object clips. Story placement, timed travel and force effects remain presentation-owned."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After the source repairs, the final r3 export was reassessed from front, oblique, side, reverse and phone views. Tray/footplate are separated without flicker; rails, side saddle brackets and rear module stem are physically seated. The open face and footplane are preserved. Integrated story captures at23.3/27s additionally show the carrier around Octocat at plausible scale, while timed travel stays presentation-owned."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/story_capture_carrier/v01/validation/iso.png",
+      "sha256": "0b750a1bb51295a20c33d97789392414e551e2a7173797dd3f5834f99626a1a8",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_capture_carrier/v01/validation/front.png",
+      "sha256": "089e4fd0c349d11d88a4013ba4820aa09f87e7ac9a7541ddf2014289acf8a509",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_capture_carrier/v01/validation/side.png",
+      "sha256": "cd35287e74e5f119706f596f666824f119e714faa49e3b77dcc382a192946c1c",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_capture_carrier/v01/validation/rear.png",
+      "sha256": "69ef0fe93bee7517bf0b022cf16fa1a59f8fff0efc52e93b08cff36c28af2a04",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_capture_carrier/v01/validation/top.png",
+      "sha256": "91399366c3349dedf506417e5d1ad3dee7ecb570640f4ffca3a6d91afd28aa98",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_capture_carrier/v01/validation/inspector-iso.png",
+      "sha256": "4b0654202200cca90a74cae0beb447d69368c12d54558862fa3acbbfd278a0db",
+      "view": "inspector-iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_capture_carrier/v01/validation/inspector-close.png",
+      "sha256": "3ea5265d9d73edb1f04b4b912704fcd0742d35051042588d31f38d717757251c",
+      "view": "inspector-close",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_capture_carrier/v01/validation/inspector-rear.png",
+      "sha256": "d383effd5faa4e6f6f9538881e11a3065fc93cc2d2e6983057d6f5cf242043af",
+      "view": "inspector-rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_capture_carrier/v01/validation/inspector-phone.png",
+      "sha256": "676c1b99beeabfeebf93d1913b389a3987e19761cd3bba797094b85a4d2eeb3e",
+      "view": "inspector-phone",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User authorized production; no explicit artistic acceptance of this revision has been given."
+  },
+  "limitations": [
+    "Fit targets the current Octocat dimensions; larger future replacement bodies require a coordinated carrier fit adjustment."
+  ]
+}

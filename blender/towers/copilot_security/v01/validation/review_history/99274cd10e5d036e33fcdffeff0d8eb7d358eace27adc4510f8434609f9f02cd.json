@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_security",
+  "version": "v01",
+  "revision": 15,
+  "sha256": "aabd2b42dc8233ea2cda102246f341a82626af2f4a6c94806114f5f523430b7e",
+  "sourceHash": "f023fd4b2d1f008018e0d378e6b59c0a95510c7271b1d387fa9b26db3f09768e",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-24T15:12:17.166Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Applied the latest explicit user direction: set the jaw exactly 12% shorter than its original projection, for a current factor of .88 about the fixed rear attachment. Both pods retain their 12 degree rise toward the back and white borders derived from the blue shoulder housing profile. The white band follows the housing corners and slopes with constant-width inset edges; nested cobalt and navy profiles follow the same outline. Latest user changes supersede the longer illustrated jaw and regular inset octagons."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Read-only source ray queries identified the swept jaw penetrating its chin armor near the shield peak. Increased actual armor wall depth while retaining an embedded rear, seated the emblem rear 2 mm inside the plate, and refitted the white jaw strip to the swept surface. After shortening the jaw, refitted the rigid shield/armor without scaling their frontal outlines. Inspected final exported front and oblique shield close-ups: blue patch and adjoining white-band intersections are gone. Inspected both pod close-ups: housing and white perimeter share the same contour; slope is consistent on both sides. Rear and underside confirm attached housings and chin. Geometry audit reports zero degenerate triangles and zero loose vertices."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected final front, side, isometric, 390-pixel phone and small-model views. The shortened chin remains separate from the face, with the white shield readable at phone size. White pod borders remain continuous at small scale and the scanner is unobstructed."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model-only geometry refinement. Animation is still pending, with no clips added."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After the initial shield/pod edits, oblique inspection exposed the adjacent white lip intersecting the jaw; repaired its surface fit. Revision 13 implemented the 33% jaw reduction and contour-following borders. The user restored half the reduction in revision 14, then specified exactly 12% shorter than original. Exported revision 15 at .88 projection and reassessed its side profile, frontal chin, oblique shield/lip and phone view: projection is intermediate, shield remains seated and white lip has no shell breakthrough. Final geometry audit and Inspector captures match this source/export pair. User artistic acceptance is not inferred."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_iso.png",
+      "sha256": "c29272699e9d451395e66a871dce3d120465bd412f5788ff17ab0f38e255733e",
+      "view": "inspector_iso"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_front.png",
+      "sha256": "ea91eb3fa947a87312e6822dc115f080a68378bdb3dc886523a9d31714a4e783",
+      "view": "inspector_front"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_right.png",
+      "sha256": "39dbe5ffb35a0826efa21f9c4dcc05efff97f9dfd9b850471c5106ec0f87a96e",
+      "view": "inspector_right"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_pod_right.png",
+      "sha256": "ccb6ef86176ad7e9dffc74709fd9ea0dbe18e0ffcdbfe7d34f266111b333b462",
+      "view": "inspector_pod_right"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_pod_left.png",
+      "sha256": "736c8d241f9095f3c5c46db9df146ce6c1c0a4f98fb2290deaefabab13985bbd",
+      "view": "inspector_pod_left"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_shield.png",
+      "sha256": "bc8113782ce0cc84a1e4e538f4b5390e7f59d0776a98d0b131f15b2dd5c8f5b6",
+      "view": "inspector_shield"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_shield_oblique.png",
+      "sha256": "b1cf2d71c3f66a29778a73109e0872b6beeae9326ae1abe561ff15e29e017db5",
+      "view": "inspector_shield_oblique"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_bottom.png",
+      "sha256": "b8f8089050f216cb8232d1fa54cfed114c71394588e04ab18f8c49455e9f8342",
+      "view": "inspector_bottom"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_rear.png",
+      "sha256": "0fb856fdffe30c4c279c4383eb31cb207ecd5698960149fd30f6a1542d568dce",
+      "view": "inspector_rear"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_phone.png",
+      "sha256": "d8c11a9c1500d832a3f26f028de8621acc18100cb6e66d337e04d6bf287ee4c2",
+      "view": "inspector_phone"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_small.png",
+      "sha256": "a4be77f6569c7ea03ff2a546a885893564515dcaec5662a5c272c78f011a4e8a",
+      "view": "inspector_small"
+    }
+  ],
+  "userAcceptance": {
+    "status": "accepted",
+    "note": "User: \"looks good, make the animations\", after selecting 12% shorter jaw. Model approval and animation authorization recorded 2026-09-24."
+  },
+  "limitations": [
+    "The user-directed shorter jaw and housing-following pod borders intentionally update the original illustrated shapes.",
+    "Animation remains pending."
+  ]
+}

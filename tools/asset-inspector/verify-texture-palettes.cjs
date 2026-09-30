@@ -7,12 +7,12 @@ const os=require('node:os');
 const crypto=require('node:crypto');
 const {pathToFileURL}=require('node:url');
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE_PATH||'playwright');
-const project=path.resolve(__dirname,'../..'),folder=path.join(project,'blender/enemies/problem_bug_palette_test/v01');
+const project=path.resolve(__dirname,'../..'),folder=path.join(project,'blender/enemies/problem_bug/v01');
 const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
 (async()=>{
   const {validateManifest}=await import(pathToFileURL(path.join(project,'tools/asset-pipeline/contracts.mjs')));
   const manifest=JSON.parse(await fs.readFile(path.join(folder,'asset.json')));
-  const files=[manifest.source.path,manifest.runtime,'blender/enemies/problem_bug_palette_test/v01/bug_palette.png'];
+  const files=[manifest.source.path,manifest.runtime];
   const before=await Promise.all(files.map(async p=>hash(await fs.readFile(path.join(project,p)))));
   validateManifest(manifest);
   for(const mutate of [m=>m.texturePalettes[0].roles.shell.rect=[31,0,4,4],m=>m.texturePalettes[0].roles.red.rect=[0,0,4,4],m=>m.texturePalettes[0].roles.red.color='red',m=>m.texturePalettes[0].size=[2048,2048],m=>m.texturePalettes.push(m.texturePalettes[0])]){
@@ -23,10 +23,13 @@ const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
   const output=await fs.mkdtemp(path.join(os.tmpdir(),'tower-texture-palette-'));
   const browser=await chromium.launch({channel:process.env.BROWSER_CHANNEL||'msedge',headless:true});
   try{
+    const catalog=await (await fetch(url+'/api/models')).json();
+    assert(!catalog.some(m=>m.contract.id==='problem_bug_palette_test'),'Retired palette sample remains registered');
+    assert.equal((await fetch(url+'/runtime/enemies/problem_bug_palette_test_v01.glb')).status,404);
     const page=await browser.newPage({viewport:{width:1440,height:1000}}),errors=[];
     page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(['error','warning'].includes(m.type()))errors.push(m.text());});
     const ready=()=>page.waitForFunction(()=>window.inspectorState?.().entries.length===1&&!window.inspectorState().loading);
-    await page.goto(url+'/?asset=problem_bug_palette_test&version=v01');await ready();
+    await page.goto(url+'/?asset=problem_bug&version=v01');await ready();
     await page.locator('#review-open').click();await page.locator('summary').filter({hasText:'Palette · preview only'}).click();
     assert.equal(await page.locator('#palette-select option').count(),7);
     assert.match(await page.locator('#palette-status').innerText(),/Named texture swatches/);
@@ -39,19 +42,19 @@ const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
     await page.locator('#copy-changes').click();const note=JSON.parse(await page.locator('#feedback-copy').inputValue());
     assert.equal(note.sha256,manifest.delivery.sha256);assert.equal(note.previewOnlyChanges.texturePalettes.bug_palette.shell,'#33bb66');
     assert.deepEqual(note.texturePaletteEdits.map(e=>({role:e.role,rect:e.rect,from:e.from,to:e.to,origin:e.origin})),[
-      {role:'shell',rect:[0,0,4,4],from:'#3267AF',to:'#33bb66',origin:'top-left'},
-      {role:'red',rect:[24,0,4,4],from:'#E51C30',to:'#ff9900',origin:'top-left'}]);
+      {role:'shell',rect:manifest.texturePalettes[0].roles.shell.rect,from:'#3267AF',to:'#33bb66',origin:'top-left'},
+      {role:'red',rect:manifest.texturePalettes[0].roles.red.rect,from:'#E51C30',to:'#ff9900',origin:'top-left'}]);
     await page.screenshot({path:path.join(output,'edited.png')});
     await page.locator('#palette-reset').click();assert.equal(await page.locator('#palette-color').inputValue(),'#3267af');
     await page.locator('#copy-changes').click();const resetNote=JSON.parse(await page.locator('#feedback-copy').inputValue());
     assert.deepEqual(resetNote.previewOnlyChanges,{});assert.equal(resetNote.texturePaletteEdits,undefined);
     await paint('#33bb66');await page.locator('#refresh-models').click();await page.waitForFunction(()=>document.getElementById('palette-color').value==='#3267af'&&!window.inspectorState().loading);
     assert.equal(await page.locator('#palette-color').inputValue(),'#3267af');
-    // Compare against the migrated production Bug and exercise its texture controls.
-    await page.locator('#comparison-select').selectOption('enemies/problem_bug_v01.glb');await page.locator('#compare-asset').click();
+    // Compare two production models; no registered test asset is needed.
+    await page.locator('#comparison-select').selectOption('enemies/problem_lag_spike_v01.glb');await page.locator('#compare-asset').click();
     await page.waitForFunction(()=>window.inspectorState().entries.length===2&&!window.inspectorState().loading);
-    await page.locator('#palette-select').selectOption('texture:bug_palette:shell');assert.equal(await page.locator('#palette-color').inputValue(),'#3267af');
-    await paint('#ff00ff');await page.locator('#palette-reset').click();assert.equal(await page.locator('#palette-color').inputValue(),'#3267af');
+    await page.locator('#palette-select').selectOption('texture:lag_spike_palette:cyan');assert.equal(await page.locator('#palette-color').inputValue(),'#30c9f5');
+    await paint('#ff00ff');await page.locator('#palette-reset').click();assert.equal(await page.locator('#palette-color').inputValue(),'#30c9f5');
     // Explicitly unmapped atlases retain whole-material fallback.
     await page.goto(url+'/?asset=kaykit_basemodule_a&version=v01');await ready();
     assert.equal(await page.locator('#palette-select option').count(),1);
@@ -60,7 +63,7 @@ const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
       const THREE=await import('/vendor/three.module.js'),{GLTFLoader}=await import('/vendor/GLTFLoader.js');
       const {inspectTexturePalettes,setTexturePaletteColor,resetTexturePalette}=await import('/review.js');
       const check=(ok,message)=>{if(!ok)throw Error(message);};
-      const gltf=await new GLTFLoader().loadAsync('/runtime/enemies/problem_bug_palette_test_v01.glb');
+      const gltf=await new GLTFLoader().loadAsync('/runtime/enemies/problem_bug_v01.glb');
       const [p]=inspectTexturePalettes(THREE,gltf.scene,declarations),original=p.originalTexture,oldSource=original.source;
       // Another material and the emission slot share the original texture;
       // editing base colour must not alter either consumer or its Source.
@@ -70,9 +73,9 @@ const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
       check(p.previewTexture!==original&&p.previewTexture.source!==oldSource,'Preview shared the original Source');
       check(other.map===original&&p.material.emissiveMap===original&&original.source===oldSource,'Shared consumer changed');
       for(const key of ['flipY','colorSpace','minFilter','magFilter','wrapS','wrapT','channel'])check(p.previewTexture[key]===original[key],'Sampling setting changed: '+key);
-      const bytes=p.context.getImageData(0,0,32,4).data;
+      const bytes=p.context.getImageData(0,0,32,4).data,[sx,sy,sw,sh]=declarations[0].roles.shell.rect;
       for(let y=0;y<4;y++)for(let x=0;x<32;x++)for(let c=0;c<4;c++){
-        const i=(y*32+x)*4+c,expected=x<4&&c<3?[51,187,102][c]:p.original.data[i];check(bytes[i]===expected,'Unselected pixel or alpha changed');
+        const i=(y*32+x)*4+c,expected=x>=sx&&x<sx+sw&&y>=sy&&y<sy+sh&&c<3?[51,187,102][c]:p.original.data[i];check(bytes[i]===expected,'Unselected pixel or alpha changed');
       }
       resetTexturePalette(p);check(disposed===1&&p.material.map===original,'Preview not disposed or restored');
       check(p.context.getImageData(0,0,32,4).data.every((v,i)=>v===p.original.data[i]),'Reset pixels differ');

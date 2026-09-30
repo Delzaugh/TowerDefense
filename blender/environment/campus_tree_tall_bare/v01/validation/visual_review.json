@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_tree_tall_bare",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "9e29cd96c2c63be4ab88d84a680275ccd0eb4cfc9a2a634d6be39cfa0c0651f9",
+  "sourceHash": "6c0272bd5e21339a03e378c3e80895912008c261d027cbd36f426902a370baa3",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-24T11:19:57.355Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Narrow light-teal crown remains visibly taller and slimmer than the round form."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Front/reverse show a centered trunk entering the crown, with a flat capped ground contact and no base."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally inspected the phone-width and fixed-view renders: the crown outline and trunk remain readable; different forms are identifiable without relying only on color."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked primary width-to-height and crown bottom against the extracted authoritative geometry. The baseless form retains the original narrow silhouette."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_tree_tall_bare/v01/validation/iso.png",
+      "sha256": "884dba2b40a59e22b036860b02bf5bd6006c6377f889e2c3db89e4119465cb48",
+      "view": "validation/iso"
+    },
+    {
+      "path": "blender/environment/campus_tree_tall_bare/v01/validation/front.png",
+      "sha256": "8682d3f320a3f6bb78d4aacca25f651c01e0ec4308b5b6f73b5afde184f6fbb9",
+      "view": "validation/front"
+    },
+    {
+      "path": "blender/environment/campus_tree_tall_bare/v01/validation/rear.png",
+      "sha256": "b37fce12c1f1d9f1ce2c2324923cd9c9bcecbe851a7f8a7b0339081c0540273a",
+      "view": "validation/rear"
+    },
+    {
+      "path": "blender/environment/campus_tree_tall_bare/v01/renders/inspector-close.png",
+      "sha256": "500485a0bd1733ec9b8471ade39e6ed2639942c6ee8941649b607fb0f4a75820",
+      "view": "renders/inspector-close"
+    },
+    {
+      "path": "blender/environment/campus_tree_tall_bare/v01/renders/inspector-rear.png",
+      "sha256": "b2f4c3a68a0a9d517ecb499de5d207d9ab7eb41fc63f34ae37de6e83e04aa981",
+      "view": "renders/inspector-rear"
+    },
+    {
+      "path": "blender/environment/campus_tree_tall_bare/v01/renders/inspector-phone.png",
+      "sha256": "6fbb34b1941fb767e907c2152367b891f8b0bbaac484a2a0f2c38275a2476f9e",
+      "view": "renders/inspector-phone"
+    },
+    {
+      "path": "blender/environment/campus_tree_tall_bare/v01/renders/inspector-bottom.png",
+      "sha256": "45dab03364e150dc5bce12b17822c7963f9acfaa261e111e543d883b3a42210f",
+      "view": "renders/inspector-bottom"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "New family delivered for user artistic review; no approval inferred."
+  },
+  "limitations": [
+    "Static environmental art; no collision, pathfinding or gameplay placement integration."
+  ]
+}

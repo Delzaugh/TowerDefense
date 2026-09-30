@@ -1,0 +1,37 @@
+// Capture the registered asset through the shared Inspector, without changing it.
+const {chromium}=require(process.env.PLAYWRIGHT_MODULE_PATH);
+const path=require('node:path');
+const fs=require('node:fs/promises');
+(async()=>{
+ const browser=await chromium.launch({channel:'msedge',headless:true});
+ const page=await browser.newPage({viewport:{width:1440,height:1120}});
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('http://127.0.0.1:4174/?asset=copilot_developer&version=v01');
+ await page.waitForFunction(()=>window.inspectorState?.().entries.length===1&&!window.inspectorState().loading);
+ await page.locator('#grid-button').click();
+ await page.locator('#review-open').click();
+ await page.locator('#background-select').selectOption('light');
+ await page.locator('#review-close').click();
+ const capture=async(name)=>{await page.waitForTimeout(180);await page.locator('#viewport').screenshot({path:path.join(__dirname,name+'.png')});};
+ await capture('inspector_iso');
+ await page.locator('#zoom-in-button').click();
+ await capture('inspector_close_front_oblique');
+ await page.locator('[data-view="rear"]').click();
+ const box=await page.locator('#viewport').boundingBox();
+ await page.mouse.move(box.x+box.width*.5,box.y+box.height*.45);
+ await page.mouse.down();await page.mouse.move(box.x+box.width*.5+125,box.y+box.height*.45+35,{steps:12});await page.mouse.up();
+ await capture('inspector_rear_oblique');
+ await page.locator('[data-view="bottom"]').click();await capture('inspector_underside');
+ await page.locator('[data-view="iso"]').click();
+ await page.locator('#review-open').click();
+ await page.locator('#phone-toggle').check();
+ await page.locator('#lighting-select').selectOption('gameplay');
+ await page.locator('#review-close').click();await capture('inspector_phone');
+ await page.locator('#review-open').click();await page.locator('#silhouette-button').click();
+ await page.locator('#review-close').click();await capture('inspector_small');
+ const state=await page.evaluate(()=>window.inspectorState());
+ await fs.writeFile(path.join(__dirname,'inspector_review.json'),JSON.stringify({errors,state},null,2));
+ if(errors.length)throw Error(errors.join('; '));
+ console.log(JSON.stringify({passed:true,triangles:state.entries[0].triangles,evidence:__dirname}));
+ await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});

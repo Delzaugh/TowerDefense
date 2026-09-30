@@ -1,0 +1,24 @@
+{
+  "referenceCrop": [
+    2,
+    455,
+    201,
+    672
+  ],
+  "rejectedCrop": [
+    98,
+    83,
+    723,
+    795
+  ],
+  "exportSideMaskCrop": [
+    250,
+    190,
+    650,
+    610
+  ],
+  "displayHeight": 420,
+  "alignment": "uniform per-image scale; top and ground aligned",
+  "sourceReference": "feedback-left-contour.png",
+  "exportHash": "81c10a725e0b451d9d840f8c0468b0bfd5199620a7775bfeecb6688da1e5251c"
+}

@@ -4,12 +4,12 @@
   "displayName": "Coding Task",
   "category": "work",
   "version": "v01",
-  "revision": 11,
+  "revision": 13,
   "source": {
     "path": "blender/work/work_coding_task/v01/work_coding_task_v01.blend",
     "mode": "procedural",
     "recipe": "blender/work/work_coding_task/v01/build.py",
-    "authoritativeHash": "70bed866583015e6b85fc5d70022e899d0e90b4dcd1b733030783ac24960533a"
+    "authoritativeHash": "2663298904c192efc0f62facef810bbab8d5bd36ac6f20ca2b7c6aac7c21eadd"
   },
   "runtime": "assets/runtime/work/work_coding_task_v01.glb",
   "budgets": {
@@ -62,13 +62,19 @@
       "name": "resolve",
       "playback": "once",
       "fps": 24,
-      "meaning": "Brief positive pop followed by a shrinking exit after simulation resolution; checkbox state is preserved."
+      "meaning": "Full-size completion pose with a confirmation mark and upward blueprint sweep; checklist state remains independent."
     },
     {
       "name": "checklist_progress",
       "meaning": "Visual state preview: zero, one, two, then three achieved checkboxes. Sample from simulation progress; elapsed playback does not award work.",
       "fps": 24,
       "playback": "once"
+    },
+    {
+      "name": "spawn",
+      "playback": "once",
+      "fps": 24,
+      "meaning": "Full-size blueprint outline trace and upward solid fill, settling into Idle hover."
     }
   ],
   "references": [
@@ -174,6 +180,30 @@
       "source": "blender/work/work_coding_task/v01/revisions/r10_before_r11/work_coding_task_v01.blend",
       "sha256": "9f397f24e922201eb71ddf3b0009ac5807b729684a00dd8fe1ca0175ddd920cc",
       "sourceHash": "79027d0c5befa552bdfe8efbb61ae822f5791785e996c8f43b407060824fbc16"
+    },
+    {
+      "label": "before_blueprint",
+      "revision": 11,
+      "export": "blender/work/work_coding_task/v01/revisions/r11_before_blueprint/work_coding_task_v01.glb",
+      "source": "blender/work/work_coding_task/v01/revisions/r11_before_blueprint/work_coding_task_v01.blend",
+      "sha256": "5f6ceeb75606cfadf162052aaf6383235d75b13708aae55c4407bc46135c82ac",
+      "sourceHash": "70bed866583015e6b85fc5d70022e899d0e90b4dcd1b733030783ac24960533a"
+    },
+    {
+      "label": "before_r12",
+      "revision": 11,
+      "export": "blender/work/work_coding_task/v01/revisions/r11_before_r12/work_coding_task_v01.glb",
+      "source": "blender/work/work_coding_task/v01/revisions/r11_before_r12/work_coding_task_v01.blend",
+      "sha256": "5f6ceeb75606cfadf162052aaf6383235d75b13708aae55c4407bc46135c82ac",
+      "sourceHash": "0dbb94a58b87d1a463fb62ca310fb436e935807f437d6cc105d165a44a4d03b9"
+    },
+    {
+      "label": "before_r13",
+      "revision": 12,
+      "export": "blender/work/work_coding_task/v01/revisions/r12_before_r13/work_coding_task_v01.glb",
+      "source": "blender/work/work_coding_task/v01/revisions/r12_before_r13/work_coding_task_v01.blend",
+      "sha256": "d427e15e5f1ac597b38d7315b0a5b3d3a34a5b08c39aa98de946aa7d1b1639c5",
+      "sourceHash": "2663298904c192efc0f62facef810bbab8d5bd36ac6f20ca2b7c6aac7c21eadd"
     }
   ],
   "decisions": "blender/work/work_coding_task/v01/decisions.md",
@@ -209,10 +239,10 @@
     "checked": 1
   },
   "delivery": {
-    "sha256": "5f6ceeb75606cfadf162052aaf6383235d75b13708aae55c4407bc46135c82ac",
-    "sourceHash": "70bed866583015e6b85fc5d70022e899d0e90b4dcd1b733030783ac24960533a",
+    "sha256": "527f55a828fae22bee0b296b382ad63f0667560326d072765a1031777b9fe3a5",
+    "sourceHash": "2663298904c192efc0f62facef810bbab8d5bd36ac6f20ca2b7c6aac7c21eadd",
     "report": "blender/work/work_coding_task/v01/validation/report.json",
-    "deliveredAt": "2026-09-17T20:36:55.572Z"
+    "deliveredAt": "2026-09-24T09:31:41.438Z"
   },
   "exportSettings": {
     "samplingInterpolation": "LINEAR",
@@ -302,5 +332,21 @@
         }
       }
     }
-  ]
+  ],
+  "presentation": {
+    "lifecycle": {
+      "type": "blueprint",
+      "version": 1,
+      "entryClip": "spawn",
+      "exitClip": "resolve",
+      "anchor": "task_motion",
+      "color": "#62EBD3",
+      "maxFragments": 0,
+      "stateMorphs": [
+        "checkbox_1",
+        "checkbox_2",
+        "checkbox_3"
+      ]
+    }
+  }
 }

@@ -1,0 +1,13 @@
+{
+  "sourceHash": "c978ee3c39b981ac44c2e3c3ecaa0ca281385c1bc56e5712ca1ef13b027f3060",
+  "meshes": [
+    {
+      "name": "security_model",
+      "triangles": 2802,
+      "degenerateTriangles": [],
+      "looseVertices": 0,
+      "namedPartGroups": 43
+    }
+  ],
+  "passed": true
+}

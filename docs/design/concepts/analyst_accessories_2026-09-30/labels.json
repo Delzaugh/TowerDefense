@@ -1,0 +1,31 @@
+{
+  "title": "Analyst Accessory Concepts",
+  "subtitle": "Six friendly directions without goggles.",
+  "category": "Tower",
+  "options": [
+    {
+      "name": "Data Fan",
+      "description": "Rounded crown tiles reveal data distributions"
+    },
+    {
+      "name": "Prism Reader",
+      "description": "Side mounted prism separates complex information"
+    },
+    {
+      "name": "Orbit Mapper",
+      "description": "Open halo connects three relationship nodes"
+    },
+    {
+      "name": "Index Keeper",
+      "description": "Stacked data slabs organize useful findings"
+    },
+    {
+      "name": "Pattern Sprout",
+      "description": "Branching crown links three pattern nodes"
+    },
+    {
+      "name": "Insight Cap",
+      "description": "Soft thinking cap carries chart badge"
+    }
+  ]
+}

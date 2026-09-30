@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_security",
+  "version": "v01",
+  "revision": 8,
+  "sha256": "39376d360235bf64fc2ac77760be588a32d3b882de59ffa9d71b35bf0c5892c0",
+  "sourceHash": "234caffbb259b429cbe9e8737c9c6ab835dc1413afd175d9319c3a3109cedf68",
+  "scope": "model",
+  "reviewedAt": null,
+  "checks": {
+    "referenceFidelity": {
+      "status": "pending",
+      "findings": ""
+    },
+    "construction": {
+      "status": "pending",
+      "findings": ""
+    },
+    "readability": {
+      "status": "pending",
+      "findings": ""
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model-stage review; no authored clips yet. Record the animation handoff or deferral in decisions; baseline animation remains pending."
+    }
+  },
+  "secondPass": {
+    "status": "pending",
+    "findings": ""
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_security/v01/validation/iso.png",
+      "sha256": "cebb9e14eaefae68870138cd350e760c6d4fe6a6b7d768abfbd289c57a597bbe",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/iso-silhouette.png",
+      "sha256": "c6a321cc1bad720dae914e7d4fcbcdd88ae616db43be841f7b66215bb4b65799",
+      "view": "iso",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/front.png",
+      "sha256": "8d955d36ea31dc1ccd39aec2d18d72aaac9037a5efb8eff0918d7a13623f81fd",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/front-silhouette.png",
+      "sha256": "e70237ae0b98f8aa154a4881685fd08c1d786b8ff4503b05b2dc3d09b83898e9",
+      "view": "front",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/side.png",
+      "sha256": "a4e67cab01dc2261701e2feb586d9d251b600bd64e04a3b8e5f7ee8d40f94cb6",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/side-silhouette.png",
+      "sha256": "8e494ae42cb39c973a02c7dd31c13207e2f47c08613c2575a9c9bc5567c6e271",
+      "view": "side",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/rear.png",
+      "sha256": "77d12758f1cf25cbb98f504f69c6944a2d6f8f38a4593466f293a1871fa3351d",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/rear-silhouette.png",
+      "sha256": "00fac848d789f2c9ad71f0d171fae660cbf44cac8d43c27082e4d2f62f5d4dad",
+      "view": "rear",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/top.png",
+      "sha256": "bf49c86029ce212672342d755f2dce7ee6acf08e7bc40a1450074b69c0c5cf5a",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/top-silhouette.png",
+      "sha256": "a675d89565b7716b6e9576382fcf6a3c6192725c0b18367f0ba6bdff62c7bd1f",
+      "view": "top",
+      "mode": "silhouette"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": ""
+  },
+  "limitations": []
+}

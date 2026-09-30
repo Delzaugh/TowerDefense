@@ -1,0 +1,37 @@
+{
+  "asset": "copilot_octocat_2_0_lowpoly",
+  "version": "v01",
+  "revision": 5,
+  "sha256": "b16e408dc3409a139609abda088fae9d368bccae599b82114c516f253d4454ee",
+  "checkedAt": "2026-09-30T17:10:59.552Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 3961,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 2,
+  "bones": 0,
+  "dimensions": [
+    1.453012466430664,
+    1.8004546165466309,
+    0.8288379013538361
+  ],
+  "bounds": [
+    [
+      -0.7266185879707336,
+      0,
+      -0.43258318305015564
+    ],
+    [
+      0.7263938784599304,
+      1.8004546165466309,
+      0.3962547183036804
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "a264b9081b1d2994551b5e656635f9b0cb287bee24185e23dff8700784d1290f",
+  "source": "blender/towers/copilot_octocat_2_0_lowpoly/v01/copilot_octocat_2_0_lowpoly_v01.blend",
+  "runtime": "assets/runtime/towers/copilot_octocat_2_0_lowpoly_v01.glb"
+}

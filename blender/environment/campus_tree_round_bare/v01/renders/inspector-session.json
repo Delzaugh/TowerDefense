@@ -1,0 +1,79 @@
+{
+  "sha256": "e41c2abe2ea7c2fed94eddbe8f2433a42773cf359987842379cc27c6deeb3b81",
+  "revision": 2,
+  "capturedAt": "2026-09-24T11:14:58.422Z",
+  "state": {
+    "resolveBudget": {
+      "used": 0,
+      "maxFragments": 256
+    },
+    "resolveEffects": [
+      {
+        "path": "environment/campus_tree_round_bare_v01.glb"
+      }
+    ],
+    "loading": false,
+    "activePath": "environment/campus_tree_round_bare_v01.glb",
+    "view": "iso",
+    "projection": "OrthographicCamera",
+    "distance": 12.803495952430156,
+    "target": [
+      0,
+      1.8050000524520877,
+      0
+    ],
+    "camera": [
+      6.642782671970286,
+      8.396481050259679,
+      8.738153422343197
+    ],
+    "effects": [
+      {
+        "path": "environment/campus_tree_round_bare_v01.glb",
+        "enabled": false,
+        "triangles": 0,
+        "meshes": 0,
+        "materials": 0
+      }
+    ],
+    "entries": [
+      {
+        "path": "environment/campus_tree_round_bare_v01.glb",
+        "revision": "e41c2abe2ea7c2fed94eddbe8f2433a42773cf359987842379cc27c6deeb3b81",
+        "triangles": 48,
+        "meshes": 1,
+        "materials": 1,
+        "bounds": [
+          [
+            -1.0733100175857544,
+            -2.8610228852699038e-8,
+            -0.9612231850624084
+          ],
+          [
+            1.0733100175857544,
+            3.6100001335144043,
+            0.9612231850624084
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [],
+        "clip": null,
+        "time": 0,
+        "playing": false,
+        "loop": true,
+        "speed": 1,
+        "pose": []
+      }
+    ]
+  },
+  "errors": []
+}

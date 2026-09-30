@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "runId": "story-polish-final-20260930-1840",
+  "captureMethod": "Production player Scene timeline seeks; no mutable production test hooks. CSS-scale story-canvas screenshot targeted explicitly because first documentcanvas is campus.",
+  "captures": [
+    {
+      "seconds": 14.7,
+      "state": "alarm",
+      "mode": "desktop",
+      "report": "../artifacts/story-polish-20260930/final/canvas-desktop-alarm.json"
+    },
+    {
+      "seconds": 23.3,
+      "state": "lock",
+      "mode": "desktop",
+      "report": "../artifacts/story-polish-20260930/final/canvas-desktop-lock.json"
+    },
+    {
+      "seconds": 32,
+      "state": "tow",
+      "mode": "desktop",
+      "report": "../artifacts/story-polish-20260930/final/canvas-desktop-tow.json"
+    },
+    {
+      "seconds": 14.7,
+      "state": "alarm",
+      "mode": "mobile",
+      "report": "../artifacts/story-polish-20260930/final/canvas-mobile-alarm.json"
+    },
+    {
+      "seconds": 23.3,
+      "state": "lock",
+      "mode": "mobile",
+      "report": "../artifacts/story-polish-20260930/final/canvas-mobile-lock.json"
+    },
+    {
+      "seconds": 32,
+      "state": "tow",
+      "mode": "mobile",
+      "report": "../artifacts/story-polish-20260930/final/canvas-mobile-tow.json"
+    }
+  ],
+  "artifacts": [
+    "../artifacts/story-polish-20260930/final/story-video.webm",
+    "../artifacts/story-polish-20260930/final/story-motion-metrics.json",
+    "../artifacts/story-polish-20260930/final/contact-creep.png",
+    "../artifacts/story-polish-20260930/final/contact-lift.png",
+    "../artifacts/story-polish-20260930/final/contact-haul.png"
+  ],
+  "buildFiles": [
+    {
+      "sha256": "2910FB69908E24AE831475AB2DDF4F52577D5EC2EC58197E2E17AEB482CB1168",
+      "name": "createStoryScene-Ovg4D6Uh.js"
+    },
+    {
+      "sha256": "9DFBAB6678E019F9BC361805429303D1DC87B2E33AB804CF1DC19F3D3F6B4503",
+      "name": "HomeScreen-ByGjPU1s.js"
+    },
+    {
+      "sha256": "63843B0C47F18709508C951E25CCFDFBD404B3B9A1ED3D05C6372641376A5F53",
+      "name": "HomeScreen-CkcQzMpu.css"
+    }
+  ],
+  "runtimeFiles": [
+    {
+      "sha256": "31C00F89BE05ED76157BBAAC3D8922C5FD44DB652FBA2C5345379044BA62074B",
+      "name": "problem_bug_v01.31c00f89be05ed76.glb"
+    },
+    {
+      "sha256": "7C7C4091373E20D1E22A891047B75EEA83958E69856FD63C36D354C4225A87B8",
+      "name": "story_capture_carrier_v01.7c7c4091373e20d1.glb"
+    },
+    {
+      "sha256": "ABD8D9B897DF63FED94E46080C715FBBFFDB2E29853B9C264C3471778D292F07",
+      "name": "story_courtyard_v01.abd8d9b897df63fe.glb"
+    },
+    {
+      "sha256": "8D33985ED755722902537366D318CE6C91DE21E8E94C8762BA4C9B33D8C64DB0",
+      "name": "copilot_base_v02.8d33985ed7557229.glb"
+    },
+    {
+      "sha256": "43E0DE013F4514D1BE50CC6EBA647F4F332A81E57B9035979E7A9B942C0AAE53",
+      "name": "copilot_octocat_classic_lowpoly_v01.43e0de013f4514d1.glb"
+    }
+  ]
+}

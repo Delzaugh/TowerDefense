@@ -1,0 +1,910 @@
+{
+  "runId": "story-polish-final-20260930-bands",
+  "reports": [
+    {
+      "version": 1,
+      "runId": "story-polish-final-20260930-bands",
+      "mode": "desktop",
+      "state": "alarm",
+      "requestedState": "alarm",
+      "appliedState": "alarm",
+      "seconds": 14.7,
+      "method": "Production player Scene timeline seeks; no mutable production test hooks. CSS-scale story-canvas screenshot targeted explicitly because first documentcanvas is campus.",
+      "screenshotCssPixels": {
+        "width": 1280,
+        "height": 459
+      },
+      "canvasBounds": {
+        "x": 0,
+        "y": 73.5,
+        "width": 1280,
+        "height": 458.5
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "gpu": {
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x00002204) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (NVIDIA)",
+        "softwareRendered": false
+      },
+      "diagnostics": {
+        "calls": 24,
+        "triangles": 16869,
+        "geometries": 24,
+        "textures": 25,
+        "pixelRatio": 1,
+        "state": {
+          "time": 14.7,
+          "paused": true,
+          "reducedMotion": false,
+          "finished": false,
+          "shot": "Something is wrong",
+          "actors": [
+            {
+              "role": "copilot",
+              "visible": true,
+              "clip": "story_alarm",
+              "position": [
+                -1.5,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "octocat",
+              "visible": true,
+              "clip": "idle",
+              "position": [
+                1.4,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "bug-left",
+              "visible": true,
+              "clip": "story_creep",
+              "position": [
+                2.1906289062500006,
+                0,
+                -2.3976572265625
+              ]
+            },
+            {
+              "role": "bug-right",
+              "visible": true,
+              "clip": "story_creep",
+              "position": [
+                7.1908,
+                0,
+                2.965
+              ]
+            }
+          ],
+          "capture": false,
+          "expression": "alarm",
+          "trapPhase": "hidden",
+          "ready": true,
+          "shadowSize": 1024,
+          "postPasses": 0,
+          "assets": [
+            "copilot_base@v02",
+            "copilot_octocat_classic_lowpoly@v01",
+            "problem_bug@v01",
+            "story_courtyard@v01",
+            "story_capture_carrier@v01"
+          ]
+        }
+      },
+      "result": {
+        "ok": true,
+        "reason": "nonblank",
+        "alphaPixels": 4109,
+        "variance": 255,
+        "colorBuckets": 342,
+        "metrics": {
+          "colorBuckets": 483,
+          "colorEntropyBits": 7.04,
+          "edgeDensity": 0.307,
+          "luminance": {
+            "mean": 127.7,
+            "p5": 12.8,
+            "p95": 211.7,
+            "contrast": 199
+          },
+          "dominantColorShare": 0.044,
+          "nonBackgroundShare": 0.956
+        },
+        "renderBudget": {
+          "tier": "desktop",
+          "rows": [
+            {
+              "metric": "calls",
+              "limit": 300,
+              "actual": 24,
+              "ok": true
+            },
+            {
+              "metric": "triangles",
+              "limit": 750000,
+              "actual": 16869,
+              "ok": true
+            },
+            {
+              "metric": "geometries",
+              "limit": 300,
+              "actual": 24,
+              "ok": true
+            },
+            {
+              "metric": "textures",
+              "limit": 60,
+              "actual": 25,
+              "ok": true
+            }
+          ],
+          "withinBudget": true,
+          "note": "Skill starting-point budgets; no GPU timing inferred"
+        }
+      },
+      "screenshotPath": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\final\\canvas-desktop-alarm.png"
+    },
+    {
+      "version": 1,
+      "runId": "story-polish-final-20260930-bands",
+      "mode": "desktop",
+      "state": "lock",
+      "requestedState": "lock",
+      "appliedState": "lock",
+      "seconds": 23.3,
+      "method": "Production player Scene timeline seeks; no mutable production test hooks. CSS-scale story-canvas screenshot targeted explicitly because first documentcanvas is campus.",
+      "screenshotCssPixels": {
+        "width": 1280,
+        "height": 459
+      },
+      "canvasBounds": {
+        "x": 0,
+        "y": 73.5,
+        "width": 1280,
+        "height": 458.5
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "gpu": {
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x00002204) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (NVIDIA)",
+        "softwareRendered": false
+      },
+      "diagnostics": {
+        "calls": 31,
+        "triangles": 20707,
+        "geometries": 29,
+        "textures": 25,
+        "pixelRatio": 1,
+        "state": {
+          "time": 23.3,
+          "paused": true,
+          "reducedMotion": false,
+          "finished": false,
+          "shot": "The trap closes",
+          "actors": [
+            {
+              "role": "copilot",
+              "visible": true,
+              "clip": "story_listen",
+              "position": [
+                -1.5,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "octocat",
+              "visible": true,
+              "clip": "story_startle",
+              "position": [
+                1.4,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "bug-left",
+              "visible": true,
+              "clip": "story_lurk",
+              "position": [
+                -0.40000000000000036,
+                0,
+                -1.75
+              ]
+            },
+            {
+              "role": "bug-right",
+              "visible": true,
+              "clip": "story_lurk",
+              "position": [
+                3.4,
+                0,
+                1.75
+              ]
+            }
+          ],
+          "capture": true,
+          "expression": null,
+          "trapPhase": "lock",
+          "ready": true,
+          "shadowSize": 1024,
+          "postPasses": 0,
+          "assets": [
+            "copilot_base@v02",
+            "copilot_octocat_classic_lowpoly@v01",
+            "problem_bug@v01",
+            "story_courtyard@v01",
+            "story_capture_carrier@v01"
+          ]
+        }
+      },
+      "result": {
+        "ok": true,
+        "reason": "nonblank",
+        "alphaPixels": 4109,
+        "variance": 251,
+        "colorBuckets": 333,
+        "metrics": {
+          "colorBuckets": 471,
+          "colorEntropyBits": 6.91,
+          "edgeDensity": 0.369,
+          "luminance": {
+            "mean": 134.7,
+            "p5": 28.5,
+            "p95": 209.4,
+            "contrast": 180.9
+          },
+          "dominantColorShare": 0.046,
+          "nonBackgroundShare": 0.954
+        },
+        "renderBudget": {
+          "tier": "desktop",
+          "rows": [
+            {
+              "metric": "calls",
+              "limit": 300,
+              "actual": 31,
+              "ok": true
+            },
+            {
+              "metric": "triangles",
+              "limit": 750000,
+              "actual": 20707,
+              "ok": true
+            },
+            {
+              "metric": "geometries",
+              "limit": 300,
+              "actual": 29,
+              "ok": true
+            },
+            {
+              "metric": "textures",
+              "limit": 60,
+              "actual": 25,
+              "ok": true
+            }
+          ],
+          "withinBudget": true,
+          "note": "Skill starting-point budgets; no GPU timing inferred"
+        }
+      },
+      "screenshotPath": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\final\\canvas-desktop-lock.png"
+    },
+    {
+      "version": 1,
+      "runId": "story-polish-final-20260930-bands",
+      "mode": "desktop",
+      "state": "tow",
+      "requestedState": "tow",
+      "appliedState": "tow",
+      "seconds": 32,
+      "method": "Production player Scene timeline seeks; no mutable production test hooks. CSS-scale story-canvas screenshot targeted explicitly because first documentcanvas is campus.",
+      "screenshotCssPixels": {
+        "width": 1280,
+        "height": 459
+      },
+      "canvasBounds": {
+        "x": 0,
+        "y": 73.5,
+        "width": 1280,
+        "height": 458.5
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "gpu": {
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x00002204) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (NVIDIA)",
+        "softwareRendered": false
+      },
+      "diagnostics": {
+        "calls": 29,
+        "triangles": 20515,
+        "geometries": 29,
+        "textures": 25,
+        "pixelRatio": 1,
+        "state": {
+          "time": 32,
+          "paused": true,
+          "reducedMotion": false,
+          "finished": false,
+          "shot": "Carried away",
+          "actors": [
+            {
+              "role": "copilot",
+              "visible": true,
+              "clip": "story_listen",
+              "position": [
+                -1.7,
+                0,
+                1.3
+              ]
+            },
+            {
+              "role": "octocat",
+              "visible": true,
+              "clip": "story_struggle",
+              "position": [
+                2.8080000000000003,
+                0.58,
+                0
+              ]
+            },
+            {
+              "role": "bug-left",
+              "visible": true,
+              "clip": "story_haul",
+              "position": [
+                1.008,
+                0,
+                -1.75
+              ]
+            },
+            {
+              "role": "bug-right",
+              "visible": true,
+              "clip": "story_haul",
+              "position": [
+                4.808,
+                0,
+                1.75
+              ]
+            }
+          ],
+          "capture": true,
+          "expression": null,
+          "trapPhase": "tow",
+          "ready": true,
+          "shadowSize": 1024,
+          "postPasses": 0,
+          "assets": [
+            "copilot_base@v02",
+            "copilot_octocat_classic_lowpoly@v01",
+            "problem_bug@v01",
+            "story_courtyard@v01",
+            "story_capture_carrier@v01"
+          ]
+        }
+      },
+      "result": {
+        "ok": true,
+        "reason": "nonblank",
+        "alphaPixels": 4109,
+        "variance": 255,
+        "colorBuckets": 327,
+        "metrics": {
+          "colorBuckets": 460,
+          "colorEntropyBits": 6.87,
+          "edgeDensity": 0.326,
+          "luminance": {
+            "mean": 142.8,
+            "p5": 28.3,
+            "p95": 214.7,
+            "contrast": 186.3
+          },
+          "dominantColorShare": 0.043,
+          "nonBackgroundShare": 0.957
+        },
+        "renderBudget": {
+          "tier": "desktop",
+          "rows": [
+            {
+              "metric": "calls",
+              "limit": 300,
+              "actual": 29,
+              "ok": true
+            },
+            {
+              "metric": "triangles",
+              "limit": 750000,
+              "actual": 20515,
+              "ok": true
+            },
+            {
+              "metric": "geometries",
+              "limit": 300,
+              "actual": 29,
+              "ok": true
+            },
+            {
+              "metric": "textures",
+              "limit": 60,
+              "actual": 25,
+              "ok": true
+            }
+          ],
+          "withinBudget": true,
+          "note": "Skill starting-point budgets; no GPU timing inferred"
+        }
+      },
+      "screenshotPath": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\final\\canvas-desktop-tow.png"
+    },
+    {
+      "version": 1,
+      "runId": "story-polish-final-20260930-bands",
+      "mode": "mobile",
+      "state": "alarm",
+      "requestedState": "alarm",
+      "appliedState": "alarm",
+      "seconds": 14.7,
+      "method": "Production player Scene timeline seeks; no mutable production test hooks. CSS-scale story-canvas screenshot targeted explicitly because first documentcanvas is campus.",
+      "screenshotCssPixels": {
+        "width": 412,
+        "height": 565
+      },
+      "canvasBounds": {
+        "x": 0,
+        "y": 72,
+        "width": 412,
+        "height": 565
+      },
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "gpu": {
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x00002204) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (NVIDIA)",
+        "softwareRendered": false
+      },
+      "diagnostics": {
+        "calls": 14,
+        "triangles": 14093,
+        "geometries": 24,
+        "textures": 24,
+        "pixelRatio": 1.5,
+        "state": {
+          "time": 14.7,
+          "paused": true,
+          "reducedMotion": false,
+          "finished": false,
+          "shot": "Something is wrong",
+          "actors": [
+            {
+              "role": "copilot",
+              "visible": true,
+              "clip": "story_alarm",
+              "position": [
+                -1.5,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "octocat",
+              "visible": true,
+              "clip": "idle",
+              "position": [
+                1.4,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "bug-left",
+              "visible": true,
+              "clip": "story_creep",
+              "position": [
+                2.1906289062500006,
+                0,
+                -2.3976572265625
+              ]
+            },
+            {
+              "role": "bug-right",
+              "visible": true,
+              "clip": "story_creep",
+              "position": [
+                7.1908,
+                0,
+                2.965
+              ]
+            }
+          ],
+          "capture": false,
+          "expression": "alarm",
+          "trapPhase": "hidden",
+          "ready": true,
+          "shadowSize": 1024,
+          "postPasses": 0,
+          "assets": [
+            "copilot_base@v02",
+            "copilot_octocat_classic_lowpoly@v01",
+            "problem_bug@v01",
+            "story_courtyard@v01",
+            "story_capture_carrier@v01"
+          ]
+        }
+      },
+      "result": {
+        "ok": true,
+        "reason": "nonblank",
+        "alphaPixels": 4157,
+        "variance": 255,
+        "colorBuckets": 296,
+        "metrics": {
+          "colorBuckets": 425,
+          "colorEntropyBits": 6.55,
+          "edgeDensity": 0.276,
+          "luminance": {
+            "mean": 134.6,
+            "p5": 28.5,
+            "p95": 212,
+            "contrast": 183.4
+          },
+          "dominantColorShare": 0.051,
+          "nonBackgroundShare": 0.949
+        },
+        "renderBudget": {
+          "tier": "mobile",
+          "rows": [
+            {
+              "metric": "calls",
+              "limit": 150,
+              "actual": 14,
+              "ok": true
+            },
+            {
+              "metric": "triangles",
+              "limit": 300000,
+              "actual": 14093,
+              "ok": true
+            },
+            {
+              "metric": "geometries",
+              "limit": 200,
+              "actual": 24,
+              "ok": true
+            },
+            {
+              "metric": "textures",
+              "limit": 40,
+              "actual": 24,
+              "ok": true
+            }
+          ],
+          "withinBudget": true,
+          "note": "Skill starting-point budgets; no GPU timing inferred"
+        }
+      },
+      "screenshotPath": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\final\\canvas-mobile-alarm.png"
+    },
+    {
+      "version": 1,
+      "runId": "story-polish-final-20260930-bands",
+      "mode": "mobile",
+      "state": "lock",
+      "requestedState": "lock",
+      "appliedState": "lock",
+      "seconds": 23.3,
+      "method": "Production player Scene timeline seeks; no mutable production test hooks. CSS-scale story-canvas screenshot targeted explicitly because first documentcanvas is campus.",
+      "screenshotCssPixels": {
+        "width": 412,
+        "height": 565
+      },
+      "canvasBounds": {
+        "x": 0,
+        "y": 72,
+        "width": 412,
+        "height": 565
+      },
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "gpu": {
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x00002204) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (NVIDIA)",
+        "softwareRendered": false
+      },
+      "diagnostics": {
+        "calls": 31,
+        "triangles": 20707,
+        "geometries": 29,
+        "textures": 25,
+        "pixelRatio": 1.5,
+        "state": {
+          "time": 23.3,
+          "paused": true,
+          "reducedMotion": false,
+          "finished": false,
+          "shot": "The trap closes",
+          "actors": [
+            {
+              "role": "copilot",
+              "visible": true,
+              "clip": "story_listen",
+              "position": [
+                -1.5,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "octocat",
+              "visible": true,
+              "clip": "story_startle",
+              "position": [
+                1.4,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "bug-left",
+              "visible": true,
+              "clip": "story_lurk",
+              "position": [
+                -0.40000000000000036,
+                0,
+                -1.75
+              ]
+            },
+            {
+              "role": "bug-right",
+              "visible": true,
+              "clip": "story_lurk",
+              "position": [
+                3.4,
+                0,
+                1.75
+              ]
+            }
+          ],
+          "capture": true,
+          "expression": null,
+          "trapPhase": "lock",
+          "ready": true,
+          "shadowSize": 1024,
+          "postPasses": 0,
+          "assets": [
+            "copilot_base@v02",
+            "copilot_octocat_classic_lowpoly@v01",
+            "problem_bug@v01",
+            "story_courtyard@v01",
+            "story_capture_carrier@v01"
+          ]
+        }
+      },
+      "result": {
+        "ok": true,
+        "reason": "nonblank",
+        "alphaPixels": 4157,
+        "variance": 255,
+        "colorBuckets": 338,
+        "metrics": {
+          "colorBuckets": 500,
+          "colorEntropyBits": 6.71,
+          "edgeDensity": 0.31,
+          "luminance": {
+            "mean": 146.4,
+            "p5": 29.3,
+            "p95": 218.7,
+            "contrast": 189.4
+          },
+          "dominantColorShare": 0.069,
+          "nonBackgroundShare": 0.931
+        },
+        "renderBudget": {
+          "tier": "mobile",
+          "rows": [
+            {
+              "metric": "calls",
+              "limit": 150,
+              "actual": 31,
+              "ok": true
+            },
+            {
+              "metric": "triangles",
+              "limit": 300000,
+              "actual": 20707,
+              "ok": true
+            },
+            {
+              "metric": "geometries",
+              "limit": 200,
+              "actual": 29,
+              "ok": true
+            },
+            {
+              "metric": "textures",
+              "limit": 40,
+              "actual": 25,
+              "ok": true
+            }
+          ],
+          "withinBudget": true,
+          "note": "Skill starting-point budgets; no GPU timing inferred"
+        }
+      },
+      "screenshotPath": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\final\\canvas-mobile-lock.png"
+    },
+    {
+      "version": 1,
+      "runId": "story-polish-final-20260930-bands",
+      "mode": "mobile",
+      "state": "tow",
+      "requestedState": "tow",
+      "appliedState": "tow",
+      "seconds": 32,
+      "method": "Production player Scene timeline seeks; no mutable production test hooks. CSS-scale story-canvas screenshot targeted explicitly because first documentcanvas is campus.",
+      "screenshotCssPixels": {
+        "width": 412,
+        "height": 565
+      },
+      "canvasBounds": {
+        "x": 0,
+        "y": 72,
+        "width": 412,
+        "height": 565
+      },
+      "viewport": {
+        "width": 412,
+        "height": 839
+      },
+      "gpu": {
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x00002204) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (NVIDIA)",
+        "softwareRendered": false
+      },
+      "diagnostics": {
+        "calls": 28,
+        "triangles": 20371,
+        "geometries": 29,
+        "textures": 25,
+        "pixelRatio": 1.5,
+        "state": {
+          "time": 32,
+          "paused": true,
+          "reducedMotion": false,
+          "finished": false,
+          "shot": "Carried away",
+          "actors": [
+            {
+              "role": "copilot",
+              "visible": true,
+              "clip": "story_listen",
+              "position": [
+                -1.7,
+                0,
+                1.3
+              ]
+            },
+            {
+              "role": "octocat",
+              "visible": true,
+              "clip": "story_struggle",
+              "position": [
+                2.8080000000000003,
+                0.58,
+                0
+              ]
+            },
+            {
+              "role": "bug-left",
+              "visible": true,
+              "clip": "story_haul",
+              "position": [
+                1.008,
+                0,
+                -1.75
+              ]
+            },
+            {
+              "role": "bug-right",
+              "visible": true,
+              "clip": "story_haul",
+              "position": [
+                4.808,
+                0,
+                1.75
+              ]
+            }
+          ],
+          "capture": true,
+          "expression": null,
+          "trapPhase": "tow",
+          "ready": true,
+          "shadowSize": 1024,
+          "postPasses": 0,
+          "assets": [
+            "copilot_base@v02",
+            "copilot_octocat_classic_lowpoly@v01",
+            "problem_bug@v01",
+            "story_courtyard@v01",
+            "story_capture_carrier@v01"
+          ]
+        }
+      },
+      "result": {
+        "ok": true,
+        "reason": "nonblank",
+        "alphaPixels": 4157,
+        "variance": 255,
+        "colorBuckets": 276,
+        "metrics": {
+          "colorBuckets": 403,
+          "colorEntropyBits": 6.43,
+          "edgeDensity": 0.285,
+          "luminance": {
+            "mean": 153.1,
+            "p5": 40.3,
+            "p95": 217.5,
+            "contrast": 177.2
+          },
+          "dominantColorShare": 0.068,
+          "nonBackgroundShare": 0.932
+        },
+        "renderBudget": {
+          "tier": "mobile",
+          "rows": [
+            {
+              "metric": "calls",
+              "limit": 150,
+              "actual": 28,
+              "ok": true
+            },
+            {
+              "metric": "triangles",
+              "limit": 300000,
+              "actual": 20371,
+              "ok": true
+            },
+            {
+              "metric": "geometries",
+              "limit": 200,
+              "actual": 29,
+              "ok": true
+            },
+            {
+              "metric": "textures",
+              "limit": 40,
+              "actual": 25,
+              "ok": true
+            }
+          ],
+          "withinBudget": true,
+          "note": "Skill starting-point budgets; no GPU timing inferred"
+        }
+      },
+      "screenshotPath": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\final\\canvas-mobile-tow.png"
+    }
+  ],
+  "motionGpu": {
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x00002204) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)",
+    "softwareRendered": false
+  }
+}

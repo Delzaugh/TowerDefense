@@ -1,0 +1,37 @@
+{
+  "asset": "campus_tile_construction",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "a790961697b0a911c28d9b2f198523d066abab71e0f99b83ef6a13eeece86d1c",
+  "checkedAt": "2026-09-24T11:56:29.095Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 920,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    36,
+    1.2000000476837158,
+    31.17691421508789
+  ],
+  "bounds": [
+    [
+      -18,
+      0,
+      -15.588457107543945
+    ],
+    [
+      18,
+      1.2000000476837158,
+      15.588457107543945
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "b9cbf6d0e5d3d9629f383b5d42f4167df6ab49c83b341eb3afea43947ad5019f",
+  "source": "blender/environment/campus_tile_construction/v01/campus_tile_construction_v01.blend",
+  "runtime": "assets/runtime/environment/campus_tile_construction_v01.glb"
+}

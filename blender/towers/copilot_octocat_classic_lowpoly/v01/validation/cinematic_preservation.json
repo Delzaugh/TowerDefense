@@ -1,0 +1,36 @@
+{
+  "sourceHash": "e433b387cd8bf61fe9d7fbc105bee080d0e086d3cd6c64885fdc144afb5fed29",
+  "exportHash": "43e0de013f4514d1be50cc6eba647f4f332a81e57b9035979e7a9b942c0aae53",
+  "baselineExportHash": "bdf5125b1e9500bce923f71fae74e56748a91160d197ff0f604ff498b38c0382",
+  "geometryByteIdentical": true,
+  "materialsByteIdentical": true,
+  "preservedClips": {
+    "idle": true,
+    "move": true,
+    "wave": true,
+    "celebrate": true
+  },
+  "newClips": [
+    {
+      "name": "story_talk",
+      "channels": 33,
+      "varyingChannels": 6
+    },
+    {
+      "name": "story_startle",
+      "channels": 33,
+      "varyingChannels": 6
+    },
+    {
+      "name": "story_struggle",
+      "channels": 33,
+      "varyingChannels": 10
+    },
+    {
+      "name": "story_reach",
+      "channels": 33,
+      "varyingChannels": 6
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,403 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_security",
+  "displayName": "Security",
+  "category": "towers",
+  "version": "v01",
+  "revision": 15,
+  "source": {
+    "path": "blender/towers/copilot_security/v01/copilot_security_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_security/v01/build.py",
+    "authoritativeHash": "f023fd4b2d1f008018e0d378e6b59c0a95510c7271b1d387fa9b26db3f09768e"
+  },
+  "runtime": "assets/runtime/towers/copilot_security_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 32,
+    "bones": 0,
+    "meshes": 2
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        2.4,
+        2.2,
+        1.95
+      ],
+      "max": [
+        2.8,
+        2.5,
+        2.3
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/copilot_security/v01/references/scanner-isolated.png",
+      "provenance": "User-supplied Security visual reference 1, 2026-09-24. Design input; annotations are not additional task instructions."
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/references/six-views.png",
+      "provenance": "User-supplied Security visual reference 2, 2026-09-24. Design input; annotations are not additional task instructions."
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/references/goggles.png",
+      "provenance": "User-supplied Security visual reference 3, 2026-09-24. Design input; annotations are not additional task instructions."
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/references/shape-study.png",
+      "provenance": "User-supplied Security visual reference 4, 2026-09-24. Design input; annotations are not additional task instructions."
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/references/side-pods.png",
+      "provenance": "User-supplied Security visual reference 5, 2026-09-24. Design input; annotations are not additional task instructions."
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/references/scanner-fitted.png",
+      "provenance": "User-supplied Security visual reference 6, 2026-09-24. Design input; annotations are not additional task instructions."
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/references/feedback-left-contour.png",
+      "provenance": "User rejection of revision 4 contour, 2026-09-24; primary side-profile authority for correction."
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/references/feedback-shield-artifact.png",
+      "provenance": "User screenshot identifying the blue patch at the shield apex, 2026-09-24. Design evidence for fixing intersecting jaw/chin armor."
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/references/feedback-pod-slope.png",
+      "provenance": "User screenshot requesting pods slope upward more toward the rear, 2026-09-24."
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/references/feedback-jaw-projection.png",
+      "provenance": "User screenshot requesting jaw retraction by 33%, 2026-09-24. This explicit direction supersedes the longer jaw in the original contour sheet."
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/references/feedback-pod-border.png",
+      "provenance": "User screenshot requesting white pod border alignment with the blue shoulder join contour, 2026-09-24. This explicit direction supersedes the separate regular octagonal border."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "contract.dimensions",
+      "reason": "Compact head-only persona follows supplied Security proportions; no body, legs or pedestal added."
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/copilot_security/v01/revisions/r2_before_r3/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r2_before_r3/copilot_security_v01.blend",
+      "sha256": "f72b5c82cb51bbd4821998b16bf7f2215470b38fe81005c3a61452f08547804b",
+      "sourceHash": "0fa75a93e9b91d56c9e3f4ba5605222efe14ea53c70fd15c8ce793a46c36c2e5"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/copilot_security/v01/revisions/r3_before_r4/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r3_before_r4/copilot_security_v01.blend",
+      "sha256": "735a22b7cdc200ea7e78749b6b2c85b9c6caf25bc3de24e711b8276b1d9e556c",
+      "sourceHash": "750704049e71e862972252b32788cfb6f74dec6e076db2fec5c27f7a83d1bfa0"
+    },
+    {
+      "label": "rejected_contour_r4",
+      "revision": 4,
+      "export": "blender/towers/copilot_security/v01/revisions/r4_rejected_contour_r4/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r4_rejected_contour_r4/copilot_security_v01.blend",
+      "sha256": "d43330b69d1d32ccd2802509cfd169fdfb85fccb42e1ac5e9ecf9f941d26bf7d",
+      "sourceHash": "c51117cf781b5d038f9908a83a32cbd0983333eac24b08ff774e4e543046cf0d"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/towers/copilot_security/v01/revisions/r4_before_r5/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r4_before_r5/copilot_security_v01.blend",
+      "sha256": "d43330b69d1d32ccd2802509cfd169fdfb85fccb42e1ac5e9ecf9f941d26bf7d",
+      "sourceHash": "c51117cf781b5d038f9908a83a32cbd0983333eac24b08ff774e4e543046cf0d"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/towers/copilot_security/v01/revisions/r5_before_r6/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r5_before_r6/copilot_security_v01.blend",
+      "sha256": "2157a78f1a40f9fbf8ae6cd551a201c6d7a1a75d4069c75e0820ab89aff52b1f",
+      "sourceHash": "a5bd05fa0688be0b7900f9fb11e910bc27ff9d9ece069b6b7258776f5cb0b7a1"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/towers/copilot_security/v01/revisions/r6_before_r7/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r6_before_r7/copilot_security_v01.blend",
+      "sha256": "cfc3b2efd122ad3cb28ef08d850945f78893ecee21a57c41367967ec7949e667",
+      "sourceHash": "1d424c6ded9ca88b1fdd05dfdb748ebbb9b5e2feab00fd93c81fbd6ff60eb074"
+    },
+    {
+      "label": "before_r8",
+      "revision": 7,
+      "export": "blender/towers/copilot_security/v01/revisions/r7_before_r8/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r7_before_r8/copilot_security_v01.blend",
+      "sha256": "c20c761d399300adf39489d2e4c42d5a707315697504868b5daa414e82005500",
+      "sourceHash": "5cfadfc3320932e6cb38986615e20084e5a22cd36c2b2d39411acbdd87bde3bf"
+    },
+    {
+      "label": "before_r9",
+      "revision": 8,
+      "export": "blender/towers/copilot_security/v01/revisions/r8_before_r9/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r8_before_r9/copilot_security_v01.blend",
+      "sha256": "39376d360235bf64fc2ac77760be588a32d3b882de59ffa9d71b35bf0c5892c0",
+      "sourceHash": "234caffbb259b429cbe9e8737c9c6ab835dc1413afd175d9319c3a3109cedf68"
+    },
+    {
+      "label": "before_r10",
+      "revision": 9,
+      "export": "blender/towers/copilot_security/v01/revisions/r9_before_r10/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r9_before_r10/copilot_security_v01.blend",
+      "sha256": "0b2d46f61026725411160077643bf6bb3afcd214a074dcc796b9b1e21cc3a8b4",
+      "sourceHash": "005691484c102587e39b136546fc9f7ad5a99f5b045510d804f26775e790ce8c"
+    },
+    {
+      "label": "before_r11",
+      "revision": 10,
+      "export": "blender/towers/copilot_security/v01/revisions/r10_before_r11/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r10_before_r11/copilot_security_v01.blend",
+      "sha256": "80c5c57cd3a1f8581c9323ac57bde98d4b8535b67757c5a621f1dce7e26490d3",
+      "sourceHash": "065f783335ca86877eef16eca686816aadac9082034f1fbc13ae69f7f0bf9e7e"
+    },
+    {
+      "label": "before_r12",
+      "revision": 11,
+      "export": "blender/towers/copilot_security/v01/revisions/r11_before_r12/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r11_before_r12/copilot_security_v01.blend",
+      "sha256": "57105220bbc3f816fa04a35144fc9567c28e9a78a918ad6bc487f5be59261566",
+      "sourceHash": "a85d0ba131d40105187481e21791e333deb8c9ad9311007da3fa9b0ca9592375"
+    },
+    {
+      "label": "before_r13",
+      "revision": 12,
+      "export": "blender/towers/copilot_security/v01/revisions/r12_before_r13/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r12_before_r13/copilot_security_v01.blend",
+      "sha256": "75dd0b39b51cb6d2ed79bd7c251919c713c8935ad6fe643e826fc56d71e74301",
+      "sourceHash": "fdeb249a98106b2126cc7955441c657e65e9eb0fb2aacd5be977209540a706c5"
+    },
+    {
+      "label": "before_r14",
+      "revision": 13,
+      "export": "blender/towers/copilot_security/v01/revisions/r13_before_r14/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r13_before_r14/copilot_security_v01.blend",
+      "sha256": "81c10a725e0b451d9d840f8c0468b0bfd5199620a7775bfeecb6688da1e5251c",
+      "sourceHash": "443fb6aae7a5d7ff42b07138258af17021bfc2851ba42cd32c55cc5239541e71"
+    },
+    {
+      "label": "before_r15",
+      "revision": 14,
+      "export": "blender/towers/copilot_security/v01/revisions/r14_before_r15/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r14_before_r15/copilot_security_v01.blend",
+      "sha256": "d922ae6ca88531e399da71c3ef4dbfa99bdf2b3a1db20ef260e311d1b558d274",
+      "sourceHash": "735500fd9a679103c97eaa9b8e642c497034d576ee4e4c82d921270fdf643acd"
+    }
+  ],
+  "decisions": "blender/towers/copilot_security/v01/decisions.md",
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "shell": "#1465EE",
+      "shell_dark": "#0948BE",
+      "trim": "#EAF4FE",
+      "graphite": "#25354F",
+      "screen": "#071A2B",
+      "lens": "#52B9F5",
+      "cyan": "#00E8ED",
+      "detail": "#092247"
+    }
+  },
+  "texturePalettes": [
+    {
+      "material": "security_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#1465EE",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#0948BE",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#EAF4FE",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#25354F",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#071A2B",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#52B9F5",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E8ED",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#092247",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "material": "security_optics",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#1465EE",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#0948BE",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#EAF4FE",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#25354F",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#071A2B",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#52B9F5",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E8ED",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#092247",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "aabd2b42dc8233ea2cda102246f341a82626af2f4a6c94806114f5f523430b7e",
+    "sourceHash": "f023fd4b2d1f008018e0d378e6b59c0a95510c7271b1d387fa9b26db3f09768e",
+    "report": "blender/towers/copilot_security/v01/validation/report.json",
+    "deliveredAt": "2026-09-24T15:11:37.311Z"
+  }
+}

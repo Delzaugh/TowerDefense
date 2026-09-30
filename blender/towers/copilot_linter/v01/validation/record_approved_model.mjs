@@ -1,0 +1,17 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+const folder=path.dirname(fileURLToPath(import.meta.url));
+const file=path.join(folder,'visual_review.json');
+const r=JSON.parse(await readFile(file,'utf8'));
+if(r.revision!==12)throw Error('This model assessment applies to revision 12 only.');
+r.scope='refinement';r.reviewedAt=new Date().toISOString();
+r.checks.referenceFidelity={status:'passed',findings:'Preserved the six 60-degree shooter mouths exactly, original shell/crown, proportions and lime palette. Latest user feedback supersedes exact study fidelity for pod roots, recessed face and visor. The new face border and darker framed cyan optics implement those explicit corrections.'};
+r.checks.construction={status:'passed',findings:'Corrected actual disconnected roots by fitting all sixteen vertices of every rear pod ring 0.035 m into the chassis surface. Source audit checks all six roots and unchanged mouth positions. Cut a real tapered recess into the body and seated both cyan status marks on its back plane. Inspected runtime front/side/iso/rear/top and live underside; the previous floating-pod gap and buried-panel notch are gone. No nonmanifold edges or zero-area faces remain; inherited collapsed latch vertices were welded without silhouette changes.'};
+r.checks.readability={status:'passed',findings:'The dark visor perimeter, shaped saturated cyan lenses and continuous face-well border remain clear in the standard runtime isometric render. Lowered the optics specular/coat after the first live Inspector review exposed an overly pale highlight; revision 12 retains lens color and depth. The six-pod silhouette and forward clearance remain intact.'};
+r.checks.motion={status:'not_applicable',findings:'Reviewed static model milestone. User has now authorized the baseline animation pass; no animations are claimed for this revision.'};
+r.secondPass={status:'passed',findings:'Rechecked revision 12 after the revision 11 optics adjustment: actual GLB fixed renders plus live underside with hash prefix 6585fe505408. Roots overlap body cleanly; face recess is legible; the visor retains brighter cyan without the excessive white highlight. User then said “looks good, make the animations”.'};
+r.evidence=r.evidence.filter(e=>e.mode==='shaded');
+r.userAcceptance={status:'accepted',note:'User feedback after the model refinement, 2026-09-24: “looks good, make the animations”. Acceptance applies to the refined model milestone; animation authorization is explicit and recorded separately.'};
+r.limitations=['Static model checkpoint; baseline animation is authorized and follows this accepted rest geometry.'];
+await writeFile(file,JSON.stringify(r,null,2)+'\n');

@@ -1,0 +1,18 @@
+{
+  "run": "Second audience framing review after carrierfloor, capturecamera, Copilotreach, badge and farewell repairs; Bugstride not frozen",
+  "capturedAt": "2026-09-30T18:31:21.4007039+02:00",
+  "timelineSeconds": 42,
+  "method": "Production Scene timeline paused seeks; screenshot evidence only",
+  "findings": [
+    "Desktopbadge14.7 clearheadroom",
+    "Deployment22 no visible trayintersection",
+    "Capture23.3 fullcast readable, no foregroundBug faceocclusion",
+    "Reach27 Copilotclearcarrier",
+    "Tow32 CatlooksbacktowardCopilot",
+    "Closing37 heldshortereyeexpression",
+    "Phone23.3 centeredCat/carrier fullyvisible; sidecharacters croppedatportraitedges"
+  ],
+  "buildFiles": [],
+  "runtimeFiles": [],
+  "buildHashLimitation": "Shared game/test-results build was removed after captures and before hash collection; no full build hashes claimed for this repair pass. Final build will be stored under this artifact folder."
+}

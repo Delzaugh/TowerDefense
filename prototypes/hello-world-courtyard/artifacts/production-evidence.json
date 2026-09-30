@@ -1,0 +1,18 @@
+{
+  "checks": [
+    "In-range sight across the Server is blocked; sight beside it remains clear",
+    "Built app has no development controller hook; suggested three-Base team clears all rounds through UI input",
+    "Paused speed buttons are disabled",
+    "Touch zoom changes the rendered canvas; Fit restores it; 320px phone and two landscape sizes remain usable",
+    "Deliberately failed asset load preserves a clear reload message and disables play"
+  ],
+  "outcomes": {
+    "work": "8",
+    "bugs": "7",
+    "missed": "0",
+    "health": "100 / 100"
+  },
+  "errors": [],
+  "failedRequests": [],
+  "intentionalAssetFailure": "Handled with persistent reload feedback"
+}

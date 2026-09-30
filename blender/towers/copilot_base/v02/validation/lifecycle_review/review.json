@@ -1,0 +1,499 @@
+{
+  "asset": "copilot_base",
+  "version": "v02",
+  "revision": 4,
+  "sha256": "5e77ade5c6ab41a765cf5f3638ce2629cad6efb1b6c9558d57c41a4642a598cf",
+  "sourceHash": "8cde3d238c14806a2fd9a6cda98fbc4d42c8457cd652ae19c30286ea404e84cd",
+  "rendererSha256": "98f1aa5265c1e9d18ea15c5fa65d453dbceecb7b84e31c7d942b1f225c5289c5",
+  "lifecycleRendererSha256": "fe40daaecfa3b96dd8a3dc93e758c8ea1890d8dffc8fa2809d4bda26d98d5cb2",
+  "reviewedAt": "2026-09-24T09:48:30.294Z",
+  "frames": [
+    {
+      "file": "rest.png",
+      "sha256": "40b7ee762ca95d1c034143385757d4e4191a25ea34c5f843565e7328eaba9a5a",
+      "clip": null,
+      "time": 0,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": null,
+        "timelineProgress": -1,
+        "progress": -1,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 40,
+        "triangles": 0,
+        "complete": false,
+        "version": 1
+      }
+    },
+    {
+      "file": "resolve-000.png",
+      "sha256": "b60ec7c8cc23eb9ea2a3c4e5314cb101f5a8e6bb481d2df2d97ea69dc44466ad",
+      "clip": "resolve",
+      "time": 0,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "resolve",
+        "timelineProgress": 0,
+        "progress": 0,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 40,
+        "triangles": 0,
+        "complete": false,
+        "version": 1
+      },
+      "progress": 0
+    },
+    {
+      "file": "resolve-016.png",
+      "sha256": "75c33f5df581be56af8c533f4bbda9ca76330e306e8e6aa582f32857e066b460",
+      "clip": "resolve",
+      "time": 0.2,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "resolve",
+        "timelineProgress": 0.16,
+        "progress": 0.16,
+        "fragments": 0,
+        "leased": 40,
+        "maxFragments": 40,
+        "triangles": 0,
+        "complete": false,
+        "version": 1
+      },
+      "progress": 0.16
+    },
+    {
+      "file": "resolve-032.png",
+      "sha256": "5ac952cb66e18e67b39d8a0e29a16a9c5ede74b1fee1d9b5c4687f88f3b9d482",
+      "clip": "resolve",
+      "time": 0.4,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "resolve",
+        "timelineProgress": 0.32,
+        "progress": 0.32,
+        "fragments": 16,
+        "leased": 40,
+        "maxFragments": 40,
+        "triangles": 192,
+        "complete": false,
+        "version": 1
+      },
+      "progress": 0.32
+    },
+    {
+      "file": "resolve-048.png",
+      "sha256": "9537c6306c77f1f205cae60fc15287a19050e565bec95cc5bde2c13d4e0bb82b",
+      "clip": "resolve",
+      "time": 0.6,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "resolve",
+        "timelineProgress": 0.48,
+        "progress": 0.48,
+        "fragments": 31,
+        "leased": 40,
+        "maxFragments": 40,
+        "triangles": 372,
+        "complete": false,
+        "version": 1
+      },
+      "progress": 0.48
+    },
+    {
+      "file": "resolve-064.png",
+      "sha256": "4ea94a87f406aea8f33996a498ca1dd5a102c3394120cf646b0d1c1509484867",
+      "clip": "resolve",
+      "time": 0.8,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "resolve",
+        "timelineProgress": 0.64,
+        "progress": 0.64,
+        "fragments": 23,
+        "leased": 40,
+        "maxFragments": 40,
+        "triangles": 276,
+        "complete": false,
+        "version": 1
+      },
+      "progress": 0.64
+    },
+    {
+      "file": "resolve-080.png",
+      "sha256": "f919f06feedc47f8a7cb3cf6b3b04ff4a19a23c4b493e23adeadc9329080d6ea",
+      "clip": "resolve",
+      "time": 1,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "resolve",
+        "timelineProgress": 0.8,
+        "progress": 0.8,
+        "fragments": 8,
+        "leased": 40,
+        "maxFragments": 40,
+        "triangles": 96,
+        "complete": false,
+        "version": 1
+      },
+      "progress": 0.8
+    },
+    {
+      "file": "resolve-100.png",
+      "sha256": "1710d256e80ddbf8fa5c4e52014c660ee748f84429887f4350d49c6401775b4f",
+      "clip": "resolve",
+      "time": 1.25,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "resolve",
+        "timelineProgress": 1,
+        "progress": 1,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 40,
+        "triangles": 0,
+        "complete": true,
+        "version": 1
+      },
+      "progress": 1
+    },
+    {
+      "file": "place-000.png",
+      "sha256": "1710d256e80ddbf8fa5c4e52014c660ee748f84429887f4350d49c6401775b4f",
+      "clip": "place",
+      "time": 0,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "place",
+        "timelineProgress": 0,
+        "progress": 1,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 40,
+        "triangles": 0,
+        "complete": false,
+        "version": 1
+      },
+      "progress": 0
+    },
+    {
+      "file": "place-016.png",
+      "sha256": "2f86ae26330a5daba8fc1667aed505522da4cfb83ae28d0be0f7930e0c0fc64e",
+      "clip": "place",
+      "time": 0.2,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "place",
+        "timelineProgress": 0.16,
+        "progress": 0.84,
+        "fragments": 5,
+        "leased": 40,
+        "maxFragments": 40,
+        "triangles": 60,
+        "complete": false,
+        "version": 1
+      },
+      "progress": 0.16
+    },
+    {
+      "file": "place-032.png",
+      "sha256": "12e92f20068804867cb9fe777ddb01331750001b837d78eb08f7129af9fe9c5b",
+      "clip": "place",
+      "time": 0.4,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "place",
+        "timelineProgress": 0.32,
+        "progress": 0.68,
+        "fragments": 20,
+        "leased": 40,
+        "maxFragments": 40,
+        "triangles": 240,
+        "complete": false,
+        "version": 1
+      },
+      "progress": 0.32
+    },
+    {
+      "file": "place-048.png",
+      "sha256": "22015242891bd0b923ee462b5d8fd50113bca4fdf50c9fd13657ba4e28ac72e3",
+      "clip": "place",
+      "time": 0.6,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "place",
+        "timelineProgress": 0.48,
+        "progress": 0.52,
+        "fragments": 31,
+        "leased": 40,
+        "maxFragments": 40,
+        "triangles": 372,
+        "complete": false,
+        "version": 1
+      },
+      "progress": 0.48
+    },
+    {
+      "file": "place-064.png",
+      "sha256": "d28424486c16867c4e3404ee6e9af3c0e1d3f9cb6aaf75c32318239c6c1172bf",
+      "clip": "place",
+      "time": 0.8,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "place",
+        "timelineProgress": 0.64,
+        "progress": 0.36,
+        "fragments": 19,
+        "leased": 40,
+        "maxFragments": 40,
+        "triangles": 228,
+        "complete": false,
+        "version": 1
+      },
+      "progress": 0.64
+    },
+    {
+      "file": "place-080.png",
+      "sha256": "233ab6b2452bfdf4004074f9628e9295894a46d8686214297696c609340bfe69",
+      "clip": "place",
+      "time": 1,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "place",
+        "timelineProgress": 0.8,
+        "progress": 0.2,
+        "fragments": 1,
+        "leased": 40,
+        "maxFragments": 40,
+        "triangles": 12,
+        "complete": false,
+        "version": 1
+      },
+      "progress": 0.8
+    },
+    {
+      "file": "place-100.png",
+      "sha256": "4d009e5abef7c8ac8df3a519869afb6cdd46294c93ffb8a73df00e045543391a",
+      "clip": "place",
+      "time": 1.25,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "place",
+        "timelineProgress": 1,
+        "progress": 0,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 40,
+        "triangles": 0,
+        "complete": true,
+        "version": 1
+      },
+      "progress": 1
+    },
+    {
+      "file": "idle-ready.png",
+      "sha256": "b60ec7c8cc23eb9ea2a3c4e5314cb101f5a8e6bb481d2df2d97ea69dc44466ad",
+      "clip": "idle",
+      "time": 0,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": null,
+        "timelineProgress": -1,
+        "progress": -1,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 40,
+        "triangles": 0,
+        "complete": false,
+        "version": 1
+      }
+    },
+    {
+      "file": "resolve-effect-off.png",
+      "sha256": "aebd3b296ea594180ff2b5c05d28a1cde858de92f0f6043900483460bdd66d3f",
+      "clip": "resolve",
+      "time": 1.25,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": false,
+        "clip": null,
+        "timelineProgress": -1,
+        "progress": -1,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 40,
+        "triangles": 0,
+        "complete": false,
+        "version": 1
+      }
+    },
+    {
+      "file": "rest-reset.png",
+      "sha256": "45980e56551fa99b55f78da9ed85a8e1c68a3d0ee4f83387a1b549bbe39cf5d6",
+      "clip": null,
+      "time": 0,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": null,
+        "timelineProgress": -1,
+        "progress": -1,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 40,
+        "triangles": 0,
+        "complete": false,
+        "version": 1
+      }
+    },
+    {
+      "file": "resolve-repeat-a.png",
+      "sha256": "9537c6306c77f1f205cae60fc15287a19050e565bec95cc5bde2c13d4e0bb82b",
+      "clip": "resolve",
+      "time": 0.6,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "resolve",
+        "timelineProgress": 0.48,
+        "progress": 0.48,
+        "fragments": 31,
+        "leased": 40,
+        "maxFragments": 40,
+        "triangles": 372,
+        "complete": false,
+        "version": 1
+      }
+    },
+    {
+      "file": "resolve-repeat-b.png",
+      "sha256": "9537c6306c77f1f205cae60fc15287a19050e565bec95cc5bde2c13d4e0bb82b",
+      "clip": "resolve",
+      "time": 0.6,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "resolve",
+        "timelineProgress": 0.48,
+        "progress": 0.48,
+        "fragments": 31,
+        "leased": 40,
+        "maxFragments": 40,
+        "triangles": 372,
+        "complete": false,
+        "version": 1
+      }
+    },
+    {
+      "file": "phone-resolve-mid.png",
+      "sha256": "30b39ba02f6f5f10af4dd2b2bde8f64e74ae40970c06f2c5d4ceb089866d6efe",
+      "clip": "resolve",
+      "time": 0.6,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "resolve",
+        "timelineProgress": 0.48,
+        "progress": 0.48,
+        "fragments": 31,
+        "leased": 40,
+        "maxFragments": 40,
+        "triangles": 372,
+        "complete": false,
+        "version": 1
+      },
+      "progress": 0.48,
+      "view": "phone, ground shadows"
+    },
+    {
+      "file": "phone-place-mid.png",
+      "sha256": "30b39ba02f6f5f10af4dd2b2bde8f64e74ae40970c06f2c5d4ceb089866d6efe",
+      "clip": "place",
+      "time": 0.65,
+      "effect": {
+        "path": "towers/copilot_base_v02.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": "place",
+        "timelineProgress": 0.52,
+        "progress": 0.48,
+        "fragments": 31,
+        "leased": 40,
+        "maxFragments": 40,
+        "triangles": 372,
+        "complete": false,
+        "version": 1
+      },
+      "progress": 0.52,
+      "view": "phone, ground shadows"
+    }
+  ],
+  "fallback": {
+    "diagnostics": {
+      "type": "digital_blocks",
+      "enabled": true,
+      "clip": "resolve",
+      "timelineProgress": 0.48,
+      "progress": 0.48,
+      "fragments": 0,
+      "leased": 0,
+      "maxFragments": 40,
+      "triangles": 0,
+      "complete": false,
+      "version": 1
+    },
+    "budgetAfterDispose": 0
+  },
+  "checks": [
+    "Inspector loads current export",
+    "Place/Resolve use matched 1.25-second timelines",
+    "full-size body with effect disabled",
+    "Place ends at Idle ready",
+    "Resolve ends invisible",
+    "Rest Pose reset",
+    "seek/replay deterministic",
+    "phone-scale view with ground shadows",
+    "40-fragment asset cap and zero-budget fallback",
+    "stationary root",
+    "no browser errors"
+  ]
+}

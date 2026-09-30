@@ -1,0 +1,348 @@
+{
+  "schemaVersion": 1,
+  "version": "v01",
+  "revision": 14,
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        2.2,
+        1.4,
+        2
+      ],
+      "max": [
+        2.35,
+        1.6,
+        2.2
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "blender/enemies/problem_bug/v01/references/concept.png",
+      "provenance": "User concept draft; red accents and no lightning bolt are explicit subsequent decisions."
+    },
+    {
+      "path": "blender/towers/copilot_base/v01/copilot_base_v01.blend",
+      "provenance": "Project low-poly form/material inspiration; no copied mesh."
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/references/user_hollow_shell_floating_seam_r6.png",
+      "provenance": "User screenshot identifying the hollow shell and floating dorsal red line, with subsequent explicit approval to rebuild a closed torso and supported groove, 2026-09-13. Visual evidence only."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "budgets.triangles",
+      "value": 2500,
+      "reason": "User requested additional detail with a maximum of 2500 triangles."
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/enemies/problem_bug/v01/revisions/r3_before_r4/problem_bug_v01.glb",
+      "source": "blender/enemies/problem_bug/v01/revisions/r3_before_r4/problem_bug_v01.blend",
+      "sha256": "47f1cb47d99dea313c799390fa710f8678a372457db76186b6e7528608aea94c",
+      "sourceHash": "5a5673bb9fb35147be8e5ba7fac4d3e22f7fd975086cc143f9af9c02968ded41"
+    },
+    {
+      "label": "before_closed_carapace",
+      "revision": 6,
+      "export": "blender/enemies/problem_bug/v01/revisions/r6_before_closed_carapace/problem_bug_v01.glb",
+      "source": "blender/enemies/problem_bug/v01/revisions/r6_before_closed_carapace/problem_bug_v01.blend",
+      "sha256": "d4ce09cbe5a56ff12224c93e2f2d804481781b7efa4925195a4a6c5cbc540352",
+      "sourceHash": "d63303ffbb8b8343d8225ded2ebc610c7c344f123baa372b441f51014406e1b2"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/enemies/problem_bug/v01/revisions/r6_before_r7/problem_bug_v01.glb",
+      "source": "blender/enemies/problem_bug/v01/revisions/r6_before_r7/problem_bug_v01.blend",
+      "sha256": "d4ce09cbe5a56ff12224c93e2f2d804481781b7efa4925195a4a6c5cbc540352",
+      "sourceHash": "d63303ffbb8b8343d8225ded2ebc610c7c344f123baa372b441f51014406e1b2"
+    },
+    {
+      "label": "before_r8",
+      "revision": 7,
+      "export": "blender/enemies/problem_bug/v01/revisions/r7_before_r8/problem_bug_v01.glb",
+      "source": "blender/enemies/problem_bug/v01/revisions/r7_before_r8/problem_bug_v01.blend",
+      "sha256": "f90170f0ad988f63dd86063826b9de96bfaa5ff7cf8a30c3529e78c7f3486ea5",
+      "sourceHash": "db013687564dc6f5edd6e186a79c789e5dec2e79b7a559506b0595cf3d6d1ddf"
+    },
+    {
+      "label": "before_glitch_breach",
+      "revision": 8,
+      "export": "blender/enemies/problem_bug/v01/revisions/r8_before_glitch_breach/problem_bug_v01.glb",
+      "source": "blender/enemies/problem_bug/v01/revisions/r8_before_glitch_breach/problem_bug_v01.blend",
+      "sha256": "6463dc98375ba97c45e53b8d3ea5fa27871089c6b4b072207dc689c480e35a5c",
+      "sourceHash": "5cdaf4982860bebd6a2ad16c4c5aad6b783747036c769a72f44bc78606bea4b8"
+    },
+    {
+      "label": "before_r9",
+      "revision": 8,
+      "export": "blender/enemies/problem_bug/v01/revisions/r8_before_r9/problem_bug_v01.glb",
+      "source": "blender/enemies/problem_bug/v01/revisions/r8_before_r9/problem_bug_v01.blend",
+      "sha256": "6463dc98375ba97c45e53b8d3ea5fa27871089c6b4b072207dc689c480e35a5c",
+      "sourceHash": "b6c354f7a975e16565114be54907c764f8e1d63cf3822371116da78e09dc60c9"
+    },
+    {
+      "label": "before_r10",
+      "revision": 9,
+      "export": "blender/enemies/problem_bug/v01/revisions/r9_before_r10/problem_bug_v01.glb",
+      "source": "blender/enemies/problem_bug/v01/revisions/r9_before_r10/problem_bug_v01.blend",
+      "sha256": "18e0f5653a6fc351fc8cb10c61c186e89f57d009e07beed14b077d4aaed6124b",
+      "sourceHash": "9f05d33b7d625f2def3d7346f7143c2be9a1817cd43c4539163dcbecf86f729a"
+    },
+    {
+      "label": "before_portal_removal",
+      "revision": 10,
+      "export": "blender/enemies/problem_bug/v01/revisions/r10_before_portal_removal/problem_bug_v01.glb",
+      "source": "blender/enemies/problem_bug/v01/revisions/r10_before_portal_removal/problem_bug_v01.blend",
+      "sha256": "591fe5cd2d807d0c4bfd474f7ed7e03fec9c97b485eed14ff1b523a44e6c36f7",
+      "sourceHash": "9f05d33b7d625f2def3d7346f7143c2be9a1817cd43c4539163dcbecf86f729a"
+    },
+    {
+      "label": "before_r11",
+      "revision": 10,
+      "export": "blender/enemies/problem_bug/v01/revisions/r10_before_r11/problem_bug_v01.glb",
+      "source": "blender/enemies/problem_bug/v01/revisions/r10_before_r11/problem_bug_v01.blend",
+      "sha256": "591fe5cd2d807d0c4bfd474f7ed7e03fec9c97b485eed14ff1b523a44e6c36f7",
+      "sourceHash": "2201813dba398071a3421289a1f40cba918f3399f9d8214dc97cb2fe742fc075"
+    },
+    {
+      "label": "before_material_refinement",
+      "revision": 11,
+      "export": "blender/enemies/problem_bug/v01/revisions/r11_before_material_refinement/problem_bug_v01.glb",
+      "source": "blender/enemies/problem_bug/v01/revisions/r11_before_material_refinement/problem_bug_v01.blend",
+      "sha256": "a44e0e584813cff6196010273cec3d6c872d8a85a6b3bc8c3a9f4004e8355a51",
+      "sourceHash": "2201813dba398071a3421289a1f40cba918f3399f9d8214dc97cb2fe742fc075"
+    },
+    {
+      "label": "before_r12",
+      "revision": 11,
+      "export": "blender/enemies/problem_bug/v01/revisions/r11_before_r12/problem_bug_v01.glb",
+      "source": "blender/enemies/problem_bug/v01/revisions/r11_before_r12/problem_bug_v01.blend",
+      "sha256": "a44e0e584813cff6196010273cec3d6c872d8a85a6b3bc8c3a9f4004e8355a51",
+      "sourceHash": "c066855500b9ef9f1e50118e1cc3b8fdfc4c9b41d0ff3ef0abbc207b43c1a26a"
+    },
+    {
+      "label": "cinematic_model_baseline",
+      "revision": 12,
+      "export": "blender/enemies/problem_bug/v01/revisions/r12_cinematic_model_baseline/problem_bug_v01.glb",
+      "source": "blender/enemies/problem_bug/v01/revisions/r12_cinematic_model_baseline/problem_bug_v01.blend",
+      "sha256": "c065c487c7669562106e12753aa2759bdf194b28bb4214a676fb613871225c41",
+      "sourceHash": "c066855500b9ef9f1e50118e1cc3b8fdfc4c9b41d0ff3ef0abbc207b43c1a26a"
+    },
+    {
+      "label": "before_r13",
+      "revision": 12,
+      "export": "blender/enemies/problem_bug/v01/revisions/r12_before_r13/problem_bug_v01.glb",
+      "source": "blender/enemies/problem_bug/v01/revisions/r12_before_r13/problem_bug_v01.blend",
+      "sha256": "c065c487c7669562106e12753aa2759bdf194b28bb4214a676fb613871225c41",
+      "sourceHash": "0485b0e372313ee43c6fae4b7080c1a602c0134338bdf5555f6cb51bd036bc1e"
+    },
+    {
+      "label": "before_r14",
+      "revision": 13,
+      "export": "blender/enemies/problem_bug/v01/revisions/r13_before_r14/problem_bug_v01.glb",
+      "source": "blender/enemies/problem_bug/v01/revisions/r13_before_r14/problem_bug_v01.blend",
+      "sha256": "28fd2b78a87502c0364e3e8b481fd741dad2768e9b465ac0f29ba57aaccfae74",
+      "sourceHash": "f6d425f7cc94e67d5410f5bf75e48765c9c3441222b64df31a147e893d957381"
+    }
+  ],
+  "id": "problem_bug",
+  "displayName": "Bug",
+  "category": "enemies",
+  "source": {
+    "path": "blender/enemies/problem_bug/v01/problem_bug_v01.blend",
+    "mode": "manual",
+    "recipe": "blender/enemies/problem_bug/v01/build.py",
+    "authoritativeHash": "f6d425f7cc94e67d5410f5bf75e48765c9c3441222b64df31a147e893d957381"
+  },
+  "runtime": "assets/runtime/enemies/problem_bug_v01.glb",
+  "budgets": {
+    "triangles": 2500,
+    "materials": 1,
+    "textures": 1,
+    "bones": 32,
+    "meshes": 1,
+    "textureSize": 512
+  },
+  "clips": [
+    {
+      "name": "move",
+      "playback": "loop",
+      "fps": 24,
+      "meaning": "In-place tripod locomotion."
+    },
+    {
+      "name": "hit",
+      "playback": "once",
+      "fps": 24,
+      "meaning": "Non-terminal recoil."
+    },
+    {
+      "name": "resolve",
+      "playback": "once",
+      "fps": 24,
+      "meaning": "Full-size debugging reaction with a top-down glitch erase and horizontal streaks."
+    },
+    {
+      "name": "spawn",
+      "playback": "once",
+      "fps": 24,
+      "meaning": "Full-size jagged glitch reveal on the body, with no breach portal, settling to the ready stance."
+    },
+    {
+      "name": "story_lurk",
+      "playback": "loop",
+      "fps": 24,
+      "meaning": "Low anticipation and searching head/antennae.",
+      "duration": 2.5
+    },
+    {
+      "name": "story_grab",
+      "playback": "once",
+      "fps": 24,
+      "meaning": "Wind-up, forward lunge and loaded brace; root remains stationary.",
+      "duration": 1.5
+    },
+    {
+      "name": "story_haul",
+      "fps": 24,
+      "playback": "loop",
+      "duration": 1.3333333333333333,
+      "meaning": "Baked two-link alternating-tripod gait with planted stance and lifted Hermite recovery. Nominal 0.7m visual travel/cycle; stationary root."
+    },
+    {
+      "name": "story_creep",
+      "fps": 24,
+      "playback": "loop",
+      "duration": 1.8333333333333333,
+      "meaning": "Baked two-link alternating-tripod gait with planted stance and lifted Hermite recovery. Nominal 0.65m visual travel/cycle; stationary root."
+    }
+  ],
+  "decisions": "blender/enemies/problem_bug/v01/decisions.md",
+  "palette": {
+    "attribute": "_palette_role",
+    "colors": {
+      "shell": "#3267AF",
+      "shell_light": "#447CC2",
+      "shell_dark": "#285591",
+      "navy": "#233B58",
+      "face": "#344D69",
+      "edge": "#192E46",
+      "red": "#E51C30",
+      "red_dark": "#9B1524"
+    },
+    "storage": "texture"
+  },
+  "delivery": {
+    "sha256": "225f1c9f81e540febb5a353b1417e963a7636463dd4437e7ef8be40634b66d3c",
+    "sourceHash": "f6d425f7cc94e67d5410f5bf75e48765c9c3441222b64df31a147e893d957381",
+    "report": "blender/enemies/problem_bug/v01/validation/report.json",
+    "deliveredAt": "2026-09-30T16:15:08.430Z"
+  },
+  "texturePalettes": [
+    {
+      "material": "bug_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "edge": {
+          "color": "#192E46",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "face": {
+          "color": "#344D69",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "navy": {
+          "color": "#233B58",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "red": {
+          "color": "#E51C30",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "red_dark": {
+          "color": "#9B1524",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell": {
+          "color": "#3267AF",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#285591",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear",
+    "paletteTextureWorkflow": true
+  },
+  "presentation": {
+    "lifecycle": {
+      "type": "glitch_breach",
+      "version": 1,
+      "entryClip": "spawn",
+      "exitClip": "resolve",
+      "anchor": "root",
+      "color": "#FF497C",
+      "maxFragments": 12,
+      "spawnPortal": false
+    }
+  }
+}

@@ -39,3 +39,23 @@ Visual QA: fixed runtime iso/side/rear and clip images; shared inspector reviewe
 ## Palette texture migration — revision 6 (2026-09-17)
 
 User-authorized texture-preferred alignment. Converted the then-current authoritative source to a packed 32×8 px palette (10 used colour roles). Opaque flat role colours suit texture editing; no vertex-colour exception was needed. Preserved geometry, existing UVs, rig, anchors, morphs, clips, material response and auxiliary emission data. Exact runtime parity passed; maximum rendered channel difference was 1/255. Before/after, reverse, clip and phone-scale views were personally reviewed. Evidence: `validation/palette_migration_r6/`. Original source/runtime retained in `revisions/r5_before_r6`. Later artistic refinements remain separate. Future guarded rebuilds retain texture delivery; ordinary exports use the packed Blender image.
+
+## Enemy Glitch breach — revision 7 (2026-09-24)
+
+User approved the Bug enemy lifecycle as the default for this asset. The previous resolve shrink is superseded by a full-size 1.25-second pose under the shared erase sweep; new spawn uses a jagged reveal directly on the parchment, a brief registration slip, and no portal. `presentation.lifecycle` and root extras set `glitch_breach` version 1, root anchor, `#FF497C`, `spawnPortal: false`, and two streak fragments. The combined ceiling is 1456 + 12 sweep + 24 streak = 1492 of 1500 triangles. Grounded boots remain supported, and Spawn returns to the idle-ready rest. Earlier idle/move/hit clips and accepted rest art are unchanged. The asset-local `animate_lifecycle.py` is called by the recipe for future guarded builds; this delivery used ordinary export of the edited authoritative Blender source.
+
+Milestone: `revisions/r6_before_glitch_breach/`. Guarded runtime verification, saved-source audit, personal close/phone visual review, and second pass are recorded in `validation/lifecycle/` and `validation/visual_review.json`. Technical and author review pass; user acceptance of this asset's new lifecycle is pending. The complete coverage effect requires the shared `tools/asset-presentation/lifecycle.js` presenter.
+
+## Shared Problems palette — revision 8 (2026-09-27)
+
+User direction: preserve character identities while unifying neutrals/accents, then trial a maximum of eight distinct base colours per Problem. Merged paper/edge and slate text/limb colours retain curled-paper silhouette, dark question mark and checklist bars. Reverse yoke and arms remain distinct from the pale sheet. This supersedes earlier authoring palette values, while preserving explicit shape and animation decisions. The delivered palette uses 8 distinct values; semantic roles stay independently editable.
+
+Shared definitions and role bindings: docs/design/Problems_Palette.json. Source packed base image and manifest updated together; ordinary guarded export passed. Prior source/GLB retained under the before_problem_palette milestone. Exact parity and actual Inspector role checks pass (validation/problem_palette_parity.json); final close/reverse and phone Rest/Move evidence personally inspected with a second author review. Geometry, UVs, rig, clips and emission are unchanged. No atlas-size, draw-call or FPS reduction is claimed. Artistic acceptance remains pending. Current source/runtime hashes are bound in validation/visual_review.json.
+
+## Seven-colour refinement — revision 9 (2026-09-27)
+
+User explicitly requested seven colours for Missing Details and Vague Spec. Merged the joint deep navy into the existing navy ink; pale limb panels, paper shadows and orange marks remain separate. Exactly seven distinct base colours are now source-authored. Retained the eight-colour source and GLB under before_seven_colours. Guarded export, Inspector swatches, exact geometry/animation/material/emission parity and final close/reverse/phone author review passed. The current hashes and evidence are recorded in validation/visual_review.json. User artistic acceptance remains pending.
+
+## Palette acceptance and cleanup — 2026-09-27
+
+User said "looks good" and requested deleting test/sample files and checking alignment. Recorded acceptance of the final displayed palette for revision 9; source c6efd0cacf042c06008146a8b8cd5fa63243431c6955551c8a84fa389d268eff, runtime 5b437567df99096c2ca1b63ee4913bb1604ee4a268d7e11a7092eb851d433b79. Read-only Blender packed-pixel audit and fresh guarded runtime validation pass. Source, recipe, production GLB, current validation evidence and named rollback milestones are retained; disposable staging exports are removed.

@@ -1,0 +1,96 @@
+{
+  "objects": [
+    {
+      "name": "OctoCat_eyes",
+      "verts": 255,
+      "triangles": 393,
+      "bounds": [
+        [
+          -0.7012245059013367,
+          0.6815522909164429
+        ],
+        [
+          -0.9525739550590515,
+          -0.6200727820396423
+        ],
+        [
+          0.7582274675369263,
+          1.392530918121338
+        ]
+      ],
+      "materials": [
+        "OctoCat_eyes_PBR"
+      ],
+      "attrs": []
+    },
+    {
+      "name": "OctoCat_body",
+      "verts": 1134,
+      "triangles": 2080,
+      "bounds": [
+        [
+          -1.1399999856948853,
+          1.1399999856948853
+        ],
+        [
+          -1.09823477268219,
+          1.09823477268219
+        ],
+        [
+          0.0,
+          2.3033347129821777
+        ]
+      ],
+      "materials": [
+        "OctoCat_body_PBR"
+      ],
+      "attrs": []
+    }
+  ],
+  "images": [
+    {
+      "name": "OctoCat_color_palette_256x8",
+      "size": [
+        256,
+        8
+      ],
+      "path": "//references\\texture_0.png"
+    }
+  ],
+  "materials": [
+    {
+      "name": "OctoCat_body_PBR",
+      "nodes": [
+        [
+          "Principled BSDF",
+          "BSDF_PRINCIPLED"
+        ],
+        [
+          "Material Output",
+          "OUTPUT_MATERIAL"
+        ],
+        [
+          "Image Texture",
+          "TEX_IMAGE"
+        ]
+      ]
+    },
+    {
+      "name": "OctoCat_eyes_PBR",
+      "nodes": [
+        [
+          "Principled BSDF",
+          "BSDF_PRINCIPLED"
+        ],
+        [
+          "Material Output",
+          "OUTPUT_MATERIAL"
+        ],
+        [
+          "Image Texture",
+          "TEX_IMAGE"
+        ]
+      ]
+    }
+  ]
+}

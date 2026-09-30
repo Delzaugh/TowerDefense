@@ -26,10 +26,10 @@
       "errors": []
     },
     {
-      "id": "github_mona_head",
+      "id": "copilot_mona_head",
       "version": "v01",
-      "source": "blender/towers/github_mona_head/v01/github_mona_head_v01.blend",
-      "runtime": "assets/runtime/towers/github_mona_head_v01.glb",
+      "source": "blender/towers/copilot_mona_head/v01/copilot_mona_head_v01.blend",
+      "runtime": "assets/runtime/towers/copilot_mona_head_v01.glb",
       "sha256": "bccfb8d95d5e909681b07288884e6d7ff0671ba2673a51cd5f62668bafe954da",
       "sourceHash": "fabae271770f41e34a83727d52c76690d25edbdba276a9e61d087e21f940b107",
       "passed": true,
@@ -85,11 +85,12 @@
       "version": "v01",
       "source": "blender/enemies/problem_bug/v01/problem_bug_v01.blend",
       "runtime": "assets/runtime/enemies/problem_bug_v01.glb",
-      "sha256": "6463dc98375ba97c45e53b8d3ea5fa27871089c6b4b072207dc689c480e35a5c",
-      "sourceHash": "5cdaf4982860bebd6a2ad16c4c5aad6b783747036c769a72f44bc78606bea4b8",
+      "sha256": "c065c487c7669562106e12753aa2759bdf194b28bb4214a676fb613871225c41",
+      "sourceHash": "c066855500b9ef9f1e50118e1cc3b8fdfc4c9b41d0ff3ef0abbc207b43c1a26a",
       "passed": true,
       "triangles": 2320,
-      "errors": []
+      "errors": [],
+      "checkedAt": "2026-09-26T22:54:46.101Z"
     },
     {
       "id": "kaykit_basemodule_a",
@@ -723,33 +724,36 @@
       "version": "v01",
       "source": "blender/enemies/problem_lag_spike/v01/problem_lag_spike_v01.blend",
       "runtime": "assets/runtime/enemies/problem_lag_spike_v01.glb",
-      "sha256": "46c8273d53a092a88993a28995c7ae7369b15822b585737fe637a0a2e5d3ffd5",
-      "sourceHash": "fdc57490631a2872e3a0fbbe9a02f5b6cf7bf797cd5bfef27eae16873dfd5081",
+      "sha256": "57b50be10be8426bf8639494d49e339d03a9ca9809124285bd998f4b99e12f89",
+      "sourceHash": "a6ebec2a19ce6f6dce5b8a72e4743d3cccf9589bfe152ec6ed90423027821914",
       "passed": true,
       "triangles": 1376,
-      "errors": []
+      "errors": [],
+      "checkedAt": "2026-09-26T22:54:46.101Z"
     },
     {
       "id": "problem_vague_spec",
       "version": "v01",
       "source": "blender/enemies/problem_vague_spec/v01/problem_vague_spec_v01.blend",
       "runtime": "assets/runtime/enemies/problem_vague_spec_v01.glb",
-      "sha256": "7288ea169999b79754d4d3a32dd25a4aa09e4b5c0f46d316ff85a58d744b35b8",
-      "sourceHash": "95d62b9e695319ae291738c491794f27c7b157ade7f2071c758ac563ca9bd53a",
+      "sha256": "5b437567df99096c2ca1b63ee4913bb1604ee4a268d7e11a7092eb851d433b79",
+      "sourceHash": "c6efd0cacf042c06008146a8b8cd5fa63243431c6955551c8a84fa389d268eff",
       "passed": true,
       "triangles": 1456,
-      "errors": []
+      "errors": [],
+      "checkedAt": "2026-09-26T22:54:46.101Z"
     },
     {
       "id": "problem_missing_details",
       "version": "v01",
       "source": "blender/enemies/problem_missing_details/v01/problem_missing_details_v01.blend",
       "runtime": "assets/runtime/enemies/problem_missing_details_v01.glb",
-      "sha256": "807ac0cdfddd3911515b10fcf413e9fdc5c1640bc3e0c53ed67518616077d808",
-      "sourceHash": "d546320028ec18d0a2540158b0bddf5afe8b88f04a8b18c6967700664ed12d25",
+      "sha256": "6b3e267075d1014c018ed681362670af86c5412667d3a2828777a15e54c49c6a",
+      "sourceHash": "1f6f73fee76a117a4204fe89b4de6f57e32c9dd5f408a866e534f2a4061768cc",
       "passed": true,
       "triangles": 1358,
-      "errors": []
+      "errors": [],
+      "checkedAt": "2026-09-26T22:54:46.101Z"
     },
     {
       "id": "work_coding_task",
@@ -763,10 +767,10 @@
       "errors": []
     },
     {
-      "id": "golden_compiler",
+      "id": "copilot_golden_compiler",
       "version": "v01",
-      "source": "blender/towers/golden_compiler/v01/golden_compiler_v01.blend",
-      "runtime": "assets/runtime/towers/golden_compiler_v01.glb",
+      "source": "blender/towers/copilot_golden_compiler/v01/copilot_golden_compiler_v01.blend",
+      "runtime": "assets/runtime/towers/copilot_golden_compiler_v01.glb",
       "sha256": "1d88ddd329b57876f2db41e45a40e83df55e2596763f7af819f3a7e88ee8b719",
       "sourceHash": "8381bb21d103215e379aeea934db399c1f6597a507e6a7ecae6a93d1416798a5",
       "passed": true,
@@ -789,43 +793,34 @@
       "version": "v01",
       "source": "blender/enemies/problem_dead_code/v01/problem_dead_code_v01.blend",
       "runtime": "assets/runtime/enemies/problem_dead_code_v01.glb",
-      "sha256": "549e547b49aab9dee7d1d5d5a1e0ff3d02d4c835192925c93892c887a24c97e7",
-      "sourceHash": "5778d0d1a506b8d9fb3cd73718592d5fa00800199b4f1612d4ab6f13fbb7a5ca",
+      "sha256": "4f1ba014aad4d26238d25336ee915211a36ddb962cfc6c862d5c7e6cb13d38f1",
+      "sourceHash": "607eab58386040201a0495e5c1fc07380fbdce6cafd9a2b94f479c7d1ca4b6da",
       "passed": true,
       "triangles": 868,
-      "errors": []
+      "errors": [],
+      "checkedAt": "2026-09-26T22:54:46.101Z"
     },
     {
       "id": "problem_spaghetti_code",
       "version": "v01",
       "source": "blender/enemies/problem_spaghetti_code/v01/problem_spaghetti_code_v01.blend",
       "runtime": "assets/runtime/enemies/problem_spaghetti_code_v01.glb",
-      "sha256": "b82f84fbb8725c25f649646c5894b9215035918c164a62484a670edd14a9acab",
-      "sourceHash": "899fd5c75359c78dfe61af03dbb533f76e2fe105f49604e77b0e6f2023170b7a",
+      "sha256": "4d6eae17c8a59c916f616666d34ea6a10e19ad9c74ca54cc2264be91edbf1a04",
+      "sourceHash": "308146e107ab27756f35eadefa99cfd90320cb7eae1aafaa9b363cf33975d1dc",
       "passed": true,
       "triangles": 2424,
-      "errors": []
+      "errors": [],
+      "checkedAt": "2026-09-26T22:54:46.101Z"
     },
     {
-      "id": "bert_breugelmans",
+      "id": "copilot_bert_breugelmans",
       "version": "v01",
-      "source": "blender/towers/bert_breugelmans/v01/bert_breugelmans_v01.blend",
-      "runtime": "assets/runtime/towers/bert_breugelmans_v01.glb",
+      "source": "blender/towers/copilot_bert_breugelmans/v01/copilot_bert_breugelmans_v01.blend",
+      "runtime": "assets/runtime/towers/copilot_bert_breugelmans_v01.glb",
       "sha256": "1a926c4bffe2b36c64577dae076db25cf107a2bb4ce30987ffb146b44e360130",
       "sourceHash": "044f37e79d6fb05e806d374049bc88b342ddee017b5eee23239019fba44b0d97",
       "passed": true,
       "triangles": 3993,
-      "errors": []
-    },
-    {
-      "id": "problem_bug_palette_test",
-      "version": "v01",
-      "source": "blender/enemies/problem_bug_palette_test/v01/problem_bug_palette_test_v01.blend",
-      "runtime": "assets/runtime/enemies/problem_bug_palette_test_v01.glb",
-      "sha256": "3210fff587383d6e9173bb89898abe00cc6d41de7ed02121a1b1b1fa5c3effaa",
-      "sourceHash": "118c0ddb218ba729682c1301fab1917bcbd4989df5f7b9aaf8fbd43c73f96837",
-      "passed": true,
-      "triangles": 2334,
       "errors": []
     },
     {
@@ -1049,10 +1044,10 @@
       "errors": []
     },
     {
-      "id": "linter_agent",
+      "id": "copilot_linter",
       "version": "v01",
-      "source": "blender/towers/linter_agent/v01/linter_agent_v01.blend",
-      "runtime": "assets/runtime/towers/linter_agent_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/copilot_linter_v01.blend",
+      "runtime": "assets/runtime/towers/copilot_linter_v01.glb",
       "sha256": "099ddb4a02d7e39f62e30c3d8540578a99236ae2cf1ff542587d8199010b312b",
       "sourceHash": "f9af9f0106cbbb96fdeff021229f8e40593d842da5f9db47215bf075e06d7427",
       "passed": true,

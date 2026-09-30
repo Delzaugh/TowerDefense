@@ -1,0 +1,39 @@
+
+> tower-game@0.1.0 test:e2e
+> playwright test tests/e2e/inspectionToolkit.spec.ts tests/e2e/showcaseRefinement.spec.ts tests/e2e/showcaseRenderer.spec.ts
+
+[WebServer] (node:51376) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 14 tests using 4 workers
+
+(node:39612) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43112) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:40000) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:42328) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  4 [desktop-edge] › tests\e2e\showcaseRefinement.spec.ts:13:3 › Tower inspection usability › keyboard browsing reveals the selected portrait and explains stats without numeric readouts (12.5s)
+  ok  1 [desktop-edge] › tests\e2e\showcaseRefinement.spec.ts:31:3 › Tower inspection usability › keyboard camera controls keep a large preview and stats remain visible across layouts (12.7s)
+  ok  3 [desktop-edge] › tests\e2e\showcaseRefinement.spec.ts:73:3 › Tower inspection usability › close inspection uses the complete card and page ambience respects reduced motion (12.8s)
+  ok  2 [desktop-edge] › tests\e2e\inspectionToolkit.spec.ts:3:1 › inspection keeps qualitative capabilities and collections in both appearances (15.2s)
+(node:48356) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  6 [desktop-edge] › tests\e2e\showcaseRenderer.spec.ts:43:3 › Tower showcase renderer lifecycle › skips automatic Resolve and Place under reduced motion and settles on Rest (4.5s)
+  ok  7 [desktop-edge] › tests\e2e\showcaseRenderer.spec.ts:64:3 › Tower showcase renderer lifecycle › keeps the preview region stationary when Tower availability text changes (5.5s)
+(node:24508) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:49700) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  8 [touch-edge] › tests\e2e\inspectionToolkit.spec.ts:3:1 › inspection keeps qualitative capabilities and collections in both appearances (14.7s)
+  ok  9 [touch-edge] › tests\e2e\showcaseRefinement.spec.ts:13:3 › Tower inspection usability › keyboard browsing reveals the selected portrait and explains stats without numeric readouts (13.0s)
+  ok 10 [touch-edge] › tests\e2e\showcaseRefinement.spec.ts:31:3 › Tower inspection usability › keyboard camera controls keep a large preview and stats remain visible across layouts (13.3s)
+  ok 13 [touch-edge] › tests\e2e\showcaseRenderer.spec.ts:43:3 › Tower showcase renderer lifecycle › skips automatic Resolve and Place under reduced motion and settles on Rest (4.3s)
+  ok 11 [touch-edge] › tests\e2e\showcaseRefinement.spec.ts:73:3 › Tower inspection usability › close inspection uses the complete card and page ambience respects reduced motion (9.3s)
+  ok 14 [touch-edge] › tests\e2e\showcaseRenderer.spec.ts:64:3 › Tower showcase renderer lifecycle › keeps the preview region stationary when Tower availability text changes (4.2s)
+  ok  5 [desktop-edge] › tests\e2e\showcaseRenderer.spec.ts:6:3 › Tower showcase renderer lifecycle › keeps the latest model through rapid changes and survives repeated close/reopen (30.9s)
+  ok 12 [touch-edge] › tests\e2e\showcaseRenderer.spec.ts:6:3 › Tower showcase renderer lifecycle › keeps the latest model through rapid changes and survives repeated close/reopen (30.2s)
+
+  14 passed (1.1m)

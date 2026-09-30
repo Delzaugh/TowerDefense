@@ -1,0 +1,37 @@
+{
+  "asset": "campus_tile_canyon",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "bf59430bb62267b3d22e724c49373ae0aadbc627ff4826134d981d73f41f6f62",
+  "checkedAt": "2026-09-24T11:24:38.848Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 992,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    36,
+    3.5056397914886475,
+    31.17691421508789
+  ],
+  "bounds": [
+    [
+      -18,
+      0,
+      -15.588457107543945
+    ],
+    [
+      18,
+      3.5056397914886475,
+      15.588457107543945
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "6616d43e63caac4391810b76e91eb00eb2ddd70afb65b66fb96500d7a5bf3db0",
+  "source": "blender/environment/campus_tile_canyon/v01/campus_tile_canyon_v01.blend",
+  "runtime": "assets/runtime/environment/campus_tile_canyon_v01.glb"
+}

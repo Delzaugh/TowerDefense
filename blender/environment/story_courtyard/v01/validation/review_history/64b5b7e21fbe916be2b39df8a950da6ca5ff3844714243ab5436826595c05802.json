@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "asset": "story_courtyard",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "2d9bf699239d13d5724b3528c121f5f997d706d04647a9f5fff8b7b8c81a0804",
+  "sourceHash": "53004134ab7bd81cd85d2124176ae717680fae947861b49f82ce1f218adbd86f",
+  "scope": "model",
+  "reviewedAt": null,
+  "checks": {
+    "referenceFidelity": {
+      "status": "pending",
+      "findings": ""
+    },
+    "construction": {
+      "status": "pending",
+      "findings": ""
+    },
+    "readability": {
+      "status": "pending",
+      "findings": ""
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "pending",
+    "findings": ""
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/iso.png",
+      "sha256": "f9d39bac7b257c23c6ca2f511a0f8269021c5779e98c2256240370761d3d8f16",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/iso-silhouette.png",
+      "sha256": "bbab462e383b6af246a598a29f3bb25195e1dca0672ec1ae90807ba17141d259",
+      "view": "iso",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/front.png",
+      "sha256": "40739cb59db3f0e93bf88b657c7af775388275572a03a3557884f526b25ccf4a",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/front-silhouette.png",
+      "sha256": "86b934e723eac62bd251042702b54a691ce01137e5c957e85f993ff601245a18",
+      "view": "front",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/side.png",
+      "sha256": "1ea512f8763dc8f6249e38d22b92e6a6020c7c6158c6f708f7e157ea208453c2",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/side-silhouette.png",
+      "sha256": "27dff6ef3e2c65241b6a4c20ad80961b8a6864188109d65e93c6209bac2635d6",
+      "view": "side",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/rear.png",
+      "sha256": "ddcaedffdd2ad5e5973893216e072970610090d62a0f4c94c4e49f0ad2dd7cea",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/rear-silhouette.png",
+      "sha256": "b222654c0c5b17b92481554baf43d5131bf6b1c2c24607299f3277b9918f9299",
+      "view": "rear",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/top.png",
+      "sha256": "0514efbdbeb73342254fdbd57f8b3abcfc5da1d06ab637779c970581bd71bbb3",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/top-silhouette.png",
+      "sha256": "95de59ee47bb19beb601d468b2f39b8df8811edce4488c63cf307622c2a8c6eb",
+      "view": "top",
+      "mode": "silhouette"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": ""
+  },
+  "limitations": []
+}

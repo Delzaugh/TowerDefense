@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "asset": "linter_agent",
+  "version": "v01",
+  "revision": 10,
+  "sha256": "395c2cf789b243c4c856a4c07edae32efbb6fca10d19e1e099a901767857d8eb",
+  "sourceHash": "5f0ef331dbb3943758bc0c1a4fe05ba686192073eba9fe5ac51eac57a42cc4ca",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-24T14:38:32.369Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Personally compared the supplied shape/anatomy/accessory/coverage sheets and isolated front-left study render with the exported front, side, rear, top and isometric renders. The mesh, UVs, component groups and smoothing are exactly the preserved sheet study (source_adoption.json). Six axes are 30/90/150/210/270/330 degrees within 0.00001 degrees. The low octagonal shell, dark crown, three channels, brow and forward-pair clearance match. The actual rendered forward pair is smaller/lower despite the conceptual identical-units caption; preserve the visible geometry rather than change its proportions. Pipeline orthographic front/profile views are level, while sheet views are elevated; no stretched comparison or unsupported pixel-overlap score is claimed."
+    },
+    "construction": {
+      "status": "failed",
+      "findings": "User close-up exposed a real gap at pod roots and face panel concealed by the uncut chassis. The earlier r10 author assessment missed these defects; follow-up source pass addresses both causes."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally inspected the shared Inspector phone-width viewport and Small silhouette test, then restored the full isometric view. At roughly 64 px the lime puck, dark crown, forward brow and radial pod silhouette remain distinct; the cyan face accents remain visible. Tiny crown latches and grooves are detail for close views rather than required gameplay cues. No tint previews were applied."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static model refinement; no clips or rig existed and none were introduced. Baseline animation remains pending the model-first handoff and explicit user authorization, recorded in decisions.md."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After replacing the superseded eight-pod source with the exact six-pod study and completing the five-view export check, reviewed the finished r10 again in the live Inspector, including close visor/pod construction, reverse/underside, phone width and small silhouette. Largest prior mismatch (eight pods rather than six) is resolved. No further geometry edit was needed: the geometry/UV signature is identical to the supplied study, face clearance is preserved, and light/shading differences from Blender beauty renders do not represent palette drift."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/linter_agent/v01/validation/iso.png",
+      "sha256": "87da6ebf79323f6ce101efeffec574a1e532bde9c8b2f604a30dd81c69ca6b57",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/linter_agent/v01/validation/front.png",
+      "sha256": "48b65159c82472ce12a447de5154a7f04c8db3d9a14976edd3ea131fb8764bc0",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/linter_agent/v01/validation/side.png",
+      "sha256": "0ef0c47d09fac5dda064fc8a74b843e900651fd9e56b6692d41a445dc9a6c0e0",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/linter_agent/v01/validation/rear.png",
+      "sha256": "2d48c7857aa1e7b746e8d92ae00e7d31b39fc0e033a4c09cfbdf25e9f28f54ca",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/linter_agent/v01/validation/top.png",
+      "sha256": "1f24a7042f49b87394c9342881e3238ef6dcc3d12fe99aa7bee866d9d5080729",
+      "view": "top",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "rejected",
+    "note": "User identified floating pods, asked for a more recessed/accentuated face plate and improved pale visor. This supersedes the earlier positive author construction assessment."
+  },
+  "limitations": [
+    "No baseline animations authored; awaiting user authorization after model review.",
+    "Six 60-degree sectors are visual/design metadata only; simulation targeting and firing were not changed.",
+    "Preserves actual supplied rendered geometry: the forward pair is slightly smaller and lower than the other four pods despite the conceptual identical-units caption.",
+    "Palette is identical to the study; appearance varies with Blender versus runtime studio lighting."
+  ]
+}

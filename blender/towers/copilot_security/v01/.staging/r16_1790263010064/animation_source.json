@@ -1,0 +1,41 @@
+{
+  "acceptedModelSourceHash": "f023fd4b2d1f008018e0d378e6b59c0a95510c7271b1d387fa9b26db3f09768e",
+  "restArtSignature": "2a1fad3786ad529542ec555f493bdf0b51a233bf4a015671edadb931167713f2",
+  "restArtPreserved": true,
+  "bones": 4,
+  "readyHoverMetres": 0.16,
+  "sampledMinimumClearance": {
+    "idle": 0.14351682364940643,
+    "work": 0.14250022172927856,
+    "move": 0.09134942293167114,
+    "place": 0.15999996662139893,
+    "hit": 0.15829862654209137,
+    "resolve": 0.15999996662139893
+  },
+  "clips": {
+    "idle": {
+      "duration": 2.5,
+      "fps": 24
+    },
+    "work": {
+      "duration": 2.0,
+      "fps": 24
+    },
+    "move": {
+      "duration": 2.0,
+      "fps": 24
+    },
+    "place": {
+      "duration": 1.25,
+      "fps": 24
+    },
+    "hit": {
+      "duration": 0.5833333333333334,
+      "fps": 24
+    },
+    "resolve": {
+      "duration": 1.25,
+      "fps": 24
+    }
+  }
+}

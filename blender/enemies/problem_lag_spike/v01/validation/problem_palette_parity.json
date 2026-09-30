@@ -1,0 +1,15 @@
+{
+  "id": "problem_lag_spike",
+  "revision": 11,
+  "sha256": "57b50be10be8426bf8639494d49e339d03a9ca9809124285bd998f4b99e12f89",
+  "uniqueBaseColors": 7,
+  "parity": {
+    "passed": true,
+    "vertices": 2856,
+    "meshes": 1,
+    "materials": 1,
+    "oldBytes": 268436,
+    "newBytes": 268616,
+    "checks": "Exact exported topology, positions, normals, skinning, old UV channels, morph targets, rig, anchors, clips, and material/emission parity; base-colour storage only."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "application": "copilot-hub",
+  "url": "https://delzaugh.github.io/TowerDefense/",
+  "repository": "Delzaugh/TowerDefense",
+  "branch": "main",
+  "commit": "7a8866dd14b9105219629b10e1ef0a04a1851e82",
+  "previousCommit": "6111332f0448b5b99df9d516fd1327d4e35e30ee",
+  "snapshotTree": "535e071c0893007bc67e56f4a75790f9ff9930b1",
+  "previousSnapshotTree": "a7f12c8797bb65b180b20cf12c9bc03eae76f49f",
+  "release": "1a67992efb6a7af1",
+  "files": 76,
+  "workflowRun": "https://github.com/Delzaugh/TowerDefense/actions/runs/36280633603",
+  "workflowConclusion": "success",
+  "verified": [
+    "Production typecheck and Pages build passed",
+    "Four subdirectory deployment browser tests passed",
+    "Public Hub map and Tower inspection rendered in the integrated browser",
+    "Old /TowerDefense/simulation/ URL redirected to /TowerDefense/"
+  ]
+}

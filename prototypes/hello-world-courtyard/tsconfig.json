@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "skipLibCheck": true,
+    "ignoreDeprecations": "6.0",
+    "paths": {
+      "three": [
+        "../../game/node_modules/@types/three/index.d.ts"
+      ],
+      "three/addons/*": [
+        "../../game/node_modules/@types/three/examples/jsm/*"
+      ]
+    },
+    "typeRoots": [
+      "../../game/node_modules/@types"
+    ],
+    "types": [
+      "node"
+    ]
+  },
+  "include": [
+    "src",
+    "vite.config.ts",
+    "../../game/src/rendering/assetModules.d.ts"
+  ]
+}

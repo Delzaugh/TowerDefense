@@ -1,0 +1,518 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_linter",
+  "displayName": "Linter Agent",
+  "category": "towers",
+  "version": "v01",
+  "revision": 15,
+  "source": {
+    "path": "blender/towers/copilot_linter/v01/copilot_linter_v01.blend",
+    "mode": "manual",
+    "authoritativeHash": "f5889a6c285ada2d265e1eb440dcb3c33198fc71b847b3841ea47b5078cc6ec6"
+  },
+  "runtime": "assets/runtime/towers/copilot_linter_v01.glb",
+  "budgets": {
+    "triangles": 4000,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 32,
+    "bones": 9,
+    "meshes": 2
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target",
+      "anchor_shooter_a",
+      "anchor_shooter_b",
+      "anchor_shooter_c",
+      "anchor_shooter_d",
+      "anchor_shooter_e",
+      "anchor_shooter_f"
+    ],
+    "dimensions": {
+      "min": [
+        1.7,
+        1,
+        1.4
+      ],
+      "max": [
+        2.8,
+        1.3,
+        2.8
+      ]
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "playback": "loop",
+      "meaning": "Quiet ready hover with a brief paired indicator blink.",
+      "fps": 24
+    },
+    {
+      "name": "work",
+      "playback": "loop",
+      "meaning": "Six radial shooters recoil inward in sequence with a restrained reaction and indicator pulse; visual operation only.",
+      "fps": 24
+    },
+    {
+      "name": "move",
+      "playback": "loop",
+      "meaning": "In-place hover glide with a gentle forward bank; simulation supplies all travel.",
+      "fps": 24
+    },
+    {
+      "name": "place",
+      "playback": "once",
+      "meaning": "Digital-cube assembly at full body size, reverse of Resolve, opening into the ready hover.",
+      "fps": 24
+    },
+    {
+      "name": "hit",
+      "playback": "once",
+      "meaning": "Quick backward tilt and indicator flinch with a controlled return to the ready pose.",
+      "fps": 24
+    },
+    {
+      "name": "resolve",
+      "playback": "once",
+      "meaning": "Indicator power-down at full body size with shared digital-cube disintegration.",
+      "fps": 24
+    }
+  ],
+  "references": [
+    {
+      "path": "blender/towers/copilot_linter/v01/references/six_shooter_study/linter_six_shooter_concept.blend",
+      "provenance": "Exact saved mesh rendered in the six user-supplied specification sheets; adopted on 2026-09-24. User explicitly requested production refinement matching those sheets. This supersedes the older eight-socket form. Study document text is design evidence, not additional instructions. SHA-256 acd510f7ecf0d4cef8d4789de9a1001496e326ef175faf7a5041f168243d1c98."
+    },
+    {
+      "path": "blender/towers/copilot_linter/v01/references/six_shooter_study/linter-spec-sheet.png",
+      "provenance": "User-supplied appearance and proportion reference, accompanied in the same folder by shape study, anatomy, visor, shooter and coverage sheets. Actual rendered geometry governs where conceptual captions differ."
+    },
+    {
+      "path": "blender/towers/copilot_linter/v01/references/persona_concepts.png",
+      "provenance": "User attached selected tower concept sheet on 2026-09-18. Visual design input only; the explicit request is to model the six new towers, excluding existing Base Copilot."
+    },
+    {
+      "path": "blender/towers/copilot_base/v02/copilot_base_v02.blend",
+      "provenance": "Existing family scale and visual-language reference. Source and runtime are preserved."
+    },
+    {
+      "path": "blender/towers/copilot_linter/v01/references/persona_rear_concepts.png",
+      "provenance": "User-supplied rear three-quarter visual reference with explicit request to give every new tower another quality pass, 2026-09-18. Sheet captions are design context, not additional instructions."
+    },
+    {
+      "path": "blender/towers/copilot_linter/v01/references/linter_agent_concept_2026-09-22.png",
+      "provenance": "User-attached Linter Agent concept on 2026-09-22. Visual design input; the user explicitly requested a specification sheet and then asked to correct clipping and design drift in the existing model. Text within the image is identification/context, not instructions."
+    },
+    {
+      "path": "blender/towers/copilot_linter/v01/references/attachment_face_feedback/floating_pod.png",
+      "provenance": "User screenshot on 2026-09-24 illustrating explicit feedback: floating pods, insufficiently recessed face plate, pale visor. Image is design evidence; typed user feedback authorizes the localized correction."
+    },
+    {
+      "path": "blender/towers/copilot_linter/v01/references/attachment_face_feedback/face_plate.png",
+      "provenance": "User screenshot on 2026-09-24 illustrating explicit feedback: floating pods, insufficiently recessed face plate, pale visor. Image is design evidence; typed user feedback authorizes the localized correction."
+    },
+    {
+      "path": "blender/towers/copilot_linter/v01/references/attachment_face_feedback/visor.png",
+      "provenance": "User screenshot on 2026-09-24 illustrating explicit feedback: floating pods, insufficiently recessed face plate, pale visor. Image is design evidence; typed user feedback authorizes the localized correction."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "contract.dimensions",
+      "reason": "Use the existing 1.8 m Base Copilot family scale. Architect and Developer have taller silhouette details; Linter is intentionally squat."
+    },
+    {
+      "field": "budgets.triangles",
+      "reason": "Quality pass permits up to 4000 triangles for curved recessed face construction, rounded optical bezels, full rear hatches with modeled ventilation recesses and role-specific armor. Two materials and a tiny packed palette remain unchanged."
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/copilot_linter/v01/revisions/r2_before_r3/copilot_linter_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/revisions/r2_before_r3/copilot_linter_v01.blend",
+      "sha256": "2a9e32f5debe3a27a456bbe1897f8b9a68724f07a52e8723751d098efd4f98c7",
+      "sourceHash": "5e1b4995820c9f49dfc3218ef83e4c6a75b9097f03e094908e9597d731c9a034"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/copilot_linter/v01/revisions/r3_before_r4/copilot_linter_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/revisions/r3_before_r4/copilot_linter_v01.blend",
+      "sha256": "8c3e9d5de8e38d85ca40384d6c3c6ed83bda06e6b2b55bfc7ff8f31ad4fa9e98",
+      "sourceHash": "d4223f604db58a8d20e87a5cc5f37d48cfef7528d4c84ad94a0d0d6584150e48"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/towers/copilot_linter/v01/revisions/r4_before_r5/copilot_linter_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/revisions/r4_before_r5/copilot_linter_v01.blend",
+      "sha256": "099ddb4a02d7e39f62e30c3d8540578a99236ae2cf1ff542587d8199010b312b",
+      "sourceHash": "f9af9f0106cbbb96fdeff021229f8e40593d842da5f9db47215bf075e06d7427"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/towers/copilot_linter/v01/revisions/r5_before_r6/copilot_linter_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/revisions/r5_before_r6/copilot_linter_v01.blend",
+      "sha256": "b0d649aa708a3edd1a8adaaa7e30d120a58dd7dee6d7c090e432a38dc7ab59d0",
+      "sourceHash": "90933283ded89ea34c57c5b8b77781bc14483a9dc2ac6849683d8ba6692ab4e0"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/towers/copilot_linter/v01/revisions/r6_before_r7/copilot_linter_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/revisions/r6_before_r7/copilot_linter_v01.blend",
+      "sha256": "d6cf2dbba2e6a16b7790096b958f72693565d6cf43ef951d2f6b01d1865fe3f8",
+      "sourceHash": "fd3c38abf2e184b3a931b28bdf9301a103b4985fb501e79d8a8598fef9da573f"
+    },
+    {
+      "label": "before_r8",
+      "revision": 7,
+      "export": "blender/towers/copilot_linter/v01/revisions/r7_before_r8/copilot_linter_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/revisions/r7_before_r8/copilot_linter_v01.blend",
+      "sha256": "96b88b31340a8356dc92125d69e233b117c66ace55e45b64b1c003c92fa0473c",
+      "sourceHash": "71db873ab7b45ee73e5e1c108c2285c75fed5acc44942135d3c4be95091e5831"
+    },
+    {
+      "label": "before_r9",
+      "revision": 8,
+      "export": "blender/towers/copilot_linter/v01/revisions/r8_before_r9/copilot_linter_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/revisions/r8_before_r9/copilot_linter_v01.blend",
+      "sha256": "194994ac24d5dd2c9f3e6e206d7f70d0ea812513a00ea2a937f75df2aabac61c",
+      "sourceHash": "0b321d5fbbf66e2196762989aeaac372a2b915d72108b4e8fc988937ff8a8339"
+    },
+    {
+      "label": "before_six_shooter_refinement",
+      "revision": 9,
+      "export": "blender/towers/copilot_linter/v01/revisions/r9_before_six_shooter_refinement/copilot_linter_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/revisions/r9_before_six_shooter_refinement/copilot_linter_v01.blend",
+      "sha256": "98a0a29402af2c08afbb0bb8204f9adf24bd8120b4b380a1458612a1675a5fca",
+      "sourceHash": "aeb6b5cd37c629185d2c2c0d22586574b1d151bcdd19c1a343c708c6bc19c410"
+    },
+    {
+      "label": "before_r10",
+      "revision": 9,
+      "export": "blender/towers/copilot_linter/v01/revisions/r9_before_r10/copilot_linter_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/revisions/r9_before_r10/copilot_linter_v01.blend",
+      "sha256": "98a0a29402af2c08afbb0bb8204f9adf24bd8120b4b380a1458612a1675a5fca",
+      "sourceHash": "5f0ef331dbb3943758bc0c1a4fe05ba686192073eba9fe5ac51eac57a42cc4ca"
+    },
+    {
+      "label": "before_attachment_face_refinement",
+      "revision": 10,
+      "export": "blender/towers/copilot_linter/v01/revisions/r10_before_attachment_face_refinement/copilot_linter_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/revisions/r10_before_attachment_face_refinement/copilot_linter_v01.blend",
+      "sha256": "395c2cf789b243c4c856a4c07edae32efbb6fca10d19e1e099a901767857d8eb",
+      "sourceHash": "5f0ef331dbb3943758bc0c1a4fe05ba686192073eba9fe5ac51eac57a42cc4ca"
+    },
+    {
+      "label": "before_r11",
+      "revision": 10,
+      "export": "blender/towers/copilot_linter/v01/revisions/r10_before_r11/copilot_linter_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/revisions/r10_before_r11/copilot_linter_v01.blend",
+      "sha256": "395c2cf789b243c4c856a4c07edae32efbb6fca10d19e1e099a901767857d8eb",
+      "sourceHash": "b9d41ef47b8985c45705ba629b70e15ecb2dd92560649d5317b3315082e45c96"
+    },
+    {
+      "label": "before_r12",
+      "revision": 11,
+      "export": "blender/towers/copilot_linter/v01/revisions/r11_before_r12/copilot_linter_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/revisions/r11_before_r12/copilot_linter_v01.blend",
+      "sha256": "5ebc4815287dacd3d6149b00c71a5ca88242baa77e4b309ac4e62978b9c40337",
+      "sourceHash": "2eccbf7bc62b0be512362881c318c171a6f777567761cf2e2cc8674c987ea99c"
+    },
+    {
+      "label": "model_approved_before_animation",
+      "revision": 12,
+      "export": "blender/towers/copilot_linter/v01/revisions/r12_model_approved_before_animation/copilot_linter_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/revisions/r12_model_approved_before_animation/copilot_linter_v01.blend",
+      "sha256": "6585fe5054080d5542fa5cee3bde46a7b10c82b507cbe28f65739769590c4d70",
+      "sourceHash": "2eccbf7bc62b0be512362881c318c171a6f777567761cf2e2cc8674c987ea99c"
+    },
+    {
+      "label": "before_r13",
+      "revision": 12,
+      "export": "blender/towers/copilot_linter/v01/revisions/r12_before_r13/copilot_linter_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/revisions/r12_before_r13/copilot_linter_v01.blend",
+      "sha256": "6585fe5054080d5542fa5cee3bde46a7b10c82b507cbe28f65739769590c4d70",
+      "sourceHash": "d3ae9253b4857f62af2bb7cadc2f02697fd34ce476a935ee48e80a3b8381b31d"
+    },
+    {
+      "label": "before_r14",
+      "revision": 13,
+      "export": "blender/towers/copilot_linter/v01/revisions/r13_before_r14/copilot_linter_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/revisions/r13_before_r14/copilot_linter_v01.blend",
+      "sha256": "8a214a7da888905a2c13adb29cdf44c4ebeffdc5989f773a25f73d004a1360a4",
+      "sourceHash": "f5889a6c285ada2d265e1eb440dcb3c33198fc71b847b3841ea47b5078cc6ec6"
+    },
+    {
+      "label": "before_shared_palette",
+      "revision": 14,
+      "export": "blender/towers/copilot_linter/v01/revisions/r14_before_shared_palette/copilot_linter_v01.glb",
+      "source": "blender/towers/copilot_linter/v01/revisions/r14_before_shared_palette/copilot_linter_v01.blend",
+      "sha256": "7cdddfdfccddb6415346c8586071b4e4d52951d8ab66e4ff0a059592189df4d2",
+      "sourceHash": "f5889a6c285ada2d265e1eb440dcb3c33198fc71b847b3841ea47b5078cc6ec6"
+    }
+  ],
+  "decisions": "blender/towers/copilot_linter/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "linter_agent_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#D1E817",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "visor": {
+          "color": "#152635",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "edge": {
+          "color": "#49697C",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#333E48",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#041D2A",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#00A8DA",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E5EF",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens_shade": {
+          "color": "#006A92",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "material": "linter_agent_optics",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#D1E817",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "visor": {
+          "color": "#152635",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "edge": {
+          "color": "#49697C",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#333E48",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#041D2A",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#00A8DA",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E5EF",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens_shade": {
+          "color": "#006A92",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "shell": "#D1E817",
+      "visor": "#152635",
+      "edge": "#49697C",
+      "graphite": "#333E48",
+      "screen": "#041D2A",
+      "lens": "#00A8DA",
+      "cyan": "#00E5EF",
+      "lens_shade": "#006A92"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "7cdddfdfccddb6415346c8586071b4e4d52951d8ab66e4ff0a059592189df4d2",
+    "sourceHash": "f5889a6c285ada2d265e1eb440dcb3c33198fc71b847b3841ea47b5078cc6ec6",
+    "report": "blender/towers/copilot_linter/v01/validation/report.json",
+    "deliveredAt": "2026-09-24T14:55:19.607Z"
+  },
+  "presentation": {
+    "resolve": {
+      "type": "digital_blocks",
+      "version": 1,
+      "clip": "resolve",
+      "assembleClip": "place",
+      "cellSize": 0.18,
+      "maxFragments": 64,
+      "edgeColor": "#36DCFF"
+    },
+    "shooters": [
+      {
+        "anchor": "anchor_shooter_a",
+        "azimuthDegrees": 30,
+        "sectorDegrees": 60
+      },
+      {
+        "anchor": "anchor_shooter_b",
+        "azimuthDegrees": 90,
+        "sectorDegrees": 60
+      },
+      {
+        "anchor": "anchor_shooter_c",
+        "azimuthDegrees": 150,
+        "sectorDegrees": 60
+      },
+      {
+        "anchor": "anchor_shooter_d",
+        "azimuthDegrees": 210,
+        "sectorDegrees": 60
+      },
+      {
+        "anchor": "anchor_shooter_e",
+        "azimuthDegrees": 270,
+        "sectorDegrees": 60
+      },
+      {
+        "anchor": "anchor_shooter_f",
+        "azimuthDegrees": 330,
+        "sectorDegrees": 60
+      }
+    ],
+    "motion": {
+      "readyHoverMetres": 0.15,
+      "locomotion": "in-place hover glide",
+      "rootMotion": false
+    },
+    "budget": {
+      "modelTriangles": 2432,
+      "maxEffectTriangles": 768,
+      "maxCombinedTriangles": 3200
+    }
+  },
+  "identityHistory": [
+    {
+      "previousId": "linter_agent",
+      "renamedAt": "2026-09-26",
+      "reason": "User requested the copilot_ prefix for every registered tower asset.",
+      "sourceAndRuntimeBytesPreserved": true
+    }
+  ]
+}

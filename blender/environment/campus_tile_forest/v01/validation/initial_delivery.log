@@ -1,0 +1,15 @@
+00:01.875  blend            | Read blend: "C:\Users\jonas\Documents\ChatGPT\Tower\blender\environment\campus_tile_forest\v01\campus_tile_forest_v01.blend"
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+13:14:43 | INFO: Starting glTF 2.0 export
+13:14:43 | INFO: Extracting primitive: campus_tile_forest_foliage
+13:14:43 | INFO: Primitives created: 1
+13:14:43 | INFO: Extracting primitive: campus_tile_park_terrain
+13:14:43 | INFO: Primitives created: 1
+13:14:43 | INFO: Finished glTF 2.0 export in 0.17153477668762207 s
+
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+Delivered campus_tile_forest v01 revision 2: 3602 triangles. Visual review remains separate.
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _aligned_free

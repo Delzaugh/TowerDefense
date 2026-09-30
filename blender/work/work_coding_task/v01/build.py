@@ -218,5 +218,8 @@ bpy.context.view_layer.update()
 bpy.ops.object.select_all(action='DESELECT'); obj.select_set(True); bpy.context.view_layer.objects.active=obj
 bpy.context.preferences.filepaths.save_version=0
 data.calc_loop_triangles(); assert len(data.loop_triangles)<=m['budgets']['triangles'],len(data.loop_triangles)
+# Retain the category lifecycle poses in future guarded recipe rebuilds.
+import runpy
+runpy.run_path(str(Path(__file__).with_name('animate_lifecycle.py')))['author'](m)
 bpy.ops.wm.save_as_mainfile(filepath=str(out/os.environ['ASSET_SOURCE_NAME']))
 print('CODING_TASK_STATS',len(data.loop_triangles),'triangles; default weights:',[k.value for k in keys.key_blocks])

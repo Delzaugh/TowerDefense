@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "human_developer",
+  "displayName": "Human Developer",
+  "category": "towers",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/towers/human_developer/v01/human_developer_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/human_developer/v01/build.py",
+    "authoritativeHash": "2da8284977524b27c87b3500463c01d670cd3690b35663ac0f1a7ae0e8c546b2"
+  },
+  "runtime": "assets/runtime/towers/human_developer_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 32,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "max": [
+        1.7,
+        3.1,
+        1.2
+      ],
+      "min": [
+        1.1,
+        2.8,
+        0.65
+      ]
+    }
+  },
+  "clips": [],
+  "references": [],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/towers/human_developer/v01/decisions.md",
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "hoodie": "#3B8F89",
+      "hoodie_dark": "#276460",
+      "cream": "#F2E5D0",
+      "denim": "#354F73",
+      "denim_light": "#597495",
+      "skin": "#DEA078",
+      "skin_shadow": "#AB684E",
+      "hair": "#49352E",
+      "ink": "#25303D",
+      "laptop": "#AAB7C2"
+    }
+  },
+  "texturePalettes": [
+    {
+      "size": [
+        32,
+        8
+      ],
+      "roles": {
+        "hoodie": {
+          "color": "#3B8F89",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "hoodie_dark": {
+          "color": "#276460",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "cream": {
+          "color": "#F2E5D0",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "denim": {
+          "color": "#354F73",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "denim_light": {
+          "color": "#597495",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "skin": {
+          "color": "#DEA078",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "skin_shadow": {
+          "color": "#AB684E",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "hair": {
+          "color": "#49352E",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "ink": {
+          "color": "#25303D",
+          "rect": [
+            0,
+            4,
+            4,
+            4
+          ]
+        },
+        "laptop": {
+          "color": "#AAB7C2",
+          "rect": [
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      },
+      "material": "human_developer_palette"
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "0f04c9de59c4c0dab127f818f84e5717a2e8fd563e3bbd7e88b118cae101107b",
+    "sourceHash": "2da8284977524b27c87b3500463c01d670cd3690b35663ac0f1a7ae0e8c546b2",
+    "report": "blender/towers/human_developer/v01/validation/report.json",
+    "deliveredAt": "2026-09-24T10:43:41.449Z"
+  }
+}

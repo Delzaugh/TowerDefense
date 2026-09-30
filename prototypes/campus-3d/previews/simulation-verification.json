@@ -1,0 +1,61 @@
+{
+  "capturedAt": "2026-09-24T07:47:01.558Z",
+  "results": [
+    {
+      "profile": {
+        "name": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 960
+        },
+        "deviceScaleFactor": 1,
+        "towers": 50,
+        "cap": 200
+      },
+      "report": "prototypes/campus-3d/previews/stress/2026-09-24T07-44-57-507Z-4e5487d2/report.json",
+      "correctness": true,
+      "overBudgetCases": [
+        "baseline",
+        "waves-8s",
+        "waves-20s",
+        "waves-32s",
+        "waves-44s",
+        "waves-56s",
+        "waves-68s",
+        "waves-80s",
+        "waves-92s",
+        "waves-complete",
+        "recovery"
+      ]
+    },
+    {
+      "profile": {
+        "name": "phone-emulated",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "deviceScaleFactor": 2,
+        "isMobile": true,
+        "hasTouch": true,
+        "towers": 35,
+        "cap": 100
+      },
+      "report": "prototypes/campus-3d/previews/stress/2026-09-24T07-46-53-644Z-f70aa15b/report.json",
+      "correctness": true,
+      "overBudgetCases": [
+        "baseline",
+        "waves-8s",
+        "waves-20s",
+        "waves-32s",
+        "waves-44s",
+        "waves-56s",
+        "waves-68s",
+        "waves-80s",
+        "waves-92s",
+        "waves-complete",
+        "recovery"
+      ]
+    }
+  ]
+}

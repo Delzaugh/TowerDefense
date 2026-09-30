@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_architect",
+  "version": "v01",
+  "revision": 5,
+  "sha256": "af5cc8f250f90c4c80b02a1d98222b007da39d77c42eeab2f3d76061a561cc4f",
+  "sourceHash": "ef3cc3f2c872b9f3a5989792c57b99cbd2acda400486273b7160d96a74ce8e5a",
+  "scope": "model",
+  "reviewedAt": "2026-09-26T23:19:01.068584Z",
+  "checks": {
+    "referenceFidelity": {
+      "findings": "User rejection supersedes prior self-assessment: constant-depth front and side extrusions do not capture the wrapped, tapering reference construction.",
+      "status": "failed"
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Resolved shell intrusion across display, re-tessellated eave underside symmetrically, fitted crown latch to both steps, added cheek seats, and closed unintended air gaps between crown tiers. Final close oblique, side, rear and underside inspection shows attached plates, seated clasp, symmetric eye spacing and clean four-window glyph. Narrow cheek seams remain intentional. Glyph lines are shallow surface geometry; solids retain editable islands."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected actual Inspector at 390px phone width under gameplay-like lighting and its approximately 90px small-size test. Crown silhouette, black face, cyan eyes and orange center tabs remain distinct. Individual blueprint windows are secondary details at the smallest size. Warm cream reads lighter under neutral studio lighting than the painted input shading."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model-stage review; no authored clips yet. Record the animation handoff or deferral in decisions; baseline animation remains pending."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Reassessed revision 5 after repairing the display occlusion, eave underside, clasp seating, cheek support and crown tier gaps. Reopened final front, blueprint-side, rear, underside, close oblique, phone and small renders. No remaining floating crown tier, shell stripe across face or uneven eave fold; primary proportions and deep side shell remain consistent with the reference priorities."
+  },
+  "evidence": [
+    {
+      "mode": "shaded",
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/iso.png",
+      "sha256": "a42d6b17c642034c16203addb11021dc353663597f2e1327ea48cbcc93f1b916",
+      "view": "iso"
+    },
+    {
+      "mode": "shaded",
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/front.png",
+      "sha256": "60f9efccd5ddae90078c61e237ccdae006394d28f1d55a712699075041ee9332",
+      "view": "front"
+    },
+    {
+      "mode": "shaded",
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/right.png",
+      "sha256": "49d768b53f6c814267a4dbe6a07d5495e5878032d36e5da8ad235c4dd26aa610",
+      "view": "right"
+    },
+    {
+      "mode": "shaded",
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/rear.png",
+      "sha256": "6a185880dbc7db0586428e8a4b12ef68d3d0f8680199e5e7965944c7237348f0",
+      "view": "rear"
+    },
+    {
+      "mode": "shaded",
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/bottom.png",
+      "sha256": "3b72ba1685ab5b9c0b3eb9914ba9a655b37aa003e91b21e0443809ece50e442b",
+      "view": "bottom"
+    },
+    {
+      "mode": "shaded",
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/close_oblique.png",
+      "sha256": "25b92a4d4f0243299a7010a536bf2cd2a0ce7994d54dedd4023cfa875ae5447d",
+      "view": "close_oblique"
+    },
+    {
+      "mode": "shaded",
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/phone.png",
+      "sha256": "ab3a737190cf8e5551bdaf2a3f2bfd7f984235fc835bd726598603353153d255",
+      "view": "phone"
+    },
+    {
+      "mode": "shaded",
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/small.png",
+      "sha256": "2e03c58404e689ed9322f70102e36ee8001fcb9d6c3a514a79387304ddfc0952",
+      "view": "small"
+    }
+  ],
+  "userAcceptance": {
+    "note": "User: recheck silhouette; pure vertical flat surfaces, insufficient dimension and detail; requests a major improvement run.",
+    "status": "rejected"
+  },
+  "limitations": [
+    "Model-only handoff: no rig or animations; baseline animation authorization is pending.",
+    "Smallest gameplay scale preserves identity but does not resolve every window in the side glyph. Final in-game map lighting/accessibility review is separate."
+  ]
+}

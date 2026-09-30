@@ -1,0 +1,204 @@
+{
+  "schemaVersion": 1,
+  "asset": "problem_missing_details",
+  "version": "v01",
+  "revision": 11,
+  "sha256": "c1d1291abc16f11341a7f581a2c2d535b20e8c03126d4f9af43d5797bdaa644f",
+  "sourceHash": "8a9f65d9e554e1df35310d148d8709ffbb824d00b7fac94e952283237f30f70f",
+  "scope": "animation",
+  "reviewedAt": "2026-09-24T10:52:00.000Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "The accepted folded note, embossed question mark, recessed eyes, articulated limbs and seated print pose retain exact exported rest topology, positions, normals, UVs, palette image, material and skin data against the r10 milestone. The new lifecycle poses use the same full-size body."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Saved Blender has 24 fps, cleared active action, seven named NLA tracks all muted, rest pose, stationary root and anchors parented to root. Runtime checks found zero scale or root displacement, zero minimum contact clearance, unchanged idle/move/hit/sit_down/seated channels, deterministic replay/reset/reload and restored resources after disposal. The peak configured model-plus-effect ceiling is 1358 + 10*12 + 12 = 1490 triangles, under 1500; shared pool exhaustion leaves the erase sweep."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Viewed actual Inspector isometric Spawn at 35 and 65 percent and Resolve at 50 and 65 percent, plus phone Spawn/Resolve at 50, 80 and terminal percent. Jagged reveal cuts directly through the golden note without a portal. Thin pink streaks track the horizontal erase; the terminal phone frame has no body or shadow. Rear and side exported rest views retain the established thin folded-paper silhouette and joint clearance."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Spawn and Resolve run frames 0..30 at 24 fps (1.25 seconds). Spawn's brief paper registration slip settles into ready; Resolve adds a restrained puzzled recoil, then holds the hidden full-size pose. The feet remain planted and the root is stationary throughout. Exact endpoints, scrub, replay, Rest reset and paused reload passed in the actual Inspector; the five other clips are byte-identical to r10."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked the final exported lifecycle at later isometric frames, phone Spawn 80 percent and phone Resolve 80/100 percent after initial midpoint inspection. At Spawn 65 percent the fold, question mark and visor are legible and both feet remain intact; at Resolve 65 percent only the last grounded pieces and narrow streaks remain. The exact phone endpoint is empty. Reviewed side/rear rest views and the neutral spawned/resolve midpoints again, then ran the hash-bound saved-source and runtime checks."
+  },
+  "evidence": [
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/iso.png",
+      "sha256": "13ae7926424de692145b687d2a17597b42d9dd7ee34535f3f686190d862d465f",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/iso-silhouette.png",
+      "sha256": "a5c9e590b011babe658cf5044d58c66f0b81b7b7483d01620eec835afb4abc4e",
+      "view": "iso",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/front.png",
+      "sha256": "99a9e97cfe6901f04b7ab8cf643d4aa75ae8ddd69bcfd44f12883ea0bfadb652",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/front-silhouette.png",
+      "sha256": "2fe39f872bbe9c1113fe949c637c5ebdd3730364746d96cc313747ced06c0503",
+      "view": "front",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/side.png",
+      "sha256": "7ae8b804bf221095b6c494060c7ad4d9fe403d44c6b4045296bdd76c436fa119",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/side-silhouette.png",
+      "sha256": "4976f3fd2b356c9f17277e8daf21ff3eea092545b4cc2a624dec5d8d330aeb9a",
+      "view": "side",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/rear.png",
+      "sha256": "1e4bc4db4d8c4251c9f928cf6298295c91e7728867ebb58c98f14d377c219fa8",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/rear-silhouette.png",
+      "sha256": "3c20a4314392ba1775cbb223d72354dafa1336bb8f2bbbd2b1743cb046192ca2",
+      "view": "rear",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/top.png",
+      "sha256": "b2822450984d6f3e512ec061107af64b03993442795f24d87095649fea2445d6",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/top-silhouette.png",
+      "sha256": "37d64672171a1d32f8c9270f1f06f9cb329536b622a66be7e4d180a88c362aec",
+      "view": "top",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/idle.png",
+      "sha256": "0e8004a7aa325a0956328168a7f84f3fdb55b0dd59ffd704896d0d9c1ea1469c",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "idle",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/move.png",
+      "sha256": "4a6ba57f3d8ee639b0003112480fdbdfd5a35ff62c6e343f80ffede7ff361fbf",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "move",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/hit.png",
+      "sha256": "f736fcb8225b610440f4f192592d90742dce52f848e2579af8873abc08fedcf2",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "hit",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/resolve.png",
+      "sha256": "8d2b56243fc67e4a1acc46bf174e67e35e28580d8c796e8427ac16f76f1e2dce",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "resolve",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/spawn.png",
+      "sha256": "21ae97e423f7e22fe5edfc7a68252e31e8135d88510c3a9259a59439bc4f9565",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "spawn",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/sit_down.png",
+      "sha256": "37fbe1f8c81b32378f139c080cff6264ad7095e059d8ade276c5acc31ef40683",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "sit_down",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/seated.png",
+      "sha256": "0ad158cd51001cbb5c47da8e434a235a15947b5cbc0e59e099f51ff114f64b6d",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "seated",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/lifecycle/spawn-35.png",
+      "sha256": "8146c1c30f69d1f21030166b3d3d9bbec77afc53c39b895d56a0ded25254e6f6",
+      "view": "isometric Spawn 35 percent"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/lifecycle/spawn-65.png",
+      "sha256": "84b14b315498b40d1f23e6432a9c32b7cdbb7bfa5e2434335f17f7909bd61000",
+      "view": "isometric Spawn 65 percent"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/lifecycle/resolve-50.png",
+      "sha256": "fa967eb324ca5714002406b0a3f8a61d5ef8adb14f459b1316ad5e7e3fe29024",
+      "view": "isometric Resolve 50 percent"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/lifecycle/phone-spawn-50.png",
+      "sha256": "cf021fe4edea2d5380dff7bc3fa28403b0b4d1a60918cdaac47963ac824a94d3",
+      "view": "phone Spawn 50 percent"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/lifecycle/phone-resolve-50.png",
+      "sha256": "cd827640d060fd21cdc6177fdc8b46f2aef4ac831c2202cda2b1784e3b8380d1",
+      "view": "phone Resolve 50 percent"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/lifecycle/phone-resolve-100.png",
+      "sha256": "bb7d62f966d467e228842a75bae94f990e0a66646d7c662689fc10f7f527f410",
+      "view": "phone Resolve 100 percent"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/lifecycle/review.json",
+      "sha256": "1baaef05d03da47ec0745ac15f893374f147f81665f465e79ff6e7ef7468015f",
+      "view": "actual Inspector parity, timeline, FX budget and replay check"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/lifecycle/source_audit.json",
+      "sha256": "af29a6c7264a861e6c64e6a61d8a3842564f25ae2d60c3e2b0ff9b29ebbb2b0d",
+      "view": "saved Blender rest and lifecycle metadata audit"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User approved the Bug Glitch breach reference and authorized rollout to the remaining production enemies. Artistic acceptance of this Missing Details revision remains pending."
+  },
+  "limitations": [
+    "The complete body reveal and erase requires tools/asset-presentation/lifecycle.js in the game presenter; a plain GLB player displays only the full-size pose tracks.",
+    "This pass adds Spawn and replaces Resolve only. The separate enemy work clip remains a baseline animation backlog."
+  ]
+}

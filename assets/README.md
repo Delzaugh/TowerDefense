@@ -9,6 +9,7 @@ The authoritative location of every asset is its entry in [asset_catalog.json](a
 | third_party/<publisher>/<package>/<upstream-release>/ | Unmodified imported packages, licenses and provenance. Never ship directly from here. |
 | ../blender/<category>/<asset_id>/<version>/ | Editable source, manifest, recipe, references, evidence, renders and retained snapshots. |
 | validation_catalog.json | Latest aggregate validation results with source/export hashes. |
+| animation_coverage.json | Snapshot of baseline clip coverage for registered tower/enemy versions; missing clips remain a staged animation backlog. |
 | migration_report.json | Completed structure migration audit and preservation checks. |
 | palette_conversion_report.json | Per-version texture disposition, migration hashes, size changes and visual evidence. |
 
@@ -23,6 +24,15 @@ The authoritative location of every asset is its entry in [asset_catalog.json](a
 | environment | Terrain, routes, buildings, infrastructure and map props, including brand signage. |
 
 Do not introduce catch-all categories. Add a category here first if the taxonomy needs to expand.
+
+Registered assets in `towers` use `copilot_<name>` IDs, including character and
+persona variants (user decision, 2026-09-26). Match that ID in the catalog,
+version folder, Blender filename and runtime filename. For example:
+`copilot_linter`, `copilot_developer`, `copilot_security`,
+`copilot_human_developer` and `copilot_octocat_classic_lowpoly`. Display names
+remain human-readable. The manifest validator enforces the prefix for future
+deliveries. [Naming migration](tower_naming_migration.json) records the eight
+renamed identities and their unchanged source/export hashes.
 
 ## Required layout
 
@@ -59,3 +69,8 @@ Effects, selection/range shapes, collision helpers, UI and gameplay data are run
 ## Colour storage
 
 Prefer small palette textures under the shared [visual guide](../docs/design/Visual_Asset_Guide.md). Keep vertex colours when they better serve the asset and record the reason beside its source. Declare solid texture roles in `texturePalettes`; `palette.storage: "texture"` distinguishes them from vertex palettes. Images must be packed in Blender and embedded in the GLB. The guarded `export <id> --palette` migration preserves the current source, original runtime appearance and interfaces; see the [pipeline commands](../tools/asset-pipeline/README.md).
+
+Shared colour definitions are reusable starting points. Reuse suitable neutrals
+and accents, merge redundant shades, and introduce colours where identity,
+material or readability benefits. Exact values and any explicitly agreed count
+belong to the asset's current design; there is no universal colour list or cap.

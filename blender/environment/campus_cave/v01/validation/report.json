@@ -1,0 +1,37 @@
+{
+  "asset": "campus_cave",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "c62e942e9ba7eddde3f04a5b0e51b863cda70052c3a110c0ec72868b071ac17b",
+  "checkedAt": "2026-09-24T13:36:36.710Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 164,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    7.995303153991699,
+    3.950000047683716,
+    4.700000047683716
+  ],
+  "bounds": [
+    [
+      -4.01554012298584,
+      0,
+      -2.549999952316284
+    ],
+    [
+      3.9797630310058594,
+      3.950000047683716,
+      2.1500000953674316
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "fd08ee19604653729a254ef225e1e4684f1a1ed4b8d895ead068e8d185bc708e",
+  "source": "blender/environment/campus_cave/v01/campus_cave_v01.blend",
+  "runtime": "assets/runtime/environment/campus_cave_v01.glb"
+}

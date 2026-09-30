@@ -1,0 +1,194 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_octocat_2_0",
+  "displayName": "GitHub Octocat 2.0",
+  "category": "towers",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/towers/copilot_octocat_2_0/v01/copilot_octocat_2_0_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_octocat_2_0/v01/build.py",
+    "authoritativeHash": "0884e8ce564a8f1b995aff1f6b303d2c9dc620a1a3b93b6ade04668880d3f0af"
+  },
+  "runtime": "assets/runtime/towers/copilot_octocat_2_0_v01.glb",
+  "budgets": {
+    "triangles": 75000,
+    "meshes": 24,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 512,
+    "bones": 0
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target",
+      "anchor_hat",
+      "anchor_face",
+      "anchor_chest",
+      "anchor_back",
+      "anchor_hand_left",
+      "anchor_hand_right"
+    ],
+    "dimensions": {
+      "min": [
+        1.2,
+        1.799,
+        0.6
+      ],
+      "max": [
+        1.7,
+        1.802,
+        1
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/references/github_octocat_2_0_official.png",
+      "url": "https://brand.github.com/graphic-elements/mascots",
+      "provenance": "User-selected official Octocat 2.0 illustration. Character volume, cheeks, ears and expression; scene and props omitted."
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/references/myoctocat_base.svg",
+      "url": "https://myoctocat.com",
+      "provenance": "Official unadorned Octocat linked by the brand page. Primary anatomy, upright proportion and tentacle pose."
+    },
+    {
+      "path": "blender/towers/copilot_octocat_modern/v01/copilot_octocat_modern_v01.blend",
+      "provenance": "Existing Tower Modern Octocat revision 9, preserved as starting construction reference."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/copilot_octocat_2_0/v01/revisions/r2_before_r3/copilot_octocat_2_0_v01.glb",
+      "source": "blender/towers/copilot_octocat_2_0/v01/revisions/r2_before_r3/copilot_octocat_2_0_v01.blend",
+      "sha256": "b8fbf32892e86913aed59bc5af697b293c534e25c8a019251bf2dc2e73879b0a",
+      "sourceHash": "178727bfc8810f36ed4afac1459a42e424202adb8f8b43173cb690341e28e695"
+    }
+  ],
+  "decisions": "blender/towers/copilot_octocat_2_0/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "octocat_palette",
+      "size": [
+        40,
+        4
+      ],
+      "roles": {
+        "fur": {
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "color": "#252A31"
+        },
+        "face": {
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ],
+          "color": "#F6C3AA"
+        },
+        "eyes": {
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ],
+          "color": "#D9F0EA"
+        },
+        "iris": {
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ],
+          "color": "#A85444"
+        },
+        "suckers": {
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ],
+          "color": "#9FD5D1"
+        },
+        "inner_ear": {
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ],
+          "color": "#171D23"
+        },
+        "smile": {
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ],
+          "color": "#8E4C40"
+        },
+        "highlight": {
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ],
+          "color": "#FFFFFF"
+        },
+        "mouth": {
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ],
+          "color": "#522735"
+        },
+        "tongue": {
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ],
+          "color": "#CF6B87"
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "1eed85658be6f17e52f12599ef9d882598a15e86d9c37adaf8b3b354bea8360c",
+    "sourceHash": "0884e8ce564a8f1b995aff1f6b303d2c9dc620a1a3b93b6ade04668880d3f0af",
+    "report": "blender/towers/copilot_octocat_2_0/v01/validation/report.json",
+    "deliveredAt": "2026-09-30T16:13:40.052Z"
+  }
+}

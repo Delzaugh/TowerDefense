@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_tree_tall_bare",
+  "displayName": "Tall tree · no base",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/campus_tree_tall_bare/v01/campus_tree_tall_bare_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_tree_tall_bare/v01/build.py"
+  },
+  "runtime": "assets/runtime/environment/campus_tree_tall_bare_v01.glb",
+  "budgets": {
+    "triangles": 800,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 64,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui"
+    ]
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "tools/asset-recipes/campus-forest.py",
+      "provenance": "Original shared forest authoring recipe; preserved existing tree forms are extracted from authoritative Blender snapshots."
+    },
+    {
+      "path": "docs/design/Campus_Forest_Kit.md",
+      "provenance": "Forest family concept, placement interfaces and variant inventory."
+    },
+    {
+      "path": "blender/environment/campus_tree_tall_bare/v01/references/planter_source.blend",
+      "provenance": "Snapshot of blender/environment/campus_tree_tall/v01/campus_tree_tall_v01.blend; SHA256 79acd62e9012ca93720ed9864471d3ad5daf65e06cddd0e67c256dddaab5499b. Preserve leaf/trunk geometry, remove only planter roles and translate down 0.28 m."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/campus_tree_tall_bare/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "campus_forest_palette",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "trunk": {
+          "color": "#65918F",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "bark": {
+          "color": "#826F5D",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "leaf": {
+          "color": "#70B5B4",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "leaf_light": {
+          "color": "#86C2BD",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "leaf_dark": {
+          "color": "#609D9E",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "sage": {
+          "color": "#91AC78",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "moss": {
+          "color": "#637F60",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "pine": {
+          "color": "#527F86",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "pine_light": {
+          "color": "#719A91",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "gold": {
+          "color": "#CCB768",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        },
+        "amber": {
+          "color": "#C59A60",
+          "rect": [
+            40,
+            0,
+            4,
+            4
+          ]
+        },
+        "copper": {
+          "color": "#AC7957",
+          "rect": [
+            44,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "trunk": "#65918F",
+      "bark": "#826F5D",
+      "leaf": "#70B5B4",
+      "leaf_light": "#86C2BD",
+      "leaf_dark": "#609D9E",
+      "sage": "#91AC78",
+      "moss": "#637F60",
+      "pine": "#527F86",
+      "pine_light": "#719A91",
+      "gold": "#CCB768",
+      "amber": "#C59A60",
+      "copper": "#AC7957"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear",
+    "paletteTextureWorkflow": false
+  }
+}

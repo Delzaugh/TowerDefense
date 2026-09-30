@@ -1,0 +1,37 @@
+{
+  "asset": "campus_construction_decor",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "220489d87d7b4d8783c4b4d22e630bb59f924eaf58481725ad9137f6154f41e1",
+  "checkedAt": "2026-09-24T11:14:36.089Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 2704,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    21.700000762939453,
+    10.829999923706055,
+    20.469999313354492
+  ],
+  "bounds": [
+    [
+      -10.200000762939453,
+      0,
+      -10.719999313354492
+    ],
+    [
+      11.5,
+      10.829999923706055,
+      9.75
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "9a076423f70b5382d2379916b06fca3559fe910922bef3cd7fecd8d87ffd5ba0",
+  "source": "blender/environment/campus_construction_decor/v01/campus_construction_decor_v01.blend",
+  "runtime": "assets/runtime/environment/campus_construction_decor_v01.glb"
+}

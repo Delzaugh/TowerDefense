@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "asset": "problem_bug",
+  "version": "v01",
+  "revision": 11,
+  "sha256": "a44e0e584813cff6196010273cec3d6c872d8a85a6b3bc8c3a9f4004e8355a51",
+  "sourceHash": "2201813dba398071a3421289a1f40cba918f3399f9d8214dc97cb2fe742fc075",
+  "scope": "animation",
+  "reviewedAt": "2026-09-24T09:51:38.394Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Accepted r8 Bug art retained exactly in exported position/topology/normal/UV/skin/morph/palette/material data. The beetle shell, supported red groove and articulated limbs retain their form. Lifecycle poses keep full body scale."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Source audit confirms muted NLA, cleared active actions and rest state. Stationary root and nonnegative clearance within numeric tolerance pass across 121 samples per clip. Surface and shadow coverage terminate cleanly; resource disposal restores original materials and geometry. At most 12 thin instanced streaks, with shared-pool fallback; Spawn has zero helper triangles after the requested portal removal."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected close and phone Spawn at 35/50 percent and Resolve at 50 percent. Pink jagged strips reveal the body without a portal; Resolve removes the shell in horizontal bands with narrow streaks. Full-scale beetle remains distinct from tower cubes and the upright Blueprint outline. Inspected exact phone endpoint: no body or shadow remains."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Spawn/Resolve last 1.25 seconds; they begin/end at full scale with visibility controlled by presentation. Inspector playback, exact endpoints, deterministic seeking, restart, clamp, Rest reset and paused reload pass. Existing move, hit clip values/timing are byte-identical to the baseline. Spawn settles to the grounded ready stance with a brief lateral registration slip."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After removing the rejected portal from Spawn, inspected the final desktop/phone frames and loaded revision 11 in the integrated Inspector. Reran real-renderer checks, including zero Spawn helper geometry, preserved art/clips, reset/replay, stationary root, pool fallback and source saved state. Combined ceiling remains 2320 + 156 = 2476 triangles."
+  },
+  "evidence": [
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/lifecycle/spawn-35.png",
+      "view": "spawn 35",
+      "sha256": "e4e3bd607f1d42147d33d7d21891ba8a349c4b97c695bf3e6fcbf871536dd25e"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/lifecycle/phone-spawn-50.png",
+      "view": "phone spawn 50",
+      "sha256": "b56d71c4738ffcfc40168dcca0cb09e3d42e4311f4659cc6ac8da547fe1c2076"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/lifecycle/phone-resolve-50.png",
+      "view": "phone resolve 50",
+      "sha256": "e8b4030ef13efa74a7969f631d696a63816751af6d341fbd051589883e09ac14"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/lifecycle/phone-resolve-100.png",
+      "view": "phone resolve 100",
+      "sha256": "bb7d62f966d467e228842a75bae94f990e0a66646d7c662689fc10f7f527f410"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/lifecycle/review.json",
+      "view": "Actual Inspector motion, parity, state preservation, budget and disposal checks",
+      "sha256": "83c6db1203ffeebee5bff0080451968700d782e2c8ee9299a224b93516ea8aa5"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/lifecycle/source_audit.json",
+      "view": "Read-only saved Blender state and root metadata audit",
+      "sha256": "9086fb7c87f612246812b59056f94002d13e298abf89ce49a5c37e657bcb852a"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "fe40daaecfa3b96dd8a3dc93e758c8ea1890d8dffc8fa2809d4bda26d98d5cb2"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User selected Glitch breach, limited this pass to Bug first, and explicitly removed the visible Spawn portal. Final animation revision remains available for review."
+  },
+  "limitations": [
+    "Complete effects require tools/asset-presentation/lifecycle.js in the game presenter; ordinary GLB players show only the pose animation. Gameplay hooks are outside this asset pass.",
+    "Geometry limits are verified; target-device frame rate is not profiled.",
+    "Existing enemy rollout awaits reference review. Bug still has separate baseline idle/work animation backlog; this pass authors only Spawn/Resolve."
+  ]
+}

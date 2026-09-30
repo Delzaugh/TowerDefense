@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "asset": "problem_vague_spec",
+  "version": "v01",
+  "revision": 8,
+  "sha256": "4ef643bc26584d61b597aeb57ce84be37bfde4f5351fa02b649a3158861e8ba1",
+  "sourceHash": "995b829e0b25a070b0fb5dc6eada118c8b55681a27574fe7df06eef457b53865",
+  "scope": "palette",
+  "reviewedAt": "2026-09-26T22:22:03.571Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "User requested shared supporting colours while preserving identities, then an eight-base-colour trial. Merged paper/edge and slate text/limb colours retain curled-paper silhouette, dark question mark and checklist bars. Reverse yoke and arms remain distinct from the pale sheet."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Personally inspected final guarded iso and rear renders. No new bleed or discontinuous colour regions observed. Exact parity proves unchanged topology, positions, normals, UVs, skinning, rig, anchors, morphs, material settings, texture samplers and auxiliary emission images; only base palette pixels changed."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected common-scale board, grayscale and small phone Rest/Move views. 8 distinct authored base colours. Merged paper/edge and slate text/limb colours retain curled-paper silhouette, dark question mark and checklist bars. Reverse yoke and arms remain distinct from the pale sheet. This is controlled Inspector lighting, not final gameplay-camera or colour-vision-deficiency approval."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Reviewed small Inspector Move at 0.5 seconds after palette delivery. Exact exported animation channels, time/value buffers and root presentation metadata match the retained pre-palette milestone. No animation changes or new full-animation approval in this palette pass."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Following candidate comparison and source export, personally reviewed the final iso/rear, phone Rest/Move and grayscale evidence. Source/runtime hashes and every mapped role match the policy; the palette stays within eight distinct colours. No further palette correction needed in these views."
+  },
+  "evidence": [
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/iso.png",
+      "sha256": "33057faf603aaae18a08cc3b84e3774026fa9029f365f44ea291079da42974f2",
+      "view": "Final close isometric",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/rear.png",
+      "sha256": "3baac8ae75021b86a7cab0ec981b3a8a0f22617b46792a28a186cdf41f1915ed",
+      "view": "Final reverse",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/problem-palette-phone.png",
+      "sha256": "08788baad4a9a49deefc9d9dc6e73f2605f9341740f190d7ad4f73c641711746",
+      "view": "Small phone Rest",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/problem-palette-move-phone.png",
+      "sha256": "905537e19963102cae8c18c6fea4e4aeb33e146973cb0e685f3510c32a0bcf0f",
+      "view": "Small phone Move 0.5s",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/problem_palette_parity.json",
+      "sha256": "97f0cff35f0d90594316c024b56584747fe5108d60b976d8a7ae238b8a739ee5",
+      "view": "Exact palette-only preservation audit",
+      "mode": "audit"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User authorized the family palette iteration and eight-colour trial. Exact revised appearance awaits artistic feedback."
+  },
+  "limitations": []
+}

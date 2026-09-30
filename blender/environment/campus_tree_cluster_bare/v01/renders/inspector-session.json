@@ -1,0 +1,79 @@
+{
+  "sha256": "cdf9d7b7b546d040d9cd387c80fbb96e6e3a6da7f5bb129ff1776158de1d0908",
+  "revision": 2,
+  "capturedAt": "2026-09-24T11:15:00.458Z",
+  "state": {
+    "resolveBudget": {
+      "used": 0,
+      "maxFragments": 256
+    },
+    "resolveEffects": [
+      {
+        "path": "environment/campus_tree_cluster_bare_v01.glb"
+      }
+    ],
+    "loading": false,
+    "activePath": "environment/campus_tree_cluster_bare_v01.glb",
+    "view": "iso",
+    "projection": "OrthographicCamera",
+    "distance": 11.596530566913925,
+    "target": [
+      -0.031334519386291504,
+      1.5370000457763675,
+      -0.08838266134262085
+    ],
+    "camera": [
+      5.98524349892037,
+      7.507112517893776,
+      7.826038808939732
+    ],
+    "effects": [
+      {
+        "path": "environment/campus_tree_cluster_bare_v01.glb",
+        "enabled": false,
+        "triangles": 0,
+        "meshes": 0,
+        "materials": 0
+      }
+    ],
+    "entries": [
+      {
+        "path": "environment/campus_tree_cluster_bare_v01.glb",
+        "revision": "cdf9d7b7b546d040d9cd387c80fbb96e6e3a6da7f5bb129ff1776158de1d0908",
+        "triangles": 96,
+        "meshes": 1,
+        "materials": 1,
+        "bounds": [
+          [
+            -1.435539960861206,
+            -2.8610228852699038e-8,
+            -0.8352004885673523
+          ],
+          [
+            1.372870922088623,
+            3.074000120162964,
+            0.6584351658821106
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [],
+        "clip": null,
+        "time": 0,
+        "playing": false,
+        "loop": true,
+        "speed": 1,
+        "pose": []
+      }
+    ]
+  },
+  "errors": []
+}

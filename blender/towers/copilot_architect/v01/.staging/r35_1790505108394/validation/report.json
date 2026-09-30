@@ -1,0 +1,40 @@
+{
+  "asset": "copilot_architect",
+  "version": "v01",
+  "revision": 35,
+  "sha256": "e33b8de0f72ed9e1b1e6d30549a37b1b3267ed130f8371ac499bdf22ea2cc185",
+  "checkedAt": "2026-09-27T10:31:53.164Z",
+  "errors": [
+    "Texture palette requires an sRGB base-color map: pavilion_eyes",
+    "textures exceeds budget: 2 / 1"
+  ],
+  "warnings": [],
+  "triangles": 2738,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 2,
+  "bones": 0,
+  "dimensions": [
+    3.564908981323242,
+    2.5,
+    2.7939480543136597
+  ],
+  "bounds": [
+    [
+      -1.8475947380065918,
+      0,
+      -1.4700000286102295
+    ],
+    [
+      1.7173142433166504,
+      2.5,
+      1.3239480257034302
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": false,
+  "sourceHash": "f82492d0fdf5f753e1839b4f68bf0548e763b4f94e3cc2a473281d39b7e6ef92",
+  "source": "blender/towers/copilot_architect/v01/copilot_architect_v01.blend",
+  "runtime": "assets/runtime/towers/copilot_architect_v01.glb"
+}

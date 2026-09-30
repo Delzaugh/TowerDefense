@@ -1,0 +1,65 @@
+{
+  "asset": "problem_vague_spec",
+  "sourceBefore": "995b829e0b25a070b0fb5dc6eada118c8b55681a27574fe7df06eef457b53865",
+  "revisionBefore": 8,
+  "colorsBefore": {
+    "paper": "#E5EBEF",
+    "paper_shade": "#C9D3DE",
+    "edge": "#E5EBEF",
+    "ink": "#233B58",
+    "line": "#627389",
+    "limb_light": "#A5B2C2",
+    "limb": "#627389",
+    "joint": "#192E46",
+    "boot": "#344D69",
+    "accent": "#FFAA24"
+  },
+  "colorsAfter": {
+    "accent": "#FFAA24",
+    "boot": "#344D69",
+    "edge": "#E5EBEF",
+    "ink": "#233B58",
+    "joint": "#233B58",
+    "limb": "#627389",
+    "limb_light": "#A5B2C2",
+    "line": "#627389",
+    "paper": "#E5EBEF",
+    "paper_shade": "#C9D3DE"
+  },
+  "objects": 5,
+  "actions": [
+    "hit",
+    "idle",
+    "move",
+    "resolve",
+    "spawn"
+  ],
+  "images": [
+    {
+      "name": "problem_vague_spec_palette",
+      "size": [
+        32,
+        8
+      ],
+      "packed": true
+    }
+  ],
+  "materialLinks": {
+    "parchment_palette": [
+      {
+        "input": "Base Color",
+        "image": "problem_vague_spec_palette"
+      }
+    ]
+  },
+  "bindings": [
+    {
+      "material": "parchment_palette",
+      "image": "problem_vague_spec_palette",
+      "size": [
+        32,
+        8
+      ]
+    }
+  ]
+}

@@ -14,6 +14,7 @@ import { canSaveLab, createLabSave, restoreLabSave } from '../persistence/testLa
 import { compileWaveRecipe, recipeFromContent } from '../content/waveRecipe';
 import { captureBlueprint, prepareBlueprint } from '../simulation/encounter/blueprint';
 import type { Blueprint } from '../simulation/encounter/blueprint';
+import { addPerformanceEvent, registerPerformanceSource } from '../diagnostics/performance';
 
 /** Diagnostic adapter. Captures are memory-only, not player-facing mid-wave saves. */
 export function createEncounterLab(content: EncounterContent, host: FrameHost, runId: () => string, repository?: SaveRepository, initialRecipe?: unknown) {
@@ -46,6 +47,11 @@ export function createEncounterLab(content: EncounterContent, host: FrameHost, r
     return Object.freeze({ snapshot, content, recipe, epoch, entities: encounter.positions(), automatic, captured, events, notice, marker, probe, sight, busy, revision });
   };
   let view = makeView();
+  const tracking = registerPerformanceSource('encounter', 'simulation', () => ({ state: {
+    tick: view.snapshot.tick, phase: view.snapshot.phase, paused: view.snapshot.paused,
+    speed: view.snapshot.speed, entities: view.snapshot.entities.length, towers: view.snapshot.towers.length, automatic,
+  } }));
+  tracking.metadata({ ticksPerSecond: 60, schemaVersion: 6, rulesVersion: 6, recipe, presentation: 'SVG' });
   const publish = () => { if (!disposed) { view = makeView(); for (const listener of listeners) listener(); } };
   const record = (batch: readonly EncounterEvent[]) => { if (batch.length) events = Object.freeze([...events, ...batch].slice(-60)); };
   const allowed = () => !disposed && !host.isHidden() && !busy;
@@ -59,6 +65,7 @@ export function createEncounterLab(content: EncounterContent, host: FrameHost, r
     finally { busy = false; publish(); }
   }
   function interrupt(message: string) {
+    tracking.breakCadence(); addPerformanceEvent('simulation-interrupted', message);
     if (encounter.capture().phase === 'active' && !encounter.capture().paused) record(encounter.dispatch({ type: 'pause' }).events);
     clock.reset(); notice = message; publish();
   }
@@ -69,12 +76,18 @@ export function createEncounterLab(content: EncounterContent, host: FrameHost, r
     // view instead of validating/cloning the full command history on idle frames.
     const snapshot = view.snapshot;
     if (automatic && !host.isHidden() && snapshot.phase === 'active' && !snapshot.paused) {
+      const started = tracking.begin();
       const result = clock.advance(timestamp, snapshot.speed, () => {
         const step = encounter.advanceOneTick(); record(step.events); return step.advanced;
       });
+      const simulationEnded = started === undefined ? undefined : performance.now();
       if (result.overloaded) interrupt('Timing gap: explicitly resume to continue.');
       else if (result.steps) publish();
-    } else clock.reset();
+      if (started !== undefined && simulationEnded !== undefined) tracking.end(started, {
+        timestamp, continuous: !result.overloaded, steps: result.steps, overloaded: result.overloaded,
+        stages: { simulation: simulationEnded - started, publication: performance.now() - simulationEnded }, reason: 'automatic',
+      });
+    } else { clock.reset(); tracking.breakCadence(); }
     if (started && !disposed) frameId = host.requestFrame(frame);
   }
   function prepare(input: unknown, keepLayout: boolean) {
@@ -88,6 +101,7 @@ export function createEncounterLab(content: EncounterContent, host: FrameHost, r
       content = compiled.content; recipe = compiled.recipe; encounter = candidate.encounter; marker = candidate.blueprint.marker;
       startingBlueprint = null; captured = null; capturedBlueprint = null; capturedMarker = null;
       probeRoute = compileRoute(content.map.routes[0]!.points); events = []; epoch++; clock.reset();
+      tracking.breakCadence(); tracking.metadata({ recipe });
       notice = 'Queue applied. Fresh preparation with validated starting layout.'; publish(); return true;
     } catch (error) { notice = error instanceof Error ? error.message : 'Invalid queue.'; publish(); return false; }
   }
@@ -134,19 +148,25 @@ export function createEncounterLab(content: EncounterContent, host: FrameHost, r
       const result = encounter.dispatch(command); record(result.events);
       const after = encounter.capture();
       if (result.accepted && before.phase === 'preparation' && after.phase === 'active') startingBlueprint = captureBlueprint(before, marker);
-      if (before.phase !== after.phase || before.paused !== after.paused || before.speed !== after.speed) clock.reset();
+      if (before.phase !== after.phase || before.paused !== after.paused || before.speed !== after.speed) { clock.reset(); tracking.breakCadence(); }
+      tracking.metadata({ recipe, startingBlueprint });
       notice = result.accepted ? `Accepted: ${result.events[0]!.type}.` : `Rejected: ${result.reason}.`; publish();
       return result;
     },
     setAutomatic(value: boolean) {
       if (!allowed()) return;
       automatic = value; clock.reset(); notice = value ? 'Automatic clock enabled.' : 'Manual clock: advance exact ticks while active and unpaused.'; publish();
+      tracking.breakCadence();
     },
     step(count: number) {
       if (!allowed() || automatic || !Number.isInteger(count) || count < 1 || count > 60) return;
       let advanced = 0;
+      const started = tracking.begin();
       for (let i = 0; i < count; i++) { const result = encounter.advanceOneTick(); record(result.events); if (!result.advanced) break; advanced++; }
+      const simulationEnded = started === undefined ? undefined : performance.now();
       clock.reset(); notice = `Advanced ${advanced} tick(s).`; publish();
+      if (started !== undefined && simulationEnded !== undefined) tracking.end(started, { steps: advanced, reason: 'manual',
+        stages: { simulation: simulationEnded - started, publication: performance.now() - simulationEnded } });
     },
     capture() {
       if (!allowed()) return;
@@ -191,6 +211,7 @@ export function createEncounterLab(content: EncounterContent, host: FrameHost, r
       disposed = true; started = false;
       if (frameId !== null) host.cancelFrame(frameId);
       unsubscribe?.(); listeners.clear(); clock.reset(); repository?.close();
+      tracking.dispose();
     },
   };
 }

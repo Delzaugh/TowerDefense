@@ -1,0 +1,10 @@
+import type { Point } from './types';
+export const ROUTE: Point[] = [{x:-15,z:-8},{x:-5,z:-8},{x:0,z:-5},{x:0,z:5},{x:5,z:8},{x:14,z:8}];
+export const PATH_WIDTH = 3.2;
+export const FOOTPRINT = 1.45;
+export const RANGE = 5;
+export const SITES: Point[] = [{x:-11,z:-4},{x:-7,z:-11.3},{x:-3.5,z:0},{x:4.6,z:-2.6},{x:8.5,z:4.5},{x:9.5,z:11.3}];
+export const TREES: Point[] = [{x:-15.5,z:-11.6},{x:-11,z:-11.6},{x:-2,z:-11.6},{x:7,z:-11.6},{x:13,z:-11.4},{x:16,z:-6},{x:16,z:-1},{x:-16,z:-2},{x:-17,z:2}];
+export const SERVER = {id:'server',footprint:{min:{x:1.8,z:-1.8},max:{x:3.2,z:1.8}},blocksSight:true};
+export const OBSTACLES = [SERVER,{id:'pond',footprint:{min:{x:-16,z:4},max:{x:-9,z:10}},blocksSight:false},{id:'product',footprint:{min:{x:11.2,z:8.5},max:{x:18,z:13}},blocksSight:false},{id:'bench_garden',footprint:{min:{x:-8.7,z:6.3},max:{x:-5.3,z:7.7}},blocksSight:false},{id:'bench_rear',footprint:{min:{x:5.3,z:-12.3},max:{x:8.7,z:-10.9}},blocksSight:false},...TREES.map((p,i)=>({id:`tree_${i}`,footprint:{min:{x:p.x-1.1,z:p.z-1.05},max:{x:p.x+1.1,z:p.z+1.05}},blocksSight:false}))];
+export const MAP = {id:'hello_world_courtyard_draft',version:'v01',buildable:{min:{x:-18,z:-13},max:{x:18,z:13}},routes:[{id:'main',width:PATH_WIDTH,points:ROUTE}],obstacles:OBSTACLES};

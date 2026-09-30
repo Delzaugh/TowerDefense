@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "asset": "story_courtyard",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "abd8d9b897df63fed94e46080c715fbbffdb2e29853b9c264c3471778d292f07",
+  "sourceHash": "1433ccb9b6a81830fc3769bd22483c1428626bf257da4c090aef3615933dd9a2",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T16:24:30.827Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "The original authored coffee-courtyard brief is met: 24m warm sandstone court, back cafe facade/striped awning, taller side wings and peripheral vegetation. Front and oblique GLB views preserve the deliberate window rhythm, chunky low-poly scale and quiet acting area. There is no external image silhouette to reconstruct."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Personally inspected exported front/oblique/side/reverse and Inspector close views. Window/mullion layers have clear seating, awning stripes form closed slope prisms, planter lips/soil and chair/pedestal supports attach deliberately. Added two-cup table at(-3.7,-1.4) stays left of the actor lane. Paver joints are intentional geometry gaps; paving top y=0 is consistent."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspector390px phone render keeps cafe awning, terracotta/slate framing buildings, sandstone acting area and natural planting readable. Fine cup/handle details are secondary close-camera cues. Primary shapes and open center remain clear at small scale; no material bleeding or visible flicker in the inspected export."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static authored environment asset; no skeletal/object clips. Story placement, timed travel and force effects remain presentation-owned."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Second assessment after the closer two-coffee callback table was added: reviewed the new r3 export in fixed front/iso and Inspector close/phone/reverse views. Table/pedestal/cups are fitted and do not obstruct the x=-2..4 acting zone or +x escape. The earlier clean facade/window/awning construction remains clean."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/iso.png",
+      "sha256": "b7f910da938988d0f71cc925f8f4550196910424510ca9f860ca136b5301f4f7",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/front.png",
+      "sha256": "47bd355ae72c7fd3542c594632749a111564ebad9126f8daa3ba264ff46de71d",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/side.png",
+      "sha256": "e575ea2769555ceb20be0a03b4d73fc9a6b94bab42c317fe4539a294b62bf7b2",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/rear.png",
+      "sha256": "ddcaedffdd2ad5e5973893216e072970610090d62a0f4c94c4e49f0ad2dd7cea",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/top.png",
+      "sha256": "deab3b505bb666d9614ea0802138b0836e1fc99b024cdb90809df597caa6181c",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/inspector-iso.png",
+      "sha256": "ef0638544924ddb171fb607b34187673e83d92c363fa64701cb9be8f9fe6dd1a",
+      "view": "inspector-iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/inspector-close.png",
+      "sha256": "bb352e6a7a6d9185e8c8b9ee0ece36a7bb3d78dfbba9aae4ec093ee27b2bca78",
+      "view": "inspector-close",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/inspector-rear.png",
+      "sha256": "eb0a8415724df066d8322eeb40d189a4ee577b394acfd337bebefe16d34cb7d7",
+      "view": "inspector-rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/story_courtyard/v01/validation/inspector-phone.png",
+      "sha256": "f7ad9a8bbb6d6c357af808d171d74412e2d38221196ecf0ea20fde1d8b6d9b4e",
+      "view": "inspector-phone",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User authorized production; no explicit artistic acceptance of this revision has been given."
+  },
+  "limitations": [
+    "Rear facade is intentionally quiet and undecorated because the authored story stage is viewed from the courtyard."
+  ]
+}

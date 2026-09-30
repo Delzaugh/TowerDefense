@@ -1,0 +1,44 @@
+{
+  "asset": "copilot_linter",
+  "objects": 12,
+  "actions": [
+    "hit",
+    "idle",
+    "move",
+    "place",
+    "resolve",
+    "work"
+  ],
+  "images": [
+    {
+      "name": "linter_agent_palette",
+      "size": [
+        32,
+        4
+      ],
+      "packed": true
+    }
+  ],
+  "changes": {
+    "screen": "#041D2A",
+    "cyan": "#00E5EF"
+  },
+  "bindings": [
+    {
+      "material": "linter_agent_palette",
+      "image": "linter_agent_palette_base",
+      "size": [
+        32,
+        4
+      ]
+    },
+    {
+      "material": "linter_agent_optics",
+      "image": "linter_agent_palette_base",
+      "size": [
+        32,
+        4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_architect",
+  "displayName": "Architect Copilot — T6 Pavilion",
+  "category": "towers",
+  "version": "v01",
+  "revision": 13,
+  "source": {
+    "path": "blender/towers/copilot_architect/v01/copilot_architect_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_architect/v01/build.py",
+    "authoritativeHash": "588db672f8e7e8d4ef73021e86983556694b7488de5da99c64d37f1ed6f20e69"
+  },
+  "runtime": "assets/runtime/towers/copilot_architect_v01.glb",
+  "budgets": {
+    "triangles": 4500,
+    "materials": 2,
+    "textures": 1,
+    "textureSize": 64,
+    "bones": 32,
+    "meshes": 2
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        2.8,
+        2.65,
+        2.8
+      ],
+      "max": [
+        3.3,
+        2.9,
+        3.6
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/copilot_architect/v01/references/anatomy.png",
+      "role": "User-provided visual design input. Original: C:/Users/jonas/.codex/generated_images/01a0df9f-a531-7ed1-bb53-612b067db0a3/exec-5776353e-87f5-413a-987f-b55c07ccd65c.png"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/silhouettes.png",
+      "role": "User-provided visual design input. Original: C:/Users/jonas/.codex/generated_images/01a0df9f-a531-7ed1-bb53-612b067db0a3/exec-73f38fd1-1ec6-4761-8606-a9879909b2ce.png"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/turnaround.png",
+      "role": "User-provided visual design input. Original: C:/Users/jonas/.codex/generated_images/01a0df9f-a531-7ed1-bb53-612b067db0a3/exec-cb12b845-0c00-4de5-9451-ca88cdc04267.png"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/side_module.png",
+      "role": "User-provided visual design input. Original: C:/Users/jonas/.codex/generated_images/01a0df9f-a531-7ed1-bb53-612b067db0a3/exec-8c0d5573-a5fb-4f2c-bef4-da4289f54c98.png"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/references/concept_sheet.png",
+      "role": "User-provided visual design input. Original: C:/Users/jonas/AppData/Local/Temp/codex-clipboard-38d38118-b98c-4470-96f8-16814e2350e8.png"
+    }
+  ],
+  "overrides": [
+    "2026-09-27 user asks for much stronger dimension after rejecting r8; increase depth envelope to 2.8–3.6m and allow up to 4500 triangles for curved patch construction, preserving 2 materials and palette."
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/copilot_architect/v01/revisions/r2_before_r3/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r2_before_r3/copilot_architect_v01.blend",
+      "sha256": "34901eb638bd0463adbfe30bf45b5be51d0cedb2980156f1b86de7585f8428b9",
+      "sourceHash": "de578a5d7118c118774f93ff6c013849802d01bc15f4272b2eeebaa4113d1c5a"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/copilot_architect/v01/revisions/r3_before_r4/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r3_before_r4/copilot_architect_v01.blend",
+      "sha256": "0bc4f2a675df6387cdbf0c3c89c8af4a3db39b151cc9d1e7df15912e1ccfe35e",
+      "sourceHash": "4969131f427b53098451f0daa3be465dbd426025bb139555965b36802f1283c2"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/towers/copilot_architect/v01/revisions/r4_before_r5/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r4_before_r5/copilot_architect_v01.blend",
+      "sha256": "cc4933f5edb37ddb76b6d9c16fe19e8d8882b3a699172c5a94a53932a8410284",
+      "sourceHash": "5359de4bb6f161e673d1adeb360873abfb0de503d48d35ad47a41eca4f6061c1"
+    },
+    {
+      "label": "rejected_flat_construction",
+      "revision": 5,
+      "export": "blender/towers/copilot_architect/v01/revisions/r5_rejected_flat_construction/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r5_rejected_flat_construction/copilot_architect_v01.blend",
+      "sha256": "af5cc8f250f90c4c80b02a1d98222b007da39d77c42eeab2f3d76061a561cc4f",
+      "sourceHash": "ef3cc3f2c872b9f3a5989792c57b99cbd2acda400486273b7160d96a74ce8e5a"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/towers/copilot_architect/v01/revisions/r5_before_r6/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r5_before_r6/copilot_architect_v01.blend",
+      "sha256": "af5cc8f250f90c4c80b02a1d98222b007da39d77c42eeab2f3d76061a561cc4f",
+      "sourceHash": "ef3cc3f2c872b9f3a5989792c57b99cbd2acda400486273b7160d96a74ce8e5a"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/towers/copilot_architect/v01/revisions/r6_before_r7/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r6_before_r7/copilot_architect_v01.blend",
+      "sha256": "e088a791443f778915f8a629b4cfdc1f6ee5105a954d8d41d4746f0f30392bcb",
+      "sourceHash": "42dcf2f98ca62149c7c3f3cb4873981a869c3bf48c8415391be01d0638319ade"
+    },
+    {
+      "label": "before_r8",
+      "revision": 7,
+      "export": "blender/towers/copilot_architect/v01/revisions/r7_before_r8/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r7_before_r8/copilot_architect_v01.blend",
+      "sha256": "c7313e694fa63482308d55367f12120869d96870fa4a6a0e19c5de6da14ca924",
+      "sourceHash": "8389d793184259ec6075ab0b2579ab810b54036de78c02b16873d50a071dfc1b"
+    },
+    {
+      "label": "before_strong_depth",
+      "revision": 8,
+      "export": "blender/towers/copilot_architect/v01/revisions/r8_before_strong_depth/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r8_before_strong_depth/copilot_architect_v01.blend",
+      "sha256": "e2ffbcb9aa769c45e81f24c5722cb39ae70cf63d0e244b33d47891b67cb7a46a",
+      "sourceHash": "8a3455c98fd5b30641ef1805dba94888d62f9c1b145b108f101a233011c5ffa3"
+    },
+    {
+      "label": "before_r9",
+      "revision": 8,
+      "export": "blender/towers/copilot_architect/v01/revisions/r8_before_r9/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r8_before_r9/copilot_architect_v01.blend",
+      "sha256": "e2ffbcb9aa769c45e81f24c5722cb39ae70cf63d0e244b33d47891b67cb7a46a",
+      "sourceHash": "8a3455c98fd5b30641ef1805dba94888d62f9c1b145b108f101a233011c5ffa3"
+    },
+    {
+      "label": "before_r10",
+      "revision": 9,
+      "export": "blender/towers/copilot_architect/v01/revisions/r9_before_r10/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r9_before_r10/copilot_architect_v01.blend",
+      "sha256": "ba6582ae1080c040b5afd81f1e49f3c6460970e1562e1a36f9569a1f79a68bcc",
+      "sourceHash": "ec7d97c6026d01014dcba093bdbeb4297672ed942ea36c7a54d78709e51b69f8"
+    },
+    {
+      "label": "before_r11",
+      "revision": 10,
+      "export": "blender/towers/copilot_architect/v01/revisions/r10_before_r11/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r10_before_r11/copilot_architect_v01.blend",
+      "sha256": "eb9c3d2ee6badba7dbfe0fa2cea26eedfc06de32be3b36ca224f6595a2caf46a",
+      "sourceHash": "47071ad355cd757ec6f516f4c997aeb52cc38b39d8445ec6bc478f1801879732"
+    },
+    {
+      "label": "before_r12",
+      "revision": 11,
+      "export": "blender/towers/copilot_architect/v01/revisions/r11_before_r12/copilot_architect_v01.glb",
+      "source": "blender/towers/copilot_architect/v01/revisions/r11_before_r12/copilot_architect_v01.blend",
+      "sha256": "9b0ac2225b1d24ff68129801b1657a2d8d0878dd25cb93404b7f0eefe6b92915",
+      "sourceHash": "7e91dc165642cb5c0981b917e8e1c81996f38a19952cb15535d2948d882f9609"
+    }
+  ],
+  "decisions": "blender/towers/copilot_architect/v01/decisions.md",
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "cream": "#F4DFC0",
+      "teal": "#08607A",
+      "screen": "#041D2A",
+      "cyan": "#00E5EF",
+      "orange": "#FF7308"
+    }
+  },
+  "texturePalettes": [
+    {
+      "roles": {
+        "cream": {
+          "rect": [
+            0,
+            0,
+            8,
+            8
+          ],
+          "color": "#F4DFC0"
+        },
+        "cyan": {
+          "rect": [
+            24,
+            0,
+            8,
+            8
+          ],
+          "color": "#00E5EF"
+        },
+        "teal": {
+          "rect": [
+            8,
+            0,
+            8,
+            8
+          ],
+          "color": "#08607A"
+        },
+        "screen": {
+          "rect": [
+            16,
+            0,
+            8,
+            8
+          ],
+          "color": "#041D2A"
+        },
+        "orange": {
+          "rect": [
+            32,
+            0,
+            8,
+            8
+          ],
+          "color": "#FF7308"
+        }
+      },
+      "size": [
+        40,
+        8
+      ],
+      "material": "pavilion_palette"
+    },
+    {
+      "material": "pavilion_eyes",
+      "size": [
+        40,
+        8
+      ],
+      "roles": {
+        "cream": {
+          "rect": [
+            0,
+            0,
+            8,
+            8
+          ],
+          "color": "#F4DFC0"
+        },
+        "cyan": {
+          "rect": [
+            24,
+            0,
+            8,
+            8
+          ],
+          "color": "#00E5EF"
+        },
+        "teal": {
+          "rect": [
+            8,
+            0,
+            8,
+            8
+          ],
+          "color": "#08607A"
+        },
+        "screen": {
+          "rect": [
+            16,
+            0,
+            8,
+            8
+          ],
+          "color": "#041D2A"
+        },
+        "orange": {
+          "rect": [
+            32,
+            0,
+            8,
+            8
+          ],
+          "color": "#FF7308"
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "15a727eb775cef29c528bf41760d7ef8fab5abbaae076456d5159ca94daa9706",
+    "sourceHash": "588db672f8e7e8d4ef73021e86983556694b7488de5da99c64d37f1ed6f20e69",
+    "report": "blender/towers/copilot_architect/v01/validation/report.json",
+    "deliveredAt": "2026-09-26T23:40:51.486Z"
+  },
+  "animationHandoff": {
+    "sha256": "9b0ac2225b1d24ff68129801b1657a2d8d0878dd25cb93404b7f0eefe6b92915",
+    "authorization": "Deferred: user requested much more dimension after rejecting r8.",
+    "status": "animation-pending",
+    "plannedClips": [
+      "idle",
+      "work",
+      "move",
+      "place",
+      "hit",
+      "resolve"
+    ],
+    "sourceHash": "7e91dc165642cb5c0981b917e8e1c81996f38a19952cb15535d2948d882f9609",
+    "modelRevision": 11,
+    "modelAcceptance": "pending"
+  }
+}

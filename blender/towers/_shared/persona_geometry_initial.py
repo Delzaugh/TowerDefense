@@ -10,6 +10,7 @@ from mathutils import Vector, Matrix
 def build(manifest_path, output, source_name):
     m=json.loads(Path(manifest_path).read_text(encoding='utf-8-sig'))
     kind=m['id'].replace('copilot_','')
+    if kind=='linter':kind='linter_agent'  # Keep authored component/material names stable.
     bpy.ops.wm.read_factory_settings(use_empty=True)
     scene=bpy.context.scene
     scene.unit_settings.system='METRIC'; scene.unit_settings.scale_length=1

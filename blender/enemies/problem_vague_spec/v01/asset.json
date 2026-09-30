@@ -4,12 +4,12 @@
   "displayName": "Vague Spec",
   "category": "enemies",
   "version": "v01",
-  "revision": 6,
+  "revision": 9,
   "source": {
     "path": "blender/enemies/problem_vague_spec/v01/problem_vague_spec_v01.blend",
     "mode": "procedural",
     "recipe": "blender/enemies/problem_vague_spec/v01/build.py",
-    "authoritativeHash": "95d62b9e695319ae291738c491794f27c7b157ade7f2071c758ac563ca9bd53a"
+    "authoritativeHash": "c6efd0cacf042c06008146a8b8cd5fa63243431c6955551c8a84fa389d268eff"
   },
   "runtime": "assets/runtime/enemies/problem_vague_spec_v01.glb",
   "budgets": {
@@ -65,9 +65,15 @@
       "fps": 24
     },
     {
+      "name": "spawn",
+      "playback": "once",
+      "meaning": "Full-size jagged glitch reveal directly on the parchment, with no portal, settling to grounded ready.",
+      "fps": 24
+    },
+    {
       "name": "resolve",
       "playback": "once",
-      "meaning": "Visual tuck and shrink toward the feet after simulation resolution.",
+      "meaning": "Full-size parchment reaction under the presentation erase sweep and thin horizontal streaks.",
       "fps": 24
     }
   ],
@@ -118,6 +124,54 @@
       "source": "blender/enemies/problem_vague_spec/v01/revisions/r5_before_r6/problem_vague_spec_v01.blend",
       "sha256": "6da8199d4b9861a08195319c70878517d42847466fe25ec37eb787c4e2bc5785",
       "sourceHash": "c4ef2f91a9222943fc17aa9d1ee381ce97a7b3544b07c6ea3f30aef17df9c092"
+    },
+    {
+      "label": "before_glitch_breach",
+      "revision": 6,
+      "export": "blender/enemies/problem_vague_spec/v01/revisions/r6_before_glitch_breach/problem_vague_spec_v01.glb",
+      "source": "blender/enemies/problem_vague_spec/v01/revisions/r6_before_glitch_breach/problem_vague_spec_v01.blend",
+      "sha256": "7288ea169999b79754d4d3a32dd25a4aa09e4b5c0f46d316ff85a58d744b35b8",
+      "sourceHash": "95d62b9e695319ae291738c491794f27c7b157ade7f2071c758ac563ca9bd53a"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/enemies/problem_vague_spec/v01/revisions/r6_before_r7/problem_vague_spec_v01.glb",
+      "source": "blender/enemies/problem_vague_spec/v01/revisions/r6_before_r7/problem_vague_spec_v01.blend",
+      "sha256": "7288ea169999b79754d4d3a32dd25a4aa09e4b5c0f46d316ff85a58d744b35b8",
+      "sourceHash": "1a824445a1b4077df61fcfe1826b71d5fc877a622f4dcee97808e33168e6777b"
+    },
+    {
+      "label": "before_problem_palette",
+      "revision": 7,
+      "export": "blender/enemies/problem_vague_spec/v01/revisions/r7_before_problem_palette/problem_vague_spec_v01.glb",
+      "source": "blender/enemies/problem_vague_spec/v01/revisions/r7_before_problem_palette/problem_vague_spec_v01.blend",
+      "sha256": "769efe35ec503c4abe09afa452a2438bb55d36deebda893bd62e061bd60b5edb",
+      "sourceHash": "1a824445a1b4077df61fcfe1826b71d5fc877a622f4dcee97808e33168e6777b"
+    },
+    {
+      "label": "before_r8",
+      "revision": 7,
+      "export": "blender/enemies/problem_vague_spec/v01/revisions/r7_before_r8/problem_vague_spec_v01.glb",
+      "source": "blender/enemies/problem_vague_spec/v01/revisions/r7_before_r8/problem_vague_spec_v01.blend",
+      "sha256": "769efe35ec503c4abe09afa452a2438bb55d36deebda893bd62e061bd60b5edb",
+      "sourceHash": "995b829e0b25a070b0fb5dc6eada118c8b55681a27574fe7df06eef457b53865"
+    },
+    {
+      "label": "before_seven_colours",
+      "revision": 8,
+      "export": "blender/enemies/problem_vague_spec/v01/revisions/r8_before_seven_colours/problem_vague_spec_v01.glb",
+      "source": "blender/enemies/problem_vague_spec/v01/revisions/r8_before_seven_colours/problem_vague_spec_v01.blend",
+      "sha256": "4ef643bc26584d61b597aeb57ce84be37bfde4f5351fa02b649a3158861e8ba1",
+      "sourceHash": "995b829e0b25a070b0fb5dc6eada118c8b55681a27574fe7df06eef457b53865"
+    },
+    {
+      "label": "before_r9",
+      "revision": 8,
+      "export": "blender/enemies/problem_vague_spec/v01/revisions/r8_before_r9/problem_vague_spec_v01.glb",
+      "source": "blender/enemies/problem_vague_spec/v01/revisions/r8_before_r9/problem_vague_spec_v01.blend",
+      "sha256": "4ef643bc26584d61b597aeb57ce84be37bfde4f5351fa02b649a3158861e8ba1",
+      "sourceHash": "c6efd0cacf042c06008146a8b8cd5fa63243431c6955551c8a84fa389d268eff"
     }
   ],
   "decisions": "blender/enemies/problem_vague_spec/v01/decisions.md",
@@ -125,23 +179,23 @@
     "colors": {
       "paper": "#E5EBEF",
       "paper_shade": "#C9D3DE",
-      "edge": "#F3F6F8",
-      "ink": "#29394D",
-      "line": "#8E9FAD",
+      "edge": "#E5EBEF",
+      "ink": "#233B58",
+      "line": "#627389",
       "limb_light": "#A5B2C2",
       "limb": "#627389",
-      "joint": "#303D50",
-      "boot": "#43546C",
-      "accent": "#D8A24D"
+      "joint": "#233B58",
+      "boot": "#344D69",
+      "accent": "#FFAA24"
     },
     "attribute": "_palette_role",
     "storage": "texture"
   },
   "delivery": {
-    "sha256": "7288ea169999b79754d4d3a32dd25a4aa09e4b5c0f46d316ff85a58d744b35b8",
-    "sourceHash": "95d62b9e695319ae291738c491794f27c7b157ade7f2071c758ac563ca9bd53a",
+    "sha256": "5b437567df99096c2ca1b63ee4913bb1604ee4a268d7e11a7092eb851d433b79",
+    "sourceHash": "c6efd0cacf042c06008146a8b8cd5fa63243431c6955551c8a84fa389d268eff",
     "report": "blender/enemies/problem_vague_spec/v01/validation/report.json",
-    "deliveredAt": "2026-09-17T20:34:36.163Z"
+    "deliveredAt": "2026-09-26T22:47:33.414Z"
   },
   "texturePalettes": [
     {
@@ -152,7 +206,7 @@
       ],
       "roles": {
         "accent": {
-          "color": "#D8A24D",
+          "color": "#FFAA24",
           "rect": [
             0,
             0,
@@ -161,7 +215,7 @@
           ]
         },
         "boot": {
-          "color": "#43546C",
+          "color": "#344D69",
           "rect": [
             4,
             0,
@@ -170,7 +224,7 @@
           ]
         },
         "edge": {
-          "color": "#F3F6F8",
+          "color": "#E5EBEF",
           "rect": [
             8,
             0,
@@ -179,7 +233,7 @@
           ]
         },
         "ink": {
-          "color": "#29394D",
+          "color": "#233B58",
           "rect": [
             12,
             0,
@@ -188,7 +242,7 @@
           ]
         },
         "joint": {
-          "color": "#303D50",
+          "color": "#233B58",
           "rect": [
             16,
             0,
@@ -215,7 +269,7 @@
           ]
         },
         "line": {
-          "color": "#8E9FAD",
+          "color": "#627389",
           "rect": [
             28,
             0,
@@ -247,5 +301,17 @@
   "exportSettings": {
     "paletteSampler": "linear",
     "paletteTextureWorkflow": true
+  },
+  "presentation": {
+    "lifecycle": {
+      "type": "glitch_breach",
+      "version": 1,
+      "entryClip": "spawn",
+      "exitClip": "resolve",
+      "anchor": "root",
+      "color": "#FF497C",
+      "maxFragments": 2,
+      "spawnPortal": false
+    }
   }
 }

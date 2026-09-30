@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "asset": "work_coding_task",
+  "revision": 13,
+  "sourceHash": "2663298904c192efc0f62facef810bbab8d5bd36ac6f20ca2b7c6aac7c21eadd",
+  "activeActions": [],
+  "unmutedNla": [],
+  "maximumPoseDelta": 0,
+  "defaultMorphs": {
+    "Key": {
+      "checkbox_1": 0.0,
+      "checkbox_2": 0.0,
+      "checkbox_3": 0.0
+    }
+  },
+  "rootExtras": {
+    "type": "blueprint",
+    "version": 1,
+    "entryClip": "spawn",
+    "exitClip": "resolve",
+    "anchor": "task_motion",
+    "color": "#62EBD3",
+    "maxFragments": 0,
+    "stateMorphs": [
+      "checkbox_1",
+      "checkbox_2",
+      "checkbox_3"
+    ]
+  }
+}

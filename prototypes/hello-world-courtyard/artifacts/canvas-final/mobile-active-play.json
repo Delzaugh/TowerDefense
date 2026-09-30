@@ -1,0 +1,91 @@
+{
+  "url": "http://127.0.0.1:5189/",
+  "mode": "mobile",
+  "state": "active-play",
+  "requestedState": "active-play",
+  "appliedState": "active-play",
+  "runId": "courtyard-draft-20260930-final",
+  "seed": null,
+  "screenshotPath": "C:/Users/jonas/Documents/ChatGPT/Tower/prototypes/hello-world-courtyard/artifacts/canvas-final/mobile-active-play.png",
+  "gpu": {
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x00002204) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)",
+    "softwareRendered": false
+  },
+  "result": {
+    "ok": true,
+    "reason": "nonblank",
+    "rect": {
+      "x": 0,
+      "y": 109,
+      "width": 390,
+      "height": 358.21875
+    },
+    "drawingBuffer": {
+      "width": 585,
+      "height": 537
+    },
+    "alphaPixels": 4107,
+    "variance": 254,
+    "colorBuckets": 87,
+    "metrics": {
+      "colorBuckets": 170,
+      "colorEntropyBits": 2.14,
+      "edgeDensity": 0.131,
+      "luminance": {
+        "mean": 216.5,
+        "p5": 148.9,
+        "p95": 228.2,
+        "contrast": 79.4
+      },
+      "dominantColorShare": 0.654,
+      "nonBackgroundShare": 0.346
+    },
+    "renderBudget": {
+      "tier": "mobile",
+      "note": "starting-point budget; adjust per game and document overrides",
+      "rows": [
+        {
+          "metric": "calls",
+          "actual": 69,
+          "limit": 150,
+          "ok": true
+        },
+        {
+          "metric": "triangles",
+          "actual": 15631,
+          "limit": 300000,
+          "ok": true
+        },
+        {
+          "metric": "geometries",
+          "actual": 48,
+          "limit": 200,
+          "ok": true
+        },
+        {
+          "metric": "textures",
+          "actual": 24,
+          "limit": 40,
+          "ok": true
+        }
+      ],
+      "withinBudget": true
+    },
+    "diagnostics": {
+      "renderer": {
+        "calls": 69,
+        "triangles": 15631,
+        "geometries": 48,
+        "textures": 24,
+        "dpr": 1.5,
+        "camera": "iso",
+        "zoom": 1
+      }
+    }
+  },
+  "consoleErrors": [],
+  "pageErrors": [],
+  "consoleErrorCount": 0,
+  "pageErrorCount": 0
+}

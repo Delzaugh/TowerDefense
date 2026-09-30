@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_tile_hill",
+  "version": "v01",
+  "revision": 10,
+  "sha256": "ccc92b083a48356da72875b7095dd7e94471a1e06a3c90c62d3f2e3e0e6b7019",
+  "sourceHash": "3428b07ecec5eedbc853036baf8002b748f3e8e57e109ca98664495eb6418a4b",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-24T13:41:56.650Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "User-requested replacement of two isolated humps with longer linked ridges, unequal summits and lower shoulders. Route and furnishing pockets retain their established level surfaces."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Replaced the pinched radial terrain with an equilateral grid. Repaired missing boundary cells found in the first grid render. Final isometric view has a continuous perimeter with no exposed triangular shell notches."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Five staggered elevations read as connected ridge formations from the campus angle. The route remains open between the slopes; the level terrain border remains narrow in colour."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked revision 10 isometric and reverse renders after filling boundary triangles: no missing edge faces, no radial pleats, and continuous level interfaces. Existing flat central route and outer furnishing pockets remain usable."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_tile_hill/v01/validation/iso.png",
+      "sha256": "a0d6879e6e2f651ea53669e8bd670a6d1b3b969c7fb97bd74aa3b1bc92308a89",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_hill/v01/validation/rear.png",
+      "sha256": "b9a34a837d91f4cde264051ce99cec08c599d5956221545d27d08b1b3e9a25bc",
+      "view": "rear",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Awaiting user artistic review of this revision."
+  },
+  "limitations": [
+    "Static environmental artwork; no gameplay interactions."
+  ]
+}

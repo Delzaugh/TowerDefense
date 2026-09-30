@@ -1,0 +1,20 @@
+# Construction site decor v01
+
+## User direction and ownership
+Create the requested Construction Site as a coherent new campus section, separate from its terrain. User authorizes production and campus integration. This source owns only static original low-poly art; the parent task owns game placement. No external artwork or imported models. Campus visual guide governs chunky friendly proportions, matte materials and sparse detail.
+
+## Reference landmarks and hierarchy
+The dominant incomplete building has a 9.6 x 8 m poured slab centered at (-5.4,1), six precast columns, open roof beams and a half-finished upper floor. Its open bays communicate unfinished construction without relying on color. A compact 10.83 m tower crane behind it has a broad 9 m lattice boom, cab, ballast and suspended hook. An east-side blue site office, two material piles and three low safety barriers complete the scene. Office door/windows face the promenade. Small details serve this hierarchy; the main open frame and crane remain readable as a phone silhouette.
+
+## Construction and materials
+Building slab top local y=.18; office slab top .24; crane ballast top .46. These supporting forms are included in the decor. Uprights meet their bases; continuous lintels meet columns; partial floor meets its support beams. Lattice mast/boom and cable/hook are static authored geometry. The hook is suspended deliberately. One packed 64x4 palette texture and one matte material; opaque glazing. Thin structural members keep hard deliberate planes, while major manufactured masses carry single-segment bevels. UVs explicitly target the Palette channel; first-pass accidental default cube UV selection was fixed in revision 3.
+
+## Placement and limits
+Tile center world (0,0,62.353829072); decor root world (0,1.2,62.353829072), no rotation. Runtime bounds are [-10.20,0,-10.72]..[11.5,10.83,9.75], size 21.70 x 10.83 x 20.47 m. The tile deck is flat, so all included ground footings contact its y1.20 surface. Keep the reserved x=2.2..5.8 promenade from the north edge through z6.3 and the x=1.6..6.4, z=2.6..6.3 landing open. Actual runtime triangle audit finds zero corridor/landing overlaps and minimum footprint clearance 2.642 m from all outer edges, exceeding the 1.4 m quiet band. Audit is validation/placement-contract.json.
+
+## Review and feedback
+2026-09-24: User reported visible collision/flicker where blue floor beams meet white columns; the attached close-up is retained as references/beam-column-flicker.png. This rejects the revision-3 joint assessment. The source hash still matches the procedural authority, so the repair updates that recipe and uses guarded rebuilding. Floor beams are split into bays and terminate at the column faces, with a narrower section inside the column bevels. Beam tops now seat at the existing mezzanine underside instead of intersecting it. Roof cross members terminate at the lintel inner faces, removing the overlapping coplanar roof surfaces. Building placement, outer district dimensions, palette, crane and site-office design are preserved.
+
+Revision 4 passes guarded validation at 2,792 triangles, one mesh, one material and one texture, with unchanged outer dimensions. Actual Inspector close isometric, reverse, underside and phone views were inspected; a second elevated reverse assessment confirmed clean blue/white connections and roof corners. The hash-bound review records the repaired revision separately from the user's rejection of revision 3. The production game build includes the new runtime hash.
+
+Earlier revision-3 review: pipeline iso, rear, top and silhouette; shared Inspector iso, close, reverse and phone. First-pass UV defect was fixed at the source, then guarded rebuilt. This review's joint assessment was superseded by the user-reported defect and revision-4 repair above. No relevant clips or motion; environment remains deliberately static. Author review is hash-bound in validation/visual_review.json. User artistic acceptance remains pending, independent of technical validation.

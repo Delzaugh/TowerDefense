@@ -1,0 +1,22 @@
+{
+  "material": "campus_visitor_palette",
+  "size": [32, 8],
+  "roles": {
+    "skin": {"color": "#F4BF89", "rect": [0, 0, 4, 2]},
+    "skin_shadow": {"color": "#9F6E50", "rect": [4, 0, 4, 2]},
+    "hair": {"color": "#373238", "rect": [8, 0, 4, 2]},
+    "hair_light": {"color": "#494047", "rect": [12, 0, 4, 2]},
+    "olive": {"color": "#668055", "rect": [16, 0, 4, 2]},
+    "olive_light": {"color": "#778F62", "rect": [20, 0, 4, 2]},
+    "olive_shadow": {"color": "#4E6745", "rect": [24, 0, 4, 2]},
+    "cream": {"color": "#F5EAD5", "rect": [28, 0, 4, 2]},
+    "navy": {"color": "#293B59", "rect": [0, 2, 4, 2]},
+    "navy_light": {"color": "#344866", "rect": [4, 2, 4, 2]},
+    "brick": {"color": "#AF6255", "rect": [8, 2, 4, 2]},
+    "brick_shadow": {"color": "#925047", "rect": [12, 2, 4, 2]},
+    "sole": {"color": "#FFF1DA", "rect": [16, 2, 4, 2]},
+    "ink": {"color": "#241F24", "rect": [20, 2, 4, 2]},
+    "eye_white": {"color": "#FFF9EE", "rect": [24, 2, 4, 2]},
+    "button": {"color": "#D6D4B9", "rect": [28, 2, 4, 2]}
+  }
+}

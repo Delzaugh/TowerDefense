@@ -1,0 +1,5682 @@
+PDF PAGE 1
+Prepared by
+page & turnbull, inc.
+724 Pine Street, San Francisco, California 94108
+415.362.5154 / www.page-turnbull.com
+National Register Certification
+Final
+South End Historic District
+San Francisco, California
+June 26, 2008
+Prepared for
+City and County of San Francisco Planning Dept.
+Martin Building Co.
+San Francisco, California
+
+PDF PAGE 2
+ 
+
+PDF PAGE 3
+National Register Certification   South End Historic District 
+Final  San Francisco, California 
+ 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+-1- 
+ 
+TABLE OF CONTENTS 
+ 
+I. INTRODUCTION ............................................................................................ 2  
+II. PURPOSE...................................................................................................... 4  
+III. METHODOLOGY......................................................................................... 5  
+IV. HISTORIC CONTEXT STATEMENT ............................................................. 6  
+V. CHARACTER-DEFINING FEATURES ............................................................. 9  
+VI. FINDINGS................................................................................................... 10 
+Demolitions ..........................................................................................................................10 
+Evaluation ...........................................................................................................................12 
+ 
+VII. CONCLUSION ........................................................................................... 13 
+VIII. APPENDIX............................................................................................... 14 
+A1. South End Historic District Contributor/Non-Contributor Map (Updated) ................14 
+A2. Updated Building Data Forms for the South End Historic District..............................14  
+A3. Appendix I to Article 10: South End Historic District................................................14 
+A4. South End Historic District Case Report, February 5, 1990 .......................................14 
+
+PDF PAGE 4
+National Register Certification   South End Historic District 
+Final  San Francisco, California 
+ 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+-2- 
+I. INTRODUCTION 
+ 
+This documentation package has been prepared for the San Francisco Planning Department at the 
+request of Martin Building Company in support of the certification of the locally-designated South 
+End Historic District in San Francisco, California, as a National Register of Historic Places (National 
+Register) Historic District under the provisions of Section 67.9 of 36 Code of Federal Regulations 
+Part 67-Historic Preservation Certifications Pursuant to Sec. 48(g) and Sec. 170(h) of the Internal 
+Revenue Code of 1986 (36 CFR 67). Devised as a means to certify locally designated historic districts 
+that meet the required designation criteria of the National Register, this procedure is only available to 
+Certified Local Governments (CLG) with certified local statutes.  
+ 
+36 CFR 67 is the section of the Internal Revenue Code of 1986 that deals with Federal Rehabilitation 
+Tax Credits and other preservation tax incentives. Contained within the regulations are standards for 
+evaluating significance within registered historic districts, standards for rehabilitation, certifications 
+for rehabilitation and other sections dealing with certifying local statutes and historic districts. Within 
+36 CFR 67, Section 67.9 allows “duly authorized” representatives of a local jurisdiction to submit 
+applications to certify a locally designated historic district if it meets National Register criteria, 
+thereby enabling owners of income-producing properties within the district in question to take 
+advantage of Federal Rehabilitation Tax Credits and façade conservation easements. 
+ 
+An interest in tax-credit and/or conservation easement driven rehabilitation projects inspired Martin 
+Building Company, a San Francisco-based residential and commercial developer specializing in urban 
+infill projects and historic preservation, to underwrite the documentation necessary to certify the 
+South End Historic District as a National Register Historic District. This documentation package, 
+prepared in cooperation with the City and County of San Francisco Planning Department staff, 
+argues that the South End Historic District is eligible for listing in the National Register under 
+Criteria A and C, with a period of significance spanning the years 1867-1935. 
+ 
+The South End Historic District was originally designated as a local historic district by the Board of 
+Supervisors of the City and County of San Francisco in March 1990. In 1995, the State of California 
+Office of Historic Preservation (OHP) assigned National Register Status Codes to each property 
+within the historic district boundaries. These status codes are listed as part of the individual building 
+data sheets (See Appendix A2).  
+ 
+
+PDF PAGE 5
+National Register Certification   South End Historic District 
+Final  San Francisco, California 
+ 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+-3- 
+When it was designated, the boundaries of the South End Historic District encompassed seventy-
+three legal parcels containing mostly late nineteenth-century and early twentieth-century warehouse 
+buildings. A case report in support of the district’s designation was prepared by San Francisco 
+Planning Department staff and submitted to the Landmarks Preservation Advisory Board on 
+February 5, 1990. The case report designates a period of significance spanning the years 1867 to 
+1935. Although National Register Criteria were not explicitly referenced in the case report, the 
+district was designated on the basis of its “special historical, architectural and aesthetic interest and 
+value…..as a distinct section of the City.”1 This analysis suggests that the district would have been 
+determined eligible under National Register Criteria A (Events) and C (Design/Construction) if the 
+City had used National Register criteria. 
+ 
+At the time that the South End Historic District was designated, the City and County of San 
+Francisco used the Kalman Methodology for designating landmarks and historic districts. The 
+Kalman Methodology, named for its inventor Harold Kalman, used a numerically weighted system of 
+ratings to gauge the significance of historic resources. Once very common, modified versions of the 
+Kalman Methodology remain in use in several Bay Area communities, including Oakland and San 
+José in the Bay Area. In 2000, the Landmarks Board adopted National Register criteria in compliance 
+with its responsibilities as a designated CLG and to allow for a more consistent level of evaluation 
+and review at the local, state, and national level.
+2 
+ 
+A decade and a half later, the South End Historic District has evolved, most extensively during the 
+dot.com boom that centered on the area during the late 1990s. Residential and commercial projects 
+are rapidly transforming formerly derelict buildings and empty lots into loft housing, commercial 
+space, and entertainment businesses. Unfortunately, the high cost of retrofitting historic buildings – 
+especially seismically vulnerable unreinforced-masonry buildings (UMB) – has deterred some 
+developers from rehabilitating historic district contributors to the degree possible. While some savvy 
+developers may be aware of the Federal Rehabilitation Tax Credits and other economic incentives 
+privy to National Register-listed properties, others are not and are deterred by the lengthy 
+certification process. It is anticipated that certification of the South End Historic District as a 
+National Register-eligible historic district will provide a major incentive to quality preservation 
+projects in the area. 
+ 
+                                                      
+1 Appendix I to Article 10 of the San Francisco Planning Code: South End Historic District (San Francisco: San Francisco Planning Department, 
+Amended March 23, 1990): 663. 
+
+PDF PAGE 6
+National Register Certification   South End Historic District 
+Final  San Francisco, California 
+ 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+-4- 
+II. PURPOSE 
+ 
+As mentioned above, the purpose of this documentation package is to certify the locally designated 
+South End Historic District as a National Register Historic District. According to Guy Lapsley of the 
+National Park Service, San Francisco’s preservation ordinance, contained within Articles 10 and 11 of 
+the San Francisco Planning Code, has already been certified by the National Park Service under the 
+provisions of Section 67.8 of 36 CFR 67. Local statutes must be certified before local historic 
+districts can be certified. Because San Francisco’s Statute is already certified, it is the purpose of this 
+documentation package solely to secure the certification of the South End Historic District under 
+Section 67.9 of 36 CFR 67.
+3 
+ 
+This documentation package has been prepared at the request of Martin Building Company by Page 
+& Turnbull, a preservation architecture firm in San Francisco. Kelley & VerPlanck Historic 
+Resources Consulting provided consultation on this report.  Page & Turnbull’s staff meets or exceeds 
+the Secretary of the Interior’s Professional Qualification Standards in Historic Architecture, 
+Architectural History, and History. This documentation will be submitted to OHP by John Rahaim, 
+Director of Planning of the San Francisco Planning Department, on behalf of Mayor Gavin 
+Newsom. 
+ 
+                                                                                                                                                             
+ 
+2 San Francisco Planning Department, San Francisco Preservation Bulletin No. 14: “Brief History of the Historic Preservation Movement in the United 
+States and in San Francisco,” (San Francisco: San Francisco Planning Department, January 2003): 3. 
+3 Letter from Guy Lapsley of National Park Service to Christopher VerPlanck of Page & Turnbull, January 1, 2006. 
+
+PDF PAGE 7
+National Register Certification   South End Historic District 
+Final  San Francisco, California 
+ 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+-5- 
+III. METHODOLOGY 
+ 
+Page & Turnbull staff re-surveyed the entire historic district, digitally photographed each property, 
+and checked each against photographs submitted as part of the original case report. Page & Turnbull 
+noted all buildings originally identified as contributors to ensure that they were still extant and 
+retained integrity. Page & Turnbull created a property data table, with current photographs and 
+information on each property (See Appendix A2). We then prepared an updated map of the historic 
+district that identifies contributors and non-contributors.  
+ 
+
+PDF PAGE 8
+National Register Certification   South End Historic District 
+Final  San Francisco, California 
+ 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+-6- 
+IV. HISTORIC CONTEXT STATEMENT 
+ 
+The following statement of significance is taken from Appendix I to Article 10: South End Historic 
+District (See Appendix A3). This in turn, was synthesized from the South End Historic District Case 
+Report, prepared for the Landmarks Preservation Advisory Board on February 5, 1990.  
+ 
+History of the area: for decades after the 1849 gold Rush, San Francisco was the 
+principal seaport and connection with the outside world for California and the West 
+Coast. San Francisco’s expansion and transformation into one of the most 
+important cities in North America is attributable to the eminence of its port which, 
+because of its sheltered location and deep water, became one of the best-suited on 
+the Pacific Ocean. 
+ 
+The development of warehouses over a 120-year period along the southern 
+waterfront provides a benchmark from which to view architectural and 
+technological responses to the rapid changes of a growing industrial nation state and 
+city. The interdependence of architecture and history can be seen from a look at the 
+evolution of warehouse forms along the southern waterfront. Unlike most other 
+areas of the San Francisco waterfront, the South End district contains an 
+extraordinary concentration of buildings from almost every period of San 
+Francisco’s maritime history. Several street fronts – such as Second, Third and 
+Townsend – are characterized by solid walls of brick and reinforced concrete 
+warehouses. With this harmony of scale and materials, the South End Historic 
+District is clearly a visually recognizable place. 
+ 
+One-story warehouses were common in the nineteenth century but rare in the early 
+twentieth due to the increasing cost of land. Two of the oldest warehouses in the 
+historic district are one story in height: Hooper’s Warehouse (1874) and the 
+California Warehouse (1882). Their horizontal orientation is accentuated through 
+the use of strong cornice lines with decorative brick patterns. 
+ 
+Multi-story buildings have been more common along the southern waterfront since 
+the turn of the century. After 1906, almost all new warehouses were constructed to 
+be at least three stories in height, and several warehouses on Second and Townsend 
+Streets reached six stories. The invention of the forklift in the 1930s eliminated 
+advantages which multi-story buildings enjoyed over single-story structures. Since 
+1945, almost all warehouses constructed in the United States have been one story in 
+height. Many multi-story warehouses and industrial buildings have been converted 
+to other uses or are vacant because they have become obsolete for most warehouse 
+or industrial functions. 
+
+PDF PAGE 9
+National Register Certification   South End Historic District 
+Final  San Francisco, California 
+ 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+-7- 
+ 
+South End’s period of historical significance, 1867 to 1935, comprises the era during 
+which the waterfront became a vital part of the city’s and nation’s maritime 
+commerce. The buildings of the South End Historic District represent a rich and 
+varied cross-section of the prominent local architects and builders of the period. 
+Four buildings remain from the nineteenth century; another four were constructed 
+in the six-year interval preceding the 1906 earthquake. The majority of the buildings 
+were erected between 1906 and 1929, a period during which trade along the 
+waterfront increased dramatically.  
+ 
+Several events shaped this part of San Francisco. The building of Long Bridge in 
+1865 on the line of Fourth Street south to Point San Quentin or the Potrero district, 
+opened up opportunities for new industrial development in the southern part of the 
+city. The Second Street cut of 1869, through fashionable Rincon Hill, allowed access 
+from downtown to the southern waterfront. The completion of the transcontinental 
+railroad in 1869 (and the eventual extension of railway lines into the area) was the 
+single most important event to impact the district. The fire of 1906 and the opening 
+of the Panama Canal in 1914 were further impetuses to warehouse construction in 
+this area, as were the seawall and the Belt Line Railway. 
+ 
+Prominent figures in San Francisco history have been associated with the district. 
+William Ralston, founder of the Bank of California, builder of the Palace Hotel, and 
+financier of San Francisco and the West, owned property in the district and was a 
+major force in politically engineering the Second Street cut in 1869. William Sharon, 
+a U.S. Senator from Nevada in 1875-1881, acquired much of Ralston’s estate and 
+also co-owned and built the California Warehouse on the corner of Second and 
+Townsend for Haslett and Bailey in 1882. 
+ 
+William P. Aspinwall founded the internationally important Oriental Warehouse 
+(Pacific Mail Steamship Company) in this district during the Gold Rush. John 
+Hooper built Hooper’s South End Grain Warehouse at Japan and Townsend Streets 
+in 1874 for California’s lucrative grain trade. Hooper was a member of a family 
+known particularly for its lumber trade, with large land holdings just south of the 
+South End Historic District. 
+ 
+The leading warehouse firms in San Francisco were those of the Haslett and Lamb 
+families. Samuel Haslett, a native of Ireland, came to San Francisco in the 1870s and 
+became a partner with J. W. Cox at the Humboldt Warehouse on Rincon Point. 
+Haslett’s sons continued the business after his death, and Samuel Haslett IV is now 
+president of the firm. Once nationally known in warehousing, the Hasletts built or 
+
+PDF PAGE 10
+National Register Certification   South End Historic District 
+Final  San Francisco, California 
+ 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+-8- 
+are associated with seven warehouses in the district. George Lamb founded the 
+South End Warehouse Company in 1905, and later co-founded the drayage and 
+hauling firm of King and Company. South End operated six warehouses in the area 
+at various times. 
+ 
+Charles Lee Tilden (1857-1950) built 111-113 Townsend, a Haslett warehouse, and 
+the Overland warehouse at Third and Townsend Streets. Tilden, a highly successful 
+business entrepreneur, also founded the East Bay Regional Park system in 1934. 
+Charles Norton Felton (1828-1914), Senator, Congressman, and early developer of 
+oil in California, is associated with warehouses at 275 Brannan Street and 601 
+Second Street. 
+ 
+The proposed historic district is an important visual landmark for the city as a 
+whole. The large number of intact masonry warehouses which remain to this day are 
+reminders of the maritime and rail activities which helped to make San Francisco a 
+great turn-of-the-century port city. The warehouse district, because of its distinct 
+building forms, is identifiable from many parts of San Francisco and the greater Bay 
+Area. Additional historical information may be found in the South End Historic 
+District Case Report No. 89.065L.
+4 
+ 
+In addition to these factors, Page & Turnbull would add the importance of labor in the definition of 
+the history of the South End Historic District. Neglected for most of our history, recent research has 
+provided additional information on the role of labor and labor unions in the daily operation of the 
+warehouses in the South End. In addition, the South End was at the epicenter of the most important 
+labor struggle to occur on the West Coast: the 1934 Waterfront Strike. The lead up to and the events 
+of the strike have been told elsewhere, but it is critical to note the presence of a particular brick 
+warehouse at 128 King Street. The Garcia and Maggini Warehouse, one of the strike’s major 
+flashpoints in the conflict between striking longshoremen on one side and the San Francisco Police 
+Department (acting on behalf of the Industrial Association), is a contributor to the historic district 
+and an individually designated City Landmark. Other City Landmarks within or immediately adjacent 
+to, the South End Historic District include Rincon Hill and the Oriental Warehouse. 
+ 
+                                                     
+ 
+4 Appendix I to Article 10 of the San Francisco Planning Code: South End Historic District (San Francisco: San Francisco Planning Department, 
+Amended March 23, 1990): 665. 
+
+PDF PAGE 11
+National Register Certification   South End Historic District 
+Final  San Francisco, California 
+ 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+-9- 
+V. CHARACTER-DEFINING FEATURES 
+ 
+Section 6 of Appendix I to Article 10 describes the character-defining features of the South End 
+Historic District (See Appendix A3). These include the following categories:  
+ 
+• Overall form and continuity 
+• Scale and proportion  
+• Fenestration 
+• Materials 
+• Color 
+• Texture 
+• Detail  
+ 
+In general, the contributing buildings within the South End Historic District range between one and 
+six stories in height, are rectangular-massed, utilitarian, rough-textured, earth tone-colored, brick or 
+concrete structures with rhythmically spaced and deeply recessed fenestration, large arched loading 
+docks, and restrained detailing consisting of flattened arch window treatment, brick corbelling, sheet 
+metal cornices and abstract pilaster-like elements.
+5  
+ 
+To this list, Page & Turnbull would add: arched entries on many buildings, a preponderance of steel, 
+multi-lite industrial sash windows, unfinished board-formed concrete walls on later warehouses, 
+integral rail slips, exterior wall-mounted fire escapes and distinctive parapet detailing. 
+ 
+                                                      
+5 Appendix I to Article 10 of the San Francisco Planning Code: South End Historic District (San Francisco: San Francisco Planning Department, 
+Amended March 23, 1990): 665. 
+
+PDF PAGE 12
+National Register Certification   South End Historic District 
+Final  San Francisco, California 
+ 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+-10- 
+VI. FINDINGS 
+ 
+Demolitions 
+As noted above, the South End Historic District has undergone several demolitions and major 
+alterations since the district was initially established in 1990. Most of the changes have occurred 
+within the eastern part of the district along Delancey Street (formerly First Street). Most of the new 
+development occurred on vacant lots or replaced buildings determined to be non-contributory in 
+1990. Only two contributors have been demolished since 1990: 200 Brannan Street and 200-202 
+Townsend Street. All major demolitions that have occurred within the boundaries of the district are 
+listed below by APN and primary address. 
+ 
+Block 3774
+ 
+Block 3774 is bounded by Second, Brannan, Delancey, and Bryant Streets. It is located wholly within 
+the boundaries of the South End Historic District. Since 1990, the following major changes have 
+occurred on this block:  
+ 
+• APN 3774 151-181 (301 Bryant Street - formerly 500 First Street): In 1998, a vacant lot was 
+merged with another vacant lot to the west (315 Bryant) and redeveloped with an eleven-
+story residential building. Aside from its scale, the new building appears to be generally 
+compatible with the historic district.  
+1990 Status: Non-Contributor 
+Current Status: Non-Contributor 
+ 
+• APN 3774 015 (41 Federal Street): 41 Federal Street is a 1930 concrete warehouse, and was 
+determined non-contributory to the significance of the historic district in 1990. In 2005, the 
+1930 warehouse was demolished and replaced with a four-story wood-frame on concrete 
+podium residential building. The replacement building is not yet complete but appears to be 
+compatible with the historic district in regard to scale and massing. 
+1990 Status: Non-Contributor 
+Current Status: Non-Contributor 
+ 
+• APN 3774 261-427 (200 Brannan Street): 200 Brannan Street is a 1926 wood-frame and 
+concrete warehouse, and was determined contributory to the significance of the historic 
+district in 1990. In 2003, the contributing building was demolished and replaced with a nine-
+story steel-frame residential building. The building appears to be generally compatible with 
+the historic district in regard to scale and massing if not detailing; however, the new building 
+is considered to be a non-contributing resource in the historic district. 
+1990 Status: Contributor 
+Current Status: Non-Contributor 
+
+PDF PAGE 13
+National Register Certification   South End Historic District 
+Final  San Francisco, California 
+ 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+-11- 
+ 
+Block 3787 
+Block 3787 is bounded by Fourth, Townsend, Third, and Brannan Streets; about one-quarter of the 
+block is located within the South End Historic District. Since 1990, the following major changes 
+have occurred on the block:  
+ 
+• APN 3787 167-212 (formerly APN 3787 009, 010, 011, & 046; 200-202 Townsend Street): 
+200-202 Townsend Street is a 1913 two-story, brick  commercial building that was 
+determined contributory to the significance of the historic district in 1990. Since this time, it 
+was demolished and the lot was merged with an adjoining vacant lot to the north (formerly 
+206 Townsend Street). The lots have been redeveloped with a five-story steel–frame 
+residential building that is generally compatible with the historic district in regard to scale 
+and massing. 
+1990 Status: Contributor 
+Current Status: Non-Contributor 
+ 
+Block 3789
+ 
+Block 3789 is bounded by Second, Townsend, Delancey, and Brannan Streets; about two-thirds of 
+the block is located within the South End Historic District. Since 1990, the following major changes 
+have occurred:  
+ 
+• APN 3789 781-851 (229 Brannan Street): 229 Brannan Street is a 1961 concrete office 
+building that was determined non-contributory to the significance of the historic district in 
+1990. In 2003, it was demolished and replaced by a high-rise residential development called 
+“The Brannan.” New development is incompatible with the historic district in regard to scale 
+and massing. 
+1990 Status: Non-Contributor 
+Current Status: Non-Contributor 
+ 
+• APN 3789 911-971 (formerly APN 3789 004; 88 Townsend Street, also identified as 699 
+Second Street): 88 Townsend Street is a two-story 1882 brick warehouse building that was 
+determined contributory to the significance of the historic district in 1990. Since this time, 
+the building has been largely demolished except for two façades, received a two-story 
+addition, and was converted to residential use.  The status of the building has changed due to 
+the inappropriate nature of this demolition and addition. 
+1990 Status: Contributor 
+Current Status: Non-Contributor 
+ 
+Since 1990, the number of contributing buildings has been diminished by two. The integrity of the 
+
+PDF PAGE 14
+National Register Certification   South End Historic District 
+Final  San Francisco, California 
+ 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+-12- 
+historic district remains surprisingly high considering the past fifteen years, which have encompassed 
+one of the largest real estate and development booms ever experienced in San Francisco and this 
+neighborhood. Of the original properties from 1990, two contributing resources, 200 Brannan Street 
+and 200-202 Townsend Street, were demolished within the South End Historic District. The new 
+buildings located on these parcels are not considered to be contributing resources to the surrounding 
+historic district.   
+ 
+Evaluation 
+When the South End Historic District was designated in 1990, the San Francisco Landmarks Board 
+did not use National Register criteria. However, the ordinance and the original case report indicate 
+that the South End Historic District is eligible for designation under the requirements of Article 10 
+for historical and architectural associations, suggesting that the property would have been found 
+eligible under National Register Criteria A (Events) and C (Design/Construction). The Case Report 
+indicates that the South End Historic District is significant at the local level as the largest and most 
+intact collection of nineteenth-century and early twentieth-century warehouses and light industrial 
+buildings along San Francisco’s working waterfront. As identified in the Case Report, the district is 
+especially significant for the breadth of buildings representing almost a century of warehouse 
+construction in San Francisco. The district consisted of seventy-three assessor lots located on Blocks 
+3764, 3774, 3775, 3787, 3788, 3789, and 3794.  
+ 
+In the 1990 South End Historic District Case Report, eight parcels located within the district 
+boundaries were not identified or evaluated with building specific information. These eight 
+parcels/properties are: 318 Brannan Street (APN 3775 104-105; formerly 3775 100), 326 Brannan 
+Street (APN 3775 012), 334 Brannan Street (APN 3775 101), 340 Brannan Street (APN 3775 015), 
+and 350 Brannan Street (APN 3775 016), 144 King Street (APN 3794 024), 750 2
+nd Street (APN 3794 
+002a), and 760 2nd Street (APN 3794 002-002b). Included as part of this report are building data 
+forms on all eight properties (See Appendix). Based upon a review of these properties, two resources, 
+340 Brannan Street and 350 Brannan Street, appear to be contributors to the South End Historic 
+District. 
+ 
+As of 2008, the historic district possesses fifty-six contributors, and twenty-two non-contributors. 
+The number of parcels located within the district has increased to seventy-eight due to changes in the 
+parcels that have occurred from 1990 to 2008. 
+ 
+
+PDF PAGE 15
+National Register Certification   South End Historic District 
+Final  San Francisco, California 
+ 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+-13- 
+VII. CONCLUSION 
+ 
+The South End Historic District, a City-designated historic district since 1990, appears to be eligible 
+for listing in the National Register as a concentrated district of warehouses and light industrial 
+buildings spanning nearly a century of development in San Francisco’s South End waterfront area. 
+Based on the original case report, the district appears eligible for listing under National Register 
+Criteria A (Events) and C (Design/Construction). Over a decade and a half has passed since the 
+historic district was initially approved, a period characterized by intense development pressure. 
+Nevertheless, the number of contributing properties the same as it was in 1990. 
+ 
+In many American cities, waterfront warehouse districts have been especially vulnerable to urban 
+renewal, freeway construction and neglect due to their obsolescence. The South End Historic 
+District is the single-most important concentration of major nineteenth-century and early twentieth-
+century warehouses in San Francisco. It was also the center of activity during one of the most 
+important events in the history of labor in the Western United States, the 1934 Waterfront Strike. 
+Although already subject to provisions of San Francisco’s preservation ordinance, National Register 
+listing will provide greater awareness of the district’s significance beyond San Francisco and, more 
+important, provide additional incentives for property owners to preserve and rehabilitate their 
+buildings according to the Secretary of the Interior’s Standards. 
+ 
+With regard to impacts, the designation of the South End Historic District as a National Register-
+eligible district will change little in regard to restrictions on what a property owner can do with his or 
+her property. This is because all the contributors already have National Register Status Codes of 1, 2, 
+or 3. In addition, owners of income-producing properties that are contributors will be eligible to take 
+advantage of Federal Rehabilitation Tax Credits, as outlined in 36 CFR 67. 
+
+PDF PAGE 16
+ 
+
+PDF PAGE 17
+National Register Certification   South End Historic District 
+Final  San Francisco, California 
+ 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+-14- 
+VIII. APPENDIX 
+ 
+A1. South End Historic District Contributor/Non-Contributor Map (Updated) 
+A2. Updated Building Data Forms for the South End Historic District 
+A3. Appendix I to Article 10: South End Historic District 
+A4. South End Historic District Case Report, February 5, 1990 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+PDF PAGE 18
+ 
+
+PDF PAGE 19
+National Register Certification   South End Historic Distric t 
+Revised Draft  San Francisco, Californi a 
+ 
+ 
+- A1 - 1 -
+MAP 1
+South End Historic District (1990)
+LEGEND
+South End Historic District Boundaries
+
+
+PDF PAGE 20
+ 
+
+PDF PAGE 21
+3774
+3775
+3789
+3788
+3764
+3787
+3794
+HARRISON ST
+.
+ESSEX ST.
+DOW PL.
+STERLING ST.
+I-80 WESTBOU
+ND
+I-80 EASTBOUND
+STILLMAN ST
+.
+BRYANT ST.
+SOUTH P
+ARK
+3RD ST
+.RITCH ST.
+ZOE ST.
+VARNEY PL.
+BRANNAN ST.
+STANFORD ST.
+COLIN P. KELLY JR ST.
+KING ST.TOWNSEND ST.
+THE EMBARCAD
+ERO
+DELANCEY ST.
+FEDERAL
+ ST.
+2ND ST.PERRY ST.
+TABER PL.
+CLYDE ST.
+LUSK ST.
+MAP 2
+2008 Update of  1990 Case Report Map
+LEGEND
+Contributors to Historic District
+Non-Contributors to Historic District
+Former Contributing Properties that have 
+been demolished (now considered Non-
+Contributor)
+Existing South End Historic District Boundaries
+- A1 - 2 -
+Properties located in district boundaries 
+not evaluated in 1990; Properties 
+evaluated as part of 2008 NR Certification
+141-
+147005
+007
+008
+081-118
+067
+131
+044
+071
+070
+074
+073
+031
+026
+025
+192-240
+261-427
+101-191
+001
+004
+007
+072
+127191
+063
+013
+434-443
+006
+004
+151-
+181
+447-509
+781-851
+009
+008
+007
+911-971
+003
+010
+037
+038
+002
+051-073
+043
+044
+006
+008
+005
+002
+015
+014
+010022
+021
+023
+008
+009
+009A
+010
+080-084012
+091-105
+013
+014
+015
+091-105020
+045
+005
+007
+171-217
+012
+008
+104-105
+012101
+015
+016
+002a
+002-002b
+024
+
+PDF PAGE 22
+ 
+
+PDF PAGE 23
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-1 -
+ 
+APPENDIX A2: UPDATED BUILDING DATA FORMS FOR THE SOUTH END HISTORIC DISTRICT 
+List of Contributors (55) 
+ 
+1. APN 3774 025 (230 Brannan St) 
+2. APN 3774 073 (274 Brannan St) 
+3. APN 3789 009 (275 Brannan St) 
+4. APN 3775 008 (300 Brannan St) 
+5. APN 3788 037 (301 Brannan St) 
+6. APN 3775 101 (334 Brannan St) 
+7. APN 3775 016 (350 Brannan St) 
+8. APN 3774 005 (327 Bryant St) 
+9. APN 3774 006-007 (329 Bryant St) 
+10. APN 3774 008 (333-353 Bryant St) 
+11. APN 3774 081-118 (formerly APN 3774 068; 355-367 Bryant St) 
+12. APN 3774 067 (385 Bryant; also listed as 501 Second St) 
+13. APN 3789 010 (52 Colin P. Kelly St) 
+14. APN 3774 192-240 (formerly APN 3774 018, 1 Federal St) 
+15. APN 3774 013 (51 Federal St) 
+16. APN 3774 074 (formerly APN 3774 012; 60 Federal St) 
+17. APN 3774 141-147 (formerly APN 3774 002; 512 First St)  
+18. APN 3789 447-509 (formerly APN 3789 015; 620-650 Delancey St, also identified as 620-650 
+First St) 
+19. APN 3794 023 (128 King St) 
+20. APN 3764 101-191 (formerly APN 3764 070; 461 Second St)  
+21. APN 3775 001 (500 Second St) 
+22. APN 3775 002 (512 Second St) 
+23. APN 3775 004 (522-6 Second St) 
+24. APN 3774 131 (formerly APN 3774 048; 525 Second St, also listed as 533 Second St) 
+25. APN 3775 005 (544 Second St) 
+26. APN 3774 045 (555-559 Second St) 
+27. APN 3774 044 (563 Second St) 
+28. APN 3774 031 (599 Second St) 
+29. APN 3789 008 (601 Second St) 
+30. APN 3789 007 (625 Second St) 
+31. APN 3788 038 (634 Second St) 
+32. APN 3788 002 (640 Second St) 
+33. APN 3788 051-073 (formerly APN 3788 002a; 650 Second St) 
+34. APN 3788 043-044 (670-680 Second St also separately identified as 678-80 Second St) 
+35. APN 3788 006 (698 Second St) 
+36. APN 3775 007 (1 South Park St, also identified as 570 Second St) 
+37. APN 3788 020 (601 Third St) 
+38. APN 3787 005 (630 Third St) 
+39. APN 3788 045 (formerly APN 3788 019; 625-47 Third St) 
+40. APN 3787 008 (660 Third St) 
+41. APN 3788 091-105 (formerly 3788 041, 663-665 Third St) 
+42. APN 3788 015 (685 Third St) 
+43. APN 3789 003 (64 Townsend St) 
+44. APN 3794 015 (101 Townsend St) 
+45. APN 3794 014 (111 Townsend St) 
+46. APN 3794 010 (115-31 Townsend St) 
+47. APN 3788 008 (130 Townsend St) 
+48. APN 3794 022 (135 Townsend St) 
+49. APN 3788 009 (136 Townsend St) 
+50. APN 3794 021 (139 Townsend St) 
+
+PDF PAGE 24
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-2 -
+ 
+51. APN 3788 009a (144 Townsend St) 
+52. APN 3788 010 (148 Townsend St) 
+53. APN 3788 080-084 (formerly APN 3788 011a; 156-64 Townsend St) 
+54. APN 3788 012 (178 Townsend, also identified as 166 Townsend St) 
+55. APN 3788 013 (166 Townsend St) 
+List of Non-Contributors (23) 
+1. APN 3774 261-427 (formerly APN 3774 024; 200 Brannan St) 
+2. APN 3789 781-851 (formerly APN 3789 012; 211 Brannan St) 
+3. APN 3774 026 (260 Brannan St) 
+4. APN 3774 063 (284 Brannan St) 
+5. APN 3775 104-105 (formerly 3775 100; 318 Brannan St) 
+6. APN 3775 012 (326 Brannan Street) 
+7. APN 3775 015 (340 Brannan St) 
+8. APN 3774 070 (18 DeBoom St)  
+9. APN 3774 004 (28 Federal St) 
+10. APN 3774 007 (30 Federal St)  
+11. APN 3774 434-443 (formerly APN 3774 015; 41 Federal St, also listed as 35-67 Federal St) 
+12. APN 3774 071 (formerly APN 3774 069; 77 Federal St)  
+13. APN 3774 072 (formerly APN 3774 066; 85 Federal St)  
+14. APN 3774 151-181 (301 Bryant; formerly APN 3774 001, also identified as 500 First St) 
+15. APN 3794 024 (144 King St) 
+16. APN 3774 127 (formerly APN 3774 065; 543 Second St) 
+17. APN 3774 127 (formerly APN 3774 064; 545 Second St)  
+18. APN 3794 002a (750 Second St) 
+19. APN 3794 002-002b (760 Second St) 
+20. APN 3787 007 (640 Third St)  
+21. APN 3788 014 (687-99 Third St) 
+22. APN 3787 161-212 (formerly APN 3787 009, 010, & 011; 200-202 Townsend St, also identified 
+as 206 Townsend St) 
+23. APN 3789 911-971 (formerly APN 3789 004; 88 Townsend St, also identified as 699 Second St) 
+ 
+ 
+
+PDF PAGE 25
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-3 -
+ 
+ 
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code 
+200 Brannan Street  
+3774/261-427 (In 1990: 3774/024)  
+200 Brannan 
+Freight Distributing Terminal & Garage 
+Farnsworth & Ruggles 
+Farnsworth & Ruggles Draying 
+Manufacturing/Warehouse  
+New construction: residential  
+2005 (original building: 1926) 
+Contemporary 
+Unknown 
+Unknown 
+Nine 
+N/A 
+Brick and steel 
+Brick and glass 
+Contributory  
+Non-contributory  
+Original building demolished 2002 
+  
+None  
+ 
+ 
+
+PDF PAGE 26
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-4 -
+ 
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code 
+211 Brannan Street  
+3789/781-851 (In 1990: 3789/012)  
+The Brannan 
+Manufacturing 
+Stevedore’s Equipment Co. 
+Stevedore’s Equipment Co. 
+Office/Industrial  
+New construction-residential  
+2002 (original building: 1961) 
+Contemporary 
+Stavi Architects 
+Unknown 
+Seventeen 
+Unknown 
+Steel frame 
+Stucco 
+Non-contributory  
+Non-contributory  
+Original building demolished ca. 2000 
+ 
+None 
+ 
+ 
+
+PDF PAGE 27
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-5 -
+ 
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+230 Brannan Street  
+3774/025  
+H.S. Crocker Building  
+Printing and Stationery Warehouse  
+The Warehouse Land and Improvement Co.  
+H.S. Crocker Co.  
+Warehouse/Manufacturing  
+Office  
+1906 
+Commercial  
+Henry A. Schulze  
+ N/A 
+Three-over-basement  
+ Unknown 
+Brick  
+Brick  
+Contributory  
+Contributory  
+None  
+ 
+3D – Appears eligible as contributor to a fully 
+documented district (1995) 
+ 
+ 
+
+PDF PAGE 28
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-6 -
+ 
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations:  
+Other Information:  
+National Register Status Code 
+260-270 Brannan Street  
+3774/026  
+270 Brannan Street 
+Unknown 
+Unknown 
+Unknown 
+Parking Lot/Building not documented  
+Parking Lot/Unknown  
+1962 
+Commercial 
+Unknown 
+Unknown 
+One 
+Unknown 
+Concrete 
+Concrete 
+Non-contributory  
+Non-contributory  
+None 
+ 
+None 
+ 
+ 
+
+PDF PAGE 29
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-7 -
+ 
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+274 Brannan Street  
+3774/073  
+Hawley Terminal Building  
+Public Storage  
+Terminal Warehouse  
+Hawley Terminal  
+Office  
+Office  
+1924 
+Commercial  
+Ellison & Russell (Engineers)  
+N/A 
+Six-over-basement  
+Unknown 
+Reinforced-concrete  
+Stucco  
+Contributory  
+Contributory  
+None  
+ 
+3D - Appears eligible as contributor to a fully 
+documented district (1995) 
+ 
+ 
+
+PDF PAGE 30
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-8 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+275 Brannan Street  
+3789/009  
+Rosenberg Brothers' Warehouse  
+Dry Fruit Packing  
+Charles N. Felton, Jr.  
+Rosenberg Brothers & Co.  
+Office/Manufacturing  
+Vacant  
+1905/1909 
+Commercial  
+Alden W. Campbell, Will D. Shea  
+N/A 
+Three  
+50'  
+Brick  
+Stucco  
+Contributory  
+Contributory  
+None 
+Third floor added 1909  
+1S – Listed in the National Register as an individual 
+property (1982) 
+ 
+ 
+
+PDF PAGE 31
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-9 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+284 Brannan Street  
+3774/063  
+  
+  
+  
+  
+Parking Lot  
+Parking Lot  
+ 
+  
+  
+  
+  
+  
+  
+  
+Non-contributory  
+Non-contributory  
+  
+  
+None 
+ 
+ 
+
+PDF PAGE 32
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-10 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+ 
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations:  
+Other Information:  
+National Register Status Code: 
+300 Brannan Street  
+3775/008  
+Blinn Estate Building  
+Wholesale furniture and carpet warehouse  
+Blinn Estate Company (Helen B. Blinn of Alameda) 
+Peck & Hills Furniture Co.; Wm. G. Volker & Co.
+ Office/retail  
+Restaurant, office  
+1912 
+Commercial  
+Charles C. Frye & George A. Schastey, Alvin E. 
+Horlein (engineer)  
+N/A 
+Six  
+70'  
+Reinforced-concrete  
+Stucco  
+Contributory  
+Contributory  
+  
+  
+3D - Appears eligible as contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 33
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-11 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alteration Since 1990:  
+Other Information:  
+National Register Status Code: 
+301 Brannan Street  
+3788/037  
+The Crane Company Building  
+Plumbing Supplies  
+The Crane Company  
+The Crane Company  
+Office  
+Vacant Office  
+1909 
+Commercial  
+Lewis P. Hobart  
+N/A 
+Six  
+Unknown 
+Steel-frame with brick walls  
+Brick  
+Contributory  
+Contributory  
+None  
+Crane Company Headquarters in Chicago  
+3D - Appears eligible as contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 34
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-12 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alteration Since 1990:  
+Other Information:  
+National Register Status Code: 
+318 Brannan Street  
+3775/104-105 (formerly 3775 100)  
+ NCA Engineers, Inc. 
+ 
+ 
+ 
+Not Evaluated 
+Office 
+1961 
+ 
+ 
+ 
+2 
+ 
+ Reinforced-Concrete 
+ Concrete 
+ Not Evaluated  
+Non-contributory  
+n/a  
+None 
+7R 
+ 
+ 
+
+PDF PAGE 35
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-13 -
+ 
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alteration Since 1990:  
+Other Information:  
+National Register Status Code: 
+326 Brannan Street  
+3775/012  
+John H. Tway & Son  
+ 
+ 
+ 
+Not evaluated 
+Light Industrial 
+1959 
+Utilitarian/Industrial 
+ 
+ 
+1 
+ 
+ Concrete 
+ Concrete 
+ Not Evaluated  
+Non-contributory  
+ n/a 
+Building is setback from street 
+None 
+ 
+ 
+
+PDF PAGE 36
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-14 -
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+327 Bryant Street  
+3774/005  
+Bryant Place 
+Warehouse/industrial annex 
+American Marine Paint Co. 
+American Marine Paint Co. 
+Offices  
+Offices  
+1918 
+Utilitarian 
+Unknown 
+Unknown 
+Two 
+12’  
+Brick 
+Brick 
+Contributory  
+Contributory  
+None 
+  
+None 
+ 
+
+PDF PAGE 37
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-15 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+329 Bryant Street  
+3774/007  
+American Marine Paint Co.  
+Industrial  
+American Marine Paint Co.  
+American Marine Paint Co.  
+Industrial  
+Office  
+1918 
+Renaissance/Baroque 
+Charles Paff & Co. 
+N/A 
+Two-over-basement 
+12'  
+Brick  
+Stucco  
+Contributory  
+Contributory  
+Loading dock removed, storefront alterations 
+ 
+7N – Not evaluated 
+ 
+
+PDF PAGE 38
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-16 -
+ 
+ 
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+333-353 Bryant Street  
+3774/008  
+Ondawa Building  
+Warehouse  
+Ondawa Co. (M.J. Hawley)  
+The Columbia Graphophone Company  
+Office  
+Office  
+1920 
+Commercial  
+Earl B. Scott, W.H. Ellison (Engineer) 
+Earl B. Scott, W.H. Ellison (Engineer) 
+Three stories-over-basement  
+38'  
+Reinforced-concrete  
+Stucco  
+Contributory-Altered  
+Contributory  
+None  
+ 
+6Y – Determined ineligible for National Register by 
+consensus (1996) 
+ 
+
+PDF PAGE 39
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-17 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alteration Since 1990:  
+Other Information:  
+National Register Status Code: 
+334 Brannan Street  
+3775/101  
+ Sherman and Clay 
+ 
+ 
+ 
+Not evaluated 
+Office/Light Industrial 
+1929 
+20
+th-Century Industrial 
+ 
+ 
+3 
+ 
+ Reinforced-Concrete 
+ Concrete 
+ Not Evaluated  
+Contributory  
+n/a 
+ None 
+3D 
+ 
+ 
+ 
+ 
+
+PDF PAGE 40
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-18 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alteration Since 1990:  
+Other Information:  
+National Register Status Code: 
+340 Brannan Street  
+3775/015  
+  
+ 
+ 
+ 
+Not evaluated 
+Office 
+1911 
+ 
+ 
+ 
+5 
+ 
+Reinforced-Concrete  
+ Stucco 
+Not Evaluated  
+Non-contributory  
+ n/a 
+Appears extensively altered from original appearance 
+7N 
+ 
+ 
+ 
+ 
+
+PDF PAGE 41
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-19 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alteration Since 1990:  
+Other Information:  
+National Register Status Code: 
+350 Brannan Street  
+3775/016  
+  
+ 
+ 
+ 
+Not Evaluated 
+Office 
+1929 
+Industrial 
+ 
+ 
+3 
+ 
+ Concrete 
+ Concrete 
+Not Evaluated  
+Contributory  
+n/a 
+ None 
+3D 
+ 
+ 
+ 
+ 
+ 
+
+PDF PAGE 42
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-20 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+355-367 Bryant Street  
+3774/081-118 (In 1990: 3774/068)  
+General Electric Company Warehouse  
+General Electric Company  
+Maria Josefa Cebrian (widow of John C.)  
+General Electric Company  
+Warehouse  
+Warehouse  
+1916 
+Commercial  
+George A. Applegarth  
+N/A 
+Four  
+Unknown 
+Brick  
+Brick  
+Contributory  
+Contributory  
+None 
+ 
+3D - Appears eligible as contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 43
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-21 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+501 Second (385 Bryant Street) 
+3774/067  
+Schmidt Lithograph Plant Number 2  
+Paper products and manufacturing  
+Schmidt Lithograph  
+Schmidt Lithograph  
+Office  
+Office  
+1925 
+Commercial  
+Maurice Couchot & Jesse Rosenwald (Engineers)  
+N/A 
+Four  
+87'  
+Reinforced-concrete  
+Stucco  
+Contributory-Altered  
+Contributory  
+None  
+  
+3D - Appears eligible as contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 44
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-22 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+52 Colin P. Kelly  
+3789/010  
+Langermand Building  
+Unknown 
+Fredrika Langermand  
+Unknown 
+Warehouse  
+Office  
+1908 
+Commercial  
+N/A 
+B & W Engineering Co.  
+Three  
+34'  
+Brick  
+Brick  
+Contributory  
+Contributory  
+None  
+  
+2D2 – Determined eligible for listing as a contributor 
+by consensus determination (1997) 
+ 
+ 
+
+PDF PAGE 45
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-23 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information: 
+National Register Status Code:  
+18 DeBoom Street  
+3774/070  
+18 DeBoom Street 
+Office/manufacturing 
+American Licorice Company 
+American Licorice Company 
+Not documented 
+Commercial 
+1955 
+Commercial 
+Unknown 
+Unknown 
+Two  
+26'  
+Reinforced Concrete  
+Stucco  
+Non-Contributory  
+Non-Contributory  
+None 
+  
+None 
+ 
+ 
+
+PDF PAGE 46
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-24 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+  
+ 
+ 
+ 
+ 
+ 
+Other Information:  
+National Register Status Code: 
+1 Federal Street  
+3774/192-240 (In 1990: 3774/018)  
+Farnsworth & Ruggles #4 Warehouse  
+Drayage and Warehousing  
+Farnsworth & Ruggles  
+Unknown 
+Warehouse/Manufacturing  
+Housing  
+1935 
+Commercial  
+H.A. Emmrick & E.L. Hansen (Engineers)  
+N/A 
+Three  
+38'  
+Reinforced Concrete  
+Stucco  
+Contributory  
+Contributory  
+Significant changes have occurred that include new 
+stucco siding, added front concrete porch with 
+aluminum railing, new concrete foundation, and no 
+original windows.  South elevation is highly altered 
+with new windows, fenestration, and all detailing 
+removed.  
+  
+ 
+7N – Not evaluated 
+ 
+
+PDF PAGE 47
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-25 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+28 Federal Street  
+3774/004  
+  
+  
+  
+  
+Parking  
+Parking  
+ 
+  
+  
+  
+  
+  
+  
+  
+Non-contributory  
+Non-contributory  
+  
+  
+None 
+ 
+ 
+
+PDF PAGE 48
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-26 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+ 
+ 
+Other Information:  
+National Register Status Code: 
+30 Federal Street  
+3774/006 & 007 
+American Marine Paint Company Addition  
+Paint and oil warehouse  
+American Marine Paint Co.  
+American Marine Paint Co.  
+Office  
+Office  
+1946 
+Commercial 
+Kent & Hass  
+Dinwiddie Construction Co.  
+Two-over-basement  
+Unknown 
+Reinforced-concrete  
+Stucco  
+Non-Contributory  
+Non-Contributory  
+New entry  
+Features board formed concrete, steel sash center 
+pivot industrial windows 
+ 
+7N – Not evaluated 
+ 
+
+PDF PAGE 49
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-27 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations:  
+Other Information:  
+National Register Status Code: 
+41 Federal Street  (also identified as 35-67 Federal St) 
+APN 434-443 (formerly 3774/015)  
+41 Federal Street 
+Unknown 
+Farnsworth & Ruggles #2 
+Unknown 
+Office/Warehouse  
+New construction  
+2006 (original building: 1930) 
+Contemporary 
+Unknown 
+Unknown 
+Unknown 
+N/A 
+Concrete and frame 
+Unknown 
+Non-contributory  
+Non-contributory  
+Original building demolished 2005 
+  
+None 
+ 
+ 
+
+PDF PAGE 50
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-28 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+51 Federal Street  
+3774/013  
+Rincon Warehouse no. 2  
+Public Storage Warehouse  
+Rincon Warehouse Company  
+Rincon Warehouse Company  
+Office  
+Office  
+1923 
+Commercial  
+W.H. Ellison (Engineer)  
+ N/A 
+Three-over-basement  
+52'  
+Reinforced Concrete  
+Stucco  
+Contributory-Altered  
+Contributory  
+None  
+  
+6Y – Determined ineligible for National Register by 
+consensus (1996) 
+ 
+
+PDF PAGE 51
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-29 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+60 Federal Street  
+3774/074 (In 1990: 3774/012)  
+Rincon Warehouse  
+Public Storage Warehouse  
+Rincon Warehouse Company (M.J. Hawley)  
+Weston Basket & Barrel Co.  
+Office/Warehouse  
+Academy of Art University 
+1911 
+Commercial  
+Perseo Righetti & August G. Headman  
+N/A 
+Five-stories-over-basement  
+56'  
+Class A Fireproof reinforced-concrete with steel frame 
+Stucco  
+Contributory-Altered  
+Contributory  
+None.  
+ 
+7 – Not evaluated 
+ 
+
+PDF PAGE 52
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-30 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+77 Federal Street  
+3774/071 (In 1990: 3774/069)  
+American Licorice Co. Building No. 2  
+Candy Factory  
+American Licorice Co.  
+American Licorice Co.  
+Office/Manufacturing  
+Office/Manufacturing  
+1948 
+Commercial 
+Unknown 
+Unknown 
+Two  
+28'  
+Reinforced-concrete  
+Reinforced-concrete  
+Non-contributory  
+Non-contributory 
+None 
+  
+7 – Not evaluated 
+ 
+ 
+
+PDF PAGE 53
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-31 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+85 Federal Street  
+3774/072 (In 1990: 3774/066)  
+85 Federal Street 
+Warehouse & Office  
+American Licorice Company 
+American Licorice Company 
+Office  
+Office  
+1940 
+Commercial 
+Unknown 
+Unknown 
+Two  
+30'  
+Reinforced Concrete  
+Stucco  
+Non-contributory  
+Non-contributory  
+None 
+  
+7 – Not evaluated 
+ 
+ 
+
+PDF PAGE 54
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-32 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+301 Bryant (In 1990: 500 First Street) 
+3774/151-181 (In 1990: 3774/001)  
+301 Bryant 
+N/A 
+N/A 
+N/A 
+Vacant  
+Live/Work lofts  
+1998 
+Contemporary 
+Tanner Leddy Maytum & Stacy 
+Unknown 
+Eleven 
+Unknown 
+Steel-frame 
+Stucco 
+Non-contributory  
+Non-contributory  
+None 
+  
+None 
+ 
+ 
+
+PDF PAGE 55
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-33 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+ 
+National Register Status Code: 
+ 
+ 
+540 Delancey Street (In 1990: 512 First Street)  
+3774/141-147 (In 1990: 3774/002)  
+Cape Horn Warehouse  
+Paper warehouse  
+Mary J. McGregor Mckeon (Mrs. Neal McKeon)  
+Willamette Pulp & Paper Co.  
+Industrial  
+Residential  
+1907 
+Commercial  
+Unknown 
+Unknown 
+Three  
+36'  
+Brick  
+Brick  
+Contributory  
+Contributory  
+None-Major residential conversion executed in 
+accordance with the Secretary of the Interior’s 
+Standards.  
+2S2 – Determined eligible for separate listing by a 
+consensus determination (1982) 
+ 
+ 
+ 
+
+PDF PAGE 56
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-34 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+ 
+Other Information:  
+National Register Status Code: 
+ 
+620-650 Delancey Street (In 1990: 650 First Street) 
+3789/447-509 (In 1990: 3789/015)  
+Oriental Warehouse  
+Warehouse  
+Pacific Mail Steamship Co.  
+Howard & Pool; warehouse propietors  
+Vacant  
+Residential  
+1867 
+Commercial 
+Unknown 
+Unknown 
+Two  
+38'  
+Brick  
+Brick  
+Contributory  
+Contributory  
+Only façade of original structure remains because of 
+fire and subsequent infill construction.  
+San Francisco City Landmark 
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+
+PDF PAGE 57
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-35 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+128 King Street  
+3794/023  
+Garcia & Maggini Co. Warehouse  
+Dried Fruit Warehouse  
+Haslett Warehouse Company  
+Castle Brothers  
+Warehouse  
+Retail, Office, Bar  
+1913 
+Commercial  
+Alvin E. Horlein (Engineer)  
+N/A 
+Three  
+50’  
+Brick  
+Brick  
+Contributory  
+Contributory  
+None 
+San Francisco City Landmark 
+2S – Determined eligible for separate listing by the 
+Keeper (1977) 
+ 
+ 
+
+PDF PAGE 58
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-36 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alteration Since 1990:  
+Other Information:  
+National Register Status Code: 
+144 King Street  
+3794/024  
+  
+ 
+ 
+ 
+ 
+ 
+1946 
+ 
+Industrial 
+ 
+1 
+ 
+ Reinforced Concrete 
+ Concrete and Stucco 
+ Not Evaluated  
+Non-contributory  
+ n/a 
+None 
+None 
+ 
+ 
+ 
+
+PDF PAGE 59
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-37 -
+ 
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+461 Second Street  
+3764/101-191 (In 1990: 3764/070)  
+Schmidt Lithograph Company  
+Printing and lithography  
+Robert R. Thompson  
+Schmidt Lithograph Co.  
+Not documented 
+Residential  
+1907 (Original), 1920 (Tower), 1938 (rear addition) 
+Commercial  
+Unknown 
+Unknown 
+Three  
+48' & Tower 180'  
+Brick with reinforced-concrete addition  
+Stucco  
+Contributory  
+Contributory  
+None  
+Rehabilitated as condominiums 
+2D2 – Determined eligible for listing as a contributor 
+by consensus determination (1997) 
+ 
+
+PDF PAGE 60
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-38 -
+ 
+ 
+ 
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations: Since 1990  
+Other Information:  
+National Register Status Code: 
+ 
+500 Second Street  
+3775/001  
+Auerbach Building  
+Warehouse  
+Milton Auerbach  
+Unknown 
+Manufacturing  
+Industrial  
+1919 
+Commercial  
+N/A 
+James Baker  
+Three-over-basement  
+44'  
+Brick  
+Brick  
+Contributory  
+Contributory  
+None  
+ 
+None 
+ 
+
+PDF PAGE 61
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-39 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+512 Second Street  
+3775/002  
+Dahlia Loeb Warehouse  
+Oil and grease sales and storage  
+Dahlia Loeb  
+New York Lubricating Oil Co.  
+Manufacturing  
+Office 
+1910 
+Commercial  
+Sahlfield & Kohlberg  
+Rainey & Philips  
+Four  
+52'  
+Brick  
+Brick and Sheet Metal  
+Contributory  
+Contributory 
+None 
+1923 C.D. White Sewing Machine Company  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 62
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-40 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+522-526 Second Street  
+3775/004  
+MacDonald & Kahn Building  
+Unknown 
+MacDonald & Kahn  
+Unknown 
+Office/warehouse  
+Office  
+1906 
+Commercial  
+Samuel Heiman  
+MacDonald & Kahn  
+Two  
+30'  
+Brick  
+Brick  
+Contributory  
+Contributory  
+None  
+  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 63
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-41 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+525 Second Street (In 1990: 533 Second Street) 
+3774/131 (In 1990: 3774/048)  
+Auerbach Warehouse  
+Warehouse  
+Milton Auerbach  
+Unknown 
+Warehouse  
+Office  
+1906 
+Commercial  
+Albert Farr  
+J. Reite  
+Three  
+40'  
+Brick  
+Stucco  
+Contributory  
+Contributory  
+None  
+  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 64
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-42 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+543 Second Street  
+3774/127 (In 1990: 3774/065)  
+543 Second Street 
+Retail 
+G. Kohake  
+Unknown 
+Retail  
+Retail  
+1906 
+Commercial 
+Unknown 
+Unknown 
+One  
+10'  
+Wood Frame  
+Stucco  
+Non-contributory  
+Non-contributory  
+New yet appropriate storefront  
+Identical to 545 Second St. 
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+ 
+
+PDF PAGE 65
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-43 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+544 Second Street  
+3775/005  
+Kohler Company Building  
+Plumbing supplies  
+Alan MacDonald & Felix Kahn  
+Kohler Company  
+Manufacturing  
+Retail Office  
+1923 
+Commercial  
+Samuel Heiman  
+N/A 
+Three  
+34'  
+Brick  
+Brick  
+Contributory  
+Contributory  
+Non  
+  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 66
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-44 -
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+545 Second Street  
+3774/127 (In 1990: 3774/064)  
+Margaret Davis Store  
+Store, saloon, and dwelling  
+Margaret C. Davis  
+Unknown 
+Retail  
+Retail  
+1906 
+Commercial 
+Unknown 
+Unknown 
+One  
+10'  
+Wood-frame  
+Stucco  
+Non-contributory  
+Non-contributory  
+None 
+Identical to 543 Second Street 
+None 
+ 
+ 
+
+PDF PAGE 67
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-45 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+555-559 Second Street  
+3774/191 (In 1990: 3774/045)  
+Vosti Grocery Building  
+Grocery store/residential  
+Lena Vosti  
+Serapino Vosti  
+Residential  
+Bar/residential  
+1913 
+Colonial Revival  
+J.A. Porporato  
+N/A 
+Three  
+32'  
+Wood-frame  
+Wood  
+Contributory  
+Contributory  
+None  
+  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 68
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-46 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+ 
+Other Information:  
+National Register Status Code: 
+ 
+563 Second Street  
+3774/044  
+Howard Realty Company Building  
+Storage  
+Howard Realty Company (Charles S. Howard)  
+Unknown 
+Warehouse  
+Bar  
+1924 
+Commercial  
+Leo J. Devlin  
+N/A 
+Two  
+28'  
+Concrete  
+Stucco  
+Contributory  
+Contributory  
+Remodeled in compliance with the Secretary of the 
+Interior’s Standards  
+  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 69
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-47 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+599 Second Street  
+3774/031  
+Los Angeles Soap Company Warehouse  
+Warehouse & Office  
+Los Angeles Soap Company  
+Los Angeles Soap Company  
+Warehouse 
+Office  
+1923 
+Commercial  
+William H. Crim, Jr.  
+ N/A 
+Two-stories-over-basement  
+49'  
+Reinforced concrete  
+Stucco  
+Contributory  
+Contributory  
+None.  
+  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 70
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-48 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+601 Second Street  
+3789/008  
+D.N. & E. Walter Co. Building  
+Warehouse (furniture and carpets)  
+Senator Charles N. Felton  
+D.N. & E. Walter  
+Warehouse  
+Warehouse (public storage)  
+1909-1910 
+Commercial 
+Will D. Shea  
+N/A 
+Five-stories-over-basement  
+72'  
+Brick  
+Brick  
+Contributory  
+Contributory  
+None 
+  
+2D2 – Determined eligible for listing as a contributor 
+by consensus determination (2002) 
+ 
+ 
+
+PDF PAGE 71
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-49 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+625 Second Street  
+3789/007  
+South End California Warehouse  
+Warehouse  
+Mary E. Callahan  
+South End Warehouse Co.  
+Warehouse  
+Warehouse  
+1905-1906 
+Commercial  
+Unknown 
+Unknown 
+Four  
+42'  
+Brick  
+Brick  
+Contributory  
+Contributory  
+None.  
+  
+2D2 – Determined eligible for listing as a contributor 
+by consensus determination (2002) 
+ 
+ 
+
+PDF PAGE 72
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-50 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+ 
+634 Second Street  
+3788/038  
+The Crane Company Warehouse  
+Plumbing supplies warehouse  
+The Crane Company  
+The Crane Company  
+Warehouse/Office  
+Office  
+1927 
+Commercial  
+Lewis P. Hobart  
+Unknown 
+Three  
+43'  
+Reinforced-concrete/brick  
+Brick  
+Contributory  
+Contributory  
+None 
+  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 73
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-51 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+640 Second Street  
+3788/002  
+U.S. Radiator Co. Building  
+Office/warehouse  
+L.A. Norris  
+U.S. Radiator Company  
+Warehouse/Manufacturing  
+Vacant Office  
+1926 
+Rennaissance / Baroque  
+Herman C. Baumann  
+ N/A 
+Three  
+37'  
+Reinforced-concrete Block  
+Stucco, scored to look like stone  
+Contributory  
+Contributory  
+None  
+ 
+2D2 – Determined eligible for listing as a contributor 
+by consensus determination (1997) 
+ 
+ 
+
+PDF PAGE 74
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-52 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+650 Second Street  
+3788/051-073 (In 1990: 3788/002A)  
+B.F. Goodrich Rubber Company  
+Office/warehouse  
+J. Sheldon Potter  
+B.F. Goodrich Rubber Company  
+Manufacturing  
+Residential  
+1923 
+Commercial  
+Herman C. Baumann  
+Clinton Construction Company  
+Six  
+72'  
+Reinforced Concrete  
+Stucco  
+Contributory  
+Contributory  
+None  
+ 
+2D2 – Determined eligible for listing as a contributor 
+by consensus determination (1997) 
+ 
+ 
+
+PDF PAGE 75
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-53 -
+ 
+ 
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+ 
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+680 Second St. (670 Second Street) 
+3788/043 & 044  
+Moore Investment Company Building  
+Pipe & Steel Company  
+Moore Investment Company (Moore shipbuilding 
+Company)  
+The Republic Supply Company of California  
+Manufacturing  
+Vacant Office  
+1918 
+Commercial 
+Leland Rosener  
+Leland Rosener  
+One  
+25'  
+Brick, wood truss roof on steel columns  
+Brick  
+Contributory  
+Contributory  
+None 
+  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 76
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-54 -
+ 
+ 
+ 
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+ 
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+698 Second Street  
+3788/006  
+San Francisco Fire Department Pump House No. 1 
+Salt water pumping station  
+City and County of S.F.  
+San Francsico Fire Department  
+San Francsico Fire Department Pump House  
+San Francsico Fire Department Pump House  
+1909-1912 
+Beaux Arts  
+Tom W. Ransom (consulting mechanical engineer in 
+charge)  
+Healy Tibbets Construction  
+One  
+26'  
+Steel/Reinforced Concrete  
+Stucco walls, Copper-clad roof  
+Contributory  
+Contributory  
+None  
+  
+2D2 – Determined eligible for listing as a contributor 
+by consensus determination (1997) 
+ 
+ 
+ 
+
+PDF PAGE 77
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-55 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alteration Since 1990:  
+Other Information:  
+National Register Status Code: 
+750 Second Street  
+3794/002a  
+ Jet Litho. and Envelope 
+ 
+ 
+ 
+Not Evaluated 
+Vacant 
+1940 
+Industrial (Altered) 
+ 
+ 
+2 
+ 
+ Concrete 
+ Stucco 
+Not Evaluated  
+Non-contributory  
+ n/a 
+None 
+6Y 
+ 
+ 
+
+PDF PAGE 78
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-56 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alteration Since 1990:  
+Other Information:  
+National Register Status Code: 
+760 Second Street  
+3794/002-002b  
+Momo’s  
+Light Industrial 
+ 
+Robert Matioch Printing Co. 
+Not Evalauted 
+Restaurant 
+1955 
+Industrial (Altered) 
+ 
+ 
+1 
+ 
+ Concrete 
+Stucco  
+Not Evaluated  
+Non-contributory  
+ n/a 
+None 
+6Y 
+ 
+ 
+ 
+
+PDF PAGE 79
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-57 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+88 Townsend Street (699 Second Street)  
+3789/911-971 (In 1990: 3789/004 & 005)  
+California Warehouse  
+Warehouse  
+William Sharon & A.A. Cohen  
+Haslett & Bailey  
+ Warehouse/Garage 
+Residential  
+1882 
+Commercial 
+Unknown 
+Unknown 
+Two-stories-plus addition  
+24' plus addition.  
+Brick (warehouse)  
+Stucco 
+Contributory  
+Non-contributory  
+Building demolished except for two facades  
+  
+2D2 – Determined eligible for listing as a contributor 
+by consensus determination (1997) 
+ 
+ 
+ 
+
+PDF PAGE 80
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-58 -
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+ 
+ 
+Other Information:  
+National Register Status Code: 
+ 
+1 South Park (570 Second Street)  
+3775/007  
+Tobacco Company of California  
+Tobacco Warehouse  
+Nat Raphael  
+Tobacco Company of California  
+Warehouse  
+Residential (under construction)  
+1913 
+Commercial  
+William H. Crim, Jr.  
+ N/A 
+Three  
+48'  
+Reinforced-concrete  
+Reinforced-concrete  
+Contributory  
+Contributory  
+Major alteration to building (Currently under 
+construction) designed according to Secretary of the 
+Interior’s Standards  
+  
+None 
+ 
+ 
+
+PDF PAGE 81
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-59 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+601 Third Street  
+3788/020  
+General Cigar Company Warehouse  
+Office and wholesale depot  
+John Rosenfield's Sons  
+General Cigar Co.  
+Bank, Offices (Wells Fargo Bank)  
+Office 
+1920 
+Commercial  
+N/A 
+MacDonald & Kahn  
+Two  
+36'  
+Reinforced Concrete, Class A  
+Concrete  
+Contributory  
+Contributory  
+None  
+  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 82
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-60 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+640 Third Street  
+3787/007  
+  
+  
+  
+  
+Vacant  
+Vacant  
+ 
+  
+  
+  
+  
+  
+  
+  
+Non-contributory  
+Non-contributory  
+None  
+  
+None 
+ 
+ 
+
+PDF PAGE 83
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-61 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+625-647 Third Street  
+3788/045 (In 1990: 3788/019)  
+Transcontinental Freight Co. Building  
+Public storage warehouse  
+Cyrus S. Wright  
+Transcontinental Freight Co.  
+Office  
+Office  
+1909 
+Commercial  
+George A. Dodge  
+Long & Hoyt  
+Four  
+52'  
+Brick  
+Brick  
+Contributory-Altered  
+Contributory  
+None 
+ 
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+
+PDF PAGE 84
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-62 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+660 Third Street  
+3787/008  
+South End Terminal Warehouse  
+Warehouse  
+Lotta Farnsworth  
+South End Warehouse Co.  
+Office  
+Office  
+1906 
+Rennaissance/Baroque  
+William Koenig  
+Koenig & Pattigren  
+Four  
+50'  
+Brick  
+Brick  
+Contributory  
+Contributory  
+None  
+  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 85
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-63 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+663-665 Third Street  
+3788/041  
+M.J. Brandenstein Building  
+Coffee, Tea, Rice Mills & Warehouse  
+L.A. Norris Company  
+M.J. Brandenstein  
+Office  
+Office  
+1916 
+Commercial  
+G. Albert Lansburgh  
+George Wagner  
+Five  
+71'  
+Concrete, Class A  
+Stucco  
+Contributory  
+Contributory  
+None  
+  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 86
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-64 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+685 Third Street  
+3788/015  
+Gale Building  
+Restaurant, Offices, Lofts  
+Gale estate Company  
+Unknown  
+Warehouse  
+ Retail/Warehouse 
+1906/1917 
+Commercial  
+Sylvian Schnittacker (1917)  
+M.F. Gale (1906) 
+Five  
+72'  
+Brick  
+Stucco  
+Contributory  
+Contributory  
+None 
+ 
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+
+PDF PAGE 87
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-65 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+687-699 Third Street  
+3788/014  
+Anna Davidow Building  
+Restaurant, Saloon, Stores  
+Anna Davidow  
+Unknown 
+Retail  
+Retail  
+1917-1918 
+Commercial  
+A. Burgen  
+Peterson & Persson  
+One  
+25'  
+Brick  
+Stucco  
+Non-contributory  
+Non-contributory  
+None 
+  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 88
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-66 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+64 Townsend Street  
+3789/003  
+Hooper's South End Grain Warehouse  
+Grain warehouse  
+John Hooper  
+John Hooper  
+Retail / Warehouse  
+Office  
+1874 
+Commercial  
+Unknown 
+Unknown 
+One  
+26'  
+Brick  
+Stucco  
+Contributory  
+Contributory  
+None 
+ 
+2D2 – Determined eligible for listing as a contributor 
+by consensus determination (1997) 
+ 
+ 
+ 
+
+PDF PAGE 89
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-67 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+101 Townsend Street 
+3794/015  
+Warehouse Investment Company Building  
+Wholesale drug warehouse and saloon  
+Warehouse Investment Co. (Haslett)  
+American Druggists Syndicate  
+Office  
+Office  
+1913 
+Commercial  
+A.E. Hornlein (engineer)  
+ N/A 
+Three  
+46'  
+Reinforced-concrete  
+Stucco  
+Contributory  
+Contributory  
+None 
+  
+2D2 – Determined eligible for listing as a contributor 
+by consensus determination (1997) 
+ 
+ 
+ 
+
+PDF PAGE 90
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-68 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+111 Townsend Street 
+3794/014  
+C.A. Tilden Building  
+Warehouse  
+Warehouse Investment Company  
+Wright Wire Company  
+Office  
+Office  
+1912 
+Commercial  
+Charles A. Tilden (developer)  
+N/A 
+Three  
+40'  
+Reinforced-concrete  
+Stucco  
+Contributory  
+Contributory  
+None  
+  
+2D2 – Determined eligible for listing as a contributor 
+by consensus determination (1997) 
+ 
+ 
+ 
+
+PDF PAGE 91
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-69 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations:  
+Other Information:  
+National Register Status Code: 
+ 
+115-131 Townsend Street  
+3794/010  
+Southern Pacific Warehouse  
+Warehouse  
+Haslett Warehouse Company  
+Southern Pacific  
+Office  
+Office  
+1903 
+Commercial  
+Edward L. Holmes  
+ N/A 
+Six  
+62'  
+Brick  
+Brick  
+Contributory  
+Contributory  
+None  
+ 
+2D2 – Determined eligible for listing as a contributor 
+by consensus determination (1997) 
+ 
+ 
+
+PDF PAGE 92
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-70 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+ 
+130 Townsend Street 
+3788/008  
+Inglenook Vineyard Agency  
+Truck and Transfer Storage  
+Gustave Niebaum  
+B. Arnold & Co.  
+Office  
+Restaurant  
+1906 
+Commercial  
+ Unknown 
+ Unknown 
+One  
+24'  
+Brick/wood frame roof  
+Brick  
+Contributory-Altered  
+Contributory  
+ 
+ 
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+
+PDF PAGE 93
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-71 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+135 Townsend Street  
+3794/022  
+Townsend Street Bonded & Free Warehouse  
+Warehouse  
+Warehouse Investment Co. (Haslett)  
+National Biscuit Company  
+Warehouse  
+Warehouse  
+1911 
+Commercial  
+MacDonald & Applegarth  
+George A. Ferrolite Company  
+Five  
+65'  
+Reinforced Concrete  
+Stucco  
+Contributory  
+Contributory  
+Garage doors  
+  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 94
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-72 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Sine 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+136 Townsend  
+3788/009  
+Clinton Fireproofing Company Building  
+Shop and storage 
+Clinton Fireproofing Company (L.A. Norris)  
+Clinton Fireproofing Company  
+Truck repair  
+Parking  
+1913 
+Commercial  
+R.V. Woods, Engineer  
+ N/A 
+Two  
+22' to 46'  
+Wood-frame  
+Corrugated iron  
+Contributory  
+Contributory  
+None 
+Western half of building removed in 1922  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 95
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-73 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+139 Townsend Street  
+3794/021  
+Harron, Rickard & McCone  
+Machinery & Mill Supply  
+Haslett Warehouse Company  
+Harron, Rickard & McCone  
+Office  
+Office  
+1909 
+Commercial  
+Edward L. Holmes  
+ N/A 
+Five  
+78'  
+Brick  
+Brick  
+Contributory-Altered  
+Contributory  
+None  
+  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 96
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-74 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+ 
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+144 Townsend Street  
+3788/009A  
+Clinton Construction Company  
+Wholesale Wire  
+Jesse Newbauer & Simon Reinhart, Lauren A. Norris 
+Co., Developer  
+Clinton Construction Company  
+Warehouse/manufacturing  
+Storage  
+1922 
+Commercial  
+H.C. baumann  
+Clinton Construction Company  
+Three  
+40'  
+Reinforced Concrete  
+Stucco  
+Contributory  
+Contributory  
+None  
+ 
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+
+PDF PAGE 97
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-75 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+148 Townsend  
+3788/010  
+Winshester-Simmons Co.  
+Wholesale Hardware & Firearms  
+Simon Brothers (Bert & Simuel L.)  
+Winchester-Simmons Company  
+manufacturing  
+ Office 
+1923 
+Commercial  
+Herman C. Baumann  
+ N/A 
+Two/M  
+30'  
+Reinforced Concrete  
+Stucco  
+Contributory  
+Contributory  
+None  
+  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 98
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-76 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner: 
+  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+156-164 Townsend  
+3788/080-084 (In 1990: 3788/011A)  
+Winshester-Simmons Co.  
+Warehouse  
+L.A. Norris Company, Developer Helene B. Reiss, 
+Buyer  
+Winchester-Simmons Company of the Pacific Rim  
+Warehouse  
+Residential  
+1920 
+Commercial  
+Herman C. Baumann  
+Clinton Construction Company  
+Two  
+30'  
+Reinforced concrete  
+Stucco  
+Contributory  
+Contributory  
+None  
+  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 99
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-77 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+178 Townsend (In 1990: 166 Townsend)  
+3788/012  
+Calfornia Electric light Company  
+Electricity Generation  
+Calfornia Electric Company  
+California Electric Company  
+Westwinds Machine/Welding Shop  
+Parking 
+1888/1906 
+Commercial  
+Percy & Hamilton  
+N/A 
+One to two  
+20'  
+Brick  
+Brick  
+Contributory  
+Contributory  
+Chimney removed 
+ 
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+
+PDF PAGE 100
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-78 -
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+ 
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+ 
+National Register Status Code: 
+ 
+180 Townsend  
+3788/013  
+California Wine Association Building  
+Wine Storage/Warehouse  
+John Rosenfield's Sons (Louis S. & Henry)/CALWA 
+Calfornia Wine Association (CALWA)  
+Auto Repair/Body Shop  
+Office 
+1903-1905/1921 
+Commercial  
+Meyer (Federick H.) & O'Brien (Smith)/ John H. 
+Powers  
+N/A 
+Three  
+N/A 
+Brick  
+Brick  
+Contributory  
+Contributory  
+None 
+Survived earthquake and fire of 1906, 1921 third- 
+story addition  
+3D – Appears eligible as a contributor to a fully 
+documented district (1995) 
+ 
+ 
+ 
+
+PDF PAGE 101
+National Register Certification  South End Historic District 
+Final  San Francisco, California 
+ 
+June 26, 2008  Page & Turnbull, Inc. 
+- A2-79 -
+ 
+ 
+ 
+ 
+Address:  
+Block/Lot:  
+Building Name:  
+Original Use:  
+Original Owner:  
+Original Tenant:  
+Use as of 1990 Survey:  
+Current Use:  
+Date of Construction:  
+Style:  
+Architect:  
+Builder:  
+Number of Stories:  
+Height:  
+Construction Type:  
+Exterior Material:  
+1990 Significance Rating:  
+Current Significance:  
+Inappropriate / Major Alterations Since 1990:  
+Other Information:  
+National Register Status Code: 
+ 
+ 
+200-202 Townsend Street  
+3787/012 & 171-217 (In 1990: 3787/011 & 12)  
+200-202 Townsend Street 
+Commercial Stores 
+Williamson 
+Unknown 
+Commercial Stores  
+New Construction: Residential  
+2003 
+Contemporary 
+Unknown 
+Unknown 
+Four 
+Unknown 
+Steel frame 
+Stucco 
+Contributory  
+Non-contributory  
+Original Building demolished  
+  
+6Y – Determined ineligible for National Register by 
+consensus 
+ 
+ 
+
+PDF PAGE 102
+ 
+
+PDF PAGE 103
+APPENDIX I TO ARTICLE 10 http://library2.municode.com/4201/DocView/14139/1/799/891
+1 of 1 2/18/2008 12:47 PM
+APPENDIX I TO ARTICLE 10  
+SOUTH END HISTORIC DISTRICT 
+Sec. 1. Findings and Purposes.
+Sec. 2. Designation.
+Sec. 3. Location and Boundaries.
+Sec. 4. Relation to City Planning Code and Redevelopment Plan for the Rincon Point-South Beach Project Area.
+Sec. 5. Statement of Significance.
+Sec. 6. Features.
+Sec. 7. Additional Provisions for Certificates of Appropriateness.
+Sec. 8. Significance of Individual Buildings to the Historic District.
+Sec. 9. Paint Color.
+
+PDF PAGE 104
+SEC. 1. FINDINGS AND PURPOSES. http://library2.municode.com/4201/DocView/14139/1/799/891/892
+1 of 1 2/18/2008 12:48 PM
+SEC. 1. FINDINGS AND PURPOSES.
+The Board of Supervisors hereby finds that the area known and described in this ordinance as
+the South End Historic District has a special character and special historical, architectural and aesthetic
+interest and value and constitutes a distinct section of the City. The Board of Supervisors further finds
+that designation of this area as an Historic District will further and conform to the purposes and
+standards of Article 10 of the City Planning Code and the standards set forth therein, and that
+preservation on an area basis rather than on the basis of individual structures alone is in order. This
+ordinance is intended to further the general purpose of historic preservation legislation as set forth in
+Section 1001 of the City Planning Code and to promote the public health, safety and general welfare.
+(Added by Ord. 104-90, App. 3/23/90)
+
+PDF PAGE 105
+SEC. 2. DESIGNATION. http://library2.municode.com/4201/DocView/14139/1/799/891/893
+1 of 1 2/18/2008 12:48 PM
+SEC. 2. DESIGNATION.
+Pursuant to Section 1004 of the City Planning Code, Chapter II, Part II of the San Francisco
+Municipal Code, the South End is hereby designated as an Historic District, this designation having been
+duly approved by Resolution No. 11869 of the City Planning Commission.
+(Added by Ord. 104-90, App. 3/23/90)
+
+PDF PAGE 106
+SEC. 3. LOCATION AND BOUNDARIES. http://library2.municode.com/4201/DocView/14139/1/799/891/894
+1 of 1 2/18/2008 12:48 PM
+SEC. 3. LOCATION AND BOUNDARIES.
+The location and boundaries of the South End Historic District shall be as designated on the
+South End Historic District Map, the original of which is on file with the Clerk of the Board of Supervisors
+under File No. 115-90-3, which Map is hereby incorporated as though fully set forth.
+(Added by Ord. 104-90, App. 3/23/90)
+
+PDF PAGE 107
+SEC. 4. RELATION TO CITY PLANNING CODE AND REDEVEL... http://library2.municode.com/4201/DocView/14139/1/799/891/895
+1 of 1 2/18/2008 12:48 PM
+SEC. 4. RELATION TO CITY PLANNING CODE AND REDEVELOPMENT PLAN FOR THE 
+RINCON POINT-SOUTH BEACH PROJECT AREA.
+(a)   Article 10 of the City Planning Code is the basic law governing historic preservation in the
+City and County of San Francisco. This ordinanc e, being a specific application of Article 10, is
+both subject to and in addition to the provisions thereof.
+(b)   Except as may be specifically provided to  the contrary in the ordinance, nothing in this
+ordinance shall supersede, impair or modify any City Planning Code provisions applicable to
+property in the South End Historic District, including but not limited to existing and future
+regulations controlling uses, height, bulk, coverage, floor area ratio, required open space,
+off-street parking and signs.
+(c)   Nothing in this ordinance shall supersede, impair or modify any provisions of the
+Redevelopment Plan (including the Design for De velopment), for the Rincon Point-South Beach
+Project Area which are applicable to property located in such Redevelopment Project Area and
+designated part of this South End Historic District.
+(Added by Ord. 104-90, App. 3/23/90)
+
+PDF PAGE 108
+SEC. 5. STATEMENT OF SIGNIFICANCE. http://library2.municode.com/4201/DocView/14139/1/799/891/896
+1 of 2 2/18/2008 12:49 PM
+SEC. 5. STATEMENT OF SIGNIFICANCE.
+(a)   History of the area: For decades after the 1849 Gold Rush, San Francisco was the principal
+seaport and connection with the outside world for California and the West Coast. San Francisco's
+expansion and transformation into one of the most important cities in North America is
+attributable to the eminence of its port which, because of its sheltered location and deep water,
+became one of the best-suited on the Pacific Ocean.
+The development of warehouses over a 120-year period along the southern waterfront provides a
+benchmark from which to view architectural and technological responses to the rapid changes of
+growing industrial nation state and city. The interdependence of architecture and history can be seen
+from a look at the evolution of warehouse forms along the southern waterfront. Unlike most other areas
+of the San Francisco waterfront, the South End District contains an extraordinary concentration of
+buildings from almost every period of San Francisco's maritime history. Several street fronts--such as
+Second, Third and Townsend--are characterized by solid walls of brick and reinforced concrete
+warehouses. With this harmony of scale and materials, the South End Historic District is clearly a
+visually recognizable place.
+One-story warehouses were common in the nineteenth century but rare in the early twentieth due
+to the increasing cost of land. Two of the oldest warehouses in the historic district are one story in
+height: Hooper's Warehouse (1874) and the California Warehouse (1882). Their horizontal orientation is
+accentuated through the use of strong cornice lines with decorative brick patterns.
+Multi-story buildings have been more common along the southern waterfront since the turn of the
+century. After 1906, almost all new warehouses were constructed to be at least three stories in height,
+and several warehouses on Second and Townsend Streets reached six stories. The invention of the
+forklift in the 1930s eliminated advantages which multi-story buildings enjoyed over single-story
+structures. Since 1945, almost all warehouses constructed in the United States have been one story in
+height. Many multi-story warehouses and industrial buildings have been converted to other uses or are
+vacant because they have become obsolete for most warehouse or industrial functions.
+South End's period of historical significance, 1867 to 1935, comprises the era during which the
+waterfront became a vital part of the City's and nation's maritime commerce. The buildings of the South
+End Historic District represent a rich and varied cr oss-section of the prominent local architects and
+builders of the period. Four buildings remain from the nineteenth century; another four were constructed
+in the six-year interval preceding the 1906 earthquake. The majority of the buildings were erected
+between 1906 and 1929, a period during which trade along the waterfront increased dramatically.
+Several events shaped this part of San Francisco. The building of Long Bridge in 1865 on the line
+of Fourth Street south to Point San Quentin or the Potrero district, opened up opportunities for new
+industrial development in the southern part of the city. The Second Street cut of 1869, through
+fashionable Rincon Hill, allowed access from downtown to the southern waterfront. The completion of
+the transcontinental railroad in 1869 (and the eventual extension of railway lines into the area) was the
+single mostimportant event to impact the district. The fire of 1906 and the opening of the Panama Canal
+in 1914 were further impetuses to warehouse construction in this area, as were the seawall and the Belt
+Line Railway.
+Prominent figures in San Francisco history have been associated with the district. William
+Ralston, founder of the Bank of California, builder of the Palace Hotel, and financier of San Francisco
+and the West, owned property in the district and was a major force in politically engineering the Second
+Street cut in 1869. William Sharon, a U.S. Senator from Nevada in 1875--1881, acquired much of
+Ralston's estate and also co-owned and built the California Warehouse on the corner of Second and
+Townsend for Haslett and Bailey in 1882.
+William P. Aspinwall founded the internationally important Oriental Warehouse (Pacific Mail
+Steamship Company) in this district during the Gold Rush. John Hooper built Hooper's South End Grain
+Warehouse at Japan and Townsend Streets in 1874 for California's lucrative grain trade. Hooper was a
+member of a family known particularly for its lumber trade, with large land holdings just south of the
+
+PDF PAGE 109
+SEC. 5. STATEMENT OF SIGNIFICANCE. http://library2.municode.com/4201/DocView/14139/1/799/891/896
+2 of 2 2/18/2008 12:49 PM
+South End Historic District.
+The leading warehouse firms in San Francisco were those of the Haslett and Lamb families.
+Samuel Haslett, a native of Ireland, came to San Francisco in the 1870s and became a partner with J.W.
+Cox at the Humboldt Warehouse on Rincon Point. Haslett's sons continued the business after his death,
+and Samuel Haslett IV is now president of the firm. Once nationally known in warehousing, the Hasletts
+built or are associated with seven warehouses in the district. George Lamb founded the South End
+Warehouse Companyin 1905, and later co-founded the drayage and hauling firm of King and Company.
+South End operated six warehouses in the area at various times.
+Charles Lee Tilden (1857--1950) built 111--113 Townsend, a Haslett warehouse, and the
+Overland warehouse at Third and Townsend Streets. Tilden, a highly successful business entrepreneur,
+also founded the East Bay Regional Park system in 1934. Charles Norton Felton (1828 -- 1914),
+Senator, Congressman, and early developer of oil in California, is associated with warehouses at 275
+Brannan Street and 601 Second Street.
+The proposed historic district is an important visual landmark for the City as a whole. The large
+number of intact masonry warehouses which remain to this day are reminders of the maritime and rail
+activities which helped to make San Francisco a gr eat Turn-of-the-Century Port City. The warehouse
+district, because of its distinct building forms, is identifiable from many parts of San Francisco and the
+greater Bay Area. Additional historical information may be found in the South End Historic District Case
+Report No. 89.065L.
+(Added by Ord. 104-90, App. 3/23/90)
+
+PDF PAGE 110
+SEC. 6. FEATURES. http://library2.municode.com/4201/DocView/14139/1/799/891/897
+1 of 2 2/18/2008 12:49 PM
+SEC. 6. FEATURES.
+(a)   Features of Existing Buildings.
+1.   Overall Form and Continuity. Building height is generally within a six-story range, and
+many of the oldest structures are one or two stories in height.
+2.   Scale and Proportion. The buildings are of typical warehouse design, large in bulk,
+often with large arches and openings originally designed for easy vehicular access. There
+is a regularity of overall form. The earlier brick structures blend easily with the
+scaled-down Beaux Arts forms of the turn of the century and the plain reinforced concrete
+structures characteristic of twentieth-century industrial architecture.
+3.   Fenestration. The earliest structures have few windows, expressing their warehouse
+function. They are varied in size, rhythmica lly spaced, deeply recessed, produce a strong
+shadow line, and relate in shape and proportion to those in nearby buildings. Larger
+industrial sash windows began to be incorporated in structures built from the 1920s and
+onward. Door openings are often massive to facilitate easy access of bulk materials.
+4.   Materials. Standard brick masonry is predominant for the oldest buildings in the
+district, with reinforced concrete introduced after the 1906 fire, although its widespread
+use did not occur until the 1920s. Brick and stone paving treatments on Federal and First
+and De Boom Streets respectively are exta nt as well as Beltline Railroad Tracks which
+run throughout the District.
+5.   Color. Red brick is typical, with some yellow and painted brick. Muted earth tones
+predominate in shades of red, brown, green, gray and blue.
+6.   Texture. Typical facing materials give a rough textured appearance. The overall
+texture of the facades is rough grained.
+7.   Detail. Arches are common at the ground floor, and are frequently repeated on upper
+floors. Flattened arches for window treatment are typical. Cornices are simple and
+generally tend to be abstract versions of the more elaborate cornices found in downtown
+commercial structures from the nineteenth century. Most of the surfaces of the later
+buildings are plain and simple reflecting their function. Some of the earlier brick work
+contains suggestions of pilasters, again highly  abstracted. Where detail occurs, itis often
+found surrounding entryways.
+(b)   Standards for New Construction and Alterations.
+1.   Facade Line Continuity. Facade line contin uity is historically appropriate. Therefore,
+setbacks at lower floors and arcades, not generally being features of the South End
+Historic District, are generally not acceptable.
+2.   Fenestration and Design Elements for New Construction. In areas with a
+concentration of buildings characterized by a high proportion of mass to void and deeply
+recessed openings, vertical orientation and limited fenestration, the design of new
+construction should relate to those elements. In areas characterized by buildings with
+industrial style fenestration, new construction should relate to those design elements.
+3.   Signs.
+(A)   Principal Signs. Only one sign will be allowed per establishment per street
+frontage. A flush sign with lettering intended to be read from across the street is
+permitted. On brick surfaces, signs should be mounted with a minimum number of
+penetrations of the wall, and those penetrations only in the mortar joints.
+(B)   Secondary Signs. One per establishment per street frontage. A secondary
+sign is intended to be viewed close-up and consists of: (a) Lettering on a door or
+
+PDF PAGE 111
+SEC. 6. FEATURES. http://library2.municode.com/4201/DocView/14139/1/799/891/897
+2 of 2 2/18/2008 12:49 PM
+window which contains only the name and nature of the establishment, hours of
+operation and other pertinent information. (b) A projecting sign not exceeding two
+square feet in area used in conjunction with a principal flush sign.
+(c)   Exterior Changes Requiring Approval. Any exterior change within the South End Historic
+District shall require a Certificate of Appropriateness pursuant to the provisions of Article 10 when
+such work requires a city permit. In addition, a Certificate of Appropriateness shall be required for
+cleaning masonry surfaces with abrasives and/or treatment of such surfaces with waterproofing
+chemicals. Sandblasting and certain chemical treatments detrimental to older brick will not be
+approved.
+(Added by Ord. 104-90, App. 3/23/90)
+
+PDF PAGE 112
+SEC. 7. ADDITIONAL PROVISIONS FOR CERTIFICATES OF AP... http://library2.municode.com/4201/DocView/14139/1/799/891/898
+1 of 1 2/18/2008 12:49 PM
+SEC. 7. ADDITIONAL PROVISIONS FOR CERTIFICATES OF APPROPRIATENESS.
+The procedures, requirements, controls and standards in Sections 1006 through 1006.8 of Article
+10 of the City Planning Code shall apply to all applications for Certificates of Appropriateness in the
+South End Historic District. In addition the following provisions shall apply to all such applications; in the
+event of any conflict or inconsistency between the fo llowing provisions and Article 10, those procedures,
+requirements, controls and standards affording stricter protection to landmarks, landmark sitesand the
+Historic District shall prevail.
+(a)   Character of the Historic District. The standards for review of all applications for the
+Certificate of Appropriateness are set forth in Section 1006.7 of Article 10. For purposes
+of review pursuant to these standards, the character of the historic district shall mean the
+exterior architectural features as well as the historic brick and stone paving materials
+described in Section 6 of this ordinance.
+(b)   New Construction. New construction on vacant sites should conform to the general
+profile of the District, especially as to sca le, sculptural qualities of facade and entrance
+detailing, fenestration patterns and materials described in Section 6 of this ordinance.
+(c)   Masonry, Brickwork and Stonework. A Certificate of Appropriateness shall be
+required for painting previously  unpainted masonry, brick or stone exterior surfaces, for
+cleaning such surfaces with abrasives and/or treatment of such surfaces with
+waterproofing chemicals. Sandblasting and certain chemical treatment detrimental to
+masonry will not be approved.
+(d)   Alterations. It is recognized that certain alterations to the exteriors of buildings within
+the Historic District may be necessary in order to accommodate adaptive reuse of, and to
+provide sufficient light and air in, such buildings. Substantial alterations to principal
+facades, as defined in Planning Code Section 102.21, should be discouraged. Substantial
+alterations to non-principal facades, not originally intended to be viewed from the street,
+may be appropriate, provided such alterations maintain the character of the historic
+district.
+(e)   200 Brannan Street, Lot 24 within Assessor's Block 3774 is a site proposed for high-
+density mixed-income housing within the Rincon Point-South Beach Redevelopment
+Project Area Plan. The subject property is a donut-shaped group of buildings of different
+dates behind a single unifying wall and the continuous facade wall which runs along the
+First and Brannan Streets is the contributory element of the site and adaptive reuse of the
+subject property is acceptable.
+(Added by Ord. 104-90, App. 3/23/90)
+
+PDF PAGE 113
+SEC. 8. SIGNIFICANCE OF INDIVIDUAL BUILDINGS TO THE H... http://library2.municode.com/4201/DocView/14139/1/799/891/899
+1 of 1 2/18/2008 12:49 PM
+SEC. 8. SIGNIFICANCE OF INDIVIDUAL BUILDINGS TO THE HISTORIC DISTRICT.
+The history of each parcel within the Historic District is documented on the survey worksheets
+(Appendix A to the South End Historic District Case Report No. 89.065L). This classification of buildings
+in the South End Historic District is delineated in Case Report No. 89.065L. Each building is designated
+as one of the following:
+1.   Contributory. This category identifies buildings which date from the Historic District's
+period of significance and retain their historic integrity. These structures are of the highest
+importance in maintaining the character of the Historic District.
+2.   Contributory--Altered. This category identifies buildings which date from the historic
+district's period of significance but have had their historic integrity compromised by
+inappropriate alterations. Appropriate restoration of such buildings is encouraged. If a
+building in this category were to be appropriately restored, the category designation may
+be amended by the L.P.A.B. to "Contributory."
+3.   Noncontributory. This category identi fies buildings which are outside the Historic
+District's period of significance or are so significantly altered that they have lost their
+integrity. A Certificate of Appropriateness shall not be required for demolition of a
+noncontributory building. Construction of new buildings on a demolished building site,
+additions to, and major alterations of noncontributory buildings should be compatible with
+the character of the Historic District, and w ould require a Certificate of Appropriateness in
+order to ensure compatibility with the character of the historic district.
+(Added by Ord. 104-90, App. 3/23/90)
+
+PDF PAGE 114
+SEC. 9. PAINT COLOR. http://library2.municode.com/4201/DocView/14139/1/799/891/900
+1 of 1 2/18/2008 12:49 PM
+SEC. 9. PAINT COLOR.
+Nothing in this legislation shall be construed as authorization to regulate paint colors used within
+the District.
+(Added by Ord. 104-90, App. 3/23/90)
+GRAPHIC LINK:Click here
+
+PDF PAGE 115
+
+
+PDF PAGE 116
+ 
+
+PDF PAGE 117
+
+
+PDF PAGE 118
+
+
+PDF PAGE 119
+
+
+PDF PAGE 120
+
+
+PDF PAGE 121
+
+
+PDF PAGE 122
+
+
+PDF PAGE 123
+
+
+PDF PAGE 124
+
+
+PDF PAGE 125
+
+
+PDF PAGE 126
+
+
+PDF PAGE 127
+
+
+PDF PAGE 128
+
+
+PDF PAGE 129
+
+
+PDF PAGE 130
+
+
+PDF PAGE 131
+
+
+PDF PAGE 132
+
+
+PDF PAGE 133
+
+
+PDF PAGE 134
+
+
+PDF PAGE 135
+
+
+PDF PAGE 136
+
+
+PDF PAGE 137
+
+
+PDF PAGE 138
+
+
+PDF PAGE 139
+
+
+PDF PAGE 140
+
+
+PDF PAGE 141
+
+
+PDF PAGE 142
+
+
+PDF PAGE 143
+
+
+PDF PAGE 144
+
+
+PDF PAGE 145
+
+
+PDF PAGE 146
+
+
+PDF PAGE 147
+
+
+PDF PAGE 148
+
+
+PDF PAGE 149
+
+
+PDF PAGE 150
+
+
+PDF PAGE 151
+
+
+PDF PAGE 152
+
+
+PDF PAGE 153
+
+
+PDF PAGE 154
+
+
+PDF PAGE 155
+
+
+PDF PAGE 156
+
+
+PDF PAGE 157
+
+
+PDF PAGE 158
+
+
+PDF PAGE 159
+
+
+PDF PAGE 160
+
+
+PDF PAGE 161
+
+
+PDF PAGE 162
+
+
+PDF PAGE 163
+
+
+PDF PAGE 164
+
+
+PDF PAGE 165
+
+
+PDF PAGE 166
+
+
+PDF PAGE 167
+
+
+PDF PAGE 168
+
+
+PDF PAGE 169
+
+
+PDF PAGE 170
+
+
+PDF PAGE 171
+
+
+PDF PAGE 172
+
+
+PDF PAGE 173
+
+
+PDF PAGE 174
+
+
+PDF PAGE 175
+
+
+PDF PAGE 176
+
+
+PDF PAGE 177
+
+
+PDF PAGE 178
+
+
+PDF PAGE 179
+
+
+PDF PAGE 180
+
+
+PDF PAGE 181
+
+
+PDF PAGE 182
+
+
+PDF PAGE 183
+
+
+PDF PAGE 184
+
+
+PDF PAGE 185
+
+
+PDF PAGE 186
+
+
+PDF PAGE 187
+
+
+PDF PAGE 188
+
+
+PDF PAGE 189
+
+
+PDF PAGE 190
+
+
+PDF PAGE 191
+
+
+PDF PAGE 192
+ 
+
+PDF PAGE 193
+ 
+
+PDF PAGE 194
+A NEW PERSPECTIVE    IN PRESERVATION
+page & turnbull, inc.
+724 Pine Street, San Francisco, California 94108
+415.362.5154 / www.page-turnbull.com

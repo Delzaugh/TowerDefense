@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_construction_decor",
+  "displayName": "Campus construction site decor",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/campus_construction_decor/v01/campus_construction_decor_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_construction_decor/v01/build.py"
+  },
+  "runtime": "assets/runtime/environment/campus_construction_decor_v01.glb",
+  "budgets": {
+    "triangles": 5000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 64,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": []
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "docs/design/Visual_Asset_Guide.md",
+      "provenance": "Original bespoke friendly low-poly campus composition; no third-party models."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/campus_construction_decor/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "construction_palette",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "concrete": {
+          "color": "#B7B8AC",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "frame": {
+          "color": "#D7DFDD",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "steel": {
+          "color": "#537086",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "yellow": {
+          "color": "#E2B45D",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "dark": {
+          "color": "#334958",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "office": {
+          "color": "#86A8B3",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "glass": {
+          "color": "#355D75",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "white": {
+          "color": "#E6E7D9",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "wood": {
+          "color": "#B68D62",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "orange": {
+          "color": "#D18B5B",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        },
+        "soil": {
+          "color": "#89785F",
+          "rect": [
+            40,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "concrete": "#B7B8AC",
+      "frame": "#D7DFDD",
+      "steel": "#537086",
+      "yellow": "#E2B45D",
+      "dark": "#334958",
+      "office": "#86A8B3",
+      "glass": "#355D75",
+      "white": "#E6E7D9",
+      "wood": "#B68D62",
+      "orange": "#D18B5B",
+      "soil": "#89785F"
+    }
+  },
+  "exportSettings": {
+    "paletteTextureWorkflow": false
+  }
+}

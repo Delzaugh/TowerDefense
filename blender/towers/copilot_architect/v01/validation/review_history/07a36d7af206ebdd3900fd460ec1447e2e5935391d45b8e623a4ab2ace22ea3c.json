@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_architect",
+  "version": "v01",
+  "revision": 8,
+  "sha256": "e2ffbcb9aa769c45e81f24c5722cb39ae70cf63d0e244b33d47891b67cb7a46a",
+  "sourceHash": "8a3455c98fd5b30641ef1805dba94888d62f9c1b145b108f101a233011c5ffa3",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-26T23:32:10.4978679Z",
+  "checks": {
+    "referenceFidelity": {
+      "findings": "User explicitly rejects revision 8 dimensionality; stronger volume and depth required.",
+      "status": "failed"
+    },
+    "construction": {
+      "findings": "Replaced constant-depth extruded cheeks with closed three-depth sculpted plates and broad bevels. Curved display and fitted eye surfaces; side casings and glyph follow a tilted plane. Thick eave, beveled tier edges, narrow seated tier joints, shaped chin clasp and fitted edge-strip sockets. Reviewed both sides, underside, rear and close oblique. Source audit initially caught collapsed socket-bevel triangles; reducing socket bevel to 0.012m fixed all 32. Final source audit reports zero degenerate triangles and preserves 26 named editable part groups.",
+      "status": "passed"
+    },
+    "readability": {
+      "findings": "Compared fixed front silhouette and three-view before-after board, uniformly cropped/scaled without per-axis distortion. Narrowing jaw and outward shoulders are visible; side profile is bowed rather than vertical. Actual Inspector phone-width and small-size renders retain crown, face, eyes and orange tabs. Small blueprint cells remain close-view details. Neutral studio lighting is flatter than the illustrated beauty lighting.",
+      "status": "passed"
+    },
+    "motion": {
+      "findings": "User requested substantial model refinement after rejecting the first model. Animation stays deferred; no animation consent or placeholder clips.",
+      "status": "not_applicable"
+    }
+  },
+  "secondPass": {
+    "findings": "After primary-form review at revision 6, rebuilt fitted details and exported revision 7. Source audit found 32 zero-area triangles in the shallow socket bevels; repaired and exported revision 8. Rechecked final close-oblique, both side views, rear, small-size and front silhouette against the reference priorities; no collapsed socket surfaces, flat vertical cheek slabs or constant-width side strips remain. Reviewed underside connections on the geometrically identical revision-7 body; only socket bevels changed afterward. Previous user rejection remains explicitly archived and does not imply acceptance of the new model.",
+    "status": "passed"
+  },
+  "evidence": [
+    {
+      "sha256": "6be7505006c72cf2fcc303d645c34f12964f4bc80c6c11eac8836cdee972b7d7",
+      "mode": "shaded",
+      "view": "close_oblique",
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/close_oblique.png"
+    },
+    {
+      "sha256": "45297423d4a4624d2a899f39bab3cc14e0b16d5122582e445c9ed170e75e658f",
+      "mode": "shaded",
+      "view": "rear",
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/rear.png"
+    },
+    {
+      "sha256": "4a5c20a09721543f8b8d2d8aa477e4211b22f231598d661dcd4aa3867fa6c8df",
+      "mode": "shaded",
+      "view": "left",
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/left.png"
+    },
+    {
+      "sha256": "c98f3ec64838b935198623c974f19d5a1bf06876b6657e23bc2af39e2bc88ae3",
+      "mode": "shaded",
+      "view": "small",
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/small.png"
+    },
+    {
+      "sha256": "8f75ee0622d351e167a9fee25bcfe64aab50dbdb6816f5871c6f5cd4944bb99b",
+      "mode": "silhouette",
+      "view": "front",
+      "path": "blender/towers/copilot_architect/v01/validation/front-silhouette.png"
+    }
+  ],
+  "userAcceptance": {
+    "note": "User: still too flat, give it much more dimension.",
+    "status": "rejected"
+  },
+  "limitations": [
+    "Baseline animations remain deferred while model acceptance is pending.",
+    "Smallest gameplay size retains identity but not individual blueprint-window detail; final map lighting/accessibility review remains separate."
+  ]
+}

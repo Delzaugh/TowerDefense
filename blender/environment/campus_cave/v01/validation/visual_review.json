@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_cave",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "c62e942e9ba7eddde3f04a5b0e51b863cda70052c3a110c0ec72868b071ac17b",
+  "sourceHash": "fd08ee19604653729a254ef225e1e4684f1a1ed4b8d895ead068e8d185bc708e",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T13:41:56.649Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Original woodland shelter matches the muted forest palette. Broad asymmetrical rock volume, mossy roof and large dark entrance are readable in front and isometric views."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Connected rim, recessed tunnel and rear shell inspected from front, side and reverse. The mouth has real depth; the rear is closed. Ground contacts and fitted shoulder rocks have no visible gaps. Source audit found zero non-manifold edges or zero-area faces."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Entrance reads clearly at campus desktop scale, at the end of the promenade with trees clear of its mouth. At full-campus phone framing the model is small; zoom is available for detail."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked the front opening against the oblique and rear views: the lip is continuous, roof planes meet cleanly and the dark back wall sits behind the entrance. Placement keeps the cave inside its reserved woodland clearing."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_cave/v01/validation/iso.png",
+      "sha256": "be6dd0a638d2b0549527d588aca6d46681792bf1a481f759bcd7e87f685055b4",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_cave/v01/validation/front.png",
+      "sha256": "fb662699a6722e5c8e20adb57190733435075d68ae4c6b1cfdd88f25ab3b1549",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_cave/v01/validation/side.png",
+      "sha256": "f85c53ea852392b8d0249c3b20fb853658dec1409a68c86f677dc1c58b8437e6",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_cave/v01/validation/rear.png",
+      "sha256": "52677daa8b46db72fcbe3566c37e74e3f1f2a043eb66b9b6d881dec614e1a1ee",
+      "view": "rear",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Awaiting user artistic review of this revision."
+  },
+  "limitations": [
+    "Static environmental artwork; no gameplay interactions."
+  ]
+}

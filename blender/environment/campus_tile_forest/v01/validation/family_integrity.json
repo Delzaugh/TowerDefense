@@ -1,0 +1,92 @@
+{
+  "checkedAt": "2026-09-24T11:23:06.659Z",
+  "assets": [
+    {
+      "id": "campus_tree_round_bare",
+      "reviewReady": true,
+      "triangles": 48,
+      "placements": 1,
+      "base": "none"
+    },
+    {
+      "id": "campus_tree_tall_bare",
+      "reviewReady": true,
+      "triangles": 48,
+      "placements": 1,
+      "base": "none"
+    },
+    {
+      "id": "campus_tree_cluster_bare",
+      "reviewReady": true,
+      "triangles": 96,
+      "placements": 1,
+      "base": "none"
+    },
+    {
+      "id": "campus_tree_pine_bare",
+      "reviewReady": true,
+      "triangles": 122,
+      "placements": 1,
+      "base": "none"
+    },
+    {
+      "id": "campus_tree_spreading_bare",
+      "reviewReady": true,
+      "triangles": 144,
+      "placements": 1,
+      "base": "none"
+    },
+    {
+      "id": "campus_tree_autumn_bare",
+      "reviewReady": true,
+      "triangles": 96,
+      "placements": 1,
+      "base": "none"
+    },
+    {
+      "id": "campus_forest_mixed",
+      "reviewReady": true,
+      "triangles": 772,
+      "placements": 9,
+      "base": "none"
+    },
+    {
+      "id": "campus_forest_dense",
+      "reviewReady": true,
+      "triangles": 1068,
+      "placements": 13,
+      "base": "none"
+    },
+    {
+      "id": "campus_forest_edge",
+      "reviewReady": true,
+      "triangles": 650,
+      "placements": 7,
+      "base": "none"
+    },
+    {
+      "id": "campus_tile_forest",
+      "reviewReady": true,
+      "triangles": 3986,
+      "placements": 42,
+      "base": "included"
+    }
+  ],
+  "originalTrees": [
+    {
+      "id": "campus_tree_round",
+      "sourceUnchanged": true,
+      "runtimeUnchanged": true
+    },
+    {
+      "id": "campus_tree_tall",
+      "sourceUnchanged": true,
+      "runtimeUnchanged": true
+    },
+    {
+      "id": "campus_tree_cluster",
+      "sourceUnchanged": true,
+      "runtimeUnchanged": true
+    }
+  ]
+}

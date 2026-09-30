@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_tree_pine_bare",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "ee806616c3bd10556030260bed5e515c91b35ebd7b8144a62d0f900a61e6592e",
+  "sourceHash": "445e840725b525ff68df6e47a4d4d9745cf5483637d56a2a33cb8652583ad783",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T11:19:57.487Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Three conical tiers introduce a clear evergreen outline; blue-green crown and warm trunk remain compatible with the campus."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "The continuous tiered canopy has clean closed undersides and a visible trunk; front/reverse have no gaps between tiers."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally inspected the phone-width and fixed-view renders: the crown outline and trunk remain readable; different forms are identifiable without relying only on color."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked the tier transitions and top point from reverse and close views. Facets are intentional and the trunk stays grounded; no structural repair required."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_tree_pine_bare/v01/validation/iso.png",
+      "sha256": "357b0c8f4a21632cf0dc19e3364c07da42487413ef4b9285332ba9fcc2b4f7ce",
+      "view": "validation/iso"
+    },
+    {
+      "path": "blender/environment/campus_tree_pine_bare/v01/validation/front.png",
+      "sha256": "ef0f04b993de8d82e4ec0c096b7cebf33da55f631f02bd2e919bcf1732b551ae",
+      "view": "validation/front"
+    },
+    {
+      "path": "blender/environment/campus_tree_pine_bare/v01/validation/rear.png",
+      "sha256": "e0705ad526fa3358e97ed65ba328a3819b9bd47aec13f243aa705dc69f097bd7",
+      "view": "validation/rear"
+    },
+    {
+      "path": "blender/environment/campus_tree_pine_bare/v01/renders/inspector-close.png",
+      "sha256": "a0ea1777d933243a2ed61fe3285227991d30be6b94b9318817448fff4f8efd52",
+      "view": "renders/inspector-close"
+    },
+    {
+      "path": "blender/environment/campus_tree_pine_bare/v01/renders/inspector-rear.png",
+      "sha256": "3e04023e2750cc3b4bc0d1a473087a555e06b5baafba83863f2119185a920acd",
+      "view": "renders/inspector-rear"
+    },
+    {
+      "path": "blender/environment/campus_tree_pine_bare/v01/renders/inspector-phone.png",
+      "sha256": "a2eb3598f53bc929cf9e7537bbde00737d83a02fd874b87bf834d51f7525f420",
+      "view": "renders/inspector-phone"
+    },
+    {
+      "path": "blender/environment/campus_tree_pine_bare/v01/renders/inspector-bottom.png",
+      "sha256": "5e0234507484ba1eece43a90e64b89b56d55bcac905e3d320c87bcf84da35e3b",
+      "view": "renders/inspector-bottom"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "New family delivered for user artistic review; no approval inferred."
+  },
+  "limitations": [
+    "Static environmental art; no collision, pathfinding or gameplay placement integration."
+  ]
+}

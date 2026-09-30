@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_developer",
+  "version": "v01",
+  "revision": 12,
+  "sha256": "40a21d41f452a55e079d466eeefeefe43bb2bf27ea0683b21e911c559f04ca09",
+  "sourceHash": "a1e9c9b1f37b5d338ad149afac441bf483bc078b6b9a39b092d3a44544f67d4f",
+  "scope": "animation",
+  "reviewedAt": "2026-09-24T09:51:38.400Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Accepted r8 rest art retained. GLB positions, topology, UVs, packed palette bytes, materials and rest anchors match; maximum normal difference 1.2e-7. Digital presentation keeps the body full size."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Three-bone rig remains intact and source opens in rest with muted NLA tracks. Grid discard and transient cubes are presentation-only. Main/depth/distance materials use matching coverage; exact terminal phone render contains neither model nor residual shadow."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Reviewed the final Place/Hit/Resolve pose board, close assembly at 44% and 76%, and phone midpoint/end frames. Cube color follows the orange/graphite/ivory body. The fin silhouette assembles clearly, the face restores cleanly, and the complete phone-scale model matches the accepted form."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Place and Resolve are 1.25-second reversals, including eye pose. GLB pose reversal sampled at 121 points is within 1e-6. Place endpoint matches Idle ready exactly in the Inspector screenshot. Both replay, seek, hold endpoints and reset to Rest Pose; normal-speed playback controls verified for all six clips. Idle/work/move/hit tracks remain byte-identical to r10. Root and anchors are stable; minimum body clearance across all clips is 0.114 m."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Fixed floating-point boundary asymmetry discovered while testing reversed Place. Rechecked paired fragment counts, empty Place start/Resolve end, Place-to-Idle endpoint, both replay/reset paths, paused reload and the final phone/pose-board renders. Shared budget fallback, material restoration and disposal pass. Conservative cost remains 4228 model triangles + at most 768 fragment triangles = 4996; 44 simultaneous fragments observed in sampled frames. Category dispatcher regression: the existing Developer suite passed with the shared lifecycle entry point; phone cube midpoint and assembled endpoint were inspected again. Developer source/runtime and digital implementation are unchanged."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/animation/oneshots-board.png",
+      "sha256": "030da9e90a348abcaaaa4c61342b3c92c7bc77aa4a1a2ac4fed27100b3b3508b",
+      "view": "Final Place/Hit/Resolve start, intermediate and endpoint board"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/animation/phone-board.png",
+      "sha256": "0aac075dbbce6bd77b8a52f5b6b2273fb87bab87458a06317c60f71673203d2b",
+      "view": "All six clips at phone scale"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/digital-resolve/place-044.png",
+      "sha256": "efcfbfb450ace8d13bf885c21acda9781d958092789b00cba034b15ce16fb8bb",
+      "view": "Place at 44%, close isometric"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/digital-resolve/place-076.png",
+      "sha256": "9f052d47657e851610f5d300495848d77b1a17300126017f23171efb578ef340",
+      "view": "Place at 76%, closing body coverage"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/digital-resolve/phone-mid.png",
+      "sha256": "d3c984d559c21296dd4a6a691ff19703168467e9290fbf433207d10207a67773",
+      "view": "Resolve mid effect with ground shadows"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/digital-resolve/phone-end.png",
+      "sha256": "bb7d62f966d467e228842a75bae94f990e0a66646d7c662689fc10f7f527f410",
+      "view": "Resolve exact end, no remaining silhouette or shadow"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/digital-resolve/phone-place-end.png",
+      "sha256": "3b8c05923055bb78e0dfc83ed4bc0141c72cbe4a97fea3b3aeebff5339e4bb0d",
+      "view": "Place exact end at phone scale"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/digital-resolve/review.json",
+      "sha256": "84bd3c4a6b9622a03f7301ac88b2292fa2a6c29f40f9b4811e6c8371a4edb9b9",
+      "view": "Renderer, replay, reversal, budget and lifecycle checks"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/animation/runtime_audit.json",
+      "sha256": "da99a75ba5e4a9ecaf84882c5e6397120b0367a27b36ff9648fbcf3e2040f1d3",
+      "view": "Rest parity, unchanged other clips, reversed pose, 96 Hz motion audit"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/animation/source_audit.json",
+      "sha256": "0ce60075bfeb42d45bf8d2f0b4565b584863b8d4f4d7cd07f241412f6c8440fa",
+      "view": "Authoritative Blender saved-state audit"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/animation/inspector_playback.json",
+      "sha256": "74bcdf006522861d52dcde641266605a267a833bc198ac9b42f3cfe6550a3e4f",
+      "view": "Normal-speed Inspector playback, hold and reset checks"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/digital-resolve.js",
+      "sha256": "98f1aa5265c1e9d18ea15c5fa65d453dbceecb7b84e31c7d942b1f225c5289c5"
+    },
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "fe40daaecfa3b96dd8a3dc93e758c8ea1890d8dffc8fa2809d4bda26d98d5cb2"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User praised digital Resolve, requested reversed Place, then chose the pair as the default for all towers. This records acceptance of the effect direction; final revision-specific author evidence is separate from explicit user approval of r12."
+  },
+  "limitations": [
+    "Digital coverage/cubes require tools/asset-presentation/digital-resolve.js; a plain GLB viewer plays only the eye/pose tracks. Gameplay presentation must integrate the shared module and retain an exit visual through Resolve.",
+    "The scene fragment budget limits geometry but is not a measured target-device FPS guarantee. Prepare surface samples during loading.",
+    "Grounded authoring Rest Pose and the 0.14 m ready hover are distinct; entering ordinary idle from Rest needs a presentation transition."
+  ]
+}

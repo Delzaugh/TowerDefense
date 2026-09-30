@@ -1,0 +1,36 @@
+{
+  "sourceHash": "79f6b55872508ed56d3047a364baccf7a283f7669fc73826a64a60d6a1d16137",
+  "exportHash": "31c00f89be05ed76157bbaac3d8922c5fd44db652fba2c5345379044ba62074b",
+  "baselineExportHash": "c065c487c7669562106e12753aa2759bdf194b28bb4214a676fb613871225c41",
+  "geometryByteIdentical": true,
+  "materialsByteIdentical": true,
+  "preservedClips": {
+    "move": true,
+    "hit": true,
+    "spawn": true,
+    "resolve": true
+  },
+  "newClips": [
+    {
+      "name": "story_lurk",
+      "channels": 48,
+      "varyingChannels": 3
+    },
+    {
+      "name": "story_grab",
+      "channels": 48,
+      "varyingChannels": 9
+    },
+    {
+      "name": "story_haul",
+      "channels": 48,
+      "varyingChannels": 15
+    },
+    {
+      "name": "story_creep",
+      "channels": 48,
+      "varyingChannels": 15
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "path": "blender/environment/campus_tile_plaza/v01/validation/close-paving-edge.png",
+    "sha256": "83e1717ed3ad8c1d1cfd9701fa0b38acde2535b1f247eaaef867cc1fb4c36cf7",
+    "view": "close-paving-edge"
+  },
+  {
+    "path": "blender/environment/campus_tile_plaza/v01/validation/reverse-oblique.png",
+    "sha256": "80ce6525e7aa5b62cc513269a1a841a191cb3c69c6d02bae3e76af52a817f1e8",
+    "view": "reverse-oblique"
+  },
+  {
+    "path": "blender/environment/campus_tile_plaza/v01/validation/phone.png",
+    "sha256": "9219cb4f2eb370945924afdcbc169f258aeb66c1f5e5e138b6c2b14d29db1160",
+    "view": "phone-scale"
+  }
+]

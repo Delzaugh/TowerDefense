@@ -1,0 +1,37 @@
+{
+  "asset": "campus_tree_spreading_bare",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "d02edb11d69d16c1e5c5f04d287fcf119c8beaf772f40510ce489562bdfdf2b4",
+  "checkedAt": "2026-09-24T11:12:54.434Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 144,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    3.6467384099960327,
+    3.4700000286102295,
+    1.8033567667007446
+  ],
+  "bounds": [
+    [
+      -1.8154807090759277,
+      0,
+      -0.9016783833503723
+    ],
+    [
+      1.831257700920105,
+      3.4700000286102295,
+      0.9016783833503723
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "05b112e1b6cb04dd12a77a358856d1710cc206325255073b18180eb76d13126e",
+  "source": "blender/environment/campus_tree_spreading_bare/v01/campus_tree_spreading_bare_v01.blend",
+  "runtime": "assets/runtime/environment/campus_tree_spreading_bare_v01.glb"
+}

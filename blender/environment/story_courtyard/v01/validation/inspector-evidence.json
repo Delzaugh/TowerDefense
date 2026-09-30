@@ -1,0 +1,314 @@
+{
+  "asset": "story_courtyard",
+  "revision": 3,
+  "sourceHash": "1433ccb9b6a81830fc3769bd22483c1428626bf257da4c090aef3615933dd9a2",
+  "sha256": "abd8d9b897df63fed94e46080c715fbbffdb2e29853b9c264c3471778d292f07",
+  "origin": "http://127.0.0.1:60290",
+  "metadata": [
+    {
+      "view": "iso",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/story_courtyard_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/story_courtyard_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 33.56833890163022,
+        "target": [
+          0,
+          3.5775001719594,
+          -1
+        ],
+        "camera": [
+          17.41611672398361,
+          20.85911363285669,
+          21.909781558526756
+        ],
+        "effects": [
+          {
+            "path": "environment/story_courtyard_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/story_courtyard_v01.glb",
+            "revision": "abd8d9b897df63fed94e46080c715fbbffdb2e29853b9c264c3471778d292f07",
+            "triangles": 7224,
+            "meshes": 6,
+            "materials": 1,
+            "bounds": [
+              [
+                -12,
+                -0.23499999940395355,
+                -10
+              ],
+              [
+                12,
+                7.390000343322754,
+                8
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "rear",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/story_courtyard_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/story_courtyard_v01.glb",
+        "view": "rear",
+        "projection": "OrthographicCamera",
+        "distance": 21.495769560761804,
+        "target": [
+          0,
+          3.5775001719594,
+          -1
+        ],
+        "camera": [
+          2.632472538779605e-15,
+          3.5775001719594015,
+          -22.495769560761804
+        ],
+        "effects": [
+          {
+            "path": "environment/story_courtyard_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/story_courtyard_v01.glb",
+            "revision": "abd8d9b897df63fed94e46080c715fbbffdb2e29853b9c264c3471778d292f07",
+            "triangles": 7224,
+            "meshes": 6,
+            "materials": 1,
+            "bounds": [
+              [
+                -12,
+                -0.23499999940395355,
+                -10
+              ],
+              [
+                12,
+                7.390000343322754,
+                8
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "close",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/story_courtyard_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/story_courtyard_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 17.186989517634675,
+        "target": [
+          2.1197525468449974,
+          4.903381696050354,
+          -3.6116019318320727
+        ],
+        "camera": [
+          11.036804309524609,
+          13.751567788029767,
+          8.11820622613363
+        ],
+        "effects": [
+          {
+            "path": "environment/story_courtyard_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/story_courtyard_v01.glb",
+            "revision": "abd8d9b897df63fed94e46080c715fbbffdb2e29853b9c264c3471778d292f07",
+            "triangles": 7224,
+            "meshes": 6,
+            "materials": 1,
+            "bounds": [
+              [
+                -12,
+                -0.23499999940395355,
+                -10
+              ],
+              [
+                12,
+                7.390000343322754,
+                8
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "view": "phone",
+      "state": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/story_courtyard_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/story_courtyard_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 50.831324754064525,
+        "target": [
+          0,
+          3.5775001719594,
+          -1
+        ],
+        "camera": [
+          26.37259733780012,
+          29.746424070139597,
+          33.69145583458101
+        ],
+        "effects": [
+          {
+            "path": "environment/story_courtyard_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/story_courtyard_v01.glb",
+            "revision": "abd8d9b897df63fed94e46080c715fbbffdb2e29853b9c264c3471778d292f07",
+            "triangles": 7224,
+            "meshes": 6,
+            "materials": 1,
+            "bounds": [
+              [
+                -12,
+                -0.23499999940395355,
+                -10
+              ],
+              [
+                12,
+                7.390000343322754,
+                8
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

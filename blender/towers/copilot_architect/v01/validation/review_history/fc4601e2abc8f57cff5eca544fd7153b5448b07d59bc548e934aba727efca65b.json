@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_architect",
+  "version": "v01",
+  "revision": 23,
+  "sha256": "6bcb94b0296c011b10f3d334fe49733175cef069e90d9538df1feafa819cf069",
+  "sourceHash": "513eb9a90aa50b9ad4eacdbe5ef5c0b8a183e513baf7d11edc22e1ab45dafdf8",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-27T00:13:06.003Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "User rejected r19 top/fins and vertically flat construction. Latest instruction supersedes the generated drafting-desk reference: removed the entire platform, top-mounted blocks and rear sheets. Rebuilt a rounded pod with a low vaulted crown; software diagram now follows the curved shoulder and roll remains fitted on opposite side. Palette and friendly limb-free Architect identity preserved. r21 front/side/rear/iso blockout was examined before adding diagram details."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Body has 12 changing sections, widest at h=1.29m (2.76m wide, 2.80m deep), narrowing to 2.04m/2.07m at h=2.20m and 0.99m/1.01m at base. Screen and bezel follow a bowed two-axis surface instead of an extruded plane. Crown is a material region of the same closed shell. Shoulder panel uses shared tessellated cream/dark boundaries, avoiding overlapping skins. Final audit: 3988 triangles, zero degenerate triangles; 2 meshes/materials and one embedded palette. Export validation and browser console checks pass."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Reviewed actual final front/side/iso comparison, reverse/underside and phone. Curved face, rounded shoulders/rear and absent tabletop/fins are clear from fixed views. Connected application/service/database diagram is visible from the default isometric camera; tiny glyph internals are secondary. Rear intentionally stays simple, with the rounded profile carrying the shape."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model refinement only. Animation remains deferred; no placeholder clips."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After r20 blockout, eliminated crown/body intersections by making one shell and replaced overlapping panel patches with a continuous border. r22 database ellipses read as a blob; replaced with one cylinder silhouette and two curved divisions. Final r23 comparison, side, reverse, underside and phone were inspected: no fins/top platform remain, front and rear profiles bow, panel border is continuous and database reads cleanly."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/rounded_body_comparison.png",
+      "sha256": "c118fd0f3ab83ee5b87c74bac9d39b01de318959a21142168a0eaa691a7f3f77",
+      "view": "front/side/iso versus rejected r19",
+      "mode": "comparison"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/close_oblique.png",
+      "sha256": "2e5908dbc5c1db05b6e1e020d682d027788f365392a034c779ff53e182a4c45c",
+      "view": "close oblique",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/right.png",
+      "sha256": "4087f12f23355a13f902eccd19fa4065db277b5a38f1ca4775560b82d7eb96ec",
+      "view": "diagram side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/left.png",
+      "sha256": "5c8016aa306045efcad2fbc6c1d6e1723518ae4c0c163e22dd9a9b6f914f8ec5",
+      "view": "roll side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/rear.png",
+      "sha256": "6a39037e97fbf47ed63f8bc51383f07b7e9281cbeeb805eccc5d35a56dc56c8c",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/bottom.png",
+      "sha256": "703b00580608c42c39b198798c353e676b011965ac993fea1dc021515aab4332",
+      "view": "underside",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/phone.png",
+      "sha256": "cb938be90325592921452cdc114fbc5ad5ed5390ae3ead1b571630f409ae721a",
+      "view": "phone game camera",
+      "mode": "gameplay"
+    }
+  ],
+  "userAcceptance": {
+    "status": "rejected",
+    "note": "User: now its very round, be more creative and design a good tower defense copilot, think out side the box"
+  },
+  "limitations": [
+    "Architecture glyph detail is secondary at very small gameplay sizes.",
+    "Animation remains deferred."
+  ]
+}

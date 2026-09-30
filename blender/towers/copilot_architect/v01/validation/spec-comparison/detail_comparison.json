@@ -1,0 +1,45 @@
+{
+  "model": {
+    "id": "copilot_architect",
+    "revision": 39,
+    "sha256": "8f50f4cfe39c176fcc03861611850fc477aee7d8cb24143ec5c1fee8e7af9c4e",
+    "sourceHash": "64335771a51309d0d296ee2d86f22889447b79a861fa5608d577d5315efaf386"
+  },
+  "reference": "references/keystone_placeable_2026-09-27/keystone_field_architect.png",
+  "items": [
+    {
+      "feature": "BLUEPRINT POD",
+      "referenceCrop": [
+        25,
+        215,
+        235,
+        660
+      ],
+      "actualRender": "blueprint-close.png",
+      "finding": "Spiral paper edge, blue flap, one-to-two plan glyph and two ivory cradle bands. The diagonal flap is rigid and sits clear of the roll."
+    },
+    {
+      "feature": "DRAFTING FRAME + STYLUS",
+      "referenceCrop": [
+        663,
+        278,
+        935,
+        758
+      ],
+      "actualRender": "stylus-close.png",
+      "finding": "Two triangular openings, beveled ivory frame, teal fitted dock, six-sided orange pencil, cream cap/wood cone, graphite point, clip and two cyan marks."
+    },
+    {
+      "feature": "APPLICATION DIAGRAM",
+      "referenceCrop": [
+        264,
+        188,
+        642,
+        429
+      ],
+      "actualRender": "diagram-close.png",
+      "finding": "Four-pane application tile branches to database and one-to-three service hierarchy. All glyphs are geometry; cyan paths follow the upper shell."
+    }
+  ],
+  "method": "Crops retain original pixels and aspect ratio. Actual closeups are orthographic renders of the hash-identified registered GLB. No pixel-level geometry claim is made."
+}

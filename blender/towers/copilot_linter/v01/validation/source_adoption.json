@@ -1,0 +1,94 @@
+{
+  "reference": "references\\six_shooter_study\\linter_six_shooter_concept.blend",
+  "referenceHash": "acd510f7ecf0d4cef8d4789de9a1001496e326ef175faf7a5041f168243d1c98",
+  "geometryAndUvSignature": "a7ed2b908a82482b5d9370205e56598642ff5092d2ed1311f80d17970a872ae4",
+  "exactStudyMeshPreserved": true,
+  "meshTriangles": 2364,
+  "meshVertices": 1252,
+  "ports": [
+    {
+      "id": "S1",
+      "azimuthDegrees": 30.000001847828802,
+      "sectorDegrees": [
+        0,
+        60
+      ],
+      "blenderCenter": [
+        0.6200000333289305,
+        -1.0738714784383774,
+        0.30200002280374366
+      ]
+    },
+    {
+      "id": "S2",
+      "azimuthDegrees": 89.9999997503586,
+      "sectorDegrees": [
+        60,
+        120
+      ],
+      "blenderCenter": [
+        1.1400000254313152,
+        -4.967053731282552e-09,
+        0.47700003907084465
+      ]
+    },
+    {
+      "id": "S3",
+      "azimuthDegrees": 149.999999376069,
+      "sectorDegrees": [
+        120,
+        180
+      ],
+      "blenderCenter": [
+        0.5700000238915285,
+        0.9872689768671989,
+        0.47700003907084465
+      ]
+    },
+    {
+      "id": "S4",
+      "azimuthDegrees": 209.99999961760423,
+      "sectorDegrees": [
+        180,
+        240
+      ],
+      "blenderCenter": [
+        -0.5700000065068404,
+        0.9872689868013064,
+        0.47700003907084465
+      ]
+    },
+    {
+      "id": "S5",
+      "azimuthDegrees": 270.0000002496414,
+      "sectorDegrees": [
+        240,
+        300
+      ],
+      "blenderCenter": [
+        -1.1400000254313152,
+        -4.967053731282552e-09,
+        0.47700003907084465
+      ]
+    },
+    {
+      "id": "S6",
+      "azimuthDegrees": 329.9999981521712,
+      "sectorDegrees": [
+        300,
+        360
+      ],
+      "blenderCenter": [
+        -0.6200000333289305,
+        -1.0738714784383774,
+        0.30200002280374366
+      ]
+    }
+  ],
+  "notes": [
+    "Preserves actual sheet geometry, including lowered, smaller forward pair for face clearance.",
+    "Six identical units is a conceptual sheet label; rendered front units measure 0.40 x 0.38 versus 0.48 x 0.45 for the others. Visual geometry takes precedence.",
+    "Root descriptive metadata is the only change from the preserved study source.",
+    "Sector metadata describes visual axes only; no simulation behavior is authored."
+  ]
+}

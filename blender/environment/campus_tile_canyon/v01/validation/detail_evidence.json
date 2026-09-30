@@ -1,0 +1,17 @@
+[
+  {
+    "path": "blender/environment/campus_tile_canyon/v01/validation/close-paving-edge.png",
+    "sha256": "687854565d4ff47518421fd9659f4231e71dfc9c9c8ed87f30fa184d80c6472c",
+    "view": "close-paving-edge"
+  },
+  {
+    "path": "blender/environment/campus_tile_canyon/v01/validation/reverse-oblique.png",
+    "sha256": "896dcf9b4953a2096c57bb880cbd8d35fb7a0e67edf766c5a68d8c20014e7a94",
+    "view": "reverse-oblique"
+  },
+  {
+    "path": "blender/environment/campus_tile_canyon/v01/validation/phone.png",
+    "sha256": "5c3475d4b6d8c98fccf78d80f43a038d5b33dfe7a5b66086c7a883d2625524b9",
+    "view": "phone-scale"
+  }
+]

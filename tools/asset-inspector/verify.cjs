@@ -44,7 +44,7 @@ const near = (a, b, epsilon = 1e-5) => assert(Math.abs(a-b) < epsilon, `${a} != 
     const widerLibrary = await page.locator('#library').boundingBox(); assert(widerLibrary.width > initialLibrary.width + 120);
     const savedLibraryWidth = await page.evaluate(() => Number(localStorage.getItem('tower-asset-inspector.library-width'))); near(savedLibraryWidth, widerLibrary.width, 1);
     await page.reload(); await ready(); near((await page.locator('#library').boundingBox()).width, widerLibrary.width, 1);
-    assert.deepEqual(s.entries[0].clips.map(c => c.name), ['move','hit','resolve']);
+    assert.deepEqual(s.entries[0].clips.map(c => c.name), ['move','hit','spawn','resolve']);
     assert.deepEqual(s.entries[0].root, [0,0,0]); near(s.entries[0].bounds[0][1], 0);
     const rest = s.entries[0].pose;
     for (const view of ['front','rear','left','right','top','bottom','iso']) {

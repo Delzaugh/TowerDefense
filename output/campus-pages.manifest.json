@@ -1,0 +1,433 @@
+{
+  "output": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages",
+  "base": "/TowerDefense/",
+  "files": [
+    {
+      "path": "index.html",
+      "bytes": 5223,
+      "source": "prototypes/campus-3d/index.html"
+    },
+    {
+      "path": "app.js",
+      "bytes": 12458,
+      "source": "prototypes/campus-3d/app.js"
+    },
+    {
+      "path": "presentation.js",
+      "bytes": 6326,
+      "source": "prototypes/campus-3d/presentation.js"
+    },
+    {
+      "path": "companion.js",
+      "bytes": 4055,
+      "source": "prototypes/campus-3d/companion.js"
+    },
+    {
+      "path": "ambient.js",
+      "bytes": 10037,
+      "source": "prototypes/campus-3d/ambient.js"
+    },
+    {
+      "path": "light-lines.js",
+      "bytes": 1587,
+      "source": "prototypes/campus-3d/light-lines.js"
+    },
+    {
+      "path": "campus-layout.js",
+      "bytes": 10089,
+      "source": "prototypes/campus-3d/campus-layout.js"
+    },
+    {
+      "path": "style.css",
+      "bytes": 12566,
+      "source": "prototypes/campus-3d/style.css"
+    },
+    {
+      "path": "guests.js",
+      "bytes": 5262,
+      "source": "prototypes/campus-3d/guests.js"
+    },
+    {
+      "path": "performance.js",
+      "bytes": 5396,
+      "source": "prototypes/campus-3d/performance.js"
+    },
+    {
+      "path": "stress-load.js",
+      "bytes": 4764,
+      "source": "prototypes/campus-3d/stress-load.js"
+    },
+    {
+      "path": "stress-test.js",
+      "bytes": 9097,
+      "source": "prototypes/campus-3d/stress-test.js"
+    },
+    {
+      "path": "stress-config.js",
+      "bytes": 1092,
+      "source": "prototypes/campus-3d/stress-config.js"
+    },
+    {
+      "path": "simulation/app.js",
+      "bytes": 9130,
+      "source": "prototypes/campus-3d/simulation/app.js"
+    },
+    {
+      "path": "simulation/actors.js",
+      "bytes": 10170,
+      "source": "prototypes/campus-3d/simulation/actors.js"
+    },
+    {
+      "path": "simulation/map.js",
+      "bytes": 12106,
+      "source": "prototypes/campus-3d/simulation/map.js"
+    },
+    {
+      "path": "simulation/config.js",
+      "bytes": 3058,
+      "source": "prototypes/campus-3d/simulation/config.js"
+    },
+    {
+      "path": "simulation/schedule.js",
+      "bytes": 1452,
+      "source": "prototypes/campus-3d/simulation/schedule.js"
+    },
+    {
+      "path": "simulation/capture.js",
+      "bytes": 9204,
+      "source": "prototypes/campus-3d/simulation/capture.js"
+    },
+    {
+      "path": "simulation/placement.js",
+      "bytes": 10497,
+      "source": "prototypes/campus-3d/simulation/placement.js"
+    },
+    {
+      "path": "simulation/index.html",
+      "bytes": 7404,
+      "source": "prototypes/campus-3d/simulation/index.html"
+    },
+    {
+      "path": "simulation/style.css",
+      "bytes": 10547,
+      "source": "prototypes/campus-3d/simulation/style.css"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "bytes": 603113,
+      "source": "tools/asset-inspector/vendor/three.module.js"
+    },
+    {
+      "path": "vendor/three.core.js",
+      "bytes": 1403455,
+      "source": "tools/asset-inspector/vendor/three.core.js"
+    },
+    {
+      "path": "vendor/GLTFLoader.js",
+      "bytes": 114739,
+      "source": "tools/asset-inspector/vendor/GLTFLoader.js"
+    },
+    {
+      "path": "vendor/BufferGeometryUtils.js",
+      "bytes": 35539,
+      "source": "tools/asset-inspector/vendor/BufferGeometryUtils.js"
+    },
+    {
+      "path": "presentation/digital-resolve.js",
+      "bytes": 14196,
+      "source": "tools/asset-presentation/digital-resolve.js"
+    },
+    {
+      "path": "runtime/campus_home_study.glb",
+      "bytes": 441008,
+      "source": "assets/runtime/environment/campus_home_study_v01.glb"
+    },
+    {
+      "path": "runtime/copilot_base_v02.glb",
+      "bytes": 132376,
+      "source": "assets/runtime/towers/copilot_base_v02.glb"
+    },
+    {
+      "path": "runtime/bert_breugelmans.glb",
+      "bytes": 373876,
+      "source": "assets/runtime/towers/bert_breugelmans_v01.glb"
+    },
+    {
+      "path": "runtime/github_octocat_classic_lowpoly.glb",
+      "bytes": 190520,
+      "source": "assets/runtime/towers/github_octocat_classic_lowpoly_v01.glb"
+    },
+    {
+      "path": "runtime/problem_bug.glb",
+      "bytes": 318904,
+      "source": "assets/runtime/enemies/problem_bug_v01.glb"
+    },
+    {
+      "path": "runtime/problem_vague_spec.glb",
+      "bytes": 206092,
+      "source": "assets/runtime/enemies/problem_vague_spec_v01.glb"
+    },
+    {
+      "path": "runtime/problem_lag_spike.glb",
+      "bytes": 263920,
+      "source": "assets/runtime/enemies/problem_lag_spike_v01.glb"
+    },
+    {
+      "path": "runtime/campus_base_hex.glb",
+      "bytes": 120552,
+      "source": "assets/runtime/environment/campus_base_hex_v01.glb"
+    },
+    {
+      "path": "runtime/campus_tile_park.glb",
+      "bytes": 237044,
+      "source": "assets/runtime/environment/campus_tile_park_v01.glb"
+    },
+    {
+      "path": "runtime/campus_tile_plaza.glb",
+      "bytes": 238320,
+      "source": "assets/runtime/environment/campus_tile_plaza_v01.glb"
+    },
+    {
+      "path": "runtime/campus_tile_hill.glb",
+      "bytes": 259924,
+      "source": "assets/runtime/environment/campus_tile_hill_v01.glb"
+    },
+    {
+      "path": "runtime/campus_platform.glb",
+      "bytes": 11536,
+      "source": "assets/runtime/environment/campus_platform_v01.glb"
+    },
+    {
+      "path": "runtime/campus_lab.glb",
+      "bytes": 178696,
+      "source": "assets/runtime/environment/campus_lab_v01.glb"
+    },
+    {
+      "path": "runtime/campus_walk_straight.glb",
+      "bytes": 14360,
+      "source": "assets/runtime/environment/campus_walk_straight_v01.glb"
+    },
+    {
+      "path": "runtime/campus_walk_short.glb",
+      "bytes": 14352,
+      "source": "assets/runtime/environment/campus_walk_short_v01.glb"
+    },
+    {
+      "path": "runtime/campus_walk_landing.glb",
+      "bytes": 20576,
+      "source": "assets/runtime/environment/campus_walk_landing_v01.glb"
+    },
+    {
+      "path": "runtime/campus_walk_corner.glb",
+      "bytes": 15868,
+      "source": "assets/runtime/environment/campus_walk_corner_v01.glb"
+    },
+    {
+      "path": "runtime/campus_walk_bend.glb",
+      "bytes": 30984,
+      "source": "assets/runtime/environment/campus_walk_bend_v01.glb"
+    },
+    {
+      "path": "runtime/campus_walk_bend_45.glb",
+      "bytes": 21968,
+      "source": "assets/runtime/environment/campus_walk_bend_45_v01.glb"
+    },
+    {
+      "path": "runtime/campus_walk_junction.glb",
+      "bytes": 21692,
+      "source": "assets/runtime/environment/campus_walk_junction_v01.glb"
+    },
+    {
+      "path": "runtime/campus_tree_round.glb",
+      "bytes": 16404,
+      "source": "assets/runtime/environment/campus_tree_round_v01.glb"
+    },
+    {
+      "path": "runtime/campus_tree_tall.glb",
+      "bytes": 16456,
+      "source": "assets/runtime/environment/campus_tree_tall_v01.glb"
+    },
+    {
+      "path": "runtime/campus_tree_cluster.glb",
+      "bytes": 21508,
+      "source": "assets/runtime/environment/campus_tree_cluster_v01.glb"
+    },
+    {
+      "path": "runtime/campus_pond.glb",
+      "bytes": 46928,
+      "source": "assets/runtime/environment/campus_pond_v01.glb"
+    },
+    {
+      "path": "runtime/campus_solar.glb",
+      "bytes": 65040,
+      "source": "assets/runtime/environment/campus_solar_v01.glb"
+    },
+    {
+      "path": "runtime/campus_coffee_kiosk.glb",
+      "bytes": 211784,
+      "source": "assets/runtime/environment/campus_coffee_kiosk_v01.glb"
+    },
+    {
+      "path": "runtime/campus_planter_bench.glb",
+      "bytes": 107284,
+      "source": "assets/runtime/environment/campus_planter_bench_v01.glb"
+    },
+    {
+      "path": "runtime/campus_code_sculpture.glb",
+      "bytes": 146768,
+      "source": "assets/runtime/environment/campus_code_sculpture_v01.glb"
+    },
+    {
+      "path": "runtime/campus_meeting_nook.glb",
+      "bytes": 161616,
+      "source": "assets/runtime/environment/campus_meeting_nook_v01.glb"
+    },
+    {
+      "path": "runtime/campus_wayfinding_sign.glb",
+      "bytes": 75460,
+      "source": "assets/runtime/environment/campus_wayfinding_sign_v01.glb"
+    },
+    {
+      "path": "runtime/campus_flower_bed.glb",
+      "bytes": 334248,
+      "source": "assets/runtime/environment/campus_flower_bed_v01.glb"
+    },
+    {
+      "path": "runtime/campus_bush_round.glb",
+      "bytes": 27404,
+      "source": "assets/runtime/environment/campus_bush_round_v01.glb"
+    },
+    {
+      "path": "runtime/campus_hedge.glb",
+      "bytes": 66804,
+      "source": "assets/runtime/environment/campus_hedge_v01.glb"
+    },
+    {
+      "path": "runtime/campus_path_bollard.glb",
+      "bytes": 15124,
+      "source": "assets/runtime/environment/campus_path_bollard_v01.glb"
+    },
+    {
+      "path": "runtime/campus_cafe_table.glb",
+      "bytes": 82424,
+      "source": "assets/runtime/environment/campus_cafe_table_v01.glb"
+    },
+    {
+      "path": "runtime/campus_noticeboard.glb",
+      "bytes": 71244,
+      "source": "assets/runtime/environment/campus_noticeboard_v01.glb"
+    },
+    {
+      "path": "runtime/copilot_developer.glb",
+      "bytes": 235080,
+      "source": "assets/runtime/towers/copilot_developer_v01.glb"
+    },
+    {
+      "path": "runtime/copilot_rubber_duck.glb",
+      "bytes": 64508,
+      "source": "assets/runtime/towers/copilot_rubber_duck_v01.glb"
+    },
+    {
+      "path": "runtime/copilot_shield.glb",
+      "bytes": 49992,
+      "source": "assets/runtime/towers/copilot_shield_v01.glb"
+    },
+    {
+      "path": "runtime/golden_compiler.glb",
+      "bytes": 283056,
+      "source": "assets/runtime/towers/golden_compiler_v01.glb"
+    },
+    {
+      "path": "runtime/copilot_commit_halo.glb",
+      "bytes": 358520,
+      "source": "assets/runtime/towers/copilot_commit_halo_v01.glb"
+    },
+    {
+      "path": "runtime/linter_agent.glb",
+      "bytes": 102616,
+      "source": "assets/runtime/towers/linter_agent_v01.glb"
+    },
+    {
+      "path": "runtime/problem_missing_details.glb",
+      "bytes": 241616,
+      "source": "assets/runtime/enemies/problem_missing_details_v01.glb"
+    },
+    {
+      "path": "runtime/kaykit_rock_a.glb",
+      "bytes": 28832,
+      "source": "assets/runtime/environment/kaykit_rock_a_v01.glb"
+    },
+    {
+      "path": "runtime/kaykit_basemodule_a.glb",
+      "bytes": 64240,
+      "source": "assets/runtime/environment/kaykit_basemodule_a_v01.glb"
+    },
+    {
+      "path": "runtime/kaykit_basemodule_b.glb",
+      "bytes": 67144,
+      "source": "assets/runtime/environment/kaykit_basemodule_b_v01.glb"
+    },
+    {
+      "path": "runtime/kaykit_basemodule_garage.glb",
+      "bytes": 77452,
+      "source": "assets/runtime/environment/kaykit_basemodule_garage_v01.glb"
+    },
+    {
+      "path": "runtime/kaykit_tunnel_straight_a.glb",
+      "bytes": 66272,
+      "source": "assets/runtime/environment/kaykit_tunnel_straight_a_v01.glb"
+    },
+    {
+      "path": "runtime/kaykit_roofmodule_solarpanels.glb",
+      "bytes": 43656,
+      "source": "assets/runtime/environment/kaykit_roofmodule_solarpanels_v01.glb"
+    },
+    {
+      "path": "runtime/kaykit_cargodepot_a.glb",
+      "bytes": 81800,
+      "source": "assets/runtime/environment/kaykit_cargodepot_a_v01.glb"
+    },
+    {
+      "path": "runtime/kaykit_containers_a.glb",
+      "bytes": 41664,
+      "source": "assets/runtime/environment/kaykit_containers_a_v01.glb"
+    },
+    {
+      "path": "runtime/kaykit_landingpad_small.glb",
+      "bytes": 53704,
+      "source": "assets/runtime/environment/kaykit_landingpad_small_v01.glb"
+    },
+    {
+      "path": "runtime/kaykit_windturbine_tall.glb",
+      "bytes": 58264,
+      "source": "assets/runtime/environment/kaykit_windturbine_tall_v01.glb"
+    },
+    {
+      "path": "runtime/kaykit_solarpanel.glb",
+      "bytes": 33852,
+      "source": "assets/runtime/environment/kaykit_solarpanel_v01.glb"
+    },
+    {
+      "path": "stress-revision.json",
+      "bytes": 18908
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0
+    },
+    {
+      "path": "licenses/kaykit-space-base.txt",
+      "bytes": 826,
+      "source": "assets/third_party/kaykit/space_base_bits/1.0.0/addons/kaykit_space_base_bits/Assets/LICENSE.txt"
+    },
+    {
+      "path": "licenses/three.txt",
+      "bytes": 1081,
+      "source": "tools/asset-inspector/vendor/THREE_LICENSE.txt"
+    },
+    {
+      "path": "build-info.json",
+      "bytes": 164
+    }
+  ]
+}

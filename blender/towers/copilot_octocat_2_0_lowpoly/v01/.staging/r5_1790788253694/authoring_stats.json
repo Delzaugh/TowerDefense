@@ -1,0 +1,51 @@
+{
+  "triangles": 3961,
+  "mesh_triangles": {
+    "body_five_tentacles": 1200,
+    "eye_glint_-1": 12,
+    "eye_glint_1": 12,
+    "eye_glint_small_-1": 8,
+    "eye_glint_small_1": 8,
+    "eye_iris_-1": 70,
+    "eye_iris_1": 70,
+    "eye_white_-1": 100,
+    "eye_white_1": 100,
+    "head_and_ears": 1430,
+    "inner_ear_-1": 40,
+    "inner_ear_1": 39,
+    "nose": 48,
+    "smile_open": 72,
+    "smile_tongue": 24,
+    "suction_cup_rows": 600,
+    "whisker_-1_0": 32,
+    "whisker_-1_1": 32,
+    "whisker_1_0": 32,
+    "whisker_1_1": 32
+  },
+  "cup_count": 25,
+  "cup_triangles": 600,
+  "parts": {
+    "head_and_ears": {
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    "body_five_tentacles": {
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    }
+  },
+  "contacts": {
+    "left": 0.0,
+    "right": 0.0,
+    "rear": 0.0
+  },
+  "input_sha256": "c0c000b5b12d0380bdaeb54904fb92b2428912519e10ab09263e70c110eec8cb",
+  "anatomy": {
+    "tentacles": 5,
+    "arms": 2,
+    "supports": 3,
+    "tails": 0
+  },
+  "runtime_meshes": 2,
+  "source_parts": "Named part_* vertex groups retain the 19 palette components"
+}

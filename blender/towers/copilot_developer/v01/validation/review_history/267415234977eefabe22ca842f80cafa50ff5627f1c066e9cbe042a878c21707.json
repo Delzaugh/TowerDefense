@@ -1,0 +1,40 @@
+{
+  "asset": "copilot_developer",
+  "version": "v01",
+  "revision": 8,
+  "sha256": "e5627fa1339cd99e2ddf471e24e6d992d9684f0ec3f1a158cfaf9dd4446d2711",
+  "sourceHash": "6b8a76f7885fc796f8c27c2d3cc3bc15e1f0690faf12fb803e0fa0878d5f2b3f",
+  "reviewedAt": "2026-09-24T07:10:34.8874230Z",
+  "technicalValidation": "passed",
+  "referenceFidelity": "author reviewed: substantially closer under aligned front/side comparison; illustrated-view interpretation remains an artistic judgment",
+  "construction": "author reviewed after correcting crown/casing protrusions, cheek seating, temple sockets and vent backing degeneracy",
+  "gameScaleReadability": "eyes, goggles, temple badge and swept crown remain readable in phone and small previews",
+  "userAcceptance": "not inferred",
+  "views": [
+    "front",
+    "side",
+    "top",
+    "inspector_close_front_oblique",
+    "inspector_rear_oblique",
+    "inspector_underside",
+    "inspector_phone",
+    "inspector_small"
+  ],
+  "secondPass": [
+    "Reviewed full reconstruction, found casing protrusions and cheek mismatch, corrected source and rechecked exports.",
+    "Inspected source topology, found collapsed vent-backing bevels, removed them and checked final geometry.",
+    "Final rear shading and nearby surfaces rechecked after export."
+  ],
+  "evidence": [
+    "report.json",
+    "geometry_review.json",
+    "inspector_review.json",
+    "landmark_comparison/metrics.json",
+    "landmark_comparison/silhouette_comparison.png"
+  ],
+  "limitations": [
+    "Static model, no animation authored.",
+    "References are illustrative and not fully orthographically consistent.",
+    "Silhouette overlap cannot assess internal contours or guarantee artistic acceptance."
+  ]
+}

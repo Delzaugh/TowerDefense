@@ -1,0 +1,39 @@
+{
+  "asset": "campus_tree_autumn_bare",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "41866fb933ffd7e75ddb5bcbc8c8e38e2e51a425c257c169a61011655d5e2ce0",
+  "checkedAt": "2026-09-24T11:13:01.765Z",
+  "errors": [
+    "Rest ground contact is -0.006130031310021877"
+  ],
+  "warnings": [],
+  "triangles": 96,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.508351683616638,
+    3.756130031310022,
+    1.6332287788391113
+  ],
+  "bounds": [
+    [
+      -1.3297629356384277,
+      -0.006130031310021877,
+      -0.8166143894195557
+    ],
+    [
+      1.1785887479782104,
+      3.75,
+      0.8166143894195557
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": false,
+  "sourceHash": "4288fe00469fcde8def1579aa14df1fe4299662f2b8a9f1101ba3c00a77eed31",
+  "source": "blender/environment/campus_tree_autumn_bare/v01/campus_tree_autumn_bare_v01.blend",
+  "runtime": "assets/runtime/environment/campus_tree_autumn_bare_v01.glb"
+}

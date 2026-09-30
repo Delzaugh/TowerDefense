@@ -1,0 +1,30 @@
+{
+  "style": "mona",
+  "triangles": 7396,
+  "meshes": 17,
+  "height": 1.8,
+  "anatomy": {
+    "total_appendages": 5,
+    "supporting_legs": 2,
+    "arms": 2,
+    "tails": 1,
+    "ears": 2,
+    "eyes": 2,
+    "whiskers": 4
+  },
+  "appendages": [
+    "leg_left",
+    "leg_right",
+    "arm_left",
+    "arm_right",
+    "tail_rear"
+  ],
+  "sucker_counts": {
+    "leg_left": 6,
+    "leg_right": 6,
+    "arm_left": 6,
+    "arm_right": 9,
+    "tail_rear": 6
+  },
+  "source_guides": 5
+}

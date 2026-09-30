@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "asset": "problem_dead_code",
+  "version": "v01",
+  "revision": 6,
+  "sha256": "17b8b58882b056d30ec9483089aa830e324016b84389489c80bcc78dfc0a9958",
+  "sourceHash": "7b426eb3ea99a0450b93155d49d21e862cc36652224d8f85245d4fd49a8185bf",
+  "scope": "animation",
+  "reviewedAt": "2026-09-24T11:01:27.094Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Revision 5 tombstone, seated plinth, braces, coral X, recessed slot and rear panel retain byte-identical rest-art channels, UVs, palette and material. The accepted source geometry and anchors were not edited."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Saved Blender source has no active action, all five NLA tracks muted, marker bone in rest pose and unmoved root. Runtime parity preserved idle/move/hit, including the user-selected hover loop. Grounded lifecycle support clearance stays within 0.0000002 m numeric tolerance. The maximum helper allocation is 156 triangles, giving 1024 combined."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally inspected close oblique Spawn at 35 and 50 percent and Resolve at 50 and 65 percent, plus phone Spawn/Resolve at 80 percent. The coral X and ivory braces remain recognizable during the jagged body reveal. The erase sweep and thin streaks clear the tombstone at phone width; final Resolve leaves no body or shadow. No portal appears."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Spawn/Resolve use frames 0–30 at 24 fps and full-body scale. Spawn settles to the grounded ready pose; Resolve applies a restrained grounded tilt while presentation erases it. The existing move continues to hover at its previously accepted clearance and is byte-identical to the milestone. Inspector seeking, repeat, exact endpoint, Rest reset and reload passed."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "On a second pass, checked final Spawn 35 percent, Resolve 65 percent, phone 80 percent and Rest reset. The plinth still grounds the marker while clipped strips and streaks read cleanly. Reran source saved-state and actual-renderer parity/budget checks against the final export."
+  },
+  "evidence": [
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/iso.png",
+      "sha256": "35be736f7ed14f46b8941eb0e91bd5705b19e1478e3e1c5e2387fbf86d8fa2d6",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/iso-silhouette.png",
+      "sha256": "15d14459990c7e87f8fc33b1672584b04129bcfd51515921e1439b1765ccfb57",
+      "view": "iso",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/front.png",
+      "sha256": "bf57f59f5538db512102b9c87f4123dc4771f8cb5bd759f902d78d36b23e7d80",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/front-silhouette.png",
+      "sha256": "878794663b0b7e655f7a196a2c0d40dc6b157df7725963ec4053d0c0209b1b4f",
+      "view": "front",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/side.png",
+      "sha256": "aa51d579f59a351c86c73022f643615bd3928878ef449a7a20026afd25587e04",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/side-silhouette.png",
+      "sha256": "5bbb87fe76e9b8ef3d81201828bc6601c4117a0142fb2769f10d69d4c5fd593e",
+      "view": "side",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/rear.png",
+      "sha256": "9e2aab128c2cf906780ecde7e7bc5de2c18d5a752c83253101ab7ad24d0f05a9",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/rear-silhouette.png",
+      "sha256": "878794663b0b7e655f7a196a2c0d40dc6b157df7725963ec4053d0c0209b1b4f",
+      "view": "rear",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/top.png",
+      "sha256": "65281af3a1c89f0a8568c92d5be6accb046c02309f0093e87fcba0dbfd26972c",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/top-silhouette.png",
+      "sha256": "5bbac7847af370d5a7ea415e3ec0fa38599d19ffb674ea9e1772804aa47c3730",
+      "view": "top",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/idle.png",
+      "sha256": "68ada745cdeaf24fbaf9ebbe261540b42c568e123dcc61c8a71e08fe6346dc2d",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "idle",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/move.png",
+      "sha256": "a509769fab64d5a804a43bd5783950604057f70379be3b0378641375f889d971",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "move",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/hit.png",
+      "sha256": "2c99c253a2897828499f8a01a1f6baf96a42033bfe33ac8e5b82996bd7e24658",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "hit",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/spawn.png",
+      "sha256": "17b728e8698b56d8059faec69644a5caf95293465dbfc1213d90437135ab2726",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "spawn",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/resolve.png",
+      "sha256": "538b59ea9e54dc70d3f6e22fef8077c42c6a2da49d257cf916856755e500557a",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "resolve",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/lifecycle/spawn-35.png",
+      "view": "close oblique spawn 35%",
+      "sha256": "9557f3f4a442494ca824fc95f31a0ae61d3f3e297acea8c006ad9c6ca27ed1f5"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/lifecycle/resolve-50.png",
+      "view": "close oblique resolve 50%",
+      "sha256": "15f518ec615e55d5431ae997f40fb374124191e89ce713320320be77ce28c676"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/lifecycle/phone-spawn-80.png",
+      "view": "phone spawn 80%",
+      "sha256": "9319a313f9d0e5edf5c0ade745e538b705c8faed2efe502e0aa101cfea4d12f4"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/lifecycle/phone-resolve-80.png",
+      "view": "phone resolve 80%",
+      "sha256": "7308a92921b559924dc6a95f9b2281c59cb9427d8ac575aac486b38b8d23017b"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/lifecycle/phone-resolve-100.png",
+      "view": "phone resolve endpoint",
+      "sha256": "bb7d62f966d467e228842a75bae94f990e0a66646d7c662689fc10f7f527f410"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/lifecycle/resolve-reset.png",
+      "view": "rest after resolve",
+      "sha256": "0c18622a07021184f8eca7429e0a02676d164bb59660fe545541f8d4a06c876e"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/lifecycle/review.json",
+      "view": "actual renderer parity, motion, state and budget checks",
+      "sha256": "a59928ee7d9ceb46291d4a11f38692fe8f2dbaf5e5d754f1aa38e49dc718232b"
+    },
+    {
+      "path": "blender/enemies/problem_dead_code/v01/validation/lifecycle/source_audit.json",
+      "view": "read-only saved Blender state audit",
+      "sha256": "b33aec97731c7a741660091d619c114f00d04e3bc88a9cfe90cdfe40c49383dd"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": ""
+  },
+  "limitations": [
+    "Complete visual coverage requires tools/asset-presentation/lifecycle.js in the game presenter; a plain GLB viewer displays the full-size poses only.",
+    "Grounded arrival/exit and user-selected hover locomotion remain separate presentation states; transitions between their heights are owned by the presenter.",
+    "Target-device frame rate and user artistic acceptance remain pending."
+  ]
+}

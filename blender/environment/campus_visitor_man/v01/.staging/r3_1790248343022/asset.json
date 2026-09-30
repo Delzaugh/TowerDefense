@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_visitor_man",
+  "displayName": "Campus Visitor — Man",
+  "category": "environment",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/environment/campus_visitor_man/v01/campus_visitor_man_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_visitor_man/v01/build.py",
+    "authoritativeHash": "802dd9c972eada645b3d755f20465461594a3f3bc98b037d3d3e2e19b5ceac5d"
+  },
+  "runtime": "assets/runtime/environment/campus_visitor_man_v01.glb",
+  "budgets": {
+    "triangles": 6000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 64,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [],
+    "dimensions": {
+      "min": [
+        0.5,
+        1.75,
+        0.25
+      ],
+      "max": [
+        1,
+        1.85,
+        0.7
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    "blender/environment/campus_visitor_man/v01/references/shape-study.png",
+    "blender/environment/campus_visitor_man/v01/references/model-spec-sheet.png",
+    "blender/environment/campus_visitor_man/v01/references/color-turnaround.png",
+    "blender/environment/campus_visitor_man/v01/references/anatomy-sheet.png"
+  ],
+  "overrides": [
+    "Static background human: up to 6000 triangles for readable face, fingers and layered clothing; one mesh/material. Distinct from the simpler 100–800 triangle foliage/prop target."
+  ],
+  "milestones": [],
+  "decisions": "blender/environment/campus_visitor_man/v01/decisions.md",
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "texturePalettes": [
+    {
+      "material": "campus_visitor_palette",
+      "size": [
+        32,
+        8
+      ],
+      "roles": {
+        "skin": {
+          "color": "#F4BF89",
+          "rect": [
+            0,
+            0,
+            4,
+            2
+          ]
+        },
+        "skin_shadow": {
+          "color": "#9F6E50",
+          "rect": [
+            4,
+            0,
+            4,
+            2
+          ]
+        },
+        "hair": {
+          "color": "#373238",
+          "rect": [
+            8,
+            0,
+            4,
+            2
+          ]
+        },
+        "hair_light": {
+          "color": "#494047",
+          "rect": [
+            12,
+            0,
+            4,
+            2
+          ]
+        },
+        "olive": {
+          "color": "#668055",
+          "rect": [
+            16,
+            0,
+            4,
+            2
+          ]
+        },
+        "olive_light": {
+          "color": "#778F62",
+          "rect": [
+            20,
+            0,
+            4,
+            2
+          ]
+        },
+        "olive_shadow": {
+          "color": "#4E6745",
+          "rect": [
+            24,
+            0,
+            4,
+            2
+          ]
+        },
+        "cream": {
+          "color": "#F5EAD5",
+          "rect": [
+            28,
+            0,
+            4,
+            2
+          ]
+        },
+        "navy": {
+          "color": "#293B59",
+          "rect": [
+            0,
+            2,
+            4,
+            2
+          ]
+        },
+        "navy_light": {
+          "color": "#344866",
+          "rect": [
+            4,
+            2,
+            4,
+            2
+          ]
+        },
+        "brick": {
+          "color": "#AF6255",
+          "rect": [
+            8,
+            2,
+            4,
+            2
+          ]
+        },
+        "brick_shadow": {
+          "color": "#925047",
+          "rect": [
+            12,
+            2,
+            4,
+            2
+          ]
+        },
+        "sole": {
+          "color": "#FFF1DA",
+          "rect": [
+            16,
+            2,
+            4,
+            2
+          ]
+        },
+        "ink": {
+          "color": "#241F24",
+          "rect": [
+            20,
+            2,
+            4,
+            2
+          ]
+        },
+        "eye_white": {
+          "color": "#FFF9EE",
+          "rect": [
+            24,
+            2,
+            4,
+            2
+          ]
+        },
+        "button": {
+          "color": "#D6D4B9",
+          "rect": [
+            28,
+            2,
+            4,
+            2
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "olive": "#668055",
+      "eye_white": "#FFF9EE",
+      "skin": "#F4BF89",
+      "brick": "#AF6255",
+      "ink": "#241F24",
+      "navy_light": "#344866",
+      "hair": "#373238",
+      "hair_light": "#494047",
+      "olive_light": "#778F62",
+      "olive_shadow": "#4E6745",
+      "button": "#D6D4B9",
+      "brick_shadow": "#925047",
+      "skin_shadow": "#9F6E50",
+      "cream": "#F5EAD5",
+      "navy": "#293B59",
+      "sole": "#FFF1DA"
+    }
+  },
+  "delivery": {
+    "sha256": "d4769f647d6114aed97f619f7459025e80822ece3698731b3d5d25ee85f094ea",
+    "sourceHash": "802dd9c972eada645b3d755f20465461594a3f3bc98b037d3d3e2e19b5ceac5d",
+    "report": "blender/environment/campus_visitor_man/v01/validation/report.json",
+    "deliveredAt": "2026-09-24T11:06:33.391Z"
+  }
+}

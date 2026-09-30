@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_tile_hill",
+  "displayName": "Campus hill tile",
+  "category": "environment",
+  "version": "v01",
+  "revision": 8,
+  "source": {
+    "path": "blender/environment/campus_tile_hill/v01/campus_tile_hill_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_tile_hill/v01/build.py",
+    "authoritativeHash": "e61bb8b0fc604414453620fd8b73bba8bc9d9be37559e244878d0f18afadb512"
+  },
+  "runtime": "assets/runtime/environment/campus_tile_hill_v01.glb",
+  "budgets": {
+    "triangles": 2000,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_surface",
+      "anchor_edge_ne",
+      "anchor_edge_n",
+      "anchor_edge_nw",
+      "anchor_edge_sw",
+      "anchor_edge_s",
+      "anchor_edge_se"
+    ],
+    "dimensions": {
+      "min": [
+        35.99,
+        1.19,
+        31.17
+      ],
+      "max": [
+        36.01,
+        5.1,
+        31.18
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "tools/asset-recipes/campus-terrain.py",
+      "provenance": "Original terrain geometry and packed texture recipe for user-requested campus tile variants."
+    },
+    {
+      "path": "blender/environment/campus_base_hex/v01/campus_base_hex_v01.blend",
+      "provenance": "Shared frame dimensions and edge anchors; source left unchanged."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/environment/campus_tile_hill/v01/revisions/r2_before_r3/campus_tile_hill_v01.glb",
+      "source": "blender/environment/campus_tile_hill/v01/revisions/r2_before_r3/campus_tile_hill_v01.blend",
+      "sha256": "e77b34f6851d0a8e888645a9decce0b1d5f48fd8bf9ab2b1b5b57c450c716e5d",
+      "sourceHash": "77e6b0d551a2e4f559904978dee071e72efb2c8af4778ab7cecb33bc631106e0"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/environment/campus_tile_hill/v01/revisions/r3_before_r4/campus_tile_hill_v01.glb",
+      "source": "blender/environment/campus_tile_hill/v01/revisions/r3_before_r4/campus_tile_hill_v01.blend",
+      "sha256": "d802541db7d437628ea30072f3d5a85785a0f7ef3b3c82387e5c134d29654497",
+      "sourceHash": "ffb6701d34ce522648df74d9a785ba1470cc778c7d493c2ead3066b135d11ac9"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/environment/campus_tile_hill/v01/revisions/r4_before_r5/campus_tile_hill_v01.glb",
+      "source": "blender/environment/campus_tile_hill/v01/revisions/r4_before_r5/campus_tile_hill_v01.blend",
+      "sha256": "21f5c2062a8908deb9cee824c59dadc95c7dd09a11a4f65c79130e19699664ad",
+      "sourceHash": "79d8d4c7229d67e0c784783b18a616e14c3a8097cbf7204eb3569943864de604"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/environment/campus_tile_hill/v01/revisions/r5_before_r6/campus_tile_hill_v01.glb",
+      "source": "blender/environment/campus_tile_hill/v01/revisions/r5_before_r6/campus_tile_hill_v01.blend",
+      "sha256": "69df82f1d8c513d561b529e5758e750adc0baa85a93bbc70b7494f142e9447e8",
+      "sourceHash": "ab693466953ac451b379b0fd278c1147375df2b781798f84d357d7b5f87655c2"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/environment/campus_tile_hill/v01/revisions/r6_before_r7/campus_tile_hill_v01.glb",
+      "source": "blender/environment/campus_tile_hill/v01/revisions/r6_before_r7/campus_tile_hill_v01.blend",
+      "sha256": "f868b92ab508249955c23c45277f3ef85f0669ea90561828991a698275eef6a5",
+      "sourceHash": "09b12937183f5c75f005a17335b7acc86c6e93fba31b6e55bb42fe9cbe227ede"
+    }
+  ],
+  "decisions": "blender/environment/campus_tile_hill/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "glacier_palette",
+      "size": [
+        512,
+        512
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#6787A3",
+          "rect": [
+            0,
+            0,
+            8,
+            8
+          ]
+        },
+        "ground": {
+          "color": "#354B64",
+          "rect": [
+            8,
+            0,
+            8,
+            8
+          ]
+        },
+        "shell": {
+          "color": "#24354E",
+          "rect": [
+            16,
+            0,
+            8,
+            8
+          ]
+        },
+        "tile_seam": {
+          "color": "#577693",
+          "rect": [
+            24,
+            0,
+            8,
+            8
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "shell": "#24354E",
+      "chalk": "#6787A3",
+      "ground": "#354B64",
+      "edge": "#ADC5D2",
+      "tile_seam": "#577693"
+    }
+  },
+  "exportSettings": {
+    "paletteTextureWorkflow": false
+  },
+  "delivery": {
+    "sha256": "cbdb199debbbd04ad2e3bb4a1410f63f88e0eb4a405a6bc9648b7f2f3120a3cf",
+    "sourceHash": "e61bb8b0fc604414453620fd8b73bba8bc9d9be37559e244878d0f18afadb512",
+    "report": "blender/environment/campus_tile_hill/v01/validation/report.json",
+    "deliveredAt": "2026-09-24T11:55:50.040Z"
+  }
+}

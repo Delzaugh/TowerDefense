@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_tile_utility",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "492e9094a234c5350fe1851d65ccc9d26a1ccf44e70ed7993265cc4a872dfb55",
+  "sourceHash": "b5d46a459531cc8bcb45db95add2aba00d2acde96d3699c8b41fc5399270545b",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T11:22:52.364Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Exact shared 18m radius foundation, 1.20m top, six edge anchors plus surface anchor. Two restrained flush concrete service pads and covered cable channels leave the parent-owned route unpainted. Slate #354B64 is unchanged throughout the outer 1.4m band."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Inspected iso, top and close-paving-edge views: continuous slab and trim, no raised pads, overlapping layers or cracks. Source uses the same 108-triangle foundation geometry and .92 roughness. Atlas changes return smoothly to the quiet slate band before the boundary."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Phone evidence keeps two large service zones readable while broad low-contrast concrete joints recede. Central service route remains free for the registered existing walkway models."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked close edge transition, reverse oblique and phone capture after the first iso/top assessment. Pad corners stay inside the common boundary and no surface height or frame correction was needed."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_tile_utility/v01/validation/iso.png",
+      "sha256": "329b7cdb51969b63e2853a60dc56b1b07cbd1fa6efd4773d8e60b92030358a48",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_utility/v01/validation/top.png",
+      "sha256": "c81898cfaae0e9e434aa21dca9e2235dc7e7f85ed56ab445eda014c5e7feefa5",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_utility/v01/validation/close-paving-edge.png",
+      "sha256": "d7703042f6463e200595f342d89f97c227e6c345ae30ab1e0dd1bcca314f53c2",
+      "view": "close-paving-edge"
+    },
+    {
+      "path": "blender/environment/campus_tile_utility/v01/validation/reverse-oblique.png",
+      "sha256": "014badcc4d35abc5f4f3f45457ab2309a5205b082eaacd8bb6ec290d08b4e5e9",
+      "view": "reverse-oblique"
+    },
+    {
+      "path": "blender/environment/campus_tile_utility/v01/validation/phone.png",
+      "sha256": "07bd985cf268ae7f88dec85269f545d596b2488d374e13b05c9812f7faabd83b",
+      "view": "phone-scale"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author self-review complete; explicit user artistic acceptance remains separate."
+  },
+  "limitations": [
+    "Static environment assembly; final whole-campus placement and composition are reviewed by the integrating parent task."
+  ]
+}

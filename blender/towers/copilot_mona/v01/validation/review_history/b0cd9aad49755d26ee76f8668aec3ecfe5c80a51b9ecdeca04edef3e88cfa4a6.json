@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_mona",
+  "version": "v01",
+  "revision": 5,
+  "sha256": "9abb03604d6283d1152384f6b1fd017ac722d4817db3734e47db9459a020bf78",
+  "sourceHash": "c5548de57354d3b46004419382d76ae7b9f7dddf6ba51b299caa0f25574eb8c8",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T16:21:36.134067+00:00",
+  "checks": {
+    "referenceFidelity": {
+      "status": "failed",
+      "findings": "Wrong body reference for user intent: four supporting legs and one raised tail are required from the selected Classic Low Poly model."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Inspected front face/cup close-up, reverse join close-up, side and underside runtime views. Head/ears and torso/five tentacles are each one closed connected shell; source audit reports zero non-manifold edges, degenerate faces or loose vertices on the two shells, and no degenerate/loose geometry in details. Pink inner ears are painted onto the shell, avoiding layered intersections; shifting their mapping upward removed colour spill onto the skull. Cups follow the actual reduced body and have darker recessed centers. Both supporting legs retain y=0 contact. Neck sits inside head base; arm and leg negative spaces remain open; rear tail attaches continuously. Facial surfaces and four whisker roots remain seated in oblique/side views."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected shared Inspector phone and 160px small views, plus flat iso silhouette. Cat ears, broad pink face, eyes, curled arms, leg split and tail remain identifiable. At game scale cup rows read as pink ring accents; tiny glints and cup depth are close-up details. Purple/pink materials remain visible in neutral studio without temporary tint. Hash confirmed by shared Inspector: 9abb03604d6283d1152384f6b1fd017ac722d4817db3734e47db9459a020bf78."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model-stage review; no authored clips yet. Record the animation handoff or deferral in decisions; baseline animation remains pending."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After the first detailed candidate exceeded budget, reduced nose, smile and glint tessellation. Replaced piercing oval ear overlays with painted rounded triangular insets, then moved insets above the main skull crown after a side view exposed spill. Reduced crowded cup rows and added contrasting recessed centers. Personally reinspected final revision 5 front, side, iso, rear and underside, front/rear join close-ups, phone and small silhouette with the official reference visible. No remaining source/export attachment defects were observed in these views. The full body is an explicit adaptation; gradient values are reference-matched artistic choices, not a published numeric GitHub mascot palette."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_mona/v01/validation/front.png",
+      "sha256": "b52b0f5619a58aad99dff12ab95303d85e02b8100496036c7a645eae50a96ad9",
+      "view": "front"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/validation/side.png",
+      "sha256": "431062d5ca1943b19f1e5aeb96bcf254dc429e919dacc2f88e511f298913cd1a",
+      "view": "side"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/validation/rear.png",
+      "sha256": "f2e221a9edf8922d6e5d97471dc47fd05139f63a7c09d1e937fd36f6d5709772",
+      "view": "rear"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/validation/iso.png",
+      "sha256": "38aa917e55d0965dc5c2d28ef67ce9c4d9fb141fe58afb7fb482e2afca4aa7a9",
+      "view": "iso"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/validation/iso-silhouette.png",
+      "sha256": "d42260678f061d877a787473d25185974dc571c1763d1eac6a41fcabafc23a61",
+      "view": "iso silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/renders/inspector-iso.png",
+      "sha256": "2ca60a433e149e8f65db60863fa4e008781eb81f2e5d3e1814d41f34ff37f2ec",
+      "view": "shared inspector iso"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/renders/detail-front.png",
+      "sha256": "e222473f0d80d6afcdc10beefc1229d7e234e3bedc0bda0d0e42ec1d00c0a2bd",
+      "view": "face and cups close-up"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/renders/detail-left.png",
+      "sha256": "6d0c4bc474cd0f8aea4cec89880a96314bfc084958502c9d097d88b59b1298b3",
+      "view": "side depth close-up"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/renders/detail-rear.png",
+      "sha256": "fde25a7882ac7889fa7443a562ed9175c2c58afdf4c12cb7314f1ee5fb634c42",
+      "view": "rear joins close-up"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/renders/inspector-bottom.png",
+      "sha256": "303424de9b4576a2fcfb65473761900297f60d6e6daaf347ae60cf0a0d3f5930",
+      "view": "underside"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/renders/inspector-phone.png",
+      "sha256": "531772e3e894ef10d44af5aaf972c1180837d62867a5fa16a4dde4e89bf01157",
+      "view": "phone"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/renders/inspector-small.png",
+      "sha256": "176cc1af2cd8d63dde92d146928b271849da08710bd58ecc7fddecbec9fb1c03",
+      "view": "small game-scale"
+    }
+  ],
+  "userAcceptance": {
+    "status": "rejected",
+    "note": "User corrected the base reference to copilot_octocat_classic_lowpoly. The previous two-arm/two-leg interpretation is superseded."
+  },
+  "limitations": [
+    "Contemporary official Mona references show the head; full body combines that head language with official Octocat 2.0 anatomy.",
+    "Model stage only; baseline animations remain pending user authorization.",
+    "7,396 triangles is above the generic Copilot target; crowded-scene device performance has not been profiled."
+  ]
+}

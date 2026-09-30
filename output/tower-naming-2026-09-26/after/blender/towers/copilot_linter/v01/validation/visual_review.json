@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_linter",
+  "version": "v01",
+  "revision": 14,
+  "sha256": "7cdddfdfccddb6415346c8586071b4e4d52951d8ab66e4ff0a059592189df4d2",
+  "sourceHash": "f5889a6c285ada2d265e1eb440dcb3c33198fc71b847b3841ea47b5078cc6ec6",
+  "scope": "animation",
+  "reviewedAt": "2026-09-24T15:08:01.386Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Animation follows the explicitly accepted revision 12 model. Runtime comparison verifies identical triangle positions, UVs and material assignments, unchanged material objects and embedded palette bytes; normal evaluation differs by less than 2e-6. The corrected pod seats, recessed face and saturated framed visor remain intact. Model acceptance is preserved separately in r12_model_approved_before_animation."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Nine rigid bones separate body, six complete pods and two indicators. All rigid components use single-bone weights. Inspected side work at 0.13 s and underside work at 0.46 s, including maximum inward recoil: root seats remain inside the chassis and no stretches, seams opening or double transforms were seen. Six muzzle anchors move inward by 0.055 m with the pods, never outward beyond numerical noise; original anchors preserve their rest coordinates. The source is saved with inactive actions, muted NLA and rest bones."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected all six clip contact rows and action/recovery strips, plus phone-width clips with ground/shadows. Idle is deliberately quiet, Work uses restrained sequential recoil, Move banks the rigid body, and Hit has a brief visible tilt/indicator flinch. Shell, dark crown, deep face well and cyan visor remain readable. Place/Resolve cubes stay distinct at phone scale; terminal Resolve has no residual model or shadow."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Reviewed revision 14 live in the shared Inspector at normal playback, then captured and inspected starts, action extremes, recovery and ends. Three 2 s loops keep matching boundary poses; Work recovers each inward pulse before the next shooter. The 0.5 s Hit recovers to ready. The 1.25 s Place end is pixel-identical to Idle start, and Resolve reverses the compatible full-size pose track and ends invisible. Runtime audits sampled 97 poses per clip, found minimum clearance 0.105330 m, stationary root, matching loop/transition endpoints and nonconstant channels. Multiple loop cycles, one-shot clamps, deterministic effect scrubbing/replay, Effects toggle and Rest Pose reset passed. Source retains independent indicator controls; no gameplay effects are authored in clip completion."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After correcting armature parenting in the first export, re-exported revision 14 without warnings and reran source/runtime parity and actual Inspector checks. Reopened the delivered hash 7cdddfdfccdd in the shared Inspector and checked each clip, Resolve terminal invisibility and Rest Pose reset. Reviewed the final action/extreme, phone and exposed-joint sheets after the automated pass. No further art or motion correction was required. Test-harness timing fixes wait for rendered frames and round range-input times; they do not change the asset."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_linter/v01/validation/animation-contact-sheet.png",
+      "sha256": "3009075c2006874cc23bf9d8d467ab29c5284c1f3cf53baf6d25ad151f89fdaf",
+      "view": "Six clips: start, quarter, midpoint and exact end",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_linter/v01/validation/animation-motion-extremes.png",
+      "sha256": "2713f3ceff8f7625ca0025d46808cef049152824a5b65cdd00ef9120a5720f6e",
+      "view": "Six clips: labeled start, anticipation/action extremes, recovery and end at 24 fps",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_linter/v01/validation/animation-joints-phone.png",
+      "sha256": "6ee781ce798ac8c1a8e11da05dd257a23ee02567c119f3b602644c3ff755f4da",
+      "view": "Side and underside maximum recoil; phone Work and invisible Resolve end",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_linter/v01/validation/animation-phone-clips.png",
+      "sha256": "9e859deefc2209a3364e97911d5b7ffb66c1cff31aba4ce6a31d80f72e8cd9a1",
+      "view": "All six clips at phone width with ground and shadows",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_linter/v01/validation/animation/review.json",
+      "sha256": "ee3ab222f4b8f80b2bff56952f7ca9a62e5416675636690a33e58bfac32a0203",
+      "view": "Runtime parity, 97 poses per clip, playback/reset/effect audits and capture index",
+      "mode": "audit"
+    },
+    {
+      "path": "blender/towers/copilot_linter/v01/validation/animation_source.json",
+      "sha256": "97fc4709d246231918ad72bff7ff0cf6dd3f8a503edb9b0ba120b670b6032a92",
+      "view": "Editable source parity, anchors, rig and clearances",
+      "mode": "audit"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/digital-resolve.js",
+      "sha256": "98f1aa5265c1e9d18ea15c5fa65d453dbceecb7b84e31c7d942b1f225c5289c5"
+    },
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User accepted the refined static model and explicitly authorized animation: “looks good, make the animations”. Acceptance of revision 14 animation is not yet claimed."
+  },
+  "limitations": [
+    "Place/Resolve cube assembly and disintegration require the shared createLifecycleEffect renderer; a plain GLB player only shows compatible full-size pose tracks.",
+    "Move is stationary-root hover; simulation supplies travel/facing. Shooter actions are presentation only, with muzzle anchors supplied for later integration."
+  ]
+}

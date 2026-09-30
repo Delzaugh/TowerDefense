@@ -1,0 +1,483 @@
+{
+  "passed": true,
+  "revision": 16,
+  "sha256": "3c16b59dc80a72487fabd93fd92427414c6b85564319946fbdc1e853d3181719",
+  "sourceHash": "3bbc73490bf7a13f61f73086ccd807d2143b09a8c2f643b8c43c3f660dbf7bde",
+  "rendererSha256": "98f1aa5265c1e9d18ea15c5fa65d453dbceecb7b84e31c7d942b1f225c5289c5",
+  "audit": {
+    "restDelta": 7.068674878762948e-8,
+    "normalDelta": 1.1920928955078125e-7,
+    "uvDelta": 0,
+    "anchorDelta": 5.23691153334427e-16,
+    "clips": {
+      "idle": {
+        "duration": 2.5,
+        "loopDelta": 1.6900124017670073e-18,
+        "velocityJump": 0.0000102437708981995,
+        "minimumClearance": 0.14351675258935334,
+        "anchorDelta": 5.087681048627601e-16
+      },
+      "work": {
+        "duration": 2,
+        "loopDelta": 2.220446049250313e-16,
+        "velocityJump": 0.011186940082232866,
+        "minimumClearance": 0.14250009525473442,
+        "anchorDelta": 5.087681048627601e-16
+      },
+      "move": {
+        "duration": 2,
+        "loopDelta": 1.1102230246251565e-16,
+        "velocityJump": 0.020576683425870268,
+        "minimumClearance": 0.09140357960106327,
+        "anchorDelta": 5.23691153334427e-16
+      },
+      "place": {
+        "duration": 1.25,
+        "loopDelta": 0.1472000651160139,
+        "velocityJump": 0.007166763841954804,
+        "minimumClearance": 0.15999998152995168,
+        "anchorDelta": 2.482534153247273e-16
+      },
+      "hit": {
+        "duration": 0.5833333134651184,
+        "loopDelta": 0,
+        "velocityJump": 1.5039568977332385,
+        "minimumClearance": 0.158467100488823,
+        "anchorDelta": 5.087681048627601e-16
+      },
+      "resolve": {
+        "duration": 1.25,
+        "loopDelta": 0.1472000651160139,
+        "velocityJump": 0.007166756793619555,
+        "minimumClearance": 0.15999998152995168,
+        "anchorDelta": 2.482534153247273e-16
+      }
+    },
+    "transitions": {
+      "idle": 0,
+      "work": 0,
+      "move": 0,
+      "place": 0,
+      "hit": 0,
+      "resolve": 0
+    },
+    "fallback": {
+      "type": "digital_blocks",
+      "enabled": true,
+      "clip": "resolve",
+      "timelineProgress": 0.48,
+      "progress": 0.48,
+      "fragments": 0,
+      "leased": 0,
+      "maxFragments": 12,
+      "triangles": 0,
+      "complete": false,
+      "version": 1
+    }
+  },
+  "loops": [
+    {
+      "clip": "idle",
+      "playing": true,
+      "observedTime": 0.2504999010000038
+    },
+    {
+      "clip": "work",
+      "playing": true,
+      "observedTime": 0.20809990127384317
+    },
+    {
+      "clip": "move",
+      "playing": true,
+      "observedTime": 0.19999990125000136
+    }
+  ],
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/rest.png",
+      "sha256": "2c48c3998818e0f7c19f589ae1fb3e3f0485fa53ce7548826ba55d00a691717e",
+      "view": "rest"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/idle-000.png",
+      "sha256": "14aee5572134ae05eb69c94a088170f0aac057b58c0e0f78144b1e5e63d3aa4a",
+      "view": "idle-000",
+      "clip": "idle",
+      "time": 0
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/idle-013.png",
+      "sha256": "ee04286d04bb13f8f7be27b8a74f2802b8b591277be078d2b4d2cfd66a447dd2",
+      "view": "idle-013",
+      "clip": "idle",
+      "time": 0.3125
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/idle-025.png",
+      "sha256": "a49fafcdf5eedc27c8cda24d52691202e677b732107e05cbf33784db7d137d19",
+      "view": "idle-025",
+      "clip": "idle",
+      "time": 0.625
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/idle-050.png",
+      "sha256": "14aee5572134ae05eb69c94a088170f0aac057b58c0e0f78144b1e5e63d3aa4a",
+      "view": "idle-050",
+      "clip": "idle",
+      "time": 1.25
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/idle-071.png",
+      "sha256": "5092e717e8830e2f24c9a1a44f7e326ec04d23647f7a604c465f76f5c5278d06",
+      "view": "idle-071",
+      "clip": "idle",
+      "time": 1.775
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/idle-075.png",
+      "sha256": "0828a5b64ef09da8516562b6a6826fc171161b882ad2ed71b6d98997b29894c4",
+      "view": "idle-075",
+      "clip": "idle",
+      "time": 1.875
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/idle-100.png",
+      "sha256": "14aee5572134ae05eb69c94a088170f0aac057b58c0e0f78144b1e5e63d3aa4a",
+      "view": "idle-100",
+      "clip": "idle",
+      "time": 2.5
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/work-000.png",
+      "sha256": "14aee5572134ae05eb69c94a088170f0aac057b58c0e0f78144b1e5e63d3aa4a",
+      "view": "work-000",
+      "clip": "work",
+      "time": 0
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/work-013.png",
+      "sha256": "90daa6331ff8dfc2c939e934919a10f1b14a44d0cfb28b218b41bbeae7a5ecae",
+      "view": "work-013",
+      "clip": "work",
+      "time": 0.25
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/work-025.png",
+      "sha256": "27006aaaa91ce26ed117230d5bde03f38556a016bb9ffdd55b4fe93a0f364a19",
+      "view": "work-025",
+      "clip": "work",
+      "time": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/work-050.png",
+      "sha256": "4994f224a41037a1d4e560ec7ebfddb66fdbd9a80659a386cdd17e2985cfbb8e",
+      "view": "work-050",
+      "clip": "work",
+      "time": 1
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/work-071.png",
+      "sha256": "f9880c4a0c748b571f1e10ca11df00363d1d332efc068bc47f0a13ff4734e3d7",
+      "view": "work-071",
+      "clip": "work",
+      "time": 1.42
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/work-075.png",
+      "sha256": "8750add8b3dc1f07abbcfd7c25bb253b992cb890b57bdd31e00ef3b75111610d",
+      "view": "work-075",
+      "clip": "work",
+      "time": 1.5
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/work-100.png",
+      "sha256": "724bb05f310c80725a70a77d8c1bd1f9b6c28c1ba0d73986b2566c0ff41975a8",
+      "view": "work-100",
+      "clip": "work",
+      "time": 2
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/move-000.png",
+      "sha256": "14aee5572134ae05eb69c94a088170f0aac057b58c0e0f78144b1e5e63d3aa4a",
+      "view": "move-000",
+      "clip": "move",
+      "time": 0
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/move-013.png",
+      "sha256": "578932e774db358937a0ab3fbc07ef8c7e58d30af3e4f181159ef5080d8b620e",
+      "view": "move-013",
+      "clip": "move",
+      "time": 0.25
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/move-025.png",
+      "sha256": "ceb62cfa923f46113dc50fe1ade780dbee7d4aafbdae98e96eb2b6d1946a42ba",
+      "view": "move-025",
+      "clip": "move",
+      "time": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/move-050.png",
+      "sha256": "410df294f3c423e04df7669b359c2533cd7c22d02f537146a40382c363245e19",
+      "view": "move-050",
+      "clip": "move",
+      "time": 1
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/move-071.png",
+      "sha256": "5dd61b90c97c94cdfee9764622ac54f093734f27df114755970d4fd423ee9929",
+      "view": "move-071",
+      "clip": "move",
+      "time": 1.42
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/move-075.png",
+      "sha256": "e4edd8554e70e03808d6c78d5d40ca6cdf1e112934a1e9197c1deaac49fdc73d",
+      "view": "move-075",
+      "clip": "move",
+      "time": 1.5
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/move-100.png",
+      "sha256": "14aee5572134ae05eb69c94a088170f0aac057b58c0e0f78144b1e5e63d3aa4a",
+      "view": "move-100",
+      "clip": "move",
+      "time": 2
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/place-000.png",
+      "sha256": "8385037ffdfd8b02bb0718fd215cf435d2030fb08872f1ac3a8beea6d29b45e1",
+      "view": "place-000",
+      "clip": "place",
+      "time": 0
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/place-013.png",
+      "sha256": "1417303a27dc2365bd14c9ce1cd8fcafb8cc8369a245cf142b8c233ec8104392",
+      "view": "place-013",
+      "clip": "place",
+      "time": 0.15625
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/place-025.png",
+      "sha256": "3df7ba7aaf397a7b212effb56005451fd5f5cdd7654f3375bb7271b8da82a20f",
+      "view": "place-025",
+      "clip": "place",
+      "time": 0.3125
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/place-050.png",
+      "sha256": "b365e8b1bffa6cb3d80263e61c9decf81b908fedca00d27b55e028457b4b28bc",
+      "view": "place-050",
+      "clip": "place",
+      "time": 0.625
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/place-071.png",
+      "sha256": "8475e52c53e5a9cfb88412674c656831035af946cb0b019564f40be1fa69c04d",
+      "view": "place-071",
+      "clip": "place",
+      "time": 0.8875
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/place-075.png",
+      "sha256": "a28ddd0326b82148bc902d38ff9f9158a215893b5dad685951eda5a2d6b4ba7d",
+      "view": "place-075",
+      "clip": "place",
+      "time": 0.9375
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/place-100.png",
+      "sha256": "14aee5572134ae05eb69c94a088170f0aac057b58c0e0f78144b1e5e63d3aa4a",
+      "view": "place-100",
+      "clip": "place",
+      "time": 1.25
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/hit-000.png",
+      "sha256": "14aee5572134ae05eb69c94a088170f0aac057b58c0e0f78144b1e5e63d3aa4a",
+      "view": "hit-000",
+      "clip": "hit",
+      "time": 0
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/hit-013.png",
+      "sha256": "d4edad31beb4d7a20acc9830ef0413090505f31c6870ff24a97c3242ab254b36",
+      "view": "hit-013",
+      "clip": "hit",
+      "time": 0.0729166641831398
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/hit-025.png",
+      "sha256": "884a629e4cc4b4605fde832ce995611b627e045077434ce7c2cea2f6f39cc268",
+      "view": "hit-025",
+      "clip": "hit",
+      "time": 0.1458333283662796
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/hit-050.png",
+      "sha256": "c4ce1a1dc4d2b71848a013c81b290129e21aad2b98529020e3ee9195a358f35f",
+      "view": "hit-050",
+      "clip": "hit",
+      "time": 0.2916666567325592
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/hit-071.png",
+      "sha256": "a53f23e411099245ddc509fa49f6c937a610e791f5a21744aef5185a2071285d",
+      "view": "hit-071",
+      "clip": "hit",
+      "time": 0.41416665256023405
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/hit-075.png",
+      "sha256": "e13a585d2a1eefa738c0308297afd00f93f8d049567f902c84cf8067515efe23",
+      "view": "hit-075",
+      "clip": "hit",
+      "time": 0.4374999850988388
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/hit-100.png",
+      "sha256": "b9cb027bb161feddf9f6020e6a469c6ad4281b84ea6efe8b48bb3b9373949e27",
+      "view": "hit-100",
+      "clip": "hit",
+      "time": 0.5833333134651184
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/resolve-000.png",
+      "sha256": "14aee5572134ae05eb69c94a088170f0aac057b58c0e0f78144b1e5e63d3aa4a",
+      "view": "resolve-000",
+      "clip": "resolve",
+      "time": 0
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/resolve-013.png",
+      "sha256": "85cea43963d9315dda78999a120c65c50cefd9149692c2d0df11a26841060ba5",
+      "view": "resolve-013",
+      "clip": "resolve",
+      "time": 0.15625
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/resolve-025.png",
+      "sha256": "d41ef4717a871c59097dd1258b9a41a792a924188e0d8360ad9ad35f929c141f",
+      "view": "resolve-025",
+      "clip": "resolve",
+      "time": 0.3125
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/resolve-050.png",
+      "sha256": "b365e8b1bffa6cb3d80263e61c9decf81b908fedca00d27b55e028457b4b28bc",
+      "view": "resolve-050",
+      "clip": "resolve",
+      "time": 0.625
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/resolve-071.png",
+      "sha256": "60817f4aa3f4395248e0707e74bed511fec5b9158afbae5e0902bafc6879f678",
+      "view": "resolve-071",
+      "clip": "resolve",
+      "time": 0.8875
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/resolve-075.png",
+      "sha256": "79030b9efaaa805a91f8ee1760e4bd7976f5014cd4e2eacfd41d05906cbe6e9e",
+      "view": "resolve-075",
+      "clip": "resolve",
+      "time": 0.9375
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/resolve-100.png",
+      "sha256": "8385037ffdfd8b02bb0718fd215cf435d2030fb08872f1ac3a8beea6d29b45e1",
+      "view": "resolve-100",
+      "clip": "resolve",
+      "time": 1.25
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/scanner-side-max.png",
+      "sha256": "0c9238d453bd84d17ea9697666e69090935c8139dc33f42e12fb08203cd7d556",
+      "view": "scanner-side-max",
+      "clip": "work",
+      "time": 0.5
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/scanner-side-opposite.png",
+      "sha256": "f612fd80a69d963b5f7a9c40f20b08f4aa9409fb7fa9653e1da1a89321d9660f",
+      "view": "scanner-side-opposite",
+      "clip": "work",
+      "time": 1.5
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/place-ready.png",
+      "sha256": "14aee5572134ae05eb69c94a088170f0aac057b58c0e0f78144b1e5e63d3aa4a",
+      "view": "place-ready"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/idle-ready.png",
+      "sha256": "14aee5572134ae05eb69c94a088170f0aac057b58c0e0f78144b1e5e63d3aa4a",
+      "view": "idle-ready"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/rest-reset.png",
+      "sha256": "2c48c3998818e0f7c19f589ae1fb3e3f0485fa53ce7548826ba55d00a691717e",
+      "view": "rest-reset"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/resolve-repeat-a.png",
+      "sha256": "dcbdc8c799953ff0921ca69d69220f896cc95ab42ade005cf21974ba1372d95c",
+      "view": "resolve-repeat-a"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/resolve-repeat-b.png",
+      "sha256": "dcbdc8c799953ff0921ca69d69220f896cc95ab42ade005cf21974ba1372d95c",
+      "view": "resolve-repeat-b"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/phone-idle.png",
+      "sha256": "32b495154a1f7d9e6fcfdf3a8e0c939eafc6a7e57f70fb400675a8b5ac708fa2",
+      "view": "phone-idle",
+      "clip": "idle",
+      "time": 1.2
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/phone-work.png",
+      "sha256": "43e1762ac3f20afb8356fa842f6be7c07a63a3270a6264e3f7a80166ef492dce",
+      "view": "phone-work",
+      "clip": "work",
+      "time": 0.96
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/phone-move.png",
+      "sha256": "542eac46449d357d85b28b648eb0c88e3c08c2fa9a0b121f4b69ec2ce1293068",
+      "view": "phone-move",
+      "clip": "move",
+      "time": 0.96
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/phone-place.png",
+      "sha256": "6ccf921a5711a36f6c3535a577933c777b8ea3c229c61ca2cb2f37d6ff6a95f6",
+      "view": "phone-place",
+      "clip": "place",
+      "time": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/phone-hit.png",
+      "sha256": "dcc54e791e659c68489a38fea1af7339b1063fe6dd8570d5853c81d8fd4da101",
+      "view": "phone-hit",
+      "clip": "hit",
+      "time": 0.11666666269302368
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/phone-resolve.png",
+      "sha256": "ca11d55f80fc089e24d627245d1d19b019a669dc13a59ec376bfdcb352a6c753",
+      "view": "phone-resolve",
+      "clip": "resolve",
+      "time": 0.6
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/animation/phone-resolve-end.png",
+      "sha256": "43d3e8bc4960fd0a79f72e51e417f783f9692660bc30021a84cb9bed40d901a3",
+      "view": "phone-resolve-end"
+    }
+  ],
+  "errors": []
+}

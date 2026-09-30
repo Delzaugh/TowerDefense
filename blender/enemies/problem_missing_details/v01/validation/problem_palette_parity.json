@@ -1,0 +1,15 @@
+{
+  "id": "problem_missing_details",
+  "revision": 13,
+  "sha256": "6b3e267075d1014c018ed681362670af86c5412667d3a2828777a15e54c49c6a",
+  "uniqueBaseColors": 7,
+  "parity": {
+    "passed": true,
+    "vertices": 2730,
+    "meshes": 1,
+    "materials": 1,
+    "oldBytes": 248028,
+    "newBytes": 248024,
+    "checks": "Exact exported topology, positions, normals, skinning, old UV channels, morph targets, rig, anchors, clips, and material/emission parity; base-colour storage only."
+  }
+}

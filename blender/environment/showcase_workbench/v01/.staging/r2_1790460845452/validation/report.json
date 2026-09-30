@@ -1,0 +1,41 @@
+{
+  "asset": "showcase_workbench",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "3c8b719ccbcc8c0071aba20d548f0940d4373ee08dbc8421bb6a3761541c6af3",
+  "checkedAt": "2026-09-26T22:14:08.951Z",
+  "errors": [
+    "Unapplied mesh transform: preview_plinth",
+    "Unapplied mesh transform: room_shell",
+    "Rest ground contact is -7.5"
+  ],
+  "warnings": [],
+  "triangles": 452,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    18.700000762939453,
+    14.445000171661377,
+    6.900000214576721
+  ],
+  "bounds": [
+    [
+      -9.350000381469727,
+      -7.5,
+      -6.900000207126141
+    ],
+    [
+      9.350000381469727,
+      6.945000171661377,
+      7.450580596923828e-9
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": false,
+  "sourceHash": "03cea4ad1ff104ad824a766d68c1173f2405c7dcc68adb78d7108cbe989728a3",
+  "source": "blender/environment/showcase_workbench/v01/showcase_workbench_v01.blend",
+  "runtime": "assets/runtime/environment/showcase_workbench_v01.glb"
+}

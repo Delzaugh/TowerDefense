@@ -1,0 +1,2 @@
+import base from '../../game/playwright.config';
+export default { ...base, testDir: '../../game/tests/e2e', outputDir: './final', use: { ...base.use, baseURL: 'http://127.0.0.1:5187' }, webServer: { cwd: 'C:/Users/jonas/Documents/ChatGPT/Tower/game', command: 'npm run preview -- --outDir ../artifacts/story-polish-20260930/build --port 5187', url: 'http://127.0.0.1:5187', reuseExistingServer: false } };

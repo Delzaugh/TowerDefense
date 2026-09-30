@@ -37,3 +37,21 @@ Guarded delivery and expanded geometry validation passed: no housing/punctuation
 ## Palette texture migration — revision 10 (2026-09-17)
 
 User-authorized texture-preferred alignment. Converted the then-current authoritative source to a packed 32×4 px palette (5 used colour roles). Opaque flat role colours suit texture editing; no vertex-colour exception was needed. Preserved geometry, existing UVs, rig, anchors, morphs, clips, material response and auxiliary emission data. Exact runtime parity passed; maximum rendered channel difference was 2/255. Before/after, reverse, clip and phone-scale views were personally reviewed. Evidence: `validation/palette_migration_r10/`. Original source/runtime retained in `revisions/r9_before_r10`. Later artistic refinements remain separate. Future guarded rebuilds retain texture delivery; ordinary exports use the packed Blender image.
+
+## Portal-free Glitch breach — revision 11 (2026-09-24)
+
+The user approved the enemy category default and authorized its rollout after the Bug reference. Revision 10 source and runtime were retained as `before_glitch_breach`. Added a 1.25-second `spawn` and replaced only the shrinking `resolve` with a full-size rigid-knot pose. The shared presenter supplies the jagged body reveal, erase sweep and horizontal streaks; no Spawn portal is created. A small whole-knot registration jitter settles to the existing ready stance, and Resolve leans modestly while keeping the badge forward. The six chaotic strands and mounted punctuation do not deform relative to each other. Idle, Move, Hit, rest art, UVs, normals, packed palette, rig and anchors retain exact exported parity. The asset-local recipe now reapplies the clips and root metadata on a guarded rebuild.
+
+Five streaks plus sweep yield a conservative combined ceiling of 2,496 / 2,500 triangles. Guarded export and actual renderer checks passed; minimum sampled clearance is -0.00110 m within the 0.002 m contact tolerance. Source is saved with muted NLA, no active action and rest bone. Inspected close and phone Spawn/Resolve frames, then rechecked terminal ready and invisible frames. Evidence and hash-bound author review: `validation/lifecycle/` and `validation/visual_review.json`. The complete effect requires `tools/asset-presentation/lifecycle.js`; the GLB alone carries the pose tracks. Artistic acceptance of this new revision remains pending.
+
+Source SHA-256: `828fd49cefd6cdeeee7148b4d3c446e5dc06ca1c83565c3e9bbc9927c467b541`. Runtime SHA-256: `fdb8a02e10ed82124d56db3a2e91b6c3749606415837b9b9617ed1372a13e029`.
+
+## Shared Problems palette — revision 12 (2026-09-27)
+
+User direction: preserve character identities while unifying neutrals/accents, then trial a maximum of eight distinct base colours per Problem. Only punctuation ink changes to family navy; lime/teal weave, orange badge, supporting boss and irregular crossings remain intact and legible. This supersedes earlier authoring palette values, while preserving explicit shape and animation decisions. The delivered palette uses 5 distinct values; semantic roles stay independently editable.
+
+Shared definitions and role bindings: docs/design/Problems_Palette.json. Source packed base image and manifest updated together; ordinary guarded export passed. Prior source/GLB retained under the before_problem_palette milestone. Exact parity and actual Inspector role checks pass (validation/problem_palette_parity.json); final close/reverse and phone Rest/Move evidence personally inspected with a second author review. Geometry, UVs, rig, clips and emission are unchanged. No atlas-size, draw-call or FPS reduction is claimed. Artistic acceptance remains pending. Current source/runtime hashes are bound in validation/visual_review.json.
+
+## Palette acceptance and cleanup — 2026-09-27
+
+User said "looks good" and requested deleting test/sample files and checking alignment. Recorded acceptance of the final displayed palette for revision 12; source 308146e107ab27756f35eadefa99cfd90320cb7eae1aafaa9b363cf33975d1dc, runtime 4d6eae17c8a59c916f616666d34ea6a10e19ad9c74ca54cc2264be91edbf1a04. Read-only Blender packed-pixel audit and fresh guarded runtime validation pass. Source, recipe, production GLB, current validation evidence and named rollback milestones are retained; disposable staging exports are removed.

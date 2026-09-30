@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_architect",
+  "version": "v01",
+  "revision": 19,
+  "sha256": "0a922daf548437b763e58a89dd8d604df9f26b112fa97aae07720955486b91f9",
+  "sourceHash": "9f8427609defc8c9c6b398f299f06def6254604b1e4bd63dd5fd0b2fc015441b",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-26T23:59:02.599Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "User explicitly rejected the Pavilion direction as no longer reflecting an application architect. Re-imagination follows reimagination_brief.md and the generated Systems Architect volume reference: inclined planning desk, narrow friendly bezel, tapered rounded body, staggered plans and fitted roll. Generic concept blocks adapted into connected application window, service component and database, putting software structure on the primary game-camera surface. Original Pavilion forms intentionally superseded; palette and limb-free Copilot identity retained."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Inspected final front/side/isometric comparison, close oblique, opposite side, rear and underside. Canopy frame and inset share fitted boundaries; nodes have physical seats; roll has a visible bracket; bezel connects to a recessed housing. Repaired housing/frame coplanar interference by seating it inside the frame. Reduced bevel width on thin roll end disks. Final audit has zero degenerate triangles; 2730 triangles, 2 meshes/materials, one packed palette. Runtime validation and console checks pass."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "At phone/game view, three distinct raised application/service/data forms and broad connecting route survive clearly. Face remains friendly and subordinate to the planning function. Replaced H-like service mark with component badge and dark muzzle-like roll bore with visible paper spiral. At the smallest test the connections and node silhouettes carry the role; detailed port/window marks and spiral are secondary. Strongest software-role reading is from the intended elevated isometric camera."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model-only re-imagination. Existing animation deferral retained; no placeholder clips."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Reviewed final r19 after fixing ambiguous symbols, adding a connected face housing, then repairing its coincident rim and thin roll-end bevels. Close oblique/side/underside no longer show striped overlaps. Rear spiral faces outward. Phone/small retain the connected diagram and compact friendly face. Primary blockout r16 was examined in front/side/iso before symbols were authored."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/reimagination_comparison.png",
+      "sha256": "b5758dd6b0f2e7e595d23ba9ef76b02ee8ff5655b54551df90f82d9c165f79d8",
+      "view": "front/side/isometric versus rejected Pavilion",
+      "mode": "comparison"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/close_oblique.png",
+      "sha256": "9fbaa718cbf3574f9657cf6e10939b768751c21218deff4ece80165cc7cae7e4",
+      "view": "close oblique",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/left.png",
+      "sha256": "b15e402e3826583f24eaa94ef087182061a9c3f7077c57248cfefda16013124f",
+      "view": "opposite side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/rear.png",
+      "sha256": "02c3d52e599344bbdfe3bbe269d484c9646eba3126c442216792144c6256e9af",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/bottom.png",
+      "sha256": "374d251105997a8f031af41a6eafab2a4dfa6324c1a9b51f10ac1be584c36bcb",
+      "view": "underside",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/phone.png",
+      "sha256": "076f6779be0920776b79978d24492f1d264dd5b5891200a19740dae5e3e7bbcf",
+      "view": "phone game camera",
+      "mode": "gameplay"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/small.png",
+      "sha256": "5dd765a5d1cc6fd4d28679bf3c5a5e9aabc0d04920b449ed4cfee579aad6fef8",
+      "view": "small game camera",
+      "mode": "gameplay"
+    }
+  ],
+  "userAcceptance": {
+    "status": "rejected",
+    "note": "User dislikes top/fins and again identifies the actual body as vertically flat. Supersedes prior self-review."
+  },
+  "limitations": [
+    "Role reads most strongly from the intended elevated game camera; rear plan layers alone are less specific.",
+    "Fine component marks and paper spiral become secondary at tiny screen size.",
+    "Animation remains deferred."
+  ]
+}

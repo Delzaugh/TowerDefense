@@ -1,0 +1,2006 @@
+{
+  "version": 1,
+  "runId": "story-polish-final-20260930-bands",
+  "createdAt": "2026-09-30T17:06:10.269Z",
+  "immutableBuild": {
+    "directory": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\build",
+    "pinnedHashesMatch": true,
+    "files": [
+      {
+        "name": "assets/HomeScreen-BzHDdpPm.js",
+        "bytes": 46049,
+        "sha256": "151831df53ae07d43b0c7e92798b66b6da5e15fe1cd27c4091c064a07df34e68"
+      },
+      {
+        "name": "assets/HomeScreen-CkcQzMpu.css",
+        "bytes": 24249,
+        "sha256": "63843b0c47f18709508c951e25ccfdfbd404b3b9a1ed3d05c6372641376a5f53"
+      },
+      {
+        "name": "assets/LabScreen-Ci-qQKet.css",
+        "bytes": 12102,
+        "sha256": "5a2e3a8e39ce346820dd491a19646e558c7b58b47968c39a72c30f1500f29145"
+      },
+      {
+        "name": "assets/LabScreen-RUcfnLIR.js",
+        "bytes": 172426,
+        "sha256": "1f1d18e51dc7c5821917f1aaab398fd596231458de16a16a3d2a1f587a9ddfb8"
+      },
+      {
+        "name": "assets/PauseIcon-DsrsCFW_.js",
+        "bytes": 647,
+        "sha256": "1bebae46f7a43483a280b86efa1587b91e8f20825234eb3512565703b0861d20"
+      },
+      {
+        "name": "assets/StressScreen-CR9Olqck.css",
+        "bytes": 2543,
+        "sha256": "0878d328e99ac0de43ea5121efc14dd45599a0ec88c171d9ce35a1dd71a49442"
+      },
+      {
+        "name": "assets/StressScreen-DF8rYKBk.js",
+        "bytes": 16629,
+        "sha256": "f8cf8a8f3b12a9fd72f3b4bd5a8eca286f1d13048893ed9ed3b39b57d2441744"
+      },
+      {
+        "name": "assets/SyncIcon-CAJcEQxb.js",
+        "bytes": 2514,
+        "sha256": "4b460a5ce8a876b5adcc71afe57191120e052733c7b4fceda54485aa32b815d2"
+      },
+      {
+        "name": "assets/TowerShowcase-DI9wJ4xo.js",
+        "bytes": 36961,
+        "sha256": "452e149da4b6db2df394c20f91927cf984d1f7a5d230fbba1495e69d5a69c44d"
+      },
+      {
+        "name": "assets/_tower-asset_copilot_base@v02-Df4IRpTe.js",
+        "bytes": 742103,
+        "sha256": "0c9eb42b84748fcfc72191a76ad1a501123721b7781d07503bd2c4a9741a9f05"
+      },
+      {
+        "name": "assets/_tower-asset_copilot_developer@v01-Dh6ieR2Q.js",
+        "bytes": 626,
+        "sha256": "33455427fba690d4db0a4399bbc4aa054655fdb4c15bb5238f2d4b21bb248733"
+      },
+      {
+        "name": "assets/_tower-asset_copilot_octocat_classic_lowpoly@v01-l_IoA87G.js",
+        "bytes": 856,
+        "sha256": "9169fca337b07a192bac65a72d80d0490d87524de85044556e0477b9294b05d0"
+      },
+      {
+        "name": "assets/base-DroUYIP2.png",
+        "bytes": 27228,
+        "sha256": "7a839f4643f45924d234ba27968482ffe768b46cd64bc97c910c5a58a2b73817"
+      },
+      {
+        "name": "assets/commit-halo-DSBviUEb.png",
+        "bytes": 9746,
+        "sha256": "26474c356110831f33aae24a288e38e8709cb31f067888bed9e7b7bad57315d4"
+      },
+      {
+        "name": "assets/createCampusScene-BFUYI57_.js",
+        "bytes": 54772,
+        "sha256": "45e93362c8e7e4a3bc411023981a27693cce06d59bf938a569cf0617d49d42ea"
+      },
+      {
+        "name": "assets/createStoryScene-CkKJU8FC.js",
+        "bytes": 9704,
+        "sha256": "104eecccf55b5450ab1eba3b8c98af065892ef25912632b1f702a4526b702f2d"
+      },
+      {
+        "name": "assets/createTowerShowcaseScene-7MA0dlxt.js",
+        "bytes": 16298,
+        "sha256": "b4120d1b57e1b901f258551944c8c1c1c41d4960331beb5c6bda232a8a559a3e"
+      },
+      {
+        "name": "assets/developer-CyEI2mgl.png",
+        "bytes": 28606,
+        "sha256": "556dd4cd4692828903c4415b83a0d56d83d87fb79739eee51912b74753539bcb"
+      },
+      {
+        "name": "assets/digital-resolve-Dp8pdyk3.js",
+        "bytes": 8695,
+        "sha256": "95c7a58cdc04d178eeb3bd1f353035b73b74abdfad4f81e639d436f1472eca9d"
+      },
+      {
+        "name": "assets/index-BF59q89j.js",
+        "bytes": 252033,
+        "sha256": "0a3e42acc140b33cec5f8ffc19c34e3e2710465435bb5f5523a1e35187ad9743"
+      },
+      {
+        "name": "assets/index-BtVv7g7I.css",
+        "bytes": 15428,
+        "sha256": "9b50da2c446a330a2569823dac7a30be033db2e1d7aadd88d2ff99016cb78711"
+      },
+      {
+        "name": "assets/linter-CId7IPyX.png",
+        "bytes": 18857,
+        "sha256": "59fbe7c1b5cfc0a18a5dc8e97534934328dcf0b42f9357d21d9fddef268bfc32"
+      },
+      {
+        "name": "assets/loadModel-BXhGEwAl.js",
+        "bytes": 1038,
+        "sha256": "4c9f31c4e88a8283db1c76a71e83a5d465d2dda9a3c7faf329abe55bb646430f"
+      },
+      {
+        "name": "assets/mona-sans-latin-ext-wght-normal-BqSk0Z3x.woff2",
+        "bytes": 15524,
+        "sha256": "5adec652263260d219807b036bca9fe94ab6dc2ba6d30c0d45dc6a955dac270e"
+      },
+      {
+        "name": "assets/mona-sans-latin-wght-normal-Pz49MTQZ.woff2",
+        "bytes": 39788,
+        "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844"
+      },
+      {
+        "name": "assets/mona-sans-vietnamese-wght-normal-DsUdksa4.woff2",
+        "bytes": 7152,
+        "sha256": "933a526b6c42ba27afe0de46e25be7170c25768bfbf833448e730e9de90f5fc7"
+      },
+      {
+        "name": "assets/runtime/enemies/problem_bug_v01.31c00f89be05ed76.glb",
+        "bytes": 383408,
+        "sha256": "31c00f89be05ed76157bbaac3d8922c5fd44db652fba2c5345379044ba62074b"
+      },
+      {
+        "name": "assets/runtime/enemies/problem_dead_code_v01.4f1ba014aad4d262.glb",
+        "bytes": 115316,
+        "sha256": "4f1ba014aad4d26238d25336ee915211a36ddb962cfc6c862d5c7e6cb13d38f1"
+      },
+      {
+        "name": "assets/runtime/enemies/problem_lag_spike_v01.57b50be10be8426b.glb",
+        "bytes": 268616,
+        "sha256": "57b50be10be8426bf8639494d49e339d03a9ca9809124285bd998f4b99e12f89"
+      },
+      {
+        "name": "assets/runtime/enemies/problem_vague_spec_v01.5b437567df99096c.glb",
+        "bytes": 210120,
+        "sha256": "5b437567df99096c2ca1b63ee4913bb1604ee4a268d7e11a7092eb851d433b79"
+      },
+      {
+        "name": "assets/runtime/environment/campus_base_hex_v01.ed7634eace91de76.glb",
+        "bytes": 120552,
+        "sha256": "ed7634eace91de76dd82c5c47888adecd0575cb2c529955907826c0a61dcf224"
+      },
+      {
+        "name": "assets/runtime/environment/campus_bush_round_v01.0bd077b45c34d946.glb",
+        "bytes": 27404,
+        "sha256": "0bd077b45c34d94691f10f4d773bc64e42d65aba4c888e75f3fe307038ad4866"
+      },
+      {
+        "name": "assets/runtime/environment/campus_cafe_table_v01.2eedc15aae3fe861.glb",
+        "bytes": 82424,
+        "sha256": "2eedc15aae3fe86108c55eed3ceb1b7fcffb1619c39a0104ca65dbe42ebaf3ac"
+      },
+      {
+        "name": "assets/runtime/environment/campus_canyon_decor_v01.cccf5a551b86dd1d.glb",
+        "bytes": 188232,
+        "sha256": "cccf5a551b86dd1d91d46e409e8901ddbdfb5b9342708e0e7df6325617054b22"
+      },
+      {
+        "name": "assets/runtime/environment/campus_cave_v01.c62e942e9ba7eddd.glb",
+        "bytes": 15904,
+        "sha256": "c62e942e9ba7eddde3f04a5b0e51b863cda70052c3a110c0ec72868b071ac17b"
+      },
+      {
+        "name": "assets/runtime/environment/campus_civic_decor_v01.d49ff842b368a452.glb",
+        "bytes": 140792,
+        "sha256": "d49ff842b368a4520a6258acd9a107a77e2ff4927728f6f94e0843593c3b4579"
+      },
+      {
+        "name": "assets/runtime/environment/campus_code_sculpture_v01.0f0336c0c7686dec.glb",
+        "bytes": 146768,
+        "sha256": "0f0336c0c7686dec62a91b621f28e6d87f9a794b2c394e977eb43269d03fe5c3"
+      },
+      {
+        "name": "assets/runtime/environment/campus_coffee_kiosk_v01.2390263498d8f5ed.glb",
+        "bytes": 211784,
+        "sha256": "2390263498d8f5ed264967a4c9c16938ea83882c4e431feb0195de7b77e7d633"
+      },
+      {
+        "name": "assets/runtime/environment/campus_construction_decor_v01.4909198bb6349aad.glb",
+        "bytes": 253324,
+        "sha256": "4909198bb6349aad61a1829f2470400a3ca0864da5a1e4092e141c6c9a603400"
+      },
+      {
+        "name": "assets/runtime/environment/campus_flower_bed_v01.7ad32ff99326d543.glb",
+        "bytes": 334248,
+        "sha256": "7ad32ff99326d5433eb9cefd7491be721ff3052c07fd9b4a9a4b07a574350bb6"
+      },
+      {
+        "name": "assets/runtime/environment/campus_hedge_v01.6ad1ba3fad2ae3e9.glb",
+        "bytes": 66804,
+        "sha256": "6ad1ba3fad2ae3e9a6495302501efa5a876be251aa78c2447113f11e9e0359f8"
+      },
+      {
+        "name": "assets/runtime/environment/campus_lab_v01.a84b6cc360319e43.glb",
+        "bytes": 178696,
+        "sha256": "a84b6cc360319e43252c2a9ed34eb34242e11e57e2af1d68fe387250f14bb27b"
+      },
+      {
+        "name": "assets/runtime/environment/campus_meeting_nook_v01.b1985463d4318ba6.glb",
+        "bytes": 161616,
+        "sha256": "b1985463d4318ba66e9f21ab924e8bbbf13ce5a11ea942a9ba115b598943f8c8"
+      },
+      {
+        "name": "assets/runtime/environment/campus_noticeboard_v01.eabf96f6ed62a822.glb",
+        "bytes": 71244,
+        "sha256": "eabf96f6ed62a822c4a0e7756a4585227b5d72dbb5fd7d2fbbdc5393f2b9719d"
+      },
+      {
+        "name": "assets/runtime/environment/campus_path_bollard_v01.97575728b5686787.glb",
+        "bytes": 15124,
+        "sha256": "97575728b5686787c4c582b4c16a3170ca69adfb468820594e2a27a697c1be4a"
+      },
+      {
+        "name": "assets/runtime/environment/campus_planter_bench_v01.54b3ba98862cd8e5.glb",
+        "bytes": 107284,
+        "sha256": "54b3ba98862cd8e5c98f679c46b6981e5120bcf79cfcf124400f0165b41e79a9"
+      },
+      {
+        "name": "assets/runtime/environment/campus_pond_v01.334156831676b67a.glb",
+        "bytes": 46928,
+        "sha256": "334156831676b67aef9371cd0d8dcfa9cd8ec59ba3ff513aaffed8547cbb6e3d"
+      },
+      {
+        "name": "assets/runtime/environment/campus_solar_v01.a68d42f6124dc70b.glb",
+        "bytes": 65040,
+        "sha256": "a68d42f6124dc70bccb24d74caeed72426abcf13faf47832af3c29aea8761ca7"
+      },
+      {
+        "name": "assets/runtime/environment/campus_tile_canyon_v01.08ef3ebc706f564d.glb",
+        "bytes": 192860,
+        "sha256": "08ef3ebc706f564dab2941646ead845bc9dce8bb3fc2d40bfe38272af27fdcc9"
+      },
+      {
+        "name": "assets/runtime/environment/campus_tile_civic_v01.193a676faee6909b.glb",
+        "bytes": 26252,
+        "sha256": "193a676faee6909b0050bce77f14062e02b002cd174d13f7db1d8a7ce42cb56c"
+      },
+      {
+        "name": "assets/runtime/environment/campus_tile_construction_v01.a790961697b0a911.glb",
+        "bytes": 172696,
+        "sha256": "a790961697b0a911c28d9b2f198523d066abab71e0f99b83ef6a13eeece86d1c"
+      },
+      {
+        "name": "assets/runtime/environment/campus_tile_forest_v01.406367db5895adf0.glb",
+        "bytes": 434412,
+        "sha256": "406367db5895adf0deb0ce0ef41fa2d53883510b88603b88bf7455d4567f1215"
+      },
+      {
+        "name": "assets/runtime/environment/campus_tile_hill_v01.ccc92b083a48356d.glb",
+        "bytes": 226868,
+        "sha256": "ccc92b083a48356da72875b7095dd7e94471a1e06a3c90c62d3f2e3e0e6b7019"
+      },
+      {
+        "name": "assets/runtime/environment/campus_tile_park_v01.6a03a9e1b587d0be.glb",
+        "bytes": 166016,
+        "sha256": "6a03a9e1b587d0bedb7ed1592a65e44ff4ba6bffc3b029e5835cca45dff11f15"
+      },
+      {
+        "name": "assets/runtime/environment/campus_tile_plaza_v01.934519011a73ab91.glb",
+        "bytes": 160180,
+        "sha256": "934519011a73ab91eafabe605cfcb2d4b09026925e1f509839b4188235a5ea45"
+      },
+      {
+        "name": "assets/runtime/environment/campus_tile_utility_v01.6877c24b968ebfae.glb",
+        "bytes": 26836,
+        "sha256": "6877c24b968ebfae224dc88046dd6ed948a681eb54caf727166be28582b39f3b"
+      },
+      {
+        "name": "assets/runtime/environment/campus_tree_autumn_bare_v01.73eef6b6f0be5b8e.glb",
+        "bytes": 10616,
+        "sha256": "73eef6b6f0be5b8eacb8a3fdb0a0642f534d34ee332454f10aa55e981c1b7953"
+      },
+      {
+        "name": "assets/runtime/environment/campus_tree_cluster_v01.d1f5e6658651c141.glb",
+        "bytes": 21508,
+        "sha256": "d1f5e6658651c141ee70a229d47d565dbb5c7b9fe967be04dce8d7276e183c78"
+      },
+      {
+        "name": "assets/runtime/environment/campus_tree_pine_bare_v01.ee806616c3bd1055.glb",
+        "bytes": 11660,
+        "sha256": "ee806616c3bd10556030260bed5e515c91b35ebd7b8144a62d0f900a61e6592e"
+      },
+      {
+        "name": "assets/runtime/environment/campus_tree_round_v01.a34184710614ae09.glb",
+        "bytes": 16404,
+        "sha256": "a34184710614ae098e27a6a25c969844069e90d35335305436172fd0e9bc79d1"
+      },
+      {
+        "name": "assets/runtime/environment/campus_tree_spreading_bare_v01.d02edb11d69d16c1.glb",
+        "bytes": 14836,
+        "sha256": "d02edb11d69d16c1e5c5f04d287fcf119c8beaf772f40510ce489562bdfdf2b4"
+      },
+      {
+        "name": "assets/runtime/environment/campus_tree_tall_v01.92559e9d8ee4a8a8.glb",
+        "bytes": 16456,
+        "sha256": "92559e9d8ee4a8a801f000649aa248adb75b961795ce89f4b4cd8cbbce52b8b3"
+      },
+      {
+        "name": "assets/runtime/environment/campus_utility_decor_v01.2b5eb54a8b9d93dd.glb",
+        "bytes": 256516,
+        "sha256": "2b5eb54a8b9d93ddd2fea7f29540b5bde15c31aa40534a9579d98d0e0ae3712b"
+      },
+      {
+        "name": "assets/runtime/environment/campus_walk_bend_v01.be3f8455b311b73c.glb",
+        "bytes": 30984,
+        "sha256": "be3f8455b311b73c22b2c9958bce0639d9c88d88926a0acf8ae9b457f176eb62"
+      },
+      {
+        "name": "assets/runtime/environment/campus_walk_junction_v01.bceef80569343877.glb",
+        "bytes": 21692,
+        "sha256": "bceef80569343877fc4a8caa39cfc727d42371b881b328fe2181de215f0dd831"
+      },
+      {
+        "name": "assets/runtime/environment/campus_walk_landing_v01.badaae889f43b3ea.glb",
+        "bytes": 20576,
+        "sha256": "badaae889f43b3eaf02fefdaf944e74a30abd012d1ab0d195270a7564ea7f02f"
+      },
+      {
+        "name": "assets/runtime/environment/campus_walk_short_v01.633c3b8ead0d51a4.glb",
+        "bytes": 14352,
+        "sha256": "633c3b8ead0d51a4950268d1b1593c49d0d354f6a922fefe60b02a51e45626b5"
+      },
+      {
+        "name": "assets/runtime/environment/campus_walk_straight_v01.88d5472024dd15bc.glb",
+        "bytes": 14360,
+        "sha256": "88d5472024dd15bc26d208213b1cfdf3c956ac488f69be80054fe5643c2c37ef"
+      },
+      {
+        "name": "assets/runtime/environment/campus_wayfinding_sign_v01.80fe023bbf7ea450.glb",
+        "bytes": 75460,
+        "sha256": "80fe023bbf7ea450c6eec5b58559db280006f5eefdfe456203af8322a5a1a7be"
+      },
+      {
+        "name": "assets/runtime/environment/story_capture_carrier_v01.7c7c4091373e20d1.glb",
+        "bytes": 120656,
+        "sha256": "7c7c4091373e20d1e22a891047b75eea83958e69856fd63c36d354c4225a87b8"
+      },
+      {
+        "name": "assets/runtime/environment/story_courtyard_v01.abd8d9b897df63fe.glb",
+        "bytes": 653024,
+        "sha256": "abd8d9b897df63fed94e46080c715fbbffdb2e29853b9c264c3471778d292f07"
+      },
+      {
+        "name": "assets/runtime/towers/copilot_analyst_v01.503a52de090dfb05.glb",
+        "bytes": 72748,
+        "sha256": "503a52de090dfb05f8e93d408699df9cc85ef2b192db5c8f9a72b232d708ed14"
+      },
+      {
+        "name": "assets/runtime/towers/copilot_base_v02.8d33985ed7557229.glb",
+        "bytes": 152312,
+        "sha256": "8d33985ed755722902537366d318ce6c91de21e8e94c8762ba4c9b33d8c64db0"
+      },
+      {
+        "name": "assets/runtime/towers/copilot_commit_halo_v01.58a9338892df9034.glb",
+        "bytes": 358520,
+        "sha256": "58a9338892df9034089a5ece9389bc692d2ef5a47af3f38e87378630170f83cc"
+      },
+      {
+        "name": "assets/runtime/towers/copilot_developer_v01.9fd5a1b9dc641430.glb",
+        "bytes": 235504,
+        "sha256": "9fd5a1b9dc6414306847da17caa29a15f7fd1e2a956fb1198ded1d06553d9fb8"
+      },
+      {
+        "name": "assets/runtime/towers/copilot_golden_compiler_v01.1d88ddd329b57876.glb",
+        "bytes": 283056,
+        "sha256": "1d88ddd329b57876f2db41e45a40e83df55e2596763f7af819f3a7e88ee8b719"
+      },
+      {
+        "name": "assets/runtime/towers/copilot_linter_v01.661861e7c46c8433.glb",
+        "bytes": 168692,
+        "sha256": "661861e7c46c8433e9bc75f3543cf43674a90e3143756c1ad310e10fe48040a6"
+      },
+      {
+        "name": "assets/runtime/towers/copilot_octocat_classic_lowpoly_v01.43e0de013f4514d1.glb",
+        "bytes": 226692,
+        "sha256": "43e0de013f4514d1be50cc6eba647f4f332a81e57b9035979e7a9b942c0aae53"
+      },
+      {
+        "name": "assets/runtime/towers/copilot_rubber_duck_v01.891e9cd2c45ce448.glb",
+        "bytes": 64508,
+        "sha256": "891e9cd2c45ce4482b6febe369ade2bc5e11801e339730a92c98db9ccb3e18a0"
+      },
+      {
+        "name": "assets/runtime/towers/copilot_security_v01.717eba681251162e.glb",
+        "bytes": 198264,
+        "sha256": "717eba681251162ec79f837bea3c934be45f871e70d3f80528ed31c7ce9c154b"
+      },
+      {
+        "name": "assets/runtime/towers/copilot_tester_v01.d0d0a68c4ee364a6.glb",
+        "bytes": 125836,
+        "sha256": "d0d0a68c4ee364a6c6855622e1536bd98fde9da04a432c3ba95b5462ab1fde65"
+      },
+      {
+        "name": "assets/runtime/work/work_coding_task_v01.527f55a828fae22b.glb",
+        "bytes": 221204,
+        "sha256": "527f55a828fae22bee0b296b382ad63f0667560326d072765a1031777b9fe3a5"
+      },
+      {
+        "name": "assets/security-DvURmbcN.png",
+        "bytes": 29960,
+        "sha256": "566dd60158784999a35eb2da1da58cc367f28c2ca6559b533fb5e0caf86a7e05"
+      },
+      {
+        "name": "assets/senior-developer-BCXXwJ0I.png",
+        "bytes": 10305,
+        "sha256": "2afe06a30e2014250965a4b26b085d049ecbe1d3aa7d575b2e367907fdaad6d0"
+      },
+      {
+        "name": "assets/tester-Cw7uwksu.png",
+        "bytes": 21256,
+        "sha256": "9ea441946f703f0d4838c885b05d15965b31d37f5c3e1139f014e88867db7b71"
+      },
+      {
+        "name": "index.html",
+        "bytes": 3201,
+        "sha256": "e3a3ca057b066cefb953dbe2a49c73a9e93bf6de9beafcf2e2f1c9110b278650"
+      },
+      {
+        "name": "licenses/mona-sans.txt",
+        "bytes": 4564,
+        "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d"
+      },
+      {
+        "name": "licenses/octicons.txt",
+        "bytes": 1068,
+        "sha256": "da259c8bd0de62713ccdcf88910aebca810644f98c2c912bad814fc79ea778df"
+      },
+      {
+        "name": "licenses/three.txt",
+        "bytes": 1081,
+        "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+      },
+      {
+        "name": "performance-build.json",
+        "bytes": 13964,
+        "sha256": "97b8a43e2ba06e7e56c0821405d0ec966e1e66e807f0f395e921115ba2ba4dc2"
+      }
+    ]
+  },
+  "finalArtifacts": {
+    "directory": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\final",
+    "fileCount": 119,
+    "files": [
+      {
+        "name": "canvas-desktop-alarm.json",
+        "bytes": 3461,
+        "sha256": "6a77404673fa38de8e31c2f9bb9dc1b981e44ead2159c73da303c81f08e5f24d"
+      },
+      {
+        "name": "canvas-desktop-alarm.png",
+        "bytes": 474428,
+        "sha256": "8f382b2ef3666de78b237dde650247ef3e8c6444f6ae8b0e072de9137b7b0b2c"
+      },
+      {
+        "name": "canvas-desktop-lock.json",
+        "bytes": 3445,
+        "sha256": "cb6f0e620f9c751ec85faf5e8b5f9d0ebb6ba27855a0ad36e711d61ae111d87a"
+      },
+      {
+        "name": "canvas-desktop-lock.png",
+        "bytes": 512260,
+        "sha256": "12c45e7f3bce4dda0002737fbfc45e8320fe6063e2fd8e71af27c08a0305c0b8"
+      },
+      {
+        "name": "canvas-desktop-tow.json",
+        "bytes": 3441,
+        "sha256": "8fff2b7a98ab0ba4363bb2316cd20d303fffc3774095aeb82f6f44ca5b2eb002"
+      },
+      {
+        "name": "canvas-desktop-tow.png",
+        "bytes": 476959,
+        "sha256": "65e5fd0883efce42749ecb793827267dc22c07ca03899d2b4068a1c53d02cd1c"
+      },
+      {
+        "name": "canvas-mobile-alarm.json",
+        "bytes": 3453,
+        "sha256": "097540f37621ff775ad0c7eee1d1032e9c83aaf85eb01350570825c47980854f"
+      },
+      {
+        "name": "canvas-mobile-alarm.png",
+        "bytes": 215201,
+        "sha256": "d2f0bda5c3a372fb384acb2badd6482efae8185cc1ddd929c0e17f0ab0bba5a5"
+      },
+      {
+        "name": "canvas-mobile-lock.json",
+        "bytes": 3436,
+        "sha256": "7c991e172f7df124e3b4e98129d5fa118b1b4ba199b614b9a09d7fa6fca166b3"
+      },
+      {
+        "name": "canvas-mobile-lock.png",
+        "bytes": 220543,
+        "sha256": "d6303e2cec63835074bc9eeff6d9d2eee8a28cf039283b3cbc72d0324226d547"
+      },
+      {
+        "name": "canvas-mobile-tow.json",
+        "bytes": 3433,
+        "sha256": "456652d19de04bd7b5ddbcc386ffd457eb5e124848cfcab687aff35668afd263"
+      },
+      {
+        "name": "canvas-mobile-tow.png",
+        "bytes": 218112,
+        "sha256": "811f1343b6fa3370dc5dac7a01fbe7a1af3b8d4674d227af71ff2dc338d540f4"
+      },
+      {
+        "name": "contact-creep.html",
+        "bytes": 2531,
+        "sha256": "623836527117fa666baa4dfef20e6435ff66238eef795299f7ee7e6a8a8b38e1"
+      },
+      {
+        "name": "contact-creep.png",
+        "bytes": 586712,
+        "sha256": "f08853f1ce2916af346a8c18c4e54f383a45fcc3f8fecfd150cac1e0c60e5128"
+      },
+      {
+        "name": "contact-haul.html",
+        "bytes": 2249,
+        "sha256": "c4499db843fa8f54517d2f832e4e80944b4fc6b6df0ee93145da3945e067f2f2"
+      },
+      {
+        "name": "contact-haul.png",
+        "bytes": 490993,
+        "sha256": "09a42aeb6c91c38d3edbd3bb39f9a23d19b8e360fae5de9d753668045de15495"
+      },
+      {
+        "name": "contact-lift.html",
+        "bytes": 2247,
+        "sha256": "db2c5ff904acd562f5c035d5f6236bfe75b752a587c82c01a6ea1e2837b19769"
+      },
+      {
+        "name": "contact-lift.png",
+        "bytes": 520694,
+        "sha256": "a6b770d86d8d1da0d8c6583886b8c670ae7cd78d6aee5273eaa9de55fb94d930"
+      },
+      {
+        "name": "pixel-summary.json",
+        "bytes": 24539,
+        "sha256": "d4940f7daeb4d870536db86f932e346e911edf6db402931b4a82fefd6d888fcd"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/attachments/story-motion-metrics-aa5a0bfa078fcac08a1be156cc418fb9e17e3a5b.json",
+        "bytes": 210512,
+        "sha256": "2543a581b62c25ffe1090463bc7a49ca5bbf8d4929026fa6bc53cf195879672d"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-11_33s.png",
+        "bytes": 491207,
+        "sha256": "bf75d2ab9ecc9a1658efba4a989405e86f543ee2a5c4af2b34e8254740e0656f"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-11_67s.png",
+        "bytes": 490798,
+        "sha256": "34356a85c7190c8d1802df29a543534ee1c91decfcc6865c711bc47f40748df0"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-11s.png",
+        "bytes": 490781,
+        "sha256": "ec7bd77178bea27d81b7cd4b9d8a854d71f99681ca1f4fbed66e56f54ba86f89"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-12_33s.png",
+        "bytes": 491280,
+        "sha256": "4f2e78a7fdaa884d84c138c1b768974ac89bb3ad35c941c9364ccee24bb161dd"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-12_67s.png",
+        "bytes": 492254,
+        "sha256": "d97fdf3bcc2c70471a935d83976c35cb66f7458b43da5205119dc0597a6149f7"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-12s.png",
+        "bytes": 491250,
+        "sha256": "90b08f53a852c963f93433476adfe2b94d034ca81cd433e03e6cd9ff85ad4a64"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-13s.png",
+        "bytes": 493153,
+        "sha256": "58f242db4e8050342a0db3b8c744cd8a16576d71e967ffc4c7349bb16d1a8663"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-14_7s.png",
+        "bytes": 490543,
+        "sha256": "40bf98006f726eceadf8d32dd90a63fa13ef33729b68ef6167b65a07ea2858ea"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-19s.png",
+        "bytes": 531835,
+        "sha256": "8473b418b760dcdf00d4b791172885017791ee561d452485ca087bb2a63ee966"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-23_25s.png",
+        "bytes": 531599,
+        "sha256": "d1c5da7b97f6e81af033b1fbdfdf5f111335b24bfd874f30dee4b5b59d8164de"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-23_3s.png",
+        "bytes": 532579,
+        "sha256": "eb1123cb9606a6806ce891166963ecb212eecac62cbcca2802d23bde5bb2dacd"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-23_5s.png",
+        "bytes": 533058,
+        "sha256": "48d3d869f45b164a0b74df7d3d4915538291467db9e357364e4423f0c8f8e905"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-23_75s.png",
+        "bytes": 534381,
+        "sha256": "02ced41eeed9fe9bedec1179432096880b7ac50a1977914d05df0311801ca2a8"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-23s.png",
+        "bytes": 527569,
+        "sha256": "5b372a897eba03aaaa8bcd7210dbef9c6d6aa668fe29122a53e617427032f30c"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-24_25s.png",
+        "bytes": 529675,
+        "sha256": "f53d33ec673a54d3a8628518cbc57b4af411eb4f2e1e0a1f029daabec9141d13"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-24_5s.png",
+        "bytes": 533065,
+        "sha256": "5eb48270fac5913d413f3837a75f3a43d3011517cb90e421ca54eff7f4d6d8d2"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-24_75s.png",
+        "bytes": 515342,
+        "sha256": "fb2244fa0d32b973fec9ed61a4af43011873c4c877348b1fdf2a2bee391b1238"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-24s.png",
+        "bytes": 531856,
+        "sha256": "4dc10bc15d8b15f7209a559cac1323a7ceb391839574051274de09f55a3c2f42"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-25s.png",
+        "bytes": 515714,
+        "sha256": "80542a52341962742ef6eef27edd1ee3e481954b8a1c80ec038558bb65bad227"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-27s.png",
+        "bytes": 521302,
+        "sha256": "c2ce55aaec2832061bf5fcd1860792b4b120ca37ce589b39f136b80fcf9bdb77"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-31_25s.png",
+        "bytes": 497258,
+        "sha256": "c2598cd803b7118ce92aa1e05740193f02e805e6839c69ad3fad5b9a783a3f32"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-31_5s.png",
+        "bytes": 493065,
+        "sha256": "881a8d3f8ba4c604baf165ccd0eabb1cc7e4893a4b14fbd4097bf8d97692e067"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-31_75s.png",
+        "bytes": 494496,
+        "sha256": "9c5fc8f3622266a22b09e13f6f5af1e3a8e1d7b69d39646b8537c36ec93b3b3e"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-31s.png",
+        "bytes": 498687,
+        "sha256": "6b1b0c77ff0d020107f0900664dfebe95dfabe63c0c7c51d5bb6995d36b6b8b1"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-32_25s.png",
+        "bytes": 493763,
+        "sha256": "354128a08aac22d8cd7026a064f01cf0831d77e8780ca28a2f17611efaafc0d5"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-32_5s.png",
+        "bytes": 495900,
+        "sha256": "e0b2b2d9d71370dd96cc8a2b2e86ee17f1f47fa0c8d7b02cfa2f8cf7098c4be7"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-32_75s.png",
+        "bytes": 489654,
+        "sha256": "823246cf33532e40e832fb3c5885255de93290d6daa249a91bc9024a68e8b2ea"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-32s.png",
+        "bytes": 497101,
+        "sha256": "989019a6e55ea752e6d7cb0ae4b9a3e47450a8116b41486063f2d4bafe6a8888"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-33s.png",
+        "bytes": 493322,
+        "sha256": "a4ca91be942a125064c56a549edae649513a92e4ea34312cd475baf9ec81da72"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-37s.png",
+        "bytes": 441035,
+        "sha256": "abc4b3cac6f9c8abb8deacf255f2fb353ed81ffa27f962265d47f0ec791ee982"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-7s.png",
+        "bytes": 490798,
+        "sha256": "7a64e2b1e629b0b6f2e66089b0f61dad316349e3bb3bc1662fa6c9001b3fc166"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-11_33s.png",
+        "bytes": 469255,
+        "sha256": "f628ab4b4e0b02013483303711b80bc59b59e31135065431fdf695314f1937a2"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-11_67s.png",
+        "bytes": 470262,
+        "sha256": "4563ae8af88c33f2960def499349e4f135444dd5e0aca19299dc8486056f1129"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-11s.png",
+        "bytes": 469528,
+        "sha256": "1aadada47c66aa581f1c2e8ae20ca2a582511c0abf1d73526fd0ba899aa0916c"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-12_33s.png",
+        "bytes": 469405,
+        "sha256": "9aff9f8b8a11a088de3607e8d06943b4a20a8f73ce92166355a8542efc474c74"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-12_67s.png",
+        "bytes": 472479,
+        "sha256": "0d73d865e24fc12f2664bd523abbf9334e5469f6ca797bf35ab8506a6ff44701"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-12s.png",
+        "bytes": 470155,
+        "sha256": "c61bd1828bc879616c857aef8781aa47c593657a6eb7063c16e098344aa5fdff"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-13s.png",
+        "bytes": 472653,
+        "sha256": "681f4b2530a58cada6fa283f1da2825168e550cf16b33be05c28e62a5ab699a1"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-14_7s.png",
+        "bytes": 473201,
+        "sha256": "e70aabc6f61d5966e14f5a0b55d5abfc50ae164ab6c7066212da4c39f8a1bc7a"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-19s.png",
+        "bytes": 511015,
+        "sha256": "00c77fe7f2c2b16f0a3b815fcb1848586a9b7e2276ff18efd1f9fb066f984760"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-23_25s.png",
+        "bytes": 513092,
+        "sha256": "104e27616ec6e2e68f7995cc6d95f2082d41b2b52b72ddee79b9279d74befa03"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-23_3s.png",
+        "bytes": 513064,
+        "sha256": "4e9f5dddf833e97c29e62e7f7583d799cab42a0a0b126893a4858fa4ce0629c5"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-23_5s.png",
+        "bytes": 514343,
+        "sha256": "943f71344787c177ebee2bf38a5b5b5b3eb351cc43f13a3d413bc06c6cea143b"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-23_75s.png",
+        "bytes": 512558,
+        "sha256": "760d76fd2663b15aa57e61b71d04e7f70390625ee48f9b9d3e567d228dc7c22b"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-23s.png",
+        "bytes": 512752,
+        "sha256": "0ceec9129e2a47a2259ed19d1d996ed604f20873c80a6c7bcef9ea321f387a3a"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-24_25s.png",
+        "bytes": 512199,
+        "sha256": "9a1c5e2ec5f8c5eac2e8934e5b7b30ca1c5c0b04629aee3bc312504dd8621c7f"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-24_5s.png",
+        "bytes": 513686,
+        "sha256": "7862db1ff4abcd377516fbf782d72cc7766f7536b00cc548391581c0405b32ee"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-24_75s.png",
+        "bytes": 500224,
+        "sha256": "ef02479f4f7255f1205569bdb643a72b7dffaf6c3ea48180d52033c585fafd12"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-24s.png",
+        "bytes": 510284,
+        "sha256": "297dd6da7ad69e7e60da06d29b2c4cfeab6e575747148bab4cc90d62ec4c92f8"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-25s.png",
+        "bytes": 499756,
+        "sha256": "cf883d09eb0b6c8f9975c926e4c581bae569ac8e0ada947d84598f3b833b599b"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-27s.png",
+        "bytes": 500946,
+        "sha256": "c627e865f69d28b07f55f596ff0440ca53fd924e9ab34cd73f2be9f3da9e783f"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-31_25s.png",
+        "bytes": 476831,
+        "sha256": "8824904dcc3cb91f69cd83dbc36fcf4395ab74ea418be5549bd58f2a78ce24ce"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-31_5s.png",
+        "bytes": 475413,
+        "sha256": "ef3270f96fa2836417216a62e0aa0b3fc95967346194680bff3380c9c3a70d0a"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-31_75s.png",
+        "bytes": 479131,
+        "sha256": "97295835b4036c4c7f6d2a618250499308e6d0e1448da63be63360e01a12d8d2"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-31s.png",
+        "bytes": 479394,
+        "sha256": "b673d4c3bd6de0cc65ec89f7e4096b3cb14a9b51a2d158cf6f62f2c850e034c8"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-32_25s.png",
+        "bytes": 476843,
+        "sha256": "121a329bfb7d86d7d1ce5bd962fcf7231362da7433bb03c774d616dd81c0e62a"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-32_5s.png",
+        "bytes": 475129,
+        "sha256": "8a59ef0c3512cfa1be1c70897e739a003999d5ec034d793e8eb7a7dd589f78fe"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-32_75s.png",
+        "bytes": 478018,
+        "sha256": "049377a2f01a5863315e3cb8a83e985ffcbc9f125dbcbf00fb07524b56052366"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-32s.png",
+        "bytes": 478830,
+        "sha256": "77e29c32731a25ae44c2c660f4e5346ddb92ca86058d176ee0e26ec6d5be6539"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-33s.png",
+        "bytes": 479359,
+        "sha256": "9e41b54323cb69ccb42bdfe465c14c4ef96116303c8c71fc45e83bbb5fff8a14"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-37s.png",
+        "bytes": 421259,
+        "sha256": "d7434fa127c34a92ea13cdda3b26cf298b0cef45bc3bd1c66b26bf79bd7fa47a"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-7s.png",
+        "bytes": 471838,
+        "sha256": "0b698eb8795948eff52c0279601eda9693e1dee10d28241297a4d233f0dd1705"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-metrics.json",
+        "bytes": 210512,
+        "sha256": "2543a581b62c25ffe1090463bc7a49ca5bbf8d4929026fa6bc53cf195879672d"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/video.webm",
+        "bytes": 5288657,
+        "sha256": "ff36ddf7ae911a56f0d9fed8048ffbd956976693e598d57b90fb4d9528568a95"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-touch-edge/video.webm",
+        "bytes": 1859,
+        "sha256": "f9d3f2141c2eac42febcabefbaf23a2c0b91e814d8f963b7a0a1e63f2ffbdc1e"
+      },
+      {
+        "name": "story-motion-metrics.json",
+        "bytes": 210512,
+        "sha256": "2543a581b62c25ffe1090463bc7a49ca5bbf8d4929026fa6bc53cf195879672d"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/attachments/story-audience-captures-2ef240c20f6c63f65d5b7907b686d75aedcba354.json",
+        "bytes": 20624,
+        "sha256": "2719058f059591a244b85dd5359e7cfb397ca157dacd490c5af7fbe3046f4f09"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-12s.png",
+        "bytes": 491707,
+        "sha256": "ff29230843015c0024cce8dbffc613458f88c2fecc5950c52ec8bf7100c47c4a"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-14_7s.png",
+        "bytes": 488837,
+        "sha256": "ce62ab7d31fee1eceaa1eb6d1fe274799dcf896302234285ea61cb82e981c62a"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-19s.png",
+        "bytes": 529406,
+        "sha256": "bcd3ad4581cce8e842661e8c75701f97f0e99442c9d43f59c6b42834be84f001"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-22s.png",
+        "bytes": 522186,
+        "sha256": "9b3b61db48eb8138947b309a582462967ce73fff28d3e1c2817eb717ea88cf7e"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-23_3s.png",
+        "bytes": 531939,
+        "sha256": "0a73a51e5eee98fca7e2f53fdbf219db510d6017287eea6e7889ea73462196eb"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-27s.png",
+        "bytes": 521333,
+        "sha256": "6f6d9c403495a19a3928ab9d690a42b447e5a7a65a8c7ad12481d49b432b5b7b"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-32s.png",
+        "bytes": 494886,
+        "sha256": "1cb9d8bf84906309f0ca74ae732338d490f24d39d92c088a71fca27ed5ffd85e"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-37s.png",
+        "bytes": 440421,
+        "sha256": "8b6ee1d3b791b8a07eaa69b8f4eab2f61e3dfb424472e2e6b3441eef09e7e2a4"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-3s.png",
+        "bytes": 474435,
+        "sha256": "3c600a02b2e7371867ec585ca96a715ca74d8dbc66cb663af6a54c6e67cc9e30"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-7s.png",
+        "bytes": 489765,
+        "sha256": "cc84b0ea50bbc50d60a56abd4c7f0c270b55a90cef7d7d160934efb5e6383f22"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-captures.json",
+        "bytes": 20624,
+        "sha256": "2719058f059591a244b85dd5359e7cfb397ca157dacd490c5af7fbe3046f4f09"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-12s.png",
+        "bytes": 470772,
+        "sha256": "ba56a3c4ecc221d1738c11e775a5c545a49a650c8e7d24ca40e9940f1e7e8415"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-14_7s.png",
+        "bytes": 474428,
+        "sha256": "8f382b2ef3666de78b237dde650247ef3e8c6444f6ae8b0e072de9137b7b0b2c"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-19s.png",
+        "bytes": 508731,
+        "sha256": "1ae4bd96369556ba8c4ab0b971bb944e92944542258a342201c42334ddd9f480"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-22s.png",
+        "bytes": 506363,
+        "sha256": "8be2a0975b7c2d8e54a258dea982b41b7aed98a59b4965a6cbcea4bdfae74cdc"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-23_3s.png",
+        "bytes": 512260,
+        "sha256": "12c45e7f3bce4dda0002737fbfc45e8320fe6063e2fd8e71af27c08a0305c0b8"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-27s.png",
+        "bytes": 501071,
+        "sha256": "c1694199bebd7ce2ffaff5e7fb03cf533dafc4e0e96a0019533c5b54e60b34d5"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-32s.png",
+        "bytes": 476959,
+        "sha256": "65e5fd0883efce42749ecb793827267dc22c07ca03899d2b4068a1c53d02cd1c"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-37s.png",
+        "bytes": 420835,
+        "sha256": "74dc723ed4e873dbc9931e8231485e5b7320133f6874c38bfbce3946a542c299"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-3s.png",
+        "bytes": 453302,
+        "sha256": "55793173775a1997f8a5373ac9318d09e469dc999d5127d7295daf348fcce640"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-7s.png",
+        "bytes": 471808,
+        "sha256": "fee3f18a5d7a40b83d701d057074e30eec0b4ed1d776334d13cc0aba98f5fe2d"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/video.webm",
+        "bytes": 802358,
+        "sha256": "2fcdc309e47e8d7ca79180f10fab6733df113313c0fe866ffef708c3da5d850a"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/attachments/story-audience-captures-80a15c6610f6aa0b2bba5765c0c727b9c186215b.json",
+        "bytes": 6449,
+        "sha256": "18887ff447460c3d16866564679b356285649c1ced30865bebbd07b43a38d320"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/story-audience-14_7s.png",
+        "bytes": 226472,
+        "sha256": "d08a020d20e9549754ed62d9e61b3ddd0fc58904b3d0a6786224d79be5919c75"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/story-audience-23_3s.png",
+        "bytes": 236098,
+        "sha256": "fbf374bd52c2e02516c7759a3325138fa1a9aa1d4493f3918091de5da865148c"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/story-audience-32s.png",
+        "bytes": 233445,
+        "sha256": "2da56c65bd76fe26f5384713fbf6a2d87574b1fb5a2349fc2a295143a871f184"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/story-audience-captures.json",
+        "bytes": 6449,
+        "sha256": "18887ff447460c3d16866564679b356285649c1ced30865bebbd07b43a38d320"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/story-canvas-14_7s.png",
+        "bytes": 215201,
+        "sha256": "d2f0bda5c3a372fb384acb2badd6482efae8185cc1ddd929c0e17f0ab0bba5a5"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/story-canvas-23_3s.png",
+        "bytes": 220543,
+        "sha256": "d6303e2cec63835074bc9eeff6d9d2eee8a28cf039283b3cbc72d0324226d547"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/story-canvas-32s.png",
+        "bytes": 218112,
+        "sha256": "811f1343b6fa3370dc5dac7a01fbe7a1af3b8d4674d227af71ff2dc338d540f4"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/video.webm",
+        "bytes": 415135,
+        "sha256": "ad101633b3f4c5316c4dcf75f90ea16cd0b3fee4f464545784a18649da4c6c72"
+      },
+      {
+        "name": "story-video.webm",
+        "bytes": 5288657,
+        "sha256": "ff36ddf7ae911a56f0d9fed8048ffbd956976693e598d57b90fb4d9528568a95"
+      }
+    ]
+  },
+  "cleanRunnerArtifacts": {
+    "directory": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\final-clean",
+    "fileCount": 99,
+    "files": [
+      {
+        "name": ".last-run.json",
+        "bytes": 45,
+        "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/attachments/story-motion-metrics-9392ffa8a1d103077ecae680574bcc0bb8004c85.json",
+        "bytes": 210668,
+        "sha256": "6b8c2151e2283aad83efa4442ab3c84f276fdda120880cd642c3304cd707cea1"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-11_33s.png",
+        "bytes": 490500,
+        "sha256": "92b27d385d4f97ad32f2626adab9e4ce731d7304c5f1805cc5c29fa5b8b21ec8"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-11_67s.png",
+        "bytes": 490183,
+        "sha256": "8192af92a70f279cb66d65e5bc3f123b5fc4f0fa494d6683e89900e854d18c15"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-11s.png",
+        "bytes": 491263,
+        "sha256": "8c8031cfa7fbfa96d4a7d32e5df14acac4da293f1f5eb7ca0cd71f7d383b4979"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-12_33s.png",
+        "bytes": 491502,
+        "sha256": "8d2391d7b7e4093c6e071e5896484654871fecac266bbfe48fe52a4e1046b295"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-12_67s.png",
+        "bytes": 493009,
+        "sha256": "d3b3dc3f2464359e3b78142944289addc1c40807b09a3c96634f0652f77af1be"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-12s.png",
+        "bytes": 491176,
+        "sha256": "000d284712afe0935ae1105af09cf516885b56519e4b871a8f1b14d27d2786b5"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-13s.png",
+        "bytes": 493106,
+        "sha256": "09750b3e4cb93839d4709ca91c70fddf459d3163374adf78b6fb6d6d393e10c9"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-14_7s.png",
+        "bytes": 490902,
+        "sha256": "7198c98e24e52149282c6f7e26a7a3bd94618e66d7aff8e15a8ab50bd2bf935e"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-19s.png",
+        "bytes": 530184,
+        "sha256": "2f00cde544d6146f19d9e908b2af5fb839b61cb5d1f9e88ee03c8dc7981b90dd"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-23_25s.png",
+        "bytes": 531703,
+        "sha256": "7cdffa75f380feeea4e9dd254b31a82f858ef5f217fffdc8525aab90a31fbeb7"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-23_3s.png",
+        "bytes": 532814,
+        "sha256": "6bc4cc76dc53d72f6e2ab7c91753aafc85bf5cf2e21d06131a6fd1d96e2e365a"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-23_5s.png",
+        "bytes": 532420,
+        "sha256": "b4dd4ec0c5689a041f3f49e856cf81bc21b7e757357aa5b38b59cb0258a77172"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-23_75s.png",
+        "bytes": 533427,
+        "sha256": "40cb17b4589d8e9f5c678f8276e04d23a1d099c06aa28be30e25a7da453327ec"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-23s.png",
+        "bytes": 527005,
+        "sha256": "ee237c9a40713fea2e5d11ea7b92f67a6f552d9ecc03e945d6bc8594314506b4"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-24_25s.png",
+        "bytes": 531379,
+        "sha256": "895733c80c993d5d732c7a33c5af616223511161836cc3a6a825c303dc07fd2a"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-24_5s.png",
+        "bytes": 531677,
+        "sha256": "726bf988a8ff9ff994287d8e679ec4c3b8232a00db28a19f77ba3d7ae0992a06"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-24_75s.png",
+        "bytes": 532293,
+        "sha256": "e21b120cda8c083843741d7f8f3784752eed1df0ca67e8246e11670a5e847939"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-24s.png",
+        "bytes": 532138,
+        "sha256": "08bc361c72e2c7e1b729eccbe23ff61e5c3b32d8df8a6f9f9f5b7be1ba8757dd"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-25s.png",
+        "bytes": 516213,
+        "sha256": "3a58afe3fcafbd1251f1fb474161640f02a46254b919a753c294e1405d97fb11"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-27s.png",
+        "bytes": 520938,
+        "sha256": "a2e7899865a8d9ffd74292926c306d08940a6f5cb637b62b0a134aef2377ff23"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-31_25s.png",
+        "bytes": 497237,
+        "sha256": "1e06f9cc2e38ed6100eb616b642ff20d275ea0b77db71d7682c1599db99ca486"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-31_5s.png",
+        "bytes": 493262,
+        "sha256": "8335f9c72482c82a6712ae6013b9c6a2a91e5a696d81be8674f8d10b563fde0c"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-31_75s.png",
+        "bytes": 493373,
+        "sha256": "cfce9e4ff53891259efa9446b2336fc574a7f8e196f9e1d428f47b7bc6e1a2c5"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-31s.png",
+        "bytes": 500103,
+        "sha256": "e32f34954ce8bab8a455d8a39acc35d1e0863db1723d6d721cc42d16b32e3244"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-32_25s.png",
+        "bytes": 497569,
+        "sha256": "7fac0af6ca2486a72d898c31f4b090733249ba1072f3bd4b9d23ef3f09b66130"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-32_5s.png",
+        "bytes": 494405,
+        "sha256": "60f0f2143c38190a2393a14ee2de2d7d8b5c6855ae84e272486585459acdd01a"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-32_75s.png",
+        "bytes": 490323,
+        "sha256": "e062c49e58ccb78c50bae39454a262ff59cb11f63f4e4af389203951983f113c"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-32s.png",
+        "bytes": 499462,
+        "sha256": "31416cf5bd9832203efec90ea20680990152cdabe5eed9f41461a8f49b3e3b84"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-33s.png",
+        "bytes": 493503,
+        "sha256": "a9f8ac93c4d98053ded9f2b3d4960ad58e909743f7e1023d82f83a1b0892b690"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-37s.png",
+        "bytes": 441192,
+        "sha256": "183e50034f51082102dbcd320ef042eaf38f84e331145c4c3289955f1c6e729a"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-7s.png",
+        "bytes": 490644,
+        "sha256": "74087bae9e103132c826a2546940581f14f3be8940b77f51902b8e7110d7eb0f"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-11_33s.png",
+        "bytes": 469476,
+        "sha256": "d1385627540cac198f391e901177d9032194e740e82017f9647f4e4f52e956fc"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-11_67s.png",
+        "bytes": 471215,
+        "sha256": "ea3fe613a170d0bc6139340ba770be43c0db1229711bcced563559ce524aa402"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-11s.png",
+        "bytes": 470294,
+        "sha256": "a55d3db89b5217a720f8b028043f69b40c560a9b4f7b4e4cf40e1401b8b76b42"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-12_33s.png",
+        "bytes": 470610,
+        "sha256": "2dfc69872ac62a3c312a1f2cae305f7ac442b944de78a0e1f6198993529f8235"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-12_67s.png",
+        "bytes": 472929,
+        "sha256": "65dd18ed95bd49c4030d0993ba9a7fe5905f9b37848feadfaad0308b40b66c94"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-12s.png",
+        "bytes": 469995,
+        "sha256": "9ec769001dd406e1b1ed26b13f7ce802ade359e55b5f0a80cf707cab604e3d48"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-13s.png",
+        "bytes": 472723,
+        "sha256": "06462c482aaa6ad27639f01000117da1dff458c7a87b683111af6e52fec1f597"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-14_7s.png",
+        "bytes": 473957,
+        "sha256": "c3867a0e02ee80ded5c1853073aa63d5dd8032727ccde3a0a77d7c167caa7004"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-19s.png",
+        "bytes": 511235,
+        "sha256": "74dc0d36d49033b63740f5b9ab676a6aafad7b93894cb8d202fe8a541de2090e"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-23_25s.png",
+        "bytes": 512798,
+        "sha256": "221e049146267fa12bdf7e652308d84b794cc2dca23f9b6dcbfedda45c6a6097"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-23_3s.png",
+        "bytes": 513016,
+        "sha256": "a88b47936cf5907355dc08e7c5bc5021cb0ff934b03a68998547d34ac63b2adb"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-23_5s.png",
+        "bytes": 513482,
+        "sha256": "027cfd815c6293b3796ed8f7b97967f4907d3625ec78c4473153c0d2f310b2ad"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-23_75s.png",
+        "bytes": 514780,
+        "sha256": "2db736597102633ff679588a7d12acfa60ab29e31091cc19c9dfe6c35fe6c3fb"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-23s.png",
+        "bytes": 512962,
+        "sha256": "4bdd64d8b631f370455ed8f4c31cbac6d3efa178e5b2b8bfb7b7488daecc49cf"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-24_25s.png",
+        "bytes": 509841,
+        "sha256": "5ce8a9c6ea8a7d0dd864dad20c5b93aa54eb5773fda40e0475d6b94e393d65a3"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-24_5s.png",
+        "bytes": 513680,
+        "sha256": "f52190fef8c1da52c2c89353b527d182968b4991cd3842e6f82268fdb92cd9ff"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-24_75s.png",
+        "bytes": 514134,
+        "sha256": "691ef11c0f5b23c7d46e75381c54185588f0eb343701ba65f6312031ef087af9"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-24s.png",
+        "bytes": 512030,
+        "sha256": "513c917aacadb8d1f3bdc00f446e9bc1c6dd167481ae62db62ab219c2ff4df4a"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-25s.png",
+        "bytes": 499265,
+        "sha256": "f8784a3e408230dd4796de9b730ac95972a93e4503273349ba0c75c2eeb05e1f"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-27s.png",
+        "bytes": 501522,
+        "sha256": "cbda7b706e2cb404c6ae4aa11c2db07513570d88457f4a734fa7ae96a6086bc8"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-31_25s.png",
+        "bytes": 476859,
+        "sha256": "cab09fc0ccf9f74e0ea4ac48189e8c292d595159da82a8271e710761439367e6"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-31_5s.png",
+        "bytes": 474877,
+        "sha256": "ded2037d0b33fe30e0fdad41c242d562590abb25c3ddb6201efbde4143ca93ac"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-31_75s.png",
+        "bytes": 478385,
+        "sha256": "27d7d047c3e36c3e64106373f69846bf795f8e3bcb1668043c43d9b83f8facd1"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-31s.png",
+        "bytes": 479654,
+        "sha256": "bc54b155620ac559051f079cdb238bcad308c7758063ba15acb12af627f9256d"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-32_25s.png",
+        "bytes": 476887,
+        "sha256": "89c7485f641970586355074ecdb6af3c87e2f0b0995415c8e25f6fba7eeeff7d"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-32_5s.png",
+        "bytes": 476495,
+        "sha256": "f6a9c730ad64263748880c4ac91275894353f76f673f3a61e0e0992a678b6e0d"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-32_75s.png",
+        "bytes": 476109,
+        "sha256": "b7d1dd1cc9cc5f2081ed9fb21f632f6354f16413efd553ad82a665a7c5a665aa"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-32s.png",
+        "bytes": 477727,
+        "sha256": "12be21e7e1507a7b41ac20d32e3b7f2b4947662d5f7cf2fee2712136b4f03b33"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-33s.png",
+        "bytes": 479517,
+        "sha256": "7acfc96ac19a9bc821c4111958ea773f7bd6a3a6b8348df489e6db8510df64a7"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-37s.png",
+        "bytes": 423765,
+        "sha256": "9b128e0351b6c1bf24beb561ac2a7396205eb41e83cf617442a48f39fd64cf7b"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-canvas-7s.png",
+        "bytes": 472408,
+        "sha256": "92ddaa1416b69ff2e5c237dfe8b87cc96ea56ee901bcec8591785fde953b8383"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/story-motion-metrics.json",
+        "bytes": 210668,
+        "sha256": "6b8c2151e2283aad83efa4442ab3c84f276fdda120880cd642c3304cd707cea1"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-desktop-edge/video.webm",
+        "bytes": 5312994,
+        "sha256": "03e57682867c8fd3c8c43156e9eefdc292d0d24b3d08a0019aeec44042f337dc"
+      },
+      {
+        "name": "story-live-story-motion-ev-cbc24--records-its-directed-shots-touch-edge/video.webm",
+        "bytes": 1859,
+        "sha256": "e679aebade452d66ad9805a2ea1c56dc353ac914644bcd9b5fd79918c7265e93"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/attachments/story-audience-captures-8ebce2cbfeab36836edde45b5df9c3350b85b829.json",
+        "bytes": 20624,
+        "sha256": "2719058f059591a244b85dd5359e7cfb397ca157dacd490c5af7fbe3046f4f09"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-12s.png",
+        "bytes": 491705,
+        "sha256": "cf04352074d0647899952be18f200ecbb9b19ac8072ed2a1ccec7481b11c03b6"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-14_7s.png",
+        "bytes": 488837,
+        "sha256": "ce62ab7d31fee1eceaa1eb6d1fe274799dcf896302234285ea61cb82e981c62a"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-19s.png",
+        "bytes": 529406,
+        "sha256": "bcd3ad4581cce8e842661e8c75701f97f0e99442c9d43f59c6b42834be84f001"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-22s.png",
+        "bytes": 522186,
+        "sha256": "9b3b61db48eb8138947b309a582462967ce73fff28d3e1c2817eb717ea88cf7e"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-23_3s.png",
+        "bytes": 531939,
+        "sha256": "0a73a51e5eee98fca7e2f53fdbf219db510d6017287eea6e7889ea73462196eb"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-27s.png",
+        "bytes": 521337,
+        "sha256": "817ab4da30ad99894c4a653dcd65c53d4ee651b6d0094b6a73297a3c1e4135e5"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-32s.png",
+        "bytes": 494886,
+        "sha256": "1cb9d8bf84906309f0ca74ae732338d490f24d39d92c088a71fca27ed5ffd85e"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-37s.png",
+        "bytes": 440421,
+        "sha256": "8b6ee1d3b791b8a07eaa69b8f4eab2f61e3dfb424472e2e6b3441eef09e7e2a4"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-3s.png",
+        "bytes": 474435,
+        "sha256": "3c600a02b2e7371867ec585ca96a715ca74d8dbc66cb663af6a54c6e67cc9e30"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-7s.png",
+        "bytes": 489765,
+        "sha256": "16ad2f1c4a7dae92df93b1a2cde1e9da6200067bfc04344e6fbcce8e7c51188f"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-audience-captures.json",
+        "bytes": 20624,
+        "sha256": "2719058f059591a244b85dd5359e7cfb397ca157dacd490c5af7fbe3046f4f09"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-12s.png",
+        "bytes": 470771,
+        "sha256": "2f7e49913488475da33b1e1a627b6cfe8957b5b4abedd90e6eace59167f69f93"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-14_7s.png",
+        "bytes": 474428,
+        "sha256": "8f382b2ef3666de78b237dde650247ef3e8c6444f6ae8b0e072de9137b7b0b2c"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-19s.png",
+        "bytes": 508731,
+        "sha256": "1ae4bd96369556ba8c4ab0b971bb944e92944542258a342201c42334ddd9f480"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-22s.png",
+        "bytes": 506363,
+        "sha256": "8be2a0975b7c2d8e54a258dea982b41b7aed98a59b4965a6cbcea4bdfae74cdc"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-23_3s.png",
+        "bytes": 512260,
+        "sha256": "12c45e7f3bce4dda0002737fbfc45e8320fe6063e2fd8e71af27c08a0305c0b8"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-27s.png",
+        "bytes": 501075,
+        "sha256": "295771d88a93b56459015e344c0f87c203e9decc0f8d46dd5c62f1412b8c6735"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-32s.png",
+        "bytes": 476959,
+        "sha256": "65e5fd0883efce42749ecb793827267dc22c07ca03899d2b4068a1c53d02cd1c"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-37s.png",
+        "bytes": 420835,
+        "sha256": "74dc723ed4e873dbc9931e8231485e5b7320133f6874c38bfbce3946a542c299"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-3s.png",
+        "bytes": 453302,
+        "sha256": "55793173775a1997f8a5373ac9318d09e469dc999d5127d7295daf348fcce640"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/story-canvas-7s.png",
+        "bytes": 471808,
+        "sha256": "004287b7b62de14d2b7b9c2d111148d6dcf2173849a780e02a777062d06a2519"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-desktop-edge/video.webm",
+        "bytes": 813232,
+        "sha256": "ac22b03aad3d10f94a86838f1f100dfeb777912a0b20d515c86fe1bc0d4e9807"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/attachments/story-audience-captures-fdd6cdace6de98ec417eaeb62bdd36cd9466ac6f.json",
+        "bytes": 6449,
+        "sha256": "18887ff447460c3d16866564679b356285649c1ced30865bebbd07b43a38d320"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/story-audience-14_7s.png",
+        "bytes": 226472,
+        "sha256": "d08a020d20e9549754ed62d9e61b3ddd0fc58904b3d0a6786224d79be5919c75"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/story-audience-23_3s.png",
+        "bytes": 236098,
+        "sha256": "fbf374bd52c2e02516c7759a3325138fa1a9aa1d4493f3918091de5da865148c"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/story-audience-32s.png",
+        "bytes": 233445,
+        "sha256": "2da56c65bd76fe26f5384713fbf6a2d87574b1fb5a2349fc2a295143a871f184"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/story-audience-captures.json",
+        "bytes": 6449,
+        "sha256": "18887ff447460c3d16866564679b356285649c1ced30865bebbd07b43a38d320"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/story-canvas-14_7s.png",
+        "bytes": 215201,
+        "sha256": "d2f0bda5c3a372fb384acb2badd6482efae8185cc1ddd929c0e17f0ab0bba5a5"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/story-canvas-23_3s.png",
+        "bytes": 220543,
+        "sha256": "d6303e2cec63835074bc9eeff6d9d2eee8a28cf039283b3cbc72d0324226d547"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/story-canvas-32s.png",
+        "bytes": 218112,
+        "sha256": "811f1343b6fa3370dc5dac7a01fbe7a1af3b8d4674d227af71ff2dc338d540f4"
+      },
+      {
+        "name": "story-story-audience-frami-52542-om-the-real-player-controls-touch-edge/video.webm",
+        "bytes": 340069,
+        "sha256": "872bc0f35781cfcab094fddc23bd8191964acbdfaeeedffc2460682a813e429b"
+      }
+    ]
+  },
+  "archive": {
+    "directory": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930",
+    "fileCountIncludingThisMetadata": 469,
+    "initial": "initial",
+    "repairs": "repairs",
+    "inputRun": "pre-bands"
+  },
+  "checkedSources": [
+    {
+      "name": "game/tests/e2e/story.spec.ts",
+      "sha256": "f8969fa3fc551c040010433ca7dcf36e7a83618b413da00b868bf85675b964fb"
+    },
+    {
+      "name": "game/tests/content/storyTimeline.test.ts",
+      "sha256": "46f295136c5becbe3fe55ca3ac253b328d2aeb85975dad3e23f9fdd11ecb0264"
+    },
+    {
+      "name": "game/src/content/story/octocatAbduction.ts",
+      "sha256": "2b081a72dc4b5a21f97b30baf87a64645cab49675e9e6c4bf4305f2b594fd7e3"
+    },
+    {
+      "name": "game/src/rendering/story/createStoryScene.ts",
+      "sha256": "df102972a03d3801a5236d4655109cfa903eeb1a34b1f94e4842a89701f230cc"
+    },
+    {
+      "name": "game/src/rendering/story/effects.ts",
+      "sha256": "d769f517ebaaa857c16087793441e108a99aacab6f8280502dfb3a9a802d608d"
+    }
+  ],
+  "verification": {
+    "evidenceChecker": {
+      "command": "check_evidence.py game --manifest ../artifacts/story-polish-20260930/evidence.json",
+      "exitCode": 0,
+      "confirmedArtifacts": 11
+    },
+    "focusedUnit": {
+      "passed": 5,
+      "failed": 0,
+      "command": "npm exec vitest run -- tests/content/storyTimeline.test.ts",
+      "exitCode": 0
+    },
+    "focusedEslint": {
+      "command": "npm exec eslint -- tests/content/storyTimeline.test.ts tests/e2e/story.spec.ts",
+      "exitCode": 0
+    },
+    "inputRun": {
+      "folder": "pre-bands",
+      "inputCasesPassed": 8,
+      "audienceCasesPassed": 2,
+      "desktopMotionCasesPassed": 1,
+      "touchMotionSkipped": 1,
+      "note": "This run used final authored motion and heading but preceded two restraint-band effects. Final-band scene close and cleanup were checked again during final motion."
+    },
+    "finalBandRun": {
+      "folder": "final",
+      "audienceCasesPassed": 2,
+      "desktopMotionCasesPassed": 1,
+      "touchMotionSkipped": 1,
+      "command": "npm exec playwright test -- --config=../artifacts/story-polish-20260930/story.playwright.config.ts tests/e2e/story.spec.ts --grep 'captures reaction|full cinematic' --workers=1"
+    },
+    "browserRunner": {
+      "assertionResults": "All completed cases printed passed; no assertion failures",
+      "wrapperExitCode": 0,
+      "cleanRerun": {
+        "directory": "final-clean",
+        "passed": 3,
+        "skipped": 1,
+        "durationSeconds": 59.1,
+        "command": "npm exec playwright test -- --config=../artifacts/story-polish-20260930/story.clean.playwright.config.ts tests/e2e/story.spec.ts --grep 'captures reaction|full cinematic' --workers=1",
+        "method": "Same immutable build; own preview launched outside Playwright and stopped separately. No Playwright-owned webServer teardown.",
+        "exitCode": 0
+      },
+      "priorRun": {
+        "exitCode": 1,
+        "note": "Original final artifact run completed all assertions and media but hung on server teardown. Wrapper was interrupted. Clean same-build rerun resolved infrastructure issue; reviewed final captures remain preserved."
+      },
+      "serverPort": 5187,
+      "serverListeningAfterCleanup": false
+    },
+    "declaredPixels": {
+      "capturesPassed": 6,
+      "renderBudgetsPassed": 6,
+      "adaptation": "Explicit story-canvas CSS-scale screenshots; same existing inspector computePixelMetrics function. First document canvas is campus, so inspector default selection would be wrong.",
+      "reports": [
+        {
+          "mode": "desktop",
+          "state": "alarm",
+          "screenshotPath": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\final\\canvas-desktop-alarm.png",
+          "result": {
+            "ok": true,
+            "reason": "nonblank",
+            "alphaPixels": 4109,
+            "variance": 255,
+            "colorBuckets": 342,
+            "metrics": {
+              "colorBuckets": 483,
+              "colorEntropyBits": 7.04,
+              "edgeDensity": 0.307,
+              "luminance": {
+                "mean": 127.7,
+                "p5": 12.8,
+                "p95": 211.7,
+                "contrast": 199
+              },
+              "dominantColorShare": 0.044,
+              "nonBackgroundShare": 0.956
+            },
+            "renderBudget": {
+              "tier": "desktop",
+              "rows": [
+                {
+                  "metric": "calls",
+                  "limit": 300,
+                  "actual": 24,
+                  "ok": true
+                },
+                {
+                  "metric": "triangles",
+                  "limit": 750000,
+                  "actual": 16869,
+                  "ok": true
+                },
+                {
+                  "metric": "geometries",
+                  "limit": 300,
+                  "actual": 24,
+                  "ok": true
+                },
+                {
+                  "metric": "textures",
+                  "limit": 60,
+                  "actual": 25,
+                  "ok": true
+                }
+              ],
+              "withinBudget": true,
+              "note": "Skill starting-point budgets; no GPU timing inferred"
+            }
+          }
+        },
+        {
+          "mode": "desktop",
+          "state": "lock",
+          "screenshotPath": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\final\\canvas-desktop-lock.png",
+          "result": {
+            "ok": true,
+            "reason": "nonblank",
+            "alphaPixels": 4109,
+            "variance": 251,
+            "colorBuckets": 333,
+            "metrics": {
+              "colorBuckets": 471,
+              "colorEntropyBits": 6.91,
+              "edgeDensity": 0.369,
+              "luminance": {
+                "mean": 134.7,
+                "p5": 28.5,
+                "p95": 209.4,
+                "contrast": 180.9
+              },
+              "dominantColorShare": 0.046,
+              "nonBackgroundShare": 0.954
+            },
+            "renderBudget": {
+              "tier": "desktop",
+              "rows": [
+                {
+                  "metric": "calls",
+                  "limit": 300,
+                  "actual": 31,
+                  "ok": true
+                },
+                {
+                  "metric": "triangles",
+                  "limit": 750000,
+                  "actual": 20707,
+                  "ok": true
+                },
+                {
+                  "metric": "geometries",
+                  "limit": 300,
+                  "actual": 29,
+                  "ok": true
+                },
+                {
+                  "metric": "textures",
+                  "limit": 60,
+                  "actual": 25,
+                  "ok": true
+                }
+              ],
+              "withinBudget": true,
+              "note": "Skill starting-point budgets; no GPU timing inferred"
+            }
+          }
+        },
+        {
+          "mode": "desktop",
+          "state": "tow",
+          "screenshotPath": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\final\\canvas-desktop-tow.png",
+          "result": {
+            "ok": true,
+            "reason": "nonblank",
+            "alphaPixels": 4109,
+            "variance": 255,
+            "colorBuckets": 327,
+            "metrics": {
+              "colorBuckets": 460,
+              "colorEntropyBits": 6.87,
+              "edgeDensity": 0.326,
+              "luminance": {
+                "mean": 142.8,
+                "p5": 28.3,
+                "p95": 214.7,
+                "contrast": 186.3
+              },
+              "dominantColorShare": 0.043,
+              "nonBackgroundShare": 0.957
+            },
+            "renderBudget": {
+              "tier": "desktop",
+              "rows": [
+                {
+                  "metric": "calls",
+                  "limit": 300,
+                  "actual": 29,
+                  "ok": true
+                },
+                {
+                  "metric": "triangles",
+                  "limit": 750000,
+                  "actual": 20515,
+                  "ok": true
+                },
+                {
+                  "metric": "geometries",
+                  "limit": 300,
+                  "actual": 29,
+                  "ok": true
+                },
+                {
+                  "metric": "textures",
+                  "limit": 60,
+                  "actual": 25,
+                  "ok": true
+                }
+              ],
+              "withinBudget": true,
+              "note": "Skill starting-point budgets; no GPU timing inferred"
+            }
+          }
+        },
+        {
+          "mode": "mobile",
+          "state": "alarm",
+          "screenshotPath": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\final\\canvas-mobile-alarm.png",
+          "result": {
+            "ok": true,
+            "reason": "nonblank",
+            "alphaPixels": 4157,
+            "variance": 255,
+            "colorBuckets": 296,
+            "metrics": {
+              "colorBuckets": 425,
+              "colorEntropyBits": 6.55,
+              "edgeDensity": 0.276,
+              "luminance": {
+                "mean": 134.6,
+                "p5": 28.5,
+                "p95": 212,
+                "contrast": 183.4
+              },
+              "dominantColorShare": 0.051,
+              "nonBackgroundShare": 0.949
+            },
+            "renderBudget": {
+              "tier": "mobile",
+              "rows": [
+                {
+                  "metric": "calls",
+                  "limit": 150,
+                  "actual": 14,
+                  "ok": true
+                },
+                {
+                  "metric": "triangles",
+                  "limit": 300000,
+                  "actual": 14093,
+                  "ok": true
+                },
+                {
+                  "metric": "geometries",
+                  "limit": 200,
+                  "actual": 24,
+                  "ok": true
+                },
+                {
+                  "metric": "textures",
+                  "limit": 40,
+                  "actual": 24,
+                  "ok": true
+                }
+              ],
+              "withinBudget": true,
+              "note": "Skill starting-point budgets; no GPU timing inferred"
+            }
+          }
+        },
+        {
+          "mode": "mobile",
+          "state": "lock",
+          "screenshotPath": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\final\\canvas-mobile-lock.png",
+          "result": {
+            "ok": true,
+            "reason": "nonblank",
+            "alphaPixels": 4157,
+            "variance": 255,
+            "colorBuckets": 338,
+            "metrics": {
+              "colorBuckets": 500,
+              "colorEntropyBits": 6.71,
+              "edgeDensity": 0.31,
+              "luminance": {
+                "mean": 146.4,
+                "p5": 29.3,
+                "p95": 218.7,
+                "contrast": 189.4
+              },
+              "dominantColorShare": 0.069,
+              "nonBackgroundShare": 0.931
+            },
+            "renderBudget": {
+              "tier": "mobile",
+              "rows": [
+                {
+                  "metric": "calls",
+                  "limit": 150,
+                  "actual": 31,
+                  "ok": true
+                },
+                {
+                  "metric": "triangles",
+                  "limit": 300000,
+                  "actual": 20707,
+                  "ok": true
+                },
+                {
+                  "metric": "geometries",
+                  "limit": 200,
+                  "actual": 29,
+                  "ok": true
+                },
+                {
+                  "metric": "textures",
+                  "limit": 40,
+                  "actual": 25,
+                  "ok": true
+                }
+              ],
+              "withinBudget": true,
+              "note": "Skill starting-point budgets; no GPU timing inferred"
+            }
+          }
+        },
+        {
+          "mode": "mobile",
+          "state": "tow",
+          "screenshotPath": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\artifacts\\story-polish-20260930\\final\\canvas-mobile-tow.png",
+          "result": {
+            "ok": true,
+            "reason": "nonblank",
+            "alphaPixels": 4157,
+            "variance": 255,
+            "colorBuckets": 276,
+            "metrics": {
+              "colorBuckets": 403,
+              "colorEntropyBits": 6.43,
+              "edgeDensity": 0.285,
+              "luminance": {
+                "mean": 153.1,
+                "p5": 40.3,
+                "p95": 217.5,
+                "contrast": 177.2
+              },
+              "dominantColorShare": 0.068,
+              "nonBackgroundShare": 0.932
+            },
+            "renderBudget": {
+              "tier": "mobile",
+              "rows": [
+                {
+                  "metric": "calls",
+                  "limit": 150,
+                  "actual": 28,
+                  "ok": true
+                },
+                {
+                  "metric": "triangles",
+                  "limit": 300000,
+                  "actual": 20371,
+                  "ok": true
+                },
+                {
+                  "metric": "geometries",
+                  "limit": 200,
+                  "actual": 29,
+                  "ok": true
+                },
+                {
+                  "metric": "textures",
+                  "limit": 40,
+                  "actual": 25,
+                  "ok": true
+                }
+              ],
+              "withinBudget": true,
+              "note": "Skill starting-point budgets; no GPU timing inferred"
+            }
+          }
+        }
+      ]
+    },
+    "liveMotion": {
+      "sceneDurationSeconds": 42,
+      "observedRemainingWallSeconds": 41.84900000001192,
+      "cadence": {
+        "method": "Distinct story-time updates observed from browser requestAnimationFrame; not GPU frame timing",
+        "count": 1235,
+        "meanMs": 33.885829959514396,
+        "p95Ms": 33.5,
+        "maximumMs": 91.70000000000073
+      },
+      "captureMethod": "Uninterrupted real player playback, sound enabled, no seeks or forced poses. Requested and actual before/after screenshot timestamps preserved.",
+      "gpu": {
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x00002204) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "vendor": "Google Inc. (NVIDIA)",
+        "softwareRendered": false
+      },
+      "environment": "Desktop Edge browser on this host; not a physical phone benchmark",
+      "note": "Desktop host GPU and phone viewport emulation; no physical-phone or GPU-frame-time claim."
+    },
+    "visualReview": "Amber restraint bands remain below the face on desktop and phone; creep, lift, haul contact sheets independently reviewed without blocking contact or framing defects."
+  }
+}

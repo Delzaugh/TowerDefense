@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_octocat_2_0",
+  "version": "v01",
+  "revision": 8,
+  "sha256": "02e3657bfe1d0fe392676010d7acb37c378075a4c771976f1a97188ea3646f12",
+  "sourceHash": "c0c000b5b12d0380bdaeb54904fb92b2428912519e10ab09263e70c110eec8cb",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-30T17:17:56.740Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Localized face-UV correction preserves the existing Octocat 2.0 head/cheek proportions, expression, ears, whiskers, waving pose and five-tentacle anatomy. Reviewed final front and close oblique views against the pre-repair reference renders; peach face outline and game-scale identity remain. Neither anatomy nor palette was redesigned."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "User screenshot exposed peach slivers on the lower side/back of the head that the preceding review missed. The face paint is on one skull surface; expanded front-depth projection had mapped a few back-facing polygons into peach texels. Fixed hemisphere plus outward-normal classification in the high source recipe, stored exact scaled projection metadata and reapplied the UV map after low-poly reduction. Personally inspected final underside, side, front and close oblique runtime views: rear/underside slivers are gone and front expression remains intact. Source audit confirms closed head/body components with no nonmanifold edges or degenerate faces and three zero-height support contacts. The UV audit checks 12249 rear/back-facing polygons and finds zero projected-face UVs; they all sample the dark fur texel. Packed palette/face maps and existing anchors remain."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally inspected final phone and game-scale Inspector captures. Face silhouette, peach/graphite contrast, eyes, pointed ears, asymmetrical arms and support stance retain identity. The repair removes stray peach marks without changing the palette. Low-poly simplification remains intentionally faceted."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "UV-only static-model refinement; no rig or clips are added. Animation remains pending."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After guarded re-export, reviewed underside and right-side views again for the isolated peach triangle and adjoining face boundary, then checked front/close-oblique expression and phone/game scale. Final views show no recurrence of the reported sliver. Low-poly live preview was additionally refreshed and inspected in the user exact close-up camera: the before/after images keep the same framing and the reported mark disappears. Separate source UV and shell/contact audits passed. Previous review rejection is retained in review history; this is a new author assessment, not user acceptance."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-front.png",
+      "sha256": "7816c8479d4f33df46f7d6b5edf28a0495f3fc2e7a5d03af1ad58c92714f3b75",
+      "view": "inspector-front"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-iso.png",
+      "sha256": "ae04eab492e8857f6854db8a311ffadaea5db830668e54df340bad80b1dff932",
+      "view": "inspector-iso"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-rear.png",
+      "sha256": "0714eac60c3a602b9698afaa31d17d9c234b02d7d8a2c8a325884d177fccc0cb",
+      "view": "inspector-rear"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-right.png",
+      "sha256": "473d4bd8616115332502bdcdc89ba3c1efd102c4857edb49670c7a883b953034",
+      "view": "inspector-right"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-bottom.png",
+      "sha256": "b41e4cf13304e40182d84e943636eff99227555f3c197d9729890c4353e29f50",
+      "view": "inspector-bottom"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/face-close-front.png",
+      "sha256": "3b83caf988e67656c03ef3ca1e3c86f7672ee1750c372b701e36e408bc28bf80",
+      "view": "face-close-front"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/face-close-iso.png",
+      "sha256": "d7883b08c79db4d20f90c0016456845c839d5ecd9ff97701514e026b2b4ca369",
+      "view": "face-close-iso"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/phone.png",
+      "sha256": "b5438a4833d25cc8696c2f432ef59982866d4d22787b26b4b6a65aa7a9105b99",
+      "view": "phone"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/game-scale.png",
+      "sha256": "8a031322024af1edb65789139de0e69a4d721f0a7fdfa708bbd85dd11c6fda6b",
+      "view": "game-scale"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Prior revision rejected for user-reported skin-coloured slivers. Awaiting feedback on UV-corrected revision 8."
+  },
+  "limitations": [
+    "Static model; animation remains pending.",
+    "Crowded-scene performance has not been profiled."
+  ]
+}

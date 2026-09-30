@@ -1,0 +1,164 @@
+{
+  "completedAt": "2026-09-26T21:41:17.407Z",
+  "scope": "All registered towers use copilot_ asset IDs.",
+  "payloadsUnchanged": true,
+  "towerVersions": 15,
+  "renamed": [
+    {
+      "oldId": "github_mona_head",
+      "id": "copilot_mona_head",
+      "version": "v01",
+      "source": "blender/towers/copilot_mona_head/v01/copilot_mona_head_v01.blend",
+      "runtime": "assets/runtime/towers/copilot_mona_head_v01.glb",
+      "sourceHash": "fabae271770f41e34a83727d52c76690d25edbdba276a9e61d087e21f940b107",
+      "sha256": "bccfb8d95d5e909681b07288884e6d7ff0671ba2673a51cd5f62668bafe954da",
+      "payloadsUnchanged": true,
+      "reviewWasReady": false,
+      "reviewReady": false,
+      "reviewErrors": [
+        "No visual review. Run review <id> --init after export."
+      ]
+    },
+    {
+      "oldId": "golden_compiler",
+      "id": "copilot_golden_compiler",
+      "version": "v01",
+      "source": "blender/towers/copilot_golden_compiler/v01/copilot_golden_compiler_v01.blend",
+      "runtime": "assets/runtime/towers/copilot_golden_compiler_v01.glb",
+      "sourceHash": "8381bb21d103215e379aeea934db399c1f6597a507e6a7ecae6a93d1416798a5",
+      "sha256": "1d88ddd329b57876f2db41e45a40e83df55e2596763f7af819f3a7e88ee8b719",
+      "payloadsUnchanged": true,
+      "reviewWasReady": false,
+      "reviewReady": false,
+      "reviewErrors": [
+        "Legacy review: preserve/migrate it with review <id> --init.",
+        "Stale review identity: revision",
+        "Stale review identity: sha256",
+        "Stale review identity: sourceHash",
+        "Declare the review scope.",
+        "referenceFidelity: record a completed assessment or a reason it is not applicable.",
+        "construction: record a completed assessment or a reason it is not applicable.",
+        "readability: record a completed assessment or a reason it is not applicable.",
+        "motion: record a completed assessment or a reason it is not applicable.",
+        "Second author review is incomplete or failed.",
+        "Include inspected evidence files.",
+        "Declare user acceptance separately.",
+        "limitations must be a list of concrete notes (or empty)."
+      ]
+    },
+    {
+      "oldId": "bert_breugelmans",
+      "id": "copilot_bert_breugelmans",
+      "version": "v01",
+      "source": "blender/towers/copilot_bert_breugelmans/v01/copilot_bert_breugelmans_v01.blend",
+      "runtime": "assets/runtime/towers/copilot_bert_breugelmans_v01.glb",
+      "sourceHash": "888176f03eb21f610e89d111e41744154f6acbe569a056b6f065f2cca9512d29",
+      "sha256": "4a7ebbc16f309e796241b3d6ad3c2d6c8b48ca450aba50b297dccd959e78f1db",
+      "payloadsUnchanged": true,
+      "reviewWasReady": false,
+      "reviewReady": false,
+      "reviewErrors": [
+        "No visual review. Run review <id> --init after export."
+      ]
+    },
+    {
+      "oldId": "github_octocat_classic",
+      "id": "copilot_octocat_classic",
+      "version": "v01",
+      "source": "blender/towers/copilot_octocat_classic/v01/copilot_octocat_classic_v01.blend",
+      "runtime": "assets/runtime/towers/copilot_octocat_classic_v01.glb",
+      "sourceHash": "a465db1907240e99c2988bcdbd2ea259417bd78f03fb042fea1a6f777be37e5a",
+      "sha256": "e211dce334989587b61572cbbb5d0e62ceb4383f3d1b8dded1f7d73f7e50703d",
+      "payloadsUnchanged": true,
+      "reviewWasReady": false,
+      "reviewReady": false,
+      "reviewErrors": [
+        "Legacy review: preserve/migrate it with review <id> --init.",
+        "Stale review identity: sha256",
+        "Declare the review scope.",
+        "Record when the visual review was completed.",
+        "referenceFidelity: record a completed assessment or a reason it is not applicable.",
+        "construction: record a completed assessment or a reason it is not applicable.",
+        "readability: record a completed assessment or a reason it is not applicable.",
+        "motion: record a completed assessment or a reason it is not applicable.",
+        "Second author review is incomplete or failed.",
+        "Include inspected evidence files.",
+        "Declare user acceptance separately."
+      ]
+    },
+    {
+      "oldId": "github_octocat_modern",
+      "id": "copilot_octocat_modern",
+      "version": "v01",
+      "source": "blender/towers/copilot_octocat_modern/v01/copilot_octocat_modern_v01.blend",
+      "runtime": "assets/runtime/towers/copilot_octocat_modern_v01.glb",
+      "sourceHash": "5e3fc5f1fc8cb4fc540a6e0f07a547be2c5e1afcec6078a0c19ea3925c5aff2e",
+      "sha256": "2917ce38babc993d7c492ea660837652ff0bcdc82d006d741cd85056661231c1",
+      "payloadsUnchanged": true,
+      "reviewWasReady": false,
+      "reviewReady": false,
+      "reviewErrors": [
+        "Legacy review: preserve/migrate it with review <id> --init.",
+        "Declare the review scope.",
+        "referenceFidelity: record a completed assessment or a reason it is not applicable.",
+        "construction: record a completed assessment or a reason it is not applicable.",
+        "readability: record a completed assessment or a reason it is not applicable.",
+        "motion: record a completed assessment or a reason it is not applicable.",
+        "Second author review is incomplete or failed.",
+        "Include inspected evidence files.",
+        "Declare user acceptance separately."
+      ]
+    },
+    {
+      "oldId": "github_octocat_classic_lowpoly",
+      "id": "copilot_octocat_classic_lowpoly",
+      "version": "v01",
+      "source": "blender/towers/copilot_octocat_classic_lowpoly/v01/copilot_octocat_classic_lowpoly_v01.blend",
+      "runtime": "assets/runtime/towers/copilot_octocat_classic_lowpoly_v01.glb",
+      "sourceHash": "e6ed8026d5871f0ac1493044a084ed276504b46f66d7c2e274f670ccf2360db0",
+      "sha256": "bdf5125b1e9500bce923f71fae74e56748a91160d197ff0f604ff498b38c0382",
+      "payloadsUnchanged": true,
+      "reviewWasReady": false,
+      "reviewReady": false,
+      "reviewErrors": [
+        "Legacy review: preserve/migrate it with review <id> --init.",
+        "Stale review identity: sha256",
+        "Declare the review scope.",
+        "Record when the visual review was completed.",
+        "referenceFidelity: record a completed assessment or a reason it is not applicable.",
+        "construction: record a completed assessment or a reason it is not applicable.",
+        "readability: record a completed assessment or a reason it is not applicable.",
+        "motion: record a completed assessment or a reason it is not applicable.",
+        "Second author review is incomplete or failed.",
+        "Include inspected evidence files.",
+        "Declare user acceptance separately."
+      ]
+    },
+    {
+      "oldId": "linter_agent",
+      "id": "copilot_linter",
+      "version": "v01",
+      "source": "blender/towers/copilot_linter/v01/copilot_linter_v01.blend",
+      "runtime": "assets/runtime/towers/copilot_linter_v01.glb",
+      "sourceHash": "f5889a6c285ada2d265e1eb440dcb3c33198fc71b847b3841ea47b5078cc6ec6",
+      "sha256": "7cdddfdfccddb6415346c8586071b4e4d52951d8ab66e4ff0a059592189df4d2",
+      "payloadsUnchanged": true,
+      "reviewWasReady": true,
+      "reviewReady": true,
+      "reviewErrors": []
+    },
+    {
+      "oldId": "human_developer",
+      "id": "copilot_human_developer",
+      "version": "v01",
+      "source": "blender/towers/copilot_human_developer/v01/copilot_human_developer_v01.blend",
+      "runtime": "assets/runtime/towers/copilot_human_developer_v01.glb",
+      "sourceHash": "f497a7bfe9636b25f919963236d1902ebf02ee7059a42b87a8271c1e733d4e74",
+      "sha256": "9ed0ed1c42247f881a8507fb37ce0bb8b9a1a213156d2f99cba78c831e4b0298",
+      "payloadsUnchanged": true,
+      "reviewWasReady": true,
+      "reviewReady": true,
+      "reviewErrors": []
+    }
+  ]
+}

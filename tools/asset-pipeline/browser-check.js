@@ -1,6 +1,7 @@
 import * as THREE from '/vendor/three.module.js';
 import { GLTFLoader } from '/vendor/GLTFLoader.js';
 import { inspectTexturePalettes } from '/review.js';
+import { createLifecycleEffect } from '/presentation/lifecycle.js';
 
 export async function inspect(url, manifest) {
   const gltf = await new GLTFLoader().loadAsync(url), root = gltf.scene;
@@ -46,6 +47,7 @@ export async function inspect(url, manifest) {
   for (const [key,value] of Object.entries(counts)) check(value <= manifest.budgets[key], key + ' exceeds budget: ' + value + ' / ' + manifest.budgets[key]);
   textures.forEach(t => check(Math.max(t.image?.width || 0,t.image?.height || 0) <= manifest.budgets.textureSize, 'Texture exceeds size budget'));
   const assetRoot = root.getObjectByName(manifest.contract.root);
+  if(manifest.presentation?.lifecycle) check(JSON.stringify(assetRoot?.userData.lifecycle_effect)===JSON.stringify(manifest.presentation.lifecycle),'Lifecycle effect parameters differ from manifest');
   check(!!assetRoot, 'Missing root');
   if (assetRoot) check(assetRoot.position.length()<1e-5 && assetRoot.quaternion.angleTo(new THREE.Quaternion())<1e-5 && assetRoot.scale.distanceTo(new THREE.Vector3(1,1,1))<1e-5, 'Root transform must be identity');
   for (const name of manifest.contract.anchors) {
@@ -87,14 +89,25 @@ export async function inspect(url, manifest) {
   }
   root.updateMatrixWorld(true);
   const scene=new THREE.Scene(); scene.background=new THREE.Color('#dce5ed'); scene.add(root);
+  const resolveEffect=createLifecycleEffect(THREE,root);
+  if(resolveEffect)scene.add(resolveEffect.object);
   scene.add(new THREE.HemisphereLight(0xffffff,0x667788,2.5)); const light=new THREE.DirectionalLight(0xffffff,3);light.position.set(4,6,5);scene.add(light);
   const renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true});renderer.setSize(900,800);renderer.outputColorSpace=THREE.SRGBColorSpace;document.body.append(renderer.domElement);
   const center=bounds.getCenter(new THREE.Vector3()), size=Math.max(...dimensions)*.85;
   const camera=new THREE.OrthographicCamera(-size*1.125,size*1.125,size,-size,.01,1000);
-  window.renderEvidence = (view='iso',clipName=null,progress=0) => {
+  const maskMaterial=new THREE.MeshBasicMaterial({color:0x000000,toneMapped:false});
+  window.renderEvidence = (view='iso',clipName=null,progress=0,silhouette=false) => {
     mixer.stopAllAction();
     if(clipName){const c=gltf.animations.find(c=>c.name===clipName);const a=mixer.clipAction(c);a.setLoop(THREE.LoopOnce,1);a.clampWhenFinished=true;a.play();a.time=c.duration*progress;mixer.update(0);}
-    const directions={iso:[3,2,4],front:[0,0,5],side:[5,0,0],rear:[0,0,-5],top:[0,5,.0001]};camera.position.copy(center).add(new THREE.Vector3(...directions[view]).multiplyScalar(Math.max(...dimensions)));camera.lookAt(center);root.updateMatrixWorld(true);renderer.render(scene,camera);
+    resolveEffect?.setState(clipName,progress,1);
+    const directions={iso:[3,2,4],front:[0,0,5],side:[5,0,0],rear:[0,0,-5],top:[0,5,.0001]};camera.position.copy(center).add(new THREE.Vector3(...directions[view]).multiplyScalar(Math.max(...dimensions)));camera.lookAt(center);root.updateMatrixWorld(true);
+    const background=scene.background;
+    if(silhouette){scene.overrideMaterial=maskMaterial;scene.background=new THREE.Color(0xffffff);}
+    renderer.render(scene,camera);
+    scene.overrideMaterial=null;scene.background=background;
+    return {view,mode:silhouette?'silhouette':'shaded',clip:clipName,progress,
+      camera:{projection:'orthographic',position:camera.position.toArray(),target:center.toArray(),up:camera.up.toArray(),
+        frustum:[camera.left,camera.right,camera.top,camera.bottom,camera.near,camera.far],viewport:[900,800]}};
   };
   window.renderEvidence();
   return {...counts,dimensions,bounds:[bounds.min.toArray(),bounds.max.toArray()],clips,errors:[...new Set(errors)],warnings,visualReview:'pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval'};

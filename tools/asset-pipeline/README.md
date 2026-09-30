@@ -11,12 +11,14 @@ node tools/asset-pipeline/asset.mjs export problem_bug
 node tools/asset-pipeline/asset.mjs export problem_bug --build
 node tools/asset-pipeline/asset.mjs validate problem_bug
 node tools/asset-pipeline/asset.mjs render problem_bug
+node tools/asset-pipeline/asset.mjs review problem_bug --init
+node tools/asset-pipeline/asset.mjs review problem_bug
 node tools/asset-pipeline/asset.mjs milestone problem_bug approved_silhouette
 node tools/asset-inspector/server.mjs
 node tools/asset-pipeline/asset.mjs preview problem_bug
 ```
 
-`init` creates the catalog entry, manifest, decision record and working folders. Complete the brief, source and clip/anchor requirements before exporting. It deliberately does not invent a finished Blender model. Categories are enemies, towers, work, product and environment. `v01` is the default; export/validate/render/preview also accept a version argument. The manifest schema is `asset.schema.json`; runtime validation is implemented in `contracts.mjs`.
+`init` creates the catalog entry, manifest, decision record and working folders. The brief template covers reference priorities, landmarks, primary-form comparisons, fitted construction and feedback. Complete the brief, source and clip/anchor requirements before exporting. It deliberately does not invent a finished Blender model. Categories are enemies, towers, work, product and environment. `v01` is the default; export/validate/render/review/preview also accept a version argument. The manifest schema is `asset.schema.json`; runtime validation is implemented in `contracts.mjs`.
 
 `export` reads the current editable `.blend` in an isolated Blender process. The source needs a `root` object with all export content beneath it. Studio cameras/lights must be outside that hierarchy. Save applied transforms and rest pose. Animated sources use named NLA tracks and actions matching the manifest. Source files are never saved by the exporter.
 
@@ -25,6 +27,78 @@ node tools/asset-pipeline/asset.mjs preview problem_bug
 Delivery creates a candidate under the manifest folder's `.staging/`, checks it in the actual Three.js loader, and writes a hash-bound report and view/clip screenshots. Blocking failures preserve the previous runtime and source. Successful promotion retains the previous source, manifest and GLB as a milestone, increments the revision, and records source/export hashes together. A per-asset lock prevents concurrent deliveries; files are checked again before promotion. Ordinary refinement keeps v01; breaking interfaces require a new version or coordinated runtime change.
 
 `validate` checks the current canonical export. `render` runs the same checks and captures neutral Three.js evidence of the actual GLB, including fixed views and clip midpoints. These are runtime inspection renders, not Blender beauty renders. The report lives at `<manifest folder>/validation/report.json` and screenshots beside it. Source/display dimensions are never silently corrected. Reports explicitly leave artistic approval pending.
+
+Each fixed view also produces a flat black-on-white `*-silhouette.png` using the
+same camera and geometry, independent of the asset's palette. The accompanying
+`render_evidence.json` records the export hash, image hashes, projection, camera
+position/target, frustum and viewport. Align references with uniform scaling and
+document the crop and alignment; do not stretch axes independently to force a
+match. Inspect masks and internal landmarks as well as any overlap metric.
+
+## Author review records
+
+After technical validation, `review <id> [vNN] --init` prepares
+`validation/visual_review.json`. It never marks artwork passed. A current
+structured record is preserved; a legacy or stale record is archived by content
+hash under `validation/review_history/` before a new pending draft is created.
+Existing render evidence populates the draft with image hashes and view names.
+
+Personally inspect the actual export and complete:
+
+- `scope`: `model`, `refinement`, `palette` or `animation`, and `reviewedAt`.
+- `checks`: `referenceFidelity`, `construction`, `readability` and `motion`, each
+  with `status` and concrete `findings`. Use `passed`, `failed`, `pending`, or
+  `not_applicable` with a reason. Scale the work to the requested change.
+- `secondPass`: the assessment after the initial repair pass, including what was
+  corrected and rechecked or why the affected checks are clean.
+- `evidence`: inspected files with a project-relative `path`, `sha256`, and `view`;
+  add clip/time context when relevant. Extra Inspector close-ups belong here too.
+  Keep evidence within the asset's source folder. Image hashes can be obtained
+  with `Get-FileHash -Algorithm SHA256` (store lowercase hex) or Node's `hash` helper.
+- `userAcceptance`: `pending`, `accepted` or `rejected`; acceptance/rejection needs
+  a note of the explicit user feedback. Do not infer acceptance from a clean check.
+- `limitations`: concrete remaining scope or artistic judgments, or an empty list.
+
+For a category lifecycle presentation effect, the draft also records
+`presentationFiles` with the shared renderer's path/hash. A renderer-only change
+invalidates that assessment even if Blender and GLB bytes remain unchanged.
+
+Run `review <id> [vNN]` before handoff. It exits nonzero for missing/incomplete
+assessments, technical failure, changed evidence, stale source/export/revision,
+or recorded user rejection. User acceptance may remain pending: this is an author
+self-check, not a user approval gate. An accepted review applies only to that
+revision. The command verifies record completeness and file identities; it cannot
+judge the truth of an artistic assessment or replace looking at the images.
+
+Technical export remains available for iterative inspection. It does not certify
+visual quality. Older review files remain historical after a new export and fail
+the identity check until an author completes a current review. Likewise, rerunning
+numeric validation does not create or erase artistic acceptance. The Inspector's
+loaded hash must match the reviewed payload before claiming its view is refreshed.
+
+## Technical checks and preview
+
+Towers/enemies use the baseline and model-first handoff in the visual guide.
+Deliver the reviewed model and ask whether to add animations before beginning
+that pass, unless continuation is already authorized. Rest Pose is the unanimated
+state; Walk/locomotion exports as `move`. Use the dedicated project
+`game-asset-animation` skill after authorization. Model-stage manifests may have
+an empty clip list while the decision record explicitly tracks animation pending.
+
+`node tools/asset-pipeline/animation-coverage.mjs` prints a read-only inventory of
+baseline clip names in both manifests and runtime GLBs for all registered tower
+and enemy versions. Missing names identify backlog; they do not invalidate a
+model review milestone or authorize work on other assets. Coverage alone does
+not prove that channels move or that motion has passed visual review. The latest
+inventory is recorded in `assets/animation_coverage.json`.
+
+Tower Place/Resolve defaults and category distinctions live in the visual guide.
+The shared category effects and their renderer integration contract are documented in
+`tools/asset-presentation/README.md`. Complete effects require that presentation
+module in addition to the pose clips in the GLB. The Inspector previews both and
+its Effects toggle exposes the underlying pose. Run
+`node tools/asset-inspector/verify-digital-resolve.mjs` after changing this effect.
+Run `node tools/asset-inspector/verify-lifecycle.mjs` for Glitch breach and Blueprint.
 
 Checks cover container integrity, self-contained resources, used geometry/materials, camera/light exclusion, loaded triangle/material/mesh/texture/bone budgets, texture dimensions, required anchors and clip names, identity root/mesh transforms, rest grounding, optional size bounds, skin weights/indices, finite sampled geometry/animation, stationary root and loop endpoints. Orientation/silhouette, attachment quality, foot sliding, crossings and animation appeal still need visual review. Metre scale is checked in Blender; glTF itself carries no authoring-unit metadata.
 
@@ -49,14 +123,21 @@ Each entry identifies exactly one uniquely named material's sRGB base-colour map
 
 Manifest checks reject invalid colours, duplicate material selectors, overlapping/out-of-bounds rectangles and oversized dimensions. Runtime delivery checks require the declared material, sRGB base map, dimensions and matching swatch pixels (one byte of colour tolerance). Missing or mismatched texture mappings in the Inspector show an explanation and keep fallback controls available. UVs must already target the intended swatches; use asset-specific UV/role checks when available.
 
+These checks enforce source/contract/export agreement, not a global colour
+whitelist or colour-count budget. Shared palettes suggest reusable values;
+authorized design changes may introduce new colours. Update the affected source
+and contract together. Keep explicit per-asset limits scoped to the corresponding
+design decision; do not infer a global cap from a review iteration.
+
 Inspector edits clone the base texture with an independent image source, preserving colour space, UV channel, transform, sampling and alpha. Emission maps are not recoloured implicitly. Reset/reload disposes preview resources and restores the original. Copied notes include `texturePaletteEdits` with the exact rectangle and original/new colours. Apply those edits to the packed image in the authoritative Blender source, update manifest swatch colours, save/repack and use ordinary guarded export. Editing a neighbouring PNG alone does not update an image already packed in a saved `.blend`.
 
-Dependencies: Node on PATH; Blender on PATH or `BLENDER_PATH` (Windows installations are discovered under Program Files); Playwright installed in the project or configured runtime, or `PLAYWRIGHT_MODULE_PATH`; browser channel `BROWSER_CHANNEL` (default `msedge`). Three.js and its license are checked in under `tools/asset-inspector/vendor/`. No CDN or external service is required. Configure `PORT` for a fixed preview port; otherwise the server uses 4174–4184.
+Dependencies: Node on PATH; Blender on PATH or `BLENDER_PATH` (Windows installations are discovered under Program Files); Playwright installed in the project or configured runtime, or `PLAYWRIGHT_MODULE_PATH`; browser channel `BROWSER_CHANNEL` (default `msedge`). Export resolves the Playwright module before running Blender so a missing review dependency fails early. Three.js and its license are checked in under `tools/asset-inspector/vendor/`. No CDN or external service is required. Configure `PORT` for a fixed preview port; otherwise the server uses 4174–4184.
 
 Verification:
 
 ```text
 node tools/asset-pipeline/verify.mjs
+node tools/asset-pipeline/verify-visual-review.mjs
 node tools/asset-pipeline/verify-palette-migration.mjs
 node tools/asset-inspector/verify.cjs
 node tools/asset-inspector/verify-review.cjs

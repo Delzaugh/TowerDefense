@@ -1,0 +1,37 @@
+{
+  "asset": "campus_tree_pine_bare",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "ee806616c3bd10556030260bed5e515c91b35ebd7b8144a62d0f900a61e6592e",
+  "checkedAt": "2026-09-24T11:12:46.839Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 122,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.302194356918335,
+    4.119999885559082,
+    2.302194356918335
+  ],
+  "bounds": [
+    [
+      -1.1510971784591675,
+      0,
+      -1.1510971784591675
+    ],
+    [
+      1.1510971784591675,
+      4.119999885559082,
+      1.1510971784591675
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "445e840725b525ff68df6e47a4d4d9745cf5483637d56a2a33cb8652583ad783",
+  "source": "blender/environment/campus_tree_pine_bare/v01/campus_tree_pine_bare_v01.blend",
+  "runtime": "assets/runtime/environment/campus_tree_pine_bare_v01.glb"
+}

@@ -1,12 +1,12 @@
 # Asset material alignment
 
-Status: Completed user-authorized texture-preferred migration, 2026-09-17. 24 assets converted and visually reviewed; all 90 currently registered versions use base-colour textures. This supersedes the earlier proposal to default new bespoke assets to vertex colours. Shared policy is in [Visual_Asset_Guide.md](Visual_Asset_Guide.md); exact colours and exceptions remain beside each asset.
+Status: Completed user-authorized texture-preferred migration, 2026-09-17. At completion, 24 assets were converted and visually reviewed and all 90 then-registered versions used base-colour textures. These are historical counts. This supersedes the earlier proposal to default new bespoke assets to vertex colours. Shared policy is in [Visual_Asset_Guide.md](Visual_Asset_Guide.md); exact colours and exceptions remain beside each asset.
 
 ## Decision
 
 Prefer small palette textures for new and refined assets. Preserve imported KayKit atlases. Keep vertex colours when continuous gradients, procedural variation or another demonstrated authoring/performance benefit fits the asset better; document that reason. Consistent editing is the objective, not forcing every possible asset into one format.
 
-The original 2026-09-13 audit covered 74 registered versions: 64 base-textured and 10 vertex-coloured (including Missing Details' separate emission map). The [Bug experiment](../../blender/enemies/problem_bug_palette_test/v01/README.md) established appearance and interface parity; its original 5.34% transfer-size reduction is a historical experiment result, not a catalog-wide performance promise. Named texture-role editing, reset and validation were subsequently implemented in the Inspector.
+The original 2026-09-13 audit covered 74 registered versions: 64 base-textured and 10 vertex-coloured (including Missing Details' separate emission map). The initial Bug experiment established appearance and interface parity: a 32 x 4 palette reduced its GLB from 336,116 to 318,160 bytes (5.34%) with unchanged geometry, rig and animation. This is a historical experiment result, not a catalog-wide performance promise. Named texture-role editing, reset and validation were subsequently implemented in the Inspector. The obsolete sample source, runtime and registration were deleted at the user's request on 2026-09-27; regression checks now use the production Bug.
 
 ## Migration method
 
@@ -16,7 +16,7 @@ Recipes can continue to use semantic colours as construction inputs. Guarded reb
 
 ## Evidence and scope
 
-The current per-version disposition, before/after hashes, size changes, palette dimensions and review links are recorded in [palette_conversion_report.json](../../assets/palette_conversion_report.json). Each converted asset also has `validation/palette_parity.json`, `palette_source_conversion.json`, `palette_visual_report.json` and `palette_review.png`, plus preserved original renders and a source/runtime milestone.
+The historical migration disposition, before/after hashes, size changes, palette dimensions and review links are recorded in [palette_conversion_report.json](../../assets/palette_conversion_report.json). Each converted asset also has `validation/palette_parity.json`, `palette_source_conversion.json`, `palette_visual_report.json` and `palette_review.png`, plus preserved original renders and a source/runtime milestone. The final six-Problem palette and source/export alignment are recorded in [problems_palette_alignment.json](../../assets/problems_palette_alignment.json).
 
 The production workflow, Tower concept-sheet skill and model-spec-sheet skill follow the same preference. Concept art does not pretend to contain UVs, and specification sheets report actual delivered texture/vertex data. Unrelated raster-image, SVG and CAD workflows are outside this 3D material decision.
 

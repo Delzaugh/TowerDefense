@@ -1,0 +1,15 @@
+{
+  "id": "problem_dead_code",
+  "revision": 7,
+  "sha256": "4f1ba014aad4d26238d25336ee915211a36ddb962cfc6c862d5c7e6cb13d38f1",
+  "uniqueBaseColors": 6,
+  "parity": {
+    "passed": true,
+    "vertices": 1736,
+    "meshes": 1,
+    "materials": 1,
+    "oldBytes": 115136,
+    "newBytes": 115316,
+    "checks": "Exact exported topology, positions, normals, skinning, old UV channels, morph targets, rig, anchors, clips, and material/emission parity; base-colour storage only."
+  }
+}

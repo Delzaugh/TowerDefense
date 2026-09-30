@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_construction_decor",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "498ba214264fc1420daa3b91ae57f3d371b8796b41c3497ac5d230f87260ab4c",
+  "sourceHash": "8f4d7c7835d10a31cd27e521f3f4726456852aa5a8912906be6fb68b54d7a615",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T11:19:20.649Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Original campus-style scene follows requested landmarks: dominant open unfinished frame, tower crane, site office, coherent stocks and low barriers. The crane and open roof bays remain identifiable in silhouette."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Revision 3 fixes the first-pass default cube UV selection by explicitly selecting Palette UVs. Close/reverse views show footing contact, lintels seated on columns, upper-floor support, attached crane mast/boom and deliberate hanging hook. Runtime geometry audit confirms empty route/landing and 2.642 m minimum edge clearance."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Phone-width review retains the yellow crane, white open building frame and blue office as three clear masses. Supplies and low barriers remain subordinate; open space separates the route."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After source UV repair and guarded re-export, reassessed close/reverse/phone views plus rear/top/silhouette. Solid palette assignments are now consistent, roof bays remain open and crane connections read correctly. No further scoped construction defects found."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_construction_decor/v01/validation/iso.png",
+      "sha256": "f60c05b153dedc90ccb776aba956792c7aff33450ebb0721f9a9a373d8170d5b",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_construction_decor/v01/validation/iso-silhouette.png",
+      "sha256": "7b404603eafac3937148a20ced78060032205abf02ab2068f6dc4e8b8f778cd9",
+      "view": "iso",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/campus_construction_decor/v01/validation/rear.png",
+      "sha256": "83211ba82a6adde5a4923cf3cc4377673f072355b07bec661b14f3b168f7cfed",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_construction_decor/v01/validation/rear-silhouette.png",
+      "sha256": "6d0f810b99b0cc718228e21deda259aed61acdd51eb2ba3ffb66f4db924f5f5a",
+      "view": "rear",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/campus_construction_decor/v01/validation/top.png",
+      "sha256": "1e9dd751e7f43fb93a9c7318bd16f291f95e343ed3b6bbf6b8c5b7e5000d46cd",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_construction_decor/v01/validation/top-silhouette.png",
+      "sha256": "fe4bee2862fd6941b9198bf4b8281d8fab7a41331a5fbb39c3386b5682592ca8",
+      "view": "top",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/campus_construction_decor/v01/validation/inspector-iso.png",
+      "sha256": "2025ed6c02ae077bc18e94b562b52e2068210dbb41aed1fd58b766ed1ed4895b",
+      "view": "inspector-iso"
+    },
+    {
+      "path": "blender/environment/campus_construction_decor/v01/validation/inspector-close.png",
+      "sha256": "26055ddcd2393313a9ebc93379bcac49d8a3052026a4cb760d04ac72b9fe4c4c",
+      "view": "inspector-close"
+    },
+    {
+      "path": "blender/environment/campus_construction_decor/v01/validation/inspector-reverse.png",
+      "sha256": "59c1a27d7d282aecea3ccd7340d192bc1ce09f1edb2f404eaad33a4797b6f517",
+      "view": "inspector-reverse"
+    },
+    {
+      "path": "blender/environment/campus_construction_decor/v01/validation/inspector-phone.png",
+      "sha256": "1ee6c963e4fabbd7952d5fbaec15b79829c51baf75b78dae017c32547071f8c7",
+      "view": "inspector-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "rejected",
+    "note": "User reported beam/column collisions and blue/white coplanar flicker in the revision 3 construction frame on 2026-09-24."
+  },
+  "limitations": [
+    "In-campus combined composition is reviewed by the parent integration task."
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "mode": "built-in image_gen",
+  "prompt": "Preserve these exact six hat-character designs, colours, shape proportions and six-panel template. ONLY reduce and reposition character assemblies to make room for the labels: uniformly scale EACH full character including hat, ears and pencil to70% of its CURRENT size. Put their top-row bottom contact at y390, bottom-row bottom contact at y785. All upper models and shadows must end byy400, lower byy795. Exact originalcanvas1672x941. Top centre/head assemblies should occupy about y190–390 and bottomy585–785. Preserve darknavy grid outside each resized subject, no clipping. Leave y410–482 and805–879 completely empty for laterlabels. Existing header/badges/layoutunchanged. No new elements. Do not enlarge them again. Do not redraw hats with different details. Keep friendly expressions."
+}

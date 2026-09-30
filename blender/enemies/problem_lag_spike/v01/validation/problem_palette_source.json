@@ -1,0 +1,63 @@
+{
+  "asset": "problem_lag_spike",
+  "sourceBefore": "42deab141f321a002ba2a7d8a8dbcb743c1de429413eddf38b1b4651864424b2",
+  "revisionBefore": 10,
+  "colorsBefore": {
+    "body": "#343344",
+    "body_dark": "#252533",
+    "head": "#454154",
+    "limb": "#625D77",
+    "joint": "#302E40",
+    "blue_dark": "#304568",
+    "blue": "#328EE8",
+    "cyan": "#30C9F5",
+    "ice": "#94E4FF"
+  },
+  "colorsAfter": {
+    "blue": "#328EE8",
+    "blue_dark": "#344D69",
+    "body": "#233B58",
+    "body_dark": "#192E46",
+    "cyan": "#30C9F5",
+    "head": "#344D69",
+    "ice": "#94E4FF",
+    "joint": "#192E46",
+    "limb": "#627389"
+  },
+  "objects": 5,
+  "actions": [
+    "hit",
+    "idle",
+    "move",
+    "resolve",
+    "spawn"
+  ],
+  "images": [
+    {
+      "name": "problem_lag_spike_palette",
+      "size": [
+        32,
+        8
+      ],
+      "packed": true
+    }
+  ],
+  "materialLinks": {
+    "lag_spike_palette": [
+      {
+        "input": "Base Color",
+        "image": "problem_lag_spike_palette"
+      }
+    ]
+  },
+  "bindings": [
+    {
+      "material": "lag_spike_palette",
+      "image": "problem_lag_spike_palette",
+      "size": [
+        32,
+        8
+      ]
+    }
+  ]
+}

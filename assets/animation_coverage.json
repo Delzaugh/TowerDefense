@@ -1,0 +1,537 @@
+{
+  "checkedAt": "2026-09-26T22:56:52.783Z",
+  "baseline": [
+    "idle",
+    "work",
+    "move",
+    "place",
+    "hit",
+    "resolve"
+  ],
+  "restPose": "Unanimated model/bind state; not a clip. Must be visually reviewed.",
+  "arrival": "Enemies may fulfill the Place/arrival slot with spawn; no duplicate aliases are required.",
+  "meaning": "Read-only name coverage. Does not prove moving channels, visual quality, user acceptance or authorization to animate the backlog.",
+  "summary": {
+    "assets": 21,
+    "complete": 4,
+    "pending": 17
+  },
+  "assets": [
+    {
+      "id": "copilot_base",
+      "version": "v01",
+      "category": "towers",
+      "revision": 1,
+      "sha256": "6663079d8be7d4a9b65abd7bde85f518cdaa46ff85769680cdcd9f577c3f90b3",
+      "declared": [],
+      "exported": [],
+      "arrivalClip": "place",
+      "missing": [
+        "idle",
+        "work",
+        "move",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "copilot_base",
+      "version": "v02",
+      "category": "towers",
+      "revision": 4,
+      "sha256": "5e77ade5c6ab41a765cf5f3638ce2629cad6efb1b6c9558d57c41a4642a598cf",
+      "declared": [
+        "idle",
+        "work",
+        "move",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "exported": [
+        "idle",
+        "work",
+        "hit",
+        "move",
+        "place",
+        "resolve"
+      ],
+      "arrivalClip": "place",
+      "missing": [],
+      "error": null,
+      "coverage": "complete"
+    },
+    {
+      "id": "copilot_mona_head",
+      "version": "v01",
+      "category": "towers",
+      "revision": 1,
+      "sha256": "bccfb8d95d5e909681b07288884e6d7ff0671ba2673a51cd5f62668bafe954da",
+      "declared": [],
+      "exported": [],
+      "arrivalClip": "place",
+      "missing": [
+        "idle",
+        "work",
+        "move",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "copilot_rubber_duck",
+      "version": "v01",
+      "category": "towers",
+      "revision": 1,
+      "sha256": "891e9cd2c45ce4482b6febe369ade2bc5e11801e339730a92c98db9ccb3e18a0",
+      "declared": [],
+      "exported": [],
+      "arrivalClip": "place",
+      "missing": [
+        "idle",
+        "work",
+        "move",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "copilot_shield",
+      "version": "v01",
+      "category": "towers",
+      "revision": 1,
+      "sha256": "9898e4d8fabaa5c9c4fc977b25bba91a93a27f204bdcb876a71c8b92b5f620ba",
+      "declared": [],
+      "exported": [],
+      "arrivalClip": "place",
+      "missing": [
+        "idle",
+        "work",
+        "move",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "problem_bug",
+      "version": "v01",
+      "category": "enemies",
+      "revision": 12,
+      "sha256": "c065c487c7669562106e12753aa2759bdf194b28bb4214a676fb613871225c41",
+      "declared": [
+        "move",
+        "hit",
+        "resolve",
+        "spawn"
+      ],
+      "exported": [
+        "move",
+        "hit",
+        "spawn",
+        "resolve"
+      ],
+      "arrivalClip": "spawn",
+      "missing": [
+        "idle",
+        "work"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "problem_lag_spike",
+      "version": "v01",
+      "category": "enemies",
+      "revision": 11,
+      "sha256": "57b50be10be8426bf8639494d49e339d03a9ca9809124285bd998f4b99e12f89",
+      "declared": [
+        "idle",
+        "move",
+        "hit",
+        "spawn",
+        "resolve"
+      ],
+      "exported": [
+        "idle",
+        "move",
+        "hit",
+        "spawn",
+        "resolve"
+      ],
+      "arrivalClip": "spawn",
+      "missing": [
+        "work"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "problem_vague_spec",
+      "version": "v01",
+      "category": "enemies",
+      "revision": 9,
+      "sha256": "5b437567df99096c2ca1b63ee4913bb1604ee4a268d7e11a7092eb851d433b79",
+      "declared": [
+        "idle",
+        "move",
+        "hit",
+        "spawn",
+        "resolve"
+      ],
+      "exported": [
+        "idle",
+        "move",
+        "hit",
+        "spawn",
+        "resolve"
+      ],
+      "arrivalClip": "spawn",
+      "missing": [
+        "work"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "problem_missing_details",
+      "version": "v01",
+      "category": "enemies",
+      "revision": 13,
+      "sha256": "6b3e267075d1014c018ed681362670af86c5412667d3a2828777a15e54c49c6a",
+      "declared": [
+        "idle",
+        "move",
+        "hit",
+        "resolve",
+        "spawn",
+        "sit_down",
+        "seated"
+      ],
+      "exported": [
+        "idle",
+        "move",
+        "hit",
+        "sit_down",
+        "seated",
+        "spawn",
+        "resolve"
+      ],
+      "arrivalClip": "spawn",
+      "missing": [
+        "work"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "copilot_golden_compiler",
+      "version": "v01",
+      "category": "towers",
+      "revision": 14,
+      "sha256": "1d88ddd329b57876f2db41e45a40e83df55e2596763f7af819f3a7e88ee8b719",
+      "declared": [
+        "idle",
+        "work"
+      ],
+      "exported": [
+        "idle",
+        "work"
+      ],
+      "arrivalClip": "place",
+      "missing": [
+        "move",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "copilot_commit_halo",
+      "version": "v01",
+      "category": "towers",
+      "revision": 20,
+      "sha256": "58a9338892df9034089a5ece9389bc692d2ef5a47af3f38e87378630170f83cc",
+      "declared": [
+        "idle",
+        "work"
+      ],
+      "exported": [
+        "idle",
+        "work"
+      ],
+      "arrivalClip": "place",
+      "missing": [
+        "move",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "problem_dead_code",
+      "version": "v01",
+      "category": "enemies",
+      "revision": 7,
+      "sha256": "4f1ba014aad4d26238d25336ee915211a36ddb962cfc6c862d5c7e6cb13d38f1",
+      "declared": [
+        "idle",
+        "move",
+        "hit",
+        "spawn",
+        "resolve"
+      ],
+      "exported": [
+        "idle",
+        "move",
+        "hit",
+        "spawn",
+        "resolve"
+      ],
+      "arrivalClip": "spawn",
+      "missing": [
+        "work"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "problem_spaghetti_code",
+      "version": "v01",
+      "category": "enemies",
+      "revision": 12,
+      "sha256": "4d6eae17c8a59c916f616666d34ea6a10e19ad9c74ca54cc2264be91edbf1a04",
+      "declared": [
+        "idle",
+        "move",
+        "hit",
+        "spawn",
+        "resolve"
+      ],
+      "exported": [
+        "idle",
+        "move",
+        "hit",
+        "spawn",
+        "resolve"
+      ],
+      "arrivalClip": "spawn",
+      "missing": [
+        "work"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "copilot_bert_breugelmans",
+      "version": "v01",
+      "category": "towers",
+      "revision": 36,
+      "sha256": "4a7ebbc16f309e796241b3d6ad3c2d6c8b48ca450aba50b297dccd959e78f1db",
+      "declared": [
+        "idle",
+        "work",
+        "celebrate_team",
+        "move"
+      ],
+      "exported": [
+        "idle",
+        "celebrate_team",
+        "move",
+        "work"
+      ],
+      "arrivalClip": "place",
+      "missing": [
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "copilot_octocat_classic",
+      "version": "v01",
+      "category": "towers",
+      "revision": 9,
+      "sha256": "e211dce334989587b61572cbbb5d0e62ceb4383f3d1b8dded1f7d73f7e50703d",
+      "declared": [],
+      "exported": [],
+      "arrivalClip": "place",
+      "missing": [
+        "idle",
+        "work",
+        "move",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "copilot_octocat_modern",
+      "version": "v01",
+      "category": "towers",
+      "revision": 9,
+      "sha256": "2917ce38babc993d7c492ea660837652ff0bcdc82d006d741cd85056661231c1",
+      "declared": [],
+      "exported": [],
+      "arrivalClip": "place",
+      "missing": [
+        "idle",
+        "work",
+        "move",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "copilot_octocat_classic_lowpoly",
+      "version": "v01",
+      "category": "towers",
+      "revision": 7,
+      "sha256": "bdf5125b1e9500bce923f71fae74e56748a91160d197ff0f604ff498b38c0382",
+      "declared": [
+        "idle",
+        "wave",
+        "celebrate",
+        "move"
+      ],
+      "exported": [
+        "idle",
+        "move",
+        "wave",
+        "celebrate"
+      ],
+      "arrivalClip": "place",
+      "missing": [
+        "work",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "copilot_linter",
+      "version": "v01",
+      "category": "towers",
+      "revision": 15,
+      "sha256": "661861e7c46c8433e9bc75f3543cf43674a90e3143756c1ad310e10fe48040a6",
+      "declared": [
+        "idle",
+        "work",
+        "move",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "exported": [
+        "idle",
+        "work",
+        "move",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "arrivalClip": "place",
+      "missing": [],
+      "error": null,
+      "coverage": "complete"
+    },
+    {
+      "id": "copilot_developer",
+      "version": "v01",
+      "category": "towers",
+      "revision": 13,
+      "sha256": "9fd5a1b9dc6414306847da17caa29a15f7fd1e2a956fb1198ded1d06553d9fb8",
+      "declared": [
+        "idle",
+        "work",
+        "move",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "exported": [
+        "idle",
+        "work",
+        "move",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "arrivalClip": "place",
+      "missing": [],
+      "error": null,
+      "coverage": "complete"
+    },
+    {
+      "id": "copilot_human_developer",
+      "version": "v01",
+      "category": "towers",
+      "revision": 4,
+      "sha256": "9ed0ed1c42247f881a8507fb37ce0bb8b9a1a213156d2f99cba78c831e4b0298",
+      "declared": [],
+      "exported": [],
+      "arrivalClip": "place",
+      "missing": [
+        "idle",
+        "work",
+        "move",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "error": null,
+      "coverage": "pending"
+    },
+    {
+      "id": "copilot_security",
+      "version": "v01",
+      "category": "towers",
+      "revision": 18,
+      "sha256": "717eba681251162ec79f837bea3c934be45f871e70d3f80528ed31c7ce9c154b",
+      "declared": [
+        "idle",
+        "work",
+        "move",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "exported": [
+        "idle",
+        "work",
+        "move",
+        "place",
+        "hit",
+        "resolve"
+      ],
+      "arrivalClip": "place",
+      "missing": [],
+      "error": null,
+      "coverage": "complete"
+    }
+  ]
+}

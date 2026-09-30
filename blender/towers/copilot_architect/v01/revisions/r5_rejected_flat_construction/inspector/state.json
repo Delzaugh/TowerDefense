@@ -1,0 +1,76 @@
+{
+  "state": {
+    "resolveBudget": {
+      "used": 0,
+      "maxFragments": 256
+    },
+    "resolveEffects": [
+      {
+        "path": "towers/copilot_architect_v01.glb"
+      }
+    ],
+    "loading": false,
+    "activePath": "towers/copilot_architect_v01.glb",
+    "view": "iso",
+    "projection": "OrthographicCamera",
+    "distance": 31.403240469539654,
+    "target": [
+      0,
+      1.350000023841858,
+      0.029999971389770508
+    ],
+    "camera": [
+      16.292808027574686,
+      17.51698001068402,
+      21.462141177283687
+    ],
+    "effects": [
+      {
+        "path": "towers/copilot_architect_v01.glb",
+        "enabled": false,
+        "triangles": 0,
+        "meshes": 0,
+        "materials": 0
+      }
+    ],
+    "entries": [
+      {
+        "path": "towers/copilot_architect_v01.glb",
+        "revision": "af5cc8f250f90c4c80b02a1d98222b007da39d77c42eeab2f3d76061a561cc4f",
+        "triangles": 1466,
+        "meshes": 2,
+        "materials": 2,
+        "bounds": [
+          [
+            -1.4299999475479126,
+            0,
+            -1.1200000047683716
+          ],
+          [
+            1.4299999475479126,
+            2.700000047683716,
+            1.1799999475479126
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [],
+        "clip": null,
+        "time": 0,
+        "playing": false,
+        "loop": true,
+        "speed": 1,
+        "pose": []
+      }
+    ]
+  },
+  "errors": []
+}

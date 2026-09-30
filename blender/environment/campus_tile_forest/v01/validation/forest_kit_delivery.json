@@ -1,0 +1,175 @@
+{
+  "reviewedAt": "2026-09-24T11:19:57.887Z",
+  "assets": [
+    {
+      "id": "campus_tree_round_bare",
+      "revision": 2,
+      "triangles": 48,
+      "materials": 1,
+      "meshes": 1,
+      "dimensions": [
+        2.146620035171509,
+        3.610000162124633,
+        1.922446370124817
+      ],
+      "source": "blender/environment/campus_tree_round_bare/v01/campus_tree_round_bare_v01.blend",
+      "runtime": "assets/runtime/environment/campus_tree_round_bare_v01.glb",
+      "sourceHash": "84ccaa67c7c518b56657cf66fd2e8d91b6bb8c5ff5f79ee964c8fc4454ba2248",
+      "sha256": "e41c2abe2ea7c2fed94eddbe8f2433a42773cf359987842379cc27c6deeb3b81",
+      "reviewReady": true
+    },
+    {
+      "id": "campus_tree_tall_bare",
+      "revision": 2,
+      "triangles": 48,
+      "materials": 1,
+      "meshes": 1,
+      "dimensions": [
+        1.574187994003296,
+        4.439999489784242,
+        1.4971263408660889
+      ],
+      "source": "blender/environment/campus_tree_tall_bare/v01/campus_tree_tall_bare_v01.blend",
+      "runtime": "assets/runtime/environment/campus_tree_tall_bare_v01.glb",
+      "sourceHash": "6c0272bd5e21339a03e378c3e80895912008c261d027cbd36f426902a370baa3",
+      "sha256": "9e29cd96c2c63be4ab88d84a680275ccd0eb4cfc9a2a634d6be39cfa0c0651f9",
+      "reviewReady": true
+    },
+    {
+      "id": "campus_tree_cluster_bare",
+      "revision": 2,
+      "triangles": 96,
+      "materials": 1,
+      "meshes": 1,
+      "dimensions": [
+        2.808410882949829,
+        3.0740001487731927,
+        1.493635654449463
+      ],
+      "source": "blender/environment/campus_tree_cluster_bare/v01/campus_tree_cluster_bare_v01.blend",
+      "runtime": "assets/runtime/environment/campus_tree_cluster_bare_v01.glb",
+      "sourceHash": "55931254eb5a6535597b326a133be10540965961fcd530aa8b9ed76b9654b186",
+      "sha256": "cdf9d7b7b546d040d9cd387c80fbb96e6e3a6da7f5bb129ff1776158de1d0908",
+      "reviewReady": true
+    },
+    {
+      "id": "campus_tree_pine_bare",
+      "revision": 2,
+      "triangles": 122,
+      "materials": 1,
+      "meshes": 1,
+      "dimensions": [
+        2.302194356918335,
+        4.119999885559082,
+        2.302194356918335
+      ],
+      "source": "blender/environment/campus_tree_pine_bare/v01/campus_tree_pine_bare_v01.blend",
+      "runtime": "assets/runtime/environment/campus_tree_pine_bare_v01.glb",
+      "sourceHash": "445e840725b525ff68df6e47a4d4d9745cf5483637d56a2a33cb8652583ad783",
+      "sha256": "ee806616c3bd10556030260bed5e515c91b35ebd7b8144a62d0f900a61e6592e",
+      "reviewReady": true
+    },
+    {
+      "id": "campus_tree_spreading_bare",
+      "revision": 2,
+      "triangles": 144,
+      "materials": 1,
+      "meshes": 1,
+      "dimensions": [
+        3.6467384099960327,
+        3.4700000286102295,
+        1.8033567667007446
+      ],
+      "source": "blender/environment/campus_tree_spreading_bare/v01/campus_tree_spreading_bare_v01.blend",
+      "runtime": "assets/runtime/environment/campus_tree_spreading_bare_v01.glb",
+      "sourceHash": "05b112e1b6cb04dd12a77a358856d1710cc206325255073b18180eb76d13126e",
+      "sha256": "d02edb11d69d16c1e5c5f04d287fcf119c8beaf772f40510ce489562bdfdf2b4",
+      "reviewReady": true
+    },
+    {
+      "id": "campus_tree_autumn_bare",
+      "revision": 2,
+      "triangles": 96,
+      "materials": 1,
+      "meshes": 1,
+      "dimensions": [
+        2.508351683616638,
+        3.75,
+        1.6332287788391113
+      ],
+      "source": "blender/environment/campus_tree_autumn_bare/v01/campus_tree_autumn_bare_v01.blend",
+      "runtime": "assets/runtime/environment/campus_tree_autumn_bare_v01.glb",
+      "sourceHash": "bf5f290f9d533aa6a841a742d657c4749b6516af8a070aad0f5934af040f8165",
+      "sha256": "73eef6b6f0be5b8eacb8a3fdb0a0642f534d34ee332454f10aa55e981c1b7953",
+      "reviewReady": true
+    },
+    {
+      "id": "campus_forest_mixed",
+      "revision": 3,
+      "triangles": 772,
+      "materials": 1,
+      "meshes": 1,
+      "dimensions": [
+        8.960922718048096,
+        4.173599749183655,
+        9.32766580581665
+      ],
+      "source": "blender/environment/campus_forest_mixed/v01/campus_forest_mixed_v01.blend",
+      "runtime": "assets/runtime/environment/campus_forest_mixed_v01.glb",
+      "sourceHash": "4ba7824d47acdadd2c2987727ce3ffa4c74f284158f80e0bc5a24d2c98b9cac6",
+      "sha256": "5742549703a9c20659d5338031416051052a2676260c45cc057982ae93dd0be0",
+      "reviewReady": true
+    },
+    {
+      "id": "campus_forest_dense",
+      "revision": 2,
+      "triangles": 1068,
+      "materials": 1,
+      "meshes": 1,
+      "dimensions": [
+        9.010334968566895,
+        4.795199899101258,
+        9.146356105804443
+      ],
+      "source": "blender/environment/campus_forest_dense/v01/campus_forest_dense_v01.blend",
+      "runtime": "assets/runtime/environment/campus_forest_dense_v01.glb",
+      "sourceHash": "c0023a74a00520188cef77682fdf0ed8da7ad1dc5525f60b99848feeb9454801",
+      "sha256": "648f16cc7a29eb9a00ae971a0de3a1e5dc35098a0e8c2fcf1f1fbebbb7bcf20a",
+      "reviewReady": true
+    },
+    {
+      "id": "campus_forest_edge",
+      "revision": 2,
+      "triangles": 650,
+      "materials": 1,
+      "meshes": 1,
+      "dimensions": [
+        10.914367198944092,
+        4.217999958610534,
+        4.729294538497925
+      ],
+      "source": "blender/environment/campus_forest_edge/v01/campus_forest_edge_v01.blend",
+      "runtime": "assets/runtime/environment/campus_forest_edge_v01.glb",
+      "sourceHash": "4ada1c14585d60b3510f9786664cbed0f6737ed4cd84f7c9a07ddd6d2cf760e8",
+      "sha256": "e047a304c599939d0f23f76d7d288897d688faaa3d0d924ccfaba0fcd298da28",
+      "reviewReady": true
+    },
+    {
+      "id": "campus_tile_forest",
+      "revision": 3,
+      "triangles": 3986,
+      "materials": 2,
+      "meshes": 2,
+      "dimensions": [
+        36,
+        6.124955177307129,
+        31.17691421508789
+      ],
+      "source": "blender/environment/campus_tile_forest/v01/campus_tile_forest_v01.blend",
+      "runtime": "assets/runtime/environment/campus_tile_forest_v01.glb",
+      "sourceHash": "4536b0c8050970373825e8f2831b01a9791bc8cff350f2c47e279004d75033bf",
+      "sha256": "085da1ce09f5cc6f9154f2451ee13c58e638e12ada91cca214b32e5d10c9f14e",
+      "reviewReady": true
+    }
+  ]
+}

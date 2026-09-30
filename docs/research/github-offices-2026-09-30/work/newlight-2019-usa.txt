@@ -1,0 +1,1019 @@
+PDF PAGE 1
+ The Masters of Luminous Ceilings and Walls
+USA
+
+PDF PAGE 2
+
+
+PDF PAGE 3
+Backlit 
+Stretch 
+Ceiling 
+and Wall 
+Systems
+NEW/LIGHT P. 6
+NEW/LIGHT & NEW/ACOUSTIC P . 8
+NEW/LIGHT 3D P . 11
+NEW/LIGHT & NEW/GRAPHIC P . 14
+Light Transmission P . 16
+Lighting Guidelines P . 18
+Technical Details P . 24
+Profiles P . 62
+Membrane Options P . 64
+Client GUGGENHEIM Museum / New York, NY, USA
+Specifier James Turrell / Artist
+Product NEW/ACOUSTIC white matte micro-perforated membranes front lighted with LED
+
+PDF PAGE 4
+4
+Client Northwest World Gateway / McNamara Terminal / Detroit, MI, USA
+Specifier SmithGroup / Architect
+Product NEW/LIGHT single-layer system using T0B2 / White Translucent membranes backlit with Color Kinetics projectors
+
+PDF PAGE 5
+5
+
+PDF PAGE 6
+6
+NEW/LIGHT can be used for accent or main lighting with a variety of light sources, 
+including natural, fluorescent, LED, halogen, neon, etc. Whichever light source you 
+choose, the layout will be critical to the final outcome, since NEW/LIGHT is only a 
+diffuser. Based on the light source, the NEW/LIGHT membrane, and the depth of 
+your plenum, we will make recommendations for the ideal layout for your lighting 
+design intent.
+NEW/LIGHT offers numerous translucent membranes in various colors and light 
+transmissions that will allow you to tailor your final result to meet your required 
+lighting performance for color, evenness, and power. 
+For all horizontal NEW/LIGHT applications, we strongly recommend using a 
+double-layer system. The main function of the upper layer is to act as a dust 
+barrier and ensure the longevity of the aesthetics of the system. However, this 
+second layer can also be used as an added diffuser if needed. 
+NEW/LIGHT allows you to create beautiful  
+and functional spaces using a variety of systems  
+for backlit applications 
+Client Latham & Watkins / Chicago, IL, USA
+Specifier Gensler / Architect
+Product NEW/LIGHT double-layer system using T0B1320 / White Translucent Wide Width membrane backlit with LEDs
+
+PDF PAGE 7
+7
+
+
+PDF PAGE 8
+8
+-0.4
+-0.2
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+100 125 160 200 250 315 400 500 630 800
+1000 1250 1600 2000 2500 3150 4000 5000
+1/3 Octave Band Center Frequencies, Hz
+Absorption Coefficient
+Test 76-0013-1a (NRC=
+0.5, SAA= 0.49)
+Freq.
+Hz No Fill 1" thk, 6# F/glass 2" thk, 3# F/glass No Fill 1" thk, 6# F/glass 2" thk, 3# F/glass No Fill 1" thk, 6# F/glass 2" thk, 3# F/glass
+50 -0.03 0.13 0.08 0.21 -0.07 0.09 0.14 -0.14 0.04
+63 0.29 0.19 0.19 0.04 0.17 0.20 0.10 0.13 0.32
+80 0.21 0.26 0.29 0.28 0.27 0.30 0.24 0.27 0.21
+100 0.63 0.46 0.63 0.56 0.62 0.70 0.24 0.28 0.42
+125 0.31 0.33 0.39 0.67 0.63 0.77 0.36 0.51 0.69
+160 0.43 0.44 0.68 0.74 0.87 0.99 0.80 0.90 1.19
+200 0.36 0.42 0.87 0.71 0.85 1.09 0.62 0.76 1.06
+250 0.38 0.64 1.00 0.61 0.83 1.05 0.56 0.79 0.91
+315 0.51 0.84 0.98 0.65 0.74 0.85 0.50 0.58 0.67
+400 0.66 0.95 0.93 0.60 0.77 0.80 0.49 0.61 0.60
+500 0.62 0.77 0.78 0.51 0.60 0.65 0.42 0.48 0.55
+630 0.62 0.72 0.73 0.51 0.59 0.65 0.45 0.52 0.58
+800 0.63 0.67 0.72 0.54 0.62 0.68 0.53 0.62 0.66
+1000 0.70 0.72 0.77 0.69 0.73 0.77 0.67 0.74 0.76
+1250 0.73 0.74 0.76 0.71 0.77 0.77 0.69 0.73 0.75
+1600 0.64 0.65 0.66 0.64 0.67 0.67 0.63 0.66 0.65
+2000 0.57 0.57 0.58 0.55 0.58 0.57 0.55 0.58 0.57
+2500 0.48 0.48 0.48 0.50 0.50 0.49 0.48 0.49 0.48
+3150 0.40 0.42 0.42 0.44 0.42 0.42 0.42 0.43 0.43
+4000 0.36 0.36 0.36 0.40 0.36 0.36 0.38 0.39 0.40
+5000 0.33 0.33 0.33 0.41 0.34 0.35 0.38 0.39 0.39
+6300 0.26 0.26 0.26 0.40 0.22 0.27 0.32 0.32 0.37
+8000 0.20 0.20 0.17 0.36 0.12 0.21 0.32 0.32 0.36
+10000 -0.02 -0.02 0.05 0.38 -0.02 0.07 0.23 0.23 0.30
+NRC
+1
+0.55 0.70 0.80 0.60 0.70 0.75 0.55 0.65 0.70
+SAA
+2
+0.57 0.68 0.77 0.60 0.69 0.75 0.55 0.63 0.69
+Temp (
+o
+F) 70.5/73.5 70.5/73.5 70.5/73.5 71.5/72 70.5/72 70.5/73 70.5/72 70.5/72 70.5/73.5
+Humid (%) 57/60 57/60 57/60 59/63 57/61 57/61 57/57 57/57 57/56
+BP (%) 30.5/30.48 30.5/30.48 30.5/30.48 30.48/30.7 30.5/30.7 30.5/30.7 30.5/30.5 30.5/30.5 30.5/30.5
+1
+Noise Reduction Coefficient, NRC, per ASTM C423.
+2
+Sound Absorption Coefficient, SAA, per ASTM C423.
+3
+Test environment conditions listed were those present during empty room measurements and during specimen measurement respectively (e.g., "empty room 
+temp/room with specimen temp.")
+Test Environment Conditions
+3
+4" Cavity Depth
+Fill Arrangement
+Absorption Coefficient
+6" Cavity Depth
+Fill Arrangement
+Absorption Coefficient
+8" Cavity Depth
+Fill Arrangement
+Absorption Coefficient
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+1.6
+1.8
+100 125 160 200 250 315 400 500 630 800 1000 1250 1600 2000 2500 3150 4000 5000
+1/3 Octave Band Center Frequencies, Hz
+Absorption Coefficient
+Test 76-0013-3a (NRC=
+0.7, SAA= 0.73)
+Freq.
+Hz No Fill 1" thk, 6# F/glass 2" thk, 3# F/glass No Fill 1" thk, 6# F/glass 2" thk, 3# F/glass No Fill 1" thk, 6# F/glass 2" thk, 3# F/glass
+50 -0.08 0.11 0.09 -0.08 0.01 -0.03 0.07 -0.05 -0.29
+63 0.20 0.18 0.24 0.24 0.17 0.12 0.13 0.15 0.12
+80 0.33 0.28 0.30 0.18 0.29 0.18 0.15 0.27 0.12
+100 0.49 0.60 0.56 0.57 0.46 0.68 0.18 0.26 0.36
+125 0.23 0.32 0.45 0.54 0.62 0.73 0.33 0.47 0.54
+160 0.40 0.45 0.60 0.66 0.75 0.92 0.57 0.68 0.96
+200 0.31 0.47 0.71 0.57 0.72 1.00 0.49 0.66 0.96
+250 0.30 0.55 0.95 0.47 0.69 1.02 0.50 0.74 1.00
+315 0.41 0.74 0.99 0.50 0.69 0.86 0.44 0.58 0.74
+400 0.52 0.85 0.99 0.52 0.74 0.87 0.42 0.63 0.72
+500 0.55 0.80 0.83 0.46 0.64 0.70 0.37 0.49 0.58
+630 0.55 0.76 0.78 0.47 0.61 0.69 0.38 0.50 0.59
+800 0.55 0.66 0.71 0.45 0.55 0.64 0.38 0.51 0.60
+1000 0.51 0.61 0.67 0.44 0.59 0.64 0.48 0.63 0.65
+1250 0.44 0.54 0.62 0.41 0.57 0.58 0.48 0.60 0.61
+1600 0.37 0.52 0.57 0.44 0.58 0.58 0.45 0.55 0.57
+2000 0.42 0.55 0.54 0.44 0.57 0.57 0.44 0.54 0.55
+2500 0.43 0.55 0.51 0.41 0.53 0.54 0.42 0.49 0.52
+3150 0.38 0.51 0.47 0.40 0.48 0.46 0.40 0.45 0.47
+4000 0.33 0.46 0.39 0.35 0.41 0.39 0.38 0.38 0.43
+5000 0.27 0.44 0.35 0.31 0.35 0.33 0.35 0.36 0.39
+6300 0.23 0.44 0.29 0.25 0.30 0.22 0.30 0.25 0.36
+8000 0.12 0.41 0.18 0.19 0.20 0.14 0.28 0.19 0.31
+10000 0.01 0.43 0.01 0.03 0.05 -0.03 0.23 0.04 0.22
+NRC1 0.45 0.65 0.75 0.45 0.60 0.75 0.45 0.60 0.70
+SAA2 0.45 0.63 0.74 0.47 0.62 0.72 0.44 0.58 0.67
+Temp (oF) 70.5/73 71.5/72.5 70.5/73 70.5/74 70.5/73.5 70.5/73.5 70.5/72 70.5/72 70.5/73.5
+Humid (%) 57/61 59/65 57/61 57/60 57/60 57/58 57/57 57/61 57/55
+BP (%) 30.5/30.48 30.48/30.48 30.5/30.48 30.5/30.7 30.5/30.7 30.5/30.7 30.5/30.5 30.5/30.48 30.5/30.5
+1Noise Reduction Coefficient, NRC, per ASTM C423.
+2Sound Absorption Coefficient, SAA, per ASTM C423.
+3Test environment conditions listed were those present during empty room measurements and during specimen measurement respectively (e.g., "empty room 
+temp/room with specimen temp.")
+4" Cavity Depth
+Fill Arrangement
+Absorption Coefficient
+Test Environment Conditions3
+6" Cavity Depth
+Fill Arrangement
+Absorption Coefficient
+8" Cavity Depth
+Fill Arrangement
+Absorption Coefficient
+Process
+Through its patented micro-perforation technology, NEW/LIGHT can provide a variety of acoustical 
+absorptions with or without acoustical backing material. Below are a few graphs of sound absorption for 
+single and double-layer systems. 
+Client Covington & Burling / Washington, DC, USA
+Specifier LSM / Architects
+Product NEW/LIGHT and NEW/ACOUSTIC double-layer system using ACT0B / White Translucent micro-perforated membranes backlit with GE Tetra grid
+NEW/LIGHT as a single or a double-layer system can be 
+micro-perforated to become not only a lighting system 
+but also an acoustical absorber.
+&
+
+PDF PAGE 9
+9
+Client Covington & Burling / Washington, DC, USA
+Specifier LSM / Architects
+Product NEW/LIGHT and NEW/ACOUSTIC double-layer system using ACT0B / White Translucent micro-perforated membranes backlit with GE Tetra grid
+
+PDF PAGE 10
+10
+10
+
+PDF PAGE 11
+11
+Client Paris Ile de France Pavilion at 2010 World Expo / Shanghai, China
+Specifier MOSTRA / Architect
+Product NEW/LIGHT 3D system using T0B / White Translucent membranes with digital front and rear projection
+Because of their flexible nature, the NEW/
+LIGHT membranes can be used to create 
+shapes and forms for 3D applications. The 
+lighting in this case must be strategically 
+placed to minimize the shadows from the 3D 
+structure.  
+3D
+
+PDF PAGE 12
+12
+12
+Client Centre Commercial Val d’Europe / Serris, France
+Specifier BENOY / Architect
+Product NEW/LIGHT double layer system using T0B3M/Soft White Translucent backlit with LED
+
+PDF PAGE 13
+13
+13
+
+PDF PAGE 14
+14
+&
+Client W Hotel / San Francisco, CA, USA
+Specifier Stanley Saitowitz Office / Architect
+Product NEW/LIGHT and NEW/GRAPHIC system using T0B / White Translucent membranes with custom print and backlit with LEDs
+The NEW/LIGHT membranes can be printed 
+with a custom graphic of your choice. Please 
+ask us for our requirements for the graphic 
+file you will need to provide in order to 
+achieve your design intent. 
+
+PDF PAGE 15
+15
+15
+
+PDF PAGE 16
+16
+Client Private Collector’s Loft / New York, NY, USA
+Specifier Renfro Design Group / Lighting Designer
+Product NEW/LIGHT double-layer system using T0B / White Translucent membranes backlit with GE Tetra grid
+LIGHT 
+TRANSMISSION.
+Below is a table of the light transmissions 
+for various NEW/LIGHT translucent 
+membranes calculated at various 
+distances. The table also provides the 
+average light transmission between 
+different distances.
+Light Transmission Testing on NEWMAT Translucent Membranes
+ at 0" A) at 24" B) at 36" C) at 53" Average
+A - C
+Average
+A - B - C
+Without membrane 7130 1546 798 541 1043.5 962
+T0B 5750 797 458 303 550 519
+Transmission 81% 52% 57% 56% 53% 54%
+T0B 1320 6150 979 507 335 657 607
+Transmission 86% 63% 64% 62% 63% 63%
+T0B2 5850 958 445 297 627.5 567
+Transmission 82% 62% 56% 55% 60% 59%
+T0B 3M 6100 959 484 320 639.5 588
+Transmission 86% 62% 61% 59% 61% 61%
+T0B 3S 5970 930 480 317 623.5 576
+Transmission 84% 60% 60% 59% 60% 60%
+T0B 33006 Boréal 6030 955 492 322 638.5 590
+Transmission 85% 62% 62% 60% 61% 61%
+T0B4 5650 913 458 292 602.5 554
+Transmission 79% 59% 57% 54% 58% 58%
+T0B5 5990 986 506 331 658.5 608
+Transmission 84% 64% 63% 61% 63% 63%
+T0B6 6410 1203 629 418 810.5 750
+Transmission 90% 78% 79% 77% 78% 78%
+T1 6650 1429 752 497 963 893
+Transmission 93% 92% 94% 92% 92% 93%
+T10-1320 6820 1484 766 506 995 919
+Transmission 96% 96% 96% 94% 95% 96%
+T11 6640 1461 764 505 983 910
+Transmission 93% 95% 96% 93% 94% 95%
+T3 3500 646 331 211 428.5 396
+Transmission 49% 42% 41% 39% 41% 41%
+T4 5190 908 470 306 607 561
+Transmission 73% 59% 59% 57% 58% 58%
+TX04 5800 926 460 295 610.5 560
+Transmission 81% 60% 58% 55% 59% 58%
+
+PDF PAGE 17
+17
+17
+
+PDF PAGE 18
+18
+Client Mayer Brown / Chicago, Illinois, USA
+Specifier Gensler / Architect
+Product NEW/LIGHT double layer systems using T0B3M and T10 membranes backlit with LEDs
+While we are not lighting designers, in 
+order to assist you with your design of a 
+NEW/LIGHT backlit application, we provide 
+lighting guidelines to ensure that the final 
+result meets your expectations.
+LIGHTING 
+GUIDELINES.
+The functional and aesthetic success of a NEW/LIGHT backlit installation is entirely related 
+to the design and specification of the lighting sources behind the NEW/LIGHT membranes. 
+NEW/LIGHT backlit applications may vary in the design and construction of the perimeter 
+of the backlit area. Various options for same include the following: drywall coffers, free-
+floating lightboxes, free-floating panels/clouds, wall-to-wall ceilings, prefabricated panels, 
+etc.
+Many types of light sources can be used to backlight a NEW/LIGHT application, which include 
+but are not limited to: fluorescents, cold cathodes, neon, LED, pipe light, fiber optics, etc. Most 
+applications today use LED fixtures, and because LED fixtures vary greatly from one manufacturer 
+/ system to another, we strongly recommend that you do a mock-up of your configuration with 
+the exact LED fixture you will be using to determine the necessary depth of your plenum and 
+the lighting layout of your LED fixtures. 
+Penetrations for sprinkler heads, HVAC registers, etc. can be made in a NEW/LIGHT system. 
+However, the pipe, duct, and/or support for such penetrations must be painted white to 
+minimize the shadow from same.
+Before cleaning any ceiling membrane, it is important to know the nature of the soil. If the 
+membrane is covered with only a small film of dust, you can use either a feather duster or a 
+compressor and just blow the membrane evenly. If you try to use a micro-fiber towel with or 
+without a cleaning product, you could make the situation worse. If the ceiling membrane has 
+any soil other than dust, clean it with a micro-fiber towel only and a cleaning solution we will 
+recommend based on the nature of the soil.
+For most backlit applications, accessibility is required to maintain or repair the light source behind 
+the membrane. The procedure to remove and reinstall the membrane will vary depending on 
+the system being used. We will provide you with the necessary instructions for accessing the 
+light source behind your specific NEW/LIGHT system. 
+
+PDF PAGE 19
+19
+19
+
+PDF PAGE 20
+20
+
+PDF PAGE 21
+21
+Client Spa Aquatic / Nantes, France
+Specifier Cabinet Enet Dolowy / Architect
+Product NEW/LIGHT and NEW/ACOUSTIC system using ACT0B3 / Soft White Translucent and ACT10 / Clear micro-perforated membranes 
+
+PDF PAGE 22
+22
+Client Chanel Soho / New York, NY, USA
+Specifier Peter Marino Architect / Architect
+Product NEW/LIGHT double-layer system using T0B / White Translucent membranes backlit with fluorescents
+
+PDF PAGE 23
+23
+
+PDF PAGE 24
+24
+NEWMAT MEMBRANE
+GLASS SUPPORT CONNECTION
+TO T.S. POST (ENGR. BY G.C.)
+SPRINKLER WHERE OCCURS (BY OTHERS)
+NEWMAT 2LS ALUMINUM RAIL
+SCHED. LIGHTS
+TYP.
+NEWMAT WALL GHOST ALUMINUM RAIL
+LT. GA. FRAMING AS REQ'D. ENGR BY
+G.C. TO SUPPORT NEWMAT
+SECTION @ GLASS PANEL04
+1/4" METAL PLATE BY CEILING
+SYSTEM MANUFACTURER,
+ANCHORED TO FRAMING
+ALL SURFACES PTD. MATTE WHITE
+SCHEDULED LIGHT FIXTURE
+1"X1"X1/8" L ANGLE WITH WELDED
+NEWMAT TRACK
+WALL GHOST ALUMINUM
+2LS ALUMINUM TRACK
+BRAKE METAL SHAPE BY LUMINOUS
+CEILING MANUFACTURER
+NEWMAT TRANSLUCENT MEMBRANE
+NEWMAT CLEAR MEMBRANE
+NEWMAT TRANSLUCENT MEMBRANE
+NEWMAT CLEAR MEMBRANE
+NEWMAT CLEAR MEMBRANE
+SECTION @ VERTICAL STEP01 SCALE :   3" - 1"
+SCHEDULED LIGHT FIXTURE
+1"X1"X1/8" L ANGLE WITH WELDED
+NEWMAT TRACK
+WALL GHOST ALUMINUM
+1/4" ALUMINUM BRAKE SHAPE BY
+NEWMAT
+NEWMAT TRANSLUCENT MEMBRANE
+NEWMAT CLEAR MEMBRANE
+# 14 PAN HEAD SHEET METAL SCREW
+3" IN LENGHT
+* ALL METAL TO BE POWDER COATED
+WHITE MATTE
+SCALE :   3" - 1"
+1/4" ALUMINUM BRACE
+16" ON CENTER
+4" X 1/4" ALUMINUM BAR WITH BRACES 16" ON CENTER
+NEWMAT CLEAR MEMBRANE
+NEWMAT TRANSLUCENT MEMBRANE
+2 LAYERS WALL GHOST ALUMINUM RAIL
+SCHEDULED GYP BD CEILING
+HEAVY GAUGE FRAMING AS SCHEDULED
+SCHEDULED LIGHT FIXTURE
+3/4" PLYWOOD PAINTED MATTE WHITE
+PROVIDE GRID OF 1" DIA. HOLES EVERY
+12" IN BOTH DIRECTIONS
+* ALL METAL TO BE POWDER COATED
+WHITE MATTE
+Client 800 North Glebe / Washington, DC, USA
+Specifier LSM Architects / Architect
+Product NEW/LIGHT 3D double-layer system using T0B / White Translucent membranes over aluminum skeleton backlit with fluorescents 
+Below are some of the details we have 
+engineered for our projects. We often create 
+and extrude new profiles to meet the design 
+or technical needs of a specific project.
+DETAILS.
+
+PDF PAGE 25
+25
+25
+
+PDF PAGE 26
+26
+1 2 3
+Client 7 Bryant Park / New York, NY, USA
+Specifier Pei Cobb Freed / Architect
+Product NEW/LIGHT 3D system with T0B3M / Soft White Translucent membranes over custom aluminum structure backlit with LED nodes
+Below are some of the details we have 
+engineered for our projects. We often create 
+and extrude new profiles to meet the design 
+or technical needs of a specific project. 
+DETAILS.
+
+PDF PAGE 27
+27
+
+PDF PAGE 28
+OUTER EDGE OF TROUGH TO OUTER EDGE OF FASCIA
+OUTER EDGE OF TROUGH TO OUTER EDGE OF TROUGH
+OUTER EDGE OF TROUGH TO OUTER EDGE OF FASCIA
+TYP 4"x4" SPRINKLER
+INFILL PANEL
+CEILING SECTION
+SCALE :    6" = 1' - 0"1
+NEWMAT 2LS ALUMINUM
+NEWMAT ACT1/NATUREL MICROPERFORATED MEMBRANE
+1
+4"x12" ALUMINUM FASCIA
+POWDERCOATED WHITE MATTE 049/11350
+5
+8" PLYWOOD BLOCKING W/ CUTOUTS FOR J-BOXES (BY OTHERS)
+4" ALUMINUM TROUGH
+NEWMAT ACT0B3M/SOFT WHITE TRANSLUCENT
+MATTE MICROPERFORATED MEMBRANE
+TRACK LIGHT & J-BOX (BY OTHERS)
+9'-10" A.F.F.
+8'-10" A.F.F.
+1
+4"x4"x4" ALUMINUM L ANGLE
+POWDERCOATED WHITE
+MATTE 049/11350
+1
+4"x12" ALUMINUM FASCI
+ POWDERCOATED WHITE
+MATTE 049/11350
+2"x1
+8" L ANGLE
+28
+Client Biotronik Showroom / New York, NY, USA
+Specifier Ted Moudis Associates / Architect
+Product NEW/LIGHT and NEW/ACOUSTIC double-layer system using ACT0B3M / Soft White Translucent and ACT11 / Clear Frosted  
+micro-perforated membranes backlit with Apogee LED fingerboards
+Below are some of the details we have 
+engineered for our projects. We often create 
+and extrude new profiles to meet the design 
+or technical needs of a specific project. 
+DETAILS.
+
+PDF PAGE 29
+29
+29
+
+PDF PAGE 30
+30
+30
+
+PDF PAGE 31
+31
+31
+Client Github / San Francisco, CA, USA
+Specifier Rapt Studio / Architect
+Product NEW/LIGHT 3D wall system using T0B1320 / White Translucent membranes backlit with LED strips
+
+PDF PAGE 32
+32
+Client Nissan Crossing Ginza / Tokyo, Japan
+Specifier Eight Inc / Designer
+Product NEW/LIGHT double-layer system using T0B3S / Soft White Translucent membranes backlit with LEDs
+
+PDF PAGE 33
+33
+
+PDF PAGE 34
+NEWMAT PARTIAL REFLECTED CEILING PLAN
+SCALE :    1/4" = 1' - 0"1
+JOINT SIDE VIEW
+SCALE :    6" = 1' - 0"A JOINT FRONT VIEW
+SCALE :    6" = 1' - 0"B
+JOINT ISOMETRIC VIEW
+SCALE :    NOT TO SCALEC
+NEWMAT PARTIAL REFLECTED CEILING PLAN
+SCALE :    1/4" = 1' - 0"1
+JOINT SIDE VIEW
+SCALE :    6" = 1' - 0"A JOINT FRONT VIEW
+SCALE :    6" = 1' - 0"B
+JOINT ISOMETRIC VIEW
+SCALE :    NOT TO SCALEC
+NEWMAT PARTIAL REFLECTED CEILING PLAN
+SCALE :    1/4" = 1' - 0"1
+JOINT SIDE VIEW
+SCALE :    6" = 1' - 0"A JOINT FRONT VIEW
+SCALE :    6" = 1' - 0"B
+JOINT ISOMETRIC VIEW
+SCALE :    NOT TO SCALEC
+34
+Client HCL America / Seattle, WA, USA
+Specifier Weaver / Architect
+Product NEW/LIGHT double-layer free-floating lightbox system using T0B 1320 / White Translucent Wide Width and T1 /  
+Natural membranes with custom aluminum fascias and backlit with LEDs
+Below are some of the details we have 
+engineered for our projects. We often create 
+and extrude new profiles to meet the design 
+or technical needs of a specific project. 
+DETAILS.
+
+PDF PAGE 35
+35
+
+PDF PAGE 36
+36
+NEWMAT T0B/WHITE TRANSLUCENT
+MEMBRANE
+3 4" PLYWOOD ( BY OTHERS)
+TYP. NEWMAT BRACKET WELDED TO
+GHOST ROUND TUBE AND SCREWED
+TO PLYWOOD
+CURVED NEWMAT CEILING SECTION
+SCALE : 1/2" = 1' - 0"
+     REF:  1/A-811
+2
+NEWMAT CEILING DETAIL TYP.
+SCALE : FULL SCALE
+     REF:  17/A-902
+3
+NEWMAT BRACKET WELDED
+TO GHOST ROUND TUBE TYP.
+NEWMAT  DOUBLE GHOST ROUND TUBE
+POWDER COATED WHITE AND CURVED
+AS REQUIRED TYP.
+NEWMAT T0B/WHITE
+TRANSLUCENT MEMBRANE
+3 4" PLYWOOD (BY OTHERS)
+NEWMAT WALL GHOST
+ALUMINUM POWDER COATED
+WHITE
+3 4" PLYWOOD (BY OTHERS)
+Client Hess Corporation / New York, NY, USA
+Specifier TPG Architecture / Architect
+Product NEW/LIGHT 3D system using T0B / White Translucent membrane with custom aluminum skeleton 
+Below are some of the details we have 
+engineered for our projects. We often create 
+and extrude new profiles to meet the design 
+or technical needs of a specific project. 
+DETAILS.
+
+PDF PAGE 37
+37
+
+PDF PAGE 38
+38
+CONFERENCE ROOM PARTIAL REFLECTED CEILING PLAN
+SCALE : 1/4" = 1' - 0"2
+NEWMAT MEMBRANE
+NEWMAT MEMBRANE
+1" GAP AROUND PERIMETER TYP.
+NEWMAT BRACKETS @ 48" O.C. TYP.
+PAINTED WHITE
+VERTICAL NEWMAT CD TUBE ALUMINUM
+AT ALL CORNERS TYP.
+9' - 0"
+8' - 8"
+8' - 5 1/4"
+8' - 4 3/4"
+8' - 2"
+CONFERENCE ROOM CEILING CROSS SECTION
+SCALE : 1 1/2" = 1' - 0"1
+9' - 0"9' - 0"
+Client Mayer Brown / Washington, DC, USA
+Specifier Gensler / Architect
+Product NEW/LIGHT 3D system using T0B / White Translucent membrane with custom aluminum skeleton 
+Below are some of the details we have 
+engineered for our projects. We often create 
+and extrude new profiles to meet the design 
+or technical needs of a specific project. 
+DETAILS.
+
+PDF PAGE 39
+39
+39
+
+PDF PAGE 40
+40
+40
+Client Philip Lim / Los Angeles, CA, USA
+Specifier Leong Leong Architects / Architect 
+Product NEW/LIGHT double-layer system using T0B /White Translucent membranes backlit with fluorescents
+
+PDF PAGE 41
+41
+41
+
+PDF PAGE 42
+42
+Client Nike Flight 23 / New York, NY, USA
+Specifier TPG Architecture / Architect
+Product NEW/LIGHT double-layer system using T0B1320 / White Translucent Wide Width membranes backlit with LEDs
+Below are some of the details we have 
+engineered for our projects. We often create 
+and extrude new profiles to meet the design 
+or technical needs of a specific project. 
+DETAILS.
+
+PDF PAGE 43
+43
+43
+
+PDF PAGE 44
+4444
+CEILING SECTION
+SCALE :    3" = 1' - 0"1
+STUD FRAMING
+(BY OTHERS)
+NEWMAT L41/PLOMB
+LACQUER MEMBRANE
+NEWMAT CLASSICAL PVC
+3
+4" PLWYOOD BLOCKING (BY OTHERS)
+NEWMAT GHOST ROUND TUBE
+NEWMAT T0B/BLANC/W132" TRANSLUCENT MEMBRANE
+NEWMAT CLASSICAL PVC
+LIGHT FIXTURE (BY OTHERS)
+NEWMAT L ANGLE BRACING
+Below are some of the details we have 
+engineered for our projects. We often create 
+and extrude new profiles to meet the design 
+or technical needs of a specific project. 
+DETAILS.
+Client Riverside Center / New York, NY, USA
+Specifier Icrave / Designer
+Product NEW/LIGHT double-layer system using T0B1320 / White Translucent Wide Width membranes backlit with LED nodes
+
+PDF PAGE 45
+45
+45
+
+PDF PAGE 46
+46
+8765.754
+E
+D
+C
+B
+CENTERED SEAM TYP.
+DRYWALL
+SELF TAPPING SCREWS
+12" SHIM BY NEWMAT
+DRYWALL
+1 34" WOOD BLOCK BY NEWMAT
+NEWMAT CUSTOM EXTRUSION
+CLEAR ANODIZE
+8" MTL STUD @ 16" O.C. BRACED
+1"
+1"
+2"
+NEWMAT T0B/WHITE TRANSLUCENT
+MICRO-PERFORATED MEMBRANES
+"J" BEAD
+912"
+14"
+53 4"12"
+3 8"
+3"
+12"
+2"
+712"
+TRACK
+13 4"
+12"
+NEWMAT GHOST 2LS
+ALUMINUM
+Below are some of the details we have 
+engineered for our projects. We often create 
+and extrude new profiles to meet the design 
+or technical needs of a specific project. 
+DETAILS.
+Client The Gym / Englewood, NJ, USA
+Specifier HLW International / Architect
+Product NEW/LIGHT and NEW/ACOUSTIC double-layer system using ACT0B / White Translucent micro-perforated membrane with custom 
+aluminum frame
+
+PDF PAGE 47
+47
+
+PDF PAGE 48
+48
+48
+Client Tastyworks / Chicago, IL, USA
+Specifier John Ronan Architects / Architect 
+Product NEW/LIGHT 3D double-layer system using T0B / White Translucent membrane backlit with sporadic fluorescents 
+
+PDF PAGE 49
+49
+49
+
+PDF PAGE 50
+50
+Below are some of the details we have 
+engineered for our projects. We often create 
+and extrude new profiles to meet the design 
+or technical needs of a specific project. 
+DETAILS.
+Client University of Arkansas / Fayetteville, AR, USA
+Specifier Polk Stanley Wilcox Architects / Architect and Renfro Design / Lighting Designer
+Product NEW/LIGHT and NEW/ACOUSTIC double-layer system using ACT0B3 / Soft White Translucent and T1 / Natural membranes 
+
+PDF PAGE 51
+51
+51
+
+PDF PAGE 52
+52
+NEWMAT CD TUBE
+POWDER COATED
+WHITE
+NEWMAT T0B2/WHITE
+OPALESCENT MEMBRANE
+DAYTON ELECTRIC WINCH
+PART # 5W659
+HOIST CABLE
+UNISTRUT SUPPORT(BY OTHERS)
+(2) 6" X 6" X 3
+4" WOOD BLOCKING
+(BY OTHERS)
+PULLEY SYSTEM BY NEWMAT
+EXISTING SLAB (BY OTHERS)
+NEWMAT T7/CLEAR
+MEMBRANE
+LIGHT FIXTURE (BY OTHERS)
+NEWMAT ALUMINUM GHOST
+CUBE RAIL POWDER COATED
+WHITE
+16 GAUGE METAL CROSS BRACING (BY OTHERS)
+A-02
+3
+SUPPLY DUCT (BY OTHERS)
+METAL STUD (BY OTHERS)
+METAL STUD BRACING BY OTHERS)
+16 GAUGE 3 1
+2 MINIMUM METAL STUD @ 16" O.C.(
+13'-8"
+A.F.F.
+A-02
+1
+A-02
+2
+A-02
+B
+A-02
+A
+A-02
+B
+A-02
+B
+A-02
+C
+A-02
+B
+A-02
+B
+A-02
+B
+A-02
+D
+C-CHANNEL W/ STAINLESS
+STEEL COVER (BY OTHERS)
+TYP. 16 GAUGE METAL STUD
+16" O.C. (BY OTHERS)
+Below are some of the details we have 
+engineered for our projects. We often create 
+and extrude new profiles to meet the design 
+or technical needs of a specific project. 
+DETAILS.
+Client Democracy Tower / Reston, VA, USA
+Specifier Duda Paine Architects / Architect 
+Product NEW/LIGHT 3D lightbox system using T0B / White Translucent membranes and custom aluminum operable skeleton
+
+PDF PAGE 53
+53
+
+PDF PAGE 54
+5454
+TYPICAL CEILING PANELS "A" , "B", "C"
+SCALE :    1" = 1' - 0"1
+NEWMAT T0B/WHITE TRANSLUCENT MEMBRANES
+STRUCTURAL STEEL FRAME SUPPORT (BY OTHERS)
+1
+8" THICK ALUMINUM PLATE POWDER COATED
+WHITE MATTE 049 / 11350
+NEWMAT 1
+4" ALUMINUM PLATE POWDER
+COATED WHITE MATTE 049 / 11350
+LIGHT FIXTURE TYP. (BY OTHERS)
+1" X 1" ALUMINUM TUBE POWDER
+COATED WHITE MATTE 049 / 11350
+ENLARGED TYP.  PANEL SECTION
+SCALE :    6" = 1' - 0"3
+NEWMAT TYP. PANEL SECTION
+SCALE :    3" = 1' - 0"2
+3
+8" THREADED ROD ASSEMBLY
+BY NEWMAT
+1" X 1" ALUMINUM TUBE POWDER
+COATED WHITE MATTE 049 / 11350
+3
+8" THREADED ROD ASSEMBLY TYP.
+1" X 1" ALUMINUM TUBE POWDER
+COATED WHITE MATTE 049 / 11350
+3
+8" THREADED ROD ASSEMBLY TYP.
+1" X 1" ALUMINUM TUBE POWDER
+COATED WHITE MATTE 049 / 11350
+3
+8" THREADED ROD ASSEMBLY TYP.
+3
+8" THREADED ROD ASSEMBLY
+BY NEWMAT
++12' - 0" AFF
++12' - 0" AFF
+NEWMAT GHOST 2LS RAIL ALUMINUM
+POWDER COATED WHITE MATTE 049 / 11350
+Client Yotel / New York, NY, USA
+Specifier Rockwell Group / Architect and Focus Lighting / Lighting Designer
+Product NEW/LIGHT double-layer lightbox system using T0B / White Translucent membranes and custom aluminum fascias
+Below are some of the details we have 
+engineered for our projects. We often create 
+and extrude new profiles to meet the design 
+or technical needs of a specific project.
+DETAILS.
+
+PDF PAGE 55
+55
+55
+
+PDF PAGE 56
+56
+3 SECTION @ NEWMAT TYP.
+SCALE : 1" = 1' - 0"
+4 SECTION @ NEWMAT TYP.
+SCALE : 1" = 1' - 0" 6 ENLARGED SECTION
+SCALE : 3" = 1' - 0"
+A-01
+6
+NEWMAT TRACK PAINTED WHITE
+NEWMAT WALL GHOST PVC
+STAGGERED LIGHT FIXTURES
+(BY OTHERS)
+STRUCTURE ABOVE (BY OTHERS)
+FRAMING FOR MR16 THROUGH
+FIXTURE (BY OTHERS)
+ALUMINUM BRACKET ATTACHED TO STRUCTURE
+ ABOVE @ 30" O.C. PAINTED WHITE
+CONTINUOUS FRAMING FOR MR16 THROUGH
+FIXTURE (BY OTHERS) WHICH MUST BE STRAIGHT,
+PLUMB, AND LEVEL
+NEWMAT WALL GHOST PVC
+A-01
+5
+5 ENLARGED SECTION
+SCALE : 3" = 1' - 0"
+1
+4" NEWMAT ALUMINUM BRACKET SCREWED
+TO STRUCTURE ABOVE PAINTED WHITE
+ALUMINUM GUSSET @ 4'-0" O.C. PAINTED WHITE
+NEWMAT T0B/WHITE TRANSLUCENT
+MICRO PERFORATED MEMBRANES
+NEWMAT SHIM
+Client Akin Gump / New York, NY, USA
+Specifier Butler Rogers Baskett Architects / Architect
+Product NEW/LIGHT and NEW/ACOUSTIC 3D double-layer system using ACT0B / White Translucent micro-perforated membranes with 
+custom aluminum skeleton backlit with fluorescents
+Below are some of the details we have 
+engineered for our projects. We often create 
+and extrude new profiles to meet the design 
+or technical needs of a specific project.
+DETAILS.
+
+PDF PAGE 57
+57
+57
+
+PDF PAGE 58
+58 Client 605 Third Avenue / New York, NY, USA
+Specifier Rockwell Group / Architect 
+Product NEW/LIGHT 3D double-layer system using T0B3 / Soft White Translucent and T11 / Clear Frosted membranes with custom  
+aluminum skeleton backlit with VLT LED panels
+
+PDF PAGE 59
+59
+59
+
+PDF PAGE 60
+60
+60 Client Financial Institution Cafeteria / New York, NY, USA
+Specifier Gensler / Architect 
+Product NEW/LIGHT single-layer system using T0B White Translucent membranes with friction tracks and backlit with LEDs
+
+PDF PAGE 61
+61
+61
+
+PDF PAGE 62
+62
+Classical PVC Alux Classical Aluminum Corniche PVC Élégance PVC
+Invisible Plafond  PVC
+Ghost Bullnose 45°
+Ghost Structure
+Ghost Pivot
+Invisible Plafond Aluminum
+Ghost Bullnose 13°
+Ghost Cube
+Invisible mural Aluminum
+Invisible Mural Double PVC
+Ghost 2-LS PVC Magic LED Magic LED 50
+Mirage PVC
+Double Ghost Aluminum
+Ghost Framing
+Invisible Murale PVC
+Ghost Tube TS
+Ghost Panel
+Double Classique PVC Ghost Tube Double Ghost Tube
+Ghost Round Tube Ghost Double Round Tube Ghost round Tube 6’’ Ghost Large PivotGhost 2-LS 7’’ Aluminum
+Ghost 4-CRC
+PROFILES.
+NEWMAT offers more than 40 different profiles 
+in either PVC or aluminum. They are chosen for a 
+project based on their aesthetic, technical, and/or 
+curving abilities. NEWMAT often produces custom 
+profiles to meet the specific design requests of our 
+clients.
+
+PDF PAGE 63
+63
+63
+
+PDF PAGE 64
+64
+T1
+T10
+TOB
+TOB4
+TOB1320
+T3
+T11
+TOB2
+TOB5
+T4
+TO35
+TOB3M
+TOB6
+Client Baker McKenzie / Chicago, IL, USA
+Specifier Goettsch Partners / Architect and One Lux Studio / Lighting Designer 
+Product NEW/LIGHT double-layer system using T0B / White Translucent and T10 / Clear membranes backlit with LEDs
+MEMBRANE OPTIONS.
+
+PDF PAGE 65
+65
+65
+
+PDF PAGE 66
+
+
+PDF PAGE 67
+
+
+PDF PAGE 68
+Edition USA 01/2019
+NEWMAT USA
+81 Mahan Street, West Babylon, NY 11704, USA
+ Tel : 631-261-1498 / Fax : 631-261-1756
+newmat@newmatusa.com
+www.newmatworld.com

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_octocat_2_0",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "fe8cb0924ebd6530a05c21980d2362a67365a3e47010d4e4c057ebf1e4caa985",
+  "sourceHash": "774d10ace79c8c8a9d6d0d54b363a518b4ac81787c34ee122e5dfb1fb57c2069",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T16:19:34.433Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Compared the official Octocat 2.0 brand illustration and unadorned MyOctocat SVG against primary front/side/isometric volumes and final Inspector front/oblique views. Preserved large rounded cat head, shallow forehead dip, fuller cheek lobes, thin upright torso, two arm tentacles, two broad feet and rear tail. Dark ear insets and open grin distinguish this version from the preserved Modern model. The references are posed three-quarter illustrations, so frontal symmetry and the waving rest pose are documented interpretations; no orthographic identity claim."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Raised the mouth away from the chin, removed the low central torso nub, supersampled the painted face edge and moved its projection seam away from the cheeks. Final face close-ups show seated shallow eye/iris/glint surfaces, inset ears and separate nose/whiskers. Rear and underside views expose continuous shoulder/leg/tail roots and grounded broad feet. Body and head are each one closed connected shell, with zero nonmanifold edges or degenerate faces in the source audit. Both packed textures are embedded; all 45 cups remain seated on the body."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally inspected the final shared Inspector at phone width and the small-silhouette setting. Large peach face, ear outline, upright stance and asymmetrical waving arm remain recognizable. Tongue, ear interiors, tiny glints and individual cups become secondary at small scale; no gameplay meaning relies on these details. Scale is baked to 1.80029 m and geometry is not rescaled by the viewer."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model-only milestone. No rig or authored clips; animation remains pending the model handoff and user authorization. Planned baseline is recorded in decisions.md."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Reviewed revision 4 again after correcting revision 3 smile placement and face-colour edge. Close front confirms a peach chin margin below the smile; close oblique retains skull depth and cheeks without exposed stacked mask edges. Rear and underside expose five intended appendages and smooth joined roots. Rechecked phone and game-scale views; no remaining scoped attachment or proportion defect blocks this stylized model handoff. Inspector note hash matches the delivered GLB."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/iso.png",
+      "sha256": "f8b323e6c1c307b0aa401cd82088e7be095f0340a24983a8ed56f8f17200e999",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/front.png",
+      "sha256": "4c33d3f22f5147d4ce6d601386f585dd8642cc05b0cb2ee582d5a2f7a37ee13b",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/side.png",
+      "sha256": "3ec3e33db59491efec4b3807086697a55d5a49d1e1dadf095d8220c93fa87ff6",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-front.png",
+      "sha256": "5f18e1d6d948c4db13bf339d0bda13d92a6c03d15fcf4b7b07ef96032696c1be",
+      "view": "inspector-front"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-iso.png",
+      "sha256": "4784c2c8fe4dd7ed6ef74b81a54ca1ee71badcd017aaabcbcc5f3f1233a314aa",
+      "view": "inspector-iso"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-rear.png",
+      "sha256": "ed33e49181f5ea0bcc569ee72efded29e375a3a06e1009feed8d8bcdd2e5f20e",
+      "view": "inspector-rear"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-right.png",
+      "sha256": "c9bf2a375ed35c67180cb275cd8647f7db4f943611089e558c72123af83fa9d5",
+      "view": "inspector-right"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-bottom.png",
+      "sha256": "adc836430acb85ae1b932d99415784a9b19b30d749755251ade49adce63f827c",
+      "view": "inspector-bottom"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/face-close-front.png",
+      "sha256": "6a0b6ce566a840c04d6ed4e5b7e3428ed59128b10361d1dac9ab2894fc135067",
+      "view": "face-close-front"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/face-close-iso.png",
+      "sha256": "a81cf3d726b1d7ab657111c21723b5e9e85519c7c37d812d46a10a26d2122afd",
+      "view": "face-close-iso"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/phone.png",
+      "sha256": "057dadda13e83e750e0fc09aeca803442ec50c14883027cb873d352347b20ff0",
+      "view": "phone"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/game-scale.png",
+      "sha256": "4d5a4f6ecc2c067f93f6caacaa1605b8bcf295880a78454113e1d312fb91482a",
+      "view": "game-scale"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Awaiting explicit feedback on the reviewed Octocat 2.0 model revision 4."
+  },
+  "limitations": [
+    "Static sculpt: baseline animation, rig deformation and wardrobe fitting are pending.",
+    "74,142 triangles and 20 meshes retain the established Modern quality envelope; crowded-scene mobile performance has not been profiled.",
+    "Reference pose and perspective are interpreted; GitHub artistic approval is not asserted."
+  ]
+}

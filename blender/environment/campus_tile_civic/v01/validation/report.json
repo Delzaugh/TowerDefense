@@ -1,0 +1,37 @@
+{
+  "asset": "campus_tile_civic",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "193a676faee6909b0050bce77f14062e02b002cd174d13f7db1d8a7ce42cb56c",
+  "checkedAt": "2026-09-24T11:56:10.032Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 108,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    36,
+    1.2000000476837158,
+    31.17691421508789
+  ],
+  "bounds": [
+    [
+      -18,
+      0,
+      -15.588457107543945
+    ],
+    [
+      18,
+      1.2000000476837158,
+      15.588457107543945
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "4d679d250fd809a734ec95da574e1303172402f51d89eb51a6fcb24c16b9b855",
+  "source": "blender/environment/campus_tile_civic/v01/campus_tile_civic_v01.blend",
+  "runtime": "assets/runtime/environment/campus_tile_civic_v01.glb"
+}

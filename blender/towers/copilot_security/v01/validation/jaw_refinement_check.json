@@ -1,0 +1,26 @@
+{
+  "revision": 17,
+  "sha256": "baf8fd7045832013767186ac38dbe6feeab869874f5a2886e308ea713573651c",
+  "sourceHash": "c978ee3c39b981ac44c2e3c3ecaa0ca281385c1bc56e5712ca1ef13b027f3060",
+  "passed": true,
+  "exactAnimationChannelsAndSamples": true,
+  "exactRigAnchorTransformsAndBindMatrices": true,
+  "clips": [
+    "idle",
+    "work",
+    "move",
+    "place",
+    "hit",
+    "resolve"
+  ],
+  "technicalPassed": true,
+  "geometryAuditPassed": true,
+  "inspectorLoadedHashPrefix": "baf8fd704583",
+  "inspectedViews": [
+    "front close-up",
+    "isometric close-up",
+    "underside",
+    "390 px phone-width",
+    "work paused at 0.75 s"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "alignment": "Equal silhouette height and bounding-box center; original aspect ratios preserved.",
+  "limits": "Illustrative references, imperfect orthographic consistency. IoU cannot assess internal contours, attachments or shading.",
+  "views": {
+    "front": {
+      "revision4": {
+        "intersectionOverUnion": 0.862,
+        "referenceMissingPixels": 47,
+        "extraModelPixels": 19734
+      },
+      "rebuild": {
+        "intersectionOverUnion": 0.9138,
+        "referenceMissingPixels": 4388,
+        "extraModelPixels": 6863
+      }
+    },
+    "side": {
+      "revision4": {
+        "intersectionOverUnion": 0.7752,
+        "referenceMissingPixels": 18498,
+        "extraModelPixels": 10073
+      },
+      "rebuild": {
+        "intersectionOverUnion": 0.9306,
+        "referenceMissingPixels": 5008,
+        "extraModelPixels": 3346
+      }
+    }
+  }
+}

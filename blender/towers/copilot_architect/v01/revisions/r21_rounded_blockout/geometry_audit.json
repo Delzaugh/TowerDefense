@@ -1,0 +1,74 @@
+{
+  "meshes": [
+    {
+      "name": "pavilion_body",
+      "triangles": 2356,
+      "zeroAreaTriangles": [],
+      "editablePartGroups": 30
+    },
+    {
+      "name": "pavilion_eyes",
+      "triangles": 374,
+      "zeroAreaTriangles": [],
+      "editablePartGroups": 4
+    }
+  ],
+  "designChecks": {
+    "rounded_planning_console_body": {
+      "widthRange": [
+        -1.225000023841858,
+        1.225000023841858
+      ],
+      "depthRange": [
+        -1.0800000429153442,
+        0.8050000071525574
+      ],
+      "heightRange": [
+        0.0,
+        2.31030011177063
+      ]
+    },
+    "drafting_desk_cream_frame": {
+      "widthRange": [
+        -1.3899999856948853,
+        1.3899999856948853
+      ],
+      "depthRange": [
+        -1.2551000118255615,
+        1.1840499639511108
+      ],
+      "heightRange": [
+        1.6619999408721924,
+        2.5351500511169434
+      ]
+    },
+    "continuous_cream_face_bezel": {
+      "widthRange": [
+        -1.0449999570846558,
+        1.0449999570846558
+      ],
+      "depthRange": [
+        0.7479809522628784,
+        1.0678657293319702
+      ],
+      "heightRange": [
+        0.25,
+        1.8300000429153442
+      ]
+    },
+    "rolled_blueprint_paper": {
+      "widthRange": [
+        1.059999942779541,
+        1.5399999618530273
+      ],
+      "depthRange": [
+        -0.550000011920929,
+        0.6200000047683716
+      ],
+      "heightRange": [
+        0.6499999761581421,
+        1.1299999952316284
+      ]
+    }
+  }
+}

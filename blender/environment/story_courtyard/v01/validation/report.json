@@ -1,0 +1,37 @@
+{
+  "asset": "story_courtyard",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "abd8d9b897df63fed94e46080c715fbbffdb2e29853b9c264c3471778d292f07",
+  "checkedAt": "2026-09-30T16:22:29.693Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 7224,
+  "meshes": 6,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    24,
+    7.6250003427267075,
+    18
+  ],
+  "bounds": [
+    [
+      -12,
+      -0.23499999940395355,
+      -10
+    ],
+    [
+      12,
+      7.390000343322754,
+      8
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "1433ccb9b6a81830fc3769bd22483c1428626bf257da4c090aef3615933dd9a2",
+  "source": "blender/environment/story_courtyard/v01/story_courtyard_v01.blend",
+  "runtime": "assets/runtime/environment/story_courtyard_v01.glb"
+}

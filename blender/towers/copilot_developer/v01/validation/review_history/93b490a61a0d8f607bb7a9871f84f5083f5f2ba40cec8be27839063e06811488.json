@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_developer",
+  "version": "v01",
+  "revision": 10,
+  "sha256": "ef53a4c2e7d619ddc506f4784a31974527217a80c73a8ce1a4c7569eaf5031e4",
+  "sourceHash": "0675fe4c54bbc3d8bd31198e02c37f2074b749b2ddbee86a0500865a29a9457b",
+  "scope": "animation",
+  "reviewedAt": "2026-09-24T07:56:42.266855+00:00",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Accepted r8 rest art retained: actual GLB positions, topology, UVs, palette bytes, material settings and anchor coordinates match; maximum normal difference 1.2e-7. The rigid shell, goggles, three swept fins and temple badges keep their accepted silhouette."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Three-bone rig: rigid body and two display eyes. Work, hit and blink extremes retain the goggles, shell, chin and temple fit; eye shortening stays within the display. Action/target anchors follow the body without drift; UI stays root-relative. Source opens in rest with muted NLA tracks and packed images."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected close front/rear geometry, loop and one-shot pose boards, and all six phone/gameplay-light poses. Idle blink, focused work, gliding lean, place settle, hit flinch and compact resolve remain readable while the orange/teal identity and fin gaps stay stable."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Actual GLB sampled at 96 Hz including inter-frame poses; minimum clip clearance 0.0973 m. Root stationary, anchors coherent, all clips nonconstant, ready starts match, loops close and boundary-speed checks pass. Inspector played two cycles for loops and held one-shot endpoints; Rest Pose reset passed for all six. Four idle phases blended into work/move/hit/resolve without floor contact. Resolve holds positive 3.5% scale for a nonsingular terminal pose."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Corrected r9 Resolve shrinking toward the floor. R10 compacts near original face height and drifts upward. Inspected its start, anticipation, mid/late reduction and exact terminal frame again; reran all export, rest-parity, clearance, transition, normal-speed Inspector and reset checks on r10. No remaining defect identified within this animation pass."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/iso.png",
+      "sha256": "a41281a1d2e37db157cb2d194f09a7d9c2bfe9a56273fd73c750dd93edb15e2c",
+      "view": "rest isometric"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/inspector_close_front_oblique.png",
+      "sha256": "dca564b608fa5d53d80144b55822fc46e5dc028e1fff6870e5422e525488b15b",
+      "view": "rest close front oblique"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/inspector_rear_oblique.png",
+      "sha256": "84a84ab772a3b1a4d8d28e2ac5cbdd624e672ed02b500885423e8d3b439d59f4",
+      "view": "rest rear oblique"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/animation/loops-board.png",
+      "sha256": "604cfb658b5527610a56f8122715ab7ddfd3cbee676c4c9ecc362054996ab92d",
+      "view": "loop start/extreme/end pose board"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/animation/oneshots-board.png",
+      "sha256": "54f3e5eca25ddb14042ce226d0f368c4e16421943d88dfc68273be090b50734b",
+      "view": "place/hit/resolve start/extreme/end pose board"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/animation/phone-board.png",
+      "sha256": "6507be7ebf3b514647063f7af2fb85be2fdc03ff161fb23ddd0b91c4f64b594c",
+      "view": "all six clips, phone viewport, gameplay lighting"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/animation/runtime_audit.json",
+      "sha256": "4b22f8d52a9d3ae735f4db0b8006aed2b313408fef6bdbc46b18b3fa43aebb42",
+      "view": "96 Hz actual GLB audit and transition checks"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/animation/source_audit.json",
+      "sha256": "7c532295f7d82ab190b56fd5237fd8159149d12448918f6c302f8ea621d2ad34",
+      "view": "saved Blender source state"
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/validation/animation/inspector_playback.json",
+      "sha256": "25b79815dd103b8852ef0591b523b39687ee2a5d1a03b117e21701d867e93db7",
+      "view": "real-time shared Inspector loop/hold/reset checks"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User accepted model r8 and authorized this animation pass with gentle hover/glide. That authorization is not artistic acceptance of animation r10."
+  },
+  "limitations": [
+    "Pose clips only: game presentation must map simulation states and remove resolved entities; animation completion does not advance gameplay.",
+    "Rest Pose is grounded, while playback intentionally hovers; choose a short presentation crossfade when entering idle from rest."
+  ]
+}

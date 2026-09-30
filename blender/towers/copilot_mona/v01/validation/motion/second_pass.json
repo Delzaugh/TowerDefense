@@ -1,0 +1,202 @@
+{
+  "frames": [
+    {
+      "file": "detail-front-wave-38.png",
+      "sha256": "87fc6d635ab5704425acd645fa56223604b9328555dd1b36fc99c7d393617fa2",
+      "view": "front",
+      "clip": "wave",
+      "progress": 0.375,
+      "time": 0.938
+    },
+    {
+      "file": "detail-front-wave-63.png",
+      "sha256": "bef2f48b8b790d548f9aeb63c51b72ec42609cdd860967afd8151b14c1b7ea11",
+      "view": "front",
+      "clip": "wave",
+      "progress": 0.625,
+      "time": 1.563
+    },
+    {
+      "file": "detail-front-wave-84.png",
+      "sha256": "f68232537ed85dd2a528d80bcd792135ad6fa06323c5ec46ae855ea7386c48ef",
+      "view": "front",
+      "clip": "wave",
+      "progress": 0.84,
+      "time": 2.1
+    },
+    {
+      "file": "detail-front-idle-70.png",
+      "sha256": "6e25fa85f779a143770bfd364322473c13d02e70759328d639353618a49cb5b3",
+      "view": "front",
+      "clip": "idle",
+      "progress": 0.7,
+      "time": 1.75
+    },
+    {
+      "file": "detail-rear-work-50.png",
+      "sha256": "7d54b7fde78375b1d531c503344b979abed93537cd01d5e7a2b833deeac3d738",
+      "view": "rear",
+      "clip": "work",
+      "progress": 0.5,
+      "time": 1
+    },
+    {
+      "file": "detail-rear-wave-63.png",
+      "sha256": "2cb1aa009870d06734cf294dc1db27e3fe9ca3b3fcfd7aaa2a7ff7b5fa64f893",
+      "view": "rear",
+      "clip": "wave",
+      "progress": 0.625,
+      "time": 1.563
+    },
+    {
+      "file": "detail-rear-hit-25.png",
+      "sha256": "6d22b4ae455114a3a5bf10d1c44e37a3ca61e16634e9915c61022f6eed8d307c",
+      "view": "rear",
+      "clip": "hit",
+      "progress": 0.25,
+      "time": 0.188
+    },
+    {
+      "file": "detail-rear-move-25.png",
+      "sha256": "99844fa082f3fd95d91246fe8542d9f01255a7220d8a9ed01ec7ad39dcc81ff8",
+      "view": "rear",
+      "clip": "move",
+      "progress": 0.25,
+      "time": 0.333
+    },
+    {
+      "file": "detail-left-work-38.png",
+      "sha256": "7b6f985d2fba3291d5b3bff4717bbc6970c38363664030b9dd9db1b617828873",
+      "view": "left",
+      "clip": "work",
+      "progress": 0.375,
+      "time": 0.75
+    },
+    {
+      "file": "detail-left-celebrate-48.png",
+      "sha256": "23a52f9b43c312010390df6132a44072af70d5c07dc5517440ece2390af29921",
+      "view": "left",
+      "clip": "celebrate",
+      "progress": 0.48,
+      "time": 0.96
+    }
+  ],
+  "checkedAt": "2026-09-30T17:01:39.833Z",
+  "state": {
+    "resolveBudget": {
+      "used": 0,
+      "maxFragments": 256
+    },
+    "resolveEffects": [
+      {
+        "path": "towers/copilot_mona_v01.glb",
+        "type": "digital_blocks",
+        "enabled": true,
+        "clip": null,
+        "timelineProgress": -1,
+        "progress": -1,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 32,
+        "triangles": 0,
+        "complete": false,
+        "version": 1
+      }
+    ],
+    "loading": false,
+    "activePath": "towers/copilot_mona_v01.glb",
+    "view": "left",
+    "projection": "OrthographicCamera",
+    "distance": 2.2600679474706826,
+    "target": [
+      -0.000039130449295043945,
+      0.9001449926263376,
+      -0.030949994921684265
+    ],
+    "camera": [
+      -2.2601070779199777,
+      0.9001449926263377,
+      -0.030949994921684126
+    ],
+    "effects": [
+      {
+        "path": "towers/copilot_mona_v01.glb",
+        "enabled": false,
+        "triangles": 0,
+        "meshes": 0,
+        "materials": 0
+      }
+    ],
+    "entries": [
+      {
+        "path": "towers/copilot_mona_v01.glb",
+        "revision": "ce2a74096bcbc4e650ff6590f88ad79defe17479e240e1ab6aefb87601507b40",
+        "triangles": 3506,
+        "meshes": 15,
+        "materials": 2,
+        "bounds": [
+          [
+            -0.9181303977966309,
+            -3.2650859793648124e-9,
+            -0.47267988324165344
+          ],
+          [
+            0.9180521368980408,
+            1.8002899885177612,
+            0.4107798933982849
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": "idle",
+            "duration": 2.5
+          },
+          {
+            "name": "move",
+            "duration": 1.3333333730697632
+          },
+          {
+            "name": "wave",
+            "duration": 2.5
+          },
+          {
+            "name": "celebrate",
+            "duration": 2
+          },
+          {
+            "name": "work",
+            "duration": 2
+          },
+          {
+            "name": "hit",
+            "duration": 0.75
+          },
+          {
+            "name": "place",
+            "duration": 1.25
+          },
+          {
+            "name": "resolve",
+            "duration": 1.25
+          }
+        ],
+        "clip": null,
+        "time": 0,
+        "playing": false,
+        "loop": false,
+        "speed": 1,
+        "pose": []
+      }
+    ]
+  }
+}

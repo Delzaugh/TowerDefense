@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "asset": "problem_spaghetti_code",
+  "version": "v01",
+  "revision": 11,
+  "sha256": "fdb8a02e10ed82124d56db3a2e91b6c3749606415837b9b9617ed1372a13e029",
+  "sourceHash": "828fd49cefd6cdeeee7148b4d3c446e5dc06ca1c83565c3e9bbc9927c467b541",
+  "scope": "animation",
+  "reviewedAt": "2026-09-24T10:52:24.782Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Accepted irregular six-strand weave, visible warning badge and packed palette remain intact. Exact rest geometry, normals, UVs, palette, skin and material parity with the before_glitch_breach milestone passed."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Source opens with muted NLA, no active action, rest knot bone and stationary root. The entire knot and badge remain rigid and full size, preserving strand and badge clearance. Five streaks plus sweep fit 2496 / 2500 triangles; resource disposal and shared-pool fallback passed."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected actual close isometric Spawn 35% and Resolve 50%, then phone Spawn/Resolve 50% and exact endpoints. Jagged reveal cuts across the knot without a portal; Resolve draws narrow horizontal streaks through the erase. Badge and tangled silhouette remain legible at phone width. Exit leaves no body or shadow."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "1.25-second Spawn uses a small rigid registration jitter and settles to the grounded ready pose. Full-size Resolve uses a modest knot lean beneath the erase, keeping the badge forward. Existing Idle, Move and Hit are byte-identical. Replay, seek, reset, reload and endpoints passed; minimum sampled clearance is -0.00110 m, within the 0.002 m contact tolerance."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked final exported phone endpoints after the close pass: Spawn ends in the accepted ready knot; Resolve ends invisible with no residual shadow. Confirmed badge attachment and full-size strands, muted saved tracks, and shared presenter reset/fallback/disposal."
+  },
+  "evidence": [
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/iso.png",
+      "sha256": "ffeac1708a5d64e67270a625ac95bcc2992fe504f35b1deea93e3c3a002bb5ae",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/iso-silhouette.png",
+      "sha256": "c5fa239b5d34506acbedbaf23d836eb0b8f5b6ae7d40921c5c0488d773a88695",
+      "view": "iso",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/front.png",
+      "sha256": "52151ad10e4ed6dc4aec39fcc7cacf6705b67bc2a550cf47932e3ede15cf8c7d",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/front-silhouette.png",
+      "sha256": "59f7cd913ae069a5077f46ac40d2bce7956303bcca56cdb0e7766bcf75b6c5dc",
+      "view": "front",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/side.png",
+      "sha256": "56178e20cfbb4118261e669e71f1ece783bbe26463a0c29d53043b4dc97c1f4c",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/side-silhouette.png",
+      "sha256": "ef77ff68f550dcba2ce6009b969f1429909e4b7845f19e25827502dbf31790d8",
+      "view": "side",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/rear.png",
+      "sha256": "e4a858c491a644d923927011cf54fb2130f1970364875e5b6da6913365c2b882",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/rear-silhouette.png",
+      "sha256": "be620fa1fd0f52ab0b458ac58e193d64fb52a22c2e38e639f5886d18d5c05666",
+      "view": "rear",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/top.png",
+      "sha256": "086cdb984e2abf93203eabd92a354e45a0ee0eef50676e702ce6218867a08b14",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/top-silhouette.png",
+      "sha256": "6b27838e03a23efa1b6dabea92397f6550bec8b76f11da46908b117e44fc1760",
+      "view": "top",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/idle.png",
+      "sha256": "a8de4a568b10206dd72c2a5bcf77114968fa323645db64e9e04c4fe8af135b24",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "idle",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/move.png",
+      "sha256": "ffdcfb5f7aaac00aa4534d52cd0019c6f1cd6f9be8e5ed2d5ca393c91d71acf9",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "move",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/hit.png",
+      "sha256": "67b283d60b780cb5a5d008cab6c84474afec20c4fdaccf248de5a7052a61c20d",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "hit",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/spawn.png",
+      "sha256": "9473c455a37bbc41f27d994cc9bf7be57b2f64ef3a57139ab807d10eb8069b74",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "spawn",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/resolve.png",
+      "sha256": "b4c53322b0ef795a2b2fda44e47df94fc98a55a9fb260e9aa291fa323c436231",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "resolve",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/lifecycle/rest.png",
+      "sha256": "a29ad536e501389c0d1c18157c74a3660a642e1f44ccf647a86fbc87498782ea",
+      "view": "actual Inspector rest"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/lifecycle/spawn-35.png",
+      "sha256": "822a77b7e994aa726a2324bd2ceaa83d9bf819778ca6613c6dd75e381b7acdd8",
+      "view": "close isometric Spawn 35%"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/lifecycle/resolve-50.png",
+      "sha256": "04c41d30c499d052f7d84a7181c3ad4076022ce93fa27a4bb7725818f1f31f87",
+      "view": "close isometric Resolve 50%"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/lifecycle/phone-spawn-50.png",
+      "sha256": "65c63547810c6bc9f5a096b06ffb2d5f6ff9cc49222bc866dde206c66ddce81e",
+      "view": "phone Spawn 50%"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/lifecycle/phone-resolve-50.png",
+      "sha256": "fb8adfee5e9443b6c1ebc03cf53842f5da0a77bb6a337a67fadc34867de7c12c",
+      "view": "phone Resolve 50%"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/lifecycle/phone-spawn-100.png",
+      "sha256": "bc9d813389ed1eb6a5a6c3f0096f43d30a007d2d8c930129ae21e9d358312171",
+      "view": "phone Spawn terminal ready pose"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/lifecycle/phone-resolve-100.png",
+      "sha256": "bb7d62f966d467e228842a75bae94f990e0a66646d7c662689fc10f7f527f410",
+      "view": "phone Resolve terminal invisible"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/lifecycle/review.json",
+      "sha256": "de87816abe491dd0096d6b79ce209ef9de463157b3d0beed0a7444d7d70d0ede",
+      "view": "renderer parity and lifecycle behavior"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/lifecycle/source_audit.json",
+      "sha256": "ad372d60a9cf9b3c6f6ece47295b7564a5e9071b42d38b133709db2bc5daac6c",
+      "view": "read-only saved Blender source audit"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User approved the portal-free Glitch breach default and authorized rollout to the remaining production enemies. Acceptance of this Spaghetti Code animation revision remains pending."
+  },
+  "limitations": [
+    "The complete reveal and erase require tools/asset-presentation/lifecycle.js in the game presenter; a plain GLB player shows the pose tracks only.",
+    "Target-device frame rate has not been profiled."
+  ]
+}

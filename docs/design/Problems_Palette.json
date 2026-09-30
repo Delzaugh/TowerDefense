@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "status": "Accepted production palette, 2026-09-27. All six Problems use five to seven distinct base colours. User accepted the final appearance and requested cleanup; source and runtime alignment are recorded in assets/problems_palette_alignment.json.",
+  "scope": "Accepted mappings for the six named production assets, not a colour whitelist for new designs. Reuse tokens where they fit; add shared or asset-local colours when useful. Per-asset counts below preserve explicit decisions for the current designs and may be revised by later authorized design work; no global colour-count limit applies.",
+  "maxUniqueBaseColorsByAsset": {
+    "problem_vague_spec": 7,
+    "problem_missing_details": 7
+  },
+  "tokens": {
+    "deep_navy": "#192E46",
+    "navy_ink": "#233B58",
+    "blue_steel": "#344D69",
+    "slate": "#627389",
+    "slate_light": "#A5B2C2",
+    "muted_line": "#8E9FAD",
+    "paper": "#E5EBEF",
+    "paper_shadow": "#C9D3DE",
+    "warning_red": "#E51C30",
+    "red_shadow": "#9B1524",
+    "cobalt": "#3267AF",
+    "cobalt_shadow": "#285591",
+    "electric_blue": "#328EE8",
+    "lag_cyan": "#30C9F5",
+    "lag_ice": "#94E4FF",
+    "note_gold": "#F7D96B",
+    "note_gold_shadow": "#DDB84F",
+    "note_gold_light": "#FFF0A0",
+    "spaghetti_lime": "#B2E936",
+    "spaghetti_teal": "#178575",
+    "warning_orange": "#FFAA24",
+    "orange_shadow": "#D98216"
+  },
+  "bindings": {
+    "problem_bug": {
+      "edge": "deep_navy",
+      "face": "blue_steel",
+      "navy": "navy_ink",
+      "red": "warning_red",
+      "red_dark": "red_shadow",
+      "shell": "cobalt",
+      "shell_dark": "cobalt_shadow"
+    },
+    "problem_lag_spike": {
+      "blue": "electric_blue",
+      "blue_dark": "blue_steel",
+      "body": "navy_ink",
+      "body_dark": "deep_navy",
+      "cyan": "lag_cyan",
+      "head": "blue_steel",
+      "ice": "lag_ice",
+      "joint": "deep_navy",
+      "limb": "slate"
+    },
+    "problem_vague_spec": {
+      "accent": "warning_orange",
+      "boot": "blue_steel",
+      "edge": "paper",
+      "ink": "navy_ink",
+      "joint": "navy_ink",
+      "limb": "slate",
+      "limb_light": "slate_light",
+      "line": "slate",
+      "paper": "paper",
+      "paper_shade": "paper_shadow"
+    },
+    "problem_missing_details": {
+      "eye": "warning_red",
+      "eye_core": "warning_red",
+      "eye_edge": "warning_red",
+      "fold": "note_gold_light",
+      "ink": "deep_navy",
+      "joint": "slate",
+      "limb": "paper",
+      "limb_shade": "slate",
+      "paper": "note_gold",
+      "paper_shade": "note_gold_shadow",
+      "visor": "deep_navy"
+    },
+    "problem_dead_code": {
+      "bevel": "muted_line",
+      "brace": "paper",
+      "cross": "warning_red",
+      "rear_inset": "blue_steel",
+      "recess": "navy_ink",
+      "shell": "slate"
+    },
+    "problem_spaghetti_code": {
+      "ink": "navy_ink",
+      "lime": "spaghetti_lime",
+      "orange": "warning_orange",
+      "orange_edge": "orange_shadow",
+      "teal": "spaghetti_teal"
+    }
+  },
+  "rules": [
+    "Consolidate shared values without deleting semantic role names: joint and ink may share a colour but remain independently editable.",
+    "Preserve existing swatch rectangles, UV channels, geometry, rig, clips, roughness and emission textures.",
+    "Bug is the reference and needs no re-export when its values already match.",
+    "Colour counts measure distinct authored base RGB values, not semantic role names, lighting, or independent emission masks. The earlier eight-colour trial is historical, not a general limit.",
+    "Missing Details shares the eye/core base red but keeps its separate emissive-eye map and luminous core contrast.",
+    "Keep small embedded per-asset palettes. This merges authoring definitions, not GPU materials or draw calls."
+  ]
+}

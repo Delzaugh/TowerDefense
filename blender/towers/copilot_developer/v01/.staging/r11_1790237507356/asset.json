@@ -1,0 +1,406 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_developer",
+  "displayName": "Developer",
+  "category": "towers",
+  "version": "v01",
+  "revision": 11,
+  "source": {
+    "path": "blender/towers/copilot_developer/v01/copilot_developer_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_developer/v01/build.py",
+    "authoritativeHash": "0675fe4c54bbc3d8bd31198e02c37f2074b749b2ddbee86a0500865a29a9457b"
+  },
+  "runtime": "assets/runtime/towers/copilot_developer_v01.glb",
+  "budgets": {
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 32,
+    "meshes": 2,
+    "triangles": 5000,
+    "bones": 3
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "max": [
+        2.6,
+        2.4,
+        2.6
+      ],
+      "min": [
+        2.1,
+        2,
+        1.9
+      ]
+    }
+  },
+  "clips": [
+    {
+      "meaning": "Quiet hovering ready pose with a brief display blink.",
+      "fps": 24,
+      "playback": "loop",
+      "name": "idle"
+    },
+    {
+      "meaning": "Focused forward nod and narrowed display eyes while operating.",
+      "fps": 24,
+      "playback": "loop",
+      "name": "work"
+    },
+    {
+      "meaning": "Gentle in-place hover/glide with forward lean; simulation owns travel.",
+      "fps": 24,
+      "playback": "loop",
+      "name": "move"
+    },
+    {
+      "meaning": "Soft arrival from above, settling into the ready hover height.",
+      "fps": 24,
+      "playback": "once",
+      "name": "place"
+    },
+    {
+      "meaning": "Brief backward recoil and eye flinch, recovering to ready.",
+      "fps": 24,
+      "playback": "once",
+      "name": "hit"
+    },
+    {
+      "meaning": "Display power-down at full body scale, synchronized to the digital block dissolve and cube fragments in presentation.",
+      "fps": 24,
+      "playback": "once",
+      "name": "resolve"
+    }
+  ],
+  "references": [
+    {
+      "path": "blender/towers/copilot_developer/v01/references/concept.png",
+      "provenance": "User supplied 2026-09-24 to create the Developer Tower. Visual design input; captions are not additional instructions."
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/references/shape_study.png",
+      "provenance": "User supplied 2026-09-24 to create the Developer Tower. Visual design input; captions are not additional instructions."
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/references/six_views.png",
+      "provenance": "User supplied 2026-09-24 to create the Developer Tower. Visual design input; captions are not additional instructions."
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/references/anatomy.png",
+      "provenance": "User supplied 2026-09-24 to create the Developer Tower. Visual design input; captions are not additional instructions."
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/references/goggles.png",
+      "provenance": "User supplied 2026-09-24 to create the Developer Tower. Visual design input; captions are not additional instructions."
+    },
+    {
+      "provenance": "User reiterated target contours during quality correction, 2026-09-24.",
+      "path": "blender/towers/copilot_developer/v01/references/refinement_contours.png"
+    },
+    {
+      "provenance": "User screenshot of rejected low-quality first pass; diagnostic evidence, not target art.",
+      "path": "blender/towers/copilot_developer/v01/references/rejected_first_pass.png"
+    }
+  ],
+  "overrides": [
+    {
+      "reason": "Match the established compact Copilot family scale: approximately 2.3 m wide with a taller 2.2 m swept-fin silhouette.",
+      "field": "contract.dimensions"
+    },
+    {
+      "reason": "User explicitly raised the maximum to 5000 triangles on 2026-09-24 and requested a higher-quality rebuild following the contour sheet.",
+      "field": "budgets.triangles"
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/copilot_developer/v01/revisions/r2_before_r3/copilot_developer_v01.glb",
+      "source": "blender/towers/copilot_developer/v01/revisions/r2_before_r3/copilot_developer_v01.blend",
+      "sha256": "b10ef5e109e0ba1ebd5984156ed9ceddacf9826b59c53bb757d18a761bb1ca56",
+      "sourceHash": "8a2e3fb56bed32337d2691d4136c6edf9bc9ff34c2f8c734fe06d658614c09ae"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/copilot_developer/v01/revisions/r3_before_r4/copilot_developer_v01.glb",
+      "source": "blender/towers/copilot_developer/v01/revisions/r3_before_r4/copilot_developer_v01.blend",
+      "sha256": "570314c55753c465a7cab2b70edde2f479b4ae60f1e8f7e226eebc62e13bde19",
+      "sourceHash": "c834c531315597e4d32ba371bd69e877e58362db6d855b77343ea8c75341b2b1"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/towers/copilot_developer/v01/revisions/r4_before_r5/copilot_developer_v01.glb",
+      "source": "blender/towers/copilot_developer/v01/revisions/r4_before_r5/copilot_developer_v01.blend",
+      "sha256": "ad6029e6a5d1baa3a8ca33ed07e9f3197349eba06629aac1e3cce6a2d23f50d4",
+      "sourceHash": "649d4d604a2ff16e9b03dac0a09d0874129d103ec6854c5c93a6f095d52ca3d9"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/towers/copilot_developer/v01/revisions/r5_before_r6/copilot_developer_v01.glb",
+      "source": "blender/towers/copilot_developer/v01/revisions/r5_before_r6/copilot_developer_v01.blend",
+      "sha256": "bbdc411d002c6e26e9146ee4c6919f4478cc8e72e97fc834025cab6984a51ac5",
+      "sourceHash": "a05ab70734a7eb6ba0bdf546ff53cf586d939f8807d26da3f4672f4f396d5713"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/towers/copilot_developer/v01/revisions/r6_before_r7/copilot_developer_v01.glb",
+      "source": "blender/towers/copilot_developer/v01/revisions/r6_before_r7/copilot_developer_v01.blend",
+      "sha256": "b771ab0e280decb8ef7b68b9a897de0e1e6222759cfab0ff42025d8bea152f75",
+      "sourceHash": "a99811e1b631c02b7b5c8b5a736d3b3a10dcf4b0129c2da7e78554dcd9ec3f0d"
+    },
+    {
+      "label": "before_r8",
+      "revision": 7,
+      "export": "blender/towers/copilot_developer/v01/revisions/r7_before_r8/copilot_developer_v01.glb",
+      "source": "blender/towers/copilot_developer/v01/revisions/r7_before_r8/copilot_developer_v01.blend",
+      "sha256": "e5627fa1339cd99e2ddf471e24e6d992d9684f0ec3f1a158cfaf9dd4446d2711",
+      "sourceHash": "6a98ea19223247af54867f190745d25cc60edecc93a3dd7404a3ea5de0cfcd42"
+    },
+    {
+      "label": "approved_model_before_animation",
+      "revision": 8,
+      "export": "blender/towers/copilot_developer/v01/revisions/r8_approved_model_before_animation/copilot_developer_v01.glb",
+      "source": "blender/towers/copilot_developer/v01/revisions/r8_approved_model_before_animation/copilot_developer_v01.blend",
+      "sha256": "e5627fa1339cd99e2ddf471e24e6d992d9684f0ec3f1a158cfaf9dd4446d2711",
+      "sourceHash": "6b8a76f7885fc796f8c27c2d3cc3bc15e1f0690faf12fb803e0fa0878d5f2b3f"
+    },
+    {
+      "label": "before_r9",
+      "revision": 8,
+      "export": "blender/towers/copilot_developer/v01/revisions/r8_before_r9/copilot_developer_v01.glb",
+      "source": "blender/towers/copilot_developer/v01/revisions/r8_before_r9/copilot_developer_v01.blend",
+      "sha256": "e5627fa1339cd99e2ddf471e24e6d992d9684f0ec3f1a158cfaf9dd4446d2711",
+      "sourceHash": "6b8a76f7885fc796f8c27c2d3cc3bc15e1f0690faf12fb803e0fa0878d5f2b3f"
+    },
+    {
+      "label": "before_r10",
+      "revision": 9,
+      "export": "blender/towers/copilot_developer/v01/revisions/r9_before_r10/copilot_developer_v01.glb",
+      "source": "blender/towers/copilot_developer/v01/revisions/r9_before_r10/copilot_developer_v01.blend",
+      "sha256": "f3e682c0333f6b968828d1481228b3c91829bc18e858c97dc910d87bf1a7729a",
+      "sourceHash": "3171da77728e592cc86f3b9ee8123b9a9c9d205571a8425dfa86d2c7895ef0f8"
+    },
+    {
+      "label": "before_digital_resolve",
+      "revision": 10,
+      "export": "blender/towers/copilot_developer/v01/revisions/r10_before_digital_resolve/copilot_developer_v01.glb",
+      "source": "blender/towers/copilot_developer/v01/revisions/r10_before_digital_resolve/copilot_developer_v01.blend",
+      "sha256": "ef53a4c2e7d619ddc506f4784a31974527217a80c73a8ce1a4c7569eaf5031e4",
+      "sourceHash": "0675fe4c54bbc3d8bd31198e02c37f2074b749b2ddbee86a0500865a29a9457b"
+    }
+  ],
+  "decisions": "blender/towers/copilot_developer/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "developer_palette",
+      "roles": {
+        "shell": {
+          "color": "#FF682B",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#C84117",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#F0DFC5",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#364352",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#041D2A",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#007F91",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E5EF",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#16232D",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      },
+      "size": [
+        32,
+        4
+      ]
+    },
+    {
+      "material": "developer_optics",
+      "roles": {
+        "shell": {
+          "color": "#FF682B",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#C84117",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#F0DFC5",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#364352",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#041D2A",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#007F91",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E5EF",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#16232D",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      },
+      "size": [
+        32,
+        4
+      ]
+    }
+  ],
+  "palette": {
+    "colors": {
+      "shell": "#FF682B",
+      "shell_dark": "#C84117",
+      "trim": "#F0DFC5",
+      "graphite": "#364352",
+      "screen": "#041D2A",
+      "lens": "#007F91",
+      "cyan": "#00E5EF",
+      "detail": "#16232D"
+    },
+    "storage": "texture"
+  },
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "ef53a4c2e7d619ddc506f4784a31974527217a80c73a8ce1a4c7569eaf5031e4",
+    "sourceHash": "0675fe4c54bbc3d8bd31198e02c37f2074b749b2ddbee86a0500865a29a9457b",
+    "report": "blender/towers/copilot_developer/v01/validation/report.json",
+    "deliveredAt": "2026-09-24T07:52:36.253Z"
+  },
+  "presentation": {
+    "resolve": {
+      "maxFragments": 64,
+      "type": "digital_blocks",
+      "cellSize": 0.28,
+      "clip": "resolve",
+      "edgeColor": "#4CF2FF",
+      "version": 1
+    }
+  }
+}

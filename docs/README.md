@@ -15,6 +15,8 @@
 
 ## Implementation
 
+- [App Startup and Campus Home Implementation Plan](App_Startup_Implementation_Plan.md)
+- [Production Foundation and Build Plan](Production_Foundation.md)
 - [Codebase Structure](Codebase_Structure.md)
 - [First Code Research](First_Code_Research.md)
 - [Foundation Implementation](Foundation_Implementation.md)

@@ -1,0 +1,43 @@
+{
+  "asset": "copilot_developer",
+  "objects": 6,
+  "actions": [
+    "hit",
+    "idle",
+    "move",
+    "place",
+    "resolve",
+    "work"
+  ],
+  "images": [
+    {
+      "name": "developer_palette",
+      "size": [
+        32,
+        4
+      ],
+      "packed": true
+    }
+  ],
+  "changes": {
+    "graphite": "#333E48"
+  },
+  "bindings": [
+    {
+      "material": "developer_palette",
+      "image": "developer_palette_base",
+      "size": [
+        32,
+        4
+      ]
+    },
+    {
+      "material": "developer_optics",
+      "image": "developer_palette_base",
+      "size": [
+        32,
+        4
+      ]
+    }
+  ]
+}

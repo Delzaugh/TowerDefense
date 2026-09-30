@@ -4,12 +4,12 @@
   "displayName": "Dead Code",
   "category": "enemies",
   "version": "v01",
-  "revision": 5,
+  "revision": 7,
   "source": {
     "path": "blender/enemies/problem_dead_code/v01/problem_dead_code_v01.blend",
     "mode": "procedural",
     "recipe": "blender/enemies/problem_dead_code/v01/build.py",
-    "authoritativeHash": "5778d0d1a506b8d9fb3cd73718592d5fa00800199b4f1612d4ab6f13fbb7a5ca"
+    "authoritativeHash": "607eab58386040201a0495e5c1fc07380fbdce6cafd9a2b94f479c7d1ca4b6da"
   },
   "runtime": "assets/runtime/enemies/problem_dead_code_v01.glb",
   "budgets": {
@@ -65,9 +65,15 @@
       "playback": "once"
     },
     {
+      "name": "spawn",
+      "fps": 24,
+      "meaning": "Full-size jagged glitch reveal directly on the marker, with no portal, settling to grounded ready.",
+      "playback": "once"
+    },
+    {
       "name": "resolve",
       "fps": 24,
-      "meaning": "Restrained tilt and shrinking collapse after simulation-owned removal.",
+      "meaning": "Full-size grounded tilt under the presentation erase sweep and thin horizontal streaks.",
       "playback": "once"
     }
   ],
@@ -102,26 +108,58 @@
       "source": "blender/enemies/problem_dead_code/v01/revisions/r4_before_r5/problem_dead_code_v01.blend",
       "sha256": "d4eb368de72222f3c217119771fa2bc2b8910343c4e4e0b2e1f8ebcc974a0647",
       "sourceHash": "702ec44e6811dfccd5d35e03d05222f09450fc802d057d9f84d6c17268192e1f"
+    },
+    {
+      "label": "before_glitch_breach",
+      "revision": 5,
+      "export": "blender/enemies/problem_dead_code/v01/revisions/r5_before_glitch_breach/problem_dead_code_v01.glb",
+      "source": "blender/enemies/problem_dead_code/v01/revisions/r5_before_glitch_breach/problem_dead_code_v01.blend",
+      "sha256": "549e547b49aab9dee7d1d5d5a1e0ff3d02d4c835192925c93892c887a24c97e7",
+      "sourceHash": "5778d0d1a506b8d9fb3cd73718592d5fa00800199b4f1612d4ab6f13fbb7a5ca"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/enemies/problem_dead_code/v01/revisions/r5_before_r6/problem_dead_code_v01.glb",
+      "source": "blender/enemies/problem_dead_code/v01/revisions/r5_before_r6/problem_dead_code_v01.blend",
+      "sha256": "549e547b49aab9dee7d1d5d5a1e0ff3d02d4c835192925c93892c887a24c97e7",
+      "sourceHash": "7b426eb3ea99a0450b93155d49d21e862cc36652224d8f85245d4fd49a8185bf"
+    },
+    {
+      "label": "before_problem_palette",
+      "revision": 6,
+      "export": "blender/enemies/problem_dead_code/v01/revisions/r6_before_problem_palette/problem_dead_code_v01.glb",
+      "source": "blender/enemies/problem_dead_code/v01/revisions/r6_before_problem_palette/problem_dead_code_v01.blend",
+      "sha256": "17b8b58882b056d30ec9483089aa830e324016b84389489c80bcc78dfc0a9958",
+      "sourceHash": "7b426eb3ea99a0450b93155d49d21e862cc36652224d8f85245d4fd49a8185bf"
+    },
+    {
+      "label": "before_r7",
+      "revision": 6,
+      "export": "blender/enemies/problem_dead_code/v01/revisions/r6_before_r7/problem_dead_code_v01.glb",
+      "source": "blender/enemies/problem_dead_code/v01/revisions/r6_before_r7/problem_dead_code_v01.blend",
+      "sha256": "17b8b58882b056d30ec9483089aa830e324016b84389489c80bcc78dfc0a9958",
+      "sourceHash": "607eab58386040201a0495e5c1fc07380fbdce6cafd9a2b94f479c7d1ca4b6da"
     }
   ],
   "decisions": "blender/enemies/problem_dead_code/v01/decisions.md",
   "palette": {
     "colors": {
-      "shell": "#5D719B",
-      "bevel": "#7B8FB8",
-      "recess": "#2D4164",
-      "rear_inset": "#475D84",
-      "brace": "#E9E2D7",
-      "cross": "#F5655E"
+      "shell": "#627389",
+      "bevel": "#8E9FAD",
+      "recess": "#233B58",
+      "rear_inset": "#344D69",
+      "brace": "#E5EBEF",
+      "cross": "#E51C30"
     },
     "attribute": "_palette_role",
     "storage": "texture"
   },
   "delivery": {
-    "sha256": "549e547b49aab9dee7d1d5d5a1e0ff3d02d4c835192925c93892c887a24c97e7",
-    "sourceHash": "5778d0d1a506b8d9fb3cd73718592d5fa00800199b4f1612d4ab6f13fbb7a5ca",
+    "sha256": "4f1ba014aad4d26238d25336ee915211a36ddb962cfc6c862d5c7e6cb13d38f1",
+    "sourceHash": "607eab58386040201a0495e5c1fc07380fbdce6cafd9a2b94f479c7d1ca4b6da",
     "report": "blender/enemies/problem_dead_code/v01/validation/report.json",
-    "deliveredAt": "2026-09-17T20:38:45.039Z"
+    "deliveredAt": "2026-09-26T22:17:33.767Z"
   },
   "texturePalettes": [
     {
@@ -132,7 +170,7 @@
       ],
       "roles": {
         "bevel": {
-          "color": "#7B8FB8",
+          "color": "#8E9FAD",
           "rect": [
             0,
             0,
@@ -141,7 +179,7 @@
           ]
         },
         "brace": {
-          "color": "#E9E2D7",
+          "color": "#E5EBEF",
           "rect": [
             4,
             0,
@@ -150,7 +188,7 @@
           ]
         },
         "cross": {
-          "color": "#F5655E",
+          "color": "#E51C30",
           "rect": [
             8,
             0,
@@ -159,7 +197,7 @@
           ]
         },
         "rear_inset": {
-          "color": "#475D84",
+          "color": "#344D69",
           "rect": [
             12,
             0,
@@ -168,7 +206,7 @@
           ]
         },
         "recess": {
-          "color": "#2D4164",
+          "color": "#233B58",
           "rect": [
             16,
             0,
@@ -177,7 +215,7 @@
           ]
         },
         "shell": {
-          "color": "#5D719B",
+          "color": "#627389",
           "rect": [
             20,
             0,
@@ -191,5 +229,17 @@
   "exportSettings": {
     "paletteSampler": "linear",
     "paletteTextureWorkflow": true
+  },
+  "presentation": {
+    "lifecycle": {
+      "type": "glitch_breach",
+      "version": 1,
+      "entryClip": "spawn",
+      "exitClip": "resolve",
+      "anchor": "root",
+      "color": "#FF497C",
+      "maxFragments": 12,
+      "spawnPortal": false
+    }
   }
 }

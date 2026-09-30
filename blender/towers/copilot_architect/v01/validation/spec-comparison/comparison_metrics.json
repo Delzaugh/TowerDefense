@@ -1,0 +1,245 @@
+{
+  "model": {
+    "id": "copilot_architect",
+    "revision": 39,
+    "sha256": "8f50f4cfe39c176fcc03861611850fc477aee7d8cb24143ec5c1fee8e7af9c4e",
+    "sourceHash": "64335771a51309d0d296ee2d86f22889447b79a861fa5608d577d5315efaf386"
+  },
+  "method": "Solid black silhouettes from the illustrative shape-study sheet compared to actual GLB masks; uniformly scale each complete silhouette to 260px height, center align without rotation or nonuniform distortion. Shaded reference crops are manually framed and uniformly height-aligned. Approximate visual diagnostic, not geometric certification; illustrative camera differences remain.",
+  "views": [
+    {
+      "view": "front",
+      "sourceCrop": [
+        33,
+        79,
+        472,
+        426
+      ],
+      "reference": {
+        "crop": [
+          23,
+          17,
+          266,
+          204
+        ],
+        "uniformScale": 1.3903743315508021,
+        "normalizedSize": [
+          338,
+          260
+        ],
+        "referenceAspect": 1.2994652406417113
+      },
+      "actual": {
+        "crop": [
+          40,
+          128,
+          760,
+          681
+        ],
+        "uniformScale": 0.4701627486437613,
+        "normalizedSize": [
+          339,
+          260
+        ],
+        "referenceAspect": 1.301989150090416
+      },
+      "approximateSilhouetteIoU": 0.9142367305976806,
+      "aspectDifferencePercent": 0.19422677650524633
+    },
+    {
+      "view": "front-left",
+      "sourceCrop": [
+        554,
+        76,
+        993,
+        430
+      ],
+      "reference": {
+        "crop": [
+          292,
+          15,
+          531,
+          203
+        ],
+        "uniformScale": 1.3829787234042554,
+        "normalizedSize": [
+          331,
+          260
+        ],
+        "referenceAspect": 1.2712765957446808
+      },
+      "actual": {
+        "crop": [
+          64,
+          124,
+          736,
+          683
+        ],
+        "uniformScale": 0.46511627906976744,
+        "normalizedSize": [
+          313,
+          260
+        ],
+        "referenceAspect": 1.2021466905187836
+      },
+      "approximateSilhouetteIoU": 0.8927902417773905,
+      "aspectDifferencePercent": -5.437833549150062
+    },
+    {
+      "view": "left",
+      "sourceCrop": [
+        1083,
+        79,
+        1485,
+        426
+      ],
+      "reference": {
+        "crop": [
+          558,
+          18,
+          759,
+          201
+        ],
+        "uniformScale": 1.4207650273224044,
+        "normalizedSize": [
+          286,
+          260
+        ],
+        "referenceAspect": 1.098360655737705
+      },
+      "actual": {
+        "crop": [
+          120,
+          127,
+          679,
+          668
+        ],
+        "uniformScale": 0.4805914972273567,
+        "normalizedSize": [
+          269,
+          260
+        ],
+        "referenceAspect": 1.033271719038817
+      },
+      "approximateSilhouetteIoU": 0.8803169161886106,
+      "aspectDifferencePercent": -5.926007669600253
+    },
+    {
+      "view": "back",
+      "sourceCrop": [
+        39,
+        556,
+        474,
+        898
+      ],
+      "reference": {
+        "crop": [
+          787,
+          16,
+          1043,
+          205
+        ],
+        "uniformScale": 1.3756613756613756,
+        "normalizedSize": [
+          352,
+          260
+        ],
+        "referenceAspect": 1.3544973544973544
+      },
+      "actual": {
+        "crop": [
+          40,
+          169,
+          760,
+          658
+        ],
+        "uniformScale": 0.5316973415132924,
+        "normalizedSize": [
+          383,
+          260
+        ],
+        "referenceAspect": 1.4723926380368098
+      },
+      "approximateSilhouetteIoU": 0.8718338201882506,
+      "aspectDifferencePercent": 8.703987730061357
+    },
+    {
+      "view": "back-right",
+      "sourceCrop": [
+        559,
+        555,
+        989,
+        900
+      ],
+      "reference": {
+        "crop": [
+          1073,
+          14,
+          1307,
+          200
+        ],
+        "uniformScale": 1.3978494623655915,
+        "normalizedSize": [
+          327,
+          260
+        ],
+        "referenceAspect": 1.2580645161290323
+      },
+      "actual": {
+        "crop": [
+          66,
+          151,
+          730,
+          662
+        ],
+        "uniformScale": 0.5088062622309197,
+        "normalizedSize": [
+          338,
+          260
+        ],
+        "referenceAspect": 1.299412915851272
+      },
+      "approximateSilhouetteIoU": 0.889809421071557,
+      "aspectDifferencePercent": 3.286667670229315
+    },
+    {
+      "view": "right",
+      "sourceCrop": [
+        1057,
+        557,
+        1479,
+        899
+      ],
+      "reference": {
+        "crop": [
+          1327,
+          18,
+          1517,
+          200
+        ],
+        "uniformScale": 1.4285714285714286,
+        "normalizedSize": [
+          271,
+          260
+        ],
+        "referenceAspect": 1.043956043956044
+      },
+      "actual": {
+        "crop": [
+          121,
+          136,
+          680,
+          661
+        ],
+        "uniformScale": 0.49523809523809526,
+        "normalizedSize": [
+          277,
+          260
+        ],
+        "referenceAspect": 1.0647619047619048
+      },
+      "approximateSilhouetteIoU": 0.8852366509134514,
+      "aspectDifferencePercent": 1.9929824561403464
+    }
+  ]
+}

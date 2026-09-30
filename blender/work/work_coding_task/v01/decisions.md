@@ -34,3 +34,19 @@ setChecklist(); // Spawn or pool reset: all unchecked.
 ## Palette texture migration — revision 11 (2026-09-17)
 
 User-authorized texture-preferred alignment. Converted the then-current authoritative source to a packed 32×4 px palette (8 used colour roles). Opaque flat role colours suit texture editing; no vertex-colour exception was needed. Preserved geometry, existing UVs, rig, anchors, morphs, clips, material response and auxiliary emission data. Exact runtime parity passed; maximum rendered channel difference was 1/255. Before/after, reverse, clip and phone-scale views were personally reviewed. Evidence: `validation/palette_migration_r11/`. Original source/runtime retained in `revisions/r10_before_r11`. Later artistic refinements remain separate. Future guarded rebuilds retain texture delivery; ordinary exports use the packed Blender image.
+
+## Blueprint lifecycle — revision 13 (2026-09-24)
+
+User chose Blueprint for Work/task assets. Retained the accepted source/runtime milestone before authoring. Added spawn and replaced the shrink resolve with full-size 1.5-second pose tracks and shared presentation coverage. Existing idle, move, checklist_progress tracks and all rest art, normals, UVs, palette and independent morph data retain exact runtime parity. Source opens in rest with muted NLA and no active actions. The source defaults remain three unchecked boxes. Blueprint reads progress weights without changing them and masks alternate geometry so cuts cannot reveal undeployed green ticks. Both lifecycle clips preserve the ready hover.
+
+Actual Inspector tests and final desktop/phone author review pass; evidence is under validation/lifecycle and validation/visual_review.json. 1338 model + at most 52 effect triangles = 1390 / 1500. User acceptance of this final animation revision remains pending. The complete effect requires the shared lifecycle presenter; the GLB alone contains its pose tracks. This replaces the earlier shrink-terminal behavior; simulation still owns outcomes and removal.
+
+Source SHA-256: 2663298904c192efc0f62facef810bbab8d5bd36ac6f20ca2b7c6aac7c21eadd. Runtime SHA-256: 527f55a828fae22bee0b296b382ad63f0667560326d072765a1031777b9fe3a5.
+
+## Resolve simplification — 2026-09-24
+
+The user dislikes the three lines rising during Resolve. Removed all three ribbons from the shared Blueprint presenter; retain the completion check and upward erase sweep. This supersedes the ribbon descriptions above. Spawn, pose clips and independent checkbox state stay unchanged. No Blender or GLB bytes changed (art revision 13); the current renderer hash and refreshed evidence identify this presentation revision. Resolve uses 16 helper triangles, with a 42-triangle conservative Blueprint maximum across entry/exit (1380 including the model). Final close/phone and endpoint images were reviewed; the existing lifecycle suite and technical validation pass.
+
+## Approved category reference — 2026-09-24
+
+The user approved the current enemy and Work animations and requested them as category defaults. The accepted Coding Task reference uses Blueprint construction and check/upward-sweep Resolve with no rising lines. The user also authorized implementation on the remaining production enemies; the Bug palette comparison experiment is excluded.

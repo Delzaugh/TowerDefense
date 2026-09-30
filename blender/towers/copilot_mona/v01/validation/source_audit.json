@@ -1,0 +1,87 @@
+{
+  "sourceHash": "119d6e6c73c83014c7b31245fdf0d0096020b8a2736607444489194ff793086e",
+  "baseSourceHash": "e433b387cd8bf61fe9d7fbc105bee080d0e086d3cd6c64885fdc144afb5fed29",
+  "geometryParity": {
+    "body_five_tentacles": true,
+    "eye_iris_-1": true,
+    "eye_iris_1": true,
+    "eye_white_-1": true,
+    "eye_white_1": true,
+    "head_and_ears": true,
+    "nose": true,
+    "smile": true,
+    "suction_cup_rows": true,
+    "whisker_-1_0": true,
+    "whisker_-1_1": true,
+    "whisker_1_0": true,
+    "whisker_1_1": true
+  },
+  "weightParity": {
+    "body_five_tentacles": true,
+    "eye_iris_-1": true,
+    "eye_iris_1": true,
+    "eye_white_-1": true,
+    "eye_white_1": true,
+    "head_and_ears": true,
+    "nose": true,
+    "smile": true,
+    "suction_cup_rows": true,
+    "whisker_-1_0": true,
+    "whisker_-1_1": true,
+    "whisker_1_0": true,
+    "whisker_1_1": true
+  },
+  "rigUnchanged": true,
+  "anchorsUnchanged": true,
+  "parts": {
+    "head_and_ears": {
+      "triangles": 1000,
+      "nonManifoldEdges": 0,
+      "degenerateFaces": 0,
+      "looseVertices": 0
+    },
+    "body_five_tentacles": {
+      "triangles": 1200,
+      "nonManifoldEdges": 0,
+      "degenerateFaces": 0,
+      "looseVertices": 0
+    }
+  },
+  "contact_by_leg": {
+    "foot_front_left": 0.0,
+    "foot_rear_left": 0.0,
+    "foot_front_right": 0.0,
+    "foot_rear_right": 0.0
+  },
+  "images": [
+    {
+      "name": "mona_classic_face_512",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    },
+    {
+      "name": "mona_classic_gradient_roles_128x64",
+      "size": [
+        128,
+        64
+      ],
+      "packed": true
+    }
+  ],
+  "anatomy": {
+    "supporting_legs": 4,
+    "raised_tail": 1,
+    "cupRows": {
+      "leg_front_left": 10,
+      "leg_rear_left": 7,
+      "leg_front_right": 10,
+      "leg_rear_right": 7,
+      "tail_raised": 11
+    },
+    "whiskers": 4
+  },
+  "passed": true
+}

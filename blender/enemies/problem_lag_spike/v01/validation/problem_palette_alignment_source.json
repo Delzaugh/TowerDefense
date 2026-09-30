@@ -1,0 +1,56 @@
+{
+  "asset": "problem_lag_spike",
+  "sourceBefore": "a6ebec2a19ce6f6dce5b8a72e4743d3cccf9589bfe152ec6ed90423027821914",
+  "revisionBefore": 11,
+  "colorsBefore": {
+    "body": "#233B58",
+    "body_dark": "#192E46",
+    "head": "#344D69",
+    "limb": "#627389",
+    "joint": "#192E46",
+    "blue_dark": "#344D69",
+    "blue": "#328EE8",
+    "cyan": "#30C9F5",
+    "ice": "#94E4FF"
+  },
+  "colorsAfter": {
+    "blue": "#328EE8",
+    "blue_dark": "#344D69",
+    "body": "#233B58",
+    "body_dark": "#192E46",
+    "cyan": "#30C9F5",
+    "head": "#344D69",
+    "ice": "#94E4FF",
+    "joint": "#192E46",
+    "limb": "#627389"
+  },
+  "objects": 5,
+  "actions": [
+    "hit",
+    "idle",
+    "move",
+    "resolve",
+    "spawn"
+  ],
+  "images": [
+    {
+      "name": "problem_lag_spike_palette",
+      "size": [
+        32,
+        8
+      ],
+      "packed": true
+    }
+  ],
+  "materialLinks": {
+    "lag_spike_palette": [
+      {
+        "input": "Base Color",
+        "image": "problem_lag_spike_palette"
+      }
+    ]
+  },
+  "passed": true,
+  "uniqueBaseColors": 7,
+  "checks": "Packed source pixels, material base bindings, palette policy, declared rectangles, metre scale, unchanged authoritative source hash"
+}

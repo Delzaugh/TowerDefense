@@ -1,0 +1,37 @@
+{
+  "asset": "showcase_workbench",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "ba478983e82eb1140e6cc9d5b29499363e3a4dd7dd4e97b64661329fcb39cfc8",
+  "checkedAt": "2026-09-26T22:25:22.500Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 596,
+  "meshes": 2,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    18.700000762939453,
+    6.900000102818012,
+    21.335000038146973
+  ],
+  "bounds": [
+    [
+      -9.350000381469727,
+      -7.450580596923828e-9,
+      -7.5
+    ],
+    [
+      9.350000381469727,
+      6.900000095367432,
+      13.835000038146973
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "983da2276be4d8045f33d36144717a67a90d67fa998b2563c176404832f95287",
+  "source": "blender/environment/showcase_workbench/v01/showcase_workbench_v01.blend",
+  "runtime": "assets/runtime/environment/showcase_workbench_v01.glb"
+}

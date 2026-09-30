@@ -1,0 +1,543 @@
+{
+  "passed": true,
+  "revision": "40a21d41f452a55e079d466eeefeefe43bb2bf27ea0683b21e911c559f04ca09",
+  "clips": [
+    {
+      "name": "idle",
+      "duration": 2.5
+    },
+    {
+      "name": "work",
+      "duration": 1.6666666269302368
+    },
+    {
+      "name": "move",
+      "duration": 1.3333333730697632
+    },
+    {
+      "name": "place",
+      "duration": 1.25
+    },
+    {
+      "name": "hit",
+      "duration": 0.5833333134651184
+    },
+    {
+      "name": "resolve",
+      "duration": 1.25
+    }
+  ],
+  "evidence": [
+    {
+      "file": "phone-idle.png",
+      "sha256": "a2495afdd624928011f9fa10c4d97396fbf7c6b26573921b15eb1d9e157de51c",
+      "clip": "idle",
+      "time": 1.75,
+      "view": "isometric, phone viewport, gameplay light",
+      "afterPlayback": {
+        "path": "towers/copilot_developer_v01.glb",
+        "revision": "40a21d41f452a55e079d466eeefeefe43bb2bf27ea0683b21e911c559f04ca09",
+        "triangles": 4228,
+        "meshes": 2,
+        "materials": 2,
+        "bounds": [
+          [
+            -1.1970000267028809,
+            0,
+            -1.1648000478744507
+          ],
+          [
+            1.1970000267028809,
+            2.1965596675872803,
+            1.1228512525558472
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": "idle",
+            "duration": 2.5
+          },
+          {
+            "name": "work",
+            "duration": 1.6666666269302368
+          },
+          {
+            "name": "move",
+            "duration": 1.3333333730697632
+          },
+          {
+            "name": "place",
+            "duration": 1.25
+          },
+          {
+            "name": "hit",
+            "duration": 0.5833333134651184
+          },
+          {
+            "name": "resolve",
+            "duration": 1.25
+          }
+        ],
+        "clip": "idle",
+        "time": 0.5171000000238337,
+        "playing": true,
+        "loop": true,
+        "speed": 1,
+        "pose": [
+          0.9999537113028232,
+          -0.009621603385613447,
+          0,
+          0,
+          0.009621603385613447,
+          0.9999537113028232,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1.1650663676794797,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "file": "phone-work.png",
+      "sha256": "52b28353136fe3729e759c241c306ba031f66daebcee2b98d48c8267c9271900",
+      "clip": "work",
+      "time": 0.833,
+      "view": "isometric, phone viewport, gameplay light",
+      "afterPlayback": {
+        "path": "towers/copilot_developer_v01.glb",
+        "revision": "40a21d41f452a55e079d466eeefeefe43bb2bf27ea0683b21e911c559f04ca09",
+        "triangles": 4228,
+        "meshes": 2,
+        "materials": 2,
+        "bounds": [
+          [
+            -1.1970000267028809,
+            0,
+            -1.1648000478744507
+          ],
+          [
+            1.1970000267028809,
+            2.1965596675872803,
+            1.1228512525558472
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": "idle",
+            "duration": 2.5
+          },
+          {
+            "name": "work",
+            "duration": 1.6666666269302368
+          },
+          {
+            "name": "move",
+            "duration": 1.3333333730697632
+          },
+          {
+            "name": "place",
+            "duration": 1.25
+          },
+          {
+            "name": "hit",
+            "duration": 0.5833333134651184
+          },
+          {
+            "name": "resolve",
+            "duration": 1.25
+          }
+        ],
+        "clip": "work",
+        "time": 0.34216674613951936,
+        "playing": true,
+        "loop": true,
+        "speed": 1,
+        "pose": [
+          0.999777527908622,
+          -4.7702236398786124e-8,
+          -0.02109252731103931,
+          0,
+          0.0007727310475657911,
+          0.9993287849111848,
+          0.03662489035244599,
+          0,
+          0.021078367941976494,
+          -0.036633041186861455,
+          0.9991064621832859,
+          0,
+          0,
+          1.174329950250838,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "file": "phone-move.png",
+      "sha256": "e8cdb7604212a6ae39134b60c09d3c0caf8b94a5818da8e2cb9ec1b259e90e96",
+      "clip": "move",
+      "time": 0.667,
+      "view": "isometric, phone viewport, gameplay light",
+      "afterPlayback": {
+        "path": "towers/copilot_developer_v01.glb",
+        "revision": "40a21d41f452a55e079d466eeefeefe43bb2bf27ea0683b21e911c559f04ca09",
+        "triangles": 4228,
+        "meshes": 2,
+        "materials": 2,
+        "bounds": [
+          [
+            -1.1970000267028809,
+            0,
+            -1.1648000478744507
+          ],
+          [
+            1.1970000267028809,
+            2.1965596675872803,
+            1.1228512525558472
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": "idle",
+            "duration": 2.5
+          },
+          {
+            "name": "work",
+            "duration": 1.6666666269302368
+          },
+          {
+            "name": "move",
+            "duration": 1.3333333730697632
+          },
+          {
+            "name": "place",
+            "duration": 1.25
+          },
+          {
+            "name": "hit",
+            "duration": 0.5833333134651184
+          },
+          {
+            "name": "resolve",
+            "duration": 1.25
+          }
+        ],
+        "clip": "move",
+        "time": 0.27523325383662833,
+        "playing": true,
+        "loop": true,
+        "speed": 1,
+        "pose": [
+          0.9997130079130702,
+          -0.023956247766628896,
+          0.000001593634799950327,
+          0,
+          0.02394019311685484,
+          0.9990454653933005,
+          0.036537997088741135,
+          0,
+          -0.0008769054244786572,
+          -0.03652747282078309,
+          0.9993322644479438,
+          0,
+          0,
+          1.2023477836709648,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "file": "phone-place.png",
+      "sha256": "4124959c8a295ab0e4a49bf5ea528322ec7261b75ab620a64c9d19995c97a63c",
+      "clip": "place",
+      "time": 0.625,
+      "view": "isometric, phone viewport, gameplay light",
+      "afterPlayback": {
+        "path": "towers/copilot_developer_v01.glb",
+        "revision": "40a21d41f452a55e079d466eeefeefe43bb2bf27ea0683b21e911c559f04ca09",
+        "triangles": 4228,
+        "meshes": 2,
+        "materials": 2,
+        "bounds": [
+          [
+            -1.1970000267028809,
+            0,
+            -1.1648000478744507
+          ],
+          [
+            1.1970000267028809,
+            2.1965596675872803,
+            1.1228512525558472
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": "idle",
+            "duration": 2.5
+          },
+          {
+            "name": "work",
+            "duration": 1.6666666269302368
+          },
+          {
+            "name": "move",
+            "duration": 1.3333333730697632
+          },
+          {
+            "name": "place",
+            "duration": 1.25
+          },
+          {
+            "name": "hit",
+            "duration": 0.5833333134651184
+          },
+          {
+            "name": "resolve",
+            "duration": 1.25
+          }
+        ],
+        "clip": "place",
+        "time": 1.25,
+        "playing": false,
+        "loop": false,
+        "speed": 1,
+        "pose": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1.1399999856948853,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "file": "phone-hit.png",
+      "sha256": "c0d4f5acc5488a32cac7c13fac7f8bf240c22fd812a65a1633085449225df3c6",
+      "clip": "hit",
+      "time": 0.128,
+      "view": "isometric, phone viewport, gameplay light",
+      "afterPlayback": {
+        "path": "towers/copilot_developer_v01.glb",
+        "revision": "40a21d41f452a55e079d466eeefeefe43bb2bf27ea0683b21e911c559f04ca09",
+        "triangles": 4228,
+        "meshes": 2,
+        "materials": 2,
+        "bounds": [
+          [
+            -1.1970000267028809,
+            0,
+            -1.1648000478744507
+          ],
+          [
+            1.1970000267028809,
+            2.1965596675872803,
+            1.1228512525558472
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": "idle",
+            "duration": 2.5
+          },
+          {
+            "name": "work",
+            "duration": 1.6666666269302368
+          },
+          {
+            "name": "move",
+            "duration": 1.3333333730697632
+          },
+          {
+            "name": "place",
+            "duration": 1.25
+          },
+          {
+            "name": "hit",
+            "duration": 0.5833333134651184
+          },
+          {
+            "name": "resolve",
+            "duration": 1.25
+          }
+        ],
+        "clip": "hit",
+        "time": 0.5833333134651184,
+        "playing": false,
+        "loop": false,
+        "speed": 1,
+        "pose": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1.1399999856948853,
+          0,
+          1
+        ]
+      }
+    },
+    {
+      "file": "phone-resolve.png",
+      "sha256": "4124959c8a295ab0e4a49bf5ea528322ec7261b75ab620a64c9d19995c97a63c",
+      "clip": "resolve",
+      "time": 0.625,
+      "view": "isometric, phone viewport, gameplay light",
+      "afterPlayback": {
+        "path": "towers/copilot_developer_v01.glb",
+        "revision": "40a21d41f452a55e079d466eeefeefe43bb2bf27ea0683b21e911c559f04ca09",
+        "triangles": 4228,
+        "meshes": 2,
+        "materials": 2,
+        "bounds": [
+          [
+            -1.1970000267028809,
+            0,
+            -1.1648000478744507
+          ],
+          [
+            1.1970000267028809,
+            2.1965596675872803,
+            1.1228512525558472
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [
+          {
+            "name": "idle",
+            "duration": 2.5
+          },
+          {
+            "name": "work",
+            "duration": 1.6666666269302368
+          },
+          {
+            "name": "move",
+            "duration": 1.3333333730697632
+          },
+          {
+            "name": "place",
+            "duration": 1.25
+          },
+          {
+            "name": "hit",
+            "duration": 0.5833333134651184
+          },
+          {
+            "name": "resolve",
+            "duration": 1.25
+          }
+        ],
+        "clip": "resolve",
+        "time": 1.25,
+        "playing": false,
+        "loop": false,
+        "speed": 1,
+        "pose": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          1.1399999856948853,
+          0,
+          1
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

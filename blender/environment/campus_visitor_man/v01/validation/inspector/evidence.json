@@ -1,0 +1,633 @@
+{
+  "identity": "Campus Visitor — Man · v01 · revision 6 · 47ab9215db6b · 3948 / 6000 triangles ✓",
+  "revision": 6,
+  "sha256": "47ab9215db6beb003621a33bd8d508b2f754d51f60280253bcd3f1020cbc108b",
+  "roles": 16,
+  "errors": [],
+  "evidence": [
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/inspector/front.png",
+      "sha256": "8209acafe4fe62f6ecb97fc086bf0196a6892a6a4fcac2cbb1932fcee7ac7db0",
+      "view": "front",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/campus_visitor_man_v01.glb",
+        "view": "front",
+        "projection": "OrthographicCamera",
+        "distance": 2.8450301027777933,
+        "target": [
+          0,
+          0.9065000414848328,
+          0.035473987460136414
+        ],
+        "camera": [
+          0,
+          0.906500041484833,
+          2.8805040902379297
+        ],
+        "effects": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb",
+            "revision": "47ab9215db6beb003621a33bd8d508b2f754d51f60280253bcd3f1020cbc108b",
+            "triangles": 3948,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -0.3868991434574127,
+                0,
+                -0.22405201196670532
+              ],
+              [
+                0.3868991434574127,
+                1.8130000829696655,
+                0.29499998688697815
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/inspector/left.png",
+      "sha256": "04ebcd16e4256c902d7a5d148afbe19decf2ed22c604eaa424af49577422a67d",
+      "view": "left",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/campus_visitor_man_v01.glb",
+        "view": "left",
+        "projection": "OrthographicCamera",
+        "distance": 2.8450301027777933,
+        "target": [
+          0,
+          0.9065000414848328,
+          0.035473987460136414
+        ],
+        "camera": [
+          -2.8450301027777933,
+          0.906500041484833,
+          0.03547398746013659
+        ],
+        "effects": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb",
+            "revision": "47ab9215db6beb003621a33bd8d508b2f754d51f60280253bcd3f1020cbc108b",
+            "triangles": 3948,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -0.3868991434574127,
+                0,
+                -0.22405201196670532
+              ],
+              [
+                0.3868991434574127,
+                1.8130000829696655,
+                0.29499998688697815
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/inspector/rear.png",
+      "sha256": "5e159b034c89e1decf08eafa1dd19abc50055bd35015fa45f02e4b251332c8c2",
+      "view": "rear",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/campus_visitor_man_v01.glb",
+        "view": "rear",
+        "projection": "OrthographicCamera",
+        "distance": 2.8450301027777933,
+        "target": [
+          0,
+          0.9065000414848328,
+          0.035473987460136414
+        ],
+        "camera": [
+          3.48415700884469e-16,
+          0.906500041484833,
+          -2.809556115317657
+        ],
+        "effects": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb",
+            "revision": "47ab9215db6beb003621a33bd8d508b2f754d51f60280253bcd3f1020cbc108b",
+            "triangles": 3948,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -0.3868991434574127,
+                0,
+                -0.22405201196670532
+              ],
+              [
+                0.3868991434574127,
+                1.8130000829696655,
+                0.29499998688697815
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/inspector/iso.png",
+      "sha256": "1c64db468956e652af54bb27f1698efe9b8bc82c1a9b72b4529fd06922590de9",
+      "view": "iso",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/campus_visitor_man_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 3.1511829919752,
+        "target": [
+          0,
+          0.9065000414848328,
+          0.035473987460136414
+        ],
+        "camera": [
+          1.6349147024432218,
+          2.528788429702473,
+          2.186099140782532
+        ],
+        "effects": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb",
+            "revision": "47ab9215db6beb003621a33bd8d508b2f754d51f60280253bcd3f1020cbc108b",
+            "triangles": 3948,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -0.3868991434574127,
+                0,
+                -0.22405201196670532
+              ],
+              [
+                0.3868991434574127,
+                1.8130000829696655,
+                0.29499998688697815
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/inspector/front-upper-detail.png",
+      "sha256": "82beffea447f5b699ef9d22f2edf2a778ec1356d25b4852c35d451cc21f742e2",
+      "view": "front-upper-detail",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/campus_visitor_man_v01.glb",
+        "view": "front",
+        "projection": "OrthographicCamera",
+        "distance": 1.4566554126222304,
+        "target": [
+          0,
+          1.2323660988833054,
+          0.035473987460136414
+        ],
+        "camera": [
+          0,
+          1.2323660988833054,
+          1.4921294000823668
+        ],
+        "effects": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb",
+            "revision": "47ab9215db6beb003621a33bd8d508b2f754d51f60280253bcd3f1020cbc108b",
+            "triangles": 3948,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -0.3868991434574127,
+                0,
+                -0.22405201196670532
+              ],
+              [
+                0.3868991434574127,
+                1.8130000829696655,
+                0.29499998688697815
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/inspector/iso-upper-detail.png",
+      "sha256": "2fae3e243b45b271a501a6d9ba12324e9a20ae21e88a2b63d86b141c5aec856a",
+      "view": "iso-upper-detail",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/campus_visitor_man_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 1.613405691891303,
+        "target": [
+          -0.1124525955158865,
+          1.2159270336169055,
+          -0.11245017036378131
+        ],
+        "camera": [
+          0.7246237321350433,
+          2.0465386883843375,
+          0.9886699081372853
+        ],
+        "effects": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb",
+            "revision": "47ab9215db6beb003621a33bd8d508b2f754d51f60280253bcd3f1020cbc108b",
+            "triangles": 3948,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -0.3868991434574127,
+                0,
+                -0.22405201196670532
+              ],
+              [
+                0.3868991434574127,
+                1.8130000829696655,
+                0.29499998688697815
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/inspector/phone-gameplay.png",
+      "sha256": "7711a9205c4663575a2ff60b792404866f6b3daccb23ede46851147893255291",
+      "view": "phone-gameplay",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/campus_visitor_man_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 5.971971517203642,
+        "target": [
+          0,
+          0.9065000414848328,
+          0.035473987460136414
+        ],
+        "camera": [
+          3.0984122664131295,
+          3.980983520165083,
+          4.11123607189961
+        ],
+        "effects": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb",
+            "revision": "47ab9215db6beb003621a33bd8d508b2f754d51f60280253bcd3f1020cbc108b",
+            "triangles": 3948,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -0.3868991434574127,
+                0,
+                -0.22405201196670532
+              ],
+              [
+                0.3868991434574127,
+                1.8130000829696655,
+                0.29499998688697815
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/inspector/small-silhouette.png",
+      "sha256": "265cd806bb7d20e1cb986a4b3c16f79510260f6a6554af73e228026fecfb7906",
+      "view": "small-silhouette",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "environment/campus_visitor_man_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 9.4535489759256,
+        "target": [
+          0,
+          0.9065000414848328,
+          0.035473987460136414
+        ],
+        "camera": [
+          4.904744107329664,
+          5.773365206137754,
+          6.487349447427322
+        ],
+        "effects": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "environment/campus_visitor_man_v01.glb",
+            "revision": "47ab9215db6beb003621a33bd8d508b2f754d51f60280253bcd3f1020cbc108b",
+            "triangles": 3948,
+            "meshes": 1,
+            "materials": 1,
+            "bounds": [
+              [
+                -0.3868991434574127,
+                0,
+                -0.22405201196670532
+              ],
+              [
+                0.3868991434574127,
+                1.8130000829696655,
+                0.29499998688697815
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    }
+  ]
+}

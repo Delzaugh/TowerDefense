@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_visitor_man",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "eb2b35b258eefe11ff748315f6298499bd1a8c25ba20dc84347de8aa5024c43d",
+  "sourceHash": "b8451f51811688afbf6e3bf3a2c141291ad80374133f04465f465b6f7ea1ee8f",
+  "scope": "model",
+  "reviewedAt": null,
+  "checks": {
+    "referenceFidelity": {
+      "status": "pending",
+      "findings": ""
+    },
+    "construction": {
+      "status": "pending",
+      "findings": ""
+    },
+    "readability": {
+      "status": "pending",
+      "findings": ""
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "pending",
+    "findings": ""
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/iso.png",
+      "sha256": "acc293ca9dcd382ac3cb05219805980473ee002087d7613e54e6f480726fbe48",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/iso-silhouette.png",
+      "sha256": "375dbcf144ddfdeabef3bacba74617b4437aa979d2da51757f797c8b3d7077b7",
+      "view": "iso",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/front.png",
+      "sha256": "8ac04f2732264285b313fdf0d23a7e7a935d00cd29ddeb0bfa61e83bb1afa667",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/front-silhouette.png",
+      "sha256": "98ab22f919c3125196cabda56c8cac4bb4073971493c2a35f55ebf53e2ca1a71",
+      "view": "front",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/side.png",
+      "sha256": "d05472dac6056138015773db39eccfe259af49e5bb02dc242d6a83ca26c907bb",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/side-silhouette.png",
+      "sha256": "f17c1416601d5acfe20d0be1ad48916998a154144bbb43679ba9727b3631f412",
+      "view": "side",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/rear.png",
+      "sha256": "fd6fa97e0bd103a9f389e8dfce0655de5edbf16e8f2060b8f0dbe9ffdc67b561",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/rear-silhouette.png",
+      "sha256": "340ef154943ebf0eb809a68773f94b34e7843047a067557f32c987e14fce2ead",
+      "view": "rear",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/top.png",
+      "sha256": "4ea3ad1abc43a2b8f0c14c8a2c335fddb7555be7bc3def6f7a05399e4ce931ed",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_visitor_man/v01/validation/top-silhouette.png",
+      "sha256": "74c27406c6d4ec491cd74b5589aae043953395823fc797767f9736246803cfa6",
+      "view": "top",
+      "mode": "silhouette"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": ""
+  },
+  "limitations": []
+}

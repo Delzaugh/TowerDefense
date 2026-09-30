@@ -1,0 +1,536 @@
+{
+  "passed": true,
+  "id": "problem_bug",
+  "revision": 11,
+  "sha256": "a44e0e584813cff6196010273cec3d6c872d8a85a6b3bc8c3a9f4004e8355a51",
+  "sourceHash": "2201813dba398071a3421289a1f40cba918f3399f9d8214dc97cb2fe742fc075",
+  "rendererFiles": [
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    },
+    {
+      "path": "tools/asset-presentation/digital-resolve.js",
+      "sha256": "98f1aa5265c1e9d18ea15c5fa65d453dbceecb7b84e31c7d942b1f225c5289c5"
+    }
+  ],
+  "checkedAt": "2026-09-24T10:46:30.700Z",
+  "preserved": {
+    "baselineSha256": "6463dc98375ba97c45e53b8d3ea5fa27871089c6b4b072207dc689c480e35a5c",
+    "unchangedClips": [
+      "move",
+      "hit"
+    ],
+    "restGeometryMaterialsMorphs": "exact byte parity"
+  },
+  "checks": {
+    "maxScaleDelta": 2.5288109106536417e-7,
+    "maxRootDelta": 0,
+    "minimumClearance": -7.871254404538208e-8,
+    "poseDelta": 0.08999860363083988,
+    "statePreserved": true,
+    "lease": 12,
+    "live": [
+      {
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "resolve",
+        "progress": 0.5,
+        "timelineProgress": 0.5,
+        "complete": false,
+        "fragments": 3,
+        "leased": 12,
+        "maxFragments": 12,
+        "triangles": 48
+      },
+      {
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "resolve",
+        "progress": 0.5,
+        "timelineProgress": 0.5,
+        "complete": false,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 12,
+        "triangles": 12
+      }
+    ],
+    "afterDispose": 0,
+    "resourcesRestored": true
+  },
+  "imageComparisons": [
+    {
+      "meaning": "spawn deterministic seek",
+      "exact": true
+    },
+    {
+      "meaning": "spawn Rest reset",
+      "exact": true
+    },
+    {
+      "meaning": "resolve deterministic seek",
+      "exact": true
+    },
+    {
+      "meaning": "resolve Rest reset",
+      "exact": true
+    }
+  ],
+  "frames": [
+    {
+      "file": "spawn-0.png",
+      "sha256": "1710d256e80ddbf8fa5c4e52014c660ee748f84429887f4350d49c6401775b4f",
+      "clip": "spawn",
+      "progress": 0,
+      "time": 0,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "spawn",
+        "progress": 0,
+        "timelineProgress": 0,
+        "complete": false,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 12,
+        "triangles": 0
+      }
+    },
+    {
+      "file": "spawn-8.png",
+      "sha256": "1710d256e80ddbf8fa5c4e52014c660ee748f84429887f4350d49c6401775b4f",
+      "clip": "spawn",
+      "progress": 0.08,
+      "time": 0.1,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "spawn",
+        "progress": 0.08,
+        "timelineProgress": 0.08,
+        "complete": false,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 12,
+        "triangles": 0
+      }
+    },
+    {
+      "file": "spawn-20.png",
+      "sha256": "c1fbb06b4b58ddbe261a35308229ec59944a870691714910550e4c404a520d16",
+      "clip": "spawn",
+      "progress": 0.2,
+      "time": 0.25,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "spawn",
+        "progress": 0.2,
+        "timelineProgress": 0.2,
+        "complete": false,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 12,
+        "triangles": 0
+      }
+    },
+    {
+      "file": "spawn-35.png",
+      "sha256": "e4e3bd607f1d42147d33d7d21891ba8a349c4b97c695bf3e6fcbf871536dd25e",
+      "clip": "spawn",
+      "progress": 0.35,
+      "time": 0.4375,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "spawn",
+        "progress": 0.3504,
+        "timelineProgress": 0.3504,
+        "complete": false,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 12,
+        "triangles": 0
+      }
+    },
+    {
+      "file": "spawn-50.png",
+      "sha256": "e15c462aab874c7b3776743c108c47e46e7117ac3bbe7d63c9d03ab2ea47fcd0",
+      "clip": "spawn",
+      "progress": 0.5,
+      "time": 0.625,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "spawn",
+        "progress": 0.5,
+        "timelineProgress": 0.5,
+        "complete": false,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 12,
+        "triangles": 0
+      }
+    },
+    {
+      "file": "spawn-65.png",
+      "sha256": "cdbe234e50c37985f40eb167e1f6916f52c163e6b41626646067c3a8b49e6963",
+      "clip": "spawn",
+      "progress": 0.65,
+      "time": 0.8125,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "spawn",
+        "progress": 0.6504,
+        "timelineProgress": 0.6504,
+        "complete": false,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 12,
+        "triangles": 0
+      }
+    },
+    {
+      "file": "spawn-80.png",
+      "sha256": "f13e07ba2c1763a2d00a82447bac7e3a0358889ae0580e15b4c23a3c0b6cd797",
+      "clip": "spawn",
+      "progress": 0.8,
+      "time": 1,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "spawn",
+        "progress": 0.8,
+        "timelineProgress": 0.8,
+        "complete": false,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 12,
+        "triangles": 0
+      }
+    },
+    {
+      "file": "spawn-90.png",
+      "sha256": "a503eb7b86c64c779a46e189812a08b02f79b949410edd2031d0d2a4ed3717a0",
+      "clip": "spawn",
+      "progress": 0.9,
+      "time": 1.125,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "spawn",
+        "progress": 0.9,
+        "timelineProgress": 0.9,
+        "complete": false,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 12,
+        "triangles": 0
+      }
+    },
+    {
+      "file": "spawn-100.png",
+      "sha256": "a68f8ff3cebba4a19dd06cad7be1c75ea4bb493900b5c9e7b0912517b31f229c",
+      "clip": "spawn",
+      "progress": 1,
+      "time": 1.25,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "spawn",
+        "progress": 1,
+        "timelineProgress": 1,
+        "complete": true,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 12,
+        "triangles": 0
+      }
+    },
+    {
+      "file": "resolve-0.png",
+      "sha256": "a68f8ff3cebba4a19dd06cad7be1c75ea4bb493900b5c9e7b0912517b31f229c",
+      "clip": "resolve",
+      "progress": 0,
+      "time": 0,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "resolve",
+        "progress": 0,
+        "timelineProgress": 0,
+        "complete": false,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 12,
+        "triangles": 0
+      }
+    },
+    {
+      "file": "resolve-8.png",
+      "sha256": "1a4516d0ece33e9b3ca9ffd8636b10d3c1966a4f84e67f845b7ec5f6e28cbfc5",
+      "clip": "resolve",
+      "progress": 0.08,
+      "time": 0.1,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "resolve",
+        "progress": 0.08,
+        "timelineProgress": 0.08,
+        "complete": false,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 12,
+        "triangles": 0
+      }
+    },
+    {
+      "file": "resolve-20.png",
+      "sha256": "2f51b25f26e01326e8d4aade9121cb7db1f165c0cd7db3837dc3fb1cd9414bf7",
+      "clip": "resolve",
+      "progress": 0.2,
+      "time": 0.25,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "resolve",
+        "progress": 0.2,
+        "timelineProgress": 0.2,
+        "complete": false,
+        "fragments": 0,
+        "leased": 12,
+        "maxFragments": 12,
+        "triangles": 12
+      }
+    },
+    {
+      "file": "resolve-35.png",
+      "sha256": "d245e40d0597184de4a702e8862615049577708825f96bc8af5ff88948ca2d98",
+      "clip": "resolve",
+      "progress": 0.35,
+      "time": 0.4375,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "resolve",
+        "progress": 0.3504,
+        "timelineProgress": 0.3504,
+        "complete": false,
+        "fragments": 3,
+        "leased": 12,
+        "maxFragments": 12,
+        "triangles": 48
+      }
+    },
+    {
+      "file": "resolve-50.png",
+      "sha256": "4e7769433fc58f13550180b0e3ce0b7b3b7d20b5e64c9099cb751a029b7f866a",
+      "clip": "resolve",
+      "progress": 0.5,
+      "time": 0.625,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "resolve",
+        "progress": 0.5,
+        "timelineProgress": 0.5,
+        "complete": false,
+        "fragments": 3,
+        "leased": 12,
+        "maxFragments": 12,
+        "triangles": 48
+      }
+    },
+    {
+      "file": "resolve-65.png",
+      "sha256": "7f2d3d2e2a2b8ab32d752ed619267ce344923103fb8d19ddf1d8cd6f073c823c",
+      "clip": "resolve",
+      "progress": 0.65,
+      "time": 0.8125,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "resolve",
+        "progress": 0.6504,
+        "timelineProgress": 0.6504,
+        "complete": false,
+        "fragments": 3,
+        "leased": 12,
+        "maxFragments": 12,
+        "triangles": 48
+      }
+    },
+    {
+      "file": "resolve-80.png",
+      "sha256": "6cbb905307ca87e6ec9c99fc45d927ebb2f5a678485476d1c8539bad0f0469e4",
+      "clip": "resolve",
+      "progress": 0.8,
+      "time": 1,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "resolve",
+        "progress": 0.8,
+        "timelineProgress": 0.8,
+        "complete": false,
+        "fragments": 3,
+        "leased": 12,
+        "maxFragments": 12,
+        "triangles": 36
+      }
+    },
+    {
+      "file": "resolve-90.png",
+      "sha256": "e1006775a13b2cbdd190f23c734164fc062cf57d4dcbfd99c5a92c89f18472f4",
+      "clip": "resolve",
+      "progress": 0.9,
+      "time": 1.125,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "resolve",
+        "progress": 0.9,
+        "timelineProgress": 0.9,
+        "complete": false,
+        "fragments": 1,
+        "leased": 12,
+        "maxFragments": 12,
+        "triangles": 12
+      }
+    },
+    {
+      "file": "resolve-100.png",
+      "sha256": "1710d256e80ddbf8fa5c4e52014c660ee748f84429887f4350d49c6401775b4f",
+      "clip": "resolve",
+      "progress": 1,
+      "time": 1.25,
+      "view": "isometric",
+      "effect": {
+        "path": "enemies/problem_bug_v01.glb",
+        "type": "glitch_breach",
+        "version": 1,
+        "enabled": true,
+        "clip": "resolve",
+        "progress": 1,
+        "timelineProgress": 1,
+        "complete": true,
+        "fragments": 0,
+        "leased": 0,
+        "maxFragments": 12,
+        "triangles": 0
+      }
+    },
+    {
+      "file": "phone-spawn-20.png",
+      "sha256": "94d66e7833aec1d46eb26ab533f6c42ec0e6f922b6a95822ca673ebf2ce8ebe5",
+      "clip": "spawn",
+      "progress": 0.2,
+      "view": "phone, game light and ground shadows"
+    },
+    {
+      "file": "phone-spawn-50.png",
+      "sha256": "b56d71c4738ffcfc40168dcca0cb09e3d42e4311f4659cc6ac8da547fe1c2076",
+      "clip": "spawn",
+      "progress": 0.5,
+      "view": "phone, game light and ground shadows"
+    },
+    {
+      "file": "phone-spawn-80.png",
+      "sha256": "29efb5cf7e083acd10235f8bd46d153c6795c129dfcd566ac677f5f85570d131",
+      "clip": "spawn",
+      "progress": 0.8,
+      "view": "phone, game light and ground shadows"
+    },
+    {
+      "file": "phone-spawn-100.png",
+      "sha256": "f9a4bcf2fc400a367a1a79071f40eff75847ac5b04a616054869688a862ac215",
+      "clip": "spawn",
+      "progress": 1,
+      "view": "phone, game light and ground shadows"
+    },
+    {
+      "file": "phone-resolve-20.png",
+      "sha256": "125df595b8a3b2ef9796966bcdf372a3f663978b1207bc88716df20886826acd",
+      "clip": "resolve",
+      "progress": 0.2,
+      "view": "phone, game light and ground shadows"
+    },
+    {
+      "file": "phone-resolve-50.png",
+      "sha256": "e8b4030ef13efa74a7969f631d696a63816751af6d341fbd051589883e09ac14",
+      "clip": "resolve",
+      "progress": 0.5,
+      "view": "phone, game light and ground shadows"
+    },
+    {
+      "file": "phone-resolve-80.png",
+      "sha256": "b2b0b83b2b3e374bde28ebc51393344fcb87ed7a1afce253bb4ad7052d317a3a",
+      "clip": "resolve",
+      "progress": 0.8,
+      "view": "phone, game light and ground shadows"
+    },
+    {
+      "file": "phone-resolve-100.png",
+      "sha256": "bb7d62f966d467e228842a75bae94f990e0a66646d7c662689fc10f7f527f410",
+      "clip": "resolve",
+      "progress": 1,
+      "view": "phone, game light and ground shadows"
+    }
+  ]
+}

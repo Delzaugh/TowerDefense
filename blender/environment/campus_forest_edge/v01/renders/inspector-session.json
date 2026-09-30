@@ -1,0 +1,79 @@
+{
+  "sha256": "e047a304c599939d0f23f76d7d288897d688faaa3d0d924ccfaba0fcd298da28",
+  "revision": 2,
+  "capturedAt": "2026-09-24T11:15:06.737Z",
+  "state": {
+    "resolveBudget": {
+      "used": 0,
+      "maxFragments": 256
+    },
+    "resolveEffects": [
+      {
+        "path": "environment/campus_forest_edge_v01.glb"
+      }
+    ],
+    "loading": false,
+    "activePath": "environment/campus_forest_edge_v01.glb",
+    "view": "iso",
+    "projection": "OrthographicCamera",
+    "distance": 25.189930594170374,
+    "target": [
+      0.009444475173950195,
+      2.1089999558448795,
+      -0.26794707775115967
+    ],
+    "camera": [
+      13.078627695193555,
+      15.077250929209011,
+      16.923722997972103
+    ],
+    "effects": [
+      {
+        "path": "environment/campus_forest_edge_v01.glb",
+        "enabled": false,
+        "triangles": 0,
+        "meshes": 0,
+        "materials": 0
+      }
+    ],
+    "entries": [
+      {
+        "path": "environment/campus_forest_edge_v01.glb",
+        "revision": "e047a304c599939d0f23f76d7d288897d688faaa3d0d924ccfaba0fcd298da28",
+        "triangles": 650,
+        "meshes": 1,
+        "materials": 1,
+        "bounds": [
+          [
+            -5.447739124298096,
+            -2.3460387410523253e-8,
+            -2.632594347000122
+          ],
+          [
+            5.466628074645996,
+            4.2179999351501465,
+            2.0967001914978027
+          ]
+        ],
+        "root": [
+          0,
+          0,
+          0
+        ],
+        "wrapper": [
+          0,
+          0,
+          0
+        ],
+        "clips": [],
+        "clip": null,
+        "time": 0,
+        "playing": false,
+        "loop": true,
+        "speed": 1,
+        "pose": []
+      }
+    ]
+  },
+  "errors": []
+}

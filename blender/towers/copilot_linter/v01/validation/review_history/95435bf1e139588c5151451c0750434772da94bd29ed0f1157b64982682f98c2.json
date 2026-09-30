@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "asset": "linter_agent",
+  "version": "v01",
+  "revision": 12,
+  "sha256": "6585fe5054080d5542fa5cee3bde46a7b10c82b507cbe28f65739769590c4d70",
+  "sourceHash": "2eccbf7bc62b0be512362881c318c171a6f777567761cf2e2cc8674c987ea99c",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-24T14:51:56.554Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Preserved the six 60-degree shooter mouths exactly, original shell/crown, proportions and lime palette. Latest user feedback supersedes exact study fidelity for pod roots, recessed face and visor. The new face border and darker framed cyan optics implement those explicit corrections."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Corrected actual disconnected roots by fitting all sixteen vertices of every rear pod ring 0.035 m into the chassis surface. Source audit checks all six roots and unchanged mouth positions. Cut a real tapered recess into the body and seated both cyan status marks on its back plane. Inspected runtime front/side/iso/rear/top and live underside; the previous floating-pod gap and buried-panel notch are gone. No nonmanifold edges or zero-area faces remain; inherited collapsed latch vertices were welded without silhouette changes."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "The dark visor perimeter, shaped saturated cyan lenses and continuous face-well border remain clear in the standard runtime isometric render. Lowered the optics specular/coat after the first live Inspector review exposed an overly pale highlight; revision 12 retains lens color and depth. The six-pod silhouette and forward clearance remain intact."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Reviewed static model milestone. User has now authorized the baseline animation pass; no animations are claimed for this revision."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked revision 12 after the revision 11 optics adjustment: actual GLB fixed renders plus live underside with hash prefix 6585fe505408. Roots overlap body cleanly; face recess is legible; the visor retains brighter cyan without the excessive white highlight. User then said “looks good, make the animations”."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/linter_agent/v01/validation/iso.png",
+      "sha256": "0e55245566870908da7112f6b190929a969df7fe51f880c77d0000766b1f38fc",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/linter_agent/v01/validation/front.png",
+      "sha256": "a740c8a4364840b46711d45c932e0caca2e48f9eea9870654acc764280d74ca1",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/linter_agent/v01/validation/side.png",
+      "sha256": "4ff1fb382eb15f6dc995951302331f81141d69b6434d7515d3b3e3bc82150c75",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/linter_agent/v01/validation/rear.png",
+      "sha256": "be17f15f1026d85de05efb702777deee606036124505fd75c7ff544f06eef538",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/linter_agent/v01/validation/top.png",
+      "sha256": "2822809fd2d894c30331f23a8c2407e763807553ee5de288675ca048689d38b9",
+      "view": "top",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "accepted",
+    "note": "User feedback after the model refinement, 2026-09-24: “looks good, make the animations”. Acceptance applies to the refined model milestone; animation authorization is explicit and recorded separately."
+  },
+  "limitations": [
+    "Static model checkpoint; baseline animation is authorized and follows this accepted rest geometry."
+  ]
+}

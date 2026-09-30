@@ -1,0 +1,37 @@
+{
+  "asset": "campus_forest_edge",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "e047a304c599939d0f23f76d7d288897d688faaa3d0d924ccfaba0fcd298da28",
+  "checkedAt": "2026-09-24T11:14:35.990Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 650,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    10.914367198944092,
+    4.217999958610534,
+    4.729294538497925
+  ],
+  "bounds": [
+    [
+      -5.447739124298096,
+      -2.3460387410523253e-8,
+      -2.632594347000122
+    ],
+    [
+      5.466628074645996,
+      4.2179999351501465,
+      2.0967001914978027
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "4ada1c14585d60b3510f9786664cbed0f6737ed4cd84f7c9a07ddd6d2cf760e8",
+  "source": "blender/environment/campus_forest_edge/v01/campus_forest_edge_v01.blend",
+  "runtime": "assets/runtime/environment/campus_forest_edge_v01.glb"
+}

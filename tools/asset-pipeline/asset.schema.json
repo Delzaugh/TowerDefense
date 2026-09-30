@@ -398,5 +398,11 @@
       }
     }
   },
+  "allOf": [
+    {
+      "if": { "properties": { "category": { "const": "towers" } }, "required": ["category"] },
+      "then": { "properties": { "id": { "pattern": "^copilot_[a-z][a-z0-9_]*$" } } }
+    }
+  ],
   "$comment": "contracts.mjs additionally enforces matching category/id/version across catalog, source, runtime and recipe paths."
 }

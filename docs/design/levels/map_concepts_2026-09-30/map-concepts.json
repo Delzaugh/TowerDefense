@@ -1,0 +1,288 @@
+{
+  "kind": "intro-map-concept-study",
+  "status": "hypothesis",
+  "date": "2026-09-30",
+  "runtimeRegistration": false,
+  "units": "provisional map units; visual/model scaling remains to validate",
+  "designBrief": {
+    "playerPromise": "Orchestrate a small team that builds a Product while protecting it.",
+    "feeling": "Welcoming, understandable and forgiving, with one meaningful placement lesson at a time.",
+    "primaryVerb": "Place and specialize Copilots.",
+    "secondaryVerbs": [
+      "Choose Build, Defend or Auto.",
+      "Set local target priority.",
+      "Plan between authored rounds."
+    ],
+    "repeatedDecision": "Allocate local coverage to Work or Problems as the mix changes.",
+    "reward": "Completed Work funds the team, heals capped Product health and contributes visual Product Progress.",
+    "risk": "Ignored Problems damage Product health; unfinished Work forfeits rewards and adds Technical Debt.",
+    "mastery": "Read exposure and sight, spread coverage across the route, and use a Tester where it improves real completion and defense.",
+    "nonGoals": [
+      "Branching routes",
+      "Elevation mechanics",
+      "Map hazards",
+      "New Tower families",
+      "Extra enemy types"
+    ]
+  },
+  "coreLoopContract": "Place and configure Copilots to complete moving Work and resolve Problems before they reach the Product; successful Work earns Compute, capped healing and visual growth, while missed Work adds debt and leaked Problems damage Product health.",
+  "levelPlan": {
+    "spatialFormat": "One readable planar authored route, one deliberate Server blocker and free placement within valid areas.",
+    "firstDecision": "Buy three Base Copilots or invest in two specialized Copilots using the proposed opening budget.",
+    "firstThreat": "One readable Bug after productive Work has shown completion and reward.",
+    "firstReward": "A visible Work completion payout before mixed traffic creates competition.",
+    "escalation": "Six normal rounds introduce productive Work, Bugs, specialization, modes, then light ambiguity; Debt Sprint and incident follow.",
+    "recovery": "Maintain useful late coverage and a safe planning break before each round.",
+    "camera": "Fixed orthographic isometric view; entry, Server and Product remain visible together at phone scale."
+  },
+  "candidateBalance": {
+    "range": 5,
+    "baseCost": 30,
+    "personaCost": 20,
+    "startingCompute": 100,
+    "pathWidth": 3.2,
+    "unobstructedSpeed": 1.6,
+    "routeLengthTarget": [
+      36,
+      48
+    ],
+    "routeTimeTargetSeconds": [
+      23,
+      30
+    ],
+    "activeLevelMinutes": [
+      10,
+      14
+    ],
+    "suggestedPlacementAreas": 6,
+    "roundStructure": "Six normal rounds, Debt Sprint, Production Incident; pacing and script unapproved."
+  },
+  "concepts": [
+    {
+      "id": "hello_world_courtyard",
+      "name": "Hello World Courtyard",
+      "routeShape": "Gentle open S",
+      "bounds": {
+        "width": 36,
+        "depth": 26
+      },
+      "path": [
+        [
+          -15,
+          -8
+        ],
+        [
+          -5,
+          -8
+        ],
+        [
+          0,
+          -5
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          14,
+          8
+        ]
+      ],
+      "blocker": {
+        "x": 2,
+        "z": -1.8,
+        "width": 1.8,
+        "depth": 3.6
+      },
+      "suggestedPositions": [
+        [
+          -11,
+          -4
+        ],
+        [
+          -7,
+          -11
+        ],
+        [
+          -3.5,
+          0
+        ],
+        [
+          4.5,
+          -2.8
+        ],
+        [
+          8.5,
+          4.5
+        ],
+        [
+          11.5,
+          11.2
+        ]
+      ],
+      "image": "01-hello-world-courtyard.png",
+      "diagram": "01-courtyard-layout.svg",
+      "theme": "A welcoming landscaped development courtyard with a tiny pond, rounded trees and a compact Product studio.",
+      "strength": "Clearest introduction and most room for recovery.",
+      "risk": "Keep foliage, fences and decoration away from the working route; avoid making the middle bend universally best.",
+      "routeLength": 40.6619037896906,
+      "travelSecondsAtCandidateSpeed": 25.413689868556624
+    },
+    {
+      "id": "creekside_compute",
+      "name": "Creekside Compute",
+      "routeShape": "Open shoreline C",
+      "bounds": {
+        "width": 27,
+        "depth": 22
+      },
+      "path": [
+        [
+          -10,
+          -7
+        ],
+        [
+          3,
+          -7
+        ],
+        [
+          8,
+          -4
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          -8,
+          8
+        ]
+      ],
+      "blocker": {
+        "x": 4.5,
+        "z": -2.5,
+        "width": 1.8,
+        "depth": 3
+      },
+      "suggestedPositions": [
+        [
+          -7,
+          -10
+        ],
+        [
+          -4,
+          -3.8
+        ],
+        [
+          4,
+          -1.3
+        ],
+        [
+          11.5,
+          1
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          -1,
+          10.2
+        ]
+      ],
+      "image": "02-creekside-compute.png",
+      "diagram": "02-creekside-layout.svg",
+      "theme": "A riverside development lab with a low fixed bridge, cooling equipment, stone banks and open greenery.",
+      "strength": "Most memorable natural setting; strong entry and destination separation.",
+      "risk": "Water can remove useful placement space. A bridge needs visual art and placement exclusion, while movement stays on the same planar route.",
+      "routeLength": 44.08547862362014,
+      "travelSecondsAtCandidateSpeed": 27.553424139762587
+    },
+    {
+      "id": "launch_garden",
+      "name": "Launch Garden",
+      "routeShape": "Folded open U",
+      "bounds": {
+        "width": 28,
+        "depth": 22
+      },
+      "path": [
+        [
+          -10,
+          -7
+        ],
+        [
+          6,
+          -7
+        ],
+        [
+          9,
+          -4
+        ],
+        [
+          9,
+          4
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          -9,
+          7
+        ]
+      ],
+      "blocker": {
+        "x": 5.5,
+        "z": -1.5,
+        "width": 1.7,
+        "depth": 3
+      },
+      "suggestedPositions": [
+        [
+          -6,
+          -3.8
+        ],
+        [
+          2,
+          -10
+        ],
+        [
+          5,
+          -3
+        ],
+        [
+          11.6,
+          0
+        ],
+        [
+          3,
+          3.7
+        ],
+        [
+          -5,
+          10
+        ]
+      ],
+      "image": "03-launch-garden.png",
+      "diagram": "03-launch-layout.svg",
+      "theme": "A small startup maker garden with planters, a solar canopy, workshop and a Product launch studio.",
+      "strength": "Strong first-release story and a slightly more deliberate placement puzzle.",
+      "risk": "Keep the two straight legs beyond one tower's shared reach; reserve the inner turn for a limited, obstructed coverage choice.",
+      "routeLength": 47.48528137423857,
+      "travelSecondsAtCandidateSpeed": 29.678300858899103
+    }
+  ]
+}

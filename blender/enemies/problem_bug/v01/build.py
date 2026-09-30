@@ -184,8 +184,9 @@ obj['palette_roles']={'attribute':'_palette_role','scale':1,'roles':{name:value 
 mat=bpy.data.materials.new('bug_palette');mat.use_nodes=True;nodes=mat.node_tree.nodes;bs=nodes.get('Principled BSDF')
 bs.inputs['Roughness'].default_value=.72;bs.inputs['Metallic'].default_value=0
 attr=nodes.new('ShaderNodeVertexColor');attr.layer_name='Color';mat.node_tree.links.new(attr.outputs['Color'],bs.inputs['Base Color'])
-# Vertex colors are portable, with a small uniform emission for clean phone-scale readability.
-mat.node_tree.links.new(attr.outputs['Color'],bs.inputs['Emission Color']);bs.inputs['Emission Strength'].default_value=.08
+# Matte body: preserve cobalt/red without a uniform white emission wash.
+# Entry/exit and state effects remain presentation-owned.
+bs.inputs['Emission Strength'].default_value=0
 obj.data.materials.append(mat)
 
 arm=bpy.data.armatures.new('bug_skeleton');rig=bpy.data.objects.new('bug_rig',arm);scene.collection.objects.link(rig);rig.parent=root
@@ -243,6 +244,9 @@ bpy.ops.object.select_all(action='DESELECT')
 for o in [root,*root.children_recursive]:o.select_set(True)
 bpy.context.view_layer.objects.active=obj
 bpy.context.preferences.filepaths.save_version=0
+# Retain the category lifecycle poses in future guarded recipe rebuilds.
+import runpy
+runpy.run_path(str(Path(__file__).with_name('animate_lifecycle.py')))['author'](CONTRACT)
 bpy.ops.wm.save_as_mainfile(filepath=str(OUT/os.environ['ASSET_SOURCE_NAME']))
 rig.animation_data.action=None
 for track in rig.animation_data.nla_tracks:track.mute=True

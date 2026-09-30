@@ -1,0 +1,36 @@
+{
+  "base_source_sha256": "e433b387cd8bf61fe9d7fbc105bee080d0e086d3cd6c64885fdc144afb5fed29",
+  "base_geometry_unchanged": true,
+  "base_geometry_hashes": {
+    "body_five_tentacles": "59e7a6557cbf456d5ed238af9e5e6499f8afaecda29a5742268f75b71f218755",
+    "eye_iris_-1": "db8a7267f7a287de8bfd71a188d5370b2310ac2ab455e73b82998e8df13345dc",
+    "eye_iris_1": "3ced9b1f945e3fc7e51addf4910e57c613ee8bf1777967432f0d57a02fa4cf37",
+    "eye_white_-1": "2353ad3b098915cbf0ebd70fe0f4f38ec702542224c8e9732a43a9e643e13393",
+    "eye_white_1": "b58eeb1ffacf4908a061105d0e73f08e42b3ab43d49b46ea4a1e00375a3277a8",
+    "head_and_ears": "7877282089d3faabcb996104e8e7c127a13bd6b814325df6d037b4d4cfe8e4e3",
+    "nose": "073e662febd50b5e535adf32d96812e55f99b18d02a908edad6711badfcbda66",
+    "smile": "11643e00b7406c714172ddfe49c758a88a63cc993884225bee7fc4aed868dd0c",
+    "suction_cup_rows": "3f8aaa12fab4c13d2aa2b0b2da4964c66f1b72cb486da1fba3e398980b054813",
+    "whisker_-1_0": "8d591b47a0d9eb4298a6070ab9de1ef00bf18bcd56a12e4dc98d931a6577b815",
+    "whisker_-1_1": "bba1b839fd4833931ec511d1eb75644b2d7e2facbfe7fb1b0694215fba9d61d0",
+    "whisker_1_0": "1631acd2086d178e276cb0b5d67ccde4b27a058ee5b781b60bb84f58d36367a6",
+    "whisker_1_1": "029a4752d3e344d8cbcd69820eda0ba4216fd5b5e9cd25b4e662d05834bdcde2"
+  },
+  "triangles": 3506,
+  "meshes": 15,
+  "bones": 11,
+  "supporting_legs": 4,
+  "tails": 1,
+  "cups": 45,
+  "glint_triangles": 16,
+  "clips": [
+    "idle",
+    "move",
+    "wave",
+    "celebrate",
+    "work",
+    "hit",
+    "place",
+    "resolve"
+  ]
+}

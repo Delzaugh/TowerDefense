@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_tile_civic",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "6b628f413cf688a1dfe35c88d4b1593a24f7e5e5d4ba057bd4b9ae508156126d",
+  "sourceHash": "1a8dbf9a2381932b6cfa6b951be93b1e6b0162427ad46a7bc2bf6f101a5a4d72",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T11:15:33.715Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Preserves the foundation radius, silhouette, shell, trim, slate outer boundary and y1.20 interface. The fully flat ashlar field fits the civic square brief without baking or obstructing existing paths."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Close paving-edge and reverse views show a continuous level top and consistent structural trim; all paving is in the packed opaque atlas, with no coplanar overlay geometry. The shared 1.4 m slate perimeter fades into broad slabs."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Phone-size actual GLB capture retains a broad quiet stone field and continuous slate perimeter. Large slab spacing is restrained and avoids high-frequency noise."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Reassessed the close paving boundary, reverse oblique and phone render after the first full-view inspection. No raised surface pieces, abrupt shared-edge coloring, broken trim or visible coplanar flicker were found."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_tile_civic/v01/validation/iso.png",
+      "sha256": "ab5c17e666a22be91ea27d71b3c441993d13e13064ed1034e653002fd160113c",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_civic/v01/validation/rear.png",
+      "sha256": "b27863ed5669662a1bbd381935112f8383468047c3617b62b441323d59af61b2",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_civic/v01/validation/close-paving-edge.png",
+      "sha256": "c8779a0fb143fee90f780f08b644955948bc3c2cf78deaf8a7806f13dc2de4d4",
+      "view": "close-paving-edge"
+    },
+    {
+      "path": "blender/environment/campus_tile_civic/v01/validation/reverse-oblique.png",
+      "sha256": "dfb93ce2e7d7c85c4e518e3c0edbcf9822acc273039ace5bd77770202336d980",
+      "view": "reverse-oblique"
+    },
+    {
+      "path": "blender/environment/campus_tile_civic/v01/validation/phone.png",
+      "sha256": "be4c6ae56f1e441255ba2bccff6107939855b0f98758a03447a4b0900aa194ff",
+      "view": "phone-scale"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author self-review completed; explicit user artistic acceptance remains separate."
+  },
+  "limitations": [
+    "Final campus composition and existing prop visibility are reviewed by the integrating parent task."
+  ]
+}

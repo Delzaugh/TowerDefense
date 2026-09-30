@@ -34,6 +34,14 @@ Three.js modules and their license are local in vendor/. No build step, CDN or i
 
 Statistics describe imported rest geometry before comparison offsets. Models are never automatically grounded or rescaled. The displayed budget comes from the manifest; blocking delivery validation belongs to the asset pipeline.
 
+The roster colour review is available at `/roster-palette.html`. It compares a
+representative sample at authored scale and provides before/refined and grayscale
+controls. Its retained-before colour preview is reconstructed on unchanged current
+geometry; the refined view uses delivered GLBs. Regenerate it with
+`node tools/asset-inspector/review-roster-palette.mjs`, then verify with
+`node tools/asset-inspector/verify-roster-palette.mjs`. Shared colours, explicit
+exceptions and review limits live in `docs/design/Palette_Consistency_Review.md`.
+
 ## Export for Bambu
 
 Use **Export for Bambu** in the toolbar to download the selected asset as a static, textured GLB. Choose current pose or rest pose and a height in millimetres (default 100). Current pose is captured at Download; pause/scrub first for a precise frame. The whole asset is exported with saved colours, regardless of mesh isolation or temporary palette previews. Comparison offsets, overlays and aura effects are excluded.

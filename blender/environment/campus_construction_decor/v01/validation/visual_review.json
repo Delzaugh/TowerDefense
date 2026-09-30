@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_construction_decor",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "4909198bb6349aad61a1829f2470400a3ca0864da5a1e4092e141c6c9a603400",
+  "sourceHash": "83a7ef9a0486ac0249ef89475624cea459818b216c27ed275b1bd34d271eee75",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-24T14:54:15.901Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Compared with the user close-up of revision 3. The open white frame, blue intermediate structure, mezzanine, palette and proportions remain; the requested blue/white joint flicker is removed."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Inspected the actual revision-4 GLB in the shared Inspector. All visible blue beam ends seat on column inner faces; no blue cap extends onto an outer white face. Narrower sections clear column bevels. Roof cross members meet lintel inner faces without overlapping top planes. Beam tops meet the mezzanine underside. Close isometric, reverse and underside views show clean attached joints."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Phone-width and full asset views retain the crane, white unfinished building frame and blue office hierarchy. The small section correction remains consistent with the low-poly construction style."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static environment mesh with no authored clips. The campus presentation applies its common floating transform without changing local beam joints."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After first inspecting the repaired isometric and underside export, rechecked a separate elevated reverse view against the reported close-up. Column faces are uninterrupted, the roof corners meet cleanly, floor beams remain attached, and the mezzanine stays supported. No further defect found in the repaired joints."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_construction_decor/v01/validation/iso.png",
+      "sha256": "aa174dc12b03c7c0296cd14fbbb81b86715ac4c0638068780a8ba766428bec72",
+      "view": "full asset isometric"
+    },
+    {
+      "path": "blender/environment/campus_construction_decor/v01/validation/rear.png",
+      "sha256": "b4fc0946561b231d4c3dd8e16d24fd71bce6fb6056b65eaf5027fe9efd9da991",
+      "view": "fixed rear"
+    },
+    {
+      "path": "blender/environment/campus_construction_decor/v01/validation/joint-iso.png",
+      "sha256": "2b60ee320a65f14ba20477983c71844f83c1160ddec42e9182aa3bf539a902cd",
+      "view": "close isometric joints"
+    },
+    {
+      "path": "blender/environment/campus_construction_decor/v01/validation/joint-rear.png",
+      "sha256": "eabb4b5fc3ef80c26bd9ea6f974930014e778b13ce43f01fccd55052da9933d8",
+      "view": "elevated reverse joints, second pass"
+    },
+    {
+      "path": "blender/environment/campus_construction_decor/v01/validation/joint-underside.png",
+      "sha256": "5f7962ef6a95f264fcbb04215d602af932ccde92f3d6de5920cb0a8c9c5e0646",
+      "view": "underside connections"
+    },
+    {
+      "path": "blender/environment/campus_construction_decor/v01/validation/joint-phone.png",
+      "sha256": "422f83a37963c0f0d00c026790ee5cae988f347e3c5957597c70d6b03c67ea45",
+      "view": "phone-width readability"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Revision 3 joint assessment was rejected by the user; revision 4 is author-reviewed and awaits user artistic acceptance."
+  },
+  "limitations": []
+}

@@ -1,0 +1,7 @@
+00:01.968  image.write      | ERROR OpenImageIO write failed: Could not open file "쬠\.thumbnails\large\blender_13452_e98020ff800301b4237e5df1b7e022b1.png.png"
+Info: Saved as "campus_tree_round_bare_v01.blend"
+FOREST_BUILD campus_tree_round_bare placements 1 height 3.61
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _aligned_free

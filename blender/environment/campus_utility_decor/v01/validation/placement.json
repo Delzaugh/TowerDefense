@@ -1,0 +1,8 @@
+{
+  "asset": "campus_utility_decor",
+  "minimumHexEdgeClearance": 2.7388632347795494,
+  "requiredQuietBand": 1.4,
+  "minimumRouteShoulderClearance": 1.3000001907348633,
+  "verticesInsideCentralRouteShoulders": 0,
+  "passed": true
+}

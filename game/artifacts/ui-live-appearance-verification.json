@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "checks": [
+    "light selection",
+    "reload persistence",
+    "System follows dark and light",
+    "inspection selection",
+    "Hub shares inspection preference"
+  ],
+  "errors": [],
+  "verifiedAt": "2026-09-30T12:24:46.479Z"
+}

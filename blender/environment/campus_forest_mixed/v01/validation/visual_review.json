@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_forest_mixed",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "5742549703a9c20659d5338031416051052a2676260c45cc057982ae93dd0be0",
+  "sourceHash": "4ba7824d47acdadd2c2987727ce3ffa4c74f284158f80e0bc5a24d2c98b9cac6",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T11:19:57.682Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Nine placements / ten trunks combine all six silhouettes in teal, blue-green, sage and muted gold."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "One foliage mesh has no ground slab. Top/underside views show separated trunks, crown clearance and an irregular layout inside its 10 m envelope."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally inspected the phone-width and fixed-view renders: the crown outline and trunk remain readable; different forms are identifiable without relying only on color."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Replaced the initial row-like spacing with offset placements. Rechecked top, reverse and phone views of revision 3: varied heights and visible openings now read as a loose grove."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_forest_mixed/v01/validation/iso.png",
+      "sha256": "219ba31db8cc485526af5adf3f8dcf90b37721f2ff25119ce3dd933d2be1ea9b",
+      "view": "validation/iso"
+    },
+    {
+      "path": "blender/environment/campus_forest_mixed/v01/validation/front.png",
+      "sha256": "a5347bb3e3771f11c34bab5a9acba4be8be7704f8d5792662c00d1c31fe13986",
+      "view": "validation/front"
+    },
+    {
+      "path": "blender/environment/campus_forest_mixed/v01/validation/rear.png",
+      "sha256": "080ddb537a5537bd3dedcff1dba8382428e46541306678c5dd7993112c2c88f3",
+      "view": "validation/rear"
+    },
+    {
+      "path": "blender/environment/campus_forest_mixed/v01/validation/top.png",
+      "sha256": "0aee15467d114e7d14c7d4d35811905c470202b27a5d4f2247202140829b66e0",
+      "view": "validation/top"
+    },
+    {
+      "path": "blender/environment/campus_forest_mixed/v01/renders/inspector-close.png",
+      "sha256": "f973f4baa1d207995a373ef5c28ba90458f4e90fc27c9aac7df642dfc40dd18a",
+      "view": "renders/inspector-close"
+    },
+    {
+      "path": "blender/environment/campus_forest_mixed/v01/renders/inspector-rear.png",
+      "sha256": "cd1781356eed7d31b088701757c9d78ca43df5bd2eba9e175ed2bb7b5d4e141e",
+      "view": "renders/inspector-rear"
+    },
+    {
+      "path": "blender/environment/campus_forest_mixed/v01/renders/inspector-phone.png",
+      "sha256": "06ecb0e84c932c326d28d311c283e0f0c9c18665763e9e5f37c5c6879dff78f5",
+      "view": "renders/inspector-phone"
+    },
+    {
+      "path": "blender/environment/campus_forest_mixed/v01/renders/inspector-bottom.png",
+      "sha256": "fb5c63da028376e38bea9118e7f248e87c9b9ebf9e603e7da2d3533f5a28cb7e",
+      "view": "renders/inspector-bottom"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "New family delivered for user artistic review; no approval inferred."
+  },
+  "limitations": [
+    "Static environmental art; no collision, pathfinding or gameplay placement integration.",
+    "Flat common contact plane; use individual trees for uneven terrain."
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_tile_canyon",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "56d927813754f0571385c41f999a4f92ad6fe6c4790eda9eb77b2ff812f7feea",
+  "sourceHash": "ba6f8519620141048f258e71c9e1a68c7ef441e8001dcbc49bc38a2a5aca3d49",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T11:18:32.071Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Compared shared campus contract and actual GLB iso/top: radius18 slate hex and flat quiet border remain intact; warm layered recessed basin, teal lower river and separate blue-gray campus bridge provide the requested canyon identity. Bridge width3.2 and deck colors match existing walkway."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Inspected exported iso, reverse oblique and close assembly. Open cavity has visible bed at y0.15 and water y0.175 with no spanning terrain face. Layered rims rise to3.50564. Deck crosses at y1.28; side-mounted rails leave full3.2 width clear. Actual GLB downward raycasts confirm all21 route approach samples and four shelter corners at y1.2. Shelter moved1m outward before final export to ensure its entire footprint rests on flat ground."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "At standard900x800 evidence framing the small silhouette retains clear hex, paired raised canyon rims, negative basin and teal river. Enlarged assembly views show bridge/shelter separated from natural forms, quiet matte surface and sparse low plants. No detailed texture competes with travel deck."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After moving survey shelter outward, re-exported decor and inspected final actual-GLB assembly iso, opposite oblique and bridge close-up. All platform corners seated on y1.2; no rim/deck penetration, blocked travel opening, floating roof posts or terrain plane over recess. Rechecked opposite bank strata and shared slate perimeter."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_tile_canyon/v01/validation/iso.png",
+      "sha256": "4c78cbb71cc3f333c30678ca9e79b9efc030df39142e1f9a99f5976dd8ba900d",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_canyon/v01/validation/rear.png",
+      "sha256": "c393e0336454e607b2970e0b361e5bb274e2fc8827786277485c6850bc3e6b36",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_canyon/v01/validation/top.png",
+      "sha256": "97cb5ba0aeca899b3a1528db57001024fe005ab5373fae62698b5da342f53f02",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_canyon/v01/validation/assembly-iso.png",
+      "sha256": "d778e2f17d1fe53af868955bdb4b5c5c36f41181a380c56e10bad2484b48cb2c",
+      "view": "assembly-iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_canyon/v01/validation/assembly-reverse.png",
+      "sha256": "0af3a050c2ae2591f7fa5bfce3ca56862c051dc5eec7cb55d1461ee2fc3fa8a9",
+      "view": "assembly-reverse",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_canyon/v01/validation/assembly-close.png",
+      "sha256": "2d2d6653e20015acd5b9021354a6ea206630668835a93f7216b98a2574ac32aa",
+      "view": "assembly-close",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "notes": "No user artistic acceptance inferred from technical or author review."
+  },
+  "limitations": [
+    "Static scenery; campus integration and complete route network are reviewed by the parent task. Assembly evidence uses campus_tile_canyon r2 and campus_canyon_decor r3."
+  ]
+}

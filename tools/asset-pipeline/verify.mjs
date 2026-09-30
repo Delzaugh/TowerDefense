@@ -22,6 +22,7 @@ await mkdir(path.join(temporary,'assets'),{recursive:true});await writeFile(path
 await cp(resolvePath('tools/asset-pipeline'),path.join(temporary,'tools/asset-pipeline'),{recursive:true});await cp(resolvePath('tools/asset-inspector/vendor'),path.join(temporary,'tools/asset-inspector/vendor'),{recursive:true});
 await cp(resolvePath('tools/asset-inspector/server.mjs'),path.join(temporary,'tools/asset-inspector/server.mjs'));
 await cp(resolvePath('tools/asset-inspector/review.js'),path.join(temporary,'tools/asset-inspector/review.js'));
+await cp(resolvePath('tools/asset-presentation'),path.join(temporary,'tools/asset-presentation'),{recursive:true});
 async function run(executable,args){await new Promise((resolve,reject)=>{const p=spawn(executable,args,{cwd:temporary,windowsHide:true,stdio:'pipe'});let log='';p.stdout.on('data',c=>log+=c);p.stderr.on('data',c=>log+=c);p.on('error',reject);p.on('exit',c=>c===0?resolve():reject(Error(log)));});}
 const cli=['tools/asset-pipeline/asset.mjs'];await run(process.execPath,[...cli,'init','prop_status_module','environment']);
 const inspectorProbe=`import assert from 'node:assert/strict';import {createInspectorServer} from './tools/asset-inspector/server.mjs';const server=createInspectorServer();await new Promise(r=>server.listen(0,'127.0.0.1',r));try{const response=await fetch('http://127.0.0.1:'+server.address().port+'/api/models');assert.equal(response.status,200);assert.equal((await response.json()).length,Number(process.argv[2]));}finally{await new Promise(r=>server.close(r));}`;
@@ -37,4 +38,14 @@ await run(blender,['--factory-startup','--background','--python-exit-code','1','
 assert.notEqual(hash(await readFile(runtime)),firstHash);
 const manifest=JSON.parse(await readFile(path.join(temporary,'blender/environment/prop_status_module/v01/asset.json'))),report=JSON.parse(await readFile(path.join(temporary,manifest.delivery.report)));
 assert.equal(manifest.revision,3);assert.equal(manifest.milestones.length,1);assert.equal(report.passed,true);assert.equal(report.clips.length,0);assert.equal(report.sha256,hash(await readFile(runtime)));assert.equal(report.sourceHash,hash(await readFile(path.join(temporary,file))));
-console.log(JSON.stringify({passed:true,checks:'Manifest/clip/path rejection, malformed GLB, stale-source rebuild refusal, failed-candidate preservation, new-model scaffold/export and manual color/attachment refinement with synchronized source/runtime hashes',fixture:temporary},null,2));
+const evidenceFolder=path.join(temporary,path.dirname(manifest.delivery.report));
+const evidence=JSON.parse(await readFile(path.join(evidenceFolder,'render_evidence.json')));
+assert.equal(evidence.sha256,report.sha256);
+for(const view of ['iso','front','side','rear','top']){
+  const shaded=evidence.views.find(v=>v.view===view&&v.mode==='shaded');
+  const mask=evidence.views.find(v=>v.view===view&&v.mode==='silhouette');
+  assert.deepEqual(mask.camera,shaded.camera,'Mask and shaded views must preserve identical framing');
+  assert.notEqual(mask.sha256,shaded.sha256,'The silhouette must use a separate flat treatment');
+  for(const frame of [mask,shaded])assert.equal(frame.sha256,hash(await readFile(path.join(evidenceFolder,frame.file))));
+}
+console.log(JSON.stringify({passed:true,checks:'Manifest/clip/path rejection, malformed GLB, stale-source rebuild refusal, failed-candidate preservation, new-model scaffold/export, manual refinement with synchronized source/runtime hashes, flat-mask framing and evidence hashes',fixture:temporary},null,2));

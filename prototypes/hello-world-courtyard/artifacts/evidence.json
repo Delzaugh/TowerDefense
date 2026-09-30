@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "runId": "courtyard-draft-20260930-final",
+  "captures": [
+    { "mode": "desktop", "state": "active-play", "report": "artifacts/canvas-final/desktop-active-play.json" },
+    { "mode": "mobile", "state": "active-play", "report": "artifacts/canvas-final/mobile-active-play.json" }
+  ],
+  "artifacts": ["artifacts/native-evidence.json", "artifacts/production-evidence.json", "artifacts/browser-evidence.json", "artifacts/08-server-coverage.png", "artifacts/09-final-planning.png", "artifacts/11-final-phone.png"]
+}

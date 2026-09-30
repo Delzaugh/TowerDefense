@@ -1,0 +1,309 @@
+{
+  "model": {
+    "id": "copilot_architect",
+    "revision": 39,
+    "sha256": "8f50f4cfe39c176fcc03861611850fc477aee7d8cb24143ec5c1fee8e7af9c4e",
+    "sourceHash": "64335771a51309d0d296ee2d86f22889447b79a861fa5608d577d5315efaf386"
+  },
+  "records": [
+    {
+      "name": "front",
+      "camera": {
+        "projection": "orthographic",
+        "azimuth": 0,
+        "elevation": 18,
+        "position": [
+          -0.08182746171951294,
+          4.9582039324993685,
+          11.339652194088442
+        ],
+        "target": [
+          -0.08182746171951294,
+          1.25,
+          -0.07302600145339966
+        ],
+        "verticalSpan": 4,
+        "viewport": [
+          800,
+          800
+        ]
+      }
+    },
+    {
+      "name": "front-left",
+      "camera": {
+        "projection": "orthographic",
+        "azimuth": 35,
+        "elevation": 18,
+        "position": [
+          6.464215826900663,
+          4.9582039324993685,
+          9.275692673237103
+        ],
+        "target": [
+          -0.08182746171951294,
+          1.25,
+          -0.07302600145339966
+        ],
+        "verticalSpan": 4,
+        "viewport": [
+          800,
+          800
+        ]
+      }
+    },
+    {
+      "name": "left",
+      "camera": {
+        "projection": "orthographic",
+        "azimuth": 90,
+        "elevation": 12,
+        "position": [
+          11.655943747086155,
+          3.744940289813112,
+          -0.07302600145339894
+        ],
+        "target": [
+          -0.08182746171951294,
+          1.25,
+          -0.07302600145339966
+        ],
+        "verticalSpan": 4,
+        "viewport": [
+          800,
+          800
+        ]
+      }
+    },
+    {
+      "name": "back",
+      "camera": {
+        "projection": "orthographic",
+        "azimuth": 180,
+        "elevation": 18,
+        "position": [
+          -0.08182746171951154,
+          4.9582039324993685,
+          -11.485704196995242
+        ],
+        "target": [
+          -0.08182746171951294,
+          1.25,
+          -0.07302600145339966
+        ],
+        "verticalSpan": 4,
+        "viewport": [
+          800,
+          800
+        ]
+      }
+    },
+    {
+      "name": "back-right",
+      "camera": {
+        "projection": "orthographic",
+        "azimuth": 225,
+        "elevation": 18,
+        "position": [
+          -8.151809605287,
+          4.9582039324993685,
+          -8.14300814502089
+        ],
+        "target": [
+          -0.08182746171951294,
+          1.25,
+          -0.07302600145339966
+        ],
+        "verticalSpan": 4,
+        "viewport": [
+          800,
+          800
+        ]
+      }
+    },
+    {
+      "name": "right",
+      "camera": {
+        "projection": "orthographic",
+        "azimuth": 270,
+        "elevation": 12,
+        "position": [
+          -11.819598670525181,
+          3.744940289813112,
+          -0.07302600145340181
+        ],
+        "target": [
+          -0.08182746171951294,
+          1.25,
+          -0.07302600145339966
+        ],
+        "verticalSpan": 4,
+        "viewport": [
+          800,
+          800
+        ]
+      }
+    },
+    {
+      "name": "hero",
+      "camera": {
+        "projection": "orthographic",
+        "azimuth": 28,
+        "elevation": 24,
+        "position": [
+          5.064775902385571,
+          6.130839716909602,
+          9.606327152059496
+        ],
+        "target": [
+          -0.08182746171951294,
+          1.25,
+          -0.07302600145339966
+        ],
+        "verticalSpan": 4,
+        "viewport": [
+          800,
+          800
+        ]
+      }
+    },
+    {
+      "name": "underside",
+      "camera": {
+        "projection": "orthographic",
+        "azimuth": 215,
+        "elevation": -25,
+        "position": [
+          -6.319868950427724,
+          -3.821419140888393,
+          -8.98187251952665
+        ],
+        "target": [
+          -0.08182746171951294,
+          1.25,
+          -0.07302600145339966
+        ],
+        "verticalSpan": 4,
+        "viewport": [
+          800,
+          800
+        ]
+      }
+    },
+    {
+      "name": "top",
+      "camera": {
+        "projection": "orthographic",
+        "azimuth": 0,
+        "elevation": 89,
+        "position": [
+          -0.08182746171951294,
+          13.248172341876696,
+          0.13640287579400084
+        ],
+        "target": [
+          -0.08182746171951294,
+          1.25,
+          -0.07302600145339966
+        ],
+        "verticalSpan": 4,
+        "viewport": [
+          800,
+          800
+        ]
+      }
+    },
+    {
+      "name": "stylus-close",
+      "camera": {
+        "projection": "orthographic",
+        "azimuth": 70,
+        "elevation": 10,
+        "position": [
+          12.354998940779879,
+          3.363778132003164,
+          3.941889066001583
+        ],
+        "target": [
+          1.25,
+          1.28,
+          -0.1
+        ],
+        "verticalSpan": 2,
+        "viewport": [
+          800,
+          800
+        ]
+      }
+    },
+    {
+      "name": "blueprint-close",
+      "camera": {
+        "projection": "orthographic",
+        "azimuth": 320,
+        "elevation": 20,
+        "position": [
+          -8.648273282660648,
+          5.4942417199080245,
+          8.878155724715448
+        ],
+        "target": [
+          -1.4,
+          1.39,
+          0.24
+        ],
+        "verticalSpan": 2.45,
+        "viewport": [
+          800,
+          800
+        ]
+      }
+    },
+    {
+      "name": "diagram-close",
+      "camera": {
+        "projection": "orthographic",
+        "azimuth": 5,
+        "elevation": 35,
+        "position": [
+          0.8567256581192358,
+          8.952917236212553,
+          10.042419081420501
+        ],
+        "target": [
+          0,
+          2.07,
+          0.25
+        ],
+        "verticalSpan": 1.85,
+        "viewport": [
+          800,
+          800
+        ]
+      }
+    },
+    {
+      "name": "small",
+      "camera": {
+        "projection": "orthographic",
+        "azimuth": 35,
+        "elevation": 28,
+        "position": [
+          5.995427743841578,
+          6.88365875343069,
+          8.606193906831813
+        ],
+        "target": [
+          -0.08182746171951294,
+          1.25,
+          -0.07302600145339966
+        ],
+        "verticalSpan": 4.3,
+        "viewport": [
+          128,
+          128
+        ]
+      }
+    }
+  ]
+}

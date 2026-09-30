@@ -3,8 +3,9 @@ import path from 'node:path';
 import { spawn } from 'node:child_process';
 import { pathToFileURL } from 'node:url';
 import { projectRoot, resolvePath, existingPath, readJson, hash, catalog, findAsset, validateManifest } from './contracts.mjs';
-import { validateExport } from './validate.mjs';
+import { validateExport, playwrightRuntime } from './validate.mjs';
 import { verifyPaletteParity } from './palette-parity.mjs';
+import { reviewAsset } from './visual-review.mjs';
 
 const json = async (file,value) => writeFile(file,JSON.stringify(value,null,2)+'\n');
 async function atomic(file,bytes) {const temp=file+'.pending';await mkdir(path.dirname(file),{recursive:true});await writeFile(temp,bytes);await rename(temp,file);}
@@ -35,6 +36,7 @@ export async function milestone(item,label='milestone') {
 }
 export async function exportAsset(item,{build=false,palette=false}={}) {
   if(build&&palette)throw Error('Use --palette on the current source; later --build deliveries retain its palette workflow automatically.');
+  playwrightRuntime(); // Fail before running Blender when the review dependency is missing.
   const m=item.data, folder=path.dirname(resolvePath(item.manifest)), lock=await open(path.join(folder,'.delivery.lock'),'wx').catch(()=>{throw Error('Another delivery owns this asset (.delivery.lock). Check it before retrying.');});
   try {
     const manifestBefore=await readFile(resolvePath(item.manifest));
@@ -91,11 +93,11 @@ async function scaffold(id,category) {
   validateManifest(m);await mkdir(path.dirname(resolvePath(folder)),{recursive:true});await mkdir(resolvePath(folder));
   for(const d of ['references','validation/screenshots','renders','revisions'])await mkdir(resolvePath(folder+'/'+d),{recursive:true});
   await mkdir(path.dirname(resolvePath(m.runtime)),{recursive:true});await json(resolvePath(manifest),m);
-  await writeFile(resolvePath(m.decisions),'# Asset brief and decisions\n\nEstablish silhouette, palette, dimensions, required anchors/clips and references before authoring. Prefer small palette textures; record a vertex-colour exception when it better fits the model. Default scaffold budgets are starting targets, not an approved brief.\n');
+  await copyFile(resolvePath('tools/asset-pipeline/brief.template.md'),resolvePath(m.decisions));
   c.assets.push({id,version:'v01',manifest});await json(resolvePath('assets/asset_catalog.json'),c);console.log('Created '+manifest+'; complete the brief before authoring.');
 }
 export async function previewUrl(item, launch=true) {
-  for(let port=4174;port<=4184;port++)try{const response=await fetch('http://127.0.0.1:'+port+'/api/health',{signal:AbortSignal.timeout(400)});const health=await response.json();if(health.service==='tower-asset-inspector' && health.protocol===4 && health.workspace===hash(Buffer.from(projectRoot)))return `http://127.0.0.1:${port}/?asset=${item.data.id}&version=${item.data.version}`;}catch{}
+  for(let port=4174;port<=4184;port++)try{const response=await fetch('http://127.0.0.1:'+port+'/api/health',{signal:AbortSignal.timeout(400)});const health=await response.json();if(health.service==='tower-asset-inspector' && health.protocol===6 && health.workspace===hash(Buffer.from(projectRoot)))return `http://127.0.0.1:${port}/?asset=${item.data.id}&version=${item.data.version}`;}catch{}
   if(launch){
     const child=spawn(process.execPath,[resolvePath('tools/asset-inspector/server.mjs')],{cwd:projectRoot,detached:true,windowsHide:true,stdio:'ignore'});child.unref();
     for(let attempt=0;attempt<10;attempt++){await new Promise(resolve=>setTimeout(resolve,300));try{return await previewUrl(item,false);}catch{}}
@@ -110,6 +112,13 @@ async function main() {
   if(command==='export')return exportAsset(item,{build:[arg,...rest].includes('--build'),palette:[arg,...rest].includes('--palette')});
   if(command==='milestone')return console.log(await milestone(item,arg||'milestone'));
   if(command==='preview')return console.log(await previewUrl(item));
+  if(command==='review'){
+    const initialize=[arg,...rest].includes('--init');
+    const result=await reviewAsset(item,{initialize});
+    console.log(JSON.stringify(result,null,2));
+    if(!initialize&&!result.ready)process.exitCode=1;
+    return;
+  }
   if(command==='validate'||command==='render'){
     const report=await validateExport(await existingPath(item.data.runtime),item.data,path.join(path.dirname(resolvePath(item.manifest)),'validation'));
     report.sourceHash=hash(await readFile(await existingPath(item.data.source.path)));report.source=item.data.source.path;report.runtime=item.data.runtime;
@@ -117,6 +126,6 @@ async function main() {
     await json(path.join(path.dirname(resolvePath(item.manifest)),'validation/report.json'),report);
     console.log(JSON.stringify({passed:report.passed,triangles:report.triangles,errors:report.errors}));if(!report.passed)process.exitCode=1;return;
   }
-  throw Error('Commands: init, check, export [--build|--palette], validate, render, milestone, preview. See README.');
+  throw Error('Commands: init, check, export [--build|--palette], validate, render, review [--init], milestone, preview. See README.');
 }
 if(process.argv[1] && pathToFileURL(path.resolve(process.argv[1])).href===import.meta.url)main().catch(e=>{console.error(e.message);process.exitCode=1;});

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "asset": "problem_vague_spec",
+  "version": "v01",
+  "revision": 9,
+  "sha256": "5b437567df99096c2ca1b63ee4913bb1604ee4a268d7e11a7092eb851d433b79",
+  "sourceHash": "c6efd0cacf042c06008146a8b8cd5fa63243431c6955551c8a84fa389d268eff",
+  "scope": "palette",
+  "reviewedAt": "2026-09-26T22:49:10.698Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "User explicitly requested seven colours for this asset. Merged the joint deep navy into the existing navy ink; pale limb panels, paper shadows and orange marks remain separate. Character geometry and identity remain unchanged."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Personally inspected final guarded iso and reverse views. No colour bleed or lost supporting separation observed. Exact parity against the eight-colour milestone confirms unchanged geometry, UVs, rig, morphs, anchors, material response, auxiliary emission bytes and sampler settings."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected final close/reverse and small phone Rest/Move frames. Question mark, limb segmentation and paper silhouette remain legible. Exactly seven distinct base colours match source policy and Inspector swatches. Merged the joint deep navy into the existing navy ink; pale limb panels, paper shadows and orange marks remain separate."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Small phone Move at 0.5 seconds inspected after export; all animation channels, keys and lifecycle metadata remain byte-identical. This palette pass does not change or re-approve the entire animation design."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After candidate inspection and source delivery, reviewed final exported iso/rear and phone Rest/Move views. Both seven-colour counts and current runtime hashes passed; no further palette correction needed."
+  },
+  "evidence": [
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/iso.png",
+      "sha256": "b236c8433c493c4e77a84f4920f6a7b13c20517c1bcbce548a831b5bc7cdb92e",
+      "view": "iso.png",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/rear.png",
+      "sha256": "ebafea27a129854fd7d55ad50b3c8363bb0a7ce1a746f087793e46bda690e231",
+      "view": "rear.png",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/problem-palette-phone.png",
+      "sha256": "39b875f5196b1925c0c1a86b6f078d41f3d8b71be1da232133ee40b289b28f42",
+      "view": "problem-palette-phone.png",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/problem-palette-move-phone.png",
+      "sha256": "95237c4cba7244c2bd2a15d7f490aa4c263b30a6ed00620a444403f9f71d6f16",
+      "view": "problem-palette-move-phone.png",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/problem_palette_parity.json",
+      "sha256": "fceb61504eb094b742f39bb03ffdd83df31e1000f48d9f16f486ce74dd6c4af4",
+      "view": "problem_palette_parity.json",
+      "mode": "audit"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    }
+  ],
+  "userAcceptance": {
+    "status": "accepted",
+    "reviewedAt": "2026-09-26T22:54:46.101Z",
+    "note": "User: \"looks good, let's clean-up ... and make sure all of those models are properly alligned\". Accepts the displayed final Problems palette at this source/export revision; this does not expand the animation scope."
+  },
+  "limitations": []
+}

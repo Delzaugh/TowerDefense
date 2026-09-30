@@ -19,7 +19,9 @@ export function createInspectorServer(){
       if(!['GET','HEAD'].includes(request.method)){response.writeHead(405);response.end();return;}
       const url=new URL(request.url,'http://localhost'),relative=decodeURIComponent(url.pathname).replace(/^\/+/, '');
       if(relative.split('/').includes('..') || relative.includes('\\')){response.writeHead(403);response.end('Forbidden');return;}
-      if(relative==='api/health'){response.setHeader('Content-Type','application/json');response.end(JSON.stringify({service:'tower-asset-inspector',protocol:4,workspace:hash(Buffer.from(projectRoot))}));return;}
+      if(relative==='api/health'){response.setHeader('Content-Type','application/json');response.end(JSON.stringify({service:'tower-asset-inspector',protocol:6,workspace:hash(Buffer.from(projectRoot))}));return;}
+      if(relative==='roster-palette.html'){await sendFile(response,path.join(projectRoot,'docs/design/reviews/palette-2026-09-26'),'index.html');return;}
+      if(relative==='problems-palette.html'){await sendFile(response,path.join(projectRoot,'docs/design/reviews/problems-palette-2026-09-27'),'index.html');return;}
       if(relative==='api/models'){
         const files=await Promise.all((await catalog()).map(async({data:m})=>{
           let bytes;
@@ -36,6 +38,7 @@ export function createInspectorServer(){
         await existingPath(item.data.runtime);await sendFile(response,runtimeRoot,relative.slice(8));return;
       }
       if(/^vendor\/[a-zA-Z0-9_.]+\.js$/.test(relative)){await sendFile(response,path.join(here,'vendor'),relative.slice(7));return;}
+      if(['presentation/digital-resolve.js','presentation/lifecycle.js'].includes(relative)){await sendFile(response,path.join(here,'../asset-presentation'),path.basename(relative));return;}
       if(['','index.html','viewer.js','review.js','export-bambu.js','style.css'].includes(relative)){await sendFile(response,here,relative||'index.html');return;}
       response.writeHead(404);response.end('Not found');
     }catch(error){

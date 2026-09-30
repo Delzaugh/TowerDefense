@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "asset": "problem_lag_spike",
+  "sourceHash": "42deab141f321a002ba2a7d8a8dbcb743c1de429413eddf38b1b4651864424b2",
+  "sha256": "846f7736718f2b6b24d7efea30892db27c78c498f3e377fe27668eff5aa77938",
+  "tracks": [
+    "hit",
+    "idle",
+    "move",
+    "resolve",
+    "spawn"
+  ],
+  "allTracksMuted": true,
+  "activeAction": null,
+  "bonesInRest": true,
+  "rootIdentity": true,
+  "lifecycleExtrasMatchManifest": true,
+  "lifecycleFrames": [
+    0,
+    30
+  ]
+}

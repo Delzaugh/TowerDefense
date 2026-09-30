@@ -1,0 +1,58 @@
+{
+  "asset": "problem_vague_spec",
+  "sourceBefore": "c6efd0cacf042c06008146a8b8cd5fa63243431c6955551c8a84fa389d268eff",
+  "revisionBefore": 9,
+  "colorsBefore": {
+    "paper": "#E5EBEF",
+    "paper_shade": "#C9D3DE",
+    "edge": "#E5EBEF",
+    "ink": "#233B58",
+    "line": "#627389",
+    "limb_light": "#A5B2C2",
+    "limb": "#627389",
+    "joint": "#233B58",
+    "boot": "#344D69",
+    "accent": "#FFAA24"
+  },
+  "colorsAfter": {
+    "accent": "#FFAA24",
+    "boot": "#344D69",
+    "edge": "#E5EBEF",
+    "ink": "#233B58",
+    "joint": "#233B58",
+    "limb": "#627389",
+    "limb_light": "#A5B2C2",
+    "line": "#627389",
+    "paper": "#E5EBEF",
+    "paper_shade": "#C9D3DE"
+  },
+  "objects": 5,
+  "actions": [
+    "hit",
+    "idle",
+    "move",
+    "resolve",
+    "spawn"
+  ],
+  "images": [
+    {
+      "name": "problem_vague_spec_palette",
+      "size": [
+        32,
+        8
+      ],
+      "packed": true
+    }
+  ],
+  "materialLinks": {
+    "parchment_palette": [
+      {
+        "input": "Base Color",
+        "image": "problem_vague_spec_palette"
+      }
+    ]
+  },
+  "passed": true,
+  "uniqueBaseColors": 7,
+  "checks": "Packed source pixels, material base bindings, palette policy, declared rectangles, metre scale, unchanged authoritative source hash"
+}

@@ -1,0 +1,53 @@
+{
+  "capturedAt": "2026-09-24T06:50:47.803Z",
+  "headless": true,
+  "results": [
+    {
+      "profile": {
+        "name": "desktop",
+        "viewport": {
+          "width": 1440,
+          "height": 960
+        },
+        "deviceScaleFactor": 1
+      },
+      "report": "prototypes/campus-3d/previews/stress/2026-09-24T06-48-26-443Z-ff564f91/report.json",
+      "correctnessPassed": true,
+      "overBudgetCases": [
+        "standard/home",
+        "standard/top",
+        "heavy/home",
+        "heavy/top",
+        "overload/home",
+        "overload/top"
+      ],
+      "cancelReport": "prototypes/campus-3d/previews/stress/2026-09-24T06-48-48-238Z-4d523a69/report.json",
+      "resizeReport": "prototypes/campus-3d/previews/stress/2026-09-24T06-48-49-205Z-188dbd13/report.json"
+    },
+    {
+      "profile": {
+        "name": "phone-emulated",
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "deviceScaleFactor": 2,
+        "isMobile": true,
+        "hasTouch": true,
+        "reducedMotion": "reduce"
+      },
+      "report": "prototypes/campus-3d/previews/stress/2026-09-24T06-50-24-309Z-381b5ee7/report.json",
+      "correctnessPassed": true,
+      "overBudgetCases": [
+        "standard/home",
+        "standard/top",
+        "heavy/home",
+        "heavy/top",
+        "overload/home",
+        "overload/top"
+      ],
+      "cancelReport": "prototypes/campus-3d/previews/stress/2026-09-24T06-50-46-024Z-f12e76d4/report.json",
+      "resizeReport": "prototypes/campus-3d/previews/stress/2026-09-24T06-50-46-961Z-89a55704/report.json"
+    }
+  ]
+}

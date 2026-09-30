@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_tile_canyon",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "bf59430bb62267b3d22e724c49373ae0aadbc627ff4826134d981d73f41f6f62",
+  "sourceHash": "6616d43e63caac4391810b76e91eb00eb2ddd70afb65b66fb96500d7a5bf3db0",
+  "scope": "model",
+  "reviewedAt": null,
+  "checks": {
+    "referenceFidelity": {
+      "status": "pending",
+      "findings": ""
+    },
+    "construction": {
+      "status": "pending",
+      "findings": ""
+    },
+    "readability": {
+      "status": "pending",
+      "findings": ""
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "pending",
+    "findings": ""
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_tile_canyon/v01/validation/iso.png",
+      "sha256": "4c78cbb71cc3f333c30678ca9e79b9efc030df39142e1f9a99f5976dd8ba900d",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_canyon/v01/validation/iso-silhouette.png",
+      "sha256": "7e69d272994c15faa4a140e18b1a2c99b5ce22edd3018e158a913ecfb112a134",
+      "view": "iso",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/campus_tile_canyon/v01/validation/front.png",
+      "sha256": "d9ef579a1573145f01b446685fbc19d2e67c693eba6c853c3d8b2d38bcafe941",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_canyon/v01/validation/front-silhouette.png",
+      "sha256": "339e393f0f98f3cb7aa226cc9c0ec9ab61500c4ea5fc0ecaee04ef3afe2eb61a",
+      "view": "front",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/campus_tile_canyon/v01/validation/side.png",
+      "sha256": "1d14a75ade5e3bb6e0a299ea974f02952b1928eb7f46287a081a0425495216e7",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_canyon/v01/validation/side-silhouette.png",
+      "sha256": "8931bbc4481969ec3f6faf98a1e57d5ebf77734133141a62f4e79e30827a165a",
+      "view": "side",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/campus_tile_canyon/v01/validation/rear.png",
+      "sha256": "c393e0336454e607b2970e0b361e5bb274e2fc8827786277485c6850bc3e6b36",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_canyon/v01/validation/rear-silhouette.png",
+      "sha256": "e0d860b5fc7c631c1b9cc0769b51ea97701718b59de74f982a138ffe373fdd00",
+      "view": "rear",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/campus_tile_canyon/v01/validation/top.png",
+      "sha256": "97cb5ba0aeca899b3a1528db57001024fe005ab5373fae62698b5da342f53f02",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_canyon/v01/validation/top-silhouette.png",
+      "sha256": "aa6d425877d440df4f7986adedf91544e5bff9d16f1831ade31637eb3b5e52fe",
+      "view": "top",
+      "mode": "silhouette"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": ""
+  },
+  "limitations": []
+}

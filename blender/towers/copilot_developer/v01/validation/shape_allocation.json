@@ -1,0 +1,12 @@
+{
+  "triangles": 4456,
+  "allocation": {
+    "core_and_display": 350,
+    "orange_shell_and_fins": 1210,
+    "chin_eyes_radiators": 340,
+    "goggles_and_lenses": 1000,
+    "temples_and_symbols": 976,
+    "rear_panel_and_vents": 580
+  },
+  "method": "Source loop triangles grouped by named component vertex groups; no source changes."
+}

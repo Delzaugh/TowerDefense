@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "asset": "problem_bug",
+  "version": "v01",
+  "revision": 12,
+  "sha256": "c065c487c7669562106e12753aa2759bdf194b28bb4214a676fb613871225c41",
+  "sourceHash": "c066855500b9ef9f1e50118e1cc3b8fdfc4c9b41d0ff3ef0abbc207b43c1a26a",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-26T22:06:28.909Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Preserved the approved cobalt shell, red eyes/antennae/seam/collars/knees and dark supporting roles. Compared white emission 0.08, 0.02 and 0 under neutral and gameplay-like lighting on light/slate grounds. Zero emission best restores facet definition and the existing red/blue identity without a palette change."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Entire GLB binary payload is identical to the retained revision 11; the JSON differs only by removal of emissiveFactor. This proves exact preservation of palette image bytes, positions, normals, topology, UVs, skinning, morphs, bones, anchors and clips. Inspected final close iso and reverse views: supported seam and connected leg assemblies remain intact, with no new texture bleeding."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected final actual exports in the common-scale Copilot/Bug/Work lineup, close isometric/rear, small phone move and light-background Rest views. Red accents remain distinct, blue planes separate, and dark sockets and joints regain contrast. The source roughness remains 0.72 and metallic 0."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "All animation and lifecycle root metadata match revision 11 exactly. Inspected phone Move at 0.75s, Spawn/Resolve at 0.625s, terminal Resolve at 1.25s and return to Rest. Jagged reveal/erase remain visible; Resolve ends with no visible body or streak residue. No motion edits were made."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After applying zero emission in Blender and guarded export, personally inspected the delivered iso/rear/move views, actual Inspector phone animation/effect frames and refreshed roster lineup. Current runtime hash and all seven unchanged swatches were verified. No additional material or palette correction was needed."
+  },
+  "evidence": [
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/iso.png",
+      "sha256": "c0c4eda86bcad664602140091c9a544917e12000d8d50d0edb509c97358df0f2",
+      "view": "Final close isometric",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/rear.png",
+      "sha256": "ae84014694e6dcecae31d8854b44a3a95262526cfa691a21bc6bd6cfe75b3bf9",
+      "view": "Final reverse",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/material/phone-move.png",
+      "sha256": "d77166257e5098c529f6db5634b95e4b23cc66e1d16ddc52bb2cd86ce8c5451b",
+      "view": "Small phone Move at 0.75s",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/material/phone-spawn.png",
+      "sha256": "792a8d003cdbb5e6bd0318ad81a85a5c9d2fc8e65ee999c3786614dc59b9ecf3",
+      "view": "Small phone Spawn at 0.625s",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/material/phone-resolve.png",
+      "sha256": "f7bd9933dca2907061b7cba026e26df856d886d645c77aef21c438b990b19150",
+      "view": "Small phone Resolve at 0.625s",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/material/phone-resolve-end.png",
+      "sha256": "268cdf382af184c9c10bb729b4241cc632c653f7764f4129d50ca09bc8387751",
+      "view": "Small phone Resolve end at 1.25s",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/material/rear-gameplay.png",
+      "sha256": "3e79e2d943425c3f870348a44638db769d299e7984e6e8c8387d5df825cc417a",
+      "view": "Final reverse with gameplay-like lighting",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/material_parity.json",
+      "sha256": "d623371cbb84440270f4672cbe323f25c77b7aa26809669a0b7799fb8cc05661",
+      "view": "Exact export comparison, excluding only the intended emissive factor",
+      "mode": "audit"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    }
+  ],
+  "userAcceptance": {
+    "status": "accepted",
+    "reviewedAt": "2026-09-26T22:54:46.101Z",
+    "note": "User: \"looks good, let's clean-up ... and make sure all of those models are properly alligned\". Accepts the displayed final Problems palette at this source/export revision; this does not expand the animation scope."
+  },
+  "limitations": [
+    "Controlled Inspector and roster lighting were reviewed; final gameplay-camera and colour-vision-deficiency validation remain open."
+  ]
+}

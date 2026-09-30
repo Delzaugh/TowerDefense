@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_security",
+  "displayName": "Security",
+  "category": "towers",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/towers/copilot_security/v01/copilot_security_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_security/v01/build.py",
+    "authoritativeHash": "750704049e71e862972252b32788cfb6f74dec6e076db2fec5c27f7a83d1bfa0"
+  },
+  "runtime": "assets/runtime/towers/copilot_security_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 32,
+    "bones": 0,
+    "meshes": 2
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        2.4,
+        2.2,
+        1.95
+      ],
+      "max": [
+        2.8,
+        2.5,
+        2.3
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/copilot_security/v01/references/scanner-isolated.png",
+      "provenance": "User-supplied Security visual reference 1, 2026-09-24. Design input; annotations are not additional task instructions."
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/references/six-views.png",
+      "provenance": "User-supplied Security visual reference 2, 2026-09-24. Design input; annotations are not additional task instructions."
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/references/goggles.png",
+      "provenance": "User-supplied Security visual reference 3, 2026-09-24. Design input; annotations are not additional task instructions."
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/references/shape-study.png",
+      "provenance": "User-supplied Security visual reference 4, 2026-09-24. Design input; annotations are not additional task instructions."
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/references/side-pods.png",
+      "provenance": "User-supplied Security visual reference 5, 2026-09-24. Design input; annotations are not additional task instructions."
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/references/scanner-fitted.png",
+      "provenance": "User-supplied Security visual reference 6, 2026-09-24. Design input; annotations are not additional task instructions."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "contract.dimensions",
+      "reason": "Compact head-only persona follows supplied Security proportions; no body, legs or pedestal added."
+    }
+  ],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/copilot_security/v01/revisions/r2_before_r3/copilot_security_v01.glb",
+      "source": "blender/towers/copilot_security/v01/revisions/r2_before_r3/copilot_security_v01.blend",
+      "sha256": "f72b5c82cb51bbd4821998b16bf7f2215470b38fe81005c3a61452f08547804b",
+      "sourceHash": "0fa75a93e9b91d56c9e3f4ba5605222efe14ea53c70fd15c8ce793a46c36c2e5"
+    }
+  ],
+  "decisions": "blender/towers/copilot_security/v01/decisions.md",
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "shell": "#1465EE",
+      "shell_dark": "#0948BE",
+      "trim": "#EAF4FE",
+      "graphite": "#25354F",
+      "screen": "#071A2B",
+      "lens": "#52B9F5",
+      "cyan": "#00E8ED",
+      "detail": "#092247"
+    }
+  },
+  "texturePalettes": [
+    {
+      "material": "security_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#1465EE",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#0948BE",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#EAF4FE",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#25354F",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#071A2B",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#52B9F5",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E8ED",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#092247",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "material": "security_optics",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#1465EE",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#0948BE",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#EAF4FE",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#25354F",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#071A2B",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#52B9F5",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E8ED",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#092247",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "735a22b7cdc200ea7e78749b6b2c85b9c6caf25bc3de24e711b8276b1d9e556c",
+    "sourceHash": "750704049e71e862972252b32788cfb6f74dec6e076db2fec5c27f7a83d1bfa0",
+    "report": "blender/towers/copilot_security/v01/validation/report.json",
+    "deliveredAt": "2026-09-24T13:37:57.590Z"
+  }
+}

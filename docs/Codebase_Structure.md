@@ -1,6 +1,6 @@
 # Codebase structure
 
-Status: Prototype implementation layout, reviewed against the current design on 2026-09-12. The core foundation and diagnostic console are implemented; [Foundation Implementation](Foundation_Implementation.md) distinguishes working code from planned gameplay and asset integration below.
+Status: Core foundation, diagnostic console and application startup/campus home implemented, updated 2026-09-24. [App Startup Implementation Plan](App_Startup_Implementation_Plan.md) records the home milestone; [Foundation Implementation](Foundation_Implementation.md) records the gameplay foundation. Full gameplay, campaign and 3D encounter integration below remain planned.
 
 [Technical Architecture](design/Technical_Architecture.md) owns technology and runtime boundaries. This document owns folder responsibilities and implementation conventions. Gameplay and tuning remain in their existing design documents.
 
@@ -25,7 +25,7 @@ Tower/
     levels/                       # Human-readable level specifications
   docs/                           # Developer documentation
     Codebase_Structure.md
-  game/                           # One future application/package
+  game/                           # One application/package
     public/                       # Small static site files only
     src/
       app/                        # React shell, screens, composition and settings UI
@@ -62,7 +62,9 @@ Tower/
 
 This is the intentional project layout, not an exhaustive inventory of legacy or incidental root files. Existing art, tools, templates, and output artifacts are retained in their current locations.
 
-Use one `game/package.json` when bootstrapping the application. Keep existing Node/Python asset tools independently runnable. There is no current need for a workspace package hierarchy. Add package boundaries only when a second real consumer needs a reusable module.
+The application uses one `game/package.json`. Keep existing Node/Python asset tools independently runnable. There is no current need for a workspace package hierarchy. Add package boundaries only when a second real consumer needs a reusable module.
+
+Current home composition: `app/App.tsx` lazily selects home or lab; `app/boot/` owns cancellable startup attempts; `app/home/` separates browser composition from the presentational view. `rendering/campus/` owns loading, camera, animation and disposable GPU resources, using pure `content/maps/campusHome.ts` data. Home preferences use their own versioned localStorage key. Home never creates an encounter session or opens its IndexedDB repository. The simulation lab is available through `#/lab`; default and `#/` open home.
 
 ## Runtime ownership and dependencies
 
@@ -121,14 +123,14 @@ Current wave slots and balance numbers remain hypotheses in the design. This str
 
 [Asset storage](../assets/README.md) remains authoritative. Preserve `towers`, `work`, `enemies`, `product`, and `environment` categories. Do not move or duplicate GLBs into `game/public/`, a new `models/` folder, or a generic source-art tree.
 
-When the Vite application is bootstrapped, implement a catalog-aware development/build adapter under `game/`:
+The [catalog-aware development/build adapter](../game/build/README.md) now lives under `game/build/`, with import-driven selection. Its delivery contract is:
 
 1. Resolve the explicit asset ID/version references used by playable content and presentation bindings through `assets/asset_catalog.json` and their manifests.
 2. Validate that selected assets are delivered, registered runtime files. Unused draft entries may remain in the catalog; a referenced missing draft or missing delivered file must fail the build.
-3. Expose only that allowlisted runtime set in development. For production, copy the selected canonical GLBs into generated `game/dist/assets/runtime/<category>/` and generate a browser index with URLs and the required clip/anchor interface metadata.
+3. Expose only that allowlisted runtime set through the adapter in development. For production, copy the selected canonical GLBs into generated `game/dist/assets/runtime/<category>/` using content-hashed filenames, and project URLs plus required clip/anchor interfaces into imported browser modules.
 4. Keep Blender paths, recipes, references, source hashes/review reports, imported packages, and the inspector out of the shipped index and build. Resolve URLs relative to the configured deployment base.
 
-The browser index is a generated projection, not a second hand-maintained asset registry. The adapter is an implementation requirement; it is not present in this folder scaffold. Keep `public/` for small unprocessed site resources. Define storage/provenance for standalone audio or UI artwork when those assets are introduced; they are not new GLB categories.
+Browser metadata is a generated projection, not a second hand-maintained asset registry. The campus selects 25 environment models at v01 and Copilot at v02; the SVG lab selects no models. The renderer and lab are separate lazy bundles. See the [startup plan](App_Startup_Implementation_Plan.md) for lifecycle and recovery. Keep `public/` for small unprocessed site resources. Define storage/provenance for standalone audio or UI artwork when those assets are introduced; they are not new GLB categories.
 
 Three.js state-to-clip mappings live in `rendering/`, keyed by explicit asset identity/version. Animation anchors drive visual attachment points only; simulation targeting uses authored logical coordinates. Gameplay never waits for a clip to finish. The existing inspector stays independently usable for registered-model review.
 

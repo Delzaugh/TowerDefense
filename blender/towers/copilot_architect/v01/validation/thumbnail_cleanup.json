@@ -1,0 +1,35 @@
+{
+  "rule": "Direct project child; zero files/reparse points; exact four-directory thumbnail tree verified before each removal.",
+  "removed": [
+    "﯀⃿Í",
+    "ﰐ뙿ð",
+    "切Û",
+    "怒闿ý",
+    "祖？ü",
+    "蘒សÁ",
+    "蘒㻟ð",
+    "ㅿ³",
+    "膟ð",
+    "渟£",
+    "諟è",
+    "뺟",
+    "섟",
+    "몟",
+    "偿ñ",
+    "뛟Ø",
+    "괿",
+    "ဿÊ",
+    "燿",
+    "ໟÉ",
+    "㝿Ì",
+    "ൿ"
+  ],
+  "remainingThumbnailCandidates": [],
+  "retained": [],
+  "finalRootCheck": {
+    "allRecordedTargetsDirectChildren": true,
+    "remainingThumbnailCandidates": [],
+    "at": "2026-09-27T10:46:01.8085185Z",
+    "removedPathsVerifiedAbsent": true
+  }
+}

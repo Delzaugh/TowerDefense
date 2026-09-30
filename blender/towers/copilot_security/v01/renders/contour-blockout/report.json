@@ -1,0 +1,34 @@
+{
+  "asset": "copilot_security",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "8d27335e191d867fbbe5168626a2ffa662a00b32c18eca9eeee35b7d0c9a6c97",
+  "checkedAt": "2026-09-24T14:45:14.175Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1792,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.614000082015991,
+    2.3450000286102295,
+    2.296668291091919
+  ],
+  "bounds": [
+    [
+      -1.3070000410079956,
+      0,
+      -1.1610000133514404
+    ],
+    [
+      1.3070000410079956,
+      2.3450000286102295,
+      1.1356682777404785
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true
+}

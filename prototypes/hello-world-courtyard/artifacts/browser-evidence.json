@@ -1,0 +1,60 @@
+{
+  "checks": [
+    "Desktop loads registered models without horizontal overflow",
+    "Road and Server reject real pointer placement without spending Compute",
+    "Pointer placement, mutually exclusive personas and focus controls spend the expected budget",
+    "Pause freezes the simulation and tactical edits",
+    "Two-specialist opening clears all three real-time rounds, carries budget/team, completes 8 Work and fixes 7 Bugs",
+    "Play again restores a fresh budget and team",
+    "Phone touch supports suggested placement, map selection, camera, start/pause and collapsible controls; portrait/landscape have no horizontal overflow"
+  ],
+  "finalState": {
+    "phase": "complete",
+    "round": 3,
+    "roundCount": 3,
+    "roundName": "Around the Server",
+    "roundHint": "The Server blocks sight. Check coverage on both sides and keep a final recovery position.",
+    "workCount": 3,
+    "bugCount": 3,
+    "compute": 155,
+    "health": 100,
+    "maxHealth": 100,
+    "completed": 8,
+    "resolved": 7,
+    "missed": 0,
+    "debt": 0,
+    "time": 62.71666666666667,
+    "speed": 2,
+    "towers": [
+      {
+        "id": 1,
+        "x": -11,
+        "z": -4,
+        "persona": "developer",
+        "mode": "auto",
+        "range": 5,
+        "targetId": null
+      },
+      {
+        "id": 2,
+        "x": -3.5,
+        "z": 0,
+        "persona": "tester",
+        "mode": "auto",
+        "range": 5,
+        "targetId": null
+      }
+    ],
+    "entities": []
+  },
+  "metrics": {
+    "calls": 67,
+    "triangles": 13532,
+    "geometries": 83,
+    "textures": 39,
+    "dpr": 1,
+    "camera": "iso"
+  },
+  "errors": [],
+  "failedRequests": []
+}

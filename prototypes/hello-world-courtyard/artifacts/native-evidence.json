@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "checks": [
+    "Work completion progress independent of travel",
+    "native placement and Server coverage",
+    "budget and exclusive Personas",
+    "pause and 2x fixed-step speed",
+    "round carryover and entity/target/event IDs",
+    "Developer damage and strongest-only Tester rewards",
+    "Auto/Build/Defend modes",
+    "three-round complete",
+    "no-build failure and reset"
+  ],
+  "specializedOpening": {
+    "completed": 8,
+    "resolved": 7,
+    "missed": 0,
+    "health": 100,
+    "compute": 155
+  }
+}

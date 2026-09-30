@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_security",
+  "version": "v01",
+  "revision": 17,
+  "sha256": "baf8fd7045832013767186ac38dbe6feeab869874f5a2886e308ea713573651c",
+  "sourceHash": "c978ee3c39b981ac44c2e3c3ecaa0ca281385c1bc56e5712ca1ef13b027f3060",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-26T21:33:59.237Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Applied the explicit 2026-09-26 request to remove the moustache reading of the upper jaw. Removed the protruding white applique and flattened the central blue rim, retaining a shallow upward turn at the sides. Preserved the agreed 88% jaw projection, shield, goggles, pod contours and palette. The new user direction supersedes the older white jaw strip."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Inspected exported front and oblique close-ups in the shared Inspector and the fixed side render. The rim is the actual blue jaw surface, with no separate stripe or exposed ends. The broad centre is level, both ends turn into the cheeks, and the shield/armor remain seated without blue breakthrough. Underside inspection retains the jaw attachment. Source audit reports zero degenerate triangles and zero loose vertices. Source preservation checks retain unrelated vertices, UVs and all weights."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected the full front, side and isometric renders plus the Inspector at 390 px phone width. The face remains open beneath the cyan eyes; the blue jaw reads as one armor volume and the white shield remains the lower-face focal point. The scalloped white moustache shape is gone."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "All six exported clips have byte-identical sample times, outputs, channel targets and interpolation versus revision 16; rig, anchor transforms and inverse bind matrices are exact. Retained body weights keep the revised jaw rigid. Guarded validation samples every clip and passes. Reviewed the phone-width work pose paused at 0.75 s: rim continuity, display clearance and shield seating remain intact. Existing animation timing and lifecycle presentation are retained."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After the first exported front/side/isometric review, inspected the close oblique rim, underside attachment, phone-width silhouette and paused work pose in the current shared Inspector (revision 17, hash baf8fd704583). Reassessed central flatness, shallow end transitions and shield clearance. No floating strip, jaw/armor breakthrough or new scoped defect was visible, so no further geometry adjustment was needed. This is an author assessment; user acceptance remains pending."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_security/v01/validation/front.png",
+      "sha256": "d4a008cb5f7f3990b9a8d7755ec124d8764377127b456a664a8665e485fca2eb",
+      "view": "front rim and shield"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/iso.png",
+      "sha256": "34352a68519090060a22491ba18f09b1c474e13d61fca9cc1f53bd40c09afa73",
+      "view": "oblique jaw surface"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/side.png",
+      "sha256": "8a8db736da12110ba6fba17aec38e73b2a39f82b573dc29542b7bb75c34618f9",
+      "view": "retained jaw projection"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/source_geometry_audit.json",
+      "sha256": "29e2c865d1d8ca458dadda6d80c41522d1febe37d6d3f8f29c40899ce55e7dff",
+      "view": "source topology audit"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/jaw_refinement_check.json",
+      "sha256": "da5a52f1b44c0a2cacf16eac7eddf6413a7695d6ad665c327c46356dd08627ef",
+      "view": "exported animation parity and Inspector observations"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/digital-resolve.js",
+      "sha256": "98f1aa5265c1e9d18ea15c5fa65d453dbceecb7b84e31c7d942b1f225c5289c5"
+    },
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User requested the moustache-like upper jaw edge be reworked. Revision 17 implements the refinement and awaits their artistic assessment."
+  },
+  "limitations": [
+    "The new continuous blue rim intentionally replaces the previous white jaw stripe; its artistic acceptance remains pending."
+  ]
+}

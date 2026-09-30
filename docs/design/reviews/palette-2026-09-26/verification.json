@@ -1,0 +1,385 @@
+{
+  "passed": true,
+  "errors": [],
+  "states": [
+    {
+      "resolveBudget": {
+        "used": 0,
+        "maxFragments": 256
+      },
+      "resolveEffects": [
+        {
+          "path": "towers/copilot_developer_v01.glb",
+          "type": "digital_blocks",
+          "enabled": true,
+          "clip": null,
+          "timelineProgress": -1,
+          "progress": -1,
+          "fragments": 0,
+          "leased": 0,
+          "maxFragments": 64,
+          "triangles": 0,
+          "complete": false,
+          "version": 1
+        }
+      ],
+      "loading": false,
+      "activePath": "towers/copilot_developer_v01.glb",
+      "view": "iso",
+      "projection": "OrthographicCamera",
+      "distance": 25.070237866289638,
+      "target": [
+        0,
+        1.0982798337936401,
+        -0.020974397659301758
+      ],
+      "camera": [
+        13.007083557421119,
+        14.004910735238909,
+        17.089007565407346
+      ],
+      "effects": [
+        {
+          "path": "towers/copilot_developer_v01.glb",
+          "enabled": false,
+          "triangles": 0,
+          "meshes": 0,
+          "materials": 0
+        }
+      ],
+      "entries": [
+        {
+          "path": "towers/copilot_developer_v01.glb",
+          "revision": "9fd5a1b9dc6414306847da17caa29a15f7fd1e2a956fb1198ded1d06553d9fb8",
+          "triangles": 4228,
+          "meshes": 2,
+          "materials": 2,
+          "bounds": [
+            [
+              -1.1970000267028809,
+              0,
+              -1.1648000478744507
+            ],
+            [
+              1.1970000267028809,
+              2.1965596675872803,
+              1.1228512525558472
+            ]
+          ],
+          "root": [
+            0,
+            0,
+            0
+          ],
+          "wrapper": [
+            0,
+            0,
+            0
+          ],
+          "clips": [
+            {
+              "name": "idle",
+              "duration": 2.5
+            },
+            {
+              "name": "work",
+              "duration": 1.6666666269302368
+            },
+            {
+              "name": "move",
+              "duration": 1.3333333730697632
+            },
+            {
+              "name": "place",
+              "duration": 1.25
+            },
+            {
+              "name": "hit",
+              "duration": 0.5833333134651184
+            },
+            {
+              "name": "resolve",
+              "duration": 1.25
+            }
+          ],
+          "clip": "work",
+          "time": 0.49999996999999924,
+          "playing": false,
+          "loop": true,
+          "speed": 1,
+          "pose": [
+            0.9997811169091766,
+            -1.1087599967925937e-10,
+            -0.020921718477028117,
+            0,
+            0.000805454566192022,
+            0.9992586584958166,
+            0.03849006070555267,
+            0,
+            0.02090620833565523,
+            -0.038498487375159686,
+            0.9990399376721905,
+            0,
+            0,
+            1.1623215695670133,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "resolveBudget": {
+        "used": 0,
+        "maxFragments": 256
+      },
+      "resolveEffects": [
+        {
+          "path": "towers/copilot_linter_v01.glb",
+          "type": "digital_blocks",
+          "enabled": true,
+          "clip": null,
+          "timelineProgress": -1,
+          "progress": -1,
+          "fragments": 0,
+          "leased": 0,
+          "maxFragments": 64,
+          "triangles": 0,
+          "complete": false,
+          "version": 1
+        }
+      ],
+      "loading": false,
+      "activePath": "towers/copilot_linter_v01.glb",
+      "view": "iso",
+      "projection": "OrthographicCamera",
+      "distance": 26.96750816706343,
+      "target": [
+        0,
+        0.5397499989268956,
+        0.033301228724195164
+      ],
+      "camera": [
+        13.991436137751482,
+        14.423131405212327,
+        18.43813570968225
+      ],
+      "effects": [
+        {
+          "path": "towers/copilot_linter_v01.glb",
+          "enabled": false,
+          "triangles": 0,
+          "meshes": 0,
+          "materials": 0
+        }
+      ],
+      "entries": [
+        {
+          "path": "towers/copilot_linter_v01.glb",
+          "revision": "661861e7c46c8433e9bc75f3543cf43674a90e3143756c1ad310e10fe48040a6",
+          "triangles": 2432,
+          "meshes": 2,
+          "materials": 2,
+          "bounds": [
+            [
+              -1.2920000553131104,
+              3.83359669553612e-8,
+              -1.1912817602195498
+            ],
+            [
+              1.2920000553131104,
+              1.0794999595178243,
+              1.2578842176679401
+            ]
+          ],
+          "root": [
+            0,
+            0,
+            0
+          ],
+          "wrapper": [
+            0,
+            0,
+            0
+          ],
+          "clips": [
+            {
+              "name": "idle",
+              "duration": 2
+            },
+            {
+              "name": "work",
+              "duration": 2
+            },
+            {
+              "name": "move",
+              "duration": 2
+            },
+            {
+              "name": "place",
+              "duration": 1.25
+            },
+            {
+              "name": "hit",
+              "duration": 0.5
+            },
+            {
+              "name": "resolve",
+              "duration": 1.25
+            }
+          ],
+          "clip": "work",
+          "time": 0.499999975,
+          "playing": false,
+          "loop": true,
+          "speed": 1,
+          "pose": [
+            0.9999778177702535,
+            -0.006660627924061283,
+            0,
+            0,
+            0,
+            6.985178790941404e-8,
+            -0.9999999301482121,
+            0,
+            0.006660627924061283,
+            0.9999777479184655,
+            6.985178790941404e-8,
+            0,
+            0,
+            0.6527259351467372,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "resolveBudget": {
+        "used": 0,
+        "maxFragments": 256
+      },
+      "resolveEffects": [
+        {
+          "path": "towers/copilot_security_v01.glb",
+          "type": "digital_blocks",
+          "enabled": true,
+          "clip": null,
+          "timelineProgress": -1,
+          "progress": -1,
+          "fragments": 0,
+          "leased": 0,
+          "maxFragments": 12,
+          "triangles": 0,
+          "complete": false,
+          "version": 1
+        }
+      ],
+      "loading": false,
+      "activePath": "towers/copilot_security_v01.glb",
+      "view": "iso",
+      "projection": "OrthographicCamera",
+      "distance": 26.120415124593237,
+      "target": [
+        0,
+        1.169390791741048,
+        0.0450000246057316
+      ],
+      "camera": [
+        13.551942502187085,
+        14.61667273631989,
+        17.871708890840637
+      ],
+      "effects": [
+        {
+          "path": "towers/copilot_security_v01.glb",
+          "enabled": false,
+          "triangles": 0,
+          "meshes": 0,
+          "materials": 0
+        }
+      ],
+      "entries": [
+        {
+          "path": "towers/copilot_security_v01.glb",
+          "revision": "717eba681251162ec79f837bea3c934be45f871e70d3f80528ed31c7ce9c154b",
+          "triangles": 2802,
+          "meshes": 2,
+          "materials": 2,
+          "bounds": [
+            [
+              -1.3070000410079956,
+              1.4908552749965255e-8,
+              -1.0679999220668832
+            ],
+            [
+              1.3070000410079956,
+              2.3387815685735434,
+              1.1579999712783464
+            ]
+          ],
+          "root": [
+            0,
+            0,
+            0
+          ],
+          "wrapper": [
+            0,
+            0,
+            0
+          ],
+          "clips": [
+            {
+              "name": "idle",
+              "duration": 2.5
+            },
+            {
+              "name": "work",
+              "duration": 2
+            },
+            {
+              "name": "move",
+              "duration": 2
+            },
+            {
+              "name": "place",
+              "duration": 1.25
+            },
+            {
+              "name": "hit",
+              "duration": 0.5833333134651184
+            },
+            {
+              "name": "resolve",
+              "duration": 1.25
+            }
+          ],
+          "clip": "work",
+          "time": 0.499999975,
+          "playing": false,
+          "loop": true,
+          "speed": 1,
+          "pose": [
+            0.9978882439491874,
+            -7.494880965852602e-10,
+            -0.06495423796439496,
+            0,
+            -0.0649491635250257,
+            0.012499505056010385,
+            -0.9978103903038883,
+            0,
+            0.000811903279165721,
+            0.9999219813770465,
+            0.01247310888389297,
+            0,
+            0,
+            1.309999942779541,
+            0,
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": "Current GLB hashes, source-authored screen/cyan swatches on both materials, phone rest/work captures, before/refined control, grayscale toggle, 390px layout without page overflow"
+}

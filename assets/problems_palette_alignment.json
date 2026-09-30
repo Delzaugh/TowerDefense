@@ -1,0 +1,253 @@
+{
+  "checkedAt": "2026-09-26T22:54:46.101Z",
+  "passed": true,
+  "scope": "Six production Problems: approved palette, packed Blender pixels, canonical identities/source hashes, current GLB validation, seven-colour refinements. No art payload changes during cleanup.",
+  "registeredVersions": 142,
+  "familyUniqueColors": 22,
+  "assets": [
+    {
+      "id": "problem_bug",
+      "version": "v01",
+      "revision": 12,
+      "source": "blender/enemies/problem_bug/v01/problem_bug_v01.blend",
+      "runtime": "assets/runtime/enemies/problem_bug_v01.glb",
+      "sourceHash": "c066855500b9ef9f1e50118e1cc3b8fdfc4c9b41d0ff3ef0abbc207b43c1a26a",
+      "sha256": "c065c487c7669562106e12753aa2759bdf194b28bb4214a676fb613871225c41",
+      "uniqueBaseColors": 7,
+      "roles": 7,
+      "passed": true,
+      "sourceReport": "blender/enemies/problem_bug/v01/validation/problem_palette_alignment_source.json",
+      "runtimeReport": "blender/enemies/problem_bug/v01/validation/report.json",
+      "visualReview": "blender/enemies/problem_bug/v01/validation/visual_review.json",
+      "triangles": 2320
+    },
+    {
+      "id": "problem_lag_spike",
+      "version": "v01",
+      "revision": 11,
+      "source": "blender/enemies/problem_lag_spike/v01/problem_lag_spike_v01.blend",
+      "runtime": "assets/runtime/enemies/problem_lag_spike_v01.glb",
+      "sourceHash": "a6ebec2a19ce6f6dce5b8a72e4743d3cccf9589bfe152ec6ed90423027821914",
+      "sha256": "57b50be10be8426bf8639494d49e339d03a9ca9809124285bd998f4b99e12f89",
+      "uniqueBaseColors": 7,
+      "roles": 9,
+      "passed": true,
+      "sourceReport": "blender/enemies/problem_lag_spike/v01/validation/problem_palette_alignment_source.json",
+      "runtimeReport": "blender/enemies/problem_lag_spike/v01/validation/report.json",
+      "visualReview": "blender/enemies/problem_lag_spike/v01/validation/visual_review.json",
+      "triangles": 1376
+    },
+    {
+      "id": "problem_vague_spec",
+      "version": "v01",
+      "revision": 9,
+      "source": "blender/enemies/problem_vague_spec/v01/problem_vague_spec_v01.blend",
+      "runtime": "assets/runtime/enemies/problem_vague_spec_v01.glb",
+      "sourceHash": "c6efd0cacf042c06008146a8b8cd5fa63243431c6955551c8a84fa389d268eff",
+      "sha256": "5b437567df99096c2ca1b63ee4913bb1604ee4a268d7e11a7092eb851d433b79",
+      "uniqueBaseColors": 7,
+      "roles": 10,
+      "passed": true,
+      "sourceReport": "blender/enemies/problem_vague_spec/v01/validation/problem_palette_alignment_source.json",
+      "runtimeReport": "blender/enemies/problem_vague_spec/v01/validation/report.json",
+      "visualReview": "blender/enemies/problem_vague_spec/v01/validation/visual_review.json",
+      "triangles": 1456
+    },
+    {
+      "id": "problem_missing_details",
+      "version": "v01",
+      "revision": 13,
+      "source": "blender/enemies/problem_missing_details/v01/problem_missing_details_v01.blend",
+      "runtime": "assets/runtime/enemies/problem_missing_details_v01.glb",
+      "sourceHash": "1f6f73fee76a117a4204fe89b4de6f57e32c9dd5f408a866e534f2a4061768cc",
+      "sha256": "6b3e267075d1014c018ed681362670af86c5412667d3a2828777a15e54c49c6a",
+      "uniqueBaseColors": 7,
+      "roles": 11,
+      "passed": true,
+      "sourceReport": "blender/enemies/problem_missing_details/v01/validation/problem_palette_alignment_source.json",
+      "runtimeReport": "blender/enemies/problem_missing_details/v01/validation/report.json",
+      "visualReview": "blender/enemies/problem_missing_details/v01/validation/visual_review.json",
+      "triangles": 1358
+    },
+    {
+      "id": "problem_dead_code",
+      "version": "v01",
+      "revision": 7,
+      "source": "blender/enemies/problem_dead_code/v01/problem_dead_code_v01.blend",
+      "runtime": "assets/runtime/enemies/problem_dead_code_v01.glb",
+      "sourceHash": "607eab58386040201a0495e5c1fc07380fbdce6cafd9a2b94f479c7d1ca4b6da",
+      "sha256": "4f1ba014aad4d26238d25336ee915211a36ddb962cfc6c862d5c7e6cb13d38f1",
+      "uniqueBaseColors": 6,
+      "roles": 6,
+      "passed": true,
+      "sourceReport": "blender/enemies/problem_dead_code/v01/validation/problem_palette_alignment_source.json",
+      "runtimeReport": "blender/enemies/problem_dead_code/v01/validation/report.json",
+      "visualReview": "blender/enemies/problem_dead_code/v01/validation/visual_review.json",
+      "triangles": 868
+    },
+    {
+      "id": "problem_spaghetti_code",
+      "version": "v01",
+      "revision": 12,
+      "source": "blender/enemies/problem_spaghetti_code/v01/problem_spaghetti_code_v01.blend",
+      "runtime": "assets/runtime/enemies/problem_spaghetti_code_v01.glb",
+      "sourceHash": "308146e107ab27756f35eadefa99cfd90320cb7eae1aafaa9b363cf33975d1dc",
+      "sha256": "4d6eae17c8a59c916f616666d34ea6a10e19ad9c74ca54cc2264be91edbf1a04",
+      "uniqueBaseColors": 5,
+      "roles": 5,
+      "passed": true,
+      "sourceReport": "blender/enemies/problem_spaghetti_code/v01/validation/problem_palette_alignment_source.json",
+      "runtimeReport": "blender/enemies/problem_spaghetti_code/v01/validation/report.json",
+      "visualReview": "blender/enemies/problem_spaghetti_code/v01/validation/visual_review.json",
+      "triangles": 2424
+    }
+  ],
+  "cleanup": {
+    "removed": [
+      {
+        "files": 55,
+        "bytes": 2272882,
+        "path": "blender/enemies/problem_bug_palette_test"
+      },
+      {
+        "files": 1,
+        "bytes": 318160,
+        "path": "assets/runtime/enemies/problem_bug_palette_test_v01.glb"
+      },
+      {
+        "files": 255,
+        "bytes": 11559577,
+        "path": "blender/enemies/problem_bug/v01/.staging"
+      },
+      {
+        "files": 154,
+        "bytes": 6184485,
+        "path": "blender/enemies/problem_lag_spike/v01/.staging"
+      },
+      {
+        "files": 134,
+        "bytes": 4036307,
+        "path": "blender/enemies/problem_vague_spec/v01/.staging"
+      },
+      {
+        "files": 205,
+        "bytes": 6960037,
+        "path": "blender/enemies/problem_missing_details/v01/.staging"
+      },
+      {
+        "files": 105,
+        "bytes": 2429556,
+        "path": "blender/enemies/problem_dead_code/v01/.staging"
+      },
+      {
+        "files": 170,
+        "bytes": 9287008,
+        "path": "blender/enemies/problem_spaghetti_code/v01/.staging"
+      },
+      {
+        "files": 1,
+        "bytes": 186701,
+        "path": "docs/design/reviews/problems-palette-2026-09-27/before-board.png"
+      },
+      {
+        "files": 1,
+        "bytes": 181884,
+        "path": "docs/design/reviews/problems-palette-2026-09-27/eight-colour-board.png"
+      },
+      {
+        "files": 1,
+        "bytes": 22536,
+        "path": "docs/design/reviews/problems-palette-2026-09-27/problem_bug-before.png"
+      },
+      {
+        "files": 1,
+        "bytes": 22536,
+        "path": "docs/design/reviews/problems-palette-2026-09-27/problem_bug-after.png"
+      },
+      {
+        "files": 1,
+        "bytes": 12489,
+        "path": "docs/design/reviews/problems-palette-2026-09-27/problem_lag_spike-before.png"
+      },
+      {
+        "files": 1,
+        "bytes": 12448,
+        "path": "docs/design/reviews/problems-palette-2026-09-27/problem_lag_spike-after.png"
+      },
+      {
+        "files": 1,
+        "bytes": 11744,
+        "path": "docs/design/reviews/problems-palette-2026-09-27/problem_vague_spec-before.png"
+      },
+      {
+        "files": 1,
+        "bytes": 11713,
+        "path": "docs/design/reviews/problems-palette-2026-09-27/problem_vague_spec-after.png"
+      },
+      {
+        "files": 1,
+        "bytes": 9994,
+        "path": "docs/design/reviews/problems-palette-2026-09-27/problem_missing_details-before.png"
+      },
+      {
+        "files": 1,
+        "bytes": 9895,
+        "path": "docs/design/reviews/problems-palette-2026-09-27/problem_missing_details-after.png"
+      },
+      {
+        "files": 1,
+        "bytes": 10533,
+        "path": "docs/design/reviews/problems-palette-2026-09-27/problem_dead_code-before.png"
+      },
+      {
+        "files": 1,
+        "bytes": 10554,
+        "path": "docs/design/reviews/problems-palette-2026-09-27/problem_dead_code-after.png"
+      },
+      {
+        "files": 1,
+        "bytes": 15844,
+        "path": "docs/design/reviews/problems-palette-2026-09-27/problem_spaghetti_code-before.png"
+      },
+      {
+        "files": 1,
+        "bytes": 15847,
+        "path": "docs/design/reviews/problems-palette-2026-09-27/problem_spaghetti_code-after.png"
+      },
+      {
+        "files": 1,
+        "path": "tools/asset-pipeline/__pycache__/refine_shared_palette.cpython-313.pyc",
+        "bytes": 8465
+      },
+      {
+        "files": 1,
+        "path": "output/palette-controls-cleanup-verification.json",
+        "bytes": 1923
+      }
+    ],
+    "completedAt": "2026-09-26T22:56:06.8754801Z",
+    "bytes": 43593118,
+    "fileCount": 1095
+  },
+  "inspectorRegression": {
+    "retiredSampleAbsent": true,
+    "passed": true,
+    "unregisteredRuntimeReturns404": true,
+    "checks": {
+      "pixelIsolation": true,
+      "sharedSourceIsolation": true,
+      "emissionIsolation": true,
+      "samplingPreserved": true,
+      "resetDisposal": true,
+      "invalidExportRejection": true,
+      "topLeftOrientation": true
+    }
+  },
+  "finalChecks": {
+    "catalogContractsAndPaths": 142,
+    "inspectorPaletteRegression": true,
+    "retiredSampleAbsent": true,
+    "productionSourceRuntimeHashesUnchanged": true,
+    "allSixAcceptedReviewsReady": true
+  }
+}

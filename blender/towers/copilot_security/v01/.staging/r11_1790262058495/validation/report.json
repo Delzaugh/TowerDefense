@@ -1,0 +1,37 @@
+{
+  "asset": "copilot_security",
+  "version": "v01",
+  "revision": 11,
+  "sha256": "57105220bbc3f816fa04a35144fc9567c28e9a78a918ad6bc487f5be59261566",
+  "checkedAt": "2026-09-24T15:01:03.965Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 2566,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 2,
+  "bones": 0,
+  "dimensions": [
+    2.614000082015991,
+    2.3394737243652344,
+    2.2358685731887817
+  ],
+  "bounds": [
+    [
+      -1.3070000410079956,
+      0,
+      -1.0679999589920044
+    ],
+    [
+      1.3070000410079956,
+      2.3394737243652344,
+      1.1678686141967773
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "a85d0ba131d40105187481e21791e333deb8c9ad9311007da3fa9b0ca9592375",
+  "source": "blender/towers/copilot_security/v01/copilot_security_v01.blend",
+  "runtime": "assets/runtime/towers/copilot_security_v01.glb"
+}

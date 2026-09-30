@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "story_capture_carrier",
+  "displayName": "Octocat open-front capture carrier",
+  "category": "environment",
+  "version": "v01",
+  "revision": 3,
+  "source": {
+    "path": "blender/environment/story_capture_carrier/v01/story_capture_carrier_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/story_capture_carrier/v01/build.py",
+    "authoritativeHash": "19173bd005797576a717e9216727dc3d03973ffe8024416218849c741331d1a9"
+  },
+  "runtime": "assets/runtime/environment/story_capture_carrier_v01.glb",
+  "budgets": {
+    "triangles": 3000,
+    "meshes": 1,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 64,
+    "bones": 0
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": false,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_tow_left",
+      "anchor_tow_right",
+      "anchor_captive",
+      "anchor_power"
+    ],
+    "groundY": -0.21
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "docs/design/Visual_Asset_Guide.md",
+      "provenance": "Original authored friendly low-poly campus and bespoke story prop. No external models or reference images."
+    }
+  ],
+  "overrides": [],
+  "milestones": [],
+  "decisions": "blender/environment/story_capture_carrier/v01/decisions.md",
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "graphite": "#333E48",
+      "slate": "#89A4B8",
+      "violet": "#7565A3",
+      "amber": "#E8B75C",
+      "dark": "#041D2A",
+      "paper": "#E2EDF0",
+      "warm": "#C57857",
+      "signal": "#CBB7EE"
+    }
+  },
+  "texturePalettes": [
+    {
+      "material": "carrier_palette",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "graphite": {
+          "color": "#333E48",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "slate": {
+          "color": "#89A4B8",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "violet": {
+          "color": "#7565A3",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "amber": {
+          "color": "#E8B75C",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "dark": {
+          "color": "#041D2A",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "paper": {
+          "color": "#E2EDF0",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "warm": {
+          "color": "#C57857",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "signal": {
+          "color": "#CBB7EE",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "delivery": {
+    "sha256": "9626300473f4f25ed24e94d79fab03713089aeb699ca7585a0042e2b18cb7753",
+    "sourceHash": "19173bd005797576a717e9216727dc3d03973ffe8024416218849c741331d1a9",
+    "report": "blender/environment/story_capture_carrier/v01/validation/report.json",
+    "deliveredAt": "2026-09-30T16:15:35.302Z"
+  }
+}

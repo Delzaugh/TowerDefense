@@ -1,0 +1,88 @@
+{
+  "sourceHash": "119d6e6c73c83014c7b31245fdf0d0096020b8a2736607444489194ff793086e",
+  "restArtUnchanged": true,
+  "classicActionsUnchanged": [
+    "idle",
+    "move",
+    "wave",
+    "celebrate"
+  ],
+  "savedRestPose": true,
+  "effectExtrasMatch": true,
+  "clips": {
+    "idle": {
+      "duration": 2.5,
+      "minimum_body_z": 0.0,
+      "maximum_contact_drift_relative_to_motion": 1.4901161193847656e-08,
+      "maximum_planted_drift": 1.4901161193847656e-08,
+      "endpoint_body_delta": 0.0,
+      "maximum_floor_clearance": 0.0,
+      "channel_variation": 0.9400000013411045
+    },
+    "move": {
+      "duration": 1.3333333333333333,
+      "minimum_body_z": 0.0,
+      "maximum_contact_drift_relative_to_motion": 3.337203127736024e-08,
+      "maximum_planted_drift": 0,
+      "endpoint_body_delta": 0.0,
+      "maximum_floor_clearance": 0.0,
+      "channel_variation": 0.1404418796300888
+    },
+    "wave": {
+      "duration": 2.5,
+      "minimum_body_z": 0.0,
+      "maximum_contact_drift_relative_to_motion": 1.4901161193847656e-08,
+      "maximum_planted_drift": 1.4901161193847656e-08,
+      "endpoint_body_delta": 0.0,
+      "maximum_floor_clearance": 0.0,
+      "channel_variation": 0.8355555534362793
+    },
+    "celebrate": {
+      "duration": 2.0,
+      "minimum_body_z": 0.0,
+      "maximum_contact_drift_relative_to_motion": 2.1073424255447017e-08,
+      "maximum_planted_drift": 0,
+      "endpoint_body_delta": 0.0,
+      "maximum_floor_clearance": 0.1286839246749878,
+      "channel_variation": 0.65625
+    },
+    "work": {
+      "duration": 2.0,
+      "minimum_body_z": 0.0,
+      "maximum_contact_drift_relative_to_motion": 1.4901161193847656e-08,
+      "maximum_planted_drift": 1.4901161193847656e-08,
+      "endpoint_body_delta": 0.0,
+      "maximum_floor_clearance": 0.0,
+      "channel_variation": 0.6263535022735596
+    },
+    "hit": {
+      "duration": 0.75,
+      "minimum_body_z": 0.0,
+      "maximum_contact_drift_relative_to_motion": 1.4901161193847656e-08,
+      "maximum_planted_drift": 1.4901161193847656e-08,
+      "endpoint_body_delta": 0.0,
+      "maximum_floor_clearance": 0.0,
+      "channel_variation": 0.8691357970237732
+    },
+    "place": {
+      "duration": 1.25,
+      "minimum_body_z": 0.0,
+      "maximum_contact_drift_relative_to_motion": 1.4901161193847656e-08,
+      "maximum_planted_drift": 1.4901161193847656e-08,
+      "endpoint_body_delta": 0.0,
+      "maximum_floor_clearance": 0.0,
+      "channel_variation": 0.9400000013411045
+    },
+    "resolve": {
+      "duration": 1.25,
+      "minimum_body_z": 0.0,
+      "maximum_contact_drift_relative_to_motion": 1.4901161193847656e-08,
+      "maximum_planted_drift": 1.4901161193847656e-08,
+      "endpoint_body_delta": 0.0,
+      "maximum_floor_clearance": 0.0,
+      "channel_variation": 0.9400000013411045
+    }
+  },
+  "placeResolveExactReverse": true,
+  "passed": true
+}

@@ -1,0 +1,38 @@
+{
+  "sourceHash": "c6681bcdc5fa342baeac2a7684789f87cb78c0569a693297fef4f7b6571f4d13",
+  "exportHash": "8d33985ed755722902537366d318ce6c91de21e8e94c8762ba4c9b33d8c64db0",
+  "baselineExportHash": "5e77ade5c6ab41a765cf5f3638ce2629cad6efb1b6c9558d57c41a4642a598cf",
+  "geometryByteIdentical": true,
+  "materialsByteIdentical": true,
+  "preservedClips": {
+    "idle": true,
+    "work": true,
+    "hit": true,
+    "move": true,
+    "place": true,
+    "resolve": true
+  },
+  "newClips": [
+    {
+      "name": "story_talk",
+      "channels": 9,
+      "varyingChannels": 4
+    },
+    {
+      "name": "story_listen",
+      "channels": 9,
+      "varyingChannels": 4
+    },
+    {
+      "name": "story_alarm",
+      "channels": 9,
+      "varyingChannels": 4
+    },
+    {
+      "name": "story_determined",
+      "channels": 9,
+      "varyingChannels": 4
+    }
+  ],
+  "passed": true
+}

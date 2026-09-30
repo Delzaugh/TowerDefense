@@ -1,7 +1,7 @@
 """Dead Code: rigid marker, true recessed panels, continuous beveled icons.
 Initial authoring writes a source once; later builds use guarded --build.
 """
-import bpy, bmesh, math, json, os
+import bpy, bmesh, math, json, os, runpy
 from pathlib import Path
 OUT=Path(os.environ['ASSET_BUILD_DIR'])
 M=json.loads(Path(os.environ['ASSET_MANIFEST']).read_text(encoding='utf-8-sig'))
@@ -114,6 +114,7 @@ for clip,length in [('idle',48),('move',36),('hit',18),('resolve',30)]:
         for prop in ('location','rotation_euler','scale'):pb.keyframe_insert(data_path=prop,frame=f if clip=='move' else f+1,group='marker')
     action.use_fake_user=True;track=rig.animation_data.nla_tracks.new();track.name=clip;strip=track.strips.new(clip,0 if clip=='move' else 1,action);strip.name=clip;track.mute=True
 rig.animation_data.action=None;reset();scene.frame_set(0);scene.frame_end=49;bpy.context.view_layer.update()
+runpy.run_path(str(Path(__file__).with_name('animate_lifecycle.py')))['author'](M)
 mesh.calc_loop_triangles();assert len(mesh.loop_triangles)<=M['budgets']['triangles'],len(mesh.loop_triangles)
 bm=bmesh.new();bm.from_mesh(mesh);assert all(e.is_manifold for e in bm.edges),'Closed solids must have manifold edges';bm.free()
 activate(obj);bpy.context.preferences.filepaths.save_version=0

@@ -1,0 +1,37 @@
+{
+  "asset": "campus_tree_tall_bare",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "9e29cd96c2c63be4ab88d84a680275ccd0eb4cfc9a2a634d6be39cfa0c0651f9",
+  "checkedAt": "2026-09-24T11:12:32.107Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 48,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    1.574187994003296,
+    4.439999489784242,
+    1.4971263408660889
+  ],
+  "bounds": [
+    [
+      -0.787093997001648,
+      9.059905892172537e-8,
+      -0.7485631704330444
+    ],
+    [
+      0.787093997001648,
+      4.439999580383301,
+      0.7485631704330444
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "6c0272bd5e21339a03e378c3e80895912008c261d027cbd36f426902a370baa3",
+  "source": "blender/environment/campus_tree_tall_bare/v01/campus_tree_tall_bare_v01.blend",
+  "runtime": "assets/runtime/environment/campus_tree_tall_bare_v01.glb"
+}

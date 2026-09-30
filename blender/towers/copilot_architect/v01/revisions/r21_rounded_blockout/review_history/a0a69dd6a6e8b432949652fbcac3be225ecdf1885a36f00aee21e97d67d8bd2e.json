@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_architect",
+  "version": "v01",
+  "revision": 11,
+  "sha256": "9b0ac2225b1d24ff68129801b1657a2d8d0878dd25cb93404b7f0eefe6b92915",
+  "sourceHash": "7e91dc165642cb5c0981b917e8e1c81996f38a19952cb15535d2948d882f9609",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-26T23:40:11.4083000Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "User requested substantially stronger dimension after rejecting r8; this pass deliberately exaggerates depth beyond original turnaround while preserving the Pavilion crown, cream frame, cyan eyes, orange tabs and left blueprint. Overall depth grew from 2.24m to 3.1077m, about 39%, with similar width/height. Compared old/new front, side and isometric views without per-axis stretching. Current design has a visibly deep visor well, thick cheek masses and rounded rear rather than a flat face plate."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Increased cheek construction thickness from 0.24 to 0.57m and authored stronger curved front depth. Added recessed visor sidewalls fitted to inner cheek boundaries. Replaced flat side fields with concentric triangulated convex patches and fitted glyph strokes to their actual triangle planes. Extended rounded rear and roof depth. Initial r9 intersections were repaired by narrowing the hidden core, retrimming panel fronts and explicitly tessellating cheek faces; r10 visor-wall cuts were repaired by aligning wall boundaries inside cheek edges. Final source audit has zero degenerate triangles. Close oblique, both sides, front, rear and underside were inspected."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Phone-width and small-size renders preserve crown/eye/tab identity. Deep dark recess is visible at three-quarter angle; curved panel glyph remains legible close-up. The new shell intentionally uses stronger facets and fuller proportions. Tiny glyph windows remain secondary at game scale."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model refinement only; animation remains deferred while geometry is reviewed."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Re-inspected r11 after narrowing the hidden shell to remove panel intersections, triangulating thick cheek surfaces and relocating visor-wall boundaries to eliminate cuts through the cream frame. Final close-oblique shows continuous deep face recess with no dark split in the cheek; side/rear show real convex volume; underside shows supported thick frame. Compared r8/r11 board and checked phone/small views. The new artistic decision remains pending user review."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/close_oblique.png",
+      "mode": "shaded",
+      "view": "close_oblique",
+      "sha256": "9068537d820d662a69b2468f414a184f3551c2974d677ef68f8a19a96a319e2b"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/phone.png",
+      "mode": "shaded",
+      "view": "phone",
+      "sha256": "a74687190686598355cc0c64cf666ee7527ced25fb95ef01da4ed34ec8d1a0c9"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/left.png",
+      "mode": "shaded",
+      "view": "left",
+      "sha256": "e0e3156644791742f01a78f8d7e4114b13ca5f5b786c5f13196f29a285f01a12"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/bottom.png",
+      "mode": "shaded",
+      "view": "bottom",
+      "sha256": "e1f8732c09c8a6219cbe2e902d680ba887c9030912bf5f26b93193d8ff07a075"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/front.png",
+      "mode": "shaded",
+      "view": "front",
+      "sha256": "575c29a010ea6aba33d6aa6d308b266288f8dc1c3e8d634b00aa7ec26e95efc3"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/rear.png",
+      "mode": "shaded",
+      "view": "rear",
+      "sha256": "645c1ae935e278691b97e82809ccdd548e20714449ee4fd96387718f0b631508"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/inspector/small.png",
+      "mode": "shaded",
+      "view": "small",
+      "sha256": "4eb1d24d2eedc51817a75b2dd6f326bf64d9b7306d4171edb52dc4c1cc60680e"
+    },
+    {
+      "path": "blender/towers/copilot_architect/v01/validation/depth_comparison.png",
+      "mode": "shaded",
+      "view": "r8-r11 comparison",
+      "sha256": "9150c7dce9f372cc48598aba424ecb39b83c40f4947ca732564db3cf0d2e5484"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User rejected r8 as still too flat. New r11 stronger-depth interpretation submitted for review."
+  },
+  "limitations": [
+    "Animation remains deferred.",
+    "Depth is intentionally exaggerated beyond the original illustrated turnaround in response to user direction; visual acceptance remains pending."
+  ]
+}

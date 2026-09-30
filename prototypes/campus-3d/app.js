@@ -4,6 +4,8 @@ import {createCompanion} from './companion.js';
 import {createAmbientCampus} from './ambient.js';
 import {createCampusGuests,GUEST_IDS} from './guests.js';
 import {createCampusPerformance} from './performance.js';
+
+
 import {createBuildingFeedback,createCompanionBeacon} from './presentation.js';
 import {createCampusLightLines} from './light-lines.js';
 import {layout,STROLL_ROUTE,auditWalkwayConnections,auditBaseTiles} from './campus-layout.js';
@@ -39,9 +41,8 @@ document.querySelectorAll('[data-camera]').forEach(button=>button.addEventListen
 selectView('home');
 
 
-function draw(){
+function draw(started=metrics?.begin()){
   if(!renderer)return;
-  const started=metrics?.begin();
   renderer.info.reset();
   if(lightLines&&companion)lightLines.setTime(companion.state().time);
   if(ambient&&companion){ambient.setTime(companion.state().time,reducedMotion.matches&&paused);if(!paused){const status=ambient.state().status;if(description.textContent!==status)description.textContent=status;}}
@@ -61,7 +62,7 @@ function animate(timestamp){
   if(paused||document.hidden||!companion){lastFrame=0;return;}
   if(!lastFrame){lastFrame=timestamp;simulationFrame=timestamp;}
   const elapsed=timestamp-lastFrame;
-  if(elapsed>=1000/30-.2){companion.update(Math.min((timestamp-simulationFrame)/1000,.1));simulationFrame=timestamp;lastFrame+=(1000/30)*Math.max(1,Math.floor((elapsed+.2)/(1000/30)));draw();}
+  if(elapsed>=1000/30-.2){const started=metrics?.begin(),delta=Math.min((timestamp-simulationFrame)/1000,.1);companion.update(delta);simulationFrame=timestamp;lastFrame+=(1000/30)*Math.max(1,Math.floor((elapsed+.2)/(1000/30)));draw(started);}
   frame=requestAnimationFrame(animate);
 }
 function refreshMotion(){
@@ -159,6 +160,7 @@ try{
   resize();new ResizeObserver(resize).observe(stage);refreshMotion();
   window.campusStudyState=()=>({loaded:true,theme:'twilight',lightLines:{traces:lightLines.traceCount,gridTiles:lightLines.gridTiles,...lightLines.state()},cameraLocked:false,cameraRotationLocked:true,cameraMode:'presets-pan-zoom',currentView,cameraViews:Object.keys(cameraViews),hover:feedback.state(),companionBeacon:beacon.state(),camera:camera.position.toArray(),target:target.toArray(),zoom:camera.zoom,zoomLimits:[.7,10],paused,guests:guests.state(),ambient:ambient.state(),companion:companion.state(),scaleAudit:audit,assemblyAudit,baseAudit,frustumHeight:camera.top-camera.bottom,assets:[...ids,...GUEST_IDS],instances:placements.length,asset:'campus_base_hex',version:'v01'});
   window.campusPerformance={snapshot:metrics.snapshot,reset:metrics.reset};metrics.ready();
+
   // Deterministic evidence poses exist only in explicit local review sessions.
   // They run only in explicit review sessions.
   if(new URLSearchParams(location.search).get('review')==='1')window.campusStudyReview={

@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_developer",
+  "displayName": "Developer",
+  "category": "towers",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/towers/copilot_developer/v01/copilot_developer_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_developer/v01/build.py"
+  },
+  "runtime": "assets/runtime/towers/copilot_developer_v01.glb",
+  "budgets": {
+    "materials": 2,
+    "textures": 1,
+    "textureSize": 32,
+    "meshes": 2,
+    "triangles": 3000,
+    "bones": 0
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "max": [
+        2.6,
+        2.4,
+        2.6
+      ],
+      "min": [
+        2.1,
+        2,
+        1.9
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/copilot_developer/v01/references/concept.png",
+      "provenance": "User supplied 2026-09-24 to create the Developer Tower. Visual design input; captions are not additional instructions."
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/references/shape_study.png",
+      "provenance": "User supplied 2026-09-24 to create the Developer Tower. Visual design input; captions are not additional instructions."
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/references/six_views.png",
+      "provenance": "User supplied 2026-09-24 to create the Developer Tower. Visual design input; captions are not additional instructions."
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/references/anatomy.png",
+      "provenance": "User supplied 2026-09-24 to create the Developer Tower. Visual design input; captions are not additional instructions."
+    },
+    {
+      "path": "blender/towers/copilot_developer/v01/references/goggles.png",
+      "provenance": "User supplied 2026-09-24 to create the Developer Tower. Visual design input; captions are not additional instructions."
+    }
+  ],
+  "overrides": [
+    {
+      "reason": "Match the established compact Copilot family scale: approximately 2.3 m wide with a taller 2.2 m swept-fin silhouette.",
+      "field": "contract.dimensions"
+    }
+  ],
+  "milestones": [],
+  "decisions": "blender/towers/copilot_developer/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "developer_palette",
+      "roles": {
+        "shell": {
+          "color": "#FF682B",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#C84117",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#F0DFC5",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#364352",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#041D2A",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#007F91",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E5EF",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#16232D",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      },
+      "size": [
+        32,
+        4
+      ]
+    },
+    {
+      "material": "developer_optics",
+      "roles": {
+        "shell": {
+          "color": "#FF682B",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#C84117",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#F0DFC5",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#364352",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#041D2A",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#007F91",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E5EF",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#16232D",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      },
+      "size": [
+        32,
+        4
+      ]
+    }
+  ],
+  "palette": {
+    "colors": {
+      "shell": "#FF682B",
+      "shell_dark": "#C84117",
+      "trim": "#F0DFC5",
+      "graphite": "#364352",
+      "screen": "#041D2A",
+      "lens": "#007F91",
+      "cyan": "#00E5EF",
+      "detail": "#16232D"
+    },
+    "storage": "texture"
+  },
+  "exportSettings": {
+    "paletteSampler": "linear"
+  }
+}

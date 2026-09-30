@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_tile_forest",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "406367db5895adf0deb0ce0ef41fa2d53883510b88603b88bf7455d4567f1215",
+  "sourceHash": "de681eef0724b000e3871042cdd1f5235d2b7325b913dad460e312eaccb285e1",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-24T13:41:56.651Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "The same forest tree family now uses the current park terrain with the shared .54 m muted neutral transition, replacing the outdated wide blue separator."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Top, isometric and reverse views show crowns within the tile, grounded tree trunks and a clear cave footprint. Forty-two trees retain irregular seeded placement. Runtime uses two meshes and packed textures."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Grass reaches the narrow perimeter transition. Forest-to-hill join reads continuously in campus composition; tree scatter leaves the cave mouth and promenade visible."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After replacing the older park snapshot, rechecked top and reverse exports: the old broad band is absent, six edge interfaces are unchanged and no crowns occupy the reserved cave space."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_tile_forest/v01/validation/iso.png",
+      "sha256": "c5bf2fa72b3e84c2eb55a6f38d85830b98da3e507746f0aa6f105161027b4099",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_forest/v01/validation/rear.png",
+      "sha256": "eaa8d7d231badb586d98cf1d9837c9ece587b575f1b8cf6e8bd838d626b480d8",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_forest/v01/validation/top.png",
+      "sha256": "317331b1cfb9b1070eaaf2e50de1942c72e89f1ad0332715c64dc73f08d60b59",
+      "view": "top",
+      "mode": "shaded"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Awaiting user artistic review of this revision."
+  },
+  "limitations": [
+    "Static environmental artwork; no gameplay interactions."
+  ]
+}

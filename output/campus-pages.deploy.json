@@ -1,0 +1,603 @@
+[
+  {
+    "path": "pages-site/index.html",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\index.html",
+    "bytes": 3789,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/app.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\app.js",
+    "bytes": 12414,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/presentation.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\presentation.js",
+    "bytes": 6326,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/companion.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\companion.js",
+    "bytes": 4055,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/ambient.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\ambient.js",
+    "bytes": 10037,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/light-lines.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\light-lines.js",
+    "bytes": 1587,
+    "sha": "fe0600bd6a1f27ece429786dfcae143e2de990f3",
+    "binary": false
+  },
+  {
+    "path": "pages-site/campus-layout.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\campus-layout.js",
+    "bytes": 10089,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/style.css",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\style.css",
+    "bytes": 12488,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/guests.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\guests.js",
+    "bytes": 5262,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/performance.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\performance.js",
+    "bytes": 5396,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/stress-load.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\stress-load.js",
+    "bytes": 4764,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/stress-test.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\stress-test.js",
+    "bytes": 9097,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/stress-config.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\stress-config.js",
+    "bytes": 1037,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/simulation/app.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\simulation\\app.js",
+    "bytes": 9132,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/simulation/actors.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\simulation\\actors.js",
+    "bytes": 7719,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/simulation/map.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\simulation\\map.js",
+    "bytes": 12106,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/simulation/config.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\simulation\\config.js",
+    "bytes": 2867,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/simulation/schedule.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\simulation\\schedule.js",
+    "bytes": 1452,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/simulation/capture.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\simulation\\capture.js",
+    "bytes": 9140,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/simulation/placement.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\simulation\\placement.js",
+    "bytes": 9790,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/simulation/index.html",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\simulation\\index.html",
+    "bytes": 5905,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/simulation/style.css",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\simulation\\style.css",
+    "bytes": 10547,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/vendor/three.module.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\vendor\\three.module.js",
+    "bytes": 603113,
+    "sha": "477ca4dafa7af919a2b9818e01b5ae25198d4aa4",
+    "binary": false
+  },
+  {
+    "path": "pages-site/vendor/three.core.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\vendor\\three.core.js",
+    "bytes": 1403455,
+    "sha": "7dcd0fbcbc04b8d9a20ecb96c1ce344cb55150d5",
+    "binary": false
+  },
+  {
+    "path": "pages-site/vendor/GLTFLoader.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\vendor\\GLTFLoader.js",
+    "bytes": 114739,
+    "sha": "38f8c14fb500631f01d39cd54c202eefddcf0987",
+    "binary": false
+  },
+  {
+    "path": "pages-site/vendor/BufferGeometryUtils.js",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\vendor\\BufferGeometryUtils.js",
+    "bytes": 35539,
+    "sha": "c84dc7b2bbc99849373e17a6efae609e326f9536",
+    "binary": false
+  },
+  {
+    "path": "pages-site/runtime/campus_home_study.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_home_study.glb",
+    "bytes": 441008,
+    "sha": "5c9b89e31f38b26569a65dd0125a6a6018be6a66",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/copilot_base_v02.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\copilot_base_v02.glb",
+    "bytes": 132376,
+    "sha": "085a0d38fc4ff135a43c4265fe8f2fdc6f221add",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/bert_breugelmans.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\bert_breugelmans.glb",
+    "bytes": 373876,
+    "sha": "bcb60aa6712c3d12006b512016a591f0db5a67fc",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/github_octocat_classic_lowpoly.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\github_octocat_classic_lowpoly.glb",
+    "bytes": 190520,
+    "sha": "9ffed091340dcdbb2c4b9d92b5eb17391e9a61a5",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/problem_bug.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\problem_bug.glb",
+    "bytes": 318904,
+    "sha": "df7032adb685bbd47ca2a6320d076283597103a9",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/problem_vague_spec.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\problem_vague_spec.glb",
+    "bytes": 206092,
+    "sha": "eca9ee9f686dbba32f1410a9253a0cf1036ec2db",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/problem_lag_spike.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\problem_lag_spike.glb",
+    "bytes": 263920,
+    "sha": "5fe3beaa5685d05fbd35626c5e4395dde3b8b6a6",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_base_hex.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_base_hex.glb",
+    "bytes": 120552,
+    "sha": "18d435d421b70af59cf9460ab714e42a8bf41e05",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_tile_park.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_tile_park.glb",
+    "bytes": 237044,
+    "sha": "1e2589129b76c317f0cc92a20f8f8113303432cb",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_tile_plaza.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_tile_plaza.glb",
+    "bytes": 238320,
+    "sha": "e47e0016e74aab8c47e1f8576c7700b3bd7b545b",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_tile_hill.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_tile_hill.glb",
+    "bytes": 259924,
+    "sha": "ae605422b90a879ed664abf4d0114c7e5ccdd466",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_platform.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_platform.glb",
+    "bytes": 11536,
+    "sha": "65f92e8747406f740a5f45aa4f4bcdca3ab2fa12",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_lab.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_lab.glb",
+    "bytes": 178696,
+    "sha": "1466a15cf9b25ed65944375d98b3b6085d3142f7",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_walk_straight.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_walk_straight.glb",
+    "bytes": 14360,
+    "sha": "6f87ca7875928c4a8ec5ab3b805d301f17ab35ec",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_walk_short.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_walk_short.glb",
+    "bytes": 14352,
+    "sha": "bec8b1b1affbcedc68498079740cb41702ebfcd5",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_walk_landing.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_walk_landing.glb",
+    "bytes": 20576,
+    "sha": "63de2c635475bb54a453eb39a12e70f57e616b22",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_walk_corner.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_walk_corner.glb",
+    "bytes": 15868,
+    "sha": "7fce505fa417dfeadc95dfd2f8738b6549ef4e06",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_walk_bend.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_walk_bend.glb",
+    "bytes": 30984,
+    "sha": "0b307072f1e61dadb808864d56d8d76f56b47570",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_walk_bend_45.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_walk_bend_45.glb",
+    "bytes": 21968,
+    "sha": "796fed6ad3be40ca2975863726845e94326f4a53",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_walk_junction.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_walk_junction.glb",
+    "bytes": 21692,
+    "sha": "eef3e864e93fb100ff04554aced30cd2c36c774e",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_tree_round.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_tree_round.glb",
+    "bytes": 16404,
+    "sha": "d56375e1d0d99421a9e4f374275aae2e5ee0667c",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_tree_tall.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_tree_tall.glb",
+    "bytes": 16456,
+    "sha": "0670f420d34895a27aa64e8c8d255990fbfb138e",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_tree_cluster.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_tree_cluster.glb",
+    "bytes": 21508,
+    "sha": "d8b9fe5072f94d10de53a960c42beeb008a8658e",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_pond.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_pond.glb",
+    "bytes": 46928,
+    "sha": "a66d50e015a644786a9fa4fec078064898ce8559",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_solar.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_solar.glb",
+    "bytes": 65040,
+    "sha": "c7d7344fda56e99a9ecc2a1b6ef3bb4a42d0e1a6",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_coffee_kiosk.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_coffee_kiosk.glb",
+    "bytes": 211784,
+    "sha": "68508293d4deac198bcf99558f5c38469ca3ae5b",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_planter_bench.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_planter_bench.glb",
+    "bytes": 107284,
+    "sha": "21da178e609c013b0fced42594220f11e71f1894",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_code_sculpture.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_code_sculpture.glb",
+    "bytes": 146768,
+    "sha": "66abc07fe6f6462ee8d05655d365ca506711210f",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_meeting_nook.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_meeting_nook.glb",
+    "bytes": 161616,
+    "sha": "ed4b9b19e913733b5e0ed8b2d20d405897521149",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_wayfinding_sign.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_wayfinding_sign.glb",
+    "bytes": 75460,
+    "sha": "4f056f953f4dfe0025458dc89e005e7ed8042812",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_flower_bed.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_flower_bed.glb",
+    "bytes": 334248,
+    "sha": "aeb5abe1b08dc6671d12a3207ab4259e7db6017d",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_bush_round.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_bush_round.glb",
+    "bytes": 27404,
+    "sha": "9600aaf37cc9de2735beb61c822c451cad77f36d",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_hedge.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_hedge.glb",
+    "bytes": 66804,
+    "sha": "76b7e9e92daf1813b590980b062fb9ff7f55b9c1",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_path_bollard.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_path_bollard.glb",
+    "bytes": 15124,
+    "sha": "3fd032925269a45f473e175afc525717b5f99919",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_cafe_table.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_cafe_table.glb",
+    "bytes": 82424,
+    "sha": "8aade4c949048d83258da5d89d17380182bd2ada",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/campus_noticeboard.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\campus_noticeboard.glb",
+    "bytes": 71244,
+    "sha": "04867405d8bcb217e1685a2bc4cc1faa1f71eec8",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/copilot_developer.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\copilot_developer.glb",
+    "bytes": 235080,
+    "sha": null,
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/copilot_rubber_duck.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\copilot_rubber_duck.glb",
+    "bytes": 64508,
+    "sha": "cb47ea8789e4789f1a6df8ecdeaa2c7e34ef7eaf",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/copilot_shield.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\copilot_shield.glb",
+    "bytes": 49992,
+    "sha": "c59d375d740b533741914b50a4478063d611d99a",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/golden_compiler.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\golden_compiler.glb",
+    "bytes": 283056,
+    "sha": "89a38ac3540ae4c27bf8aa1d1ddea210f199b123",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/copilot_commit_halo.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\copilot_commit_halo.glb",
+    "bytes": 358520,
+    "sha": "52180346825e5e6f40195b7ed8d4d667baf8e106",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/linter_agent.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\linter_agent.glb",
+    "bytes": 102616,
+    "sha": "978b31aeb4ab453c25ff23205bba4ef04353eb33",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/problem_missing_details.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\problem_missing_details.glb",
+    "bytes": 241616,
+    "sha": "c6ce1da7db4c6e9f4c346bda53cc7ee30e960169",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/kaykit_rock_a.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\kaykit_rock_a.glb",
+    "bytes": 28832,
+    "sha": "984f81f122ccd75bb09015bd54a9cfcaa63ac374",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/kaykit_basemodule_a.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\kaykit_basemodule_a.glb",
+    "bytes": 64240,
+    "sha": "5a7bc1b4572f71ba06746eb4e1fe3e599d153463",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/kaykit_basemodule_b.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\kaykit_basemodule_b.glb",
+    "bytes": 67144,
+    "sha": "06df346db2e4a8170bc89a19f3f77dade9c54650",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/kaykit_basemodule_garage.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\kaykit_basemodule_garage.glb",
+    "bytes": 77452,
+    "sha": "aec06ec89987170df074f1ea2da0e43af3b13dcc",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/kaykit_tunnel_straight_a.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\kaykit_tunnel_straight_a.glb",
+    "bytes": 66272,
+    "sha": "67ed01f872526c0d334ccbd2d83f6f1dcbcc7a1c",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/kaykit_roofmodule_solarpanels.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\kaykit_roofmodule_solarpanels.glb",
+    "bytes": 43656,
+    "sha": "ab8b0c262a6a9c788fe664803da0064ea9f298b8",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/kaykit_cargodepot_a.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\kaykit_cargodepot_a.glb",
+    "bytes": 81800,
+    "sha": "25fb96d0139eb790e3b4d04d7c179683011e9508",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/kaykit_containers_a.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\kaykit_containers_a.glb",
+    "bytes": 41664,
+    "sha": "e42f3f5d289fac6ca33a78e36fa72a5291f5baaf",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/kaykit_landingpad_small.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\kaykit_landingpad_small.glb",
+    "bytes": 53704,
+    "sha": "bfb316953b34de5a1b1ecaaac3519eb553347385",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/kaykit_windturbine_tall.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\kaykit_windturbine_tall.glb",
+    "bytes": 58264,
+    "sha": "dbfedd2c4b5d46820807e3b1356cc55472455a74",
+    "binary": true
+  },
+  {
+    "path": "pages-site/runtime/kaykit_solarpanel.glb",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\runtime\\kaykit_solarpanel.glb",
+    "bytes": 33852,
+    "sha": "a9343130d446570ef807f879da722e54a956d79e",
+    "binary": true
+  },
+  {
+    "path": "pages-site/stress-revision.json",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\stress-revision.json",
+    "bytes": 18800,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/.nojekyll",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\.nojekyll",
+    "bytes": 0,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": "pages-site/licenses/kaykit-space-base.txt",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\licenses\\kaykit-space-base.txt",
+    "bytes": 826,
+    "sha": "12e77f5e2a98a4f9b6ac65cdc69d660051f72e0c",
+    "binary": false
+  },
+  {
+    "path": "pages-site/licenses/three.txt",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\licenses\\three.txt",
+    "bytes": 1081,
+    "sha": "cf781430404b0ae0ba7d8dea3457a3515dd7c9b9",
+    "binary": false
+  },
+  {
+    "path": "pages-site/build-info.json",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages\\build-info.json",
+    "bytes": 164,
+    "sha": null,
+    "binary": false
+  },
+  {
+    "path": ".github/workflows/campus-pages.yml",
+    "local": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\prototypes\\campus-3d\\pages-workflow.yml",
+    "bytes": 739,
+    "binary": false
+  }
+]

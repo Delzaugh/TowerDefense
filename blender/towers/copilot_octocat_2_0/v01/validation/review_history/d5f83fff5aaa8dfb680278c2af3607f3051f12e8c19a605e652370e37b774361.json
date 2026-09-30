@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_octocat_2_0",
+  "version": "v01",
+  "revision": 7,
+  "sha256": "6df765bcd18a7a7807ae2d8950722a97f88feba8effeb4f82515c3a092e0d3df",
+  "sourceHash": "992e17a5267f099c730892bf50e7ecb616515f9bcfe9a8d47bc7faf87b2e1d6e",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T16:46:02.086Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Personally compared the original creator turnaround, tentacle/head construction sheets, official brand illustration and MyOctocat base with revision 7 runtime front, right, reverse, underside and oblique views. Corrected the previous tail interpretation: five tentacles taper toward a common base beneath the head, two act as arms and three as supports in this upright pose. Three feet occupy front-left/front-right/rear positions. Flattened undersides, rounded outer surfaces, bulbous tips and five cups per tentacle represent the construction sheet. Large rounded head, inset ears, forehead dip, cheeks and open grin retain Octocat 2.0 expression. Asymmetric wave and local proportions remain stylized pose choices; exact orthographic reproduction is not claimed."
+    },
+    "construction": {
+      "status": "failed",
+      "findings": "Inspected actual revision 7 close frontal/oblique face images and front, side, rear and underside images. Removed the humanoid torso capsule and tail. Thin roots meet at the shared head-base collar; rear support is connected, visible in reverse/side views and grounded. D-profile tentacles and broad tips remain coherent through bends. Twenty-five fitted shallow cups replace forty-five small beads; final changed views show no intersecting adjacent cup rims. Source audit reports head and body each one connected closed shell, zero nonmanifold edges and degenerate faces, three support contacts at zero and two packed images. Pipeline reports 68,180 triangles, 20 meshes, 2 materials, 2 embedded textures and no errors or warnings. Subsequent user screenshot exposed face UV leakage onto back-facing triangles, missed in the previous review."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally reviewed final shared Inspector at phone width and small game scale. Ear outline, peach face, asymmetrical arms and front supports remain recognizable. Rear foot is clearest in oblique and reverse views; front-view occlusion follows the turnaround. Individual cups, glints and tongue are secondary at game scale. Authored 1.80029 m height and three contacts remain visible without viewer rescaling."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static model milestone. Rig and animation remain deferred. Future motion must account for changing tentacle support roles instead of the superseded two-foot/tail assumption."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Revision 5 corrected primary topology. Revision 6 separated cups and exposed uneven support contact. Revision 7 grounded all three feet. Inspected final runtime again against creator sheets: side/reverse show third support, underside shows distinct soles, front/oblique retain arm/leg negative spaces, close face views preserve skull depth and seated detail. Rechecked phone and small silhouette. No remaining scoped anatomy or contact defect blocks this stylized handoff. Source, runtime and screenshots are bound to reviewed hashes."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/iso.png",
+      "sha256": "d3598e03c6eb672e64c3f857c35c027d4f3589e2d04b7d81b2d00d85fbf61da3",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/front.png",
+      "sha256": "fd256278b1b09419032e09dbd717fab786d35bcb4f885aa1fd58d2e62a191e13",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/validation/side.png",
+      "sha256": "52dfc573efa461c04a2bdc577e8e6c81704de9d04c1a8c12ee4375ab0d0143b8",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-front.png",
+      "sha256": "7816c8479d4f33df46f7d6b5edf28a0495f3fc2e7a5d03af1ad58c92714f3b75",
+      "view": "inspector-front"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-iso.png",
+      "sha256": "117dcf0e8849cd58e528f510f662a96b5188a6037a428a579e23565d89a16de0",
+      "view": "inspector-iso"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-rear.png",
+      "sha256": "a0b4f0b5ebd158731b5b97e55b9ce39c7d02410583170bd5e84a14e965b3be5a",
+      "view": "inspector-rear"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-right.png",
+      "sha256": "7b7c2501d81694ad4f762e154d7ad660ad7960b0e10acee35ad53da5c5775b98",
+      "view": "inspector-right"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-bottom.png",
+      "sha256": "9cc293c7460d3a9ffd76c00a158d8ad66412c3532d599b6b4a8b8545047e78fb",
+      "view": "inspector-bottom"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/face-close-front.png",
+      "sha256": "3b83caf988e67656c03ef3ca1e3c86f7672ee1750c372b701e36e408bc28bf80",
+      "view": "face-close-front"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/face-close-iso.png",
+      "sha256": "949a9dff03289bbb7c5a6d2a169d259ecb3a85e853c657a31ebf67bf240edd0f",
+      "view": "face-close-iso"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/phone.png",
+      "sha256": "397906bcb1f4d5c2799b3a1ec2186f1e927f461d52234206c46608b2e0a8d5e6",
+      "view": "phone"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/game-scale.png",
+      "sha256": "6020ad42fd4c9bc743a93805629296307cb26734c47b2851faa5185ca8a6a06f",
+      "view": "game-scale"
+    }
+  ],
+  "userAcceptance": {
+    "status": "rejected",
+    "note": "User reported skin-coloured slivers on underside/back of head in both versions, with screenshot, 2026-09-30. Repair required."
+  },
+  "limitations": [
+    "Static sculpt: rig deformation, animation and wardrobe fitting remain pending.",
+    "68,180 triangles retain established Modern quality envelope; crowded-scene mobile performance has not been profiled.",
+    "Creator construction is represented in a stylized waving pose; exact orthographic matching and GitHub artistic approval are not asserted."
+  ]
+}

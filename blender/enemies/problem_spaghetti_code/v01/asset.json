@@ -4,12 +4,12 @@
   "displayName": "Spaghetti Code",
   "category": "enemies",
   "version": "v01",
-  "revision": 10,
+  "revision": 12,
   "source": {
     "path": "blender/enemies/problem_spaghetti_code/v01/problem_spaghetti_code_v01.blend",
     "mode": "procedural",
     "recipe": "blender/enemies/problem_spaghetti_code/v01/build.py",
-    "authoritativeHash": "899fd5c75359c78dfe61af03dbb533f76e2fe105f49604e77b0e6f2023170b7a"
+    "authoritativeHash": "308146e107ab27756f35eadefa99cfd90320cb7eae1aafaa9b363cf33975d1dc"
   },
   "runtime": "assets/runtime/enemies/problem_spaghetti_code_v01.glb",
   "budgets": {
@@ -67,8 +67,14 @@
     {
       "playback": "once",
       "fps": 24,
+      "name": "spawn",
+      "meaning": "Full-size rigid registration jitter during the Glitch breach body reveal."
+    },
+    {
+      "playback": "once",
+      "fps": 24,
       "name": "resolve",
-      "meaning": "The knot twists and shrinks at ground level after simulation resolution."
+      "meaning": "Full-size knot lean during the shared erase sweep and horizontal streaks."
     }
   ],
   "references": [
@@ -147,6 +153,38 @@
       "source": "blender/enemies/problem_spaghetti_code/v01/revisions/r9_before_r10/problem_spaghetti_code_v01.blend",
       "sha256": "7ecacdeb58ce48eed076a75d118ea1522e81cf1cd15244ac4900df6391b1dae3",
       "sourceHash": "4ef21d7d75cae81c31b0c422fc4427a601e9247b07a5b21c99e306d271546f49"
+    },
+    {
+      "label": "before_glitch_breach",
+      "revision": 10,
+      "export": "blender/enemies/problem_spaghetti_code/v01/revisions/r10_before_glitch_breach/problem_spaghetti_code_v01.glb",
+      "source": "blender/enemies/problem_spaghetti_code/v01/revisions/r10_before_glitch_breach/problem_spaghetti_code_v01.blend",
+      "sha256": "b82f84fbb8725c25f649646c5894b9215035918c164a62484a670edd14a9acab",
+      "sourceHash": "899fd5c75359c78dfe61af03dbb533f76e2fe105f49604e77b0e6f2023170b7a"
+    },
+    {
+      "label": "before_r11",
+      "revision": 10,
+      "export": "blender/enemies/problem_spaghetti_code/v01/revisions/r10_before_r11/problem_spaghetti_code_v01.glb",
+      "source": "blender/enemies/problem_spaghetti_code/v01/revisions/r10_before_r11/problem_spaghetti_code_v01.blend",
+      "sha256": "b82f84fbb8725c25f649646c5894b9215035918c164a62484a670edd14a9acab",
+      "sourceHash": "828fd49cefd6cdeeee7148b4d3c446e5dc06ca1c83565c3e9bbc9927c467b541"
+    },
+    {
+      "label": "before_problem_palette",
+      "revision": 11,
+      "export": "blender/enemies/problem_spaghetti_code/v01/revisions/r11_before_problem_palette/problem_spaghetti_code_v01.glb",
+      "source": "blender/enemies/problem_spaghetti_code/v01/revisions/r11_before_problem_palette/problem_spaghetti_code_v01.blend",
+      "sha256": "fdb8a02e10ed82124d56db3a2e91b6c3749606415837b9b9617ed1372a13e029",
+      "sourceHash": "828fd49cefd6cdeeee7148b4d3c446e5dc06ca1c83565c3e9bbc9927c467b541"
+    },
+    {
+      "label": "before_r12",
+      "revision": 11,
+      "export": "blender/enemies/problem_spaghetti_code/v01/revisions/r11_before_r12/problem_spaghetti_code_v01.glb",
+      "source": "blender/enemies/problem_spaghetti_code/v01/revisions/r11_before_r12/problem_spaghetti_code_v01.blend",
+      "sha256": "fdb8a02e10ed82124d56db3a2e91b6c3749606415837b9b9617ed1372a13e029",
+      "sourceHash": "308146e107ab27756f35eadefa99cfd90320cb7eae1aafaa9b363cf33975d1dc"
     }
   ],
   "decisions": "blender/enemies/problem_spaghetti_code/v01/decisions.md",
@@ -156,16 +194,16 @@
       "teal": "#178575",
       "orange": "#FFAA24",
       "orange_edge": "#D98216",
-      "ink": "#223650"
+      "ink": "#233B58"
     },
     "attribute": "_palette_role",
     "storage": "texture"
   },
   "delivery": {
-    "sha256": "b82f84fbb8725c25f649646c5894b9215035918c164a62484a670edd14a9acab",
-    "sourceHash": "899fd5c75359c78dfe61af03dbb533f76e2fe105f49604e77b0e6f2023170b7a",
+    "sha256": "4d6eae17c8a59c916f616666d34ea6a10e19ad9c74ca54cc2264be91edbf1a04",
+    "sourceHash": "308146e107ab27756f35eadefa99cfd90320cb7eae1aafaa9b363cf33975d1dc",
     "report": "blender/enemies/problem_spaghetti_code/v01/validation/report.json",
-    "deliveredAt": "2026-09-17T20:39:33.136Z"
+    "deliveredAt": "2026-09-26T22:17:41.847Z"
   },
   "texturePalettes": [
     {
@@ -176,7 +214,7 @@
       ],
       "roles": {
         "ink": {
-          "color": "#223650",
+          "color": "#233B58",
           "rect": [
             0,
             0,
@@ -226,5 +264,17 @@
   "exportSettings": {
     "paletteSampler": "linear",
     "paletteTextureWorkflow": true
+  },
+  "presentation": {
+    "lifecycle": {
+      "type": "glitch_breach",
+      "version": 1,
+      "entryClip": "spawn",
+      "exitClip": "resolve",
+      "anchor": "root",
+      "color": "#FF497C",
+      "maxFragments": 5,
+      "spawnPortal": false
+    }
   }
 }

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "asset": "problem_missing_details",
+  "version": "v01",
+  "revision": 13,
+  "sha256": "6b3e267075d1014c018ed681362670af86c5412667d3a2828777a15e54c49c6a",
+  "sourceHash": "1f6f73fee76a117a4204fe89b4de6f57e32c9dd5f408a866e534f2a4061768cc",
+  "scope": "palette",
+  "reviewedAt": "2026-09-26T22:49:10.701Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "User explicitly requested seven colours for this asset. Merged eye-edge dark red into the existing warning red; yellow fold highlight, paper shadow and separate eye emission remain intact. Character geometry and identity remain unchanged."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Personally inspected final guarded iso and reverse views. No colour bleed or lost supporting separation observed. Exact parity against the eight-colour milestone confirms unchanged geometry, UVs, rig, morphs, anchors, material response, auxiliary emission bytes and sampler settings."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected final close/reverse and small phone Rest/Move frames. Question mark, limb segmentation and paper silhouette remain legible. Exactly seven distinct base colours match source policy and Inspector swatches. Merged eye-edge dark red into the existing warning red; yellow fold highlight, paper shadow and separate eye emission remain intact."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Small phone Move at 0.5 seconds inspected after export; all animation channels, keys and lifecycle metadata remain byte-identical. This palette pass does not change or re-approve the entire animation design."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After candidate inspection and source delivery, reviewed final exported iso/rear and phone Rest/Move views. Both seven-colour counts and current runtime hashes passed; no further palette correction needed."
+  },
+  "evidence": [
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/iso.png",
+      "sha256": "fe3c3f9aeb54854c23721b2463d866f3b414214f00a75e08f7799282fe2cd9a9",
+      "view": "iso.png",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/rear.png",
+      "sha256": "f8467691d64b0f6b3d2b5e6de43991564b44448cb7a47e0bd191e598092caf57",
+      "view": "rear.png",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/problem-palette-phone.png",
+      "sha256": "c7df6658870c02c97bbec610bf4a73ee975215968503a9ec79ba07815a86416d",
+      "view": "problem-palette-phone.png",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/problem-palette-move-phone.png",
+      "sha256": "9c3c23ece8568398e31cf76dd68c84692a0840112827956be191d0cd57ff39a1",
+      "view": "problem-palette-move-phone.png",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_missing_details/v01/validation/problem_palette_parity.json",
+      "sha256": "c67ea4229ef08f81e6cacf06ddbc862933b96b10d8bc4cbf68fe78c19a9f1457",
+      "view": "problem_palette_parity.json",
+      "mode": "audit"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    }
+  ],
+  "userAcceptance": {
+    "status": "accepted",
+    "reviewedAt": "2026-09-26T22:54:46.101Z",
+    "note": "User: \"looks good, let's clean-up ... and make sure all of those models are properly alligned\". Accepts the displayed final Problems palette at this source/export revision; this does not expand the animation scope."
+  },
+  "limitations": []
+}

@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_tree_spreading_bare",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "d02edb11d69d16c1e5c5f04d287fcf119c8beaf772f40510ce489562bdfdf2b4",
+  "sourceHash": "05b112e1b6cb04dd12a77a358856d1710cc206325255073b18180eb76d13126e",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T11:19:57.549Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Three broad sage/moss lobes form a low, wide canopy distinct from tall and round trees."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Two forks enter the side lobes; underside and reverse expose the attachments and confirm no floating crowns. Separate crown lobes intentionally overlap."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally inspected the phone-width and fixed-view renders: the crown outline and trunk remain readable; different forms are identifiable without relying only on color."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked the lower crown silhouette and fork seating after the primary-form pass. The lobes keep a coherent spreading outline at phone scale."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_tree_spreading_bare/v01/validation/iso.png",
+      "sha256": "b4ba97613d257f2ce24dcfb95ce47b147f5b237178abe8ac6f35071a69cf2b3c",
+      "view": "validation/iso"
+    },
+    {
+      "path": "blender/environment/campus_tree_spreading_bare/v01/validation/front.png",
+      "sha256": "3ce96af214a6e50e57ac3e74024985f5dbf02a445f6ef8205a8b3fc69f27787d",
+      "view": "validation/front"
+    },
+    {
+      "path": "blender/environment/campus_tree_spreading_bare/v01/validation/rear.png",
+      "sha256": "31dca54df7c2b96d7f57b9f111bce9f647ebfa31e84b974efb8566278d96ad16",
+      "view": "validation/rear"
+    },
+    {
+      "path": "blender/environment/campus_tree_spreading_bare/v01/renders/inspector-close.png",
+      "sha256": "27292d5457b444adfed49a3687a6c71184619a918c32250f15c2db081f33f56e",
+      "view": "renders/inspector-close"
+    },
+    {
+      "path": "blender/environment/campus_tree_spreading_bare/v01/renders/inspector-rear.png",
+      "sha256": "b3f8cd115a7b5a99f42dd4af97ad6c833b2da7c5e443aaa5fec31874ea29f115",
+      "view": "renders/inspector-rear"
+    },
+    {
+      "path": "blender/environment/campus_tree_spreading_bare/v01/renders/inspector-phone.png",
+      "sha256": "970b4bcf536c4e2bc1ebc4dcc390c92f152b2a76147f7afaa6fd5bffe767c755",
+      "view": "renders/inspector-phone"
+    },
+    {
+      "path": "blender/environment/campus_tree_spreading_bare/v01/renders/inspector-bottom.png",
+      "sha256": "e44ee90edd4d20ce2edc661da31bdfc671139d1976cb817761bf2972cf96d257",
+      "view": "renders/inspector-bottom"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "New family delivered for user artistic review; no approval inferred."
+  },
+  "limitations": [
+    "Static environmental art; no collision, pathfinding or gameplay placement integration."
+  ]
+}

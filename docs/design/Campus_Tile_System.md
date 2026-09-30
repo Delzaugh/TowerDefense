@@ -15,7 +15,7 @@ The Blender image and surface.py are editable sources. Solid frame swatches rema
 - Hex circumradius: 18 m. Foundation thickness and edge surface: 1.20 m.
 - Six existing edge-midpoint anchors and anchor_surface retain their exact interface.
 - Keep the outer 1.4 m band level at y=1.20 m. Interior terrain must return to that band without cliffs or overlapping faces.
-- Texture fades into the standard slate edge. Perimeter light streaks have been removed at the user's request; the void grid remains below the campus.
+- Terrain textures reach a narrow muted neutral edge (#8C9084): 0.06 m quiet margin and 0.48 m blend into each terrain. This supersedes the broad slate surface border. The level structural boundary and void grid remain unchanged.
 - Do not scale buildings, walkways or the Copilot to fit a terrain variant.
 - A terrain variant is its own registered Blender/GLB asset with the same root, frame dimensions and joining anchors.
 - Raised surfaces own actual geometry and surface heights. Do not fake a hill with only a painted image or place props using the flat tile height.
@@ -33,7 +33,28 @@ The Blender image and surface.py are editable sources. Solid frame swatches rema
 
 A park gets its identity from grass, planting and paths; a hill gets its identity from silhouette and elevation. Both should use quieter texture than buildings and moving characters. Avoid high-frequency noise, a different scale of grain on every tile, or a mandatory path printed into the shared base.
 
-## Campus assembly
+## Production home expansion — 2026-09-24
+
+The latest production composition is v03: nine tiles. `campus_tile_forest` occupies axial (0,-2) at ground-root y=0, extending the hill's north/south route to the woodland clearing at z=-63. It uses the delivered 42-tree forest assembly without stacking another terrain underneath. Seven grounded pine, spreading and autumn trees sit at y=1.20 in the park, grove and plaza. The original planted trees remain in place. Fourteen occupied-neighbor joins are checked against exported anchors, and every route port connects except the intentional lab doorway end. Home and Top include the northern extension; Reset centres the full campus at z=0.
+
+### Earlier v02 expansion
+
+The previous production composition v02 introduced eight tiles and 159 static placements. The earlier prototype described below remains a separate composition.
+
+| Section | Axial tile | Buildings and décor | Route |
+| --- | --- | --- | --- |
+| Civic Plaza | (0,0) | Existing core lab and solar panels; new portal monument, paired benches and planters on broad stone paving | Existing lab loop preserved |
+| Canyon | (-1,1) | Layered cut basin, shallow riverbed, bridge, survey shelter and sparse planting | Grove road continues over bridge at world x=-28, z9..21 |
+| Construction Site | (0,2) | Unfinished structural frame, crane, site office, material stacks and barriers | South park promenade extends at world x=4 to landing z65 |
+| Utility Yard | (1,-1) | Service building, power and cooling equipment, maintenance details | East promenade branches north at world x=28 |
+
+The four new tile IDs are campus_tile_civic, campus_tile_canyon, campus_tile_construction and campus_tile_utility. Their separate campus_*_decor assemblies share tile-centred origins and sit at world y1.2. All are registered environment assets with editable Blender sources, packed texture images and guarded GLB exports. No buildings or walkways are scaled to fit. The two former placeholder trees were removed from the canyon and utility footprints.
+
+Every boundary retains the 18 m hex radius and six level edge anchors at y1.2. The seven terrain profiles now share a narrow neutral surface transition and roughness0.92, with the original slate restricted to the structural sides. Utility has full concrete paving, broad expansion joints, painted service bays and flush drainage details. The test in game/tests/integration/campusConnections.test.ts verifies all 13 occupied-neighbor joins from actual exported anchors and the complete route endpoint network, including both canyon bridge ends. The one intentionally open route end enters the lab doorway.
+
+Home and Top framing cover the extended campus; Reset recentres at z=15.588457. Lighting keeps its established direction with a wider shadow volume. New art reviews remain separate from user artistic acceptance.
+
+## Earlier prototype assembly
 
 Each placement carries tile metadata (q, r, profile) independently of its asset ID. Neighbor positions use x=27q and z=18sqrt(3)(r+q/2). The connection audit computes expected edge pairs from occupied axial neighbors rather than assuming a seven-tile map or a particular model name.
 

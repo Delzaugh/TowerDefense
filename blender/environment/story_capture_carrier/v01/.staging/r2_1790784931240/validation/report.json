@@ -1,0 +1,37 @@
+{
+  "asset": "story_capture_carrier",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "9626300473f4f25ed24e94d79fab03713089aeb699ca7585a0042e2b18cb7753",
+  "checkedAt": "2026-09-30T16:15:33.984Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1244,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    3.3664002418518066,
+    2.6249999552965164,
+    1.8160000443458557
+  ],
+  "bounds": [
+    [
+      -1.6832001209259033,
+      -0.20999999344348907,
+      -1.0160000324249268
+    ],
+    [
+      1.6832001209259033,
+      2.4149999618530273,
+      0.800000011920929
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "19173bd005797576a717e9216727dc3d03973ffe8024416218849c741331d1a9",
+  "source": "blender/environment/story_capture_carrier/v01/story_capture_carrier_v01.blend",
+  "runtime": "assets/runtime/environment/story_capture_carrier_v01.glb"
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "path": "blender/environment/campus_civic_decor/v01/validation/close-joins.png",
+    "sha256": "92d2b60994e99c18601350f1b4e70a9cac5a5bb0e972ef31a4772b1846931e11",
+    "view": "close-joins"
+  },
+  {
+    "path": "blender/environment/campus_civic_decor/v01/validation/reverse-oblique.png",
+    "sha256": "e7d08d3739240d764396e4946954170a0291e2477ee4a9827b6b1bd9a80d4d02",
+    "view": "reverse-oblique"
+  },
+  {
+    "path": "blender/environment/campus_civic_decor/v01/validation/phone.png",
+    "sha256": "ce868263db40750abf627bdd2eb4bd8c7488bfa445a90d4ec9a84e3da0a65895",
+    "view": "phone-scale"
+  }
+]

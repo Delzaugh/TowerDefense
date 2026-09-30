@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "asset": "problem_spaghetti_code",
+  "version": "v01",
+  "revision": 12,
+  "sha256": "4d6eae17c8a59c916f616666d34ea6a10e19ad9c74ca54cc2264be91edbf1a04",
+  "sourceHash": "308146e107ab27756f35eadefa99cfd90320cb7eae1aafaa9b363cf33975d1dc",
+  "scope": "palette",
+  "reviewedAt": "2026-09-26T22:22:03.639Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "User requested shared supporting colours while preserving identities, then an eight-base-colour trial. Only punctuation ink changes to family navy; lime/teal weave, orange badge, supporting boss and irregular crossings remain intact and legible."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Personally inspected final guarded iso and rear renders. No new bleed or discontinuous colour regions observed. Exact parity proves unchanged topology, positions, normals, UVs, skinning, rig, anchors, morphs, material settings, texture samplers and auxiliary emission images; only base palette pixels changed."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected common-scale board, grayscale and small phone Rest/Move views. 5 distinct authored base colours. Only punctuation ink changes to family navy; lime/teal weave, orange badge, supporting boss and irregular crossings remain intact and legible. This is controlled Inspector lighting, not final gameplay-camera or colour-vision-deficiency approval."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Reviewed small Inspector Move at 0.5 seconds after palette delivery. Exact exported animation channels, time/value buffers and root presentation metadata match the retained pre-palette milestone. No animation changes or new full-animation approval in this palette pass."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Following candidate comparison and source export, personally reviewed the final iso/rear, phone Rest/Move and grayscale evidence. Source/runtime hashes and every mapped role match the policy; the palette stays within eight distinct colours. No further palette correction needed in these views."
+  },
+  "evidence": [
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/iso.png",
+      "sha256": "24262ea20eb0c9658973d0a429916c11aa02fabad0f44cc4a6e782147c9695cb",
+      "view": "Final close isometric",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/rear.png",
+      "sha256": "e4a858c491a644d923927011cf54fb2130f1970364875e5b6da6913365c2b882",
+      "view": "Final reverse",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/problem-palette-phone.png",
+      "sha256": "f3522fbd4942b3a10057a610c37d9fb62a726c81d542b7d55349384cab6997b4",
+      "view": "Small phone Rest",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/problem-palette-move-phone.png",
+      "sha256": "94e974ad59d195badce8a736fbf03a4181957b740913b79b6c02b8e8c2e6030a",
+      "view": "Small phone Move 0.5s",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_spaghetti_code/v01/validation/problem_palette_parity.json",
+      "sha256": "ac6f6c033fb8e2ba76a3a87164a55d52e48d94c8f10b544cf7dfdd0d9d7372f5",
+      "view": "Exact palette-only preservation audit",
+      "mode": "audit"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    }
+  ],
+  "userAcceptance": {
+    "status": "accepted",
+    "reviewedAt": "2026-09-26T22:54:46.101Z",
+    "note": "User: \"looks good, let's clean-up ... and make sure all of those models are properly alligned\". Accepts the displayed final Problems palette at this source/export revision; this does not expand the animation scope."
+  },
+  "limitations": []
+}

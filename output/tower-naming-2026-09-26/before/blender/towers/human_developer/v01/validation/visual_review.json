@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "asset": "human_developer",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "9ed0ed1c42247f881a8507fb37ce0bb8b9a1a213156d2f99cba78c831e4b0298",
+  "sourceHash": "f497a7bfe9636b25f919963236d1902ebf02ee7059a42b87a8271c1e733d4e74",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T10:48:03.2103348Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Original design assessed against recorded user outfit and explicit proportions, not an external likeness. Open hoodie, T-shirt, jeans and sneakers are present. Broad head, planted stance and under-arm laptop match the brief in front, side and isometric views."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Corrected shirt breakthrough at shoulders and seated sleeve roots in the blockout pass. Corrected smile depth after it disappeared into the cheek surface. Final close front, left side and rear/underside oblique views show seated ears, connected wrists, bounded hoodie opening, supported laptop and grounded closed shoe soles. Angular planes and mitten hands are intentional; no visible floating accessories or coplanar flicker in reviewed views."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected shared Inspector phone-width and small silhouette views, plus flat front silhouette. Head, clothing blocks, separated legs, sneakers and asymmetric laptop remain clear. Small laces, cords and code sticker are secondary close-range details; the sticker is partly covered by the carrying forearm."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model-stage review; no authored clips yet. Record the animation handoff or deferral in decisions; baseline animation remains pending."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Reassessed revision 4 after shoulder fitting and smile-depth repairs. Close front confirms visible smile and no white shirt patches through shoulders; laptop-side and reverse oblique confirm hand support, hood thickness and full head volume; phone and small-scale views retain the intended casual human silhouette. Source/export hashes match the Inspector loaded payload. No further scoped defects found."
+  },
+  "evidence": [
+    {
+      "view": "iso",
+      "sha256": "969b9f06436e7655d784b833400e556a91864fa0d37851b80798a1ccd7a2b2f4",
+      "path": "blender/towers/human_developer/v01/validation/iso.png"
+    },
+    {
+      "view": "side",
+      "sha256": "fc86d2eb801559b382cc020011b66df34659f030a717a3c03525a71e0b33ab90",
+      "path": "blender/towers/human_developer/v01/validation/side.png"
+    },
+    {
+      "view": "front-silhouette",
+      "sha256": "c64cbc15180fd5a6198ff83aaefa1898ef6e0cf1a76df24794fde7a7c2807743",
+      "path": "blender/towers/human_developer/v01/validation/front-silhouette.png"
+    },
+    {
+      "view": "close-front",
+      "sha256": "aadfee7fc16d7fc19f5354527ff3f77b1c34da8a64b774df60002a75e7aff711",
+      "path": "blender/towers/human_developer/v01/validation/close-front.png"
+    },
+    {
+      "view": "laptop-side",
+      "sha256": "59873de2c68f5e4ac5f3bd830efe93e5f559b2fb5d257d150a5644e8412e92c9",
+      "path": "blender/towers/human_developer/v01/validation/laptop-side.png"
+    },
+    {
+      "view": "laptop-oblique",
+      "sha256": "0c4aefe778c27b13d7ba2fb8da43148132a1d05e4330d2730b1307d6a9dcf32c",
+      "path": "blender/towers/human_developer/v01/validation/laptop-oblique.png"
+    },
+    {
+      "view": "rear-oblique",
+      "sha256": "38c9327924d259ddf790edf6d2414142b74a7a4b9df66d0f9d7ba4a6e366049c",
+      "path": "blender/towers/human_developer/v01/validation/rear-oblique.png"
+    },
+    {
+      "view": "phone",
+      "sha256": "4797c6afc49d9e67c426b1ddc3d4b5855aa242f238a76fb344f7b1e373322715",
+      "path": "blender/towers/human_developer/v01/validation/phone.png"
+    },
+    {
+      "view": "small-silhouette",
+      "sha256": "814fae00dc76c8b93e05e880dafc189334b93ac8b8bdcc1add92dc522110bfbd",
+      "path": "blender/towers/human_developer/v01/validation/small-silhouette.png"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": ""
+  },
+  "limitations": [
+    "Model-only delivery; rigging and baseline animation pending user authorization.",
+    "Appearance and palette are proposed; user artistic acceptance remains pending.",
+    "Laptop code sticker is partially occluded by the carrying forearm and is a secondary detail."
+  ]
+}

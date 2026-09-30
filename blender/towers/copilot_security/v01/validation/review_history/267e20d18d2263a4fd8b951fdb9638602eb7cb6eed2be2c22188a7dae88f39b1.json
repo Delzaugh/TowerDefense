@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_security",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "d43330b69d1d32ccd2802509cfd169fdfb85fccb42e1ac5e9ecf9f941d26bf7d",
+  "sourceHash": "c51117cf781b5d038f9908a83a32cbd0983333eac24b08ff774e4e543046cf0d",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T13:42:00.967Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "failed",
+      "findings": "User comparison exposes tall boxy rear shell, insufficient sloping forehead, low belly behind chin, vertical chin plate instead of projecting angled chin, and misplaced pod relationships. Prior positive reference-fidelity assessment is superseded."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Inspected actual Inspector close oblique, reverse, opposite side and underside. Initial non-planar concave chin faces caused visible white/blue crossing; split the bowed chin and lip at the center plane. Seated the crest and raised its dark supports to remove partial triangles through the casing. Added a fitted blue housing behind the brow to close its upper gap. Final rings, scanner saddle and optics are seated, rear vents are recessed and evenly spaced, and no open accidental through-gap or flickering overlap was visible in the inspected views."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Viewed final export at 390-pixel phone width and the Inspector small silhouette test (roughly 80-pixel model). Goggles, paired cyan eyes, white chin band, pod ring and left scanner remain readable. Shield reduces to a clear white badge at the smallest scale; its small bevel and rear vent depth are close-view detail."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model-only request. No authored animations or placeholder clips. Baseline animation remains pending the model-first handoff."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Reassessed the final revision 4 after chin, crest/support and brow-seat repairs. The close Inspector view shows a continuous white chin lip, a supported crown and a filled brow attachment. Reverse and underside preserve enclosed body and symmetric pod seats. Rechecked front silhouette, scanner asymmetry, rear vent spacing and small phone view. Source and runtime hashes agree with the Inspector note; technical export is 2648 triangles, two materials, two texture instances from one packed 32x4 image."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_security/v01/validation/iso.png",
+      "sha256": "2305f7500ff38432bce94bac4855d8f23b3caea38a95e17db9ceca246bf6597c",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/iso-silhouette.png",
+      "sha256": "1ef27f64aaf25e8a159ac3910f55fb150188089a44ef5d8c5b61dcfc15cf845a",
+      "view": "iso",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/front.png",
+      "sha256": "1773920a5ec707364bf9097e5865b187a2ad7d35f02b566ee5a26f1332508b15",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/front-silhouette.png",
+      "sha256": "e010e57e01aa110cb89d02662c6f9cea01488549fe795b397a6782d2bef5d5b0",
+      "view": "front",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/side.png",
+      "sha256": "d7bd12bb31924116c4c4a4367ad27c84501d9fc54096017278fbb9b15196a699",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/side-silhouette.png",
+      "sha256": "3fd2b3e8f2011677a43909d935137ddc68af0487422b8c82147fc28e8ce03663",
+      "view": "side",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/rear.png",
+      "sha256": "a73286d3f6d1a6b043ac29529b3a407eb84c6988fcb42e40bf46aae970fdc84b",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/rear-silhouette.png",
+      "sha256": "5dd7035a8174804f409ab4925ddbcda087fcbe7cd82dbcfce2930827e1d8993c",
+      "view": "rear",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_iso.png",
+      "sha256": "0691624dacf254dfb3acd23b092d240f5e9db103afe49f5d431d67e2a75ecc24",
+      "view": "inspector_iso"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_detail.png",
+      "sha256": "83e69dcf2f76307c3b6575018b84eb76730dc945dae988314d97094cc4aa7ba4",
+      "view": "inspector_detail"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_left.png",
+      "sha256": "d20ca87cccac9b12c4bac95da877ebf85a99e41527b8a37fd475846c440e9a23",
+      "view": "inspector_left"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_rear.png",
+      "sha256": "ac042078b03ae6883bea06fd28345a1fa39aff708e1b66c81f6cff7e009a9cee",
+      "view": "inspector_rear"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_bottom.png",
+      "sha256": "8e4c3b1e75b11c90da0c69e05a52940405ff98066821e543760d68ef6aa62c8b",
+      "view": "inspector_bottom"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_phone.png",
+      "sha256": "04fb8f40bc6976337b74986dfcbf66f955049a4eb01c69cb05b9d5d1413bceb0",
+      "view": "inspector_phone"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_small.png",
+      "sha256": "90c9ecfa02b875839facee65a297e128abf8bdb5035910c66822ab897a6c4ead",
+      "view": "inspector_small"
+    }
+  ],
+  "userAcceptance": {
+    "status": "rejected",
+    "note": "2026-09-24: user said contour shapes dont match and supplied a left-contour comparison. Revision 4 silhouette is rejected."
+  },
+  "limitations": [
+    "Model-only milestone: rig and baseline animations pending.",
+    "Illustrated reference highlights and soft bevels are interpreted with opaque low-poly geometry and a tiny palette."
+  ]
+}

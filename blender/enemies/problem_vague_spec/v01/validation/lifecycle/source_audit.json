@@ -1,0 +1,52 @@
+{
+  "asset": "problem_vague_spec",
+  "source": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\blender\\enemies\\problem_vague_spec\\v01\\problem_vague_spec_v01.blend",
+  "frame": 1,
+  "activeAction": null,
+  "tracks": [
+    {
+      "name": "idle",
+      "mute": true,
+      "actions": [
+        "idle"
+      ]
+    },
+    {
+      "name": "move",
+      "mute": true,
+      "actions": [
+        "move"
+      ]
+    },
+    {
+      "name": "hit",
+      "mute": true,
+      "actions": [
+        "hit"
+      ]
+    },
+    {
+      "name": "spawn",
+      "mute": true,
+      "actions": [
+        "spawn"
+      ]
+    },
+    {
+      "name": "resolve",
+      "mute": true,
+      "actions": [
+        "resolve"
+      ]
+    }
+  ],
+  "allTracksMuted": true,
+  "maxBoneRestDelta": 0.0,
+  "rootLocation": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "lifecycleType": "glitch_breach",
+  "spawnPortal": false
+}

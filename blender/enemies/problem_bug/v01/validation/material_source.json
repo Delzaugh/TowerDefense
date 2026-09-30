@@ -1,0 +1,30 @@
+{
+  "material": "bug_palette",
+  "roughness": 0.7200000286102295,
+  "metallic": 0.0,
+  "emissionColor": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "emissionStrength": 0.07999999821186066,
+  "emissionLinks": [],
+  "images": [
+    {
+      "name": "problem_bug_palette",
+      "size": [
+        32,
+        4
+      ],
+      "packed": true
+    }
+  ],
+  "actions": [
+    "hit",
+    "move",
+    "resolve",
+    "spawn"
+  ],
+  "refinedEmissionStrength": 0
+}

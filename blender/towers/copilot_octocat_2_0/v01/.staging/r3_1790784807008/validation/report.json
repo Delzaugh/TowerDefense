@@ -1,0 +1,37 @@
+{
+  "asset": "copilot_octocat_2_0",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "1eed85658be6f17e52f12599ef9d882598a15e86d9c37adaf8b3b354bea8360c",
+  "checkedAt": "2026-09-30T16:13:38.508Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 74142,
+  "meshes": 20,
+  "materials": 2,
+  "textures": 2,
+  "bones": 0,
+  "dimensions": [
+    1.4538443088531494,
+    1.8002899885177612,
+    0.8025931417942047
+  ],
+  "bounds": [
+    [
+      -0.7269221544265747,
+      0,
+      -0.40458944439888
+    ],
+    [
+      0.7269221544265747,
+      1.8002899885177612,
+      0.3980036973953247
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "0884e8ce564a8f1b995aff1f6b303d2c9dc620a1a3b93b6ade04668880d3f0af",
+  "source": "blender/towers/copilot_octocat_2_0/v01/copilot_octocat_2_0_v01.blend",
+  "runtime": "assets/runtime/towers/copilot_octocat_2_0_v01.glb"
+}

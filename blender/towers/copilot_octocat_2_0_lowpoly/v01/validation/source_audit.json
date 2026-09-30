@@ -1,0 +1,50 @@
+{
+  "sourceHash": "a264b9081b1d2994551b5e656635f9b0cb287bee24185e23dff8700784d1290f",
+  "parts": {
+    "head": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    "body": {
+      "components": 1,
+      "nonmanifold_edges": 0,
+      "degenerate_faces": 0
+    },
+    "cups": {
+      "components": 25,
+      "nonmanifold_edges": 200,
+      "degenerate_faces": 0
+    }
+  },
+  "contacts": {
+    "left": 0.0,
+    "right": 0.0,
+    "rear": 0.0
+  },
+  "images": [
+    {
+      "name": "octocat_palette_40x4",
+      "size": [
+        40,
+        4
+      ],
+      "packed": true
+    },
+    {
+      "name": "octocat_2_0_face_512",
+      "size": [
+        512,
+        512
+      ],
+      "packed": true
+    }
+  ],
+  "anatomy": {
+    "tentacles": 5,
+    "supports": 3,
+    "arms": 2,
+    "tails": 0
+  },
+  "passed": true
+}

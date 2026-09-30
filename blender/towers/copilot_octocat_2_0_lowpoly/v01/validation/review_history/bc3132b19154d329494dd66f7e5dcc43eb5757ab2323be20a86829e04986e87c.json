@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_octocat_2_0_lowpoly",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "cce0b58ce52f8a470aa7de57e44e0453bdebff3bf854bfecd6de1b8af02fb7ee",
+  "sourceHash": "e7b3f4e99b114f7b75d72660845762b2abb2fdac21ff54517a40d7962d5ed0bf",
+  "scope": "model",
+  "reviewedAt": "2026-09-30T17:03:31.005Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Compared original anatomy-corrected r7 runtime front/iso images and creator turnaround with the simplified registered model. Retained broad rounded head and cheeks, inset pointed ears, forehead dip, two oval eyes with glints, nose, open smile and four whiskers. All five tentacles still join beneath the head, with two arm-like limbs and three supporting tentacles in this waving upright pose. Five cups per tentacle remain. Lower-density outlines are intentionally polygonal rather than an exact smooth-sculpt match."
+    },
+    "construction": {
+      "status": "failed",
+      "findings": "Personally inspected final front, right, rear, underside, close frontal/oblique face and isometric exports. Head/body source parts are each one connected closed shell with zero nonmanifold edges and degenerate faces. Cups are 25 intentionally open fitted surface patches, each with an octagonal rim and shallow centre. Initial coarse cup faces intersected skin between seated vertices; sampled triangle interiors and edges to repair clearance. Final cups show complete pale shapes without the initial holes. All three support contacts are zero. Palette geometry is consolidated into one mesh, with named source vertex groups retaining editable parts; painted head is the second mesh. Two packed images are embedded in the runtime. Runtime count is 3,961 triangles, two meshes and two materials, with nine anchors preserved. Subsequent user screenshot exposed face UV leakage onto back-facing triangles, missed in the previous review."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Reviewed final phone and small game-scale captures. Large peach face, ears, contrasting eyes, waving arm, front-leg negative space and rear support in oblique views remain readable. Octagonal cups and faceted feet are deliberate simplifications; tiny glints and tongue are secondary at small scale. Retained authored approximately 1.80 m height and original palette."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static model milestone, with no rig or animation. Baseline animation remains pending in the decision record."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After repairing cup/cheek seating in revision 3, consolidated palette parts for revision 4. Reviewed the finished two-mesh export again against original and creator references. Final front/oblique show intact cup surfaces and expressive face; reverse/side preserve three-support anatomy; underside preserves foot thickness and attached roots. Phone/game-scale views retain the original identity. Expected faceting remains visible in enlarged outlines and highlights; no remaining scoped seating or grounding defect blocks the low-poly model handoff."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/inspector-front.png",
+      "sha256": "015f433ea7f80e7f4fd68c6f88988dd1e5db7935850ecd6e78143551c4b6ed33",
+      "view": "inspector-front"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/inspector-iso.png",
+      "sha256": "3da42dab04215532419a9c238087354c91157e76ec89ca5529194a28315a334f",
+      "view": "inspector-iso"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/inspector-rear.png",
+      "sha256": "417ec3954fc4e83a96753ead3b97449a1f5c8e05421093d803b8f5c4f77e4af5",
+      "view": "inspector-rear"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/inspector-right.png",
+      "sha256": "21d38b395f72b19f2b7c974f3b4e95e53bf84d716d4268c86f673cfb0885e0fa",
+      "view": "inspector-right"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/inspector-bottom.png",
+      "sha256": "1565b3391ce75bba90b38888ae6460bd7c82a56e903439d4edc7ccf30deec6d9",
+      "view": "inspector-bottom"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/face-close-front.png",
+      "sha256": "b42429dc64c15e5451d23ebcf324f4f47a8e59e2e9bb9b215ada6b376a1e8325",
+      "view": "face-close-front"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/face-close-iso.png",
+      "sha256": "86bbc509e30b0716c88364af3efb05f5b36d6c0b99c19d4c10f346ed3893db41",
+      "view": "face-close-iso"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/phone.png",
+      "sha256": "f20a828b8e11744e2ebeccacc9a2973603ca3da42b76452c27be38b0ab83c518",
+      "view": "phone"
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0_lowpoly/v01/renders/game-scale.png",
+      "sha256": "7099abc187b74ae6c560a945b0086ab7ccd86e641f8def122d37f9e29828a3f2",
+      "view": "game-scale"
+    }
+  ],
+  "userAcceptance": {
+    "status": "rejected",
+    "note": "User reported skin-coloured slivers on underside/back of head in both versions, with screenshot, 2026-09-30. Repair required."
+  },
+  "limitations": [
+    "Static model; animation and deformation review remain pending.",
+    "Faceted outlines, simplified shallow cups and angular close-up highlights are deliberate consequences of the 4,000-triangle ceiling.",
+    "Triangle/draw-call reduction is measured; crowded gameplay performance has not been profiled."
+  ]
+}

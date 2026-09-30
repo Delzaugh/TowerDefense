@@ -1,0 +1,37 @@
+{
+  "asset": "human_developer",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "fcc08c5c58fb0401d0a93ee4b56083863ad647694b0e884bb6673944a57ea252",
+  "checkedAt": "2026-09-24T10:44:31.455Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 2526,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    1.6169672012329102,
+    2.9760000705718994,
+    0.8298609554767609
+  ],
+  "bounds": [
+    [
+      -0.8327986598014832,
+      0,
+      -0.39500001072883606
+    ],
+    [
+      0.784168541431427,
+      2.9760000705718994,
+      0.4348609447479248
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "372797b2b898e9ab3edd5c4933db3a29abceb45767a45b7333c9b6164e051e23",
+  "source": "blender/towers/human_developer/v01/human_developer_v01.blend",
+  "runtime": "assets/runtime/towers/human_developer_v01.glb"
+}

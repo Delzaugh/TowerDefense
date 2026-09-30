@@ -1,0 +1,10 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _aligned_free
+00:02.281  blend            | Read blend: "C:\Users\jonas\Documents\ChatGPT\Tower\blender\enemies\problem_vague_spec\v01\problem_vague_spec_v01.blend"
+C:\Users\jonas\Documents\ChatGPT\Tower\tools\asset-pipeline\refine_problem_palettes.py:24: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  'materialLinks':{mat.name:[{'input':l.to_socket.name,'image':l.from_node.image.name if l.from_node.type=='TEX_IMAGE' and l.from_node.image else None} for l in mat.node_tree.links if l.to_node.type=='BSDF_PRINCIPLED'] for mat in bpy.data.materials if mat.use_nodes}}
+00:02.375  image.write      | ERROR OpenImageIO write failed: Could not open file "윰\.thumbnails\large\blender_42232_f3f6b8c19012d4a930b801b3cdac3a92.png.png"
+PROBLEM_PALETTE_INSPECTION {"asset": "problem_vague_spec", "sourceBefore": "995b829e0b25a070b0fb5dc6eada118c8b55681a27574fe7df06eef457b53865", "revisionBefore": 8, "colorsBefore": {"paper": "#E5EBEF", "paper_shade": "#C9D3DE", "edge": "#E5EBEF", "ink": "#233B58", "line": "#627389", "limb_light": "#A5B2C2", "limb": "#627389", "joint": "#192E46", "boot": "#344D69", "accent": "#FFAA24"}, "colorsAfter": {"accent": "#FFAA24", "boot": "#344D69", "edge": "#E5EBEF", "ink": "#233B58", "joint": "#233B58", "limb": "#627389", "limb_light": "#A5B2C2", "line": "#627389", "paper": "#E5EBEF", "paper_shade": "#C9D3DE"}, "objects": 5, "actions": ["hit", "idle", "move", "resolve", "spawn"], "images": [{"name": "problem_vague_spec_palette", "size": [32, 8], "packed": true}], "materialLinks": {"parchment_palette": [{"input": "Base Color", "image": "problem_vague_spec_palette"}]}}
+Info: Saved as "problem_vague_spec_v01.blend"
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 02:38:20)
+
+Blender quit

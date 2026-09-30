@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "revision": 4,
+  "sourceHash": "8cde3d238c14806a2fd9a6cda98fbc4d42c8457cd652ae19c30286ea404e84cd",
+  "sha256": "5e77ade5c6ab41a765cf5f3638ce2629cad6efb1b6c9558d57c41a4642a598cf",
+  "geometryAccessors": 12,
+  "packedImages": 1,
+  "preservedClips": [
+    "idle",
+    "work",
+    "hit"
+  ],
+  "newClips": [
+    "move",
+    "place",
+    "resolve"
+  ],
+  "effect": {
+    "type": "digital_blocks",
+    "version": 1,
+    "clip": "resolve",
+    "assembleClip": "place",
+    "cellSize": 0.25,
+    "maxFragments": 40,
+    "edgeColor": "#4CF2FF"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "asset": "problem_dead_code",
+  "sourceBefore": "607eab58386040201a0495e5c1fc07380fbdce6cafd9a2b94f479c7d1ca4b6da",
+  "revisionBefore": 7,
+  "colorsBefore": {
+    "shell": "#627389",
+    "bevel": "#8E9FAD",
+    "recess": "#233B58",
+    "rear_inset": "#344D69",
+    "brace": "#E5EBEF",
+    "cross": "#E51C30"
+  },
+  "colorsAfter": {
+    "bevel": "#8E9FAD",
+    "brace": "#E5EBEF",
+    "cross": "#E51C30",
+    "rear_inset": "#344D69",
+    "recess": "#233B58",
+    "shell": "#627389"
+  },
+  "objects": 5,
+  "actions": [
+    "hit",
+    "idle",
+    "move",
+    "resolve",
+    "spawn"
+  ],
+  "images": [
+    {
+      "name": "problem_dead_code_palette",
+      "size": [
+        32,
+        4
+      ],
+      "packed": true
+    }
+  ],
+  "materialLinks": {
+    "dead_code_palette": [
+      {
+        "input": "Base Color",
+        "image": "problem_dead_code_palette"
+      }
+    ]
+  },
+  "passed": true,
+  "uniqueBaseColors": 6,
+  "checks": "Packed source pixels, material base bindings, palette policy, declared rectangles, metre scale, unchanged authoritative source hash"
+}

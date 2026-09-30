@@ -1,0 +1,96 @@
+{
+  "kind": "isolated conceptual Blender study; not the current runtime GLB",
+  "mesh_vertices": 1252,
+  "mesh_triangles": 2364,
+  "material_slots": 2,
+  "images": [
+    {
+      "name": "linter_agent_palette",
+      "width": 32,
+      "height": 4
+    }
+  ],
+  "uv_layers": [
+    "PaletteUV"
+  ],
+  "ports": [
+    {
+      "id": "S1",
+      "azimuth_degrees": 30.000002,
+      "vertex_count": 48,
+      "center": [
+        0.62,
+        -1.073871,
+        0.302
+      ]
+    },
+    {
+      "id": "S2",
+      "azimuth_degrees": 90.0,
+      "vertex_count": 48,
+      "center": [
+        1.14,
+        -0.0,
+        0.477
+      ]
+    },
+    {
+      "id": "S3",
+      "azimuth_degrees": 149.999999,
+      "vertex_count": 48,
+      "center": [
+        0.57,
+        0.987269,
+        0.477
+      ]
+    },
+    {
+      "id": "S4",
+      "azimuth_degrees": 210.0,
+      "vertex_count": 48,
+      "center": [
+        -0.57,
+        0.987269,
+        0.477
+      ]
+    },
+    {
+      "id": "S5",
+      "azimuth_degrees": 270.0,
+      "vertex_count": 48,
+      "center": [
+        -1.14,
+        -0.0,
+        0.477
+      ]
+    },
+    {
+      "id": "S6",
+      "azimuth_degrees": 329.999998,
+      "vertex_count": 48,
+      "center": [
+        -0.62,
+        -1.073871,
+        0.302
+      ]
+    }
+  ],
+  "azimuths_clockwise_from_front": [
+    30.000002,
+    90.0,
+    149.999999,
+    210.0,
+    270.0,
+    329.999998
+  ],
+  "adjacent_pitches_degrees": [
+    59.999998,
+    59.999999,
+    60.000001,
+    60.0,
+    59.999998,
+    60.000004
+  ],
+  "sector_width_degrees": 60,
+  "total_nominal_horizontal_sector_degrees": 360.0
+}

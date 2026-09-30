@@ -1,0 +1,37 @@
+{
+  "asset": "campus_tile_forest",
+  "version": "v01",
+  "revision": 4,
+  "sha256": "406367db5895adf0deb0ce0ef41fa2d53883510b88603b88bf7455d4567f1215",
+  "checkedAt": "2026-09-24T13:36:54.095Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 4034,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 2,
+  "bones": 0,
+  "dimensions": [
+    36,
+    6.124955177307129,
+    31.17691421508789
+  ],
+  "bounds": [
+    [
+      -18,
+      0,
+      -15.588457107543945
+    ],
+    [
+      18,
+      6.124955177307129,
+      15.588457107543945
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "de681eef0724b000e3871042cdd1f5235d2b7325b913dad460e312eaccb285e1",
+  "source": "blender/environment/campus_tile_forest/v01/campus_tile_forest_v01.blend",
+  "runtime": "assets/runtime/environment/campus_tile_forest_v01.glb"
+}

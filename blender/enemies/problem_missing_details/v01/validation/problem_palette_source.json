@@ -1,0 +1,81 @@
+{
+  "asset": "problem_missing_details",
+  "sourceBefore": "b15a7169b94a3bddf2717775490ad030a87703265c31d6aa81d4f636471724bf",
+  "revisionBefore": 12,
+  "colorsBefore": {
+    "paper": "#F7D96B",
+    "paper_shade": "#DDB84F",
+    "fold": "#FFF0A0",
+    "ink": "#192E46",
+    "visor": "#192E46",
+    "eye": "#E51C30",
+    "eye_core": "#E51C30",
+    "limb": "#E5EBEF",
+    "limb_shade": "#627389",
+    "joint": "#627389",
+    "eye_edge": "#9B1524"
+  },
+  "colorsAfter": {
+    "eye": "#E51C30",
+    "eye_core": "#E51C30",
+    "eye_edge": "#E51C30",
+    "fold": "#FFF0A0",
+    "ink": "#192E46",
+    "joint": "#627389",
+    "limb": "#E5EBEF",
+    "limb_shade": "#627389",
+    "paper": "#F7D96B",
+    "paper_shade": "#DDB84F",
+    "visor": "#192E46"
+  },
+  "objects": 5,
+  "actions": [
+    "hit",
+    "idle",
+    "move",
+    "resolve",
+    "seated",
+    "sit_down",
+    "spawn"
+  ],
+  "images": [
+    {
+      "name": "eye_emission_mask",
+      "size": [
+        16,
+        16
+      ],
+      "packed": true
+    },
+    {
+      "name": "problem_missing_details_palette",
+      "size": [
+        32,
+        8
+      ],
+      "packed": true
+    }
+  ],
+  "materialLinks": {
+    "note_palette": [
+      {
+        "input": "Emission Color",
+        "image": "eye_emission_mask"
+      },
+      {
+        "input": "Base Color",
+        "image": "problem_missing_details_palette"
+      }
+    ]
+  },
+  "bindings": [
+    {
+      "material": "note_palette",
+      "image": "problem_missing_details_palette",
+      "size": [
+        32,
+        8
+      ]
+    }
+  ]
+}

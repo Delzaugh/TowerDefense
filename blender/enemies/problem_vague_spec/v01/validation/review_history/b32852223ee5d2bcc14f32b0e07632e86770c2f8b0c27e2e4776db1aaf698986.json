@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "asset": "problem_vague_spec",
+  "version": "v01",
+  "revision": 7,
+  "sha256": "769efe35ec503c4abe09afa452a2438bb55d36deebda893bd62e061bd60b5edb",
+  "sourceHash": "1a824445a1b4077df61fcfe1826b71d5fc877a622f4dcee97808e33168e6777b",
+  "scope": "animation",
+  "reviewedAt": "2026-09-24T11:01:27.093Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Revision 6 parchment shape, curled edges, shoulders, rear yoke, boots, palette and material remain byte-identical in the exported rest-art channels. No accepted geometry or surface data was changed."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "The saved source has no active action, all five NLA tracks muted, all bones in rest pose and an unmoved root. Runtime checks found nonnegative support clearance, no scale or root motion, intact original idle/move/hit clips, deterministic reset/replay and restored resources. Peak helper allocation is 36 triangles, giving 1492 combined."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally inspected close oblique Spawn at 35 and 50 percent and Resolve at 50 and 65 percent, plus phone Spawn/Resolve at 80 percent. The paper and question mark remain legible as jagged pink bands reveal the body; the thin horizontal streak and erase sweep read clearly at phone width. Spawn has no portal and the final Resolve image has no body or shadow."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Both clips span frames 0–30 at 24 fps and retain full-body scale. Spawn briefly registers the parchment and settles to grounded ready; Resolve makes a restrained paper-and-arm reaction while the presenter erases it. Inspector seek, repeat, exact endpoint, Rest reset and reload passed. Existing idle/move/hit data are unchanged."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "On a second pass, inspected Spawn 35 percent, Resolve 65 percent, phone 80 percent and Rest reset against the final GLB. The shoulder mounts and boot support remain coherent through reveal/erase. Numeric parity and renderer playback still pass, including the two-fragment budget fallback."
+  },
+  "evidence": [
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/iso.png",
+      "sha256": "3e624e5baa8eef91b7f4d92ce05590faa94c61be85089cf950f9d8ee80dea04d",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/iso-silhouette.png",
+      "sha256": "785b70a5d8a6304278e5e7f1d8977306c6828f41e35157a04ca14f002ee76657",
+      "view": "iso",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/front.png",
+      "sha256": "7c775acf3b6bd1fe4e7ce3b6daeea1dab47612e661bedcb5847b1b003cc97d12",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/front-silhouette.png",
+      "sha256": "f75a5a6696259193e8faca272126a09865872984453e62e3c16d061d01052243",
+      "view": "front",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/side.png",
+      "sha256": "6d75f3b91912cd7a8597ac136aecdba6d0c284dea52eb372620730a3574120b2",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/side-silhouette.png",
+      "sha256": "f5584a777685cb5d7ef0a685587b2b965765124f3e1cea0b6355a63836d8b424",
+      "view": "side",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/rear.png",
+      "sha256": "609b261dc95da43857927e333b7ed2758e57c774404d27f01c0b412fd667cb6a",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/rear-silhouette.png",
+      "sha256": "f75a5a6696259193e8faca272126a09865872984453e62e3c16d061d01052243",
+      "view": "rear",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/top.png",
+      "sha256": "0d33e95ecb2dfac923024f9ba068d9ff8fa983ffc236f572bd9bd2f246c23640",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/top-silhouette.png",
+      "sha256": "a36d30737c01dfccbb5f9eb02268c7c5849192747d8b2aa477df521e39c2fc88",
+      "view": "top",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/idle.png",
+      "sha256": "26fd3180984005f0468c597523e7a319f316a5c28885e7c255c9fb5408d3a88c",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "idle",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/move.png",
+      "sha256": "1785c4d693bfb4527536961747bf2332a96027f4bc7da8ae029e8053eef9dafc",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "move",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/hit.png",
+      "sha256": "00218d8df9d6abc951ef9aa7757a37a6807cd7d008419d293ff66f4c3acf05ec",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "hit",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/spawn.png",
+      "sha256": "6da15a8902221e388951bd7a47c0de4619c331cc9680ce7d292ad4cea0689753",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "spawn",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/resolve.png",
+      "sha256": "2ad9279ca48c19284ed1d8cb3bcf09defbf6dfed120ac65228d523338bee3f8f",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "resolve",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/lifecycle/spawn-35.png",
+      "view": "close oblique spawn 35%",
+      "sha256": "0cb5f5a63503fb37d5e1328a40892589fc77293bbdf18541f0939783e39b96f7"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/lifecycle/resolve-50.png",
+      "view": "close oblique resolve 50%",
+      "sha256": "886a9461b49d7872e9c96da78fde27cb53ce69b365e4b46255b7bf9fc8cc30a2"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/lifecycle/phone-spawn-80.png",
+      "view": "phone spawn 80%",
+      "sha256": "3962abd9c39483276b1cb70dca93669e04ea27ccde2afd89031a6be47bc21434"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/lifecycle/phone-resolve-80.png",
+      "view": "phone resolve 80%",
+      "sha256": "dc248e8f1914a892c5a69d3a7695516a6113f983c92472f10579f9643bed64ec"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/lifecycle/phone-resolve-100.png",
+      "view": "phone resolve endpoint",
+      "sha256": "bb7d62f966d467e228842a75bae94f990e0a66646d7c662689fc10f7f527f410"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/lifecycle/resolve-reset.png",
+      "view": "rest after resolve",
+      "sha256": "981f934579694c51a096b2703d64fc1efaa5653efa166b36428c8923dc43690b"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/lifecycle/review.json",
+      "view": "actual renderer parity, motion, state and budget checks",
+      "sha256": "a0c1e9a06c20dbf145f91766ddfd64ab135332ec8decafd3f185700846ddab59"
+    },
+    {
+      "path": "blender/enemies/problem_vague_spec/v01/validation/lifecycle/source_audit.json",
+      "view": "read-only saved Blender state audit",
+      "sha256": "45091fbd0cbb0a2930e27fd37116f3d21059d239289771de01666e95afdf94f3"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": ""
+  },
+  "limitations": [
+    "Complete visual coverage requires tools/asset-presentation/lifecycle.js in the game presenter; a plain GLB viewer displays the full-size poses only.",
+    "Target-device frame rate and user artistic acceptance remain pending."
+  ]
+}

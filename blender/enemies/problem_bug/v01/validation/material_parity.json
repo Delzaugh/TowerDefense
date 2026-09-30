@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "oldEmission": [
+    0.07999999821186066,
+    0.07999999821186066,
+    0.07999999821186066
+  ],
+  "newEmission": [
+    0,
+    0,
+    0
+  ],
+  "binaryPayloadIdentical": true,
+  "entireGltfDocumentIdenticalExceptEmission": true,
+  "oldBytes": 320156,
+  "newBytes": 320076,
+  "checks": "All geometry, normals, UVs, palette image bytes, rig, anchors, animations, scene extras and other material parameters exactly preserved."
+}

@@ -1,0 +1,12 @@
+[
+  {"id":"campus_tree_round_bare","name":"Round tree · no base","kind":"round","brief":"Existing broad teal faceted crown, with its planter removed and trunk contact lowered to zero."},
+  {"id":"campus_tree_tall_bare","name":"Tall tree · no base","kind":"tall","brief":"Existing narrow light-teal crown, with its planter removed and trunk contact lowered to zero."},
+  {"id":"campus_tree_cluster_bare","name":"Paired trees · no base","kind":"cluster","brief":"Existing two offset teal crowns, preserving their relative spacing without a shared planter."},
+  {"id":"campus_tree_pine_bare","name":"Blue pine · no base","kind":"pine","brief":"Three broad, faceted evergreen tiers with a blue-green crown and visible warm trunk."},
+  {"id":"campus_tree_spreading_bare","name":"Sage spreading tree · no base","kind":"spreading","brief":"Low, wide, asymmetric three-lobed crown in sage and moss, with a forked warm trunk."},
+  {"id":"campus_tree_autumn_bare","name":"Amber tree · no base","kind":"autumn","brief":"Asymmetric two-lobed deciduous crown in muted amber and gold, with a warm trunk."},
+  {"id":"campus_forest_mixed","name":"Forest group · mixed grove","kind":"mixed","brief":"Nine placements (ten trunks) in a 10 × 10 m module, mixing tall, round, paired, pine and spreading silhouettes."},
+  {"id":"campus_forest_dense","name":"Forest group · evergreen thicket","kind":"dense","brief":"Thirteen trees in a 10 × 10 m module, with irregular heights and blue-green, teal and moss crowns."},
+  {"id":"campus_forest_edge","name":"Forest group · autumn edge","kind":"edge","brief":"Seven trees in a 12 × 6 m module, with tall crowns behind a lower sage and amber woodland edge."},
+  {"id":"campus_tile_forest","name":"Campus forest tile · clearing","kind":"tile","brief":"A complete 36 × 31.177 m campus hex: mixed woodland around a central clearing and an open north–south route, on the existing park terrain."}
+]

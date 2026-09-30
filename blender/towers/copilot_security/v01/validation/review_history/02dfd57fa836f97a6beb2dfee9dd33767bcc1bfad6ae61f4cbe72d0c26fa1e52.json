@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_security",
+  "version": "v01",
+  "revision": 10,
+  "sha256": "80c5c57cd3a1f8581c9323ac57bde98d4b8535b67757c5a621f1dce7e26490d3",
+  "sourceHash": "065f783335ca86877eef16eca686816aadac9082034f1fbc13ae69f7f0bf9e7e",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-24T14:56:05.885Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "User rejected r4 contour; its earlier fidelity assessment is superseded. Traced the supplied left contour using a uniform .011 m/pixel mapping. Compared front/side/isometric blockout, then the exported side and equal-height contour comparison. The new helmet has the long sloping forehead, short crown plateau, raised rear bottom, forward jaw and angled lower jaw return shown by the reference. Pods were rebuilt with a swept fore/aft housing, scanner lowered/refitted and goggles wrapped around the brow so a lens remains visible from the side. Palette, head-only anatomy, shield, paired pods and single character-left scanner remain. Illustration and orthographic rendering are not asserted to be pixel-identical."
+    },
+    "construction": {
+      "status": "failed",
+      "findings": "Inspected final shared-Inspector close oblique, both side directions, reverse and underside. Corrected asymmetric housing mirroring, joined the swept jaw into the raised body, and fitted the display eye graphics to the curved screen after the shape change. Brow halves follow the angled lens frames. Scanner glint received real thickness to remove duplicate cap faces. Audit found zero-area triangles in the thin beveled rear vent wells; rebuilt those hidden wells as simple solids and repeated audit: zero degenerate triangles and zero loose vertices. Final export has no Blender mesh warning. The cyan strip is an intentionally open surface inlay, not a watertight solid. Superseded: user identified the blue patch at the shield apex. Source inspection confirmed jaw penetration through the armor, missed in the earlier review."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected final phone-width image and the small-model test. Goggles, eyes, white jaw band, broad side pods and scanner remain distinct after the contour correction. Close-up facial display remains open. The smallest view reduces the shield to a white mark, consistent with its role as a secondary symbol."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "User requested contour correction. Model-only; animation remains pending, with no placeholder clips."
+    }
+  },
+  "secondPass": {
+    "status": "failed",
+    "findings": "Reassessed the revised contour against the user crop, not against the rejected old proportions. Primary volume now has the forward chin wedge and a rear lower edge above the jaw ground plane. Then repaired goggle wrap, jaw/body connection and eye seating exposed in side/underside views. Rechecked opposite-side symmetry, oblique attachment, reverse vent recesses and phone scale. Final vent-well cleanup preserved the contour and now passes the independent zero-area/loose-vertex audit. Hashes in the Inspector capture and current source/export match this revision."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_security/v01/validation/side.png",
+      "sha256": "b63c275dca33e11f286c599b5f535ed4dc5baee8182461273f3df8d655cc1a45",
+      "view": "side"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/side-silhouette.png",
+      "sha256": "d77438f49052a71a0268d194352c1148871661a1637c84b9fa1dfb0ce9fd6a64",
+      "view": "side-silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/front.png",
+      "sha256": "3dc25d291a4414a1e55dde5bd596195a1dbf21c3c632ed33e6af47f174915cfe",
+      "view": "front"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/iso.png",
+      "sha256": "577e50dfcc9707ab9be8cb48bd8b3099cf01be4a0a4edb42c53fe97ef26efc9d",
+      "view": "iso"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/contour-comparison.png",
+      "sha256": "61da0aff9260eb690515a9bf0761fb45717db377eaafb427a65205ddcb4aecac",
+      "view": "contour-comparison"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_detail.png",
+      "sha256": "c48b71ebd81b79dcc1d524b3790290bdbd653cf3b14ec26878ed87781ffe71ca",
+      "view": "inspector_detail"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_left.png",
+      "sha256": "a188aaa575bb0a31572840c23d45f6735af8d8d561d9b3ce2cad8d217dd30eef",
+      "view": "inspector_left"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_bottom.png",
+      "sha256": "7c1a2eeacd2faec158e1c7fbcec50e65eb9430538ddfac40e0d30c6a4cbdc73e",
+      "view": "inspector_bottom"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_rear.png",
+      "sha256": "de213472ff5882f103065a7b5f4498c8719cf9e7ba0b0665029cdec14cfe6d81",
+      "view": "inspector_rear"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_phone.png",
+      "sha256": "a0964520a5716802c9c403de1ee58ed2faecff7ee4646d5300a97b243ce3ffb1",
+      "view": "inspector_phone"
+    },
+    {
+      "path": "blender/towers/copilot_security/v01/validation/inspector_small.png",
+      "sha256": "3602a2bad235b680aa5406875706cbb9b1b24205e74937358c313410826319a1",
+      "view": "inspector_small"
+    }
+  ],
+  "userAcceptance": {
+    "status": "rejected",
+    "note": "User identified shield intersection and requested steeper pod slope; corrected in subsequent revisions."
+  },
+  "limitations": [
+    "Low-poly bevels and true orthographic views interpret the illustrated contour rather than reproducing raster line thickness.",
+    "Animation remains pending; this is a model refinement."
+  ]
+}

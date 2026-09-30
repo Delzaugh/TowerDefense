@@ -1,0 +1,37 @@
+{
+  "asset": "campus_canyon_decor",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "cccf5a551b86dd1d91d46e409e8901ddbdfb5b9342708e0e7df6325617054b22",
+  "checkedAt": "2026-09-24T11:16:04.571Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 618,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    21.82759952545166,
+    3.319999933242798,
+    23.244999885559082
+  ],
+  "bounds": [
+    [
+      -11.329999923706055,
+      0,
+      -10.420000076293945
+    ],
+    [
+      10.497599601745605,
+      3.319999933242798,
+      12.824999809265137
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "d7414ddbb05a3d0374291829b915f69433af1d9495a5a3e6848d6d644ff02758",
+  "source": "blender/environment/campus_canyon_decor/v01/campus_canyon_decor_v01.blend",
+  "runtime": "assets/runtime/environment/campus_canyon_decor_v01.glb"
+}

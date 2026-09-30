@@ -1,0 +1,371 @@
+{
+  "objects": [
+    {
+      "name": "body_five_tentacles",
+      "parent": "octocat_rig",
+      "triangles": 1200,
+      "materials": [
+        "octocat_palette"
+      ],
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "bounds": [
+        [
+          -0.7930574417114258,
+          0.5324839353561401
+        ],
+        [
+          -0.37787920236587524,
+          0.28067463636398315
+        ],
+        [
+          0.0,
+          0.925615668296814
+        ]
+      ]
+    },
+    {
+      "name": "eye_iris_-1",
+      "parent": "octocat_rig",
+      "triangles": 64,
+      "materials": [
+        "octocat_palette"
+      ],
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "bounds": [
+        [
+          -0.3610641658306122,
+          -0.22409069538116455
+        ],
+        [
+          -0.3991517424583435,
+          -0.3664049208164215
+        ],
+        [
+          1.0186165571212769,
+          1.2351311445236206
+        ]
+      ]
+    },
+    {
+      "name": "eye_iris_1",
+      "parent": "octocat_rig",
+      "triangles": 64,
+      "materials": [
+        "octocat_palette"
+      ],
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "bounds": [
+        [
+          0.2241218388080597,
+          0.36107486486434937
+        ],
+        [
+          -0.3996306359767914,
+          -0.3668212592601776
+        ],
+        [
+          1.0186165571212769,
+          1.2351311445236206
+        ]
+      ]
+    },
+    {
+      "name": "eye_white_-1",
+      "parent": "octocat_rig",
+      "triangles": 64,
+      "materials": [
+        "octocat_palette"
+      ],
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "bounds": [
+        [
+          -0.398503839969635,
+          -0.1866706758737564
+        ],
+        [
+          -0.3918740451335907,
+          -0.33341825008392334
+        ],
+        [
+          0.9835060834884644,
+          1.2760932445526123
+        ]
+      ]
+    },
+    {
+      "name": "eye_white_1",
+      "parent": "octocat_rig",
+      "triangles": 64,
+      "materials": [
+        "octocat_palette"
+      ],
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "bounds": [
+        [
+          0.1866706758737564,
+          0.3985227644443512
+        ],
+        [
+          -0.39232349395751953,
+          -0.3317481577396393
+        ],
+        [
+          0.9835060834884644,
+          1.2760932445526123
+        ]
+      ]
+    },
+    {
+      "name": "head_and_ears",
+      "parent": "octocat_rig",
+      "triangles": 1000,
+      "materials": [
+        "octocat_face"
+      ],
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "bounds": [
+        [
+          -0.6545653939247131,
+          0.6543838381767273
+        ],
+        [
+          -0.39132994413375854,
+          0.47267988324165344
+        ],
+        [
+          0.6829049587249756,
+          1.8002899885177612
+        ]
+      ]
+    },
+    {
+      "name": "nose",
+      "parent": "octocat_rig",
+      "triangles": 48,
+      "materials": [
+        "octocat_palette"
+      ],
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "bounds": [
+        [
+          -0.03989556059241295,
+          0.03947979956865311
+        ],
+        [
+          -0.4107798933982849,
+          -0.3605147898197174
+        ],
+        [
+          0.9368864893913269,
+          0.9899298548698425
+        ]
+      ]
+    },
+    {
+      "name": "smile",
+      "parent": "octocat_rig",
+      "triangles": 80,
+      "materials": [
+        "octocat_palette"
+      ],
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "bounds": [
+        [
+          -0.08189791440963745,
+          0.08216364681720734
+        ],
+        [
+          -0.36516073346138,
+          -0.32993653416633606
+        ],
+        [
+          0.8509417772293091,
+          0.9075946807861328
+        ]
+      ]
+    },
+    {
+      "name": "suction_cup_rows",
+      "parent": "octocat_rig",
+      "triangles": 810,
+      "materials": [
+        "octocat_palette"
+      ],
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "bounds": [
+        [
+          -0.7397261261940002,
+          0.476703017950058
+        ],
+        [
+          -0.37485289573669434,
+          0.14311186969280243
+        ],
+        [
+          0.016428623348474503,
+          0.9246591925621033
+        ]
+      ]
+    },
+    {
+      "name": "whisker_-1_0",
+      "parent": "octocat_rig",
+      "triangles": 24,
+      "materials": [
+        "octocat_palette"
+      ],
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "bounds": [
+        [
+          -0.9180459380149841,
+          -0.5881299376487732
+        ],
+        [
+          -0.18565648794174194,
+          -0.14810676872730255
+        ],
+        [
+          1.0248032808303833,
+          1.0565307140350342
+        ]
+      ]
+    },
+    {
+      "name": "whisker_-1_1",
+      "parent": "octocat_rig",
+      "triangles": 24,
+      "materials": [
+        "octocat_palette"
+      ],
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "bounds": [
+        [
+          -0.9181303977966309,
+          -0.5885342955589294
+        ],
+        [
+          -0.1598695069551468,
+          -0.12205060571432114
+        ],
+        [
+          0.9456517100334167,
+          0.9914686679840088
+        ]
+      ]
+    },
+    {
+      "name": "whisker_1_0",
+      "parent": "octocat_rig",
+      "triangles": 24,
+      "materials": [
+        "octocat_palette"
+      ],
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "bounds": [
+        [
+          0.5879368782043457,
+          0.9180521368980408
+        ],
+        [
+          -0.18510796129703522,
+          -0.14785774052143097
+        ],
+        [
+          1.0253926515579224,
+          1.0565273761749268
+        ]
+      ]
+    },
+    {
+      "name": "whisker_1_1",
+      "parent": "octocat_rig",
+      "triangles": 24,
+      "materials": [
+        "octocat_palette"
+      ],
+      "modifiers": [
+        "ARMATURE"
+      ],
+      "bounds": [
+        [
+          0.5885449647903442,
+          0.9179202914237976
+        ],
+        [
+          -0.15960687398910522,
+          -0.12100578844547272
+        ],
+        [
+          0.9448002576828003,
+          0.9914687275886536
+        ]
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "octocat_classic_lowpoly_face_512",
+      "size": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "octocat_palette_32x4",
+      "size": [
+        32,
+        4
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "name": "octocat_face",
+      "images": [
+        [
+          "octocat_classic_lowpoly_face_512",
+          [
+            512,
+            512
+          ]
+        ]
+      ]
+    },
+    {
+      "name": "octocat_palette",
+      "images": [
+        [
+          "octocat_palette_32x4",
+          [
+            32,
+            4
+          ]
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "baselineSourceHash": "3bbc73490bf7a13f61f73086ccd807d2143b09a8c2f643b8c43c3f660dbf7bde",
+  "removedLipVertices": 28,
+  "changedJawVertices": [
+    810,
+    811,
+    812,
+    813,
+    814,
+    815,
+    816,
+    817
+  ],
+  "triangles": 2802,
+  "unrelatedPositionsWeightsUVsPreserved": true,
+  "animationActions": [
+    "hit",
+    "idle",
+    "move",
+    "place",
+    "resolve",
+    "work"
+  ]
+}

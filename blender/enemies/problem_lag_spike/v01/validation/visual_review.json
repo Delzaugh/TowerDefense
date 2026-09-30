@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "asset": "problem_lag_spike",
+  "version": "v01",
+  "revision": 11,
+  "sha256": "57b50be10be8426bf8639494d49e339d03a9ca9809124285bd998f4b99e12f89",
+  "sourceHash": "a6ebec2a19ce6f6dce5b8a72e4743d3cccf9589bfe152ec6ed90423027821914",
+  "scope": "palette",
+  "reviewedAt": "2026-09-26T22:22:03.547Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "User requested shared supporting colours while preserving identities, then an eight-base-colour trial. Blue-grey head and body now share the family neutral range. Cyan eyes and segmented blue/cyan/ice trails remain distinct; pale trail tips retain contrast in small and grayscale views."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Personally inspected final guarded iso and rear renders. No new bleed or discontinuous colour regions observed. Exact parity proves unchanged topology, positions, normals, UVs, skinning, rig, anchors, morphs, material settings, texture samplers and auxiliary emission images; only base palette pixels changed."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected common-scale board, grayscale and small phone Rest/Move views. 7 distinct authored base colours. Blue-grey head and body now share the family neutral range. Cyan eyes and segmented blue/cyan/ice trails remain distinct; pale trail tips retain contrast in small and grayscale views. This is controlled Inspector lighting, not final gameplay-camera or colour-vision-deficiency approval."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Reviewed small Inspector Move at 0.5 seconds after palette delivery. Exact exported animation channels, time/value buffers and root presentation metadata match the retained pre-palette milestone. No animation changes or new full-animation approval in this palette pass."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Following candidate comparison and source export, personally reviewed the final iso/rear, phone Rest/Move and grayscale evidence. Source/runtime hashes and every mapped role match the policy; the palette stays within eight distinct colours. No further palette correction needed in these views."
+  },
+  "evidence": [
+    {
+      "path": "blender/enemies/problem_lag_spike/v01/validation/iso.png",
+      "sha256": "90977b82834ef95635e0f2731408f291cd5d9cf12372437aa268430925d6b3c4",
+      "view": "Final close isometric",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_lag_spike/v01/validation/rear.png",
+      "sha256": "30e98cec5c805c78bd39a3fe4483699eeb98edab761d8d825005415992b8bf02",
+      "view": "Final reverse",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_lag_spike/v01/validation/problem-palette-phone.png",
+      "sha256": "9b6a4051502a5aa61fca462f544aacbec7e1369f83da961d4a18dfd83555b227",
+      "view": "Small phone Rest",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_lag_spike/v01/validation/problem-palette-move-phone.png",
+      "sha256": "21d0ebffa10544caca197cbb229cc2189a05c92d4329eae03f2be3e95cd7a93b",
+      "view": "Small phone Move 0.5s",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_lag_spike/v01/validation/problem_palette_parity.json",
+      "sha256": "91bca50fce26939f30b9f3cf27a5f0e4b63b655bac9312520b7f9c4f01fa49f7",
+      "view": "Exact palette-only preservation audit",
+      "mode": "audit"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    }
+  ],
+  "userAcceptance": {
+    "status": "accepted",
+    "reviewedAt": "2026-09-26T22:54:46.101Z",
+    "note": "User: \"looks good, let's clean-up ... and make sure all of those models are properly alligned\". Accepts the displayed final Problems palette at this source/export revision; this does not expand the animation scope."
+  },
+  "limitations": []
+}

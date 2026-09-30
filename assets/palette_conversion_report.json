@@ -1,6 +1,6 @@
 {
   "completedAt": "2026-09-17T21:03:25.759Z",
-  "scope": "All currently registered runtime versions; 24 migrated individually, including 13 campus components added during the work. Subsequent campus geometry refinements retained.",
+  "scope": "Historical completion snapshot from 2026-09-17. Original totals and validation results remain historical; the retired experiment is listed separately from surviving entries.",
   "policy": "Prefer small palette textures; document vertex-colour exceptions when they fit better.",
   "totals": {
     "registered": 90,
@@ -141,13 +141,13 @@
       "visualReview": true
     },
     {
-      "id": "golden_compiler",
+      "id": "copilot_golden_compiler",
       "version": "v01",
       "migrationRevision": 14,
       "currentRevision": 14,
-      "before": "blender/towers/golden_compiler/v01/revisions/r13_before_r14/golden_compiler_v01.glb",
+      "before": "blender/towers/copilot_golden_compiler/v01/revisions/r13_before_r14/copilot_golden_compiler_v01.glb",
       "beforeHash": "d82029f26a3ea8f1adc97a8ed7ae42a21b5a487034516ecf743b12f30af5edf7",
-      "convertedRuntime": "assets/runtime/towers/golden_compiler_v01.glb",
+      "convertedRuntime": "assets/runtime/towers/copilot_golden_compiler_v01.glb",
       "convertedHash": "1d88ddd329b57876f2db41e45a40e83df55e2596763f7af819f3a7e88ee8b719",
       "currentHash": "1d88ddd329b57876f2db41e45a40e83df55e2596763f7af819f3a7e88ee8b719",
       "paletteSize": [
@@ -159,7 +159,7 @@
       "newBytes": 283056,
       "byteChange": -16460,
       "maxRenderChannelDifference": 1,
-      "evidence": "blender/towers/golden_compiler/v01/validation/palette_migration_r14",
+      "evidence": "blender/towers/copilot_golden_compiler/v01/validation/palette_migration_r14",
       "geometryRigMorphAnimationParity": true,
       "visualReview": true
     },
@@ -233,13 +233,13 @@
       "visualReview": true
     },
     {
-      "id": "bert_breugelmans",
+      "id": "copilot_bert_breugelmans",
       "version": "v01",
       "migrationRevision": 24,
       "currentRevision": 24,
-      "before": "blender/towers/bert_breugelmans/v01/revisions/r23_before_r24/bert_breugelmans_v01.glb",
+      "before": "blender/towers/copilot_bert_breugelmans/v01/revisions/r23_before_r24/copilot_bert_breugelmans_v01.glb",
       "beforeHash": "922439b6cfc563de609e85da066826e448fbdb69487527600a5215ab12375266",
-      "convertedRuntime": "assets/runtime/towers/bert_breugelmans_v01.glb",
+      "convertedRuntime": "assets/runtime/towers/copilot_bert_breugelmans_v01.glb",
       "convertedHash": "1a926c4bffe2b36c64577dae076db25cf107a2bb4ce30987ffb146b44e360130",
       "currentHash": "1a926c4bffe2b36c64577dae076db25cf107a2bb4ce30987ffb146b44e360130",
       "paletteSize": [
@@ -251,7 +251,7 @@
       "newBytes": 300716,
       "byteChange": -11804,
       "maxRenderChannelDifference": 2,
-      "evidence": "blender/towers/bert_breugelmans/v01/validation/palette_migration_r24",
+      "evidence": "blender/towers/copilot_bert_breugelmans/v01/validation/palette_migration_r24",
       "geometryRigMorphAnimationParity": true,
       "visualReview": true
     },
@@ -604,16 +604,16 @@
       "source": "blender/towers/copilot_base/v02/copilot_base_v02.blend"
     },
     {
-      "id": "github_mona_head",
+      "id": "copilot_mona_head",
       "version": "v01",
       "revision": 1,
-      "manifest": "blender/towers/github_mona_head/v01/asset.json",
-      "runtime": "assets/runtime/towers/github_mona_head_v01.glb",
+      "manifest": "blender/towers/copilot_mona_head/v01/asset.json",
+      "runtime": "assets/runtime/towers/copilot_mona_head_v01.glb",
       "sha256": "bccfb8d95d5e909681b07288884e6d7ff0671ba2673a51cd5f62668bafe954da",
       "baseTexture": true,
       "vertexColours": false,
       "disposition": "retained texture asset",
-      "source": "blender/towers/github_mona_head/v01/github_mona_head_v01.blend"
+      "source": "blender/towers/copilot_mona_head/v01/copilot_mona_head_v01.blend"
     },
     {
       "id": "copilot_rubber_duck",
@@ -1408,16 +1408,16 @@
       "source": "blender/work/work_coding_task/v01/work_coding_task_v01.blend"
     },
     {
-      "id": "golden_compiler",
+      "id": "copilot_golden_compiler",
       "version": "v01",
       "revision": 14,
-      "manifest": "blender/towers/golden_compiler/v01/asset.json",
-      "runtime": "assets/runtime/towers/golden_compiler_v01.glb",
+      "manifest": "blender/towers/copilot_golden_compiler/v01/asset.json",
+      "runtime": "assets/runtime/towers/copilot_golden_compiler_v01.glb",
       "sha256": "1d88ddd329b57876f2db41e45a40e83df55e2596763f7af819f3a7e88ee8b719",
       "baseTexture": true,
       "vertexColours": false,
       "disposition": "converted",
-      "source": "blender/towers/golden_compiler/v01/golden_compiler_v01.blend"
+      "source": "blender/towers/copilot_golden_compiler/v01/copilot_golden_compiler_v01.blend"
     },
     {
       "id": "copilot_commit_halo",
@@ -1456,28 +1456,16 @@
       "source": "blender/enemies/problem_spaghetti_code/v01/problem_spaghetti_code_v01.blend"
     },
     {
-      "id": "bert_breugelmans",
+      "id": "copilot_bert_breugelmans",
       "version": "v01",
       "revision": 24,
-      "manifest": "blender/towers/bert_breugelmans/v01/asset.json",
-      "runtime": "assets/runtime/towers/bert_breugelmans_v01.glb",
+      "manifest": "blender/towers/copilot_bert_breugelmans/v01/asset.json",
+      "runtime": "assets/runtime/towers/copilot_bert_breugelmans_v01.glb",
       "sha256": "1a926c4bffe2b36c64577dae076db25cf107a2bb4ce30987ffb146b44e360130",
       "baseTexture": true,
       "vertexColours": false,
       "disposition": "converted",
-      "source": "blender/towers/bert_breugelmans/v01/bert_breugelmans_v01.blend"
-    },
-    {
-      "id": "problem_bug_palette_test",
-      "version": "v01",
-      "revision": 2,
-      "manifest": "blender/enemies/problem_bug_palette_test/v01/asset.json",
-      "runtime": "assets/runtime/enemies/problem_bug_palette_test_v01.glb",
-      "sha256": "3210fff587383d6e9173bb89898abe00cc6d41de7ed02121a1b1b1fa5c3effaa",
-      "baseTexture": true,
-      "vertexColours": false,
-      "disposition": "retained texture asset",
-      "source": "blender/enemies/problem_bug_palette_test/v01/problem_bug_palette_test_v01.blend"
+      "source": "blender/towers/copilot_bert_breugelmans/v01/copilot_bert_breugelmans_v01.blend"
     },
     {
       "id": "campus_home_study",
@@ -1672,5 +1660,14 @@
       "Inspector texture preview/reset/isolation and vertex-colour exception controls",
       "90 registered assets loaded; unregistered files refused"
     ]
-  }
+  },
+  "retiredAfterCompletion": [
+    {
+      "id": "problem_bug_palette_test",
+      "version": "v01",
+      "sha256": "3210fff587383d6e9173bb89898abe00cc6d41de7ed02121a1b1b1fa5c3effaa",
+      "retiredAt": "2026-09-26T22:54:46.101Z",
+      "reason": "User-approved cleanup after production palette migration. Experimental source/runtime removed."
+    }
+  ]
 }

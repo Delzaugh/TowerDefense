@@ -4,6 +4,12 @@ import path from 'node:path';
 import { createRequire } from 'node:module';
 import { projectRoot, hash } from './contracts.mjs';
 
+export function playwrightRuntime() {
+  const require=createRequire(import.meta.url);
+  const modulePath=process.env.PLAYWRIGHT_MODULE_PATH || require.resolve('playwright',{paths:[projectRoot,path.dirname(process.execPath),path.resolve(path.dirname(process.execPath),'..')]});
+  return require(modulePath);
+}
+
 export function checkContainer(bytes) {
   if(bytes.length<20 || bytes.readUInt32LE(0)!==0x46546c67 || bytes.readUInt32LE(4)!==2 || bytes.readUInt32LE(8)!==bytes.length || bytes.readUInt32LE(16)!==0x4e4f534a) throw Error('Invalid GLB 2 container');
   const length=bytes.readUInt32LE(12), g=JSON.parse(bytes.subarray(20,20+length).toString());
@@ -30,20 +36,30 @@ export async function validateExport(file, manifest, output) {
         const pathname=new URL(req.url,'http://localhost').pathname;
         if(pathname==='/'){res.setHeader('Content-Type','text/html');res.end('<!doctype html><style>body{margin:0}</style><link rel="icon" href="data:,"><script type="importmap">{"imports":{"three":"/vendor/three.module.js","../utils/BufferGeometryUtils.js":"/vendor/BufferGeometryUtils.js"}}</script>');return;}
         if(pathname==='/candidate.glb'){res.end(bytes);return;}
+        if(['/presentation/digital-resolve.js','/presentation/lifecycle.js'].includes(pathname)){res.setHeader('Content-Type','text/javascript');res.end(await readFile(path.join(projectRoot,'tools/asset-presentation',path.basename(pathname))));return;}
         const vendor=/^\/vendor\/([a-zA-Z0-9_.]+\.js)$/.exec(pathname);
         const source=vendor ? path.join(projectRoot,'tools/asset-inspector/vendor',vendor[1]) : pathname==='/check.js' ? path.join(projectRoot,'tools/asset-pipeline/browser-check.js') : pathname==='/review.js' ? path.join(projectRoot,'tools/asset-inspector/review.js') : null;
         if(!source){res.writeHead(404);res.end();return;}res.setHeader('Content-Type','text/javascript');res.end(await readFile(source));
       }catch{res.writeHead(404);res.end();}
     });
     await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
-    const require=createRequire(import.meta.url), modulePath=process.env.PLAYWRIGHT_MODULE_PATH || require.resolve('playwright',{paths:[projectRoot,path.dirname(process.execPath),path.resolve(path.dirname(process.execPath),'..')]});
-    const {chromium}=require(modulePath);browser=await chromium.launch({channel:process.env.BROWSER_CHANNEL||'msedge',headless:true});
+    const {chromium}=playwrightRuntime();browser=await chromium.launch({channel:process.env.BROWSER_CHANNEL||'msedge',headless:true});
     const page=await browser.newPage({viewport:{width:900,height:800}}), consoleErrors=[], consoleWarnings=[];
     page.on('pageerror',e=>consoleErrors.push(e.message));page.on('console',m=>{if(m.type()==='warning')consoleWarnings.push(m.text());if(m.type()==='error')consoleErrors.push(m.text());});
     await page.goto('http://127.0.0.1:'+server.address().port);
     const measured=await page.evaluate(async m=>(await import('/check.js')).inspect('/candidate.glb',m),manifest);Object.assign(report,measured);
-    for(const view of ['iso','front','side','rear','top']){await page.evaluate(v=>window.renderEvidence(v),view);await page.screenshot({path:path.join(output,view+'.png')});}
-    for(const clip of manifest.clips){await page.evaluate(n=>window.renderEvidence('iso',n,.5),clip.name);await page.screenshot({path:path.join(output,clip.name+'.png')});}
+    const evidence={asset:manifest.id,version:manifest.version,revision:manifest.revision,sha256:report.sha256,views:[]};
+    async function capture(file,args) {
+      const metadata=await page.evaluate(a=>window.renderEvidence(...a),args);
+      const png=await page.screenshot({path:path.join(output,file)});
+      evidence.views.push({file,sha256:hash(png),...metadata});
+    }
+    for(const view of ['iso','front','side','rear','top']){
+      await capture(view+'.png',[view]);
+      await capture(view+'-silhouette.png',[view,null,0,true]);
+    }
+    for(const clip of manifest.clips)await capture(clip.name+'.png',['iso',clip.name,.5]);
+    await writeFile(path.join(output,'render_evidence.json'),JSON.stringify(evidence,null,2)+'\n');
     report.errors.push(...consoleErrors);report.warnings.push(...consoleWarnings);
     if(consoleWarnings.length)report.errors.push('Three.js emitted warnings; review before promotion');
   }catch(e){report.errors.push(e.message);}

@@ -1,0 +1,37 @@
+{
+  "asset": "copilot_architect",
+  "version": "v01",
+  "revision": 17,
+  "sha256": "2be00c4ef734087ca8b7c849499fa9a0fa75b89806ebdffb3c50ba724419eea9",
+  "checkedAt": "2026-09-26T23:54:03.960Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 2718,
+  "meshes": 2,
+  "materials": 2,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.947000026702881,
+    2.7296698093414307,
+    2.8957499265670776
+  ],
+  "bounds": [
+    [
+      -1.3899999856948853,
+      0,
+      -1.7116999626159668
+    ],
+    [
+      1.5570000410079956,
+      2.7296698093414307,
+      1.1840499639511108
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "97c4a6c8a34a05749f7846f1f56d90223f84802c542c1fd1970d2bceb0ab7e06",
+  "source": "blender/towers/copilot_architect/v01/copilot_architect_v01.blend",
+  "runtime": "assets/runtime/towers/copilot_architect_v01.glb"
+}

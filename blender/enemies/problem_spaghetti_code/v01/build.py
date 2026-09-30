@@ -197,6 +197,8 @@ for clip,length in [('idle',48),('move',32),('hit',16),('resolve',28)]:
     track=rig.animation_data.nla_tracks.new();track.name=clip
     strip=track.strips.new(clip,1,action);strip.name=clip;track.mute=True
 rig.animation_data.action=None;reset();scene.frame_set(1);scene.frame_end=49
+import runpy
+runpy.run_path(str(Path(__file__).with_name('animate_lifecycle.py')))['author'](M)
 mesh.calc_loop_triangles();assert len(mesh.loop_triangles)<=M['budgets']['triangles'],len(mesh.loop_triangles)
 # Authoring diagnostics: every solid has closed edges; counts are actual mesh stats.
 bm=bmesh.new();bm.from_mesh(mesh)

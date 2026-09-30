@@ -1,0 +1,19 @@
+Use case: stylized-concept. Edit image 1, the exact six-panel concept sheet template. Images 2 and 3 are character-family visual references only: Base Copilot purple hovering head and Developer orange evolved head. Preserve image 1 landscape canvas aspect ratio, navy background, 3 columns x 2 rows, borders, grids, margins, 01-06 badges and unobstructed bottom label zones. Do NOT reproduce the turnaround layout of image 3.
+
+Create six distinct TESTER TOWER CHARACTER evolutions of Base Copilot. They are compact hovering head-shaped friendly robot characters, NO torso, arms, legs, stands, desks, buildings or pedestal. Preserve family language: chunky faceted helmet shell, substantial goggles above a dark inset face with TWO vertical cyan capsule eyes below the goggles, broad cheek/chin rim and side ear housings. Goggles are separate above the eye display as in the references. Tester identity uses matte mint green casing, graphite #333E48 goggles, near-black #041D2A face, chalk ivory housings and restrained cyan accents. Do not merely recolor the same head: substantially vary primary proportions, negative spaces, shell contour, goggle geometry and side housings for each option. Keep them optimistic and expressive, stylized low-poly 3D plausible below 2500 triangles, simple broad forms without tiny details. All six STRICT ORTHOGRAPHIC FRONT view, consistent visual scale and baseline, full silhouettes, soft studio light. Fill approximately 60% panel height. No baked gameplay aura rings. The devices imply a QA coverage source.
+
+01 Precision Inspector: asymmetric compact broad head, one oversized octagonal magnifying goggle and one smaller rectangular goggle above separate paired eyes, heavy reinforced cheek housings, slight slanted helmet crest. Inspection metaphor.
+02 Coverage Sentinel: widest lowest silhouette, flattened helmet crown, sturdy flared side sensor vanes sweeping outward and upward with real gaps, narrow paired rectangular goggles and broad jaw. Coverage metaphor.
+03 Test Pilot: tall narrow aviator-like helmet, large raised joined double visor above separate lower face eyes, chunky chalk diagnostic headset and a single short side boom attached at cheek, smooth arched shell. Test-run metaphor.
+04 Boundary Watcher: angular squared shell with two large ivory bracket-shaped protective outer guards framing negative gaps beside the head, hexagonal twin goggles, inset narrow cheek panels. Boundary-testing metaphor.
+05 Sandbox Specialist: round nested protective mint shell, soft octagonal contours, compact round twin goggles above paired eyes, large front-facing sample chamber integrated into ONE side ear housing containing a solid amber cube behind an OPEN frame (no transparency), heavier protective bottom rim. Isolated-testing metaphor.
+06 Signal Scout: triangular tapered helmet with slimmer chin and broad upper shell, two chunky separated scanning antenna prongs on top with clear negative space, wedge goggles, small ears. Diagnostics/signal metaphor.
+
+Replace header with 'Tester Tower Concept Variations', subtitle 'Copilot evolutions specializing in quality and nearby support.', category 'Tower'. Names/descriptions in panels:
+01 Precision Inspector / Asymmetric magnifying goggle and reinforced cheek housings
+02 Coverage Sentinel / Broad shell with outward sweeping sensor vanes
+03 Test Pilot / Raised visor and chunky diagnostic headset
+04 Boundary Watcher / Angular shell framed by bracket-shaped guards
+05 Sandbox Specialist / Rounded protective casing with inset sample chamber
+06 Signal Scout / Tapered helmet crowned by split scanning antennae
+Keep models out of protected header/badge/label zones. No extra panels, views, notes, technical data, wires, environments or watermark.

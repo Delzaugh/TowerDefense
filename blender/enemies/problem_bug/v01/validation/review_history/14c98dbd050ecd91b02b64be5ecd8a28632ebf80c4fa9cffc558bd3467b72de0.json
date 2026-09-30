@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "asset": "problem_bug",
+  "version": "v01",
+  "revision": 14,
+  "sha256": "225f1c9f81e540febb5a353b1417e963a7636463dd4437e7ef8be40634b66d3c",
+  "sourceHash": "f6d425f7cc94e67d5410f5bf75e48765c9c3441222b64df31a147e893d957381",
+  "scope": "animation",
+  "reviewedAt": "2026-09-30T16:19:30.523Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Added actions on accepted existing rig. cinematic_preservation.json confirms byte-identical exported geometry attributes/indices, materials and all preexisting animation channels versus retained model milestone."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Inspected iso/side extreme poses and exposed front/rear details; rigid accessories, eye placement and source joins stay coherent. Rest art, skin and bones unchanged."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Personally inspected Inspector phone-sized alarm/struggle/haul and conversation extremes. Body/head accents and silhouette remain legible; subtle tail gestures benefit from scene closeups."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "Inspected final export lurk/search poses, grab wind-up at .30s, lunge .72s and brace/terminal at 1.5s, and loaded haul foot phases. First pass found floor penetration from rigid torso tilt; corrected every authored frame support height in Blender and re-exported. Final sampled min ground is about -0.00002m; side/front extremes show continuous shoulders/knees and seated seam. Existing move/hit/spawn/resolve retain exact animation bytes. Loop joins match and multi-cycle normal-speed playback was exercised."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After correcting support-floor penetration, personally rechecked final grab/haul/lurk pose boards, front detail and phone view; rebuilt preservation audit and recaptured every story pose against final GLB. No further repair identified."
+  },
+  "evidence": [
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/iso.png",
+      "sha256": "c0c4eda86bcad664602140091c9a544917e12000d8d50d0edb509c97358df0f2",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/iso-silhouette.png",
+      "sha256": "f0302b80adfac6d830636e033485f09b16d4159b8658bff934d624ebda2f12f1",
+      "view": "iso",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/front.png",
+      "sha256": "cba391d9175af82ade1dda23b8aa27357c2c11a030ed044a91ec7d89591fdaf6",
+      "view": "front",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/front-silhouette.png",
+      "sha256": "831118caed31363f404c77a970bfd4989518a25a68ef986cbbe53fe1d280d0fd",
+      "view": "front",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/side.png",
+      "sha256": "a6554bf2bade05a3cbc411f9391625972abdd9534fa8699ebd0b2f988af88e8b",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/side-silhouette.png",
+      "sha256": "a88ffcc7efa0faddafd3659894bf758e220a5643627a7c976ae9326b3ac49e5d",
+      "view": "side",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/rear.png",
+      "sha256": "ae84014694e6dcecae31d8854b44a3a95262526cfa691a21bc6bd6cfe75b3bf9",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/rear-silhouette.png",
+      "sha256": "bdabe54bf12410f47f7306ad274381fa88c7aebd6dcd3121c765a30f3f6621cc",
+      "view": "rear",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/top.png",
+      "sha256": "1bc97bc97326eb0da6c9626e47686ec17bef94406a7b5493677d031b6a5f9fa8",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/top-silhouette.png",
+      "sha256": "ac51e54f35efed2c546aa9b730614d92e39c149fbad07ad99b9806ad5102d79f",
+      "view": "top",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/move.png",
+      "sha256": "49042603fca933d6bca80493dc83fd0e5c788bb4454a067ba4db8e99289d28cb",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "move",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/hit.png",
+      "sha256": "e90f8cabb8ff33fd5d09ba31ab49860938f9d25196c1c0d264e8421c3e53f937",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "hit",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/resolve.png",
+      "sha256": "d36c3e70674a6c8a69ef490aae4cda2d333d4b81090f4f0f25008d4b1406b92c",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "resolve",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/spawn.png",
+      "sha256": "c5940bf779e8bcef15fffb15219acc52a781f4b1676d38abacc431717da115d3",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "spawn",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/story_lurk.png",
+      "sha256": "b231e5a9071a7c7457537b229eac39501cb9862d968d04d0e6828b576ad870bd",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "story_lurk",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/story_grab.png",
+      "sha256": "4df4672eaecbfcc556a35b425e7facb87ab3430957bbe744ffdb5043b642b26e",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "story_grab",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/story_haul.png",
+      "sha256": "2fbb6b3f589c1ab5d7a49474f543c2572d01b3c0e0c406e800cd9e4c597b1a82",
+      "view": "iso",
+      "mode": "shaded",
+      "clip": "story_haul",
+      "progress": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_lurk_0.png",
+      "sha256": "ded4c6ea6187c44ae76db7fab37a162a9285067fe95bfa6d6c7a957193b1fda6",
+      "view": "Inspector iso",
+      "clip": "story_lurk",
+      "time": 0
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_lurk_20.png",
+      "sha256": "b01b6072a78aa36b6c00a409bf83a72c6ed9e809d534e528fc3e339ed82badac",
+      "view": "Inspector iso",
+      "clip": "story_lurk",
+      "time": 0.5
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_lurk_30.png",
+      "sha256": "c92b2dc015bc6c37f6cfe03b2e2a337a1dc23c094ac0c6358c04ef31262e38e6",
+      "view": "Inspector iso",
+      "clip": "story_lurk",
+      "time": 0.75
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_lurk_48.png",
+      "sha256": "8734adda9ce12d395930739d9f2cbc123438caf57a025b438e56e2cb4498e221",
+      "view": "Inspector iso",
+      "clip": "story_lurk",
+      "time": 1.2
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_lurk_65.png",
+      "sha256": "be95d567d07d3aca56e6c9b70baf5295b99693de867f21bf62566e98b24936ce",
+      "view": "Inspector iso",
+      "clip": "story_lurk",
+      "time": 1.625
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_lurk_82.png",
+      "sha256": "e567f8fd3973e297cb7804221cd9992ef7cebf9af49aba48fbf362590e4f0636",
+      "view": "Inspector iso",
+      "clip": "story_lurk",
+      "time": 2.05
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_lurk_100.png",
+      "sha256": "ded4c6ea6187c44ae76db7fab37a162a9285067fe95bfa6d6c7a957193b1fda6",
+      "view": "Inspector iso",
+      "clip": "story_lurk",
+      "time": 2.5
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_lurk_side.png",
+      "sha256": "1d67e89e814b579be1336144327335d5c143b6298e22c20b27cf43535d877069",
+      "view": "Inspector side",
+      "clip": "story_lurk",
+      "time": 1.2
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_lurk_phone.png",
+      "sha256": "7e05380593b7d9bd7eaca5955fa555e8384516194ffb2f45b7d61f8ea2019290",
+      "view": "Inspector phone iso",
+      "clip": "story_lurk",
+      "time": 0.75
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_grab_0.png",
+      "sha256": "ded4c6ea6187c44ae76db7fab37a162a9285067fe95bfa6d6c7a957193b1fda6",
+      "view": "Inspector iso",
+      "clip": "story_grab",
+      "time": 0
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_grab_20.png",
+      "sha256": "028e31b33ddb550bd0be8c47a8b195523108fb9f47baa46b79127b4a600ee38b",
+      "view": "Inspector iso",
+      "clip": "story_grab",
+      "time": 0.30000000000000004
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_grab_30.png",
+      "sha256": "119466131f3ddcd4d7f0a004cfedd6af37f699bcca80696dc290bd67a075f97c",
+      "view": "Inspector iso",
+      "clip": "story_grab",
+      "time": 0.44999999999999996
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_grab_48.png",
+      "sha256": "a78c681046e976681e4f6ae4c086c2ec75a085b2e41d567f43569a101d245187",
+      "view": "Inspector iso",
+      "clip": "story_grab",
+      "time": 0.72
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_grab_65.png",
+      "sha256": "2b6942ee3a90c3d3e98db4c9e6a40cc8d18d7ccc049fc2a3a5b0219637072b4c",
+      "view": "Inspector iso",
+      "clip": "story_grab",
+      "time": 0.9750000000000001
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_grab_82.png",
+      "sha256": "a997edad0a122624c60fec3095a499fe3054a3ab48ee4ad990e4d702329e8f76",
+      "view": "Inspector iso",
+      "clip": "story_grab",
+      "time": 1.23
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_grab_100.png",
+      "sha256": "a9ecc9e7686b9b07de5a83a817f9d8a5ccfa305c8ef3bb01bffeb8b700568bf3",
+      "view": "Inspector iso",
+      "clip": "story_grab",
+      "time": 1.5
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_grab_side.png",
+      "sha256": "06cda5db9d0240598105946e2acf1439cd41b3b14900d75a997d95d6c94faa63",
+      "view": "Inspector side",
+      "clip": "story_grab",
+      "time": 0.72
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_grab_phone.png",
+      "sha256": "c7ff40073a29bed817964599ea89bd72eb4233a955b3b90322b25124b833fffa",
+      "view": "Inspector phone iso",
+      "clip": "story_grab",
+      "time": 0.44999999999999996
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_haul_0.png",
+      "sha256": "d373d1c4220222d11d5c2c6401ac90b00bf9e22aa35d23d48cbd6d51b80a356a",
+      "view": "Inspector iso",
+      "clip": "story_haul",
+      "time": 0
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_haul_20.png",
+      "sha256": "5c2dd5a1c4ba9fffb695ac4d203ba109cffff14f779278f6600480d834c33594",
+      "view": "Inspector iso",
+      "clip": "story_haul",
+      "time": 0.26666667461395266
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_haul_30.png",
+      "sha256": "d9360d9f38ac989179e0e15b8bff9f44bd2cbbd73dde05d4d46b35eceef80b6d",
+      "view": "Inspector iso",
+      "clip": "story_haul",
+      "time": 0.40000001192092893
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_haul_48.png",
+      "sha256": "ec9c513ef094ea3e84eca5358276e770857dbcfd666d487cbc94366955733218",
+      "view": "Inspector iso",
+      "clip": "story_haul",
+      "time": 0.6400000190734864
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_haul_65.png",
+      "sha256": "df04409fcbdf75763a901d1835d991098afb0d8c5fb5097b53fc5a31b817f3c2",
+      "view": "Inspector iso",
+      "clip": "story_haul",
+      "time": 0.8666666924953461
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_haul_82.png",
+      "sha256": "d8266147399a7f91ad2a10597678157d3c26c098fe074095299e76030d85c9c4",
+      "view": "Inspector iso",
+      "clip": "story_haul",
+      "time": 1.0933333659172058
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_haul_100.png",
+      "sha256": "a64cbc0846ca8ffaa40287063fbf17a155c6c23c6d246f1fd9e2af118b75ec13",
+      "view": "Inspector iso",
+      "clip": "story_haul",
+      "time": 1.3333333730697632
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_haul_side.png",
+      "sha256": "012babd393023c7f10166968174e98e6e8cb7f1dc842964d5236de9455332fc5",
+      "view": "Inspector side",
+      "clip": "story_haul",
+      "time": 0.6400000190734864
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_haul_phone.png",
+      "sha256": "ed6878225f528b623fb8d15835ad2aaf70e6f17585e8bf7a1e0b72b7731ec1ba",
+      "view": "Inspector phone iso",
+      "clip": "story_haul",
+      "time": 0.40000001192092893
+    },
+    {
+      "path": "blender/enemies/problem_bug/v01/validation/cinematic/story_grab_front_detail.png",
+      "sha256": "eaf2da5dc358848080ba6d1adc6d6ba7989aa6e76e88bb57270e1f4f12fddd95",
+      "view": "Inspector front detail",
+      "clip": "story_grab",
+      "time": 0.72
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Explicit authorization covers this cinematic animation pass; no acceptance of the new revision has been inferred."
+  },
+  "limitations": [
+    "Scene presentation owns carrying contacts, world translation, clip blends and timed story outcomes; these actions only change existing rig poses.",
+    "Clip loop joins and pose extremes were reviewed; final cinematic camera/edit appeal remains a scene-level review."
+  ]
+}

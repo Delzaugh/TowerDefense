@@ -1,0 +1,31 @@
+{
+  "id": "campus_tree_spreading_bare",
+  "placements": [
+    {
+      "shape": "spreading",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "rotationY": 0,
+      "palette": {}
+    }
+  ],
+  "foliageVertices": 84,
+  "nonManifoldEdges": 0,
+  "zeroAreaFaces": 0,
+  "minimumContactHeight": 0,
+  "maximumHeight": 3.4699999999999998,
+  "anchors": {
+    "anchor_ui": [
+      0,
+      3.7199999999999998,
+      0
+    ]
+  },
+  "paletteSha256": "5bf6f19b097f5a46ffe80ccbc29b949c4c8454829ad959c1ff2ef3d80c2a2367",
+  "sourceHash": "05b112e1b6cb04dd12a77a358856d1710cc206325255073b18180eb76d13126e",
+  "sha256": "d02edb11d69d16c1e5c5f04d287fcf119c8beaf772f40510ce489562bdfdf2b4"
+}

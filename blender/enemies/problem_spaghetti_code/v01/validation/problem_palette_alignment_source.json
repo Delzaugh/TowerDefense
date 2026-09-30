@@ -1,0 +1,48 @@
+{
+  "asset": "problem_spaghetti_code",
+  "sourceBefore": "308146e107ab27756f35eadefa99cfd90320cb7eae1aafaa9b363cf33975d1dc",
+  "revisionBefore": 12,
+  "colorsBefore": {
+    "lime": "#B2E936",
+    "teal": "#178575",
+    "orange": "#FFAA24",
+    "orange_edge": "#D98216",
+    "ink": "#233B58"
+  },
+  "colorsAfter": {
+    "ink": "#233B58",
+    "lime": "#B2E936",
+    "orange": "#FFAA24",
+    "orange_edge": "#D98216",
+    "teal": "#178575"
+  },
+  "objects": 5,
+  "actions": [
+    "hit",
+    "idle",
+    "move",
+    "resolve",
+    "spawn"
+  ],
+  "images": [
+    {
+      "name": "problem_spaghetti_code_palette",
+      "size": [
+        32,
+        4
+      ],
+      "packed": true
+    }
+  ],
+  "materialLinks": {
+    "spaghetti_matte_palette": [
+      {
+        "input": "Base Color",
+        "image": "problem_spaghetti_code_palette"
+      }
+    ]
+  },
+  "passed": true,
+  "uniqueBaseColors": 5,
+  "checks": "Packed source pixels, material base bindings, palette policy, declared rectangles, metre scale, unchanged authoritative source hash"
+}

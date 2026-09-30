@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-09-24T09:28:52.773Z",
+  "built": {
+    "output": "C:\\Users\\jonas\\Documents\\ChatGPT\\Tower\\output\\campus-pages",
+    "base": "/TowerDefense/",
+    "files": 86,
+    "assets": 54,
+    "bytes": 8884873
+  },
+  "passed": true,
+  "campus": true,
+  "simulation": true,
+  "fullPhoneLayoutRun": true,
+  "reportDownload": true,
+  "errors": []
+}

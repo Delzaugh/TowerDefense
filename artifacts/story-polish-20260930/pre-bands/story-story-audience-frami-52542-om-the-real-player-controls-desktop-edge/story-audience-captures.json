@@ -1,0 +1,851 @@
+{
+  "mode": "desktop",
+  "gpu": {
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3090 (0x00002204) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)",
+    "softwareRendered": false
+  },
+  "method": "Paused seeks through the production Scene timeline control; CSS-scale story-canvas captures, not motion evidence",
+  "captures": [
+    {
+      "seconds": 3,
+      "file": "story-audience-3s.png",
+      "canvasFile": "story-canvas-3s.png",
+      "canvasBounds": {
+        "x": 0,
+        "y": 73.5,
+        "width": 1280,
+        "height": 458.5
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "diagnostics": {
+        "calls": 21,
+        "triangles": 13203,
+        "geometries": 21,
+        "textures": 20,
+        "pixelRatio": 1,
+        "state": {
+          "time": 3,
+          "paused": true,
+          "reducedMotion": false,
+          "finished": false,
+          "shot": "Coffee before code",
+          "actors": [
+            {
+              "role": "copilot",
+              "visible": true,
+              "clip": "story_talk",
+              "position": [
+                -1.5,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "octocat",
+              "visible": true,
+              "clip": "idle",
+              "position": [
+                1.4,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "bug-left",
+              "visible": false,
+              "clip": "story_lurk",
+              "position": [
+                6.6,
+                0,
+                -3.5
+              ]
+            },
+            {
+              "role": "bug-right",
+              "visible": false,
+              "clip": "story_lurk",
+              "position": [
+                7.3,
+                0,
+                3
+              ]
+            }
+          ],
+          "capture": false,
+          "expression": null,
+          "trapPhase": "hidden",
+          "ready": true,
+          "shadowSize": 1024,
+          "postPasses": 0,
+          "assets": [
+            "copilot_base@v02",
+            "copilot_octocat_classic_lowpoly@v01",
+            "problem_bug@v01",
+            "story_courtyard@v01",
+            "story_capture_carrier@v01"
+          ]
+        }
+      }
+    },
+    {
+      "seconds": 7,
+      "file": "story-audience-7s.png",
+      "canvasFile": "story-canvas-7s.png",
+      "canvasBounds": {
+        "x": 0,
+        "y": 73.5,
+        "width": 1280,
+        "height": 458.5
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "diagnostics": {
+        "calls": 21,
+        "triangles": 13203,
+        "geometries": 21,
+        "textures": 20,
+        "pixelRatio": 1,
+        "state": {
+          "time": 7,
+          "paused": true,
+          "reducedMotion": false,
+          "finished": false,
+          "shot": "One tiny feature",
+          "actors": [
+            {
+              "role": "copilot",
+              "visible": true,
+              "clip": "story_listen",
+              "position": [
+                -1.5,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "octocat",
+              "visible": true,
+              "clip": "story_talk",
+              "position": [
+                1.4,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "bug-left",
+              "visible": false,
+              "clip": "story_lurk",
+              "position": [
+                6.6,
+                0,
+                -3.5
+              ]
+            },
+            {
+              "role": "bug-right",
+              "visible": false,
+              "clip": "story_lurk",
+              "position": [
+                7.3,
+                0,
+                3
+              ]
+            }
+          ],
+          "capture": false,
+          "expression": null,
+          "trapPhase": "hidden",
+          "ready": true,
+          "shadowSize": 1024,
+          "postPasses": 0,
+          "assets": [
+            "copilot_base@v02",
+            "copilot_octocat_classic_lowpoly@v01",
+            "problem_bug@v01",
+            "story_courtyard@v01",
+            "story_capture_carrier@v01"
+          ]
+        }
+      }
+    },
+    {
+      "seconds": 12,
+      "file": "story-audience-12s.png",
+      "canvasFile": "story-canvas-12s.png",
+      "canvasBounds": {
+        "x": 0,
+        "y": 73.5,
+        "width": 1280,
+        "height": 458.5
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "diagnostics": {
+        "calls": 23,
+        "triangles": 16867,
+        "geometries": 23,
+        "textures": 23,
+        "pixelRatio": 1,
+        "state": {
+          "time": 12,
+          "paused": true,
+          "reducedMotion": false,
+          "finished": false,
+          "shot": "Uninvited guests",
+          "actors": [
+            {
+              "role": "copilot",
+              "visible": true,
+              "clip": "story_talk",
+              "position": [
+                -1.5,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "octocat",
+              "visible": true,
+              "clip": "idle",
+              "position": [
+                1.4,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "bug-left",
+              "visible": true,
+              "clip": "story_creep",
+              "position": [
+                5.50625,
+                0,
+                -3.2265625
+              ]
+            },
+            {
+              "role": "bug-right",
+              "visible": false,
+              "clip": "story_lurk",
+              "position": [
+                7.3,
+                0,
+                3
+              ]
+            }
+          ],
+          "capture": false,
+          "expression": null,
+          "trapPhase": "hidden",
+          "ready": true,
+          "shadowSize": 1024,
+          "postPasses": 0,
+          "assets": [
+            "copilot_base@v02",
+            "copilot_octocat_classic_lowpoly@v01",
+            "problem_bug@v01",
+            "story_courtyard@v01",
+            "story_capture_carrier@v01"
+          ]
+        }
+      }
+    },
+    {
+      "seconds": 14.7,
+      "file": "story-audience-14_7s.png",
+      "canvasFile": "story-canvas-14_7s.png",
+      "canvasBounds": {
+        "x": 0,
+        "y": 73.5,
+        "width": 1280,
+        "height": 458.5
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "diagnostics": {
+        "calls": 24,
+        "triangles": 16869,
+        "geometries": 24,
+        "textures": 25,
+        "pixelRatio": 1,
+        "state": {
+          "time": 14.7,
+          "paused": true,
+          "reducedMotion": false,
+          "finished": false,
+          "shot": "Something is wrong",
+          "actors": [
+            {
+              "role": "copilot",
+              "visible": true,
+              "clip": "story_alarm",
+              "position": [
+                -1.5,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "octocat",
+              "visible": true,
+              "clip": "idle",
+              "position": [
+                1.4,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "bug-left",
+              "visible": true,
+              "clip": "story_creep",
+              "position": [
+                2.1906289062500006,
+                0,
+                -2.3976572265625
+              ]
+            },
+            {
+              "role": "bug-right",
+              "visible": true,
+              "clip": "story_creep",
+              "position": [
+                7.1908,
+                0,
+                2.965
+              ]
+            }
+          ],
+          "capture": false,
+          "expression": "alarm",
+          "trapPhase": "hidden",
+          "ready": true,
+          "shadowSize": 1024,
+          "postPasses": 0,
+          "assets": [
+            "copilot_base@v02",
+            "copilot_octocat_classic_lowpoly@v01",
+            "problem_bug@v01",
+            "story_courtyard@v01",
+            "story_capture_carrier@v01"
+          ]
+        }
+      }
+    },
+    {
+      "seconds": 19,
+      "file": "story-audience-19s.png",
+      "canvasFile": "story-canvas-19s.png",
+      "canvasBounds": {
+        "x": 0,
+        "y": 73.5,
+        "width": 1280,
+        "height": 458.5
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "diagnostics": {
+        "calls": 24,
+        "triangles": 19187,
+        "geometries": 24,
+        "textures": 25,
+        "pixelRatio": 1,
+        "state": {
+          "time": 19,
+          "paused": true,
+          "reducedMotion": false,
+          "finished": false,
+          "shot": "Not the coffee people",
+          "actors": [
+            {
+              "role": "copilot",
+              "visible": true,
+              "clip": "story_listen",
+              "position": [
+                -1.5,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "octocat",
+              "visible": true,
+              "clip": "story_startle",
+              "position": [
+                1.4,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "bug-left",
+              "visible": true,
+              "clip": "story_lurk",
+              "position": [
+                -0.40000000000000036,
+                0,
+                -1.75
+              ]
+            },
+            {
+              "role": "bug-right",
+              "visible": true,
+              "clip": "story_creep",
+              "position": [
+                4.173177842565598,
+                0,
+                1.9978134110787171
+              ]
+            }
+          ],
+          "capture": false,
+          "expression": null,
+          "trapPhase": "hidden",
+          "ready": true,
+          "shadowSize": 1024,
+          "postPasses": 0,
+          "assets": [
+            "copilot_base@v02",
+            "copilot_octocat_classic_lowpoly@v01",
+            "problem_bug@v01",
+            "story_courtyard@v01",
+            "story_capture_carrier@v01"
+          ]
+        }
+      }
+    },
+    {
+      "seconds": 22,
+      "file": "story-audience-22s.png",
+      "canvasFile": "story-canvas-22s.png",
+      "canvasBounds": {
+        "x": 0,
+        "y": 73.5,
+        "width": 1280,
+        "height": 458.5
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "diagnostics": {
+        "calls": 28,
+        "triangles": 19811,
+        "geometries": 27,
+        "textures": 25,
+        "pixelRatio": 1,
+        "state": {
+          "time": 22,
+          "paused": true,
+          "reducedMotion": false,
+          "finished": false,
+          "shot": "The trap closes",
+          "actors": [
+            {
+              "role": "copilot",
+              "visible": true,
+              "clip": "story_listen",
+              "position": [
+                -1.5,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "octocat",
+              "visible": true,
+              "clip": "story_startle",
+              "position": [
+                1.4,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "bug-left",
+              "visible": true,
+              "clip": "story_grab",
+              "position": [
+                -0.40000000000000036,
+                0,
+                -1.75
+              ]
+            },
+            {
+              "role": "bug-right",
+              "visible": true,
+              "clip": "story_grab",
+              "position": [
+                3.4,
+                0,
+                1.75
+              ]
+            }
+          ],
+          "capture": true,
+          "expression": null,
+          "trapPhase": "deploy",
+          "ready": true,
+          "shadowSize": 1024,
+          "postPasses": 0,
+          "assets": [
+            "copilot_base@v02",
+            "copilot_octocat_classic_lowpoly@v01",
+            "problem_bug@v01",
+            "story_courtyard@v01",
+            "story_capture_carrier@v01"
+          ]
+        }
+      }
+    },
+    {
+      "seconds": 23.3,
+      "file": "story-audience-23_3s.png",
+      "canvasFile": "story-canvas-23_3s.png",
+      "canvasBounds": {
+        "x": 0,
+        "y": 73.5,
+        "width": 1280,
+        "height": 458.5
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "diagnostics": {
+        "calls": 29,
+        "triangles": 19907,
+        "geometries": 28,
+        "textures": 25,
+        "pixelRatio": 1,
+        "state": {
+          "time": 23.3,
+          "paused": true,
+          "reducedMotion": false,
+          "finished": false,
+          "shot": "The trap closes",
+          "actors": [
+            {
+              "role": "copilot",
+              "visible": true,
+              "clip": "story_listen",
+              "position": [
+                -1.5,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "octocat",
+              "visible": true,
+              "clip": "story_startle",
+              "position": [
+                1.4,
+                0,
+                0
+              ]
+            },
+            {
+              "role": "bug-left",
+              "visible": true,
+              "clip": "story_lurk",
+              "position": [
+                -0.40000000000000036,
+                0,
+                -1.75
+              ]
+            },
+            {
+              "role": "bug-right",
+              "visible": true,
+              "clip": "story_lurk",
+              "position": [
+                3.4,
+                0,
+                1.75
+              ]
+            }
+          ],
+          "capture": true,
+          "expression": null,
+          "trapPhase": "lock",
+          "ready": true,
+          "shadowSize": 1024,
+          "postPasses": 0,
+          "assets": [
+            "copilot_base@v02",
+            "copilot_octocat_classic_lowpoly@v01",
+            "problem_bug@v01",
+            "story_courtyard@v01",
+            "story_capture_carrier@v01"
+          ]
+        }
+      }
+    },
+    {
+      "seconds": 27,
+      "file": "story-audience-27s.png",
+      "canvasFile": "story-canvas-27s.png",
+      "canvasBounds": {
+        "x": 0,
+        "y": 73.5,
+        "width": 1280,
+        "height": 458.5
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "diagnostics": {
+        "calls": 27,
+        "triangles": 19715,
+        "geometries": 28,
+        "textures": 25,
+        "pixelRatio": 1,
+        "state": {
+          "time": 27,
+          "paused": true,
+          "reducedMotion": false,
+          "finished": false,
+          "shot": "Just out of reach",
+          "actors": [
+            {
+              "role": "copilot",
+              "visible": true,
+              "clip": "story_listen",
+              "position": [
+                -1.7,
+                0,
+                1.3
+              ]
+            },
+            {
+              "role": "octocat",
+              "visible": true,
+              "clip": "story_struggle",
+              "position": [
+                1.4,
+                0.58,
+                0
+              ]
+            },
+            {
+              "role": "bug-left",
+              "visible": true,
+              "clip": "story_lurk",
+              "position": [
+                -0.40000000000000036,
+                0,
+                -1.75
+              ]
+            },
+            {
+              "role": "bug-right",
+              "visible": true,
+              "clip": "story_lurk",
+              "position": [
+                3.4,
+                0,
+                1.75
+              ]
+            }
+          ],
+          "capture": true,
+          "expression": null,
+          "trapPhase": "resist",
+          "ready": true,
+          "shadowSize": 1024,
+          "postPasses": 0,
+          "assets": [
+            "copilot_base@v02",
+            "copilot_octocat_classic_lowpoly@v01",
+            "problem_bug@v01",
+            "story_courtyard@v01",
+            "story_capture_carrier@v01"
+          ]
+        }
+      }
+    },
+    {
+      "seconds": 32,
+      "file": "story-audience-32s.png",
+      "canvasFile": "story-canvas-32s.png",
+      "canvasBounds": {
+        "x": 0,
+        "y": 73.5,
+        "width": 1280,
+        "height": 458.5
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "diagnostics": {
+        "calls": 27,
+        "triangles": 19715,
+        "geometries": 28,
+        "textures": 25,
+        "pixelRatio": 1,
+        "state": {
+          "time": 32,
+          "paused": true,
+          "reducedMotion": false,
+          "finished": false,
+          "shot": "Carried away",
+          "actors": [
+            {
+              "role": "copilot",
+              "visible": true,
+              "clip": "story_listen",
+              "position": [
+                -1.7,
+                0,
+                1.3
+              ]
+            },
+            {
+              "role": "octocat",
+              "visible": true,
+              "clip": "story_struggle",
+              "position": [
+                2.8080000000000003,
+                0.58,
+                0
+              ]
+            },
+            {
+              "role": "bug-left",
+              "visible": true,
+              "clip": "story_haul",
+              "position": [
+                1.008,
+                0,
+                -1.75
+              ]
+            },
+            {
+              "role": "bug-right",
+              "visible": true,
+              "clip": "story_haul",
+              "position": [
+                4.808,
+                0,
+                1.75
+              ]
+            }
+          ],
+          "capture": true,
+          "expression": null,
+          "trapPhase": "tow",
+          "ready": true,
+          "shadowSize": 1024,
+          "postPasses": 0,
+          "assets": [
+            "copilot_base@v02",
+            "copilot_octocat_classic_lowpoly@v01",
+            "problem_bug@v01",
+            "story_courtyard@v01",
+            "story_capture_carrier@v01"
+          ]
+        }
+      }
+    },
+    {
+      "seconds": 37,
+      "file": "story-audience-37s.png",
+      "canvasFile": "story-canvas-37s.png",
+      "canvasBounds": {
+        "x": 0,
+        "y": 73.5,
+        "width": 1280,
+        "height": 458.5
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "diagnostics": {
+        "calls": 8,
+        "triangles": 9713,
+        "geometries": 28,
+        "textures": 25,
+        "pixelRatio": 1,
+        "state": {
+          "time": 37,
+          "paused": true,
+          "reducedMotion": false,
+          "finished": false,
+          "shot": "A promise is a promise",
+          "actors": [
+            {
+              "role": "copilot",
+              "visible": true,
+              "clip": "story_determined",
+              "position": [
+                -1.7,
+                0,
+                1.3
+              ]
+            },
+            {
+              "role": "octocat",
+              "visible": false,
+              "clip": "story_struggle",
+              "position": [
+                5.4,
+                0.58,
+                0
+              ]
+            },
+            {
+              "role": "bug-left",
+              "visible": false,
+              "clip": "story_haul",
+              "position": [
+                3.5999999999999996,
+                0,
+                -1.75
+              ]
+            },
+            {
+              "role": "bug-right",
+              "visible": false,
+              "clip": "story_haul",
+              "position": [
+                7.4,
+                0,
+                1.75
+              ]
+            }
+          ],
+          "capture": false,
+          "expression": null,
+          "trapPhase": "gone",
+          "ready": true,
+          "shadowSize": 1024,
+          "postPasses": 0,
+          "assets": [
+            "copilot_base@v02",
+            "copilot_octocat_classic_lowpoly@v01",
+            "problem_bug@v01",
+            "story_courtyard@v01",
+            "story_capture_carrier@v01"
+          ]
+        }
+      }
+    }
+  ]
+}

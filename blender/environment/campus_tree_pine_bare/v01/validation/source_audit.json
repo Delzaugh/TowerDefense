@@ -1,0 +1,31 @@
+{
+  "id": "campus_tree_pine_bare",
+  "placements": [
+    {
+      "shape": "pine",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "rotationY": 0,
+      "palette": {}
+    }
+  ],
+  "foliageVertices": 65,
+  "nonManifoldEdges": 0,
+  "zeroAreaFaces": 0,
+  "minimumContactHeight": 0,
+  "maximumHeight": 4.12,
+  "anchors": {
+    "anchor_ui": [
+      0,
+      4.37,
+      0
+    ]
+  },
+  "paletteSha256": "5bf6f19b097f5a46ffe80ccbc29b949c4c8454829ad959c1ff2ef3d80c2a2367",
+  "sourceHash": "445e840725b525ff68df6e47a4d4d9745cf5483637d56a2a33cb8652583ad783",
+  "sha256": "ee806616c3bd10556030260bed5e515c91b35ebd7b8144a62d0f900a61e6592e"
+}

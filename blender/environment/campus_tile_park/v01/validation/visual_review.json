@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_tile_park",
+  "version": "v01",
+  "revision": 7,
+  "sha256": "6a03a9e1b587d0bedb7ed1592a65e44ff4ba6bffc3b029e5835cca45dff11f15",
+  "sourceHash": "747dc569c5e04c0609a964c3260d9af429ea6f5836bc07f8ac1a439912d68b9f",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-24T12:08:17.949Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "User requested removal of broad blue separators. Personally inspected the exported isometric and reverse-oblique surfaces and assembled campus: terrain extends to the narrow neutral join, retaining terrain shapes and structural walls."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Source texture refinement only; unchanged geometry, level edge anchors and road contacts pass guarded export and the campus connection tests. Quiet .06 m edge and .48 m blend replace the old wide slate band. No surface overlays or coplanar faces were added."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Isometric and reverse-oblique review shows a continuous terrain interior, a restrained perimeter transition and the unchanged structural sides. Desktop and phone campus review retains distinct terrain families with substantially less boundary contrast."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After the initial isometric review, inspected reverse-oblique exports and the populated campus, then phone framing. No wide blue surface border remains; adjacent terrain joins remain level without cracks. Canyon floor and water still shade cleanly. Character contact and route audit passes."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_tile_park/v01/validation/iso.png",
+      "sha256": "a6a678d6369ccb0408d36e4748fd2e8962cf641fcb8f6f0d7a655309a6f02348",
+      "view": "iso"
+    },
+    {
+      "path": "blender/environment/campus_tile_park/v01/validation/rear.png",
+      "sha256": "b27863ed5669662a1bbd381935112f8383468047c3617b62b441323d59af61b2",
+      "view": "rear"
+    },
+    {
+      "path": "blender/environment/campus_tile_park/v01/validation/reverse-oblique.png",
+      "sha256": "0254bd7867741bdc17ca7d5212fa01166e50745b1e9c0fa08682dcefd8d66f34",
+      "view": "reverse-oblique"
+    },
+    {
+      "path": "blender/environment/campus_tile_park/v01/validation/campus-life-mobile.png",
+      "sha256": "6f3e0dd2b50662d5f7e5d2590e7d68253c16518e5a01f4076ac6f95d1748806a",
+      "view": "campus-life-mobile"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "New author-reviewed revision; artistic acceptance remains with the user."
+  },
+  "limitations": []
+}

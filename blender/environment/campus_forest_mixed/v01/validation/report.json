@@ -1,0 +1,37 @@
+{
+  "asset": "campus_forest_mixed",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "5742549703a9c20659d5338031416051052a2676260c45cc057982ae93dd0be0",
+  "checkedAt": "2026-09-24T11:16:34.631Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 772,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    8.960922718048096,
+    4.173599749183655,
+    9.32766580581665
+  ],
+  "bounds": [
+    [
+      -4.534502983093262,
+      -2.9182434246877165e-8,
+      -4.814492225646973
+    ],
+    [
+      4.426419734954834,
+      4.173599720001221,
+      4.513173580169678
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "4ba7824d47acdadd2c2987727ce3ffa4c74f284158f80e0bc5a24d2c98b9cac6",
+  "source": "blender/environment/campus_forest_mixed/v01/campus_forest_mixed_v01.blend",
+  "runtime": "assets/runtime/environment/campus_forest_mixed_v01.glb"
+}

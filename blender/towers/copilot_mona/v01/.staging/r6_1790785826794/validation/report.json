@@ -1,0 +1,37 @@
+{
+  "asset": "copilot_mona",
+  "version": "v01",
+  "revision": 6,
+  "sha256": "35dd9185c7ff75ed0cf95dee11f6e4435d5e3cb119762d4789faecaa20b69fdd",
+  "checkedAt": "2026-09-30T16:30:33.142Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 3506,
+  "meshes": 15,
+  "materials": 2,
+  "textures": 2,
+  "bones": 11,
+  "dimensions": [
+    1.8361825346946716,
+    1.8002899917828472,
+    0.8834597766399384
+  ],
+  "bounds": [
+    [
+      -0.9181303977966309,
+      -3.2650859793648124e-9,
+      -0.47267988324165344
+    ],
+    [
+      0.9180521368980408,
+      1.8002899885177612,
+      0.4107798933982849
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "ee3ec62f3f16579e66a1e04d3920285fcbf8f58250d2a93adb4ef72baf0177c0",
+  "source": "blender/towers/copilot_mona/v01/copilot_mona_v01.blend",
+  "runtime": "assets/runtime/towers/copilot_mona_v01.glb"
+}

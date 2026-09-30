@@ -1,0 +1,82 @@
+{
+  "sourceHash": "f5889a6c285ada2d265e1eb440dcb3c33198fc71b847b3841ea47b5078cc6ec6",
+  "acceptedModelHash": "2eccbf7bc62b0be512362881c318c171a6f777567761cf2e2cc8674c987ea99c",
+  "restArtSignature": "0805e382f84249fe885ba35eafce8d447998f5c5e1a577eaf905594cec2782f0",
+  "restArtPreserved": true,
+  "bones": 9,
+  "readyHoverMetres": 0.15,
+  "sampledMinimumClearance": {
+    "idle": 0.13168387115001678,
+    "work": 0.14846867322921753,
+    "move": 0.10533040761947632,
+    "place": 0.1499999761581421,
+    "hit": 0.13103869557380676,
+    "resolve": 0.1499999761581421
+  },
+  "shooters": [
+    {
+      "anchor": "anchor_shooter_a",
+      "azimuthDegrees": 30,
+      "sectorDegrees": 60
+    },
+    {
+      "anchor": "anchor_shooter_b",
+      "azimuthDegrees": 90,
+      "sectorDegrees": 60
+    },
+    {
+      "anchor": "anchor_shooter_c",
+      "azimuthDegrees": 150,
+      "sectorDegrees": 60
+    },
+    {
+      "anchor": "anchor_shooter_d",
+      "azimuthDegrees": 210,
+      "sectorDegrees": 60
+    },
+    {
+      "anchor": "anchor_shooter_e",
+      "azimuthDegrees": 270,
+      "sectorDegrees": 60
+    },
+    {
+      "anchor": "anchor_shooter_f",
+      "azimuthDegrees": 330,
+      "sectorDegrees": 60
+    }
+  ],
+  "clips": {
+    "idle": {
+      "fps": 24,
+      "duration": 2.0,
+      "samples": 49
+    },
+    "work": {
+      "fps": 24,
+      "duration": 2.0,
+      "samples": 49
+    },
+    "move": {
+      "fps": 24,
+      "duration": 2.0,
+      "samples": 49
+    },
+    "place": {
+      "fps": 24,
+      "duration": 1.25,
+      "samples": 31
+    },
+    "hit": {
+      "fps": 24,
+      "duration": 0.5,
+      "samples": 13
+    },
+    "resolve": {
+      "fps": 24,
+      "duration": 1.25,
+      "samples": 31
+    }
+  },
+  "minimumRootEmbedDuringRecoil": 0.035,
+  "maxInwardRecoil": 0.055
+}

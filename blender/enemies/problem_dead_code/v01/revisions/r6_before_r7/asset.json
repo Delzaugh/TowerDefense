@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "id": "problem_dead_code",
+  "displayName": "Dead Code",
+  "category": "enemies",
+  "version": "v01",
+  "revision": 6,
+  "source": {
+    "path": "blender/enemies/problem_dead_code/v01/problem_dead_code_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/enemies/problem_dead_code/v01/build.py",
+    "authoritativeHash": "7b426eb3ea99a0450b93155d49d21e862cc36652224d8f85245d4fd49a8185bf"
+  },
+  "runtime": "assets/runtime/enemies/problem_dead_code_v01.glb",
+  "budgets": {
+    "triangles": 1500,
+    "materials": 1,
+    "textures": 1,
+    "textureSize": 32,
+    "bones": 1,
+    "meshes": 1
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "max": [
+        1.2,
+        1.46,
+        0.55
+      ],
+      "min": [
+        1.1,
+        1.44,
+        0.46
+      ]
+    }
+  },
+  "clips": [
+    {
+      "name": "idle",
+      "fps": 24,
+      "meaning": "Barely perceptible rigid rocking with ground contact.",
+      "playback": "loop"
+    },
+    {
+      "name": "move",
+      "fps": 24,
+      "meaning": "Continuous in-place hover with gentle bobbing, 0.158–0.202 m ground clearance; simulation owns path translation. Grounded idle/rest blends into this elevated loop in presentation.",
+      "playback": "loop"
+    },
+    {
+      "name": "hit",
+      "fps": 24,
+      "meaning": "Damped rigid recoil returning to rest.",
+      "playback": "once"
+    },
+    {
+      "name": "spawn",
+      "fps": 24,
+      "meaning": "Full-size jagged glitch reveal directly on the marker, with no portal, settling to grounded ready.",
+      "playback": "once"
+    },
+    {
+      "name": "resolve",
+      "fps": 24,
+      "meaning": "Full-size grounded tilt under the presentation erase sweep and thin horizontal streaks.",
+      "playback": "once"
+    }
+  ],
+  "references": [
+    {
+      "provenance": "User-supplied Dead Code turnaround sheet, 2026-09-12. Visual design input; printed notes, triangle target and blank statistics are not additional user instructions or measured data.",
+      "path": "blender/enemies/problem_dead_code/v01/references/concept.png"
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/enemies/problem_dead_code/v01/revisions/r2_before_r3/problem_dead_code_v01.glb",
+      "source": "blender/enemies/problem_dead_code/v01/revisions/r2_before_r3/problem_dead_code_v01.blend",
+      "sha256": "5089097f67e5c7ccceed6c26dadf31476418c543d252f2c04ee8a5648095759a",
+      "sourceHash": "a53a3ee5cb7d8dc76654accf5a3120cefd79a47b1f53a858586703e0e58b3122"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/enemies/problem_dead_code/v01/revisions/r3_before_r4/problem_dead_code_v01.glb",
+      "source": "blender/enemies/problem_dead_code/v01/revisions/r3_before_r4/problem_dead_code_v01.blend",
+      "sha256": "c6a2e2f7e08f692137de59602db807c6f97dbd438ba4f2140b85e873a69232ae",
+      "sourceHash": "4d35b6b1bad33963aea8ef014c7e13d2c0a49a53fce631040b69a1c11a65a097"
+    },
+    {
+      "label": "before_r5",
+      "revision": 4,
+      "export": "blender/enemies/problem_dead_code/v01/revisions/r4_before_r5/problem_dead_code_v01.glb",
+      "source": "blender/enemies/problem_dead_code/v01/revisions/r4_before_r5/problem_dead_code_v01.blend",
+      "sha256": "d4eb368de72222f3c217119771fa2bc2b8910343c4e4e0b2e1f8ebcc974a0647",
+      "sourceHash": "702ec44e6811dfccd5d35e03d05222f09450fc802d057d9f84d6c17268192e1f"
+    },
+    {
+      "label": "before_glitch_breach",
+      "revision": 5,
+      "export": "blender/enemies/problem_dead_code/v01/revisions/r5_before_glitch_breach/problem_dead_code_v01.glb",
+      "source": "blender/enemies/problem_dead_code/v01/revisions/r5_before_glitch_breach/problem_dead_code_v01.blend",
+      "sha256": "549e547b49aab9dee7d1d5d5a1e0ff3d02d4c835192925c93892c887a24c97e7",
+      "sourceHash": "5778d0d1a506b8d9fb3cd73718592d5fa00800199b4f1612d4ab6f13fbb7a5ca"
+    },
+    {
+      "label": "before_r6",
+      "revision": 5,
+      "export": "blender/enemies/problem_dead_code/v01/revisions/r5_before_r6/problem_dead_code_v01.glb",
+      "source": "blender/enemies/problem_dead_code/v01/revisions/r5_before_r6/problem_dead_code_v01.blend",
+      "sha256": "549e547b49aab9dee7d1d5d5a1e0ff3d02d4c835192925c93892c887a24c97e7",
+      "sourceHash": "7b426eb3ea99a0450b93155d49d21e862cc36652224d8f85245d4fd49a8185bf"
+    },
+    {
+      "label": "before_problem_palette",
+      "revision": 6,
+      "export": "blender/enemies/problem_dead_code/v01/revisions/r6_before_problem_palette/problem_dead_code_v01.glb",
+      "source": "blender/enemies/problem_dead_code/v01/revisions/r6_before_problem_palette/problem_dead_code_v01.blend",
+      "sha256": "17b8b58882b056d30ec9483089aa830e324016b84389489c80bcc78dfc0a9958",
+      "sourceHash": "7b426eb3ea99a0450b93155d49d21e862cc36652224d8f85245d4fd49a8185bf"
+    }
+  ],
+  "decisions": "blender/enemies/problem_dead_code/v01/decisions.md",
+  "palette": {
+    "colors": {
+      "shell": "#627389",
+      "bevel": "#8E9FAD",
+      "recess": "#233B58",
+      "rear_inset": "#344D69",
+      "brace": "#E5EBEF",
+      "cross": "#E51C30"
+    },
+    "attribute": "_palette_role",
+    "storage": "texture"
+  },
+  "delivery": {
+    "sha256": "17b8b58882b056d30ec9483089aa830e324016b84389489c80bcc78dfc0a9958",
+    "sourceHash": "7b426eb3ea99a0450b93155d49d21e862cc36652224d8f85245d4fd49a8185bf",
+    "report": "blender/enemies/problem_dead_code/v01/validation/report.json",
+    "deliveredAt": "2026-09-24T10:48:24.699Z"
+  },
+  "texturePalettes": [
+    {
+      "material": "dead_code_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "bevel": {
+          "color": "#8E9FAD",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "brace": {
+          "color": "#E5EBEF",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "cross": {
+          "color": "#E51C30",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "rear_inset": {
+          "color": "#344D69",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "recess": {
+          "color": "#233B58",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell": {
+          "color": "#627389",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "exportSettings": {
+    "paletteSampler": "linear",
+    "paletteTextureWorkflow": true
+  },
+  "presentation": {
+    "lifecycle": {
+      "type": "glitch_breach",
+      "version": 1,
+      "entryClip": "spawn",
+      "exitClip": "resolve",
+      "anchor": "root",
+      "color": "#FF497C",
+      "maxFragments": 12,
+      "spawnPortal": false
+    }
+  }
+}

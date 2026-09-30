@@ -1,0 +1,37 @@
+{
+  "asset": "campus_tree_cluster_bare",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "cdf9d7b7b546d040d9cd387c80fbb96e6e3a6da7f5bb129ff1776158de1d0908",
+  "checkedAt": "2026-09-24T11:12:39.289Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 96,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    2.808410882949829,
+    3.0740001487731927,
+    1.493635654449463
+  ],
+  "bounds": [
+    [
+      -1.435539960861206,
+      -2.8610228852699038e-8,
+      -0.8352004885673523
+    ],
+    [
+      1.372870922088623,
+      3.074000120162964,
+      0.6584351658821106
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "55931254eb5a6535597b326a133be10540965961fcd530aa8b9ed76b9654b186",
+  "source": "blender/environment/campus_tree_cluster_bare/v01/campus_tree_cluster_bare_v01.blend",
+  "runtime": "assets/runtime/environment/campus_tree_cluster_bare_v01.glb"
+}

@@ -1,0 +1,258 @@
+{
+  "schemaVersion": 1,
+  "id": "campus_tile_forest",
+  "displayName": "Campus forest tile · clearing",
+  "category": "environment",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/environment/campus_tile_forest/v01/campus_tile_forest_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/environment/campus_tile_forest/v01/build.py"
+  },
+  "runtime": "assets/runtime/environment/campus_tile_forest_v01.glb",
+  "budgets": {
+    "triangles": 4500,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 2
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_surface",
+      "anchor_edge_ne",
+      "anchor_edge_n",
+      "anchor_edge_nw",
+      "anchor_edge_sw",
+      "anchor_edge_s",
+      "anchor_edge_se"
+    ],
+    "dimensions": {
+      "min": [
+        35.99,
+        4,
+        31.17
+      ],
+      "max": [
+        36.01,
+        7,
+        31.18
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "tools/asset-recipes/campus-forest.py",
+      "provenance": "Original shared forest authoring recipe; preserved existing tree forms are extracted from authoritative Blender snapshots."
+    },
+    {
+      "path": "docs/design/Campus_Forest_Kit.md",
+      "provenance": "Forest family concept, placement interfaces and variant inventory."
+    },
+    {
+      "path": "blender/environment/campus_tile_forest/v01/references/park_source.blend",
+      "provenance": "Authoritative park source snapshot; SHA256 fed3ae98cc63f340bd35cc791c45275bf240c7a0c7356908a8275b9c70f600b6. Existing frame, packed surface and edge anchors retained."
+    }
+  ],
+  "overrides": [
+    "4500 triangles and two materials/textures for one assembled terrain-plus-woodland module; individual foliage remains under the repeated-prop budget."
+  ],
+  "milestones": [],
+  "decisions": "blender/environment/campus_tile_forest/v01/decisions.md",
+  "texturePalettes": [
+    {
+      "material": "campus_forest_palette",
+      "size": [
+        64,
+        4
+      ],
+      "roles": {
+        "trunk": {
+          "color": "#65918F",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "bark": {
+          "color": "#826F5D",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "leaf": {
+          "color": "#70B5B4",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "leaf_light": {
+          "color": "#86C2BD",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "leaf_dark": {
+          "color": "#609D9E",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "sage": {
+          "color": "#91AC78",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "moss": {
+          "color": "#637F60",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "pine": {
+          "color": "#527F86",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        },
+        "pine_light": {
+          "color": "#719A91",
+          "rect": [
+            32,
+            0,
+            4,
+            4
+          ]
+        },
+        "gold": {
+          "color": "#CCB768",
+          "rect": [
+            36,
+            0,
+            4,
+            4
+          ]
+        },
+        "amber": {
+          "color": "#C59A60",
+          "rect": [
+            40,
+            0,
+            4,
+            4
+          ]
+        },
+        "copper": {
+          "color": "#AC7957",
+          "rect": [
+            44,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "material": "glacier_palette",
+      "size": [
+        512,
+        512
+      ],
+      "roles": {
+        "chalk": {
+          "color": "#6787A3",
+          "rect": [
+            0,
+            0,
+            8,
+            8
+          ]
+        },
+        "ground": {
+          "color": "#354B64",
+          "rect": [
+            8,
+            0,
+            8,
+            8
+          ]
+        },
+        "shell": {
+          "color": "#24354E",
+          "rect": [
+            16,
+            0,
+            8,
+            8
+          ]
+        },
+        "tile_seam": {
+          "color": "#577693",
+          "rect": [
+            24,
+            0,
+            8,
+            8
+          ]
+        }
+      }
+    }
+  ],
+  "palette": {
+    "storage": "texture",
+    "colors": {
+      "trunk": "#65918F",
+      "bark": "#826F5D",
+      "leaf": "#70B5B4",
+      "leaf_light": "#86C2BD",
+      "leaf_dark": "#609D9E",
+      "sage": "#91AC78",
+      "moss": "#637F60",
+      "pine": "#527F86",
+      "pine_light": "#719A91",
+      "gold": "#CCB768",
+      "amber": "#C59A60",
+      "copper": "#AC7957"
+    }
+  },
+  "exportSettings": {
+    "paletteSampler": "linear",
+    "paletteTextureWorkflow": false
+  }
+}

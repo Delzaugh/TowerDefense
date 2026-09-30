@@ -1,0 +1,216 @@
+{
+  "at": "2026-09-26T22:57:30.958Z",
+  "oldUnique": 48,
+  "newUnique": 22,
+  "roleCount": 48,
+  "changedRoles": 27,
+  "errors": [],
+  "assets": [
+    {
+      "id": "problem_bug",
+      "name": "Bug",
+      "revision": 12,
+      "sha256": "c065c487c7669562106e12753aa2759bdf194b28bb4214a676fb613871225c41",
+      "before": {
+        "edge": "#192E46",
+        "face": "#344D69",
+        "navy": "#233B58",
+        "red": "#E51C30",
+        "red_dark": "#9B1524",
+        "shell": "#3267AF",
+        "shell_dark": "#285591"
+      },
+      "after": {
+        "edge": "#192E46",
+        "face": "#344D69",
+        "navy": "#233B58",
+        "red": "#E51C30",
+        "red_dark": "#9B1524",
+        "shell": "#3267AF",
+        "shell_dark": "#285591"
+      },
+      "changes": [],
+      "beforeUnique": 7,
+      "afterUnique": 7
+    },
+    {
+      "id": "problem_lag_spike",
+      "name": "Lag Spike",
+      "revision": 11,
+      "sha256": "57b50be10be8426bf8639494d49e339d03a9ca9809124285bd998f4b99e12f89",
+      "before": {
+        "blue": "#328EE8",
+        "blue_dark": "#304568",
+        "body": "#343344",
+        "body_dark": "#252533",
+        "cyan": "#30C9F5",
+        "head": "#454154",
+        "ice": "#94E4FF",
+        "joint": "#302E40",
+        "limb": "#625D77"
+      },
+      "after": {
+        "blue": "#328EE8",
+        "blue_dark": "#344D69",
+        "body": "#233B58",
+        "body_dark": "#192E46",
+        "cyan": "#30C9F5",
+        "head": "#344D69",
+        "ice": "#94E4FF",
+        "joint": "#192E46",
+        "limb": "#627389"
+      },
+      "changes": [
+        "blue_dark",
+        "body",
+        "body_dark",
+        "head",
+        "joint",
+        "limb"
+      ],
+      "beforeUnique": 9,
+      "afterUnique": 7
+    },
+    {
+      "id": "problem_vague_spec",
+      "name": "Vague Spec",
+      "revision": 9,
+      "sha256": "5b437567df99096c2ca1b63ee4913bb1604ee4a268d7e11a7092eb851d433b79",
+      "before": {
+        "accent": "#D8A24D",
+        "boot": "#43546C",
+        "edge": "#F3F6F8",
+        "ink": "#29394D",
+        "joint": "#303D50",
+        "limb": "#627389",
+        "limb_light": "#A5B2C2",
+        "line": "#8E9FAD",
+        "paper": "#E5EBEF",
+        "paper_shade": "#C9D3DE"
+      },
+      "after": {
+        "accent": "#FFAA24",
+        "boot": "#344D69",
+        "edge": "#E5EBEF",
+        "ink": "#233B58",
+        "joint": "#233B58",
+        "limb": "#627389",
+        "limb_light": "#A5B2C2",
+        "line": "#627389",
+        "paper": "#E5EBEF",
+        "paper_shade": "#C9D3DE"
+      },
+      "changes": [
+        "accent",
+        "boot",
+        "edge",
+        "ink",
+        "joint",
+        "line"
+      ],
+      "beforeUnique": 10,
+      "afterUnique": 7
+    },
+    {
+      "id": "problem_missing_details",
+      "name": "Missing Details",
+      "revision": 13,
+      "sha256": "6b3e267075d1014c018ed681362670af86c5412667d3a2828777a15e54c49c6a",
+      "before": {
+        "eye": "#FF3155",
+        "eye_core": "#FF8B9E",
+        "eye_edge": "#A91936",
+        "fold": "#FFF0A0",
+        "ink": "#795522",
+        "joint": "#7D8490",
+        "limb": "#DADADA",
+        "limb_shade": "#9EA3AB",
+        "paper": "#F7D96B",
+        "paper_shade": "#DDB84F",
+        "visor": "#1B1B1E"
+      },
+      "after": {
+        "eye": "#E51C30",
+        "eye_core": "#E51C30",
+        "eye_edge": "#E51C30",
+        "fold": "#FFF0A0",
+        "ink": "#192E46",
+        "joint": "#627389",
+        "limb": "#E5EBEF",
+        "limb_shade": "#627389",
+        "paper": "#F7D96B",
+        "paper_shade": "#DDB84F",
+        "visor": "#192E46"
+      },
+      "changes": [
+        "eye",
+        "eye_core",
+        "eye_edge",
+        "ink",
+        "joint",
+        "limb",
+        "limb_shade",
+        "visor"
+      ],
+      "beforeUnique": 11,
+      "afterUnique": 7
+    },
+    {
+      "id": "problem_dead_code",
+      "name": "Dead Code",
+      "revision": 7,
+      "sha256": "4f1ba014aad4d26238d25336ee915211a36ddb962cfc6c862d5c7e6cb13d38f1",
+      "before": {
+        "bevel": "#7B8FB8",
+        "brace": "#E9E2D7",
+        "cross": "#F5655E",
+        "rear_inset": "#475D84",
+        "recess": "#2D4164",
+        "shell": "#5D719B"
+      },
+      "after": {
+        "bevel": "#8E9FAD",
+        "brace": "#E5EBEF",
+        "cross": "#E51C30",
+        "rear_inset": "#344D69",
+        "recess": "#233B58",
+        "shell": "#627389"
+      },
+      "changes": [
+        "bevel",
+        "brace",
+        "cross",
+        "rear_inset",
+        "recess",
+        "shell"
+      ],
+      "beforeUnique": 6,
+      "afterUnique": 6
+    },
+    {
+      "id": "problem_spaghetti_code",
+      "name": "Spaghetti Code",
+      "revision": 12,
+      "sha256": "4d6eae17c8a59c916f616666d34ea6a10e19ad9c74ca54cc2264be91edbf1a04",
+      "before": {
+        "ink": "#223650",
+        "lime": "#B2E936",
+        "orange": "#FFAA24",
+        "orange_edge": "#D98216",
+        "teal": "#178575"
+      },
+      "after": {
+        "ink": "#233B58",
+        "lime": "#B2E936",
+        "orange": "#FFAA24",
+        "orange_edge": "#D98216",
+        "teal": "#178575"
+      },
+      "changes": [
+        "ink"
+      ],
+      "beforeUnique": 5,
+      "afterUnique": 5
+    }
+  ]
+}

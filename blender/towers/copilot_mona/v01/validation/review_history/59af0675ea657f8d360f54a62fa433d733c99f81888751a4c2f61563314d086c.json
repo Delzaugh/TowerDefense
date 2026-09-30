@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_mona",
+  "version": "v01",
+  "revision": 6,
+  "sha256": "35dd9185c7ff75ed0cf95dee11f6e4435d5e3cb119762d4789faecaa20b69fdd",
+  "sourceHash": "ee3ec62f3f16579e66a1e04d3920285fcbf8f58250d2a93adb4ef72baf0177c0",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-30T16:37:03.541528+00:00",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Corrected to the user-selected copilot_octocat_classic_lowpoly v01 revision 8. Shared Inspector front and iso comparison confirms the same broad classic head, ear geometry, face contour, four supporting legs, raised tail, whiskers and cup rows at identical authored scale. All original mesh vertices/faces remain byte-equivalent in source geometry snapshots. Contemporary Mona sheet governs purple/magenta fur, pink face/ears, plum eyes/nose/smile, cream eye whites and added white eye glints; the selected classic base governs proportions rather than the newer Mona head silhouette."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Read-only source parity audit confirms all 13 inherited meshes retain identical vertices, faces and skin weights; 11 rest bones and nine anchors remain unchanged. Head and body have zero non-manifold edges, degenerate faces or loose vertices. All four feet remain at ground height; 45 cups retain their original seats. Inspected front, side, rear, underside, face and rear join close-ups. Pink ear insets are on the original shell, with no floating geometry; two small glints follow the original pupil surface and eye bones. Retained original cup geometry, with pink rims and contrasting pink centers."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Shared Inspector phone and 160px small views retain recognizable cat head, plum eyes/pink face, separated supporting legs and classic tail silhouette. Whiskers and cups remain inherited low-poly details. Inspected the iso flat silhouette and fixed side view for leg/head depth. Mona and Classic comparison loaded identical rest bounds and remained at authored scale; no tint or display rescale was used. Inspector export hash matched 35dd9185c7ff75ed0cf95dee11f6e4435d5e3cb119762d4789faecaa20b69fdd."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Model correction only. Original rest rig/weights are retained but no Mona clips are exported or authored. Animation handoff remains pending user authorization."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After replacing the superseded body with a direct Classic Low Poly derivative, rechecked final revision 6 against the selected runtime in front and iso at the same scale and lighting. Four grounded legs, raised tail, head depth and original joins now match; source geometry/weight/rig/anchor parity confirms the cause was corrected rather than hidden by a view. Final side/rear/underside, face close-up and phone/small reviews show seated colour/detail additions and preserved negative spaces. No further geometry repair was needed after direct inheritance. Low-poly faceting and shallow cups are the accepted base construction, not a newly smoothed body."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_mona/v01/validation/front.png",
+      "sha256": "e1468c27d251354f61fa31bb827ec709c6088788d9b5cd63271ebbd9ec7681cc",
+      "view": "front"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/validation/side.png",
+      "sha256": "aa2eda003a909924ba9868fa0e45e5cc77f18ad67e5ff5ea2dc7d1c80e045e1d",
+      "view": "side"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/validation/rear.png",
+      "sha256": "ca99b2f99ea4211e4ada9f048b40937689f82ae0434551777fd8a0f5049bf36e",
+      "view": "rear"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/validation/iso.png",
+      "sha256": "d549f6e8475b4ca80b57da78ada9d80c21f7456f4f309743aa105b5657c20bf6",
+      "view": "iso"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/validation/iso-silhouette.png",
+      "sha256": "d8f58599809491416779ed024bfbe77f405c3cfb4c3b4faae5e30188566738f0",
+      "view": "iso silhouette"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/renders/detail-front.png",
+      "sha256": "9995c4df0edf352bca6c5469d7db7c704713c16d858936f12f1be080841a3290",
+      "view": "face and cups close-up"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/renders/detail-rear.png",
+      "sha256": "3b523314f16bd21bc9124c22352e0bdd89ae92df0720a95e330512884be41f50",
+      "view": "rear joins close-up"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/renders/inspector-bottom.png",
+      "sha256": "5641ce4e3788b1d2058b083c9a75030e96de9f9cb678476b4ea127ccc18a3857",
+      "view": "underside"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/renders/inspector-phone.png",
+      "sha256": "f4f3b0e63e117e308204fc2c430b23c7040e9427f1c31f2d295a5baccfd2a2bf",
+      "view": "phone"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/renders/inspector-small.png",
+      "sha256": "5850abb192d5943eb3f83fd639febd3d609d8933623e437e1d4f3eb56c1d6437",
+      "view": "small"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/renders/base-comparison-front.png",
+      "sha256": "0f3aa9051df27ca28cf217e29f936cd7bd20dff2c0d91a897d2680c75b2b1870",
+      "view": "Mona and selected Classic front, rest pose"
+    },
+    {
+      "path": "blender/towers/copilot_mona/v01/renders/base-comparison-iso.png",
+      "sha256": "e910107b734b44bc13903ad73fc21a03866ab7d99bc8a98cdd6f407ec0539832",
+      "view": "Mona and selected Classic iso, rest pose"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User specified the Classic Low Poly base; explicit acceptance of this corrected model is pending."
+  },
+  "limitations": [
+    "Uses the selected classic head/body geometry with contemporary Mona colours; the newer official Mona head proportions are deliberately not substituted.",
+    "Model stage only. Rest rig is inherited; Mona animation clips remain pending authorization."
+  ]
+}

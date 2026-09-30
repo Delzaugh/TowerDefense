@@ -1,0 +1,37 @@
+{
+  "asset": "campus_civic_decor",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "d7267cb0727d5d52961743be30083d8fb734299fc479cbfb13e9795a4266d613",
+  "checkedAt": "2026-09-24T11:12:55.638Z",
+  "errors": [],
+  "warnings": [],
+  "triangles": 1804,
+  "meshes": 1,
+  "materials": 1,
+  "textures": 1,
+  "bones": 0,
+  "dimensions": [
+    3.3199996948242188,
+    2.140000104904175,
+    2.530000686645508
+  ],
+  "bounds": [
+    [
+      -5.659999847412109,
+      0,
+      11.399999618530273
+    ],
+    [
+      -2.3400001525878906,
+      2.140000104904175,
+      13.930000305175781
+    ]
+  ],
+  "clips": [],
+  "visualReview": "pending — inspect silhouettes, joints, foot contact and sampled motion; numerical checks are not artistic approval",
+  "passed": true,
+  "sourceHash": "80674169d1ebad1e14ede390dab96959eaeb38a9c40c9a8458fdc93a6157380e",
+  "source": "blender/environment/campus_civic_decor/v01/campus_civic_decor_v01.blend",
+  "runtime": "assets/runtime/environment/campus_civic_decor_v01.glb"
+}

@@ -1,0 +1,481 @@
+{
+  "passed": true,
+  "sha256": "c065c487c7669562106e12753aa2759bdf194b28bb4214a676fb613871225c41",
+  "sourceHash": "c066855500b9ef9f1e50118e1cc3b8fdfc4c9b41d0ff3ef0abbc207b43c1a26a",
+  "errors": [],
+  "states": [
+    {
+      "resolveBudget": {
+        "used": 0,
+        "maxFragments": 256
+      },
+      "resolveEffects": [
+        {
+          "path": "enemies/problem_bug_v01.glb",
+          "type": "glitch_breach",
+          "version": 1,
+          "enabled": true,
+          "clip": null,
+          "progress": -1,
+          "timelineProgress": -1,
+          "complete": false,
+          "fragments": 0,
+          "leased": 0,
+          "maxFragments": 12,
+          "triangles": 0
+        }
+      ],
+      "loading": false,
+      "activePath": "enemies/problem_bug_v01.glb",
+      "view": "iso",
+      "projection": "OrthographicCamera",
+      "distance": 23.281681838576937,
+      "target": [
+        0,
+        0.7349999491824009,
+        0.03662157173927011
+      ],
+      "camera": [
+        12.0791347352494,
+        12.720848502276565,
+        15.925946533571508
+      ],
+      "effects": [
+        {
+          "path": "enemies/problem_bug_v01.glb",
+          "enabled": false,
+          "triangles": 0,
+          "meshes": 0,
+          "materials": 0
+        }
+      ],
+      "entries": [
+        {
+          "path": "enemies/problem_bug_v01.glb",
+          "revision": "c065c487c7669562106e12753aa2759bdf194b28bb4214a676fb613871225c41",
+          "triangles": 2320,
+          "meshes": 1,
+          "materials": 1,
+          "bounds": [
+            [
+              -1.1322183791949136,
+              -1.3024542775597031e-7,
+              -0.9984844487973482
+            ],
+            [
+              1.1322183791949136,
+              1.4700000286102295,
+              1.0717275922758884
+            ]
+          ],
+          "root": [
+            0,
+            0,
+            0
+          ],
+          "wrapper": [
+            0,
+            0,
+            0
+          ],
+          "clips": [
+            {
+              "name": "move",
+              "duration": 1.0416666269302368
+            },
+            {
+              "name": "hit",
+              "duration": 0.4583333432674408
+            },
+            {
+              "name": "spawn",
+              "duration": 1.25
+            },
+            {
+              "name": "resolve",
+              "duration": 1.25
+            }
+          ],
+          "clip": "move",
+          "time": 0.7499999279999973,
+          "playing": false,
+          "loop": true,
+          "speed": 1,
+          "pose": [
+            0.9997742194196669,
+            0,
+            0.02124876901947809,
+            0,
+            0,
+            1,
+            0,
+            0,
+            -0.02124876901947809,
+            0,
+            0.9997742194196669,
+            0,
+            0,
+            0.5279903913037227,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "resolveBudget": {
+        "used": 0,
+        "maxFragments": 256
+      },
+      "resolveEffects": [
+        {
+          "path": "enemies/problem_bug_v01.glb",
+          "type": "glitch_breach",
+          "version": 1,
+          "enabled": true,
+          "clip": "spawn",
+          "progress": 0.5,
+          "timelineProgress": 0.5,
+          "complete": false,
+          "fragments": 0,
+          "leased": 0,
+          "maxFragments": 12,
+          "triangles": 0
+        }
+      ],
+      "loading": false,
+      "activePath": "enemies/problem_bug_v01.glb",
+      "view": "iso",
+      "projection": "OrthographicCamera",
+      "distance": 23.281681838576937,
+      "target": [
+        0,
+        0.7349999491824009,
+        0.03662157173927011
+      ],
+      "camera": [
+        12.0791347352494,
+        12.720848502276565,
+        15.925946533571508
+      ],
+      "effects": [
+        {
+          "path": "enemies/problem_bug_v01.glb",
+          "enabled": false,
+          "triangles": 0,
+          "meshes": 0,
+          "materials": 0
+        }
+      ],
+      "entries": [
+        {
+          "path": "enemies/problem_bug_v01.glb",
+          "revision": "c065c487c7669562106e12753aa2759bdf194b28bb4214a676fb613871225c41",
+          "triangles": 2320,
+          "meshes": 1,
+          "materials": 1,
+          "bounds": [
+            [
+              -1.1322183791949136,
+              -1.3024542775597031e-7,
+              -0.9984844487973482
+            ],
+            [
+              1.1322183791949136,
+              1.4700000286102295,
+              1.0717275922758884
+            ]
+          ],
+          "root": [
+            0,
+            0,
+            0
+          ],
+          "wrapper": [
+            0,
+            0,
+            0
+          ],
+          "clips": [
+            {
+              "name": "move",
+              "duration": 1.0416666269302368
+            },
+            {
+              "name": "hit",
+              "duration": 0.4583333432674408
+            },
+            {
+              "name": "spawn",
+              "duration": 1.25
+            },
+            {
+              "name": "resolve",
+              "duration": 1.25
+            }
+          ],
+          "clip": "spawn",
+          "time": 0.625,
+          "playing": false,
+          "loop": false,
+          "speed": 1,
+          "pose": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            9.331601300066638e-19,
+            0.5,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "resolveBudget": {
+        "used": 12,
+        "maxFragments": 256
+      },
+      "resolveEffects": [
+        {
+          "path": "enemies/problem_bug_v01.glb",
+          "type": "glitch_breach",
+          "version": 1,
+          "enabled": true,
+          "clip": "resolve",
+          "progress": 0.5,
+          "timelineProgress": 0.5,
+          "complete": false,
+          "fragments": 3,
+          "leased": 12,
+          "maxFragments": 12,
+          "triangles": 48
+        }
+      ],
+      "loading": false,
+      "activePath": "enemies/problem_bug_v01.glb",
+      "view": "iso",
+      "projection": "OrthographicCamera",
+      "distance": 23.281681838576937,
+      "target": [
+        0,
+        0.7349999491824009,
+        0.03662157173927011
+      ],
+      "camera": [
+        12.0791347352494,
+        12.720848502276565,
+        15.925946533571508
+      ],
+      "effects": [
+        {
+          "path": "enemies/problem_bug_v01.glb",
+          "enabled": false,
+          "triangles": 0,
+          "meshes": 0,
+          "materials": 0
+        }
+      ],
+      "entries": [
+        {
+          "path": "enemies/problem_bug_v01.glb",
+          "revision": "c065c487c7669562106e12753aa2759bdf194b28bb4214a676fb613871225c41",
+          "triangles": 2320,
+          "meshes": 1,
+          "materials": 1,
+          "bounds": [
+            [
+              -1.1322183791949136,
+              -1.3024542775597031e-7,
+              -0.9984844487973482
+            ],
+            [
+              1.1322183791949136,
+              1.4700000286102295,
+              1.0717275922758884
+            ]
+          ],
+          "root": [
+            0,
+            0,
+            0
+          ],
+          "wrapper": [
+            0,
+            0,
+            0
+          ],
+          "clips": [
+            {
+              "name": "move",
+              "duration": 1.0416666269302368
+            },
+            {
+              "name": "hit",
+              "duration": 0.4583333432674408
+            },
+            {
+              "name": "spawn",
+              "duration": 1.25
+            },
+            {
+              "name": "resolve",
+              "duration": 1.25
+            }
+          ],
+          "clip": "resolve",
+          "time": 0.625,
+          "playing": false,
+          "loop": false,
+          "speed": 1,
+          "pose": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0.5,
+            0,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "resolveBudget": {
+        "used": 0,
+        "maxFragments": 256
+      },
+      "resolveEffects": [
+        {
+          "path": "enemies/problem_bug_v01.glb",
+          "type": "glitch_breach",
+          "version": 1,
+          "enabled": true,
+          "clip": "resolve",
+          "progress": 1,
+          "timelineProgress": 1,
+          "complete": true,
+          "fragments": 0,
+          "leased": 0,
+          "maxFragments": 12,
+          "triangles": 0
+        }
+      ],
+      "loading": false,
+      "activePath": "enemies/problem_bug_v01.glb",
+      "view": "iso",
+      "projection": "OrthographicCamera",
+      "distance": 23.281681838576937,
+      "target": [
+        0,
+        0.7349999491824009,
+        0.03662157173927011
+      ],
+      "camera": [
+        12.0791347352494,
+        12.720848502276565,
+        15.925946533571508
+      ],
+      "effects": [
+        {
+          "path": "enemies/problem_bug_v01.glb",
+          "enabled": false,
+          "triangles": 0,
+          "meshes": 0,
+          "materials": 0
+        }
+      ],
+      "entries": [
+        {
+          "path": "enemies/problem_bug_v01.glb",
+          "revision": "c065c487c7669562106e12753aa2759bdf194b28bb4214a676fb613871225c41",
+          "triangles": 2320,
+          "meshes": 1,
+          "materials": 1,
+          "bounds": [
+            [
+              -1.1322183791949136,
+              -1.3024542775597031e-7,
+              -0.9984844487973482
+            ],
+            [
+              1.1322183791949136,
+              1.4700000286102295,
+              1.0717275922758884
+            ]
+          ],
+          "root": [
+            0,
+            0,
+            0
+          ],
+          "wrapper": [
+            0,
+            0,
+            0
+          ],
+          "clips": [
+            {
+              "name": "move",
+              "duration": 1.0416666269302368
+            },
+            {
+              "name": "hit",
+              "duration": 0.4583333432674408
+            },
+            {
+              "name": "spawn",
+              "duration": 1.25
+            },
+            {
+              "name": "resolve",
+              "duration": 1.25
+            }
+          ],
+          "clip": "resolve",
+          "time": 1.25,
+          "playing": false,
+          "loop": false,
+          "speed": 1,
+          "pose": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            0.5,
+            0,
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "checks": "Current exported hash; all seven swatches unchanged; actual small phone move, Spawn, Resolve, terminal frame, Rest reset; gameplay-like reverse view"
+}

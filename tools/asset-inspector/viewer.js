@@ -2,6 +2,8 @@ import * as THREE from './vendor/three.module.js';
 import { GLTFLoader } from './vendor/GLTFLoader.js';
 import { installReview, createPresentationEffect } from './review.js';
 import { installBambuExport } from './export-bambu.js';
+import { createResolveBudget } from './presentation/digital-resolve.js';
+import { createLifecycleEffect } from './presentation/lifecycle.js';
 
 const $ = id => document.getElementById(id);
 const canvas = $('viewport');
@@ -54,6 +56,7 @@ let azimuth = .65, polar = 1.03, distance = 8, currentView = 'iso', framed = fal
 let models = [], entries = [], desiredPaths = [], activePath = '', generation = 0, loading = false, wireframe = false;
 const openFolders = new Set(['enemies', 'towers']);
 const loader = new GLTFLoader();
+const resolveBudget = createResolveBudget(256);
 const tanFov = Math.tan(THREE.MathUtils.degToRad(45 / 2));
 const viewAngles = { iso: [.65, 1.03], front: [0, Math.PI / 2], rear: [Math.PI, Math.PI / 2], left: [-Math.PI / 2, Math.PI / 2], right: [Math.PI / 2, Math.PI / 2], top: [0, .0001], bottom: [0, Math.PI - .0001] };
 
@@ -125,6 +128,7 @@ function measure(root) {
 function disposeEntry(e) {
   e.effect?.dispose();
   review.dispose(e);
+  e.resolveEffect?.dispose();
   e.mixer.stopAllAction(); e.mixer.uncacheRoot(e.root);
   scene.remove(e.wrapper);
   const geometries = new Set(), materials = new Set(), textures = new Set(), skeletons = new Set();
@@ -154,6 +158,7 @@ function setClip(e, index, progress = 0, playing = false) {
     e.mixer.update(0); e.state.playing = playing;
   }
   e.root.updateMatrixWorld(true);
+  e.resolveEffect?.setState(clip?.name,e.action?.time||0,clip?.duration||1);
 }
 async function loadEntry(model, saved) {
   const url = './runtime/' + model.path.split('/').map(encodeURIComponent).join('/') + '?v=' + encodeURIComponent(model.revision);
@@ -162,6 +167,8 @@ async function loadEntry(model, saved) {
   const e = { model, root, wrapper, stats: measure(root), clips: gltf.animations, mixer: new THREE.AnimationMixer(root), action: null, state: { clipIndex: -1, playing: false, speed: saved?.speed ?? 1, loop: saved?.loop ?? true } };
   e.effect=createPresentationEffect(THREE,root);
   if(e.effect){wrapper.add(e.effect.mesh);e.effect.setEnabled($('effects-toggle').checked);}
+  e.resolveEffect=createLifecycleEffect(THREE,root,{budget:resolveBudget});
+  if(e.resolveEffect){wrapper.add(e.resolveEffect.object);e.resolveEffect.prepare();e.resolveEffect.setEnabled($('effects-toggle').checked);}
   applyWireframe(root);
   root.traverse(o=>{if(o.isMesh)o.castShadow=o.receiveShadow=true;});
   e.mixer.addEventListener('finished', () => { e.state.playing = false; if (activeEntry() === e) syncAnimation(); });
@@ -267,8 +274,8 @@ function syncUi() {
   $('comparison-count').textContent = entries.length + (entries.length === 1 ? ' model' : ' models') + ' in view';
   $('clear-comparison-button').disabled = entries.length < 2;
   const e = activeEntry(); $('model-name').textContent = e?.model.path || 'Select a model';
-  $('effects-toggle').disabled=!e?.effect;
-  $('effect-status').textContent=e?.effect?`Aura: +${e.effect.triangles} triangles · total ${e.stats.triangles+e.effect.triangles} triangles / ${e.stats.meshes+e.effect.meshes} meshes / ${e.stats.materials+e.effect.materials} materials`:'';
+  $('effects-toggle').disabled=!e?.effect&&!e?.resolveEffect;
+  $('effect-status').textContent=e?.resolveEffect?`${e.resolveEffect.label||'Digital Place / Resolve'} · up to +${e.resolveEffect.maxTriangles} triangles · scrub entry or Resolve to inspect`:e?.effect?`Aura: +${e.effect.triangles} triangles · total ${e.stats.triangles+e.effect.triangles} triangles / ${e.stats.meshes+e.effect.meshes} meshes / ${e.stats.materials+e.effect.materials} materials`:'';
   const values = e ? { size: Math.ceil(e.model.bytes / 1024) + ' KB', dimensions: e.stats.dimensions.toArray().map(v => v.toFixed(2)).join(' × ') + ' m', meshes: e.stats.meshes, materials: e.stats.materials, triangles: e.stats.triangles.toLocaleString() } : {};
   for (const k of ['size','dimensions','meshes','materials','triangles']) $('stat-' + k).textContent = values[k] ?? '—';
   syncAnimation();
@@ -319,7 +326,7 @@ document.querySelectorAll('[data-view]').forEach(b => b.onclick = () => setView(
 $('projection').onchange = () => { camera = $('projection').value === 'perspective' ? perspective : orthographic; updateCamera(); };
 $('wireframe-button').onclick = () => { wireframe = !wireframe; $('wireframe-button').setAttribute('aria-pressed',String(wireframe)); entries.forEach(e => applyWireframe(e.root)); };
 $('grid-button').onclick = () => { grid.visible = !grid.visible; $('grid-button').setAttribute('aria-pressed',String(grid.visible)); };
-$('effects-toggle').onchange=()=>{entries.forEach(e=>e.effect?.setEnabled($('effects-toggle').checked));frameView();};
+$('effects-toggle').onchange=()=>{entries.forEach(e=>{e.effect?.setEnabled($('effects-toggle').checked);e.resolveEffect?.setEnabled($('effects-toggle').checked);});frameView();};
 $('clear-comparison-button').onclick = () => {
   const keep = activeEntry(); ++generation; loading = false;
   entries.filter(e => e !== keep).forEach(disposeEntry); entries = keep ? [keep] : [];
@@ -384,10 +391,12 @@ renderer.setAnimationLoop(() => {
   entries.forEach(e => { if (e.state.playing) e.mixer.update(dt*e.state.speed); });
   if ($('rotate-toggle').checked) { azimuth += dt*.35; markView('custom'); updateCamera(); }
   entries.forEach(e=>e.effect?.update(camera,effectTime));
+  entries.forEach(e=>e.resolveEffect?.setState(currentClip(e)?.name,e.action?.time||0,currentClip(e)?.duration||1));
   updateTimeline(); review.update(); renderer.render(scene,camera);
 });
 // Read-only diagnostics used by the local verification suite.
 window.inspectorState = () => ({
+  resolveBudget:{used:resolveBudget.used,maxFragments:resolveBudget.maxFragments},resolveEffects:entries.map(e=>({path:e.model.path,...e.resolveEffect?.diagnostics()})),
   loading, activePath, view: currentView, projection: camera.type, distance, target: target.toArray(), camera: camera.position.toArray(), effects:entries.map(e=>({path:e.model.path,enabled:!!e.effect?.mesh.visible,triangles:e.effect?.triangles||0,meshes:e.effect?.meshes||0,materials:e.effect?.materials||0})),
   entries: entries.map(e => ({ path:e.model.path, revision:e.model.revision, triangles:e.stats.triangles, meshes:e.stats.meshes, materials:e.stats.materials, bounds:[e.stats.bounds.min.toArray(),e.stats.bounds.max.toArray()], root:e.root.position.toArray(), wrapper:e.wrapper.position.toArray(), clips:e.clips.map(c=>({name:c.name,duration:c.duration})), clip:currentClip(e)?.name||null, time:e.action?.time||0, playing:e.state.playing, loop:e.state.loop, speed:e.state.speed, pose:e.root.getObjectByName('body')?.matrixWorld.elements.slice()||[] }))
 });

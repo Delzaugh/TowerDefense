@@ -27,6 +27,7 @@ def matrix(c,axis='front',pitch=0,yaw=0):
 class Maker:
     def __init__(self,m):
         self.m=m;self.kind=m['id'].replace('copilot_','')
+        if self.kind=='linter':self.kind='linter_agent'  # Retain existing Blender material bindings.
         self.v=[];self.f=[];self.r=[];self.s=[];self.mi=[];self.parts=[]
     def add(self,name,v,f,role,smooth=False,optics=False,xf=None):
         if xf:v=[xf@Vector(p) for p in v]

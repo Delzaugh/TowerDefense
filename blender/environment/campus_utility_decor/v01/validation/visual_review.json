@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_utility_decor",
+  "version": "v01",
+  "revision": 2,
+  "sha256": "2b5eb54a8b9d93ddd2fea7f29540b5bde15c31aa40534a9579d98d0e0ae3712b",
+  "sourceHash": "4c061badc753cd31ed0da12f8041819034c15e0ac4e7c0c5ed1e93faf51eb6c2",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T11:22:52.366Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Cream utility building occupies the west side, with a lower twin-fan cooler, three power cabinets, paired coolant tanks and modest maintenance rails east of the road. Teal accents and muted warm-yellow handles avoid military or dark cyberpunk styling."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Close-building and close-joins views show seated canopy, door frame, inset window and vent, fan seats/hubs, tank caps and pipe connections. Reverse view shows closed shells, attached manifolds and stable footings. Every component reaches the common local y0 through its authored footing; origin stays at tile centre."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Actual 390px GLB evidence retains large building versus smaller equipment silhouettes; top and isometric views retain both fan discs, three cabinets and paired tanks. Small service markers intentionally disappear at distance without carrying gameplay meaning."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After the first close and reverse assessment, rechecked top, side and silhouette views plus phone evidence. Equipment rows remain separated, roof corners and doors remain clean, tanks and rail feet are grounded, and the central route stays unobstructed. No in-scope repair was needed."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_utility_decor/v01/validation/iso.png",
+      "sha256": "bf49f005283ec4b94f0b65901c0a1402fa1daaf29bf887942196d363481775b6",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_utility_decor/v01/validation/iso-silhouette.png",
+      "sha256": "6b7e32214100811e8bd602f40bea05fb042532c1b0d99067b2a0b6df5f09a146",
+      "view": "iso",
+      "mode": "silhouette"
+    },
+    {
+      "path": "blender/environment/campus_utility_decor/v01/validation/side.png",
+      "sha256": "ee5b22b7383182ee8a62be8d90fd26881ce7444876a5b4cbc41fff4ce714b9a7",
+      "view": "side",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_utility_decor/v01/validation/top.png",
+      "sha256": "feb4e2fcb0c4ba4739ef97ca95f808c2c7ff43e9a64234d3a29c9d7ba348487c",
+      "view": "top",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_utility_decor/v01/validation/close-joins.png",
+      "sha256": "6aeb7386ce513ac66f4dc2ebf835559860a73a61b4d9d7781132657904384a55",
+      "view": "close-joins"
+    },
+    {
+      "path": "blender/environment/campus_utility_decor/v01/validation/close-building.png",
+      "sha256": "95b04b0e6239fddd8c94b7a17d421735a9da70234f2f0b3e367d57f1f293ebcb",
+      "view": "close-building"
+    },
+    {
+      "path": "blender/environment/campus_utility_decor/v01/validation/reverse-oblique.png",
+      "sha256": "947c554fa9430992540a6bb804f362107e51da687be1f0c8800bb9fd3d7643d7",
+      "view": "reverse-oblique"
+    },
+    {
+      "path": "blender/environment/campus_utility_decor/v01/validation/phone.png",
+      "sha256": "99feafa226f3c1fc65589da8eb0822393ec5f5fc66c9f13843a220c96fbf2ffb",
+      "view": "phone-scale"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "Author self-review complete; explicit user artistic acceptance remains separate."
+  },
+  "limitations": [
+    "Static environment assembly; final whole-campus placement and composition are reviewed by the integrating parent task."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "campus_tree_cluster_bare",
+  "placements": [
+    {
+      "shape": "cluster",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "rotationY": 0,
+      "palette": {}
+    }
+  ],
+  "foliageVertices": 56,
+  "nonManifoldEdges": 0,
+  "zeroAreaFaces": 0,
+  "minimumContactHeight": -2.8610229518832853e-8,
+  "maximumHeight": 3.074000091552734,
+  "anchors": {
+    "anchor_ui": [
+      0,
+      3.324000091552734,
+      0
+    ]
+  },
+  "paletteSha256": "5bf6f19b097f5a46ffe80ccbc29b949c4c8454829ad959c1ff2ef3d80c2a2367",
+  "sourceHash": "55931254eb5a6535597b326a133be10540965961fcd530aa8b9ed76b9654b186",
+  "sha256": "cdf9d7b7b546d040d9cd387c80fbb96e6e3a6da7f5bb129ff1776158de1d0908"
+}

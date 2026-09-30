@@ -1,0 +1,31 @@
+{
+  "id": "campus_tree_round_bare",
+  "placements": [
+    {
+      "shape": "round",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "rotationY": 0,
+      "palette": {}
+    }
+  ],
+  "foliageVertices": 28,
+  "nonManifoldEdges": 0,
+  "zeroAreaFaces": 0,
+  "minimumContactHeight": -2.8610229518832853e-8,
+  "maximumHeight": 3.6100001049041746,
+  "anchors": {
+    "anchor_ui": [
+      0,
+      3.8600001049041746,
+      0
+    ]
+  },
+  "paletteSha256": "5bf6f19b097f5a46ffe80ccbc29b949c4c8454829ad959c1ff2ef3d80c2a2367",
+  "sourceHash": "84ccaa67c7c518b56657cf66fd2e8d91b6bb8c5ff5f79ee964c8fc4454ba2248",
+  "sha256": "e41c2abe2ea7c2fed94eddbe8f2433a42773cf359987842379cc27c6deeb3b81"
+}

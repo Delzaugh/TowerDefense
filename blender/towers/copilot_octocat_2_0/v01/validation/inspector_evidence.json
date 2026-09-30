@@ -1,0 +1,711 @@
+{
+  "url": "http://127.0.0.1:4174/?asset=copilot_octocat_2_0&version=v01",
+  "revision": 8,
+  "sourceHash": "c0c000b5b12d0380bdaeb54904fb92b2428912519e10ab09263e70c110eec8cb",
+  "sha256": "02e3657bfe1d0fe392676010d7acb37c378075a4c771976f1a97188ea3646f12",
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-front.png",
+      "sha256": "7816c8479d4f33df46f7d6b5edf28a0495f3fc2e7a5d03af1ad58c92714f3b75",
+      "view": "inspector-front",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "towers/copilot_octocat_2_0_v01.glb",
+        "view": "front",
+        "projection": "OrthographicCamera",
+        "distance": 2.8250851162824984,
+        "target": [
+          0,
+          0.9001450538635254,
+          -0.01667480170726776
+        ],
+        "camera": [
+          0,
+          0.9001450538635256,
+          2.8084103145752306
+        ],
+        "effects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "revision": "02e3657bfe1d0fe392676010d7acb37c378075a4c771976f1a97188ea3646f12",
+            "triangles": 68180,
+            "meshes": 20,
+            "materials": 2,
+            "bounds": [
+              [
+                -0.7266045808792114,
+                0,
+                -0.4311794340610504
+              ],
+              [
+                0.7266045808792114,
+                1.8002901077270508,
+                0.3978298306465149
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-iso.png",
+      "sha256": "ae04eab492e8857f6854db8a311ffadaea5db830668e54df340bad80b1dff932",
+      "view": "inspector-iso",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "towers/copilot_octocat_2_0_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 3.6656022130076726,
+        "target": [
+          0,
+          0.9001450538635254,
+          -0.01667480170726776
+        ],
+        "camera": [
+          1.9018086117551052,
+          2.787266151283448,
+          2.4850321259590196
+        ],
+        "effects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "revision": "02e3657bfe1d0fe392676010d7acb37c378075a4c771976f1a97188ea3646f12",
+            "triangles": 68180,
+            "meshes": 20,
+            "materials": 2,
+            "bounds": [
+              [
+                -0.7266045808792114,
+                0,
+                -0.4311794340610504
+              ],
+              [
+                0.7266045808792114,
+                1.8002901077270508,
+                0.3978298306465149
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-rear.png",
+      "sha256": "0714eac60c3a602b9698afaa31d17d9c234b02d7d8a2c8a325884d177fccc0cb",
+      "view": "inspector-rear",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "towers/copilot_octocat_2_0_v01.glb",
+        "view": "rear",
+        "projection": "OrthographicCamera",
+        "distance": 2.8250851162824984,
+        "target": [
+          0,
+          0.9001450538635254,
+          -0.01667480170726776
+        ],
+        "camera": [
+          3.45973144497419e-16,
+          0.9001450538635256,
+          -2.841759917989766
+        ],
+        "effects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "revision": "02e3657bfe1d0fe392676010d7acb37c378075a4c771976f1a97188ea3646f12",
+            "triangles": 68180,
+            "meshes": 20,
+            "materials": 2,
+            "bounds": [
+              [
+                -0.7266045808792114,
+                0,
+                -0.4311794340610504
+              ],
+              [
+                0.7266045808792114,
+                1.8002901077270508,
+                0.3978298306465149
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-right.png",
+      "sha256": "473d4bd8616115332502bdcdc89ba3c1efd102c4857edb49670c7a883b953034",
+      "view": "inspector-right",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "towers/copilot_octocat_2_0_v01.glb",
+        "view": "right",
+        "projection": "OrthographicCamera",
+        "distance": 2.825085116282499,
+        "target": [
+          0,
+          0.9001450538635254,
+          -0.01667480170726776
+        ],
+        "camera": [
+          2.825085116282499,
+          0.9001450538635256,
+          -0.016674801707267588
+        ],
+        "effects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "revision": "02e3657bfe1d0fe392676010d7acb37c378075a4c771976f1a97188ea3646f12",
+            "triangles": 68180,
+            "meshes": 20,
+            "materials": 2,
+            "bounds": [
+              [
+                -0.7266045808792114,
+                0,
+                -0.4311794340610504
+              ],
+              [
+                0.7266045808792114,
+                1.8002901077270508,
+                0.3978298306465149
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/inspector-bottom.png",
+      "sha256": "b41e4cf13304e40182d84e943636eff99227555f3c197d9729890c4353e29f50",
+      "view": "inspector-bottom",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "towers/copilot_octocat_2_0_v01.glb",
+        "view": "bottom",
+        "projection": "OrthographicCamera",
+        "distance": 1.4001162386030948,
+        "target": [
+          0,
+          0.9001450538635254,
+          -0.01667480170726776
+        ],
+        "camera": [
+          0,
+          -0.49997117773898814,
+          -0.01653479008364034
+        ],
+        "effects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "revision": "02e3657bfe1d0fe392676010d7acb37c378075a4c771976f1a97188ea3646f12",
+            "triangles": 68180,
+            "meshes": 20,
+            "materials": 2,
+            "bounds": [
+              [
+                -0.7266045808792114,
+                0,
+                -0.4311794340610504
+              ],
+              [
+                0.7266045808792114,
+                1.8002901077270508,
+                0.3978298306465149
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/face-close-front.png",
+      "sha256": "3b83caf988e67656c03ef3ca1e3c86f7672ee1750c372b701e36e408bc28bf80",
+      "view": "face-close-front",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "towers/copilot_octocat_2_0_v01.glb",
+        "view": "front",
+        "projection": "OrthographicCamera",
+        "distance": 1.1571548636293116,
+        "target": [
+          0,
+          1.16299205550163,
+          -0.016674801707267775
+        ],
+        "camera": [
+          0,
+          1.16299205550163,
+          1.1404800619220439
+        ],
+        "effects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "revision": "02e3657bfe1d0fe392676010d7acb37c378075a4c771976f1a97188ea3646f12",
+            "triangles": 68180,
+            "meshes": 20,
+            "materials": 2,
+            "bounds": [
+              [
+                -0.7266045808792114,
+                0,
+                -0.4311794340610504
+              ],
+              [
+                0.7266045808792114,
+                1.8002901077270508,
+                0.3978298306465149
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/face-close-iso.png",
+      "sha256": "d7883b08c79db4d20f90c0016456845c839d5ecd9ff97701514e026b2b4ca369",
+      "view": "face-close-iso",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "towers/copilot_octocat_2_0_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 1.501430666447943,
+        "target": [
+          -0.10625770315141109,
+          1.1925260462823162,
+          -0.1564499770055187
+        ],
+        "camera": [
+          0.67272310422348,
+          1.9654908477855164,
+          0.868249180566593
+        ],
+        "effects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "revision": "02e3657bfe1d0fe392676010d7acb37c378075a4c771976f1a97188ea3646f12",
+            "triangles": 68180,
+            "meshes": 20,
+            "materials": 2,
+            "bounds": [
+              [
+                -0.7266045808792114,
+                0,
+                -0.4311794340610504
+              ],
+              [
+                0.7266045808792114,
+                1.8002901077270508,
+                0.3978298306465149
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/phone.png",
+      "sha256": "b5438a4833d25cc8696c2f432ef59982866d4d22787b26b4b6a65aa7a9105b99",
+      "view": "phone",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "towers/copilot_octocat_2_0_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 5.828395634120011,
+        "target": [
+          0,
+          0.9001450538635254,
+          -0.01667480170726776
+        ],
+        "camera": [
+          3.023921409243784,
+          3.90071296224912,
+          3.9610993504678897
+        ],
+        "effects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "revision": "02e3657bfe1d0fe392676010d7acb37c378075a4c771976f1a97188ea3646f12",
+            "triangles": 68180,
+            "meshes": 20,
+            "materials": 2,
+            "bounds": [
+              [
+                -0.7266045808792114,
+                0,
+                -0.4311794340610504
+              ],
+              [
+                0.7266045808792114,
+                1.8002901077270508,
+                0.3978298306465149
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    },
+    {
+      "path": "blender/towers/copilot_octocat_2_0/v01/renders/game-scale.png",
+      "sha256": "8a031322024af1edb65789139de0e69a4d721f0a7fdfa708bbd85dd11c6fda6b",
+      "view": "game-scale",
+      "camera": {
+        "resolveBudget": {
+          "used": 0,
+          "maxFragments": 256
+        },
+        "resolveEffects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb"
+          }
+        ],
+        "loading": false,
+        "activePath": "towers/copilot_octocat_2_0_v01.glb",
+        "view": "iso",
+        "projection": "OrthographicCamera",
+        "distance": 12.415115932836835,
+        "target": [
+          0,
+          0.9001450538635254,
+          -0.01667480170726776
+        ],
+        "camera": [
+          6.4412811388047055,
+          7.291680698574675,
+          8.456416311873694
+        ],
+        "effects": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "enabled": false,
+            "triangles": 0,
+            "meshes": 0,
+            "materials": 0
+          }
+        ],
+        "entries": [
+          {
+            "path": "towers/copilot_octocat_2_0_v01.glb",
+            "revision": "02e3657bfe1d0fe392676010d7acb37c378075a4c771976f1a97188ea3646f12",
+            "triangles": 68180,
+            "meshes": 20,
+            "materials": 2,
+            "bounds": [
+              [
+                -0.7266045808792114,
+                0,
+                -0.4311794340610504
+              ],
+              [
+                0.7266045808792114,
+                1.8002901077270508,
+                0.3978298306465149
+              ]
+            ],
+            "root": [
+              0,
+              0,
+              0
+            ],
+            "wrapper": [
+              0,
+              0,
+              0
+            ],
+            "clips": [],
+            "clip": null,
+            "time": 0,
+            "playing": false,
+            "loop": true,
+            "speed": 1,
+            "pose": []
+          }
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,37 @@
+
+> tower-game@0.1.0 test:e2e
+> playwright test tests/e2e/inspectionToolkit.spec.ts tests/e2e/showcaseRefinement.spec.ts tests/e2e/showcaseRenderer.spec.ts
+
+[WebServer] (node:43180) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 12 tests using 4 workers
+
+(node:15704) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:37876) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:43312) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:18476) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  4 [desktop-edge] › tests\e2e\showcaseRefinement.spec.ts:13:3 › Tower inspection usability › keyboard browsing reveals the selected portrait and explains stats without numeric readouts (13.1s)
+  ok  1 [desktop-edge] › tests\e2e\showcaseRefinement.spec.ts:31:3 › Tower inspection usability › keyboard camera controls keep a large preview and stats remain visible across layouts (13.5s)
+  ok  3 [desktop-edge] › tests\e2e\inspectionToolkit.spec.ts:3:1 › inspection keeps qualitative capabilities and collections in both appearances (14.1s)
+(node:50236) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  5 [desktop-edge] › tests\e2e\showcaseRenderer.spec.ts:43:3 › Tower showcase renderer lifecycle › skips automatic Resolve and Place under reduced motion and settles on Rest (3.7s)
+(node:50920) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  6 [desktop-edge] › tests\e2e\showcaseRenderer.spec.ts:64:3 › Tower showcase renderer lifecycle › keeps the preview region stationary when Tower availability text changes (4.4s)
+(node:49184) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  7 [touch-edge] › tests\e2e\inspectionToolkit.spec.ts:3:1 › inspection keeps qualitative capabilities and collections in both appearances (14.9s)
+  ok  8 [touch-edge] › tests\e2e\showcaseRefinement.spec.ts:13:3 › Tower inspection usability › keyboard browsing reveals the selected portrait and explains stats without numeric readouts (12.6s)
+  ok  9 [touch-edge] › tests\e2e\showcaseRefinement.spec.ts:31:3 › Tower inspection usability › keyboard camera controls keep a large preview and stats remain visible across layouts (14.3s)
+  ok  2 [desktop-edge] › tests\e2e\showcaseRenderer.spec.ts:6:3 › Tower showcase renderer lifecycle › keeps the latest model through rapid changes and survives repeated close/reopen (36.0s)
+  ok 11 [touch-edge] › tests\e2e\showcaseRenderer.spec.ts:43:3 › Tower showcase renderer lifecycle › skips automatic Resolve and Place under reduced motion and settles on Rest (5.7s)
+  ok 12 [touch-edge] › tests\e2e\showcaseRenderer.spec.ts:64:3 › Tower showcase renderer lifecycle › keeps the preview region stationary when Tower availability text changes (5.6s)
+  ok 10 [touch-edge] › tests\e2e\showcaseRenderer.spec.ts:6:3 › Tower showcase renderer lifecycle › keeps the latest model through rapid changes and survives repeated close/reopen (31.0s)
+
+  12 passed (1.1m)

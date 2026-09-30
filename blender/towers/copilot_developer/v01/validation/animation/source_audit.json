@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "revision": 12,
+  "sourceHash": "a1e9c9b1f37b5d338ad149afac441bf483bc078b6b9a39b092d3a44544f67d4f",
+  "bones": [
+    "body",
+    "eye_l",
+    "eye_r"
+  ],
+  "clips": [
+    "idle",
+    "work",
+    "move",
+    "place",
+    "hit",
+    "resolve"
+  ],
+  "checks": "No active action; muted named NLA tracks; one compact rig; rest transforms; packed images; 24 fps."
+}

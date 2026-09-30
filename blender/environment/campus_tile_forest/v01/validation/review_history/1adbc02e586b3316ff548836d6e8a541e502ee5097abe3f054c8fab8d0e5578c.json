@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_tile_forest",
+  "version": "v01",
+  "revision": 3,
+  "sha256": "085da1ce09f5cc6f9154f2451ee13c58e638e12ada91cca214b32e5d10c9f14e",
+  "sourceHash": "4536b0c8050970373825e8f2831b01a9791bc8cff350f2c47e279004d75033bf",
+  "scope": "model",
+  "reviewedAt": "2026-09-24T11:19:57.867Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Forty-two mixed trees sit on the preserved campus park hex, framing an eight-metre central clearing and a north–south opening."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Preserved terrain frame and six edge anchors. Top view shows crown clearance from the hex edge and route; reverse shows all trees seated on the terrain. Runtime has two meshes and two materials."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "At 390 px viewport width the hex border, central clearing, path opening and mixed foliage remain readable. Individual branches are subordinate scenery at this distance."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "The first layout read as orchard rows. Replaced it with crown-aware seeded scatter and reviewed the revision 3 top, oblique, reverse and phone views. The current woodland has irregular spacing, a clear center and clean terrain contact."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_tile_forest/v01/validation/iso.png",
+      "sha256": "8af4e4bcf672cb79393c480295b5af0505062159532d02c5d54218d113e3c072",
+      "view": "validation/iso"
+    },
+    {
+      "path": "blender/environment/campus_tile_forest/v01/validation/front.png",
+      "sha256": "8a345e6d52ea9cb9c53e71a1ceaaadea4a783c6d83a2e6aa9f5aab91d195367a",
+      "view": "validation/front"
+    },
+    {
+      "path": "blender/environment/campus_tile_forest/v01/validation/rear.png",
+      "sha256": "409403f977e18cfe79e64f8e2aa60353aafd8c9486359b43afd8463fca1a453c",
+      "view": "validation/rear"
+    },
+    {
+      "path": "blender/environment/campus_tile_forest/v01/validation/top.png",
+      "sha256": "02813d16e9cffd80dd78e0be4675228c3d75a6f0d3a25a00b792235c1a0f1ce1",
+      "view": "validation/top"
+    },
+    {
+      "path": "blender/environment/campus_tile_forest/v01/renders/inspector-close.png",
+      "sha256": "1fead2a3572ae77447c49b57d66f8f8447dedda7b2ad21cdeeb98c9bd34fd529",
+      "view": "renders/inspector-close"
+    },
+    {
+      "path": "blender/environment/campus_tile_forest/v01/renders/inspector-rear.png",
+      "sha256": "d3794c32235d32fafa74fb98ef092eb6769fea6b476d4247efdeee53ad1c7624",
+      "view": "renders/inspector-rear"
+    },
+    {
+      "path": "blender/environment/campus_tile_forest/v01/renders/inspector-phone.png",
+      "sha256": "239cc9e95f3c7788773b78bbecdf84eab3bea0374f00790f31c2fa46740a6999",
+      "view": "renders/inspector-phone"
+    },
+    {
+      "path": "blender/environment/campus_tile_forest/v01/renders/inspector-bottom.png",
+      "sha256": "38768ef58582d3997acc27be684225fc4f833d3e291468b11636fc761cdc33e1",
+      "view": "renders/inspector-bottom"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "New family delivered for user artistic review; no approval inferred."
+  },
+  "limitations": [
+    "Static environmental art; no collision, pathfinding or gameplay placement integration.",
+    "Includes the terrain slab; place as a terrain tile rather than stacking on another base."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "title": "Requirements Analyst Concepts",
+  "subtitle": "Gather needs, refine user stories and clarify acceptance criteria.",
+  "category": "Tower",
+  "options": [
+    {
+      "name": "Story Scribe",
+      "description": "Story card and stylus capture needs"
+    },
+    {
+      "name": "Needs Listener",
+      "description": "Conversation bubbles support stakeholder requirement gathering"
+    },
+    {
+      "name": "Scope Keeper",
+      "description": "Open brackets frame a fitted requirement"
+    },
+    {
+      "name": "Criteria Coach",
+      "description": "Bold checklist defines clear acceptance criteria"
+    },
+    {
+      "name": "Flow Guide",
+      "description": "Process blocks clarify user workflow decisions"
+    },
+    {
+      "name": "Story Weaver",
+      "description": "Linked story ribbons connect needs and value"
+    }
+  ]
+}

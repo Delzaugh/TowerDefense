@@ -1,0 +1,52 @@
+{
+  "asset": "problem_bug",
+  "sourceBefore": "c066855500b9ef9f1e50118e1cc3b8fdfc4c9b41d0ff3ef0abbc207b43c1a26a",
+  "revisionBefore": 12,
+  "colorsBefore": {
+    "shell": "#3267AF",
+    "shell_light": "#447CC2",
+    "shell_dark": "#285591",
+    "navy": "#233B58",
+    "face": "#344D69",
+    "edge": "#192E46",
+    "red": "#E51C30",
+    "red_dark": "#9B1524"
+  },
+  "colorsAfter": {
+    "edge": "#192E46",
+    "face": "#344D69",
+    "navy": "#233B58",
+    "red": "#E51C30",
+    "red_dark": "#9B1524",
+    "shell": "#3267AF",
+    "shell_dark": "#285591"
+  },
+  "objects": 5,
+  "actions": [
+    "hit",
+    "move",
+    "resolve",
+    "spawn"
+  ],
+  "images": [
+    {
+      "name": "problem_bug_palette",
+      "size": [
+        32,
+        4
+      ],
+      "packed": true
+    }
+  ],
+  "materialLinks": {
+    "bug_palette": [
+      {
+        "input": "Base Color",
+        "image": "problem_bug_palette"
+      }
+    ]
+  },
+  "passed": true,
+  "uniqueBaseColors": 7,
+  "checks": "Packed source pixels, material base bindings, palette policy, declared rectangles, metre scale, unchanged authoritative source hash"
+}

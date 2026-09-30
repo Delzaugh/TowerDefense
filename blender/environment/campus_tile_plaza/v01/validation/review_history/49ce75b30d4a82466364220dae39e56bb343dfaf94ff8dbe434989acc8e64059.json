@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "asset": "campus_tile_plaza",
+  "version": "v01",
+  "revision": 6,
+  "sha256": "518bed82b80f705d971a6f2de3b22216c92a25bcc49a7f3c4c28fa8e000a388b",
+  "sourceHash": "a6b7bb4877dcf80b96d7fa988b1a592b7d800bd504238f37b454d588461eb00e",
+  "scope": "refinement",
+  "reviewedAt": "2026-09-24T11:05:56.401Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Preserved the approved slate frame and warm stone interior. The user-requested join repair changes edge grain and matching roughness only."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Inspected exported isometric and rear views: flat outer joining band, continuous shell and trim, no raised rim or cracks. The boundary noise now fades to the common ground swatch, and roughness matches campus_base_hex at 0.92. Dimensions and all six edge anchors pass guarded validation."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected the actual campus in the browser at normal and close zoom and the touch-browser capture. The slate joining bands read continuously, with distinct landscaping interiors and unchanged prop/path clearance."
+    },
+    "motion": {
+      "status": "not_applicable",
+      "findings": "Static asset; no motion clips in the contract."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "Rechecked the finished export from the rear after the isometric review, then checked the seven-tile campus and phone layout. The frame is level, the terrain interior remains legible, and the repaired boundary does not introduce a rim or color step."
+  },
+  "evidence": [
+    {
+      "path": "blender/environment/campus_tile_plaza/v01/validation/iso.png",
+      "sha256": "0860ccc842010db003816ab97b1c4ec8fef429cce51e0f87d52721671b270279",
+      "view": "iso",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_plaza/v01/validation/rear.png",
+      "sha256": "b27863ed5669662a1bbd381935112f8383468047c3617b62b441323d59af61b2",
+      "view": "rear",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/environment/campus_tile_plaza/v01/validation/campus-mobile.png",
+      "sha256": "6f607fa2c14d94993347f8adac64c0051a1ef6de38084f84ee9958fc92f8661c",
+      "view": "campus-phone"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": ""
+  },
+  "limitations": []
+}

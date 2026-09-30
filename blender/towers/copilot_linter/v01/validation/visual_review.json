@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "asset": "copilot_linter",
+  "version": "v01",
+  "revision": 15,
+  "sha256": "661861e7c46c8433e9bc75f3543cf43674a90e3143756c1ad310e10fe48040a6",
+  "sourceHash": "2cca4b8faef59a5849aaf0871a17a335c9141b70dd14d99e73763740d6f2df58",
+  "scope": "palette",
+  "reviewedAt": "2026-09-26T21:49:28.904Z",
+  "checks": {
+    "referenceFidelity": {
+      "status": "passed",
+      "findings": "Preserved retained model identity and shell/trim/lens colours. Applied only the explicitly mapped supporting roles in Shared_Palette.json after the user chose to keep character identities and unify neutrals/accents. Compared actual final exports at matched scale and lighting."
+    },
+    "construction": {
+      "status": "passed",
+      "findings": "Exact GLB parity with before_shared_palette milestone verifies geometry, normals, UVs, rig, anchors and morph data. Inspected final iso and rear views: no new colour bleed or closed boundaries. Separate original emission image bytes and material response remain unchanged."
+    },
+    "readability": {
+      "status": "passed",
+      "findings": "Inspected the final Inspector phone/small rest and work views, and the five-character lineup on light/slate grounds. Dark screens remain distinct from casing; cyan marks and the original orange/lime/blue shell identities stay visible. No visual change beyond the deliberately subtle neutral/colour alignment was required."
+    },
+    "motion": {
+      "status": "passed",
+      "findings": "All animation samplers and channels match the retained runtime exactly. Inspected work at 0.5 seconds on the final small phone viewport; colour boundaries remain stable. This palette pass retains existing animation design and does not claim a new comprehensive lifecycle-effect review."
+    }
+  },
+  "secondPass": {
+    "status": "passed",
+    "findings": "After source export, rechecked current GLB hashes and both material palette bindings in the live shared Inspector, reviewed final iso/rear and small work views, and inspected the final roster/grayscale board. The only board repair was increasing Utility Yard framing to prevent clipping. No further model repair was indicated by this colour pass."
+  },
+  "evidence": [
+    {
+      "path": "blender/towers/copilot_linter/v01/validation/iso.png",
+      "sha256": "3c2ed6427eb71e8e2d22c2425bd3ae26cabe68a095fcc23450adb1a14ac402b7",
+      "view": "Final close isometric",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_linter/v01/validation/rear.png",
+      "sha256": "1981695c1f91f50e4c7aff7af799b6e219344f8075fc01d754c4d21f305da8e1",
+      "view": "Final reverse",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_linter/v01/validation/shared-palette-phone.png",
+      "sha256": "a16d0ba193be6bafd6b199b994d26b1fd3c36ae3879496f4fbe601db43aaa25e",
+      "view": "Phone-width small rest pose",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_linter/v01/validation/shared-palette-work-phone.png",
+      "sha256": "10e6f63ffd251dba2eaead8943f4d049feb84fffdf67903cd2b680e66e3c7497",
+      "view": "Phone-width small work at 0.5s",
+      "mode": "shaded"
+    },
+    {
+      "path": "blender/towers/copilot_linter/v01/validation/shared_palette_parity.json",
+      "sha256": "1a5780e0d4610eabf02fecb9cf74332f1784542d49b56955a60f5f0dc238f9ef",
+      "view": "Exact before/after GLB geometry, animation and emission parity",
+      "mode": "audit"
+    }
+  ],
+  "presentationFiles": [
+    {
+      "path": "tools/asset-presentation/digital-resolve.js",
+      "sha256": "98f1aa5265c1e9d18ea15c5fa65d453dbceecb7b84e31c7d942b1f225c5289c5"
+    },
+    {
+      "path": "tools/asset-presentation/lifecycle.js",
+      "sha256": "bf762e1a3ea889bc36c60e2268fc3ab0aaf3a053c2bf9d2455029f91bb1a08f8"
+    }
+  ],
+  "userAcceptance": {
+    "status": "pending",
+    "note": "User authorized keeping character identities and unifying supporting neutrals/accents; artistic acceptance of these exact revised exports is not inferred."
+  },
+  "limitations": [
+    "Roster fixture uses controlled authored scale, not the final gameplay camera. Grayscale is not colour-vision-deficiency certification.",
+    "Emission image preservation adds roughly 0.4 KB per GLB, within existing budgets."
+  ]
+}

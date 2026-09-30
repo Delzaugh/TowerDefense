@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_analyst",
+  "displayName": "Analyst — Insight Owl",
+  "category": "towers",
+  "version": "v01",
+  "revision": 5,
+  "source": {
+    "path": "blender/towers/copilot_analyst/v01/copilot_analyst_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_analyst/v01/build.py",
+    "authoritativeHash": "61865be55355993432d481834d4b54e0ec13be3e52e7affa89f30ead09e90388"
+  },
+  "runtime": "assets/runtime/towers/copilot_analyst_v01.glb",
+  "budgets": {
+    "triangles": 2500,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 32,
+    "bones": 0,
+    "meshes": 2
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target"
+    ],
+    "dimensions": {
+      "min": [
+        2.6,
+        1.7,
+        1.6
+      ],
+      "max": [
+        3,
+        2.1,
+        2.3
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "path": "blender/towers/copilot_analyst/v01/references/selected-front.png",
+      "provenance": "Concept03 Insight Owl selected by user-authorized GPT6.1sol subagent, 2026-09-30. Authoritative front."
+    },
+    {
+      "path": "blender/towers/copilot_analyst/v01/references/six-angle-concept.png",
+      "provenance": "Generated illustrative views; rear inferred, selected front governs."
+    }
+  ],
+  "overrides": [],
+  "milestones": [
+    {
+      "label": "before_r3",
+      "revision": 2,
+      "export": "blender/towers/copilot_analyst/v01/revisions/r2_before_r3/copilot_analyst_v01.glb",
+      "source": "blender/towers/copilot_analyst/v01/revisions/r2_before_r3/copilot_analyst_v01.blend",
+      "sha256": "94c40ae7819cfefe3021a206528b3e93cefdf068e2c13f76b420d5aaf01d1c8e",
+      "sourceHash": "4dfa8335792c89992097817a62bae1fd3baa747d45602811a803581326291313"
+    },
+    {
+      "label": "before_r4",
+      "revision": 3,
+      "export": "blender/towers/copilot_analyst/v01/revisions/r3_before_r4/copilot_analyst_v01.glb",
+      "source": "blender/towers/copilot_analyst/v01/revisions/r3_before_r4/copilot_analyst_v01.blend",
+      "sha256": "cd738b6c4ee6be6e7137719fa40696d1296328b2042103250c5ca3eab2dea9c7",
+      "sourceHash": "aac08722ad127aa97265144c1a721b74f77b24db51f13eb7104b9de038e25dec"
+    }
+  ],
+  "decisions": "blender/towers/copilot_analyst/v01/decisions.md",
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "texturePalettes": [
+    {
+      "material": "analyst_palette",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#91D9D2",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#398D94",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#E2EDF0",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#333E48",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#041D2A",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#087F8E",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E5EF",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#22313A",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    },
+    {
+      "material": "analyst_optics",
+      "size": [
+        32,
+        4
+      ],
+      "roles": {
+        "shell": {
+          "color": "#91D9D2",
+          "rect": [
+            0,
+            0,
+            4,
+            4
+          ]
+        },
+        "shell_dark": {
+          "color": "#398D94",
+          "rect": [
+            4,
+            0,
+            4,
+            4
+          ]
+        },
+        "trim": {
+          "color": "#E2EDF0",
+          "rect": [
+            8,
+            0,
+            4,
+            4
+          ]
+        },
+        "graphite": {
+          "color": "#333E48",
+          "rect": [
+            12,
+            0,
+            4,
+            4
+          ]
+        },
+        "screen": {
+          "color": "#041D2A",
+          "rect": [
+            16,
+            0,
+            4,
+            4
+          ]
+        },
+        "lens": {
+          "color": "#087F8E",
+          "rect": [
+            20,
+            0,
+            4,
+            4
+          ]
+        },
+        "cyan": {
+          "color": "#00E5EF",
+          "rect": [
+            24,
+            0,
+            4,
+            4
+          ]
+        },
+        "detail": {
+          "color": "#22313A",
+          "rect": [
+            28,
+            0,
+            4,
+            4
+          ]
+        }
+      }
+    }
+  ],
+  "delivery": {
+    "sha256": "4bb74295a7c3db03f2f8c83b36933911894bac3cb764a6c2699b01dff24bd01f",
+    "sourceHash": "61865be55355993432d481834d4b54e0ec13be3e52e7affa89f30ead09e90388",
+    "report": "blender/towers/copilot_analyst/v01/validation/report.json",
+    "deliveredAt": "2026-09-30T11:24:14.956Z"
+  }
+}

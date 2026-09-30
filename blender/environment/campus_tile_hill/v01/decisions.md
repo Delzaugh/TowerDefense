@@ -13,3 +13,22 @@ Revision 2; source SHA-256 77e6b0d551a2e4f559904978dee071e72efb2c8af4778ab7cecb3
 ## Shared-edge seam removal — user request, 2026-09-18
 
 The shared terrain construction no longer uses a distinct top seam-inlay appearance; its flush joining surface now continues the ground material while the structural shell, trim, elevation and anchors remain unchanged.
+
+## Continuous baseplate joins — 2026-09-24
+
+User reported artifacts where baseplates meet. Revision 6 fades terrain grain to the shared ground color across the same 1.4 m quiet band as the mineral foundation, and matches its 0.92 roughness. Palette, interiors, geometry, dimensions and attachment anchors are preserved. Guarded source rebuild and exported isometric/rear plus campus desktop/phone visual checks pass; user artistic acceptance remains pending. Current hashes and evidence are in validation/visual_review.json.
+
+
+## Narrow terrain joins — 2026-09-24
+
+User rejected the broad blue separators. Surface colour now reaches the perimeter through a .54 m muted neutral transition, with a .06 m quiet edge; the outer structural wall and all terrain/connection geometry remain unchanged. Utility has full concrete paving, expansion joints, service bays and flush drains. This supersedes the previous 1.4 m slate surface border. Source-authored packed textures, not runtime tint.
+
+## Ridge revamp — 2026-09-24
+
+User rejected the two isolated humps. Replace them with linked unequal grassy ridges, staggered summits, saddles and longer shoulders. Preserve the shared 1.4 m level geometry band, the current narrow colour transition, anchors and existing furnishing pockets. The central corridor is level for |x| <= 4.8 m. Existing two-mound description above is superseded.
+
+## Final author review — revision 10
+
+Rechecked revision 10 isometric and reverse renders after filling boundary triangles: no missing edge faces, no radial pleats, and continuous level interfaces. Existing flat central route and outer furnishing pockets remain usable.
+
+Guarded technical export and hash-bound visual review completed. Source/export identities and inspected evidence are recorded in validation/visual_review.json. User artistic acceptance remains pending.

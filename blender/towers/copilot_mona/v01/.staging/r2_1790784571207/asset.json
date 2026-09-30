@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "copilot_mona",
+  "displayName": "GitHub Mona — Full Body",
+  "category": "towers",
+  "version": "v01",
+  "revision": 2,
+  "source": {
+    "path": "blender/towers/copilot_mona/v01/copilot_mona_v01.blend",
+    "mode": "procedural",
+    "recipe": "blender/towers/copilot_mona/v01/build.py"
+  },
+  "runtime": "assets/runtime/towers/copilot_mona_v01.glb",
+  "budgets": {
+    "triangles": 8500,
+    "materials": 2,
+    "textures": 2,
+    "textureSize": 512,
+    "bones": 0,
+    "meshes": 22
+  },
+  "contract": {
+    "root": "root",
+    "up": "+Y",
+    "forward": "+Z",
+    "metres": true,
+    "grounded": true,
+    "groundTolerance": 0.002,
+    "rootMotion": false,
+    "anchors": [
+      "anchor_ui",
+      "anchor_action",
+      "anchor_target",
+      "anchor_hat",
+      "anchor_face",
+      "anchor_chest",
+      "anchor_back",
+      "anchor_hand_left",
+      "anchor_hand_right"
+    ],
+    "dimensions": {
+      "min": [
+        1.1,
+        1.79,
+        0.65
+      ],
+      "max": [
+        1.6,
+        1.81,
+        1.4
+      ]
+    }
+  },
+  "clips": [],
+  "references": [
+    {
+      "url": "https://brand.github.com/graphic-elements/mascots",
+      "path": "blender/towers/copilot_mona/v01/references/github_mona_official.png",
+      "provenance": "Official GitHub contemporary Mona head: primary shape, colours and facial features. Downloaded 2026-09-30."
+    },
+    {
+      "url": "https://brand.github.com/_next/static/media/mascots-11.d40c1a26.png",
+      "path": "blender/towers/copilot_mona/v01/references/github_octocat_anatomy.png",
+      "provenance": "Official GitHub full-body Octocat 2.0 anatomy. Body adaptation, not an official purple Mona turnaround."
+    },
+    {
+      "path": "blender/towers/copilot_mona_head/v01/copilot_mona_head_v01.blend",
+      "provenance": "Inspected existing head model. Preserved separately; new reference-led full model."
+    }
+  ],
+  "overrides": [
+    {
+      "field": "budgets.triangles",
+      "reason": "New model allows 8500 triangles for coherent rounded head, five continuous tentacles and visible suction cup rows; packed 512px facial gradient plus tiny palette. Lower than existing full Octocat hero models."
+    }
+  ],
+  "milestones": [],
+  "decisions": "blender/towers/copilot_mona/v01/decisions.md",
+  "exportSettings": {
+    "paletteSampler": "linear"
+  },
+  "texturePalettes": [
+    {
+      "material": "mona_palette",
+      "size": [
+        128,
+        64
+      ],
+      "roles": {
+        "fur": {
+          "color": "#6744EF",
+          "rect": [
+            96,
+            0,
+            4,
+            64
+          ]
+        },
+        "face": {
+          "color": "#FF80D4",
+          "rect": [
+            100,
+            0,
+            4,
+            64
+          ]
+        },
+        "eyes": {
+          "color": "#FFF1FA",
+          "rect": [
+            104,
+            0,
+            4,
+            64
+          ]
+        },
+        "iris": {
+          "color": "#31136E",
+          "rect": [
+            108,
+            0,
+            4,
+            64
+          ]
+        },
+        "suckers": {
+          "color": "#FFAFE6",
+          "rect": [
+            112,
+            0,
+            4,
+            64
+          ]
+        },
+        "inner_ear": {
+          "color": "#FF80D4",
+          "rect": [
+            116,
+            0,
+            4,
+            64
+          ]
+        },
+        "smile": {
+          "color": "#31136E",
+          "rect": [
+            120,
+            0,
+            4,
+            64
+          ]
+        },
+        "highlight": {
+          "color": "#FFFFFF",
+          "rect": [
+            124,
+            0,
+            4,
+            64
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "campus_tree_tall_bare",
+  "placements": [
+    {
+      "shape": "tall",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "scale": 1,
+      "rotationY": 0,
+      "palette": {}
+    }
+  ],
+  "foliageVertices": 28,
+  "nonManifoldEdges": 0,
+  "zeroAreaFaces": 0,
+  "minimumContactHeight": 9.05990600319484e-8,
+  "maximumHeight": 4.43999979019165,
+  "anchors": {
+    "anchor_ui": [
+      0,
+      4.68999979019165,
+      0
+    ]
+  },
+  "paletteSha256": "5bf6f19b097f5a46ffe80ccbc29b949c4c8454829ad959c1ff2ef3d80c2a2367",
+  "sourceHash": "6c0272bd5e21339a03e378c3e80895912008c261d027cbd36f426902a370baa3",
+  "sha256": "9e29cd96c2c63be4ab88d84a680275ccd0eb4cfc9a2a634d6be39cfa0c0651f9"
+}

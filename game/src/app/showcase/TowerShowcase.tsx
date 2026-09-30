@@ -7,6 +7,7 @@ import type { TowerReference } from '../../content/towers/catalog';
 import type { AnimationChoice, ShowcaseStatus, TowerShowcaseScene } from '../../rendering/showcase/types';
 import { getVisualStats } from './visualStats';
 import type { TowerShowcaseDialogProps } from './types';
+import { Button, IconButton, SegmentedControl, StatGauge, StatusBadge } from '../../ui/toolkit';
 
 const STAT_ICONS: Record<string, typeof ZapIcon> = { damage: ZapIcon, 'work-throughput': CodeIcon, 'action-cadence': MeterIcon, range: CrosshairsIcon, investment: CpuIcon };
 const bundledPortraits = import.meta.glob<string>('./portraits/*.png', { eager: true, import: 'default', query: '?url' });
@@ -20,17 +21,12 @@ function Portrait({ tower, source }: { tower: TowerReference; source: string | u
 
 function TowerStats({ tower }: { tower: TowerReference }) {
   const stats = getVisualStats(tower);
-  return <section className="codex-console codex-stats" aria-labelledby="codex-stats-title">
-    <div className="codex-console-heading"><h2 id="codex-stats-title">Stats</h2></div>
+  return <section className="ui-surface codex-console codex-stats" aria-labelledby="codex-stats-title">
+    <div className="codex-console-heading"><h2 id="codex-stats-title">Capabilities</h2></div>
     <p className="codex-tower-description">{tower.description}</p>
     {stats.length ? <div className="codex-gauges">{stats.map(stat => {
       const Icon = STAT_ICONS[stat.id] ?? PulseIcon;
-      return <div key={stat.id} className={`codex-gauge codex-gauge-${stat.tone}`}>
-        <Icon size={24} /><span className="codex-gauge-body"><span className="codex-gauge-label">{stat.label}</span>
-          <span className="codex-segments" aria-hidden="true">{Array.from({ length: 8 }, (_, index) => <i key={index} className={index < stat.segments ? 'is-filled' : ''} />)}</span>
-          <span className="codex-gauge-description">{stat.description}</span>
-        </span>
-      </div>;
+      return <StatGauge key={stat.id} className={`codex-gauge codex-gauge-${stat.tone}`} label={stat.label} value={stat.segments} max={8} showValue={false} segments={8} valueText={stat.description} caption={stat.description} tone={stat.tone === 'teal' ? 'positive' : 'accent'} icon={<Icon size={20} />} />;
     })}</div> : <p className="codex-unavailable-copy">Stats not yet defined</p>}
     {tower.abilities.length > 0 && <div className="codex-abilities"><span className="codex-eyebrow">{tower.id === 'analyst' ? 'PASSIVE SUPPORT' : 'SPECIAL ABILITIES'}</span>{tower.abilities.map(ability => <p key={ability}>{ability}</p>)}</div>}
     {tower.stats && <div className="codex-coverage"><svg viewBox="0 0 80 42" aria-hidden="true"><path d="m8 22 31-16 33 16-31 16Z" fill="#82939c" opacity=".14"/><ellipse cx="40" cy="22" rx={10 + tower.stats.range * 2} ry={4 + tower.stats.range * .7} fill="none" stroke="#8abfbd" strokeWidth="1.5" strokeDasharray="3 3"/><path d="m40 14 7 4v8l-7 4-7-4v-8Z" fill="#aaa5ed"/><path d="m33 18 7 4 7-4M40 22v8" fill="none" stroke="#293951"/></svg><span>{tower.id === 'analyst' ? 'Support coverage' : tower.id === 'linter' ? 'Radial coverage' : 'Coverage preview'}<small>Terrain can shape coverage.</small></span></div>}
@@ -122,20 +118,20 @@ export function TowerShowcase({ selectedTower, onSelectTower, reducedMotion }: O
     <canvas ref={canvas} key={attempt} className="codex-scene" aria-hidden="true" />
     <div className="codex-room-shade" aria-hidden="true" />
     <div className="codex-workspace">
-      <section className="codex-console codex-collection" aria-labelledby="codex-collection-title">
-        <div className="codex-console-heading"><h2 id="codex-collection-title">Towers</h2><PackageIcon size={17} /></div>
-        {hasDevelopment && <div className="codex-collections" role="group" aria-label="Tower collection"><button type="button" aria-pressed={collection === 'core'} onClick={() => { setCollection('core'); if (tower.collection !== 'core') choose('developer'); }}>Personas</button><button type="button" aria-pressed={collection === 'development'} onClick={() => { setCollection('development'); const first = TOWERS.find(item => item.collection === 'development'); if (first && tower.collection !== 'development') choose(first.id); }}>In development</button></div>}
-        <div ref={rosterElement} className="codex-roster" role="group" aria-label="Choose a Tower">{roster.map(item => <button key={item.id} type="button" className="codex-portrait" data-tower={item.id} data-preview={item.modelId ? 'available' : 'coming-soon'} tabIndex={item.id === tower.id ? 0 : -1} aria-pressed={item.id === tower.id} aria-label={item.title} aria-describedby={!item.modelId ? 'codex-missing-model-hint' : undefined} onClick={() => choose(item.id)} onKeyDown={event => onPortraitKey(event, item.id)}>
+      <section className="ui-surface codex-console codex-collection" aria-labelledby="codex-collection-title">
+        <div className="codex-collection-top"><h2 id="codex-collection-title">Your specialists</h2>
+        {hasDevelopment && <SegmentedControl className="codex-collections" label="Tower collection" value={collection} options={[{ value: 'core', label: 'Personas' }, { value: 'development', label: 'In development' }]} onChange={value => { const next = value as 'core' | 'development'; setCollection(next); if (tower.collection !== next) { const first = TOWERS.find(item => item.collection === next); if (first) choose(next === 'core' ? 'developer' : first.id); } }} />}</div>
+        <div ref={rosterElement} className="codex-roster" role="group" aria-label="Choose a Tower">{roster.map(item => <Button key={item.id} variant="quiet" className="codex-portrait" data-tower={item.id} data-preview={item.modelId ? 'available' : 'coming-soon'} tabIndex={item.id === tower.id ? 0 : -1} aria-pressed={item.id === tower.id} aria-label={item.title} aria-describedby={!item.modelId ? 'codex-missing-model-hint' : undefined} onClick={() => choose(item.id)} onKeyDown={event => onPortraitKey(event, item.id)}>
           <Portrait tower={item} source={portraits[item.id]} /><span className="codex-portrait-name">{item.title === 'Base Copilot' ? 'Base' : item.title === 'Linter Agent' ? 'Linter' : item.title}</span>{!item.modelId && <span className="codex-portrait-status">Preview soon</span>}{item.id === tower.id && <span className="codex-selected-mark"><CheckIcon size={13} /></span>}
-        </button>)}</div>
+        </Button>)}</div>
         <span id="codex-missing-model-hint" className="codex-sr-only">Model preview coming soon. Role and stats are available.</span>
-        <div className="codex-collection-foot"><span>Browse your specialists</span><button type="button" className="codex-mini-key" aria-label="Previous Tower" onClick={() => step(-1)}><ChevronLeftIcon /></button><button type="button" className="codex-mini-key" aria-label="Next Tower" onClick={() => step(1)}><ChevronRightIcon /></button></div>
+        <div className="codex-collection-foot"><IconButton variant="quiet" aria-label="Previous Tower" onClick={() => step(-1)}><ChevronLeftIcon /></IconButton><IconButton variant="quiet" aria-label="Next Tower" onClick={() => step(1)}><ChevronRightIcon /></IconButton></div>
       </section>
 
-      <div className="codex-model-heading" aria-live="polite"><span className="codex-eyebrow">{tower.collection === 'development' ? 'IN DEVELOPMENT' : tower.id === 'base' ? 'BASE COPILOT' : 'COPILOT PERSONA'}</span><h2>{tower.title}</h2><p>{tower.role}</p><span className="codex-availability">{tower.availability || '\u00a0'}</span></div>
+      <div className="codex-model-heading" aria-live="polite"><span className="codex-eyebrow">{tower.collection === 'development' ? 'IN DEVELOPMENT' : tower.id === 'base' ? 'BASE COPILOT' : 'COPILOT PERSONA'}</span><h2>{tower.title}</h2><p>{tower.role}</p><div className="codex-availability">{tower.availability && <StatusBadge tone="neutral">{tower.availability}</StatusBadge>}</div></div>
       <div ref={viewport} className="codex-model-viewport" role="group" aria-label={`${tower.title} model preview`} tabIndex={status.phase === 'ready' ? 0 : -1} onKeyDown={previewKey} aria-describedby="codex-preview-instructions">
         {(status.phase === 'loading' || status.phase === 'missing' || status.phase === 'error') && <div className="codex-preview-message" role="status">
-          {status.phase === 'loading' ? <><span className="codex-loader" aria-hidden="true" /><p>Bringing {tower.title} into view…</p></> : status.phase === 'missing' ? <><Portrait tower={tower} source={undefined} /><h3>Model preview coming soon</h3><p>Explore this Tower’s role and capabilities.</p></> : <><PackageIcon size={36} /><h3>Preview unavailable</h3><p>{status.message}</p><button type="button" className="codex-key" onClick={() => setAttempt(value => value + 1)}>Retry preview</button><button type="button" className="codex-key" onClick={() => window.location.reload()}>Reload app</button></>}
+          {status.phase === 'loading' ? <><span className="codex-loader" aria-hidden="true" /><p>Bringing {tower.title} into view…</p></> : status.phase === 'missing' ? <><Portrait tower={tower} source={undefined} /><h3>Model preview coming soon</h3><p>Explore this Tower’s role and capabilities.</p></> : <><PackageIcon size={36} /><h3>Preview unavailable</h3><p>{status.message}</p><Button onClick={() => setAttempt(value => value + 1)}>Retry preview</Button><Button onClick={() => window.location.reload()}>Reload app</Button></>}
         </div>}
         <span className="codex-switch-status" role="status">{status.phase === 'resolving' ? 'Switching Tower…' : status.phase === 'placing' ? 'Arriving at the workbench…' : ''}</span>
       </div>

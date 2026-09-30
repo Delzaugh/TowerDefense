@@ -1,6 +1,7 @@
 import { Component, Suspense, lazy, useSyncExternalStore } from 'react';
 import type { ReactNode } from 'react';
 import { resolveAppRoute } from './routes';
+import { Button } from '../ui/toolkit';
 
 const HomeScreen = lazy(async () => ({ default: (await import('./home/HomeScreen')).HomeScreen }));
 const LabScreen = lazy(async () => ({ default: (await import('./LabScreen')).LabScreen }));
@@ -17,7 +18,7 @@ class ScreenBoundary extends Component<{ children: ReactNode }, { failed: boolea
   state = { failed: false };
   static getDerivedStateFromError() { return { failed: true }; }
   render() {
-    return this.state.failed ? <StartupNotice><h1>Let’s try that again.</h1><p>The application couldn’t finish opening.</p><button onClick={() => window.location.reload()}>Reload app</button><a href="#/">Return home</a></StartupNotice> : this.props.children;
+    return this.state.failed ? <StartupNotice><h1>Let’s try that again.</h1><p>The application couldn’t finish opening.</p><Button variant="primary" onClick={() => window.location.reload()}>Reload app</Button><a href="#/">Return home</a></StartupNotice> : this.props.children;
   }
 }
 export function App() {

@@ -4,7 +4,7 @@ test('the subpath build opens home, preserves route navigation and fits landscap
   const errors: string[] = []; page.on('pageerror', error => errors.push(error.message));
   await page.goto('./');
   await expect(page.getByTestId('home-screen')).toHaveAttribute('data-state', 'ready', { timeout: 30_000 });
-  await expect(page.getByRole('heading', { name: 'Space to make progress.' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Meet your Copilots.' })).toBeVisible();
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await page.screenshot({ path: info.outputPath('home-landscape-subpath.png'), fullPage: true });
   await page.evaluate(() => { location.hash = '/lab'; });

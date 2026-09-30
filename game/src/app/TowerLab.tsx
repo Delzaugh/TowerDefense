@@ -1,3 +1,4 @@
+import { Button, Select } from '../ui/toolkit';
 import { useEffect, useMemo, useRef, useState, useSyncExternalStore } from 'react';
 import type { EncounterLabSession } from '../session/createEncounterLab';
 import { toLogicalPoint } from '../input/pointerInput';
@@ -84,8 +85,8 @@ export function TowerLab({ session, inspectorHost }: { session: EncounterLabSess
   function updateDraft(point: Point) { setPosition({ x: Math.round(point.x * 10) / 10, z: Math.round(point.z * 10) / 10 }); }
   return <>
     <div className="map-toolbar">
-      {content.towerDefinitions.length > 1 && <label>Tower type<select aria-label="Tower type" value={definitionId} disabled={!editable} onChange={event => { setChosenDefinition(event.target.value); setPlacing(true); }}>{content.towerDefinitions.map(item => <option key={item.id} value={item.id}>{item.label}</option>)}</select></label>}
-      <button disabled={!editable} aria-pressed={placing} onClick={() => { setPlacing(!placing); setMarking(false); }}>{placing ? 'Cancel map placement' : 'Place on map'}</button>
+      {content.towerDefinitions.length > 1 && <label>Tower type<Select aria-label="Tower type" value={definitionId} disabled={!editable} onChange={event => { setChosenDefinition(event.target.value); setPlacing(true); }}>{content.towerDefinitions.map(item => <option key={item.id} value={item.id}>{item.label}</option>)}</Select></label>}
+      <Button disabled={!editable} aria-pressed={placing} onClick={() => { setPlacing(!placing); setMarking(false); }}>{placing ? 'Cancel map placement' : 'Place on map'}</Button>
       <span className="badge" data-testid="tower-count">{state.towers.length} / {content.towerLimit ?? 100} towers</span>
       <p className="hint" id="map-instructions">{!editable
         ? state.paused ? 'Paused: resume to place towers or markers.' : view.busy ? 'Saving/loading: map edits are temporarily locked.' : 'Encounter finished: reset to place towers.'
@@ -139,49 +140,49 @@ export function TowerLab({ session, inspectorHost }: { session: EncounterLabSess
         if (hit) { select(hit.id); setPlacing(false); }
         else if (placing) { updateDraft(point); place({ x: Math.round(point.x * 10) / 10, z: Math.round(point.z * 10) / 10 }, true); }
       }}>
-      <defs><pattern id="blocked-coverage" patternUnits="userSpaceOnUse" width="0.3" height="0.3"><path d="M0 0 L.3 .3" stroke="#956956" strokeWidth="0.03" /></pattern><pattern id="test-grid" width="1" height="1" patternUnits="userSpaceOnUse"><path d="M1 0 L0 0 L0 1" fill="none" stroke="#c6d3c4" strokeWidth=".025" /></pattern></defs>
-      <rect x={content.map.buildable.min.x} y={content.map.buildable.min.z} width={content.map.buildable.max.x - content.map.buildable.min.x} height={content.map.buildable.max.z - content.map.buildable.min.z} fill="#e9eee5" />
+      <defs><pattern id="blocked-coverage" patternUnits="userSpaceOnUse" width="0.3" height="0.3"><path d="M0 0 L.3 .3" stroke="var(--ui-map-obstacle-edge)" strokeWidth="0.03" /></pattern><pattern id="test-grid" width="1" height="1" patternUnits="userSpaceOnUse"><path d="M1 0 L0 0 L0 1" fill="none" stroke="var(--ui-map-grid)" strokeWidth=".025" /></pattern></defs>
+      <rect x={content.map.buildable.min.x} y={content.map.buildable.min.z} width={content.map.buildable.max.x - content.map.buildable.min.x} height={content.map.buildable.max.z - content.map.buildable.min.z} fill="var(--ui-map-bg)" />
       <rect x={content.map.buildable.min.x} y={content.map.buildable.min.z} width={content.map.buildable.max.x - content.map.buildable.min.x} height={content.map.buildable.max.z - content.map.buildable.min.z} fill="url(#test-grid)" />
-      {coverageShapes && <g pointerEvents="none"><polygon data-testid="coverage-outline" points={coverageShapes.nominal} fill="url(#blocked-coverage)" stroke="#617668" strokeWidth="0.04" strokeDasharray="0.15 .15" /><polygon points={coverageShapes.effective} fill="#c3dfce" stroke="#318165" strokeWidth="0.04" /></g>}
-      {content.map.routes.map(route => <g key={route.id}><polyline points={route.points.map(point => `${point.x},${point.z}`).join(' ')} fill="none" stroke="#bdccbe" strokeWidth={route.width} strokeLinecap="round" strokeLinejoin="round" /><rect x={route.points.at(-1)!.x - .35} y={route.points.at(-1)!.z - .35} width=".7" height=".7" fill={state.phase === 'failed' ? '#934b3d' : '#405867'} /><text x={route.points.at(-1)!.x} y={route.points.at(-1)!.z - 1} textAnchor="middle" fontSize="0.4">Product</text></g>)}
-      {content.map.obstacles.map(obstacle => <g key={obstacle.id}><rect x={obstacle.footprint.min.x} y={obstacle.footprint.min.z} width={obstacle.footprint.max.x - obstacle.footprint.min.x} height={obstacle.footprint.max.z - obstacle.footprint.min.z} fill="#c5a18c" stroke="#734a37" strokeWidth="0.05" /><text x={(obstacle.footprint.min.x + obstacle.footprint.max.x) / 2} y={obstacle.footprint.max.z + 0.5} textAnchor="middle" fontSize="0.38">Blocked</text></g>)}
+      {coverageShapes && <g pointerEvents="none"><polygon data-testid="coverage-outline" points={coverageShapes.nominal} fill="url(#blocked-coverage)" stroke="var(--ui-muted)" strokeWidth="0.04" strokeDasharray="0.15 .15" /><polygon points={coverageShapes.effective} fill="var(--ui-map-coverage)" stroke="var(--ui-map-coverage-edge)" strokeWidth="0.04" /></g>}
+      {content.map.routes.map(route => <g key={route.id}><polyline points={route.points.map(point => `${point.x},${point.z}`).join(' ')} fill="none" stroke="var(--ui-map-path)" strokeWidth={route.width} strokeLinecap="round" strokeLinejoin="round" /><rect x={route.points.at(-1)!.x - .35} y={route.points.at(-1)!.z - .35} width=".7" height=".7" fill={state.phase === 'failed' ? 'var(--ui-danger)' : 'var(--ui-map-tower)'} /><text x={route.points.at(-1)!.x} y={route.points.at(-1)!.z - 1} textAnchor="middle" fontSize="0.4">Product</text></g>)}
+      {content.map.obstacles.map(obstacle => <g key={obstacle.id}><rect x={obstacle.footprint.min.x} y={obstacle.footprint.min.z} width={obstacle.footprint.max.x - obstacle.footprint.min.x} height={obstacle.footprint.max.z - obstacle.footprint.min.z} fill="var(--ui-map-obstacle)" stroke="var(--ui-map-obstacle-edge)" strokeWidth="0.05" /><text x={(obstacle.footprint.min.x + obstacle.footprint.max.x) / 2} y={obstacle.footprint.max.z + 0.5} textAnchor="middle" fontSize="0.38">Blocked</text></g>)}
       {view.entities.map(entity => <g data-testid="traffic-entity" key={entity.id} transform={`translate(${entity.position.x},${entity.position.z})`}>
-        {entity.kind === 'work' ? <rect x="-.3" y="-.3" width=".6" height=".6" fill="#237b68" stroke="white" strokeWidth=".07" /> : <circle r=".33" fill="#b56843" stroke="white" strokeWidth=".07" />}
+        {entity.kind === 'work' ? <rect x="-.3" y="-.3" width=".6" height=".6" fill="var(--ui-map-work)" stroke="white" strokeWidth=".07" /> : <circle r=".33" fill="var(--ui-map-problem)" stroke="white" strokeWidth=".07" />}
         <text y="-.6" fontSize=".38" textAnchor="middle">{entity.kind === 'work' ? 'W' : 'P'}{entity.id} · {entity.remaining}{entity.slowPercent > 0 ? ` · −${entity.slowPercent}%` : ''}</text>
       </g>)}
       {state.towers.map(tower => {
         const target = view.entities.find(entity => entity.id === tower.action?.targetId);
         return <g key={tower.id} data-testid="placed-tower" data-rotatable-tower={planning && tower.coverageKind === 'cone' && content.towerDefinitions.find(item => item.id === tower.definitionId)!.canRotate ? 'true' : undefined} style={{ touchAction: planning && tower.coverageKind === 'cone' && content.towerDefinitions.find(item => item.id === tower.definitionId)!.canRotate ? 'none' : 'pan-y' }}>
           <circle cx={tower.position.x} cy={tower.position.z} r={hitRadius(tower)} fill="transparent" />
-          {target && <line x1={tower.position.x} y1={tower.position.z} x2={target.position.x} y2={target.position.z} stroke="#356897" strokeWidth="0.08" />}
-          <circle cx={tower.position.x} cy={tower.position.z} r={footprint(tower)} fill={tower.id === selectedId ? '#285882' : '#495b69'} stroke="white" strokeWidth=".09" />
+          {target && <line x1={tower.position.x} y1={tower.position.z} x2={target.position.x} y2={target.position.z} stroke="var(--ui-accent)" strokeWidth="0.08" />}
+          <circle cx={tower.position.x} cy={tower.position.z} r={footprint(tower)} fill={tower.id === selectedId ? 'var(--ui-accent)' : 'var(--ui-map-tower)'} stroke="white" strokeWidth=".09" />
           <text x={tower.position.x} y={tower.position.z + .13} fontSize=".36" textAnchor="middle" fill="white">{tower.id}</text>
           {resolveQaAura(content.towerDefinitions.find(item => item.id === tower.definitionId)!, tower) && <text x={tower.position.x} y={tower.position.z + .85} fontSize=".32" textAnchor="middle" pointerEvents="none">QA</text>}
         </g>;
       })}
       {selected?.coverageKind === 'cone' && !placing && <g data-testid="aim-direction">
-        <line x1={selected.position.x} y1={selected.position.z} x2={selected.position.x + Math.cos((aim ?? selected.facing) * Math.PI / 180) * 1.6} y2={selected.position.z + Math.sin((aim ?? selected.facing) * Math.PI / 180) * 1.6} stroke="#285882" strokeWidth=".09" pointerEvents="none" />
-        {planning && definition?.canRotate && <circle data-aim-handle="true" data-testid="aim-handle" cx={selected.position.x + Math.cos((aim ?? selected.facing) * Math.PI / 180) * 1.6} cy={selected.position.z + Math.sin((aim ?? selected.facing) * Math.PI / 180) * 1.6} r=".4" fill="#fff" stroke="#285882" strokeWidth=".1" style={{ touchAction: 'none', cursor: 'grab' }} />}
+        <line x1={selected.position.x} y1={selected.position.z} x2={selected.position.x + Math.cos((aim ?? selected.facing) * Math.PI / 180) * 1.6} y2={selected.position.z + Math.sin((aim ?? selected.facing) * Math.PI / 180) * 1.6} stroke="var(--ui-accent)" strokeWidth=".09" pointerEvents="none" />
+        {planning && definition?.canRotate && <circle data-aim-handle="true" data-testid="aim-handle" cx={selected.position.x + Math.cos((aim ?? selected.facing) * Math.PI / 180) * 1.6} cy={selected.position.z + Math.sin((aim ?? selected.facing) * Math.PI / 180) * 1.6} r=".4" fill="#fff" stroke="var(--ui-accent)" strokeWidth=".1" style={{ touchAction: 'none', cursor: 'grab' }} />}
         <text x={selected.position.x} y={selected.position.z - .9} fontSize=".4" textAnchor="middle" pointerEvents="none">{aim ?? selected.facing}°{aim !== null ? ' preview' : ''}</text>
       </g>}
       {view.marker && <g pointerEvents="none">
-        <line x1={view.marker.x} y1={view.marker.z} x2={view.probe.x} y2={view.probe.z} stroke={view.sight ? '#237b68' : '#995b46'} strokeWidth=".07" strokeDasharray={view.sight ? undefined : '.2 .2'} />
-        <path data-testid="sight-marker" d={`M ${view.marker.x} ${view.marker.z - .4} l .4 .4 l -.4 .4 l -.4 -.4 Z`} fill="#237b68" stroke="white" strokeWidth=".06" />
+        <line x1={view.marker.x} y1={view.marker.z} x2={view.probe.x} y2={view.probe.z} stroke={view.sight ? 'var(--ui-map-work)' : 'var(--ui-danger)'} strokeWidth=".07" strokeDasharray={view.sight ? undefined : '.2 .2'} />
+        <path data-testid="sight-marker" d={`M ${view.marker.x} ${view.marker.z - .4} l .4 .4 l -.4 .4 l -.4 -.4 Z`} fill="var(--ui-map-work)" stroke="white" strokeWidth=".06" />
         <text x={view.marker.x} y={view.marker.z + .8} fontSize=".35" textAnchor="middle">Sight marker</text>
       </g>}
-      <circle data-testid="clock-probe" cx={view.probe.x} cy={view.probe.z} r=".18" fill="#f4ba52" stroke="#514b37" strokeWidth=".04" pointerEvents="none" />
-      {placing && <g pointerEvents="none"><circle cx={draft.position.x} cy={draft.position.z} r={placementStats.footprintRadius} fill="none" stroke={rejection ? '#a34432' : '#237b68'} strokeWidth=".1" strokeDasharray=".1 .1" /><text x={draft.position.x} y={draft.position.z + .9} fontSize=".4" textAnchor="middle">{rejection ? '×' : '+'}</text></g>}
+      <circle data-testid="clock-probe" cx={view.probe.x} cy={view.probe.z} r=".18" fill="var(--ui-attention)" stroke="var(--ui-map-obstacle-edge)" strokeWidth=".04" pointerEvents="none" />
+      {placing && <g pointerEvents="none"><circle cx={draft.position.x} cy={draft.position.z} r={placementStats.footprintRadius} fill="none" stroke={rejection ? 'var(--ui-danger)' : 'var(--ui-map-work)'} strokeWidth=".1" strokeDasharray=".1 .1" /><text x={draft.position.x} y={draft.position.z + .9} fontSize=".4" textAnchor="middle">{rejection ? '×' : '+'}</text></g>}
     </svg>
     <div className="map-footer"><span>□ Work · ○ Problem · hatched = occluded</span><span data-testid="placement-reason">{placing ? rejection ? `Cannot place: ${rejection.replaceAll('_', ' ')}` : `Place at ${position.x}, ${position.z} · arrows + Enter` : 'Click a tower to inspect'}</span></div>
-    <div className="tower-buttons map-tower-list">{state.towers.map(tower => <button key={tower.id} aria-pressed={tower.id === selectedId} onClick={() => { select(tower.id); setTool('select'); }}>Tower {tower.id}</button>)}</div>
+    <div className="tower-buttons map-tower-list">{state.towers.map(tower => <Button key={tower.id} aria-pressed={tower.id === selectedId} onClick={() => { select(tower.id); setTool('select'); }}>Tower {tower.id}</Button>)}</div>
     {selected && inspectorHost && createPortal(<TowerInspector key={`${selected.id}:${selected.facing}`} session={session} tower={selected} onEdit={() => setTool('select')} />, inspectorHost)}
     <details className="map-diagnostics"><summary>Sight &amp; target diagnostics</summary>
       <h3>Live targets</h3><ul className="live-targets">{view.entities.map(entity => <li key={entity.id}>#{entity.id} {entity.kind} · remaining {entity.remaining}{coverage ? ` · ${session.inspectCoverage(coverage, entity.position).replaceAll('_', ' ')}` : ''}{entity.slowPercent > 0 ? ` · QA slow ${entity.slowPercent}%` : ''}{entity.computeBonus > 0 ? ` · completion bonus +${entity.computeBonus} Compute` : ''}</li>)}</ul>
       <p className="hint">Coverage outline is sampled for display; exact simulation queries decide visibility. Selecting or previewing while paused never changes gameplay.</p>
       <section className="marker-tools" aria-label="Geometry diagnostics"><h3>Sight marker &amp; clock probe</h3>
         <p className="hint">Free geometry diagnostic, not a tower. Footprints reject placement; the line tests blocker occlusion, without tower range limits. The yellow probe follows tick / 600 on this route and freezes with the encounter—even if traffic clears early.</p>
-        <div className="tower-buttons"><button disabled={!editable} onClick={() => session.placeMarker({ x: -7, z: 0 })}>Place left</button><button disabled={!editable} onClick={() => session.placeMarker({ x: 7, z: 0 })}>Place right</button><button disabled={!editable || !view.marker} onClick={session.clearMarker}>Clear marker</button></div>
-        <button className="marker-map-toggle" disabled={!editable} aria-pressed={marking} onClick={() => { setMarking(!marking); setPlacing(false); }}>{marking ? 'Cancel marker placement' : 'Place marker on map'}</button>
+        <div className="tower-buttons"><Button disabled={!editable} onClick={() => session.placeMarker({ x: -7, z: 0 })}>Place left</Button><Button disabled={!editable} onClick={() => session.placeMarker({ x: 7, z: 0 })}>Place right</Button><Button disabled={!editable || !view.marker} onClick={session.clearMarker}>Clear marker</Button></div>
+        <Button className="marker-map-toggle" disabled={!editable} aria-pressed={marking} onClick={() => { setMarking(!marking); setPlacing(false); }}>{marking ? 'Cancel marker placement' : 'Place marker on map'}</Button>
         <p className="hint">Map tool: {marking ? 'sight marker' : placing ? 'tower placement' : 'tower selection'}. Marker edits are frozen while paused, finished, or saving.</p>
       </section>
     </details>

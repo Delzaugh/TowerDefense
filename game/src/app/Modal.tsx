@@ -1,3 +1,4 @@
+import { Button } from '../ui/toolkit';
 import { useEffect, useRef } from 'react';
 import type { ReactNode } from 'react';
 
@@ -13,7 +14,7 @@ export function Modal({ open, onClose, children }: { open: boolean; onClose: () 
     return () => { document.body.style.overflow = overflow; };
   }, [open]);
   return <dialog ref={ref} className="wave-dialog" aria-labelledby="wave-dialog-title" onCancel={onClose} onClose={onClose}>
-    <div className="dialog-heading"><h2 id="wave-dialog-title">Wave queue settings</h2><button autoFocus onClick={onClose} aria-label="Close wave queue">Done / close</button></div>
+    <div className="dialog-heading"><h2 id="wave-dialog-title">Wave queue settings</h2><Button autoFocus onClick={onClose} aria-label="Close wave queue">Done / close</Button></div>
     {children}
   </dialog>;
 }

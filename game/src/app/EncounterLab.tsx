@@ -1,3 +1,4 @@
+import { Button, Input, Select, StatusBadge, ThemePicker } from '../ui/toolkit';
 import { useEffect, useState, useSyncExternalStore } from 'react';
 import { testMap, fragileTestMap } from '../content/levels/testMap';
 import { createEncounterLab } from '../session/createEncounterLab';
@@ -27,9 +28,9 @@ function Lab({ session, fixture, onPreset }: { session: EncounterLabSession; fix
   const terminal = state.phase === 'drained' || state.phase === 'failed';
   const label = state.paused ? 'Paused' : ({ preparation: 'Preparation', active: 'Active', drained: 'Wave drained', failed: 'Product destroyed' } as const)[state.phase];
   return <main className="test-app">
-    <header className="app-bar"><div className="wordmark">TOWER <span>/ TEST MAP</span></div><span className="badge">Unified test map</span><a className="lab-home-link" href="#/">← Campus home</a>
-      <div className="tower-fields preset-control"><label>Product preset<select aria-label="Product preset" title="Changes health, keeps applied queue, resets towers" value={fixture} disabled={running || view.busy} onChange={event => { if (!waveDirty || window.confirm('Changing Product preset discards your unapplied queue draft and resets the tower layout. Continue?')) onPreset(event.target.value, view.recipe); }}><option value="standard">Standard · 100 health</option><option value="fragile">Failure test · 20 health</option></select></label></div>
-      <button aria-haspopup="dialog" onClick={() => setWaveOpen(true)}>Edit wave queue{waveDirty ? ' • draft' : ''}</button><span className="hint">{content.wave.spawns.length} scheduled</span>
+    <header className="app-bar"><div className="wordmark">TOWER <span>/ TEST MAP</span></div><StatusBadge>Unified test map</StatusBadge><a className="lab-home-link" href="#/">← Campus home</a><ThemePicker className="lab-appearance" />
+      <div className="tower-fields preset-control"><label>Product preset<Select aria-label="Product preset" title="Changes health, keeps applied queue, resets towers" value={fixture} disabled={running || view.busy} onChange={event => { if (!waveDirty || window.confirm('Changing Product preset discards your unapplied queue draft and resets the tower layout. Continue?')) onPreset(event.target.value, view.recipe); }}><option value="standard">Standard · 100 health</option><option value="fragile">Failure test · 20 health</option></Select></label></div>
+      <Button aria-haspopup="dialog" onClick={() => setWaveOpen(true)}>Edit wave queue{waveDirty ? ' • draft' : ''}</Button><span className="hint">{content.wave.spawns.length} scheduled</span>
     </header>
     <section id="test-map" className="workspace encounter-workspace">
       <div className="map-panel">
@@ -52,18 +53,18 @@ function Lab({ session, fixture, onPreset }: { session: EncounterLabSession; fix
           <div><dt>Spawned / scheduled</dt><dd>{state.spawnCursor} / {content.wave.spawns.length}</dd></div>
           <div><dt>Missed / leaked</dt><dd>{state.totals.missedWork} / {state.totals.leakedProblems}</dd></div>
         </dl>
-        {state.phase === 'preparation' && <button className="primary" disabled={view.busy} onClick={() => session.dispatch({ type: 'start' })}>Start encounter</button>}
-        {running && <button className="primary" disabled={view.busy} onClick={() => session.dispatch({ type: state.paused ? 'resume' : 'pause' })}>{state.paused ? 'Resume encounter' : 'Pause encounter'}</button>}
-        <div className="split">{([1, 2] as const).map(speed => <button key={speed} disabled={state.paused || terminal || view.busy} aria-pressed={state.speed === speed} onClick={() => session.dispatch({ type: 'set_speed', speed })}>{speed}× speed</button>)}</div>
-        <h3>Diagnostic clock</h3><label className="clock-option"><input type="checkbox" disabled={view.busy} checked={view.automatic} onChange={event => session.setAutomatic(event.target.checked)} />Advance automatically</label>
-        <div className="split"><button disabled={!canStep} onClick={() => session.step(1)}>Step 1 tick</button><button disabled={!canStep} onClick={() => session.step(60)}>Step 60 ticks</button></div>
+        {state.phase === 'preparation' && <Button variant="primary" className="primary" disabled={view.busy} onClick={() => session.dispatch({ type: 'start' })}>Start encounter</Button>}
+        {running && <Button variant="primary" className="primary" disabled={view.busy} onClick={() => session.dispatch({ type: state.paused ? 'resume' : 'pause' })}>{state.paused ? 'Resume encounter' : 'Pause encounter'}</Button>}
+        <div className="split">{([1, 2] as const).map(speed => <Button key={speed} disabled={state.paused || terminal || view.busy} aria-pressed={state.speed === speed} onClick={() => session.dispatch({ type: 'set_speed', speed })}>{speed}× speed</Button>)}</div>
+        <h3>Diagnostic clock</h3><label className="clock-option"><Input type="checkbox" disabled={view.busy} checked={view.automatic} onChange={event => session.setAutomatic(event.target.checked)} />Advance automatically</label>
+        <div className="split"><Button disabled={!canStep} onClick={() => session.step(1)}>Step 1 tick</Button><Button disabled={!canStep} onClick={() => session.step(60)}>Step 60 ticks</Button></div>
         <p className="hint">Manual stepping requires an active, unpaused encounter. Pause freezes both clocks.</p>
-        <h3>Local save</h3><div className="split"><button disabled={!saveAllowed} onClick={() => { void session.save(); }}>Save locally</button><button disabled={!saveAllowed} onClick={() => { void session.load(); }}>Load save</button></div>
+        <h3>Local save</h3><div className="split"><Button disabled={!saveAllowed} onClick={() => { void session.save(); }}>Save locally</Button><Button disabled={!saveAllowed} onClick={() => { void session.load(); }}>Load save</Button></div>
         <p className="hint">Persists towers, full simulation state and marker across reloads. Preparation/finished runs only. Active pause is not a save boundary. Load before overwriting an existing save; conflicting revisions reject.</p>
-        <h3>Memory-only diagnostic snapshot</h3><div className="split"><button disabled={view.busy} onClick={session.capture}>Capture state</button><button disabled={!view.captured || view.busy} onClick={session.restore}>Restore capture</button></div>
+        <h3>Memory-only diagnostic snapshot</h3><div className="split"><Button disabled={view.busy} onClick={session.capture}>Capture state</Button><Button disabled={!view.captured || view.busy} onClick={session.restore}>Restore capture</Button></div>
         <p className="hint">{view.captured ? `Captured tick ${view.captured.tick}. ` : ''}Not a player save. Restore selects manual time; reload or fixture change discards the capture.</p>
-        <button className="reset-attempt" disabled={view.busy} onClick={session.reset}>Reset encounter</button>
-        <button className="repeat-attempt" disabled={view.busy} onClick={() => { if (!running || window.confirm('Reset this active attempt and restore its starting defense?')) session.prepareAgain(); }}>Prepare same run again</button>
+        <Button className="reset-attempt" disabled={view.busy} onClick={session.reset}>Reset encounter</Button>
+        <Button className="repeat-attempt" disabled={view.busy} onClick={() => { if (!running || window.confirm('Reset this active attempt and restore its starting defense?')) session.prepareAgain(); }}>Prepare same run again</Button>
         <p className="hint">Repeat restores the defense recorded at Start, not towers bought during the wave. Reset clears all towers. Both keep the applied queue.</p>
       </aside>
     </section>

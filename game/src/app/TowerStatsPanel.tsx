@@ -1,3 +1,4 @@
+import { Button, Input } from '../ui/toolkit';
 import { useState } from 'react';
 import type { EncounterLabSession } from '../session/createEncounterLab';
 import type { EncounterSnapshot } from '../simulation/encounter';
@@ -41,7 +42,7 @@ function TargetedStatsPanel({ session, tower, planning, onEdit }: PanelProps) {
     <p className="hint" data-testid="tower-placement-stats">Cost: {stats.cost} Compute · footprint radius: {stats.footprintRadius} map units (diameter {stats.footprintRadius * 2}). Type-defined placement properties; fixed after purchase.</p>
     <div className="tower-fields">
       {fields.map(field => <label key={field.key}>{field.label}
-        <input aria-label={`Tower ${field.label.toLowerCase()}`} type="number" min={field.min} max={field.max} step={field.step} disabled={!editable}
+        <Input aria-label={`Tower ${field.label.toLowerCase()}`} type="number" min={field.min} max={field.max} step={field.step} disabled={!editable}
           value={draft[field.key] ?? (field.timing ? display(stats[field.key] * 1000 / 60) : stats[field.key].toString())}
           onChange={event => setDraft({ ...draft, [field.key]: event.target.value })} />
         <small>Base: {field.timing ? display(definition.baseStats[field.key] * 1000 / 60) : definition.baseStats[field.key].toString()}{field.timing ? ' ms' : ''}</small>
@@ -51,13 +52,13 @@ function TargetedStatsPanel({ session, tower, planning, onEdit }: PanelProps) {
     {dirty && parsed.success && <p className="hint" data-testid="stat-draft-timing">Draft timing: {display(statRates(parsed.data).intervalMs)} ms ({parsed.data.cooldownTicks} ticks); commitment {display(parsed.data.commitmentTicks * 1000 / 60)} ms.</p>}
     {dirty && error && <p className="queue-error" role="alert">{error}</p>}
     <div className="tower-buttons">
-      <button disabled={!editable || !dirty || !parsed.success} onClick={() => {
+      <Button disabled={!editable || !dirty || !parsed.success} onClick={() => {
         if (!parsed.success) return;
         const overrides: TowerStatOverrides = {};
         for (const field of fields) if (parsed.data[field.key] !== definition.baseStats[field.key]) overrides[field.key] = parsed.data[field.key];
         apply(overrides);
-      }}>Apply stats</button>
-      <button disabled={!editable || (Object.keys(tower.statOverrides).length === 0 && !dirty)} onClick={() => apply({})}>Reset stats</button>
+      }}>Apply stats</Button>
+      <Button disabled={!editable || (Object.keys(tower.statOverrides).length === 0 && !dirty)} onClick={() => apply({})}>Reset stats</Button>
     </div>
     <p className="hint" data-testid="tower-stat-rates">Applied: {display(rates.actionsPerSecond)} actions/s · {display(rates.damagePerSecond)} damage/s · {display(rates.workPerSecond)} work/s. Ideal continuous output before travel, targeting, and overkill.</p>
     <p className="hint">In Auto mode, commitment delays target switching while the current target remains eligible. Cost and footprint are unchanged.</p>
@@ -73,8 +74,8 @@ function PassiveStatsPanel({ session, tower, planning, onEdit }: PanelProps) {
   const valid = raw.trim() !== '' && Number.isFinite(Number(raw)) && Number(raw) > 0 && Number(raw) <= 100;
   const apply = (overrides: TowerStatOverrides) => { if (session.dispatch({ type: 'set_stats', towerId: tower.id, overrides })?.accepted) { setRange(null); onEdit(); } };
   return <details><summary>Base stats &amp; tuning</summary><p>Cost: {stats.cost} Compute · footprint radius: {stats.footprintRadius} · effective range: {stats.range}</p>
-    <label>Range<input aria-label="Tower range" type="number" value={raw} disabled={!planning || !definition.allowStatTuning} onChange={event => setRange(event.target.value)} /></label>
-    <button disabled={!planning || !definition.allowStatTuning || !valid || range === null} onClick={() => apply({ range: Number(raw) })}>Apply stats</button>
-    <button disabled={!planning || !definition.allowStatTuning} onClick={() => apply({})}>Reset stats</button>
+    <label>Range<Input aria-label="Tower range" type="number" value={raw} disabled={!planning || !definition.allowStatTuning} onChange={event => setRange(event.target.value)} /></label>
+    <Button disabled={!planning || !definition.allowStatTuning || !valid || range === null} onClick={() => apply({ range: Number(raw) })}>Apply stats</Button>
+    <Button disabled={!planning || !definition.allowStatTuning} onClick={() => apply({})}>Reset stats</Button>
   </details>;
 }

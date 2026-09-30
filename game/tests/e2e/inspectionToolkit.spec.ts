@@ -8,6 +8,17 @@ test('inspection keeps qualitative capabilities and collections in both appearan
   await expect(page.getByTestId('tower-showcase')).toHaveAttribute('data-state', 'ready', { timeout: 30_000 });
   const dialog = page.getByRole('dialog', { name: 'Tower Codex' });
   const appearance = dialog.getByRole('combobox', { name: 'Appearance' });
+  const camera = () => page.evaluate(() => (window.__TOWER_DIAGNOSTICS__!.showcase!.sample().state as { zoom: number }));
+  const initial = await camera();
+  const zoom = dialog.getByRole('group', { name: 'Preview zoom' });
+  await zoom.getByRole('button', { name: 'Zoom in', exact: true }).click();
+  expect((await camera()).zoom).toBeGreaterThan(initial.zoom);
+  await zoom.getByRole('button', { name: 'Zoom out', exact: true }).click();
+  expect((await camera()).zoom).toBeCloseTo(initial.zoom);
+  await zoom.getByRole('button', { name: 'Zoom in', exact: true }).click();
+  await zoom.getByRole('button', { name: 'Reset preview', exact: true }).click();
+  expect((await camera()).zoom).toBe(initial.zoom);
+  await expect(dialog.locator('.codex-room-shade')).toHaveCount(0);
   for (const theme of ['light', 'dark']) {
     await appearance.selectOption(theme);
     await expect(page.locator('html')).toHaveAttribute('data-theme', theme);
@@ -23,6 +34,17 @@ test('inspection keeps qualitative capabilities and collections in both appearan
   await expect(dialog.getByRole('group', { name: 'Choose a Tower' }).locator('button')).toHaveCount(2);
   await dialog.getByRole('button', { name: 'Personas', exact: true }).click();
   await expect(dialog.getByRole('group', { name: 'Choose a Tower' }).locator('button')).toHaveCount(7);
+  await page.setViewportSize({ width: 1600, height: 1000 });
+  const cards = await dialog.locator('.codex-portrait').evaluateAll(elements => elements.map(element => element.getBoundingClientRect().width));
+  expect(Math.max(...cards) - Math.min(...cards)).toBeLessThan(1);
+  const stage = await dialog.locator('.codex-stage').boundingBox();
+  const panel = await dialog.locator('.codex-stats').boundingBox();
+  const roster = await dialog.locator('.codex-collection').boundingBox();
+  expect(roster!.x).toBe(stage!.x);
+  expect(roster!.x + roster!.width).toBeCloseTo(panel!.x + panel!.width, 0);
+  expect(roster!.y).toBeGreaterThan(stage!.y + stage!.height);
+  expect(roster!.y).toBeGreaterThan(panel!.y + panel!.height);
+  expect(panel!.height).toBeLessThan(stage!.height);
   await page.setViewportSize({ width: 320, height: 740 });
   expect(await dialog.evaluate(element => element.scrollWidth <= element.clientWidth)).toBe(true);
   const bounds = await dialog.locator('.codex-model-viewport').boundingBox();

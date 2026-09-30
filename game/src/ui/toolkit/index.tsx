@@ -4,6 +4,7 @@ import type { ThemePreference } from './theme';
 import './toolkit.css';
 
 export { ThemeProvider, useTheme } from './ThemeProvider';
+export { GameTopBar, type GameTopBarProps } from './GameTopBar';
 export type { ThemePreference, ResolvedTheme } from './theme';
 
 type ButtonVariant = 'primary' | 'secondary' | 'quiet' | 'danger';

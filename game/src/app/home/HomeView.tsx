@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import { ArrowUpRightIcon, GearIcon, HomeIcon, NorthStarIcon, PauseIcon, PlayIcon, PlusIcon, DashIcon, XIcon } from '@primer/octicons-react';
-import { Button, IconButton, Surface, SegmentedControl, StatusBadge, ThemePicker } from '../../ui/toolkit';
+import { Button, GameTopBar, IconButton, Surface, SegmentedControl, StatusBadge, ThemePicker } from '../../ui/toolkit';
 import type { CampusView } from '../../rendering/campus/types';
 import type { HomeViewProps } from './homeTypes';
 import './home.css';
@@ -27,12 +27,11 @@ export function HomeView({
   return (
     <div className="home-screen" data-testid="home-screen" data-state={status.phase} data-browser-open={browserOpen}
       data-browser-entering={browserEntering} data-browser-returning={browserReturning} inert={browserEntering || browserReturning}>
-      <header className="home-header">
-        <div className="home-brand" aria-label="Copilot Tower Defense">
+      <GameTopBar className="home-header" presentation="world" location="Copilot Hub"
+        leading={<div className="home-brand" aria-label="Copilot Tower Defense">
           <span className="home-brand-wordmark">COPILOT<small>TOWER DEFENSE</small></span>
-        </div>
-        <div className="home-header-actions">
-          <span className="home-location">Copilot Hub</span>
+        </div>}
+        trailing={<>
           <IconButton type="button" aria-label={preferences.ambience ? 'Pause ambience' : 'Resume ambience'}
             title={preferences.ambience ? 'Pause ambience' : 'Resume ambience'} aria-pressed={preferences.ambience} disabled={!ready}
             onClick={() => onPreferences({ ...preferences, ambience: !preferences.ambience })}>
@@ -41,8 +40,7 @@ export function HomeView({
           <IconButton ref={settingsButton} type="button" aria-label="Settings" title="Settings" onClick={openSettings} aria-haspopup="dialog">
             <GearIcon size={18} />
           </IconButton>
-        </div>
-      </header>
+        </>} />
 
       <main className="home-main">
         <div className="home-stage">

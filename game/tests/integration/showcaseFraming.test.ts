@@ -4,26 +4,25 @@ import { afterEach, describe, expect, it, vi } from 'vitest';
 import { createTowerShowcaseScene } from '../../src/rendering/showcase/createTowerShowcaseScene';
 import type { ShowcaseStatus } from '../../src/rendering/showcase/types';
 
-const { cameras } = vi.hoisted(() => ({ cameras: [] as THREE.OrthographicCamera[] }));
+const { cameras, subjects } = vi.hoisted(() => ({ cameras: [] as THREE.OrthographicCamera[], subjects: [] as THREE.Scene[] }));
 vi.mock('three', async importOriginal => {
   const actual = await importOriginal<typeof THREE>();
   return { ...actual, WebGLRenderer: class {
     shadowMap = {};
     info = { autoReset: true, reset() {} };
     setPixelRatio() {} setClearColor() {} setSize() {} setScissorTest() {}
-    setViewport() {} setScissor() {} clearDepth() {} dispose() {}
-    render(_scene: THREE.Scene, camera: THREE.OrthographicCamera) { cameras.push(camera.clone()); }
+    setViewport() {} setScissor() {} clear() {} clearDepth() {} dispose() {}
+    render(scene: THREE.Scene, camera: THREE.OrthographicCamera) { cameras.push(camera.clone()); subjects.push(scene); }
   } };
 });
 vi.mock('../../src/rendering/showcase/assets', () => {
   const clips = [{ name: 'idle', playback: 'loop' }, { name: 'place', playback: 'once' }, { name: 'resolve', playback: 'once' }];
   return {
-    SHOWCASE_WORKBENCH: { url: '/room.glb', clips: [] },
     SHOWCASE_TOWERS: { small: { url: '/small.glb', clips }, tall: { url: '/tall.glb', clips } },
   };
 });
 
-afterEach(() => { vi.restoreAllMocks(); vi.unstubAllGlobals(); cameras.length = 0; });
+afterEach(() => { vi.restoreAllMocks(); vi.unstubAllGlobals(); cameras.length = 0; subjects.length = 0; });
 
 function fixture(tall: boolean): GLTF {
   const scene = new THREE.Group();
@@ -42,7 +41,7 @@ async function setup(reducedMotion: boolean) {
   vi.stubGlobal('cancelAnimationFrame', (id: number) => frames.delete(id));
   vi.stubGlobal('document', Object.assign(new EventTarget(), { hidden: false }));
   vi.stubGlobal('window', Object.assign(new EventTarget(), { devicePixelRatio: 1 }));
-  vi.stubGlobal('fetch', async (url: string) => new Response(new Uint8Array([url.includes('tall') ? 1 : 0])));
+  vi.stubGlobal('fetch', vi.fn(async (url: string) => new Response(new Uint8Array([url.includes('tall') ? 1 : 0]))));
   vi.spyOn(GLTFLoader.prototype, 'parseAsync').mockImplementation(async data => fixture(new Uint8Array(data as ArrayBuffer)[0] === 1));
   const canvas = Object.assign(new EventTarget(), {
     clientWidth: 1280, clientHeight: 720,
@@ -75,32 +74,59 @@ async function setup(reducedMotion: boolean) {
 }
 
 describe('shared Tower preview framing', () => {
-  it.each([false, true])('holds the pedestal and metre scale across different Tower sizes (reduced motion: %s)', async reducedMotion => {
+  it.each([false, true])('preserves metre scale and manual orbit/zoom across Tower swaps (reduced motion: %s)', async reducedMotion => {
     const { scene, select, draw, view, statuses } = await setup(reducedMotion);
     try {
       await select('small');
       const initial = view();
       await select('tall');
-      expect(view()).toEqual(initial);
+      expect(view().projection).toEqual(initial.projection);
+      expect(view().zoom).toBe(initial.zoom);
+      expect(subjects.at(-1)!.getObjectByName('preview_plinth')).toBeUndefined();
+      expect(subjects.at(-1)!.getObjectByName('showcase_tall')!.children[0]!.scale.toArray()).toEqual([1, 1, 1]);
 
       scene.orbit(.6, .24); scene.zoomBy(1.15); draw();
       const adjusted = view();
       expect(adjusted).not.toEqual(initial);
       cameras.length = 0;
       await select('small');
-      expect(view()).toEqual(adjusted);
-      // Every second render is the preview pass, including Resolve / Place frames.
-      for (let index = 1; index < cameras.length; index += 2) {
+      expect(view().projection).toEqual(adjusted.projection);
+      expect(view().zoom).toBe(adjusted.zoom);
+      // Projection remains stable through Resolve / Place; the rest-centre pivot
+      // follows the incoming subject, keeping close inspection on the model.
+      for (let index = 0; index < cameras.length; index++) {
         expect(cameras[index]!.projectionMatrix.toArray()).toEqual(adjusted.projection);
-        expect(cameras[index]!.matrixWorld.toArray()).toEqual(adjusted.pose);
       }
+      const small = view();
       await select('missing');
-      expect(view()).toEqual(adjusted);
+      expect(view()).toEqual(small);
       await select('tall');
       expect(view()).toEqual(adjusted);
       scene.resetView(); draw();
-      expect(view()).toEqual(initial);
+      expect(view().projection).toEqual(initial.projection);
+      expect(view().zoom).toBe(initial.zoom);
       if (!reducedMotion) expect(statuses).toEqual(expect.arrayContaining(['resolving', 'placing']));
+    } finally { scene.dispose(); }
+  });
+
+  it('allows close inspection past the old fit limit and keeps the rest centre in view', async () => {
+    const { scene, select, draw, view } = await setup(true);
+    try {
+      await select('small');
+      const original = view();
+      scene.zoomBy(100); draw();
+      expect(view().zoom).toBe(6);
+      expect(view().pose).toEqual(original.pose);
+      const centre = new THREE.Vector3(0, 1.08 / 2, 0).project(cameras.at(-1)!);
+      expect(centre.x).toBeCloseTo(0);
+      expect(centre.y).toBeCloseTo(0);
+      scene.zoomBy(0); scene.zoomBy(NaN); draw();
+      expect(view().zoom).toBe(6);
+      scene.zoomBy(.001); draw();
+      expect(view().zoom).toBe(.65);
+      scene.resetView(); draw();
+      expect(view()).toEqual(original);
+      expect(fetch).not.toHaveBeenCalledWith('/room.glb', expect.anything());
     } finally { scene.dispose(); }
   });
 });

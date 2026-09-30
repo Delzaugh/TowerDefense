@@ -9,8 +9,18 @@ export function createCampusBuildingInteraction(scene: THREE.Scene, camera: THRE
   const building = scene.getObjectByName('campus_lab');
   const outlineMaterial = new THREE.MeshBasicMaterial({
     color: 0xa5f2dc, side: THREE.BackSide, transparent: true, opacity: .8, depthWrite: false,
+    polygonOffset: true, polygonOffsetFactor: 1, polygonOffsetUnits: 1,
   });
-  // A back-face shell follows the authored meshes and leaves shared model materials untouched.
+  // Keep the existing expanded highlight. A wide, thin base stays almost
+  // coplanar with the paving when scaled around its origin, so also offset along
+  // its surface normals. Its lower face then sits below the paving instead of
+  // fighting it; positive depth bias resolves the remaining shared edges.
+  outlineMaterial.onBeforeCompile = shader => {
+    shader.vertexShader = shader.vertexShader.replace('#include <begin_vertex>',
+      '#include <begin_vertex>\ntransformed += normal * 0.035;');
+  };
+  outlineMaterial.customProgramCacheKey = () => 'campus-hover-normal-shell-v1';
+  // The shell owns its material; authored geometry and materials stay shared.
   const outline = building?.clone(true);
   outline?.traverse(object => {
     if (!(object instanceof THREE.Mesh)) return;
@@ -22,7 +32,8 @@ export function createCampusBuildingInteraction(scene: THREE.Scene, camera: THRE
   });
   const footprint = new THREE.Mesh(
     new THREE.CircleGeometry(1, 48),
-    new THREE.MeshBasicMaterial({ color: 0x8af0d6, transparent: true, opacity: .22, depthWrite: false, side: THREE.DoubleSide }),
+    new THREE.MeshBasicMaterial({ color: 0x8af0d6, transparent: true, opacity: .22, depthWrite: false,
+      side: THREE.DoubleSide, polygonOffset: true, polygonOffsetFactor: -1, polygonOffsetUnits: -1 }),
   );
   if (outline) outline.visible = false;
   footprint.visible = false;

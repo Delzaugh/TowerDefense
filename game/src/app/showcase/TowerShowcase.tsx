@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import type { CSSProperties, KeyboardEvent } from 'react';
-import { BroadcastIcon, CheckIcon, ChevronLeftIcon, ChevronRightIcon, CodeIcon, CopilotIcon, CpuIcon, CrosshairsIcon, MeterIcon, PackageIcon, PersonIcon, PulseIcon, ZapIcon } from '@primer/octicons-react';
+import { BroadcastIcon, CheckIcon, ChevronLeftIcon, ChevronRightIcon, CodeIcon, CopilotIcon, CpuIcon, CrosshairsIcon, MeterIcon, PackageIcon, PersonIcon, PulseIcon, SyncIcon, ZoomInIcon, ZoomOutIcon, ZapIcon } from '@primer/octicons-react';
 import '@fontsource-variable/mona-sans';
 import { TOWERS, getTower } from '../../content/towers/catalog';
 import type { TowerReference } from '../../content/towers/catalog';
@@ -116,10 +116,8 @@ export function TowerShowcase({ selectedTower, onSelectTower, reducedMotion }: O
     else if (event.key.toLowerCase() === 'r') { event.preventDefault(); scene.current?.resetView(); }
   }
   return <div className="codex-workbench" data-testid="tower-showcase" data-state={status.phase} data-animation={animation}>
-    <canvas ref={canvas} key={attempt} className="codex-scene" aria-hidden="true" />
-    <div className="codex-room-shade" aria-hidden="true" />
     <div className="codex-workspace">
-      <section className="ui-surface codex-console codex-collection" aria-labelledby="codex-collection-title">
+      <section className="ui-surface codex-console codex-collection" data-collection={collection} aria-labelledby="codex-collection-title">
         <div className="codex-collection-top"><h2 id="codex-collection-title">Your specialists</h2>
         {hasDevelopment && <SegmentedControl className="codex-collections" label="Tower collection" value={collection} options={[{ value: 'core', label: 'Personas' }, { value: 'development', label: 'In development' }]} onChange={value => { const next = value as 'core' | 'development'; setCollection(next); if (tower.collection !== next) { const first = TOWERS.find(item => item.collection === next); if (first) choose(next === 'core' ? 'developer' : first.id); } }} />}</div>
         <div ref={rosterElement} className="codex-roster" role="group" aria-label="Choose a Tower">{roster.map(item => <Button key={item.id} variant="quiet" className="codex-portrait" data-tower={item.id} data-preview={item.modelId ? 'available' : 'coming-soon'} tabIndex={item.id === tower.id ? 0 : -1} aria-pressed={item.id === tower.id} aria-label={item.title} aria-describedby={!item.modelId ? 'codex-missing-model-hint' : undefined} onClick={() => choose(item.id)} onKeyDown={event => onPortraitKey(event, item.id)}>
@@ -129,8 +127,10 @@ export function TowerShowcase({ selectedTower, onSelectTower, reducedMotion }: O
         <div className="codex-collection-foot"><IconButton variant="quiet" aria-label="Previous Tower" onClick={() => step(-1)}><ChevronLeftIcon /></IconButton><IconButton variant="quiet" aria-label="Next Tower" onClick={() => step(1)}><ChevronRightIcon /></IconButton></div>
       </section>
 
+      <section className="codex-stage" aria-label="Tower studio">
       <div className="codex-model-heading" aria-live="polite"><span className="codex-eyebrow">{tower.collection === 'development' ? 'IN DEVELOPMENT' : tower.id === 'base' ? 'BASE COPILOT' : 'COPILOT PERSONA'}</span><h2>{tower.title}</h2><p>{tower.role}</p><div className="codex-availability">{tower.availability && <StatusBadge tone="neutral">{tower.availability}</StatusBadge>}</div></div>
       <div ref={viewport} className="codex-model-viewport" role="group" aria-label={`${tower.title} model preview`} tabIndex={status.phase === 'ready' ? 0 : -1} onKeyDown={previewKey} aria-describedby="codex-preview-instructions">
+        <canvas ref={canvas} key={attempt} className="codex-scene" aria-hidden="true" />
         {(status.phase === 'loading' || status.phase === 'missing' || status.phase === 'error') && <div className="codex-preview-message" role="status">
           {status.phase === 'loading' ? <><span className="codex-loader" aria-hidden="true" /><p>Bringing {tower.title} into view…</p></> : status.phase === 'missing' ? <><Portrait tower={tower} source={undefined} /><h3>Model preview coming soon</h3><p>Explore this Tower’s role and capabilities.</p></> : <><PackageIcon size={36} /><h3>Preview unavailable</h3><p>{status.message}</p><Button onClick={() => setAttempt(value => value + 1)}>Retry preview</Button><Button onClick={() => window.location.reload()}>Reload app</Button></>}
         </div>}
@@ -138,7 +138,13 @@ export function TowerShowcase({ selectedTower, onSelectTower, reducedMotion }: O
       </div>
       <div className="codex-model-tools">
         <p id="codex-preview-instructions"><span className="codex-pointer-hint">Drag to rotate & tilt · Scroll to zoom</span><span className="codex-touch-hint">Drag to rotate & tilt · Pinch to zoom</span><span className="codex-sr-only">. Keyboard arrows rotate and tilt; plus and minus zoom; R resets.</span></p>
+        <div className="codex-preview-zoom" role="group" aria-label="Preview zoom">
+          <IconButton variant="quiet" aria-label="Zoom out" disabled={status.phase !== 'ready'} onClick={() => scene.current?.zoomBy(1 / 1.2)}><ZoomOutIcon size={18} /></IconButton>
+          <IconButton variant="quiet" aria-label="Zoom in" disabled={status.phase !== 'ready'} onClick={() => scene.current?.zoomBy(1.2)}><ZoomInIcon size={18} /></IconButton>
+          <IconButton variant="quiet" aria-label="Reset preview" disabled={status.phase !== 'ready'} onClick={() => scene.current?.resetView()}><SyncIcon size={18} /></IconButton>
+        </div>
       </div>
+      </section>
 
       <TowerStats key={tower.id} tower={tower} />
     </div>

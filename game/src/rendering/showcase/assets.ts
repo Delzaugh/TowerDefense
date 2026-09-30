@@ -6,7 +6,6 @@ import security from 'tower-asset:copilot_security@v01';
 import linter from 'tower-asset:copilot_linter@v01';
 import seniorDeveloper from 'tower-asset:copilot_golden_compiler@v01';
 import commitHalo from 'tower-asset:copilot_commit_halo@v01';
-import workbench from 'tower-asset:showcase_workbench@v01';
 
 /** Only delivered, catalog-registered Tower models belong here. */
 export const SHOWCASE_TOWERS: Readonly<Record<string, RuntimeAsset>> = {
@@ -14,5 +13,3 @@ export const SHOWCASE_TOWERS: Readonly<Record<string, RuntimeAsset>> = {
   'senior-developer': seniorDeveloper,
   'commit-halo': commitHalo,
 };
-
-export const SHOWCASE_WORKBENCH: RuntimeAsset = workbench;

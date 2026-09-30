@@ -134,6 +134,8 @@ test.describe('Hub Tower browser', () => {
 
   test('dragging the actual Lab pans while a stationary click opens the browser', async ({ page }, testInfo) => {
     test.skip(testInfo.project.name === 'touch-edge', 'The real canvas hover path uses a mouse.');
+    const errors: string[] = [];
+    page.on('console', message => { if (message.type() === 'error') errors.push(message.text()); });
     const canvas = page.getByTestId('campus-canvas');
     const bounds = await canvas.boundingBox();
     if (!bounds) throw new Error('The campus canvas has no visible bounds.');
@@ -157,6 +159,7 @@ test.describe('Hub Tower browser', () => {
     await page.mouse.move(hit.x + 8, hit.y + 8, { steps: 3 });
     await page.mouse.up();
     await expect(dialog).not.toBeVisible();
+    expect(errors).toEqual([]);
   });
 
   test('missing art stays honest and the full stats panel has no numeric readouts or info buttons', async ({ page }) => {

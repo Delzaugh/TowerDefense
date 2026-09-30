@@ -1,0 +1,33 @@
+:root { --ui-topbar-height: calc(72px + env(safe-area-inset-top, 0px)); }
+.ui-game-topbar {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, auto) minmax(0, 1fr);
+  align-items: center; gap: 16px; min-height: var(--ui-topbar-height);
+  padding: calc(12px + env(safe-area-inset-top, 0px)) max(24px, env(safe-area-inset-right, 0px)) 12px max(24px, env(safe-area-inset-left, 0px));
+  font-family: var(--ui-font); color: var(--ui-fg); background: var(--ui-surface); border-bottom: 1px solid var(--ui-border);
+}
+.ui-game-topbar--world { background: transparent; border-bottom: 0; color: var(--ui-world-fg); }
+.ui-game-topbar__leading, .ui-game-topbar__trailing { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.ui-game-topbar__trailing { justify-content: flex-end; }
+.ui-game-topbar__context { display: flex; flex-direction: column; align-items: center; gap: 3px; min-width: 0; text-align: center; line-height: 1.3; }
+.ui-game-topbar__context strong { font-size: 14px; font-weight: 650; }
+.ui-game-topbar__context > span { color: var(--ui-muted); font-size: 11px; }
+.ui-game-topbar--world .ui-game-topbar__context { text-shadow: 0 2px 6px #0d1117; }
+.ui-game-topbar--world .ui-game-topbar__context > span { color: var(--ui-world-muted); }
+.ui-game-topbar .ui-button, .ui-game-topbar .ui-input { min-height: 44px; }
+.ui-game-topbar .ui-icon-button { width: 44px; }
+.ui-game-topbar__shortcut { font: inherit; font-size: 10px; opacity: .65; padding: 2px 4px; border: 1px solid var(--ui-border); border-radius: 3px; }
+.ui-game-topbar__appearance { display: flex; align-items: center; flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
+.ui-game-topbar__appearance label { color: var(--ui-muted); font-size: 11px; }
+.ui-game-topbar__appearance .ui-field__notice { flex-basis: 100%; max-width: 250px; }
+@media (max-width: 760px) {
+  .ui-game-topbar { gap: 10px; padding-inline: max(14px, env(safe-area-inset-left, 0px)) max(14px, env(safe-area-inset-right, 0px)); }
+  .ui-game-topbar__shortcut { display: none; }
+  .ui-game-topbar__context strong { font-size: 12px; }
+  .ui-game-topbar__context > span { display: none; }
+  .ui-game-topbar__appearance label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  .ui-game-topbar__appearance .ui-input { max-width: 106px; }
+}
+@media (max-width: 480px) {
+  .ui-game-topbar { grid-template-columns: auto minmax(0, 1fr) auto; gap: 8px; }
+  .ui-game-topbar__leading .ui-button { padding-inline: 8px; font-size: 12px; gap: 6px; }
+}

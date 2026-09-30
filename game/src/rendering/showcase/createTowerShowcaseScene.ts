@@ -5,7 +5,8 @@ import { clone as skeletonSafeClone } from 'three/addons/utils/SkeletonUtils.js'
 import { createDigitalResolve, createResolveBudget } from 'tower-presentation';
 import { disposeSceneResources } from '../campus/resources';
 import { fetchShowcaseModel as fetchModel } from './loadModel';
-import { SHOWCASE_TOWERS, SHOWCASE_WORKBENCH } from './assets';
+import { SHOWCASE_TOWERS } from './assets';
+import type { RuntimeAsset } from '../runtimeAsset';
 import type { AnimationChoice, ShowcaseStatus, TowerShowcaseScene } from './types';
 
 export type { AnimationChoice, ShowcaseStatus, TowerShowcaseScene } from './types';
@@ -13,15 +14,17 @@ export type { AnimationChoice, ShowcaseStatus, TowerShowcaseScene } from './type
 const CHOICES: readonly AnimationChoice[] = ['rest', 'idle', 'work', 'move', 'place', 'hit', 'resolve'];
 const DEFAULT_AZIMUTH = .24;
 const DEFAULT_ELEVATION = .32;
-const MODEL_GROUND_Y = 1.365;
-const DEFAULT_ZOOM = 1.12;
-// One display volume for the whole delivered collection, including the tall
-// Senior Developer. Keep authored metre scale and a stationary pedestal when
-// swapping models; never refit the camera to the selected Tower's bounds.
+const MODEL_GROUND_Y = 0;
+const DEFAULT_ZOOM = 1.65;
+const PROJECTION_MARGIN = 1.12;
+const MIN_ZOOM = .65;
+const MAX_ZOOM = 6;
+// One projection volume preserves authored metre scale across the collection.
+// The orbit pivot follows the selected model's rest centre without scaling it.
 const DISPLAY_HEIGHT = 3.5;
 const DISPLAY_WIDTH = 2.9;
 const DISPLAY_BOUNDS = new THREE.Box3(
-  new THREE.Vector3(-1.55, .94, -DISPLAY_WIDTH / 2),
+  new THREE.Vector3(-1.55, -.2, -DISPLAY_WIDTH / 2),
   new THREE.Vector3(1.55, MODEL_GROUND_Y + DISPLAY_HEIGHT, 2),
 );
 const MAX_CACHE = 3;
@@ -82,7 +85,7 @@ function restorePose(reference: readonly PosePart[]): void {
   }
 }
 
-function availableClips(asset: typeof SHOWCASE_WORKBENCH, gltf: GLTF) {
+function availableClips(asset: RuntimeAsset, gltf: GLTF) {
   const clips = new Map<AnimationChoice, THREE.AnimationClip>();
   const playback = new Map<AnimationChoice, 'loop' | 'once'>();
   for (const spec of asset.clips) {
@@ -94,7 +97,7 @@ function availableClips(asset: typeof SHOWCASE_WORKBENCH, gltf: GLTF) {
   return { clips, playback };
 }
 
-/** The room has one fixed camera; only the clipped preview pass orbits the Tower. */
+/** A transparent, clipped model pass sits over the theme-aware inspection field. */
 export async function createTowerShowcaseScene(
   canvas: HTMLCanvasElement,
   options: {
@@ -113,21 +116,15 @@ export async function createTowerShowcaseScene(
   renderer.info.autoReset = false;
   renderer.shadowMap.enabled = true;
   renderer.shadowMap.type = THREE.PCFSoftShadowMap;
-  renderer.setClearColor(0xd7dfdf, 1);
+  renderer.setClearColor(0x000000, 0);
 
-  const roomScene = new THREE.Scene();
-  roomScene.background = new THREE.Color(0xd7dfdf);
   const previewScene = new THREE.Scene();
-  const roomCamera = new THREE.OrthographicCamera(-9, 9, 5, -5, .1, 100);
-  roomCamera.position.set(0, 7, 15.8);
-  roomCamera.lookAt(0, 2.75, -.5);
   const previewCamera = new THREE.OrthographicCamera(-2, 2, 2, -2, .1, 100);
+  const modelCentre = new THREE.Vector3(0, DISPLAY_HEIGHT / 2, 0);
   const loader = new GLTFLoader();
   const budget = createResolveBudget(64);
   const cache = new Map<string, GLTF>();
   const portraits = new Set<string>();
-  let room: GLTF | null = null;
-  let roomAbort: AbortController | null = new AbortController();
   let modelAbort: AbortController | null = null;
   let live: LiveTower | null = null;
   let transition: SelectionTransition | null = null;
@@ -143,21 +140,6 @@ export async function createTowerShowcaseScene(
   const pointers = new Map<number, { x: number; y: number }>();
   let pinchDistance = 0;
 
-  const roomHemi = new THREE.HemisphereLight(0xfff1da, 0x526478, 2.05);
-  roomScene.add(roomHemi);
-  const roomSun = new THREE.DirectionalLight(0xffe8ce, 2.15);
-  roomSun.position.set(-5, 12, 8);
-  roomSun.target.position.set(0, 0, -1);
-  roomSun.castShadow = true;
-  roomSun.shadow.mapSize.set(1024, 1024);
-  Object.assign(roomSun.shadow.camera, { left: -12, right: 12, top: 11, bottom: -11, near: .1, far: 45 });
-  roomSun.shadow.camera.updateProjectionMatrix();
-  roomSun.shadow.normalBias = .03;
-  roomScene.add(roomSun, roomSun.target);
-  const fillRoom = new THREE.DirectionalLight(0xc4d9e8, .65);
-  fillRoom.position.set(7, 7, -2);
-  roomScene.add(fillRoom);
-
   previewScene.add(new THREE.HemisphereLight(0xfff3df, 0x34475e, 2.15));
   const previewSun = new THREE.DirectionalLight(0xffebd6, 2.25);
   previewSun.position.set(-5, 9, 7);
@@ -171,24 +153,6 @@ export async function createTowerShowcaseScene(
   previewFill.position.set(5, 5, -5);
   previewScene.add(previewFill);
 
-  // Quiet surface while room art downloads or if its fetch fails.
-  const fallback = new THREE.Group();
-  const matte = new THREE.MeshStandardMaterial({ color: 0x354b64, roughness: 1 });
-  const deskMatte = new THREE.MeshStandardMaterial({ color: 0xd7a875, roughness: 1 });
-  const wall = new THREE.Mesh(new THREE.BoxGeometry(24, 10, .2), matte);
-  wall.position.set(0, 4, -5);
-  const desk = new THREE.Mesh(new THREE.BoxGeometry(24, .2, 10), deskMatte);
-  desk.position.set(0, .83, 2);
-  fallback.add(wall, desk);
-  roomScene.add(fallback);
-  let fallbackDisposed = false;
-  function disposeFallback() {
-    if (fallbackDisposed) return;
-    fallbackDisposed = true;
-    fallback.removeFromParent();
-    disposeSceneResources([fallback]);
-  }
-
   function report(status: ShowcaseStatus) {
     if (!disposed) options.onStatus(status);
   }
@@ -200,14 +164,6 @@ export async function createTowerShowcaseScene(
     const y = THREE.MathUtils.clamp(rect.top - canvasRect.top, 0, canvasRect.height);
     previewBox = { x, y, w: Math.max(1, Math.min(rect.width, canvasRect.width - x)),
       h: Math.max(1, Math.min(rect.height, canvasRect.height - y)) };
-    const aspect = width / height;
-    const roomWidth = Math.max(5.5, Math.min(19.2, aspect * 10.6));
-    // Keep the ceiling edge outside the composition at both wide and phone
-    // aspect ratios; the room is a fixed backdrop behind the model preview.
-    roomCamera.zoom = aspect < .75 ? 1.32 : 1.27;
-    roomCamera.left = -roomWidth / 2; roomCamera.right = roomWidth / 2;
-    roomCamera.top = roomWidth / aspect / 2; roomCamera.bottom = -roomCamera.top;
-    roomCamera.updateProjectionMatrix();
     if (width !== renderWidth || height !== renderHeight) {
       renderer.setSize(width, height, false);
       renderWidth = width;
@@ -224,7 +180,7 @@ export async function createTowerShowcaseScene(
     envelope.min.x -= side; envelope.max.x += side;
     envelope.min.z -= side; envelope.max.z += side;
     envelope.max.y += DISPLAY_HEIGHT * .26;
-    const target = envelope.getCenter(new THREE.Vector3());
+    const target = modelCentre;
     const radius = 11;
     previewCamera.position.set(target.x + Math.sin(azimuth) * Math.cos(elevation) * radius,
       target.y + Math.sin(elevation) * radius,
@@ -236,18 +192,17 @@ export async function createTowerShowcaseScene(
     const projectedExtent = (box: THREE.Box3) => {
       let horizontal = 0, vertical = 0;
       for (const x of [box.min.x, box.max.x]) for (const y of [box.min.y, box.max.y]) for (const z of [box.min.z, box.max.z]) {
-        const offset = new THREE.Vector3(x, y, z).sub(target);
+        const offset = new THREE.Vector3(x, y, z).sub(envelope.getCenter(new THREE.Vector3()));
         horizontal = Math.max(horizontal, Math.abs(offset.dot(right)));
         vertical = Math.max(vertical, Math.abs(offset.dot(up)));
       }
       return Math.max(2 * vertical, 2 * horizontal / viewportAspect);
     };
     const nominalHeight = Math.max(3.4, projectedExtent(envelope) * 1.16);
-    // At Reset, include effect travel and comfortable top/bottom margin. Zoom-in
-    // may crop drifting fragments but keeps the actual model and plinth visible.
-    const desiredHeight = nominalHeight * DEFAULT_ZOOM;
-    const maxZoom = Math.min(1.55, desiredHeight / Math.max(3.1, projectedExtent(body) * 1.1));
-    zoom = THREE.MathUtils.clamp(zoom, .72, Math.max(DEFAULT_ZOOM, maxZoom));
+    // Reset includes effect travel. Close inspection may intentionally crop the
+    // model; do not undo the user's zoom by fitting its bounds every frame.
+    const desiredHeight = nominalHeight * PROJECTION_MARGIN;
+    zoom = THREE.MathUtils.clamp(zoom, MIN_ZOOM, MAX_ZOOM);
     previewCamera.top = desiredHeight / 2; previewCamera.bottom = -previewCamera.top;
     previewCamera.right = desiredHeight * viewportAspect / 2; previewCamera.left = -previewCamera.right;
     previewCamera.zoom = zoom;
@@ -263,7 +218,7 @@ export async function createTowerShowcaseScene(
       renderer.setViewport(0, 0, renderWidth, renderHeight);
       renderer.setScissorTest(false);
       renderer.autoClear = true;
-      renderer.render(roomScene, roomCamera);
+      renderer.clear(true, true, true);
       const box = previewBox;
       renderer.setViewport(box.x, renderHeight - box.y - box.h, box.w, box.h);
       renderer.setScissor(box.x, renderHeight - box.y - box.h, box.w, box.h);
@@ -388,6 +343,9 @@ export async function createTowerShowcaseScene(
     try {
       const rawBox = new THREE.Box3().setFromObject(gltf.scene);
       const dimensions = rawBox.getSize(new THREE.Vector3());
+      rawBox.getCenter(modelCentre);
+      modelCentre.y += MODEL_GROUND_Y;
+      cameraDirty = true;
       model.traverse(object => {
         if (object instanceof THREE.Mesh) { object.castShadow = true; object.receiveShadow = true; }
       });
@@ -488,8 +446,6 @@ export async function createTowerShowcaseScene(
     const focusY = MODEL_GROUND_Y + live.height * .49;
     camera.position.set(3.5, focusY + 1.3, 8);
     camera.lookAt(0, focusY, .45);
-    const oldPlinth = previewScene.getObjectByName('preview_plinth');
-    if (oldPlinth) oldPlinth.visible = false;
     try {
       renderer.setRenderTarget(target);
       renderer.setClearColor(0x000000, 0);
@@ -507,8 +463,7 @@ export async function createTowerShowcaseScene(
     } catch { /* Portraits are supplementary; the live preview remains usable. */ }
     finally {
       renderer.setRenderTarget(null);
-      renderer.setClearColor(0xd7dfdf, 1);
-      if (oldPlinth) oldPlinth.visible = true;
+      renderer.setClearColor(0x000000, 0);
       target.dispose();
       invalidate();
     }
@@ -646,7 +601,7 @@ export async function createTowerShowcaseScene(
       cameraDirty = true;
       invalidate();
     },
-    zoomBy(factor) { if (Number.isFinite(factor) && factor > 0) { zoom = THREE.MathUtils.clamp(zoom * factor, .72, 1.85); cameraDirty = true; invalidate(); } },
+    zoomBy(factor) { if (Number.isFinite(factor) && factor > 0) { zoom = THREE.MathUtils.clamp(zoom * factor, MIN_ZOOM, MAX_ZOOM); cameraDirty = true; invalidate(); } },
     resetView() { azimuth = DEFAULT_AZIMUTH; elevation = DEFAULT_ELEVATION; zoom = DEFAULT_ZOOM; cameraDirty = true; invalidate(); },
     resize() { layoutDirty = true; invalidate(); },
     setReducedMotion(value) {
@@ -667,7 +622,6 @@ export async function createTowerShowcaseScene(
       transition = null;
       cancelPortraitTask();
       stopLoop();
-      roomAbort?.abort(); roomAbort = null;
       modelAbort?.abort(); modelAbort = null;
       window.removeEventListener('blur', resetPointers);
       document.removeEventListener('visibilitychange', onVisibilityChange);
@@ -681,34 +635,14 @@ export async function createTowerShowcaseScene(
       resetPointers();
       clearLive();
       for (const id of [...cache.keys()]) disposeCacheEntry(id);
-      disposeFallback();
-      disposeSceneResources([roomScene, previewScene], room ? [room] : []);
-      roomSun.shadow.dispose(); previewSun.shadow.dispose();
-      roomScene.clear(); previewScene.clear();
+      disposeSceneResources([previewScene]);
+      previewSun.shadow.dispose();
+      previewScene.clear();
       unregisterDiagnostics();
       renderer.dispose();
     },
   };
 
   invalidate();
-  // Room art is independent of Tower selection. A failed room download leaves the quiet surface.
-  void fetchModel(SHOWCASE_WORKBENCH, roomAbort.signal, loader).then(gltf => {
-    if (disposed || lost) { disposeSceneResources([], [gltf]); return; }
-    room = gltf;
-    const shell = gltf.scene.getObjectByName('room_shell');
-    const plinth = gltf.scene.getObjectByName('preview_plinth');
-    if (shell) {
-      disposeFallback();
-      roomScene.add(shell);
-      shell.traverse(object => { if (object instanceof THREE.Mesh) { object.castShadow = true; object.receiveShadow = true; } });
-    }
-    if (plinth) {
-      const previewPlinth = plinth.clone(true);
-      previewPlinth.name = 'preview_plinth';
-      previewPlinth.traverse(object => { if (object instanceof THREE.Mesh) { object.castShadow = true; object.receiveShadow = true; } });
-      previewScene.add(previewPlinth);
-    }
-    invalidate();
-  }).catch(() => { /* The quiet fallback remains visible. */ });
   return scene;
 }

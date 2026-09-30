@@ -30,7 +30,8 @@ test('the Tower workbench loads its models under the deployment subpath and fits
   await expect(workbench).toHaveAttribute('data-animation', 'idle');
   await expect(page.locator('.codex-stats')).toBeVisible();
   await expect(page.getByRole('group', { name: 'Animation selection' })).toHaveCount(0);
-  expect(models.some(path => path.startsWith('/TowerDefense/assets/runtime/environment/showcase_workbench_v01.'))).toBe(true);
+  expect(models.some(path => path.startsWith('/TowerDefense/assets/runtime/towers/copilot_security_v01.'))).toBe(true);
+  expect(models.some(path => path.includes('showcase_workbench'))).toBe(false);
   expect(models.every(path => path.startsWith('/TowerDefense/'))).toBe(true);
   const back = page.getByRole('button', { name: 'Back to Hub', exact: true });
   await expect(back).toBeInViewport();

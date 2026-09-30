@@ -4,7 +4,7 @@ import type { TowerShowcaseDialogProps } from './types';
 import './showcase.css';
 import { withDeadline } from '../boot/withDeadline';
 import { ArrowLeftIcon } from '@primer/octicons-react';
-import { Button, ThemePicker } from '../../ui/toolkit';
+import { Button, GameTopBar, ThemePicker } from '../../ui/toolkit';
 
 const loadShowcase = async () => ({ default: (await import('./TowerShowcase')).TowerShowcase });
 const TowerShowcase = lazy(() => withDeadline(loadShowcase()));
@@ -34,11 +34,9 @@ export function TowerShowcaseDialog({ open, onClose, ...props }: TowerShowcaseDi
   return <dialog ref={dialog} className="codex-dialog" aria-label="Tower Codex" data-reduced-motion={props.reducedMotion}
     onCancel={event => { event.preventDefault(); onClose(); }} onClose={() => { if (open) onClose(); }}>
     {open && <>
-      <header className="codex-header">
-        <Button ref={back} variant="quiet" className="codex-back" onClick={onClose}><ArrowLeftIcon size={16} />Back to Hub<kbd aria-hidden="true">Esc</kbd></Button>
-        <div className="codex-location"><strong>Copilot Lab</strong><span>Tower inspection</span></div>
-        <ThemePicker className="codex-theme" />
-      </header>
+      <GameTopBar className="codex-header" location="Copilot Lab" context="Tower inspection"
+        leading={<Button ref={back} variant="quiet" className="codex-back" onClick={onClose}><ArrowLeftIcon size={16} />Back to Hub<kbd className="ui-game-topbar__shortcut" aria-hidden="true">Esc</kbd></Button>}
+        trailing={<ThemePicker className="ui-game-topbar__appearance" />} />
       <ShowcaseBoundary><Suspense fallback={<div className="codex-opening" role="status"><span className="codex-eyebrow">COPILOT LAB</span><h2>Opening the workbench…</h2><p>Bringing your Towers into view.</p></div>}><TowerShowcase {...props} /></Suspense></ShowcaseBoundary>
     </>}
   </dialog>;

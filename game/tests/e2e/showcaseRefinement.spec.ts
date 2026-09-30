@@ -57,7 +57,13 @@ test.describe('Tower inspection usability', () => {
       if (size.width > 900) {
         const panel = await page.locator('.codex-stats').boundingBox();
         expect(panel!.x).toBeGreaterThan(bounds!.x + bounds!.width);
-        expect(panel!.height).toBeGreaterThan(size.height * .7);
+        const roster = await page.locator('.codex-collection').boundingBox();
+        const stage = await page.locator('.codex-stage').boundingBox();
+        expect(roster!.x).toBe(stage!.x);
+        expect(roster!.x + roster!.width).toBeCloseTo(panel!.x + panel!.width, 0);
+        expect(roster!.y).toBeGreaterThanOrEqual(stage!.y + stage!.height);
+        expect(roster!.y).toBeGreaterThan(panel!.y + panel!.height);
+        expect(await page.locator('.codex-stats').evaluate(element => getComputedStyle(element).alignSelf)).toBe('start');
       }
       const dialog = page.locator('.codex-dialog');
       expect(await dialog.evaluate(element => element.scrollWidth <= element.clientWidth)).toBe(true);

@@ -95,6 +95,12 @@ test('Storybook manager exposes documentation and review tools', async ({ page }
   await expect(page.getByRole('button', { name: /Appearance|Light/ }).first()).toBeVisible();
   await expect(page.getByRole('button', { name: /System motion|Motion/ }).first()).toBeVisible();
   await expect(page.locator('#storybook-preview-iframe')).toBeVisible();
-  await page.goto('/?path=/docs/field-kit-buttons--docs');
-  await expect(page.frameLocator('#storybook-preview-iframe').getByText('Native button attributes and refs pass through.', { exact: false }).first()).toBeVisible();
+  for (const theme of ['light', 'dark']) {
+    await page.goto(`/?path=/docs/field-kit-buttons--docs&globals=theme:${theme}`);
+    const docs = page.frameLocator('#storybook-preview-iframe');
+    await expect(docs.getByText('Native button attributes and refs pass through.', { exact: false }).first()).toBeVisible();
+    await expect(docs.locator('html')).toHaveAttribute('data-theme', theme);
+    const results = await new AxeBuilder({ page }).include(['#storybook-preview-iframe', '.workshop']).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze();
+    expect(results.violations).toEqual([]);
+  }
 });

@@ -70,7 +70,7 @@
   .home-screen { height: auto; min-height: 100dvh; overflow: visible; }
   .home-screen .home-brand-wordmark { font-size: 19px; }
   .home-screen .home-brand-wordmark small { font-size: 7px; }
-  .home-screen .home-stage { position: relative; height: max(350px, 57svh); }
+  .home-screen .home-stage { position: relative; height: max(400px, 57svh); }
   .home-screen[data-state='error'] .home-stage { min-height: 480px; }
   .home-screen .home-zoom { top: 90px; right: 16px; }
   .home-screen .home-camera { bottom: 16px; right: 16px; }

@@ -1,6 +1,6 @@
 /* Documentation layout only. Component appearance comes from the real toolkit. */
 body { margin: 0; background: var(--ui-bg); color: var(--ui-fg); font-family: var(--ui-font); }
-.workshop { min-width: 0; color: var(--ui-fg); font-family: var(--ui-font); font-size: 14px; line-height: 1.5; }
+.workshop { min-width: 0; background: var(--ui-bg); color: var(--ui-fg); font-family: var(--ui-font); font-size: 14px; line-height: 1.5; }
 .workshop *, .workshop *::before, .workshop *::after { box-sizing: border-box; }
 .workshop h1, .workshop h2, .workshop p { margin: 0; }
 .workshop h1 { font-size: clamp(26px, 4vw, 38px); line-height: 1.15; }

@@ -8,7 +8,7 @@ The Field kit is the reusable interface system for Tower's React menus and HUD. 
 | --- | --- |
 | `game/src/ui/toolkit/index.tsx` | Public component exports and native control composition |
 | `game/src/ui/toolkit/*.css` | Shared semantic tokens, control states, chrome and decorative layers |
-| `game/src/ui/` screen modules and screen CSS | Screen layout, content, commands, selection, dialogs and input routing |
+| `game/src/app/` screen modules and screen CSS | Screen layout, content, commands, selection, dialogs and input routing |
 | `game/stories/` | Examples using the actual toolkit, with illustrative local state |
 | `game/.storybook/` | Development workshop configuration and theme/motion/viewport tools |
 | `game/tests/ui/` | Component interaction, accessibility and responsive regression checks |
@@ -48,7 +48,7 @@ The appearance adapter stores `tower.ui.appearance.v1`, synchronizes tabs, follo
 
 ```tsx
 import { ArrowLeftIcon } from '@primer/octicons-react';
-import { Button, GameTopBar, Surface, ThemePicker } from './toolkit';
+import { Button, GameTopBar, Surface, ThemePicker } from '../../ui/toolkit';
 
 // The screen supplies a real action and owns the resulting navigation/focus.
 <GameTopBar
@@ -63,6 +63,8 @@ import { Button, GameTopBar, Surface, ThemePicker } from './toolkit';
 ## Screen composition contracts
 
 `GameTopBar` has a shared `--ui-topbar-height` of 72px plus the top safe area. Reserve it when laying out content under the header. `presentation="surface"` uses themed surfaces; `presentation="world"` preserves the scene behind fixed light world text. Secondary context and visual Escape hints collapse on small screens while actions and accessible labels remain available. Hub and Tower inspection share this chrome; each keeps its actual actions and input behavior.
+
+Hub's stacked phone composition reserves at least 400px for the campus so the world remains dominant as its action card grows. This is a Hub layout rule; do not impose it on shared surfaces or other screens.
 
 Tower inspection's capabilities panel fills the desktop preview row instead of resizing with the selected Tower's text. Its heading stays fixed and long content scrolls inside its body. Stacked phone and landscape views have bounded, consistent panel sizes. The selection roster spans the full screen composition and keeps predictable card heights across collections. These are inspection layout responsibilities, not universal Surface dimensions.
 
